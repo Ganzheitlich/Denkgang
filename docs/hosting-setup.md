@@ -1,5 +1,12 @@
 # Hosting & Datenbank — Stand & letzter manueller Schritt
 
+## Vor dem finalen Live-Gang nicht vergessen
+
+- **`ANTHROPIC_API_KEY` bewusst noch nicht gesetzt** — Entscheidung der Produktinhaberin
+  (16.09., "wir verzichten erstmal auf die API"). Die Begründungs-Auswertung läuft bis dahin im
+  Fallback-Modus ("Automatischer Vergleich gerade nicht verfügbar"), der Rest der App
+  funktioniert unverändert. Vor dem finalen Live-Gang ergänzen, siehe unten.
+
 Entscheidung laut Projektbrief: "Wähl die Option, die am einfachsten einzurichten und günstig
 zum Starten ist." Umgesetzt wurde die engste mögliche Integration: **Netlify DB**, Netlifys
 eigene, auf Neon basierende Postgres-Extension — keine separate Kontoerstellung bei einem
@@ -26,11 +33,11 @@ zweiten Anbieter nötig, da bereits ein Netlify-Konto verbunden ist.
 
 ## Was noch fehlt — ein manueller Klick
 
-**`ANTHROPIC_API_KEY` ist noch nicht gesetzt** (nur die Produktinhaberin hat diesen Key).
-Ohne ihn läuft die App normal, die Begründungs-Auswertung zeigt aber den Hinweis
-"Automatischer Vergleich gerade nicht verfügbar" statt einer echten Rückmeldung.
-Zum Ergänzen: **Netlify → Projekt "denkgang" → Site settings → Environment variables → Add a
-variable** → Key `ANTHROPIC_API_KEY`, Scope "all", **nicht** mit Präfix `NEXT_PUBLIC_`
+**`ANTHROPIC_API_KEY` ist bewusst noch nicht gesetzt** (Entscheidung der Produktinhaberin, s.
+o.). Ohne ihn läuft die App normal, die Begründungs-Auswertung zeigt aber den Hinweis
+"Automatischer Vergleich gerade nicht verfügbar" statt einer echten Rückmeldung. Zum Ergänzen,
+sobald gewünscht: **Netlify → Projekt "denkgang" → Site settings → Environment variables → Add
+a variable** → Key `ANTHROPIC_API_KEY`, Scope "all", **nicht** mit Präfix `NEXT_PUBLIC_`
 versehen (sonst würde er ins Client-Bundle eingebettet).
 
 **Das GitHub-Repository ist noch nicht mit dem Netlify-Projekt verknüpft.** Der Versuch, das
