@@ -1,14 +1,10 @@
 import Link from "next/link";
-import { auth } from "@/auth";
-import { redirect } from "next/navigation";
+import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
 import { setContentStatus } from "./actions";
 
 export default async function ReviewPage() {
-  const session = await auth();
-  if (session?.user.role !== "REVIEWER" && session?.user.role !== "ADMIN") {
-    redirect("/dashboard");
-  }
+  await requireReviewerSession();
 
   const [cases, anatomyItems, mediaAssets] = await Promise.all([
     prisma.case.findMany({ orderBy: [{ status: "asc" }, { title: "asc" }] }),

@@ -1,16 +1,16 @@
 import { notFound } from "next/navigation";
-import { auth } from "@/auth";
+import { requireSession } from "@/lib/auth-helpers";
 import { getCaseForFlow } from "@/lib/queries";
 import { prisma } from "@/lib/prisma";
 import { CaseFlow } from "@/components/CaseFlow";
 
 export default async function CasePage({ params }: PageProps<"/case/[slug]">) {
   const { slug } = await params;
-  const [session, caseData] = await Promise.all([auth(), getCaseForFlow(slug)]);
+  const [session, caseData] = await Promise.all([requireSession(), getCaseForFlow(slug)]);
   if (!caseData) notFound();
 
   const user = await prisma.user.findUnique({
-    where: { id: session!.user.id },
+    where: { id: session.user.id },
     select: { examOrderStreak: true },
   });
 

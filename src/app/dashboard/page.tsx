@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { auth } from "@/auth";
+import { requireSession } from "@/lib/auth-helpers";
 import { getDashboardData } from "@/lib/queries";
 import { LogoutButton } from "@/components/LogoutButton";
 
@@ -7,8 +7,8 @@ const DISCLAIMER =
   "Lernfall / Simulation zu Übungszwecken — kein Ersatz für tierärztliche oder tierphysiotherapeutische Diagnostik am realen Tier.";
 
 export default async function DashboardPage() {
-  const session = await auth();
-  const user = session!.user;
+  const session = await requireSession();
+  const user = session.user;
   const { skills, insight, errorTags, anatomyItems, mediaAssets, queue } = await getDashboardData(
     user.id,
   );

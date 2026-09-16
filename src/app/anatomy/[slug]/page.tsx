@@ -1,8 +1,10 @@
 import { notFound } from "next/navigation";
+import { requireSession } from "@/lib/auth-helpers";
 import { getAnatomyForFlow } from "@/lib/queries";
 import { AnatomyFlow } from "@/components/AnatomyFlow";
 
 export default async function AnatomyPage({ params }: PageProps<"/anatomy/[slug]">) {
+  await requireSession();
   const { slug } = await params;
   const a = await getAnatomyForFlow(slug);
   if (!a) notFound();
