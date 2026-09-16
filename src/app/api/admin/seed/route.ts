@@ -13,6 +13,8 @@ import { seedContent } from "@/lib/seedContent";
  * (?secret=...) entgegen, damit es sich auch per einfachem Link im Browser
  * auslösen laesst (GET), nicht nur per curl/POST.
  */
+export const dynamic = "force-dynamic";
+
 function isAuthorized(request: Request): boolean {
   const expected = process.env.SEED_SECRET;
   if (!expected) return false;
