@@ -2,6 +2,7 @@ import Link from "next/link";
 import { requireSession } from "@/lib/auth-helpers";
 import { getDashboardData } from "@/lib/queries";
 import { LogoutButton } from "@/components/LogoutButton";
+import { BrandMark } from "@/components/BrandMark";
 
 const DISCLAIMER =
   "Lernfall / Simulation zu Übungszwecken — kein Ersatz für tierärztliche oder tierphysiotherapeutische Diagnostik am realen Tier.";
@@ -17,7 +18,10 @@ export default async function DashboardPage() {
     <div className="app">
       <div className="top-nav">
         <div>
-          <div className="wordmark">Denkgang</div>
+          <div className="brand-row">
+            <BrandMark size={26} />
+            <div className="wordmark">Denkgang</div>
+          </div>
           <div className="tagline" style={{ marginBottom: 0 }}>
             Klinisches Denken trainieren, nicht nur Fakten pauken.
           </div>
@@ -63,7 +67,10 @@ export default async function DashboardPage() {
       <h3 style={{ marginBottom: 10 }}>Anatomie-Wissen</h3>
       <div className="card" style={{ padding: "4px 18px" }}>
         {anatomyItems.length === 0 && (
-          <p className="empty-note">Noch keine freigegebenen Anatomie-Items.</p>
+          <div className="empty-state">
+            <BrandMark size={32} className="empty-state-mark" />
+            <p style={{ margin: 0 }}>Noch keine freigegebenen Anatomie-Items.</p>
+          </div>
         )}
         {anatomyItems.map(({ item, state }) => (
           <Link key={item.id} href={`/anatomy/${item.slug}`} className="queue-item">
@@ -80,13 +87,16 @@ export default async function DashboardPage() {
       </p>
 
       <h3 style={{ marginBottom: 10 }}>
-        Mediathek <span className="tag" style={{ marginLeft: 6 }}>Konzept</span>
+        Mediathek <span className="tag" style={{ marginLeft: 6 }}>Bald verfügbar</span>
       </h3>
       <div className="card">
         {mediaAssets.length === 0 && (
-          <p className="empty-note" style={{ padding: 0 }}>
-            Noch keine freigegebenen Medien.
-          </p>
+          <div className="empty-state">
+            <BrandMark size={32} className="empty-state-mark" />
+            <p style={{ margin: 0 }}>
+              Echtes Bild- und Videomaterial folgt als eigenständig zubuchbare Option.
+            </p>
+          </div>
         )}
         {mediaAssets.map((m) => (
           <div className="media-item" key={m.id}>
@@ -114,9 +124,12 @@ export default async function DashboardPage() {
       <h3 style={{ marginBottom: 10 }}>Deine Fall-Warteschlange</h3>
       <div className="card" style={{ padding: "4px 18px" }}>
         {queue.length === 0 && (
-          <p className="empty-note">
-            Noch keine freigegebenen Fälle. Inhalte sind erst nach Review sichtbar.
-          </p>
+          <div className="empty-state">
+            <BrandMark size={32} className="empty-state-mark" />
+            <p style={{ margin: 0 }}>
+              Noch keine freigegebenen Fälle. Inhalte sind erst nach Review sichtbar.
+            </p>
+          </div>
         )}
         {queue.map(({ case: c, dueLabel }) => (
           <Link key={c.id} href={`/case/${c.slug}`} className="queue-item">

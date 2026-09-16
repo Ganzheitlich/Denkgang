@@ -2,6 +2,7 @@
 
 import { useActionState } from "react";
 import Link from "next/link";
+import { BrandMark } from "@/components/BrandMark";
 import { registerAction } from "./actions";
 
 export default function RegisterPage() {
@@ -9,7 +10,10 @@ export default function RegisterPage() {
 
   return (
     <div className="auth-shell">
-      <div className="wordmark">Denkgang</div>
+      <div className="brand-row" style={{ marginBottom: 4 }}>
+        <BrandMark size={32} />
+        <div className="wordmark">Denkgang</div>
+      </div>
       <div className="tagline">Klinisches Denken trainieren, nicht nur Fakten pauken.</div>
       <div className="card">
         <h3 style={{ marginBottom: 14 }}>Konto erstellen</h3>
