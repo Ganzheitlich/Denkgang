@@ -8,8 +8,17 @@
 import "dotenv/config";
 import { PrismaClient } from "../src/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
+import { getConnectionString } from "@netlify/database";
 
-const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL! });
+function resolveConnectionString(): string {
+  try {
+    return getConnectionString();
+  } catch {
+    return process.env.DATABASE_URL!;
+  }
+}
+
+const adapter = new PrismaPg({ connectionString: resolveConnectionString() });
 const prisma = new PrismaClient({ adapter });
 
 type HypothesisOption = {
