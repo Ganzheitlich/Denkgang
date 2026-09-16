@@ -4,7 +4,7 @@ import { auth } from "@/auth";
 const AUTH_PAGES = ["/login", "/register"];
 const REVIEWER_ONLY_PREFIX = "/review";
 
-export default auth((req) => {
+export const middleware = auth((req) => {
   const { pathname } = req.nextUrl;
   const isLoggedIn = !!req.auth;
   const isAuthPage = AUTH_PAGES.some((p) => pathname.startsWith(p));
