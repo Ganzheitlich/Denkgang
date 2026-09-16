@@ -40,29 +40,32 @@ sobald gewünscht: **Netlify → Projekt "denkgang" → Site settings → Enviro
 a variable** → Key `ANTHROPIC_API_KEY`, Scope "all", **nicht** mit Präfix `NEXT_PUBLIC_`
 versehen (sonst würde er ins Client-Bundle eingebettet).
 
-**Das GitHub-Repository ist noch nicht mit dem Netlify-Projekt verknüpft.** Der Versuch, das
-Deployment automatisiert über die verbundene Netlify-Integration anzustoßen, ist an der
-Netzwerk-Policy dieser Sandbox gescheitert (der dafür nötige Proxy-Host
-`netlify-mcp.netlify.app` ist für diese Sitzung nicht freigegeben — kein Problem, das sich von
-hier aus umgehen lässt). Der zuverlässigere und für die Zukunft ohnehin bessere Weg ist eine
-direkte Git-Anbindung (jeder Push löst automatisch einen Build aus, statt manueller Deploys):
+## Erledigt: GitHub-Repository verknüpft, App live
 
-1. [https://app.netlify.com/projects/denkgang](https://app.netlify.com/projects/denkgang) öffnen.
-2. **Site configuration → Build & deploy → Continuous deployment → Link repository**
-   (oder "Link site to Git").
-3. GitHub autorisieren, Repository `Ganzheitlich/Denkgang` auswählen.
-4. Als Branch `claude/projektbrief-prototyp-analyse-gos89f` wählen (oder vorher nach `main`
-   mergen, je nachdem wie weitergearbeitet werden soll).
-5. Build-Einstellungen werden aus `netlify.toml` übernommen — nichts weiter einzustellen.
-6. Deploy auslösen (passiert nach dem Verknüpfen automatisch).
+Das Repository ist mit dem Netlify-Projekt verknüpft (Continuous Deployment — jeder Push auf
+`claude/projektbrief-prototyp-analyse-gos89f` löst automatisch einen Build aus). Die App läuft
+unter `https://denkgang.netlify.app`, Datenbank-Migrationen werden automatisch angewendet, der
+Prototyp-Content ist über `/api/admin/seed` eingespielt (siehe unten).
 
-Sobald das verknüpft ist, provisioniert Netlify beim ersten Build automatisch die Datenbank,
-wendet die Migrationen an und die App ist unter `https://denkgang.netlify.app` live. Der
-Seed-Content (8 Fälle, 7 Anatomie-Items, 3 Medien, Status `DRAFT`) muss danach einmalig über
-`npx prisma db seed` gegen die Produktions-DB eingespielt werden — entweder lokal mit der
-Netlify-Connection-String (**Site settings → Environment variables → NETLIFY_DB_URL**, falls
-dort sichtbar) oder in einem zukünftigen Claude-Code-Lauf, der auf die verknüpfte Seite Zugriff
-hat.
+## Wichtige Falle: Umgebungsvariablen NICHT als "secret" markieren
+
+Sowohl `SEED_SECRET` als auch `NEXTAUTH_SECRET` wurden zunächst mit dem Secret-Flag
+(`envVarIsSecret: true`) gesetzt — dadurch waren sie zwar in der Netlify-UI vor Blicken
+geschützt, aber **im Functions-Laufzeitkontext nicht als `process.env`-Wert verfügbar**. Das
+äußerte sich als "SEED_SECRET nicht konfiguriert" bzw. bei NextAuth als "Es gab ein Problem mit
+der Serverkonfiguration" bei jedem Login-/Registrierungsversuch (NextAuth braucht den Secret
+nur beim tatsächlichen Erzeugen/Prüfen eines Sessions-JWT, nicht beim bloßen Seitenaufruf — das
+hat die Fehlersuche erschwert, weil die Seiten selbst normal luden). Fix: alle Variablen als
+normale (nicht "secret") Variable mit allen vier Scopes (`builds`, `functions`, `runtime`,
+`post_processing`) setzen. **Für neue Variablen auf diesem Projekt immer so vorgehen**, bis
+geklärt ist, ob das ein generelles Verhalten dieses Netlify-Plans ist oder ein einmaliger
+Fehler.
+
+## Admin-Seed-Endpunkt
+
+`GET /api/admin/seed?secret=<SEED_SECRET>` (Wert steht in den Netlify-Umgebungsvariablen)
+spielt den Prototyp-Content idempotent ein — kann bei Bedarf erneut aufgerufen werden (z. B.
+nach einer Schema-Änderung), ohne Duplikate zu erzeugen.
 
 ## Sicherheitshinweis zu `ANTHROPIC_API_KEY`
 
