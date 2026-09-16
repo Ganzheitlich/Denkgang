@@ -1,0 +1,231 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider     = "prisma-client"
+  output       = "../src/generated/prisma"
+  moduleFormat = "cjs"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ---------- Nutzer & Rollen ----------
+
+enum Role {
+  STUDENT
+  REVIEWER
+  ADMIN
+}
+
+model User {
+  id              String   @id @default(cuid())
+  email           String   @unique
+  passwordHash    String
+  name            String?
+  role            Role     @default(STUDENT)
+  examOrderStreak Int      @default(0)
+  createdAt       DateTime @default(now())
+
+  caseAttempts    CaseAttempt[]
+  anatomyAttempts AnatomyAttempt[]
+  caseSchedules   CaseSchedule[]
+  reviewedCases   Case[]           @relation("CaseReviewedBy")
+  createdCases    Case[]           @relation("CaseCreatedBy")
+}
+
+// ---------- Content-Status ----------
+
+enum ContentStatus {
+  DRAFT
+  REVIEW
+  APPROVED
+}
+
+// ---------- Fälle ----------
+
+model Case {
+  id                String        @id @default(cuid())
+  slug              String        @unique
+  topic             String
+  species           String
+  title             String
+  status            ContentStatus @default(DRAFT)
+  learningObjective String        @db.Text
+  anamnese          String        @db.Text
+  beobachtung       String        @db.Text
+  diagramLabel      String        @db.Text
+  palpation         String        @db.Text
+  hypothesisQ       String        @db.Text
+  expertNote        String        @db.Text
+  weakeningQ        String        @db.Text
+  retrievalQ        String        @db.Text
+  sourceStatus      String        @db.Text
+
+  createdById String?
+  createdBy   User?   @relation("CaseCreatedBy", fields: [createdById], references: [id])
+  reviewedById String?
+  reviewedBy   User?  @relation("CaseReviewedBy", fields: [reviewedById], references: [id])
+
+  createdAt DateTime @updatedAt @default(now())
+  updatedAt DateTime @updatedAt
+
+  hypothesisOptions CaseHypothesisOption[]
+  weakeningOptions  CaseWeakeningOption[]
+  retrievalOptions  CaseRetrievalOption[]
+  anatomyItems      AnatomyItem[]
+  mediaLinks        MediaCaseLink[]
+  attempts          CaseAttempt[]
+  schedules         CaseSchedule[]
+}
+
+model CaseHypothesisOption {
+  id                          String   @id @default(cuid())
+  caseId                      String
+  case                        Case     @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  sortOrder                   Int
+  label                       String   @db.Text
+  isCorrect                   Boolean
+  errorCategory               String?
+  arguesAgainst               String?  @db.Text
+  differentiationDistractors  String[]
+
+  @@index([caseId])
+}
+
+model CaseWeakeningOption {
+  id             String  @id @default(cuid())
+  caseId         String
+  case           Case    @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  sortOrder      Int
+  label          String  @db.Text
+  isCorrect      Boolean
+  errorCategory  String?
+
+  @@index([caseId])
+}
+
+model CaseRetrievalOption {
+  id             String  @id @default(cuid())
+  caseId         String
+  case           Case    @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  sortOrder      Int
+  label          String  @db.Text
+  isCorrect      Boolean
+  errorCategory  String?
+
+  @@index([caseId])
+}
+
+// ---------- Anatomie ----------
+
+model AnatomyItem {
+  id                String        @id @default(cuid())
+  slug              String        @unique
+  name              String
+  status            ContentStatus @default(DRAFT)
+  relatedCaseId     String?
+  relatedCase       Case?         @relation(fields: [relatedCaseId], references: [id])
+  origin            String        @db.Text
+  insertion         String        @db.Text
+  funktion          String        @db.Text
+  innervation       String        @db.Text
+  clinicalRelevance String        @db.Text
+  palpationHint     String        @db.Text
+  transferQ         String        @db.Text
+  sourceStatus      String        @db.Text
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  transferOptions AnatomyTransferOption[]
+  attempts        AnatomyAttempt[]
+}
+
+model AnatomyTransferOption {
+  id            String      @id @default(cuid())
+  anatomyId     String
+  anatomy       AnatomyItem @relation(fields: [anatomyId], references: [id], onDelete: Cascade)
+  sortOrder     Int
+  label         String      @db.Text
+  isCorrect     Boolean
+
+  @@index([anatomyId])
+}
+
+// ---------- Mediathek ----------
+
+model MediaAsset {
+  id         String        @id @default(cuid())
+  title      String
+  type       String
+  status     ContentStatus @default(DRAFT)
+  storageUrl String?       @db.Text
+  note       String        @db.Text
+  createdAt  DateTime      @default(now())
+
+  caseLinks MediaCaseLink[]
+}
+
+model MediaCaseLink {
+  mediaId String
+  media   MediaAsset @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+  caseId  String
+  case    Case       @relation(fields: [caseId], references: [id], onDelete: Cascade)
+
+  @@id([mediaId, caseId])
+}
+
+// ---------- Lernfortschritt ----------
+
+model CaseAttempt {
+  id                    String   @id @default(cuid())
+  userId                String
+  user                  User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  caseId                String
+  case                  Case     @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  attemptNumber         Int
+  examOrder             Json
+  examPrematureImaging  Boolean  @default(false)
+  hypothesisSelected    Json
+  confidence            Int
+  differentiationChoice Json?
+  weakeningChoiceId     String?
+  retrievalChoiceId     String?
+  explanation           String?  @db.Text
+  explanationFeedback   String?  @db.Text
+  difficultyRating      String?
+  hypothesisCorrect     Boolean
+  weakeningCorrect      Boolean
+  retrievalCorrect      Boolean
+  errorCategories       String[]
+  createdAt             DateTime @default(now())
+
+  @@index([userId, caseId])
+}
+
+model CaseSchedule {
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  caseId    String
+  case      Case     @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  dueAt     DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@id([userId, caseId])
+}
+
+model AnatomyAttempt {
+  id          String      @id @default(cuid())
+  userId      String
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  anatomyId   String
+  anatomy     AnatomyItem @relation(fields: [anatomyId], references: [id], onDelete: Cascade)
+  isCorrect   Boolean
+  attemptedAt DateTime    @default(now())
+
+  @@index([userId, anatomyId])
+}
