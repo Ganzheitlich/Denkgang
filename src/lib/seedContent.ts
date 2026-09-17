@@ -598,6 +598,8 @@ const CASES: CaseSeed[] = [
     ],
     sourceStatus:
       "Fachliche Grundlage: etabliertes Wissen zu degenerativen Wirbelsäulenveränderungen (Spondylose) bei älteren Hunden. Konkrete Quellenverifizierung steht noch aus — Status: DRAFT, Quelle erforderlich.",
+    einstiegsbildUrl: "/cases/baer-01.png",
+    befundbildUrl: "/cases/baer-02.png",
   },
   {
     id: "filou",
@@ -820,6 +822,7 @@ const ANATOMY: AnatomySeed[] = [
     ],
     sourceStatus:
       "Fachliche Grundlage: etabliertes Wissen zu altersbedingten degenerativen Bandscheiben-/Wirbelsäulenveränderungen beim Hund. Konkrete Quellenverifizierung steht noch aus — Status: DRAFT, Quelle erforderlich.",
+    bildUrl: "/cases/discus-01.png",
   },
   {
     id: "rueckenmark",
