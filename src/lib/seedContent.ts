@@ -365,6 +365,8 @@ const CASES: CaseSeed[] = [
     ],
     sourceStatus:
       "Quellenkandidat: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion, inkl. Kollodiaphysenwinkel und PennHIP-Verfahren als Diagnostikhinweis auf Hüftdysplasie). Achtung: Der im Fall verwendete Ortolani-Test ist ein etabliertes Standardverfahren, aber noch nicht direkt an dieser Quelle verifiziert. Status weiterhin DRAFT.",
+    einstiegsbildUrl: "/cases/luna-01.png",
+    befundbildUrl: "/cases/luna-02.png",
   },
   {
     id: "findus",
@@ -789,6 +791,7 @@ const ANATOMY: AnatomySeed[] = [
     ],
     sourceStatus:
       "Quellenkandidat: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion — Anatomie Art. coxae). Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+    bildUrl: "/cases/huefte-01.png",
   },
   {
     id: "discus",
