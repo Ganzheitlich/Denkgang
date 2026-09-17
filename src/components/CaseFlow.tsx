@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   buildDifferentiationPool,
   checkDifferentiationChoice,
@@ -23,8 +24,10 @@ type ClientCase = {
   title: string;
   learningObjective: string;
   anamnese: string;
+  einstiegsbildUrl: string | null;
   beobachtung: string;
   diagramLabel: string;
+  befundbildUrl: string | null;
   palpation: string;
   hypothesisQ: string;
   hypothesisOptions: ClientOption[];
@@ -226,6 +229,18 @@ export function CaseFlow({
       </div>
       <div className="disclaimer">{DISCLAIMER}</div>
 
+      {c.einstiegsbildUrl && (
+        <div className="case-image-wrap">
+          <Image
+            src={c.einstiegsbildUrl}
+            alt=""
+            fill
+            sizes="(max-width: 640px) 100vw, 640px"
+            className="case-image"
+          />
+        </div>
+      )}
+
       <div className="step-block">
         <div className="step-label">Anamnese</div>
         <div className="card">{c.anamnese}</div>
@@ -237,14 +252,31 @@ export function CaseFlow({
             <div className="step-label">Beobachtung</div>
             <div className="card">
               {c.beobachtung}
-              <div className="diagram">
-                <svg width="46" height="46" viewBox="0 0 46 46">
-                  <circle cx="23" cy="23" r="21" fill="none" stroke="var(--line)" strokeWidth={2} />
-                  <circle cx="15" cy="23" r="5" fill="var(--rust)" />
-                  <circle cx="31" cy="23" r="5" fill="var(--petrol)" opacity={0.35} />
-                </svg>
-                <div className="cap">{c.diagramLabel}</div>
-              </div>
+              {c.befundbildUrl ? (
+                <>
+                  <div className="case-image-wrap" style={{ marginTop: 10 }}>
+                    <Image
+                      src={c.befundbildUrl}
+                      alt=""
+                      fill
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      className="case-image"
+                    />
+                  </div>
+                  <div className="diagram" style={{ background: "none", border: "none", padding: "8px 0 0" }}>
+                    <div className="cap">{c.diagramLabel}</div>
+                  </div>
+                </>
+              ) : (
+                <div className="diagram">
+                  <svg width="46" height="46" viewBox="0 0 46 46">
+                    <circle cx="23" cy="23" r="21" fill="none" stroke="var(--line)" strokeWidth={2} />
+                    <circle cx="15" cy="23" r="5" fill="var(--rust)" />
+                    <circle cx="31" cy="23" r="5" fill="var(--petrol)" opacity={0.35} />
+                  </svg>
+                  <div className="cap">{c.diagramLabel}</div>
+                </div>
+              )}
             </div>
           </div>
         ) : (

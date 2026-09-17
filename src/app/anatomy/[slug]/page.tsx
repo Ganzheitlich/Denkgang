@@ -15,6 +15,7 @@ export default async function AnatomyPage({ params }: PageProps<"/anatomy/[slug]
         anatomyData={{
           id: a.id,
           name: a.name,
+          bildUrl: a.bildUrl,
           origin: a.origin,
           insertion: a.insertion,
           funktion: a.funktion,

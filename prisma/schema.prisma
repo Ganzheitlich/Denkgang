@@ -64,6 +64,8 @@ model Case {
   weakeningQ        String        @db.Text
   retrievalQ        String        @db.Text
   sourceStatus      String        @db.Text
+  einstiegsbildUrl  String?       @db.Text
+  befundbildUrl     String?       @db.Text
 
   createdById String?
   createdBy   User?   @relation("CaseCreatedBy", fields: [createdById], references: [id])
@@ -137,6 +139,7 @@ model AnatomyItem {
   palpationHint     String        @db.Text
   transferQ         String        @db.Text
   sourceStatus      String        @db.Text
+  bildUrl           String?       @db.Text
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

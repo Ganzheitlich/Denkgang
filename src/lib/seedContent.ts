@@ -39,6 +39,8 @@ type CaseSeed = {
   retrievalQ: string;
   retrievalOptions: SimpleOption[];
   sourceStatus: string;
+  einstiegsbildUrl?: string;
+  befundbildUrl?: string;
 };
 
 type AnatomySeed = {
@@ -54,6 +56,7 @@ type AnatomySeed = {
   transferQ: string;
   transferOptions: SimpleOption[];
   sourceStatus: string;
+  bildUrl?: string;
 };
 
 type MediaSeed = {
@@ -864,7 +867,10 @@ export async function seedContent(prisma: PrismaClient) {
   for (const c of CASES) {
     const created = await prisma.case.upsert({
       where: { slug: c.id },
-      update: {},
+      update: {
+        einstiegsbildUrl: c.einstiegsbildUrl ?? null,
+        befundbildUrl: c.befundbildUrl ?? null,
+      },
       create: {
         slug: c.id,
         topic: c.topic,
@@ -880,6 +886,8 @@ export async function seedContent(prisma: PrismaClient) {
         weakeningQ: c.weakeningQ,
         retrievalQ: c.retrievalQ,
         sourceStatus: c.sourceStatus,
+        einstiegsbildUrl: c.einstiegsbildUrl,
+        befundbildUrl: c.befundbildUrl,
         status: "DRAFT",
         hypothesisOptions: {
           create: c.hypothesisOptions.map((o, i) => ({
@@ -915,7 +923,9 @@ export async function seedContent(prisma: PrismaClient) {
   for (const a of ANATOMY) {
     await prisma.anatomyItem.upsert({
       where: { slug: a.id },
-      update: {},
+      update: {
+        bildUrl: a.bildUrl ?? null,
+      },
       create: {
         slug: a.id,
         name: a.name,
@@ -929,6 +939,7 @@ export async function seedContent(prisma: PrismaClient) {
         palpationHint: a.palpationHint,
         transferQ: a.transferQ,
         sourceStatus: a.sourceStatus,
+        bildUrl: a.bildUrl,
         transferOptions: {
           create: a.transferOptions.map((o, i) => ({
             sortOrder: i,

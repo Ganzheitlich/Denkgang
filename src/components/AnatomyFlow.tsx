@@ -2,11 +2,13 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { checkTransferChoice, submitAnatomyAttempt } from "@/app/anatomy/[slug]/actions";
 
 type ClientAnatomy = {
   id: string;
   name: string;
+  bildUrl: string | null;
   origin: string;
   insertion: string;
   funktion: string;
@@ -47,6 +49,18 @@ export function AnatomyFlow({ anatomyData: a }: { anatomyData: ClientAnatomy }) 
         <span className="tag">Anatomie</span>
       </div>
       <div className="case-title">{a.name}</div>
+
+      {a.bildUrl && (
+        <div className="case-image-wrap">
+          <Image
+            src={a.bildUrl}
+            alt={a.name}
+            fill
+            sizes="(max-width: 640px) 100vw, 640px"
+            className="case-image"
+          />
+        </div>
+      )}
 
       <div className="step-block">
         <div className="step-label">Ursprung → Ansatz → Funktion</div>
