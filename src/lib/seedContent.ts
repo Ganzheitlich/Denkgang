@@ -216,6 +216,7 @@ const CASES: CaseSeed[] = [
     ],
     sourceStatus:
       "Quellenkandidat: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 10 (Klinischer Bezug zu ideomotorischen Bewegungen) — beschreibt, wie Schmerz sich zunächst in vermiedenen Alltagsbewegungen zeigen kann statt in offensichtlicher Lahmheit. Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+    einstiegsbildUrl: "/cases/nala-01.png",
   },
   {
     id: "bruno",
@@ -766,6 +767,7 @@ const ANATOMY: AnatomySeed[] = [
     ],
     sourceStatus:
       "Quellenkandidaten: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16 (Die Wirbelsäule); der Verhaltensbezug ergänzend über Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 10. Status weiterhin DRAFT.",
+    bildUrl: "/cases/facettengelenke-01.png",
   },
   {
     id: "huefte",
