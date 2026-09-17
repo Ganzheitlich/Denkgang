@@ -292,6 +292,8 @@ const CASES: CaseSeed[] = [
     ],
     sourceStatus:
       "Quellenkandidat: Mai, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme 2022, Kap. 5.2.1 (Postoperative Rehabilitation) — beschreibt einen gestaffelten Belastungsaufbau. Achtung: Der hier genannte Zeitraum von 12–16 Wochen ist noch NICHT anhand einer konkreten Seite verifiziert und muss gegengeprüft werden. Status weiterhin DRAFT.",
+    einstiegsbildUrl: "/cases/bruno-01.png",
+    befundbildUrl: "/cases/bruno-02.png",
   },
   {
     id: "luna",
@@ -736,6 +738,7 @@ const ANATOMY: AnatomySeed[] = [
     ],
     sourceStatus:
       "Quellenkandidat: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 9 (Muskeln in Bewegung) behandelt die Muskulatur systematisch; genaue Seite für M. quadriceps femoris noch zu identifizieren. Status weiterhin DRAFT.",
+    bildUrl: "/cases/quadriceps-01.png",
   },
   {
     id: "facettengelenke",
