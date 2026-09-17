@@ -1,5 +1,17 @@
 # Hosting & Datenbank — Stand & letzter manueller Schritt
 
+## Aktuell blockiert: Netlify-Build-Guthaben aufgebraucht (bis 09.10.)
+
+Das kostenlose Netlify-Team-Kontingent (Build-Minuten) ist seit dem 17.09. aufgebraucht — neue
+Pushes auf `claude/projektbrief-prototyp-analyse-gos89f` bauen nicht mehr, die Seite bleibt aber
+auf dem letzten erfolgreichen Deploy live und unverändert erreichbar. Laut Nutzerin setzt sich
+das Kontingent am **9.10.** zurück. Bis dahin: weiter normal committen/pushen (kostenlos, GitHub
+ist nicht betroffen), alles staut sich an und geht automatisch live, sobald wieder Build-Minuten
+verfügbar sind oder ein bezahlter Plan aktiv ist. Vor dem nächsten Deploy-Check unbedingt zuerst
+prüfen, ob der aktuelle Commit tatsächlich gebaut wurde (`get-project` → `currentDeploy` →
+`commit_ref` vergleichen), nicht einfach `state: ready` als Bestätigung nehmen — das zeigt nur
+den letzten *erfolgreichen* Deploy, der u. U. weit hinter dem Repo-Stand liegt.
+
 ## Vor dem finalen Live-Gang nicht vergessen
 
 - **`ANTHROPIC_API_KEY` bewusst noch nicht gesetzt** — Entscheidung der Produktinhaberin
