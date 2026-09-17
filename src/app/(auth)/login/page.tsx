@@ -2,7 +2,7 @@
 
 import { useActionState } from "react";
 import Link from "next/link";
-import { BrandMark } from "@/components/BrandMark";
+import Image from "next/image";
 import { loginAction } from "./actions";
 
 export default function LoginPage() {
@@ -10,11 +10,16 @@ export default function LoginPage() {
 
   return (
     <div className="auth-shell">
-      <div className="brand-row" style={{ marginBottom: 4 }}>
-        <BrandMark size={32} />
-        <div className="wordmark">Denkgang</div>
+      <div className="auth-logo">
+        <Image
+          src="/denkgang-logo-full.png"
+          alt="Denkgang — Klinisches Denken trainieren für Tiertherapeuten"
+          width={1033}
+          height={1020}
+          priority
+          className="logo-img"
+        />
       </div>
-      <div className="tagline">Klinisches Denken trainieren, nicht nur Fakten pauken.</div>
       <div className="card">
         <h3 style={{ marginBottom: 14 }}>Anmelden</h3>
         <form action={formAction}>

@@ -1,8 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import { requireSession } from "@/lib/auth-helpers";
 import { getDashboardData } from "@/lib/queries";
 import { LogoutButton } from "@/components/LogoutButton";
-import { BrandMark } from "@/components/BrandMark";
 
 const DISCLAIMER =
   "Lernfall / Simulation zu Übungszwecken — kein Ersatz für tierärztliche oder tierphysiotherapeutische Diagnostik am realen Tier.";
@@ -19,7 +19,14 @@ export default async function DashboardPage() {
       <div className="top-nav">
         <div>
           <div className="brand-row">
-            <BrandMark size={26} />
+            <Image
+              src="/denkgang-mark.png"
+              alt="Denkgang"
+              width={873}
+              height={873}
+              className="logo-img"
+              style={{ width: 30, height: 30 }}
+            />
             <div className="wordmark">Denkgang</div>
           </div>
           <div className="tagline" style={{ marginBottom: 0 }}>
@@ -68,7 +75,14 @@ export default async function DashboardPage() {
       <div className="card" style={{ padding: "4px 18px" }}>
         {anatomyItems.length === 0 && (
           <div className="empty-state">
-            <BrandMark size={32} className="empty-state-mark" />
+            <Image
+              src="/denkgang-mark.png"
+              alt=""
+              width={873}
+              height={873}
+              className="logo-img empty-state-mark"
+              style={{ width: 36, height: 36 }}
+            />
             <p style={{ margin: 0 }}>Noch keine freigegebenen Anatomie-Items.</p>
           </div>
         )}
@@ -92,7 +106,14 @@ export default async function DashboardPage() {
       <div className="card">
         {mediaAssets.length === 0 && (
           <div className="empty-state">
-            <BrandMark size={32} className="empty-state-mark" />
+            <Image
+              src="/denkgang-mark.png"
+              alt=""
+              width={873}
+              height={873}
+              className="logo-img empty-state-mark"
+              style={{ width: 36, height: 36 }}
+            />
             <p style={{ margin: 0 }}>
               Echtes Bild- und Videomaterial folgt als eigenständig zubuchbare Option.
             </p>
@@ -125,7 +146,14 @@ export default async function DashboardPage() {
       <div className="card" style={{ padding: "4px 18px" }}>
         {queue.length === 0 && (
           <div className="empty-state">
-            <BrandMark size={32} className="empty-state-mark" />
+            <Image
+              src="/denkgang-mark.png"
+              alt=""
+              width={873}
+              height={873}
+              className="logo-img empty-state-mark"
+              style={{ width: 36, height: 36 }}
+            />
             <p style={{ margin: 0 }}>
               Noch keine freigegebenen Fälle. Inhalte sind erst nach Review sichtbar.
             </p>

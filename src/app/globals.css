@@ -560,6 +560,27 @@ textarea {
   padding: 0 20px;
 }
 
+.logo-img {
+  mix-blend-mode: multiply;
+  display: block;
+}
+
+.auth-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.auth-logo .logo-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.auth-logo-compact .logo-img {
+  max-width: 200px;
+}
+
 .auth-switch {
   margin-top: 16px;
   font-size: 13.5px;
