@@ -140,6 +140,7 @@ const CASES: CaseSeed[] = [
     ],
     sourceStatus:
       "Quellenkandidaten: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12 (Schulterregion) und Kap. 13 (Ellenbogenregion); ergänzend Welter-Böller, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme 2025, Kap. 6 (Überlastungsschäden am Tuberculum supraglenoidale). Status weiterhin DRAFT — genaue Seitenangaben und fachliche Freigabe stehen noch aus.",
+    einstiegsbildUrl: "/cases/rocky-01.png",
   },
   {
     id: "nala",
@@ -692,6 +693,7 @@ const ANATOMY: AnatomySeed[] = [
     ],
     sourceStatus:
       "Quellenkandidat: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12 (Schulterregion). Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+    bildUrl: "/cases/biceps-01.png",
   },
   {
     id: "iliopsoas",
