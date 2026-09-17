@@ -521,6 +521,7 @@ const CASES: CaseSeed[] = [
     ],
     sourceStatus:
       "Quellenkandidaten: Könneker, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Thieme 2010, Kap. 7 (Palpation des M. iliopsoas); ergänzend Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion — Iliopsoas als reflektorisch häufig verspannter Muskel bei Hüftproblemen genannt). Status weiterhin DRAFT — Seitenangaben und fachliche Freigabe stehen noch aus.",
+    einstiegsbildUrl: "/cases/emma-01.png",
   },
   {
     id: "baer",
@@ -720,6 +721,7 @@ const ANATOMY: AnatomySeed[] = [
     ],
     sourceStatus:
       "Quellenkandidat: Könneker, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Thieme 2010, Kap. 7. Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+    bildUrl: "/cases/iliopsoas-01.png",
   },
   {
     id: "quadriceps",
