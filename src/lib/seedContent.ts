@@ -444,6 +444,8 @@ const CASES: CaseSeed[] = [
     ],
     sourceStatus:
       "Quellenkandidat: Zentek, Ernährung des Hundes (ISBN 978-3-132-46109-3), Thieme 2026, Kap. 2.4 (Körperzusammensetzung/Adipositas) und Kap. 7 (Fütterungsbedingte Erkrankungen, betrifft laut Quelle u. a. den Bewegungsapparat). Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+    einstiegsbildUrl: "/cases/findus-01.png",
+    befundbildUrl: "/cases/findus-02.png",
   },
   {
     id: "emma",
