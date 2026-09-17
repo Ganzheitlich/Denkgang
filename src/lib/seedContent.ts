@@ -677,6 +677,7 @@ const CASES: CaseSeed[] = [
     ],
     sourceStatus:
       "Fachliche Grundlage: etabliertes Wissen zu bandscheibenbedingten Erkrankungen (IVDD) bei chondrodystrophen Rassen wie dem Dackel, inkl. der Notwendigkeit sofortiger tierärztlicher Abklärung bei akuten neurologischen Ausfällen. Konkrete Quellenverifizierung steht noch aus — Status: DRAFT, Quelle erforderlich.",
+    einstiegsbildUrl: "/cases/filou-01.png",
   },
 ];
 
@@ -851,6 +852,7 @@ const ANATOMY: AnatomySeed[] = [
     ],
     sourceStatus:
       "Fachliche Grundlage: etabliertes neurologisches Grundlagenwissen zur Propriozeptionsprüfung als frühem Indikator für Rückenmarksbeeinträchtigungen beim Hund. Konkrete Quellenverifizierung steht noch aus — Status: DRAFT, Quelle erforderlich.",
+    bildUrl: "/cases/rueckenmark-01.png",
   },
 ];
 
