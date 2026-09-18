@@ -5,9 +5,9 @@ import { seedContent } from "@/lib/seedContent";
 
 /**
  * Geschuetzter Wartungs-Endpunkt: spielt den Prototyp-Content (DRAFT) idempotent
- * ein. Existiert, weil die Produktions-Connection-String nur zur Laufzeit der
- * Netlify Function bekannt ist, nicht in der Entwicklungsumgebung — daher kann
- * das CLI-Seed-Skript nicht direkt gegen die Produktions-DB laufen.
+ * ein. Existiert, weil die Produktions-Datenbank von der Entwicklungsumgebung
+ * (Sandbox) aus nicht erreichbar ist — daher kann das CLI-Seed-Skript nicht
+ * direkt gegen die Produktions-DB laufen.
  *
  * Nimmt das Secret entweder als Header (x-seed-secret) oder als Query-Parameter
  * (?secret=...) entgegen, damit es sich auch per einfachem Link im Browser

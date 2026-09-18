@@ -1,83 +1,97 @@
-# Hosting & Datenbank — Stand & letzter manueller Schritt
+# Hosting & Datenbank — Umzug von Netlify zu Vercel + Neon
 
-## Aktuell blockiert: Netlify-Build-Guthaben aufgebraucht (bis 09.10.)
+## Warum umziehen
 
-Das kostenlose Netlify-Team-Kontingent (Build-Minuten) ist seit dem 17.09. aufgebraucht — neue
-Pushes auf `claude/projektbrief-prototyp-analyse-gos89f` bauen nicht mehr, die Seite bleibt aber
-auf dem letzten erfolgreichen Deploy live und unverändert erreichbar. Laut Nutzerin setzt sich
-das Kontingent am **9.10.** zurück. Bis dahin: weiter normal committen/pushen (kostenlos, GitHub
-ist nicht betroffen), alles staut sich an und geht automatisch live, sobald wieder Build-Minuten
-verfügbar sind oder ein bezahlter Plan aktiv ist. Vor dem nächsten Deploy-Check unbedingt zuerst
-prüfen, ob der aktuelle Commit tatsächlich gebaut wurde (`get-project` → `currentDeploy` →
-`commit_ref` vergleichen), nicht einfach `state: ready` als Bestätigung nehmen — das zeigt nur
-den letzten *erfolgreichen* Deploy, der u. U. weit hinter dem Repo-Stand liegt.
+Netlifys kostenloses Team-Kontingent (Build-Minuten) ist aufgebraucht (siehe unten, historischer
+Abschnitt) und lässt sich ohne Kreditkarte nicht aufladen. Ziel ist ein Hosting-Setup, das mit
+einem kostenlosen Konto ganz ohne Kreditkarte funktioniert.
+
+**Empfehlung: Vercel (Hosting) + Neon (Datenbank direkt).**
+
+- **Vercel** ist von den Next.js-Machern selbst, der kostenlose "Hobby"-Plan braucht keine
+  Kreditkarte zur Anmeldung, und die Next.js-Unterstützung (Server Actions, Route Handler) ist
+  dort nativer als Netlifys Next.js-Adapter.
+- **Neon** ist die Postgres-Datenbank, die hinter "Netlify DB" ohnehin schon lief — wir wechseln
+  also nur direkt zur Quelle. Ebenfalls kostenlos ohne Kreditkarte.
+
+## Code-seitig bereits vorbereitet (erledigt)
+
+- `src/lib/prisma.ts` und `prisma/seed.ts` nutzen jetzt eine normale `DATABASE_URL` statt
+  Netlifys `getConnectionString()` — funktioniert mit jeder Postgres-Verbindung (Neon, Supabase,
+  lokal, etc.), nicht mehr an Netlify gebunden.
+- `@netlify/database` als Abhängigkeit entfernt (`package.json`, `package-lock.json`).
+- `netlify.toml` und `netlify/database/migrations/` (die für Netlifys Auto-Migrations-Mechanismus
+  gespiegelten Migrationsdateien) entfernt — nicht mehr nötig.
+- `package.json`-Build-Skript umgestellt auf
+  `"prisma migrate deploy && prisma generate && next build"` — das wendet Datenbank-Migrationen
+  jetzt direkt beim Build an (Vercel hat keinen Netlify-äquivalenten separaten
+  Migrations-Mechanismus, aber `prisma migrate deploy` im Build-Schritt übernimmt das genauso
+  zuverlässig, solange `DATABASE_URL` zur Build-Zeit gesetzt ist).
+- `src/auth.ts` (`trustHost: true`) funktioniert unverändert auf Vercel.
+
+## Was Vanessa manuell tun muss (kann ich nicht für sie erledigen)
+
+Kontoerstellung und die erste Verknüpfung müssen über die jeweilige Web-Oberfläche laufen, dafür
+gibt es keine Automatisierung von hier aus.
+
+### 1. Neon-Datenbank anlegen
+
+1. Auf [neon.tech](https://neon.tech) mit GitHub- oder Google-Konto anmelden (kein
+   Kreditkarte nötig für den Free-Tier).
+2. Neues Projekt anlegen, z. B. Name "denkgang".
+3. Die angezeigte **Connection String** kopieren (Format
+   `postgresql://<user>:<passwort>@<host>/<db>?sslmode=require`).
+
+### 2. Vercel-Projekt anlegen
+
+1. Auf [vercel.com](https://vercel.com) mit dem GitHub-Konto anmelden (kein Kreditkarte nötig
+   für den Hobby-Plan).
+2. "Add New… → Project" → das GitHub-Repository `Ganzheitlich/Denkgang` auswählen und
+   importieren.
+3. Als Branch für die Produktion `claude/projektbrief-prototyp-analyse-gos89f` einstellen
+   (Vercel nimmt sonst automatisch den Default-Branch — in den Projekteinstellungen unter
+   "Git" bei Bedarf anpassen).
+4. Framework wird automatisch als "Next.js" erkannt, keine weiteren Build-Einstellungen nötig
+   (das Build-Skript steckt bereits in `package.json`).
+
+### 3. Umgebungsvariablen in Vercel setzen
+
+Unter Project Settings → Environment Variables, jeweils für "Production" (und gerne auch
+"Preview"):
+
+| Key | Wert |
+|---|---|
+| `DATABASE_URL` | Die Neon-Connection-String aus Schritt 1 |
+| `NEXTAUTH_SECRET` | Neu generieren, z. B. mit `openssl rand -base64 32` |
+| `NEXTAUTH_URL` | Die Vercel-URL, z. B. `https://denkgang.vercel.app` (nach dem ersten Deploy bekannt) |
+| `ADMIN_EMAILS` | `gruenebergvanessa@gmail.com` |
+| `SEED_SECRET` | Ein selbst gewähltes langes Zufalls-Secret (schützt `/api/admin/seed`) |
+| `ANTHROPIC_API_KEY` | **Bewusst weiterhin nicht setzen** — siehe Abschnitt unten |
+
+Anders als bei Netlify gibt es bei Vercel keine "secret vs. normal"-Falle (siehe historischer
+Abschnitt unten) — alle Variablen sind dort einheitlich zur Laufzeit verfügbar.
+
+### 4. Nach dem ersten Deploy
+
+1. Prüfen, dass der Build durchläuft (Vercel zeigt Build-Logs live an).
+2. `NEXTAUTH_URL` ggf. auf die tatsächliche Vercel-URL nachziehen, falls sie beim ersten Setup
+   noch nicht final feststand, und neu deployen.
+3. Content einspielen: `https://<vercel-url>/api/admin/seed?secret=<SEED_SECRET>` im Browser
+   aufrufen (idempotent, siehe unten).
+4. Wie gewohnt unter `/review` die gewünschten Fälle freigeben.
 
 ## Vor dem finalen Live-Gang nicht vergessen
 
 - **`ANTHROPIC_API_KEY` bewusst noch nicht gesetzt** — Entscheidung der Produktinhaberin
   (16.09., "wir verzichten erstmal auf die API"). Die Begründungs-Auswertung läuft bis dahin im
   Fallback-Modus ("Automatischer Vergleich gerade nicht verfügbar"), der Rest der App
-  funktioniert unverändert. Vor dem finalen Live-Gang ergänzen, siehe unten.
-
-Entscheidung laut Projektbrief: "Wähl die Option, die am einfachsten einzurichten und günstig
-zum Starten ist." Umgesetzt wurde die engste mögliche Integration: **Netlify DB**, Netlifys
-eigene, auf Neon basierende Postgres-Extension — keine separate Kontoerstellung bei einem
-zweiten Anbieter nötig, da bereits ein Netlify-Konto verbunden ist.
-
-## Was bereits erledigt ist
-
-- Das bestehende Netlify-Projekt **denkgang** (`https://denkgang.netlify.app`, bisher nur ein
-  manuell hochgeladener Prototyp-Screenshot) ist das Ziel für den echten App-Deploy.
-- Die **Neon-Extension ("Netlify DB")** ist für dieses Projekt installiert und initialisiert
-  (`@netlify/database` ist als Abhängigkeit im Projekt enthalten). Sie provisioniert die
-  Postgres-Datenbank automatisch beim nächsten Build — kein manuelles Anlegen, kein
-  Verbindungsstring von Hand kopieren.
-- `src/lib/prisma.ts` und `prisma/seed.ts` lesen die Verbindung über `getConnectionString()`
-  aus `@netlify/database` (mit Fallback auf die lokale `DATABASE_URL` für die Entwicklung).
-- Die Prisma-Migrationen sind zusätzlich unter `netlify/database/migrations/` gespiegelt —
-  Netlify wendet sie automatisch vor jedem Deploy auf die (automatisch erstellte) Datenbank an.
-- `netlify.toml` legt den Build-Befehl (`npx prisma generate && next build`) und das
-  offizielle Next.js-Plugin fest.
-- Umgebungsvariablen sind auf dem Netlify-Projekt bereits gesetzt: `NEXTAUTH_SECRET` (zufällig
-  generiert), `NEXTAUTH_URL` (`https://denkgang.netlify.app`), `ADMIN_EMAILS`
-  (`gruenebergvanessa@gmail.com` — dieses Konto bekommt bei Registrierung automatisch die
-  Rolle `ADMIN`).
-
-## Was noch fehlt — ein manueller Klick
-
-**`ANTHROPIC_API_KEY` ist bewusst noch nicht gesetzt** (Entscheidung der Produktinhaberin, s.
-o.). Ohne ihn läuft die App normal, die Begründungs-Auswertung zeigt aber den Hinweis
-"Automatischer Vergleich gerade nicht verfügbar" statt einer echten Rückmeldung. Zum Ergänzen,
-sobald gewünscht: **Netlify → Projekt "denkgang" → Site settings → Environment variables → Add
-a variable** → Key `ANTHROPIC_API_KEY`, Scope "all", **nicht** mit Präfix `NEXT_PUBLIC_`
-versehen (sonst würde er ins Client-Bundle eingebettet).
-
-## Erledigt: GitHub-Repository verknüpft, App live
-
-Das Repository ist mit dem Netlify-Projekt verknüpft (Continuous Deployment — jeder Push auf
-`claude/projektbrief-prototyp-analyse-gos89f` löst automatisch einen Build aus). Die App läuft
-unter `https://denkgang.netlify.app`, Datenbank-Migrationen werden automatisch angewendet, der
-Prototyp-Content ist über `/api/admin/seed` eingespielt (siehe unten).
-
-## Wichtige Falle: Umgebungsvariablen NICHT als "secret" markieren
-
-Sowohl `SEED_SECRET` als auch `NEXTAUTH_SECRET` wurden zunächst mit dem Secret-Flag
-(`envVarIsSecret: true`) gesetzt — dadurch waren sie zwar in der Netlify-UI vor Blicken
-geschützt, aber **im Functions-Laufzeitkontext nicht als `process.env`-Wert verfügbar**. Das
-äußerte sich als "SEED_SECRET nicht konfiguriert" bzw. bei NextAuth als "Es gab ein Problem mit
-der Serverkonfiguration" bei jedem Login-/Registrierungsversuch (NextAuth braucht den Secret
-nur beim tatsächlichen Erzeugen/Prüfen eines Sessions-JWT, nicht beim bloßen Seitenaufruf — das
-hat die Fehlersuche erschwert, weil die Seiten selbst normal luden). Fix: alle Variablen als
-normale (nicht "secret") Variable mit allen vier Scopes (`builds`, `functions`, `runtime`,
-`post_processing`) setzen. **Für neue Variablen auf diesem Projekt immer so vorgehen**, bis
-geklärt ist, ob das ein generelles Verhalten dieses Netlify-Plans ist oder ein einmaliger
-Fehler.
+  funktioniert unverändert.
 
 ## Admin-Seed-Endpunkt
 
-`GET /api/admin/seed?secret=<SEED_SECRET>` (Wert steht in den Netlify-Umgebungsvariablen)
-spielt den Prototyp-Content idempotent ein — kann bei Bedarf erneut aufgerufen werden (z. B.
-nach einer Schema-Änderung), ohne Duplikate zu erzeugen.
+`GET /api/admin/seed?secret=<SEED_SECRET>` spielt den Prototyp-Content idempotent ein — kann bei
+Bedarf erneut aufgerufen werden (z. B. nach einer Schema-Änderung oder neuen Bildern), ohne
+Duplikate zu erzeugen.
 
 ## Sicherheitshinweis zu `ANTHROPIC_API_KEY`
 
@@ -88,7 +102,48 @@ ausgeliefert.
 
 ## Spätere Erweiterung: echte Mediendateien
 
-Sobald echtes Bild-/Videomaterial für die Mediathek vorliegt (Projektbrief, Punkt 5), kann
-`MediaAsset.storageUrl` auf eine URL bei Netlify Blobs oder einem S3-kompatiblen Speicher
-zeigen. Bis dahin bleibt das Feld leer und die Mediathek zeigt nur die vorbereiteten
-Platzhalter-Einträge (Titel, Typ, Zuordnung zu Fällen) — genau wie im Prototyp vorgesehen.
+Für die (noch als "Bald verfügbar" markierte) Mediathek kann `MediaAsset.storageUrl` auf eine URL
+bei Vercel Blob oder einem S3-kompatiblen Speicher zeigen, sobald echtes Bild-/Videomaterial
+dafür vorliegt. Die Fall- und Anatomiebilder (siehe `docs/bildbriefe.md`) laufen unabhängig davon
+bereits über `public/cases/` + `Case.einstiegsbildUrl`/`befundbildUrl` bzw.
+`AnatomyItem.bildUrl`.
+
+---
+
+## Historie: Netlify-Setup (bis 17.09., seitdem nicht mehr verwendet)
+
+Dieser Abschnitt bleibt als Lernprotokoll stehen — die beschriebenen Fallen (insbesondere die
+"secret"-Variable-Falle) sind allgemein lehrreich, falls das Projekt später doch wieder auf
+Netlify oder eine ähnliche Plattform wechselt.
+
+### Warum ursprünglich Netlify
+
+Entscheidung laut Projektbrief: "Wähl die Option, die am einfachsten einzurichten und günstig
+zum Starten ist." Umgesetzt wurde die engste mögliche Integration: **Netlify DB**, Netlifys
+eigene, auf Neon basierende Postgres-Extension.
+
+### Blockade, die zum Umzug führte
+
+Das kostenlose Netlify-Team-Kontingent (Build-Minuten) war seit dem 17.09. aufgebraucht — neue
+Pushes bauten nicht mehr, die Seite blieb auf dem letzten erfolgreichen Deploy live. Laut
+Nutzerin hätte sich das Kontingent erst am 9.10. zurückgesetzt, und eine Kreditkarte zum Aufladen
+stand nicht zur Verfügung — daher der Umzug zu Vercel + Neon.
+
+### Wichtige Falle: Umgebungsvariablen NICHT als "secret" markieren (Netlify-spezifisch)
+
+Sowohl `SEED_SECRET` als auch `NEXTAUTH_SECRET` wurden zunächst mit dem Secret-Flag
+(`envVarIsSecret: true`) gesetzt — dadurch waren sie zwar in der Netlify-UI vor Blicken
+geschützt, aber **im Functions-Laufzeitkontext nicht als `process.env`-Wert verfügbar**. Das
+äußerte sich als "SEED_SECRET nicht konfiguriert" bzw. bei NextAuth als "Es gab ein Problem mit
+der Serverkonfiguration" bei jedem Login-/Registrierungsversuch. Fix war, alle Variablen als
+normale (nicht "secret") Variable mit allen vier Scopes zu setzen. Vercel kennt dieses
+Unterscheidungsproblem nicht — alle Environment Variables sind dort einheitlich zur Laufzeit
+verfügbar, unabhängig davon, ob sie in der UI ausgeblendet ("Sensitive") sind oder nicht.
+
+### Weitere gelöste Netlify-spezifische Probleme (nicht mehr relevant)
+
+- Ein Edge-Function-Konflikt zwischen Next.js 16s `proxy.ts`-Konvention und
+  `@netlify/plugin-nextjs` hatte einmal die komplette Seite lahmgelegt ("nextHandler ist keine
+  Funktion") — gelöst durch komplette Umstellung auf serverseitige Zugriffsprüfungen statt
+  Middleware/Edge Functions (diese Umstellung bleibt bestehen, unabhängig von der
+  Hosting-Plattform, und ist auch für Vercel die richtige Architektur).
