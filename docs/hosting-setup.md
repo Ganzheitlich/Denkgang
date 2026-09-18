@@ -1,5 +1,29 @@
 # Hosting & Datenbank — Umzug von Netlify zu Vercel + Neon
 
+## Status: Umzug abgeschlossen, App live auf Vercel
+
+Live unter **`https://denkgang.vercel.app`**. Datenbank ist Neon (Projekt "Denkgang", Region
+Frankfurt, kostenloser Plan). Content ist über `/api/admin/seed` eingespielt, erster Testaccount
+über `/register` angelegt und Login funktioniert.
+
+### Stolpersteine beim ersten Deploy (falls das nochmal passiert)
+
+1. **Beim Aufräumen doppelter Environment Variables versehentlich die einzige `DATABASE_URL` für
+   "Production" mitgelöscht** (nur die für "Development" blieb übrig) → Build brach mit
+   `Error: The datasource.url property is required...` ab. Fix: `DATABASE_URL` erneut aus Neon
+   kopieren und explizit mit Häkchen bei "Production" neu anlegen.
+2. **Tippfehler `ADMIN_E-MAILS` statt `ADMIN_EMAILS`** — der Code liest exakt `ADMIN_EMAILS`,
+   jede Abweichung (Bindestrich, Leerzeichen, Groß-/Kleinschreibung) wird ignoriert.
+3. **`MissingSecret`-Fehler von Auth.js trotz gesetztem `NEXTAUTH_SECRET`** — Ursache nicht
+   abschließend geklärt (evtl. ein leerer/beschädigter Wert durch einen früheren Bearbeitungsschritt),
+   behoben durch Löschen und Neuanlegen der Variable mit frischem Wert. Falls das nochmal auftritt:
+   Variable komplett löschen und neu anlegen statt nur den Wert zu editieren.
+
+Allgemein: Nach jeder Änderung an Environment Variables löst Vercel automatisch einen neuen
+Production-Build aus — kein manueller Push nötig, aber die Vercel-Logs (Runtime Logs, nicht nur
+Build-Logs) sind die zuverlässigste Quelle für die tatsächliche Fehlerursache, da die Website
+selbst bei Auth-Fehlern nur eine generische Meldung zeigt.
+
 ## Warum umziehen
 
 Netlifys kostenloses Team-Kontingent (Build-Minuten) ist aufgebraucht (siehe unten, historischer
