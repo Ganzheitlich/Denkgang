@@ -678,6 +678,7 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Fachliche Grundlage: etabliertes Wissen zu bandscheibenbedingten Erkrankungen (IVDD) bei chondrodystrophen Rassen wie dem Dackel, inkl. der Notwendigkeit sofortiger tierärztlicher Abklärung bei akuten neurologischen Ausfällen. Konkrete Quellenverifizierung steht noch aus — Status: DRAFT, Quelle erforderlich.",
     einstiegsbildUrl: "/cases/filou-01.png",
+    befundbildUrl: "/cases/filou-02.png",
   },
 ];
 
