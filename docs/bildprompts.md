@@ -4,8 +4,10 @@ Fertig ausformulierte Prompts, abgeleitet aus den Bildbriefen in `docs/bildbrief
 Bild in ChatGPT einfügen. Nach Erhalt der Dateien: an Claude schicken, dann Einbindung in
 `public/cases/` + `src/lib/seedContent.ts` wie bei Bruno.
 
-**Status:** Bruno (BRUNO-01/02, ANATOMIE-QUADRICEPS-01) ist bereits generiert und im Code
-eingebunden (siehe Commit `20147c7`). Die folgenden 17 Prompts sind für die restlichen 7 Fälle.
+**Status: Alle 20 Bilder (Bruno + die 17 unten) sind generiert, geprüft und in
+`src/lib/seedContent.ts` eingebunden.** Diese Datei bleibt als Referenz stehen — z. B. falls ein
+einzelnes Bild später nochmal neu generiert werden soll (wie bei FILOU-02, das beim ersten
+Versuch den Befund nicht korrekt zeigte, siehe `docs/bildbriefe.md`).
 
 ---
 

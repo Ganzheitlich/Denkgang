@@ -509,16 +509,26 @@ gewichtsbedingte Belastung ohne punktuelle Struktur), siehe `seedContent.ts`.*
 
 **20 Bildbriefe insgesamt** (8 Einstieg, 5 Befund, 7 Anatomie), 3 begründete "kein Bild"-Entscheidungen.
 
-Nächste Schritte:
+## Status: alle 20 Bilder generiert, geprüft und eingebunden
+
+Tatsächlich umgesetzt (abweichend von der ursprünglichen Planung unten in Punkt 3 — nicht über
+`MediaAsset`, sondern direkter): `Case` bekam die Felder `einstiegsbildUrl`/`befundbildUrl`,
+`AnatomyItem` das Feld `bildUrl` (siehe `prisma/schema.prisma`, Migration
+`20260917120000_case_anatomy_images`). Die Bilddateien liegen unter `public/cases/<slug>-0X.png`
+und sind in `src/lib/seedContent.ts` pro Fall/Anatomie-Item verknüpft. `MediaAsset`/`MediaCaseLink`
+bleiben wie geplant für die separate, noch nicht gebaute Mediathek (bezahlte Zusatzoption)
+reserviert — die Fall-/Anatomiebilder sind davon unabhängig und immer Teil des Kerninhalts.
+
+Jedes Bild wurde einzeln gegen seinen Bildbrief geprüft (zeigt es tatsächlich den beschriebenen
+Befund, ohne die Diagnose zu verraten?) — bei FILOU-02 hat ChatGPT im ersten Versuch einen
+normalen Gang statt der geforderten Knöchel-Fehlstellung geliefert, das wurde abgelehnt und mit
+einem präziseren Prompt neu generiert (siehe `docs/bildprompts.md`).
+
+Offen, bevor Bilder final auf APPROVED gehen können:
 
 1. Vanessa prüft/ergänzt die als "NICHT VERIFIZIERT" markierten Quellenangaben (idealerweise mit
-   Seitenzahl aus den genannten Thieme-Werken) — erst danach sollten die zugehörigen Bilder
-   final produziert werden, insbesondere die Anatomiebilder.
-2. Bildbriefe gehen an ChatGPT zur eigentlichen Bildgenerierung.
-3. Fertige Bilder werden unter `public/cases/<asset-id>.<ext>` abgelegt und über
-   `MediaAsset.storageUrl` (+ neue Verknüpfung zum jeweiligen `Case`/`AnatomyItem`) eingebunden —
-   das Datenmodell dafür existiert bereits (`MediaAsset`, `MediaCaseLink`), es fehlt nur die
-   Verknüpfung auf Anatomie-Item-Ebene, die ich ergänze, sobald die ersten echten Bilder vorliegen.
-4. Jedes eingebundene Bild durchläuft vor Veröffentlichung die Qualitätsprüfung aus
-   `docs/MASTER-PROMPT.md` §20 (fachlich/didaktisch/visuell) und erhält denselben
-   Content-Status-Workflow (DRAFT → REVIEW → APPROVED) wie der zugehörige Fall.
+   Seitenzahl aus den genannten Thieme-Werken), insbesondere für die Anatomiebilder.
+2. Jedes Bild durchläuft vor Veröffentlichung die Qualitätsprüfung aus `docs/MASTER-PROMPT.md`
+   §20 (fachlich/didaktisch/visuell) und folgt demselben Content-Status-Workflow
+   (DRAFT → REVIEW → APPROVED) wie der zugehörige Fall — aktuell stehen alle Fälle noch auf
+   DRAFT, Freigabe erfolgt einzeln unter `/review`.
