@@ -1361,6 +1361,61 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "beobachtung-vs-palpation",
+    category: "UNTERSUCHUNG",
+    title: "Was Beobachtung zeigt, was Palpation zeigt",
+    teaser:
+      "Zwei Untersuchungsschritte, zwei unterschiedliche Informationen — anhand von fünf realen Denkgang-Fällen im Vergleich.",
+    sections: [
+      {
+        type: "text",
+        text: "Beobachtung und Palpation liefern selten dieselbe Information zweimal. Die Beobachtung zeigt meist, dass und wo etwas auffällt; die Palpation liefert oft erst die Information, die eine Struktur von einer anderen unterscheidet.",
+      },
+      {
+        type: "table",
+        heading: "Fünf Fälle im Vergleich",
+        columns: ["Fall", "Beobachtung zeigte", "Palpation zeigte zusätzlich"],
+        rows: [
+          [
+            "Rocky",
+            "verkürzte Schrittlänge vorne rechts, kompensatorisches Kopfnicken",
+            "Druckempfindlichkeit gezielt über der Bizepssehne — lokalisiert die Ursache",
+          ],
+          [
+            "Nala",
+            "vermeidet tiefes Bücken, kurzzeitig steif nach dem Aufstehen",
+            "Schmerz und Verspannung gezielt im lumbosakralen Übergang — bestätigt die Region",
+          ],
+          [
+            "Emma",
+            "verkürzter Schritt beim Wenden, vermeidet volle Hüftstreckung",
+            "Schmerz bei Palpation des M. iliopsoas, Hüftgelenk selbst schmerzfrei beweglich — grenzt Muskel von Gelenk ab",
+          ],
+          [
+            "Bruno",
+            "sichtbar reduzierter Muskelumfang im Seitenvergleich",
+            "messbare Atrophie bestätigt, Kniegelenk reizfrei — Belastungsdefizit statt Gelenkproblem",
+          ],
+          [
+            "Findus",
+            "steifer Gang nach Ruhephasen, vorsichtiges Aufstehen",
+            "diffuse, nicht punktuelle Schmerzreaktion — spricht gegen eine einzelne betroffene Struktur",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Diffus oder punktuell — ein wichtiger Unterschied",
+        text: "Ein punktueller Druckschmerz (wie bei Rocky oder Nala) spricht meist für eine einzelne, lokal begrenzte Struktur als Ursache. Eine diffuse, nicht punktuelle Schmerzreaktion (wie bei Findus) spricht dagegen eher gegen eine einzelne Struktur und für eine generalisierte, oft belastungsbedingte Ursache. Wer diesen Unterschied bei der Palpation nicht bewusst wahrnimmt, läuft Gefahr, einen diffusen Befund wie einen punktuellen zu behandeln — und damit die falsche Struktur in den Fokus zu rücken.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Befund überbewertet"],
+    sourceStatus:
+      "Fachliche Grundlage: Synthese aus den bereits vorhandenen Fallbeschreibungen (Beobachtungs- und Palpationsbefunde) in Denkgang — kein neues tiermedizinisches Faktenwissen, sondern eine Querschnittsbetrachtung bereits vorhandener, fallspezifischer Inhalte.",
+    relatedCaseIds: ["findus"],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
