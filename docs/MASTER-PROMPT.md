@@ -330,7 +330,40 @@ Beispiel: Muskelatrophie → betroffene Muskelgruppe → Funktion → mögliche 
 
 ---
 
-## 17. Beispiel Bruno
+## 17. Wissensbibliothek
+
+Zusätzlich zu Fällen und Anatomie-Bereich gibt es eine eigenständige Wissensbibliothek
+(`KnowledgeEntry` in `prisma/schema.prisma`) als Nachschlagewerk zum Vertiefen — kein
+Multiple-Choice, sondern Lesestoff mit Quellenangabe.
+
+**Kategorien** (`KnowledgeCategory`): Anatomie, Biomechanik, Pathologie, Untersuchung, Therapie,
+Grundlagen. „Grundlagen" meint die Denkmethode selbst (Differentialdiagnosen,
+Konfidenz-Kalibrierung, die klinische Denkkette) statt tiermedizinisches Faktenwissen — dafür
+reichen die bereits vorhandenen, eigenen Quellen (dieses Dokument, bereits geschriebene
+Fall-/Anatomie-Inhalte), ohne neue externe Fachliteratur zu benötigen.
+
+**Format**: Kein Fließtext-Artikel und kein „digitales Fachbuch im XXL-Format". Jeder Eintrag
+besteht aus strukturierten Abschnitten (`sections`-Feld, Text-/Listen-/Tabellen-Blöcke) —
+Nachschlagewerk-Charakter entsteht durch Struktur, Vergleichstabellen und Querverlinkung
+zwischen Einträgen, nicht durch Textmenge pro Eintrag.
+
+**Bilder**: Bewusst keine. Ein Wissenseintrag zeigt nicht dasselbe Bild wie der zugehörige Fall
+oder das Anatomie-Item noch einmal (das wäre redundant und ohne Mehrwert). Falls die Bibliothek
+später eigene Bilder bekommt, brauchen die einen eigenen Bildbrief-Typ („Referenzbild": voll
+beschriftet, da hier — anders als im Fall — keine Diagnose verraten werden kann) statt
+wiederverwendeter Fall-/Anatomiebilder.
+
+**Verlinkung**: Ein Eintrag kann mit mehreren Fällen/Anatomie-Items verknüpft sein
+(`KnowledgeCaseLink`/`KnowledgeAnatomyLink`). Bei einer falschen Antwort in einem Fall oder einer
+Anatomie-Transferfrage schlägt die App automatisch den passenden Eintrag vor (zuerst über
+Direktverlinkung, sonst über `errorTags`, die zur bereits bestehenden Fehlerkategorie-Taxonomie
+aus Abschnitt 14 passen). Bei mehreren Direktverlinkungen für denselben Fall entscheidet das
+Erstellungsdatum (zuerst angelegt = meist spezifischer = Vorrang), damit ein später ergänzter,
+fallübergreifender Artikel bestehende spezifische Empfehlungen nicht verdrängt.
+
+---
+
+## 18. Beispiel Bruno
 
 **Fall:** Bruno hatte vor sechs Wochen eine TPLO-Operation nach Kreuzbandriss. Er wirkt fit. Es
 besteht minimale Restlahmheit. Das operierte Knie ist nicht gereizt. Der Bewegungsumfang ist gut.
@@ -349,7 +382,7 @@ Mehr Bilder nur dann, wenn ein zusätzlicher eindeutiger didaktischer Nutzen bes
 
 ---
 
-## 18. Technische Architektur
+## 19. Technische Architektur
 
 Die Anwendung soll als geschützte Web-App aufgebaut werden. Wichtige Grundsätze:
 
@@ -367,7 +400,7 @@ Lösungsdaten vor dem Reveal-Zeitpunkt aus, Scoring wird serverseitig aus der DB
 
 ---
 
-## 19. Content-Datenmodell
+## 20. Content-Datenmodell
 
 Jeder Lerninhalt sollte strukturierte Metadaten besitzen, z. B.:
 
@@ -377,7 +410,7 @@ Jeder Lerninhalt sollte strukturierte Metadaten besitzen, z. B.:
 
 ---
 
-## 20. Qualitätsprüfung
+## 21. Qualitätsprüfung
 
 Vor Veröffentlichung muss geprüft werden:
 
@@ -392,7 +425,7 @@ anatomisch plausibel? Enthält es keine unnötigen Texte? Verrät es nicht die L
 
 ---
 
-## 21. Wichtigste Regel
+## 22. Wichtigste Regel
 
 Wenn du zwischen einer schnellen Antwort und einer fachlich abgesicherten Antwort wählen musst:
 **immer die fachlich abgesicherte Variante.**
@@ -403,7 +436,7 @@ Tatsache darstellen.
 
 ---
 
-## 22. Zusammenarbeit mit ChatGPT
+## 23. Zusammenarbeit mit ChatGPT
 
 Die Aufgaben sind aufgeteilt:
 
@@ -419,7 +452,7 @@ Freigabe, praktische Plausibilitätskontrolle, finale Veröffentlichung.
 
 ---
 
-## 23. Ziel
+## 24. Ziel
 
 Denkgang soll sich nicht wie eine gewöhnliche Lern-App anfühlen. Es soll sich anfühlen wie:
 
