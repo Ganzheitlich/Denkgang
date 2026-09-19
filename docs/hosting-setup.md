@@ -110,6 +110,12 @@ Abschnitt unten) — alle Variablen sind dort einheitlich zur Laufzeit verfügba
   (16.09., "wir verzichten erstmal auf die API"). Die Begründungs-Auswertung läuft bis dahin im
   Fallback-Modus ("Automatischer Vergleich gerade nicht verfügbar"), der Rest der App
   funktioniert unverändert.
+- **Fachliche Prüfung der "NICHT VERIFIZIERT"-Quellenangaben (siehe `docs/bildbriefe.md`)
+  erfolgt bewusst nach und nach, nicht jetzt** — Entscheidung der Produktinhaberin (19.09.):
+  Das ist erst relevant, wenn das Produkt nächstes Jahr an den Markt gehen soll. Bis dahin steht
+  die Weiterentwicklung (Content, Optik, Funktionen) im Vordergrund. Das heißt: Content- und
+  Feature-Arbeit muss NICHT auf die fachliche Freigabe warten — Fälle können auf DRAFT bleiben,
+  bis Vanessa selbst Zeit für die Prüfung findet.
 
 ## Admin-Seed-Endpunkt
 
