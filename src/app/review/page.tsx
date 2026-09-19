@@ -7,13 +7,17 @@ import { setContentStatus } from "./actions";
 
 function ReviewRow({
   title,
+  href,
   meta,
+  detail,
   status,
   thumbUrl,
   action,
 }: {
   title: string;
+  href?: string;
   meta?: string;
+  detail?: string;
   status: "DRAFT" | "REVIEW" | "APPROVED";
   thumbUrl?: string | null;
   action: (formData: FormData) => void;
@@ -30,8 +34,15 @@ function ReviewRow({
       <div className="review-row-body">
         <div className="review-row-top">
           <div>
-            <div className="qi-title">{title}</div>
+            {href ? (
+              <Link href={href} className="qi-title" style={{ color: "var(--petrol)", textDecoration: "underline" }}>
+                {title}
+              </Link>
+            ) : (
+              <div className="qi-title">{title}</div>
+            )}
             {meta && <div className="qi-meta">{meta}</div>}
+            {detail && <div className="qi-meta">{detail}</div>}
           </div>
           <span className={`tag ${status === "APPROVED" ? "" : "due"}`}>{status}</span>
         </div>
@@ -75,6 +86,7 @@ export default async function ReviewPage() {
           <ReviewRow
             key={c.id}
             title={c.title}
+            href={`/review/case/${c.id}`}
             meta={c.topic}
             status={c.status}
             thumbUrl={c.einstiegsbildUrl}
@@ -94,6 +106,7 @@ export default async function ReviewPage() {
           <ReviewRow
             key={a.id}
             title={a.name}
+            href={`/review/anatomy/${a.id}`}
             status={a.status}
             thumbUrl={a.bildUrl}
             action={setContentStatus.bind(
@@ -112,6 +125,7 @@ export default async function ReviewPage() {
           <ReviewRow
             key={k.id}
             title={k.title}
+            href={`/review/knowledge/${k.id}`}
             meta={KNOWLEDGE_CATEGORY_LABELS[k.category]}
             status={k.status}
             action={setContentStatus.bind(
@@ -131,6 +145,7 @@ export default async function ReviewPage() {
             key={m.id}
             title={m.title}
             meta={m.type}
+            detail={m.note}
             status={m.status}
             action={setContentStatus.bind(
               null,
