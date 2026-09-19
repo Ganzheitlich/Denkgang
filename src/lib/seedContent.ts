@@ -1413,7 +1413,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "Befund überbewertet"],
     sourceStatus:
       "Fachliche Grundlage: Synthese aus den bereits vorhandenen Fallbeschreibungen (Beobachtungs- und Palpationsbefunde) in Denkgang — kein neues tiermedizinisches Faktenwissen, sondern eine Querschnittsbetrachtung bereits vorhandener, fallspezifischer Inhalte.",
-    relatedCaseIds: ["findus"],
+    relatedCaseIds: ["findus", "rocky", "nala", "emma", "bruno"],
     relatedAnatomyIds: [],
   },
 ];
