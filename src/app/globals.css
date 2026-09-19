@@ -545,6 +545,59 @@ textarea {
   color: var(--ink-soft);
 }
 
+.review-row {
+  display: flex;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  align-items: flex-start;
+}
+
+.review-row:last-child {
+  border-bottom: none;
+}
+
+.review-thumb-wrap {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.review-thumb {
+  object-fit: cover;
+}
+
+.review-thumb-empty {
+  opacity: 0.5;
+}
+
+.review-row-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.review-row-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.review-row-top .tag {
+  flex-shrink: 0;
+}
+
+.review-row-btn {
+  padding: 7px 14px;
+  font-size: 13.5px;
+}
+
 .media-item {
   padding: 12px 0;
   border-bottom: 1px solid var(--line);

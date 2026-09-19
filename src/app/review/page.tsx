@@ -1,7 +1,48 @@
 import Link from "next/link";
+import Image from "next/image";
 import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
 import { setContentStatus } from "./actions";
+
+function ReviewRow({
+  title,
+  meta,
+  status,
+  thumbUrl,
+  action,
+}: {
+  title: string;
+  meta?: string;
+  status: "DRAFT" | "REVIEW" | "APPROVED";
+  thumbUrl?: string | null;
+  action: (formData: FormData) => void;
+}) {
+  return (
+    <div className="review-row">
+      {thumbUrl ? (
+        <div className="review-thumb-wrap">
+          <Image src={thumbUrl} alt="" fill sizes="56px" className="review-thumb" />
+        </div>
+      ) : (
+        <div className="review-thumb-wrap review-thumb-empty" />
+      )}
+      <div className="review-row-body">
+        <div className="review-row-top">
+          <div>
+            <div className="qi-title">{title}</div>
+            {meta && <div className="qi-meta">{meta}</div>}
+          </div>
+          <span className={`tag ${status === "APPROVED" ? "" : "due"}`}>{status}</span>
+        </div>
+        <form action={action}>
+          <button type="submit" className="btn-secondary review-row-btn">
+            {status === "APPROVED" ? "Zurück auf Entwurf" : "Freigeben"}
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
 
 export default async function ReviewPage() {
   await requireReviewerSession();
@@ -20,84 +61,64 @@ export default async function ReviewPage() {
         </Link>
         <span className="tag">Review</span>
       </div>
-      <div className="wordmark">Inhalte prüfen</div>
-      <p className="empty-note" style={{ paddingTop: 0 }}>
+      <div className="case-title">Inhalte prüfen</div>
+      <div className="disclaimer" style={{ marginBottom: 18 }}>
         Minimale Review-Oberfläche: Status umschalten zwischen Entwurf und freigegeben. Nur
         freigegebene Inhalte sind für reguläre Nutzer:innen sichtbar.
-      </p>
+      </div>
 
       <h3 style={{ marginBottom: 10 }}>Fälle</h3>
-      <div className="card" style={{ padding: "4px 18px" }}>
+      <div className="card step-block" style={{ padding: "4px 18px" }}>
         {cases.map((c) => (
-          <div key={c.id} className="queue-item" style={{ cursor: "default" }}>
-            <div>
-              <div className="qi-title">{c.title}</div>
-              <div className="qi-meta">{c.topic}</div>
-            </div>
-            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <span className={`tag ${c.status === "APPROVED" ? "" : "due"}`}>{c.status}</span>
-              <form
-                action={setContentStatus.bind(
-                  null,
-                  "case",
-                  c.id,
-                  c.status === "APPROVED" ? "DRAFT" : "APPROVED",
-                )}
-              >
-                <button type="submit" className="btn-secondary" style={{ padding: "6px 12px" }}>
-                  {c.status === "APPROVED" ? "Zurück auf Entwurf" : "Freigeben"}
-                </button>
-              </form>
-            </div>
-          </div>
+          <ReviewRow
+            key={c.id}
+            title={c.title}
+            meta={c.topic}
+            status={c.status}
+            thumbUrl={c.einstiegsbildUrl}
+            action={setContentStatus.bind(
+              null,
+              "case",
+              c.id,
+              c.status === "APPROVED" ? "DRAFT" : "APPROVED",
+            )}
+          />
         ))}
       </div>
 
       <h3 style={{ marginBottom: 10 }}>Anatomie-Items</h3>
-      <div className="card" style={{ padding: "4px 18px" }}>
+      <div className="card step-block" style={{ padding: "4px 18px" }}>
         {anatomyItems.map((a) => (
-          <div key={a.id} className="queue-item" style={{ cursor: "default" }}>
-            <div className="qi-title">{a.name}</div>
-            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <span className={`tag ${a.status === "APPROVED" ? "" : "due"}`}>{a.status}</span>
-              <form
-                action={setContentStatus.bind(
-                  null,
-                  "anatomy",
-                  a.id,
-                  a.status === "APPROVED" ? "DRAFT" : "APPROVED",
-                )}
-              >
-                <button type="submit" className="btn-secondary" style={{ padding: "6px 12px" }}>
-                  {a.status === "APPROVED" ? "Zurück auf Entwurf" : "Freigeben"}
-                </button>
-              </form>
-            </div>
-          </div>
+          <ReviewRow
+            key={a.id}
+            title={a.name}
+            status={a.status}
+            thumbUrl={a.bildUrl}
+            action={setContentStatus.bind(
+              null,
+              "anatomy",
+              a.id,
+              a.status === "APPROVED" ? "DRAFT" : "APPROVED",
+            )}
+          />
         ))}
       </div>
 
       <h3 style={{ marginBottom: 10 }}>Mediathek</h3>
-      <div className="card" style={{ padding: "4px 18px" }}>
+      <div className="card step-block" style={{ padding: "4px 18px" }}>
         {mediaAssets.map((m) => (
-          <div key={m.id} className="queue-item" style={{ cursor: "default" }}>
-            <div className="qi-title">{m.title}</div>
-            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <span className={`tag ${m.status === "APPROVED" ? "" : "due"}`}>{m.status}</span>
-              <form
-                action={setContentStatus.bind(
-                  null,
-                  "media",
-                  m.id,
-                  m.status === "APPROVED" ? "DRAFT" : "APPROVED",
-                )}
-              >
-                <button type="submit" className="btn-secondary" style={{ padding: "6px 12px" }}>
-                  {m.status === "APPROVED" ? "Zurück auf Entwurf" : "Freigeben"}
-                </button>
-              </form>
-            </div>
-          </div>
+          <ReviewRow
+            key={m.id}
+            title={m.title}
+            meta={m.type}
+            status={m.status}
+            action={setContentStatus.bind(
+              null,
+              "media",
+              m.id,
+              m.status === "APPROVED" ? "DRAFT" : "APPROVED",
+            )}
+          />
         ))}
       </div>
     </div>
