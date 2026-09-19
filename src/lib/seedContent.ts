@@ -1160,6 +1160,207 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["filou"],
     relatedAnatomyIds: ["rueckenmark"],
   },
+  {
+    id: "klinische-denkkette",
+    category: "GRUNDLAGEN",
+    title: "Die Denkstruktur hinter jedem Fall",
+    teaser:
+      "Anamnese, Beobachtung, Befund, Interpretation, Hypothese — warum Denkgang jeden Fall in diese Schritte zerlegt.",
+    sections: [
+      {
+        type: "text",
+        text: "Ein Fall in Denkgang fragt nicht einfach „was hat der Hund?“, sondern führt durch eine feste Denkkette — dieselbe, die auch in der Praxis Schritt für Schritt durchlaufen wird, auch wenn das oft unbewusst passiert.",
+      },
+      {
+        type: "list",
+        heading: "Die Denkkette in zehn Schritten",
+        items: [
+          "Anamnese",
+          "Beobachtung",
+          "Befunde",
+          "Interpretation",
+          "Hypothese",
+          "Differentialdiagnosen",
+          "gezielte Untersuchung",
+          "Interpretation der Untersuchung",
+          "Therapieplanung",
+          "Reevaluation",
+        ],
+      },
+      {
+        type: "table",
+        heading: "Vier oft verwechselte Begriffe",
+        columns: ["Begriff", "Bedeutung"],
+        rows: [
+          ["Beobachtung", "Was sehe ich tatsächlich? (reine Wahrnehmung, noch ohne Bewertung)"],
+          ["Befund", "Was wurde objektiv festgestellt? (z. B. per Palpation oder Test)"],
+          ["Interpretation", "Was könnte dieser Befund bedeuten?"],
+          ["Hypothese", "Welche Erklärung erscheint aufgrund der bisherigen Informationen plausibel?"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum die Reihenfolge zählt",
+        text: "Wer direkt von der Beobachtung zur Hypothese springt, ohne den Befund sauber vom Sehen zu trennen und ohne Interpretation als eigenen Schritt zu behandeln, überspringt genau die Stellen, an denen Denkfehler entstehen — etwa wenn ein Befund überbewertet oder eine Diagnose vorschnell gestellt wird.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Befund überbewertet"],
+    sourceStatus:
+      "Fachliche Grundlage: Denkgang-eigenes Lernkonzept, siehe docs/MASTER-PROMPT.md, Abschnitt 12 (Klinisches Denken).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "differentialdiagnosen",
+    category: "GRUNDLAGEN",
+    title: "Warum die zweite Möglichkeit genauso zählt wie die erste",
+    teaser: "Differentialdiagnosen sind kein Nebenschauplatz, sondern Teil der eigentlichen Diagnosefindung.",
+    sections: [
+      {
+        type: "text",
+        text: "Eine Differentialdiagnose ist eine andere plausible Erklärung für dieselben Beobachtungen und Befunde — eine Möglichkeit, die ausgeschlossen oder aktiv gegen die favorisierte Hypothese abgewogen werden muss, bevor eine Diagnose als gesichert gilt.",
+      },
+      {
+        type: "table",
+        heading: "Zwei verwandte, aber unterschiedliche Denkfehler",
+        columns: ["Denkfehler", "Was passiert"],
+        rows: [
+          [
+            "Vorschnelle Diagnose",
+            "Die erste plausible Erklärung wird übernommen, ohne andere Möglichkeiten überhaupt zu prüfen.",
+          ],
+          [
+            "Differentialdiagnostik unvollständig",
+            "Andere Möglichkeiten wurden zwar in Betracht gezogen, aber nicht konsequent gegen die Befundlage geprüft.",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum das mehr als eine Formalität ist",
+        text: "Eine Hypothese, die keiner ernsthaften Alternative gegenübergestellt wurde, ist keine geprüfte Diagnose, sondern eine Vermutung. Erst der gezielte Vergleich — was spricht dafür, was spricht dagegen — macht aus einer Vermutung eine belastbare Einschätzung.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Fachliche Grundlage: Denkgang-eigenes Lernkonzept, siehe docs/MASTER-PROMPT.md, Abschnitt 12 (Klinisches Denken) und Abschnitt 14 (Fehleranalyse).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "konfidenz-kalibrierung",
+    category: "GRUNDLAGEN",
+    title: "Sicher sein und richtig liegen sind zwei verschiedene Dinge",
+    teaser: "Warum Denkgang nicht nur fragt, was du denkst, sondern auch, wie sicher du dir bist.",
+    sections: [
+      {
+        type: "text",
+        text: "Konfidenz-Kalibrierung bedeutet, die eigene Sicherheit mit der tatsächlichen Trefferquote abzugleichen. Vor der Auflösung eines Falls fragt Denkgang deshalb: „Wie sicher bist du dir?“ — und vergleicht diese Angabe anschließend mit dem tatsächlichen Ergebnis.",
+      },
+      {
+        type: "table",
+        heading: "Vier Kombinationen aus Sicherheit und Ergebnis",
+        columns: ["Situation", "Was das bedeutet"],
+        rows: [
+          ["Sicher und richtig", "gute Kalibrierung — Selbsteinschätzung passt zum tatsächlichen Wissen"],
+          [
+            "Unsicher, aber richtig",
+            "Unterkonfidenz — das Wissen war da, das Zutrauen fehlte",
+          ],
+          [
+            "Sicher, aber falsch",
+            "Überkonfidenz — besonders wichtig zu hinterfragen, da diese Fehleinschätzung im Alltag am leichtesten unbemerkt bleibt",
+          ],
+          [
+            "Unsicher und falsch",
+            "konsistent — die Unsicherheit war begründet",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum das trainierbar ist",
+        text: "Kalibrierung ist keine feste Eigenschaft, sondern verbessert sich mit Übung und ehrlichem Feedback. Ziel ist nicht, immer sehr sicher zu sein, sondern dass die eigene Sicherheit zuverlässig anzeigt, wie belastbar eine Einschätzung tatsächlich ist — gerade Überkonfidenz bei falschen Einschätzungen ist der Punkt, der sich am meisten lohnt zu hinterfragen.",
+      },
+    ],
+    errorTags: ["Überkonfidenz", "Unterkonfidenz"],
+    sourceStatus:
+      "Fachliche Grundlage: Denkgang-eigenes Lernkonzept, siehe docs/MASTER-PROMPT.md, Abschnitt 13 (Lernmechanik, Confidence Calibration); Kalibrierungs-Feedback ist bereits in der Fall-Auswertung umgesetzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "priorisierung-vs-wissen",
+    category: "GRUNDLAGEN",
+    title: "Wenn die richtige Antwort dabei war, aber nicht an erster Stelle",
+    teaser: "Warum ein Priorisierungsfehler etwas anderes ist als ein Wissensfehler — und warum die Unterscheidung wichtig ist.",
+    sections: [
+      {
+        type: "text",
+        text: "Nicht jeder falsche erste Eindruck ist ein Wissenslücke. Wenn die richtige Ursache als zweite, alternative Möglichkeit erkannt, aber nicht als wahrscheinlichste eingestuft wurde, liegt kein Wissensfehler vor — sondern ein Priorisierungsfehler.",
+      },
+      {
+        type: "table",
+        heading: "Zwei Fehlerarten im Vergleich",
+        columns: ["Fehlerart", "Was fehlt"],
+        rows: [
+          ["Wissensfehler", "Die richtige Ursache wurde gar nicht in Betracht gezogen."],
+          [
+            "Priorisierungsfehler",
+            "Die richtige Ursache wurde erkannt, aber nicht als wahrscheinlichste gewichtet.",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum das für das Lernen wichtig ist",
+        text: "Ein Priorisierungsfehler braucht ein anderes Training als ein Wissensfehler: Nicht mehr Fakten sind nötig, sondern mehr Übung darin, vorhandene Informationen richtig zu gewichten — etwa, welcher Befund am stärksten für eine Ursache spricht.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung"],
+    sourceStatus:
+      "Fachliche Grundlage: Denkgang-eigenes Lernkonzept, siehe docs/MASTER-PROMPT.md, Abschnitt 14 (Fehleranalyse); die Unterscheidung ist bereits in der Fall-Auswertungslogik umgesetzt (richtige Ursache erkannt, aber nicht priorisiert).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "untersuchungsreihenfolge",
+    category: "GRUNDLAGEN",
+    title: "Warum die Reihenfolge der Untersuchung das Ergebnis beeinflusst",
+    teaser: "Erst beobachten, dann anfassen: eine einfache Regel mit klinischer Konsequenz.",
+    sections: [
+      {
+        type: "table",
+        heading: "Reihenfolge und ihr Risiko",
+        columns: ["Zuerst", "Risiko"],
+        rows: [
+          [
+            "Palpation zuerst",
+            "Kann das natürliche Bewegungs- und Schonverhalten verändern, bevor es unverfälscht beobachtet wurde.",
+          ],
+          [
+            "Beobachtung zuerst",
+            "Das Bewegungsbild bleibt unverfälscht; die Palpation ergänzt anschließend gezielt.",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum das mehr als eine Formalität ist",
+        text: "Berührung kann Schon- oder Abwehrverhalten auslösen oder verändern, das vorher noch nicht sichtbar war. Wird zuerst palpiert, ist das ursprüngliche, unverfälschte Bewegungsbild danach nicht mehr zuverlässig zu beobachten.",
+      },
+      {
+        type: "text",
+        heading: "Und bildgebende Diagnostik?",
+        text: "Aus demselben Grund gilt: Bildgebung ist meist teuer, belastend und wenig zielführend, bevor die Basisuntersuchung (Beobachtung, Palpation) abgeschlossen ist — sie liefert oft erst dann wertvolle Zusatzinformation, wenn bereits eine konkrete Verdachtsdiagnose steht.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung"],
+    sourceStatus:
+      "Fachliche Grundlage: bereits in der Denkgang-Falllogik hinterlegtes Prinzip (siehe src/components/CaseFlow.tsx, Feedback zur Untersuchungsreihenfolge) sowie allgemeines Prinzip der klinischen Untersuchung (Beobachtung vor Palpation, Basisuntersuchung vor Bildgebung).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
