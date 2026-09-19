@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 
-type ContentKind = "case" | "anatomy" | "media";
+type ContentKind = "case" | "anatomy" | "media" | "knowledge";
 
 async function requireReviewer() {
   const session = await auth();
@@ -21,6 +21,8 @@ export async function setContentStatus(kind: ContentKind, id: string, status: "D
     await prisma.case.update({ where: { id }, data: { status } });
   } else if (kind === "anatomy") {
     await prisma.anatomyItem.update({ where: { id }, data: { status } });
+  } else if (kind === "knowledge") {
+    await prisma.knowledgeEntry.update({ where: { id }, data: { status } });
   } else {
     await prisma.mediaAsset.update({ where: { id }, data: { status } });
   }

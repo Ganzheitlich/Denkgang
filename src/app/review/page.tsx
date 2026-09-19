@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
+import { KNOWLEDGE_CATEGORY_LABELS } from "@/lib/knowledgeCategories";
 import { setContentStatus } from "./actions";
 
 function ReviewRow({
@@ -47,10 +48,11 @@ function ReviewRow({
 export default async function ReviewPage() {
   await requireReviewerSession();
 
-  const [cases, anatomyItems, mediaAssets] = await Promise.all([
+  const [cases, anatomyItems, mediaAssets, knowledgeEntries] = await Promise.all([
     prisma.case.findMany({ orderBy: [{ status: "asc" }, { title: "asc" }] }),
     prisma.anatomyItem.findMany({ orderBy: [{ status: "asc" }, { name: "asc" }] }),
     prisma.mediaAsset.findMany({ orderBy: [{ status: "asc" }, { title: "asc" }] }),
+    prisma.knowledgeEntry.findMany({ orderBy: [{ status: "asc" }, { title: "asc" }] }),
   ]);
 
   return (
@@ -99,6 +101,25 @@ export default async function ReviewPage() {
               "anatomy",
               a.id,
               a.status === "APPROVED" ? "DRAFT" : "APPROVED",
+            )}
+          />
+        ))}
+      </div>
+
+      <h3 style={{ marginBottom: 10 }}>Wissensbibliothek</h3>
+      <div className="card step-block" style={{ padding: "4px 18px" }}>
+        {knowledgeEntries.map((k) => (
+          <ReviewRow
+            key={k.id}
+            title={k.title}
+            meta={KNOWLEDGE_CATEGORY_LABELS[k.category]}
+            status={k.status}
+            thumbUrl={k.bildUrl}
+            action={setContentStatus.bind(
+              null,
+              "knowledge",
+              k.id,
+              k.status === "APPROVED" ? "DRAFT" : "APPROVED",
             )}
           />
         ))}

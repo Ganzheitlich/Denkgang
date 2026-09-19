@@ -22,9 +22,12 @@ type ClientAnatomy = {
 export function AnatomyFlow({ anatomyData: a }: { anatomyData: ClientAnatomy }) {
   const [step, setStep] = useState(0);
   const [choice, setChoice] = useState<number | null>(null);
-  const [result, setResult] = useState<{ correct: boolean; correctIndex: number; sourceStatus: string } | null>(
-    null,
-  );
+  const [result, setResult] = useState<{
+    correct: boolean;
+    correctIndex: number;
+    sourceStatus: string;
+    relatedKnowledge: { slug: string; title: string } | null;
+  } | null>(null);
   const [finishing, setFinishing] = useState(false);
 
   async function chooseTransfer(i: number) {
@@ -131,9 +134,21 @@ export function AnatomyFlow({ anatomyData: a }: { anatomyData: ClientAnatomy }) 
 
       {result && (
         <>
-          <div className="source-note" style={{ marginBottom: 16 }}>
+          <div className="source-note" style={{ marginBottom: result.relatedKnowledge ? 10 : 16 }}>
             {result.sourceStatus}
           </div>
+          {result.relatedKnowledge && (
+            <Link
+              href={`/library/${result.relatedKnowledge.slug}`}
+              className="knowledge-cta"
+              style={{ marginBottom: 16 }}
+            >
+              <span>
+                Nicht sicher, warum? Direkt vertiefen: <strong>{result.relatedKnowledge.title}</strong>
+              </span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          )}
           <div className="btn-row">
             <button className="btn-primary" onClick={finish} disabled={finishing}>
               Zur Übersicht

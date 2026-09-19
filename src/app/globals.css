@@ -25,7 +25,8 @@
   }
 
   .pill.correct,
-  .pill.incorrect {
+  .pill.incorrect,
+  .knowledge-cta {
     animation: pop 0.24s ease;
   }
 
@@ -543,6 +544,31 @@ textarea {
   background: var(--paper);
   border: 1px solid var(--line);
   color: var(--ink-soft);
+}
+
+.knowledge-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--petrol);
+  border-radius: 6px;
+  background: #e4efec;
+  text-decoration: none;
+  color: var(--petrol-dark);
+  font-size: 13.5px;
+}
+
+.knowledge-cta:hover {
+  background: #d7e8e2;
+}
+
+.knowledge-cta span:last-child {
+  flex-shrink: 0;
+  color: var(--petrol);
+  font-size: 16px;
 }
 
 .review-row {

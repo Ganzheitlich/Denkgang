@@ -3,6 +3,7 @@
 import { redirect } from "next/navigation";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
+import { findKnowledgeForAnatomy, type KnowledgeSuggestion } from "@/lib/knowledge";
 
 async function loadFullAnatomy(anatomyId: string) {
   const a = await prisma.anatomyItem.findUnique({
@@ -16,10 +17,18 @@ async function loadFullAnatomy(anatomyId: string) {
 export async function checkTransferChoice(anatomyId: string, index: number) {
   const a = await loadFullAnatomy(anatomyId);
   const correctIndex = a.transferOptions.findIndex((o) => o.isCorrect);
+  const correct = a.transferOptions[index].isCorrect;
+
+  let relatedKnowledge: KnowledgeSuggestion = null;
+  if (!correct) {
+    relatedKnowledge = await findKnowledgeForAnatomy(anatomyId);
+  }
+
   return {
-    correct: a.transferOptions[index].isCorrect,
+    correct,
     correctIndex,
     sourceStatus: a.sourceStatus,
+    relatedKnowledge,
   };
 }
 

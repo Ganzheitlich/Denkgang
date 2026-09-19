@@ -3,6 +3,7 @@
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { computeNextReviewDate, type Difficulty } from "@/lib/spacing";
+import { findKnowledgeForCase, type KnowledgeSuggestion } from "@/lib/knowledge";
 import { redirect } from "next/navigation";
 
 async function requireUserId() {
@@ -73,11 +74,22 @@ export async function resolveCase(
 ) {
   const c = await loadFullCase(caseId);
   const correctIndex = c.hypothesisOptions.findIndex((o) => o.isCorrect);
+  const primaryOption = c.hypothesisOptions[hypothesisSelected[0]];
   const primaryCorrect = hypothesisSelected[0] === correctIndex;
   const includedButNotPrimary = !primaryCorrect && hypothesisSelected.includes(correctIndex);
   const missed = !hypothesisSelected.includes(correctIndex);
   const weakeningCorrectLabel = c.weakeningOptions.find((o) => o.isCorrect)?.label ?? "";
   const weakeningCorrect = c.weakeningOptions[weakeningChoiceIndex]?.isCorrect ?? false;
+
+  let relatedKnowledge: KnowledgeSuggestion = null;
+  if (!primaryCorrect) {
+    const errorCategories: string[] = includedButNotPrimary
+      ? ["falsche Priorisierung"]
+      : [primaryOption?.errorCategory, "Differentialdiagnostik unvollständig"].filter(
+          (v): v is string => Boolean(v),
+        );
+    relatedKnowledge = await findKnowledgeForCase(caseId, errorCategories);
+  }
 
   return {
     primaryCorrect,
@@ -87,6 +99,7 @@ export async function resolveCase(
     sourceStatus: c.sourceStatus,
     weakeningCorrectLabel,
     weakeningCorrect,
+    relatedKnowledge,
   };
 }
 

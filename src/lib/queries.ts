@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import { formatDueLabel } from "@/lib/spacing";
+import type { KnowledgeCategory } from "@/generated/prisma/enums";
 
 export type SkillScore = { label: string; val: number | null };
 
@@ -10,7 +11,7 @@ function pct<T>(items: T[], isCorrect: (item: T) => boolean): number | null {
 }
 
 export async function getDashboardData(userId: string) {
-  const [caseAttempts, anatomyAttempts, cases, anatomyItems, mediaAssets, schedules] =
+  const [caseAttempts, anatomyAttempts, cases, anatomyItems, mediaAssets, schedules, libraryPreview, libraryCount] =
     await Promise.all([
       prisma.caseAttempt.findMany({ where: { userId } }),
       prisma.anatomyAttempt.findMany({
@@ -24,6 +25,12 @@ export async function getDashboardData(userId: string) {
         include: { caseLinks: { include: { case: true } } },
       }),
       prisma.caseSchedule.findMany({ where: { userId } }),
+      prisma.knowledgeEntry.findMany({
+        where: { status: "APPROVED" },
+        orderBy: { updatedAt: "desc" },
+        take: 3,
+      }),
+      prisma.knowledgeEntry.count({ where: { status: "APPROVED" } }),
     ]);
 
   const anatomiePct = pct(
@@ -101,6 +108,8 @@ export async function getDashboardData(userId: string) {
     })),
     mediaAssets,
     queue,
+    libraryPreview,
+    libraryCount,
   };
 }
 
@@ -120,6 +129,27 @@ export async function getAnatomyForFlow(slug: string) {
     where: { slug, status: "APPROVED" },
     include: {
       transferOptions: { orderBy: { sortOrder: "asc" } },
+    },
+  });
+}
+
+export async function getLibraryEntries(category?: KnowledgeCategory, q?: string) {
+  return prisma.knowledgeEntry.findMany({
+    where: {
+      status: "APPROVED",
+      ...(category ? { category } : {}),
+      ...(q ? { title: { contains: q, mode: "insensitive" as const } } : {}),
+    },
+    orderBy: [{ category: "asc" }, { title: "asc" }],
+  });
+}
+
+export async function getKnowledgeEntry(slug: string) {
+  return prisma.knowledgeEntry.findFirst({
+    where: { slug, status: "APPROVED" },
+    include: {
+      caseLinks: { include: { case: true } },
+      anatomyLinks: { include: { anatomy: true } },
     },
   });
 }

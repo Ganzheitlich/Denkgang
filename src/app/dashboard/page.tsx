@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { requireSession } from "@/lib/auth-helpers";
 import { getDashboardData } from "@/lib/queries";
+import { KNOWLEDGE_CATEGORY_LABELS } from "@/lib/knowledgeCategories";
 import { LogoutButton } from "@/components/LogoutButton";
 
 const DISCLAIMER =
@@ -10,9 +11,8 @@ const DISCLAIMER =
 export default async function DashboardPage() {
   const session = await requireSession();
   const user = session.user;
-  const { skills, insight, errorTags, anatomyItems, mediaAssets, queue } = await getDashboardData(
-    user.id,
-  );
+  const { skills, insight, errorTags, anatomyItems, mediaAssets, queue, libraryPreview, libraryCount } =
+    await getDashboardData(user.id);
 
   return (
     <div className="app">
@@ -34,6 +34,9 @@ export default async function DashboardPage() {
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <Link href="/library" className="tag">
+            Wissen
+          </Link>
           {(user.role === "REVIEWER" || user.role === "ADMIN") && (
             <Link href="/review" className="tag">
               Review
@@ -98,6 +101,43 @@ export default async function DashboardPage() {
       <p className="empty-note">
         Anatomie und Fälle sind im Hintergrund miteinander verknüpft, aber bewusst nicht sichtbar
         — sonst würde die Verknüpfung die Diagnose vorwegnehmen.
+      </p>
+
+      <h3 style={{ marginBottom: 10 }}>Wissensbibliothek</h3>
+      <div className="card" style={{ padding: "4px 18px" }}>
+        {libraryPreview.length === 0 && (
+          <div className="empty-state">
+            <Image
+              src="/denkgang-mark.png"
+              alt=""
+              width={873}
+              height={873}
+              className="logo-img empty-state-mark"
+              style={{ width: 36, height: 36 }}
+            />
+            <p style={{ margin: 0 }}>
+              Fachartikel zum Vertiefen entstehen laufend — sie erscheinen hier nach Freigabe.
+            </p>
+          </div>
+        )}
+        {libraryPreview.map((k) => (
+          <Link key={k.id} href={`/library/${k.slug}`} className="queue-item">
+            <div>
+              <div className="qi-title">{k.title}</div>
+              <div className="qi-meta">{KNOWLEDGE_CATEGORY_LABELS[k.category]}</div>
+            </div>
+            <span className="tag">→</span>
+          </Link>
+        ))}
+      </div>
+      <p className="empty-note">
+        {libraryCount > 0
+          ? `${libraryCount} freigegebene${libraryCount === 1 ? "r Artikel" : " Artikel"} — `
+          : ""}
+        <Link href="/library" style={{ color: "var(--petrol)" }}>
+          Ganze Bibliothek durchsuchen
+        </Link>
+        . Bei falschen Antworten in Fällen und Anatomie schlägt Denkgang passende Artikel direkt vor.
       </p>
 
       <h3 style={{ marginBottom: 10 }}>
