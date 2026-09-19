@@ -4,6 +4,45 @@ import Image from "next/image";
 import { requireSession } from "@/lib/auth-helpers";
 import { getKnowledgeEntry } from "@/lib/queries";
 import { KNOWLEDGE_CATEGORY_LABELS } from "@/lib/knowledgeCategories";
+import type { KnowledgeBlock } from "@/lib/knowledgeBlocks";
+
+function KnowledgeBlockView({ block, index }: { block: KnowledgeBlock; index: number }) {
+  return (
+    <div className="kb-block" key={index}>
+      {block.heading && <div className="kb-heading">{block.heading}</div>}
+      {block.type === "text" && <div className="kb-text">{block.text}</div>}
+      {block.type === "list" && (
+        <ul className="kb-list">
+          {block.items.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      )}
+      {block.type === "table" && (
+        <div className="kb-table-wrap">
+          <table className="kb-table">
+            <thead>
+              <tr>
+                {block.columns.map((col, i) => (
+                  <th key={i}>{col}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {block.rows.map((row, i) => (
+                <tr key={i}>
+                  {row.map((cell, j) => (
+                    <td key={j}>{cell}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default async function KnowledgeEntryPage({ params }: PageProps<"/library/[slug]">) {
   await requireSession();
@@ -35,8 +74,10 @@ export default async function KnowledgeEntryPage({ params }: PageProps<"/library
       )}
 
       <div className="step-block">
-        <div className="card" style={{ whiteSpace: "pre-wrap" }}>
-          {entry.body}
+        <div className="card">
+          {(entry.sections as KnowledgeBlock[]).map((block, i) => (
+            <KnowledgeBlockView key={i} block={block} index={i} />
+          ))}
         </div>
         <div className="source-note">{entry.sourceStatus}</div>
       </div>

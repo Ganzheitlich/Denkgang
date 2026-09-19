@@ -6,6 +6,7 @@
  * Laufzeit der Netlify Function bekannt, nicht in dieser Sandbox).
  */
 import type { PrismaClient } from "@/generated/prisma/client";
+import type { KnowledgeBlock } from "@/lib/knowledgeBlocks";
 
 type HypothesisOption = {
   label: string;
@@ -80,10 +81,9 @@ type KnowledgeSeed = {
   category: KnowledgeCategory;
   title: string;
   teaser: string;
-  body: string;
+  sections: KnowledgeBlock[];
   errorTags: string[];
   sourceStatus: string;
-  bildUrl?: string;
   relatedCaseIds: string[];
   relatedAnatomyIds: string[];
 };
@@ -909,15 +909,32 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     title: "Warum Muskelatrophie nach einer Knie-OP mehr sagt als das äußere Erscheinungsbild",
     teaser:
       "Der M. quadriceps femoris als früher, objektiver Indikator für den Reha-Fortschritt nach Kreuzbandchirurgie.",
-    body:
-      "Ein Hund kann wenige Wochen nach einer TPLO-Operation äußerlich fit wirken — gutes Gangbild, kein sichtbares Schonen, reizfreies Gelenk. Trotzdem kann der M. quadriceps femoris am operierten Bein deutlich weniger Muskelvolumen zeigen als auf der gesunden Seite.\n\n" +
-      "Der M. quadriceps femoris entspringt mit vier Köpfen unter anderem am Os ilium und am Femur und setzt über die Patella und das Ligamentum patellae an der Tuberositas tibiae an. Seine Hauptfunktion ist die Extension des Kniegelenks — er ist damit der zentrale muskuläre Stabilisator des Kniegelenks, gerade nach einer Kreuzbandverletzung oder TPLO.\n\n" +
-      "Wird das operierte Bein im Alltag zu wenig belastet, baut sich dieser Muskel schneller ab, als es das äußere Gangbild vermuten lässt. Ein Seitenvergleich des Oberschenkelumfangs per Palpation ist deshalb ein einfacher, objektiver Indikator dafür, ob die tatsächliche Belastung im Alltag ausreicht — unabhängig davon, wie „fit“ der Hund wirkt.\n\n" +
-      "Klinisch bedeutet das: Muskelatrophie am operierten Bein ist kein Zeichen für einen neuen Kreuzbandriss und keine rein kosmetische Randnotiz, sondern ein Hinweis darauf, dass der Rehabilitationsplan die Belastung gezielt steigern muss — meist über ein strukturiertes Aufbautraining, nicht über Schonung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die Beobachtung",
+        text: "Ein Hund kann wenige Wochen nach einer TPLO-Operation äußerlich fit wirken — gutes Gangbild, kein sichtbares Schonen, reizfreies Gelenk. Trotzdem kann der M. quadriceps femoris am operierten Bein deutlich weniger Muskelvolumen zeigen als auf der gesunden Seite.",
+      },
+      {
+        type: "table",
+        heading: "M. quadriceps femoris im Überblick",
+        columns: ["Merkmal", "Angabe"],
+        rows: [
+          ["Ursprung", "vier Köpfe, u. a. Os ilium und Femur"],
+          ["Ansatz", "über Patella und Ligamentum patellae an der Tuberositas tibiae"],
+          ["Funktion", "Extension des Kniegelenks"],
+          ["Klinische Rolle", "zentraler muskulärer Stabilisator nach Kreuzbandverletzung/TPLO"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum das zählt",
+        text: "Wird das operierte Bein im Alltag zu wenig belastet, baut sich dieser Muskel schneller ab, als es das äußere Gangbild vermuten lässt. Ein Seitenvergleich des Oberschenkelumfangs per Palpation ist deshalb ein einfacher, objektiver Indikator dafür, ob die tatsächliche Belastung im Alltag ausreicht — unabhängig davon, wie „fit“ der Hund wirkt.\n\nKlinisch bedeutet das: Muskelatrophie am operierten Bein ist kein Zeichen für einen neuen Kreuzbandriss und keine rein kosmetische Randnotiz, sondern ein Hinweis darauf, dass der Rehabilitationsplan die Belastung gezielt steigern muss — meist über ein strukturiertes Aufbautraining, nicht über Schonung.",
+      },
+    ],
     errorTags: ["Befund überbewertet", "Faktenwissen"],
     sourceStatus:
       "Quellenkandidat: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 9 (Muskeln in Bewegung) behandelt die Muskulatur systematisch; genaue Seite für M. quadriceps femoris noch zu identifizieren. Status weiterhin DRAFT.",
-    bildUrl: "/cases/quadriceps-01.png",
     relatedCaseIds: ["bruno"],
     relatedAnatomyIds: ["quadriceps"],
   },
@@ -927,15 +944,34 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     title: "Bizepssehnen-Tendinopathie: warum ein Muskel über zwei Gelenke zum Problem wird",
     teaser:
       "Der M. biceps brachii zieht über Schulter und Ellenbogen — genau das macht ihn empfindlich für Überlastung bei aktiven Hunden.",
-    body:
-      "Der M. biceps brachii entspringt am Tuberculum supraglenoidale der Scapula und setzt an der Tuberositas radii an, mit einer Ansatzschleife auch an der proximalen Ulna. Damit wirkt er auf zwei Gelenke gleichzeitig: Er beugt den Ellenbogen und streckt gleichzeitig die Schulter.\n\n" +
-      "Genau diese zweigelenkige Funktion macht ihn bei aktiven, sportlich geforderten Hunden zu einem häufigen Sitz von Tendinopathien — vor allem nach wiederholter Überlastung der Schulter, etwa durch Sprünge, abruptes Abbremsen oder repetitive Belastung.\n\n" +
-      "Klinisch tastet man den Sehnenverlauf entlang der kranialen Schulter; der Druckschmerz sitzt dabei typischerweise nahe dem Ursprung. Entscheidend für die Unterscheidung von anderen Schulterproblemen ist der Bewegungstest: Weil der Muskel beide Gelenke überspannt, löst gerade die kombinierte Bewegung — Flexion des Ellenbogens bei gleichzeitiger Extension der Schulter — den stärksten Schmerz aus, nicht die isolierte Bewegung nur eines der beiden Gelenke.\n\n" +
-      "Wer den M. biceps brachii mit benachbarten Strukturen wie M. triceps brachii, M. supraspinatus oder M. deltoideus verwechselt, wählt in der Untersuchung die falschen Provokationstests und übersieht so leicht die eigentliche Ursache.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Gelenke, ein Muskel",
+        text: "Der M. biceps brachii entspringt am Tuberculum supraglenoidale der Scapula und setzt an der Tuberositas radii an, mit einer Ansatzschleife auch an der proximalen Ulna. Damit wirkt er auf zwei Gelenke gleichzeitig: Er beugt den Ellenbogen und streckt gleichzeitig die Schulter.\n\nGenau diese zweigelenkige Funktion macht ihn bei aktiven, sportlich geforderten Hunden zu einem häufigen Sitz von Tendinopathien — vor allem nach wiederholter Überlastung der Schulter, etwa durch Sprünge, abruptes Abbremsen oder repetitive Belastung.",
+      },
+      {
+        type: "table",
+        heading: "Untersuchung im Überblick",
+        columns: ["Aspekt", "Befund"],
+        rows: [
+          ["Palpationsort", "kraniale Schulter, Druckschmerz typischerweise nahe dem Ursprung"],
+          [
+            "Auslösender Test",
+            "kombinierte Bewegung: Flexion Ellenbogen + Extension Schulter löst den stärksten Schmerz aus",
+          ],
+          ["Häufige Verwechslung", "M. triceps brachii, M. supraspinatus, M. deltoideus"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Fazit",
+        text: "Wer den M. biceps brachii mit benachbarten Strukturen verwechselt, wählt in der Untersuchung die falschen Provokationstests und übersieht so leicht die eigentliche Ursache.",
+      },
+    ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
       "Quellenkandidat: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12 (Schulterregion). Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
-    bildUrl: "/cases/biceps-01.png",
     relatedCaseIds: ["rocky"],
     relatedAnatomyIds: ["biceps"],
   },
@@ -945,15 +981,32 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     title: "M. iliopsoas: wenn ein Muskelproblem wie eine Hüftgelenkerkrankung aussieht",
     teaser:
       "Eine der häufigsten Verwechslungen in der Diagnostik sportlich aktiver Hunde — und wie man sie sicher auflöst.",
-    body:
-      "Der M. iliopsoas setzt sich aus zwei Anteilen zusammen: dem M. psoas major, der an den Wirbelkörpern der letzten Brust-/Lendenwirbel entspringt, und dem M. iliacus, der von der Facies iliaca des Os ilium ausgeht. Beide vereinen sich und setzen gemeinsam am Trochanter minor des Femur an. Ihre Funktion ist die Flexion und Außenrotation des Hüftgelenks.\n\n" +
-      "Weil der Muskel direkt über das Hüftgelenk zieht, wird eine Überlastung dieses Muskels — eine klassische Verletzung bei sportlich aktiven Hunden, etwa im Agility — in der Untersuchung häufig mit einer echten Hüftgelenkpathologie verwechselt.\n\n" +
-      "Der entscheidende Unterschied zeigt sich in der Untersuchung: Bei einer reinen Muskelverletzung des M. iliopsoas ist die passive Beweglichkeit des Hüftgelenks meist vollständig schmerzfrei — der Schmerz tritt gezielt bei der Palpation ventral der Hüfte auf, nicht bei der passiven Gelenkbewegung selbst. Eine schmerzhafte passive Beweglichkeit in alle Richtungen, ein positives Ortolani-Zeichen oder Krepitation sprechen dagegen für eine echte Gelenkpathologie.\n\n" +
-      "Wer diesen Unterschied nicht gezielt prüft, läuft Gefahr, eine gut behandelbare Muskelüberlastung als Gelenkerkrankung fehlzudeuten — mit entsprechend falscher Therapieausrichtung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Aufbau und Funktion",
+        text: "Der M. iliopsoas setzt sich aus zwei Anteilen zusammen: dem M. psoas major, der an den Wirbelkörpern der letzten Brust-/Lendenwirbel entspringt, und dem M. iliacus, der von der Facies iliaca des Os ilium ausgeht. Beide vereinen sich und setzen gemeinsam am Trochanter minor des Femur an. Ihre Funktion ist die Flexion und Außenrotation des Hüftgelenks.\n\nWeil der Muskel direkt über das Hüftgelenk zieht, wird eine Überlastung dieses Muskels — eine klassische Verletzung bei sportlich aktiven Hunden, etwa im Agility — in der Untersuchung häufig mit einer echten Hüftgelenkpathologie verwechselt.",
+      },
+      {
+        type: "table",
+        heading: "Muskelverletzung vs. Gelenkpathologie",
+        columns: ["Befund", "M.-iliopsoas-Überlastung", "Echte Hüftgelenkpathologie"],
+        rows: [
+          ["Passive Beweglichkeit der Hüfte", "schmerzfrei, voller Umfang", "schmerzhaft in alle Richtungen"],
+          ["Palpation ventral der Hüfte", "schmerzhaft", "meist unauffällig"],
+          ["Ortolani-Zeichen", "negativ", "kann positiv sein"],
+          ["Krepitation", "nein", "möglich"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Fazit",
+        text: "Wer diesen Unterschied nicht gezielt prüft, läuft Gefahr, eine gut behandelbare Muskelüberlastung als Gelenkerkrankung fehlzudeuten — mit entsprechend falscher Therapieausrichtung.",
+      },
+    ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
       "Quellenkandidat: Könneker, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Thieme 2010, Kap. 7. Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
-    bildUrl: "/cases/iliopsoas-01.png",
     relatedCaseIds: ["emma"],
     relatedAnatomyIds: ["iliopsoas"],
   },
@@ -962,15 +1015,31 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     category: "ANATOMIE",
     title: "Wenn Rückenschmerz zuerst wie ein Verhaltensproblem aussieht",
     teaser: "Die Facettengelenke im lumbosakralen Übergang — eine oft unterschätzte, situativ auftretende Schmerzquelle.",
-    body:
-      "Die Facettengelenke verbinden die Wirbelbögen benachbarter Lendenwirbel und führen und begrenzen die Bewegung der Wirbelsäule, vor allem Rotation sowie Flexion und Extension. Versorgt werden sie sensibel über die Rr. dorsales der Spinalnerven.\n\n" +
-      "Schmerzen im lumbosakralen Übergang gehören zu den häufig unterschätzten Schmerzquellen beim Hund — nicht, weil sie selten sind, sondern weil sie sich oft anders zeigen als erwartet: nicht als durchgehende, klar sichtbare Lahmheit, sondern als situative Verhaltensänderung, etwa Zögern oder Abwehrverhalten beim Anlegen des Geschirrs.\n\n" +
-      "Genau das führt dazu, dass ein solches Beschwerdebild zunächst eher als Verhaltensproblem statt als orthopädisches Problem auffällt — obwohl die Wirbelsäule sensibel innerviert ist und Schmerz durchaus situativ ausgelöst werden kann, abhängig von der jeweiligen Belastungsrichtung.\n\n" +
-      "In der Untersuchung hilft die gezielte paravertebrale Palpation im Übergangsbereich, meist kombiniert mit Bewegungstests, um diese Schmerzquelle von einem primären Verhaltensproblem zu unterscheiden.",
+    sections: [
+      {
+        type: "text",
+        heading: "Aufbau und Funktion",
+        text: "Die Facettengelenke verbinden die Wirbelbögen benachbarter Lendenwirbel und führen und begrenzen die Bewegung der Wirbelsäule, vor allem Rotation sowie Flexion und Extension. Versorgt werden sie sensibel über die Rr. dorsales der Spinalnerven.\n\nSchmerzen im lumbosakralen Übergang gehören zu den häufig unterschätzten Schmerzquellen beim Hund — nicht, weil sie selten sind, sondern weil sie sich oft anders zeigen als erwartet: nicht als durchgehende, klar sichtbare Lahmheit, sondern als situative Verhaltensänderung, etwa Zögern oder Abwehrverhalten beim Anlegen des Geschirrs.",
+      },
+      {
+        type: "table",
+        heading: "Beobachtung und Einordnung",
+        columns: ["Beobachtung", "Einordnung"],
+        rows: [
+          ["Zögern/Abwehr beim Anlegen des Geschirrs", "situativer Schmerz bei bestimmter Bewegungsrichtung"],
+          ["Keine durchgehende Lahmheit", "schließt Facettengelenkschmerz nicht aus"],
+          ["Paravertebraler Druckschmerz im Übergang", "spricht für die Facettengelenke als Ursache"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Untersuchung",
+        text: "In der Untersuchung hilft die gezielte paravertebrale Palpation im Übergangsbereich, meist kombiniert mit Bewegungstests, um diese Schmerzquelle von einem primären Verhaltensproblem zu unterscheiden.",
+      },
+    ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
       "Quellenkandidaten: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16 (Die Wirbelsäule); der Verhaltensbezug ergänzend über Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 10. Status weiterhin DRAFT.",
-    bildUrl: "/cases/facettengelenke-01.png",
     relatedCaseIds: ["nala"],
     relatedAnatomyIds: ["facettengelenke"],
   },
@@ -979,15 +1048,32 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     category: "ANATOMIE",
     title: "Der Ortolani-Test: was er wirklich zeigt — und was nicht",
     teaser: "Kapsel-Band-Apparat der Hüfte, Laxität und warum ein positives Zeichen keine fertige Diagnose ist.",
-    body:
-      "Die Kongruenz von Femurkopf und Hüftpfanne wird maßgeblich durch das Ligamentum capitis femoris und die Gelenkkapsel gesichert — den Kapsel-Band-Apparat der Articulatio coxae. Innerviert wird die Gelenkkapsel über Äste des N. femoralis und N. ischiadicus.\n\n" +
-      "Bei einer Hüftdysplasie liegt eine Laxität dieses Kapsel-Band-Apparats vor. Diese Laxität zeigt sich im Wachstumsalter häufig schon durch Veränderungen im Gangbild — oft bevor auf einem Röntgenbild überhaupt sichtbare knöcherne Veränderungen zu erkennen sind.\n\n" +
-      "Der Ortolani-Test prüft gezielt genau diese Laxität. Ein positives Ortolani-Zeichen zeigt also eine Instabilität im Kapsel-Band-Apparat an, die typisch für eine Hüftdysplasie ist — es ist aber weder ein Nachweis einer bereits eingetretenen, irreversiblen Arthrose, noch eine Aussage über eine Muskelverkürzung der hüftumgreifenden Muskulatur, und schon gar keine normale, klinisch bedeutungslose Gelenkvariante.\n\n" +
-      "Wichtig für die Differentialdiagnostik: Ein Bunny-Hopping-Gangbild, Schmerz bei Hüftabduktion oder das junge Alter einer großwüchsigen Rasse sind unterstützende Hinweise, ersetzen aber nicht die gezielte Untersuchung — ebenso wenig wie der Schubladentest oder der Tibiakompressionstest, die andere Strukturen (das Kniegelenk) prüfen und hier keine Aussagekraft haben.",
+    sections: [
+      {
+        type: "text",
+        heading: "Kapsel-Band-Apparat der Hüfte",
+        text: "Die Kongruenz von Femurkopf und Hüftpfanne wird maßgeblich durch das Ligamentum capitis femoris und die Gelenkkapsel gesichert — den Kapsel-Band-Apparat der Articulatio coxae. Innerviert wird die Gelenkkapsel über Äste des N. femoralis und N. ischiadicus.",
+      },
+      {
+        type: "text",
+        heading: "Hüftdysplasie: Laxität vor dem Röntgenbild",
+        text: "Bei einer Hüftdysplasie liegt eine Laxität dieses Kapsel-Band-Apparats vor. Diese Laxität zeigt sich im Wachstumsalter häufig schon durch Veränderungen im Gangbild — oft bevor auf einem Röntgenbild überhaupt sichtbare knöcherne Veränderungen zu erkennen sind. Der Ortolani-Test prüft gezielt genau diese Laxität.",
+      },
+      {
+        type: "table",
+        heading: "Was ein positives Ortolani-Zeichen NICHT zeigt",
+        columns: ["Häufige Fehlannahme", "Richtig ist"],
+        rows: [
+          ["Beweis für bereits eingetretene Arthrose", "zeigt Laxität, keine Gelenkabnutzung"],
+          ["Aussage über Muskelverkürzung", "betrifft den Kapsel-Band-Apparat, nicht die Muskulatur"],
+          ["Normale, bedeutungslose Gelenkvariante", "klinisch relevanter Hinweis auf Hüftdysplasie"],
+          ["Test für das Kniegelenk", "prüft die Hüfte, nicht Schublade- oder Tibiakompressionstest"],
+        ],
+      },
+    ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
       "Quellenkandidat: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion — Anatomie Art. coxae). Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
-    bildUrl: "/cases/huefte-01.png",
     relatedCaseIds: ["luna"],
     relatedAnatomyIds: ["huefte"],
   },
@@ -996,15 +1082,36 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     category: "ANATOMIE",
     title: "Bandscheibenverschleiß ist kein Ereignis, sondern ein Verlauf",
     teaser: "Wie man den langsamen, altersbedingten Elastizitätsverlust der Bandscheibe von einem akuten Vorfall unterscheidet.",
-    body:
-      "Der Discus intervertebralis sorgt über den elastischen Nucleus pulposus und den umgebenden Anulus fibrosus für Stoßdämpfung und Beweglichkeit zwischen benachbarten Wirbelkörpern. Sensibel versorgt wird nur der äußere Anulus fibrosus, über den N. sinuvertebralis — direkt palpieren lässt sich die Bandscheibe daher nicht.\n\n" +
-      "Mit zunehmendem Alter verliert die Bandscheibe an Elastizität. Das kann zu degenerativen Veränderungen der Wirbelsäule wie einer Spondylose beitragen — typischerweise als langsamer, über Monate bis Jahre fortschreitender Prozess, nicht als plötzliches Ereignis.\n\n" +
-      "Das entscheidende Unterscheidungsmerkmal zu einem akuten Bandscheibenvorfall ist deshalb nicht das bloße Vorhandensein von Rückenschmerzen, nicht das Alter des Hundes allein und schon gar nicht das vollständige Fehlen einer Schmerzreaktion — sondern der zeitliche Verlauf: schleichend und fortschreitend versus plötzlich und akut verschlechternd.\n\n" +
-      "In der Untersuchung lässt sich die Bandscheibe nur indirekt einschätzen — über die Schmerzreaktion bei Druck auf die umliegende Wirbelsäule und über den Bewegungsumfang bei Rumpfrotation. Eine plötzliche, deutliche Verschlechterung ist dagegen immer ein Alarmsignal für ein akutes Geschehen und gehört zeitnah in tierärztliche Abklärung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Aufbau und Funktion",
+        text: "Der Discus intervertebralis sorgt über den elastischen Nucleus pulposus und den umgebenden Anulus fibrosus für Stoßdämpfung und Beweglichkeit zwischen benachbarten Wirbelkörpern. Sensibel versorgt wird nur der äußere Anulus fibrosus, über den N. sinuvertebralis — direkt palpieren lässt sich die Bandscheibe daher nicht.",
+      },
+      {
+        type: "text",
+        heading: "Ein Verlauf, kein Ereignis",
+        text: "Mit zunehmendem Alter verliert die Bandscheibe an Elastizität. Das kann zu degenerativen Veränderungen der Wirbelsäule wie einer Spondylose beitragen — typischerweise als langsamer, über Monate bis Jahre fortschreitender Prozess, nicht als plötzliches Ereignis.",
+      },
+      {
+        type: "table",
+        heading: "Chronischer Verschleiß vs. akuter Vorfall",
+        columns: ["Merkmal", "Chronischer Elastizitätsverlust", "Akuter Bandscheibenvorfall"],
+        rows: [
+          ["Zeitlicher Verlauf", "Monate bis Jahre, schleichend", "plötzlich, akute Verschlechterung"],
+          ["Rückenschmerz allein", "kein Unterscheidungsmerkmal", "kein Unterscheidungsmerkmal"],
+          ["Alter allein", "kein Unterscheidungsmerkmal", "kein Unterscheidungsmerkmal"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Untersuchung",
+        text: "In der Untersuchung lässt sich die Bandscheibe nur indirekt einschätzen — über die Schmerzreaktion bei Druck auf die umliegende Wirbelsäule und über den Bewegungsumfang bei Rumpfrotation. Eine plötzliche, deutliche Verschlechterung ist dagegen immer ein Alarmsignal für ein akutes Geschehen und gehört zeitnah in tierärztliche Abklärung.",
+      },
+    ],
     errorTags: ["Befund überbewertet", "Faktenwissen"],
     sourceStatus:
       "Fachliche Grundlage: etabliertes Wissen zu altersbedingten degenerativen Bandscheiben-/Wirbelsäulenveränderungen beim Hund. Konkrete Quellenverifizierung steht noch aus — Status: DRAFT, Quelle erforderlich.",
-    bildUrl: "/cases/discus-01.png",
     relatedCaseIds: ["baer"],
     relatedAnatomyIds: ["discus"],
   },
@@ -1013,15 +1120,43 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     category: "ANATOMIE",
     title: "Propriozeption: das früheste Warnsignal, bevor die Lähmung sichtbar wird",
     teaser: "Warum ein gehfähiger Hund trotzdem ein ernstzunehmendes neurologisches Problem haben kann.",
-    body:
-      "Das Rückenmark leitet motorische und sensible Signale zwischen Gehirn und Hintergliedmaßen. Die Propriozeption — die Eigenwahrnehmung der Gliedmaßenposition — ist dabei ein besonders empfindlicher, früher Indikator für die Funktion des Rückenmarks. Als Teil des zentralen Nervensystems hat das Rückenmark keine periphere Innervation im eigentlichen Sinne.\n\n" +
-      'Eine reduzierte Propriozeption zeigt sich klinisch zum Beispiel als verzögertes Zurückstellen einer umgedrehten Pfote ("Knuckling") — der Hund merkt die falsche Position der Pfote nicht sofort und lässt sie kurz auf dem behaarten Pfotenrücken statt auf den Ballen stehen. Geprüft wird das über einen einfachen Funktionstest: Die Pfote wird vorsichtig umgedreht, und beobachtet wird, wie schnell der Hund sie zurückstellt.\n\n' +
-      "Das Entscheidende dabei: Propriozeptionsstörungen treten häufig auf, bevor eine deutliche Lähmung sichtbar wird. Ein Hund, der noch gehen kann, ist deshalb nicht automatisch neurologisch unauffällig — die reine Beobachtung der Gehfähigkeit reicht nicht aus, um eine beginnende Rückenmarksbeeinträchtigung auszuschließen.\n\n" +
-      "Gerade weil dieses Zeichen so früh auftritt und leicht übersehen wird, sollte ein auffälliger Propriozeptionstest immer ernst genommen und zeitnah tierärztlich-neurologisch abgeklärt werden — unabhängig vom Alter des Hundes.",
+    sections: [
+      {
+        type: "text",
+        heading: "Rückenmark und Propriozeption",
+        text: "Das Rückenmark leitet motorische und sensible Signale zwischen Gehirn und Hintergliedmaßen. Die Propriozeption — die Eigenwahrnehmung der Gliedmaßenposition — ist dabei ein besonders empfindlicher, früher Indikator für die Funktion des Rückenmarks. Als Teil des zentralen Nervensystems hat das Rückenmark keine periphere Innervation im eigentlichen Sinne.",
+      },
+      {
+        type: "text",
+        heading: 'Das Warnsignal: "Knuckling"',
+        text: 'Eine reduzierte Propriozeption zeigt sich klinisch zum Beispiel als verzögertes Zurückstellen einer umgedrehten Pfote ("Knuckling") — der Hund merkt die falsche Position der Pfote nicht sofort und lässt sie kurz auf dem behaarten Pfotenrücken statt auf den Ballen stehen.',
+      },
+      {
+        type: "table",
+        heading: "Prüfung im Überblick",
+        columns: ["Test", "Durchführung", "Auffälliger Befund"],
+        rows: [
+          [
+            "Propriozeptionstest",
+            "Pfote vorsichtig umdrehen, Rückstellzeit beobachten",
+            'verzögertes oder ausbleibendes Zurückstellen ("Knuckling")',
+          ],
+          [
+            "Gehfähigkeit allein",
+            "Beobachtung des normalen Gangs",
+            "kann trotz beginnender Rückenmarksbeeinträchtigung unauffällig wirken",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum das ernst genommen werden muss",
+        text: "Propriozeptionsstörungen treten häufig auf, bevor eine deutliche Lähmung sichtbar wird. Gerade weil dieses Zeichen so früh auftritt und leicht übersehen wird, sollte ein auffälliger Propriozeptionstest immer ernst genommen und zeitnah tierärztlich-neurologisch abgeklärt werden — unabhängig vom Alter des Hundes.",
+      },
+    ],
     errorTags: ["Befund überbewertet", "Faktenwissen"],
     sourceStatus:
       "Fachliche Grundlage: etabliertes neurologisches Grundlagenwissen zur Propriozeptionsprüfung als frühem Indikator für Rückenmarksbeeinträchtigungen beim Hund. Konkrete Quellenverifizierung steht noch aus — Status: DRAFT, Quelle erforderlich.",
-    bildUrl: "/cases/rueckenmark-01.png",
     relatedCaseIds: ["filou"],
     relatedAnatomyIds: ["rueckenmark"],
   },
@@ -1146,21 +1281,19 @@ export async function seedContent(prisma: PrismaClient) {
         category: k.category,
         title: k.title,
         teaser: k.teaser,
-        body: k.body,
+        sections: k.sections,
         errorTags: k.errorTags,
         sourceStatus: k.sourceStatus,
-        bildUrl: k.bildUrl ?? null,
       },
       create: {
         slug: k.id,
         category: k.category,
         title: k.title,
         teaser: k.teaser,
-        body: k.body,
+        sections: k.sections,
         status: "DRAFT",
         errorTags: k.errorTags,
         sourceStatus: k.sourceStatus,
-        bildUrl: k.bildUrl,
       },
     });
 

@@ -114,7 +114,6 @@ export default async function ReviewPage() {
             title={k.title}
             meta={KNOWLEDGE_CATEGORY_LABELS[k.category]}
             status={k.status}
-            thumbUrl={k.bildUrl}
             action={setContentStatus.bind(
               null,
               "knowledge",

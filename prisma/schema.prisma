@@ -201,7 +201,7 @@ model KnowledgeEntry {
   category     KnowledgeCategory
   title        String
   teaser       String            @db.Text
-  body         String            @db.Text
+  sections     Json
   status       ContentStatus     @default(DRAFT)
   errorTags    String[]
   sourceStatus String            @db.Text
