@@ -1416,6 +1416,116 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["findus", "rocky", "nala", "emma", "bruno"],
     relatedAnatomyIds: [],
   },
+  {
+    id: "ganganalyse-gangbild",
+    category: "UNTERSUCHUNG",
+    title: "Ganganalyse – was das Gangbild verrät",
+    teaser:
+      "Wie man aus Trab, Standphase und Kopfbewegung die betroffene Gliedmaße erkennt, noch bevor überhaupt palpiert wird.",
+    sections: [
+      {
+        type: "text",
+        text: "Die Ganganalyse ist der erste Schritt jeder orthopädischen Untersuchung, noch vor der Palpation. Sie prüft, ob die Angaben aus der Anamnese zutreffen, identifiziert die betroffene Gliedmaße und liefert erste Hinweise auf die Art des Problems. Am aussagekräftigsten ist dabei der Trab: Er zeigt auch diskrete Lahmheiten am deutlichsten, deshalb beginnt die Ganganalyse meist mit dieser Gangart.",
+      },
+      {
+        type: "list",
+        heading: "Worauf geachtet wird",
+        items: [
+          "Vorführen im Schritt, Trab und Galopp — auf ebenem Untergrund, unebenem Gelände (z. B. Kies), Treppen und wenn möglich im Freien ohne Ablenkung.",
+          "Beurteilung von vorne, von hinten und von der Seite, idealerweise auf einem Dreieckkurs.",
+          "Der erste Eindruck beim Aufstehen, z. B. direkt nach der Anamnese-Erhebung — Anlauflahmheiten zeigen sich in den ersten Schritten oft deutlicher als später in der Ganganalyse.",
+          "Verhalten beim Treppensteigen (Gewichtsverlagerung nach vorn bergab, nach hinten bergauf) und beim Springen, z. B. ins Auto.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Stützbeinlahmheit erkennen",
+        text: "Bei Schmerzen oder Funktionsstörungen wird die betroffene Gliedmaße weniger lang belastet als die gesunde — das Gewicht verlagert sich auf die gesunde Seite. Erkennbar ist das an einer deutlich längeren Standphase der gesunden Gliedmaße und, bei Vordergliedmaßenproblemen, an einer Kopfbewegung in Richtung des gesunden Beines. Man spricht von einer Stützbeinlahmheit. Deutlich seltener, aber leicht zu erkennen, ist die Hangbeinlahmheit: Hier wird die betroffene Gliedmaße zeitweise oder gar nicht mehr aufgesetzt.",
+      },
+      {
+        type: "table",
+        heading: "Lahmheitsgrade nach Brunnberg (zitiert nach Koch/Fischer)",
+        columns: ["Grad", "Beschreibung"],
+        rows: [
+          ["1", "kaum gestört"],
+          ["2", "gestört, aber stetig belastend"],
+          ["3", "gestört, nicht stetig belastend"],
+          ["4", "gestört, keine Belastung"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Proximal vs. distal — eine Faustregel",
+        text: "Distale Probleme (z. B. an Zehen, Pfote, Sprunggelenk) führen tendenziell zu deutlicherer Lahmheit, teils sogar zur Hangbeinlahmheit. Proximale Probleme (z. B. Hüfte, Schulter) fallen dagegen oft weniger stark auf, weil die kräftige Muskulatur um diese Gelenke stabilisierend wirkt — Ausnahmen sind starke Schmerzen (z. B. bei Knochentumoren) oder neurologische Ausfälle. Dieselbe Faustregel erklärt, warum sich eine Lahmheit auf unebenem Terrain verstärkt, wenn sie distal liegt: Bleibt sie auf unterschiedlichem Untergrund gleich ausgeprägt, spricht das eher für eine proximalere Ursache.",
+      },
+      {
+        type: "table",
+        heading: "Einzelne Beobachtungen und ihre Bedeutung (Beispiele)",
+        columns: ["Beobachtung", "Möglicher Hinweis"],
+        rows: [
+          ["Hüpfen mit einer Hintergliedmaße", "Patellaluxation"],
+          [
+            "Komplette Entlastung eines Beins",
+            "Trauma, Panosteitis, Neoplasie oder Kreuzbandriss mit Meniskusschaden",
+          ],
+          ["Kurze Schrittlänge der Hinterbeine", "Gelenkproblem, häufig Hüftgelenk betroffen"],
+          [
+            "Sprungverweigerung oder reduzierte Sprunghöhe",
+            "eher Hüfte, Becken, Wirbelsäule oder neuromuskuläre Ursache als ein distales Gelenkproblem",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Wichtig für die klinische Denkkette",
+        text: "Die Ganganalyse liefert Hinweise, keine Diagnose. Jede der genannten Beobachtungen kann mehrere Ursachen haben — sie engt die Differentialdiagnosen ein, ersetzt aber nicht die anschließende gezielte Palpation und ggf. Bildgebung.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund – Funktionelle Anatomie, Diagnostik und Therapie (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 4 (Adspektion und Ganganalyse), S. 80–82. Untersuchungsablauf, Stützbein-/Hangbeinlahmheit, Lahmheitsgrade und die zitierten Beispiel-Beobachtungen sind im Original so beschrieben. Die Lahmheitsgrade werden dort selbst als „nach Brunnberg\" zitiert — Brunnbergs Originalpublikation wurde nicht separat geprüft, sondern als Sekundärzitat aus Koch/Fischer übernommen.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "neuro-screening-orthopaedie",
+    category: "UNTERSUCHUNG",
+    title: "Warum jede Lahmheitsuntersuchung auch neurologisch prüft",
+    teaser:
+      "Ein kurzer neurologischer Check gehört in jeden orthopädischen Untersuchungsgang — Lahmheiten lassen sich nicht automatisch einem orthopädischen Leiden zuordnen.",
+    sections: [
+      {
+        type: "text",
+        text: "Vor der eigentlichen orthopädischen Untersuchung steht eine kurze Allgemeinuntersuchung: Atmung, Puls, Temperatur, kapilläre Füllungszeit, Schleimhautfarbe, Lymphknoten, Herzauskultation, Haut und allgemeine Körperkontur. Auffälligkeiten hier können bereits Hinweise liefern — etwa eine erhöhte Körpertemperatur bei hypertropher Osteodystrophie, Panosteitis oder einem akuten Schub einer Polyarthritis, oder ein regional vergrößerter Lymphknoten bei Neoplasie, Verletzung oder Infektion.",
+      },
+      {
+        type: "text",
+        heading: "Der neurologische Kurz-Check",
+        text: "Lahmheiten lassen sich nicht von vornherein einem orthopädischen Leiden zuordnen — sie können ebenso neurologisch bedingt sein. Deshalb gehört ein kurzer neurologischer Untersuchungsgang in jede orthopädische Untersuchung, bevor man sich auf eine Gliedmaße oder ein Gelenk festlegt.",
+      },
+      {
+        type: "list",
+        heading: "Bestandteile des kurzen neurologischen Checks",
+        items: [
+          "tiefe Palpation der gesamten Wirbelsäule",
+          "Drehen des Kopfes in alle Richtungen",
+          "Überkötungsreaktionen der Zehen",
+          "kurze Prüfung der Kopfnervenfunktionen",
+          "Prüfung der Reflexantworten der wichtigsten Gliedmaßennerven",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Konsequenz bei Auffälligkeiten",
+        text: "Zeigt dieser kurze Check Abweichungen von der Norm, reicht er nicht mehr aus — dann muss ein vollständiger neurologischer Untersuchungsgang angeschlossen werden, bevor die orthopädische Einordnung weitergeht.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5 (Untersuchung des stehenden Hundes), Abschnitt 5.1 (Voruntersuchungen), S. 82. Allgemeinuntersuchung, neurologischer Kurz-Check und die genannten Beispiel-Hinweise sind im Original so beschrieben.",
+    relatedCaseIds: ["nala"],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
