@@ -17,9 +17,9 @@ eines Buchordners findet trotzdem zuverlässig die richtige Teildatei/Kapitel.
 | M. biceps brachii — Ursprung/Ansatz/Funktion (biceps, Rocky) | Hárrer, Kap. 12, S. 127–132 | ✅ **Vollständig bestätigt**. Untersuchungstechnik im Fall ist eine vereinfachte Zusammenfassung zweier im Original getrennter Tests. |
 | Ortolani-Test — Mechanik (huefte, Luna) | Hárrer, Kap. 7, S. 43–48 | ✅ **Test-Mechanik exakt bestätigt** (longitudinaler Druck, Subluxation, Reposition mit Klick). ⚠️ „Ligamentum capitis femoris" und „Hüftdysplasie" kommen in diesem Kapitel nicht vor — dieser Teil bleibt NICHT VERIFIZIERT gegen diese Quelle (ist etabliertes Allgemeinwissen, aber nicht hier belegt). |
 | Facettengelenke als Struktur (facettengelenke, Nala) | Hárrer, Kap. 16, ab S. 202 | ✅ Struktur bestätigt. ⚠️ „Lumbosakraler Übergang" als Begriff dort nicht wörtlich vorhanden. Verhaltensbezug (Hohmann Kap. 10) noch NICHT VERIFIZIERT. |
+| M. iliopsoas — Ursprung/Ansatz/Funktion (iliopsoas, Emma) | Könneker, Kap. 7 (Tab. Beckengliedmaße) + Hárrer, Kap. 7, S. 47f. | ✅ **Vollständig bestätigt** — **Korrektur**: Ursprung M. iliacus ist „Facies sacropelvina ossis ilii", nicht „Facies iliaca" wie zuvor angegeben (jetzt korrigiert). Hárrer bestätigt zusätzlich fast wortgleich: „reflektorisch häufig verspannt bei Hüftproblemen sind der M. iliopsoas". |
+| Übergewicht als Risikofaktor für Bewegungsapparat (Findus) | Zentek, Kap. 7.10, S. 311 | ✅ **Vollständig bestätigt**, nahezu wortgleiches Zitat: „Bei älteren Hunden stellt Überernährung in Verbindung mit Übergewicht einen wichtigen Risikofaktor für Erkrankungen des Bewegungsapparats dar." Die konkrete Mechanik „mechanische Gelenkbelastung" ist eigene, plausible Erklärung, nicht wortgleich zitiert. |
 | M. quadriceps femoris — Details (quadriceps, Bruno) | Hohmann/Mima, Kap. 9 | ⚠️ Muskel als tastbare Landmarke bestätigt (Kap. 7), aber Kap. 9 (Ursprung/Ansatz/Funktion) ist zu groß für vollständige Extraktion — Inhalt noch nicht direkt geprüft. |
-| Iliopsoas (Emma) | Könneker + Hárrer | Noch nicht geprüft in dieser Runde. |
-| Findus-Fall (Ernährung/Gewicht) | Zentek | Noch nicht geprüft in dieser Runde. |
 | Rocky — Kap. 13 + Welter-Böller | Hárrer Kap. 13, Welter-Böller Kap. 6 | Noch nicht geprüft. |
 
 ## Vollständige Fachbibliothek (Drive, Stand 20.09.2026)
@@ -41,10 +41,9 @@ Besonders relevant für künftige Kategorien:
 
 ## Nächste Schritte
 
-1. Iliopsoas/Emma (Könneker) und Findus (Zentek) prüfen.
-2. Rocky Kap. 13 (Ellenbogenregion) + Welter-Böller prüfen.
-3. Quadriceps/Bruno: Weg finden, um Kap. 9 (Hohmann/Mima) trotz Dateigröße gezielt zu prüfen
+1. Rocky Kap. 13 (Ellenbogenregion) + Welter-Böller prüfen.
+2. Quadriceps/Bruno: Weg finden, um Kap. 9 (Hohmann/Mima) trotz Dateigröße gezielt zu prüfen
    (z. B. gezieltere `fullText`-Suche nach "Rectus femoris" statt ganzes Kapitel laden).
-4. Hohmann-Korrektur (Co-Autorin „Mima") in den 3 betroffenen Content-Items nachziehen.
-5. Danach: neue Inhalte auf Basis der jetzt vollständigen Bibliothek planen (v. a. Pathologie,
+3. Hohmann-Korrektur (Co-Autorin „Mima") in den betroffenen Content-Items nachziehen.
+4. Danach: neue Inhalte auf Basis der jetzt vollständigen Bibliothek planen (v. a. Pathologie,
    Untersuchungstechniken).

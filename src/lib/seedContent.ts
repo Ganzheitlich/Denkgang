@@ -464,7 +464,7 @@ const CASES: CaseSeed[] = [
       { label: "Ausschließlich kosmetische Bedeutung", correct: false, errorCategory: "Faktenwissen" },
     ],
     sourceStatus:
-      "Quellenkandidat: Zentek, Ernährung des Hundes (ISBN 978-3-132-46109-3), Thieme 2026, Kap. 2.4 (Körperzusammensetzung/Adipositas) und Kap. 7 (Fütterungsbedingte Erkrankungen, betrifft laut Quelle u. a. den Bewegungsapparat). Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+      "Verifiziert: Zentek, Ernährung des Hundes (ISBN 978-3-132-46109-3), Thieme 2026, Kap. 7.10 (Erkrankungen des Bewegungsapparates), S. 311 — „Bei älteren Hunden stellt Überernährung in Verbindung mit Übergewicht einen wichtigen Risikofaktor für Erkrankungen des Bewegungsapparats dar\" (wortnahes Zitat). Die konkrete Mechanik „erhöhte mechanische Belastung von Gelenken/Wirbelsäule\" ist eine plausible eigene Erklärung dieses Zusammenhangs, nicht wortgleich aus dieser Quelle zitiert. Kap. 2.4 wurde in dieser Prüfung nicht gesondert eingesehen.",
     einstiegsbildUrl: "/cases/findus-01.png",
     befundbildUrl: "/cases/findus-02.png",
   },
@@ -541,7 +541,7 @@ const CASES: CaseSeed[] = [
       { label: "Flexion des Kniegelenks", correct: false, errorCategory: "Anatomieverwechslung" },
     ],
     sourceStatus:
-      "Quellenkandidaten: Könneker, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Thieme 2010, Kap. 7 (Palpation des M. iliopsoas); ergänzend Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion — Iliopsoas als reflektorisch häufig verspannter Muskel bei Hüftproblemen genannt). Status weiterhin DRAFT — Seitenangaben und fachliche Freigabe stehen noch aus.",
+      "Verifiziert: Könneker, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Thieme 2010, Kap. 7 (Osteoartikuläre Techniken, Tabelle Beckengliedmaße) — Ursprung/Ansatz/Funktion des M. iliopsoas bestätigt (Ursprung M. iliacus: Facies sacropelvina ossis ilii, nicht „Facies iliaca\" wie zuvor angegeben — korrigiert). Ergänzend Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7, S. 47f. — „reflektorisch häufig verspannt bei Hüftproblemen sind der M. iliopsoas\" wortnah bestätigt.",
     einstiegsbildUrl: "/cases/emma-01.png",
   },
   {
@@ -730,7 +730,7 @@ const ANATOMY: AnatomySeed[] = [
     id: "iliopsoas",
     name: "M. iliopsoas",
     relatedCaseId: "emma",
-    origin: "Wirbelkörper der letzten Brust-/Lendenwirbel (M. psoas major) und Facies iliaca des Os ilium (M. iliacus)",
+    origin: "Wirbelkörper der letzten Brust-/Lendenwirbel (M. psoas major) und Facies sacropelvina des Os ilium (M. iliacus)",
     insertion: "Trochanter minor des Femur",
     funktion: "Flexion und Außenrotation des Hüftgelenks",
     innervation: "Äste des Plexus lumbalis",
@@ -745,7 +745,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Krepitation im Gelenk", correct: false },
     ],
     sourceStatus:
-      "Quellenkandidat: Könneker, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Thieme 2010, Kap. 7. Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+      "Verifiziert: Könneker, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Thieme 2010, Kap. 7, Tabelle Beckengliedmaße — Ursprung (M. iliacus: Facies sacropelvina ossis ilii), Ansatz (Trochanter minor) und Funktion (Flexion, Außenrotation Hüfte, Stabilisation LWS) bestätigt. Die Differenzierung Muskel- vs. Gelenkschmerz (Tabelle in Denkgang) ist eigene Synthese aus allgemeinen Untersuchungsprinzipien, nicht wortgleich aus dieser Quelle übernommen.",
     bildUrl: "/cases/iliopsoas-01.png",
   },
   {
@@ -985,7 +985,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       {
         type: "text",
         heading: "Aufbau und Funktion",
-        text: "Der M. iliopsoas setzt sich aus zwei Anteilen zusammen: dem M. psoas major, der an den Wirbelkörpern der letzten Brust-/Lendenwirbel entspringt, und dem M. iliacus, der von der Facies iliaca des Os ilium ausgeht. Beide vereinen sich und setzen gemeinsam am Trochanter minor des Femur an. Ihre Funktion ist die Flexion und Außenrotation des Hüftgelenks.\n\nWeil der Muskel direkt über das Hüftgelenk zieht, wird eine Überlastung dieses Muskels — eine klassische Verletzung bei sportlich aktiven Hunden, etwa im Agility — in der Untersuchung häufig mit einer echten Hüftgelenkpathologie verwechselt.",
+        text: "Der M. iliopsoas setzt sich aus zwei Anteilen zusammen: dem M. psoas major, der an den Wirbelkörpern der letzten Brust-/Lendenwirbel entspringt, und dem M. iliacus, der von der Facies sacropelvina des Os ilium ausgeht. Beide vereinen sich und setzen gemeinsam am Trochanter minor des Femur an. Ihre Funktion ist die Flexion und Außenrotation des Hüftgelenks.\n\nWeil der Muskel direkt über das Hüftgelenk zieht, wird eine Überlastung dieses Muskels — eine klassische Verletzung bei sportlich aktiven Hunden, etwa im Agility — in der Untersuchung häufig mit einer echten Hüftgelenkpathologie verwechselt.",
       },
       {
         type: "table",
@@ -1006,7 +1006,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
-      "Quellenkandidat: Könneker, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Thieme 2010, Kap. 7. Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+      "Verifiziert: Könneker, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Thieme 2010, Kap. 7, Tabelle Beckengliedmaße — Ursprung (M. iliacus: Facies sacropelvina ossis ilii), Ansatz (Trochanter minor) und Funktion (Flexion, Außenrotation Hüfte, Stabilisation LWS) bestätigt. Die Differenzierung Muskel- vs. Gelenkschmerz (Tabelle in Denkgang) ist eigene Synthese aus allgemeinen Untersuchungsprinzipien, nicht wortgleich aus dieser Quelle übernommen.",
     relatedCaseIds: ["emma"],
     relatedAnatomyIds: ["iliopsoas"],
   },
