@@ -160,7 +160,7 @@ const CASES: CaseSeed[] = [
       { label: "M. deltoideus", correct: false, errorCategory: "Anatomieverwechslung" },
     ],
     sourceStatus:
-      "Quellenkandidaten: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12 (Schulterregion) und Kap. 13 (Ellenbogenregion); ergänzend Welter-Böller, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme 2025, Kap. 6 (Überlastungsschäden am Tuberculum supraglenoidale). Status weiterhin DRAFT — genaue Seitenangaben und fachliche Freigabe stehen noch aus.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12 (Schulterregion), S. 127–132 — Anatomie und Untersuchung der Bizepssehnenproblematik dort bestätigt (siehe Anatomie-Item „biceps\"). Kap. 13 (Ellenbogenregion) und Welter-Böller, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme 2025, Kap. 6, sind noch NICHT VERIFIZIERT.",
     einstiegsbildUrl: "/cases/rocky-01.png",
   },
   {
@@ -385,7 +385,7 @@ const CASES: CaseSeed[] = [
       { label: "Der Sitz-Test", correct: false, errorCategory: "Faktenwissen" },
     ],
     sourceStatus:
-      "Quellenkandidat: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion, inkl. Kollodiaphysenwinkel und PennHIP-Verfahren als Diagnostikhinweis auf Hüftdysplasie). Achtung: Der im Fall verwendete Ortolani-Test ist ein etabliertes Standardverfahren, aber noch nicht direkt an dieser Quelle verifiziert. Status weiterhin DRAFT.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion), S. 43–48 — der im Fall verwendete Ortolani-Test ist dort exakt so beschrieben (longitudinaler Druck, Subluxation, Reposition mit Klick). Kollodiaphysenwinkel und PennHIP-Verfahren werden in diesem Kapitel nicht erwähnt — dieser Teil bleibt NICHT VERIFIZIERT.",
     einstiegsbildUrl: "/cases/luna-01.png",
     befundbildUrl: "/cases/luna-02.png",
   },
@@ -723,7 +723,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Ausschließlich Bewegung im Karpalgelenk, unabhängig von Ellenbogen und Schulter", correct: false },
     ],
     sourceStatus:
-      "Quellenkandidat: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12 (Schulterregion). Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12 (Schulterregion und skapulothorakales Gleitlager), S. 127–132. Ursprung (Tuberculum supraglenoidale der Scapula), Ansatz (Tuberositas radii sowie ein Schenkel zur Ulna) und Funktion (Flexion/Supination Ellenbogen, Extension Schulter, Stabilisation in der Stemmphase) im Original bestätigt. Die im Fall beschriebene Untersuchungstechnik fasst zwei im Original getrennte Tests vereinfacht zusammen (Rupturtest über Bewegungsausmaß bei kombinierter Schulterflexion/Ellenbogenextension; separater Palpationsschmerztest der Sehne im Sulcus intertubercularis).",
     bildUrl: "/cases/biceps-01.png",
   },
   {
@@ -797,7 +797,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Weil Verhalten und Körper beim Hund unabhängig voneinander sind", correct: false },
     ],
     sourceStatus:
-      "Quellenkandidaten: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16 (Die Wirbelsäule); der Verhaltensbezug ergänzend über Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 10. Status weiterhin DRAFT.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16 (Die Wirbelsäule), ab S. 202 — Facettengelenke als Struktur und ihre Rolle bei der Bewegungsführung/-hemmung im Original bestätigt. Der Begriff „lumbosakraler Übergang\" kommt in diesem Kapitel wörtlich nicht vor (allgemein anerkannte anatomische Region, hier aber nicht direkt durch diese Quelle belegt). Der Verhaltensbezug (Hohmann, Kap. 10) ist noch NICHT VERIFIZIERT — Quelle erforderlich.",
     bildUrl: "/cases/facettengelenke-01.png",
   },
   {
@@ -819,7 +819,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Eine normale Gelenkvariante ohne klinische Bedeutung", correct: false },
     ],
     sourceStatus:
-      "Quellenkandidat: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion — Anatomie Art. coxae). Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion), S. 43–48 — der Ortolani-Test (longitudinaler Druck zum Femur, Subluxation nach dorsal, Reposition mit hörbarem Klick bei Abduktion) ist dort exakt bestätigt. ACHTUNG: „Ligamentum capitis femoris\" und „Hüftdysplasie\" werden in diesem Kapitel nicht erwähnt — dieser Teil der Aussage ist etabliertes veterinärmedizinisches Wissen, aber NICHT VERIFIZIERT gegen diese spezifische Quelle.",
     bildUrl: "/cases/huefte-01.png",
   },
   {
@@ -971,7 +971,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
-      "Quellenkandidat: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12 (Schulterregion). Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12 (Schulterregion und skapulothorakales Gleitlager), S. 127–132. Ursprung, Ansatz und Funktion im Original bestätigt; die beschriebene Untersuchungstechnik fasst zwei im Original getrennte Tests vereinfacht zusammen.",
     relatedCaseIds: ["rocky"],
     relatedAnatomyIds: ["biceps"],
   },
@@ -1039,7 +1039,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
-      "Quellenkandidaten: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16 (Die Wirbelsäule); der Verhaltensbezug ergänzend über Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 10. Status weiterhin DRAFT.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16 (Die Wirbelsäule), ab S. 202 — Facettengelenke als Struktur bestätigt, „lumbosakraler Übergang\" als Begriff dort nicht wörtlich belegt. Der Verhaltensbezug (Hohmann, Kap. 10) ist noch NICHT VERIFIZIERT.",
     relatedCaseIds: ["nala"],
     relatedAnatomyIds: ["facettengelenke"],
   },
@@ -1073,7 +1073,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
-      "Quellenkandidat: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion — Anatomie Art. coxae). Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion), S. 43–48 — der Ortolani-Test (longitudinaler Druck zum Femur, Subluxation nach dorsal, Reposition mit hörbarem Klick bei Abduktion) ist dort exakt bestätigt. ACHTUNG: „Ligamentum capitis femoris\" und „Hüftdysplasie\" werden in diesem Kapitel nicht erwähnt — dieser Teil der Aussage ist etabliertes veterinärmedizinisches Wissen, aber NICHT VERIFIZIERT gegen diese spezifische Quelle.",
     relatedCaseIds: ["luna"],
     relatedAnatomyIds: ["huefte"],
   },
