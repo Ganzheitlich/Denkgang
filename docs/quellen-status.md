@@ -19,8 +19,8 @@ eines Buchordners findet trotzdem zuverlässig die richtige Teildatei/Kapitel.
 | Facettengelenke als Struktur (facettengelenke, Nala) | Hárrer, Kap. 16, ab S. 202 | ✅ Struktur bestätigt. ⚠️ „Lumbosakraler Übergang" als Begriff dort nicht wörtlich vorhanden. Verhaltensbezug (Hohmann Kap. 10) noch NICHT VERIFIZIERT. |
 | M. iliopsoas — Ursprung/Ansatz/Funktion (iliopsoas, Emma) | Könneker, Kap. 7 (Tab. Beckengliedmaße) + Hárrer, Kap. 7, S. 47f. | ✅ **Vollständig bestätigt** — **Korrektur**: Ursprung M. iliacus ist „Facies sacropelvina ossis ilii", nicht „Facies iliaca" wie zuvor angegeben (jetzt korrigiert). Hárrer bestätigt zusätzlich fast wortgleich: „reflektorisch häufig verspannt bei Hüftproblemen sind der M. iliopsoas". |
 | Übergewicht als Risikofaktor für Bewegungsapparat (Findus) | Zentek, Kap. 7.10, S. 311 | ✅ **Vollständig bestätigt**, nahezu wortgleiches Zitat: „Bei älteren Hunden stellt Überernährung in Verbindung mit Übergewicht einen wichtigen Risikofaktor für Erkrankungen des Bewegungsapparats dar." Die konkrete Mechanik „mechanische Gelenkbelastung" ist eigene, plausible Erklärung, nicht wortgleich zitiert. |
-| M. quadriceps femoris — Details (quadriceps, Bruno) | Hohmann/Mima, Kap. 9 | ⚠️ Muskel als tastbare Landmarke bestätigt (Kap. 7), aber Kap. 9 (Ursprung/Ansatz/Funktion) ist zu groß für vollständige Extraktion — Inhalt noch nicht direkt geprüft. |
-| Rocky — Kap. 13 + Welter-Böller | Hárrer Kap. 13, Welter-Böller Kap. 6 | Noch nicht geprüft. |
+| M. quadriceps femoris — Details (quadriceps, Bruno) | Hohmann, Kap. 9 | ⚠️ Muskel als tastbare Landmarke bestätigt (Kap. 7). `fullText`-Suche bestätigt, dass „Quadriceps femoris" im Kapitel 9 (b11.pdf) vorkommt, aber die Extraktion bricht bei jedem Versuch nach S. 297 ab (Kapitel ist zu lang / Datei zu groß, ~15 MB) — die eigentliche Textstelle mit Ursprung/Ansatz/Funktion bleibt technisch nicht erreichbar. Bleibt offen. |
+| Rocky — Kap. 13 + Welter-Böller | Hárrer Kap. 13, Welter-Böller Kap. 6, S. 53 | ✅ Hárrer Kap. 13 bestätigt Ellenbogendysplasie als reale Differenzialdiagnose (Distraktor), sonst nichts Neues. Welter-Böller bestätigt wörtlich: Tuberculum supraglenoidale = Knochenhöcker über der Gelenkpfanne der Scapula, Ursprung der Bizepssehne (deckt retrievalQ ab). ⚠️ Der dort beschriebene Schadensmechanismus (Apophysenausriss bei Überbeanspruchung) betrifft nur die Wachstumsphase (bis 5. Monat) — nicht die Tendinopathie beim 4-jährigen Rocky. Diese klinische Diagnose bleibt NICHT VERIFIZIERT gegen diese Quelle. |
 
 ## Vollständige Fachbibliothek (Drive, Stand 20.09.2026)
 
@@ -41,9 +41,15 @@ Besonders relevant für künftige Kategorien:
 
 ## Nächste Schritte
 
-1. Rocky Kap. 13 (Ellenbogenregion) + Welter-Böller prüfen.
-2. Quadriceps/Bruno: Weg finden, um Kap. 9 (Hohmann/Mima) trotz Dateigröße gezielt zu prüfen
-   (z. B. gezieltere `fullText`-Suche nach "Rectus femoris" statt ganzes Kapitel laden).
-3. Hohmann-Korrektur (Co-Autorin „Mima") in den betroffenen Content-Items nachziehen.
-4. Danach: neue Inhalte auf Basis der jetzt vollständigen Bibliothek planen (v. a. Pathologie,
+1. ~~Rocky Kap. 13 (Ellenbogenregion) + Welter-Böller prüfen.~~ ✅ Erledigt (s. o.).
+2. Quadriceps/Bruno: Kap. 9 (Hohmann, b11.pdf, 15 MB) bleibt technisch nicht extrahierbar über
+   S. 297 hinaus — mehrere gezielte Versuche (Volltext-Read, `fullText`-Suche mit erhöhter
+   Snippet-Verbosity) bestätigen den Begriff im Kapitel, erreichen aber nicht die Textstelle
+   selbst. Bleibt offen, bis Vanessa ggf. die betroffene Seite direkt bereitstellen kann.
+3. ~~Hohmann-Korrektur (Co-Autorin „Mima")~~ — erledigt sich von selbst: „Mima Hohmann" ist der
+   volle Autorinnenname (Einzelautorin), keine zweite Person. Zitierweise „Hohmann, ..." war
+   bereits korrekt.
+4. Damit ist die erste Prüfrunde aller ursprünglichen „Quellenkandidat"-Einträge abgeschlossen
+   bis auf Quadriceps/Bruno (Punkt 2). Vanessa prüft die Ergebnisse manuell.
+5. Danach: neue Inhalte auf Basis der jetzt vollständigen Bibliothek planen (v. a. Pathologie,
    Untersuchungstechniken).
