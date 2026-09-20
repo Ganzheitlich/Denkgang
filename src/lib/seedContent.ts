@@ -1526,6 +1526,118 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["nala"],
     relatedAnatomyIds: [],
   },
+  {
+    id: "bizepssehnenerkrankungen",
+    category: "PATHOLOGIE",
+    title: "Erkrankungen der Bizepssehne — mehr als nur Tendinopathie",
+    teaser:
+      "Tendinitis, Tendovaginitis, Teilruptur oder Luxation — und ein einzelner Überstreckungstest, der bei einer Teilruptur oft die entscheidende Zusatzinformation liefert.",
+    sections: [
+      {
+        type: "text",
+        text: "Erkrankungen der Ursprungssehne des M. biceps brachii sind ein Sammelbegriff für mehrere verwandte, aber unterschiedliche Probleme: Tendinitis (Sehnenentzündung), Tendovaginitis (Sehnenscheidenentzündung) und Teil- oder Vollruptur der Sehne. Seltener kommt es zur Ruptur des Lig. transversum intertuberculare, wodurch die Sehne aus ihrem knöchernen Sulcus nach medial herausspringen kann — eine Bizepssehnenluxation.",
+      },
+      {
+        type: "list",
+        heading: "Mögliche Ursachen",
+        items: [
+          "vorangegangene Traumata",
+          "Corpora libera (freie Gelenkkörper, z. B. bei Osteochondrosis dissecans), die die Sehne fortlaufend reizen",
+          "knöcherne Zubildungen im Sulcus intertubercularis des Humerus",
+          "degenerative Veränderungen der Sehne selbst — dann reißt sie schon bei normaler Belastung oder einem Bagatelltrauma. Die Ruptur liegt dabei meist am knöchernen Ansatz, am Tuberculum supraglenoidale.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Wer ist betroffen",
+        text: "Vor allem mittelgroße bis großwüchsige Hunderassen im Alter zwischen 3 und 11 Jahren, Rüden und Hündinnen gleichermaßen, meist einseitig. Bei Reizung durch Corpora libera kann es auch früher auftreten.",
+      },
+      {
+        type: "text",
+        heading: "Ein pathognomonischer Test",
+        text: "Bei Teilruptur ist die Überstreckbarkeit des Ellbogengelenks bei gleichzeitiger Flexion der Schulter ein für diese Verletzung typisches (pathognomonisches) Zeichen. Zusätzlich zeigt sich oft ein tiefhängender Schultergürtel mit gebeugtem Karpal- und gestrecktem Ellbogengelenk sowie Schmerz bei Schulterstreckung und -beugung, der sich durch gleichzeitige Streckung des Ellbogens verstärkt. Bei der selteneren Sehnenluxation lässt sich das Herausspringen der Sehne aus dem Sulcus bei Streckung und anschließender Beugung der Schulter palpieren.",
+      },
+      {
+        type: "table",
+        heading: "Differentialdiagnosen nach Alter",
+        columns: ["Alter", "Wichtigste Differentialdiagnose"],
+        rows: [
+          ["Junger Hund", "Osteochondrosis dissecans (OCD) des Schultergelenks"],
+          ["Älterer Hund", "andere Bizepssehnenerkrankungen, persistierendes Tuberculum infraglenoidale"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Diagnosesicherung und Therapie",
+        text: "Im Röntgenbild (mediolateraler Strahlengang) zeigen sich bei einer Ruptur ein erweiterter Gelenkspalt und Verkalkungen am Sehnenansatz. Ultraschall stellt Sehnentextur und Tendovaginopathien dar, kann bei Rupturen am knöchernen Ansatz aber durch Schallauslöschung erschwert sein — in Zweifelsfällen hilft die Magnetresonanztomografie. Tendovaginopathien werden zunächst konservativ behandelt (Ruhighaltung, nichtsteroidale Antiphlogistika); bei chronischem Verlauf oder Teilruptur kommt eine Tenotomie der Bizepssehne infrage, bei Luxation die operative Rekonstruktion des gerissenen Bandes. Bei adäquater Therapie ist die Prognose günstig.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: VetCenter (Thieme), Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Erkrankungen der Ursprungssehne des Musculus biceps brachii beim Hund\" (vetcenter.thieme.de, eBook cs_8469468). Definition, Ursachen, Vorkommen, Symptome (inkl. des pathognomonischen Überstreckungstests), Differentialdiagnosen nach Alter sowie das diagnostische und therapeutische Vorgehen sind im Original so beschrieben. Die Rupturlokalisation am Tuberculum supraglenoidale deckt sich mit dem bereits verifizierten Befund aus Welter-Böller (siehe Fall „Rocky\"). Hinweis: Diese Kapitel-Datei stammt direkt von der VetCenter-Onlineplattform ohne eigenes Titelblatt — Autor/Auflage/ISBN der Printausgabe von „Hundekrankheiten kompakt\" wurden nicht separat verifiziert.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["biceps"],
+  },
+  {
+    id: "ellbogengelenkdysplasie",
+    category: "PATHOLOGIE",
+    title: "Ellbogengelenkdysplasie — vier Erkrankungen unter einem Namen",
+    teaser:
+      "IPA, FPC, OCD und Gelenkinkongruenz: Warum „Ellbogendysplasie“ kein einzelnes Krankheitsbild ist, sondern ein Sammelbegriff mit vier sehr unterschiedlichen Ursachen.",
+    sections: [
+      {
+        type: "text",
+        text: "„Ellbogengelenkdysplasie“ (ED) ist kein einzelnes Krankheitsbild, sondern ein Oberbegriff für mehrere entwicklungsbedingte Erkrankungen des Ellbogengelenks, die einzeln oder gemeinsam auftreten können. Allen gemeinsam ist eine gestörte enchondrale Ossifikation des Epiphysenfugen- oder Gelenkknorpels, meist multifaktoriell bedingt (genetisch, mechanisch, hormonell, ernährungsphysiologisch, metabolisch).",
+      },
+      {
+        type: "table",
+        heading: "Die vier zugrunde liegenden Erkrankungen",
+        columns: ["Erkrankung", "Was passiert", "Typische Rasseprädisposition"],
+        rows: [
+          [
+            "Isolierter Processus anconaeus (IPA)",
+            "Der Processus anconeus verschmilzt nicht mit der Ulna (normale Fusion zwischen der 16. und 20. Lebenswoche)",
+            "Deutscher Schäferhund; auch American/Belgian Shepherd, Weimaraner, Mastiff, Bassett, Bernhardiner, Mastino, Deutsche Dogge",
+          ],
+          [
+            "Fragmentierter Processus coronoideus medialis der Ulna (FPC)",
+            "Der Processus coronoideus medialis der Ulna fragmentiert, meist durch Inkongruenz im medialen Gelenkkompartiment",
+            "Rottweiler, Golden/Labrador Retriever, Berner Sennenhund, Deutscher Schäferhund, Boxer, American Staffordshire Terrier, Neufundländer",
+          ],
+          [
+            "Osteochondrosis dissecans der Trochlea humeri (OCD)",
+            "Störung der enchondralen Ossifikation am medialen Condylus humeri, mit Bildung einer Knorpelschuppe",
+            "Golden und Labrador Retriever; oft gemeinsam mit FPC",
+          ],
+          [
+            "Stufenbildung zwischen Radius und Ulna / Gelenkinkongruenz",
+            "Ungleiches Längenwachstum von Radius und Ulna führt zu inkongruenten Gelenkflächen und begünstigt FPC bzw. IPA",
+            "keine spezifische Rasseangabe im Original",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Gemeinsame Merkmale",
+        text: "Betroffen sind überwiegend männliche, mittelgroße bis großwüchsige Hunde. Die Symptome beginnen meist ab dem 4. Lebensmonat, oft ein- oder beidseitig — bei beidseitigem Befall ist die Lahmheit häufig undeutlicher ausgeprägt, weil kein gesundes Bein zum Vergleich da ist.",
+      },
+      {
+        type: "text",
+        heading: "Ein kleiner, aber nützlicher Unterschied in der Standhaltung",
+        text: "Bei FPC und OCD steht das Ellbogengelenk im Stand oft leicht adduziert, bei IPA eher abduziert — ein feiner, aber praktisch nützlicher Unterschied bereits bei der ersten Adspektion, lange bevor eine Diagnose feststeht.",
+      },
+      {
+        type: "text",
+        heading: "Warum die genaue Unterscheidung wichtig ist",
+        text: "Welche der vier Formen vorliegt, lässt sich klinisch oft nicht sicher unterscheiden — dafür braucht es Röntgen in mindestens zwei Ebenen, bei FPC häufig zusätzlich eine Computertomografie, weil das Fragment meist mitten im Gelenk liegt und im Röntgenbild leicht übersehen wird. Unbehandelt führen alle vier Formen zu einer sekundären Arthrose; die Prognose hängt stark davon ab, wie früh Diagnose und Behandlung erfolgen.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: VetCenter (Thieme), Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Ellbogengelenkdysplasie beim Hund\" mit den Unterkapiteln zu IPA, FPC und OCD der Trochlea humeri (vetcenter.thieme.de, eBook cs_8469468). Definition, die vier Einzelerkrankungen, Rasseprädispositionen, der Standhaltungs-Unterschied (FPC/OCD adduziert vs. IPA abduziert) und das diagnostische Vorgehen sind im Original so beschrieben. Ergänzt den bereits verifizierten Befund aus Hárrer Kap. 13 (siehe Fall „Rocky\"), der Ellenbogendysplasie nur als real existierende Diagnose bestätigt hatte, ohne auf die Unterformen einzugehen. Hinweis: Diese Kapitel-Datei stammt direkt von der VetCenter-Onlineplattform ohne eigenes Titelblatt — Autor/Auflage/ISBN der Printausgabe von „Hundekrankheiten kompakt\" wurden nicht separat verifiziert.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
