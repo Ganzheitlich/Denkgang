@@ -1720,6 +1720,91 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["huefte", "facettengelenke"],
   },
+  {
+    id: "belastungssteuerung-nach-verletzung",
+    category: "THERAPIE",
+    title: "Warum kontrollierte Bewegung besser ist als komplette Ruhigstellung",
+    teaser:
+      "Ein komplett ruhiggestelltes Gelenk beginnt binnen Wochen zu schädigen — dosierte, kontrollierte Bewegung wirkt genau umgekehrt. Warum „Schonung“ in der Rehabilitation die falsche Standardantwort ist.",
+    sections: [
+      {
+        type: "text",
+        text: "Nach Operationen oder Verletzungen ist die intuitive Reaktion oft: das betroffene Gelenk möglichst ruhigstellen. Genau das schadet dem Gelenkknorpel aber messbar — und schneller, als man erwarten würde.",
+      },
+      {
+        type: "list",
+        heading: "Was komplette Ruhigstellung mit dem Gelenk macht",
+        items: [
+          "Bänder und Sehnen beginnen bereits innerhalb von 4 Wochen zu degenerieren — ihre Umsatzrate liegt bei 300–500 Tagen, sie erneuern sich also extrem langsam.",
+          "Wird das Gelenk in Extension fixiert, kommt es zu Muskelkontrakturen an den Streckern und zu Knorpelschäden an den Kontaktflächen — diese Schäden sind kaum reversibel.",
+          "Wird das Gelenk in Flexion fixiert, treten erste Knorpelschäden (in Richtung Atrophie) schon nach 3 Wochen auf — hier aber ohne Arthrosezeichen: nach 3-wöchigem kontrolliertem Training ist der Knorpel wieder normal dick.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Auch Medikamente spielen eine Rolle",
+        text: "Prednisolon reduziert die Produktion von Glykosaminoglykanen in fixierten Gelenken um das Dreifache. Aspirin hemmt die Knorpelsynthese, sodass die Remobilisierung unter Aspirin deutliche Knorpelschäden zeigt. Hyaluronsäure — ob ins Gelenk, intravenös oder peroral verabreicht — zeigt dagegen deutlich weniger Knorpelschäden und eine bessere Remobilisierung.",
+      },
+      {
+        type: "text",
+        heading: "Die Dosis macht's — in beide Richtungen",
+        text: "Auch zu viel Bewegung schadet: Übertrainierte Tiere zeigen bereits nach 3 Wochen Knorpelschäden — diesmal aber in Richtung Degeneration, also irreversibel. Der Zielkorridor liegt dazwischen: Wünschenswert ist eine Gelenkimmobilisierung mit geringgradiger Restbeweglichkeit von etwa 10°, praktisch umsetzbar z. B. mit einer Schlinge. Diese knappe Bewegungsfreiheit reicht aus, um Knorpelschäden möglichst gering zu halten, ohne auf die Vorteile der Ruhigstellung ganz zu verzichten.",
+      },
+      {
+        type: "text",
+        heading: "Für die Praxis",
+        text: "Die Konsequenz für die Rehabilitationsplanung: „Schonung“ als Standardantwort greift zu kurz. Entscheidend ist eine kontrollierte, langsam gesteigerte Belastung — weder komplette Ruhigstellung noch zu frühes Übertraining.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde – Rehabilitation, Massage und Hundesport (ISBN 978-3-13-240099-3), Thieme, 5. unveränderte Auflage 2022, Kap. 4.3 (Hundesport), S. 62. Alle genannten Zahlen (Zeiträume, Prednisolon-Faktor, 10°-Restbeweglichkeit) sind im Original so angegeben. Die dort abgebildete Grafik „Crosslinks“ verweist im Original auf van den Berg/Cabri, Angewandte Physiologie (Thieme 2022) — diese Sekundärquelle wurde nicht separat geprüft.",
+    relatedCaseIds: ["bruno"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "aufwaermen-abkuehlen-hund",
+    category: "THERAPIE",
+    title: "Aufwärmen und Abkühlen — warum Hunde keine Zufallsathleten sein sollten",
+    teaser:
+      "Kein Skirennläufer startet unaufgewärmt — trotzdem springen viele Hunde direkt aus dem kalten Auto in den vollen Trainingsparcours. Was beim Auf- und Abwärmen physiologisch passiert und warum es die Verletzungsgefahr senkt.",
+    sections: [
+      {
+        type: "text",
+        text: "Wenn ein Hund ruht, läuft der Muskelstoffwechsel auf Sparflamme: Die Muskulatur wird schlechter durchblutet, der Reibungswiderstand zwischen Muskelfasern und in den Gelenken ist relativ hoch, der Hund ist leicht steif. Aufwärmen bereitet den Organismus schrittweise auf die bevorstehende Anstrengung vor: Die Sauerstoffversorgung der Muskulatur nimmt zu, die Muskulatur wird weich, die Energiegewinnung für die Muskelarbeit läuft an, und die Synovia in Gelenken und Sehnenscheiden wird durch Bewegung gut verteilt und neu produziert.",
+      },
+      {
+        type: "text",
+        heading: "Warum das die Verletzungsgefahr senkt",
+        text: "Diese Vorbereitung reduziert die Verletzungsgefahr durch Überdehnen oder Zerren von Muskulatur und Bandapparat erheblich. Durch die Aktivierung der Rumpfmuskulatur wird zusätzlich die Wirbelsäule stabilisiert, wodurch auch die Gefahr von Wirbelblockaden und Rückenschmerzen abnimmt.",
+      },
+      {
+        type: "list",
+        heading: "Ein praktischer Ablauf",
+        items: [
+          "den Hund sich nach dem Aussteigen erst in Ruhe strecken lassen",
+          "kurze, schnelle Massage zum Anwärmen: großflächige, feste Streichungen mit der flachen Hand über den ganzen Körper, Klopfmassage am Rumpf, zirkuläre sanfte Streichungen an den Beinen — Verhärtungen oder Verspannungen lassen sich mit leichten, kreisförmigen Massagegriffen lösen",
+          "danach die eigentliche Aufwärmrunde: etwa 10 Minuten Schritt und leichtes Joggen geradeaus, dann einige Tempowechsel und Wendungen für Beweglichkeit und Koordination",
+          "zum Abschluss ein paar Gehorsamsübungen zur Steigerung der Konzentration, dann Dehnung von Schulter- und Beckengliedmaßen",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Hyperaktive Hunde und die Winterregel",
+        text: "Hyperaktive oder sehr nervöse Hunde werden erst etwas länger im ruhigen Tempo bewegt, bis sie selbst ruhiger werden — Spiel oder Sport beginnt erst danach. Im Winter brauchen Hunde generell eine längere Aufwärmphase: mindestens 10–15 Minuten im Schritt. Wichtig: Ist der Hund einmal aufgewärmt, sollte er in Bewegung bleiben — kühlt er in einer Pause wieder ab, muss die gesamte Aufwärmphase von vorn beginnen.",
+      },
+      {
+        type: "text",
+        heading: "Abkühlen nicht vergessen",
+        text: "Auch das abrupte Ablegen oder Absetzen nach intensiver Bewegung ist ungünstig: Bei zu raschem Abfall der Pulsfrequenz kann sich das periphere Blutvolumen in den weit geöffneten Gefäßen sammeln. Deshalb nach der Arbeit noch 5–10 Minuten ruhige, lockere Bewegung einplanen — zuerst langsames Joggen, dann eine Runde im Schritt —, bevor der Hund ins Auto oder in die Box kommt.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 5. Auflage 2022, Kap. 4.3.5–4.3.6 (Aufwärmen, Abkühlen), S. 65–67. Physiologische Begründung, der beschriebene Ablauf (Strecken, Massage, Aufwärmrunde, Dehnung) sowie die Winterregel (10–15 Minuten) und die Abkühl-Empfehlung (5–10 Minuten) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
