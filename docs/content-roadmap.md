@@ -25,8 +25,9 @@ kein Überblick verloren geht.
 
 - Wissensbibliothek: 22 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
   Untersuchung, 2 Pathologie, 1 Biomechanik, 4 Therapie)
-- Anatomie-Sektion: 7 Items (biceps, iliopsoas, quadriceps, facettengelenke,
-  huefte, + 2 weitere zu bereits bestehenden Fällen)
+- Anatomie-Sektion: 10 Items (biceps, iliopsoas, quadriceps, facettengelenke,
+  huefte, + 2 weitere zu bereits bestehenden Fällen, plus die drei neuen,
+  fallunabhängigen Items supraspinatus/infraspinatus/deltoideus)
 
 ## Backlog nach Quelle
 
@@ -160,20 +161,32 @@ Ziel: alle Strukturen, die in Fällen/Wissenstexten schon *erwähnt* werden, abe
 noch kein eigenes Anatomie-Item haben, nachziehen. Beispiele aus bereits
 gelesenen Quellen:
 
-- [ ] M. infraspinatus, M. supraspinatus, M. deltoideus (Schulter — schon als
-      Distraktoren in Retrieval-Fragen genutzt, aber ohne eigenes Item)
-- [ ] M. triceps brachii (ebenfalls bereits als Distraktor verwendet)
+- [x] M. supraspinatus, M. infraspinatus, M. deltoideus (Schulter) — verifiziert
+      gegen Hárrer Kap. 12, S. 127–144 (Ursprung/Ansatz/Funktion/Palpation aus
+      dem Untersuchungsteil des Kapitels, nicht nur aus der reinen
+      Anatomie-Einleitung)
+- [ ] M. triceps brachii (ebenfalls bereits als Distraktor verwendet) — Kap.
+      12 nennt nur den Ursprung des Caput longum (Tuberculum infraglenoidale),
+      Rest noch zu lesen
+- [ ] M. subscapularis, M. coracobrachialis, M. teres major/minor — in Hárrer
+      Kap. 12 bereits mehrfach erwähnt (Funktion, Differentialdiagnostik zu
+      M. deltoideus/infraspinatus), aber noch ohne eigenes Item; M.
+      subscapularis/coracobrachialis liegen medial und sind laut Quelle nicht
+      palpierbar — eigener Palpationshinweis müsste das ehrlich wiedergeben
 - [ ] Processus anconaeus, Processus coronoideus medialis (Ellbogen — direkt
       aus dem ED-Pathologie-Eintrag ableitbar, Quelle bereits gelesen)
 - [ ] Ligamentum capitis femoris (Hüfte — bereits in Luna/Fällen erwähnt, aber
       „NICHT VERIFIZIERT" markiert; eigene Anatomie-Seite könnte das mit einer
       dedizierten Quelle nachholen)
-- [ ] Weitere Muskeln aus Hohmann Kap. 6/7/9, sobald gelesen (systematisch
-      Region für Region: Schulter/Oberarm, Unterarm/Pfote, Becken/Oberschenkel,
-      Unterschenkel/Pfote, Rumpf/Wirbelsäule)
+- [ ] Weitere Muskeln aus Hárrer (Regionen-Kapitel wie Kap. 12 sind für
+      Ursprung/Ansatz/Funktion ergiebiger als Hohmanns Landmarken-Atlas Kap. 7,
+      der nur beschriftete Abbildungen ohne Fließtext-Details liefert) —
+      systematisch Region für Region weiterlesen
 - [ ] Knochen- und Gelenkpunkte aus Hohmann Kap. 7 „Markante Knochenpunkte und
-      tastbare Muskeln" (b9.pdf) — dort steht bereits eine fertige Liste
-      tastbarer Landmarken, sehr direkt in Anatomie-Items umsetzbar
+      tastbare Muskeln" (b9.pdf) — enthält nur beschriftete Abbildungen (Liste
+      tastbarer Landmarken), keine Ursprung/Ansatz/Funktion-Angaben; eher als
+      Ergänzung für `palpationHint`/Bildbriefe geeignet, nicht als alleinige
+      Quelle für ein vollständiges Anatomie-Item
 
 ## Arbeitsweise für künftige Sessions
 
