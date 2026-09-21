@@ -23,8 +23,8 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 24 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
-  Untersuchung, 3 Pathologie, 2 Biomechanik, 4 Therapie)
+- Wissensbibliothek: 25 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
+  Untersuchung, 3 Pathologie, 3 Biomechanik, 4 Therapie)
 - Anatomie-Sektion: 18 Items (biceps, iliopsoas, quadriceps, facettengelenke,
   huefte, + 2 weitere zu bereits bestehenden Fällen, plus elf neue,
   fallunabhängige Items: die komplette Schulterflexoren-/Extensorengruppe
@@ -152,11 +152,9 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       (effektive vs. gesamte Gelenkbeweglichkeit während Lokomotion) und die
       Überlastungskette Hintergliedmaße → Schultergürtel → Ellenbogen/Schulter
       — Kap. 13, S. 165.
-- [ ] Die Unterarm-Rotationsgelenke (Art. radioulnaris proximalis/distalis,
-      Membrana interossea antebrachii, ~20° Pronation/~50° Supination) —
-      bereits vollständig gelesen (Kap. 14, S. 179), noch nicht als eigener
-      Eintrag geschrieben. Guter nächster Schritt, direkt anschließend an den
-      Toe-in/Toe-out-Pathologie-Eintrag.
+- [x] Die Unterarm-Rotationsgelenke (Art. radioulnaris proximalis/distalis,
+      Membrana interossea antebrachii, ~20° Pronation/~50° Supination,
+      Radiuskurvensyndrom) — Kap. 14, S. 179.
 - [ ] Rest von Kap. 13 (Ellenbogenregion) und alle anderen Regionen-Kapitel
       (Hüfte Kap. 7, Wirbelsäule Kap. 16 — teilweise schon für Quellenprüfung
       gelesen, aber nicht systematisch auf weitere Biomechanik-Fakten
