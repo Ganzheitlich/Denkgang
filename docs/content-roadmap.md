@@ -23,15 +23,18 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 25 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
-  Untersuchung, 3 Pathologie, 3 Biomechanik, 4 Therapie)
-- Anatomie-Sektion: 18 Items (biceps, iliopsoas, quadriceps, facettengelenke,
-  huefte, + 2 weitere zu bereits bestehenden Fällen, plus elf neue,
-  fallunabhängige Items: die komplette Schulterflexoren-/Extensorengruppe
-  (supraspinatus, infraspinatus, subscapularis, coracobrachialis,
-  deltoideus, teres-major, teres-minor) und die komplette
+- Wissensbibliothek: 27 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
+  Untersuchung, 5 Pathologie, 5 Biomechanik, 4 Therapie)
+- Anatomie-Sektion: 24 Items (biceps, iliopsoas, quadriceps, facettengelenke,
+  huefte, + 2 weitere zu bereits bestehenden Fällen, plus siebzehn neue,
+  fallunabhängige Items nach Hárrer: komplette Schulterflexoren-/
+  Extensorengruppe (supraspinatus, infraspinatus, subscapularis,
+  coracobrachialis, deltoideus, teres-major, teres-minor), komplette
   Ellbogenflexoren-/-extensorengruppe (brachialis, triceps-brachii,
-  tensor-fasciae-antebrachii, anconeus) nach Hárrer)
+  tensor-fasciae-antebrachii, anconeus), komplette Unterarmmuskulatur
+  (supinator, brachioradialis, pronator-teres, pronator-quadratus,
+  extensoren-karpus-zehen, flexoren-karpus-zehen) — die gesamte
+  Vordergliedmaße von Schulter bis Karpus ist damit abgedeckt)
 
 ## Backlog nach Quelle
 
@@ -80,9 +83,19 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
 - [x] Toe-in/Toe-out als Nervenkompressions-Warnzeichen (M. supinator/N.
       radialis, M. pronator teres/N. medianus) — Kap. 14 (Unterarmregion),
       S. 179
+- [x] Warum Hunde ihre Zehen beknabbern — drei Differentialdiagnosen
+      (Allergie, Arthrose, Hyperästhesie durch Nervenreizung) — Kap. 15
+      (Karpalgelenk und Zehen), S. 193
 - [ ] Radiuskurvensyndrom (frühzeitiger Epiphysenschluss der Ulna →
       Valgusstellung des Radius) — nur beiläufig erwähnt in Kap. 14, S. 179,
       eigenes Unterkapitel/eigene Quelle noch zu finden
+- [ ] Kap. 16 (Wirbelsäule) — teilweise für Quellenprüfung von facettengelenke
+      gelesen, aber nicht systematisch nach weiteren Pathologie-Themen
+      durchsucht (z. B. Spondylose, IVDD, Cauda-equina)
+- [ ] Kap. 17 Neurotension (S. 269) — ZNS/PNS-Grundlagen, Ischämie bei
+      Nervenkompression; Datei ma(17).pdf bereits als Suchtreffer identifiziert,
+      noch nicht gelesen. Passt inhaltlich sehr gut zu den bereits verifizierten
+      Nervenkompressions-Themen (Toe-in/Toe-out, Zehen-Hyperästhesie).
 
 ### UNTERSUCHUNG — Koch/Fischer, Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1)
 
@@ -155,11 +168,18 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
 - [x] Die Unterarm-Rotationsgelenke (Art. radioulnaris proximalis/distalis,
       Membrana interossea antebrachii, ~20° Pronation/~50° Supination,
       Radiuskurvensyndrom) — Kap. 14, S. 179.
+- [x] Das Karpalgelenk als drei Gelenketagen (Art. antebrachiocarpea,
+      mediocarpea, ossis carpi accessorii) plus Metacarpus/Sesambeinchen —
+      Kap. 15, S. 192.
 - [ ] Rest von Kap. 13 (Ellenbogenregion) und alle anderen Regionen-Kapitel
       (Hüfte Kap. 7, Wirbelsäule Kap. 16 — teilweise schon für Quellenprüfung
       gelesen, aber nicht systematisch auf weitere Biomechanik-Fakten
       durchsucht) enthalten wahrscheinlich noch mehr ähnliche
       Gelenkmechanik-Fakten.
+- [ ] Kap. 9 Unterschenkelregion (ma(9).pdf, bereits als Suchtreffer
+      identifiziert) — proximales/distales Tibiofibulargelenk, Membrana
+      interossea cruris; direktes Pendant zur bereits geschriebenen
+      Unterarm-Biomechanik, jetzt für die Hintergliedmaße.
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 
@@ -202,12 +222,14 @@ gelesenen Quellen:
 - [x] M. brachialis, M. triceps brachii, M. tensor fasciae antebrachii,
       M. anconeus (komplette Ellbogenflexoren-/-extensorengruppe) —
       verifiziert gegen Hárrer Kap. 13, S. 165–178
-- [ ] Kap. 14 Unterarmregion: M. supinator, M. pronator teres — bereits als
-      zentrale Akteure im Toe-in/Toe-out-Pathologie-Eintrag genannt, aber noch
-      ohne eigenes Anatomie-Item (Ursprung/Ansatz nicht aus dem bisher
-      gelesenen Auszug bekannt, nur Funktion/klinische Rolle)
-- [ ] Kap. 15 (falls vorhanden) und Rest von Kap. 14 (Unterarmregion,
-      Karpalgelenk) noch nicht gelesen
+- [x] M. supinator, M. brachioradialis, M. pronator teres,
+      M. pronator quadratus sowie zwei gruppierte Items für Extensoren-/
+      Flexorenmuskulatur des Karpus/der Zehen — verifiziert gegen Hárrer
+      Kap. 14, S. 179–184. Damit ist die komplette Vordergliedmaße von
+      Schulter bis Karpus abgedeckt.
+- [ ] Kap. 15 Karpalgelenk und Zehen: einzelne Bänder/Kollateralligamente der
+      Zehengelenke noch nicht als eigene Anatomie-Items, nur im
+      Biomechanik-Eintrag "Karpalgelenk" mit erwähnt
 - [ ] Processus anconaeus, Processus coronoideus medialis (Ellbogen — direkt
       aus dem ED-Pathologie-Eintrag ableitbar, Quelle bereits gelesen)
 - [ ] Ligamentum capitis femoris (Hüfte — bereits in Luna/Fällen erwähnt, aber
