@@ -1145,6 +1145,136 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13, S. 166, 172f. Faserzusammensetzung (100 % Typ I), Funktion als Antischwerkraftmuskel und Ellenbogenextensor sowie die hohe Muskelspindeldichte mit ihrer Bedeutung für die Propriozeption sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt — nur die Palpationslage.",
   },
+  {
+    id: "supinator",
+    name: "M. supinator",
+    origin: "Im Quellentext nicht genannt (Lage: lateral am Unterarm, unter M. extensor carpi radialis und M. extensor digitorum communis)",
+    insertion: "Im Quellentext nicht genannt",
+    funktion: "Flexion und Supination im Ellenbogengelenk",
+    innervation: "Der N. radialis zieht durch den Muskel hindurch",
+    clinicalRelevance:
+      "Bei vermehrter Toe-in-Stellung des Hundes gerät der M. supinator unter Spannung und kann dadurch den hindurchziehenden N. radialis reizen (Mechanosensitivität, Leitungsprobleme) — mögliche Folgen sind Schleifen der Vorderpfote oder Beknabbern des Versorgungsgebiets des N. radialis (siehe Wissenseintrag „Toe-in/Toe-out“).",
+    palpationHint:
+      "Liegt in der Tiefe, bedeckt vom M. extensor carpi radialis und M. extensor digitorum communis — nicht direkt auf Konsistenzveränderung prüfbar. Schmerzhaftigkeit lässt sich nur im Seitenvergleich unter Zuhilfenahme der Dehnposition untersuchen. Der M. brachioradialis liegt oberflächlicher an derselben Stelle mit identischer Funktion — beide lassen sich nur über die Palpationstiefe unterscheiden.",
+    transferQ: "Welche Bewegungskombination würde eine schmerzhafte Dehnung des M. supinator am ehesten hervorrufen?",
+    transferOptions: [
+      { label: "Extension und Pronation im Ellenbogengelenk", correct: true },
+      { label: "Flexion und Supination im Ellenbogengelenk", correct: false },
+      { label: "Nur Flexion im Karpalgelenk", correct: false },
+      { label: "Abduktion im Schultergelenk", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179f., 182. Funktion (Flexion/Supination Ellenbogengelenk), der Verlauf des N. radialis durch den Muskel, die fehlende direkte Palpierbarkeit sowie der Dehnungstest (Extension und Pronation) sind im Original so beschrieben. Ursprung und Ansatz werden im Original nicht genannt.",
+  },
+  {
+    id: "brachioradialis",
+    name: "M. brachioradialis",
+    origin: "Im Quellentext nicht genannt",
+    insertion: "Im Quellentext nicht genannt",
+    funktion: "Flexion und Supination im Ellenbogengelenk — identisch mit M. supinator",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Ein anatomisch inkonstanter Muskel — er fehlt bei Hunden häufig. Ist er vorhanden, liegt er lateral am Ellenbogen zwischen oberflächiger und tiefer Unterarmfaszie, auf dem M. extensor carpi radialis.",
+    palpationHint:
+      "Liegt oberflächlicher als der M. supinator an derselben Stelle. Da beide dieselbe Funktion haben, lassen sie sich nur über die Palpationstiefe voneinander unterscheiden.",
+    transferQ: "Warum lässt sich der M. brachioradialis palpatorisch nur schwer vom M. supinator unterscheiden?",
+    transferOptions: [
+      { label: "Weil beide an derselben Stelle liegen und exakt dieselbe Funktion haben", correct: true },
+      { label: "Weil der M. brachioradialis bei jedem Hund fehlt", correct: false },
+      { label: "Weil beide Muskeln unterschiedliche Gelenke bewegen", correct: false },
+      { label: "Weil nur der M. supinator überhaupt existiert", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 182. Die anatomische Inkonstanz (fehlt häufig bei Hunden), Lage und die mit M. supinator identische Funktion sowie die Differenzierung nur über die Palpationstiefe sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+  },
+  {
+    id: "pronator-teres",
+    name: "M. pronator teres",
+    origin: "Medialer Epicondylus humeri",
+    insertion: "Kraniomedial am oberen Drittel des Radius",
+    funktion: "Flexion und Pronation des Ellenbogengelenks",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Gut ausgebildeter, gut palpierbarer Muskel auf der Medialseite des Ellenbogengelenks, der häufig sehr verspannt und hypertroph ist. Bei vermehrter Toe-out-Stellung des Hundes gerät er unter Spannung und kann den N. medianus reizen — mögliche Folge ist Beknabbern der distalen Zehen (siehe Wissenseintrag „Toe-in/Toe-out“).",
+    palpationHint:
+      "Palpation vom medialen Epicondylus humeri, kranial des M. flexor carpi radialis, bis zum Ansatz kraniomedial am oberen Drittel des Radius.",
+    transferQ: "Welche Bewegungskombination würde eine schmerzhafte Dehnung des M. pronator teres am ehesten hervorrufen?",
+    transferOptions: [
+      { label: "Extension des Ellenbogengelenks mit Supination des Unterarms", correct: true },
+      { label: "Flexion des Ellenbogengelenks mit Pronation des Unterarms", correct: false },
+      { label: "Nur Extension im Karpalgelenk", correct: false },
+      { label: "Adduktion im Schultergelenk", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 182f. Ursprung (medialer Epicondylus humeri), Ansatz (kraniomedial am oberen Drittel des Radius), Funktion (Flexion/Pronation), die klinische Beobachtung (häufig verspannt/hypertroph) sowie der Dehnungstest (Extension mit Supination) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt.",
+  },
+  {
+    id: "pronator-quadratus",
+    name: "M. pronator quadratus",
+    origin: "Im Quellentext nicht genannt",
+    insertion: "Im Quellentext nicht genannt",
+    funktion: "Pronation der Unterarmgelenke",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Liegt in der Tiefe, ausgespannt zwischen Radius und Ulna, der Membrana interossea aufliegend und vom M. flexor digitorum profundus bedeckt — ein Beispiel dafür, dass nicht jeder funktionell wichtige Muskel für die manuelle Untersuchung zugänglich ist.",
+    palpationHint: "Nicht palpierbar und nicht provozierbar — liegt zu tief und ist vollständig bedeckt.",
+    transferQ: "Warum lässt sich der M. pronator quadratus in der manuellen Untersuchung weder palpieren noch provozieren?",
+    transferOptions: [
+      {
+        label: "Weil er in der Tiefe liegt, der Membrana interossea aufliegt und vom M. flexor digitorum profundus bedeckt wird",
+        correct: true,
+      },
+      { label: "Weil er beim Hund funktionslos ist", correct: false },
+      { label: "Weil er nur bei Katzen vorkommt", correct: false },
+      { label: "Weil er sich außerhalb des Unterarms befindet", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 183. Lage, Funktion (Pronation) und die fehlende Palpier-/Provozierbarkeit sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+  },
+  {
+    id: "extensoren-karpus-zehen",
+    name: "Extensorenmuskulatur des Unterarms (Karpus/Zehen)",
+    origin: "Crista supracondylaris lateralis, Epicondylus lateralis humeri und das laterale Kollateralligament",
+    insertion: "Im distalen Drittel gehen die Muskeln in ihre jeweiligen Endsehnen über (im Quellentext keine einzelnen Ansatzpunkte benannt)",
+    funktion:
+      "Extension von Karpalgelenk und Zehen. Im Einzelnen: M. extensor carpi radialis (Extension Karpus), M. extensor carpi ulnaris (Extension Karpus mit Radialabduktion), M. extensor digitorum communis und M. extensor digitorum lateralis (zusätzlich Extension der Zehen).",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Die vier Muskeln — M. extensor carpi radialis, M. extensor carpi ulnaris, M. extensor digitorum communis und M. extensor digitorum lateralis — werden in der Untersuchung gemeinsam betrachtet, da sie denselben Verlauf und dieselbe Region teilen. Erst eine gezielte Zusatzbewegung (z. B. Zehenflexion oder Radialabduktion) trennt sie diagnostisch voneinander.",
+    palpationHint:
+      "Palpation von der Crista supracondylaris lateralis, dem Epicondylus lateralis humeri und dem lateralen Kollateralligament nach distal, so weit sich Muskulatur tasten lässt.",
+    transferQ: "Wie lässt sich der M. extensor carpi ulnaris gezielt von den übrigen Extensoren des Unterarms unterscheiden?",
+    transferOptions: [
+      { label: "Durch zusätzliche Radialabduktion mit Extension im Karpus bei der Schmerzprovokation", correct: true },
+      { label: "Er ist der einzige Extensor, der überhaupt schmerzhaft werden kann", correct: false },
+      { label: "Durch zusätzliche Flexion im Ellenbogengelenk", correct: false },
+      { label: "Er lässt sich gar nicht von den anderen unterscheiden", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 183f. Ursprungsregion, die gemeinsame Untersuchung der vier Muskeln sowie die jeweils spezifische Zusatzbewegung zur diagnostischen Differenzierung (Carpusflexion für M. ext. carpi radialis, zusätzliche Zehenflexion für die Mm. ext. digitorum, Radialabduktion für M. ext. carpi ulnaris) sind im Original so beschrieben. Einzelne Ansatzpunkte und die Innervation werden im Original nicht genannt.",
+  },
+  {
+    id: "flexoren-karpus-zehen",
+    name: "Flexorenmuskulatur des Unterarms (Karpus/Zehen)",
+    origin: "Epicondylus medialis humeri bis kaudomedial zum Olekranon",
+    insertion: "Ziehen fleischig deutlich weiter nach distal als die Extensoren (im Quellentext keine einzelnen Ansatzpunkte benannt)",
+    funktion:
+      "Flexion von Karpalgelenk und Zehen. Im Einzelnen: M. flexor carpi radialis und M. flexor carpi ulnaris (Flexion Karpus), Mm. flexor digitorum superficialis et profundus (zusätzlich Flexion der Zehen).",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "M. flexor carpi radialis und M. flexor carpi ulnaris gelten als Antischwerkraftmuskeln: Ersterer besteht zu 60 % aus ermüdungsresistenten Typ-I-Fasern, die beiden Köpfe des M. flexor carpi ulnaris sogar zu 50–80 %.",
+    palpationHint:
+      "Palpation vom Epicondylus medialis humeri bis zum Olekranon und von dort nach distal, so weit sich Muskulatur tasten lässt — am oben oder unten liegenden Bein möglich.",
+    transferQ: "Warum gelten M. flexor carpi radialis und M. flexor carpi ulnaris als Antischwerkraftmuskeln?",
+    transferOptions: [
+      { label: "Weil sie einen hohen Anteil ermüdungsresistenter Typ-I-Fasern besitzen (60 % bzw. 50–80 %)", correct: true },
+      { label: "Weil sie ausschließlich im Liegen aktiv sind", correct: false },
+      { label: "Weil sie keine Sehnen besitzen", correct: false },
+      { label: "Weil sie nur bei jungen Hunden vorhanden sind", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 184. Ursprungsregion, die gemeinsame Untersuchung, die Rolle als Antischwerkraftmuskeln mit den genannten Faseranteilen sowie die diagnostische Differenzierung über Zusatzbewegungen sind im Original so beschrieben. Einzelne Ansatzpunkte und die Innervation werden im Original nicht genannt.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
