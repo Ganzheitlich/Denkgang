@@ -20,13 +20,33 @@ kein Überblick verloren geht.
 - `findKnowledgeForCase`/`findKnowledgeForAnatomy` geben jetzt Listen zurück; bei
   mehreren passenden Einträgen wählt die Nutzerin selbst (siehe Commit
   „Mehr-erfahren-CTA", 21.09.2026).
+- **Kritischer Bugfix (21.09.2026):** Die `update`-Blöcke der `case.upsert`/
+  `anatomyItem.upsert`-Aufrufe in `seedContent()` haben bei bereits
+  existierenden Datensätzen bisher **nur die Bild-URL-Felder** aktualisiert —
+  jede inhaltliche Änderung an einem schon angelegten Fall/Anatomie-Item (z. B.
+  eine korrigierte `sourceStatus`) wurde beim erneuten Seeden stillschweigend
+  verworfen. Neu angelegte Einträge waren nicht betroffen (die liefen über den
+  `create`-Zweig). Behoben durch vollständige `update`-Blöcke (alle Skalarfelder
+  außer `status`, damit ein bereits von Vanessa vergebenes `APPROVED` beim
+  Reseed nicht zurückgesetzt wird) sowie durch unbedingtes
+  `deleteMany`+`createMany` für die Options-Tabellen
+  (`CaseHypothesisOption`/`CaseWeakeningOption`/`CaseRetrievalOption`/
+  `AnatomyTransferOption`), statt sie nur im `create`-Zweig zu schreiben. Nach
+  zweifachem Reseed verifiziert: keine doppelten Options-Zeilen, `status`
+  bleibt erhalten, Inhaltsänderungen (getestet an `quadriceps`) kommen jetzt
+  tatsächlich an. **Konsequenz:** Alle in früheren Sessions als „geprüft/
+  korrigiert" gemeldeten Änderungen an bereits existierenden Fällen/
+  Anatomie-Items müssen als nicht zuverlässig in der DB angekommen gelten,
+  bis sie im Rahmen dieses Fixes neu geseedet wurden (was mit diesem Commit
+  passiert ist).
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 27 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
-  Untersuchung, 5 Pathologie, 5 Biomechanik, 4 Therapie)
-- Anatomie-Sektion: 24 Items (biceps, iliopsoas, quadriceps, facettengelenke,
-  huefte, + 2 weitere zu bereits bestehenden Fällen, plus siebzehn neue,
+- Wissensbibliothek: 29 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
+  Untersuchung, 7 Pathologie, 6 Biomechanik, 4 Therapie — genaue Aufteilung
+  kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
+- Anatomie-Sektion: 29 Items (biceps, iliopsoas, quadriceps, facettengelenke,
+  huefte, + 2 weitere zu bereits bestehenden Fällen, plus zweiundzwanzig neue,
   fallunabhängige Items nach Hárrer: komplette Schulterflexoren-/
   Extensorengruppe (supraspinatus, infraspinatus, subscapularis,
   coracobrachialis, deltoideus, teres-major, teres-minor), komplette
@@ -34,7 +54,14 @@ kein Überblick verloren geht.
   tensor-fasciae-antebrachii, anconeus), komplette Unterarmmuskulatur
   (supinator, brachioradialis, pronator-teres, pronator-quadratus,
   extensoren-karpus-zehen, flexoren-karpus-zehen) — die gesamte
-  Vordergliedmaße von Schulter bis Karpus ist damit abgedeckt)
+  Vordergliedmaße von Schulter bis Karpus ist damit abgedeckt — sowie fünf
+  neue Items zur Kniegelenksregion (biceps-femoris, semitendinosus, gracilis,
+  sartorius, tensor-fasciae-latae)
+- `quadriceps` (Anatomie-Item + gespiegelter Wissenseintrag): Status von
+  „Quellenkandidat, blockiert" auf „Teilverifiziert" gehoben (Hárrer Kap. 8,
+  S. 91–93 bestätigt Funktion/Ansatz; Vasti-Ursprungspunkte und Innervation
+  N. femoralis bleiben im Original unbenannt und sind entsprechend
+  gekennzeichnet)
 
 ## Backlog nach Quelle
 
@@ -64,9 +91,12 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
 - [ ] Hüftgelenkdysplasie (HD) als eigenständiges Krankheitsbild (Definition,
       Ätiologie, Diagnostik) — bisher nur über Ortolani-Test (Hárrer) und als
       Differential erwähnt, noch keine eigene Quelle gelesen
-- [ ] Kreuzbandriss / vordere Kreuzbandruptur — zentral für Fall Bruno; im
-      bisher gelesenen Auszug nur beiläufig erwähnt, eigentliches Unterkapitel
-      noch nicht gefunden/gelesen
+- [~] Kreuzbandriss / vordere Kreuzbandruptur — zentral für Fall Bruno; die
+      klinischen Tests (Lachmann, Tibiakompression, Apley, McMurray) sind jetzt
+      über Hárrer Kap. 8, S. 85–87 als eigener Untersuchung-Wissenseintrag
+      abgedeckt (`kreuzband-meniskus-tests`); das eigentliche Krankheitsbild
+      (Ätiologie, Einteilung, Prognose) noch nicht aus einer Pathologie-Quelle
+      gelesen
 - [ ] Patellaluxation — bisher nur als Symptom-Hinweis in der Ganganalyse
       erwähnt, eigenes Unterkapitel noch nicht gelesen
 - [ ] Rest des Kapitels systematisch weiterlesen (Datei ca. 121 Seiten, bisher
@@ -176,10 +206,11 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       gelesen, aber nicht systematisch auf weitere Biomechanik-Fakten
       durchsucht) enthalten wahrscheinlich noch mehr ähnliche
       Gelenkmechanik-Fakten.
-- [ ] Kap. 9 Unterschenkelregion (ma(9).pdf, bereits als Suchtreffer
-      identifiziert) — proximales/distales Tibiofibulargelenk, Membrana
-      interossea cruris; direktes Pendant zur bereits geschriebenen
-      Unterarm-Biomechanik, jetzt für die Hintergliedmaße.
+- [x] Kap. 9 Unterschenkelregion (ma(9).pdf) — proximales/distales
+      Tibiofibulargelenk, Membrana interossea cruris, die Diskussion um das
+      tatsächliche Bewegungsausmaß über die Talus-Form erklärt — S. 94f.
+      (`tibiofibulargelenke`). Die Muskulatur dieser Region (Unterschenkel)
+      selbst ist damit noch nicht abgedeckt, nur die Gelenkmechanik.
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 
@@ -215,10 +246,11 @@ gelesenen Quellen:
       Hárrer Kap. 12, S. 127–164. M. subscapularis/M. coracobrachialis ehrlich
       als "nicht palpierbar, nur Ausschlussdiagnostik" markiert, da sie laut
       Quelle medial liegen.
-- [ ] M. biceps femoris, M. semitendinosus, M. semimembranosus ("Hamstrings"),
-      M. gastrocnemius, M. gracilis — Hintergliedmaße, bisher nur als
-      Landmarken bei Hohmann erwähnt, noch keine Hárrer-Region dazu gelesen
-      (vermutlich eigenes Kapitel "Kniegelenk"/"Oberschenkel" bei Hárrer)
+- [x] M. biceps femoris, M. semitendinosus, M. gracilis, M. sartorius,
+      M. tensor fasciae latae — verifiziert gegen Hárrer Kap. 8 (Knieregion),
+      S. 91–93, zusammen mit dem korrigierten `quadriceps`-Item. Noch offen:
+      M. semimembranosus, M. gastrocnemius (Rest der "Hamstrings"/
+      Unterschenkelmuskulatur).
 - [x] M. brachialis, M. triceps brachii, M. tensor fasciae antebrachii,
       M. anconeus (komplette Ellbogenflexoren-/-extensorengruppe) —
       verifiziert gegen Hárrer Kap. 13, S. 165–178

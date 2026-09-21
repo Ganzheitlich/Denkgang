@@ -757,7 +757,7 @@ const ANATOMY: AnatomySeed[] = [
     funktion: "Extension des Kniegelenks; zentraler Stabilisator nach Kreuzbandverletzungen/TPLO",
     innervation: "N. femoralis",
     clinicalRelevance:
-      "Zentrale Zielstruktur im Rehabilitationstraining nach Kniegelenkseingriffen — Atrophie ist ein Frühzeichen unzureichender Belastung.",
+      "Zentrale Zielstruktur im Rehabilitationstraining nach Kniegelenkseingriffen — Atrophie ist ein Frühzeichen unzureichender Belastung. Eine Verkürzung des Muskels erhöht zusätzlich den Kompressionsdruck der Patella auf den Femur — ein weiterer Grund, warum reines Muskelaufbautraining ohne begleitende Dehnung nicht ausreicht.",
     palpationHint: "Seitenvergleich des Muskelumfangs am Oberschenkel ist ein einfacher klinischer Indikator für den Rehabilitationsfortschritt.",
     transferQ:
       'Warum ist reduzierter Muskelumfang am Oberschenkel nach einer Knie-OP klinisch relevant, auch wenn der Hund "fit" wirkt?',
@@ -771,7 +771,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Er hat nur kosmetische Bedeutung", correct: false },
     ],
     sourceStatus:
-      "Quellenkandidat: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 9 (Muskeln in Bewegung) behandelt die Muskulatur systematisch; genaue Seite für M. quadriceps femoris noch zu identifizieren. Status weiterhin DRAFT.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8 (Knieregion), S. 91–93. Funktion (stärkster Strecker des Kniegelenks; über M. rectus femoris zusätzlich Hüftgelenkflexion) und Ansatz (Endsehne über Ligamentum patellae an der Tuberositas tibiae, mit der Patella als Hypomochlion eingelagert) sind hier explizit bestätigt — und lösen damit die zuvor bei Hohmann (Kap. 9, technisch nicht vollständig extrahierbares Kapitel) offene Verifizierung ein. Die genauen knöchernen Ursprungspunkte der drei Vasti-Anteile werden in diesem Kapitel nicht benannt, nur ihre Lagebeziehung zueinander (M. vastus lateralis oberflächig zwischen M. biceps femoris und M. sartorius; M. vastus medialis komplett vom M. sartorius überlagert; M. vastus intermedius am tiefsten, dem Femur direkt aufliegend) — „Femur\" als Ursprungsknochen der Vasti bleibt etabliertes Wissen, NICHT wörtlich in dieser Quelle benannt. Die Innervation (N. femoralis) wird im Original ebenfalls nicht genannt. Ergänzend bestätigt: Eine Verkürzung des Muskels erhöht den Kompressionsdruck der Patella auf den Femur.",
     bildUrl: "/cases/quadriceps-01.png",
   },
   {
@@ -1275,6 +1275,111 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 184. Ursprungsregion, die gemeinsame Untersuchung, die Rolle als Antischwerkraftmuskeln mit den genannten Faseranteilen sowie die diagnostische Differenzierung über Zusatzbewegungen sind im Original so beschrieben. Einzelne Ansatzpunkte und die Innervation werden im Original nicht genannt.",
   },
+  {
+    id: "biceps-femoris",
+    name: "M. biceps femoris",
+    origin: "Im Quellentext nicht genannt (Lage: Hintergliedmaße, oberflächlich kaudal des M. vastus lateralis)",
+    insertion: "Im Quellentext nicht genannt",
+    funktion:
+      "Extension und Abduktion im Hüftgelenk. Die Pars cranialis extendiert zusätzlich das Kniegelenk; die Pars caudalis wirkt in der Hangbeinphase als Kniegelenkflexor, in der Stützbeinphase dagegen als Kniegelenkextensor. Beide Anteile extendieren zusätzlich das Sprunggelenk.",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Ein gutes Beispiel dafür, dass ein Muskel je nach Belastungsphase genau gegenteilige Funktionen am selben Gelenk übernehmen kann — die Pars caudalis beugt das Knie beim Vorführen des Beins, streckt es aber, sobald das Bein Gewicht trägt.",
+    palpationHint: "Liegt oberflächlich kaudal des M. vastus lateralis am Oberschenkel.",
+    transferQ: "Warum kann die Pars caudalis des M. biceps femoris das Kniegelenk sowohl beugen als auch strecken?",
+    transferOptions: [
+      {
+        label: "Weil ihre Funktion von der Belastungsphase abhängt — Flexion in der Hangbeinphase, Extension in der Stützbeinphase",
+        correct: true,
+      },
+      { label: "Weil der Muskel bei jedem Schritt zufällig unterschiedlich reagiert", correct: false },
+      { label: "Weil nur die Pars cranialis überhaupt eine Funktion am Kniegelenk hat", correct: false },
+      { label: "Weil der Muskel ausschließlich das Hüftgelenk bewegt", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8 (Knieregion), S. 91. Die phasenabhängige Doppelfunktion der Pars caudalis, die Funktion der Pars cranialis sowie die Hüft- und Sprunggelenkfunktion sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+  },
+  {
+    id: "semitendinosus",
+    name: "M. semitendinosus",
+    origin: "Im Quellentext nicht genannt",
+    insertion: "Im Quellentext nicht genannt",
+    funktion: "Extension von Hüft- und Sprunggelenk; am Kniegelenk wirkt er dagegen flektierend.",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Einer von drei Muskeln, die gemeinsam den Pes anserinus bilden (mit M. gracilis und M. sartorius) — bei schmerzhafter Druckpalpation an der medialen Kniegelenkseite müssen diese drei Muskeln gezielt voneinander differenziert werden, um den tatsächlich betroffenen Muskel zu behandeln.",
+    palpationHint:
+      "Differenzierung von M. gracilis und M. sartorius über eine gezielte Kombination aus Gelenkstellungen: Extension im Knie kombiniert mit Flexion der Hüfte und Flexion im Sprunggelenk provoziert gezielt den M. semitendinosus.",
+    transferQ: "Welche Bewegungskombination provoziert gezielt den M. semitendinosus, ohne M. gracilis oder M. sartorius stark mitzubelasten?",
+    transferOptions: [
+      { label: "Extension im Kniegelenk mit Flexion der Hüfte und Flexion im Sprunggelenk", correct: true },
+      { label: "Extension im Kniegelenk mit Abduktion der Hüfte", correct: false },
+      { label: "Flexion im Kniegelenk mit Extension der Hüfte", correct: false },
+      { label: "Reine Adduktion der Hüfte", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91, 92. Funktion, Zugehörigkeit zum Pes anserinus und die spezifische Provokationsbewegung zur Differenzierung von M. gracilis/M. sartorius sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+  },
+  {
+    id: "gracilis",
+    name: "M. gracilis",
+    origin: "Im Quellentext nicht genannt",
+    insertion: "Im Quellentext nicht genannt",
+    funktion: "Adduktion und etwas Extension im Hüftgelenk, Flexion im Kniegelenk, Extension im Sprunggelenk.",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Wie M. sartorius und M. semitendinosus einer der drei Muskeln des Pes anserinus an der Medialseite des Knies — differenziert wird er von den beiden anderen über eine gezielte Kombination aus Knie- und Hüftgelenkstellung.",
+    palpationHint: "Provokation durch Extension im Kniegelenk kombiniert mit Abduktion der Hüfte.",
+    transferQ: "Welche Bewegungskombination provoziert gezielt den M. gracilis?",
+    transferOptions: [
+      { label: "Extension im Kniegelenk mit Abduktion der Hüfte", correct: true },
+      { label: "Flexion im Kniegelenk mit Extension der Hüfte", correct: false },
+      { label: "Extension im Kniegelenk mit Flexion der Hüfte und Flexion im Sprunggelenk", correct: false },
+      { label: "Innenrotation der Hüfte allein", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91, 92. Funktion, Zugehörigkeit zum Pes anserinus und die spezifische Provokationsbewegung sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+  },
+  {
+    id: "sartorius",
+    name: "M. sartorius",
+    origin: "Im Quellentext nicht genannt",
+    insertion: "Im Quellentext nicht genannt",
+    funktion: "Flexion und Adduktion im Hüftgelenk, Extension im Kniegelenk.",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Dritter Muskel des Pes anserinus. Überlagert den M. vastus medialis vollständig — bei dessen Palpation muss die Hüfte etwas flektiert werden, um den M. sartorius zu entspannen und nicht mitzupalpieren.",
+    palpationHint: "Provokation durch Flexion im Kniegelenk kombiniert mit Extension der Hüfte.",
+    transferQ: "Warum muss die Hüfte bei der Palpation des M. vastus medialis leicht flektiert werden?",
+    transferOptions: [
+      { label: "Weil der M. sartorius den M. vastus medialis vollständig überlagert und durch Hüftflexion entspannt wird", correct: true },
+      { label: "Weil der M. vastus medialis sonst reißen könnte", correct: false },
+      { label: "Weil die Hüftflexion den M. vastus medialis direkt anspannt", correct: false },
+      { label: "Weil dies keinen Einfluss auf die Palpation hat", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91f. Funktion, Zugehörigkeit zum Pes anserinus, die spezifische Provokationsbewegung sowie die Überlagerung des M. vastus medialis (mit der daraus folgenden Palpationstechnik) sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+  },
+  {
+    id: "tensor-fasciae-latae",
+    name: "M. tensor fasciae latae",
+    origin: "Im Quellentext nicht genannt",
+    insertion: "Im Quellentext nicht genannt (zieht über den Tractus iliotibialis zur Lateralseite des Knies)",
+    funktion: "Abduktion und Flexion im Hüftgelenk, Extension im Kniegelenk.",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Der Tractus iliotibialis, in den der Muskel einstrahlt, stabilisiert das Kniegelenk von lateral. Ist der M. tensor fasciae latae verkürzt — was häufig vorkommt —, lateralisiert er die Patella. Das macht ihn besonders bei Patelladysplasie zu einer wichtigen Struktur, die gezielt mitbeurteilt werden sollte.",
+    palpationHint: "Liegt proximal am lateralen Oberschenkel; der M. vastus lateralis zieht distal von ihm weiter zur Patella.",
+    transferQ: "Warum lohnt sich bei Patelladysplasie ein gezielter Blick auf den M. tensor fasciae latae?",
+    transferOptions: [
+      { label: "Weil ein verkürzter M. tensor fasciae latae die Patella nach lateral zieht", correct: true },
+      { label: "Weil der Muskel bei Patelladysplasie immer gerissen ist", correct: false },
+      { label: "Weil er keinerlei Verbindung zum Kniegelenk hat", correct: false },
+      { label: "Weil er ausschließlich das Sprunggelenk beeinflusst", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91f. Funktion, die stabilisierende Rolle des Tractus iliotibialis sowie der Zusammenhang zwischen Verkürzung des Muskels und Patella-Lateralisation (insbesondere bei Patelladysplasie) sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -1333,7 +1438,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Befund überbewertet", "Faktenwissen"],
     sourceStatus:
-      "Quellenkandidat: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 9 (Muskeln in Bewegung) behandelt die Muskulatur systematisch; genaue Seite für M. quadriceps femoris noch zu identifizieren. Status weiterhin DRAFT.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8 (Knieregion), S. 91–93. Funktion und Ansatz (Ligamentum patellae an der Tuberositas tibiae) sind dort explizit bestätigt (siehe Anatomie-Item „quadriceps\" für Details). Die genauen Ursprungspunkte der Vasti-Anteile und die Innervation (N. femoralis) werden im Original nicht benannt.",
     relatedCaseIds: ["bruno"],
     relatedAnatomyIds: ["quadriceps"],
   },
@@ -2515,6 +2620,118 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "kreuzband-meniskus-tests",
+    category: "UNTERSUCHUNG",
+    title: "Kreuzbandriss und Meniskusschaden erkennen — die wichtigsten Tests",
+    teaser:
+      "Lachmann-Test, Tibiakompressionstest, McMurray- und Apley-Test — vier Handgriffe mit jeweils eigenem Fokus, und warum keiner davon allein verrät, welcher Meniskus betroffen ist.",
+    sections: [
+      {
+        type: "text",
+        text: "Bei Verdacht auf einen Kreuzbandriss oder Meniskusschaden helfen mehrere spezifische Tests — jeder mit einem eigenen Wirkprinzip.",
+      },
+      {
+        type: "table",
+        heading: "Tests auf das vordere Kreuzband",
+        columns: ["Test", "Ausführung", "Prinzip"],
+        rows: [
+          [
+            "Lachmann-Test",
+            "Kniegelenk in maximaler Extension; das Tibiaplateau wird nach kranial geschoben",
+            "Direkter Test der vorderen Schublade — prüft das Lig. cruciatum craniale",
+          ],
+          [
+            "Tibiakompressionstest",
+            "Kniegelenk maximal extendiert, das Sprunggelenk wird passiv maximal flektiert",
+            "Ist das Kreuzband rupturiert, ziehen die Gastrocnemiusköpfe den Femur nach kaudal — die Tibia „kommt dem Untersucher entgegen“, ohne dass er selbst zieht",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum der Tibiakompressionstest so wertvoll ist",
+        text: "Anders als beim Lachmann-Test erzeugt der Untersucher hier keine eigene Zugkraft — die vordere Schublade entsteht rein durch den muskulären Zug der Gastrocnemiusköpfe am Femur, sobald das Sprunggelenk gebeugt wird. Das macht den Test weniger anfällig für zu vorsichtiges oder zu kräftiges Ziehen von Untersucherseite.",
+      },
+      {
+        type: "table",
+        heading: "Tests auf Meniskusschäden",
+        columns: ["Test", "Ausführung", "Besonderheit"],
+        rows: [
+          [
+            "Apley-Test",
+            "Knie 90° flektiert, Sprunggelenk maximal flektiert (verriegelt); Kompression ins Kniegelenk mit Innen- oder Außenrotation",
+            "Kann nicht unterscheiden, welcher Meniskus betroffen ist — dafür bräuchte man eine Schmerzangabe des Patienten, die beim Tier fehlt",
+          ],
+          [
+            "McMurray-Test",
+            "Kniegelenk maximal flektiert und innen- bzw. außenrotiert, dann unter Beibehaltung der Rotation mit zusätzlichem Valgus- oder Varusstress gestreckt",
+            "Deutlich provokanter als der Apley-Test, da zusätzlich eine Zug-/Kompressionsbelastung auf die Menisken wirkt",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Eine ehrliche Grenze dieser Tests",
+        text: "Weder der Apley- noch der McMurray-Test verraten beim Tier zuverlässig, ob der mediale oder der laterale Meniskus betroffen ist — anders als beim Menschen kann der Hund die schmerzende Seite nicht benennen. Diese Differenzierung bleibt der Bildgebung oder der direkten arthroskopischen Beurteilung vorbehalten.",
+      },
+      {
+        type: "text",
+        heading: "Bandstabilität separat prüfen",
+        text: "Ein Varus- oder Valgusstress bei leichter Knieflexion prüft die Kollateralbänder (Aufklaffen bzw. Gapping medial oder lateral). Derselbe Stress bei gestrecktem statt gebeugtem Knie prüft stattdessen die seitlichen Kapselanteile.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8 (Knieregion), S. 85–87. Lachmann-Test, Tibiakompressionstest, Apley-Test, McMurray-Test sowie die Band-/Kapselprovokation über Varus-/Valgusstress sind im Original mit Ausführung und Indikation so beschrieben, einschließlich des expliziten Hinweises, dass Apley- und McMurray-Test ohne Schmerzangabe des Patienten keine Aussage über die betroffene Meniskusseite erlauben.",
+    relatedCaseIds: ["bruno"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "tibiofibulargelenke",
+    category: "BIOMECHANIK",
+    title: "Die Tibiofibulargelenke — kaum Bewegung, aber nicht bedeutungslos",
+    teaser:
+      "Zwischen Tibia und Fibula bewegt sich beim Hund fast nichts — trotzdem muss die Malleolengabel bei jedem Schritt minimal nachgeben, damit das Sprunggelenk frei arbeiten kann.",
+    sections: [
+      {
+        type: "text",
+        text: "Der Unterschenkel des Hundes besteht aus Tibia, Fibula und der dazwischen ausgespannten Membrana interossea cruris. Es gibt drei Knochenverbindungen: das proximale Tibiofibulargelenk, die Membrana interossea cruris (auch Syndesmosis tibiofibularis genannt) und das distale Tibiofibulargelenk. Für Untersuchung und Behandlung sind vor allem die beiden Gelenke wichtig.",
+      },
+      {
+        type: "table",
+        heading: "Proximales und distales Tibiofibulargelenk im Vergleich",
+        columns: ["Gelenk", "Gelenkflächen", "Besonderheit"],
+        rows: [
+          [
+            "Proximales Tibiofibulargelenk",
+            "konkav: Caput fibulae; konvex: Facies articularis fibularis des Condylus lateralis tibiae",
+            "einfaches, straffes Gelenk (Amphiarthrose) mit schwacher Gelenkkapsel, verstärkt durch die Ligg. capitis fibularia cranialis et caudalis; gehört anatomisch zum Kniegelenk (von dessen Kapsel umschlossen), funktionell aber zu den Unterschenkelgelenken",
+          ],
+          [
+            "Distales Tibiofibulargelenk",
+            "konvex: Malleolus lateralis; kommuniziert mit dem konkaven Talus und der Tibia",
+            "Kapsel kommuniziert mit der Kapsel der Art. tarsocruralis; stabilisiert durch die Ligg. tibiofibularia cranialis et caudalis",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum sich hier trotzdem etwas bewegen muss",
+        text: "In der Literatur ist umstritten, ob in den Unterschenkelgelenken überhaupt Bewegung stattfindet. Der Talus des Sprunggelenks ist auf seiner Dorsalseite etwas breiter als auf der plantaren Seite. Bei Flexion des Sprunggelenks gleitet der breitere Teil des Talus zwischen die Malleolengabel — diese muss dafür minimal auseinanderweichen. Es muss also zumindest eine winzige Bewegung im proximalen Tibiofibulargelenk stattfinden, damit das Sprunggelenk frei flektieren kann.",
+      },
+      {
+        type: "text",
+        heading: "Für die Praxis",
+        text: "Beide Endgefühle sind fest-elastisch. Eine isolierte Bewegungspalpation ist im proximalen Tibiofibulargelenk nicht möglich — im Joint play ist eher ein federndes Endgefühl als eine tatsächliche Bewegung zu erwarten.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 9 (Unterschenkelregion), S. 94f. Die drei Knochenverbindungen, die Gelenkflächen und Bänder beider Tibiofibulargelenke, die Diskussion um das tatsächliche Bewegungsausmaß sowie die Erklärung über die Talus-Form sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
@@ -2524,6 +2741,19 @@ export async function seedContent(prisma: PrismaClient) {
     const created = await prisma.case.upsert({
       where: { slug: c.id },
       update: {
+        topic: c.topic,
+        species: c.species,
+        title: c.title,
+        learningObjective: c.learningObjective,
+        anamnese: c.anamnese,
+        beobachtung: c.beobachtung,
+        diagramLabel: c.diagramLabel,
+        palpation: c.palpation,
+        hypothesisQ: c.hypothesisQ,
+        expertNote: c.expertNote,
+        weakeningQ: c.weakeningQ,
+        retrievalQ: c.retrievalQ,
+        sourceStatus: c.sourceStatus,
         einstiegsbildUrl: c.einstiegsbildUrl ?? null,
         befundbildUrl: c.befundbildUrl ?? null,
       },
@@ -2545,35 +2775,43 @@ export async function seedContent(prisma: PrismaClient) {
         einstiegsbildUrl: c.einstiegsbildUrl,
         befundbildUrl: c.befundbildUrl,
         status: "DRAFT",
-        hypothesisOptions: {
-          create: c.hypothesisOptions.map((o, i) => ({
-            sortOrder: i,
-            label: o.label,
-            isCorrect: o.correct,
-            errorCategory: o.errorCategory,
-            arguesAgainst: o.arguesAgainst,
-            differentiationDistractors: o.differentiationDistractors ?? [],
-          })),
-        },
-        weakeningOptions: {
-          create: c.weakeningOptions.map((o, i) => ({
-            sortOrder: i,
-            label: o.label,
-            isCorrect: o.correct,
-            errorCategory: o.errorCategory,
-          })),
-        },
-        retrievalOptions: {
-          create: c.retrievalOptions.map((o, i) => ({
-            sortOrder: i,
-            label: o.label,
-            isCorrect: o.correct,
-            errorCategory: o.errorCategory,
-          })),
-        },
       },
     });
     caseIdBySlug.set(c.id, created.id);
+
+    await prisma.caseHypothesisOption.deleteMany({ where: { caseId: created.id } });
+    await prisma.caseWeakeningOption.deleteMany({ where: { caseId: created.id } });
+    await prisma.caseRetrievalOption.deleteMany({ where: { caseId: created.id } });
+
+    await prisma.caseHypothesisOption.createMany({
+      data: c.hypothesisOptions.map((o, i) => ({
+        caseId: created.id,
+        sortOrder: i,
+        label: o.label,
+        isCorrect: o.correct,
+        errorCategory: o.errorCategory,
+        arguesAgainst: o.arguesAgainst,
+        differentiationDistractors: o.differentiationDistractors ?? [],
+      })),
+    });
+    await prisma.caseWeakeningOption.createMany({
+      data: c.weakeningOptions.map((o, i) => ({
+        caseId: created.id,
+        sortOrder: i,
+        label: o.label,
+        isCorrect: o.correct,
+        errorCategory: o.errorCategory,
+      })),
+    });
+    await prisma.caseRetrievalOption.createMany({
+      data: c.retrievalOptions.map((o, i) => ({
+        caseId: created.id,
+        sortOrder: i,
+        label: o.label,
+        isCorrect: o.correct,
+        errorCategory: o.errorCategory,
+      })),
+    });
   }
 
   const anatomyIdBySlug = new Map<string, string>();
@@ -2582,6 +2820,16 @@ export async function seedContent(prisma: PrismaClient) {
     const createdAnatomy = await prisma.anatomyItem.upsert({
       where: { slug: a.id },
       update: {
+        name: a.name,
+        relatedCaseId: a.relatedCaseId ? caseIdBySlug.get(a.relatedCaseId) : null,
+        origin: a.origin,
+        insertion: a.insertion,
+        funktion: a.funktion,
+        innervation: a.innervation,
+        clinicalRelevance: a.clinicalRelevance,
+        palpationHint: a.palpationHint,
+        transferQ: a.transferQ,
+        sourceStatus: a.sourceStatus,
         bildUrl: a.bildUrl ?? null,
       },
       create: {
@@ -2598,16 +2846,19 @@ export async function seedContent(prisma: PrismaClient) {
         transferQ: a.transferQ,
         sourceStatus: a.sourceStatus,
         bildUrl: a.bildUrl,
-        transferOptions: {
-          create: a.transferOptions.map((o, i) => ({
-            sortOrder: i,
-            label: o.label,
-            isCorrect: o.correct,
-          })),
-        },
       },
     });
     anatomyIdBySlug.set(a.id, createdAnatomy.id);
+
+    await prisma.anatomyTransferOption.deleteMany({ where: { anatomyId: createdAnatomy.id } });
+    await prisma.anatomyTransferOption.createMany({
+      data: a.transferOptions.map((o, i) => ({
+        anatomyId: createdAnatomy.id,
+        sortOrder: i,
+        label: o.label,
+        isCorrect: o.correct,
+      })),
+    });
   }
 
   for (const m of MEDIALIBRARY) {
