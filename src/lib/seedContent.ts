@@ -1805,6 +1805,87 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "ziele-bewegungstherapie",
+    category: "THERAPIE",
+    title: "Bewegungstherapie — mehr als „Laufen lassen“",
+    teaser:
+      "Bewegungstherapie in der Rehabilitation ist kein zufälliges Auslaufen, sondern gezielte Übung nach Trainingsplan unter Aufsicht — mit neun klar benennbaren Zielen.",
+    sections: [
+      {
+        type: "text",
+        text: "Bewegungstherapie kommt vor allem in der Rehabilitationsmedizin zum Einsatz — nach Verletzungen, orthopädischen Operationen oder bei nervalen Ausfällen. Sie besteht nur in den seltensten Fällen aus einfachem „Laufen lassen“: Stattdessen handelt es sich um verschiedene therapeutische Übungen, die kontrollierte, oft physiologische Bewegungsabläufe darstellen. Die Tiere arbeiten nach einem speziellen Trainingsplan unter Supervision.",
+      },
+      {
+        type: "list",
+        heading: "Ziele der therapeutischen Übungen",
+        items: [
+          "Wiederbenutzung der betroffenen Extremität",
+          "Vergrößerung des schmerzfreien Bewegungsausmaßes der betroffenen Gelenke",
+          "Reduzierung der Lahmheit",
+          "Wiedererlangung gestörter Ausscheidungsfunktionen",
+          "Verbesserung der Propriozeption",
+          "Schulung der Koordination",
+          "Aufbau von Muskelmasse und Kraft",
+          "Remobilisierung fixierter Gelenke",
+          "Prävention weiterer Verletzungen",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum früh beginnen so wichtig ist",
+        text: "Je früher geeignete therapeutische Übungen nach einem orthopädischen Trauma einsetzen, desto eher lässt sich eine ungestörte, mühelose Bewegung wiedererlangen. Der Grund liegt vor allem in zwei Begriffen: Koordination und Propriozeption — beide verschlechtern sich durch Schonhaltung und Inaktivität weiter, je länger sie andauern.",
+      },
+      {
+        type: "text",
+        heading: "Verknüpfung zur Praxis",
+        text: "Die Anpassung der jeweiligen Übungen an den individuellen Patienten und die strenge Kontrolle der korrekten Ausführung gehören zu den wichtigsten Aufgaben der Rehabilitationsmedizin — beides lässt sich nicht pauschal vorgeben. Das ergänzt das Prinzip aus „Warum kontrollierte Bewegung besser ist als komplette Ruhigstellung“: Kontrollierte Bewegung ist nicht nur das kleinere Übel gegenüber Ruhigstellung, sondern hat eigene positive Wirkungen, die eine Ruhigstellung gar nicht erst herstellen kann.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 5. Auflage 2022, Kap. 5.4 (Bewegungstherapie), S. 100f. Definition, Einsatzgebiete und alle neun genannten Ziele sind im Original so aufgeführt.",
+    relatedCaseIds: ["bruno"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "bewegungstherapie-arthrose",
+    category: "THERAPIE",
+    title: "Bewegungstherapie bei Arthrose — worauf es ankommt",
+    teaser:
+      "Bei Arthrose zählt nicht die Menge an Bewegung, sondern wie sie dosiert wird: kurze, kontrollierte Einheiten mit viel Entlastung statt langer Belastung.",
+    sections: [
+      {
+        type: "text",
+        text: "Die therapeutischen Übungen bei Arthrose bestehen anfangs aus leichter, kontrollierter Arbeit zum Muskelaufbau mit möglichst geringer Gewichtsbelastung. Die Bewegungsphasen sollen kurz sein und von vielen Pausen unterbrochen werden.",
+      },
+      {
+        type: "list",
+        heading: "Praktische Bausteine",
+        items: [
+          "Gewichtsreduktion steht bei den meisten Patienten an erster Stelle des Trainings.",
+          "Die Gewichtsbelastung der Gelenke lässt sich z. B. mittels einer Schlinge auf dem Laufband oder durch Arbeit im Unterwasserlaufband gut reduzieren.",
+          "Die Gelenke sollen dabei in möglichst großem Bewegungsausmaß bewegt werden, damit die durch die Arthrose geschädigten Propriozeptoren wieder Informationen über das physiologische Bewegungsausmaß erhalten.",
+          "Gelenkbeugung und -streckung lassen sich über Übungen am Physioball, mit Therabändern, im Koordinationsparcours oder beim Bergaufgehen erreichen.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Aufwärmen ist bei Arthrose besonders wichtig",
+        text: "Sorgfältiges Aufwärmen mit passiven ROM-Übungen (das Gelenk wird vom Therapeuten bewegt, ohne Eigenaktivität des Hundes) und Stretching ist gerade für Arthrose-Patienten wichtig. Hunde, die im kalten Wasser schwimmen, müssen danach besonders sorgfältig getrocknet werden.",
+      },
+      {
+        type: "text",
+        heading: "Der richtige Untergrund",
+        text: "Hunde mit Arthrose bewegen sich lieber auf ebenem, weichem Boden — kurz geschnittene Wiesen oder ein Laufband mit federnder Oberfläche sind optimal.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 5. Auflage 2022, Kap. 5.3 (Mobilisationstechniken, Einleitung vor 5.3.1), S. 85. Die genannten Prinzipien (kurze Bewegungsphasen mit vielen Pausen, Gewichtsreduktion an erster Stelle, Gewichtsentlastung via Schlinge/Unterwasserlaufband, großes Bewegungsausmaß wegen geschädigter Propriozeptoren, geeignete Übungsformen, Aufwärmen, bevorzugter Untergrund) sind im Original so beschrieben.",
+    relatedCaseIds: ["findus"],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
