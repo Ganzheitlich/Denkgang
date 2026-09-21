@@ -23,8 +23,8 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 20 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
-  Untersuchung, 2 Pathologie, 1 Biomechanik, 2 Therapie)
+- Wissensbibliothek: 22 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
+  Untersuchung, 2 Pathologie, 1 Biomechanik, 4 Therapie)
 - Anatomie-Sektion: 7 Items (biceps, iliopsoas, quadriceps, facettengelenke,
   huefte, + 2 weitere zu bereits bestehenden Fällen)
 
@@ -111,14 +111,26 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       Links-Rechts-Vergleich als Praxisstandard, warum Force-Plate-Messungen
       trotz wissenschaftlicher Exaktheit nicht praxisrelevant sind. Gute
       Ergänzung zum bestehenden Untersuchung-Eintrag „Ganganalyse“.
-- [ ] Kap. 5.3 Mobilisationstechniken / Manuelle Medizin (ph(25).pdf) — u. a.
-      Grundprinzipien der Arthrose-Übungstherapie (kurze Bewegungsphasen,
-      viele Pausen, Gewichtsreduktion vor Muskelaufbau)
-- [ ] Kap. 5.4 Bewegungstherapie (ph(26).pdf) — Definition, Abgrenzung zu
-      „einfachem Laufenlassen“
+- [x] Bewegungstherapie bei Arthrose (Grundprinzipien: kurze Bewegungsphasen,
+      viele Pausen, Gewichtsreduktion vor Muskelaufbau, Untergrund) — aus der
+      Einleitung von Kap. 5.3 (ph(25).pdf), S. 85
+- [x] Ziele und Grundprinzip der Bewegungstherapie (Kap. 5.4, ph(26).pdf, S.
+      100f.) — neun Ziele, Abgrenzung zu „einfachem Laufenlassen“
+- [ ] Kap. 5.3.1 Manuelle Medizin — Überblick über OMT (Maitland/Mulligan/
+      Kaltenborn), Chiropraxis, Osteopathie (ph(25).pdf, S. 85–87) — bewusst
+      noch nicht geschrieben: braucht sorgfältige Abgrenzung zwischen
+      etablierter Biomechanik-Erklärung und schulenspezifischer Theorie
+- [ ] Kap. 5.3.2 Tuina (Traditionelle chinesische Massage, ph(25).pdf, S.
+      87–100) — sehr umfangreich (Geschichte, TCM-Theorie, einzelne
+      Grifftechniken, Kontraindikationen). Konzeptionelle Entscheidung noch
+      offen: eigener „Referenzbild“-artiger Nachschlage-Eintrag zu den
+      Grifftechniken (TUI, NA, AN, MO, ROU, QIA, PAI, KOU, DOU, YAO, GUN,
+      ZHEN, CUO) wäre möglich, sollte aber die TCM-Begrifflichkeit klar von
+      schulmedizinisch verifizierten Aussagen trennen.
 - [ ] Rest des Buches (ca. 26+ Einzeldateien ph.pdf, ph1–ph26) noch nicht
       systematisch gesichtet — voraussichtlich eigene Kapitel zu Hydrotherapie,
-      Massage-Grundtechniken, Bandagieren/Orthesen.
+      Massage-Grundtechniken (westliche/klassische Massage), Bandagieren/
+      Orthesen.
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 
