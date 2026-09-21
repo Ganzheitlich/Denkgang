@@ -2062,6 +2062,61 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["findus"],
     relatedAnatomyIds: [],
   },
+  {
+    id: "ellenbogengelenk-teilgelenke",
+    category: "BIOMECHANIK",
+    title: "Das Ellenbogengelenk — drei Gelenke in einem",
+    teaser:
+      "Warum normales Gassigehen nicht ausreicht, um das Ellenbogengelenk in seinem vollen Bewegungsumfang zu halten — und wie eine Überlastung dort mit einem Problem ganz woanders beginnen kann.",
+    sections: [
+      {
+        type: "text",
+        text: "Das Ellenbogengelenk (Art. cubiti) ist anatomisch einfach, funktionell aber ein zusammengesetztes Gelenk aus drei Teilgelenken, die sich gegenseitig in ihrer Bewegung beeinflussen.",
+      },
+      {
+        type: "table",
+        heading: "Die drei Teilgelenke",
+        columns: ["Teilgelenk", "Gelenktyp", "Bewegung"],
+        rows: [
+          [
+            "Art. humeroulnaris",
+            "zweiachsiges Sattelgelenk",
+            "Flexion/Extension und Ab-/Adduktion — sehr kongruente Gelenkflächen mit wenig Roll-, aber viel Gleitbewegung",
+          ],
+          [
+            "Art. humeroradialis",
+            "dreiachsiges Kugelgelenk",
+            "Flexion/Extension; Ab-/Adduktion wird durch die Kollateralbänder begrenzt; das Radiusköpfchen bewegt sich bei Pro- und Supination mit",
+          ],
+          [
+            "Art. radioulnaris proximalis",
+            "Teil des proximalen Radioulnargelenks",
+            "gehört anatomisch zum Ellenbogen, funktionell aber zum Unterarm — daher gemeinsam mit den Unterarmgelenken betrachtet",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Bewegungsausmaß",
+        text: "Physiologisch lässt sich das Ellenbogengelenk passiv um etwa 30–36° flektieren und um etwa 160–166° extendieren; dazu kommen etwa 20° passive Pronation und etwa 50° passive Supination.",
+      },
+      {
+        type: "text",
+        heading: "Warum Gassigehen nicht reicht",
+        text: "Eine im Original zitierte Studie (die „Jena-Studie“) zeigt: Obwohl das Ellenbogengelenk insgesamt eine Beweglichkeit von rund 135° hat, nutzen Hunde während der normalen Fortbewegung tatsächlich nur etwa 20° davon. Reines Spazierengehen bewegt das Gelenk also nur durch einen kleinen Ausschnitt seines möglichen Bewegungsumfangs — für die Gesunderhaltung des Gelenkknorpels braucht es zusätzlich gezielte endgradige Bewegungsmobilisation und unterschiedliche Belastungsreize, nicht nur Spaziergänge.",
+      },
+      {
+        type: "text",
+        heading: "Eine Überlastungskette, die woanders beginnt",
+        text: "Verlagert ein Hund wegen Problemen an der Hintergliedmaße dauerhaft mehr Gewicht nach vorne, wird das Ellenbogen- und Schultergelenk zusätzlich belastet. Über die Zeit kann das zu verspannter Schultergürtelmuskulatur führen, wodurch sich die Beweglichkeit der Skapula auf dem Thorax einschränkt. Das schränkt wiederum die horizontale Auslenkung der Vordergliedmaße ein — Schulter- und Ellenbogengelenk werden dadurch noch stärker belastet, obwohl sie dafür nicht ausgerichtet sind. Knorpeldegeneration und Lahmheit können die Folge sein — eine Kette, die mit einem Problem an ganz anderer Stelle beginnt.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13 (Ellenbogenregion), S. 165. Die drei Teilgelenke, ihre Gelenktypen/Bewegungen, die genannten ROM-Werte sowie die Überlastungskette (Hintergliedmaßen-Problem → Gewichtsverlagerung nach vorn → Schultergürtel-Verspannung → Skapulaeinschränkung → Schulter-/Ellenbogen-Überlastung) sind im Original so beschrieben. Die „Jena-Studie“ wird im Original nur namentlich zitiert, ohne vollständige bibliografische Angabe — als Sekundärzitat übernommen, nicht eigenständig verifiziert.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["biceps"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
