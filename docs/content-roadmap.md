@@ -23,8 +23,8 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 18 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
-  Untersuchung, 2 Pathologie, 1 Biomechanik, 0 Therapie)
+- Wissensbibliothek: 20 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
+  Untersuchung, 2 Pathologie, 1 Biomechanik, 2 Therapie)
 - Anatomie-Sektion: 7 Items (biceps, iliopsoas, quadriceps, facettengelenke,
   huefte, + 2 weitere zu bereits bestehenden Fällen)
 
@@ -94,11 +94,31 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       Adspektion, Auskultation, Palpation-Grundlagen, Vitalparameter — guter
       Ergänzungsstoff zur Allgemeinuntersuchung aus Koch/Fischer Kap. 5.1.
 
-### THERAPIE — bisher 0 Einträge, Quelle noch zu erschließen
+### THERAPIE — Mai, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3, Thieme 2022)
 
-- [ ] Mai, Physiotherapie und Bewegungstraining für Hunde — Ordner in Drive
-      vorhanden (siehe `docs/quellen-status.md`), noch nicht gesichtet. Naheliegender
-      Startpunkt für die komplett leere THERAPIE-Kategorie.
+- [x] Belastungssteuerung nach Verletzung (Immobilisation vs. kontrollierte
+      Bewegung, Kap. 4.3, S. 62)
+- [x] Aufwärmen und Abkühlen beim Hundetraining (Kap. 4.3.5–4.3.6, S. 65–67)
+- [ ] Rückenschmerzen und Trainingsfehler (Hallgren-Studie, zitiert in Kap.
+      4.3, S. 63f. — Leinenruck, Halti, Brustgeschirr-Passform als
+      Risikofaktoren). Achtung: Hallgrens Originalstudie (Animal Learn Verlag)
+      selbst noch nicht geprüft, nur Mais Zusammenfassung gelesen — als
+      Sekundärzitat kennzeichnen.
+- [ ] Trainingsalter-Richtlinien für Welpen/Junghunde/alte Hunde (Kap.
+      4.3.3–4.3.4, S. 64f.) — z. B. Faustregeln ab wann Joggen/Rad/Reiten,
+      Wachstumsfugenschluss als Grenze
+- [ ] Evaluierung/objektive Verlaufskontrolle in der Reha (Kap. 5.1, S. 71) —
+      Links-Rechts-Vergleich als Praxisstandard, warum Force-Plate-Messungen
+      trotz wissenschaftlicher Exaktheit nicht praxisrelevant sind. Gute
+      Ergänzung zum bestehenden Untersuchung-Eintrag „Ganganalyse“.
+- [ ] Kap. 5.3 Mobilisationstechniken / Manuelle Medizin (ph(25).pdf) — u. a.
+      Grundprinzipien der Arthrose-Übungstherapie (kurze Bewegungsphasen,
+      viele Pausen, Gewichtsreduktion vor Muskelaufbau)
+- [ ] Kap. 5.4 Bewegungstherapie (ph(26).pdf) — Definition, Abgrenzung zu
+      „einfachem Laufenlassen“
+- [ ] Rest des Buches (ca. 26+ Einzeldateien ph.pdf, ph1–ph26) noch nicht
+      systematisch gesichtet — voraussichtlich eigene Kapitel zu Hydrotherapie,
+      Massage-Grundtechniken, Bandagieren/Orthesen.
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 
