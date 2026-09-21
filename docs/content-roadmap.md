@@ -23,11 +23,13 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 22 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
-  Untersuchung, 2 Pathologie, 1 Biomechanik, 4 Therapie)
-- Anatomie-Sektion: 10 Items (biceps, iliopsoas, quadriceps, facettengelenke,
-  huefte, + 2 weitere zu bereits bestehenden Fällen, plus die drei neuen,
-  fallunabhängigen Items supraspinatus/infraspinatus/deltoideus)
+- Wissensbibliothek: 23 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
+  Untersuchung, 2 Pathologie, 2 Biomechanik, 4 Therapie)
+- Anatomie-Sektion: 14 Items (biceps, iliopsoas, quadriceps, facettengelenke,
+  huefte, + 2 weitere zu bereits bestehenden Fällen, plus die sieben neuen,
+  fallunabhängigen Schultermuskel-Items: supraspinatus, infraspinatus,
+  subscapularis, coracobrachialis, deltoideus, teres-major, teres-minor —
+  komplette Extensoren-/Flexorengruppe des Schultergelenks nach Hárrer)
 
 ## Backlog nach Quelle
 
@@ -133,6 +135,18 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       Massage-Grundtechniken (westliche/klassische Massage), Bandagieren/
       Orthesen.
 
+### BIOMECHANIK — Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3)
+
+- [x] Das Ellenbogengelenk als drei Teilgelenke, ROM-Werte, "Jena-Studie"
+      (effektive vs. gesamte Gelenkbeweglichkeit während Lokomotion) und die
+      Überlastungskette Hintergliedmaße → Schultergürtel → Ellenbogen/Schulter
+      — Kap. 13, S. 165.
+- [ ] Rest von Kap. 13 (Ellenbogenregion) und alle anderen Regionen-Kapitel
+      (Hüfte Kap. 7, Wirbelsäule Kap. 16 — teilweise schon für Quellenprüfung
+      gelesen, aber nicht systematisch auf weitere Biomechanik-Fakten
+      durchsucht) enthalten wahrscheinlich noch mehr ähnliche
+      Gelenkmechanik-Fakten.
+
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 
 - [ ] Kap. 2 Statik und Dynamik des Hundes (b3.pdf, teilweise bereits beim
@@ -161,18 +175,20 @@ Ziel: alle Strukturen, die in Fällen/Wissenstexten schon *erwähnt* werden, abe
 noch kein eigenes Anatomie-Item haben, nachziehen. Beispiele aus bereits
 gelesenen Quellen:
 
-- [x] M. supraspinatus, M. infraspinatus, M. deltoideus (Schulter) — verifiziert
-      gegen Hárrer Kap. 12, S. 127–144 (Ursprung/Ansatz/Funktion/Palpation aus
-      dem Untersuchungsteil des Kapitels, nicht nur aus der reinen
-      Anatomie-Einleitung)
-- [ ] M. triceps brachii (ebenfalls bereits als Distraktor verwendet) — Kap.
-      12 nennt nur den Ursprung des Caput longum (Tuberculum infraglenoidale),
-      Rest noch zu lesen
-- [ ] M. subscapularis, M. coracobrachialis, M. teres major/minor — in Hárrer
-      Kap. 12 bereits mehrfach erwähnt (Funktion, Differentialdiagnostik zu
-      M. deltoideus/infraspinatus), aber noch ohne eigenes Item; M.
-      subscapularis/coracobrachialis liegen medial und sind laut Quelle nicht
-      palpierbar — eigener Palpationshinweis müsste das ehrlich wiedergeben
+- [x] M. supraspinatus, M. infraspinatus, M. deltoideus, M. subscapularis,
+      M. coracobrachialis, M. teres major, M. teres minor (komplette
+      Extensoren-/Flexorengruppe des Schultergelenks) — verifiziert gegen
+      Hárrer Kap. 12, S. 127–164. M. subscapularis/M. coracobrachialis ehrlich
+      als "nicht palpierbar, nur Ausschlussdiagnostik" markiert, da sie laut
+      Quelle medial liegen.
+- [ ] M. biceps femoris, M. semitendinosus, M. semimembranosus ("Hamstrings"),
+      M. gastrocnemius, M. gracilis — Hintergliedmaße, bisher nur als
+      Landmarken bei Hohmann erwähnt, noch keine Hárrer-Region dazu gelesen
+      (vermutlich eigenes Kapitel "Kniegelenk"/"Oberschenkel" bei Hárrer)
+- [ ] M. triceps brachii, M. brachialis (Ellbogenregion, Kap. 13.1.2
+      "Muskulatur Art. cubiti") — Extraktion bei M. brachialis mitten im Satz
+      abgebrochen (Datei ma(13).pdf noch nicht gezielt zu Ende gelesen); Kap.
+      12 nennt nur den Ursprung des Caput longum (Tuberculum infraglenoidale)
 - [ ] Processus anconaeus, Processus coronoideus medialis (Ellbogen — direkt
       aus dem ED-Pathologie-Eintrag ableitbar, Quelle bereits gelesen)
 - [ ] Ligamentum capitis femoris (Hüfte — bereits in Luna/Fällen erwähnt, aber
