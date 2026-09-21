@@ -47,7 +47,7 @@ type CaseSeed = {
 type AnatomySeed = {
   id: string;
   name: string;
-  relatedCaseId: string;
+  relatedCaseId?: string;
   origin: string;
   insertion: string;
   funktion: string;
@@ -1711,7 +1711,7 @@ export async function seedContent(prisma: PrismaClient) {
         slug: a.id,
         name: a.name,
         status: "DRAFT",
-        relatedCaseId: caseIdBySlug.get(a.relatedCaseId),
+        relatedCaseId: a.relatedCaseId ? caseIdBySlug.get(a.relatedCaseId) : undefined,
         origin: a.origin,
         insertion: a.insertion,
         funktion: a.funktion,
