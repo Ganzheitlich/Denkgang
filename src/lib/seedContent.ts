@@ -1638,6 +1638,88 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["rocky"],
     relatedAnatomyIds: [],
   },
+  {
+    id: "gelenktypen-klassifikation",
+    category: "BIOMECHANIK",
+    title: "Gelenktypen beim Hund — warum nicht jedes Gelenk gleich beweglich ist",
+    teaser:
+      "Kugelgelenk, Scharniergelenk, Zapfengelenk: Die Form der Gelenkflächen bestimmt direkt, welche Bewegungen überhaupt möglich sind — und erklärt, warum die Hüfte anders instabil wird als ein Facettengelenk der Wirbelsäule.",
+    sections: [
+      {
+        type: "text",
+        text: "Gelenke werden nach mehreren, unabhängigen Kriterien eingeteilt: nach ihrer Struktur (mit oder ohne Gelenkspalt), nach ihrer Bauart (wie viele Knochen beteiligt sind) und nach ihrem Gelenktyp — also der Form der Gelenkflächen, die direkt bestimmt, um wie viele Achsen sich ein Gelenk überhaupt bewegen kann.",
+      },
+      {
+        type: "table",
+        heading: "Einteilung nach Struktur",
+        columns: ["Gruppe", "Merkmal", "Beispiel"],
+        rows: [
+          ["Diarthrose (echtes Gelenk)", "hat einen Gelenkspalt (Synovialgelenk)", "die meisten Extremitätengelenke"],
+          ["Synarthrose — Syndesmose", "unechtes Gelenk, Verbindung durch Bindegewebe", "—"],
+          ["Synarthrose — Synchondrose", "unechtes Gelenk, Verbindung durch Knorpel", "—"],
+          ["Synarthrose — Synostose", "unechtes Gelenk, Verbindung durch Knochen", "—"],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Gelenktypen und ihre Bewegungsfreiheit beim Hund",
+        columns: ["Gelenktyp", "Mögliche Bewegung", "Beispiel beim Hund"],
+        rows: [
+          ["Kugelgelenk (Art. spheroidea)", "Bewegung nach allen Richtungen", "Hüftgelenk"],
+          [
+            "Eigelenk (Art. ellipsoidea)",
+            "nur 2 Hauptachsen: Flexion/Extension und Abduktion/Adduktion",
+            "Art. atlantooccipitalis (Kopfgelenk)",
+          ],
+          [
+            "Sattelgelenk (Art. sellaris)",
+            "ebenfalls nur 2 Hauptachsen: Flexion/Extension und Abduktion/Adduktion",
+            "2. und 3. Zehengelenk",
+          ],
+          [
+            "bikondyläres Gelenk (Art. condylaris)",
+            "Bewegung nur in eine Richtung",
+            "Kniekehlgelenk (Sonderform: Spiralgelenk)",
+          ],
+          [
+            "Scharniergelenk (Ginglymus)",
+            "nur Flexion und Extension — deshalb auch „Wechselgelenk“ genannt",
+            "Art. humeroulnaris (Ellbogengelenk)",
+          ],
+          [
+            "Zapfen-/Radgelenk (Art. trochoidea)",
+            "Rotation um einen feststehenden Zapfen",
+            "Atlantoaxialgelenk, Radioulnargelenk",
+          ],
+          [
+            "ebenes Gelenk (Art. plana, „Schiebegelenk“)",
+            "Bewegung in mehrere Richtungen, aber jeweils nur geringfügig",
+            "Wirbelbogengelenke (Facettengelenke)",
+          ],
+          [
+            "straffes Gelenk (Amphiarthrose)",
+            "nur minimale Bewegung, keine ausgeprägte Bewegungsrichtung",
+            "Sakroiliakalgelenk",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum Gelenkflächen nie perfekt zueinander passen",
+        text: "Gelenkflächen sind nie vollständig kongruent — im entlasteten Zustand passen sie nicht exakt aufeinander. Das ist kein Konstruktionsfehler, sondern funktional sinnvoll: Unter Belastung verformt sich der Gelenkknorpel, die Kontaktfläche vergrößert sich dadurch, und der Druck verteilt sich gleichmäßiger auf den Gelenkknochen. Zu Beginn der Belastung trägt vor allem der Gelenkrand, deshalb ist der Knorpel dort dicker als in der Gelenkmitte. Diese Inkongruenz verbessert außerdem die Ernährung des Gelenkknorpels und die Gelenkschmierung.",
+      },
+      {
+        type: "text",
+        heading: "Verknüpfung zur Praxis",
+        text: "Die Gelenktyp-Einteilung erklärt, warum sich Probleme an verschiedenen Gelenken so unterschiedlich äußern. Die Hüfte ist ein Kugelgelenk mit Bewegung in alle Richtungen — das macht sie beweglich, aber auch anfällig für Instabilität und Subluxation, wie sie der Ortolani-Test prüft. Die Wirbelbogengelenke (Facettengelenke) sind dagegen ebene Gelenke mit von Natur aus nur geringer Beweglichkeit in mehrere Richtungen — Schmerzen dort äußern sich seltener als Instabilität, sondern eher als schmerzhafte Bewegungseinschränkung.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme, 3. Auflage 2025, Kap. 5 (Das Gelenk), S. 48–50. Die drei Einteilungskriterien, alle acht Gelenktypen mit ihren caninen Beispielen sowie das Konzept der Gelenkflächen-Inkongruenz (unter Verweis im Original auf Bullough 1981 und Greenwald 1991, dort nicht separat nachgeprüft) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["huefte", "facettengelenke"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
