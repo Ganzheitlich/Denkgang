@@ -23,8 +23,8 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 17 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
-  Untersuchung, 2 Pathologie, 0 Biomechanik, 0 Therapie)
+- Wissensbibliothek: 18 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
+  Untersuchung, 2 Pathologie, 1 Biomechanik, 0 Therapie)
 - Anatomie-Sektion: 7 Items (biceps, iliopsoas, quadriceps, facettengelenke,
   huefte, + 2 weitere zu bereits bestehenden Fällen)
 
@@ -100,14 +100,16 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       vorhanden (siehe `docs/quellen-status.md`), noch nicht gesichtet. Naheliegender
       Startpunkt für die komplett leere THERAPIE-Kategorie.
 
-### BIOMECHANIK — bisher 0 Einträge — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
+### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 
 - [ ] Kap. 2 Statik und Dynamik des Hundes (b3.pdf, teilweise bereits beim
       Lesen für ED/Bizeps überflogen)
 - [ ] Kap. 3 Schwerpunkt und Unterstützungsfläche (b4.pdf)
 - [ ] Kap. 4 Der Knochen (b5.pdf)
-- [ ] Kap. 5 Das Gelenk (b6.pdf) — Gelenkeinteilungen, gut tabellarisch
-      darstellbar
+- [x] Kap. 5 Das Gelenk (b6.pdf) — Struktur-/Bauart-/Gelenktyp-Einteilung mit
+      caninen Beispielen + Gelenkflächen-Inkongruenz (S. 48–50). Rest des
+      Kapitels (Gelenkkapsel, Synovia, Bänder — falls noch mehr folgt) noch
+      nicht gesichtet.
 - [ ] Kap. 6 Die Muskulatur (b7.pdf, 22 MB — evtl. Extraktionsprobleme wie bei
       Kap. 9 erwarten, ggf. gezielte Teilsuche nötig)
 - [ ] Kap. 8 Die Bewegung des Hundes (b10.pdf) — Bewegungsarten,
