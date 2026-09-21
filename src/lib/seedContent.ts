@@ -1052,6 +1052,99 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 128, 144. Ursprung (distales Drittel Margo caudalis scapulae), Ansatz (Tuberositas teres minor am Humeruskopf, im Original explizit benannt) und Funktion (Flexion des Schultergelenks, Dehnungstest via reine Extension) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt.",
   },
+  {
+    id: "brachialis",
+    name: "M. brachialis",
+    relatedCaseId: "rocky",
+    origin: "Collum humeri (lateral des M. biceps brachii gelegen)",
+    insertion:
+      "Geteilter Ansatz: ein schmaler Schenkel zur Tuberositas radii, der zweite, kräftigere Schenkel unter der gespaltenen Ansatzsehne des M. biceps brachii hindurch zum Proc. coronoideus medialis der Ulna",
+    funktion: "Flexion des Ellenbogengelenks",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Liegt lateral des M. biceps brachii und enthält wie dieser einen hohen Anteil ermüdungsresistenter Typ-I-Fasern (ca. 50 %) — funktionell eng mit dem Bizeps verwandt, beide werden in der Praxis häufig gemeinsam behandelt.",
+    palpationHint: "Palpation auf der kaudolateralen Seite des Humerus vom Collum humeri bis hin zu Radius und Ulna.",
+    transferQ: "Welche Bewegung würde eine schmerzhafte Dehnung des M. brachialis am ehesten hervorrufen?",
+    transferOptions: [
+      { label: "Extension im Ellenbogengelenk", correct: true },
+      { label: "Flexion im Ellenbogengelenk", correct: false },
+      { label: "Extension im Schultergelenk allein, bei gebeugtem Ellenbogen", correct: false },
+      { label: "Abduktion im Karpalgelenk", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13 (Ellenbogenregion), S. 165f., 171. Ursprung (Collum humeri, lateral des Bizeps), der geteilte Ansatz (Tuberositas radii sowie Proc. coronoideus medialis der Ulna), Funktion (Flexion Ellenbogengelenk) und der Dehnungstest (Extension Ellenbogengelenk) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt.",
+  },
+  {
+    id: "triceps-brachii",
+    name: "M. triceps brachii",
+    relatedCaseId: "rocky",
+    origin:
+      "Vierköpfiger Muskel: Caput longum vom Tuberculum infraglenoidale der Scapula (kaudaler Skapularand), Caput laterale, Caput mediale sowie Caput accessorium vom Humerus",
+    insertion: "Olecranon der Ulna",
+    funktion:
+      "Extension des Ellenbogengelenks; das Caput longum zusätzlich Flexion des Schultergelenks im Hangbein. In der Stützbeinphase verhindert der Muskel als Antischwerkraftmuskel das Einknicken der Gliedmaße.",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Einziger der vier Köpfe mit Einfluss auf die Schulter ist das Caput longum, das über das Schultergelenk zum Kaudalrand der Skapula zieht. Caput longum, laterale und mediale bestehen überwiegend aus Typ-II-Fasern (dynamische Bremsfunktion), während das tief liegende Caput accessorium überwiegend aus ermüdungsresistenten Typ-I-Fasern besteht.",
+    palpationHint:
+      "Palpation des gesamten Bereichs kaudal des Humerus vom kaudalen Skapularand bis zum Olekranon. Das Caput accessorium ist von den anderen drei Anteilen bedeckt und nicht direkt palpierbar.",
+    transferQ:
+      "Warum unterscheidet sich der Dehnungstest für das Caput longum von dem der anderen drei Muskelköpfe des M. triceps brachii?",
+    transferOptions: [
+      {
+        label: "Weil nur das Caput longum über das Schultergelenk zieht und daher zusätzlich eine Schulterextension zur Dehnung braucht",
+        correct: true,
+      },
+      { label: "Weil das Caput longum der einzige Kopf ist, der überhaupt gedehnt werden kann", correct: false },
+      { label: "Weil die anderen drei Köpfe nicht am Ellenbogengelenk beteiligt sind", correct: false },
+      { label: "Weil das Caput longum ausschließlich aus Typ-I-Fasern besteht", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13, S. 166, 170f. Die vier Köpfe, ihre unterschiedliche Funktion/Faserzusammensetzung, die fehlende Palpierbarkeit des Caput accessorium und der unterschiedliche Dehnungstest für Caput longum vs. die anderen drei Köpfe sind im Original so beschrieben. Der Ansatz am Olecranon ist aus dem Palpationsverlauf abgeleitet (\"bis zum Olekranon\"), nicht als eigenständige Ansatz-Aussage benannt. Ursprung des Caput longum (Tuberculum infraglenoidale) stammt aus Kap. 12, S. 127. Die Innervation wird im Original nicht genannt.",
+  },
+  {
+    id: "tensor-fasciae-antebrachii",
+    name: "M. tensor fasciae antebrachii",
+    relatedCaseId: "rocky",
+    origin: "Abspaltung vom M. latissimus dorsi (gilt als dessen „5. Trizepskopf“)",
+    insertion: "Zieht medial zum Olecranon und spannt die Unterarmfaszie",
+    funktion: "Extension des Ellenbogengelenks, spannt zusätzlich die Unterarmfaszie",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Liegt medial des M. triceps brachii und bildet den mediokaudalsten Muskel der hinteren Achselfalte. Bei großen Hunden kann er bis zu ca. 2 mm dick sein.",
+    palpationHint: "Palpation vom M. latissimus dorsi aus über die Lateralseite des Oberarms bis zur Medialseite des Olekranons.",
+    transferQ: "Welche Bewegungskombination würde eine schmerzhafte Dehnung des M. tensor fasciae antebrachii am ehesten hervorrufen?",
+    transferOptions: [
+      { label: "Flexion im Ellenbogengelenk mit zusätzlichem Kaudalschub am M. latissimus dorsi", correct: true },
+      { label: "Extension im Ellenbogengelenk allein", correct: false },
+      { label: "Abduktion im Schultergelenk allein", correct: false },
+      { label: "Innenrotation im Karpalgelenk", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13, S. 166, 172. Herkunft als Abspaltung des M. latissimus dorsi, Funktion (Extension Ellenbogengelenk, Fasziendehnung), Lage sowie der Dehnungstest sind im Original so beschrieben. Der genaue Ansatzpunkt wird im Original nicht als eigene Ansatz-Aussage benannt, sondern aus dem Palpationsverlauf (bis zur Medialseite des Olekranons) und der Funktionsbeschreibung abgeleitet. Die Innervation wird im Original nicht genannt.",
+  },
+  {
+    id: "anconeus",
+    name: "M. anconeus",
+    relatedCaseId: "rocky",
+    origin: "Im Quellentext nicht genannt (Lage: lateral, distal des M. triceps brachii, zwischen den Humeruskondylen und dem Olekranon)",
+    insertion: "Im Quellentext nicht genannt",
+    funktion: "Extension des Ellenbogengelenks",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Besteht zu 100 % aus ermüdungsresistenten Typ-I-Fasern und zählt zu den Antischwerkraftmuskeln — er kann ausdauernd arbeiten, ohne zu ermüden. Ihm wurde außerdem eine hohe Dichte an Muskelspindeln nachgewiesen, weshalb er eine wichtige Rolle bei der Aufnahme propriozeptiver Informationen über das Ellenbogengelenk spielt.",
+    palpationHint:
+      "Mit spitzen Fingern auf der Lateralseite distal des M. triceps brachii zu palpieren, kaudal des Humerus, zwischen den Humeruskondylen und dem Olekranon.",
+    transferQ: "Warum ist der M. anconeus für die Propriozeption des Ellenbogengelenks besonders relevant?",
+    transferOptions: [
+      { label: "Weil ihm eine hohe Dichte an Muskelspindeln nachgewiesen wurde", correct: true },
+      { label: "Weil er der größte Muskel am Ellenbogengelenk ist", correct: false },
+      { label: "Weil er als einziger Muskel am Ellenbogengelenk innerviert wird", correct: false },
+      { label: "Weil er ausschließlich aus schnell ermüdenden Typ-II-Fasern besteht", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13, S. 166, 172f. Faserzusammensetzung (100 % Typ I), Funktion als Antischwerkraftmuskel und Ellenbogenextensor sowie die hohe Muskelspindeldichte mit ihrer Bedeutung für die Propriozeption sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt — nur die Palpationslage.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -2116,6 +2209,44 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13 (Ellenbogenregion), S. 165. Die drei Teilgelenke, ihre Gelenktypen/Bewegungen, die genannten ROM-Werte sowie die Überlastungskette (Hintergliedmaßen-Problem → Gewichtsverlagerung nach vorn → Schultergürtel-Verspannung → Skapulaeinschränkung → Schulter-/Ellenbogen-Überlastung) sind im Original so beschrieben. Die „Jena-Studie“ wird im Original nur namentlich zitiert, ohne vollständige bibliografische Angabe — als Sekundärzitat übernommen, nicht eigenständig verifiziert.",
     relatedCaseIds: ["rocky"],
     relatedAnatomyIds: ["biceps"],
+  },
+  {
+    id: "toe-in-toe-out-nervenkompression",
+    category: "PATHOLOGIE",
+    title: "Toe-in/Toe-out — wenn eine Fußstellung einen Nerv einklemmt",
+    teaser:
+      "Eine unscheinbare Zehenstellung kann über einen angespannten Muskel einen peripheren Nerv reizen — mit direkten Folgen fürs Gangbild.",
+    sections: [
+      {
+        type: "text",
+        text: "Steht ein Hund dauerhaft in Toe-in- oder Toe-out-Position, ist das mehr als eine kosmetische Fußstellung: Toe-in entspricht einer Pronationsstellung des Unterarms, Toe-out einer Supinationsstellung. Beides verändert die Belastung von Karpus und Zehen (Mehrbelastung des medialen oder lateralen Strahls) und wirkt sich über die Statik bis in Schultergelenk und Wirbelsäule aus.",
+      },
+      {
+        type: "text",
+        heading: "Toe-in: M. supinator unter Spannung",
+        text: "Bei vermehrter Toe-in-Stellung gerät der M. supinator unter Spannung. Der N. radialis zieht durch diesen Muskel hindurch und kann dadurch gereizt werden (Mechanosensitivität, Leitungsprobleme). Mögliche Folgen: Der Hund schleift die Vorderpfote oder beknabbert das Versorgungsgebiet des N. radialis (medial am Karpus), weil dort Hyperästhesien auftreten.",
+      },
+      {
+        type: "text",
+        heading: "Toe-out: M. pronator teres unter Spannung",
+        text: "Bei vermehrter Toe-out-Stellung gerät stattdessen der M. pronator teres unter Spannung und kann den N. medianus reizen. Das Versorgungsgebiet des N. medianus liegt an den distalen Zehen — dort beknabbert sich das Tier möglicherweise.",
+      },
+      {
+        type: "text",
+        heading: "Warum das klinisch wichtig ist",
+        text: "Behandelt man den betroffenen Muskel (M. supinator bzw. M. pronator teres), die angrenzenden Extensoren und den Nerv selbst, verändert sich das Gangbild häufig unmittelbar — das Schleifen der Pfote lässt spürbar nach, weil der Nerv wieder besser leiten kann. Voraussetzung ist, dass die Kompression den Nerv noch nicht dauerhaft geschädigt hat und das Überköten tatsächlich durch dieses Entrapment verursacht wird und nicht durch eine andere Ursache.",
+      },
+      {
+        type: "text",
+        heading: "Verknüpfung zur Praxis",
+        text: "Eine unauffällige Fußfehlstellung lohnt sich also genauer anzuschauen, bevor man ein Schleifen der Pfote vorschnell einer orthopädischen oder neurologischen Ursache an ganz anderer Stelle zuschreibt.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179. Der Zusammenhang zwischen Toe-in/-out-Stellung, Pro-/Supinationsstellung des Unterarms, der jeweils betroffenen Muskulatur (M. supinator bzw. M. pronator teres), den betroffenen Nerven (N. radialis bzw. N. medianus) und den beschriebenen Symptomen (Pfotenschleifen, Beknabbern) ist im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
   },
 ];
 
