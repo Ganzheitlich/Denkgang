@@ -953,6 +953,105 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 127f., 143f. Ursprung (Spina scapulae, Akromion/Processus hamatus, Pars acromialis), Ansatz (Tuberositas deltoidea), die reine Flexorfunktion sowie die differentialdiagnostische Abgrenzung zu M. infraspinatus/M. subscapularis/M. coracobrachialis sind im Original so beschrieben. Die Innervation (N. axillaris) wird im Original nicht genannt — als etabliertes veterinärmedizinisches Wissen ergänzt, NICHT VERIFIZIERT gegen diese spezifische Quelle.",
   },
+  {
+    id: "subscapularis",
+    name: "M. subscapularis",
+    relatedCaseId: "rocky",
+    origin: "Fossa subscapularis der Scapula",
+    insertion: "Im Quellentext nicht genannt",
+    funktion:
+      "Je nach Gelenkstellung Flexion oder Extension des Schultergelenks (wie M. infraspinatus); zusätzlich innerer Kapselverstärker (medialer Stabilisator) des Schultergelenks.",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Liegt auf der Medialseite der Skapula und ist daher nicht direkt tastbar. Ist das Schultergelenk in Extension oder Flexion eingeschränkt, ohne dass lateral eine Gewebeveränderung oder Schmerzhaftigkeit feststellbar ist, kann die Ursache auf der Medialseite im M. subscapularis liegen — eine Diagnose per Ausschluss statt direkter Palpation.",
+    palpationHint:
+      "Nicht palpierbar — der Muskel liegt zu weit medial. Beurteilung nur indirekt über Bewegungseinschränkung und Ausschlussdiagnostik möglich.",
+    transferQ: "Warum lässt sich eine Schmerzhaftigkeit des M. subscapularis nicht durch direkte Palpation feststellen?",
+    transferOptions: [
+      {
+        label: "Weil der Muskel auf der Medialseite der Skapula liegt und von dort aus nicht direkt zugänglich ist",
+        correct: true,
+      },
+      { label: "Weil der Muskel beim Hund funktionslos ist", correct: false },
+      { label: "Weil der Muskel zu klein ist, um überhaupt Schmerzen zu verursachen", correct: false },
+      { label: "Weil der Muskel nur bei Welpen vorhanden ist", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 127f., 143. Ursprung (Fossa subscapularis), Funktion (positionsabhängige Flexion/Extension wie M. infraspinatus, medialer Kapselverstärker) sowie die fehlende Palpierbarkeit und die daraus folgende Ausschlussdiagnostik sind im Original so beschrieben. Ansatz und Innervation werden im Original nicht genannt.",
+  },
+  {
+    id: "coracobrachialis",
+    name: "M. coracobrachialis",
+    relatedCaseId: "rocky",
+    origin: "Processus coracoideus der Scapula",
+    insertion: "Im Quellentext nicht genannt",
+    funktion:
+      "Je nach Gelenkstellung Flexion oder Extension des Schultergelenks (wie M. infraspinatus und M. subscapularis), zusätzlich Adduktion des Schultergelenks.",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Liegt medial und ist daher wie M. subscapularis nicht direkt palpierbar. Von M. infraspinatus und M. subscapularis lässt er sich dadurch abgrenzen, dass zusätzliche Abduktion des Schultergelenks bei der Schmerzprovokation gezielt ihn stärker belastet.",
+    palpationHint:
+      "Nicht palpierbar — liegt medial. Differenzierung zu M. infraspinatus/M. subscapularis über zusätzliche Abduktionsbewegung bei der Provokation.",
+    transferQ:
+      "Wie lässt sich ein schmerzhafter M. coracobrachialis von M. infraspinatus und M. subscapularis unterscheiden, wenn alle drei bei Flexion oder Extension des Schultergelenks reagieren?",
+    transferOptions: [
+      {
+        label: "Zusätzliche Abduktion des Schultergelenks verstärkt die Reaktion gezielt beim M. coracobrachialis",
+        correct: true,
+      },
+      { label: "Nur der M. coracobrachialis reagiert überhaupt auf Palpation", correct: false },
+      { label: "Zusätzliche Innenrotation des Karpalgelenks verstärkt die Reaktion", correct: false },
+      { label: "M. coracobrachialis lässt sich gar nicht von den anderen beiden unterscheiden", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 127f., 143f. Ursprung (Processus coracoideus scapulae), Funktion (positionsabhängige Flexion/Extension plus zusätzliche Adduktion) sowie die differentialdiagnostische Abgrenzung über zusätzliche Abduktion sind im Original so beschrieben. Ansatz und Innervation werden im Original nicht genannt.",
+  },
+  {
+    id: "teres-major",
+    name: "M. teres major",
+    relatedCaseId: "rocky",
+    origin: "Angulus caudalis der Scapula",
+    insertion: "Crista tuberculi minoris humeri (gemeinsame Endsehne mit M. latissimus dorsi)",
+    funktion:
+      "Flexion des Schultergelenks — gemeinsam mit seinem „Brudermuskel“ M. latissimus dorsi, mit dem er sich in der Endsehne verbindet und denselben Ansatz teilt.",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Liegt unter M. deltoideus und M. infraspinatus und wird zusätzlich vom M. latissimus dorsi bedeckt — daher nur in der Tiefe zu palpieren. Da beide Muskeln denselben Verlauf und dieselbe Funktion haben, betrifft eine Problematik oft beide gemeinsam.",
+    palpationHint:
+      "In der Tiefe zu palpieren. Differenzierung zum M. deltoideus über zusätzliche Außenrotation der Vordergliedmaße, die gezielt mehr Spannung auf den M. teres major bringt.",
+    transferQ:
+      "Sowohl M. deltoideus als auch M. teres major werden durch Extension des Schultergelenks in Dehnposition gebracht. Womit lässt sich gezielt mehr Spannung auf den M. teres major bringen, um ihn vom M. deltoideus zu unterscheiden?",
+    transferOptions: [
+      { label: "Zusätzliche Außenrotation der Vordergliedmaße", correct: true },
+      { label: "Zusätzliche Adduktion der Vordergliedmaße", correct: false },
+      { label: "Zusätzliche Flexion des Ellenbogengelenks", correct: false },
+      { label: "Zusätzliche Pronation des Unterarms", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 128, 144, 164. Ursprung (Angulus caudalis scapulae), Ansatz (Crista tuberculi minoris humeri, gemeinsame Endsehne mit M. latissimus dorsi), Funktion (Flexion, als „Brudermuskel“ des M. latissimus dorsi) sowie die differentialdiagnostische Abgrenzung zum M. deltoideus über zusätzliche Außenrotation sind im Original so beschrieben. Die Innervation wird im Original nicht genannt.",
+  },
+  {
+    id: "teres-minor",
+    name: "M. teres minor",
+    relatedCaseId: "rocky",
+    origin: "Distales Drittel des Margo caudalis der Scapula",
+    insertion: "Tuberositas teres minor am Humeruskopf",
+    funktion: "Flexion des Schultergelenks",
+    innervation: "Im Quellentext nicht genannt",
+    clinicalRelevance:
+      "Kleiner, vom M. deltoideus bedeckter Muskel am Margo caudalis der Skapula — als einer von mehreren Schulterflexoren bei der Lokalisation von Schulterschmerzen mitzudenken.",
+    palpationHint:
+      "Vom M. deltoideus bedeckt — Palpation vom distalen Drittel des Margo caudalis scapulae nach lateral in Richtung ventrokranial bis zur Tuberositas teres minor am Humeruskopf.",
+    transferQ: "Welche Bewegung würde eine schmerzhafte Dehnung des M. teres minor am ehesten hervorrufen?",
+    transferOptions: [
+      { label: "Extension des Schultergelenks bei fixierter Skapula", correct: true },
+      { label: "Flexion des Schultergelenks", correct: false },
+      { label: "Abduktion des Ellenbogengelenks", correct: false },
+      { label: "Innenrotation des Karpalgelenks", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 128, 144. Ursprung (distales Drittel Margo caudalis scapulae), Ansatz (Tuberositas teres minor am Humeruskopf, im Original explizit benannt) und Funktion (Flexion des Schultergelenks, Dehnungstest via reine Extension) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
