@@ -571,6 +571,20 @@ textarea {
   font-size: 16px;
 }
 
+.knowledge-cta-group {
+  margin-top: 12px;
+}
+
+.knowledge-cta-group-label {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  margin-bottom: 6px;
+}
+
+.knowledge-cta-group .knowledge-cta-option {
+  margin-top: 6px;
+}
+
 .kb-block {
   margin-bottom: 16px;
 }

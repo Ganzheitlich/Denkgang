@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { checkTransferChoice, submitAnatomyAttempt } from "@/app/anatomy/[slug]/actions";
+import { KnowledgeCta } from "@/components/KnowledgeCta";
 
 type ClientAnatomy = {
   id: string;
@@ -26,7 +27,7 @@ export function AnatomyFlow({ anatomyData: a }: { anatomyData: ClientAnatomy }) 
     correct: boolean;
     correctIndex: number;
     sourceStatus: string;
-    relatedKnowledge: { slug: string; title: string } | null;
+    relatedKnowledge: { slug: string; title: string }[] | null;
   } | null>(null);
   const [finishing, setFinishing] = useState(false);
 
@@ -138,16 +139,9 @@ export function AnatomyFlow({ anatomyData: a }: { anatomyData: ClientAnatomy }) 
             {result.sourceStatus}
           </div>
           {result.relatedKnowledge && (
-            <Link
-              href={`/library/${result.relatedKnowledge.slug}`}
-              className="knowledge-cta"
-              style={{ marginBottom: 16 }}
-            >
-              <span>
-                Nicht sicher, warum? Direkt vertiefen: <strong>{result.relatedKnowledge.title}</strong>
-              </span>
-              <span aria-hidden="true">→</span>
-            </Link>
+            <div style={{ marginBottom: 16 }}>
+              <KnowledgeCta suggestions={result.relatedKnowledge} />
+            </div>
           )}
           <div className="btn-row">
             <button className="btn-primary" onClick={finish} disabled={finishing}>

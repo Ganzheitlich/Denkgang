@@ -81,7 +81,7 @@ export async function resolveCase(
   const weakeningCorrectLabel = c.weakeningOptions.find((o) => o.isCorrect)?.label ?? "";
   const weakeningCorrect = c.weakeningOptions[weakeningChoiceIndex]?.isCorrect ?? false;
 
-  let relatedKnowledge: KnowledgeSuggestion = null;
+  let relatedKnowledge: KnowledgeSuggestion[] | null = null;
   if (!primaryCorrect) {
     const errorCategories: string[] = includedButNotPrimary
       ? ["falsche Priorisierung"]

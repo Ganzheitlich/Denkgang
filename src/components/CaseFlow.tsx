@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { KnowledgeCta } from "@/components/KnowledgeCta";
 import {
   buildDifferentiationPool,
   checkDifferentiationChoice,
@@ -37,7 +38,7 @@ type ClientCase = {
   retrievalOptions: ClientOption[];
 };
 
-type KnowledgeSuggestion = { slug: string; title: string } | null;
+type KnowledgeSuggestion = { slug: string; title: string };
 
 type ResolveData = {
   primaryCorrect: boolean;
@@ -47,7 +48,7 @@ type ResolveData = {
   sourceStatus: string;
   weakeningCorrectLabel: string;
   weakeningCorrect: boolean;
-  relatedKnowledge: KnowledgeSuggestion;
+  relatedKnowledge: KnowledgeSuggestion[] | null;
 };
 
 export function CaseFlow({
@@ -546,14 +547,7 @@ export function CaseFlow({
               <div style={{ marginTop: 8 }}>{resolveData.expertNote}</div>
               <div className="source-note">{resolveData.sourceStatus}</div>
             </div>
-            {resolveData.relatedKnowledge && (
-              <Link href={`/library/${resolveData.relatedKnowledge.slug}`} className="knowledge-cta">
-                <span>
-                  Nicht sicher, warum? Direkt vertiefen: <strong>{resolveData.relatedKnowledge.title}</strong>
-                </span>
-                <span aria-hidden="true">→</span>
-              </Link>
-            )}
+            {resolveData.relatedKnowledge && <KnowledgeCta suggestions={resolveData.relatedKnowledge} />}
             <div className="calib-note">{calibrationLine(resolveData.primaryCorrect)}</div>
             <div className="calib-note" style={{ marginTop: 8 }}>
               Zur Differentialfrage:{" "}
