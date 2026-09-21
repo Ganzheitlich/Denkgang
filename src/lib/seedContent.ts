@@ -876,6 +876,83 @@ const ANATOMY: AnatomySeed[] = [
       "Fachliche Grundlage: etabliertes neurologisches Grundlagenwissen zur Propriozeptionsprüfung als frühem Indikator für Rückenmarksbeeinträchtigungen beim Hund. Konkrete Quellenverifizierung steht noch aus — Status: DRAFT, Quelle erforderlich.",
     bildUrl: "/cases/rueckenmark-01.png",
   },
+  {
+    id: "supraspinatus",
+    name: "M. supraspinatus",
+    relatedCaseId: "rocky",
+    origin: "Fossa supraspinata der Scapula",
+    insertion: "Tuberculum majus humeri",
+    funktion: "Extension des Schultergelenks",
+    innervation: "N. suprascapularis",
+    clinicalRelevance:
+      "Sehr aktive Hunde können eine traumatisch bedingte Kontraktur des M. supraspinatus entwickeln; die Therapie (Resektion der Ansatzsehne) kann zu erheblichen Stabilitätsproblemen im Schultergelenk führen.",
+    palpationHint:
+      "Wird vom M. trapezius (Pars cervicis) und M. omotransversarius bedeckt — Palpation mit etwas mehr Druck von der Fossa supraspinata aus über die Lateralseite Richtung kaudoventral.",
+    transferQ:
+      "Welche Bewegung würde eine schmerzhafte Verkürzung des M. supraspinatus (Test in Dehnposition) am ehesten provozieren?",
+    transferOptions: [
+      { label: "Flexion im Schultergelenk bei fixierter Skapula", correct: true },
+      { label: "Extension im Schultergelenk", correct: false },
+      { label: "Abduktion im Ellenbogengelenk", correct: false },
+      { label: "Flexion im Karpalgelenk", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12 (Schulterregion und skapulothorakales Gleitlager), S. 127–142. Ursprung (Fossa supraspinata), Funktion als Extensor des Schultergelenks, Innervation (N. suprascapularis, zieht durch die Incisura scapulae zu den Muskeln der Fossa supra-/infraspinata) sowie der Dehnungstest (Flexion bei fixierter Skapula) und die Kontraktur-Komplikation sind im Original so beschrieben. Der Ansatzpunkt Tuberculum majus humeri wird im Text nicht explizit für den M. supraspinatus genannt (nur für M. infraspinatus direkt bestätigt) — als etabliertes Wissen ergänzt, NICHT VERIFIZIERT gegen diese spezifische Quelle.",
+  },
+  {
+    id: "infraspinatus",
+    name: "M. infraspinatus",
+    relatedCaseId: "rocky",
+    origin: "Fossa infraspinata der Scapula",
+    insertion: "Tuberculum majus humeri",
+    funktion:
+      "Je nach Gelenkstellung Flexion oder Extension des Schultergelenks — die Sehne verläuft abhängig von der Gelenkstellung vor oder hinter der Rotationsachse. Zusätzlich äußerer Kapselverstärker (lateraler Stabilisator) des Schultergelenks.",
+    innervation: "N. suprascapularis",
+    clinicalRelevance:
+      "Stabilisiert das Schultergelenk von lateral — bei vergrößertem lateralem Gelenkspiel (positive laterale Aufklappbarkeit) muss die Behandlung auf Stabilisation dieses Muskels zielen, nicht auf Mobilisation. Eine Kontraktur des M. infraspinatus zeigt sich typischerweise nach Jagdeinsätzen mit einer charakteristischen Gliedmaßenfehlhaltung.",
+    palpationHint:
+      "Liegt lateral, wird vom M. deltoideus bedeckt — Palpation von der Fossa infraspinata Richtung kaudoventral zum Tuberculum majus.",
+    transferQ: "Warum lässt sich die Dehnposition des M. infraspinatus nicht mit einer einzigen Bewegungsrichtung testen?",
+    transferOptions: [
+      {
+        label:
+          "Weil seine Sehne je nach Gelenkstellung vor oder hinter der Rotationsachse verläuft und der Muskel dadurch sowohl flektieren als auch extendieren kann",
+        correct: true,
+      },
+      { label: "Weil der Muskel gar nicht am Schultergelenk beteiligt ist", correct: false },
+      { label: "Weil er ausschließlich das Ellenbogengelenk bewegt", correct: false },
+      { label: "Weil er nur bei voller Streckung überhaupt aktiv wird", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 127–143. Ursprung (Fossa infraspinata), Ansatz (Tuberculum majus, im Palpationsverlauf explizit genannt), die positionsabhängige Flexions-/Extensionsfunktion, die Rolle als lateraler Kapselverstärker/Stabilisator sowie die Kontraktur als klinisches Bild sind im Original so beschrieben. Die Innervation (N. suprascapularis) ist über die gemeinsame Nervenversorgung der Muskulatur an Fossa supraspinata/infraspinata hergeleitet (siehe Anatomie-Item „supraspinatus\").",
+  },
+  {
+    id: "deltoideus",
+    name: "M. deltoideus",
+    relatedCaseId: "rocky",
+    origin: "Spina scapulae und Akromion (Processus hamatus, Pars acromialis)",
+    insertion: "Tuberositas deltoidea humeri",
+    funktion:
+      "Flexion des Schultergelenks — ausschließlich, im Unterschied zu M. infraspinatus, M. subscapularis und M. coracobrachialis, die je nach Gelenkstellung auch extendieren können.",
+    innervation: "N. axillaris",
+    clinicalRelevance:
+      "Oberflächlich und gut abgrenzbar auf der Lateralseite der Scapula gelegen. Differentialdiagnostisch lässt er sich von M. infraspinatus, M. subscapularis und M. coracobrachialis dadurch unterscheiden, dass er ausschließlich flektiert, während die anderen je nach Gelenkstellung auch extendieren.",
+    palpationHint:
+      "Liegt oberflächlich auf der Lateralseite der Scapula — Palpation von der Spina scapulae und dem Akromion im Faserverlauf bis zur gut tastbaren Tuberositas deltoidea.",
+    transferQ:
+      "Woran lässt sich der M. deltoideus von M. infraspinatus, M. subscapularis und M. coracobrachialis unterscheiden, wenn alle vier bei Dehnung schmerzhaft reagieren?",
+    transferOptions: [
+      {
+        label: "Der M. deltoideus flektiert ausschließlich, die anderen drei können je nach Gelenkstellung auch extendieren",
+        correct: true,
+      },
+      { label: "Der M. deltoideus ist der einzige der vier, der am Ellenbogen ansetzt", correct: false },
+      { label: "Der M. deltoideus ist der einzige, der beim Hund verkümmert ist", correct: false },
+      { label: "Der M. deltoideus reagiert nie schmerzhaft auf Dehnung", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 127f., 143f. Ursprung (Spina scapulae, Akromion/Processus hamatus, Pars acromialis), Ansatz (Tuberositas deltoidea), die reine Flexorfunktion sowie die differentialdiagnostische Abgrenzung zu M. infraspinatus/M. subscapularis/M. coracobrachialis sind im Original so beschrieben. Die Innervation (N. axillaris) wird im Original nicht genannt — als etabliertes veterinärmedizinisches Wissen ergänzt, NICHT VERIFIZIERT gegen diese spezifische Quelle.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
