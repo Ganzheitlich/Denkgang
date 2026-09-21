@@ -2433,6 +2433,88 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "karpalgelenk-gelenketagen",
+    category: "BIOMECHANIK",
+    title: "Das Karpalgelenk — mehrere Gelenketagen in einem",
+    teaser:
+      "Das Handgelenk des Hundes ist kein einzelnes Gelenk, sondern ein Stapel aus mehreren Etagen mit unterschiedlicher Beweglichkeit — plus zwei kleine Sesambeinchen, die überraschend viel Ärger machen können.",
+    sections: [
+      {
+        type: "text",
+        text: "Das Karpalgelenk ist ein zusammengesetztes Gelenk aus mehreren Gelenketagen. Beteiligt sind der distale Teil von Ulna und Radius, zwei Reihen von Handwurzelknochen sowie die proximalen Anteile des Metacarpus. Hauptbewegung ist die Flexion (20–35°) und die Extension (bis 200°); dazu kommen Ab- (10–20°) und Adduktionsbewegungen (5–15°). Alle Endgefühle sind fest-elastisch, das Kapselmuster ist Flexion–Extension.",
+      },
+      {
+        type: "table",
+        heading: "Die drei Gelenketagen",
+        columns: ["Gelenketage", "Gelenktyp / Bewegungsausmaß", "Gelenkflächen"],
+        rows: [
+          [
+            "Art. antebrachiocarpea",
+            "Scharniergelenk (Ellipsoid), mit 90° die am stärksten beteiligte Etage; die weite Kapsel umschließt auch das distale Radioulnargelenk",
+            "konvex: Os carpi radiale/Os carpi ulnare/Os carpi accessorium; konkav: Radius/Ulna",
+          ],
+          [
+            "Art. mediocarpea",
+            "Scharniergelenk, ca. 45° Bewegungsumfang",
+            "konvex: Ossa carpalia I–IV; konkav: Os carpi ulnare/Os carpi radiale",
+          ],
+          [
+            "Art. ossis carpi accessorii",
+            "eingelagert in die Sehne der Mm. flexor et extensor carpi ulnaris (Stabilisation)",
+            "Os carpi accessorium artikuliert mit dem Os carpi ulnare",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Der Metacarpus — kräftigste Strahlen tragen die Last",
+        text: "Die Ossa metacarpalia sind Röhrenknochen mit konkaver Basis, Schaft und konvexem Köpfchen. Wie an der Hintergliedmaße sind auch hier der III. und IV. Strahl am kräftigsten ausgebildet, weil sie die Hauptlast tragen — entsprechend zeigen sich arthrotische Veränderungen dort besonders häufig. Das Os metacarpale I kann fehlen oder zweigeteilt sein; fehlt es, ist die proximale Phalanx direkt mit dem Os carpale I verschmolzen.",
+      },
+      {
+        type: "text",
+        heading: "Kleine Sesambeinchen, große Wirkung",
+        text: "Auf der palmaren Seite der Metakarpalköpfchen liegen paarige Sesambeinchen. Sie können unerhört viele Probleme verursachen — betroffene Hunde laufen dann deutlich schlechter, vor allem auf unebenem Untergrund.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 15 (Karpalgelenk und Zehen), S. 192. Die drei Gelenketagen mit ihren Gelenktypen, Bewegungsausmaßen und Gelenkflächen, die Metacarpus-Anatomie (inkl. der besonderen Belastung von Strahl III/IV) sowie die klinische Bedeutung der palmaren Sesambeinchen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "zehen-beknabbern-differentialdiagnosen",
+    category: "PATHOLOGIE",
+    title: "Warum Hunde ihre Zehen beknabbern — drei Differentialdiagnosen",
+    teaser:
+      "Beknabberte Zehen sind nicht automatisch eine Allergie. Neben Allergie und Arthrose lohnt sich auch ein Blick auf die Nerven, die genau dort verlaufen.",
+    sections: [
+      {
+        type: "text",
+        text: "Umfangsvermehrungen, Verdickungen, Rötungen oder Leckekzeme an den Zehen sind ein häufiger Untersuchungsbefund — ebenso wie Hunde, die ihre Zehen oder Zehenzwischenräume beknabbern. Es lohnt sich, hier nicht vorschnell auf eine einzelne Ursache zu schließen.",
+      },
+      {
+        type: "list",
+        heading: "Drei Ursachen, die dasselbe Bild erzeugen können",
+        items: [
+          "Allergische Reaktionen",
+          "Arthrosen — insbesondere an den stärker belasteten Zehen III und IV, die wie am Metacarpus auch die Hauptlast tragen",
+          "Hyperästhesien durch Nervenreizung — die Area nervina von N. radialis, N. medianus, N. musculocutaneus (medial am Unterarm) und N. ulnaris liegen an Pfote und Unterarm. Ein gereizter Nerv erzeugt ein unangenehmes Kribbeln, auf das der Hund mit Lecken oder Knabbern reagiert.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Verknüpfung zur Praxis",
+        text: "Diese dritte Möglichkeit wird leicht übersehen, weil beknabberte Zehen zunächst nach Haut- oder Gelenkproblem aussehen. Sie passt aber genau zu den Nervenkompressionen, die auch bei Toe-in- (N. radialis über M. supinator) und Toe-out-Stellung (N. medianus über M. pronator teres) auftreten können — ein Grund mehr, bei Zehenproblemen auch die Statik der gesamten Gliedmaße mitzudenken, statt nur lokal an der Pfote zu untersuchen.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 15 (Karpalgelenk und Zehen), S. 193. Die drei genannten Ursachen (Allergie, Arthrose, Hyperästhesie durch Nervenreizung) und die betroffenen Nervenareale sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
