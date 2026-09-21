@@ -2248,6 +2248,61 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "unterarm-rotationsgelenke",
+    category: "BIOMECHANIK",
+    title: "Die Unterarm-Rotationsgelenke — wie Pronation und Supination entstehen",
+    teaser:
+      "Der Radius dreht sich um eine fast unbewegliche Ulna — zwei anatomisch getrennte Gelenke plus eine straffe Bindegewebsverbindung machen die Drehbewegung des Unterarms möglich.",
+    sections: [
+      {
+        type: "text",
+        text: "Das Unterarmgelenk des Hundes besteht aus dem proximalen und dem distalen Radioulnargelenk. Funktionell bilden beide eine Einheit — anatomisch sind es jedoch zwei getrennte Gelenke, ergänzt durch eine straffe bindegewebige Verbindung dazwischen.",
+      },
+      {
+        type: "table",
+        heading: "Die drei Verbindungen zwischen Radius und Ulna",
+        columns: ["Verbindung", "Bauart", "Bewegung"],
+        rows: [
+          [
+            "Art. radioulnaris proximalis",
+            "anatomisch und mechanisch einfaches Radgelenk (konkav: Incisura radialis ulnae; konvex: Circumferentia articularis radii)",
+            "ca. 20° Pronation, ca. 50° Supination — der Radius dreht sich um die fast unbewegliche Ulna",
+          ],
+          [
+            "Art. radioulnaris distalis",
+            "ebenfalls ein einfaches Radgelenk (konkav: Incisura ulnaris radii; konvex: Circumferentia articularis ulnae)",
+            "ebenfalls ca. 20° Pronation, ca. 50° Supination",
+          ],
+          [
+            "Membrana interossea antebrachii",
+            "straffe bindegewebige Verbindung zwischen den Margines interossei von Radius und Ulna",
+            "fixiert beide Knochen aneinander und unterteilt den Unterarm in eine Beuger- und eine Streckerloge",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Wer trägt die Last",
+        text: "Im distalen Unterarm ist der Radius der Hauptlastträger und dementsprechend breiter und kräftiger ausgebildet. Über die Membrana interossea wird die Last weiter auf die Ulna übertragen, die sie im proximalen Unterarm über das Olekranon an den Oberarm weiterleitet.",
+      },
+      {
+        type: "text",
+        heading: "Ein diagnostischer Hinweis über Endgefühle",
+        text: "Pronation endet hart-elastisch, weil der Radius dabei auf die Ulna trifft und stoppt. Supination endet dagegen fest-elastisch durch einen Bandstopp (Lig. annulare radii). Ist das Ellenbogengelenk stark in Extension oder Flexion eingeschränkt, zeigt sich meist auch eine Einschränkung von Pronation und Supination — ein Hinweis, der zum Beispiel bei Ellenbogendysplasie zu erwarten ist.",
+      },
+      {
+        type: "text",
+        heading: "Wenn das Wachstum aus dem Takt gerät",
+        text: "Die Membrana interossea ist eine straffe Verbindung. Schließt sich die Wachstumsfuge der Ulna zu früh, kann sich der Radius dadurch nicht mehr ungehindert mitentwickeln und krümmt sich — mit Valgusstellung als Folge (Radiuskurvensyndrom).",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179. Die drei Verbindungen zwischen Radius und Ulna mit Gelenktyp, konkaven/konvexen Gelenkflächen und Bewegungsausmaß, die Lastverteilung, die Endgefühle sowie das Radiuskurvensyndrom als Folge eines frühzeitigen Epiphysenschlusses der Ulna sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
