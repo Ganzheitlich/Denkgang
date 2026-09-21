@@ -42,8 +42,8 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 29 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
-  Untersuchung, 7 Pathologie, 6 Biomechanik, 4 Therapie — genaue Aufteilung
+- Wissensbibliothek: 30 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
+  Untersuchung, 7 Pathologie, 7 Biomechanik, 4 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
 - Anatomie-Sektion: 29 Items (biceps, iliopsoas, quadriceps, facettengelenke,
   huefte, + 2 weitere zu bereits bestehenden Fällen, plus zweiundzwanzig neue,
@@ -122,10 +122,23 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
 - [ ] Kap. 16 (Wirbelsäule) — teilweise für Quellenprüfung von facettengelenke
       gelesen, aber nicht systematisch nach weiteren Pathologie-Themen
       durchsucht (z. B. Spondylose, IVDD, Cauda-equina)
-- [ ] Kap. 17 Neurotension (S. 269) — ZNS/PNS-Grundlagen, Ischämie bei
-      Nervenkompression; Datei ma(17).pdf bereits als Suchtreffer identifiziert,
-      noch nicht gelesen. Passt inhaltlich sehr gut zu den bereits verifizierten
-      Nervenkompressions-Themen (Toe-in/Toe-out, Zehen-Hyperästhesie).
+- [~] Kap. 17 Neurotension (S. 269–296) — gelesen: 17.1 (ZNS/PNS-Grundlagen,
+      Sympathikus, Horner-Syndrom — sehr ausführlich, aber eher humanmedizin-
+      nahe Grundlagenanatomie, noch nicht als Wissenseintrag umgesetzt) und
+      17.2–17.2.4 (Bewegung/Dehnung/Kompression, Ursachen und Symptome
+      mechanosensitiver Nerven — als `nervenkompression-druck-dehnungsschwellen`
+      umgesetzt). Noch offen: 17.5 (Untersuchung und Behandlung, S. 280–296,
+      mit Nervenpalpation/Druckpunkten/Behandlungstechniken) — deutlich
+      umfangreicher, eher für einen Untersuchung/Therapie-Eintrag geeignet.
+      **Wichtiger Fund:** Kap. 17 (S. 279) widerspricht Kap. 14 (S. 179) in der
+      Zuordnung „Toe-in/Toe-out" ↔ M. supinator — derselbe Muskel-Nerv-Bezug
+      (M. supinator → N. radialis) wird einmal der Toe-in-, einmal der
+      Toe-out-Stellung zugeschrieben. In `toe-in-toe-out-nervenkompression`
+      sowie den Anatomie-Items `supinator`/`pronator-teres` als „WIDERSPRUCH IN
+      DER QUELLE" dokumentiert, nicht aufgelöst. **Braucht Vanessas fachliche/
+      praktische Einschätzung, welche Zuordnung stimmt** — bis dahin bleibt die
+      Kap.-14-Version (ausführlichere Gegenüberstellung) als vorläufige Basis
+      stehen, aber mit sichtbarem Hinweis für Leser:innen.
 
 ### UNTERSUCHUNG — Koch/Fischer, Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1)
 

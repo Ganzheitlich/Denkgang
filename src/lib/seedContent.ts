@@ -1164,7 +1164,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Abduktion im Schultergelenk", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179f., 182. Funktion (Flexion/Supination Ellenbogengelenk), der Verlauf des N. radialis durch den Muskel, die fehlende direkte Palpierbarkeit sowie der Dehnungstest (Extension und Pronation) sind im Original so beschrieben. Ursprung und Ansatz werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179f., 182. Funktion (Flexion/Supination Ellenbogengelenk), der Verlauf des N. radialis durch den Muskel, die fehlende direkte Palpierbarkeit sowie der Dehnungstest (Extension und Pronation) sind im Original so beschrieben. Ursprung und Ansatz werden im Original nicht genannt. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, beschreibt denselben Mechanismus (hypertoner M. supinator komprimiert N. radialis) unter der Bezeichnung „toe out position\" statt „Toe-in\" wie hier in Kap. 14. Der Muskel-Nerv-Bezug ist in beiden Kapiteln identisch, nur die Fußstellungsbezeichnung widerspricht sich zwischen den Kapiteln. Hier wird die Darstellung aus Kap. 14 (eigenständiges Unterarm-Kapitel mit vollständiger Gegenüberstellung Toe-in/Toe-out) beibehalten — die Diskrepanz ist ungeklärt und sollte fachlich/praktisch geprüft werden, bevor sie als sicher gilt.",
   },
   {
     id: "brachioradialis",
@@ -1206,7 +1206,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Adduktion im Schultergelenk", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 182f. Ursprung (medialer Epicondylus humeri), Ansatz (kraniomedial am oberen Drittel des Radius), Funktion (Flexion/Pronation), die klinische Beobachtung (häufig verspannt/hypertroph) sowie der Dehnungstest (Extension mit Supination) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 182f. Ursprung (medialer Epicondylus humeri), Ansatz (kraniomedial am oberen Drittel des Radius), Funktion (Flexion/Pronation), die klinische Beobachtung (häufig verspannt/hypertroph) sowie der Dehnungstest (Extension mit Supination) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, ordnet die dort beschriebene Kompression des N. radialis durch den M. supinator der „toe out position\" zu — nach der hier verwendeten Kap.-14-Logik (Toe-out = M. pronator teres → N. medianus) müsste die dortige Aussage eigentlich M. supinator und Toe-in betreffen. Die beiden Kapitel widersprechen sich in der Stellungsbezeichnung; die Diskrepanz ist ungeklärt und sollte fachlich/praktisch geprüft werden, bevor sie als sicher gilt.",
   },
   {
     id: "pronator-quadratus",
@@ -2476,10 +2476,15 @@ const KNOWLEDGE: KnowledgeSeed[] = [
         heading: "Verknüpfung zur Praxis",
         text: "Eine unauffällige Fußfehlstellung lohnt sich also genauer anzuschauen, bevor man ein Schleifen der Pfote vorschnell einer orthopädischen oder neurologischen Ursache an ganz anderer Stelle zuschreibt.",
       },
+      {
+        type: "text",
+        heading: "Wichtiger Hinweis zur Quellenlage",
+        text: "Hárrers eigenes Kapitel zur Neurotension (Kap. 17, S. 279) nennt in einer allgemeinen Ursachenliste für Nervenkompressionen denselben Mechanismus (hypertoner M. supinator komprimiert N. radialis) — aber unter der Bezeichnung „toe out position\" statt „Toe-in\" wie hier in Kap. 14. Der Muskel-Nerv-Bezug ist in beiden Kapiteln identisch, nur die Fußstellungsbezeichnung widerspricht sich. Diese Seite folgt der ausführlicheren Darstellung aus Kap. 14, die beide Stellungen einander gegenüberstellt; die Diskrepanz zwischen den Kapiteln ist damit aber nicht aufgelöst, sondern lediglich dokumentiert. Vor einer praktischen Anwendung sollte diese Zuordnung fachlich bzw. durch klinische Erfahrung zusätzlich geprüft werden.",
+      },
     ],
     errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "vorschnelle Diagnose"],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179. Der Zusammenhang zwischen Toe-in/-out-Stellung, Pro-/Supinationsstellung des Unterarms, der jeweils betroffenen Muskulatur (M. supinator bzw. M. pronator teres), den betroffenen Nerven (N. radialis bzw. N. medianus) und den beschriebenen Symptomen (Pfotenschleifen, Beknabbern) ist im Original so beschrieben.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179. Der Zusammenhang zwischen Toe-in/-out-Stellung, Pro-/Supinationsstellung des Unterarms, der jeweils betroffenen Muskulatur (M. supinator bzw. M. pronator teres), den betroffenen Nerven (N. radialis bzw. N. medianus) und den beschriebenen Symptomen (Pfotenschleifen, Beknabbern) ist im Original so beschrieben. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, beschreibt denselben M. supinator/N. radialis-Bezug unter umgekehrter Stellungsbezeichnung (siehe Abschnitt „Wichtiger Hinweis zur Quellenlage\" oben) — noch ungeklärt, deshalb nur teilverifiziert statt vollständig verifiziert.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
@@ -2731,6 +2736,75 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 9 (Unterschenkelregion), S. 94f. Die drei Knochenverbindungen, die Gelenkflächen und Bänder beider Tibiofibulargelenke, die Diskussion um das tatsächliche Bewegungsausmaß sowie die Erklärung über die Talus-Form sind im Original so beschrieben.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
+  },
+  {
+    id: "nervenkompression-druck-dehnungsschwellen",
+    category: "BIOMECHANIK",
+    title: "Ab wann wird Nervenkompression kritisch? — Druck- und Dehnungsschwellen",
+    teaser:
+      "Ein eingeklemmter Nerv fällt nicht sofort aus — aber schon lange vor einer echten Schädigung ist seine Durchblutung gestört. Konkrete Schwellenwerte helfen einzuordnen, wie ernst ein Befund ist.",
+    sections: [
+      {
+        type: "text",
+        text: "Nervengewebe muss sich jeder Bewegung des Körpers anpassen können — es muss gleiten und sich minimal dehnen lassen. Beim Übergang von Streckung zu Beugung der Wirbelsäule verlängert sich der Wirbelkanal, und die Rückenmarkshäute (Dura) müssen sich entsprechend entfalten bzw. Falten werfen. Gelingt diese Anpassung nicht mehr — etwa durch Kompression, Einblutung oder ein kleines Trauma —, entsteht eine Ischämie: Die Ver- und Entsorgung des Nervs ist gestört, zunächst mit Hypersensibilität als Folge, später möglicherweise mit Hyposensibilität und echter Pathologie.",
+      },
+      {
+        type: "table",
+        heading: "Schwellenwerte für Dehnung und Kompression (Humanstudien)",
+        columns: ["Reiz", "Effekt auf den Nerv"],
+        rows: [
+          ["Verlängerung um mehr als 15 % der möglichen Dehnung", "Totaler Stopp des intraneuralen Blutstroms"],
+          ["Verlängerung um 7–8 % der möglichen Dehnung", "Blutzirkulation bereits beeinträchtigt"],
+          ["Kompression mit 70 mmHg", "Kompletter Stopp des intraneuralen Blutstroms (Lundborg & Rydevik 1973; Ogata & Naito 1985)"],
+          ["Kompression mit 30 mmHg", "Blutzirkulation beeinträchtigt, axonaler Transport blockiert, intraneurale Ödeme entstehen"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Wichtige Einschränkung",
+        text: "Diese Zahlenwerte stammen aus Untersuchungen am Menschen. Ob und ab welchem exakten Wert sie beim Hund gelten, ist NICHT VERIFIZIERT — die Quelle geht lediglich davon aus, dass Hund und Mensch als Säugetiere eine ähnliche Situation zeigen, ohne dies caninen-spezifisch belegen zu können. Die Werte sind daher als Orientierung zu verstehen, nicht als exakte Grenzwerte für den Hund.",
+      },
+      {
+        type: "text",
+        heading: "Klinische Konsequenz",
+        text: "Sobald Druck oder Dehnung auf den Nerv aufgehoben werden, erholt sich die Durchblutung wieder — die Veränderungen sind zunächst reversibel. Unter pathologischen Umständen (z. B. bereits vorgeschädigter Nerv) werden diese Schwellen jedoch früher erreicht als beim gesunden Gewebe.",
+      },
+      {
+        type: "list",
+        heading: "Mögliche Ursachen einer erhöhten Mechanosensitivität",
+        items: [
+          "Verkürzte bzw. hypertone Muskulatur, durch die ein Nerv hindurchzieht oder an der er entlangläuft",
+          "Direktes Trauma: Tritt, Schlag, Bluterguss, Autounfall",
+          "Stenosierung des Foramen intervertebrale — der Nerv scheuert an der Wirbelsäule",
+          "Immobilität — der Nerv verliert seine Anpassungsfähigkeit (Adaptation)",
+          "Narbengewebe nach Operationen (z. B. Bandscheiben-OP), an das die Dura anwächst",
+          "Überdehnung, etwa durch Sturz oder Misshandlung",
+          "Wiederkehrende Gelenkdysfunktionen an den Anhaftungspunkten der Dura im Rückenmark",
+        ],
+      },
+      {
+        type: "list",
+        heading: "Symptome erhöhter Mechanosensitivität eines Nervs",
+        items: [
+          "Angepasste Schonhaltung, um die Spannung herauszunehmen (z. B. ipsilaterale Seitneige, Knieflexion)",
+          "Schmerz, steife Wirbelsäule, Kopf-Tiefhaltung",
+          "Parästhesien — äußern sich beim Hund z. B. als Knabbern oder Lecken einer Körperstelle",
+          "Abnorme Reaktion bei der gezielten Untersuchung der Neuralstrukturen (herabgesetzte Gleitfähigkeit)",
+          "Schmerzhafte Druckpalpation entlang des Nervenverlaufs",
+          "Veränderte Bewegungsqualität und -quantität, aktiv wie passiv",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Wichtige Abgrenzung",
+        text: "Eine erhöhte Mechanosensitivität zeigt sich ausdrücklich OHNE neurologische Defizite — also ohne veränderte segmentale Reflexe oder Muskelatrophie. Genau das unterscheidet sie von einer tatsächlichen neurologischen Schädigung und ist differentialdiagnostisch wichtig: Parästhesien und Schonhaltung allein rechtfertigen noch nicht den Verdacht auf eine strukturelle Nervenläsion.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Befund überbewertet", "Faktenwissen"],
+    sourceStatus:
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17 (Neurotension), S. 277–279. Die Dehnungs-/Kompressionsschwellen, die Ursachenliste für mechanosensitive Veränderungen sowie die Symptomliste (inkl. der expliziten Abgrenzung „keine neurologischen Defizite\") sind im Original so beschrieben. Die Zahlenwerte selbst stammen aus zitierten Humanstudien (Breig 1978; Louis 1981; Lundborg & Rydevik 1973; Ogata & Naito 1985) — ihre Übertragbarkeit auf den Hund wird von der Autorin nur als plausible Annahme dargestellt, nicht als canines Studienergebnis. Bewusst NICHT übernommen: die konkreten „Spannungspunkte\" (C6/7, Th6–9, L4, Ellenbogenbeuge, Kniekehle), da die Autorin selbst ausdrücklich schreibt, deren Übertragbarkeit auf den Hund entziehe sich ihrer Kenntnis und könne mangels Schmerzaussage des Patienten nicht überprüft werden.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["supinator", "pronator-teres"],
   },
 ];
 
