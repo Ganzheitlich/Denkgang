@@ -23,13 +23,15 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 23 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
-  Untersuchung, 2 Pathologie, 2 Biomechanik, 4 Therapie)
-- Anatomie-Sektion: 14 Items (biceps, iliopsoas, quadriceps, facettengelenke,
-  huefte, + 2 weitere zu bereits bestehenden Fällen, plus die sieben neuen,
-  fallunabhängigen Schultermuskel-Items: supraspinatus, infraspinatus,
-  subscapularis, coracobrachialis, deltoideus, teres-major, teres-minor —
-  komplette Extensoren-/Flexorengruppe des Schultergelenks nach Hárrer)
+- Wissensbibliothek: 24 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 3
+  Untersuchung, 3 Pathologie, 2 Biomechanik, 4 Therapie)
+- Anatomie-Sektion: 18 Items (biceps, iliopsoas, quadriceps, facettengelenke,
+  huefte, + 2 weitere zu bereits bestehenden Fällen, plus elf neue,
+  fallunabhängige Items: die komplette Schulterflexoren-/Extensorengruppe
+  (supraspinatus, infraspinatus, subscapularis, coracobrachialis,
+  deltoideus, teres-major, teres-minor) und die komplette
+  Ellbogenflexoren-/-extensorengruppe (brachialis, triceps-brachii,
+  tensor-fasciae-antebrachii, anconeus) nach Hárrer)
 
 ## Backlog nach Quelle
 
@@ -72,6 +74,15 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
 
 - [ ] Ganze Datei sichten — zentral für Fall Nala (Facettengelenke,
       lumbosakraler Übergang, Spondylose/IVDD als Differentialdiagnosen)
+
+### PATHOLOGIE — Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3)
+
+- [x] Toe-in/Toe-out als Nervenkompressions-Warnzeichen (M. supinator/N.
+      radialis, M. pronator teres/N. medianus) — Kap. 14 (Unterarmregion),
+      S. 179
+- [ ] Radiuskurvensyndrom (frühzeitiger Epiphysenschluss der Ulna →
+      Valgusstellung des Radius) — nur beiläufig erwähnt in Kap. 14, S. 179,
+      eigenes Unterkapitel/eigene Quelle noch zu finden
 
 ### UNTERSUCHUNG — Koch/Fischer, Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1)
 
@@ -141,6 +152,11 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       (effektive vs. gesamte Gelenkbeweglichkeit während Lokomotion) und die
       Überlastungskette Hintergliedmaße → Schultergürtel → Ellenbogen/Schulter
       — Kap. 13, S. 165.
+- [ ] Die Unterarm-Rotationsgelenke (Art. radioulnaris proximalis/distalis,
+      Membrana interossea antebrachii, ~20° Pronation/~50° Supination) —
+      bereits vollständig gelesen (Kap. 14, S. 179), noch nicht als eigener
+      Eintrag geschrieben. Guter nächster Schritt, direkt anschließend an den
+      Toe-in/Toe-out-Pathologie-Eintrag.
 - [ ] Rest von Kap. 13 (Ellenbogenregion) und alle anderen Regionen-Kapitel
       (Hüfte Kap. 7, Wirbelsäule Kap. 16 — teilweise schon für Quellenprüfung
       gelesen, aber nicht systematisch auf weitere Biomechanik-Fakten
@@ -185,10 +201,15 @@ gelesenen Quellen:
       M. gastrocnemius, M. gracilis — Hintergliedmaße, bisher nur als
       Landmarken bei Hohmann erwähnt, noch keine Hárrer-Region dazu gelesen
       (vermutlich eigenes Kapitel "Kniegelenk"/"Oberschenkel" bei Hárrer)
-- [ ] M. triceps brachii, M. brachialis (Ellbogenregion, Kap. 13.1.2
-      "Muskulatur Art. cubiti") — Extraktion bei M. brachialis mitten im Satz
-      abgebrochen (Datei ma(13).pdf noch nicht gezielt zu Ende gelesen); Kap.
-      12 nennt nur den Ursprung des Caput longum (Tuberculum infraglenoidale)
+- [x] M. brachialis, M. triceps brachii, M. tensor fasciae antebrachii,
+      M. anconeus (komplette Ellbogenflexoren-/-extensorengruppe) —
+      verifiziert gegen Hárrer Kap. 13, S. 165–178
+- [ ] Kap. 14 Unterarmregion: M. supinator, M. pronator teres — bereits als
+      zentrale Akteure im Toe-in/Toe-out-Pathologie-Eintrag genannt, aber noch
+      ohne eigenes Anatomie-Item (Ursprung/Ansatz nicht aus dem bisher
+      gelesenen Auszug bekannt, nur Funktion/klinische Rolle)
+- [ ] Kap. 15 (falls vorhanden) und Rest von Kap. 14 (Unterarmregion,
+      Karpalgelenk) noch nicht gelesen
 - [ ] Processus anconaeus, Processus coronoideus medialis (Ellbogen — direkt
       aus dem ED-Pathologie-Eintrag ableitbar, Quelle bereits gelesen)
 - [ ] Ligamentum capitis femoris (Hüfte — bereits in Luna/Fällen erwähnt, aber
