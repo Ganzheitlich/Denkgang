@@ -42,8 +42,8 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 33 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
-  Untersuchung, 8 Pathologie, 9 Biomechanik, 4 Therapie — genaue Aufteilung
+- Wissensbibliothek: 34 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
+  Untersuchung, 8 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
@@ -146,12 +146,17 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       durchsucht (z. B. Spondylose, IVDD, Cauda-equina)
 - [~] Kap. 17 Neurotension (S. 269–296) — gelesen: 17.1 (ZNS/PNS-Grundlagen,
       Sympathikus, Horner-Syndrom — sehr ausführlich, aber eher humanmedizin-
-      nahe Grundlagenanatomie, noch nicht als Wissenseintrag umgesetzt) und
+      nahe Grundlagenanatomie, noch nicht als Wissenseintrag umgesetzt),
       17.2–17.2.4 (Bewegung/Dehnung/Kompression, Ursachen und Symptome
       mechanosensitiver Nerven — als `nervenkompression-druck-dehnungsschwellen`
-      umgesetzt). Noch offen: 17.5 (Untersuchung und Behandlung, S. 280–296,
-      mit Nervenpalpation/Druckpunkten/Behandlungstechniken) — deutlich
-      umfangreicher, eher für einen Untersuchung/Therapie-Eintrag geeignet.
+      umgesetzt) sowie 17.3/17.4/17.5.1/17.5.2 (Wirkprinzip, Kontraindikationen,
+      Nervenleitung, Mechanosensitivitäts-Untersuchung — als
+      `neurotensionsbehandlung-wirkprinzip-kontraindikationen` umgesetzt, S.
+      279–281). Noch offen: der Rest von 17.5 (S. 282–296) mit den konkreten
+      Behandlungstechniken (Duramobilisation etc.) — bewusst NICHT als
+      Wissensbibliothek-Content vorgesehen (praktische Handgriffe für
+      ausgebildete Therapeut:innen, kein Nachschlage-Wissen), außer Vanessa
+      möchte das anders.
       **Wichtiger Fund:** Kap. 17 (S. 279) widerspricht Kap. 14 (S. 179) in der
       Zuordnung „Toe-in/Toe-out" ↔ M. supinator — derselbe Muskel-Nerv-Bezug
       (M. supinator → N. radialis) wird einmal der Toe-in-, einmal der

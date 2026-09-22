@@ -2988,6 +2988,64 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "neurotensionsbehandlung-wirkprinzip-kontraindikationen",
+    category: "THERAPIE",
+    title: "Neurotensionsbehandlung — Wirkprinzip, Timing und Kontraindikationen",
+    teaser:
+      "Warum Bewegung bei einer Nervenreizung hilft statt zu schaden — und in welchen Fällen genau diese Bewegungstherapie tabu ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Teufelskreis, den die Behandlung durchbrechen soll",
+        text: "Ein mechanisches Problem am Nerv (z. B. Kompression) zerstört zunächst Gewebe, wodurch eine Entzündung entsteht. Schmerz durch diese mechanosensitive Veränderung und der gleichzeitige Mangel an physiologischer Bewegung führen zu einer venösen Stase (Stau) und in der Folge zu einer Ischämie. Daraus resultieren Hypoxie, mehr Schmerz und eine weitere Bewegungseinschränkung — ein sich selbst verstärkender Kreislauf. Klingt die Entzündung ab, lassen automatisch auch die Schmerzen nach.",
+      },
+      {
+        type: "text",
+        heading: "Wirkprinzip der Behandlung",
+        text: "Aktive und passive Bewegung um die (hoffentlich reversible) Stase herum soll die normale Physiologie wiederherstellen: Durch die Bewegung und die damit verbundene Muskelpumpe werden die intraneurale Mikrozirkulation und die Drainage des intraneuralen Ödems gefördert — das Ödem wird kleiner, wodurch weniger Ischämie im Nerv entsteht. Zusätzlich kann die Neurotensionsbehandlung den axonalen Transport (der für Heilung und Regeneration zuständige, langsame Transportweg von Proteinen und Reparaturstoffen) auf das 2- bis 4-Fache beschleunigen und die Gleitfähigkeit des Nervs verbessern, sodass er Druck besser ausweichen kann.",
+      },
+      {
+        type: "text",
+        heading: "Wichtiger Timing-Hinweis nach Wirbelsäulen-OP",
+        text: "Eine Neurodynamik-Behandlung sollte so früh wie möglich nach einer Wirbelsäulen-OP beginnen. Ist die Proliferationsphase der Wundheilung erst abgeschlossen, haben sich bereits Cross-Links (Gewebequervernetzungen) gebildet, die der Therapeut bei späterem Behandlungsbeginn erst aufbrechen muss — das führt zunächst zu Entzündung, Schmerz und einer vorübergehenden Verschlechterung nach der Therapie. Rechtzeitige, adäquate Behandlung vermeidet das.",
+      },
+      {
+        type: "list",
+        heading: "Kontraindikationen für die Neurotensionsbehandlung",
+        items: [
+          "Intraneurale Störung (z. B. eine Blutung im Spinalganglion) — durch Manuelle Therapie nicht beeinflussbar",
+          "Akute Rückenmarkläsionen",
+          "Nichtreversible Störungen (bösartige/maligne Prozesse)",
+          "Frakturen",
+          "Frische Traumen",
+          "Verschlimmerung der Symptome durch die Behandlung selbst",
+          "Entzündungen im ZNS bzw. im Behandlungsgebiet (relative Kontraindikation)",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Zwei Untersuchungswege zur Mechanosensitivität",
+        text: "Die Mechanosensitivität peripherer Nerven wird im Seitenvergleich auf zwei Wegen untersucht: über longitudinale Nerventests (Zug am Nerv, wobei nicht die Nervenspannung selbst, sondern die dabei ausgelöste muskuläre Reaktion beurteilt wird) und über die Nervendruckpalpation. Bei positivem Befund erfolgt entweder eine direkte Behandlung des peripheren Nervs oder eine Neurotension des entsprechenden Nervs.",
+      },
+      {
+        type: "list",
+        heading: "Hinweiszeichen bei den longitudinalen Tests",
+        items: [
+          "Druckschmerzhaftigkeit des peripheren Nervs",
+          "Schlechte seitliche Verschiebbarkeit des Nervs",
+          "Schwellung des Nervs",
+          "Segmental unter Umständen kein Befund",
+          "Eine veränderte Neurotension (herabgesetzte Gleitfähigkeit)",
+        ],
+      },
+    ],
+    errorTags: ["Faktenwissen", "falsche Priorisierung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17 (Neurotension), S. 279–281 (Abschnitte 17.3 Wirkungsweise der Neurotensionsbehandlung, 17.4 Kontraindikation, 17.5.1 Nervenleitung, 17.5.2 Mechanosensitivität der peripheren Nerven). Das Ischämie-Modell, das Wirkprinzip der Behandlung (Muskelpumpe, axonaler Transport 2- bis 4-fach beschleunigt, verbesserte Gleitfähigkeit), der Timing-Hinweis zu Cross-Links nach Wirbelsäulen-OP, die Kontraindikationsliste sowie die beiden Untersuchungswege mit ihren Hinweiszeichen sind im Original so beschrieben. Bewusst NICHT übernommen: die konkreten Behandlungstechniken (z. B. Duramobilisation mit genauer ASTE/Griff/Ausführung) — diese sind praktische Handgriffe für ausgebildete Therapeut:innen, kein Nachschlage-Wissen für die Wissensbibliothek.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
