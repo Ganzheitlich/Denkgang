@@ -1164,7 +1164,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Abduktion im Schultergelenk", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179f., 182. Funktion (Flexion/Supination Ellenbogengelenk), der Verlauf des N. radialis durch den Muskel, die fehlende direkte Palpierbarkeit sowie der Dehnungstest (Extension und Pronation) sind im Original so beschrieben. Ursprung und Ansatz werden im Original nicht genannt. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, beschreibt denselben Mechanismus (hypertoner M. supinator komprimiert N. radialis) unter der Bezeichnung „toe out position\" statt „Toe-in\" wie hier in Kap. 14. Der Muskel-Nerv-Bezug ist in beiden Kapiteln identisch, nur die Fußstellungsbezeichnung widerspricht sich zwischen den Kapiteln. Hier wird die Darstellung aus Kap. 14 (eigenständiges Unterarm-Kapitel mit vollständiger Gegenüberstellung Toe-in/Toe-out) beibehalten — die Diskrepanz ist ungeklärt und sollte fachlich/praktisch geprüft werden, bevor sie als sicher gilt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179f., 182. Funktion (Flexion/Supination Ellenbogengelenk), der Verlauf des N. radialis durch den Muskel, die fehlende direkte Palpierbarkeit sowie der Dehnungstest (Extension und Pronation) sind im Original so beschrieben. Ursprung und Ansatz werden im Original nicht genannt. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, beschreibt denselben Mechanismus (hypertoner M. supinator komprimiert N. radialis) unter der Bezeichnung „toe out position\" statt „Toe-in\" wie hier in Kap. 14. Der Muskel-Nerv-Bezug ist in beiden Kapiteln identisch, nur die Fußstellungsbezeichnung widerspricht sich zwischen den Kapiteln. Hier wird die Darstellung aus Kap. 14 (eigenständiges Unterarm-Kapitel mit vollständiger Gegenüberstellung Toe-in/Toe-out) beibehalten — die Diskrepanz ist ungeklärt und sollte fachlich/praktisch geprüft werden, bevor sie als sicher gilt. Web-Abgleich (22.09.2026): Weder canine noch humane Fachliteratur zum Supinatortunnel-/Supinatorlogensyndrom (z. B. Springer Nature, DocCheck Flexikon, PubMed) beschreibt eine Zuordnung zu einer bestimmten Fußstellung — dort werden andere Kompressionsursachen genannt (Frohse-Arkade, raumfordernde Prozesse, repetitive Pro-/Supination). Die Toe-in/Toe-out-Zuordnung scheint eine Hárrer-eigene klinische Beobachtung zu sein, die sich nicht extern verifizieren ließ.",
   },
   {
     id: "brachioradialis",
@@ -1206,7 +1206,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Adduktion im Schultergelenk", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 182f. Ursprung (medialer Epicondylus humeri), Ansatz (kraniomedial am oberen Drittel des Radius), Funktion (Flexion/Pronation), die klinische Beobachtung (häufig verspannt/hypertroph) sowie der Dehnungstest (Extension mit Supination) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, ordnet die dort beschriebene Kompression des N. radialis durch den M. supinator der „toe out position\" zu — nach der hier verwendeten Kap.-14-Logik (Toe-out = M. pronator teres → N. medianus) müsste die dortige Aussage eigentlich M. supinator und Toe-in betreffen. Die beiden Kapitel widersprechen sich in der Stellungsbezeichnung; die Diskrepanz ist ungeklärt und sollte fachlich/praktisch geprüft werden, bevor sie als sicher gilt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 182f. Ursprung (medialer Epicondylus humeri), Ansatz (kraniomedial am oberen Drittel des Radius), Funktion (Flexion/Pronation), die klinische Beobachtung (häufig verspannt/hypertroph) sowie der Dehnungstest (Extension mit Supination) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, ordnet die dort beschriebene Kompression des N. radialis durch den M. supinator der „toe out position\" zu — nach der hier verwendeten Kap.-14-Logik (Toe-out = M. pronator teres → N. medianus) müsste die dortige Aussage eigentlich M. supinator und Toe-in betreffen. Die beiden Kapitel widersprechen sich in der Stellungsbezeichnung; die Diskrepanz ist ungeklärt und sollte fachlich/praktisch geprüft werden, bevor sie als sicher gilt. Web-Abgleich (22.09.2026): Keine externe canine oder humane Fachquelle zu Pronator-teres-/N.-medianus-Kompression gefunden, die eine Fußstellung benennt — auch dies wirkt wie eine Hárrer-eigene klinische Beobachtung ohne externe Bestätigung.",
   },
   {
     id: "pronator-quadratus",
@@ -2479,12 +2479,12 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       {
         type: "text",
         heading: "Wichtiger Hinweis zur Quellenlage",
-        text: "Hárrers eigenes Kapitel zur Neurotension (Kap. 17, S. 279) nennt in einer allgemeinen Ursachenliste für Nervenkompressionen denselben Mechanismus (hypertoner M. supinator komprimiert N. radialis) — aber unter der Bezeichnung „toe out position\" statt „Toe-in\" wie hier in Kap. 14. Der Muskel-Nerv-Bezug ist in beiden Kapiteln identisch, nur die Fußstellungsbezeichnung widerspricht sich. Diese Seite folgt der ausführlicheren Darstellung aus Kap. 14, die beide Stellungen einander gegenüberstellt; die Diskrepanz zwischen den Kapiteln ist damit aber nicht aufgelöst, sondern lediglich dokumentiert. Vor einer praktischen Anwendung sollte diese Zuordnung fachlich bzw. durch klinische Erfahrung zusätzlich geprüft werden.",
+        text: "Hárrers eigenes Kapitel zur Neurotension (Kap. 17, S. 279) nennt in einer allgemeinen Ursachenliste für Nervenkompressionen denselben Mechanismus (hypertoner M. supinator komprimiert N. radialis) — aber unter der Bezeichnung „toe out position\" statt „Toe-in\" wie hier in Kap. 14. Der Muskel-Nerv-Bezug ist in beiden Kapiteln identisch, nur die Fußstellungsbezeichnung widerspricht sich. Diese Seite folgt der ausführlicheren Darstellung aus Kap. 14, die beide Stellungen einander gegenüberstellt; die Diskrepanz zwischen den Kapiteln ist damit aber nicht aufgelöst, sondern lediglich dokumentiert. Ein Abgleich mit externer Fachliteratur zum Supinatortunnel-/Supinatorlogensyndrom (humanmedizinisch, u. a. Springer Nature, PubMed, DocCheck) ergab keine Bestätigung für eine Fußstellungs-Zuordnung — dort werden andere Kompressionsursachen genannt. Die Zuordnung scheint eine Hárrer-eigene klinische Beobachtung zu sein. Vor einer praktischen Anwendung sollte sie fachlich bzw. durch klinische Erfahrung zusätzlich geprüft werden.",
       },
     ],
     errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "vorschnelle Diagnose"],
     sourceStatus:
-      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179. Der Zusammenhang zwischen Toe-in/-out-Stellung, Pro-/Supinationsstellung des Unterarms, der jeweils betroffenen Muskulatur (M. supinator bzw. M. pronator teres), den betroffenen Nerven (N. radialis bzw. N. medianus) und den beschriebenen Symptomen (Pfotenschleifen, Beknabbern) ist im Original so beschrieben. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, beschreibt denselben M. supinator/N. radialis-Bezug unter umgekehrter Stellungsbezeichnung (siehe Abschnitt „Wichtiger Hinweis zur Quellenlage\" oben) — noch ungeklärt, deshalb nur teilverifiziert statt vollständig verifiziert.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179. Der Zusammenhang zwischen Toe-in/-out-Stellung, Pro-/Supinationsstellung des Unterarms, der jeweils betroffenen Muskulatur (M. supinator bzw. M. pronator teres), den betroffenen Nerven (N. radialis bzw. N. medianus) und den beschriebenen Symptomen (Pfotenschleifen, Beknabbern) ist im Original so beschrieben. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, beschreibt denselben M. supinator/N. radialis-Bezug unter umgekehrter Stellungsbezeichnung (siehe Abschnitt „Wichtiger Hinweis zur Quellenlage\" oben) — noch ungeklärt, deshalb nur teilverifiziert statt vollständig verifiziert. Web-Abgleich (22.09.2026) brachte keine externe Bestätigung für eine Fußstellungs-Zuordnung bei Supinator-/Pronator-teres-Kompression, weder canin noch human.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
@@ -2805,6 +2805,83 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17 (Neurotension), S. 277–279. Die Dehnungs-/Kompressionsschwellen, die Ursachenliste für mechanosensitive Veränderungen sowie die Symptomliste (inkl. der expliziten Abgrenzung „keine neurologischen Defizite\") sind im Original so beschrieben. Die Zahlenwerte selbst stammen aus zitierten Humanstudien (Breig 1978; Louis 1981; Lundborg & Rydevik 1973; Ogata & Naito 1985) — ihre Übertragbarkeit auf den Hund wird von der Autorin nur als plausible Annahme dargestellt, nicht als canines Studienergebnis. Bewusst NICHT übernommen: die konkreten „Spannungspunkte\" (C6/7, Th6–9, L4, Ellenbogenbeuge, Kniekehle), da die Autorin selbst ausdrücklich schreibt, deren Übertragbarkeit auf den Hund entziehe sich ihrer Kenntnis und könne mangels Schmerzaussage des Patienten nicht überprüft werden.",
     relatedCaseIds: [],
     relatedAnatomyIds: ["supinator", "pronator-teres"],
+  },
+  {
+    id: "kreuzbandriss-krankheitsbild",
+    category: "PATHOLOGIE",
+    title: "Kreuzbandriss beim Hund — Krankheitsbild, Risikofaktoren und Verlauf",
+    teaser:
+      "Anders als beim Menschen ist ein Kreuzbandriss beim Hund selten ein reiner Unfall — meist steckt eine schleichende, mehrfaktorielle Degeneration des Bandes dahinter.",
+    sections: [
+      {
+        type: "text",
+        text: "Die Ruptur des vorderen (kranialen) Kreuzbandes (Ligamentum cruciatum craniale) ist beim Hund in den meisten Fällen keine akute Verletzung eines zuvor gesunden Bandes, sondern das Endstadium eines chronisch-degenerativen Prozesses (\"Cranial Cruciate Ligament Disease\"). Das Band verliert Fibroblasten, die Kollagenmatrix baut sich ab, verbliebene Zellen wandeln sich in knorpelähnliche Zellen um — ein Vorgang, der bei großen Rassen tendenziell früher einsetzt als bei kleinen.",
+      },
+      {
+        type: "list",
+        heading: "Bekannte Risikofaktoren (mehrfaktoriell, keine Einzelursache)",
+        items: [
+          "Rasse — bestimmte Rassen (u. a. Rottweiler) sind in mehreren Studien überrepräsentiert",
+          "Mittleres bis höheres Alter",
+          "Übergewicht",
+          "Kastration/Sterilisation — Zusammenhang wird diskutiert, möglicherweise vermittelt über Gewichtszunahme und Hormonveränderungen nach dem Eingriff",
+          "Steile Tibiaplateauneigung (Tibia Plateau Angle) — als konformativer Risikofaktor beschrieben, die Stärke des Zusammenhangs ist zwischen Studien allerdings umstritten: manche Hunde mit steilem Winkel entwickeln nie eine Kreuzbandproblematik",
+          "Genetische, entzündliche und immunvermittelte Faktoren werden zusätzlich diskutiert",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Partial- und Komplettruptur",
+        text: "Eine Teilruptur betrifft nahezu immer zuerst das kraniomediale Bündel des Bandes. Sie schreitet typischerweise innerhalb von Wochen bis Monaten zur Komplettruptur fort. Eine rein konservative Behandlung mit entzündungshemmenden Medikamenten lindert zwar die Symptome, verhindert aber weder das Fortschreiten der Bandschädigung noch die Entwicklung einer Arthrose.",
+      },
+      {
+        type: "text",
+        heading: "Meniskusbeteiligung",
+        text: "Der mediale Meniskus wird häufig gemeinsam mit dem Kreuzband geschädigt. Bei fortgeschrittener Instabilität kann insbesondere das Hinterhorn des medialen Meniskus zwischen Femurkondylus und Tibiaplateau eingequetscht werden — ein Grund, warum bei jedem Kreuzbandverdacht gezielt auch auf Meniskuszeichen geprüft werden sollte (siehe Wissenseintrag zu den klinischen Kreuzband-/Meniskustests).",
+      },
+      {
+        type: "table",
+        heading: "Therapieansätze im Überblick",
+        columns: ["Ansatz", "Prinzip", "Besonderheit"],
+        rows: [
+          [
+            "Konservativ (Gewichtsmanagement, kontrollierte Bewegung, Physiotherapie, ggf. Schmerzmittel)",
+            "Kein chirurgischer Ausgleich der Instabilität",
+            "Stabilisiert das Kniegelenk nicht mechanisch — Arthrose schreitet in der Regel fort; am ehesten für kleine, leichte Hunde eine Option",
+          ],
+          [
+            "TPLO (Tibial Plateau Leveling Osteotomy)",
+            "Verändert die Tibiaplateauneigung, sodass das Knie auch ohne intaktes Kreuzband dynamisch stabil ist",
+            "Häufigste Standardoperation bei mittelgroßen bis großen Hunden — auch die Operation im Fall Bruno",
+          ],
+          [
+            "TTA (Tibial Tuberosity Advancement)",
+            "Verlagert die Tuberositas tibiae nach vorne, um die Zugrichtung der Patellasehne zu verändern",
+            "Alternative zur TPLO mit vergleichbarem Wirkprinzip, anderer operativer Zugang",
+          ],
+          [
+            "Extrakapsuläre Naht (\"Bandersatz\")",
+            "Künstliches Band außerhalb des Gelenks stabilisiert die Kniescheibenführung passiv",
+            "Eher bei kleineren, leichteren Hunden eingesetzt als bei großen, aktiven Tieren",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Prognose",
+        text: "Sowohl konservative als auch chirurgische Behandlung erreichen in Übersichtsarbeiten häufig gute bis exzellente funktionelle Ergebnisse. Bei mittelgroßen bis großen und aktiven Hunden zeigt eine chirurgische Stabilisierung (v. a. TPLO) jedoch tendenziell eine bessere Langzeit-Gelenkstabilität, eine schnellere Rückkehr zur Belastbarkeit und ein geringeres Risiko einer fortschreitenden Arthrose als eine rein konservative Behandlung.",
+      },
+      {
+        type: "text",
+        heading: "Verknüpfung zu Fall Bruno",
+        text: "Brunos minimale Restlahmheit und die Quadrizepsatrophie sechs Wochen nach TPLO passen zum erwarteten Reha-Verlauf nach dieser Standardoperation — die knöcherne und muskuläre Anpassung braucht Zeit, auch wenn das operierte Knie selbst schon reizfrei und beweglich ist.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert per Web-Recherche (22.09.2026), konvergent aus mehreren unabhängigen, etablierten veterinärmedizinischen Fachquellen: peer-reviewte Übersichtsarbeiten über PubMed/PMC (u. a. eine systematische Übersicht mit Metaanalyse zu TPLO/TTA sowie ein Scoping Review zur Ätiopathogenese der caninen Kreuzbanderkrankung), ergänzt durch die Fachportale ACVS (American College of Veterinary Surgeons) und VCA Animal Hospitals. WICHTIGE EINSCHRÄNKUNG: Der direkte Volltextzugriff (WebFetch) auf diese Quellen war in dieser Arbeitsumgebung technisch blockiert (Netzwerk-Egress-Beschränkung); die hier verwendeten Aussagen stammen aus den von der Websuche gelieferten, mehrfach konvergenten Kernaussagen dieser Artikel, nicht aus eigener Volltextprüfung jedes einzelnen Papers. Konkrete Prozentzahlen zu Erfolgsraten (85–95 % gute/exzellente Ergebnisse, ~93 % Funktionsrückkehr nach einem Jahr in einer 2013er-Studie) stammen teilweise aus sekundären Zusammenfassungen (u. a. veterinärmedizinische Fachblogs, die sich ihrerseits auf Studien berufen) und sind daher als Größenordnung, nicht als exakt geprüfte Einzelzahl zu verstehen. Der Zusammenhang zwischen steiler Tibiaplateauneigung und Kreuzbandriss wird in der Literatur selbst als nicht abschließend geklärt beschrieben — das ist hier bewusst mit übernommen, nicht geglättet.",
+    relatedCaseIds: ["bruno"],
+    relatedAnatomyIds: [],
   },
 ];
 

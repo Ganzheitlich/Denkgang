@@ -42,9 +42,24 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 30 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
-  Untersuchung, 7 Pathologie, 7 Biomechanik, 4 Therapie — genaue Aufteilung
+- Wissensbibliothek: 31 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
+  Untersuchung, 8 Pathologie, 7 Biomechanik, 4 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
+- **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
+  nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
+  aktiv mit einer zweiten Quelle abgeglichen (siehe Toe-in/Toe-out-Fund
+  unten), und für Themen, die in der vorhandenen Buch-Bibliothek fehlen oder
+  lückenhaft sind, wird auch mit Internetquellen gearbeitet — aber nur mit
+  erkennbar seriösen/fachlich verifizierten Portalen (peer-reviewte
+  Übersichtsarbeiten via PubMed/PMC, veterinärmedizinische Fachgesellschaften
+  wie ACVS, etablierte Kliniken wie VCA). **Technische Einschränkung:**
+  WebFetch (direkter Volltextabruf einzelner URLs) ist in dieser
+  Arbeitsumgebung durch eine Netzwerk-Egress-Beschränkung blockiert (betrifft
+  praktisch alle getesteten Domains, auch z. B. Wikipedia). Nur WebSearch
+  funktioniert und liefert dabei von einem Hilfsmodell zusammengefasste
+  Kernaussagen der Suchtreffer, keinen geprüften Volltext. Web-gestützte
+  Einträge kennzeichnen das explizit in ihrem `sourceStatus` statt es zu
+  verschweigen.
 - Anatomie-Sektion: 29 Items (biceps, iliopsoas, quadriceps, facettengelenke,
   huefte, + 2 weitere zu bereits bestehenden Fällen, plus zweiundzwanzig neue,
   fallunabhängige Items nach Hárrer: komplette Schulterflexoren-/
@@ -91,12 +106,19 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
 - [ ] Hüftgelenkdysplasie (HD) als eigenständiges Krankheitsbild (Definition,
       Ätiologie, Diagnostik) — bisher nur über Ortolani-Test (Hárrer) und als
       Differential erwähnt, noch keine eigene Quelle gelesen
-- [~] Kreuzbandriss / vordere Kreuzbandruptur — zentral für Fall Bruno; die
-      klinischen Tests (Lachmann, Tibiakompression, Apley, McMurray) sind jetzt
-      über Hárrer Kap. 8, S. 85–87 als eigener Untersuchung-Wissenseintrag
-      abgedeckt (`kreuzband-meniskus-tests`); das eigentliche Krankheitsbild
-      (Ätiologie, Einteilung, Prognose) noch nicht aus einer Pathologie-Quelle
-      gelesen
+- [x] Kreuzbandriss / vordere Kreuzbandruptur — zentral für Fall Bruno; die
+      klinischen Tests (Lachmann, Tibiakompression, Apley, McMurray) sind über
+      Hárrer Kap. 8, S. 85–87 als eigener Untersuchung-Wissenseintrag
+      abgedeckt (`kreuzband-meniskus-tests`); das Krankheitsbild selbst
+      (Ätiologie, Risikofaktoren, Partial-/Komplettruptur, Meniskusbeteiligung,
+      Therapieoptionen, Prognose) jetzt als `kreuzbandriss-krankheitsbild` über
+      Web-Recherche (peer-reviewte Übersichtsarbeiten via PubMed/PMC, ACVS,
+      VCA) ergänzt — bewusst NICHT aus Hárrer, sondern als erste Quelle
+      außerhalb der Buch-Bibliothek, wie von Vanessa gewünscht (Quellenmix,
+      Cross-Check). Volltextzugriff (WebFetch) war in dieser Umgebung
+      technisch blockiert; die Aussagen stammen aus konvergenten
+      Websuche-Zusammenfassungen mehrerer unabhängiger Fachquellen, siehe
+      `sourceStatus` des Eintrags für Details/Einschränkungen.
 - [ ] Patellaluxation — bisher nur als Symptom-Hinweis in der Ganganalyse
       erwähnt, eigenes Unterkapitel noch nicht gelesen
 - [ ] Rest des Kapitels systematisch weiterlesen (Datei ca. 121 Seiten, bisher
