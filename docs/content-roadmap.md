@@ -42,8 +42,8 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 34 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
-  Untersuchung, 8 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
+- Wissensbibliothek: 35 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
+  Untersuchung, 9 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
@@ -119,11 +119,43 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       technisch blockiert; die Aussagen stammen aus konvergenten
       Websuche-Zusammenfassungen mehrerer unabhängiger Fachquellen, siehe
       `sourceStatus` des Eintrags für Details/Einschränkungen.
-- [ ] Patellaluxation — bisher nur als Symptom-Hinweis in der Ganganalyse
-      erwähnt, eigenes Unterkapitel noch nicht gelesen
+- [x] Patellaluxation — als `patellaluxation-krankheitsbild` umgesetzt.
+      Kombination aus Buch- und Web-Quelle: Alexander/Baatz/Jaggy/Kathmann
+      (VetCenter, „Pathophysiologie des Bewegungsapparates") liefert das
+      Achsenabweichungs-Konzept und die Quadrizeps-Zugmechanik bei medialer
+      Luxation sowie einen guten Differentialdiagnostik-Hinweis
+      (Patellaluxation + Borreliose gleichzeitig möglich) — aber keine
+      Grad-Einteilung. Putnam-Klassifikation (Grad I–IV), mediale vs. laterale
+      Luxation mit ihren jeweiligen Deformitäten, Prävalenz und Therapie
+      stammen aus konvergenter Websuche (ACVS, Merck Vet Manual, OFA,
+      PubMed/PMC, vettimes) — die beiden Quellenarten bestätigen sich
+      gegenseitig im Kernmechanismus (Achsenabweichung → veränderte
+      Quadrizeps-Zugrichtung → Patella-Fehlführung).
 - [ ] Rest des Kapitels systematisch weiterlesen (Datei ca. 121 Seiten, bisher
       nur bis ca. S. 80 gesichtet — Fraktur-, Tumor- und Wirbelsäulenabschnitte
       am Ende vermutlich noch offen)
+
+### PATHOLOGIE — Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates" (VetCenter/Thieme, aus: Physikalische Therapie für Kleintiere)
+
+Neu entdeckte Quelle (22.09.2026), bisher nur teilweise gesichtet (nur Muskulatur-
+und Achsenabweichungs-Abschnitt gelesen für `patellaluxation-krankheitsbild`).
+Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschrift.
+
+- [x] Achsenabweichung (Varus/Valgus, Patellaluxation als Beispiel,
+      Quadrizeps-Zugmechanik) — für `patellaluxation-krankheitsbild` genutzt
+- [ ] Myogelose (Ätiologie/Pathogenese bereits angelesen, noch nicht als
+      Wissenseintrag umgesetzt — passt gut zu Muskelverspannungs-Themen)
+- [ ] Instabilität (Bänderrisse, Ehlers-Danlos-Syndrom als Beispiel für
+      angeborene Bindegewebsschwäche) — noch nicht systematisch gelesen
+- [ ] Neuromuskuläre Imbalancen (zerebellare Ataxie, Zustand nach
+      Bandscheibenvorfall, Polyneuropathie als Beispiele) — noch nicht gelesen
+- [ ] Abschnitt „Nervensystem" (A. Jaggy/I. Kathmann): neurologische
+      Störungen des Bewegungsapparates (Propriozeptionsausfälle, Monoparese/
+      Paraparese/Tetraparese/Hemiparese-Klassifikation) — nur angelesen,
+      nicht ausgewertet
+- [ ] Rest der Datei (Literaturverzeichnis zeigt u. a. Kapitel zu
+      Polyneuropathien, Klinischer Pathophysiologie, Canine Rehabilitation)
+      noch nicht systematisch gesichtet
 
 ### PATHOLOGIE — VetCenter, „Wirbelsäulenerkrankungen" (eigene Datei, noch ungelesen)
 

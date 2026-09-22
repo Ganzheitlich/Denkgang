@@ -3046,6 +3046,60 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "patellaluxation-krankheitsbild",
+    category: "PATHOLOGIE",
+    title: "Patellaluxation beim Hund — keine isolierte Kniescheiben-Erkrankung",
+    teaser:
+      "Eine luxierende Patella ist meist nur das sichtbarste Symptom einer Fehlausrichtung des gesamten Streckapparates der Hintergliedmaße — nicht das eigentliche Problem selbst.",
+    sections: [
+      {
+        type: "text",
+        text: "Die Kniescheibe (Patella) liegt in der Endsehne des M. quadriceps femoris und lenkt dessen Zugrichtung über die Trochlea des Femurs um — sie vergrößert dadurch den Hebelarm für die Kniestreckung. Eine Patellaluxation entsteht in den meisten Fällen nicht durch ein isoliertes Problem der Kniescheibe selbst, sondern durch eine angeborene oder im Wachstum erworbene Fehlausrichtung des gesamten Streckapparates gegenüber der Trochlea — mit entsprechender Fehlführung (\"Maltracking\") der Patella als Folge.",
+      },
+      {
+        type: "table",
+        heading: "Schweregrade nach Putnam (1968), heute Standard in der Klinik",
+        columns: ["Grad", "Befund"],
+        rows: [
+          ["I", "Patella lässt sich manuell luxieren, springt bei Loslassen von selbst in die Normalposition zurück"],
+          ["II", "Patella luxiert bei Kniebeugung oder manueller Manipulation und bleibt luxiert, bis Streckung oder manuelle Reposition erfolgt"],
+          ["III", "Patella ist dauerhaft luxiert, lässt sich manuell reponieren, springt aber nach Nachlassen des Drucks spontan wieder heraus"],
+          ["IV", "Patella ist dauerhaft luxiert und lässt sich nicht mehr reponieren"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Medial häufiger als lateral — mit unterschiedlichen zugrunde liegenden Deformitäten",
+        text: "Die mediale Patellaluxation ist deutlich häufiger als die laterale und betrifft überwiegend kleine Rassen. Zugrunde liegende Deformitäten sind hier meist ein Femurvarus (Achsabweichung), eine Außentorsion des Femurs und eine Hypoplasie (Unterentwicklung) der Trochlea-Rinne. Die seltenere laterale Patellaluxation betrifft eher große Rassen; hier finden sich häufiger eine Coxa valga und eine vermehrte Antetorsion des Femurhalses, die zu einer Innenrotation mit lateraler Torsion und Valgusstellung des distalen Femurs führen und dadurch den Streckapparat samt Patella nach lateral verlagern.",
+      },
+      {
+        type: "text",
+        heading: "Cross-Check mit deutscher Fachliteratur: dieselbe Zugmechanik",
+        text: "Genau dieses Prinzip — dass eine Achsenabweichung von Femur und Tibia die Zugrichtung der Quadrizepsmuskulatur verändert und dadurch die Kniescheibe aus ihrer Führung zieht — findet sich unabhängig davon auch in einem deutschen Fachbuch zur Pathophysiologie des Bewegungsapparates beschrieben, mit dem Zusatz, dass die Patellaluxation dort ausdrücklich als Beispiel für eine angeboren/genetisch fixierte Achsenabweichung eingeordnet wird (im Gegensatz zu im Wachstum oder im Erwachsenenalter erworbenen Achsenabweichungen, z. B. durch schlecht verheilte Frakturen).",
+      },
+      {
+        type: "text",
+        heading: "Prävalenz und Grad-Symptom-Zusammenhang",
+        text: "Schätzungen zufolge kommt bei etwa 7 % aller Welpen ein gewisser Grad einer Patellaluxation vor. Grad-I-Fälle sind meist symptomlos und bleiben es häufig auch dauerhaft — die Korrelation zwischen Luxationsgrad und tatsächlicher klinischer Symptomatik ist insgesamt nicht stark. Eine Therapieentscheidung sollte sich deshalb nicht allein am geröntgten oder palpierten Grad orientieren, sondern am tatsächlichen klinischen Bild.",
+      },
+      {
+        type: "text",
+        heading: "Differentialdiagnostische Falle: „Läuse und Flöhe zugleich\"",
+        text: "Ein Hund kann mehrere orthopädische bzw. internistische Probleme gleichzeitig haben — eine gefundene Patellaluxation schließt eine zweite, unabhängige Ursache der Lahmheit nicht aus (im Quellenbeispiel wird explizit die Kombination aus Patellaluxation und Borreliose genannt). Eine Diagnose zu früh als \"erklärt\" zu betrachten, sobald ein plausibler Befund gefunden ist, ist ein klassischer Denkfehler.",
+      },
+      {
+        type: "text",
+        heading: "Therapie",
+        text: "Milde, asymptomatische Fälle (v. a. Grad I) werden häufig konservativ begleitet. Bei mittelschweren bis schweren Fällen (Grad II–IV), deutlicher Lahmheit oder fortschreitender Symptomatik wird meist chirurgisch korrigiert — etwa durch Versetzen der Tuberositas tibiae (TTT) zur Neuausrichtung des Streckapparates, Vertiefung der Trochlea-Rinne (Trochleaplastik) oder, bei zugrunde liegendem Femurvarus, eine korrigierende distale Femurosteotomie.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund überbewertet", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert per Kombination aus Buch- und Web-Quelle (22.09.2026). Buchquelle: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme) — Abschnitt „Achsenabweichung\": das Konzept der angeboren/genetisch fixierten Achsenabweichung mit Patellaluxation als Beispiel, die schematische Zugrichtung der Quadrizepsmuskulatur bei medialer Luxation sowie der Differentialdiagnose-Hinweis (\"Patellaluxation und Borreliose gleichzeitig\") sind im Original so beschrieben. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl. Web-Quelle (Grading, Prävalenz, Deformitäten, Therapie): konvergente Websuche-Zusammenfassungen aus mehreren etablierten veterinärmedizinischen Fachquellen (ACVS, Merck Veterinary Manual, OFA, peer-reviewte Arbeiten via PubMed/PMC, vettimes, Today's Veterinary Practice) zur Putnam-Klassifikation (1968), medialer vs. lateraler Luxation und deren Deformitäten sowie Prävalenz/Therapie. WICHTIGE EINSCHRÄNKUNG: Direkter Volltextzugriff (WebFetch) war in dieser Arbeitsumgebung technisch blockiert — die Web-Aussagen stammen aus Websuche-Synthesen, nicht aus eigener Volltextprüfung. Die Prävalenzangabe (~7 % der Welpen) stammt aus einer sekundären Quelle und ist als Größenordnung, nicht als exakt geprüfte Zahl zu verstehen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["quadriceps"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
