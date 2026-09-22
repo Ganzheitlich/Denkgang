@@ -2888,6 +2888,106 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["bruno"],
     relatedAnatomyIds: [],
   },
+  {
+    id: "tonische-phasische-muskulatur-dysbalance",
+    category: "BIOMECHANIK",
+    title: "Tonische und phasische Muskulatur — warum sich Dysbalancen selbst verstärken",
+    teaser:
+      "Nicht jeder Muskel reagiert gleich auf Überlastung: Die einen neigen zur Verkürzung, die anderen zur Abschwächung — und genau das treibt einen Teufelskreis aus Fehlstellung und Kompensation an.",
+    sections: [
+      {
+        type: "text",
+        text: "Skelettmuskulatur lässt sich grob in zwei funktionelle Gruppen einteilen: tonische Muskulatur (Typ-I-Fasern, „slow twitch\") und phasische Muskulatur (Typ-II-Fasern, „fast twitch\"). Diese Einteilung ist mehr als eine Fasertyp-Klassifikation — sie erklärt, warum bestimmte Muskeln bei Überlastung eher verkürzen und andere eher abschwächen.",
+      },
+      {
+        type: "table",
+        heading: "Tonische vs. phasische Muskulatur im Vergleich",
+        columns: ["Merkmal", "Tonische Muskulatur (Typ I)", "Phasische Muskulatur (Typ II)"],
+        rows: [
+          ["Hauptaufgabe", "Haltearbeit, Ausdauer", "Bewegung, Kraft"],
+          ["Stoffwechsel", "Überwiegend aerob (oxidativ), viele Mitochondrien", "Überwiegend anaerob (glykolytisch), wenig Mitochondrien"],
+          ["Ermüdung/Kontraktion", "Langsam", "Schnell"],
+          ["Tendenz bei Überlastung", "Neigung zum Verkürzen", "Neigung zur Atrophie"],
+          ["Beispielmuskeln", "M. trapezius, Mm. adductores", "M. gastrocnemius, M. biceps brachii"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Der Circulus vitiosus der muskulären Dysbalance",
+        text: "Wird die tonische Muskulatur überaktiv, kann sie ihre phasischen Antagonisten auf spinaler Ebene hemmen (inhibieren) — die Gegenspieler werden dadurch zusätzlich abgeschwächt. Die Folge kann eine Gelenkfehlstellung sein, die über das propriozeptive Feedback die Dysbalance weiter verstärkt. Die geschwächte Muskulatur setzt zur Kompensation vermehrt Synergisten ein, die die fehlerhafte Gelenkstellung ihrerseits verstärken können — besonders wenn diese Kompensation über längere Zeit bestehen bleibt.",
+      },
+      {
+        type: "list",
+        heading: "Mögliche Auslöser muskulärer Dysbalancen",
+        items: [
+          "Koordinationsstörungen",
+          "Reflektorische Schonhaltungen",
+          "Eine Läsion im Steuerungssystem auf segmentaler Ebene",
+          "Eine Läsion im limbischen System",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Klinische Bedeutung",
+        text: "Dieses Modell liefert eine Erklärung dafür, warum eine anhaltende Schonhaltung nicht folgenlos bleibt: Sie ist kein neutraler Zustand, sondern kann über die spinale Hemmung der Gegenspieler aktiv eine dauerhafte Fehlstellung mit aufbauen — ein Grund, Schonhaltungen frühzeitig und nicht erst bei sichtbarer Atrophie ernst zu nehmen.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund übersehen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 6.1 (Anatomie der Muskulatur), S. 170f. (Tab. 6.1). Die Faserklassifikation, die Tabelleninhalte sowie der beschriebene Circulus-vitiosus-Mechanismus und seine möglichen Auslöser sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["biceps"],
+  },
+  {
+    id: "offene-geschlossene-muskelkette",
+    category: "BIOMECHANIK",
+    title: "Offene und geschlossene Muskelkette beim Hund",
+    teaser:
+      "Ob ein Muskel gerade dynamisch bewegt oder stabilisierend hält, hängt davon ab, ob die Gliedmaße frei im Raum ist oder Bodenkontakt hat — ein Unterschied mit direkten Folgen für Training und Rehabilitation.",
+    sections: [
+      {
+        type: "text",
+        text: "Eine Muskelkette besteht aus mehreren Muskeln, die eine funktionelle Einheit bilden. Man unterscheidet — ein aus der Humananatomie/Neurophysiologie übertragenes Konzept — eine offene von einer geschlossenen kinematischen Kette.",
+      },
+      {
+        type: "text",
+        heading: "Offene Muskelkette",
+        text: "Bei einer offenen kinematischen Kette werden die agonistischen Muskeln beansprucht, während sich die antagonistischen Muskeln der Muskellänge der Agonisten anpassen. Das passiert bei einer distalen dynamischen Bewegung der Gliedmaße bei gleichzeitiger proximaler Stabilisation — die Gliedmaße bewegt sich frei im Raum, z. B. beim Anheben der Pfote. Das Zusammenspiel kann konzentrisch sein (Anheben der Pfote) oder exzentrisch (Senken der Pfote). Die Bewegung ist meist dynamisch (z. B. Pfötchen geben), kann aber auch isometrisch/statisch sein, etwa beim Halten der Vordergliedmaße beim Vorstehen.",
+      },
+      {
+        type: "text",
+        heading: "Geschlossene Muskelkette",
+        text: "Bei einer geschlossenen kinematischen Kette kontrahieren Agonisten und Antagonisten gleichzeitig — unabhängig davon, ob konzentrisch oder exzentrisch, etwa bei Gewichtsbelastung der Gliedmaße. Haben zwei Gliedmaßen Bodenkontakt und wird der dazwischenliegende Bereich muskulär stabilisiert, sodass sowohl die kranialen als auch die kaudalen Muskelketten gleichermaßen aktiv sind, spricht man von einer geschlossenen Muskelkette. Die Halte- und Stützarbeit ist hier größer als in der offenen Kette — die geschlossene Kette hat vor allem stabilisierende, die offene vor allem dynamisch-bewegende Funktion.",
+      },
+      {
+        type: "table",
+        heading: "Belegte Muskelketten während der Stemmphase (Mitte der Standbeinphase)",
+        columns: ["Gliedmaße", "Beteiligte Muskeln", "Funktion"],
+        rows: [
+          [
+            "Vordergliedmaße",
+            "M. supraspinatus, M. triceps brachii, M. flexor carpi ulnaris, M. flexor digitorum superficialis",
+            "Verhindern als Antischwerkraftmuskeln das Zusammenklappen der Gelenke und stabilisieren die Gliedmaße",
+          ],
+          [
+            "Hintergliedmaße",
+            "M. gluteus medius, M. gluteus superficialis, M. vastus lateralis, M. gastrocnemius",
+            "Stabilisieren die Gliedmaße im Zusammenspiel während der Belastungsphase",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Wichtige Einschränkung",
+        text: "Welche Muskeln beim Hund eine geschlossene Muskelkette bilden, ist bislang nur für einige Muskeln an Vorder- und Hintergliedmaße während der Stemmphase (Mitte der Standbeinphase) nachgewiesen — nicht für den gesamten Bewegungszyklus. Welche Muskeln z. B. beim Anheben der Pfote (offene Kette) beteiligt sind, war zum Zeitpunkt der Quelle noch nicht untersucht.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 6.5 (Die Muskelkette), S. 180ff. Die Definition von offener und geschlossener kinematischer Kette, die genannten Beispiele (Pfötchen geben, Harnabsatz) sowie die beiden belegten Muskelketten während der Stemmphase samt der ausdrücklichen Einschränkung, dass dies bisher nur für diese Muskeln nachgewiesen ist, sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

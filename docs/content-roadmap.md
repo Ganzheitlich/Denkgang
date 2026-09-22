@@ -42,8 +42,8 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 31 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
-  Untersuchung, 8 Pathologie, 7 Biomechanik, 4 Therapie — genaue Aufteilung
+- Wissensbibliothek: 33 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
+  Untersuchung, 8 Pathologie, 9 Biomechanik, 4 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
@@ -257,8 +257,19 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       caninen Beispielen + Gelenkflächen-Inkongruenz (S. 48–50). Rest des
       Kapitels (Gelenkkapsel, Synovia, Bänder — falls noch mehr folgt) noch
       nicht gesichtet.
-- [ ] Kap. 6 Die Muskulatur (b7.pdf, 22 MB — evtl. Extraktionsprobleme wie bei
-      Kap. 9 erwarten, ggf. gezielte Teilsuche nötig)
+- [x] Kap. 6 Die Muskulatur (b7.pdf, 22 MB) — Extraktion hat diesmal
+      funktioniert (anders als frühere Session-Notiz vermutete). Kein
+      Regionen-Atlas mit Ursprung/Ansatz/Funktion einzelner Muskeln (kein
+      Ersatz für Hárrers Regionenkapitel), sondern allgemeine Muskelphysiologie:
+      Faserarchitektur, Myokine, alternder Muskel. Zwei Themen daraus als
+      eigene BIOMECHANIK-Wissenseinträge umgesetzt: tonische/phasische
+      Muskulatur mit Dysbalance-Circulus-vitiosus (Kap. 6.1, Tab. 6.1, S. 170f.)
+      und offene/geschlossene Muskelkette inkl. der beiden belegten
+      Stemmphase-Ketten (Kap. 6.5, S. 180ff.). Kein Fließtext zu
+      M. semimembranosus/M. semitendinosus/M. gastrocnemius als Einzelmuskel
+      gefunden (nur Fasertyp-Beispiele) — für die restlichen
+      Hintergliedmaßen-Muskeln bleibt eine Regionen-Quelle (Hárrer-Pendant zu
+      Kap. 8, oder Hohmanns Landmarken-Kap. 7/9) nötig.
 - [ ] Kap. 8 Die Bewegung des Hundes (b10.pdf) — Bewegungsarten,
       Gangartenanalyse (Ergänzung zu Koch/Fischer, anderer Autor/Blickwinkel)
 - [ ] Kap. 9 Muskeln in Bewegung (b11.pdf, 15 MB) — weiterhin technisch blockiert
