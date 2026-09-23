@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 46 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 8
+- Wissensbibliothek: 51 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 13
   Untersuchung, 15 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
@@ -265,23 +265,43 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Tab. 5.1 (als eigener kompakter `hintergliedmasse-differenzialdiagnosen-kompass`).
       Damit ist die komplette Hintergliedmaßen-Untersuchung am stehenden Hund
       abgedeckt — vier neue UNTERSUCHUNG-Einträge in Summe.
-- [ ] Kap. 5.4 Vordergliedmaße (S. 98ff., nur Standsymmetrie-Test angelesen) —
-      analog zur Hintergliedmaße zu erwarten: Zehen/Metacarpus/Karpus,
-      Ellbogen, Schulter, jeweils mit Befund-DD-Logik. Nächster natürlicher
-      Fortsetzungspunkt.
-- [ ] Untersuchung des liegenden Hundes (eigenes Kapitel, Nummer noch zu
-      prüfen)
+- [x] Kap. 5.4 Vordergliedmaße, komplett (S. 98–109): Zehen/Metacarpus/
+      Karpalknochen + Karpalgelenk (als
+      `zehen-karpus-vordergliedmasse-untersuchung`), Unterarm + Ellbogen
+      inkl. Seitenbänder (als `unterarm-ellbogen-vordergliedmasse-untersuchung`,
+      verknüpft mit den Anatomie-Items supinator/brachioradialis/
+      pronator-teres), Oberarm + Schultergelenk (inkl. der muskulären
+      „Schultermanschette"/„dynamischen Bänder") + Schulterblatt (als
+      `oberarm-schulter-vordergliedmasse-untersuchung`, verknüpft mit Fall
+      Rocky und den Anatomie-Items biceps/subscapularis/supraspinatus/
+      infraspinatus/teres-minor), sowie die Differentialdiagnosen-
+      Übersichtstabelle Tab. 5.2 (als `vordergliedmasse-differenzialdiagnosen-kompass`).
+      Damit ist — analog zur Hintergliedmaße — auch die komplette
+      Vordergliedmaßen-Untersuchung am stehenden Hund abgedeckt.
+- [x] Kap. 6.1 (Untersuchung des liegenden Hundes, allgemeine Prinzipien,
+      S. 110) als `liegender-hund-untersuchungsprinzipien` umgesetzt: warum
+      trotz bekannter Verdachtsregion alle vier Gliedmaßen untersucht werden
+      (betroffene zuletzt), plus die 7 erfassten Befundkategorien.
+- [ ] Kap. 6.2ff. (Untersuchung des liegenden Hundes, Hintergliedmaße/
+      Vordergliedmaße im Detail) — Anfang bereits gelesen (6.2.1 Zehen/
+      Metatarsus/Tarsalknochen, summarischer Test mit Befund-DD, S. 110f.),
+      aber noch nicht als eigener Wissenseintrag umgesetzt. Nächster
+      natürlicher Fortsetzungspunkt.
 - [ ] Vollständiger neurologischer Untersuchungsgang (im Buch referenziert als
       „S. 157" — noch nicht gelesen)
 - [ ] Gelenkspezifische Stabilitätstests (Kreuzband: Schublade/Tibia-Kompression
       — Hárrer deckt das bereits über Kap. 8 ab, ggf. hier zum Vergleich lesen;
-      Hüfte: Ortolani bereits über Hárrer verifiziert, ggf. hier ergänzen;
-      Ellbogen/Karpus/Tarsus falls vorhanden — vermutlich in Kap. 5.4 oder
-      einem eigenen Stabilitätstest-Kapitel)
+      Hüfte: Ortolani bereits über Hárrer verifiziert, ggf. hier ergänzen) —
+      möglicherweise Teil des vollständigen neurologischen/orthopädischen
+      Stabilitätstest-Kapitels weiter hinten im Buch, noch nicht lokalisiert
 - [x] Die Datei hat ~46 Einzel-PDF-Chunks (u.pdf, u(1)–u(46), Ordner-ID
       1J3C3r71IrVdvrSUmTm8yRjMtMuyI8ZeT) — Nummerierung ist streng sequenziell
-      zum Buchtext (u(13)=S.80–82, u(14)=S.82–83, u(15)=S.83–84, u(16)=S.84–89,
-      u(17)=S.89–93, u(18)≈S.93–98). Für Kap. 5.4 weiter ab u(18)/u(19) lesen.
+      zum Buchtext (u(13)=S.80–82, u(14)=S.82–83, u(15)=S.83–84, u(16)=S.84–98
+      [großer Chunk, deckt ganz Kap. 5.3 ab], u(17)=S.98–109 [Kap. 5.4
+      komplett], u(18)=S.110f. [Anfang Kap. 6]). Für Kap. 6.2 weiter ab u(19)
+      lesen — die Chunk-Länge korreliert nicht linear mit Seitenzahl, daher
+      immer den tatsächlichen Seitenkopf im Text prüfen statt nur die
+      Chunk-Nummer hochzuzählen.
 
 ### UNTERSUCHUNG — Baumgartner, Klinische Propädeutik der Haus- und Heimtiere
 

@@ -3597,6 +3597,171 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "zehen-karpus-vordergliedmasse-untersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Zehen, Metacarpus und Karpalgelenk an der Vordergliedmaße untersuchen",
+    teaser:
+      "Dieselbe Untersuchungslogik wie an der Hintergliedmaße, aber mit eigener Anatomie — vom Karpaltunnel bis zum Radiuskurvensyndrom.",
+    sections: [
+      {
+        type: "text",
+        heading: "Standsymmetrie und Drucktest",
+        text: "Der Untersucher steht vor dem Hund und umfasst beide Carpi auf Höhe der Ossa carpi accessoria, um sie mit gleicher Kraft nach kranial zu ziehen — ein zu leichtes Zurückziehen im Seitenvergleich spricht für eine generelle Schwäche des Beines. Beim Drucktest werden beide Beine proximal des Carpus umfasst und auf den Tisch gedrückt: Schmerzäußerung oder Hochheben der Pfote deutet auf ein distales Problem hin (Gelenkschwellung der Zehen, Fraktur der Zehen oder Metakarpalknochen, ein karpales Problem), eine Dorsoflexion der Zehen auf eine Ruptur der Zehenflexoren.",
+      },
+      {
+        type: "text",
+        heading: "Karpaltunnel — wichtige Anatomie",
+        text: "Der Karpaltunnel wird vom Retinaculum flexorum (einer Verstärkung der tiefen karpalen Faszie) und vom palmaren Anteil der Gelenkkapsel gebildet. Durch ihn verlaufen die Endsehnen des M. flexor digitorum profundus, Arterien und Venen sowie der N. ulnaris und der N. medianus — eine für die Differentialdiagnose relevante Engstelle.",
+      },
+      {
+        type: "text",
+        heading: "Karpalknochen",
+        text: "Metacarpus und Carpus werden vergleichend palpiert, inklusive der Position des Os carpi accessorium am kaudalen lateralen Rand. Achsabweichungen oder Durchtrittigkeit sprechen für eine Fraktur karpaler/metakarpaler Knochen oder Bänder (v. a. palmar), eine Fraktur des Os carpi accessorium oder einen Riss der Kollateralbänder. Eine Konturstörung (Schwellung) palmar deutet auf eine alte Verletzung oder ein akutes Hyperextensionstrauma hin. Krepitation oder Dislokation des Os carpi accessorium spricht für dessen Fraktur oder einen Band-/Sehnenriss der karpalen Flexoren.",
+      },
+      {
+        type: "text",
+        heading: "Karpalgelenk",
+        text: "Der kraniale Anteil des Antebrachiokarpalgelenks ist zwischen den beiden Processus styloidei palpierbar; im physiologischen Zustand hat das Gelenk kaum Füllung. Füllung, Wärme und/oder Schmerzhaftigkeit sprechen für Polyarthritis, eine Seitenbandruptur, eine Gelenkfraktur oder eine Neoplasie des distalen Radius. Eine Valgusfehlstellung deutet auf eine mediale Seitenbandruptur oder einen Radius curvus hin, eine Konturstörung am medialen Gelenkanteil auf einen chronischen Bandschaden oder eine Tendovaginitis des M. abductor pollicis longus. Der physiologische Hyperextensionswinkel beträgt etwa 25° ± 10°, die Valgusstellung bis 15°.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.4.1–5.4.2 (Zehen/Metacarpus/Karpalknochen, Karpalgelenk), S. 98–101. Alle beschriebenen Tests, Befund-DD-Zuordnungen sowie die Karpaltunnel-Anatomie und die Winkelangaben sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "unterarm-ellbogen-vordergliedmasse-untersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Unterarm und Ellbogengelenk an der Vordergliedmaße untersuchen",
+    teaser:
+      "Der Radius curvus, die Seitenbandprüfung per Pro-/Supination und die Frage, ob ein nichtvereinigter Processus anconaeus dahintersteckt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Unterarmregion",
+        text: "Radius und Ulna werden, soweit unter der Haut palpierbar, von distal nach proximal ertastet — mit besonderer Aufmerksamkeit für die beiden Processus styloidei, den Radiuskopf und das Olecranon. Eine Krümmung des Radius nach kranial mit Valgusstellung und Außenrotation des Antebrachiums (Radius curvus) spricht für einen vorzeitigen Fugenschluss der distalen Ulnafuge (und ggf. der distalen Radiusfuge) mit resultierender Fehlstellung. Schmerz im distalen Radiusdrittel deutet auf eine Neoplasie hin, Schmerz entlang der Diaphyse/im Olecranon auf Panosteitis oder Fraktur. Schwellung der lateralen Extensoren- bzw. medialen Flexorenmuskelgruppe spricht für ein Kompartimentsyndrom, Schwellung/Wärme/Schmerz des gesamten distalen Antebrachiums für eine hypertrophe Osteodystrophie.",
+      },
+      {
+        type: "text",
+        heading: "Ellbogengelenk-Palpation",
+        text: "Die Gelenkkapsel lässt sich in einem Halbkreis distal des medialen und lateralen Epicondylus humeri ertasten, nach kaudoproximal bis zum Processus anconaeus. Füllung und Wärme sprechen für Ellbogendysplasie oder -arthrose; ein stark gefülltes laterales Ellbogenkompartiment für eine Fraktur oder einen nichtvereinigten Processus anconaeus. Die Art. humeroulnaris und Art. humeroradialis bilden zusammen ein physiologisch inkongruentes Scharniergelenk — die größte Belastung der Ulna tritt an der Medialseite der Incisura trochlearis zwischen Proc. anconaeus und Proc. coronoideus medialis auf, wo bei großen und Riesenrassen häufig eine Reduktion des Gelenkknorpels zu finden ist.",
+      },
+      {
+        type: "text",
+        heading: "Seitenbänder des Ellbogens",
+        text: "Mediales und laterales Seitenband sollen straff zwischen Humerus und Radiuskopf (lateral) bzw. Humerus und Ulna (medial) verlaufen. Die Stabilität wird zusätzlich durch Ad-/Abduktion sowie Pro-/Supination bei gebeugtem und gestrecktem Ellbogen geprüft. Eine Abduktion um mehr als 30° spricht für einen medialen Seitenbandriss; ein nach lateral versetzter Radiuskopf für eine laterale Ellbogenluxation. Erhöhte Supination deutet auf eine laterale, erhöhte Pronation auf eine mediale Instabilität hin — eine einprägsame Eselsbrücke, da sich Test und betroffene Seite hier über Kreuz verhalten.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.4.3–5.4.4 (Unterarmregion, Ellbogenregion), S. 102–104. Alle beschriebenen Tests und Befund-DD-Zuordnungen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["supinator", "brachioradialis", "pronator-teres"],
+  },
+  {
+    id: "oberarm-schulter-vordergliedmasse-untersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Oberarm, Schultergelenk und Schulterblatt untersuchen",
+    teaser:
+      "Das Schultergelenk ist tief unter der Muskulatur versteckt und wird stattdessen über seine \"dynamischen Bänder\" — die Endsehnen der umgebenden Muskulatur — stabilisiert und geprüft.",
+    sections: [
+      {
+        type: "text",
+        heading: "Oberarmbereich",
+        text: "Die Muskelbäuche werden von distal nach proximal palpiert. Besondere Aufmerksamkeit gilt der Insertion des M. biceps brachii am Radius (unter Zug nach kaudal auf Schmerz prüfen) sowie Verlauf und Ansatz des M. triceps brachii am Humerus. Ein dolenter M. biceps brachii spricht für eine Bizepstendinitis (siehe Wissenseintrag zur Bizepssehnen-Tendinopathie); eine Schwellung am Trizepsansatz für einen Teil- oder Komplettriss des M. triceps brachii oder eine Olecranonfraktur; Schmerz am Humerus für eine Neoplasie. Der M. biceps brachii windet sich von seinem Ursprung am Tuberculum supraglenoidale um den Humerusschaft und inseriert an der Tuberositas radii sowie distal des Proc. coronoideus medialis ulnae.",
+      },
+      {
+        type: "text",
+        heading: "Schultergelenk-Palpation",
+        text: "Das Schultergelenk liegt tief unter der Muskulatur des Schultergürtels und ist nur von kraniomedial direkt zu ertasten, dort wo der M. biceps brachii durch das Gelenk läuft. Schmerz und Wärme sprechen für Osteochondrose, eine Bizepsentzündung oder Schulterinstabilität; Krepitation für einen chronischen Osteochondrose-Verlauf, eine Gelenkfraktur, Schulterluxation, Neoplasie oder einen Abriss des M. biceps am Tuberculum supraglenoidale.",
+      },
+      {
+        type: "text",
+        heading: "Schultergelenkstabilität",
+        text: "Bei vollständiger Streckung von Ellbogen- und Schultergelenk wird das Bein abduziert. Eine Abduktion um mehr als 20° spricht für eine mediale Schulterluxation oder eine Infraspinatuskontraktur; Schmerz bei Manipulation für Osteochondrose, Bizepsentzündung, eine kraniale/laterale Luxation oder Infraspinatuskontraktur; erhöhte Beweglichkeit für eine kraniale/laterale Luxation oder Schultergelenkdysplasie. Das Schultergelenk wird nicht primär durch mechanische Bänder, sondern durch einen Adhäsion-Kohäsion-Mechanismus und eine muskuläre \"Schultermanschette\" stabilisiert: Auf der Medialseite strahlen Anteile der Endsehne des M. subscapularis ein, auf der Lateralseite Anteile von M. infraspinatus, M. supraspinatus und M. teres minor — diese Form der Stabilisierung wird auch als \"dynamische Bänder\" bezeichnet.",
+      },
+      {
+        type: "text",
+        heading: "Schulterblattregion",
+        text: "Die Scapula wird an ihren Rändern abgetastet, Acromion und Spina scapulae auf korrekte Lage und Schmerz geprüft. Die Muskelgruppen kranial und kaudal der Spina scapulae werden im Umfang seitenvergleichend erfasst — ein reduzierter Umfang spricht für eine chronische Minderbelastung der Vordergliedmaße, wobei das eigentliche Problem im Bein selbst oder seitlich in der Halsregion liegen kann. Schmerz bei Palpation der Scapula deutet auf Fraktur oder Neoplasie hin. Funktionell entspricht die Scapula dem Femur und leistet den größten Beitrag zur Schrittlänge der Vordergliedmaße; ihr Drehpunkt liegt im oberen Drittel.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Anatomieverwechslung", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.4.5–5.4.7 (Oberarmbereich, Schultergelenkregion, Schulterblattregion), S. 105–108. Alle beschriebenen Tests, Befund-DD-Zuordnungen sowie die Beschreibung der muskulären \"Schultermanschette\" sind im Original so beschrieben.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["biceps", "subscapularis", "supraspinatus", "infraspinatus", "teres-minor"],
+  },
+  {
+    id: "vordergliedmasse-differenzialdiagnosen-kompass",
+    category: "UNTERSUCHUNG",
+    title: "Differentialdiagnosen-Kompass: Untersuchung der Vordergliedmaße am stehenden Hund",
+    teaser:
+      "Der Gegenpart zum Hintergliedmaßen-Kompass — welche Region welche Verdachtsdiagnosen am wahrscheinlichsten macht.",
+    sections: [
+      {
+        type: "text",
+        text: "Diese Übersicht fasst die wichtigsten Differentialdiagnosen der systematischen Untersuchung der Vordergliedmaße am stehenden Hund nach Region zusammen — als schnelle Orientierung, nicht als Ersatz für die ausführlichen Befund-DD-Zuordnungen in den jeweiligen Wissenseinträgen zu den einzelnen Regionen.",
+      },
+      {
+        type: "table",
+        heading: "Region und ihre wichtigsten Differentialdiagnosen",
+        columns: ["Region", "Wichtigste Differentialdiagnosen"],
+        rows: [
+          ["Zehen, Metacarpus und Karpalknochen", "Polyarthritis, Frakturen, Sesamoid-Erkrankung"],
+          ["Karpalgelenkregion", "Hyperextensionstrauma, Tendovaginitis des M. abductor pollicis longus, Polyarthritis"],
+          ["Unterarm", "Neoplasie, Panosteitis, Radius-curvus-Phänomen"],
+          ["Ellbogen", "Ellbogendysplasie/-arthrose, Ellbogenluxation"],
+          ["Oberarm", "Neoplasie, Panosteitis, Bizepstendovaginitis"],
+          ["Schulter", "Osteochondrose, mediale Instabilität, Kontraktur"],
+        ],
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.4.8 (Übersicht häufiger, möglicher Differenzialdiagnosen), Tab. 5.2, S. 109. Die Tabelleninhalte sind im Original so aufgeführt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "liegender-hund-untersuchungsprinzipien",
+    category: "UNTERSUCHUNG",
+    title: "Untersuchung des liegenden Hundes — allgemeine Prinzipien",
+    teaser:
+      "Auch wenn die betroffene Gliedmaße längst bekannt scheint: Sie wird als Letzte untersucht — und manchmal ist sie gar nicht allein betroffen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Aufbau der Untersuchung",
+        text: "Der Hund wird in Seitenlage verbracht. Eine Hilfsperson fixiert die beiden auf dem Tisch liegenden Gliedmaßen jeweils proximal des Carpus und des Tarsus und kann über den eigenen Ellbogen zusätzlich Kopfbewegungen des Hundes kontrollieren — der Hund soll dabei aber weiterhin Abwehr- und Schmerzreaktionen zeigen können. Der Besitzer hält sich mit Vorteil in Kopfnähe auf.",
+      },
+      {
+        type: "text",
+        heading: "Warum trotzdem alle vier Gliedmaßen untersucht werden",
+        text: "Das Ziel dieser Untersuchungsstufe ist das Stellen einer klinischen Diagnose. Obwohl die betroffene Körperregion meist schon aus Ganganalyse und Untersuchung des stehenden Hundes bekannt ist, werden dennoch alle Gliedmaßen untersucht — die betroffene Gliedmaße zuletzt. So lassen sich geringe Abweichungen von der Norm überhaupt erst im Seitenvergleich erkennen. Außerdem kann durchaus mehr als eine Gliedmaße oder Körperregion betroffen sein, etwa bei Panosteitis, Polyarthritis, den meisten Dysplasieformen oder Kreuzbandrissen — ein wichtiger Grund, die Untersuchung nicht vorzeitig beim ersten auffälligen Befund abzubrechen.",
+      },
+      {
+        type: "list",
+        heading: "Am liegenden Hund erfasste Befundkategorien",
+        items: [
+          "Konturstörungen bzw. Schwellung",
+          "Wärme und/oder Schmerz",
+          "Hypomobilität",
+          "Hypermobilität",
+          "Krepitation",
+          "Luxationen",
+          "Instabilität",
+        ],
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.1 (Spezifische Bemerkung zur Untersuchung des liegenden Hundes), S. 110. Der Untersuchungsaufbau, die Begründung für die Untersuchung aller vier Gliedmaßen sowie die Liste der Befundkategorien sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
