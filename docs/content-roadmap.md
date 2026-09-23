@@ -42,7 +42,7 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 42 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 4
+- Wissensbibliothek: 46 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 8
   Untersuchung, 15 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
@@ -226,19 +226,39 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
 
 - [x] Kap. 4 Adspektion und Ganganalyse (S. 80–82)
 - [x] Kap. 5.1 Voruntersuchungen / neurologischer Kurz-Check (S. 82)
-- [ ] Kap. 5 (Rest): Untersuchung des stehenden Hundes — gelenkspezifische
-      Palpation, Provokationstests
+- [x] Kap. 5.2 Spezifische Bemerkung zur Untersuchung des stehenden Hundes
+      (S. 83, allgemeine Prinzipien: bilateral synchron, distal→proximal,
+      5 Befundkategorien) — als Einleitung in
+      `zehen-mittelfuss-sprunggelenk-untersuchung` mit verwendet
+- [x] Kap. 5.3 Hintergliedmaße, komplett (S. 84–97): Zehen/Metatarsus/
+      Tarsalknochen + Sprunggelenk + Fersensehnenstrang (als
+      `zehen-mittelfuss-sprunggelenk-untersuchung`), Unterschenkel + Knie
+      (als `unterschenkel-knie-stehender-hund-untersuchung`, verknüpft mit
+      Fall Bruno und der bestehenden Patellaluxation/Quadriceps-Content),
+      Oberschenkel + Hüfte + M.-iliopsoas-Test (als
+      `oberschenkel-huefte-stehender-hund-untersuchung`, verknüpft mit Fall
+      Luna und den Anatomie-Items iliopsoas/huefte/quadriceps/biceps-femoris/
+      semitendinosus), sowie die Differentialdiagnosen-Übersichtstabelle
+      Tab. 5.1 (als eigener kompakter `hintergliedmasse-differenzialdiagnosen-kompass`).
+      Damit ist die komplette Hintergliedmaßen-Untersuchung am stehenden Hund
+      abgedeckt — vier neue UNTERSUCHUNG-Einträge in Summe.
+- [ ] Kap. 5.4 Vordergliedmaße (S. 98ff., nur Standsymmetrie-Test angelesen) —
+      analog zur Hintergliedmaße zu erwarten: Zehen/Metacarpus/Karpus,
+      Ellbogen, Schulter, jeweils mit Befund-DD-Logik. Nächster natürlicher
+      Fortsetzungspunkt.
 - [ ] Untersuchung des liegenden Hundes (eigenes Kapitel, Nummer noch zu
       prüfen)
 - [ ] Vollständiger neurologischer Untersuchungsgang (im Buch referenziert als
       „S. 157" — noch nicht gelesen)
-- [ ] Gelenkspezifische Stabilitätstests (Kreuzband: Schublade/Tibia-Kompression;
+- [ ] Gelenkspezifische Stabilitätstests (Kreuzband: Schublade/Tibia-Kompression
+      — Hárrer deckt das bereits über Kap. 8 ab, ggf. hier zum Vergleich lesen;
       Hüfte: Ortolani bereits über Hárrer verifiziert, ggf. hier ergänzen;
-      Ellbogen/Karpus/Tarsus falls vorhanden)
-- [ ] Die Datei hat ~46 Einzel-PDF-Chunks (u.pdf, u1–u46) — bisher nur u.pdf
-      (Titel) und u13.pdf gelesen. Rest systematisch per gezielter
-      `fullText`-Suche nach Kapitelbegriffen erschließen, nicht komplett am
-      Stück laden.
+      Ellbogen/Karpus/Tarsus falls vorhanden — vermutlich in Kap. 5.4 oder
+      einem eigenen Stabilitätstest-Kapitel)
+- [x] Die Datei hat ~46 Einzel-PDF-Chunks (u.pdf, u(1)–u(46), Ordner-ID
+      1J3C3r71IrVdvrSUmTm8yRjMtMuyI8ZeT) — Nummerierung ist streng sequenziell
+      zum Buchtext (u(13)=S.80–82, u(14)=S.82–83, u(15)=S.83–84, u(16)=S.84–89,
+      u(17)=S.89–93, u(18)≈S.93–98). Für Kap. 5.4 weiter ab u(18)/u(19) lesen.
 
 ### UNTERSUCHUNG — Baumgartner, Klinische Propädeutik der Haus- und Heimtiere
 

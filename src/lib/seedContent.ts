@@ -3443,6 +3443,154 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "zehen-mittelfuss-sprunggelenk-untersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Zehen, Mittelfuß und Sprunggelenk am stehenden Hund untersuchen",
+    teaser:
+      "Fünf gezielte Handgriffe von distal nach proximal — jeder mit einer eigenen Liste möglicher Differentialdiagnosen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Allgemeine Prinzipien der Untersuchung des stehenden Hundes",
+        text: "Die Untersuchung erfolgt grundsätzlich mit beiden Händen gleichzeitig an der linken und rechten Gliedmaße, synchron, damit Seitenunterschiede erfassbar sind — der Hund soll dabei möglichst identisch auf beiden Beinen stehen. Untersucht wird von distal nach proximal, erfasst werden dabei: Symmetrie (Kontur von Knochen, Muskeln, Gelenken), Wärme, Füllung der Gelenke, Vorkommen und Art von Umfangsvermehrungen sowie Schmerz.",
+      },
+      {
+        type: "text",
+        heading: "Standsymmetrie",
+        text: "Der Untersucher steht hinter dem Hund und umfasst beide Metatarsi. Durch beidseitigen, gleich starken Zug nach kaudal wird geprüft, ob die Zehen dem Zug gleich stark widerstehen, ohne dabei vom Tisch abgehoben zu werden. Befund: Ein im Seitenvergleich zu leichtes Zurückziehen deutet auf eine generelle Schwäche des betroffenen Beines hin.",
+      },
+      {
+        type: "text",
+        heading: "Drucktest der distalen Gliedmaße",
+        text: "Beide Metatarsi werden fest umfasst und auf den Tisch gedrückt, während auf Schmerzreaktionen geachtet wird. Schmerzäußerung oder Hochheben der Pfote deutet auf ein Problem in den distalen Gliedmaßenanteilen hin — z. B. Gelenkschwellung der Zehen, Fraktur der Zehen oder Metatarsi, oder ein tarsales Problem. Eine Dorsoflexion der Zehen unter Druck spricht für eine (seltene) Ruptur der Zehenflexoren.",
+      },
+      {
+        type: "text",
+        heading: "Tarsalknochen",
+        text: "Die Knochen von Metatarsus und Tarsus werden im Seitenvergleich palpiert. Da die tarsometatarsalen und intertarsalen Gelenke straff und praktisch starr sind, produzieren sie auch bei Verletzungen kaum zusätzliche Synovia und sind daher nicht als Schwellung ertastbar. Achsabweichungen sprechen für eine Fraktur der intertarsalen Knochen/Bänder oder eine Calcaneusfraktur. Eine Konturstörung (Schwellung) auf der plantaren Seite deutet auf eine alte Verletzung, eine pathologische Calcaneusfraktur oder eine Spontanruptur der intertarsalen Bänder hin — Letztere v. a. bei alten Hunden, Collies oder ähnlichen Rassen.",
+      },
+      {
+        type: "text",
+        heading: "Sprunggelenk (Tarsalgelenk)",
+        text: "Das Tarsalgelenk besteht aus vier Gelenketagen: dem oberen Sprunggelenk (Art. talocruralis), den proximalen Intertarsalgelenken, den distalen Intertarsalgelenken und den Artt. tarsometatarseae. Orientierungspunkte für die Palpation sind Malleolus medialis und lateralis — das Gelenk lässt sich sichelförmig kranial, distal und kaudal davon ertasten, im physiologischen Zustand nur als schmaler Saum. Füllung, Wärme und/oder Schmerzhaftigkeit sprechen für Talusfraktur, Osteochondrose, Polyarthritis, Seitenbandruptur oder Malleolusfraktur. Eine Achsabweichung nach medial oder lateral deutet auf eine Seitenbandruptur oder eine Fehlstellung der Tibia hin.",
+      },
+      {
+        type: "text",
+        heading: "Fersensehnenstrang",
+        text: "Wichtige Anatomie-Klarstellung: Der Tendo calcaneus communis (Fersensehnenstrang) des Hundes entspricht NICHT der menschlichen Achillessehne — der M. soleus fehlt beim Hund vollständig. Der Strang wird stattdessen von den Mm. gastrocnemii (Hauptanteil), einer kaudalen Abspaltung des M. biceps femoris sowie Verstärkungsanteilen von M. semitendinosus und M. gracilis gebildet. Geprüft werden der distale Verlauf (muss beim stehenden Hund deutlich gespannt sein) und der feste Sitz der Fersenkappe (M. flexor digitorum superficialis) auf dem Calcaneus. Berührt der Calcaneus die Tischplatte, spricht das für einen Riss des Fersensehnenstrangs, einen Ausriss des M. gastrocnemius am Femur oder eine Calcaneusfraktur. Eine harte Schwellung am Ansatz deutet auf einen Teilriss hin, eine Hypermobilität der Fersenkappe auf deren Luxation (v. a. nach lateral, typisch beim Sheltie).",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5 (Untersuchung des stehenden Hundes), Abschnitte 5.2 (Spezifische Bemerkung) und 5.3.1–5.3.2 (Zehen/Metatarsus/Tarsalknochen, Sprunggelenk), S. 83–88. Alle beschriebenen Tests, Befunde/DD-Zuordnungen sowie die anatomische Klarstellung zum Fersensehnenstrang (keine Achillessehne, fehlender M. soleus, Zusammensetzung aus Mm. gastrocnemii/M. biceps femoris/M. semitendinosus/M. gracilis) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "unterschenkel-knie-stehender-hund-untersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Unterschenkel und Kniegelenk am stehenden Hund untersuchen",
+    teaser:
+      "Am Knie entscheidet sich oft, ob ein Kreuzbandriss, eine Meniskusverletzung oder eine Patellaluxation vorliegt — drei gezielte Handgriffe grenzen die Möglichkeiten ein.",
+    sections: [
+      {
+        type: "text",
+        heading: "Unterschenkelregion",
+        text: "Tibia und Fibula werden von distal nach proximal palpiert (distal der Malleolus lateralis und der Fibulakopf proximal, medial das gesamte Planum cutaneum der Tibia). Die Muskulatur wird auf Druck und Schwellung geprüft, besonders im lateralen Kompartiment (M. tibialis cranialis), wo traumatische Schwellungen entstehen können. Schwellung spricht für Neoplasie, Hämatom oder ein Kompartimentsyndrom; Krepitation für eine Fraktur; eine Achsabweichung für Fraktur oder Fehlstellung; Schmerz für Fraktur, Neoplasie, Panosteitis oder Kompartimentsyndrom.",
+      },
+      {
+        type: "text",
+        heading: "Kniegelenk-Palpation",
+        text: "Mit beiden Händen gleichzeitig prüfen Daumen und Zeigefinger das Kniegelenk zwischen Patella und Tibiaplateau, leicht kaudal des Patellaligaments, auf erhöhte Füllung, Druckschmerz und Wärme. Beim gesunden Hund lässt sich das Patellaligament gut vom dahinterliegenden Gelenkanteil abgrenzen. Schwellung, Wärme und/oder Schmerz sprechen für einen (partiellen) Kreuzbandriss, eine Meniskusverletzung, einen Abriss des M. extensor digitorum lateralis, eine Neoplasie, eine Patellaluxation oder eine Osteochondrose. Fluktuation deutet auf ein akutes Trauma oder eine Gelenkfraktur hin.",
+      },
+      {
+        type: "text",
+        heading: "Knochenkonturen und Osteophyten",
+        text: "Tibia, Patella und distales Femur werden entlang des Gelenkrandes auf Druckschmerz und Osteophyten untersucht. Eine Konturstörung des Knochens spricht für ein Osteosarkom (distales Femur oder proximale Tibia) oder eine ausgeprägte Arthrose.",
+      },
+      {
+        type: "text",
+        heading: "Patellaposition",
+        text: "Die Patella soll stabil in der Mitte des distalen Femurs in ihrem Sulcus liegen. Mit Daumen und Zeigefinger wird versucht, sie nach medial bzw. lateral zu luxieren — die Spannung des M. quadriceps femoris kann dabei durch Entlastung des Beines reduziert werden. Eine Hypermobilität der Patella spricht für eine Patellaluxation nach medial oder lateral (siehe Wissenseintrag „Patellaluxation beim Hund\" für Grading und Hintergrund), eine Hypomobilität dagegen für eine Kontraktur des M. quadriceps femoris. Schmerz bei Palpation von Patella und Patellaligament deutet auf Knorpelabrasion, Polyarthritis oder eine Traktionsosteochondritis am Ansatz des Patellaligaments hin.",
+      },
+      {
+        type: "text",
+        heading: "Kurz zur Bandfunktion",
+        text: "Während der Streckung verhindern die gespannten Seitenbänder Rotationsbewegungen im Kniegelenk; bei Beugung wird durch das entspannte laterale Seitenband eine Innenrotation möglich, der die Kreuzbänder entgegenwirken. Eine Außenrotation wird ausschließlich durch das laterale Seitenband verhindert.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5, Abschnitte 5.3.3–5.3.4 (Unterschenkelregion, Knieregion), S. 89–93. Alle beschriebenen Tests, Befunde/DD-Zuordnungen sowie die Bandfunktions-Kurzbeschreibung sind im Original so beschrieben. Bewusst nicht 1:1 übernommen: die vollständige Auflistung aller Kniegelenksbänder mit lateinischen Einzelnamen — hier auf die für die Untersuchungslogik relevante Funktionsbeschreibung reduziert, um keine reine Nomenklaturliste ohne didaktischen Mehrwert zu erzeugen.",
+    relatedCaseIds: ["bruno"],
+    relatedAnatomyIds: ["quadriceps"],
+  },
+  {
+    id: "oberschenkel-huefte-stehender-hund-untersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Oberschenkel und Hüfte am stehenden Hund untersuchen",
+    teaser:
+      "Vom Muskelumfang bis zum Iliopsoas-Dehntest — vier Handgriffe, die zwischen Hüftgelenkproblem, Muskelverletzung und einem ganz woanders liegenden Problem unterscheiden helfen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Oberschenkelmuskulatur",
+        text: "Die Muskeln werden von distal nach proximal auf Position, Verlauf, Umfang und Schmerzhaftigkeit palpiert. Der Gesamtumfang wird reproduzierbar am proximalen Ende, auf Höhe der Leistengrube, gemessen (Maßband, Schnur oder Hände). Schmerzhafte, hypomobile Muskelstränge in der kaudalen Oberschenkelmuskulatur sprechen für eine Fibrose der ischiokruralen Muskulatur (\"hamstring muscles\": M. biceps femoris, M. semitendinosus, M. semimembranosus). Ein im Seitenvergleich reduzierter Umfang deutet auf eine chronische Minderbelastung hin — das eigentliche Problem kann dabei im Bein selbst oder seitlich in der Wirbelsäulenregion liegen. Ein schmerzhafter, geschwollener M. quadriceps femoris spricht für eine Kontraktur dieses Muskels, ein schmerzhafter M. pectineus für eine Hüftgelenkdysplasie oder -arthrose.",
+      },
+      {
+        type: "text",
+        heading: "Hüftgelenkposition",
+        text: "Tuber ischiadicum, Trochanter major und Crista iliaca werden mit drei Fingern palpiert — im Seitenvergleich sollen sie gleichgeformte Dreiecke bilden. Steht der Trochanter major nicht in physiologischer Position oder ist er nicht palpierbar, spricht das für eine Hüftgelenkluxation (kraniodorsal, kaudoventral oder kranioventral).",
+      },
+      {
+        type: "text",
+        heading: "Manipulation des Hüftgelenks",
+        text: "Mit einer Hand am distalen Femur und der anderen über dem Trochanter major wird das Hüftgelenk gestreckt, gebeugt und abduziert, sodass der Hund kurzzeitig nur auf dem kontralateralen Bein steht — das Femur soll dabei jeweils in eine horizontale Lage gebracht werden können. Ein allgemein reduzierter Bewegungsumfang spricht für Hüftgelenkarthrose, Hüftgelenkdysplasie, Hüftgelenkluxation oder Neoplasie. Schmerz nur bei Streckung deutet auf Hüftgelenkarthrose, Hüftgelenkdysplasie, eine Cauda-equina-Kompression, Spondylose oder einen Bandscheibenvorfall hin — Krepitation mit Schmerz auf Hüftgelenkarthrose oder Neoplasie.",
+      },
+      {
+        type: "text",
+        heading: "Prüfung des M. iliopsoas",
+        text: "Bei voller Streckung des Hüftgelenks wird das Femur zusätzlich innenrotiert, wodurch der M. iliopsoas maximal gedehnt wird. Direkter Druck auf den kranialen/mittleren Muskelanteil ist ventral der Wirbelsäule von lateral möglich; bei Hunden unter ca. 25 kg gelingt zusätzlich eine rektale Palpation kranial des Os ilium. Schmerz, der erst bei der Kombination aus voller Streckung und Innenrotation auftritt, spricht für eine Zerrung des M. iliopsoas oder eine Hüftgelenkarthrose. Schmerz bereits bei direktem Druck auf den Muskel spricht eher für die Zerrung allein.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Anatomieverwechslung", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5, Abschnitte 5.3.5–5.3.6 (Oberschenkelregion, Hüftregion), S. 93–96. Alle beschriebenen Tests und Befunde/DD-Zuordnungen sind im Original so beschrieben.",
+    relatedCaseIds: ["luna"],
+    relatedAnatomyIds: ["iliopsoas", "huefte", "quadriceps", "biceps-femoris", "semitendinosus"],
+  },
+  {
+    id: "hintergliedmasse-differenzialdiagnosen-kompass",
+    category: "UNTERSUCHUNG",
+    title: "Differentialdiagnosen-Kompass: Untersuchung der Hintergliedmaße am stehenden Hund",
+    teaser:
+      "Ein knapper Überblick, welche Erkrankungen in welcher Region der Hintergliedmaße am häufigsten hinter einem auffälligen Befund stecken.",
+    sections: [
+      {
+        type: "text",
+        text: "Diese Übersicht fasst die wichtigsten Differentialdiagnosen der systematischen Untersuchung des stehenden Hundes nach Region zusammen — als schnelle Orientierung, nicht als Ersatz für die ausführlichen Befund-DD-Zuordnungen in den jeweiligen Wissenseinträgen zu den einzelnen Regionen.",
+      },
+      {
+        type: "table",
+        heading: "Region und ihre wichtigsten Differentialdiagnosen",
+        columns: ["Region", "Wichtigste Differentialdiagnosen"],
+        rows: [
+          ["Zehen, Metatarsus und Tarsalknochen", "Polyarthritis, Frakturen, Neoplasien"],
+          ["Sprunggelenksregion", "Instabilitäten, Osteochondrose des Talus, Riss/Teilriss des Fersensehnenstrangs"],
+          ["Unterschenkel", "Panosteitis, Neoplasie"],
+          ["Knie", "Kreuzbandriss, partieller Kreuzbandriss, Patellaluxation"],
+          ["Oberschenkel", "Neoplasie, Panosteitis, Muskelverhärtung/-fibrose"],
+          ["Hüfte", "Hüftgelenkdysplasie/-arthrose, Hüftgelenkluxation, Morbus Legg-Perthes"],
+        ],
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.3.7 (Übersicht häufiger, möglicher Differenzialdiagnosen), Tab. 5.1, S. 97. Die Tabelleninhalte sind im Original so aufgeführt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
