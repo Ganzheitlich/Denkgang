@@ -958,10 +958,10 @@ const ANATOMY: AnatomySeed[] = [
     name: "M. subscapularis",
     relatedCaseId: "rocky",
     origin: "Fossa subscapularis der Scapula",
-    insertion: "Im Quellentext nicht genannt",
+    insertion: "Tuberculum minus humeri (kleiner Rollhügel des Humerus)",
     funktion:
       "Je nach Gelenkstellung Flexion oder Extension des Schultergelenks (wie M. infraspinatus); zusätzlich innerer Kapselverstärker (medialer Stabilisator) des Schultergelenks.",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. subscapularis (meist mit kranialem und kaudalem Ast)",
     clinicalRelevance:
       "Liegt auf der Medialseite der Skapula und ist daher nicht direkt tastbar. Ist das Schultergelenk in Extension oder Flexion eingeschränkt, ohne dass lateral eine Gewebeveränderung oder Schmerzhaftigkeit feststellbar ist, kann die Ursache auf der Medialseite im M. subscapularis liegen — eine Diagnose per Ausschluss statt direkter Palpation.",
     palpationHint:
@@ -977,17 +977,17 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Weil der Muskel nur bei Welpen vorhanden ist", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 127f., 143. Ursprung (Fossa subscapularis), Funktion (positionsabhängige Flexion/Extension wie M. infraspinatus, medialer Kapselverstärker) sowie die fehlende Palpierbarkeit und die daraus folgende Ausschlussdiagnostik sind im Original so beschrieben. Ansatz und Innervation werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 127f., 143. Ursprung (Fossa subscapularis), Funktion (positionsabhängige Flexion/Extension wie M. infraspinatus, medialer Kapselverstärker) sowie die fehlende Palpierbarkeit und die daraus folgende Ausschlussdiagnostik sind im Original so beschrieben. Ansatz und Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen (u. a. IMAIOS vet-Anatomy, WikiVet): Ansatz (Tuberculum minus humeri) und Innervation (N. subscapularis). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen mehrerer veterinäranatomischer Quellen, nicht aus eigener Volltextprüfung eines Standardwerks (z. B. Evans & de Lahunta, Miller's Anatomy of the Dog).",
   },
   {
     id: "coracobrachialis",
     name: "M. coracobrachialis",
     relatedCaseId: "rocky",
     origin: "Processus coracoideus der Scapula",
-    insertion: "Im Quellentext nicht genannt",
+    insertion: "Crista tuberculi minoris humeri",
     funktion:
       "Je nach Gelenkstellung Flexion oder Extension des Schultergelenks (wie M. infraspinatus und M. subscapularis), zusätzlich Adduktion des Schultergelenks.",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. musculocutaneus",
     clinicalRelevance:
       "Liegt medial und ist daher wie M. subscapularis nicht direkt palpierbar. Von M. infraspinatus und M. subscapularis lässt er sich dadurch abgrenzen, dass zusätzliche Abduktion des Schultergelenks bei der Schmerzprovokation gezielt ihn stärker belastet.",
     palpationHint:
@@ -1004,7 +1004,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "M. coracobrachialis lässt sich gar nicht von den anderen beiden unterscheiden", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 127f., 143f. Ursprung (Processus coracoideus scapulae), Funktion (positionsabhängige Flexion/Extension plus zusätzliche Adduktion) sowie die differentialdiagnostische Abgrenzung über zusätzliche Abduktion sind im Original so beschrieben. Ansatz und Innervation werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 127f., 143f. Ursprung (Processus coracoideus scapulae), Funktion (positionsabhängige Flexion/Extension plus zusätzliche Adduktion) sowie die differentialdiagnostische Abgrenzung über zusätzliche Abduktion sind im Original so beschrieben. Ansatz und Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen (u. a. IMAIOS vet-Anatomy, ScienceDirect Veterinary Science Topics): Ansatz (Crista tuberculi minoris humeri) und Innervation (N. musculocutaneus). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "teres-major",
@@ -1014,7 +1014,7 @@ const ANATOMY: AnatomySeed[] = [
     insertion: "Crista tuberculi minoris humeri (gemeinsame Endsehne mit M. latissimus dorsi)",
     funktion:
       "Flexion des Schultergelenks — gemeinsam mit seinem „Brudermuskel“ M. latissimus dorsi, mit dem er sich in der Endsehne verbindet und denselben Ansatz teilt.",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. axillaris",
     clinicalRelevance:
       "Liegt unter M. deltoideus und M. infraspinatus und wird zusätzlich vom M. latissimus dorsi bedeckt — daher nur in der Tiefe zu palpieren. Da beide Muskeln denselben Verlauf und dieselbe Funktion haben, betrifft eine Problematik oft beide gemeinsam.",
     palpationHint:
@@ -1028,7 +1028,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Zusätzliche Pronation des Unterarms", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 128, 144, 164. Ursprung (Angulus caudalis scapulae), Ansatz (Crista tuberculi minoris humeri, gemeinsame Endsehne mit M. latissimus dorsi), Funktion (Flexion, als „Brudermuskel“ des M. latissimus dorsi) sowie die differentialdiagnostische Abgrenzung zum M. deltoideus über zusätzliche Außenrotation sind im Original so beschrieben. Die Innervation wird im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 128, 144, 164. Ursprung (Angulus caudalis scapulae), Ansatz (Crista tuberculi minoris humeri, gemeinsame Endsehne mit M. latissimus dorsi), Funktion (Flexion, als „Brudermuskel“ des M. latissimus dorsi) sowie die differentialdiagnostische Abgrenzung zum M. deltoideus über zusätzliche Außenrotation sind im Original so beschrieben. Die Innervation wird im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen (u. a. IMAIOS vet-Anatomy, veterinärmedizinische Nerven-Übersichten): Innervation (N. axillaris). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "teres-minor",
@@ -1037,7 +1037,7 @@ const ANATOMY: AnatomySeed[] = [
     origin: "Distales Drittel des Margo caudalis der Scapula",
     insertion: "Tuberositas teres minor am Humeruskopf",
     funktion: "Flexion des Schultergelenks",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. axillaris",
     clinicalRelevance:
       "Kleiner, vom M. deltoideus bedeckter Muskel am Margo caudalis der Skapula — als einer von mehreren Schulterflexoren bei der Lokalisation von Schulterschmerzen mitzudenken.",
     palpationHint:
@@ -1050,7 +1050,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Innenrotation des Karpalgelenks", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 128, 144. Ursprung (distales Drittel Margo caudalis scapulae), Ansatz (Tuberositas teres minor am Humeruskopf, im Original explizit benannt) und Funktion (Flexion des Schultergelenks, Dehnungstest via reine Extension) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12, S. 128, 144. Ursprung (distales Drittel Margo caudalis scapulae), Ansatz (Tuberositas teres minor am Humeruskopf, im Original explizit benannt) und Funktion (Flexion des Schultergelenks, Dehnungstest via reine Extension) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Innervation (N. axillaris). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "brachialis",
@@ -1060,7 +1060,7 @@ const ANATOMY: AnatomySeed[] = [
     insertion:
       "Geteilter Ansatz: ein schmaler Schenkel zur Tuberositas radii, der zweite, kräftigere Schenkel unter der gespaltenen Ansatzsehne des M. biceps brachii hindurch zum Proc. coronoideus medialis der Ulna",
     funktion: "Flexion des Ellenbogengelenks",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. musculocutaneus",
     clinicalRelevance:
       "Liegt lateral des M. biceps brachii und enthält wie dieser einen hohen Anteil ermüdungsresistenter Typ-I-Fasern (ca. 50 %) — funktionell eng mit dem Bizeps verwandt, beide werden in der Praxis häufig gemeinsam behandelt.",
     palpationHint: "Palpation auf der kaudolateralen Seite des Humerus vom Collum humeri bis hin zu Radius und Ulna.",
@@ -1072,7 +1072,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Abduktion im Karpalgelenk", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13 (Ellenbogenregion), S. 165f., 171. Ursprung (Collum humeri, lateral des Bizeps), der geteilte Ansatz (Tuberositas radii sowie Proc. coronoideus medialis der Ulna), Funktion (Flexion Ellenbogengelenk) und der Dehnungstest (Extension Ellenbogengelenk) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13 (Ellenbogenregion), S. 165f., 171. Ursprung (Collum humeri, lateral des Bizeps), der geteilte Ansatz (Tuberositas radii sowie Proc. coronoideus medialis der Ulna), Funktion (Flexion Ellenbogengelenk) und der Dehnungstest (Extension Ellenbogengelenk) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Innervation (N. musculocutaneus). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "triceps-brachii",
@@ -1083,7 +1083,7 @@ const ANATOMY: AnatomySeed[] = [
     insertion: "Olecranon der Ulna",
     funktion:
       "Extension des Ellenbogengelenks; das Caput longum zusätzlich Flexion des Schultergelenks im Hangbein. In der Stützbeinphase verhindert der Muskel als Antischwerkraftmuskel das Einknicken der Gliedmaße.",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. radialis",
     clinicalRelevance:
       "Einziger der vier Köpfe mit Einfluss auf die Schulter ist das Caput longum, das über das Schultergelenk zum Kaudalrand der Skapula zieht. Caput longum, laterale und mediale bestehen überwiegend aus Typ-II-Fasern (dynamische Bremsfunktion), während das tief liegende Caput accessorium überwiegend aus ermüdungsresistenten Typ-I-Fasern besteht.",
     palpationHint:
@@ -1100,7 +1100,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Weil das Caput longum ausschließlich aus Typ-I-Fasern besteht", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13, S. 166, 170f. Die vier Köpfe, ihre unterschiedliche Funktion/Faserzusammensetzung, die fehlende Palpierbarkeit des Caput accessorium und der unterschiedliche Dehnungstest für Caput longum vs. die anderen drei Köpfe sind im Original so beschrieben. Der Ansatz am Olecranon ist aus dem Palpationsverlauf abgeleitet (\"bis zum Olekranon\"), nicht als eigenständige Ansatz-Aussage benannt. Ursprung des Caput longum (Tuberculum infraglenoidale) stammt aus Kap. 12, S. 127. Die Innervation wird im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13, S. 166, 170f. Die vier Köpfe, ihre unterschiedliche Funktion/Faserzusammensetzung, die fehlende Palpierbarkeit des Caput accessorium und der unterschiedliche Dehnungstest für Caput longum vs. die anderen drei Köpfe sind im Original so beschrieben. Der Ansatz am Olecranon ist aus dem Palpationsverlauf abgeleitet (\"bis zum Olekranon\"), nicht als eigenständige Ansatz-Aussage benannt. Ursprung des Caput longum (Tuberculum infraglenoidale) stammt aus Kap. 12, S. 127. Die Innervation wird im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Innervation (N. radialis). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "tensor-fasciae-antebrachii",
@@ -1109,7 +1109,7 @@ const ANATOMY: AnatomySeed[] = [
     origin: "Abspaltung vom M. latissimus dorsi (gilt als dessen „5. Trizepskopf“)",
     insertion: "Zieht medial zum Olecranon und spannt die Unterarmfaszie",
     funktion: "Extension des Ellenbogengelenks, spannt zusätzlich die Unterarmfaszie",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. radialis",
     clinicalRelevance:
       "Liegt medial des M. triceps brachii und bildet den mediokaudalsten Muskel der hinteren Achselfalte. Bei großen Hunden kann er bis zu ca. 2 mm dick sein.",
     palpationHint: "Palpation vom M. latissimus dorsi aus über die Lateralseite des Oberarms bis zur Medialseite des Olekranons.",
@@ -1121,16 +1121,16 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Innenrotation im Karpalgelenk", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13, S. 166, 172. Herkunft als Abspaltung des M. latissimus dorsi, Funktion (Extension Ellenbogengelenk, Fasziendehnung), Lage sowie der Dehnungstest sind im Original so beschrieben. Der genaue Ansatzpunkt wird im Original nicht als eigene Ansatz-Aussage benannt, sondern aus dem Palpationsverlauf (bis zur Medialseite des Olekranons) und der Funktionsbeschreibung abgeleitet. Die Innervation wird im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13, S. 166, 172. Herkunft als Abspaltung des M. latissimus dorsi, Funktion (Extension Ellenbogengelenk, Fasziendehnung), Lage sowie der Dehnungstest sind im Original so beschrieben. Der genaue Ansatzpunkt wird im Original nicht als eigene Ansatz-Aussage benannt, sondern aus dem Palpationsverlauf (bis zur Medialseite des Olekranons) und der Funktionsbeschreibung abgeleitet. Die Innervation wird im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Innervation (N. radialis). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "anconeus",
     name: "M. anconeus",
     relatedCaseId: "rocky",
-    origin: "Im Quellentext nicht genannt (Lage: lateral, distal des M. triceps brachii, zwischen den Humeruskondylen und dem Olekranon)",
-    insertion: "Im Quellentext nicht genannt",
+    origin: "Epicondylus lateralis humeri (laterale Epikondylenleiste) sowie Anteile der Fossa olecrani",
+    insertion: "Laterale Fläche des proximalen Olecranon der Ulna",
     funktion: "Extension des Ellenbogengelenks",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. radialis",
     clinicalRelevance:
       "Besteht zu 100 % aus ermüdungsresistenten Typ-I-Fasern und zählt zu den Antischwerkraftmuskeln — er kann ausdauernd arbeiten, ohne zu ermüden. Ihm wurde außerdem eine hohe Dichte an Muskelspindeln nachgewiesen, weshalb er eine wichtige Rolle bei der Aufnahme propriozeptiver Informationen über das Ellenbogengelenk spielt.",
     palpationHint:
@@ -1143,13 +1143,13 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Weil er ausschließlich aus schnell ermüdenden Typ-II-Fasern besteht", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13, S. 166, 172f. Faserzusammensetzung (100 % Typ I), Funktion als Antischwerkraftmuskel und Ellenbogenextensor sowie die hohe Muskelspindeldichte mit ihrer Bedeutung für die Propriozeption sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt — nur die Palpationslage.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13, S. 166, 172f. Faserzusammensetzung (100 % Typ I), Funktion als Antischwerkraftmuskel und Ellenbogenextensor sowie die hohe Muskelspindeldichte mit ihrer Bedeutung für die Propriozeption sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt — nur die Palpationslage. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen (u. a. IMAIOS vet-Anatomy, ScienceDirect Veterinary Science Topics): Ursprung (Epicondylus lateralis humeri, Fossa olecrani), Ansatz (laterale Fläche des proximalen Olecranon) und Innervation (N. radialis). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "supinator",
     name: "M. supinator",
-    origin: "Im Quellentext nicht genannt (Lage: lateral am Unterarm, unter M. extensor carpi radialis und M. extensor digitorum communis)",
-    insertion: "Im Quellentext nicht genannt",
+    origin: "Epicondylus lateralis humeri (Lage: lateral am Unterarm, unter M. extensor carpi radialis und M. extensor digitorum communis)",
+    insertion: "Proximaler Radius, medialseitig oberhalb des Ansatzes des M. pronator teres",
     funktion: "Flexion und Supination im Ellenbogengelenk",
     innervation: "Der N. radialis zieht durch den Muskel hindurch",
     clinicalRelevance:
@@ -1164,15 +1164,15 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Abduktion im Schultergelenk", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179f., 182. Funktion (Flexion/Supination Ellenbogengelenk), der Verlauf des N. radialis durch den Muskel, die fehlende direkte Palpierbarkeit sowie der Dehnungstest (Extension und Pronation) sind im Original so beschrieben. Ursprung und Ansatz werden im Original nicht genannt. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, beschreibt denselben Mechanismus (hypertoner M. supinator komprimiert N. radialis) unter der Bezeichnung „toe out position\" statt „Toe-in\" wie hier in Kap. 14. Der Muskel-Nerv-Bezug ist in beiden Kapiteln identisch, nur die Fußstellungsbezeichnung widerspricht sich zwischen den Kapiteln. Hier wird die Darstellung aus Kap. 14 (eigenständiges Unterarm-Kapitel mit vollständiger Gegenüberstellung Toe-in/Toe-out) beibehalten — die Diskrepanz ist ungeklärt und sollte fachlich/praktisch geprüft werden, bevor sie als sicher gilt. Web-Abgleich (22.09.2026): Weder canine noch humane Fachliteratur zum Supinatortunnel-/Supinatorlogensyndrom (z. B. Springer Nature, DocCheck Flexikon, PubMed) beschreibt eine Zuordnung zu einer bestimmten Fußstellung — dort werden andere Kompressionsursachen genannt (Frohse-Arkade, raumfordernde Prozesse, repetitive Pro-/Supination). Die Toe-in/Toe-out-Zuordnung scheint eine Hárrer-eigene klinische Beobachtung zu sein, die sich nicht extern verifizieren ließ. UNGEPRÜFTE HYPOTHESE (nicht aus einer Quelle, ausdrücklich als eigene Überlegung markiert): Der Widerspruch ließe sich denkbar dadurch erklären, dass in Kap. 14 der Muskel exzentrisch überdehnt (reaktiver Hypertonus durch chronischen Zug) und in Kap. 17 derselbe Muskel konzentrisch verkürzt (struktureller Hypertonus als Fehlstellungs-Ursache) gemeint sein könnte — ein in der Physiotherapie generell bekanntes Prinzip. Der Originaltext von Kap. 14 (\"kommt der M. supinator unter Spannung\") und Kap. 17 (\"Hypertonie des M. supinator\") belegt diese Unterscheidung aber nicht wörtlich; es handelt sich um eine mögliche Erklärung, keine verifizierte Aussage.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14 (Unterarmregion), S. 179f., 182. Funktion (Flexion/Supination Ellenbogengelenk), der Verlauf des N. radialis durch den Muskel, die fehlende direkte Palpierbarkeit sowie der Dehnungstest (Extension und Pronation) sind im Original so beschrieben. Ursprung und Ansatz werden im Original nicht genannt — ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Ursprung (Epicondylus lateralis humeri), Ansatz (proximaler Radius, medialseitig). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, beschreibt denselben Mechanismus (hypertoner M. supinator komprimiert N. radialis) unter der Bezeichnung „toe out position\" statt „Toe-in\" wie hier in Kap. 14. Der Muskel-Nerv-Bezug ist in beiden Kapiteln identisch, nur die Fußstellungsbezeichnung widerspricht sich zwischen den Kapiteln. Hier wird die Darstellung aus Kap. 14 (eigenständiges Unterarm-Kapitel mit vollständiger Gegenüberstellung Toe-in/Toe-out) beibehalten — die Diskrepanz ist ungeklärt und sollte fachlich/praktisch geprüft werden, bevor sie als sicher gilt. Web-Abgleich (22.09.2026): Weder canine noch humane Fachliteratur zum Supinatortunnel-/Supinatorlogensyndrom (z. B. Springer Nature, DocCheck Flexikon, PubMed) beschreibt eine Zuordnung zu einer bestimmten Fußstellung — dort werden andere Kompressionsursachen genannt (Frohse-Arkade, raumfordernde Prozesse, repetitive Pro-/Supination). Die Toe-in/Toe-out-Zuordnung scheint eine Hárrer-eigene klinische Beobachtung zu sein, die sich nicht extern verifizieren ließ. UNGEPRÜFTE HYPOTHESE (nicht aus einer Quelle, ausdrücklich als eigene Überlegung markiert): Der Widerspruch ließe sich denkbar dadurch erklären, dass in Kap. 14 der Muskel exzentrisch überdehnt (reaktiver Hypertonus durch chronischen Zug) und in Kap. 17 derselbe Muskel konzentrisch verkürzt (struktureller Hypertonus als Fehlstellungs-Ursache) gemeint sein könnte — ein in der Physiotherapie generell bekanntes Prinzip. Der Originaltext von Kap. 14 (\"kommt der M. supinator unter Spannung\") und Kap. 17 (\"Hypertonie des M. supinator\") belegt diese Unterscheidung aber nicht wörtlich; es handelt sich um eine mögliche Erklärung, keine verifizierte Aussage.",
   },
   {
     id: "brachioradialis",
     name: "M. brachioradialis",
-    origin: "Im Quellentext nicht genannt",
-    insertion: "Im Quellentext nicht genannt",
+    origin: "Epicondylus lateralis humeri",
+    insertion: "Distales Drittel des Radius, medialseitig (nahe des Proc. styloideus radii)",
     funktion: "Flexion und Supination im Ellenbogengelenk — identisch mit M. supinator",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. radialis",
     clinicalRelevance:
       "Ein anatomisch inkonstanter Muskel — er fehlt bei Hunden häufig. Ist er vorhanden, liegt er lateral am Ellenbogen zwischen oberflächiger und tiefer Unterarmfaszie, auf dem M. extensor carpi radialis.",
     palpationHint:
@@ -1185,7 +1185,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Weil nur der M. supinator überhaupt existiert", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 182. Die anatomische Inkonstanz (fehlt häufig bei Hunden), Lage und die mit M. supinator identische Funktion sowie die Differenzierung nur über die Palpationstiefe sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 182. Die anatomische Inkonstanz (fehlt häufig bei Hunden), Lage und die mit M. supinator identische Funktion sowie die Differenzierung nur über die Palpationstiefe sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Ursprung (Epicondylus lateralis humeri), Ansatz (distales Radiusdrittel, medialseitig) und Innervation (N. radialis) — Werte gelten für den Fall, dass der Muskel beim jeweiligen Hund überhaupt angelegt ist. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "pronator-teres",
@@ -1193,7 +1193,7 @@ const ANATOMY: AnatomySeed[] = [
     origin: "Medialer Epicondylus humeri",
     insertion: "Kraniomedial am oberen Drittel des Radius",
     funktion: "Flexion und Pronation des Ellenbogengelenks",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. medianus",
     clinicalRelevance:
       "Gut ausgebildeter, gut palpierbarer Muskel auf der Medialseite des Ellenbogengelenks, der häufig sehr verspannt und hypertroph ist. Bei vermehrter Toe-out-Stellung des Hundes gerät er unter Spannung und kann den N. medianus reizen — mögliche Folge ist Beknabbern der distalen Zehen (siehe Wissenseintrag „Toe-in/Toe-out“).",
     palpationHint:
@@ -1206,15 +1206,15 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Adduktion im Schultergelenk", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 182f. Ursprung (medialer Epicondylus humeri), Ansatz (kraniomedial am oberen Drittel des Radius), Funktion (Flexion/Pronation), die klinische Beobachtung (häufig verspannt/hypertroph) sowie der Dehnungstest (Extension mit Supination) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, ordnet die dort beschriebene Kompression des N. radialis durch den M. supinator der „toe out position\" zu — nach der hier verwendeten Kap.-14-Logik (Toe-out = M. pronator teres → N. medianus) müsste die dortige Aussage eigentlich M. supinator und Toe-in betreffen. Die beiden Kapitel widersprechen sich in der Stellungsbezeichnung; die Diskrepanz ist ungeklärt und sollte fachlich/praktisch geprüft werden, bevor sie als sicher gilt. Web-Abgleich (22.09.2026): Keine externe canine oder humane Fachquelle zu Pronator-teres-/N.-medianus-Kompression gefunden, die eine Fußstellung benennt — auch dies wirkt wie eine Hárrer-eigene klinische Beobachtung ohne externe Bestätigung. UNGEPRÜFTE HYPOTHESE (eigene Überlegung, keine Quellenaussage): Denkbar wäre eine Erklärung über exzentrischen (Kap. 14, Toe-out) vs. konzentrischen Hypertonus (Kap. 17, sofern dort tatsächlich Toe-in statt Toe-out gemeint wäre) — siehe ausführlicher die entsprechende Notiz beim Anatomie-Item „supinator\". Nicht durch den Originaltext belegt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 182f. Ursprung (medialer Epicondylus humeri), Ansatz (kraniomedial am oberen Drittel des Radius), Funktion (Flexion/Pronation), die klinische Beobachtung (häufig verspannt/hypertroph) sowie der Dehnungstest (Extension mit Supination) sind im Original so beschrieben. Die Innervation wird im Original nicht genannt — ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Innervation (N. medianus). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks. WIDERSPRUCH IN DER QUELLE: Kap. 17 (Neurotension), S. 279, ordnet die dort beschriebene Kompression des N. radialis durch den M. supinator der „toe out position\" zu — nach der hier verwendeten Kap.-14-Logik (Toe-out = M. pronator teres → N. medianus) müsste die dortige Aussage eigentlich M. supinator und Toe-in betreffen. Die beiden Kapitel widersprechen sich in der Stellungsbezeichnung; die Diskrepanz ist ungeklärt und sollte fachlich/praktisch geprüft werden, bevor sie als sicher gilt. Web-Abgleich (22.09.2026): Keine externe canine oder humane Fachquelle zu Pronator-teres-/N.-medianus-Kompression gefunden, die eine Fußstellung benennt — auch dies wirkt wie eine Hárrer-eigene klinische Beobachtung ohne externe Bestätigung. UNGEPRÜFTE HYPOTHESE (eigene Überlegung, keine Quellenaussage): Denkbar wäre eine Erklärung über exzentrischen (Kap. 14, Toe-out) vs. konzentrischen Hypertonus (Kap. 17, sofern dort tatsächlich Toe-in statt Toe-out gemeint wäre) — siehe ausführlicher die entsprechende Notiz beim Anatomie-Item „supinator\". Nicht durch den Originaltext belegt.",
   },
   {
     id: "pronator-quadratus",
     name: "M. pronator quadratus",
-    origin: "Im Quellentext nicht genannt",
-    insertion: "Im Quellentext nicht genannt",
+    origin: "Palmare (volare) Fläche des Radius sowie die Membrana interossea antebrachii",
+    insertion: "Margo interosseus der Ulna",
     funktion: "Pronation der Unterarmgelenke",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. medianus",
     clinicalRelevance:
       "Liegt in der Tiefe, ausgespannt zwischen Radius und Ulna, der Membrana interossea aufliegend und vom M. flexor digitorum profundus bedeckt — ein Beispiel dafür, dass nicht jeder funktionell wichtige Muskel für die manuelle Untersuchung zugänglich ist.",
     palpationHint: "Nicht palpierbar und nicht provozierbar — liegt zu tief und ist vollständig bedeckt.",
@@ -1229,7 +1229,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Weil er sich außerhalb des Unterarms befindet", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 183. Lage, Funktion (Pronation) und die fehlende Palpier-/Provozierbarkeit sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 183. Lage, Funktion (Pronation) und die fehlende Palpier-/Provozierbarkeit sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Ursprung (palmare Radiusfläche, Membrana interossea), Ansatz (Margo interosseus ulnae) und Innervation (N. medianus). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "extensoren-karpus-zehen",
@@ -1238,7 +1238,7 @@ const ANATOMY: AnatomySeed[] = [
     insertion: "Im distalen Drittel gehen die Muskeln in ihre jeweiligen Endsehnen über (im Quellentext keine einzelnen Ansatzpunkte benannt)",
     funktion:
       "Extension von Karpalgelenk und Zehen. Im Einzelnen: M. extensor carpi radialis (Extension Karpus), M. extensor carpi ulnaris (Extension Karpus mit Radialabduktion), M. extensor digitorum communis und M. extensor digitorum lateralis (zusätzlich Extension der Zehen).",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. radialis (Ramus profundus) — versorgt alle vier Muskeln dieser Gruppe",
     clinicalRelevance:
       "Die vier Muskeln — M. extensor carpi radialis, M. extensor carpi ulnaris, M. extensor digitorum communis und M. extensor digitorum lateralis — werden in der Untersuchung gemeinsam betrachtet, da sie denselben Verlauf und dieselbe Region teilen. Erst eine gezielte Zusatzbewegung (z. B. Zehenflexion oder Radialabduktion) trennt sie diagnostisch voneinander.",
     palpationHint:
@@ -1251,7 +1251,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Er lässt sich gar nicht von den anderen unterscheiden", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 183f. Ursprungsregion, die gemeinsame Untersuchung der vier Muskeln sowie die jeweils spezifische Zusatzbewegung zur diagnostischen Differenzierung (Carpusflexion für M. ext. carpi radialis, zusätzliche Zehenflexion für die Mm. ext. digitorum, Radialabduktion für M. ext. carpi ulnaris) sind im Original so beschrieben. Einzelne Ansatzpunkte und die Innervation werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 183f. Ursprungsregion, die gemeinsame Untersuchung der vier Muskeln sowie die jeweils spezifische Zusatzbewegung zur diagnostischen Differenzierung (Carpusflexion für M. ext. carpi radialis, zusätzliche Zehenflexion für die Mm. ext. digitorum, Radialabduktion für M. ext. carpi ulnaris) sind im Original so beschrieben. Einzelne Ansatzpunkte und die Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Innervation (N. radialis, Ramus profundus, für alle vier Muskeln dieser Gruppe). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "flexoren-karpus-zehen",
@@ -1260,7 +1260,8 @@ const ANATOMY: AnatomySeed[] = [
     insertion: "Ziehen fleischig deutlich weiter nach distal als die Extensoren (im Quellentext keine einzelnen Ansatzpunkte benannt)",
     funktion:
       "Flexion von Karpalgelenk und Zehen. Im Einzelnen: M. flexor carpi radialis und M. flexor carpi ulnaris (Flexion Karpus), Mm. flexor digitorum superficialis et profundus (zusätzlich Flexion der Zehen).",
-    innervation: "Im Quellentext nicht genannt",
+    innervation:
+      "Gemischt, je nach Einzelmuskel: M. flexor carpi radialis und M. flexor digitorum superficialis über den N. medianus; M. flexor carpi ulnaris über den N. ulnaris; M. flexor digitorum profundus gemischt (medialer Kopf N. ulnaris, lateraler Kopf N. medianus).",
     clinicalRelevance:
       "M. flexor carpi radialis und M. flexor carpi ulnaris gelten als Antischwerkraftmuskeln: Ersterer besteht zu 60 % aus ermüdungsresistenten Typ-I-Fasern, die beiden Köpfe des M. flexor carpi ulnaris sogar zu 50–80 %.",
     palpationHint:
@@ -1273,16 +1274,17 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Weil sie nur bei jungen Hunden vorhanden sind", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 184. Ursprungsregion, die gemeinsame Untersuchung, die Rolle als Antischwerkraftmuskeln mit den genannten Faseranteilen sowie die diagnostische Differenzierung über Zusatzbewegungen sind im Original so beschrieben. Einzelne Ansatzpunkte und die Innervation werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 14, S. 180, 184. Ursprungsregion, die gemeinsame Untersuchung, die Rolle als Antischwerkraftmuskeln mit den genannten Faseranteilen sowie die diagnostische Differenzierung über Zusatzbewegungen sind im Original so beschrieben. Einzelne Ansatzpunkte und die Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: die gemischte Innervation der vier Einzelmuskeln (N. medianus für M. flexor carpi radialis/M. flexor digitorum superficialis, N. ulnaris für M. flexor carpi ulnaris, gemischt für M. flexor digitorum profundus). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "biceps-femoris",
     name: "M. biceps femoris",
-    origin: "Im Quellentext nicht genannt (Lage: Hintergliedmaße, oberflächlich kaudal des M. vastus lateralis)",
-    insertion: "Im Quellentext nicht genannt",
+    origin: "Tuber ischiadicum (Sitzbeinhöcker, lateraler Rand) sowie kaudoventrale Anteile des Lig. sacrotuberale (Lage: Hintergliedmaße, oberflächlich kaudal des M. vastus lateralis)",
+    insertion:
+      "Zweigeteilt: Pars cranialis strahlt in die Fascia lata/Patellaregion ein, Pars caudalis zieht zur Tuberositas tibiae/Crista tibiae und über die Fersenbeinsehne selbstständig zum Tuber calcanei (Fersensehnenstrang)",
     funktion:
       "Extension und Abduktion im Hüftgelenk. Die Pars cranialis extendiert zusätzlich das Kniegelenk; die Pars caudalis wirkt in der Hangbeinphase als Kniegelenkflexor, in der Stützbeinphase dagegen als Kniegelenkextensor. Beide Anteile extendieren zusätzlich das Sprunggelenk.",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. ischiadicus — Pars cranialis über den Ramus peroneus (fibularis) communis, Pars caudalis über den Ramus tibialis",
     clinicalRelevance:
       "Ein gutes Beispiel dafür, dass ein Muskel je nach Belastungsphase genau gegenteilige Funktionen am selben Gelenk übernehmen kann — die Pars caudalis beugt das Knie beim Vorführen des Beins, streckt es aber, sobald das Bein Gewicht trägt.",
     palpationHint: "Liegt oberflächlich kaudal des M. vastus lateralis am Oberschenkel.",
@@ -1297,15 +1299,16 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Weil der Muskel ausschließlich das Hüftgelenk bewegt", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8 (Knieregion), S. 91. Die phasenabhängige Doppelfunktion der Pars caudalis, die Funktion der Pars cranialis sowie die Hüft- und Sprunggelenkfunktion sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8 (Knieregion), S. 91. Die phasenabhängige Doppelfunktion der Pars caudalis, die Funktion der Pars cranialis sowie die Hüft- und Sprunggelenkfunktion sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen (u. a. IMAIOS vet-Anatomy, PetMassage Institute): Ursprung (Tuber ischiadicum, Lig. sacrotuberale), Ansatz (Pars cranialis: Fascia lata/Patella; Pars caudalis: Tuberositas tibiae/Tuber calcanei) und Innervation (N. ischiadicus mit getrennten Ästen für Pars cranialis/caudalis). Die Ansatzangabe zur Pars caudalis am Tuber calcanei stimmt mit der unabhängig gelesenen Beschreibung bei Koch/Fischer, Lahmheitsuntersuchung beim Hund, Kap. 5.3.2 (S. 88), überein — dort wird die \"Fersenbeinsehne des M. biceps femoris\" mit selbstständigem Ansatz am Tuber calcanei beschrieben, was diese Web-Ergänzung zusätzlich stützt. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "semitendinosus",
     name: "M. semitendinosus",
-    origin: "Im Quellentext nicht genannt",
-    insertion: "Im Quellentext nicht genannt",
+    origin: "Tuber ischiadicum (lateraler Rand), zwischen M. biceps femoris und M. semimembranosus",
+    insertion:
+      "Medialfläche der Tibia kranial der Flexorenmuskulatur sowie gemeinsam mit dem M. biceps femoris am Tuber calcanei (Fersensehnenstrang)",
     funktion: "Extension von Hüft- und Sprunggelenk; am Kniegelenk wirkt er dagegen flektierend.",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. tibialis (Ast des N. ischiadicus)",
     clinicalRelevance:
       "Einer von drei Muskeln, die gemeinsam den Pes anserinus bilden (mit M. gracilis und M. sartorius) — bei schmerzhafter Druckpalpation an der medialen Kniegelenkseite müssen diese drei Muskeln gezielt voneinander differenziert werden, um den tatsächlich betroffenen Muskel zu behandeln.",
     palpationHint:
@@ -1318,15 +1321,16 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Reine Adduktion der Hüfte", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91, 92. Funktion, Zugehörigkeit zum Pes anserinus und die spezifische Provokationsbewegung zur Differenzierung von M. gracilis/M. sartorius sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91, 92. Funktion, Zugehörigkeit zum Pes anserinus und die spezifische Provokationsbewegung zur Differenzierung von M. gracilis/M. sartorius sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Ursprung (Tuber ischiadicum), Ansatz (Medialfläche Tibia, gemeinsam mit M. biceps femoris am Tuber calcanei) und Innervation (N. tibialis). Der gemeinsame Ansatz am Tuber calcanei deckt sich mit der unabhängig gelesenen Beschreibung bei Koch/Fischer, Lahmheitsuntersuchung beim Hund, Kap. 5.3.2 (S. 88), wo der M. semitendinosus als Verstärkungsanteil des Fersensehnenstrangs beschrieben wird. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "gracilis",
     name: "M. gracilis",
-    origin: "Im Quellentext nicht genannt",
-    insertion: "Im Quellentext nicht genannt",
+    origin: "Symphysis pelvina (Beckensymphyse) über die Sehnenplatte (Tendo symphysialis)",
+    insertion:
+      "Kranialer Tibiarand sowie gemeinsam mit dem M. semitendinosus am Tuber calcanei (Fersensehnenstrang)",
     funktion: "Adduktion und etwas Extension im Hüftgelenk, Flexion im Kniegelenk, Extension im Sprunggelenk.",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. obturatorius",
     clinicalRelevance:
       "Wie M. sartorius und M. semitendinosus einer der drei Muskeln des Pes anserinus an der Medialseite des Knies — differenziert wird er von den beiden anderen über eine gezielte Kombination aus Knie- und Hüftgelenkstellung.",
     palpationHint: "Provokation durch Extension im Kniegelenk kombiniert mit Abduktion der Hüfte.",
@@ -1338,15 +1342,16 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Innenrotation der Hüfte allein", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91, 92. Funktion, Zugehörigkeit zum Pes anserinus und die spezifische Provokationsbewegung sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91, 92. Funktion, Zugehörigkeit zum Pes anserinus und die spezifische Provokationsbewegung sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Ursprung (Symphysis pelvina), Ansatz (kranialer Tibiarand, gemeinsam mit M. semitendinosus am Tuber calcanei) und Innervation (N. obturatorius). Der gemeinsame Ansatz am Tuber calcanei deckt sich mit der unabhängig gelesenen Beschreibung bei Koch/Fischer, Lahmheitsuntersuchung beim Hund, Kap. 5.3.2 (S. 88), wo der M. gracilis als Verstärkungsband des Fersensehnenstrangs beschrieben wird. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "sartorius",
     name: "M. sartorius",
-    origin: "Im Quellentext nicht genannt",
-    insertion: "Im Quellentext nicht genannt",
+    origin:
+      "Zweigeteilt: Pars cranialis von der Spina iliaca ventrocranialis, Pars caudalis von der Crista iliaca zwischen den beiden kranialen Darmbeinstacheln",
+    insertion: "Pars cranialis: Patella und mediale Kniefaszie nahe der Patella; Pars caudalis: kranialer Tibiarand",
     funktion: "Flexion und Adduktion im Hüftgelenk, Extension im Kniegelenk.",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. femoralis",
     clinicalRelevance:
       "Dritter Muskel des Pes anserinus. Überlagert den M. vastus medialis vollständig — bei dessen Palpation muss die Hüfte etwas flektiert werden, um den M. sartorius zu entspannen und nicht mitzupalpieren.",
     palpationHint: "Provokation durch Flexion im Kniegelenk kombiniert mit Extension der Hüfte.",
@@ -1358,15 +1363,16 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Weil dies keinen Einfluss auf die Palpation hat", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91f. Funktion, Zugehörigkeit zum Pes anserinus, die spezifische Provokationsbewegung sowie die Überlagerung des M. vastus medialis (mit der daraus folgenden Palpationstechnik) sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91f. Funktion, Zugehörigkeit zum Pes anserinus, die spezifische Provokationsbewegung sowie die Überlagerung des M. vastus medialis (mit der daraus folgenden Palpationstechnik) sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: der zweigeteilte Ursprung (Pars cranialis/caudalis), die getrennten Ansätze und die Innervation (N. femoralis). HINWEIS zur Funktion: Die Web-Quellen beschreiben eine gegenläufige Funktion der beiden Anteile am Kniegelenk (Pars cranialis streckt, Pars caudalis beugt das Knie), während Hárrer nur eine einheitliche Funktion (\"Extension im Kniegelenk\") angibt, ohne nach Anteilen zu differenzieren — die hier übernommene Funktionsangabe folgt weiterhin Hárrer, die genauere Web-Differenzierung ist nicht eingearbeitet, um keine unbelegte Vermischung zweier Quellen zu erzeugen. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
   {
     id: "tensor-fasciae-latae",
     name: "M. tensor fasciae latae",
-    origin: "Im Quellentext nicht genannt",
-    insertion: "Im Quellentext nicht genannt (zieht über den Tractus iliotibialis zur Lateralseite des Knies)",
+    origin: "Tuber coxae",
+    insertion:
+      "Fascia lata, die weiter zur Patella und zum Lig. patellae zieht (entspricht dem Tractus iliotibialis zur Lateralseite des Knies)",
     funktion: "Abduktion und Flexion im Hüftgelenk, Extension im Kniegelenk.",
-    innervation: "Im Quellentext nicht genannt",
+    innervation: "N. gluteus cranialis",
     clinicalRelevance:
       "Der Tractus iliotibialis, in den der Muskel einstrahlt, stabilisiert das Kniegelenk von lateral. Ist der M. tensor fasciae latae verkürzt — was häufig vorkommt —, lateralisiert er die Patella. Das macht ihn besonders bei Patelladysplasie zu einer wichtigen Struktur, die gezielt mitbeurteilt werden sollte.",
     palpationHint: "Liegt proximal am lateralen Oberschenkel; der M. vastus lateralis zieht distal von ihm weiter zur Patella.",
@@ -1378,7 +1384,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Weil er ausschließlich das Sprunggelenk beeinflusst", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91f. Funktion, die stabilisierende Rolle des Tractus iliotibialis sowie der Zusammenhang zwischen Verkürzung des Muskels und Patella-Lateralisation (insbesondere bei Patelladysplasie) sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91f. Funktion, die stabilisierende Rolle des Tractus iliotibialis sowie der Zusammenhang zwischen Verkürzung des Muskels und Patella-Lateralisation (insbesondere bei Patelladysplasie) sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Ursprung (Tuber coxae), Ansatz (Fascia lata, darüber Patella/Lig. patellae) und Innervation (N. gluteus cranialis). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
 ];
 

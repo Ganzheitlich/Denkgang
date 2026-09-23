@@ -40,11 +40,34 @@ kein Überblick verloren geht.
   bis sie im Rahmen dieses Fixes neu geseedet wurden (was mit diesem Commit
   passiert ist).
 
+- **Anatomie-Lückenschluss (23.09.2026):** Vanessa hat zu Recht bemängelt, dass
+  viele Anatomie-Items bei Ursprung/Ansatz/Innervation nur "Im Quellentext
+  nicht genannt" stehen hatten — das ist als Endzustand nicht akzeptabel.
+  Klare neue Regel: Fehlt eine Angabe in den Büchern, wird sie per
+  Web-Recherche aus verifizierten veterinäranatomischen Fachquellen ergänzt
+  (IMAIOS vet-Anatomy, WikiVet, universitäre Lehrmaterialien wie
+  vanat.ahc.umn.edu) statt leer/unklar zu bleiben. 19 Anatomie-Items
+  (komplette Schulter-/Ellbogen-/Unterarm-/Kniegelenksregions-Muskulatur aus
+  den Hárrer-Kapiteln) wurden so lückenlos komplettiert — jedes mit klar
+  getrennter Quellenangabe (was Hárrer sagt vs. was per Web-Recherche
+  ergänzt wurde) im `sourceStatus`. Getroffene Web-Werte konvergierten
+  durchgängig über mehrere unabhängige Quellen; zwei Fälle (Ansatz des
+  M. biceps femoris/M. semitendinosus/M. gracilis am Tuber calcanei)
+  bestätigten sich sogar zusätzlich unabhängig durch die bereits gelesene
+  Koch/Fischer-Quelle (Fersensehnenstrang-Beschreibung). Ein Fall (Funktion
+  der beiden Anteile des M. sartorius) zeigte eine Diskrepanz zwischen
+  Hárrer und Web-Quellen, die transparent dokumentiert statt vermischt
+  wurde. Dieselbe Lücken-Regel gilt ab sofort für alle künftigen
+  Anatomie-Items: keine leeren/unklaren Kernfelder mehr als Endzustand.
+
 ## Stand (21.09.2026)
 
 - Wissensbibliothek: 46 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 8
   Untersuchung, 15 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
+- Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
+  Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
+  "Im Quellentext nicht genannt"-Kernfelder mehr.
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
   aktiv mit einer zweiten Quelle abgeglichen (siehe Toe-in/Toe-out-Fund
