@@ -3260,6 +3260,189 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["bruno", "luna"],
     relatedAnatomyIds: [],
   },
+  {
+    id: "laehmung-ataxie-dysmetrie-grundbegriffe",
+    category: "GRUNDLAGEN",
+    title: "Lähmung, Ataxie und Dysmetrie — neurologische Grundbegriffe sauber trennen",
+    teaser:
+      "Bevor man eine neurologische Störung lokalisieren kann, muss man erst einmal genau benennen können, was man tatsächlich beobachtet.",
+    sections: [
+      {
+        type: "text",
+        text: "Neurologische Störungen des Bewegungsapparates können sich als Propriozeptionsausfälle, Lähmungserscheinungen, Kreisbewegungen, Ataxie und/oder Dysmetrie zeigen. Ein propriozeptives Defizit äußert sich z. B. als ständiges oder intermittierendes unphysiologisches Auffußen oder Überköten der Gliedmaße.",
+      },
+      {
+        type: "table",
+        heading: "Lähmungsgrade nach Anzahl der betroffenen Gliedmaßen",
+        columns: ["Begriff", "Bedeutung"],
+        rows: [
+          ["Monoparese", "Lähmung einer Gliedmaße"],
+          ["Paraparese", "Lähmung beider Hintergliedmaßen"],
+          ["Tetraparese", "Lähmung aller vier Gliedmaßen"],
+          ["Hemiparese", "Lähmung eines ipsilateralen Gliedmaßenpaares (eine Vorder- und die gleichseitige Hintergliedmaße)"],
+          ["Plegie", "Vollständige Lähmung (z. B. Monoplegie, Paraplegie) — im Unterschied zur Parese, bei der die Muskelkraft nur reduziert, aber nicht vollständig aufgehoben ist"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Spastisch vs. schlaff",
+        text: "Je nach Spannungszustand der betroffenen Muskulatur unterscheidet man eine spastische Lähmung (erhöhter Tonus) von einer schlaffen Lähmung (erniedrigter Tonus). Die Lähmung selbst beruht auf dem Ausfall der motorischen Funktion eines Nervs oder seines Erfolgsorgans (z. B. des Muskels) und kann zentral (Gehirn/Rückenmark), peripher (Nerven) oder myogen (im Muskel selbst) verursacht sein.",
+      },
+      {
+        type: "text",
+        heading: "Ataxie",
+        text: "Eine Ataxie ist eine Störung der Bewegungskoordination und des geordneten Zusammenwirkens von Muskelgruppen — sie kann, muss aber nicht, von Spastizität, Parese oder unwillkürlichen Bewegungen begleitet sein. Je nach Lokalisation der zugrunde liegenden Läsion unterscheidet man eine periphere, spinale, zerebelläre, vestibuläre und zerebrale Ataxie.",
+      },
+      {
+        type: "text",
+        heading: "Dysmetrie",
+        text: "Eine Dysmetrie zeigt sich entweder als zu große Schrittlänge (Hypermetrie) oder als zu kleine Schrittlänge (Hypometrie).",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Nervensystem\" (A. Jaggy/I. Kathmann), Einleitung und Unterabschnitt „Motorische Ausfälle (Lähmung/Ataxie)\". Die Begriffsdefinitionen (Mono-/Para-/Tetra-/Hemiparese, Plegie, spastisch/schlaff, Ataxie-Lokalisationen, Hyper-/Hypometrie) sind im Original so beschrieben. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "umn-omn-laesionslokalisation",
+    category: "PATHOLOGIE",
+    title: "Oberes und unteres motorisches Neuron unterscheiden — wo liegt die Läsion?",
+    teaser:
+      "Dieselbe Lähmung kann durch eine Schädigung an ganz unterschiedlichen Stellen des Nervensystems entstehen — die Reflexe verraten, wo.",
+    sections: [
+      {
+        type: "text",
+        text: "Anhand der spinalen Reflexe lässt sich unterscheiden, ob eine Läsion im zentralen oder im peripheren Nervensystem liegt (erstes Lokalisations-Postulat). Die Beurteilung der Kopfnerven (zweites Postulat) erlaubt zusätzlich die Unterscheidung zwischen einer intrakraniellen und einer extrakraniellen Läsion. Zusammen mit Haltungs- und Stellreaktionen wird die Läsion so einem der Rückenmarkssegmente zugeordnet.",
+      },
+      {
+        type: "text",
+        heading: "Wichtige Warnung zur Abkürzung „UMN\"",
+        text: "In diesem Quellentext steht „UMN\" für unteres motorisches Neuron (also das, was im internationalen/englischsprachigen Sprachgebrauch als \"LMN\" — lower motor neuron — bezeichnet wird), und „OMN\" für oberes motorisches Neuron (international \"UMN\" — upper motor neuron). Diese deutsche Abkürzungslogik ist mit der international gebräuchlichen Abkürzung „UMN\" NICHT identisch und sogar gegensätzlich belegt — eine Verwechslungsgefahr, die bei Konsultation englischsprachiger Fachliteratur unbedingt im Kopf behalten werden muss.",
+      },
+      {
+        type: "table",
+        heading: "Unteres (\"UMN\" im Quellentext) vs. oberes (\"OMN\") motorisches Neuronensystem",
+        columns: ["Merkmal", "Unteres System (Reflexbogen selbst)", "Oberes System (absteigende Bahnen)"],
+        rows: [
+          [
+            "Reflexauswirkung bei Läsion",
+            "Hyporeflexie (herabgesetzt) bis Areflexie (fehlend)",
+            "Hyperreflexie (gesteigert), evtl. mit Klonus — Reflexe können bei OMN-Läsionen aber auch normal sein",
+          ],
+          [
+            "Besteht aus",
+            "α-Motoneurone (graue Substanz des Rückenmarks), zugehörige Nervenwurzeln, periphere Nerven, neuromuskuläre Endplatten, Muskeln",
+            "Pyramidales und extrapyramidales System — absteigende Bahnen vom motorischen Großhirnkortex über den Hirnstamm bis zum Rückenmark",
+          ],
+          [
+            "Warum die Reflexveränderung entsteht",
+            "Der Reflexbogen selbst ist unterbrochen",
+            "Der hemmende Einfluss auf die Vorderhornzellen fällt weg — Überreaktion auf Reflexstimulation. Gesteigerte Reflexe treten v. a. bei Läsionen der Extrapyramidalbahnen auf",
+          ],
+          [
+            "Beispielkrankheiten",
+            "Diskushernie auf Höhe einer Lumbalschwellung, Neurofibrom einer Nervenwurzel, Polyneuropathie bei Hypothyreose, Myasthenia gravis (neuromuskuläre Endplatte)",
+            "Degenerative Myelopathie (Rückenmark), granulomatöse Meningoenzephalitis (Hirnstamm), Infarkt des motorischen Großhirnkortex",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Klonus",
+        text: "Eine klonische Reaktion ist eine repetitive Kontraktion und Relaxation eines Muskels als Antwort auf einen einzigen Reizstimulus — sie wird vor allem im Zusammenhang mit chronischer Schädigung der absteigenden, hemmenden Bahnen (oberes System) beobachtet.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Nervensystem\" (A. Jaggy/I. Kathmann), Unterabschnitt „Unteres motorisches Neuron (UMN) und oberes motorisches Neuron (OMN)\". Die Lokalisations-Postulate, die Definitionen und Beispielkrankheiten beider Systeme sowie die Klonus-Definition sind im Original so beschrieben. Der Hinweis zur international abweichenden UMN/LMN-Abkürzungskonvention ist eine eigene, sachlich begründete Ergänzung zur Fehlervermeidung — im Original selbst nicht thematisiert. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "mono-polyneuropathie-lokalisation",
+    category: "PATHOLOGIE",
+    title: "Mono- und Polyneuropathien im peripheren Nervensystem lokalisieren",
+    teaser:
+      "Betrifft die Störung nur einen Nerv oder gleich mehrere — und liegt das Problem im Nerven selbst oder in seiner Umgebung?",
+    sections: [
+      {
+        type: "text",
+        text: "Periphere Neuropathien werden anhand ihres klinischen Erscheinungsbildes in zwei Gruppen eingeteilt. Mononeuropathien sind Läsionen eines einzelnen peripheren Spinalnervs (z. B. eine Radialislähmung) oder eines einzelnen Kopfnervs (z. B. eine idiopathische Trigeminusneuritis). Polyneuropathien betreffen dagegen mehrere spinale Nerven und/oder auch Kopfnerven (z. B. metabolisch bedingte Neuropathien). Charakteristisch für viele Polyneuropathien: Die Ausfälle beginnen häufig zuerst in den Hintergliedmaßen, breiten sich später auf die Vordergliedmaßen und schließlich auf die Kopfnerven aus.",
+      },
+      {
+        type: "text",
+        heading: "Wo genau liegt das Problem?",
+        text: "Pathologische Prozesse betreffen entweder das Interstitium — bestehend aus Bindegewebe (z. B. bei neoplastischer Infiltration) und Gefäßen (z. B. bei einer Vaskulitis) — oder die Nervenfaser selbst, bestehend aus Axon und Myelinscheide.",
+      },
+      {
+        type: "text",
+        heading: "Zwei Schädigungsmuster der Nervenfaser",
+        text: "Je nach Angriffspunkt der schädigenden Noxe kommt es entweder zur neuro-axonalen Degeneration (das Axon selbst wird geschädigt) oder zur Demyelinisierung (nur die Myelinscheide wird abgebaut, das Axon bleibt zunächst erhalten). Am häufigsten kommen Mischformen vor — eine eindeutige Klassifizierung als vorwiegend neuro-axonal oder vorwiegend demyelinisierend ist nur mittels Elektrodiagnostik sowie Muskel- und Nervenbiopsie möglich. Typischer elektrophysiologischer Befund bei Demyelinisierung ist eine deutlich verminderte Nervenleitgeschwindigkeit, die bis zum vollständigen Leitungsblock reichen kann.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostisches Vorgehen",
+        text: "Die Lokalisation einer peripheren Nervenläsion gelingt häufig bereits durch eine genaue klinisch-neurologische Untersuchung mit hoher Genauigkeit — wichtig ist die Analyse der sensiblen, motorischen und vegetativen Ausfälle sowie die Suche nach neurogenen Reizzeichen (Schmerzlokalisation und -provokation). Bei klinisch unsicherer Lokalisation ist die Elektrodiagnostik die naheliegende erste Zusatzuntersuchung, eine neuroradiologische Untersuchung kommt erst in zweiter Linie infrage.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Nervensystem\" (A. Jaggy/I. Kathmann), Unterabschnitt „Lokalisation: Peripheres Nervensystem (PNS)\". Die Mono-/Polyneuropathie-Definitionen samt Beispielen, die Unterscheidung Interstitium/Nervenfaser, die beiden Schädigungsmuster sowie das diagnostische Stufenschema sind im Original so beschrieben. Bewusst NICHT übernommen: die im Original anschließend besprochenen spezifischen Einzelkrankheiten (z. B. feline Aortenthrombose, Coonhound-Paralyse, diabetische Polyneuropathie) — diese sind entweder katzen- oder seltenheitsspezifisch und passen eher in eine spätere, gezielte Ergänzung als in diesen Grundlagen-Eintrag. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "seddon-klassifikation-nervenverletzungen",
+    category: "PATHOLOGIE",
+    title: "Neurapraxie, Axonotmesis, Neuronotmesis — Nervenverletzungen nach Seddon einordnen",
+    teaser:
+      "Nicht jede traumatische Nervenschädigung ist gleich schwer — die Seddon-Klassifikation entscheidet zwischen Tagen und Jahren Erholungszeit.",
+    sections: [
+      {
+        type: "text",
+        text: "Der häufigste Grund für eine Monoparese/Monoplegie ist die traumatische Schädigung eines Nervenplexus oder eines peripheren Nervs. Periphere Nervenläsionen werden nach Seddon in drei Schädigungsgrade eingeteilt, die sich in Struktur, Prognose und Erholungszeit deutlich unterscheiden.",
+      },
+      {
+        type: "table",
+        heading: "Die drei Schädigungsgrade nach Seddon",
+        columns: ["Grad", "Strukturelle Schädigung", "Prognose und Erholung"],
+        rows: [
+          [
+            "Neurapraxie",
+            "Vorübergehender Leitungsblock/Funktionsverlust ohne Schädigung von Neuron oder Perineurium (Beeinträchtigung der Membran-Erregbarkeit oder der Myelinscheide)",
+            "Günstige Prognose — Erholung zwischen Tagen und Wochen nach Beseitigung der Ursache",
+          ],
+          [
+            "Axonotmesis",
+            "Das Neuron (Axon) ist durchtrennt, das Perineurium bleibt intakt. Das distale Ende unterliegt der Waller-Degeneration",
+            "Prognostisch nicht ungünstig, wenn die Ursache gefunden und beseitigt wird. Erholung hängt vom Abstand der Axonstümpfe ab — langsame Regeneration (Faserwachstum 1–3 mm/Tag), kann Monate bis Jahre dauern. Meist konservative Therapie, ggf. chirurgische Exploration",
+          ],
+          [
+            "Neuronotmesis",
+            "Totale Durchtrennung des Nervs inklusive Perineurium, z. B. durch scharfen Schnitt oder schwere Traktionstraumen/Weichteilwunden",
+            "Prognostisch schlecht — ohne chirurgische Intervention ist die Regeneration extrem langsam und endet als funktionell unvollständiges, schlecht organisiertes Gewebe",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Was nach der Durchtrennung im Nerv passiert",
+        text: "Nach einer Axondurchtrennung entstehen zwei ungleichwertige Abschnitte: Der distale Stumpf (vom Zellkörper getrennt) degeneriert vollständig (Waller-Degeneration), der proximale Stumpf degeneriert nur über wenige Millimeter (retrograde Degeneration). Nach etwa einer Woche beginnt die Regeneration: Die Schwann-Zellen bleiben distal intakt und proliferieren zu einem Führungsrohr, durch das das wachsende Axon seinen Weg zum Muskel sucht. Mehrere Axonsprossen versuchen dabei gleichzeitig, den Muskel zu erreichen — sobald der schnellste Spross ankommt, degenerieren die übrigen. Der Erfolg der Regeneration hängt vom Abstand zwischen Verletzungsort und Zielmuskel, vom Abstand der beiden Nervenstümpfe sowie vom Ausmaß der Narbenbildung ab, die zur Bildung eines Neuroms (abnormal wachsendes Nervengewebe) führen kann.",
+      },
+      {
+        type: "text",
+        heading: "Verknüpfung zu bereits vorhandenem Wissen",
+        text: "Diese Klassifikation ergänzt die bereits behandelten Wissenseinträge zur Nervenkompression und Neurotensionsbehandlung um die strukturelle Verletzungsebene: Dort ging es um Druck-/Dehnungsschwellen und Mechanosensitivität bei (noch) intaktem Nerv — die Seddon-Klassifikation beschreibt dagegen, was passiert, sobald der Nerv strukturell tatsächlich geschädigt wird, und warum die Erholungszeit dabei von Tagen bis zu Jahren reichen kann.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund überbewertet", "falsche Priorisierung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Nervensystem\" (A. Jaggy/I. Kathmann), Unterabschnitt „Spinalnervenschädigung durch Trauma\". Die Seddon-Klassifikation mit allen drei Schädigungsgraden, deren struktureller Definition und Prognose sowie der Regenerationsmechanismus (Waller-Degeneration, retrograde Degeneration, Schwann-Zell-Führungsrohr, Neurombildung) sind im Original so beschrieben. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

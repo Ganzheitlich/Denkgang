@@ -42,8 +42,8 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 38 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
-  Untersuchung, 12 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
+- Wissensbibliothek: 42 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 4
+  Untersuchung, 15 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
@@ -162,13 +162,23 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       den kurzen Stichpunkt-Beispielen aus dieser Quelle — keine eigene
       Tiefenrecherche zu z. B. Ehlers-Danlos beim Hund oder zerebellärer
       Ataxie gemacht.
-- [ ] Abschnitt „Nervensystem" (A. Jaggy/I. Kathmann): neurologische
-      Störungen des Bewegungsapparates (Propriozeptionsausfälle, Monoparese/
-      Paraparese/Tetraparese/Hemiparese-Klassifikation) — nur angelesen,
-      nicht ausgewertet
+- [x] Abschnitt „Nervensystem" (A. Jaggy/I. Kathmann), Grundbegriffe und
+      Lokalisationslogik: Lähmungs-/Ataxie-/Dysmetrie-Terminologie (als
+      `laehmung-ataxie-dysmetrie-grundbegriffe`), UMN/OMN-Läsionslokalisation
+      inkl. Warnhinweis zur international abweichenden UMN-Abkürzung (als
+      `umn-omn-laesionslokalisation`), Mono-/Polyneuropathie-Lokalisation
+      (als `mono-polyneuropathie-lokalisation`) und die Seddon-Klassifikation
+      von Nervenverletzungen (als `seddon-klassifikation-nervenverletzungen`,
+      verknüpft mit den bereits vorhandenen Neurotension-Einträgen). Bewusst
+      NICHT übernommen: die anschließend besprochenen Einzelkrankheiten
+      (feline Aortenthrombose/Kippfenstersyndrom, Coonhound-Paralyse,
+      diabetische Polyneuropathie) — katzen- bzw. seltenheitsspezifisch,
+      passen eher in eine spätere gezielte Ergänzung als in Grundlagen-Einträge.
 - [ ] Rest der Datei (Literaturverzeichnis zeigt u. a. Kapitel zu
       Polyneuropathien, Klinischer Pathophysiologie, Canine Rehabilitation)
-      noch nicht systematisch gesichtet
+      noch nicht systematisch gesichtet — diese Quelle gilt damit als
+      inhaltlich weitgehend ausgeschöpft für die aktuell relevanten
+      Denkgang-Themen (Bewegungsapparat + Grundlagen-Neurologie).
 
 ### PATHOLOGIE — VetCenter, „Wirbelsäulenerkrankungen" (eigene Datei, noch ungelesen)
 
