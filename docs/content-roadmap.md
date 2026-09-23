@@ -42,8 +42,8 @@ kein Überblick verloren geht.
 
 ## Stand (21.09.2026)
 
-- Wissensbibliothek: 35 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
-  Untersuchung, 9 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
+- Wissensbibliothek: 38 Einträge (7 Anatomie-Spiegelungen, 5 Grundlagen, 4
+  Untersuchung, 12 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
@@ -103,9 +103,13 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
 - [ ] Generalisierte Skeletterkrankungen: Osteochondrose (OC), weitere im
       Kapitel 8.2 folgende Erkrankungen (Panostitis, hypertrophe Osteodystrophie
       — Seitenbereich noch nicht gelesen)
-- [ ] Hüftgelenkdysplasie (HD) als eigenständiges Krankheitsbild (Definition,
+- [~] Hüftgelenkdysplasie (HD) als eigenständiges Krankheitsbild (Definition,
       Ätiologie, Diagnostik) — bisher nur über Ortolani-Test (Hárrer) und als
-      Differential erwähnt, noch keine eigene Quelle gelesen
+      Beispiel für Gelenkinkongruenz in `arthrose-mechanische-hauptursachen`
+      abgedeckt (inkl. der konkreten HD-Kausalkette: Inkongruenz → Druck am
+      Pfannenrand → biochemische Knorpelzerstörung). Eine eigenständige
+      HD-Quelle mit Definition/Diagnostik/Röntgenscoring (z. B. FCI/OFA-Score)
+      fehlt weiterhin.
 - [x] Kreuzbandriss / vordere Kreuzbandruptur — zentral für Fall Bruno; die
       klinischen Tests (Lachmann, Tibiakompression, Apley, McMurray) sind über
       Hárrer Kap. 8, S. 85–87 als eigener Untersuchung-Wissenseintrag
@@ -143,12 +147,21 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
 
 - [x] Achsenabweichung (Varus/Valgus, Patellaluxation als Beispiel,
       Quadrizeps-Zugmechanik) — für `patellaluxation-krankheitsbild` genutzt
-- [ ] Myogelose (Ätiologie/Pathogenese bereits angelesen, noch nicht als
-      Wissenseintrag umgesetzt — passt gut zu Muskelverspannungs-Themen)
-- [ ] Instabilität (Bänderrisse, Ehlers-Danlos-Syndrom als Beispiel für
-      angeborene Bindegewebsschwäche) — noch nicht systematisch gelesen
-- [ ] Neuromuskuläre Imbalancen (zerebellare Ataxie, Zustand nach
-      Bandscheibenvorfall, Polyneuropathie als Beispiele) — noch nicht gelesen
+- [x] Myogelose, Muskelhartspann, Muskelkontraktur, Muskeltrauma,
+      Muskelzerrung, Weichteilrheumatismus — komplette Differenzierung als
+      `muskulaere-weichteilbefunde-differenzieren` umgesetzt
+- [x] Pathologie der Gelenke, Allgemeines/Begriffsbestimmung + Pathogenese
+      der Knorpelschäden (Arthrose vs. Arthritis, IL-1/TNF-α-Kaskade,
+      Schmerz-Schonhaltungs-Kreislauf, Grenzen der Physiotherapie) — als
+      `arthrose-pathogenese-circulus-vitiosus` umgesetzt
+- [x] Die vier mechanischen Hauptursachen der Arthrose (Inkongruenz,
+      Achsenabweichung, Instabilität, neuromuskuläre Imbalance) mit
+      angeboren/erworben-Beispielen und HD-Kausalkette — als
+      `arthrose-mechanische-hauptursachen` umgesetzt. Instabilität und
+      neuromuskuläre Imbalance damit als Kategorie abgedeckt, aber nur mit
+      den kurzen Stichpunkt-Beispielen aus dieser Quelle — keine eigene
+      Tiefenrecherche zu z. B. Ehlers-Danlos beim Hund oder zerebellärer
+      Ataxie gemacht.
 - [ ] Abschnitt „Nervensystem" (A. Jaggy/I. Kathmann): neurologische
       Störungen des Bewegungsapparates (Propriozeptionsausfälle, Monoparese/
       Paraparese/Tetraparese/Hemiparese-Klassifikation) — nur angelesen,

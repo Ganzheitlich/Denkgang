@@ -3100,6 +3100,166 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["quadriceps"],
   },
+  {
+    id: "muskulaere-weichteilbefunde-differenzieren",
+    category: "PATHOLOGIE",
+    title: "Myogelose, Muskelhartspann & Co. — ähnliche Weichteilbefunde unterscheiden",
+    teaser:
+      "„Der Muskel ist verspannt\" kann sehr Unterschiedliches bedeuten — und die Unterscheidung entscheidet über Prognose und Behandlung.",
+    sections: [
+      {
+        type: "text",
+        text: "Tastbare Muskelverhärtungen und Verspannungen werden in der Praxis leicht über einen Kamm geschoren. Tatsächlich verbergen sich dahinter unterschiedliche Gewebeveränderungen mit unterschiedlicher Entstehung, Prognose und Behandlung.",
+      },
+      {
+        type: "table",
+        heading: "Sechs Erscheinungsformen im Vergleich",
+        columns: ["Befund", "Charakteristik"],
+        rows: [
+          [
+            "Myogelose (frisch)",
+            "Stecknadelkopf- bis erbsengroß, weiche Konsistenz — therapeutisch z. B. mit Gelotripsie (Massagetechnik) sprengbar",
+          ],
+          [
+            "Myogelose (alt)",
+            "Derb, bindegewebig verkapselt, mit deutlichem Hypertonus der umgebenden Muskulatur — therapieresistent; der umgebende Hypertonus lässt sich aber durch dosierte Friktionen bessern. Differentialdiagnostisch kommen Tumoren in Betracht",
+          ],
+          [
+            "Muskelhartspann",
+            "Langanhaltende Verspannung als Reaktion auf lokalen/übertragenen Schmerz (muskuläre Schutzspannung) oder als intrinsischer Muskelspasmus durch Durchblutungs-/Stoffwechselstörung bei Dauerkontraktion. Kann auch reflektorisch durch entzündliche Organveränderungen entstehen — akut, chronisch oder rezidivierend",
+          ],
+          [
+            "Muskelkontraktur",
+            "Beginnt als reversible Verkürzung durch Bewegungseinschränkung/-mangel, führt über Adhäsionen zum Bindegewebsumbau — die Verkürzung wird dadurch konserviert und irreversibel",
+          ],
+          [
+            "Muskeltrauma (Ruptur)",
+            "Riss im Muskelbauch oder am Muskel-Sehnen-Übergang, akut oder als spontane Ruptur durch schleichende Mikrotraumatisierung. Ödem/Hämatom in der Umgebung, danach Neubildung von Muskelfasern oder — bei größeren Defekten — Narbengewebe. Geringfügige Rupturen: konservativ (Ruhigstellung, bis zu mehreren Wochen); größere Rupturen: operativ",
+          ],
+          [
+            "Muskelzerrung",
+            "Überwiegend bindegewebige Verletzung mit kleinsten Muskelrissen am Muskel-Sehnen-Übergang — konservativ mit Ruhigstellung therapiert",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Weichteilrheumatismus als Sonderfall",
+        text: "Ein wahrscheinlich erblich mitbedingtes, multifaktorielles Schmerzgeschehen mit symmetrisch auftretenden „Tenderpoints\" (maximalen Schmerzpunkten in der Muskulatur). In der Mehrzahl der Fälle sind Rheumafaktoren im Blut nachweisbar, ähnlich wie bei der rheumatoiden Arthritis — ein Hinweis darauf, dass nicht jede diffuse Muskelschmerzhaftigkeit rein lokal-mechanisch erklärbar sein muss.",
+      },
+      {
+        type: "text",
+        heading: "Klinische Bedeutung",
+        text: "Diese Differenzierung ist mehr als Begriffskosmetik: Eine alte Myogelose mit Tumor zu verwechseln (oder umgekehrt), eine Kontraktur für eine akut lösbare Verspannung zu halten, oder eine Ruptur mit reiner Ruhigstellung statt operativer Versorgung zu behandeln, hat jeweils unmittelbare Konsequenzen für Prognose und Therapieerfolg.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund überbewertet", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Muskulatur\" (C.-S. Alexander). Alle sechs Erscheinungsformen samt ihrer beschriebenen Charakteristika, Entstehung und Therapieempfehlung sowie der Weichteilrheumatismus-Absatz sind im Original so beschrieben. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "arthrose-pathogenese-circulus-vitiosus",
+    category: "PATHOLOGIE",
+    title: "Arthrose vs. Arthritis — Begriffe und der Circulus vitiosus der Knorpelzerstörung",
+    teaser:
+      "Warum eine Arthrose sich meist selbst am Leben hält, sobald sie einmal begonnen hat — unabhängig davon, was sie ursprünglich ausgelöst hat.",
+    sections: [
+      {
+        type: "text",
+        heading: "Begriffsklärung",
+        text: "Arthritis bezeichnet eine floride (akute) Entzündung mit den klassischen Entzündungszeichen Rubor, Dolor, Calor, Tumor und Functio laesa; je nach Anzahl betroffener Gelenke spricht man von Mono-, Oligo- oder Polyarthritis. Arthrose bezeichnet dagegen eine degenerative Gelenkerkrankung, die aus einem Missverhältnis zwischen Belastung und Beschaffenheit des Gelenks resultiert. Bei primärer Arthrose lässt sich keine eindeutige Ursache nachweisen, bei sekundärer Arthrose schon. Die Übergänge zwischen beiden Begriffen sind fließend: Eine Arthrose kann aus einer Arthritis entstehen und wieder in eine floride Arthritis übergehen. Wegen der zunehmenden Mitreaktion des angrenzenden Knochens ist auch der Begriff Osteoarthrose/Osteoarthritis (OA) gebräuchlich.",
+      },
+      {
+        type: "list",
+        heading: "Schutzmechanismen des gesunden Gelenkknorpels",
+        items: [
+          "Größtmögliche anatomische Kongruenz der Gelenkflächen, auch mithilfe von Menisken",
+          "Passive Stabilisierung der Gelenkflächen-Position durch umgebende Bänder und Faszien",
+          "Aktive Stabilisierung durch Muskelkontraktion, exakt zeitlich auf den Bewegungsablauf abgestimmt (neuromuskuläre Steuerung)",
+          "Hohe Stoßelastizität des hyalinen Knorpels durch hygroskopische Aggrecane und Wassergehalt",
+          "Hohe Scherkraftresistenz durch ein fest verankertes Netzwerk kollagener Fasern",
+          "Gute Ernährung des Knorpels über die Synovia",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die Pathogenese-Kaskade",
+        text: "Eine mechanische Überlastung provoziert die Chondrozyten zunächst zu vermehrter, aber qualitativ mangelhafter Kollagensynthese — die Fasern sind kurzkettiger und schlechter vernetzt. Der Knorpel quillt dadurch vorübergehend sogar stärker auf (er erscheint zu Beginn dicker), wird dabei aber weicher und mechanisch weniger belastbar. Im weiteren Verlauf senden die Chondrozyten Botenstoffe an die Synovialmembran, die daraufhin Mediatoren bildet — vor allem Interleukin-1 (IL-1) und Tumor-Nekrose-Faktor-α (TNF-α). Diese Mediatoren induzieren in den Chondrozyten wiederum vermehrten Matrixabbau und verminderte Proteoglykan-Synthese. Ob der Prozess ursprünglich rein mechanisch begann oder umgekehrt eine Arthritis über eine veränderte Synovia die Chondrozyten-Ernährung verschlechtert hat, spielt für den weiteren Verlauf keine Rolle mehr — spätestens ab diesem Punkt ist der Krankheitsprozess selbsterhaltend.",
+      },
+      {
+        type: "text",
+        heading: "Der Schmerz-Schonhaltungs-Kreislauf",
+        text: "Entzündungsmediatoren und mechanische Reizung stimulieren Nozizeptoren in Gelenkkapsel, Periost und subchondralem Knochen; die Schmerzinformation läuft über schnelle Aδ- und langsame C-Fasern zum ZNS. Die Folge ist eine (oft unbewusste) Schonhaltung mit eingeschränktem Bewegungsradius. Das wiederum verschlechtert die Knorpelernährung (die „Schwammfunktion\" durch wechselnde Be- und Entlastung fällt aus), belastet andere Gelenkareale dauerhaft stärker, lässt die Muskulatur atrophieren — wodurch sie weniger zur Stabilisation beitragen kann — oder überlastet sie durch anhaltende Kontraktur. All das beschleunigt die Arthrose weiter und kann im Lauf der Zeit sogar Nachbargelenke oder andere Gliedmaßen einbeziehen (z. B. eine Vorderhandlahmheit als Folge einer Hüftgelenkdysplasie).",
+      },
+      {
+        type: "text",
+        heading: "Grenzen der Physiotherapie",
+        text: "Die anatomisch oder biochemisch bereits nachweisbare Arthrose im Gelenk selbst kann durch Physiotherapie nicht rückgängig gemacht werden. Realistisches Ziel ist der Stillstand des Fortschreitens und klinische Symptomlosigkeit — erreicht, indem ungünstige Bewegungsmuster unterbunden und die peripheren Folgen der Arthrose (Schonhaltung, Dysbalancen, Atrophie) ausgeglichen werden.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund überbewertet", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Pathologie der Gelenke\" (G. Baatz), Unterabschnitte „Allgemeines, Begriffsbestimmung\" und „Pathogenese der Knorpelschäden\" (nach Pschyrembel 2001 zitiert). Die Begriffsklärung, die Schutzmechanismen des gesunden Knorpels, die Pathogenese-Kaskade inklusive IL-1/TNF-α, der Schmerz-Schonhaltungs-Kreislauf sowie die ausdrückliche Aussage zu den Grenzen der Physiotherapie sind im Original so beschrieben. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl.",
+    relatedCaseIds: ["bruno", "luna"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "arthrose-mechanische-hauptursachen",
+    category: "PATHOLOGIE",
+    title: "Die vier mechanischen Hauptursachen der Arthrose",
+    teaser:
+      "Inkongruenz, Achsenabweichung, Instabilität und neuromuskuläre Imbalance — vier Wege, wie aus gesundem Knorpel eine Arthrose wird, oft in Kombination.",
+    sections: [
+      {
+        type: "text",
+        text: "Gesunder Knorpel und gesunde Synovia können durch unphysiologische Belastung dennoch geschädigt werden (\"normaler Knorpel — pathologische Last\"). Vier mechanische Ursachen führen zu einer solchen pathologischen Belastung, häufig in Kombination.",
+      },
+      {
+        type: "table",
+        heading: "Die vier Ursachen mit je einem angeborenen und einem erworbenen Beispiel",
+        columns: ["Ursache", "Angeboren/genetisch fixiert", "Erworben"],
+        rows: [
+          [
+            "Inkongruenz der Gelenkflächen",
+            "Hüftgelenkdysplasie (HD), Ellbogengelenkdysplasie (Distractio cubiti, loser Proc. anconaeus/coronoideus medialis u. a.)",
+            "Postoperativer Zustand nach suboptimal versorgten Gelenkfrakturen, Luxationen oder Bänderrissen; eingeklemmte Corpora libera (Gelenkmäuse)",
+          ],
+          [
+            "Achsenabweichung",
+            "Varus-/Valgusstellung durch inkongruentes Epiphysenwachstum, Patellaluxation (siehe eigener Wissenseintrag)",
+            "Suboptimal verheilte Epiphysenfrakturen (Salter-Harris I–V), Röhrenknochenfrakturen mit Winkelung oder Rotation der Fragmente",
+          ],
+          [
+            "Instabilität",
+            "Angeborene Bindegewebsschwäche (z. B. Ehlers-Danlos-Syndrom)",
+            "Bänderrisse, z. B. Ruptur des kranialen Kreuzbandes (siehe eigener Wissenseintrag)",
+          ],
+          [
+            "Neuromuskuläre Imbalance",
+            "Zerebellare Ataxie",
+            "Zustand nach Bandscheibenvorfall, Polyneuropathie, Quadrizepskontraktur",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Hüftgelenkdysplasie als Paradebeispiel",
+        text: "Der hyaline Knorpel eines an HD erkrankten Welpen ist ursprünglich völlig gesund. Durch die Inkongruenz von Kopf und Pfanne entstehen aber unphysiologisch hohe Drücke am Pfannenrand und starke Zugkräfte an den Kapselansätzen. Das schädigt zunächst diese Strukturen, setzt Entzündungsmediatoren frei und verändert dadurch die Synovia — jetzt wird der Knorpel auch biochemisch zerstört und hält der Belastung noch weniger stand. Adipositas oder hohe Bewegungsbeschleunigung beschleunigen diesen Prozess zusätzlich.",
+      },
+      {
+        type: "text",
+        heading: "Verknüpfung",
+        text: "Dieses Vier-Ursachen-Schema ordnet bereits einzeln behandelte Krankheitsbilder in einen gemeinsamen kausalen Rahmen ein: Ellbogengelenkdysplasie und Hüftgelenkluxation gehören zur Inkongruenz, die Patellaluxation zur Achsenabweichung, der Kreuzbandriss zur Instabilität. Der eigentliche Gewebeschaden — der Circulus vitiosus der Knorpelzerstörung — läuft danach bei allen vier Ursachen nach demselben Muster ab (siehe Wissenseintrag „Arthrose vs. Arthritis\").",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Pathologie der Gelenke\" (G. Baatz), Unterabschnitt „Normaler Knorpel – Pathologische Last\" inkl. der Unterabschnitte zu Inkongruenz. Das Vier-Ursachen-Schema mit den angeboren/erworben-Beispielen sowie die HD-Kausalkette sind im Original so beschrieben. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl.",
+    relatedCaseIds: ["bruno", "luna"],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
