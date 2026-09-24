@@ -5353,6 +5353,274 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["rocky"],
     relatedAnatomyIds: ["biceps"],
   },
+  {
+    id: "lahmheit-laehmung-abgrenzung",
+    category: "PATHOLOGIE",
+    title: "Lahmheit oder Lähmung? Warum Becken- und Halsregion diagnostisch tückisch sind",
+    teaser:
+      "Rückenschmerz beim tiefen Rückendruck kann Cauda-equina-Kompression, Hüftarthrose oder eine Iliopsoaszerrung bedeuten — erst gezielte Bildgebung trennt die Möglichkeiten.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum diese beiden Regionen besonders schwierig sind",
+        text: "Eine gründliche orthopädische bzw. neurologische Untersuchung (Gangbeobachtung, Gelenkpalpation samt Füllung/Stabilität, Knochenpalpation, Haltungs- und Stellreaktionen, spinale Reflexe) führt meist zu einer eindeutigen Zuordnung. Zwei anatomische Regionen erschweren das aber gezielt: die kaudale Wirbelsäule mit Cauda equina und Becken, sowie die tiefe Halswirbelsäule mit dem Plexus brachialis an der Vordergliedmaße. Hier liegen orthopädische und neurologische Strukturen so eng beieinander, dass ein und derselbe Untersuchungsbefund — z. B. Schmerz bei tiefer Rückenpalpation und eingeschränkte, dolente Hüftextension — mehrere völlig unterschiedliche Diagnosen erklären kann.",
+      },
+      {
+        type: "list",
+        heading: "Differentialdiagnosen bei Schmerz/Befund im Becken-Rücken-Bereich",
+        items: [
+          "Lumbosakrale Bandscheibenvorfälle",
+          "Kompression der Cauda equina (z. B. DLSS)",
+          "Intramedulläre Erkrankungen",
+          "Zerrung des M. iliopsoas",
+          "Hüftgelenkdysplasie und Hüftgelenkarthrose",
+          "Becken-, Wirbelsäulen- oder Schwanzfrakturen",
+          "Neoplasien des Skeletts oder umliegender Weichgewebe",
+          "Prostataerkrankungen",
+          "Kreuzbandriss",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die gleiche Falle an der Vordergliedmaße",
+        text: "An der Vordergliedmaße stellt sich das analoge Problem im Bereich der tiefen Halswirbelsäule und des Plexus brachialis: Unklare Lahmheiten älterer Hunde können ebenso gut Ellbogen- oder Schulterarthrose bzw. Bizepstendinitis sein wie Muskeltraumata, eine Plexus-brachialis-Schädigung, ein Bandscheibenvorfall oder eine Instabilität der Halswirbelsäule.",
+      },
+      {
+        type: "text",
+        heading: "Konsequenz für die Bildgebung",
+        text: "Eine voreilige Schlussfolgerung allein aus Palpationsbefunden kann zu falscher Therapie führen. Auch der erfahrene Kliniker kommt hier meist nicht ohne weiterführende Bildgebung aus: konventionelles Röntgen bei Verdacht auf ein orthopädisches Leiden, ergänzt durch Schnittbildverfahren. Bei Verdacht auf eine neurologische Ursache ist die Magnetresonanztomografie das Mittel der Wahl, da die meisten relevanten Strukturen im Weichgewebe liegen; die Computertomografie kommt erst in zweiter Linie zum Einsatz, da sie vor allem knöcherne Strukturen abbildet.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Anatomieverwechslung", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.1 (Abgrenzung zwischen Lahmheit und Lähmung), S. 230. Differentialdiagnosenlisten und Bildgebungsempfehlung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["iliopsoas", "huefte", "rueckenmark"],
+  },
+  {
+    id: "degenerative-lumbosakrale-stenose-cauda-equina",
+    category: "PATHOLOGIE",
+    title: "Degenerative lumbosakrale Stenose (DLSS) und Cauda-equina-Syndrom",
+    teaser:
+      "Aufstehschwierigkeiten, Zehenschleifen, tiefgehaltene Rute beim älteren Schäferhund — die DLSS entwickelt sich über Monate und lähmt die Hintergliedmaßen dabei nie vollständig.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ätiologie und Pathogenese",
+        text: "Im Zentrum der DLSS steht die Degeneration und Protrusion der lumbosakralen Bandscheibe. Die dadurch veränderte Bewegung des Lumbosakralgelenks führt zur sekundären Degeneration von Weichteilen (Lig. flavum, Facettengelenkkapseln) sowie zu knöchernen Zubildungen an den Wirbelgelenken und ventral/lateral von L7 und S1 — meist eine dynamische Verengung von Wirbelkanal und Foramina intervertebralia zwischen L7 und S1. Die daraus resultierende statische und dynamische Kompression der Nervenwurzeln L6, L7 und der sakralen Nerven ist strukturell eine kompressive Radikulopathie, die sich klinisch als Cauda-equina-Syndrom zeigt. Prädisponierend sind lumbosakrale Übergangswirbel, Osteochondrosen der Endplatte des Os sacrum, Diskospondylitiden, Traumata der Region sowie angeborene, primäre Stenosen. Deutsche Schäferhunde und Hunde ab dem 7. Lebensjahr sind übervertreten.",
+      },
+      {
+        type: "list",
+        heading: "Klinisches Bild",
+        items: [
+          "Entwickelt sich meist über Monate, in unterschiedlicher Ausprägung",
+          "Aufstehschwierigkeiten, Lahmheit, Zittern einer oder beider Hintergliedmaßen, Mühe beim Treppensteigen, Zehenschleifen",
+          "Abfallende Rückenlinie, motorische Schwäche der Rute",
+          "Kotabsatz in mehreren Portionen oder Fallenlassen der Kotballen beim Weggehen",
+          "Dorsoflexion der Rute und Lordose der Lendenwirbelsäule schmerzhaft (Extension reduziert dynamisch den Nervenkanaldurchmesser)",
+          "Druckpalpation der kaudalen Lendenwirbelsäule schmerzhaft",
+          "Fortgeschritten: deutliche Muskelreduktion, Harn- und Kotinkontinenz, komplette Rutenlähmung",
+          "Vollständige Lähmung der Hintergliedmaßen tritt bei DLSS nicht auf",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Reflexbefunde: Pseudohyperreflexie als Falle",
+        text: "Die neurologischen Ausfälle sind meist Folge einer Kompression des unteren motorischen Neurons: verzögerte Überkötungsreaktion, reduzierter Flexor- und M.-tibialis-cranialis-Reflex. Auffällig ist eine nicht selten leicht gesteigerte Patellareflexantwort, obwohl der Reflexbogen selbst nicht betroffen ist — durch den Wegfall der antagonistischen Wirkung des Ischiadicusmyotoms auf den Agonisten (Femoralismyotom, M. quadriceps) entsteht eine verstärkte Reflexantwort (Pseudohyperreflexie), die fälschlich als Zeichen des oberen Motoneurons missverstanden werden kann. Analtonus und Perinealreflexe sind erst in fortgeschrittenen Stadien reduziert.",
+      },
+      {
+        type: "text",
+        heading: "Bildgebung und Therapie",
+        text: "Konventionelles Röntgen dient nur der Übersicht (Neoplasien, Traumata) — Spondylosen allein beweisen keine DLSS. Diagnostikum der Wahl ist die Magnetresonanztomografie, mit Abstrichen die Computertomografie; Schnittbildverengungen korrelieren nicht immer mit der Klinik, verlässlicher sind sichtbare Veränderungen an den Cauda-equina-Nervenwurzeln selbst. Ohne Harn-/Kotinkontinenz kann konservativ behandelt werden: Gewichtsreduktion, Bewegungseinschränkung, Physiotherapie zur Muskellockerung und Nervkonduktionsverbesserung, Schmerzstillung (NSAID oder Gabapentin; systemische Kortikosteroide wegen umstrittener Wirksamkeit und Nebenwirkungen eher meiden, epidurale/paravertebrale Depotsteroid-Injektionen zeigen einzelne positive Hinweise). Bei Therapieversagen oder Progression folgt die chirurgische Dekompression (dorsale Laminektomie L7/S1, Annulektomie, laterale Foraminotomie, ggf. Pedikelschrauben-Stabilisierung). Die Prognose ist bei einer Erfolgsrate von 67–95 % in der Regel gut, abhängig vom präoperativen Schweregrad.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Anatomieverwechslung", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.2 (Degenerative lumbosakrale Stenose und Cauda equina-Syndrom), S. 230–232. Ätiologie, Klinik, Bildgebung und Therapie sind im Original so beschrieben. Ergänzt und vertieft den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.6, Kap. 7.10.2) um die volle klinische Tiefe aus Kapitel 9. Konkrete Medikamentendosierungen aus dem Original bewusst nicht übernommen (Zielgruppe Physiotherapeuten, keine Verschreibungsbefugnis).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark", "discus"],
+  },
+  {
+    id: "degenerative-myelopathie-hund",
+    category: "PATHOLOGIE",
+    title: "Degenerative Myelopathie (DM): der SOD1-Gentest als Zuchtinstrument",
+    teaser:
+      "Schmerzlose, langsam fortschreitende Hinterhandschwäche beim älteren Schäferhund — genetisch testbar, aber medikamentös nicht behandelbar.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ätiologie und Pathogenese",
+        text: "Die degenerative Myelopathie (DM) ist eine Axonerkrankung mit Nekrose in den lateralen und dorsalen Anteilen des thorakolumbalen Rückenmarks — betroffen ist primär die weiße Rückenmarksubstanz. Durch die Demyelinisierung degenerieren die Axone, die Kommunikation zwischen Gehirn und Gliedmaßen geht fortschreitend verloren. Ursache ist eine Mutation des SOD1-Gens: homozygote Träger erkranken mit sehr hoher Wahrscheinlichkeit, bei heterozygoten Trägern entwickelt sich die Krankheit kaum und wurde nur bei wenigen sehr alten Hunden beobachtet. Deutsche Schäferhunde sind übervertreten, DM kommt aber auch bei Boxern, Hovawarten und Pembroke Welsh Corgis vor. Betroffene Hunde sind mittelalt bis alt. Der Gentest wird von mehreren Rasseclubs bereits zur züchterischen Kontrolle eingesetzt.",
+      },
+      {
+        type: "text",
+        heading: "Klinisches Bild",
+        text: "Langsamer, progressiver Verlauf mit Ataxie der Hintergliedmaßen, Schwäche und Parese; die Hintergliedmaßen können dabei gekreuzt stehen bleiben. Rückenschmerz fehlt meist. Die Reflexe der Hinterhand sind normal bis gesteigert (Ausdruck eines oberen Motoneuron-Ausfalls), wobei der Patellareflex manchmal auch ganz ausfallen kann. In späten Stadien werden die Hunde harn- und kotinkontinent, bei langem Verlauf ist auch die Vordergliedmaßenfunktion betroffen.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik und Therapie",
+        text: "Da DM eine Ausschlussdiagnose ist, dienen Röntgen und MRT der Wirbelsäule/des Nervengewebes dem Ausschluss der wichtigen Differentialdiagnosen chronische intervertebrale Erkrankung, Neoplasie und Meningomyelitis; eine Liquoruntersuchung schließt Infektionen aus. Die Diagnose wird im Ausschlussverfahren gestellt, insbesondere bei positivem SOD1-Gentest. Eine medikamentöse Behandlung existiert nicht — zu erwarten ist ein sich schubweise verschlechternder Verlauf über Monate bis maximal wenige Jahre, wonach die Euthanasie erfolgen muss. Intensive, gezielte Physiotherapie kann die Gehfähigkeit verlängern.",
+      },
+      {
+        type: "text",
+        heading: "Abgrenzung von der DLSS",
+        text: "DM und DLSS überschneiden sich klinisch (beide: langsam progrediente Hinterhandschwäche beim älteren, oft großen Hund), unterscheiden sich aber deutlich: DLSS zeigt Rückenschmerz und Reflexbefunde des unteren Motoneurons (Cauda-equina-Kompression), DM ist meist schmerzlos mit Reflexbefunden des oberen Motoneurons (intramedulläre Axondegeneration). Diese Unterscheidung ist klinisch relevant, weil DLSS operativ dekomprimiert werden kann, DM dagegen nicht.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Differentialdiagnostik unvollständig", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.3 (Degenerative Myelopathie), S. 232. Ätiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.5, Kap. 7.10.2) um die volle klinische Tiefe aus Kapitel 9.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "rueckenmarksinfarkt-fibrokartilaginoese-embolie",
+    category: "PATHOLOGIE",
+    title: "Rückenmarksinfarkt (fibrokartilaginöse Embolie): perakut und meist schmerzlos",
+    teaser:
+      "Ein junger, großer Hund kollabiert beim Spielen ohne erkennbares Trauma — die fehlende Ausfallskaskade und der fehlende Rückenschmerz unterscheiden den Infarkt von der Kompression.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ätiologie und Pathogenese",
+        text: "Fibrokartilaginöses Material aus dem Nucleus pulposus kann über venöse Sinus der Wirbelkörper ins spinale Gefäßsystem abgeschwemmt werden. Der Embolus löst dort eine ischämische oder blutige Infarzierung des Neuroparenchyms aus; die Nervenzellen nekrotisieren, die Axone schwellen an, eine begleitende Schwellung schädigt umliegendes Rückenmarkgewebe zusätzlich lokal. Betroffen sind vor allem mittelgroße bis große, jungadulte Hunde. Die meisten Infarkte liegen an den Intumeszenzen lumbosakral oder zervikothorakal.",
+      },
+      {
+        type: "text",
+        heading: "Klinisches Bild: keine logische Ausfallskaskade",
+        text: "Die Symptomatik ist meist perakut, oft während des Spielens und ohne beobachtetes Trauma; nach einer initialen Phase ändert sie sich kaum noch. Die neurologischen Zeichen sind Ausdruck der intramedullären Schädigung und können asymmetrisch sein. Anders als bei extramedullärer Kompression (Rückenschmerz → Ataxie → Lokomotionsstörung → Ausfall des Oberflächenschmerzes → Ausfall des Tiefenschmerzes) findet sich beim Rückenmarksinfarkt keine solche logische Ausfallskaskade — Rückenschmerz fehlt meist ganz. Viele Patienten zeigen mehr oder weniger starke Paresen.",
+      },
+      {
+        type: "text",
+        heading: "Bildgebung",
+        text: "Röntgenbilder und Schnittbilder der Wirbelsäule dienen dem Ausschluss anderer Ursachen (kompressive/nicht kompressive Bandscheibenerkrankungen, Neoplasien, Traumata, Meningomyelitis). Im MRT zeigt sich der Infarkt als fokale, T2-hyperintense, intramedulläre Läsion. Die Liquoruntersuchung ist meist normal, gelegentlich mit geringer Proteinerhöhung. Eine definitive Diagnose gelingt nur post mortem histopathologisch.",
+      },
+      {
+        type: "text",
+        heading: "Therapie und Prognose",
+        text: "Kortikosteroide sind nicht indiziert — sie beeinflussen weder Verlauf noch Prognose. Wichtig sind Dekubitusprophylaxe (weiche Lagerung), Urinabführung alle 8 Stunden sowie Physiotherapie zum Erhalt der Muskelmasse und zur Durchblutungsförderung. Die Prognose hängt stark von Ausmaß und Lokalisation ab: Infarkte außerhalb der Reflexzentren sind prognostisch günstig, Läsionen innerhalb der Zervikal- oder Lumbalintumeszenz erholen sich unvollständiger und langsamer. Bleibt über 2 Wochen ein sichtbarer Fortschritt aus oder fehlt der Tiefenschmerz, muss eine Euthanasie in Betracht gezogen werden.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.4 (Rückenmarksinfarkt), S. 232f. Ätiologie, Klinik, Bildgebung und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.5, Kap. 7.10.2, dort als „Fibrokartilaginäre Embolie / Rückenmarksinfarkt“) um die volle klinische Tiefe aus Kapitel 9.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "thorakolumbaler-bandscheibenvorfall-therapie",
+    category: "PATHOLOGIE",
+    title: "Thorakolumbaler Bandscheibenvorfall: Fünf-Grade-Skala und Schiff-Sherrington-Phänomen",
+    teaser:
+      "Vom Rückenschmerz bis zum Verlust des Tiefenschmerzes — der Schweregrad des thorakolumbalen Bandscheibenvorfalls bestimmt direkt Therapieplan und Prognose.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ätiologie und Pathogenese",
+        text: "Der thorakolumbale Bandscheibenvorfall ist die häufigste spinale Erkrankung des Hundes. Die akute Herniation des metaplasierenden Nucleus pulposus durch den ebenfalls degenerierten Anulus fibrosus (Diskusextrusion) führt zu den klassischen Bandscheibenproblemen mittelalter Hunde zwischen Th10 und L6 (70 % davon zwischen Th12 und L2) und komprimiert das Rückenmark direkt extradural mit begleitender Folgeschwellung. Chondrodystrophe Rassen (Dackel, Pekinese, Beagle, Pudel) sind prädisponiert. Bei nicht-chondrodystrophen, größeren Rassen entsteht histologisch ebenfalls eine chondroide Metaplasie des Nucleus pulposus, der Vorfall äußert sich hier aber eher als Diskusprotrusion (Vorwölbung von Anulusfasern) mit chronisch-progressivem Charakter statt einem akuten Ereignis.",
+      },
+      {
+        type: "list",
+        heading: "Fünf Schweregrade der extraduralen Kompression",
+        items: [
+          "1. Rückenschmerzen",
+          "2. Propriozeptionsausfälle und Ataxie",
+          "3. Verlust der Motorik der Hintergliedmaßen mit spastisch gehaltenen Beinen",
+          "4. Verlust des Oberflächenschmerzes beim Kneifen der Haut der Hintergliedmaße",
+          "5. Verlust des Tiefenschmerzes bei Druck auf die Zehenknochen der Hintergliedmaße",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Reflexbefunde und das Schiff-Sherrington-Phänomen",
+        text: "Die Kompression des oberen Motoneurons im thorakolumbalen Bereich bedingt eine partielle bis komplette Enthemmung der Reflexe der Hintergliedmaße durch das Gehirn: Patellareflex, M.-tibialis-cranialis-Reflex und Blasensphinktertonus sind gesteigert, die Reflexe der Vordergliedmaße bleiben normal. Die Blasenentleerung gelingt bei der oft prall gefüllten Blase nur mühsam. Eine sehr tiefe Läsion im Segment T3–L3 kann durch Ausschalten eines weiteren Hemmzentrums eine starke Erhöhung des Muskeltonus der Vordergliedmaße auslösen — das Schiff-Sherrington-Phänomen.",
+      },
+      {
+        type: "text",
+        heading: "Bildgebung und Therapie",
+        text: "Diagnostikum der Wahl ist die Magnetresonanztomografie, in zweiter Linie die Computertomografie — beide vor allem dann, wenn eine dekompressive Chirurgie infrage kommt. Konventionelles Röntgen hat nur limitierte Aussagekraft. Bei Rückenschmerzen und Propriozeptionsausfällen kann konservativ behandelt werden (Schmerzmittel, Physiotherapie, kontrollierte Bewegung, Ruhe; der Nutzen von Kortikosteroiden ist umstritten und ein abschwellender Effekt am komprimierten Rückenmark nicht belegt). Bei Rezidiven oder beginnendem Motorikverlust ist die dekompressive Chirurgie indiziert (Hemilaminektomie, Mini-Hemilaminektomie, Pedikulektomie oder dorsale Laminektomie), ggf. ergänzt durch präventive Fenestration des Anulus fibrosus zur Senkung des Reherniationsrisikos. Nach erfolgreicher Dekompression ist intensive Nachsorge (Schmerzmittel, Physiotherapie, Umlagerungen, Blasenentleerungskontrollen) entscheidend für das Ergebnis; die Prognose hängt von Vorfallausmaß, Zeitpunkt der Dekompression, chirurgischer Technik und postoperativer Betreuung ab.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.5 (Thorakolumbaler Bandscheibenvorfall), S. 233f. Ätiologie, Gradierung, Reflexbefunde, Bildgebung und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.6, Kap. 7.10.2) sowie den Lokalisationsalgorithmus-Eintrag (Kap. 7.10.1, dort bereits mit der gleichen Fünf-Grade-Skala) um die krankheitsspezifische klinische Tiefe aus Kapitel 9.",
+    relatedCaseIds: ["filou"],
+    relatedAnatomyIds: ["discus", "rueckenmark"],
+  },
+  {
+    id: "zervikaler-bandscheibenvorfall-hund",
+    category: "PATHOLOGIE",
+    title: "Zervikaler Bandscheibenvorfall: steifer Gang mit tief gehaltenem Kopf",
+    teaser:
+      "Weil die Halswirbelsäule dem Rückenmark mehr Platz lässt, fallen zervikale Bandscheibenvorfälle oft erst spät auf — die Prognose ist dafür meist besser als thorakolumbal.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ätiologie und Pathogenese",
+        text: "Rund 15 % aller Bandscheibenvorfälle betreffen die zervikale Halswirbelsäule, mit Prädilektionsstellen zwischen C2/C3 bzw. C3/C4 bei kleinen Hunderassen; bei großen Rassen sind eher die tiefzervikalen Segmente C5–C7 betroffen. Vorwiegend chondrodystrophe Rassen sind betroffen, aber auch der Dobermann Pinscher ist übervertreten. Beim Beagle werden mehr zervikale als thorakolumbale Bandscheibenvorfälle beobachtet.",
+      },
+      {
+        type: "text",
+        heading: "Klinisches Bild",
+        text: "Weil die zervikale Wirbelsäule dem Rückenmark mehr Platz lässt als weiter kaudal, werden klinische Symptome erst bei großvolumigen Vorfällen bemerkt. Typisch ist ein steifer Gang mit tief gehaltenem Kopf; die Manipulation der Halswirbelsäule ist sehr schmerzhaft. Da die kortikospinalen Bahnen zu den Hintergliedmaßen im Rückenmark exponierter liegen, führen manche zervikale Bandscheibenvorfälle zunächst zu Paresen der Hinterhand, bevor auch Defizite an der Vorhand nachweisbar werden — ein Befund, der leicht fälschlich als rein thorakolumbales Problem fehlgedeutet werden kann.",
+      },
+      {
+        type: "text",
+        heading: "Bildgebung und Therapie",
+        text: "Auch hier wird auf Schnittbildverfahren zurückgegriffen, Myelografien werden kaum noch durchgeführt. Bei Halsbeugeschmerz ohne weitere neurologische Ausfälle gilt die gleiche konservative Therapie wie beim thorakolumbalen Bandscheibenvorfall. Repetitive Halsbeugeschmerzen und Paresen sind Indikation für eine von ventral oder lateral erfolgende Dekompression (anatomisch anspruchsvoller Zugang wegen vaskulärer und neuraler Strukturen). Weil der weite Wirbelkanal mehr Schwellung erträgt, besteht weniger zeitlicher Druck als beim thorakolumbalen Vorfall — entsprechend gut ist die Prognose: Nach ventraler Korpektomie (ventral slot) erholen sich über 90 % der behandelten Hunde sehr gut. Die Nachbehandlung besteht aus Physiotherapie, Schmerzmitteln und Ruhigstellung.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.6 (Zervikaler Bandscheibenvorfall), S. 234. Ätiologie, Klinik, Bildgebung und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.6, Kap. 7.10.2) um die krankheitsspezifische klinische Tiefe aus Kapitel 9.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["discus", "rueckenmark"],
+  },
+  {
+    id: "plexusschaden-vordergliedmasse",
+    category: "PATHOLOGIE",
+    title: "Plexus-brachialis-Schaden: Physiotherapie statt Nervennaht",
+    teaser:
+      "Nach Zug- oder Sturztrauma bleibt die „Kusshandstellung“ oft das einzig sicher Sichtbare — Reposition und Naht gelingen bei Plexusschäden praktisch nur im Experiment.",
+    sections: [
+      {
+        type: "text",
+        heading: "Mechanismus und klinisches Bild",
+        text: "Traumata oder Stürze aus großer Höhe von kranial oder lateral können zu Dehnungen oder Abrissen der Wurzeln des Plexus brachialis oder seiner abgehenden Nerven (z. B. N. radialis) führen. Es resultiert eine Monoplegie eines Beines mit Zeichen des unteren Motoneurons — schlaffe Lähmung, reduzierte bis abwesende Reflexantworten. Die den geschädigten Nerven entsprechenden Dermatome zeigen bei Reizung keine oder eine verzögerte Reaktion.",
+      },
+      {
+        type: "list",
+        heading: "Wichtige Differentialdiagnosen",
+        items: [
+          "Traumatische, platzfordernde Hämatome",
+          "Seitlich dominierende zervikale Bandscheibenvorfälle",
+          "Nervenscheidentumoren",
+          "Nervenentzündungen (seltener)",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Diagnostik",
+        text: "Die Diagnose wird im Ausschlussverfahren gestellt — über Schnittbildverfahren und schlussendlich eine Elektromyografie. Getrennte Nerven selbst sind nur sehr schwierig darzustellen und zu finden.",
+      },
+      {
+        type: "text",
+        heading: "Therapie: Physiotherapie statt operativer Nervenwiederherstellung",
+        text: "Reposition, Naht und Funktionswiederherstellung durchtrennter Nerven gelingen praktisch nur im experimentellen Rahmen. Bei verletzten Hunden wird deshalb in erster Linie auf Physiotherapie gesetzt: Sie verbessert die Nervenkonduktion und fördert muskuläre Kompensationsmechanismen. Zudem soll die Muskulatur möglichst erhalten werden, bis eine allfällige Reinnervation durch Nachwachsen verletzter Nervenfasern eintritt. Nach 6–12 Monaten ist keine weitere Spontanerholung mehr zu erwarten. Bleibt die proximale Gliedmaße halbwegs funktionsfähig und stehen nur Carpus und Zehen in Flexion, kann eine Orthese verschrieben oder eine Arthrodese des Carpus versucht werden; bei drohender Automutilation muss die Amputation der Gliedmaße in Betracht gezogen werden.",
+      },
+      {
+        type: "text",
+        heading: "Verknüpfung zur Seddon-Klassifikation",
+        text: "Die hier beschriebenen klinischen Konsequenzen (lange Regenerationszeit, oft schlechte Prognose bei kompletter Durchtrennung) entsprechen dem, was die Seddon-Klassifikation strukturell als Axonotmesis bzw. Neuronotmesis beschreibt (siehe entsprechender Wissenseintrag) — ein Plexusabriss betrifft in der Regel eine oder mehrere Nervenwurzeln auf dieser strukturell schweren Ebene, nicht die leichtere, rasch reversible Neurapraxie.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet", "falsche Priorisierung", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.7 (Plexusschaden an der Vordergliedmaße), S. 234–236. Klinik, Differentialdiagnosen, Diagnostik und Therapie sind im Original so beschrieben. Kap. 9 endet danach mit dem Literaturverzeichnis (9.8). Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.7, Kap. 7.10.2) sowie den Seddon-Klassifikations-Eintrag (VetCenter-Quelle) um die krankheitsspezifische klinische Tiefe aus Kapitel 9.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

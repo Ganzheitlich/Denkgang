@@ -62,15 +62,16 @@ kein Überblick verloren geht.
 
 ## Stand (24.09.2026)
 
-- Wissensbibliothek: 90 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 27
-  Untersuchung, 39 Pathologie, 9 Biomechanik, 6 Therapie — genaue Aufteilung
+- Wissensbibliothek: 97 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 27
+  Untersuchung, 46 Pathologie, 9 Biomechanik, 6 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren). Die
-  39 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund, 7
-  Einträge), Kap. 7 (Neurologischer Untersuchungsgang, 9 Einträge) und
-  Kap. 8 komplett (Wichtige Erkrankungen des Skeletts, 23 Einträge, siehe
-  Backlog unten) — damit sind Kap. 6, 7 und 8 des Buches vollständig
-  abgedeckt. Nächstes Kapitel: 9 (Ausgewählte neurologische Erkrankungen,
-  ab S. 230).
+  46 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund, 7
+  Einträge), Kap. 7 (Neurologischer Untersuchungsgang, 9 Einträge), Kap. 8
+  komplett (Wichtige Erkrankungen des Skeletts, 23 Einträge) und Kap. 9
+  komplett (Ausgewählte neurologische Erkrankungen, 7 Einträge, siehe
+  Backlog unten) — **damit ist Koch/Fischer, Lahmheitsuntersuchung beim
+  Hund (ISBN 978-3-13-242101-1), vollständig durchgearbeitet (Kap. 1–9).**
+  Nächster Schritt: nächstes Buch aus dem Backlog wählen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -468,6 +469,45 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       „Ausgewählte neurologische Erkrankungen" (ab S. 230, Chunk u(37) —
       Zuordnung noch nicht einzeln verifiziert, beim Fortsetzen per
       `search_files` neu prüfen).
+- [x] **Kap. 9 „Ausgewählte neurologische Erkrankungen" (S. 230–236)
+      vollständig gelesen und umgesetzt (24.09.2026) — Kapitel 9 ist damit
+      abgeschlossen und das Buch komplett durchgearbeitet (Kap. 9 endet mit
+      dem Literaturverzeichnis 9.8; danach keine weiteren Kapitel mehr im
+      Dokument).** Sieben neue PATHOLOGIE-Einträge:
+      `lahmheit-laehmung-abgrenzung` (9.1: warum Becken-/Cauda-equina- und
+      Hals-/Plexus-brachialis-Region orthopädische und neurologische
+      Differentialdiagnosen verwechselbar machen — inkl. vollständiger
+      DD-Liste und Bildgebungs-Empfehlung MRT vs. CT),
+      `degenerative-lumbosakrale-stenose-cauda-equina` (9.2: DLSS/Cauda-
+      equina-Syndrom mit Pseudohyperreflexie-Falle am Patellareflex),
+      `degenerative-myelopathie-hund` (9.3: SOD1-Gentest, klare Abgrenzung
+      zur DLSS anhand Schmerz vs. schmerzlos und UMN- vs. LMN-Reflexmuster),
+      `rueckenmarksinfarkt-fibrokartilaginoese-embolie` (9.4: FCE, fehlende
+      Ausfallskaskade als Unterscheidungsmerkmal zu kompressiven Läsionen),
+      `thorakolumbaler-bandscheibenvorfall-therapie` (9.5: Fünf-Grade-Skala
+      und Schiff-Sherrington-Phänomen), `zervikaler-bandscheibenvorfall-hund`
+      (9.6) und `plexusschaden-vordergliedmasse` (9.7: warum hier fast
+      immer Physiotherapie statt Nervennaht die Therapie der Wahl ist).
+      **Wichtiger Befund beim Schreiben:** Kapitel 9 liefert für genau die
+      Krankheiten, die in Kap. 7.10.2 (Tab. 7.5–7.7) bereits als
+      Kurz-Übersichtstabelle im bestehenden Eintrag
+      `neurologische-erkrankungen-rueckenmark-periphere-nerven` stehen, jetzt
+      die volle klinische Tiefe (Ätiologie, Pathogenese, Bildgebung,
+      Therapie) nach — alle sieben neuen Einträge sind daher bewusst als
+      ergänzende Vertiefungen zu diesem bereits vorhandenen Eintrag verfasst
+      und verweisen im `sourceStatus` darauf, statt den Tabelleninhalt zu
+      duplizieren. `plexusschaden-vordergliedmasse` verweist zusätzlich auf
+      den bestehenden VetCenter-Eintrag `seddon-klassifikation-
+      nervenverletzungen`. **Medikamentendosierungen** (NSAID/Gabapentin bei
+      DLSS) wie schon bei Kap. 8 bewusst nicht übernommen (Zielgruppe
+      Physiotherapeut:innen). Verifiziert per Playwright-Screenshot (7/7
+      Seiten, 0 Console-/Page-Errors).
+      **Damit ist Koch/Fischer, Lahmheitsuntersuchung beim Hund
+      (ISBN 978-3-13-242101-1), 2. Auflage 2019, vollständig durchgearbeitet
+      (Kap. 1–9).** Nächster Schritt: nächstes Buch aus dem Backlog wählen
+      (Baumgartner Klinische Propädeutik, Mai Physiotherapie-Restkapitel,
+      Hohmann Bewegungsapparat Hund-Restkapitel oder VetCenter
+      Wirbelsäulenerkrankungen — siehe Abschnitte unten).
 
 ### UNTERSUCHUNG — Baumgartner, Klinische Propädeutik der Haus- und Heimtiere
 
