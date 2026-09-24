@@ -4034,6 +4034,556 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["rocky"],
     relatedAnatomyIds: ["biceps", "subscapularis", "supraspinatus", "infraspinatus", "teres-minor"],
   },
+  {
+    id: "neurologische-untersuchung-anamnese-einordnung",
+    category: "UNTERSUCHUNG",
+    title: "Neurologischer Untersuchungsgang — Einordnung und Anamnese",
+    teaser:
+      "Bevor die erste Hand am Hund liegt: Rasse und zwölf gezielte Leitfragen grenzen schon vor der körperlichen Untersuchung ein, wo im Nervensystem das Problem liegen könnte.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ziel: Lahmheit von Lähmung unterscheiden",
+        text: "Der neurologische Untersuchungsgang dient der topischen Diagnose — er soll die Läsion im zentralen oder peripheren Nervensystem lokalisieren, um eine Lahmheit von einer Lähmung abzugrenzen. Eine genauere Lokalisation gelingt oft schon rein klinisch; in vielen Fällen muss die Untersuchung aber durch Bildgebung (Röntgen, CT, MRT) oder elektrische Funktionstests ergänzt werden. Wichtige Rahmenbedingungen: die Tests immer in derselben Reihenfolge durchführen, den Hund in ruhiger Umgebung untersuchen, bei ängstlichen Patienten wiederholen statt fehlzuinterpretieren (v. a. bei Drohreaktion und Schmerzproben), und nur bei kooperativen, unsedierten Hunden beurteilen. Befunde werden schriftlich festgehalten.",
+      },
+      {
+        type: "table",
+        heading: "Rasseprädispositionen aus dem Signalement",
+        columns: ["Population", "Prädisposition"],
+        rows: [
+          ["Chondrodystrophe und ältere Rassen", "Bandscheibenschwäche"],
+          ["Dobermann Pinscher, Deutsche Dogge", "Zervikale Spondylopathie/Instabilität"],
+          ["Schäferhunde", "Degenerative lumbosakrale Stenose (DLSS), degenerative Myelopathie (DM)"],
+          ["Zwerghunde", "Atlantoaxiale Subluxation, Hydrozephalus, Liquorabflussstörung"],
+          ["Rhodesian Ridgeback", "Dermoid-Sinus"],
+          ["American Staffordshire Terrier", "Zerebelläre kortikale Abiotrophie"],
+          ["Bulldoggen, Mops", "Subarachnoidale Divertikel, degenerative/kongenitale Wirbelkanalstenosen"],
+        ],
+      },
+      {
+        type: "list",
+        heading: "Zwölf Leitfragen zur Vorgeschichte",
+        items: [
+          "Verlauf der Erkrankung (akut, chronisch, progressiv, rezidivierend)",
+          "Schilderung von Bewegung, Treppenlaufen, Zehenschleifen",
+          "Haltung von Hals und Rute, Formveränderung des Körpers (v. a. der Rückenlinie)",
+          "Verletzungen und Unfälle",
+          "Verhalten gegenüber Menschen und Tieren, Verhaltensänderung, Aggressivität, Lernschwäche",
+          "Reaktion auf normale Reize, Orientierungsvermögen auf bekanntem/unbekanntem Terrain oder im Dunkeln",
+          "Futteraufnahme vom Boden, Herausfallen von Futter aus dem Fang",
+          "Kotabsatzverhalten",
+          "Frühere und bestehende Erkrankungen",
+          "Erkrankungen der Wurfgeschwister",
+          "Reaktion auf verabreichte Medikamente",
+          "Impfstatus und Reaktion auf Impfungen",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Was einzelne Antworten schon andeuten",
+        text: "Perakutes Auftreten bei einem mittelgroßen Hund ohne Trauma spricht für einen Rückenmarksinfarkt. Akutes Auftreten mit Hinterhandlähmung und Schmerz spricht für Bandscheibenvorfall, eine andere extradurale Kompression oder eine Wirbelsäulenverletzung. Tiefe Rutenhaltung mit Kotabsatz beim Gehen und Kotinkontinenz spricht für DLSS oder andere chronische kompressive Myelopathien. Mühe beim Fressen vom Boden spricht für Bandscheibenvorfall, Wobbler-Syndrom oder atlantoaxiale Subluxation. Eine Wesensveränderung spricht für eine Gehirnläsion.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "falsche Priorisierung", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.1–7.2 (Einordnung, Anamnese), S. 157. Rasseprädispositionen, Leitfragen und Befund-Hinweise sind im Original so beschrieben.",
+    relatedCaseIds: ["filou"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "bewusstsein-haltung-gang-neurologisch",
+    category: "UNTERSUCHUNG",
+    title: "Bewusstsein, Haltung und Gang in der neurologischen Untersuchung",
+    teaser:
+      "Schon bevor der Hund berührt wird, verraten Körperhaltung und Gangbild, ob eher das Großhirn, das Kleinhirn, der Vestibularapparat oder das Rückenmark betroffen sein könnte.",
+    sections: [
+      {
+        type: "text",
+        heading: "Bewusstsein und Verhalten",
+        text: "Der Hund wird in ruhiger Umgebung ohne störende Einflüsse beobachtet. Normal ist ein Bewusstseinszustand, in dem der Hund gezielt auf äußere Reize (Zurufen, Befehle, Klatschen, Kneifen) reagiert. Aggressivität, Unruhe, Orientierungsverlust und stereotype Bewegungen sprechen für neoplastische oder degenerative Enzephalopathien, Stoffwechselstörungen (z. B. Hepatoenzephalopathie) oder kompulsiv-obsessive Verhaltensstörungen. Apathie, Stupor oder Koma sprechen für Trauma, Tumor oder Infektion im Gehirn oder eine Stoffwechselstörung.",
+      },
+      {
+        type: "text",
+        heading: "Haltung",
+        text: "Gliedmaßen, Rumpf, Hals und Hals-Kopf-Achse sollten aufeinander abgestimmt sein; die Muskulatur wird auf Hypo-/Hypertrophie und Dolenz durchpalpiert, die Beweglichkeit der Hals-Kopf-Achse passiv geprüft. Auffällige Haltungsmuster: Schiff-Sherrington (spastisch gestreckte Vorderbeine, meist schlaffe Hinterbeine) spricht für ein tiefes thorakolumbales Rückenmarkstrauma; Opisthotonus für Mittelhirnläsionen; Myoklonien für Staupe oder andere Enzephalomyelitiden; Tremor für Kleinhirnläsionen, Intoxikationen oder Stoffwechselstörungen wie Hypokalzämie; Lordose/Kyphose/Skoliose für Wirbelmissbildungen, Bandscheibenvorfälle oder Syringomyelie; Kopfschiefhaltung für periphere oder zentrale vestibuläre Probleme.",
+      },
+      {
+        type: "text",
+        heading: "Beobachtung des Ganges",
+        text: "Der Hund wird im Schritt, Trab und Galopp vorgeführt. Physiologisch ist eine diagonale Gangart (Flexion einer Hintergliedmaße gleichzeitig mit der kontralateralen Vordergliedmaße, gefolgt von Extension des diagonalen Beinpaares) — Abweichungen davon werden als Inkoordination oder Ataxie bezeichnet. Je nach Lokalisation unterscheidet man spinale, zerebelläre, vestibuläre oder kortikale Ataxie, je nach Ausmaß leicht-, mittel- oder hochgradig. Stolpern, Überköten, Zehenschleifen und Schwanken der Hinterhand sprechen für spinale Ataxie (z. B. degenerative Myelopathie, kompressive Myelopathien Th3–L3); breitbeinige Stellung, spastische Gliedmaßen, Hypermetrie und Kopftremor für zerebelläre Ataxie; Kopfschiefhaltung, Kreislaufen und Gleichgewichtsverlust für vestibuläre Ataxie. Ein völliger Verlust der Bewegungsfähigkeit heißt Plegie/Paralyse, eine Herabsetzung Parese — beide werden je nach betroffenen Gliedmaßen als Mono-, Hemi-, Para- oder Tetraplegie/-parese bezeichnet. Zwangsbewegungen wie Kreisdrehen oder Wandentlanglaufen sprechen für fokale oder diffuse Großhirnveränderungen; ein Passgang hat dagegen meist keine pathologische Bedeutung und ist oft physiologisch.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.3–7.5 (Bewusstsein und Verhalten, Haltung, Beobachtung des Ganges), S. 157–159. Alle beschriebenen Befunde und ihre Zuordnung sind im Original so beschrieben.",
+    relatedCaseIds: ["filou"],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "haltungs-und-stellreaktionen-hund",
+    category: "UNTERSUCHUNG",
+    title: "Haltungs- und Stellreaktionen prüfen",
+    teaser:
+      "Sieben Handgriffe, die subtile Koordinations- und Propriozeptionsstörungen sichtbar machen, lange bevor eine offensichtliche Lähmung zu sehen ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wozu Haltungs- und Stellreaktionen dienen",
+        text: "Diese Tests erfassen subtile Bewegungsstörungen, helfen das Niveau einer Leitungsunterbrechung abzugrenzen und decken Seitenunterschiede auf. Mit Ausnahme der Korrekturreaktion setzen sie ein mittleres Körpermaß und eine gewisse Kooperationsbereitschaft des Hundes voraus.",
+      },
+      {
+        type: "text",
+        heading: "Tischkantenprobe und Unterstützungsreaktion",
+        text: "Bei der Tischkantenprobe wird der hochgehobene Hund einer Tischkante oder Mauer angenähert (optische Variante mit offenen Augen, taktile Variante mit verbundenen Augen und leichtem Pfotenkontakt) — normal ist ein Aufsetzen der sich nähernden Gliedmaße. Fehlende oder stark verzögerte Reaktion spricht für eine Läsion der sensorischen Bahnen, eine Mittelhirnläsion oder Blindheit. Bei der Unterstützungsreaktion wird der Hund mit frei hängenden Gliedmaßen dem Boden angenähert; normal ist Streckung, Steifhaltung und Auffußen beim Bodenkontakt. Fehlende oder verzögerte Reaktion spricht für eine Rückenmarksläsion, eine fokale zerebrale Läsion (kontralateraler Ausfall) oder eine vestibuläre Läsion (ipsilateraler Ausfall).",
+      },
+      {
+        type: "text",
+        heading: "Korrekturreaktion",
+        text: "Eine Gliedmaße des stehenden Hundes wird passiv überkötet (auf die dorsale Fläche des Fußes aufgesetzt). Normal ist ein schnelles Korrigieren in die physiologische Stellung. Eine verzögerte Korrekturreaktion kann durch eine Läsion in Kortex, Kleinhirn, Hirnstamm, Pons, Medulla oblongata, Rückenmark, peripheren Nerven oder Muskeln verursacht sein — dieser Test lokalisiert also nicht sehr spezifisch, ist aber besonders sensibel für subtile Propriozeptionsdefizite.",
+      },
+      {
+        type: "text",
+        heading: "Aufrichtreaktion",
+        text: "Der am Boden mit dem Kopf nach unten gehaltene Hund wird vorsichtig hinuntergelassen. Normal richtet sich zuerst der Kopf auf, dann folgen Halsflexion nach dorsal und Ausstrecken der Vorderbeine. Eine Flexion des Kopfes nach ventral bei diesem Manöver spricht für eine vestibuläre Störung.",
+      },
+      {
+        type: "text",
+        heading: "Hemiwalking und Hüpfreaktion",
+        text: "Beim Hemiwalking werden beide Gliedmaßen einer Körperhälfte angehoben, der Körper wird passiv seitwärts verschoben und die Koordination der stützenden Gliedmaßen im Seitenvergleich beurteilt — ein Koordinationsproblem spricht für eine Kortexläsion. Bei der Hüpfreaktion werden drei Gliedmaßen angehoben und das Tier in verschiedene Richtungen verschoben; normal ist eine koordinierte hüpfende Bewegung mit Auffangen des Körpergewichts auf der verbliebenen Gliedmaße. Stolpern, Schwäche, Kollabieren oder unpassend große/kleine Schritte sprechen für eine Läsion oder Schwäche in Großhirn, Hirnstamm, Kleinhirn oder Rückenmark.",
+      },
+      {
+        type: "text",
+        heading: "Schubkarrentest",
+        text: "Die Hinterbeine werden sanft angehoben und der Hund leicht nach vorwärts gestoßen; er sollte koordiniert auf den Vorderbeinen laufen. Zusätzliches leichtes Flektieren des Halses (nimmt visuelle Information weg) kann subtilere Ausfälle provozieren. Ein tief gehaltener Kopf spricht für ein zervikales Problem, Hypermetrie für eine Läsion im kaudalen Hirnstamm oder Kleinhirn, unsicheres Gehen mit Umfallen/Einsinken/Ataxie für ein zervikales Problem oder eine Läsion des Plexus brachialis.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Untersuchung falsch gewählt", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.6 (Haltungs- und Stellreaktionen), S. 160–163. Alle beschriebenen Tests und Befund-DD-Zuordnungen sind im Original so beschrieben.",
+    relatedCaseIds: ["filou"],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "spinale-reflexe-hund",
+    category: "UNTERSUCHUNG",
+    title: "Spinale Reflexe prüfen und segmental zuordnen",
+    teaser:
+      "Jeder Reflex hat sein eigenes Rückenmarksegment — gesteigerte und abgeschwächte Reflexe zeigen in entgegengesetzte Richtungen und lokalisieren die Läsion damit sehr präzise.",
+    sections: [
+      {
+        type: "text",
+        heading: "Drei Reflextypen",
+        text: "Die Funktion spinaler Reflexe hängt von der Intaktheit der motorischen und sensiblen Nerven, der Muskeln und der grauen Substanz des jeweiligen Rückenmarksegments ab. Bei Muskelstreckreflexen wird der Muskel (und seine neuromuskuläre Spindel) passiv gedehnt, was reflektorisch zur Kontraktion desselben Muskels führt. Beim Oberflächenreflex löst eine Hautstimulation eine Muskelkontraktion aus. Der Flexorreflex ist eine reflektorische Beugung der ganzen Gliedmaße nach Druck auf Fußballen oder Zwischenzehen.",
+      },
+      {
+        type: "table",
+        heading: "Reflexe der Hintergliedmaße",
+        columns: ["Reflex", "Rückenmarksegment", "Auslösung", "Normale Antwort"],
+        rows: [
+          [
+            "Patellareflex",
+            "L2–L6",
+            "Beklopfen des Patellarligaments mit dem Reflexhammer",
+            "Kontraktion des M. quadriceps, Streckung von Knie- und Tarsalgelenk",
+          ],
+          [
+            "M.-tibialis-cranialis-Reflex",
+            "L6–S2",
+            "Beklopfen des Muskels distal des Fibulakopfes",
+            "Beugung des Sprunggelenks",
+          ],
+          [
+            "Flexorreflex der Hintergliedmaße",
+            "L4–S3",
+            "Kneifen von Zehen, Fußballen oder Zwischenzehenhaut",
+            "Ruckartiges Anziehen der ganzen Gliedmaße",
+          ],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Reflexe der Vordergliedmaße und des Rumpfes",
+        columns: ["Reflex", "Rückenmarksegment", "Auslösung", "Normale Antwort"],
+        rows: [
+          [
+            "M.-extensor-carpi-radialis-Reflex",
+            "C7–Th1",
+            "Beklopfen des Muskels unterhalb des Ellbogens",
+            "Leichte Streckung des Carpus",
+          ],
+          [
+            "Flexorreflex der Vordergliedmaße",
+            "C6–Th2",
+            "Kneifen von Zehen, Fußballen oder Zwischenzehenhaut",
+            "Ruckartiges Anziehen der Gliedmaße",
+          ],
+          [
+            "Perinealreflex",
+            "S1–S3",
+            "Berühren/sanftes Kneifen der perinealen Region",
+            "Kontraktion des Analsphincters, Niederdrücken des Schwanzes",
+          ],
+          [
+            "Panniculusreflex",
+            "Bis C8/Th2 (Reflexzentrum), Testbeginn kaudal auf Höhe L6",
+            "Stimulation/Klemmen der Rückenhaut",
+            "Kontraktion der Hautmuskulatur (Panniculus)",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Gesteigert oder reduziert — zwei entgegengesetzte Aussagen",
+        text: "Eine gesteigerte Reflexantwort spricht für eine Läsion des oberen Motoneurons kranial des geprüften Segments. Eine reduzierte oder abwesende Antwort spricht für eine Läsion des unteren Motoneurons genau in diesem Segment (Nervenwurzel, Plexus, peripherer Nerv) oder für eine Muskelverletzung. Ein reduzierter Panniculusreflex zeigt zusätzlich eine Rückenmarksläsion kranial der getesteten Region an. Zur Erfassung von Seitenunterschieden werden die Reflexe grundsätzlich an allen vier Gliedmaßen im Vergleich geprüft.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.7 (Spinale Reflexe), S. 164–167. Alle Reflexe, Segmentzuordnungen und Befund-Interpretationen sind im Original so beschrieben.",
+    relatedCaseIds: ["filou"],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "kopfnervenpruefung-hund",
+    category: "UNTERSUCHUNG",
+    title: "Kopfnerven systematisch prüfen",
+    teaser:
+      "Zwölf Kopfnerven, ein Untersuchungsgang — ein auffälliger Befund reicht, um eine Läsion sicher ins Gehirn statt ins Rückenmark zu verorten.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum die Kopfnervenprüfung so aussagekräftig ist",
+        text: "Mit Ausnahme der ersten beiden Kopfnerven liegen die Kernzentren in Mittelhirn, Pons und Medulla oblongata — bei Hirnstammläsionen kann es deshalb zu einem oder mehreren Kopfnervenausfällen gleichzeitig kommen. Die Prüfung findet am besten auf dem Untersuchungstisch statt, bei verängstigten Hunden sollte sie wiederholt werden, da vor allem der Drohreflex sonst falsch interpretiert wird.",
+      },
+      {
+        type: "table",
+        heading: "Kopfnerventests im Überblick",
+        columns: ["Test", "Geprüfte(r) Kopfnerv(en)", "Auslösung", "Normale Antwort"],
+        rows: [
+          ["Palpebralreflex", "N. trigeminus (V), N. facialis (VII)", "Berühren der Kopfhaut um die Augen", "Schließen der Augenlider"],
+          [
+            "Drohreflex",
+            "N. opticus (II), N. facialis (VII)",
+            "Plötzliche Handbewegung Richtung Auge",
+            "Schließen der Augenlider; kein Lidschluss spricht für Blindheit",
+          ],
+          ["Wattebauschtest", "N. opticus (II), Hirnrinde", "Wattebäuschchen im Gesichtsfeld fallen lassen", "Kopf- oder Augenbewegung zum Wattebäuschchen"],
+          [
+            "Sensibilität im Kopfbereich",
+            "N. trigeminus (V), N. vagus (X, Ohrmuschel)",
+            "Leichtes Berühren/Beklopfen von Kopf bzw. Ohrmuschel",
+            "Abwehrbewegung",
+          ],
+          [
+            "Kiefertonus / Zungenmotorik",
+            "N. trigeminus (V), N. hypoglossus (XII)",
+            "Forciertes Öffnen des Kiefers, Beobachtung des Zungenspiels",
+            "Spürbarer Widerstand beim Öffnen; symmetrisches, koordiniertes Zungenspiel",
+          ],
+          ["Schluckreflex", "N. glossopharyngeus (IX), N. vagus (X)", "Palpation/leichter Druck auf den Pharynx", "Schluckbewegung"],
+          [
+            "Gesichtsmimik",
+            "N. facialis (VII)",
+            "Beobachtung der allgemeinen Kopfform und Palpation der Gesichtsmuskeln",
+            "Symmetrische Stellung von Augenlidern, Nasenflügeln, Ohren",
+          ],
+          [
+            "Augenbewegung / Nystagmus",
+            "N. oculomotorius (III), N. trochlearis (IV), N. abducens (VI), N. vestibulocochlearis (VIII)",
+            "Kopf seitlich hin- und herbewegen",
+            "Physiologischer horizontaler Nystagmus, symmetrische Augenstellung",
+          ],
+          [
+            "Pupillarreflex",
+            "N. opticus (II) afferent, N. oculomotorius (III) efferent",
+            "Licht ins Auge fallen lassen",
+            "Verengung der Pupille im belichteten (direkt) und im gegenseitigen Auge (indirekt)",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Strabismus lokalisiert den betroffenen Augennerv",
+        text: "Ein ventrolateraler Strabismus spricht für eine Lähmung des 3. Kopfnervs (N. oculomotorius), ein medialer Strabismus für eine Lähmung des 6. Kopfnervs (N. abducens), eine Rotation des Augapfels für eine Lähmung des 4. Kopfnervs (N. trochlearis). Mydriasis zusammen mit ventrolateralem Strabismus und Ptosis spricht für eine Lähmung des 3. Kopfnervs oder eine Verletzung im Auge, in der Orbita oder im Mittelhirn.",
+      },
+      {
+        type: "text",
+        heading: "Horner-Syndrom als Muster erkennen",
+        text: "Ptosis, Miosis, Enophthalmus und Vorfall des dritten Augenlids treten gemeinsam als Horner-Syndrom auf und sprechen für eine Schädigung der sympathischen Versorgung — mögliche Lokalisationen sind eine Hypothalamusläsion, ein Trauma an den Nervenwurzeln T1–T3 oder eine Mittelohrläsion; die genaue Ursache lässt sich aus dem Muster allein nicht ableiten, sondern nur die betroffene Bahn.",
+      },
+      {
+        type: "text",
+        heading: "Hinweis zu einer Ungenauigkeit im Quellentext",
+        text: "Im ausgewerteten Kapitelabschnitt trägt der Drohreflex die Überschrift „(II, VIII)“, die zugehörige Fließtextbeschreibung nennt als Reflexbogen jedoch eindeutig N. opticus, Kortex, Kleinhirn, Hirnstamm und N. facialis — also II und VII, nicht VIII. Das ist vermutlich ein Erkennungsfehler bei der Texterfassung der Quelle. Da der Fließtext eindeutig ist, wird hier II/VII übernommen.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.8 (Kopfnerven), S. 168–173. Alle Tests, Nervenzuordnungen und Befunde sind im Original so beschrieben, mit einer transparent gekennzeichneten Ausnahme: die Kopfnervenangabe des Drohreflexes wurde wegen eines wahrscheinlichen Texterfassungsfehlers anhand der eindeutigen Fließtextbeschreibung korrigiert übernommen (siehe eigener Abschnitt).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "schmerzausloesung-neurologische-warnzeichen",
+    category: "UNTERSUCHUNG",
+    title: "Schmerzauslösung in der neurologischen Untersuchung",
+    teaser:
+      "Nicht jede Schmerzreaktion bedeutet dasselbe: fehlende, übersteigerte und fehlgeleitete Schmerzantworten zeigen jeweils in eine andere diagnostische Richtung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Durchführung",
+        text: "Rücken und Hals werden palpiert und in verschiedene Richtungen bewegt: Schmerzprüfung an Thorakal- und Lendenwirbelsäule, an den Nervenwurzeln der Halswirbelsäule, bei Halsbiegebewegungen zur Seite sowie nach oben/unten, und im lumbosakralen Bereich durch Überstreckung. Ein schmerzhafter Stimulus wird über aufsteigende Rückenmarksbahnen zum Thalamus und von dort zum Großhirn geleitet, wo er bewusst als Schmerz wahrgenommen wird — das äußert sich in einer Abwehrreaktion und einem Zucken im entsprechenden Dermatom; meist dreht der Hund den Kopf bewusst zur schmerzhaften Stelle und versucht zu beißen.",
+      },
+      {
+        type: "text",
+        heading: "Drei unterschiedliche Auffälligkeiten",
+        text: "Eine abwesende Reaktion (Analgesie/Anästhesie) spricht für eine schwere Läsion peripherer Nerven oder des Rückenmarks. Eine gesteigerte oder überempfindliche Reaktion (Hyperalgesie/Hyperästhesie) spricht für eine Nervenirritation (entzündlicher oder neuropathischer Schmerz) oder eine Meningenreizung, z. B. bei einem Bandscheibenvorfall. Automutilation, übermäßiges Kratzen oder Schlecken einer bestimmten Stelle (Parästhesie) sprechen für Nervenverletzungen (kompressiv, entzündlich, neoplastisch) oder ZNS-Läsionen mit Wahrnehmungsstörungen wie Syringomyelie.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.9 (Schmerzauslösung), S. 174. Durchführung und Befund-DD-Zuordnungen sind im Original so beschrieben.",
+    relatedCaseIds: ["filou", "baer"],
+    relatedAnatomyIds: ["discus"],
+  },
+  {
+    id: "neurologische-lokalisationslogik-algorithmus",
+    category: "UNTERSUCHUNG",
+    title: "Vom Befund zur Lokalisation: der neurologische Entscheidungsalgorithmus",
+    teaser:
+      "Zwei einfache Ja/Nein-Fragen — sind die spinalen Reflexe generell reduziert, gibt es Kopfnervenausfälle — reichen, um eine neurologische Läsion grob zu verorten, bevor überhaupt an Bildgebung gedacht wird.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Algorithmus in zwei Fragen",
+        text: "Erste Frage: Sind die spinalen Reflexe generell reduziert? Wenn ja, liegt ein generelles Problem im peripheren Nervensystem (PNS) vor; wenn nein, liegt das Problem im zentralen Nervensystem (ZNS). Zweite Frage (nur bei ZNS-Verdacht): Bestehen ein oder mehrere Kopfnervenausfälle? Ist schon nur eine Antwort auffällig, liegt die Läsion im Gehirn — die weitere Unterscheidung (Großhirn, Kleinhirn, Hirnstamm, Vestibulärapparat) erfolgt anhand von Gangbild, Haltungs-/Stellreaktionen und Art der Kopfnervenausfälle. Sind die Kopfnerven unauffällig, liegt die Läsion im Rückenmark und wird anhand des Reflexmusters weiter segmental zugeordnet.",
+      },
+      {
+        type: "table",
+        heading: "Segmentales Reflexmuster bei Rückenmarksläsionen",
+        columns: ["Segment der Läsion", "Vordergliedmaße", "Hintergliedmaße"],
+        rows: [
+          ["C1–C5", "Oberes Motoneuron (OMN): gesteigerte Reflexe, Spastizität", "Oberes Motoneuron (OMN): gesteigerte Reflexe, Spastizität"],
+          [
+            "C6–Th1 (Intumeszenz)",
+            "Unteres Motoneuron (UMN): reduzierte bis abwesende Reflexe, Schlaffheit",
+            "Oberes Motoneuron (OMN); Ausnahme: bei tiefer akuter Läsion kann das Schiff-Sherrington-Zeichen auftreten",
+          ],
+          ["Th2–L3", "Normal", "Oberes Motoneuron (OMN)"],
+          ["L4–S3 (Intumeszenz)", "Normal", "Unteres Motoneuron (UMN): reduzierte bis abwesende Reflexe"],
+        ],
+      },
+      {
+        type: "list",
+        heading: "Gradierung extraduraler Kompressionen (z. B. Bandscheibenvorfall)",
+        items: [
+          "Grad 1: nur Schmerz",
+          "Grad 2: Tetra-/Paraparese, Ataxie — der Hund kann noch laufen",
+          "Grad 3: Tetra-/Paraparese mit Verlust der Motorik",
+          "Grad 4: Tetra-/Paraplegie mit Verlust des Oberflächenschmerzempfindens an den Gliedmaßen",
+          "Grad 5: Tetra-/Paraplegie mit zusätzlichem Verlust des Tiefenschmerzempfindens an den Gliedmaßen",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Grenzen der Gradierung",
+        text: "Diese Abfolge gilt typischerweise für extradurale Kompressionen wie Bandscheibenvorfälle, bei denen sich die Prognose mit steigendem Grad verschlechtert. Intradurale Läsionen wie Infarkte, Blutungen oder Neoplasien folgen dieser Ausfallskaskade nicht zuverlässig — die Gradierung darf hier nicht unkritisch auf die Prognose übertragen werden.",
+      },
+      {
+        type: "text",
+        heading: "Kurzcharakteristik der großen Lokalisationen",
+        text: "Großhirn: Bewusstsein normal bis komatös, Verhalten aggressiv/ängstlich/verblödet, spinale Reflexe normal, reduzierter Drohreflex, gestörte Pupillenreaktion, evtl. Schmerz zervikal/im Kopfbereich. Kleinhirn: breitbeinige Haltung, Ataxie mit Spastizität und Hypermetrie im Gang, bei diffusen Läsionen generalisiert reduzierte, bei fokalen Läsionen nur kontralateral reduzierte Haltungs-/Stellreaktionen, Blindheit bei erhaltener Pupillenreaktion. Vestibulärapparat: Kopfschiefhaltung mit Falltendenz; peripher zeigt normale, zentral verzögerte Überkötungsreaktionen sowie zusätzliche Kopfnervenausfälle außer Fazialis/Sympathikus. Hirnstamm: Bewusstsein apathisch bis komatös, spastische Parese aller Gliedmaßen, vestibuläre Ataxie mit Kreiswandern/Seitenzwang, seitenbetonte Haltungs-/Stellreaktions-Defizite, normale bis gesteigerte spinale Reflexe, häufig mehrere gleichzeitige Kopfnervenausfälle (III, IV, VI, VIII, V, VII, IX, X, XII).",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.10.1–7.10.2 (Lokalisation der Läsion, Übersicht wichtiger Erkrankungen — allgemeiner einleitender Teil ohne die konkreten Einzeldiagnosen), S. 175–178, nach den Empfehlungen von Jaggy [92]. Algorithmus, Segmenttabelle und Gradierung sind im Original so beschrieben.",
+    relatedCaseIds: ["filou"],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "neurologische-erkrankungen-gehirn-vestibulaer-hirnstamm",
+    category: "PATHOLOGIE",
+    title: "Neurologische Erkrankungen: Großhirn, Kleinhirn, Vestibulärapparat, Hirnstamm",
+    teaser:
+      "Vom Epilepsie-Anfall bis zum geriatrischen Vestibulärsyndrom — welche Erkrankung hinter welchem Lokalisationsmuster typischerweise steckt.",
+    sections: [
+      {
+        type: "table",
+        heading: "Lokalisation Großhirn (Cerebrum)",
+        columns: ["Diagnose", "Typischer Befund", "Häufigkeit"],
+        rows: [
+          [
+            "Epilepsie",
+            "Anfälle: generalisiert tonisch-klonische Krämpfe oder fokal mit kurzem Bewusstseinsverlust und kurzzeitigen Zwangsbewegungen",
+            "++",
+          ],
+          [
+            "Neoplasien (Meningiome, Gliome, mesenchymale Tumoren, Ependymome, Sarkome)",
+            "Klinik abhängig von der genauen Lokalisation, im Gehirn kein einheitliches Bild",
+            "++",
+          ],
+          ["Hirninfarkt", "Anfälle; Gangstörung mit Kreiswandern; Sehstörungen", "+"],
+          ["Hydrozephalus", "Veränderte Kopfform; Lernschwierigkeiten; ventrolateraler Strabismus, Seh- oder Hörstörungen", "+"],
+          ["Meningoenzephalitis", "Verhaltensstörungen, Krämpfe; Gehstörungen; Schmerzen", "+"],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Lokalisation Kleinhirn",
+        columns: ["Diagnose", "Typischer Befund", "Häufigkeit"],
+        rows: [
+          ["Neoplasie", "Klinik abhängig von der genauen Lokalisation, im Kleinhirn kein einheitliches Bild", "+"],
+          [
+            "Tremor-Syndrom / White Dog Shaker Syndrom",
+            "Betrifft v. a. weiße Hunde (West Highland White Terrier, Malteser); Verschlimmerung bei Aufregung, Spontanremission möglich",
+            "+",
+          ],
+          ["Zerebelläre Abiotrophie", "Rassedisposition; Opisthotonus; progressive Ataxie, Tremor; reduzierte Drohreflexe", "+"],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Lokalisation Vestibulärapparat",
+        columns: ["Diagnose", "Typischer Befund", "Häufigkeit"],
+        rows: [
+          [
+            "Otitis media/interna",
+            "Schmerzen im Ohrbereich; periphere Vestibulärsymptomatik mit Kopfschiefhaltung und Kopfschütteln; Fazialislähmung, Horner-Syndrom",
+            "++",
+          ],
+          [
+            "Ototoxische Medikamente (systemische Aminoglykoside sowie topische Präparate)",
+            "Periphere vestibuläre Symptome, Taubheit",
+            "+",
+          ],
+          [
+            "Idiopathisches geriatrisches Vestibulärsyndrom",
+            "Hunde über 9 Jahre; akute, leicht- bis schwergradige periphere Vestibulärdefizite ohne Horner-Syndrom und ohne Fazialislähmung",
+            "+",
+          ],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Lokalisation Hirnstamm",
+        columns: ["Diagnose", "Typischer Befund", "Häufigkeit"],
+        rows: [
+          [
+            "Läsion im Hirnstamm (allgemein)",
+            "Apathisch bis komatös; spastische Parese aller Gliedmaßen, vestibuläre Ataxie, Kreiswandern, Seitenzwang; seitenbetonte Defizite bei Haltungs-/Stellreaktionen; spinale Reflexe normal bis gesteigert; Kopfnervenausfälle III/IV/VI/VIII (Schielen, Anisokorie, Nystagmus), Unterkieferlähmung, reduzierte Sensibilität im Kopfbereich (V), hängende Gesichtshälfte, fehlender Drohreflex (VII), Gleichgewichtsstörungen (VIII), Schluckstörungen/Stimmveränderung/Stridor (IX/X), Zungenlähmung (XII)",
+            "+",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Einordnung",
+        text: "Diese vier Lokalisationen liegen alle „oberhalb“ des Rückenmarks (intrakraniell bzw. im Vestibularapparat) und werden über die Kopfnervenprüfung sowie das charakteristische Gangbild von Rückenmarks- und peripheren Läsionen unterschieden (siehe Wissenseintrag zum Lokalisationsalgorithmus).",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.10.2, Tab. 7.1–7.4 (Übersicht wichtiger Erkrankungen des Nervensystems: Cerebrum, Kleinhirn, Vestibulärapparat, Hirnstamm), S. 176–177. Diagnosen, Befunde und Häufigkeitsangaben (+/++) sind im Original so aufgeführt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "neurologische-erkrankungen-rueckenmark-periphere-nerven",
+    category: "PATHOLOGIE",
+    title: "Neurologische Erkrankungen: Rückenmark und periphere Nerven",
+    teaser:
+      "Bandscheibenvorfall, Wobbler-Syndrom, Cauda-equina-Syndrom und Co. — geordnet danach, ob die Kompression von außen kommt oder das Rückenmark selbst betroffen ist.",
+    sections: [
+      {
+        type: "table",
+        heading: "Rückenmark — nicht kompressive Erkrankungen",
+        columns: ["Diagnose", "Typischer Befund", "Häufigkeit"],
+        rows: [
+          [
+            "Fibrokartilaginäre Embolie / Rückenmarksinfarkt",
+            "Junge bis mittelalte Hunde großer Rassen; initial Schmerz, dann schmerzlos; perakute Gehstörung bis Paralyse; oft Lateralisierung bei Haltungs-/Stellreaktionen",
+            "++",
+          ],
+          [
+            "Degenerative Myelopathie",
+            "Berner Sennenhund, Deutscher Schäferhund; progressive Ataxie, Schwäche und Parese der Hintergliedmaße; Muskelreflexe der Hintergliedmaße normal bis leicht gesteigert, gekreuzter Extensorreflex, OMN-Zeichen",
+            "++",
+          ],
+          [
+            "Steril eitrige Meningitis-Arteritis",
+            "Fieber, Leukozytose; steifer Gang, in chronischer Form Ataxie und Parese; zervikale Schmerzen",
+            "+",
+          ],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Rückenmark — kompressive Erkrankungen",
+        columns: ["Diagnose", "Typischer Befund", "Häufigkeit"],
+        rows: [
+          [
+            "Thorakolumbaler Bandscheibenvorfall",
+            "Palpationsschmerz an der Vorfallstelle; aufgekrümmter Rücken; je nach Kompressionsausmaß Ataxie bis Paralyse; spinale Reflexe an Vordergliedmaße normal, an Hintergliedmaße gesteigert; Blase schwer ausdrückbar; Halsbiegeschmerz",
+            "+++",
+          ],
+          [
+            "Zervikaler Bandscheibenvorfall (C1–C5)",
+            "Unruhiges Verhalten; tiefe Kopfhaltung; je nach Kompressionsausmaß Ataxie bis Paralyse (bei geringen Vorfällen manchmal nur Ausfälle an den Hintergliedmaßen); spinale Reflexe an Vorder- und Hintergliedmaße gesteigert",
+            "++",
+          ],
+          [
+            "Atlantoaxiale Subluxation",
+            "Zwerghunde, Auftreten nach geringem Trauma; Tetraparese/Ataxie; gesteigerte spinale Reflexe",
+            "+",
+          ],
+          [
+            "Kaudale zervikale Spondylomyelopathie (Wobbler-Syndrom)",
+            "Ataxie der Hintergliedmaße, spastisch-hypometrische Vorhand („two-engine gait“), Probleme beim Aufstehen; eingeschränkte, manchmal schmerzhafte Beweglichkeit der Halswirbelsäule",
+            "+",
+          ],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Periphere Nerven",
+        columns: ["Diagnose", "Typischer Befund", "Häufigkeit"],
+        rows: [
+          [
+            "Degenerative lumbosakrale Stenose (Cauda-equina-Syndrom)",
+            "Muskelatrophie; Tiefhalten der Rute; Schwäche der Hintergliedmaße, ein- oder beidseitige Lahmheit; spinale Reflexe von N. ischiadicus, N. pudendus, Nn. pelvini und Nn. caudales in fortgeschrittenen Stadien reduziert; Schmerz im Lumbosakralbereich",
+            "+++",
+          ],
+          [
+            "Akute idiopathische Polyradikuloneuritis",
+            "Schmerzen bei Aufstehen/Springen und bei Lordose, beginnende Harn-/Kotinkontinenz; normaler Kot-/Harnabsatz sonst; akute Tetraparesen; schwache bis abwesende spinale Reflexe; reduzierter Droh- und Palpebralreflex; Schmerzempfinden bleibt erhalten",
+            "+",
+          ],
+          [
+            "Neoplasien peripherer Nerven (v. a. Nervenscheidentumoren)",
+            "Schmerz am Ort des Tumors; deutliche neurogene Muskelhypotrophie; reduzierte Reflexantwort",
+            "+",
+          ],
+          [
+            "Plexus-brachialis-Läsion",
+            "Monoplegie einer Vordergliedmaße, Abrasion von Zehen und Pfotenrücken, tief hängender Ellbogen, evtl. „Kusshandstellung“; reduzierte bis abwesende spinale Reflexe; Horner-Syndrom; Verlust von Oberflächen- und Tiefenschmerz in den betroffenen Dermatomen",
+            "+",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Einordnung",
+        text: "Nicht kompressive und kompressive Rückenmarkserkrankungen unterscheiden sich vor allem im zeitlichen Verlauf und im Schmerzniveau (siehe auch Wissenseintrag zur Gradierung extraduraler Kompressionen); periphere Nervenerkrankungen zeigen dagegen meist normal bis reduzierte statt gesteigerte spinale Reflexe, da hier das untere statt das obere Motoneuron betroffen ist.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.10.2, Tab. 7.5–7.7 (Übersicht wichtiger Erkrankungen des Nervensystems: Rückenmark nicht kompressiv/kompressiv, periphere Nerven), S. 177–179. Diagnosen, Befunde und Häufigkeitsangaben (+/++/+++) sind im Original so aufgeführt.",
+    relatedCaseIds: ["baer", "filou"],
+    relatedAnatomyIds: ["discus", "rueckenmark"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

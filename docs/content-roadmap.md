@@ -62,11 +62,13 @@ kein Überblick verloren geht.
 
 ## Stand (24.09.2026)
 
-- Wissensbibliothek: 58 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 20
-  Untersuchung, 15 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
+- Wissensbibliothek: 67 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 27
+  Untersuchung, 17 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren). Die
-  7 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund,
-  siehe Backlog unten) — damit ist Kap. 6 des Buches vollständig abgedeckt.
+  16 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund, 7
+  Einträge) und Kap. 7 (Neurologischer Untersuchungsgang, 9 Einträge, siehe
+  Backlog unten) — damit sind Kap. 6 UND Kap. 7 des Buches vollständig
+  abgedeckt.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -313,42 +315,47 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       `oberarm-schulter-liegender-hund-untersuchung`, verknüpft mit Fall
       Rocky). Kap. 6 endet danach mit einem einzeiligen Literaturverzeichnis
       (6.4) — Kap. 6 (liegender Hund) ist damit vollständig abgedeckt.
-- [x] **Korrektur eines eigenen Irrtums vom 24.09.:** Die ursprüngliche
-      Vermutung, ab S. 157 folge kein separates Neuro-Kapitel, sondern
-      direkt ein Pathologie-Teil, war falsch und ist hiermit zurückgezogen.
-      Tatsächlich bestätigt: **Kapitel 7 „Neurologischer Untersuchungsgang"
-      (Daniel Koch, Martin S. Fischer) beginnt exakt auf S. 157** — wie
-      ursprünglich im Backlog vermerkt. Gelesen und inhaltlich bestätigt:
-      7.1 Einordnung (Abgrenzung Lahmheit/Lähmung, Ziel: topische Diagnose),
-      7.2 Anamnese (7.2.1 Signalement mit Rasseprädispositionen, 7.2.2
-      Vorgeschichte mit 12 Leitfragen + Befund-DD-Zuordnungen), 7.3
-      Bewusstsein und Verhalten, 7.4 Haltung (inkl. Schiff-Sherrington,
-      Opisthotonus, Myoklonien, Tremor, Lordose/Kyphose/Skoliose,
-      Kopfschiefhaltung als Befunde), 7.5 Beobachtung des Ganges (diagonale
-      Gangart, Ataxie-Typen nach Lokalisation: spinal/zerebellär/vestibulär/
-      kortikal, Plegie-/Paresetypologie), sowie der Anfang von 7.6
-      Haltungs- und Stellreaktionen (7.6.1 Tischkantenprobe, 7.6.2
-      Unterstützungsreaktion, S. 157–160) — noch **nicht als
-      Wissenseinträge umgesetzt**, da dieses Kapitel bewusst erst nach
-      vollständiger Lektüre (weitere Stell-/Haltungsreaktionen,
-      vermutlich spinale Reflexe, Hirnnervenprüfung, Schmerzwahrnehmung)
-      am Stück sauber strukturiert werden soll, statt es fragmentiert zu
-      beginnen.
-- [ ] **Offene Sorgfaltsnotiz zur Datei-ID-Zuordnung:** Beim Lesen der
-      Kap.-7-Chunks ist mir eine Verwechslung von Drive-Datei-IDs
-      unterlaufen (ein Lesevorgang, den ich für einen neuen Kap.-7-Chunk
-      hielt, lieferte tatsächlich bereits bekannten Kap.-5.3-Inhalt zurück
-      — Ursache: ich hatte mir die falsche fileId für „das nächste u(N)"
-      gemerkt statt sie erneut aus einer frischen `search_files`-Abfrage
-      zu entnehmen). Es wurde dadurch **nichts Falsches in die Datenbank
-      geschrieben** — der Fehler ist rein beim Lesen passiert und wurde vor
-      dem Schreiben irgendeines Eintrags bemerkt. Konsequenz für künftige
-      Sessions: die bisher dokumentierte 1:1-Tabelle „u(N) = Seite X" NICHT
-      blind weiterverwenden, sondern vor dem nächsten Lesevorgang erneut
-      `search_files` auf den Ordner ausführen, die Zuordnung Titel→fileId
-      frisch notieren, und Chunks einzeln (nicht mehrere fileIds parallel
-      aus dem Gedächtnis) abrufen, bis die Zuordnung für den Rest der Datei
-      neu und zuverlässig etabliert ist.
+- [x] **Kapitel 7 „Neurologischer Untersuchungsgang" (Daniel Koch, Martin S.
+      Fischer), S. 157–180, vollständig gelesen und umgesetzt (24.09.2026).**
+      Die vorige Session-Notiz („ab S. 157 folgt kein Neuro-Kapitel, sondern
+      Pathologie") war ein eigener Irrtum und ist damit erledigt/widerlegt —
+      Kap. 7 ist tatsächlich exakt das erwartete Neuro-Kapitel. Die zuvor
+      vermutete Datei-ID-Verwechslung erwies sich beim erneuten,
+      einzeln-verifizierten Nachlesen als unbegründet (die ursprüngliche
+      u(N)-Zuordnung war korrekt) — die Vorsicht war trotzdem richtig, da
+      sie den tatsächlichen späteren Fehler (s. u.) nicht verhindert hätte,
+      wäre er unbemerkt geblieben. Neun neue Wissenseinträge:
+      - UNTERSUCHUNG: `neurologische-untersuchung-anamnese-einordnung` (7.1
+        Einordnung + 7.2 Anamnese: Rasseprädispositionen, 12 Leitfragen),
+        `bewusstsein-haltung-gang-neurologisch` (7.3–7.5), 
+        `haltungs-und-stellreaktionen-hund` (7.6, alle 7 Teiltests),
+        `spinale-reflexe-hund` (7.7, alle 6 Reflexe mit Rückenmarksegment),
+        `kopfnervenpruefung-hund` (7.8, alle 9 Kopfnerventests + Horner-
+        Syndrom + Strabismus-Lokalisation), 
+        `schmerzausloesung-neurologische-warnzeichen` (7.9),
+        `neurologische-lokalisationslogik-algorithmus` (7.10.1 + allgemeiner
+        Teil von 7.10.2: PNS/ZNS-Algorithmus, Segmentmuster-Tabelle,
+        Grad-1–5-Gradierung extraduraler Kompressionen).
+      - PATHOLOGIE: `neurologische-erkrankungen-gehirn-vestibulaer-hirnstamm`
+        und `neurologische-erkrankungen-rueckenmark-periphere-nerven` (Tab.
+        7.1–7.7, alle ca. 20 Einzeldiagnosen aus 7.10.2 mit Befund und
+        Häufigkeit).
+      Neu verknüpft mit Fall Filou (akute Hinterhand-Schwäche) und den
+      bestehenden Anatomie-Items `rueckenmark`/`discus`; Rückenmark-Pathologie
+      zusätzlich mit Fall Bär (chronische, nicht-akute Wirbelsäulenproblematik
+      als Kontrast zu Filous akutem Bild).
+      **Eine transparent dokumentierte Quellenungenauigkeit:** Im
+      Kapitelabschnitt zum Drohreflex steht als Überschrift „(II, VIII)",
+      obwohl die zugehörige Fließtextbeschreibung eindeutig N. opticus (II)
+      und N. facialis (VII) als Reflexbogen nennt — vermutlich ein
+      Texterfassungsfehler der Quelle. Im neuen Eintrag `kopfnervenpruefung-
+      hund` wurde dies nicht stillschweigend geglättet, sondern die
+      Korrektur (II/VII statt II/VIII) mit explizitem Hinweisabschnitt
+      offengelegt.
+      Kapitel 7 gilt damit als abgeschlossen; als Nächstes folgt laut
+      Literaturverzeichnis (7.11) kein weiteres Unterkapitel — Kap. 8 des
+      Buches (noch nicht gesichtet, Chunks ab u(32)) ist der nächste
+      natürliche Fortsetzungspunkt.
 - [x] Die Datei hat ~46 Einzel-PDF-Chunks (u.pdf, u(1)–u(46), Ordner-ID
       1J3C3r71IrVdvrSUmTm8yRjMtMuyI8ZeT). Sicher verifizierte Zuordnungen
       (Seitenkopf im zurückgegebenen Text geprüft, nicht nur die
@@ -356,15 +363,16 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       u(16)=S.84–98 [Kap. 5.3 komplett], u(17)=S.98–109 [Kap. 5.4 komplett],
       u(18)=S.110f. [Anfang Kap. 6], u(19)=S.111–136 [Kap. 6.2
       Hintergliedmaße komplett], u(20)=S.136–156 [Kap. 6.3 Vordergliedmaße
-      komplett + Kap. 6.4 Literaturverzeichnis]. Kap. 6 ist damit
-      vollständig abgedeckt. Für Kap. 7 (Neurologischer Untersuchungsgang,
-      bestätigt ab S. 157) wurde Inhalt bis S. 160 (Anfang 7.6.2) bereits
-      gelesen, aber die genaue u(N)-Zuordnung dafür ist wegen der oben
-      genannten Verwechslung nicht mehr zweifelsfrei dokumentiert — beim
-      Fortsetzen daher ab einer frischen Ordnerabfrage neu einsteigen und
-      testweise mit dem Seitenkopf „S. 160" o.ä. abgleichen, um die
-      richtige Stelle zuverlässig wiederzufinden, bevor mit S. 160ff.
-      weitergelesen wird.
+      komplett + Kap. 6.4 Literaturverzeichnis], u(21)=S.157 [7.1+7.2 Anfang],
+      u(22)=S.157f. [7.2 Ende], u(23)=S.158f. [7.3+7.4+7.5 Anfang],
+      u(24)=S.158 [7.3+7.4, kürzerer Überlapp-Chunk], u(25)=S.158–159
+      [7.4 Ende+7.5 komplett], u(26)=S.159f. [7.5 Ende+7.6.1–7.6.2 Anfang],
+      u(27)=S.160–164 [7.6 komplett+7.7 Anfang], u(28)=S.164–168 [7.7
+      komplett+7.8 Anfang], u(29)=S.168–174 [7.8 komplett+7.9 komplett],
+      u(30)=S.174f. [7.9 Ende+7.10.1+7.10.2 Anfang], u(31)=S.175–180
+      [7.10.1–7.10.2 komplett+7.11 Literatur, Kapitelende]. Kap. 6 und 7
+      sind damit vollständig abgedeckt. Für Kap. 8 (Buchtitel/Thema noch
+      nicht bekannt) weiter ab u(32) lesen.
 
 ### UNTERSUCHUNG — Baumgartner, Klinische Propädeutik der Haus- und Heimtiere
 
