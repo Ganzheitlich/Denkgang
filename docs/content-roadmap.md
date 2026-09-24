@@ -62,13 +62,15 @@ kein Überblick verloren geht.
 
 ## Stand (24.09.2026)
 
-- Wissensbibliothek: 67 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 27
-  Untersuchung, 17 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
+- Wissensbibliothek: 75 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 27
+  Untersuchung, 24 Pathologie, 9 Biomechanik, 6 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren). Die
-  16 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund, 7
-  Einträge) und Kap. 7 (Neurologischer Untersuchungsgang, 9 Einträge, siehe
-  Backlog unten) — damit sind Kap. 6 UND Kap. 7 des Buches vollständig
-  abgedeckt.
+  24 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund, 7
+  Einträge), Kap. 7 (Neurologischer Untersuchungsgang, 9 Einträge) und
+  Kap. 8.1–8.2 (Allgemeine Informationen + Generalisierte Skeletterkrankungen,
+  8 Einträge, siehe Backlog unten) — damit sind Kap. 6 und Kap. 7 des Buches
+  vollständig abgedeckt, Kap. 8 erst teilweise (8.1–8.2 von vermutlich
+  mehreren Unterkapiteln bis S. 229).
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -115,7 +117,10 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
 
 - [x] Erkrankungen der Bizepssehne (Tendinitis/Tendovaginitis/Ruptur/Luxation)
 - [x] Ellbogengelenkdysplasie (IPA, FPC, OCD, Inkongruenz)
-- [ ] Osteomyelitis (Kapitelanfang, S. 1 ff.)
+- [x] Osteomyelitis (Kapitelanfang, S. 1 ff.) — inhaltlich abgedeckt über
+      Koch/Fischer Kap. 8.2.6 (`osteomyelitis-hund`, 24.09.2026) statt aus
+      dieser Quelle separat gelesen; VetCenters eigene Version bleibt
+      ungelesen, gilt aber als nicht mehr prioritär
 - [ ] Hüftgelenkluxation (traumatisch) + Ehmer-Schlinge — Achtung: nicht mit
       Hüftgelenkdysplasie (HD) verwechseln, im Original als Differentialdiagnose
       klar getrennt
@@ -127,9 +132,10 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       als ED-Differential)
 - [ ] Kontraktur des M. infraspinatus (typisches Jagdhund-Bild, „eigenartige
       Gliedmaßenhaltung")
-- [ ] Generalisierte Skeletterkrankungen: Osteochondrose (OC), weitere im
-      Kapitel 8.2 folgende Erkrankungen (Panostitis, hypertrophe Osteodystrophie
-      — Seitenbereich noch nicht gelesen)
+- [x] Generalisierte Skeletterkrankungen: Osteochondrose (OC), Panostitis,
+      hypertrophe Osteodystrophie — inhaltlich abgedeckt über Koch/Fischer
+      Kap. 8.2.1–8.2.4 (24.09.2026, siehe eigener Abschnitt oben) statt aus
+      VetCenters eigenem Kapitel 8.2 separat gelesen
 - [~] Hüftgelenkdysplasie (HD) als eigenständiges Krankheitsbild (Definition,
       Ätiologie, Diagnostik) — bisher nur über Ortolani-Test (Hárrer) und als
       Beispiel für Gelenkinkongruenz in `arthrose-mechanische-hauptursachen`
@@ -373,6 +379,45 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       [7.10.1–7.10.2 komplett+7.11 Literatur, Kapitelende]. Kap. 6 und 7
       sind damit vollständig abgedeckt. Für Kap. 8 (Buchtitel/Thema noch
       nicht bekannt) weiter ab u(32) lesen.
+- [x] **Buchstruktur ab „Teil 3" geklärt (24.09.2026):** Nach Kap. 7 (S. 180)
+      folgt "Teil 3 – Hilfestellung zur Therapieplanung bei häufigen
+      Erkrankungen" mit Kap. 8 "Wichtige Erkrankungen des Skeletts" (S.
+      182–229) und Kap. 9 "Ausgewählte neurologische Erkrankungen" (ab S.
+      230). Das erklärt rückwirkend alle Seitenverweise wie „(S. 192)",
+      „(S. 199)" etc. aus den Kap.-5/6-Befund-DD-Listen — sie zeigen auf
+      genau diese beiden Kapitel.
+- [x] **Kap. 8.1–8.2 (Allgemeine Informationen + Generalisierte
+      Skeletterkrankungen, S. 182–195) vollständig gelesen und umgesetzt
+      (24.09.2026).** Acht neue Wissenseinträge:
+      - PATHOLOGIE: `gelenkerkrankungen-haeufigkeit-und-ursachen` (8.1.1:
+        Häufigkeitsverteilung, Zuchtkritik, Kreuzbandriss als
+        Dysplasie- statt Unfallproblem), `osteochondrose-hund` (8.2.1,
+        inkl. Lokalisationstabelle mit Häufigkeits-%), 
+        `panosteitis-hypertrophe-osteodystrophie-knorpelzapfen` (8.2.2–
+        8.2.4, drei juvenile Wachstumserkrankungen im Vergleich),
+        `polyarthritis-hund` (8.2.5, inkl. Arthritis-Klassifikationstabelle),
+        `osteomyelitis-hund` (8.2.6), `knochentumoren-gelenktumoren-hund`
+        (8.2.7–8.2.8: Osteosarkom + Synovialzellsarkom),
+        `hypertrophe-osteopathie-marie-bamberger` (8.2.9).
+      - THERAPIE: `allgemeine-therapieprinzipien-gelenkerkrankungen` (8.1.2).
+      **Bewusste Entscheidung zu Medikamenten-Dosierungen:** Die Quelle
+      nennt durchgehend präzise mg/kg-Dosierungen (NSAIDs, Opioide,
+      Kortikosteroide, Antibiotika). Diese wurden NICHT übernommen — die
+      App richtet sich an Tierphysiotherapeut:innen, die nicht
+      verschreiben; übernommen wurden nur Wirkprinzip, Wirkdauer,
+      Applikationsart und die für die Physiotherapie relevanten
+      Konsequenzen (z. B. Therapiebeginn nach Femurkopfresektion an Tag 5).
+      Falls Vanessa das anders haben möchte, kann das nachträglich ergänzt
+      werden.
+      **Cross-Source-Abgleich:** Zwei zuvor offene VetCenter-Backlog-Punkte
+      (Osteomyelitis-Kapitelanfang, generalisierte Skeletterkrankungen
+      OC/Panosteitis/hypertrophe Osteodystrophie) sind mit diesem
+      Koch/Fischer-Content inhaltlich abgedeckt und im VetCenter-Abschnitt
+      unten als erledigt markiert, statt denselben Themenkomplex ein
+      zweites Mal aus einer anderen Quelle zu lesen.
+      Nächster Fortsetzungspunkt: Kap. 8.3 „Erkrankungen der
+      Hintergliedmaße" (ab S. 195, Chunk u(35) — Zuordnung noch nicht
+      einzeln verifiziert, beim Fortsetzen per `search_files` neu prüfen).
 
 ### UNTERSUCHUNG — Baumgartner, Klinische Propädeutik der Haus- und Heimtiere
 

@@ -4584,6 +4584,272 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["baer", "filou"],
     relatedAnatomyIds: ["discus", "rueckenmark"],
   },
+  {
+    id: "gelenkerkrankungen-haeufigkeit-und-ursachen",
+    category: "PATHOLOGIE",
+    title: "Warum so viele junge, sportliche Hunde Gelenkprobleme haben",
+    teaser:
+      "Rund 70 % aller Lahmheiten sitzen in der Hintergliedmaße, die Hälfte davon im Knie — und die Ursache liegt oft schon in der Welpenzeit, nicht im vermeintlichen Unfall.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wo Lahmheiten typischerweise sitzen",
+        text: "Rund 70 % aller Lahmheiten beim Hund sind in den Hintergliedmaßen lokalisiert, rund 50 % im Kniegelenk. Die meisten zugrunde liegenden Erkrankungen gehören zu den Dysplasieformen und ihren Folgeproblemen (Hüftgelenkdysplasie und -arthrose, Ellbogendysplasie und -arthrose, Patellaluxation) sowie zum großen Problemkreis der Kreuzbandrisserkrankung.",
+      },
+      {
+        type: "text",
+        heading: "Warum auch junge, sportliche und schlanke Hunde so oft betroffen sind",
+        text: "Ein wichtiger Faktor ist die moderne Hundezucht: Im Streben nach körperlicher Perfektion und Standardmaßen wurde die Funktionalität vieler Rassen zugunsten reiner Ästhetik zurückgestuft, natürliche Selektion und freie Partnerwahl entfallen komplett. Die meisten Gelenkprobleme entstehen zudem bereits in der Welpenzeit, wenn ein zu hohes Gewicht bzw. ein zu massiger Körper auf einen noch juvenilen, zarten Gelenkknorpel trifft und ihn innerhalb kurzer Zeit schädigt. Für korrigierende Eingriffe über Futtermenge, Medikamente oder Operationen ist es oft zu spät, weil Hunden nur wenige Wochen für die Skelettentwicklung zur Verfügung stehen.",
+      },
+      {
+        type: "text",
+        heading: "Kreuzbandriss neu gedacht: Dysplasie statt Unfall",
+        text: "Auch beim Kreuzbandriss dominieren in den Krankengeschichten große und übergewichtige Hunde — nur selten wird von einer großen Krafteinwirkung auf das Kniegelenk berichtet. Der Kreuzbandriss beim Hund gehört deshalb eher zu den Dysplasieformen bzw. Fehlentwicklungen des Skeletts als zu den Unfällen. Die therapeutische Konsequenz: Ein simpler Ersatz des gerissenen Bandes löst das zugrunde liegende Problem nicht — erst eine Biomechanikänderung oder ein kompletter Gelenkersatz hilft nachhaltig. Umstellungsosteotomien an Ellbogen, Hüfte oder Knie leiten die fehlgerichteten Muskelkräfte um und führen zu dauerhafteren Therapieerfolgen als ein reiner Bandersatz.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.1.1 (Allgemeine Informationen, Häufigkeiten), S. 182. Häufigkeitsangaben und die Einordnung des Kreuzbandrisses sind im Original so beschrieben.",
+    relatedCaseIds: ["bruno"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "allgemeine-therapieprinzipien-gelenkerkrankungen",
+    category: "THERAPIE",
+    title: "Allgemeine Therapieprinzipien bei Gelenkerkrankungen",
+    teaser:
+      "Zwischen Schmerzmittel und Skalpell liegt ein ganzes Bündel an Maßnahmen — Bewegungssteuerung, Gewichtsreduktion und Physiotherapie tragen oft mehr zum Ergebnis bei als das einzelne Medikament.",
+    sections: [
+      {
+        type: "text",
+        heading: "Medikamentöse Optionen im Überblick",
+        text: "Nichtsteroidale Entzündungshemmer (NSAIDs) wirken am Effektororgan mit einer Wirkdauer von meist 12–24 Stunden; bei Langzeitgebrauch müssen Nieren- und Leberfunktion kontrolliert werden. Opioide/Opiate wirken zentral im Gehirn, werden meist injiziert oder über die Haut abgegeben, mit sehr unterschiedlicher Wirkdauer je nach Substanz. Als Schmerzmittel eingesetzte Steroide (z. B. Prednisolon, Dexamethason) müssen wegen bedeutender gastrointestinaler und endokrinologischer Nebenwirkungen mit Vorsicht verschrieben werden. Konkrete Dosierungen sind hier bewusst nicht aufgeführt — die Verordnung ist tierärztliche Entscheidung, nicht Teil des physiotherapeutischen Aufgabenbereichs.",
+      },
+      {
+        type: "text",
+        heading: "Knorpelschutzpräparate",
+        text: "Orale Präparate mit Chondroitin und Glukosamin (gewonnen aus Haifischknorpel und Rindertrachea) werden wegen ihres hohen Molekulargewichts nur zu rund 10 % resorbiert; ihre Wirkung gilt als umstritten, sie sollen mindestens 2 Monate lang und in hoher Reinheit verabreicht werden, um therapeutische Spiegel zu erreichen. Grünlippmuschel-Extrakte wirken primär schmerzlindernd und nur wenig knorpelerhaltend. Injizierbare Knorpelbestandteile (Hyaluronsäure, Pentosanpolysulfat) umgehen den Verdauungsprozess und erreichen dadurch höhere Wirkspiegel im Gelenk.",
+      },
+      {
+        type: "text",
+        heading: "Bewegungssteuerung statt Ruhigstellung",
+        text: "Hunde mit Gelenk-, Knochen- oder Muskelleiden sollten vor einer geplanten oder nach einer erfolgten Operation bzw. im Rahmen einer konservativen Therapie nur kurzzeitig, dafür aber oft spazieren geführt werden. Dieser Bewegungsplan aktiviert die Muskulatur und vermeidet gleichzeitig, dass Ermüdungsphänomene die Gelenke unphysiologisch belasten. Die Bewegung sollte keinesfalls zu stark reduziert werden, da gut ausgebildete Muskulatur gerade auf proximale Gelenke wie Hüfte und Schulter eine wichtige stabilisierende Funktion hat.",
+      },
+      {
+        type: "text",
+        heading: "Gewichtsreduktion",
+        text: "Da rund 60 % des Körpergewichts auf den Vorderbeinen lasten, ist eine Gewichtsreduktion vor allem bei Erkrankungen der Vordergliedmaße sinnvoll — der Effekt der Belastungsreduktion auf den geschädigten Gelenkknorpel kann je nach Erkrankung kaum hoch genug eingeschätzt werden.",
+      },
+      {
+        type: "text",
+        heading: "Rolle der Physiotherapie und Zusammenarbeit mit dem Tierarzt",
+        text: "Die generellen Ziele der Physiotherapie bei konservativer oder postoperativer Behandlung sind die rasche Rückkehr zu normalem Bewegungsablauf, Erhalt und Aufbau von Muskulatur, Erhöhung des Bewegungsumfangs verletzter oder arthrotischer Gelenke, das Abführen von Wundsekreten und gestauter Lymphe sowie die Korrektur von Fehlbelastungen durch chronische Gelenkleiden. Die Zusammenarbeit zwischen Tierarzt und Physiotherapie beginnt im Idealfall schon vor einem geplanten chirurgischen Eingriff, mit gemeinsam festgelegten Zielen; mit der postoperativen Physiotherapie wird so rasch wie möglich begonnen — nach einer Femurkopfresektion z. B. bereits nach 5 Tagen, bei Kreuzbandrissen etwas später.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "falsche Priorisierung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.1.2 (Allgemeine Therapieempfehlungen), S. 182f. Wirkprinzipien und Therapieziele sind im Original so beschrieben; konkrete Medikamenten-Dosierungen aus der Quelle wurden bewusst nicht übernommen (siehe Hinweis im Text) — die App richtet sich an Tierphysiotherapeut:innen, nicht an verschreibende Tierärzt:innen.",
+    relatedCaseIds: ["bruno"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "osteochondrose-hund",
+    category: "PATHOLOGIE",
+    title: "Osteochondrose (OC) — wenn wachsender Knorpel sich vom Knochen löst",
+    teaser:
+      "Vier typische Lokalisationen, vier Schweregrade — und ein Mechanismus, der erklärt, warum ausgerechnet die zentralen Gelenkanteile schnell wachsender, großer Hunde betroffen sind.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was passiert",
+        text: "Die Osteochondrose (OC) ist eine Entwicklungsstörung des Hundewelpen: Der Gelenkknorpel degeneriert und kalzifiziert nicht planmäßig, sondern hypertrophiert stattdessen — es entsteht eine zunehmend verdickte Knorpelschicht, die nur durch Diffusion aus der Synovia ernährt wird und deren tiefere Zonen dadurch nekrotisieren können. Als vermutete Ursachen gelten rasches Wachstum, ungenügende Ernährung, Kalzium-Überversorgung, Genetik, Übergewicht und starke Gelenkbeanspruchung — eine einheitliche Ätiologie ist nicht gesichert. Das Ergebnis ist eine weiche Knorpelschicht, die sich vom subchondralen Knochen ablösen und als frei bewegliches Dissekat im Gelenk selbständig machen kann. OC wird in vier Grade eingeteilt: Grad-IV-Defekte sind schmerzhaft und werden meist operativ behandelt, geringere Grade können spontan heilen oder bleiben symptomlos.",
+      },
+      {
+        type: "table",
+        heading: "Vier typische Lokalisationen",
+        columns: ["Gelenk", "Betroffene Struktur", "Anteil aller OC-Fälle"],
+        rows: [
+          ["Schultergelenk", "Zentraler/kaudozentraler Humeruskopf", "74 %"],
+          ["Ellbogengelenk", "Medialer Humeruscondylus", "13 %"],
+          ["Sprunggelenk (Tarsus)", "Talusrollkamm (75 % medial, 25 % lateral)", "9 %"],
+          ["Kniegelenk", "Lateraler (selten medialer) Femurcondylus", "4 %"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Klinik je nach Gelenk",
+        text: "Erste Symptome treten meist im Alter von 4–7 Monaten auf, betroffen sind vor allem frohwüchsige, große und männliche Hunde, häufig bilateral. Am Tarsus zeigt sich eine deutliche Klinik mit Anlauflahmheit, steil stehenden Hintergliedmaßen und ausgeprägter Gelenkfüllung. Am Knie ist ein Kniegelenkerguss mit Druckdolenz am lateralen Femurcondylus tastbar. Am Ellbogen ist die Klinik von einer medialen Coronoiderkrankung kaum zu unterscheiden. An der Schulter ist die Lahmheit meist diskret, mit Druckschmerz am zentralen/kaudalen Humeruskopf bei Innenrotation.",
+      },
+      {
+        type: "text",
+        heading: "Therapie",
+        text: "Eine konservative Therapie (Dauertherapie mit Schmerzmitteln, Knorpelschutzpräparate, Gewichtsreduktion, häufige kurze Spaziergänge, Physiotherapie) ist indiziert bei intermittierender Lahmheit, kaum sichtbaren Röntgenveränderungen und bei erwachsenen Hunden mit bereits fortgeschrittenen degenerativen Veränderungen. Deutlich sichtbare Läsionen bei jungen Hunden mit akuter Lahmheit werden dagegen meist chirurgisch (Kürettage, Debridement, Entfernung freier Fragmente) behandelt — je jünger der Hund, desto besser die Prognose. Schulter-OC hat die beste, tarsale OC die schlechteste Prognose.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.1 (Osteochondrose), S. 183–186. Ätiologie, Lokalisationsverteilung, Klinik und Therapie sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "panosteitis-hypertrophe-osteodystrophie-knorpelzapfen",
+    category: "PATHOLOGIE",
+    title: "Drei Wachstumserkrankungen der langen Röhrenknochen unterscheiden",
+    teaser:
+      "Panosteitis, hypertrophe Osteodystrophie und retinierte Knorpelzapfen betreffen alle junge, große Hunde — aber mit unterschiedlichem Verlauf, unterschiedlicher Lokalisation und sehr unterschiedlicher Prognose.",
+    sections: [
+      {
+        type: "text",
+        heading: "Panosteitis — die wandernde, selbstlimitierende Knochenschmerz-Erkrankung",
+        text: "Panosteitis betrifft praktisch ausschließlich juvenile Hunde großer Rassen (5–18 Monate, überwiegend männlich), selten bis zum Alter von 3 Jahren. Die Ursache ist unbekannt; gesichert ist nur, dass sie mit einem Fettzelluntergang im Bereich des Foramen nutritium langer Röhrenknochen beginnt, gefolgt von einer sehr schmerzhaften Phase und einem Reparaturprozess, der nach 6–12 Wochen abgeschlossen ist. Am häufigsten betroffen ist die Ulna (rund 42 %), gefolgt von Radius, Humerus, Femur und Tibia. Typisch ist eine spontan beginnende Lahmheit, die zwischen Tagen und 3–6 Wochen dauert, sich nicht durch Aufwärmen bessert und oft von Bein zu Bein wechselt — der Schmerz kann so stark sein, dass das Bein gar nicht belastet wird. Panosteitis ist selbstlimitierend und hinterlässt keine Folgeschäden; die Therapie ist rein unterstützend (Schmerzmittel, reduzierte Fütterung, da Überfütterung als möglicher Faktor gilt).",
+      },
+      {
+        type: "text",
+        heading: "Hypertrophe Osteodystrophie — akut, schmerzhaft, mit möglichem Radius-curvus-Folgeschaden",
+        text: "Auch als Moeller-Barlow-Erkrankung oder metaphysäre Osteopathie bezeichnet, mit unbekannter Ätiologie (diätetische Hypothesen wie Vitamin-C-Mangel oder Vitamin-D-Überversorgung gelten als widerlegt). Sie betrifft den metaphysären Knochen von Welpen im Alter von 3–5 Monaten, meist beidseits an den distalen Vordergliedmaßen, mit dolenter Schwellung, oft begleitet von Fieber, Anorexie, Schwäche und Dehydration — Todesfälle sind möglich. Nach Befall der distalen Ulna kann der vorzeitige Fugenschluss zum Radius-curvus-Phänomen führen (Krümmung des Radius, Valgusfehlstellung, Außenrotation), da die Ulna dann wie eine bremsende Spange wirkt, während der Radius weiterwächst. Milde Fälle werden mit Schmerzmitteln und Ruhigstellung behandelt, schwere Fälle benötigen intensivere Betreuung; drohenden starken Fehlstellungen kann frühzeitig mit einer Ulnaosteotomie begegnet werden.",
+      },
+      {
+        type: "text",
+        heading: "Retinierte Knorpelzapfen — dieselbe Folge, anderer Mechanismus",
+        text: "Hierbei handelt es sich um eine verzögerte Knochenbildung der Wachstumsfuge, meist an der distalen Ulna — möglicherweise eine spezielle Form der Osteochondrose. Sie tritt im Alter von 3–4 Monaten bei großen Rassen auf, beginnt mit milder Lahmheit und führt — wie die hypertrophe Osteodystrophie — über eine Wachstumsbremsung der Ulna zum Radius-curvus-Phänomen, allerdings sind die betroffenen Tiere ansonsten gesund (kein Fieber, keine Allgemeinsymptome). Die Therapie richtet sich nach dem Ausmaß der Achsabweichung, von palliativer Schmerzbekämpfung bis zur Korrekturosteotomie.",
+      },
+      {
+        type: "text",
+        heading: "Warum die Abgrenzung wichtig ist",
+        text: "Alle drei Erkrankungen betreffen junge, große Hunde und können lahmheitsauslösend sein — aber Panosteitis heilt folgenlos aus, während hypertrophe Osteodystrophie und retinierte Knorpelzapfen beide über eine gestörte distale Ulnafuge zu einer bleibenden Fehlstellung (Radius curvus) führen können. Die Unterscheidung entscheidet also direkt darüber, ob abgewartet werden darf oder frühzeitig eine Korrektur erwogen werden muss.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.2–8.2.4 (Panosteitis, Hypertrophe Osteodystrophie, Retinierte Knorpelzapfen), S. 186–189. Ätiologie, Klinik und Therapie sind im Original so beschrieben; konkrete Medikamenten-Dosierungen wurden bewusst nicht übernommen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "polyarthritis-hund",
+    category: "PATHOLOGIE",
+    title: "Polyarthritis — wenn mehrere Gelenke gleichzeitig betroffen sind",
+    teaser:
+      "Steifes Gangbild, Fieber unklarer Ursache und zuerst die distalen Gelenke betroffen — die idiopathische Polyarthritis gehört in jede Differentialdiagnoseliste bei unerklärt hoher Körpertemperatur.",
+    sections: [
+      {
+        type: "table",
+        heading: "Einteilung der Arthritiden",
+        columns: ["Hauptgruppe", "Untergruppen"],
+        rows: [
+          ["Nichtentzündlich", "Degenerativ, kongenital, traumatisch, neoplastisch, hämophil"],
+          ["Entzündlich, infektiös", "Bakterien, Mykoplasmen, Protozoen"],
+          [
+            "Entzündlich, nichtinfektiös",
+            "Kristallinduziert; immuninduziert (erosive Formen wie rheumatoide Arthritis oder Polyarthritis bei Greyhounds; nichterosive Formen wie idiopathische Polyarthritis, systemischer Lupus erythematodes, Impfreaktion, Polyarthritis nach Meningitis)",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die häufigste Form: idiopathische Polyarthritis",
+        text: "Die bei Weitem häufigste Polyarthritis-Form beim Hund ist die idiopathische Polyarthritis aus der immuninduzierten, nichterosiven Gruppe. Immuninduzierte Formen können auch als Folge systemischer neoplastischer, infektiöser, parasitärer oder anderer schwerer Erkrankungen auftreten, ausgelöst durch Antigen-Antikörper-Komplexe und Entzündungsprodukte, die in und neben den Gelenken abgelagert werden. Die seltenere erosive Form zeigt zusätzlich chondrodestruktive Kollagenasen und Proteasen und damit deutlichere Knorpel-/Knochenzerstörung.",
+      },
+      {
+        type: "text",
+        heading: "Klinisches Bild",
+        text: "Hunde werden meist vorgestellt, weil sie ungern und steif laufen; die Lahmheitsgrade variieren stark, häufig besteht Fieber. Typischerweise sind zuerst die distalen Gelenke (Zehen, Karpal-/Tarsalgelenke) geschwollen, warm und dolent, weiter proximale Gelenke sind seltener betroffen — das Gangbild verschlechtert sich charakteristischerweise auf unebenem Gelände. Arthrotische Zubildungen finden sich erst im chronischen Verlauf.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik und Therapie",
+        text: "Die Diagnostik ist aufwendig: Röntgen der am stärksten betroffenen Gelenke zum Ausschluss eines primär degenerativen/traumatischen Geschehens, komplettes Blutbild, Gelenkpunktate mit zytologischer Untersuchung, serologische Tests auf Primärerreger (z. B. Ehrlichien, Toxoplasmen, Borrelien). Ein zytologischer Befund einer eitrigen Synovitis ohne Bakteriennachweis bei negativen Infektions-/Primärerkrankungs-Tests führt zur Diagnose immuninduzierte Polyarthritis. Erosive Formen benötigen zusätzlich eine Gelenkkapselbiopsie zur Diagnosesicherung. Therapeutisch werden Kortikosteroide eingesetzt (bei erosiven Formen zusätzlich zytotoxische Medikation); die Behandlung muss immer auch die zugrunde liegende Erkrankung mit einschließen. Die Prognose der erosiven Polyarthritis ist wegen bleibender Gelenkschäden vorsichtig zu stellen; immuninduzierte Formen lassen sich dagegen oft gut kontrollieren, teils sogar mit späterem Absetzen der Medikation.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.5 (Polyarthritis), S. 188–190, inkl. Tab. 8.1 (Arthritis-Einteilung, zitiert nach [111]). Klassifikation, Klinik, Diagnostik und Therapieprinzip sind im Original so beschrieben; konkrete Medikamenten-Dosierungen wurden bewusst nicht übernommen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "osteomyelitis-hund",
+    category: "PATHOLOGIE",
+    title: "Osteomyelitis — Knocheninfektion nach Trauma, OP oder Streuung",
+    teaser:
+      "Eine Infektion, die im Röntgenbild erst nach Wochen sichtbar wird — und bei der ein zunächst unauffälliger Heilungsverlauf nach einer Operation eine beginnende Osteomyelitis leicht verdecken kann.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ursachen und Entstehung",
+        text: "Die meisten Knocheninfektionen sind bakteriell (rund 70 % Aerobier, oft Staphylokokken; daneben Streptokokken, E. coli, Pasteurellen, Klebsiellen, Serratien, Proteus; bei Bissverletzungen/Darmrupturen auch Anaerobier wie Bacteroides, Fusobacterium, Clostridien). Typische Eintrittspforten sind offene Frakturen, Knochensequester, Bissverletzungen, Streuinfektionen aus anderen Körperregionen oder iatrogene Wundinfektionen durch unsteriles Arbeiten oder wiederholte chirurgische Eingriffe. Der Knochen selbst ist eigentlich relativ infektionsresistent — erst traumatisch oder iatrogen geschädigtes Weichgewebe, gestörte Blutzufuhr, Implantate, systemische Erkrankungen oder Mangelzustände schwächen die Abwehr so weit, dass eine Bakterienbesiedlung gelingt. Bei Neonaten/Welpen ist zusätzlich eine hämatogene Streuung aus dem Nabel möglich, mit potenziell dramatischen Folgen, da die stark durchblutete Wachstumszone rasch irreversibel zerstört werden kann. (Die beim Deutschen Schäferhund bekannten metatarsalen Fistulierungen haben dagegen keinen ossären Ursprung und sollen nicht mit klassischer Osteomyelitis verwechselt werden.)",
+      },
+      {
+        type: "text",
+        heading: "Klinisches Bild",
+        text: "Hämatogen streuende Infektionen gehen praktisch immer mit Fieber und Zeichen eines septischen Geschehens einher, betroffene junge Hunde fressen kaum und zeigen Lahmheit bei infizierten Knochen. Exogen verursachte Osteomyelitiden verlaufen dagegen unspezifischer: die Region ist warm und schmerzhaft, die Muskulatur bildet sich zurück, die Lahmheit ist eher leicht. Nach vorausgegangenen orthopädischen Eingriffen lässt sich eine beginnende Osteomyelitis kaum von einem normalen, leicht verzögerten Heilungsverlauf unterscheiden — Fistelkanäle zeigen sich erst im chronischen Verlauf und schließen sich unter Antibiose, um nach deren Absetzen erneut aufzubrechen.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik und Therapie",
+        text: "Eine akute Osteomyelitis zeigt im Röntgenbild proliferative periostale Reaktionen, Osteolyse der Kompakta und diffuse Weichteilschwellung; bei chronischem Verlauf einen sklerotischen Randsaum, ggf. einen Sequester. Schnittbildverfahren wie CT sind zur Sequester-Detektion sensitiver als das Röntgenbild. Für eine sichere Erregerbestimmung muss eine Knochenkultur entnommen werden (Fistelkanal-Abstriche sind nicht diagnostisch verwertbar), idealerweise nach mindestens 48 Stunden ohne vorherige Antibiotikagabe. Lokal begrenzte Fälle ohne Beeinträchtigung des Allgemeinbefindens können antibiotisch behandelt werden; ausgedehntere Fälle benötigen zusätzlich ein chirurgisches Debridement mit Entfernung nekrotischer Knochenstücke und ggf. Implantatentfernung. Bei septischen Gelenken sind ausgiebige Spülung und lange Antibiose nötig — Gelenkprothesen können nach einer Infektion in der Regel nicht mehr eingesetzt werden, da Bakterien praktisch nie vollständig aus dem Knochen zu entfernen sind.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.6 (Osteomyelitis), S. 190–192. Ätiologie, Klinik, Diagnostik und Therapieprinzip sind im Original so beschrieben; konkrete Medikamenten-Dosierungen wurden bewusst nicht übernommen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "knochentumoren-gelenktumoren-hund",
+    category: "PATHOLOGIE",
+    title: "Osteosarkom und Synovialzellsarkom — die wichtigsten Knochen- und Gelenktumoren",
+    teaser:
+      "Ein Osteosarkom am Kniegelenk kann klinisch wie ein Kreuzbandriss aussehen — und ein Synovialzellsarkom kann sogar einen echten Kreuzbandriss auslösen. Zwei Tumoren, bei denen Bildgebung unverzichtbar ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Osteosarkom — der weitaus häufigste Skeletttumor",
+        text: "Mit rund 80 % ist das Osteosarkom der häufigste Knochentumor des Hundes, betrifft (anders als beim Menschen) meist ältere, große Hunde und bevorzugt die Prädilektionsstellen distaler Radius, proximaler Humerus, distales Femur und proximale Tibia (jeweils ellbogenfern bzw. knienah). Typischer Patient: groß, 7–8 Jahre alt, mit progredienter, auf Schmerzmittel nicht ansprechender Lahmheit ohne Besserung nach Aufwärmen; oft starker Muskelschwund der betroffenen Gliedmaße. Mikrofrakturen im Tumorbereich können zu einer akuten Lahmheit oder sogar zu einer pathologischen Fraktur ohne adäquates Trauma führen — meist am Femur. Tumoren am proximalen Humerus können klinisch eine N.-radialis-Lähmung vortäuschen (Carpus/Ellbogen in Flexion, kein Auffußen); Tumoren am distalen Femur können mit einem Kreuzbandriss verwechselt werden, zumal ein Osteosarkom hier sogar sekundär einen echten Kreuzbandriss auslösen kann. Zum Diagnosezeitpunkt haben bereits rund 99 % der Hunde Lungenmikrometastasen. Da meist schon Fernmetastasen vorliegen, ist die Behandlung überwiegend palliativ (Amputation, ggf. mit Chemotherapie oder gliedmaßenerhaltender Tumorresektion).",
+      },
+      {
+        type: "text",
+        heading: "Synovialzellsarkom — der häufigste Gelenktumor",
+        text: "Gelenktumoren sind insgesamt selten, aber maligne; der häufigste ist das Synovialzellsarkom, das aus undifferenzierten mesenchymalen Zellen in Gelenknähe entsteht und sich der Gelenkkapsel außen anheftet oder ins Gelenk hineinwächst. Im fortgeschrittenen Stadium ist die Destruktion beider am Gelenk beteiligten Knochen charakteristisch — im Unterschied zum monoossär destruktiven Osteosarkom. Da viele dieser Tumoren am Kniegelenk auftreten, wird klinisch zunächst oft ein partieller oder kompletter Kreuzbandriss vermutet: diffus geschwollenes, bei Extension und Schubladentest dolentes Knie, aber ohne Krepitation, mit progressivem statt akutem Verlauf. Die lokale Tumorresektion führt meist innerhalb von 1–24 Monaten zum Rückfall; eine Amputation verlängert das Leben im Mittel um rund 17 Monate, histologisch aggressive Formen sollten zusätzlich Chemotherapie erhalten.",
+      },
+      {
+        type: "text",
+        heading: "Warum Bildgebung hier unverzichtbar ist",
+        text: "Beide Tumoren können sich klinisch als „gewöhnliches“ orthopädisches Problem tarnen (N.-radialis-Lähmung, Kreuzbandriss) — der rein orthopädische Untersuchungsgang allein reicht zur Diagnose nicht aus. Erst Röntgenbilder (unregelmäßige Knochenauflösung und periostale Zubildung beim Osteosarkom vs. periphere, unregelmäßige Gelenkschwellung mit Knochendestruktion beim Synovialzellsarkom) und Biopsien liefern die entscheidende Unterscheidung.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.7–8.2.8 (Knochentumoren, Gelenktumoren), S. 192–194. Ätiologie, Klinik, Diagnostik und Prognoseangaben sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "hypertrophe-osteopathie-marie-bamberger",
+    category: "PATHOLOGIE",
+    title: "Hypertrophe Osteopathie (Marie-Bamberger-Syndrom) als Alarmsignal",
+    teaser:
+      "Schmerzhafte Schwellungen an allen vier distalen Gliedmaßen sind selten harmlos — meistens steckt ein Tumor oder Abszess in Brust- oder Bauchhöhle dahinter.",
+    sections: [
+      {
+        type: "text",
+        heading: "Mechanismus",
+        text: "Der hypertrophen Osteopathie (auch hypertrophe Osteoarthropathie oder Marie-Bamberger-Syndrom genannt) geht immer eine große Raumforderung voraus — meist ein Tumor oder Abszess im Thorax oder Abdomen. Man vermutet, dass neurovaskuläre Reflexe im Zusammenhang mit dieser Grunderkrankung periphere Shunts, dadurch lokale Knochenhypoxie und schließlich eine reaktive Knochenneubildung auslösen. Die dabei entstehenden perlschnurartigen periostalen Veränderungen finden sich nur an den Röhrenknochen, nicht an den Gelenken selbst — und können sich bei erfolgreicher Behandlung der Grunderkrankung zurückbilden.",
+      },
+      {
+        type: "text",
+        heading: "Klinik, Diagnostik und Prognose",
+        text: "Die Erkrankung ist selten und betrifft meist ältere, oft großrassige Hunde mit einer meist tumorbedingten Primärmasse. Palpierbare, dolente und ödematöse Schwellungen beginnen typischerweise an den distalen Vordergliedmaßen, im weiteren Verlauf kommt eine milde Lahmheit hinzu. Im Röntgenbild zeigen sich charakteristische regelmäßige Periostzubildungen, zunächst entlang der Metacarpi/Metatarsi, dann entlang der langen Röhrenknochen — zur Diagnosesicherung gehört zwingend die Suche nach dem Primärproblem in Thorax oder Abdomen. Da es sich dabei meist um einen Lungentumor handelt, ist die Prognose trotz der grundsätzlich regressiven Knochenveränderungen insgesamt als ungünstig einzustufen.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.9 (Hypertrophe Osteopathie), S. 194f. Mechanismus, Klinik und Diagnostik sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
