@@ -313,37 +313,58 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       `oberarm-schulter-liegender-hund-untersuchung`, verknüpft mit Fall
       Rocky). Kap. 6 endet danach mit einem einzeiligen Literaturverzeichnis
       (6.4) — Kap. 6 (liegender Hund) ist damit vollständig abgedeckt.
-- [ ] **Wichtiger Fund beim Weiterlesen:** Ab u(21) (~S. 157) folgt im Buch
-      offenbar KEIN separates neurologisches Kapitel, sondern ein
-      umfangreicher Pathologie-Teil — die Fundstellen-Verweise
-      „(S. 183)" bis „(S. 226)", die in den Kap.-5/6-Befund-DD-Listen
-      durchgängig auf Krankheitsbilder verweisen (Osteochondrose S. 183,
-      Panosteitis S. 186, hypertrophe Osteodystrophie S. 187, Polyarthritis
-      S. 189, Neoplasie S. 192, Fersensehnenriss/Calcaneusfraktur S. 197f.,
-      Kreuzbandriss S. 199, Patellaluxation S. 202, Osgood-Schlatter S. 207,
-      Legg-Perthes S. 209, Hüftgelenkdysplasie/-arthrose S. 210,
-      Hüftgelenkluxation S. 216, Sesambeinerkrankung/Hyperextensionstrauma
-      S. 219, Tendovaginitis M. abductor pollicis longus S. 221,
-      Ellbogendysplasie S. 222, Bizepssehnenentzündung S. 226) — sitzen
-      offenbar in genau diesem Buchteil. Das würde die bisherige Vermutung
-      „vollständiger neurologischer Untersuchungsgang ab S. 157" widerlegen
-      bzw. präzisieren: S. 157 könnte der Kapitelübergang zu einem
-      Pathologie-/Krankheitsbilder-Kapitel sein statt zu einem separaten
-      Neuro-Kapitel. Noch nicht verifiziert, da ab u(21) noch nicht gelesen —
-      nächster Schritt: u(21) öffnen und den tatsächlichen Kapiteltitel
-      prüfen, bevor weitere Annahmen getroffen werden.
+- [x] **Korrektur eines eigenen Irrtums vom 24.09.:** Die ursprüngliche
+      Vermutung, ab S. 157 folge kein separates Neuro-Kapitel, sondern
+      direkt ein Pathologie-Teil, war falsch und ist hiermit zurückgezogen.
+      Tatsächlich bestätigt: **Kapitel 7 „Neurologischer Untersuchungsgang"
+      (Daniel Koch, Martin S. Fischer) beginnt exakt auf S. 157** — wie
+      ursprünglich im Backlog vermerkt. Gelesen und inhaltlich bestätigt:
+      7.1 Einordnung (Abgrenzung Lahmheit/Lähmung, Ziel: topische Diagnose),
+      7.2 Anamnese (7.2.1 Signalement mit Rasseprädispositionen, 7.2.2
+      Vorgeschichte mit 12 Leitfragen + Befund-DD-Zuordnungen), 7.3
+      Bewusstsein und Verhalten, 7.4 Haltung (inkl. Schiff-Sherrington,
+      Opisthotonus, Myoklonien, Tremor, Lordose/Kyphose/Skoliose,
+      Kopfschiefhaltung als Befunde), 7.5 Beobachtung des Ganges (diagonale
+      Gangart, Ataxie-Typen nach Lokalisation: spinal/zerebellär/vestibulär/
+      kortikal, Plegie-/Paresetypologie), sowie der Anfang von 7.6
+      Haltungs- und Stellreaktionen (7.6.1 Tischkantenprobe, 7.6.2
+      Unterstützungsreaktion, S. 157–160) — noch **nicht als
+      Wissenseinträge umgesetzt**, da dieses Kapitel bewusst erst nach
+      vollständiger Lektüre (weitere Stell-/Haltungsreaktionen,
+      vermutlich spinale Reflexe, Hirnnervenprüfung, Schmerzwahrnehmung)
+      am Stück sauber strukturiert werden soll, statt es fragmentiert zu
+      beginnen.
+- [ ] **Offene Sorgfaltsnotiz zur Datei-ID-Zuordnung:** Beim Lesen der
+      Kap.-7-Chunks ist mir eine Verwechslung von Drive-Datei-IDs
+      unterlaufen (ein Lesevorgang, den ich für einen neuen Kap.-7-Chunk
+      hielt, lieferte tatsächlich bereits bekannten Kap.-5.3-Inhalt zurück
+      — Ursache: ich hatte mir die falsche fileId für „das nächste u(N)"
+      gemerkt statt sie erneut aus einer frischen `search_files`-Abfrage
+      zu entnehmen). Es wurde dadurch **nichts Falsches in die Datenbank
+      geschrieben** — der Fehler ist rein beim Lesen passiert und wurde vor
+      dem Schreiben irgendeines Eintrags bemerkt. Konsequenz für künftige
+      Sessions: die bisher dokumentierte 1:1-Tabelle „u(N) = Seite X" NICHT
+      blind weiterverwenden, sondern vor dem nächsten Lesevorgang erneut
+      `search_files` auf den Ordner ausführen, die Zuordnung Titel→fileId
+      frisch notieren, und Chunks einzeln (nicht mehrere fileIds parallel
+      aus dem Gedächtnis) abrufen, bis die Zuordnung für den Rest der Datei
+      neu und zuverlässig etabliert ist.
 - [x] Die Datei hat ~46 Einzel-PDF-Chunks (u.pdf, u(1)–u(46), Ordner-ID
-      1J3C3r71IrVdvrSUmTm8yRjMtMuyI8ZeT) — Nummerierung ist streng sequenziell
-      zum Buchtext (u(13)=S.80–82, u(14)=S.82–83, u(15)=S.83–84, u(16)=S.84–98
-      [großer Chunk, deckt ganz Kap. 5.3 ab], u(17)=S.98–109 [Kap. 5.4
-      komplett], u(18)=S.110f. [Anfang Kap. 6], u(19)=S.111–136 [Kap. 6.2
+      1J3C3r71IrVdvrSUmTm8yRjMtMuyI8ZeT). Sicher verifizierte Zuordnungen
+      (Seitenkopf im zurückgegebenen Text geprüft, nicht nur die
+      Chunk-Nummer angenommen): u(13)=S.80–82, u(14)=S.82–83, u(15)=S.83–84,
+      u(16)=S.84–98 [Kap. 5.3 komplett], u(17)=S.98–109 [Kap. 5.4 komplett],
+      u(18)=S.110f. [Anfang Kap. 6], u(19)=S.111–136 [Kap. 6.2
       Hintergliedmaße komplett], u(20)=S.136–156 [Kap. 6.3 Vordergliedmaße
-      komplett + Kap. 6.4 Literaturverzeichnis]). Kap. 6 ist damit über nur
-      zwei große Chunks vollständig abgedeckt. Für den nächsten,
-      offenbar Pathologie-lastigen Buchteil ab S. 157 weiter mit u(21)
-      lesen — die Chunk-Länge korreliert weiterhin nicht linear mit
-      Seitenzahl, daher immer den tatsächlichen Seitenkopf im Text prüfen
-      statt nur die Chunk-Nummer hochzuzählen.
+      komplett + Kap. 6.4 Literaturverzeichnis]. Kap. 6 ist damit
+      vollständig abgedeckt. Für Kap. 7 (Neurologischer Untersuchungsgang,
+      bestätigt ab S. 157) wurde Inhalt bis S. 160 (Anfang 7.6.2) bereits
+      gelesen, aber die genaue u(N)-Zuordnung dafür ist wegen der oben
+      genannten Verwechslung nicht mehr zweifelsfrei dokumentiert — beim
+      Fortsetzen daher ab einer frischen Ordnerabfrage neu einsteigen und
+      testweise mit dem Seitenkopf „S. 160" o.ä. abgleichen, um die
+      richtige Stelle zuverlässig wiederzufinden, bevor mit S. 160ff.
+      weitergelesen wird.
 
 ### UNTERSUCHUNG — Baumgartner, Klinische Propädeutik der Haus- und Heimtiere
 
