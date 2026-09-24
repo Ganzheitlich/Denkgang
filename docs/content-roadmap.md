@@ -62,15 +62,15 @@ kein Überblick verloren geht.
 
 ## Stand (24.09.2026)
 
-- Wissensbibliothek: 75 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 27
-  Untersuchung, 24 Pathologie, 9 Biomechanik, 6 Therapie — genaue Aufteilung
+- Wissensbibliothek: 84 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 27
+  Untersuchung, 33 Pathologie, 9 Biomechanik, 6 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren). Die
-  24 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund, 7
+  33 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund, 7
   Einträge), Kap. 7 (Neurologischer Untersuchungsgang, 9 Einträge) und
-  Kap. 8.1–8.2 (Allgemeine Informationen + Generalisierte Skeletterkrankungen,
-  8 Einträge, siehe Backlog unten) — damit sind Kap. 6 und Kap. 7 des Buches
-  vollständig abgedeckt, Kap. 8 erst teilweise (8.1–8.2 von vermutlich
-  mehreren Unterkapiteln bis S. 229).
+  Kap. 8.1–8.3 (Allgemeine Informationen, Generalisierte Skeletterkrankungen,
+  Erkrankungen der Hintergliedmaße, 17 Einträge, siehe Backlog unten) —
+  damit sind Kap. 6 und Kap. 7 des Buches vollständig abgedeckt, Kap. 8 bis
+  einschließlich 8.3 (von vermutlich mehreren Unterkapiteln bis S. 229).
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -121,9 +121,10 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       Koch/Fischer Kap. 8.2.6 (`osteomyelitis-hund`, 24.09.2026) statt aus
       dieser Quelle separat gelesen; VetCenters eigene Version bleibt
       ungelesen, gilt aber als nicht mehr prioritär
-- [ ] Hüftgelenkluxation (traumatisch) + Ehmer-Schlinge — Achtung: nicht mit
-      Hüftgelenkdysplasie (HD) verwechseln, im Original als Differentialdiagnose
-      klar getrennt
+- [x] Hüftgelenkluxation (traumatisch) + Ehmer-Schlinge — jetzt über
+      Koch/Fischer Kap. 8.3.10 abgedeckt (`hueftgelenkluxation-hund`,
+      24.09.2026), inkl. der hier geforderten klaren Abgrenzung zur HD
+      (plötzliches Trauma vs. langsam entstandene Gelenklockerheit)
 - [ ] Immunvermittelte Gelenkerkrankungen (Lymphoplasmazelluläre Gonitis,
       rheumatoide Arthritis, systemischer Lupus erythematodes, IPA Typ I–IV als
       Immunreaktion — Achtung: anderer Kontext als das strukturelle „IPA" bei ED,
@@ -136,13 +137,15 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       hypertrophe Osteodystrophie — inhaltlich abgedeckt über Koch/Fischer
       Kap. 8.2.1–8.2.4 (24.09.2026, siehe eigener Abschnitt oben) statt aus
       VetCenters eigenem Kapitel 8.2 separat gelesen
-- [~] Hüftgelenkdysplasie (HD) als eigenständiges Krankheitsbild (Definition,
-      Ätiologie, Diagnostik) — bisher nur über Ortolani-Test (Hárrer) und als
-      Beispiel für Gelenkinkongruenz in `arthrose-mechanische-hauptursachen`
-      abgedeckt (inkl. der konkreten HD-Kausalkette: Inkongruenz → Druck am
-      Pfannenrand → biochemische Knorpelzerstörung). Eine eigenständige
-      HD-Quelle mit Definition/Diagnostik/Röntgenscoring (z. B. FCI/OFA-Score)
-      fehlt weiterhin.
+- [x] Hüftgelenkdysplasie (HD) als eigenständiges Krankheitsbild — jetzt
+      ausführlich über Koch/Fischer Kap. 8.3.9 abgedeckt
+      (`hueftgelenkdysplasie-und-coxarthrose`, 24.09.2026): Definition,
+      Genetik/Heritabilität, Rasseunterschiede, Einfluss von Fütterung/
+      Aufzucht, Übergang zur Coxarthrose, radiologische Zeichen
+      (Norbergwinkel, Inkongruenz etc.) und vollständige Therapiepalette
+      (TPO/DPO, Hüftprothese, Femurkopfresektion, PIN-Operation). Kein
+      FCI/OFA-Röntgenscoring-Schema enthalten — bleibt offen, falls
+      benötigt.
 - [x] Kreuzbandriss / vordere Kreuzbandruptur — zentral für Fall Bruno; die
       klinischen Tests (Lachmann, Tibiakompression, Apley, McMurray) sind über
       Hárrer Kap. 8, S. 85–87 als eigener Untersuchung-Wissenseintrag
@@ -418,6 +421,31 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Nächster Fortsetzungspunkt: Kap. 8.3 „Erkrankungen der
       Hintergliedmaße" (ab S. 195, Chunk u(35) — Zuordnung noch nicht
       einzeln verifiziert, beim Fortsetzen per `search_files` neu prüfen).
+- [x] **Kap. 8.3 (Erkrankungen der Hintergliedmaße, S. 195–219) vollständig
+      gelesen und umgesetzt (24.09.2026), 9 neue PATHOLOGIE-Einträge:**
+      `tarsus-erkrankungen-hund` (8.3.3: Instabilität, Spontanfraktur
+      Calcaneus, Fersensehnenriss, Fersenkappenluxation),
+      `kreuzbandriss-biomechanik-und-therapie` (8.3.4: cranial tibial
+      thrust als biomechanische Erklärung, TPLO/TTA — ergänzt die
+      bestehende webbasierte `kreuzbandriss-krankheitsbild`),
+      `patellaluxation-grad-und-therapieoptionen` (8.3.5: US-Standard-
+      Gradeinteilung, bestätigt konvergent die bestehende Putnam-Skala aus
+      `patellaluxation-krankheitsbild`, klar abgegrenzt von Kochs eigener
+      PL-0–4-Untersuchungsklassifikation aus Kap. 6.2.4),
+      `weitere-knieerkrankungen-hund` (8.3.6: Avulsion M. extensor
+      digitorum longus, Osgood-Schlatter), `hamstringfibrose-deutscher-
+      schaeferhund` (8.3.7), `legg-perthes-erkrankung` (8.3.8),
+      `hueftgelenkdysplasie-und-coxarthrose` (8.3.9, schließt die lange
+      offene HD-Lücke, siehe VetCenter-Backlog oben),
+      `hueftgelenkluxation-hund` (8.3.10, mit expliziter Abgrenzung zur
+      HD) und `iliopsoaszerrung-hund` (8.3.11, verknüpft mit Fall Emma).
+      Chunk u(35) war ungewöhnlich groß (74.000 Zeichen) und deckte allein
+      S. 195–219 ab, endend mitten in 8.4.1/8.4.2 (Erkrankungen der
+      Vordergliedmaße: Sesamoid-Erkrankung, Hyperextensionstrauma Carpus —
+      dort abgebrochen, noch nicht umgesetzt). Nächster
+      Fortsetzungspunkt: Kap. 8.4 „Erkrankungen der Vordergliedmaße" ab
+      S. 219 zu Ende lesen (Rest von u(35) plus Folgechunks) und
+      umsetzen.
 
 ### UNTERSUCHUNG — Baumgartner, Klinische Propädeutik der Haus- und Heimtiere
 

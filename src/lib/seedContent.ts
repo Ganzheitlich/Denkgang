@@ -4850,6 +4850,325 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "tarsus-erkrankungen-hund",
+    category: "PATHOLOGIE",
+    title: "Vier Erkrankungen rund um Sprunggelenk und Fersensehnenstrang",
+    teaser:
+      "Ein plantigrader Gang kann drei völlig verschiedene Ursachen haben — Sehnenriss, Spontanfraktur oder Fersenkappenluxation. Die Unterscheidung entscheidet direkt über die Therapie.",
+    sections: [
+      {
+        type: "text",
+        heading: "Traumatische Instabilität des Tarsus",
+        text: "Die kleinen Tarsalknochen bestehen zu großen Teilen aus kortikalem Gewebe, sind durch kurze straffe Ligamente verbunden und nur schwach durchblutet. Instabilitäten werden palpatorisch und mittels gehaltener Röntgenaufnahmen (seitliche Stressaufnahmen, Hyperextensions-/Hyperflexionsaufnahmen) diagnostiziert. Bei Welpen unter 6 Monaten heilen intertarsale Rupturen/Luxationen oft schon mit Ruhigstellung und Schienung innerhalb von 6–8 Wochen aus; bei älteren Hunden sind aufwendigere Rekonstruktionen nötig, häufig mit dem Endpunkt einer Teil- oder Panarthrodese.",
+      },
+      {
+        type: "text",
+        heading: "Spontanfraktur des Calcaneus",
+        text: "Die Ursache ist unbekannt; prädisponiert sind collieartige und übergewichtige Hunde. Typisch ist das Fehlen jeder Traumaanamnese bei ein- oder beidseitig teilweise oder komplett plantigradem Gang, oft mit Druckstellen über dem Calcaneus — der Fersensehnenstrang selbst bleibt dabei intakt, was die wichtige Abgrenzung zum echten Sehnenriss ermöglicht. Eine konservative Versorgung mit Schiene oder Orthese ist hier aussichtslos (Drucknekrosen, starke Muskelzugkräfte behindern die Heilung); nötig ist eine korrekt durchgeführte Arthrodese über mindestens 6 Monate.",
+      },
+      {
+        type: "text",
+        heading: "Riss des Fersensehnenstrangs",
+        text: "Der Fersensehnenstrang (Tendo calcaneus communis) besteht beim Hund aus drei Anteilen: der Sehne des M. gastrocnemius (Hauptanteil), der Sehne des M. flexor digitorum superficialis (bildet die Fersenkappe) und der gemeinsamen Endsehne von M. biceps femoris, M. gracilis und M. semitendinosus — anders als beim Menschen ist das also keine reine Wadenmuskel-Sehne. Auslöser für Risse sind stumpfe/spitze Traumata oder eine durch chronische Kortikosteroidgabe geschwächte Bindegewebsstruktur (Spontanriss); betroffene Hunde zeigen einen plantigraden Gang mit calcaneusnah tastbaren Sehnenstümpfen. Die Therapie besteht aus einer Einzelnaht der Sehnenenden (z. B. Locking-Loop- oder Three-Loop-Pulley-Naht) mit anschließender Immobilisation über 4–6 Wochen.",
+      },
+      {
+        type: "text",
+        heading: "Fersenkappenluxation",
+        text: "Ein seitliches, praktisch ausschließlich beim Sheltie beobachtetes Luxieren der Fersenkappe (Teil des M. flexor digitorum superficialis) nach lateral, verursacht durch einen zu flach ausgebildeten Sulcus am Calcaneus. Das Gangbild ähnelt dem einer Patellaluxation. Je nach Schweregrad wird die Sehne mit nicht-resorbierbaren Fäden fixiert, mittels Drahtschlinge zur korrekten Führung gezwungen oder der Sulcus operativ vertieft — die Prognose ist gut.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.3 (Instabilität des Tarsus, Spontanfraktur Calcaneus, Riss des Fersensehnenstranges, Fersenkappenluxation), S. 195–199. Ätiologie, Klinik und Therapieprinzipien sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "kreuzbandriss-biomechanik-und-therapie",
+    category: "PATHOLOGIE",
+    title: "Kreuzbandriss beim Hund: die biomechanische Erklärung",
+    teaser:
+      "Der Quadrizeps zieht bei jedem Schritt permanent nach kranial am vorderen Kreuzband — bei großen, steilen oder übergewichtigen Hunden reicht diese Dauerbelastung allein, um es Stück für Stück reißen zu lassen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum die alte „Sportverletzung“-Erklärung nicht passt",
+        text: "Beim Menschen entsteht ein Kreuzbandriss meist durch eine äußere Einwirkung (z. B. beim Fußball oder Skifahren). Beim Hund sprechen mehrere Fakten gegen eine analoge Unfall-Ursache: Entfernte Kreuzbandreste zeigen Zeichen längerer Degeneration, meist entsteht zuerst ein Teilriss und erst später ein Totalriss, eine massive Krafteinwirkung wird praktisch nie beobachtet, und je schwerer ein Hund ist, desto häufiger tritt ein Riss auf (besonders bei Rottweiler, Neufundländer, Staffordshire Terrier). Ist ein Knie betroffen, reißt nicht selten auch das andere. Auf Röntgenbildern vermeintlich „akuter“ Risse ist oft schon Arthrose sichtbar — ein weiteres Indiz für einen länger andauernden Prozess statt eines einmaligen Ereignisses.",
+      },
+      {
+        type: "text",
+        heading: "Die biomechanische Erklärung: cranial tibial thrust",
+        text: "Der M. quadriceps femoris ist der Hauptkraftgeber des Kniegelenks. Vektoranalytisch zerlegt zieht ein Teil seiner Kraft senkrecht zum Tibiaplateau (Gelenkkompressionskraft), während sein nach kranial gerichteter Anteil — die Scherkraft, „cranial tibial thrust“ (CTT) — permanent am vorderen Kreuzband zieht. Diese Scherkraft ist umso stärker, je größer und übergewichtiger der Hund ist, je steiler seine Hinterhand steht, je aktiver er ist, je schmaler die proximale Tibia ausgebildet ist und je steiler das Tibiaplateau abfällt. Unter dieser Dauerbelastung erleidet das vordere Kreuzband zunächst einen Teilriss, später einen Totalriss. Meniskusschäden betreffen meist das mediale kaudale Meniskushorn, das wegen seiner Fixierung am medialen Kollateralband wenig mobil ist und dadurch bei den Rotationsbewegungen der Fußungsphase besonders vorgeschädigt wird.",
+      },
+      {
+        type: "text",
+        heading: "Vorderer vs. hinterer Kreuzbandriss unterscheiden",
+        text: "Hintere Kreuzbandrisse sind extrem selten und meist traumatisch bedingt. Die Unterscheidung gelingt über das Gefühl am Ende der Kranialverschiebung der Tibia beim Schubladentest: Ein harter, abrupter Stopp spricht für einen hinteren Kreuzbandriss (das noch intakte vordere Kreuzband limitiert die Bewegung), ein eher weicher Stopp (nur durch die Gelenkkapsel begrenzt) für einen vorderen Kreuzbandriss. Eine mediale Patellaluxation kann in fortgeschrittenem Alter einen vorderen Kreuzbandriss begünstigen, weil die dabei erhöhte Innenrotation der Tibia das vordere Kreuzband zusätzlich schwächt.",
+      },
+      {
+        type: "text",
+        heading: "Therapieoptionen im Überblick",
+        text: "Kleine Hunde kompensieren die Instabilität oft gut über Kapselfibrose und muskuläre Kompensation, sodass eine Operation nicht zwingend nötig ist. Bei Hunden über 5 kg wird eine operative Versorgung empfohlen, da ein unbehandelter Riss rasch zu massiver Arthrose führt. Klassische Optionen sind der Bandersatz mit Muskelfaszien/Sehnenplatten oder ein extrakapsulärer Fadenersatz außerhalb des Gelenks. Moderne Verfahren (Tibia Plateau Levelling Osteotomy, TPLO; Tibial Tuberosity Advancement, TTA) verändern stattdessen die Kniebiomechanik so, dass die Scherkraft auf ein rekonstruiertes Kreuzband praktisch entfällt — bei schweren Hunden und starker Arthrose gelten sie heute als Methode der Wahl, mit einfacherer Nachsorge und einer Erholungszeit von rund 3 Monaten. Nachbehandlung umfasst in jedem Fall Physiotherapie, Gewichtskontrolle und maßvolle Bewegung.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.4 (Kreuzbandriss), S. 199–202. Ätiologie, Biomechanik und Therapieoptionen sind im Original so beschrieben. Ergänzt die bereits vorhandene, webbasierte Übersicht `kreuzbandriss-krankheitsbild` um die buchbasierte biomechanische Herleitung und konkrete Operationsverfahren.",
+    relatedCaseIds: ["bruno"],
+    relatedAnatomyIds: ["quadriceps"],
+  },
+  {
+    id: "patellaluxation-grad-und-therapieoptionen",
+    category: "PATHOLOGIE",
+    title: "Patellaluxation: Gradeinteilung und Operationsprinzipien im Detail",
+    teaser:
+      "Warum die typische Lahmheit bei Patellaluxation kommt und geht — und weshalb bei dieser Diagnose ausnahmsweise die klinische Untersuchung wichtiger ist als jedes Röntgenbild.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum kleine Rassen besonders betroffen sind",
+        text: "Die genauen Ursachen der Patellaluxation (PL) sind nicht abschließend geklärt; der Trend zur Miniaturisierung begünstigt aber offenbar die mediale Luxation (deutlich häufiger als die laterale). Betroffene kleine Rassen sind unter anderem Französische Bulldogge, Mops, Pudel, Pekinese, Jack Russell Terrier, Chihuahua, Zwergspitz, Malteser, Papillon und Bolonka Zwetna; bei großen Rassen sind es u. a. Flat Coated Retriever, Appenzeller, Neufundländer und American Cocker Spaniel. Für den Kooikerhund wurde eine Heritabilität von rund 27 % berechnet. Die Patella luxiert meist bereits im ersten Lebensjahr.",
+      },
+      {
+        type: "text",
+        heading: "Warum die Lahmheit typischerweise intermittierend ist",
+        text: "Die Erstluxation verursacht Gelenkerguss, Schmerz und akute Lahmheit. Folgeluxationen sind meist weniger schmerzhaft, nutzen aber über Monate bis Jahre den retropatellären und femoralen Gelenkknorpel ab, bis ein irreversibler Knorpelschaden mit abgeflachtem Sulcus femoris entsteht. Solange die funktionelle Einheit aus Tuberositas tibiae, Patellaligament, Patella und M. quadriceps femoris luxiert ist, kann sie das Knie beim Auffußen nicht vor dem Einknicken schützen — der Hund hält das Bein gebeugt. Durch Schüttel- oder Drehbewegungen kann die Patella spontan in ihre physiologische Position zurückspringen, worauf der normale Gang fortgesetzt wird. Genau dieser Wechsel erklärt die für die PL typische, pathognomonische intermittierende Lahmheit mit Phasen normalen Gangs und Laufen auf drei Beinen.",
+      },
+      {
+        type: "table",
+        heading: "Gradeinteilung nach amerikanischem Standard",
+        columns: ["Grad", "Patellaposition vor Manipulation", "Reposition"],
+        rows: [
+          ["Grad 1", "Immer im Sulcus femoris", "Springt nach Luxation spontan zurück"],
+          ["Grad 2", "Im Sulcus femoris, luxierbar", "Durch Manipulation des Beins (Beugen, Strecken, Rotation)"],
+          ["Grad 3", "Medial oder lateral des Sulcus", "Nur mit dem Finger des Untersuchers"],
+          ["Grad 4", "Dauerhaft luxiert", "Nicht mehr in die physiologische Stellung zu bringen"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Einordnung dieser Skala",
+        text: "Diese Grad-1–4-Einteilung nach amerikanischem Standard entspricht inhaltlich der bereits vorhandenen Putnam-Skala im Eintrag zum Patellaluxations-Krankheitsbild — eine unabhängige Bestätigung aus einer zweiten Quelle, keine widersprüchliche Zweitklassifikation. Sie ist aber nicht zu verwechseln mit der andernorts dokumentierten Koch-eigenen PL-0–4-Klassifikation aus Kap. 6.2.4 (Untersuchungsbefund während der Kniemanipulation am liegenden Hund) — beide Systeme heißen ähnlich, beschreiben aber unterschiedliche Dinge.",
+      },
+      {
+        type: "text",
+        heading: "Untersuchungsprinzip: der schlechteste Befund zählt",
+        text: "Zur Gradbestimmung wird der Hund stehend und liegend sowie in allen physiologisch möglichen Rotations-, Beuge- und Streckstellungen untersucht — es gilt jeweils der schlechteste festgestellte Befund. Luxiert die Patella beim stehenden Hund bereits spontan, gilt Grad 3, selbst wenn sie in liegender Position durch Manipulation wieder in den Sulcus zurückspringt. Die Diagnose ist rein klinisch: Röntgen, CT und MRT liefern kein standardisiertes, wiederholt auswertbares Verfahren zur Gradbestimmung, sodass ein erhebliches Maß an Untersucher-Subjektivität bestehen bleibt — anders als bei den meisten anderen orthopädischen Diagnosen dieses Buches.",
+      },
+      {
+        type: "text",
+        heading: "Operative Prinzipien",
+        text: "Ziel jeder Operation ist die Wiederherstellung der korrekten relativen Position von Patella und Femur: meist durch Versetzen des Tuberositas-tibiae-Ansatzes nach medial oder lateral kombiniert mit einer Vertiefung des Sulcus femoris (Sulkoplastik, keilförmig oder als Block), ergänzt durch Weichteilstraffung. Bei starker Knorpelerosion oder sehr flachem Sulcus femoris kann alternativ eine Halbprothese („patellar groove“) direkt unter die Patella geschraubt werden, ohne die Tuberositas tibiae zu versetzen.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund überbewertet", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.5 (Patellaluxation), S. 202–206. Rasseprädispositionen, Gradeinteilung, Untersuchungsprinzip und Operationsverfahren sind im Original so beschrieben. Ergänzt die bereits vorhandene, webbasierte Übersicht `patellaluxation-krankheitsbild`.",
+    relatedCaseIds: ["bruno"],
+    relatedAnatomyIds: ["quadriceps"],
+  },
+  {
+    id: "weitere-knieerkrankungen-hund",
+    category: "PATHOLOGIE",
+    title: "Zwei seltenere Knieerkrankungen: Sehnenabriss und Osgood-Schlatter",
+    teaser:
+      "Eine dauerhaft überstreckte Zehenhaltung nach einer Kreuzband- oder Patella-OP kann an einer ganz anderen Sehne liegen als vermutet.",
+    sections: [
+      {
+        type: "text",
+        heading: "Avulsion des M. extensor digitorum longus",
+        text: "Die Sehne dieses Muskels entspringt der Fossa extensoria des lateralen Femurcondylus. Sie kann bei unvorsichtiger Eröffnung des Kniegelenks von lateral durchtrennt oder bei Osteotomien zur Behandlung von Kreuzbandriss oder Patellaluxation versehentlich verletzt werden (iatrogen); bei jungen Hunden entstehen Abrisse auch traumatisch, meist mit einem kleinen mitausgerissenen Stück des Femurcondylus. Klinisch zeigt sich eine Hyperflexion der Zehen mit moderater Lahmheit (2/4) bei stabilem, aber gefülltem und dolentem Kniegelenk. Unbehandelt bleibt die Hyperflexion der Zehen dauerhaft bestehen — teils durch Physiotherapie kompensierbar, meist wird die Sehne aber am Femur oder, bei chronischem Verlauf mit starker Sehnenverkürzung, an der proximalen Tibia refixiert.",
+      },
+      {
+        type: "text",
+        heading: "Osgood-Schlatter-Erkrankung",
+        text: "Ein verzögertes Anwachsen oder ein partieller Ausriss der Tuberositas tibiae entlang des Zugs des M. quadriceps femoris („traction osteochondritis“). Bei Menschen (übergewichtige oder sportlich sehr aktive Kinder) und beim Hund vorwiegend bei Riesenrassen (v. a. Doggen) beobachtet, mit unspezifischer Lahmheit und Schwellung entlang der Patellasehne. Der Begriff ist beim Hund eigentlich unpassend — treffender wäre „Avulsion der Tuberositas tibiae“. Nach der Quelle heilten alle beobachteten Fälle konservativ (Schonung, Futterreduktion, Schmerzmittel) folgenlos aus.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.6 (Andere Knieerkrankungen: Avulsion des M. extensor digitorum longus, Osgood-Schlatter-Erkrankung), S. 206–208. Ätiologie, Klinik und Therapie sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["quadriceps"],
+  },
+  {
+    id: "hamstringfibrose-deutscher-schaeferhund",
+    category: "PATHOLOGIE",
+    title: "Hamstringfibrose — eine rassespezifische, unheilbare Muskelerkrankung",
+    teaser:
+      "Fast ausschließlich beim Deutschen Schäferhund: eine Muskelfibrose, bei der selbst die komplette chirurgische Entfernung der betroffenen Muskeln keine dauerhafte Lösung bringt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Betroffene Muskeln und Rasse",
+        text: "Betroffen sind M. gracilis und M. semitendinosus, die vom kaudalen Becken kaudal des Femurs zur medialen Tibia ziehen. Die Ursache der Fibrosierung ist unbekannt; praktisch ausschließlich Deutsche Schäferhunde und deren Mischlinge sind betroffen. Die für die Rasse typische abfallende Rückenlinie mit starker Flexionshaltung von Knie und Hüfte könnte die Entstehung begünstigen, eine immunologische Beteiligung wird ebenfalls vermutet. Typische Patienten sind 8 Monate bis 8 Jahre alt, sehr aktiv, mit sportlicher Vorgeschichte und multiplen, zerrungsartigen Muskelverletzungen durch Springen und Sprinten — diese führen zu lokaler Entzündung, Ödemen, Blutungen und schließlich zur Fibrose.",
+      },
+      {
+        type: "text",
+        heading: "Ein pathognomonisches Gangbild",
+        text: "Wegen der zunehmend desorientierten, weniger aktiven Muskelfasern wird in der Vorführphase des Hinterbeins das Knie nach innen und der Tarsus nach außen gezogen; der Schritt ist auffällig kurz, die Muskulatur generell reduziert, oft beidseitig betroffen. Bei der Palpation fühlen sich die Muskelgruppen derb, höckrig und dolent an, die Streckung der Hintergliedmaße ist eingeschränkt.",
+      },
+      {
+        type: "text",
+        heading: "Warum die Prognose so reserviert ist",
+        text: "Röntgenbilder bringen außer dem Ausschluss von Hüft-/Rückenproblemen keinen Zusatznutzen; Ultraschall, MRT und Biopsie objektivieren das Ausmaß der Fibrose, sind für die Therapieplanung aber nicht nötig. Einzig die Physiotherapie hat sich bewährt — mit dem Ziel, die noch verbliebenen Muskelstränge möglichst lange kontraktil zu erhalten. Weder systemische noch lokale Kortison-/Immunsuppressivagaben noch die komplette chirurgische Entfernung der fibrosierten Muskelstränge bringen mehr als vorübergehende Erleichterung — die hemmenden Bindegewebsstränge wachsen sogar nach vollständiger Muskelentfernung wieder nach. Eine Heilung ist nicht möglich.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.7 (Hamstringfibrose), S. 207–209. Ätiologie, Klinik und Therapieprinzip sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["semitendinosus", "gracilis"],
+  },
+  {
+    id: "legg-perthes-erkrankung",
+    category: "PATHOLOGIE",
+    title: "Legg-Perthes-Erkrankung — Femurkopfnekrose beim kleinen Hund",
+    teaser:
+      "Eine Durchblutungsbesonderheit kleiner Rassen erklärt, warum ausgerechnet sie von einer Femurkopfnekrose betroffen sind, die bei großen Hunden praktisch nicht vorkommt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was passiert",
+        text: "Die Legg-Perthes-Erkrankung (aseptische Femurkopfnekrose) betrifft beim Hund vor allem kleine Rassen wie West Highland White Terrier, Cairn Terrier, Pudel und Rehpinscher; die Ursache ist unbekannt, vermutet werden Gefäßstörungen des jungen Hundes. Ein wichtiger Unterschied zu großen Rassen: Bei großen Hunden reicht die endosteale Blutversorgung des Femurkopfes bis in den subchondralen Bereich, bei kleinen Hunden wird die Epiphyse dagegen größtenteils aus dem gelenknahen Bereich durchblutet — das macht sie anfälliger für Hypovaskularisationsschäden nach Trauma. Die Erkrankung tritt meist einseitig auf, was zur Theorie passt, dass die Gewichtsverlagerung auf die gesunde Gegenseite dort die Durchblutung verbessert. Pathophysiologisch entsteht ein Infarkt des epiphysären/metaphysären Knochens, gefolgt von fibrösen Umbauvorgängen, die auf die Wachstumszone übergreifen; der Gelenkknorpel verdickt sich und bekommt Risse, die schlecht durchblutete epiphysäre Region kollabiert zusehends, und der Femurkopf verformt sich.",
+      },
+      {
+        type: "text",
+        heading: "Klinik und Diagnostik",
+        text: "Erste Lahmheitsanzeichen zeigen sich bei 4–10 Monate alten Tieren, meist als moderate Lahmheit (2/4) ohne weitere Verschlechterung nach der akuten Phase. Im Untersuchungsgang fallen Muskelhypotrophie und Schmerz bei Manipulation auf, besonders bei Streckung des Hüftgelenks; Krepitus ist selten auslösbar. Wichtige Differentialdiagnosen sind Hüftgelenkdysplasie, Neoplasie, Arthrose nach verheilter Femurkopffraktur und Patellaluxation. Radiologisch zeigt sich ein unregelmäßig geformter Femurkopf mit lytischen Defekten, Abflachung und degenerativen Umbauten an Femurkopf, Acetabulum und Femurhals — bei unklaren Fällen mit nur leichten Veränderungen lohnt sich eine Verlaufskontrolle nach 4–6 Wochen. Meist liegt nur ein einseitiges Geschehen vor.",
+      },
+      {
+        type: "text",
+        heading: "Therapie",
+        text: "Eine konservative Therapie (Entzündungshemmer, Physiotherapie, ggf. extrakorporale Schockwellen zur Anregung neuer Blutgefäße) gelingt nur selten und nur bei Früherkennung. Die chirurgische Standardlösung ist die Femurkopfresektion mit ausgezeichneter Prognose — gerade weil die betroffenen Patienten klein sind, kann das neu gebildete Bindegewebe das entstehende Pseudogelenk gut stabil halten. Eine frühe physiotherapeutische Begleitung ist entscheidend, um die Muskulatur rasch wieder aufzubauen und den Bewegungsumfang des Hüftgelenks zu erhalten.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.8 (Legg-Perthes), S. 208–210. Ätiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["huefte"],
+  },
+  {
+    id: "hueftgelenkdysplasie-und-coxarthrose",
+    category: "PATHOLOGIE",
+    title: "Hüftgelenkdysplasie und Coxarthrose — vom lockeren Gelenk zur Arthrose",
+    teaser:
+      "Warum ein radiologisch eindeutig dysplastischer Hund trotzdem völlig unauffällig laufen kann — und was das über die Rolle der Muskulatur beim Zusammenhalt des Hüftgelenks verrät.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was Dysplasie bedeutet",
+        text: "„Dysplasie“ kommt aus dem Griechischen und bedeutet schlechte („dys“) Passform („plassein“). Hüftgelenkdysplasie (HD) ist eine primäre Lockerheit des Hüftgelenks bei jungen Hunden, die zu sekundären degenerativen Veränderungen führt — diese werden als Coxarthrose zusammengefasst.",
+      },
+      {
+        type: "text",
+        heading: "Genetik und Rasseunterschiede",
+        text: "Dysplastische Hunde zeugen vermehrt dysplastische Nachkommen, was auf eine genetische Grundlage hinweist (über 20 beteiligte Gene, Heritabilitätsschätzungen zwischen 25 % und 60 % je nach Studie). Trotz jahrzehntelanger, flächendeckender Zuchtprüfung bleibt die Inzidenz bei manchen Rassen sehr hoch (Bernhardiner, English Setter, Gordon Setter über 60 %; Deutsche Schäferhunde, Neufundländer, Retriever bei 30–50 %), während Siberian Huskies, Collies und Belgische Schäferhunde kaum HD zeigen. Das legt nahe, dass eine an Leistungszielen statt rein an Optik orientierte Selektion bessere Hüftgelenke fördern würde.",
+      },
+      {
+        type: "text",
+        heading: "Warum nicht jedes dysplastische Hüftgelenk lahmt",
+        text: "Größenentwicklung, Fütterung und Aufzucht in den ersten Lebensmonaten haben entscheidenden Einfluss darauf, ob ein Hund mit HD tatsächlich lahmt. Zu kalziumreiche Diäten führen zu unregelmäßig geformten Gelenken; knapp gefütterte Hunde wachsen langsamer, belasten ihre Gelenke dabei weniger und erreichen trotzdem die genetisch vorgegebene Widerristhöhe — mit stabileren Hüftgelenken als Ergebnis. Im kritischen Zeitfenster vom 3. bis 5. (bei großen Rassen bis 6.) Lebensmonat finden die stärksten Skelett-Umbauvorgänge statt. Hunde mit von Natur aus kräftiger Hinterhandmuskulatur (Bulldoggen, Mops, viele sogenannte Kampfhunde) bleiben trotz radiologisch eindeutiger HD oft symptomfrei, weil die zunehmende Kruppen- und Oberschenkelmuskulatur den Femurkopf wieder stärker ins Acetabulum zwingt.",
+      },
+      {
+        type: "text",
+        heading: "Vom instabilen Gelenk zur Coxarthrose",
+        text: "Bei starker Gelenkinkongruenz und schwacher Muskulatur entwickelt sich aus der HD eine Coxarthrose: Die Gelenkkapsel verdickt sich, Knochen wird zugebildet, M. pectineus und M. iliopsoas nehmen kompensatorisch an Umfang zu (da sie zur Hüftstabilität beitragen), was Abduktion und Extension zunehmend schmerzhaft einschränkt. Die fortschreitende Instabilität mit wiederholten Subluxationen führt zu Knorpelabbau am Femurkopf und am Acetabulumrand, der subchondrale Knochen wird freigelegt, es bildet sich eine neue, flache Gelenkpfanne mit Osteophyten am Femurkopf. HD und Coxarthrose betreffen meist beide Hüftgelenke etwa gleich stark — auffällige Seitenunterschiede in der Arthroseausprägung sprechen eher für eine andere Ursache (Trauma, Hüftgelenkluxation, Legg-Perthes, Infektion) als für eine reine HD.",
+      },
+      {
+        type: "text",
+        heading: "Klinisches Bild je nach Alter",
+        text: "Beim jungen Hund kann ein wackeliger Gang mit spontaner Femurkopfluxation und Phasen kompletter Beinentlastung (Lahmheitsgrad 4/4) auftreten; ein positiver Ortolani-Test spricht für eine hochgradige HD, bei jungen Hunden mit noch fragilem Acetabulumrand sollte stattdessen nur der Bardens-Test angewendet werden. Beim erwachsenen Hund dominiert das Bild der Coxarthrose: verstärkte Belastung und Bemuskelung der Vordergliedmaße (mit möglichen Sekundärproblemen an Schulter, Ellbogen, Carpus), keine volle Extension mehr möglich (Kapsel, Osteophyten, kontrahierter M. iliopsoas), keine volle Abduktion (kontrahierter M. pectineus), bei Manipulation eher Krepitation als Subluxation. Wichtige Differentialdiagnosen sind Cauda-equina-Syndrom, Legg-Perthes, Iliopsoaszerrung sowie Neoplasien an Becken oder Femurkopf.",
+      },
+      {
+        type: "list",
+        heading: "Typische radiologische HD-Zeichen",
+        items: [
+          "Inkongruenz des Gelenkspaltes",
+          "Norbergwinkel kleiner als 105°",
+          "Abrundung des kranialen Acetabulumrandes",
+          "Subluxation des Femurkopfes",
+          "Deformation des Femurkopfes",
+          "Erste Anzeichen von Arthrose (bei Coxarthrose zusätzlich: Osteophyten, Acetabulum-Abflachung, verdickter Femurhals, freie Gelenkkörper)",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Therapie der HD",
+        text: "Bei Früherkennung ist eine konservative Therapie möglich: knappe, ausgewogene Fütterung, häufige kurze Spaziergänge, Knorpelschutzpräparate, Schmerzmittel und Physiotherapie. Chirurgisch nimmt die Beckenschwenkosteotomie (Triple/Double Pelvic Osteotomy, TPO/DPO) bei 6–10 Monate alten Hunden ohne oder mit nur geringer Arthrose eine besondere, weitgehend präventive Rolle ein — sie verbessert die Überdachung des Femurkopfes. Ab dem 10. Lebensmonat kommt bei schwerer HD oder beginnender Arthrose eine (zementlose) Hüftprothese infrage, bei Hunden unter 15 kg alternativ eine Femurkopfresektion. Die „juvenile pubic symphysiodesis“ (JPS) bei 3–4 Monate alten Hunden ist kritisch zu bewerten: In diesem Alter lässt sich die Diagnose HD noch nicht immer sicher stellen, sodass Hunde operiert werden könnten, die den Eingriff gar nicht benötigt hätten — ohne gleichzeitige Kastration umgeht das Verfahren zudem die züchterische Kontrolle der HD.",
+      },
+      {
+        type: "text",
+        heading: "Therapie der Coxarthrose",
+        text: "Grundlage sind Gewichtskontrolle und mäßige, regelmäßige Bewegung (z. B. Schwimmen, Joggen) zur Kräftigung der gelenkumgebenden Muskulatur. Bei der medikamentösen Schmerztherapie sind NSAIDs Kortison vorzuziehen — Kortison wirkt zwar gut, baut aber rasch Gewebe ab und verursacht Heißhunger, Polydipsie und Polyurie. Chondroitinsulfat wirkt zusätzlich schmerzlindernd. Reichen konservative Maßnahmen bei hochgradiger Coxarthrose nicht mehr aus, kommen chirurgische Optionen infrage: die modifizierte Pektineusmyektomie mit Iliopsoastenotomie und Neurektomie der Gelenkkapsel (PIN) bei mäßiger Arthrose mit eingeschränkter Beweglichkeit (Wirkung hält Monate bis Jahre), Femurkopfresektion bei Hunden unter 15 kg, oder als definitive Lösung eine zementlose Hüftprothese — die Lahmheit verschwindet dabei meist innerhalb von 4–6 Wochen. Bei beidseitiger Dysplasie ist nicht automatisch ein beidseitiger Eingriff nötig, da die operierte Seite anschließend oft bevorzugt belastet wird.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.9 (Hüftgelenkdysplasie und Coxarthrose), S. 209–216. Ätiologie, Genetik, Klinik, radiologische Zeichen und Therapieoptionen sind im Original so beschrieben.",
+    relatedCaseIds: ["luna"],
+    relatedAnatomyIds: ["huefte", "iliopsoas"],
+  },
+  {
+    id: "hueftgelenkluxation-hund",
+    category: "PATHOLOGIE",
+    title: "Hüftgelenkluxation von Hüftgelenkdysplasie abgrenzen",
+    teaser:
+      "Ein plötzlich verkürztes, außenrotiertes Bein nach einem Autounfall ist etwas grundlegend anderes als eine langsam entstandene Hüftgelenkdysplasie — auch wenn beide dieselbe Region betreffen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ursache und Luxationsrichtung",
+        text: "Die weitaus häufigste Ursache einer Hüftgelenkluxation ist ein Autounfall; auch Stürze aus großer Höhe, Bisse oder eine spontane Luxation bei vorbestehender Hüftgelenkdysplasie kommen vor. Kraniodorsale Luxationen sind mit rund 80 % die häufigsten — erklärbar durch ein beim Aufprall außenrotiertes Hinterbein und den starken Zug der Glutealmuskeln am Trochanter major, wobei Gelenkkapsel und Lig. capitis femoris reißen. Bei sehr jungen Hunden führt die Traumaenergie oft eher zu einer Avulsion des Lig. capitis femoris (mit kleinem Knochenstück) oder zu einer Epiphysiolyse. Ventrale und ventrodorsale Luxationen ins Foramen obturatum entstehen meist durch Innenrotation des Beines beim Sturz.",
+      },
+      {
+        type: "text",
+        heading: "Klinisches Bild und die wichtige Abgrenzung zur HD",
+        text: "Bei kraniodorsaler Luxation erscheint das Bein verkürzt, außenrotiert und adduziert; bei ventraler Luxation dagegen verlängert, mit leichter Innenrotation und Adduktion. Palpatorisch finden sich Schwellung, Schmerz und Krepitation; das Dreieck zwischen Trochanter major, Tuber sacrale und Tuber ischiadicum ist im Seitenvergleich verändert. Bei der häufigen kraniodorsalen Luxation ist der Abstand zwischen Tuber ischiadicum und Trochanter vergrößert — ein in diese Grube gepresster Daumen wird bei Außenrotation des Femurs nicht herausgedrückt, wenn die Hüfte luxiert ist. Variable Ausfälle des N. ischiadicus mit Überköten der Gliedmaße sind möglich. Anders als die HD (langsam entstehende primäre Gelenklockerheit ohne Trauma) ist die Luxation ein plötzliches, meist traumatisches Ereignis — diese Unterscheidung ist entscheidend, weil sich die Therapieprinzipien grundlegend unterscheiden.",
+      },
+      {
+        type: "text",
+        heading: "Therapie",
+        text: "Eine unblutige (geschlossene) Reposition ist indiziert bei frischer Verletzung, intaktem Acetabulumrand, guter Gelenktiefe ohne Arthrosezeichen und ohne Gelenkfragmente; anschließend wird das Bein für 10 Tage in einer Ehmerschlinge ruhiggestellt. Eine offene Reposition ist nötig bei chronischem Verlauf, gescheiterter unblutiger Reposition oder vorhandenen Knochenfragmenten, meist kombiniert mit einer inneren Stabilisierung (z. B. Toggle-Pin-Technik, Slocum-Schlinge). Bei vorbestehender hochgradiger Dysplasie oder starker Coxarthrose kann bei Hunden unter 15–20 kg eine Femurkopfresektion, bei schwereren Hunden eine Hüftprothese die bessere Option sein.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.10 (Hüftgelenkluxation), S. 216–218. Ätiologie, Klinik und Therapie sind im Original so beschrieben.",
+    relatedCaseIds: ["luna"],
+    relatedAnatomyIds: ["huefte"],
+  },
+  {
+    id: "iliopsoaszerrung-hund",
+    category: "PATHOLOGIE",
+    title: "Iliopsoaszerrung — wenn nicht die Hüfte, sondern ihr Beuger schmerzt",
+    teaser:
+      "Das Gangbild sieht aus wie Hüftgelenkdysplasie — ein gezielter Dehntest und die rektale Palpation verraten aber, dass der M. iliopsoas selbst das Problem ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Mechanismus und Prädisposition",
+        text: "Der M. iliopsoas — einer der Hüftbeuger — besteht aus dem muskulären M. iliacus und dem sehnigen M. psoas, entspringt am Trochanter minor und inseriert am Ventralrand der Lendenwirbelkörper. Bei sportlichen Hunden ohne geeignetes Aufwärmtraining kann dieser Muskel Zerrungen erleiden; prädisponierte Rassen sind Border Collie und Belgischer Schäferhund.",
+      },
+      {
+        type: "text",
+        heading: "Abgrenzung von Hüftgelenkproblemen",
+        text: "Das Gangbild bei einer Iliopsoaszerrung ähnelt dem bei Hüftgelenkdysplasie oder Coxarthrose — beide sind entsprechend die wichtigsten Differentialdiagnosen. Im orthopädischen Untersuchungsgang lässt sich der Muskel gezielt prüfen: Hüftstreckung mit anschließender Innenrotation bringt ihn in maximale Länge und provoziert bei einer Zerrung gezielt Schmerz. Zusätzlich ist eine direkte rektale Palpation des Muskels kranial des Beckens (bei kleinen bis mittelgroßen Hunden) sowie von lateral über die Haut möglich.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik und Therapie",
+        text: "Röntgenbilder dienen primär dem Ausschluss der Differentialdiagnosen; eine Verkalkung der Ursprungssehne ist nur in chronischen Fällen sichtbar. Ultraschall und MRT können Zerrung, Blutung oder Kontinuitätstrennung des Muskels sichtbar machen. Die Behandlung braucht Geduld: Bewegungseinschränkung, Entzündungshemmer und gezielte Physiotherapie sind Mittel der Wahl; prädisponierte Rassen sollten künftig vor jedem Sporttraining aufgewärmt werden. Eine chirurgische Entfernung des Muskels ist nur bei chronischem Verlauf mit verkalkter Sehne indiziert.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.11 (Iliopsoaszerrung), S. 218f. Ätiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben.",
+    relatedCaseIds: ["emma"],
+    relatedAnatomyIds: ["iliopsoas"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
