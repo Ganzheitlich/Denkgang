@@ -5169,6 +5169,190 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["emma"],
     relatedAnatomyIds: ["iliopsoas"],
   },
+  {
+    id: "sesambeinfragmentierung-vordergliedmasse",
+    category: "PATHOLOGIE",
+    title: "Sesambeinfragmentierung — kleine Knochen unter großer Dauerlast",
+    teaser:
+      "Zwei von acht Sesambeinen pro Vorderpfote tragen den Großteil der Zugkraft der Zehenbeuger — kein Zufall, dass genau sie am häufigsten fragmentieren.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum ausgerechnet Sesambein II und VII",
+        text: "In jeder der vier Hauptzehen liegt ein Paar Sesambeine auf der palmaren/plantaren Fläche des Zehengrundgelenks, von medial nach lateral als I–VIII durchnummeriert. Die Sehnen der oberflächlichen und tiefen Zehenbeuger verteilen sich bei der 3. und 4. Zehe gleichmäßig auf beide Sesambeine, bei der 2. und 5. Zehe dagegen fast ausschließlich auf die innen liegenden Sesambeine II und VII — sie tragen dadurch bei starker Belastung oder hohem Körpergewicht deutlich mehr Stress als die übrigen. Akute Frakturen nach Trauma oder Ermüdung betreffen vor allem Rennhunde wie Greyhounds; die degenerative Sesambeinfragmentierung bei jungen großen Hunden wird dagegen auf kongenitale Ossifikationsstörungen zurückgeführt und tritt gehäuft bei Rottweilern, Boxern und Labrador Retrievern auf. Sie wird mit rund 80 % deutlich häufiger an der Vorder- als an der Hintergliedmaße beobachtet — vermutlich wegen der dort höheren Belastung.",
+      },
+      {
+        type: "text",
+        heading: "Klinik, Diagnostik und Therapie",
+        text: "Die Lahmheit ist meist mild (1/4) und tritt vor allem nach starker Belastung auf; die Region um das betroffene Sesambein ist verdickt, die Überstreckung des Zehengrundgelenks dolent und die Flexion eingeschränkt. Die Diagnose gelingt am zuverlässigsten mit einer Röntgenaufnahme im dorsopalmaren/plantaren Strahlengang bei gespreizten Zehen — im mediolateralen Strahlengang projizieren sich die Sesambeine übereinander. Wichtig ist die Abgrenzung von einer physiologischen, harmlosen Zweiteilung (bipartites Sesambein). Milde Fälle werden konservativ (Ruhigstellung, Antiphlogistika) behandelt; ansonsten wird das betroffene Sesambein chirurgisch entfernt, was meist innerhalb von 6 Wochen zu einem lahmheitsfreien Gang führt — allerdings läuft die Beugesehne danach ohne Sesambeinschutz über das Gelenk, was langfristig zu Hyperflexion führen kann. Eine Alternative ist die Zehenamputation.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.1 (Sesamoid-Erkrankung, Vordergliedmaße), S. 219f. Ätiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "hyperextensionstrauma-carpus",
+    category: "PATHOLOGIE",
+    title: "Hyperextensionstrauma des Carpus nach Sturz oder Sprung",
+    teaser:
+      "Ein Sturz aus großer Höhe reißt oft nicht nur ein Band — die Anzahl der betroffenen Bandstrukturen entscheidet direkt darüber, ob eine Naht reicht oder eine Arthrodese nötig wird.",
+    sections: [
+      {
+        type: "text",
+        heading: "Mechanismus",
+        text: "Sprünge und Stürze aus großer Höhe (seltener Autounfälle) verletzen die palmaren Strukturen des Carpus — kurze Bänder zwischen den Karpalknochen und Sehnenplatten — mit unterschiedlichen Hyperextensionsgraden als Folge; oft sind beide Karpalgelenke betroffen. Wegen der physiologischen leichten Valgusstellung des Carpus werden mediale Bandstrukturen stärker belastet als laterale, weshalb das Hyperextensionstrauma gelegentlich mit einem medialen Seitenbandriss vergesellschaftet ist.",
+      },
+      {
+        type: "text",
+        heading: "Klinik und Diagnostik",
+        text: "Nach dem Unfall kann die Vordergliedmaße kaum Gewicht aufnehmen, beim Auffußen ist die Hyperextension augenfällig und der Carpus deutlich geschwollen. Die Verdachtsdiagnose bestätigt sich, wenn die Extension des Carpus bei gleichzeitig gestrecktem Ellbogen mehr als 10–15° erreicht. Röntgenbilder im dorsopalmaren Strahlengang sowie gehaltene Aufnahmen (Abduktion/Adduktion zur Prüfung des Bandapparats, laterolaterale Aufnahme in Hyperextension) bestimmen Instabilitätsniveau und betroffene Bänder.",
+      },
+      {
+        type: "text",
+        heading: "Therapie richtet sich nach Alter und Ausmaß",
+        text: "Nur bei Hunden unter 6 Monaten ist eine konservative Schienung erfolgversprechend, da die kurzen Bänder hier rasch fibrös und stabil verheilen. Rupturen der geraden/schrägen radiokarpalen Bänder können primär genäht werden. Interkarpale Instabilitäten benötigen dagegen meist eine partielle Arthrodese (üblicherweise vom Os carpi radiale bis zu den Metacarpalia), ausgedehnte Bandrupturen mit Beteiligung des Antebrachiokarpalgelenks, Rezidive nach Bandnaht oder starke Karpalgelenkarthrose eine Panarthrodese. Nach beiden Verfahren ist eine Ruhigstellung von 6–12 Wochen nötig, die Knochenfusion selbst dauert 4–8 Monate; das Gangbild bleibt danach in der Regel unauffällig, nur das Springen über Hindernisse kann erschwert sein, weil der Carpus nicht mehr flektiert werden kann.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.2 (Hyperextensionstrauma Carpus), S. 219–221. Ätiologie, Klinik und Therapie sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "tendovaginitis-abductor-pollicis-longus",
+    category: "PATHOLOGIE",
+    title: "Tendovaginitis des M. abductor pollicis longus — die „Daumensehne“ des Hundes",
+    teaser:
+      "Eine feste, kaum schmerzhafte Schwellung medial am Carpus, die man leicht für einen Tumor halten könnte — das Röntgenbild verrät den Unterschied.",
+    sections: [
+      {
+        type: "text",
+        heading: "Anatomie und Mechanismus",
+        text: "Der M. abductor pollicis longus entspringt lateral am proximalen Radius, seine Endsehne verläuft in einer eigenen Sehnenscheide, kreuzt am distalen Radius den M. extensor carpi radialis, verläuft unter dem medialen Kollateralband und inseriert an der Basis des ersten Metacarpus — sie hat also eine gelenkstabilisierende Funktion und enthält auf Höhe des Antebrachiokarpalgelenks ein Sesambein. Die genaue Ursache der Entzündung ist unklar; vermutet wird — analog zur menschlichen de-Quervain-Erkrankung — eine Überbeanspruchung, die eine chronische Entzündung mit zunehmender Einengung der Sehne in ihrer Scheide auslöst und unterhält; bei chronischem Verlauf verdickt sich die Sehnenscheide und kann teilweise verknöchern.",
+      },
+      {
+        type: "text",
+        heading: "Klinisches Bild",
+        text: "Betroffen sind meist große, über 2 Jahre alte Hunde mit anfangs sehr milder Lahmheit (1/4), die sich vor allem nach intensiver Bewegung und kurzer Ruhephase zeigt. Typisch ist eine derbe, fast runde Schwellung medial am distalen Radius; einfacher Druckschmerz ist nicht immer auslösbar, dafür aber Schmerz bei Beugung und Abduktion des Carpus mit zunehmend eingeschränkter Flexion. Bilaterale Entzündungen sind möglich, wobei das Schwellungsausmaß nicht mit Lahmheit oder Schmerz korrelieren muss.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik: Abgrenzung zur Neoplasie",
+        text: "Radiologisch zeigen sich in fast allen Fällen Knochenzubildungen medial und dorsal am distalen Radius, das mediale Styloid kann verbreitert erscheinen, das Radiokarpalgelenk selbst bleibt weitgehend unauffällig. Die wichtigste Differentialdiagnose ist eine Neoplasie des distalen Radius — im Unterschied dazu zeigt die Tendovaginitis aber keine lytischen Zonen, die Proliferationen sind homogen dicht und auf den medialen/distalen Radius begrenzt. In unklaren Fällen ist ein CT indiziert.",
+      },
+      {
+        type: "text",
+        heading: "Dreistufige Therapie",
+        text: "Milde, akute Fälle reagieren gut auf Ruhigstellung und Antiphlogistika. Anhaltende Lahmheit erfordert eine Depotsteroid-Injektion unter Narkose in die Sehnenscheide (nach 3 Wochen wiederholbar) mit begleitender Ruhigstellung. Starke Proliferationen oder Therapieversager nach Steroidinjektion werden chirurgisch versorgt: Die Sehnenscheide wird eröffnet und fibrosiertes/verknöchertes Gewebe so weit wie möglich abgetragen — von einer Durchtrennung der Sehne selbst wird abgeraten, da sie Seitenbandfunktion hat. Die Resultate nach chirurgischem Debridement sind in der Regel gut.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.3 (Tendovaginitis des M. abductor pollicis longus), S. 221f. Anatomie, Klinik, Diagnostik und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Untersuchungs-Eintrag zum Finkelstein-analogen Test dieses Muskels (`zehen-karpus-liegender-hund-untersuchung`) um das vollständige Krankheitsbild.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "ellbogendysplasie-pathogenese-und-therapie",
+    category: "PATHOLOGIE",
+    title: "Ellbogendysplasie: Pathogenese-Hypothesen und die vollständige Therapiepalette",
+    teaser:
+      "Warum das mediale Coronoid so viel häufiger betroffen ist als das laterale — und weshalb moderne Forschung eher von druckbedingter Abrasion statt einer klassischen Fissur spricht.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein Sammelbegriff für vier Erkrankungen — hier mit Koch/Fischers eigener Terminologie",
+        text: "Auch diese Quelle bestätigt: Ellbogendysplasie (ED) ist kein einzelnes Krankheitsbild, sondern fasst vier radiologisch ähnlich endende, aber pathogenetisch unterschiedliche Erkrankungen zusammen — fragmentierter Processus coronoideus medialis (FPCM), nichtvereinigter Processus anconaeus (UAP — entspricht dem bereits im Eintrag `ellbogengelenkdysplasie` verwendeten Begriff „isolierter Processus anconaeus“, IPA; beide Bezeichnungen meinen dieselbe Erkrankung), Osteochondrose am medialen Humeruscondylus (OC) und Inkongruenz des Ellbogengelenks (INC). Eine genetische Beteiligung gilt als gesichert (Heritabilitätsindex 0,27–0,77); Ernährung und Management im Welpenalter — insbesondere Übergewicht bis zum 7. Lebensmonat, der Phase des höchsten Knochenumbaus — können ein subklinisches Geschehen in ein klinisches überführen.",
+      },
+      {
+        type: "text",
+        heading: "Warum gerade das mediale Coronoid so stark betroffen ist",
+        text: "Eine verbreitete Erklärung für FPCM und UAP ist eine Malformation der Incisura semilunaris: Da diese in der Wachstumsphase deutlich mehr Knochen/Knorpel ansetzen muss als der Humeruscondylus, um die Gelenkkongruenz zu erhalten, kann sie ellipsoid statt kreisförmig geformt werden — mit hoher Belastung auf Processus coronoideus oder Processus anconaeus als Folge. Da die Kraftübertragung im Ellbogen vorwiegend medial verläuft, ist das mediale Coronoid ohnehin größer und stärker belastet als das laterale. Neuere Forschung spricht deshalb zunehmend von medialer Coronoiderkrankung (medial coronoid disease, MCD) statt von einer klassischen Fissur, weil eher druckbedingte Abrasionen als Risse zu beobachten sind. In seltenen Fällen führt ungleiches Längenwachstum von Radius und Ulna („short radius“-Syndrom) zur selben Überlastung des medialen Coronoids. Prädisponiert für FPCM/OC sind v. a. Retriever, Berner Sennenhunde, Rottweiler und andere schnellwüchsige Rassen.",
+      },
+      {
+        type: "text",
+        heading: "Klinik und die Grenzen der Bildgebung",
+        text: "Typisch sind ein Auftreten zwischen 4 und 8 Monaten bei großen, schnellwachsenden Hunden, leicht progressiver Verlauf, Anlauflahmheit, eine kompensatorische Valgushaltung zur Entlastung des medialen Kompartiments, häufig beidseitiger Befall sowie Schmerz bei Streckung/Rotation des Ellbogens und Druckdolenz über dem medialen Coronoid. UAP verursacht die deutlichste Lahmheit aller ED-Formen, FPCM tritt am häufigsten auf. Radiologisch ist UAP am einfachsten zu diagnostizieren (der Processus anconaeus sollte normalerweise mit 4–5 Monaten mit dem Olecranon verwachsen sein); FPCM/MCD ist dagegen selbst mit optimierter Röntgentechnik oft nur unscharf darstellbar — Fissurlinien sind kaum sichtbar und häufig Artefakte, und ihr Fehlen schließt eine ED nicht aus. Bei unklaren klinischen und radiologischen Befunden sind Arthroskopie und CT die Methoden der Wahl. Eine Gelenkinkongruenz lässt sich radiologisch erst ab etwa 4 mm Stufenbildung sicher erkennen.",
+      },
+      {
+        type: "text",
+        heading: "Konservative und chirurgische Therapie im Überblick",
+        text: "Konservative Maßnahmen (Gewichtsreduktion, kurze häufige Spaziergänge, Physiotherapie, Knorpelschutzpräparate, Entzündungshemmer) eignen sich für milde/unklare Fälle, bei bereits fortgeschrittener Arthrose und als postoperatives Protokoll. Chirurgisch wird UAP meist durch Exzision des nicht fusionierten Fragments behandelt (bei großen Fragmenten alternativ Schraubenfixation mit Entlastungsosteotomie der Ulna, mit vorsichtiger Prognose). Osteochondroseläsionen werden kürettiert, damit subchondraler Knochen den Defekt mit Faserknorpel auffüllen kann. Die klassische FPCM-Therapie ist die weiträumige operative Entfernung des medialen Coronoids; bei zusätzlicher deutlicher Gelenkstufe kann bei Hunden unter 8–10 Monaten eine Ulnaostektomie den Druck auf das Coronoid senken. Neuere Verfahren zielen gezielt auf die Druckreduktion im medialen Kompartiment ab: Teiltenotomie des M. biceps brachii an der Ulna (BURP), Korrekturosteotomie von Humerus oder Ulna — mittelfristig wird auch ein Teil- oder Totalgelenkersatz verfügbar sein.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.4 (Ellbogendysplasie), S. 222–226. Pathogenese-Hypothesen, Klinik, Diagnostik und Therapieoptionen sind im Original so beschrieben. Ergänzt den bereits vorhandenen Eintrag `ellbogengelenkdysplasie` (VetCenter) um Pathogenese-Mechanismen, Genetik und die vollständige Therapiepalette; die Terminologie „UAP“ (diese Quelle) und „IPA“ (VetCenter) bezeichnen dieselbe Erkrankung, siehe Hinweis im Text.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "bizepssehnenentzuendung-therapieoptionen",
+    category: "PATHOLOGIE",
+    title: "Bizepssehnenentzündung: Anatomie des Sehnenverlaufs und Therapieoptionen",
+    teaser:
+      "Drei unterschiedliche chirurgische Techniken lösen dasselbe Problem — jede mit einem anderen Kompromiss zwischen Funktionserhalt und OP-Aufwand.",
+    sections: [
+      {
+        type: "text",
+        heading: "Sehnenverlauf und Entzündungsort",
+        text: "Der M. biceps brachii entspringt am Tuberculum supraglenoidale der Scapula mit einer langen Ursprungssehne, die durch das kraniomediale Schultergelenk und anschließend durch die Fossa intertubercularis des proximalen Humerus zieht (dort durch ein transverses Band gehalten) — Sehnenscheide und Schultergelenkkapsel bilden hier einen gemeinsamen Raum. Die Entzündung betrifft typischerweise genau diesen proximalen Sehnenabschnitt und seine Sehnenscheide. Mögliche Ursachen sind direktes/indirektes Trauma, wandernde Gelenkmäuse nach Osteochondrose, Folgen einer degenerativen Schultergelenkserkrankung oder eine starke Gewichtsverlagerung auf die Vordergliedmaßen. Betroffen sind meist mittelgroße bis große Hunde.",
+      },
+      {
+        type: "text",
+        heading: "Ein subtiler klinischer Befund",
+        text: "Die Diagnose ist oft nicht einfach: Die Lahmheit ist meist wenig ausgeprägt und zeigt sich mitunter nur ganz zu Beginn der Bewegung oder erst am Ende längerer Spaziergänge. Diagnostisch wegweisend ist Druckschmerz auf die Sehne über dem Humerus, ausgelöst durch gleichzeitige Beugung des Schultergelenks und Streckung des Ellbogengelenks (dadurch wird die Sehne über der Schulter maximal gespannt) — sie lässt sich dabei mit dem Daumen medial des Tuberculum majus gut palpieren.",
+      },
+      {
+        type: "text",
+        heading: "Bildgebung: Sonografie als Methode der Wahl",
+        text: "Röntgenbilder liefern nur in eindeutigen Fällen verwertbare Informationen (arthrotische Veränderungen am Kaudalrand des Humeruskopfes, freie Gelenkmäuse, Osteolyse am Tuberculum supraglenoidale, Verschattungen im Sulcus intertubercularis). Kontraströntgen liefert zusätzliche Informationen zur Sehnenscheide, doch die eigentliche Methode der Wahl ist die Sonografie: Sie stellt den gesamten Sehnenverlauf dar und erlaubt Aussagen zur Qualität der Ursprungssehne im Schultergelenk.",
+      },
+      {
+        type: "text",
+        heading: "Konservative Therapie zuerst, drei chirurgische Optionen danach",
+        text: "Zunächst wird konservativ behandelt: nichtsteroidale Entzündungshemmer und 6 Wochen Ruhigstellung reichen oft aus, ansonsten eine Kortisoninjektion ins Gelenk oder in die Sehnenscheide mit anschließender 10-tägiger Ruhigstellung in einer Velpeau-Schlinge. Bleibt der Erfolg auch nach wiederholter Injektion aus, wird der schmerzhafte proximale Sehnenanteil chirurgisch aus dem Gelenkbereich entfernt — dafür gibt es drei Techniken: Durchtrennung am Ursprung mit distalem Zurückgleiten und Vernarbung am Humerus (auch arthroskopisch möglich); Fixierung des Sehnenstumpfes am Humerus mit Schraube und Unterlegscheibe; oder Umleitung der vom Schulterblatt gelösten Sehne durch einen Tunnel im proximalen Humerus bis zum M. supraspinatus, mit dem sie vernäht wird — dabei bleibt dem M. biceps seine Funktion wenigstens teilweise erhalten. In chronischen Fällen kann die Sehne so stark mit Binde- und später Knochengewebe eingeschlossen werden, dass eine chirurgische Befreiung nötig wird.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.5 (Bizepssehnenentzündung), S. 226–228. Anatomie, Klinik, Diagnostik und Therapieoptionen sind im Original so beschrieben. Ergänzt den bereits vorhandenen Eintrag `bizepssehnenerkrankungen` (VetCenter) um den detaillierten Sehnenverlauf, den sonografischen Diagnostikschwerpunkt und die drei chirurgischen Techniken.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["biceps"],
+  },
+  {
+    id: "schultergelenkluxation-hund",
+    category: "PATHOLOGIE",
+    title: "Instabilität und Luxation des Schultergelenks",
+    teaser:
+      "Kongenital oder traumatisch, medial oder lateral — die Luxationsrichtung allein verrät oft schon, welche Ursache dahintersteckt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ursache und Richtung",
+        text: "Schulterluxationen sind selten. Kongenitale Luxationen werden mit einer medialen Bandlaxizität und einer Deformation der Gelenkpfanne (Glenoid) erklärt, während traumatische Luxationen meist nach lateral, seltener in andere Richtungen erfolgen.",
+      },
+      {
+        type: "text",
+        heading: "Klinik und Diagnostik",
+        text: "Betroffene Hunde können die Vordergliedmaße meist nicht zur Fortbewegung einsetzen — Ausnahmen sind chronische, kongenitale oder subluxierte Fälle. Bei lateraler Luxation wird das Bein in Innenrotation getragen, bei medialer Luxation in Außenrotation; die relativen Positionen von Tuberculum majus und Acromion verraten die Richtung. Da der Plexus brachialis direkt medial des Schulterblatts liegt, können variable periphere Nervenausfälle hinzukommen. Röntgenaufnahmen im mediolateralen und anterioposterioren Strahlengang klären die Luxationsrichtung und decken Absprengfrakturen an Glenoid, Humeruskopf oder Acromion auf; bei chronischen/kongenitalen Luxationen findet sich meist ein abgenutztes mediales Glenoid bei nur minimaler Arthrose.",
+      },
+      {
+        type: "text",
+        heading: "Therapie",
+        text: "Akute mediale traumatische Luxationen ohne Knochenabsplitterung können unter Narkose reponiert und anschließend 10 Tage in einer Velpeau-Schlinge ruhiggestellt werden; bei akuten lateralen Luxationen folgt auf die Reposition ein Spica-Schienenverband. Bei chronischem Verlauf erzielt eine Versetzung der Bizepssehne nach medial (bei medialer Luxation) bzw. lateral (bei lateraler Luxation) die besten Resultate — die transponierte Sehne wirkt einer erneuten Luxation entgegen. Verstärkungen des Bandapparats mit Netzen oder Fadenprothesen sind nur bei kleinen Hunden erfolgversprechend; stark dysplastische oder arthrotische Schultergelenke sollten versteift werden.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.6 (Instabilität des Schultergelenks), S. 228f. Ätiologie, Klinik und Therapie sind im Original so beschrieben. Kap. 8.4.7 (Osteochondrose des Schultergelenks) verweist im Original nur auf die bereits an anderer Stelle behandelten allgemeinen Osteochondrose-Informationen; Kap. 8 endet danach mit dem Literaturverzeichnis (8.5).",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["biceps"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

@@ -62,15 +62,15 @@ kein Überblick verloren geht.
 
 ## Stand (24.09.2026)
 
-- Wissensbibliothek: 84 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 27
-  Untersuchung, 33 Pathologie, 9 Biomechanik, 6 Therapie — genaue Aufteilung
+- Wissensbibliothek: 90 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 27
+  Untersuchung, 39 Pathologie, 9 Biomechanik, 6 Therapie — genaue Aufteilung
   kann leicht abweichen, da manche Einträge mehrere Kategorien berühren). Die
-  33 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund, 7
+  39 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund, 7
   Einträge), Kap. 7 (Neurologischer Untersuchungsgang, 9 Einträge) und
-  Kap. 8.1–8.3 (Allgemeine Informationen, Generalisierte Skeletterkrankungen,
-  Erkrankungen der Hintergliedmaße, 17 Einträge, siehe Backlog unten) —
-  damit sind Kap. 6 und Kap. 7 des Buches vollständig abgedeckt, Kap. 8 bis
-  einschließlich 8.3 (von vermutlich mehreren Unterkapiteln bis S. 229).
+  Kap. 8 komplett (Wichtige Erkrankungen des Skeletts, 23 Einträge, siehe
+  Backlog unten) — damit sind Kap. 6, 7 und 8 des Buches vollständig
+  abgedeckt. Nächstes Kapitel: 9 (Ausgewählte neurologische Erkrankungen,
+  ab S. 230).
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -442,10 +442,32 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Chunk u(35) war ungewöhnlich groß (74.000 Zeichen) und deckte allein
       S. 195–219 ab, endend mitten in 8.4.1/8.4.2 (Erkrankungen der
       Vordergliedmaße: Sesamoid-Erkrankung, Hyperextensionstrauma Carpus —
-      dort abgebrochen, noch nicht umgesetzt). Nächster
-      Fortsetzungspunkt: Kap. 8.4 „Erkrankungen der Vordergliedmaße" ab
-      S. 219 zu Ende lesen (Rest von u(35) plus Folgechunks) und
-      umsetzen.
+      dort abgebrochen, noch nicht umgesetzt).
+- [x] **Kap. 8.4 (Erkrankungen der Vordergliedmaße, S. 219–229) vollständig
+      gelesen und umgesetzt (24.09.2026) — damit ist Kapitel 8 komplett
+      abgeschlossen.** Sechs neue PATHOLOGIE-Einträge:
+      `sesambeinfragmentierung-vordergliedmasse` (8.4.1),
+      `hyperextensionstrauma-carpus` (8.4.2),
+      `tendovaginitis-abductor-pollicis-longus` (8.4.3, ergänzt den
+      bestehenden Untersuchungs-Eintrag zum Finkelstein-analogen Test
+      `zehen-karpus-liegender-hund-untersuchung` um das vollständige
+      Krankheitsbild), `ellbogendysplasie-pathogenese-und-therapie` (8.4.4,
+      ergänzt den bestehenden VetCenter-Eintrag `ellbogengelenkdysplasie`
+      um Pathogenese-Mechanismen, Genetik und die vollständige
+      Therapiepalette — mit explizitem Hinweis, dass Kochs Begriff „UAP"
+      dieselbe Erkrankung meint wie VetCenters „IPA", keine widersprüchliche
+      Zweitdiagnose), `bizepssehnenentzuendung-therapieoptionen` (8.4.5,
+      ergänzt den bestehenden VetCenter-Eintrag `bizepssehnenerkrankungen`
+      um Sehnenverlauf, Sonografie-Diagnostik und drei OP-Techniken) und
+      `schultergelenkluxation-hund` (8.4.6). Kap. 8.4.7 verweist im
+      Original nur auf die allgemeinen Osteochondrose-Informationen, Kap. 8
+      endet danach mit dem Literaturverzeichnis (8.5).
+      **Kapitel 8 „Wichtige Erkrankungen des Skeletts" (S. 182–229) ist
+      damit vollständig abgedeckt** — 23 neue Wissenseinträge insgesamt
+      (8.1–8.2: 8, 8.3: 9, 8.4: 6). Nächster Fortsetzungspunkt: Kap. 9
+      „Ausgewählte neurologische Erkrankungen" (ab S. 230, Chunk u(37) —
+      Zuordnung noch nicht einzeln verifiziert, beim Fortsetzen per
+      `search_files` neu prüfen).
 
 ### UNTERSUCHUNG — Baumgartner, Klinische Propädeutik der Haus- und Heimtiere
 
