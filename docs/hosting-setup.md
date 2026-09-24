@@ -107,9 +107,12 @@ Abschnitt unten) — alle Variablen sind dort einheitlich zur Laufzeit verfügba
 ## Vor dem finalen Live-Gang nicht vergessen
 
 - **`ANTHROPIC_API_KEY` bewusst noch nicht gesetzt** — Entscheidung der Produktinhaberin
-  (16.09., "wir verzichten erstmal auf die API"). Die Begründungs-Auswertung läuft bis dahin im
-  Fallback-Modus ("Automatischer Vergleich gerade nicht verfügbar"), der Rest der App
-  funktioniert unverändert.
+  (16.09., "wir verzichten erstmal auf die API"; bekräftigt am 24.09.: Key wird erst kurz vor dem
+  Live-Gang gesetzt, um bis dahin laufende API-Kosten zu sparen). Bis dahin laufen zwei Features im
+  Fallback-Modus: die Begründungs-Auswertung (`/api/cases/[id]/evaluate-explanation`, zeigt
+  "Automatischer Vergleich gerade nicht verfügbar") und der neue Anatomie-Tutor
+  (`/api/anatomy-tutor/[slug]`, siehe unten, zeigt "Anatomie-Tutor derzeit nicht konfiguriert").
+  Der Rest der App funktioniert unverändert.
 - **Fachliche Prüfung der "NICHT VERIFIZIERT"-Quellenangaben (siehe `docs/bildbriefe.md`)
   erfolgt bewusst nach und nach, nicht jetzt** — Entscheidung der Produktinhaberin (19.09.):
   Das ist erst relevant, wenn das Produkt nächstes Jahr an den Markt gehen soll. Bis dahin steht
