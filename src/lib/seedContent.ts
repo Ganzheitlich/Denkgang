@@ -3762,6 +3762,278 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "zehen-tarsus-sprunggelenk-liegender-hund-untersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Zehen, Tarsalknochen und Sprunggelenk am liegenden Hund untersuchen",
+    teaser:
+      "Am liegenden Hund lässt sich jedes Zehengelenk einzeln durchbewegen und der Fersensehnenstrang gezielt auf seine Integrität prüfen — Handgriffe, die im Stehen so nicht möglich sind.",
+    sections: [
+      {
+        type: "text",
+        heading: "Summarischer Test der Pfote",
+        text: "Haut und Zwischenzehenbereich werden inspiziert, die Zehenballen palpiert. Zehen und Metatarsi werden umfasst und seitlich zusammengepresst, um Schmerzreaktionen zu provozieren, und auf Konturstörungen untersucht. Eine Hautrötung im Zwischenzehenbereich spricht für Allergie; eine Konturstörung für Neoplasie; Schmerz und Wärme können Neoplasie, Fraktur, Luxation oder einen Fremdkörper anzeigen.",
+      },
+      {
+        type: "text",
+        heading: "Zehengelenke einzeln durchbewegen",
+        text: "Jedes Zehengelenk wird einzeln gebeugt, gestreckt, adduziert und abduziert, während die andere Hand gleichzeitig auf Wärme, Füllung, Krepitation, Achsabweichung, Hypo- und Hypermobilität sowie Schmerzäußerung prüft. Eine Hyperextension der Zehengrundgelenke (Metatarsophalangealgelenke) testet zusätzlich die dort liegenden Sesambeine der Flexorensehnen auf Schmerz. Krepitation spricht für eine Gelenkfraktur, Wärme für Polyarthritis oder Allergie, Hypomobilität für eine Sesambeinerkrankung oder ein chronisches Gelenkleiden, Hypermobilität für einen Flexoren-/Extensorenriss, Kapselriss oder eine Nervenläsion.",
+      },
+      {
+        type: "text",
+        heading: "Tarsalknochen",
+        text: "Die tarsalen Knochen sind im Normalfall untereinander nicht beweglich. Sie werden palpiert und ihre kurzen Bänder durch Extension, Flexion, Abduktion und Adduktion geprüft. Hypermobilität spricht für Luxation oder Fraktur, eine ventrale Konturstörung am Calcaneus für eine pathologische Fraktur, Schwellung mit Ausfluss für die metatarsale Fistulierung des Deutschen Schäferhundes.",
+      },
+      {
+        type: "text",
+        heading: "Talokruralgelenk (Sprunggelenk)",
+        text: "Bei Flexion und Extension wird auf Krepitation, Wärme, Schmerz und Fluktuation geprüft; das Gelenk ist distal der beiden Processus styloidei halbmondförmig tastbar. Die Seitenbänder werden bei gestrecktem (ca. 5–8° Abduktion/Adduktion physiologisch) und bei gebeugtem Gelenk (ca. 8–12°) getestet. Bei flexiertem Gelenk prüfen zusätzliche Rotationsbewegungen die kurzen Bandanteile — eine dabei auftretende Instabilität spricht für eine Ruptur des kurzen kaudalen Anteils des lateralen Kollateralbandes. Hypermobilität bei Abduktion/Adduktion spricht für Seitenbandruptur oder Luxation, bei Flexion/Extension für eine gelenknahe Fraktur oder Luxation; Hypomobilität für eine posttraumatische Arthrose, Osteochondrose des Talusrollkamms oder Neoplasie.",
+      },
+      {
+        type: "text",
+        heading: "Fersensehnenstrang",
+        text: "Der Fersensehnenstrang wird von seinem Ansatz am Calcaneus nach proximal auf Konturstörungen oder abgerissene Stümpfe abgetastet; seine Integrität wird bei gestrecktem Kniegelenk und gebeugtem Talokruralgelenk geprüft. Eine Konturstörung am distalen Ende spricht für einen partiellen Riss, ein nicht spürbarer Strang oder fehlende Spannung für einen kompletten Riss, einen Abriss des M. gastrocnemius am Femur, eine Calcaneusfraktur/intertarsale Luxation oder eine Talokruralgelenkluxation. Ein Anteil der Sehne, der M. flexor digitorum superficialis, verläuft über den Calcaneus und kann — vor allem bei Shelties — nach lateral luxieren; sanfter Daumendruck auf die Fersenkappe prüft diese Hypermobilität gezielt.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.2.1–6.2.2 (Zehen/Metatarsus/Tarsalknochen, Sprunggelenk am liegenden Hund), S. 111–117. Alle beschriebenen Tests, Winkelangaben und Befund-DD-Zuordnungen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "unterschenkel-femur-liegender-hund-untersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Unterschenkel und Femur am liegenden Hund untersuchen",
+    teaser:
+      "Zwischen Knie und Sprunggelenk verstecken sich vor allem wachstumsbedingte und muskuläre Probleme — hier zählt vor allem, wo genau am Knochen der Schmerz sitzt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Unterschenkelregion",
+        text: "Beide Unterschenkel werden von distal nach proximal palpiert, insbesondere die Muskelbäuche des lateralen Kompartiments (M. tibialis cranialis, M. extensor digitorum lateralis) lassen sich gut verfolgen. Von der Fibula sind Malleolus und Fibulakopf tastbar, von der Tibia das gesamte Planum cutaneum. Schmerz in der distalen Physe spricht für eine Malleolar- oder Wachstumszonenfraktur bzw. eine Wachstumsstörung wie hypertrophe Osteodystrophie; Schmerz in der Diaphyse für Fraktur, Neoplasie oder Panosteitis; Schmerz in der proximalen Physe zusätzlich für Osgood-Schlatter (Abriss der Tuberositas tibiae bei großen, jungen Hunden) oder Neoplasie; Schmerz im Muskelbauch selbst für ein Kompartmentsyndrom.",
+      },
+      {
+        type: "text",
+        heading: "Femur",
+        text: "Das Femur wird von distal nach proximal palpiert und ist distal/medial gut, proximal am großen Trochanter (lateral) tastbar. M. quadriceps femoris und Ischiokruralmuskulatur werden auf Verhärtungen und Schmerz untersucht. Schmerz mit Krepitation spricht für Fraktur oder Neoplasie, isolierter Schmerz für Panosteitis oder hypertrophe Osteodystrophie. Verhärtete Muskeln sprechen für eine posttraumatische Kontraktur, eine Fibrose der Ischiokruralmuskeln (besonders häufig beim Deutschen Schäferhund) oder ein Kompartmentsyndrom.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.2.3 und 6.2.5 (Unterschenkelregion, Femur am liegenden Hund), S. 118–120 und 128–129. Alle beschriebenen Befund-DD-Zuordnungen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["quadriceps", "biceps-femoris", "semitendinosus"],
+  },
+  {
+    id: "knie-liegender-hund-spezialtests",
+    category: "UNTERSUCHUNG",
+    title: "Kniegelenk am liegenden Hund — die klassischen Spezialtests im Detail",
+    teaser:
+      "Patellaluxationsgrad, Schublade, Tibia-Kompression, Meniskus-Klicken: vier eng verwandte Handgriffe, die am liegenden Hund präziser durchführbar sind als im Stehen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Beugung und Streckung",
+        text: "Tuberositas tibiae, Patellaligament und Patella werden aufgesucht, dann wird das Kniegelenk gebeugt und gestreckt, während Daumen und Zeigefinger einer Hand von vorn Wärme, Fluktuation, Schwellung und Krepitation erfassen. Schmerz bei einer Gelenkpathologie zeigt sich meist erst bei maximaler Extension. Praktisch alle Kniepathologien führen zu einer deutlichen Schwellung — die Ausnahme können tiefere Grade einer Patellaluxation sein, die trotz vorliegendem Problem kaum sichtbare Schwellung verursachen.",
+      },
+      {
+        type: "text",
+        heading: "Seitenbandtest",
+        text: "Bei gestrecktem Kniegelenk wird die Tibia gegenüber dem Femur abduziert, adduziert und rotiert; physiologisch sind 5–10° Gelenkbeweglichkeit möglich. Mediale Hypermobilität spricht für einen medialen Seitenbandriss (Ausriss meist am Femur; bei kleinen Hunden kann auch ein kranialer Kreuzbandriss eine erhöhte mediale Instabilität verursachen), laterale Hypermobilität für einen lateralen Seitenbandriss oder eine Fibulakopffraktur.",
+      },
+      {
+        type: "text",
+        heading: "Patellaluxation auslösen und beurteilen",
+        text: "Der Untersucher führt mit einer Hand am Tarsus alle Beuge-, Streck- und Rotationsstellungen des Beins, während die andere Hand auf der Patella liegt. Zunächst wird die spontane Lage der Patella festgestellt. Aufgrund der Anatomie lässt sich eine mediale Luxation am leichtesten bei gestrecktem Hüft- und Kniegelenk mit Endorotation der Tibia auslösen, eine laterale Luxation am leichtesten bei gebeugtem Hüft- und Kniegelenk mit Exorotation der Tibia. Wichtig für eine korrekte Befunderhebung: Der Hund wird in allen physiologischen Stellungen (stehend und liegend) geprüft, es wird nur physiologische Kraft angewendet, es zählt der schlechteste festgestellte Befund, eine reitende Patella wird als „0“ notiert, und es muss sowohl auf mediale als auch auf laterale Luxation geprüft werden.",
+      },
+      {
+        type: "table",
+        heading: "Koch-Klassifikation des Untersuchungsbefundes (PL 0–4)",
+        columns: ["Befund", "Position der Patella", "Reposition"],
+        rows: [
+          ["PL 0", "in der Trochlea, nicht auslösbar", "nicht möglich (keine Luxation)"],
+          ["PL 1", "in der Trochlea, luxierbar", "spontane Reposition der Patella"],
+          [
+            "PL 2",
+            "in der Trochlea, luxierbar",
+            "springt bei Manipulation (Rotation der Tibia, Beugen/Strecken) in die Trochlea zurück",
+          ],
+          [
+            "PL 3",
+            "außerhalb der Trochlea",
+            "nur durch aktive Luxation nach medial/lateral durch den Untersucher; bleibt bei Manipulation luxiert, nur die Untersucherhand kann sie zurückzwingen",
+          ],
+          [
+            "PL 4",
+            "außerhalb der Trochlea, bereits luxiert",
+            "weder Manipulation noch manueller Repositionsversuch bringen die Patella zurück in die Trochlea",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Einordnung: PL 0–4 ist nicht die Putnam-Skala",
+        text: "Diese vierstufige PL-0–4-Einteilung stammt direkt aus Kochs eigener Publikation zur Patellaluxationsdiagnostik (Koch et al. 1998) und beschreibt den Untersuchungsbefund während der Manipulation. Sie ist nicht identisch mit der an anderer Stelle in dieser Bibliothek beschriebenen Putnam-Grad-I–IV-Klassifikation (Krankheitsbild-Schweregrad inkl. Achsendeformität, siehe Wissenseintrag zur Patellaluxation) — beide Systeme beschreiben verwandte, aber unterschiedliche Dinge und sollten nicht synonym verwendet werden.",
+      },
+      {
+        type: "text",
+        heading: "Schubladentest",
+        text: "Eine Hand fasst mit dem Zeigefinger die Patella und mit dem Daumen die Region um das laterale Sesambein des M. gastrocnemius, die andere Hand hält Tuberositas tibiae bzw. Fibulakopf. Der Test wird bewusst nicht in voller Extension, sondern bei leichter Beugung von 5–15° durchgeführt, ohne dabei selbst Flexion/Extension auszulösen; dann wird die Tibia nach kranial geführt. Ein weicher Anschlag nach kranial spricht für einen kranialen Kreuzbandriss, ein harter Anschlag für einen kaudalen Kreuzbandriss; Schmerz ohne Instabilität bei leichter Innenrotation der Tibia für einen partiellen oder kompletten kranialen Kreuzbandriss mit eingeklemmtem Meniskus. Hinweis zur Terminologie: Die bereits vorhandene, nach Hárrer benannte Bibliotheksseite zu Kreuzband-/Meniskustests beschreibt einen ähnlichen, dort „Lachmann-Test“ genannten Test in maximaler Extension — ob es sich um denselben Test mit unterschiedlicher Winkelkonvention oder zwei unterschiedliche Tests handelt, bleibt zwischen den beiden Quellen uneindeutig; hier wird bewusst Koch/Fischers eigene Bezeichnung und Winkelangabe übernommen.",
+      },
+      {
+        type: "text",
+        heading: "Tibia-Kompressionstest",
+        text: "Eine Hand drückt mit der Innenseite auf die Patella (Zeigefingerspitze auf dem Margo cranialis tibiae), die andere fasst die Metatarsi. Knie- und Tarsalgelenk werden vollständig gestreckt, dann wird gezielt nur das Tarsalgelenk gebeugt. Die selektive Flexion bringt über den Spannsägenmechanismus der kranialen und kaudalen Unterschenkelmuskeln die Tibia unter Kompression: Ist das vordere Kreuzband gerissen, weicht die proximale Tibia dabei spürbar nach kranial aus. Kein Ausweichen spricht für ein normales Knie, einen partiellen oder kaudalen Kreuzbandriss, einen kranialen Kreuzbandriss mit eingeklemmtem Meniskus oder eine starke Kapselfibrose.",
+      },
+      {
+        type: "text",
+        heading: "Meniskustest",
+        text: "Durch tiefe mediale Palpation zwischen Tibia und Femur kann eine Meniskusläsion aufgedeckt werden. Ein umgeklapptes oder gequetschtes kaudales Horn des medialen Meniskus verursacht bei Beugung und Streckung wiederholt an derselben Gelenkwinkelung Krepitation und Schmerzäußerung („Meniskus-Klicken“). Fehlt dieses typische Klicken, bedeutet das nicht automatisch einen gesunden Meniskus — der Test schließt eine Meniskusläsion nicht sicher aus. Diese direkte Palpationstechnik ist eine andere Herangehensweise als die bereits vorhandenen, nach Hárrer benannten Apley- und McMurray-Tests (beide arbeiten mit Rotationsstress statt direkter Palpation) — die drei Tests ergänzen sich, statt sich zu widersprechen.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.2.4 (Kniegelenk am liegenden Hund), S. 120–127, inkl. der dort zitierten Originalquelle [91] Koch DA, Grundmann S, Savoldelli D et al., Die Diagnostik der Patellaluxation des Kleintieres, Schw Arch Tierheilk 1998; 371–374, für die PL-0–4-Klassifikation. Alle beschriebenen Tests, Winkelangaben, die PL-Tabelle und Befund-DD-Zuordnungen sind im Original so beschrieben. Die Einordnung gegenüber der Putnam-Skala sowie der Terminologie-Hinweis zu Schubladen-/Lachmann-Test und den Meniskustests sind eigene, transparent gekennzeichnete Einordnungen zur Abgrenzung von bereits vorhandenem Hárrer-Content.",
+    relatedCaseIds: ["bruno"],
+    relatedAnatomyIds: ["quadriceps"],
+  },
+  {
+    id: "huefte-liegender-hund-spezialtests",
+    category: "UNTERSUCHUNG",
+    title: "Hüftgelenk am liegenden Hund — Ortolani- und Bardens-Test im Detail",
+    teaser:
+      "Ortolani-Test bei Erwachsenen, Bardens-Test bei Welpen unter fünf Monaten — zwei Techniken für dieselbe Frage: Ist das Hüftgelenk instabil?",
+    sections: [
+      {
+        type: "text",
+        heading: "Beugung und Streckung",
+        text: "Mit einer Hand über dem Hüftgelenk und der anderen am distalen Femur wird das Hüftgelenk in alle Richtungen bewegt; bei gesunden Hunden sind Streckung und Beugung bis nahezu zur Parallelität von Femur und Wirbelsäule möglich. Gleichzeitig wird der M. pectineus palpiert — eine sekundär zu Hüftarthrose oder -dysplasie entstandene Kontraktur dieses Muskels führt zu Bewegungseinschränkung und Schmerz bei direkter Palpation. Hypomobilität mit Schmerz kann neben Hüftgelenkdysplasie, Morbus Legg-Perthes, Luxation und Neoplasie auch von einer Myositis des M. iliopsoas oder einem Cauda-equina-Kompressionssyndrom bzw. Bandscheibenvorfall der Lendenwirbelsäule stammen — die Hüfte ist hier bewusst nicht die einzige Differentialdiagnose.",
+      },
+      {
+        type: "text",
+        heading: "Rotation des Femurs",
+        text: "Bei einer 90°-Winkelung zwischen Beckenlängsachse und Femurschaft wird das Femur bis zu 45° innenrotiert und bis zu 90° außenrotiert; zudem soll eine Abduktion des Femurs bis ca. 90° gegenüber der Tischplatte möglich sein. Reduzierte Rotation spricht für Hüftgelenkarthrose, Legg-Perthes oder Neoplasie, erhöhte Rotation für eine Hüftgelenkluxation oder Femurkopffraktur.",
+      },
+      {
+        type: "text",
+        heading: "Luxationstest",
+        text: "Der Daumen des Untersuchers wird in die kleine Grube zwischen Trochanter major und Tuber ischiadicum gedrückt, dann wird das Femur außenrotiert. Bei nichtluxiertem Hüftgelenk nähern sich die Knochenvorsprünge an und klemmen den Daumen ein; bei einer Hüftgelenkluxation nach kraniodorsal weicht der Femurkopf nach kranial aus, und der Daumen verspürt keinen Druck.",
+      },
+      {
+        type: "text",
+        heading: "Ortolani-Test",
+        text: "Femur und Beckenlängsachse werden in eine relative 90°-Winkelung gebracht; ein Daumen liegt auf dem Trochanter major, die andere Hand umfasst und steuert das Femur am Kniegelenk. Das Femur wird vollständig adduziert, dann wird durch Druck auf das Knie eine mögliche Luxation des Femurkopfes nach dorsal provoziert. Ohne den axialen Druck zu reduzieren, wird das Femur langsam abduziert, bis der Femurkopf aus einer möglichen Subluxationsstellung zurück ins Acetabulum springt — spürbar am Trochanter. Keine Repositionsbewegung mit normalem Bewegungsumfang spricht für ein normales Hüftgelenk, eine spürbare Repositionsbewegung für eine Hüftgelenkdysplasie. Da der Test den dorsalen Acetabulumrand stark beansprucht, ist er bei Hunden unter fünf Monaten wegen des noch fragilen Gelenkrandes nicht indiziert.",
+      },
+      {
+        type: "text",
+        heading: "Bardens-Test als Alternative bei jungen Welpen",
+        text: "Bei Hunden unter fünf Monaten wird statt des Ortolani-Tests der Bardens-Test verwendet. Die Ausgangsstellung ist gleich (Femur und Beckenlängsachse in ca. 90°-Position), doch nun umfassen beide Hände die Oberschenkelmuskulatur im proximalen Drittel und versuchen mit vertikal gerichteten Hebelbewegungen, den Femurkopf senkrecht aus dem Acetabulum zu ziehen. Eine spürbare Luxationsbewegung spricht für eine Hüftgelenkdysplasie, keine spürbare Bewegung für ein normales oder allenfalls geringgradig dysplastisches Hüftgelenk.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.2.6 (Hüftgelenk am liegenden Hund), S. 130–136. Alle beschriebenen Tests, Winkelangaben und Befund-DD-Zuordnungen sind im Original so beschrieben. Ergänzt die bereits vorhandene, über Hárrer verifizierte Kurzerwähnung des Ortolani-Tests um die vollständige Technik sowie den zusätzlichen Bardens-Test für junge Welpen.",
+    relatedCaseIds: ["luna"],
+    relatedAnatomyIds: ["huefte", "iliopsoas"],
+  },
+  {
+    id: "zehen-karpus-liegender-hund-untersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Zehen, Metacarpus und Karpalgelenk am liegenden Hund untersuchen",
+    teaser:
+      "Am Karpus verrät ein Finkelstein-artiger Test eine der häufig übersehenen Sehnenscheidenentzündungen — direkt neben dem eigentlichen Karpalgelenk.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zehen, Metacarpus und Karpalknochen",
+        text: "Wie an der Hintergliedmaße werden Haut und Zwischenzehenbereich inspiziert, Zehen und Metacarpi seitlich zusammengepresst und die Zehengelenke einzeln durchbewegt (Wärme, Füllung, Krepitation, Achsabweichung, Hypo-/Hypermobilität, Schmerz); eine Hyperextension der Zehengrundgelenke prüft auch hier die Sesambeine. Die interkarpalen Knochen sind normalerweise nicht gegeneinander beweglich und werden samt ihrer kurzen Bänder durch Extension, Flexion, Abduktion und Adduktion geprüft. Schmerz mit Instabilität am Os carpi accessorium spricht gezielt für eine Fraktur dieses Knochens; Hypomobilität der Zehengelenke eher für eine Sesambeinfragmentierung als für die an der Hintergliedmaße genannte Sesambeinerkrankung.",
+      },
+      {
+        type: "text",
+        heading: "Karpoantebrachialgelenk",
+        text: "Die kurzen lateralen Bänder werden in Extensionsstellung geprüft (physiologisch 8–12° Abduktion/Adduktion), dann wird das Gelenk in maximale Flexion bzw. Extension verbracht. Ein kleines schräges Band verbindet das Styloid des Radius mit dem palmaren Aspekt des Os carpi radiale und wird analog zum Kniegelenk mit einem Schubladentest geprüft — bei gesunden Hunden ist dabei keine Schublade auslösbar, ein positiver Test spricht für einen Riss dieses schrägen medialen Radiokarpalbandes. Hypermobilität allgemein spricht für Seitenbandriss, eine Fraktur (Processus styloideus, karpometakarpal oder interkarpal) oder eine Instabilität nach Hyperextensionstrauma.",
+      },
+      {
+        type: "text",
+        heading: "Sehne des M. abductor pollicis longus",
+        text: "Die Endsehne dieses Muskels verläuft auf der kraniomedialen Radiusseite in einer eigenen Sehnenscheide und kreuzt das Radiokarpalgelenk direkt unter dem Seitenband; sie wird per direkter Palpation auf Wärme, Schwellung und Schmerz geprüft. Analog zum humanmedizinischen Finkelstein-Test lässt sich die Sehne durch gleichzeitige maximale Flexion und Abduktion des Carpus maximal spannen, was bei einer Erkrankung eine Schmerzreaktion provoziert. Schmerz, Wärme und Schwellung im distalen medialen Radiusviertel sprechen für eine Tendovaginitis dieses Muskels oder — differentialdiagnostisch ernst zu nehmen — für ein Osteosarkom des distalen Radius.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.3.1–6.3.2 (Zehen/Metacarpus/Karpalknochen, Karpalgelenk am liegenden Hund), S. 136–142. Alle beschriebenen Tests und Befund-DD-Zuordnungen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "unterarm-ellbogen-liegender-hund-untersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Unterarm und Ellbogengelenk am liegenden Hund untersuchen",
+    teaser:
+      "Zwei der drei häufigsten Ellbogendysplasie-Formen liegen im medialen Kompartiment — ein gezielter Innenrotationstest deckt genau diesen Bereich auf.",
+    sections: [
+      {
+        type: "text",
+        heading: "Radius und Ulna",
+        text: "Der Radius ist mediodistal als Styloid und proximal am lateralen Radiuskopf tastbar, die Ulna distolateral als Styloid und proximal als Olecranon; beide werden auf Druck, Schmerz und Krepitation geprüft, Rotationsbewegungen am Antebrachium testen ihre relative Beweglichkeit zueinander. Druckschmerz im distalen Drittel spricht für Osteosarkom, hypertrophe Osteodystrophie oder retinierte Knorpelzapfen; in der Diaphyse für Panosteitis, eine Wachstumsstörung oder hypertrophe Osteopathie; im proximalen Drittel für Panosteitis oder Ellbogendysplasie. Valgusstellung mit Exorotation und konvexer Radiuskurvatur spricht für einen Radius curvus nach verfrühtem distalem Fugenschluss.",
+      },
+      {
+        type: "text",
+        heading: "Ellbogengelenk: Beugung und Streckung",
+        text: "Das Gelenk wird in volle Extension und Flexion verbracht, während die andere Hand Veränderungen am und im Gelenk registriert; Schmerz ist bei maximaler Extension meist intensiver auszulösen als bei Flexion. Der Processus anconaeus ist erst bei maximaler Flexion von lateral tastbar. Ein massiver Erguss im lateralen Kompartiment spricht für einen losgelösten Processus anconaeus oder eine Fraktur des Epicondylus lateralis (Salter-Harris-Typ-4-Fraktur).",
+      },
+      {
+        type: "text",
+        heading: "Seitenbandtest",
+        text: "Geprüft wird bei gestrecktem (Abduktion/Adduktion physiologisch nicht über 10°) und bei gebeugtem Ellbogen — dort kreuzen sich Radius und Ulna, sodass die Außenrotation durch die medialen und die Innenrotation durch die lateralen Seitenbänder begrenzt wird. In den meisten Fällen ist das mediale Seitenband betroffen. Erhöhte Außenrotation bei gebeugtem bzw. Valgusstellung bei gestrecktem Ellbogen spricht für eine mediale Seitenbandruptur; erhöhte Innenrotation bzw. Varusstellung für die selten Auftretende laterale Seitenbandruptur; ein nach lateral verlagerter, tastbarer Radiuskopf mit reduziertem Bewegungsumfang und Krepitation für eine Ellbogenluxation nach lateral.",
+      },
+      {
+        type: "text",
+        heading: "Mediales Kompartiment gezielt prüfen",
+        text: "Zwei der drei häufigen Ellbogendysplasie-Formen — fragmentierter Processus coronoideus medialis und Osteochondrose des medialen Humeruscondylus — sowie deren Folgeprobleme liegen im medialen Kompartiment und werden zusammenfassend als mediales Kompartimentsyndrom bezeichnet. Ein Finger wird direkt auf den Processus coronoideus medialis gelegt, um ihn auf Druckschmerz zu prüfen; anschließend werden Radius und Ulna bei gestrecktem Ellbogen innenrotiert, wodurch das mediale Coronoid bei intaktem medialem Seitenband in direkten Kontakt mit dem Humeruscondylus kommt und so zusätzlich auf Druckschmerz geprüft werden kann.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.3.3–6.3.4 (Radius/Ulna, Ellbogengelenk am liegenden Hund), S. 142–148. Alle beschriebenen Tests und Befund-DD-Zuordnungen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["supinator", "brachioradialis", "pronator-teres"],
+  },
+  {
+    id: "oberarm-schulter-liegender-hund-untersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Oberarm, Schultergelenk und Schulterblatt am liegenden Hund untersuchen",
+    teaser:
+      "Eine Außenrotation bei leichter Extension bringt den Humeruskopf dorthin, wo eine Osteochondroseläsion überhaupt erst tastbar wird — unter mehreren Muskelschichten liegt hier fast alles versteckt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Humerus",
+        text: "Der Humerus wird von distal nach proximal palpiert; er ist direkt nur an seinem distalen Ende gut zugänglich. Auf der lateralen Seite kreuzt ihn der N. radialis. Proximal sind Tuberculum majus und das proximale Schaftende tastbar. Schmerz bei Palpation spricht für Fraktur, eine proximale Neoplasie, Panosteitis oder eine Verletzung des N. radialis; Krepitation für eine Fraktur.",
+      },
+      {
+        type: "text",
+        heading: "Schultergelenk",
+        text: "Das Schultergelenk liegt unter vielen Muskeln und ist nur am Kranialrand medial der Bizepssehne zu palpieren; Gelenkfüllungen sind kaum spürbar. Das Gelenk wird gestreckt und gebeugt und dabei auf Schmerz geprüft. Eine mögliche Osteochondroseläsion im kaudalen Humeruskopf wird aufgedeckt, indem der Humerus bei leichter Extension außenrotiert wird — das bringt den Humeruskopf nach lateral, wo er unter den Muskelschichten indirekt geprüft werden kann; Druckschmerz am kaudalen Humeruskopf in dieser Stellung spricht für genau diese Läsion. Schwellung und Schmerz im kranialen Gelenkanteil sprechen für Bizepsabriss, Bizepstendinitis, eine Fraktur des Tuberculum supraglenoidale, eine Subluxation oder eine proximale Humerus-Neoplasie. Steht das Tuberculum majus deutlich ventral des Acromions, spricht das für eine Schulterluxation nach medial; eine Valgusstellung des Schultergelenks für eine Infra-/Supraspinatuskontraktur.",
+      },
+      {
+        type: "text",
+        heading: "Bizepssehnentest",
+        text: "Die Bizepssehne ist direkt zwischen Tuberculum majus und minus unter dem intertuberkulären Ligament sowie proximal davon im Schultergelenk und distal davon im Sulcus tastbar. Sie wird maximal gespannt, indem das Schultergelenk gebeugt und das Ellbogengelenk gestreckt wird, während die andere Hand auf den schultergelenknahen Sehnenanteil drückt. Schmerz bei direktem Druck spricht für eine Bizepssehnenentzündung oder — seltener — einen Abriss der Sehne im Schultergelenk.",
+      },
+      {
+        type: "text",
+        heading: "Schulterblatt und Plexus brachialis",
+        text: "Das Schulterblatt wird entlang seiner knöchernen Begrenzung palpiert, Spina scapulae und Acromion werden auf Stabilität geprüft; kaudal und kranial der Spina scapulae lässt sich zudem das Ausmaß einer Muskelhypotrophie bestimmen. Schmerz mit Krepitation spricht für eine Fraktur, Schmerz mit Schwellung für Neoplasie, eine Achsabweichung für eine verheilte Fraktur, harte und schmerzhafte Muskeln für eine Kontraktur. Der Plexus brachialis liegt direkt unter der Scapula und ist von kranial mit den Fingerspitzen erreichbar — Schmerz bei dieser subskapulären Palpation spricht für ein Plexustrauma oder einen Plexustumor.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.3.5–6.3.7 (Humerus, Schulterregion, Schulterblattregion am liegenden Hund), S. 148–156. Alle beschriebenen Tests und Befund-DD-Zuordnungen sind im Original so beschrieben.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["biceps", "subscapularis", "supraspinatus", "infraspinatus", "teres-minor"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

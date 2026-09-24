@@ -60,11 +60,13 @@ kein Überblick verloren geht.
   wurde. Dieselbe Lücken-Regel gilt ab sofort für alle künftigen
   Anatomie-Items: keine leeren/unklaren Kernfelder mehr als Endzustand.
 
-## Stand (21.09.2026)
+## Stand (24.09.2026)
 
-- Wissensbibliothek: 51 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 13
+- Wissensbibliothek: 58 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 20
   Untersuchung, 15 Pathologie, 9 Biomechanik, 5 Therapie — genaue Aufteilung
-  kann leicht abweichen, da manche Einträge mehrere Kategorien berühren)
+  kann leicht abweichen, da manche Einträge mehrere Kategorien berühren). Die
+  7 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund,
+  siehe Backlog unten) — damit ist Kap. 6 des Buches vollständig abgedeckt.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -282,26 +284,66 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       S. 110) als `liegender-hund-untersuchungsprinzipien` umgesetzt: warum
       trotz bekannter Verdachtsregion alle vier Gliedmaßen untersucht werden
       (betroffene zuletzt), plus die 7 erfassten Befundkategorien.
-- [ ] Kap. 6.2ff. (Untersuchung des liegenden Hundes, Hintergliedmaße/
-      Vordergliedmaße im Detail) — Anfang bereits gelesen (6.2.1 Zehen/
-      Metatarsus/Tarsalknochen, summarischer Test mit Befund-DD, S. 110f.),
-      aber noch nicht als eigener Wissenseintrag umgesetzt. Nächster
-      natürlicher Fortsetzungspunkt.
-- [ ] Vollständiger neurologischer Untersuchungsgang (im Buch referenziert als
-      „S. 157" — noch nicht gelesen)
-- [ ] Gelenkspezifische Stabilitätstests (Kreuzband: Schublade/Tibia-Kompression
-      — Hárrer deckt das bereits über Kap. 8 ab, ggf. hier zum Vergleich lesen;
-      Hüfte: Ortolani bereits über Hárrer verifiziert, ggf. hier ergänzen) —
-      möglicherweise Teil des vollständigen neurologischen/orthopädischen
-      Stabilitätstest-Kapitels weiter hinten im Buch, noch nicht lokalisiert
+- [x] Kap. 6.2 (Untersuchung des liegenden Hundes, Hintergliedmaße, S. 111–136)
+      komplett gelesen und umgesetzt: Zehen/Tarsus/Sprunggelenk (als
+      `zehen-tarsus-sprunggelenk-liegender-hund-untersuchung`), Unterschenkel +
+      Femur (als `unterschenkel-femur-liegender-hund-untersuchung`), Knie mit
+      allen Spezialtests inkl. der Koch-eigenen PL-0–4-Klassifikation,
+      Schubladen-/Tibia-Kompressions-/Meniskustest (als
+      `knie-liegender-hund-spezialtests`, verknüpft mit Fall Bruno), Hüfte mit
+      vollständigem Ortolani- UND erstmals Bardens-Test (als
+      `huefte-liegender-hund-spezialtests`, verknüpft mit Fall Luna). Zwei
+      bewusst transparent gekennzeichnete Abgrenzungen zu bereits vorhandenem
+      Hárrer-Content: (1) die PL-0–4-Klassifikation (Untersuchungsbefund,
+      Koch et al. 1998) ist NICHT dieselbe Skala wie die andernorts
+      dokumentierte Putnam-Grad-I–IV-Klassifikation
+      (Krankheitsbild-Schweregrad) — im neuen Eintrag als eigener Abschnitt
+      klargestellt, nicht vermischt; (2) Koch/Fischers eigener
+      „Schubladentest" (5–15° Beugung) vs. der bereits vorhandene, nach
+      Hárrer benannte „Lachmann-Test" (volle Extension) — als offene
+      Terminologie-/Winkelkonvention-Diskrepanz zwischen den Quellen
+      dokumentiert, nicht stillschweigend geglättet.
+- [x] Kap. 6.3 (Untersuchung des liegenden Hundes, Vordergliedmaße, S. 136–156)
+      komplett gelesen und umgesetzt: Zehen/Metacarpus/Karpalgelenk inkl.
+      Finkelstein-analogem Test für M. abductor pollicis longus (als
+      `zehen-karpus-liegender-hund-untersuchung`), Unterarm + Ellbogen inkl.
+      medialem Kompartiment-Test (als
+      `unterarm-ellbogen-liegender-hund-untersuchung`), Oberarm/Schulter/
+      Schulterblatt inkl. OCD-Provokationstest und Bizepssehnentest (als
+      `oberarm-schulter-liegender-hund-untersuchung`, verknüpft mit Fall
+      Rocky). Kap. 6 endet danach mit einem einzeiligen Literaturverzeichnis
+      (6.4) — Kap. 6 (liegender Hund) ist damit vollständig abgedeckt.
+- [ ] **Wichtiger Fund beim Weiterlesen:** Ab u(21) (~S. 157) folgt im Buch
+      offenbar KEIN separates neurologisches Kapitel, sondern ein
+      umfangreicher Pathologie-Teil — die Fundstellen-Verweise
+      „(S. 183)" bis „(S. 226)", die in den Kap.-5/6-Befund-DD-Listen
+      durchgängig auf Krankheitsbilder verweisen (Osteochondrose S. 183,
+      Panosteitis S. 186, hypertrophe Osteodystrophie S. 187, Polyarthritis
+      S. 189, Neoplasie S. 192, Fersensehnenriss/Calcaneusfraktur S. 197f.,
+      Kreuzbandriss S. 199, Patellaluxation S. 202, Osgood-Schlatter S. 207,
+      Legg-Perthes S. 209, Hüftgelenkdysplasie/-arthrose S. 210,
+      Hüftgelenkluxation S. 216, Sesambeinerkrankung/Hyperextensionstrauma
+      S. 219, Tendovaginitis M. abductor pollicis longus S. 221,
+      Ellbogendysplasie S. 222, Bizepssehnenentzündung S. 226) — sitzen
+      offenbar in genau diesem Buchteil. Das würde die bisherige Vermutung
+      „vollständiger neurologischer Untersuchungsgang ab S. 157" widerlegen
+      bzw. präzisieren: S. 157 könnte der Kapitelübergang zu einem
+      Pathologie-/Krankheitsbilder-Kapitel sein statt zu einem separaten
+      Neuro-Kapitel. Noch nicht verifiziert, da ab u(21) noch nicht gelesen —
+      nächster Schritt: u(21) öffnen und den tatsächlichen Kapiteltitel
+      prüfen, bevor weitere Annahmen getroffen werden.
 - [x] Die Datei hat ~46 Einzel-PDF-Chunks (u.pdf, u(1)–u(46), Ordner-ID
       1J3C3r71IrVdvrSUmTm8yRjMtMuyI8ZeT) — Nummerierung ist streng sequenziell
       zum Buchtext (u(13)=S.80–82, u(14)=S.82–83, u(15)=S.83–84, u(16)=S.84–98
       [großer Chunk, deckt ganz Kap. 5.3 ab], u(17)=S.98–109 [Kap. 5.4
-      komplett], u(18)=S.110f. [Anfang Kap. 6]). Für Kap. 6.2 weiter ab u(19)
-      lesen — die Chunk-Länge korreliert nicht linear mit Seitenzahl, daher
-      immer den tatsächlichen Seitenkopf im Text prüfen statt nur die
-      Chunk-Nummer hochzuzählen.
+      komplett], u(18)=S.110f. [Anfang Kap. 6], u(19)=S.111–136 [Kap. 6.2
+      Hintergliedmaße komplett], u(20)=S.136–156 [Kap. 6.3 Vordergliedmaße
+      komplett + Kap. 6.4 Literaturverzeichnis]). Kap. 6 ist damit über nur
+      zwei große Chunks vollständig abgedeckt. Für den nächsten,
+      offenbar Pathologie-lastigen Buchteil ab S. 157 weiter mit u(21)
+      lesen — die Chunk-Länge korreliert weiterhin nicht linear mit
+      Seitenzahl, daher immer den tatsächlichen Seitenkopf im Text prüfen
+      statt nur die Chunk-Nummer hochzuzählen.
 
 ### UNTERSUCHUNG — Baumgartner, Klinische Propädeutik der Haus- und Heimtiere
 
