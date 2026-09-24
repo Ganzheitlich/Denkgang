@@ -90,12 +90,15 @@ export default async function DashboardPage() {
           </div>
         )}
         {anatomyItems.map(({ item, state }) => (
-          <Link key={item.id} href={`/anatomy/${item.slug}`} className="queue-item">
-            <div>
+          <div key={item.id} className="queue-item" style={{ gap: 10 }}>
+            <Link href={`/anatomy/${item.slug}`} style={{ flex: 1, minWidth: 0 }}>
               <div className="qi-title">{item.name}</div>
-            </div>
+            </Link>
+            <Link href={`/anatomy-tutor/${item.slug}`} className="tag">
+              Tutor
+            </Link>
             <span className={`tag ${state === "wiederholen" ? "due" : ""}`}>{state}</span>
-          </Link>
+          </div>
         ))}
       </div>
       <p className="empty-note">

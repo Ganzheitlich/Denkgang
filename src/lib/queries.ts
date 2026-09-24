@@ -133,6 +133,25 @@ export async function getAnatomyForFlow(slug: string) {
   });
 }
 
+export async function getAnatomyForTutor(slug: string) {
+  return prisma.anatomyItem.findFirst({
+    where: { slug, status: "APPROVED" },
+    select: {
+      id: true,
+      slug: true,
+      name: true,
+      bildUrl: true,
+      origin: true,
+      insertion: true,
+      funktion: true,
+      innervation: true,
+      clinicalRelevance: true,
+      palpationHint: true,
+      sourceStatus: true,
+    },
+  });
+}
+
 export async function getLibraryEntries(category?: KnowledgeCategory, q?: string) {
   return prisma.knowledgeEntry.findMany({
     where: {

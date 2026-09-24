@@ -769,3 +769,55 @@ textarea {
   background: var(--petrol);
   color: #fff;
 }
+
+.tutor-chat {
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+
+.tutor-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.tutor-msg {
+  border-radius: 3px;
+  padding: 10px 13px;
+  font-size: 14.5px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  max-width: 92%;
+}
+
+.tutor-msg.assistant {
+  align-self: flex-start;
+  border-left: 3px solid var(--petrol);
+  background: var(--paper);
+  border-radius: 0 3px 3px 0;
+}
+
+.tutor-msg.user {
+  align-self: flex-end;
+  background: #e4efec;
+  color: var(--ink);
+}
+
+.tutor-typing {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.tutor-input-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+  margin-top: 12px;
+}
+
+.tutor-textarea {
+  flex: 1;
+}
