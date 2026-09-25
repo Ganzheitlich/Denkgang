@@ -5621,6 +5621,287 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "hueftgelenk-anatomie-rom-endgefuehl",
+    category: "BIOMECHANIK",
+    title: "Articulatio coxae: Nussgelenk, Bewegungsausmaß und Kapselmuster",
+    teaser:
+      "165° Extension, aber nur 50° Flexion — die Art. coxae ist kein normales Kugelgelenk, sondern ein „Nussgelenk“, bei dem die Pfanne mehr als die Hälfte des Kopfes umgreift.",
+    sections: [
+      {
+        type: "text",
+        heading: "Gelenktyp und Bewegungsachsen",
+        text: "Die Art. coxae ist anatomisch und mechanisch ein einfaches Kugelgelenk, dreiachsig (Flexion/Extension, Außen-/Innenrotation, Ab-/Adduktion), das auch als „Nussgelenk“ diskutiert wird, weil die Gelenkpfanne den Äquator des Caput femoris zu mehr als 180° umgreift. Die weite Gelenkkapsel erlaubt trotzdem ein großes Bewegungsausmaß. Die Facies lunata des Azetabulums ist mit dem Labrum acetabulare konkav, das Caput ossis femoris mit der Facies capitis femoris konvex; ein Lig. transversum überbrückt die Incisura acetabuli und schließt den konkaven Teil.",
+      },
+      {
+        type: "table",
+        heading: "Normales Bewegungsausmaß (ROM)",
+        columns: ["Bewegung", "Ausmaß"],
+        rows: [
+          ["Extension", "ca. 165°"],
+          ["Flexion", "ca. 50°"],
+          ["Abduktion (bei flektierter Hüfte)", "ca. 120°"],
+          ["Adduktion (bei flektierter Hüfte)", "ca. 65°"],
+          ["Innenrotation", "ca. 55°"],
+          ["Außenrotation", "ca. 50°"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Kapselmuster und Endgefühl",
+        text: "Das Kapselmuster der Hüfte lautet: Extension – Abduktion – Innenrotation (diese Bewegungen sind bei einem kapsulären Problem am stärksten eingeschränkt). Physiologisches Endgefühl: Flexion weich-elastisch, Extension, Abduktion und Rotation jeweils fest-elastisch. Reflektorisch häufig verspannt bei Hüftproblemen sind M. iliopsoas (M. iliacus, M. psoas major), M. iliocostalis Pars lumborum, M. piriformis und M. pectineus.",
+      },
+      {
+        type: "text",
+        heading: "Kollodiaphysenwinkel und Hüftdysplasie-Hinweis",
+        text: "Das Collum ist vom Schaft abgesetzt und bildet normal einen Winkel von ca. 130° (Kollodiaphysenwinkel) zum Schaft. Eine ungenügende Winkelung ist ein Hinweis auf eine Hüftdysplasie; zur genaueren Abklärung wird auf ein Röntgen mittels PennHIP-Verfahren verwiesen. Da das Hüftgelenk in seiner Funktion auf Belastung ausgelegt ist, finden sich dort im Alter oft degenerative Veränderungen.",
+      },
+      {
+        type: "text",
+        heading: "Drei Gelenke auf engem Raum",
+        text: "Bei der Untersuchung des Hüftgelenks muss bedacht werden, dass in dieser Region drei Gelenke auf kleinem Raum zusammenarbeiten: Hüftgelenk, Iliosakralgelenk und LWS. Alle drei Regionen beeinflussen sich bei Problemen gegenseitig und müssen bei der Untersuchung gemeinsam betrachtet und voneinander differenziert werden.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.1 (Anatomie Art. coxae), S. 43f. Gelenktyp, ROM-Werte, Kapselmuster, Endgefühl und Kollodiaphysenwinkel sind im Original so beschrieben. Ergänzt das bestehende Anatomie-Item `huefte` (dort bereits mit dem Ortolani-Test aus Kap. 7 dieser Quelle verknüpft) um die vollständigen Biomechanik-Kennwerte.",
+    relatedCaseIds: ["luna"],
+    relatedAnatomyIds: ["huefte", "iliopsoas"],
+  },
+  {
+    id: "hueftgelenk-manuelle-untersuchung-ortolani-joint-play",
+    category: "UNTERSUCHUNG",
+    title: "Hüftgelenk manuell untersuchen: Bewegungspalpation, Joint Play und Ortolani-Test",
+    teaser:
+      "Ein hörbarer „Klick“ bei der Abduktion nach longitudinalem Druck auf den Femur zeigt eine Subluxation des Hüftkopfes an — der Ortolani-Test macht Gelenklaxität hörbar.",
+    sections: [
+      {
+        type: "text",
+        heading: "Bewegungspalpation",
+        text: "Der Hund liegt entspannt in Seitlage, die zu untersuchende Seite oben. Der Therapeut umfasst den Trochanter major im Pinzettengriff (Zeigefinger kranial, Daumen kaudal) und führt passiv Flexion/Extension, Abduktion/Adduktion sowie Innen-/Außenrotation aus, während er beurteilt, ob sich der Trochanter major wie erwartet bewegt (Qualität, Quantität, Schmerz). Bei Flexion und Innenrotation wandert der Trochanter major dem Palpationsfinger kaudal entgegen (Kopf rollt kranial, gleitet kaudal); bei Extension und Außenrotation wandert er kranial entgegen (Kopf rollt kaudal, gleitet kranial). Flexion mit Innenrotation komprimiert den kranialen Gelenkflächenbereich, Flexion mit Außenrotation den kaudalen.",
+      },
+      {
+        type: "text",
+        heading: "Joint Play distal und lateral",
+        text: "Joint Play distal: Aus submaximaler Einstellung der eingeschränkten Bewegungsrichtung wird ein Längszug am Femur nach distal gegeben (Traktionsstufe 1–2), während dorsal des Trochanter major die Separation palpiert wird — beurteilt das Joint Play im gewichttragenden Gelenkbereich. Joint Play lateral: Mit der Kleinfingerkante wird von medial unter das Hüftgelenk gegriffen und eine laterale Traktion in kaudoventrolateraler Richtung ausgeführt (Traktionsstufe 2), während die andere Hand dorsal des Trochanter major die Gelenkseparation und das Lateralgleiten beurteilt.",
+      },
+      {
+        type: "text",
+        heading: "Provokation und Kompression",
+        text: "Eine Hand drückt das Femur distal longitudinal Richtung Hüftgelenk, während die andere Hand den Trochanter major von lateral in das Gelenk hineinkomprimiert (testet den medialen Gelenkanteil) — in verschiedenen Ausgangsstellungen (Flexion, Extension, Abduktion, Rotation). Indikation: Prüfung, ob eine Bewegungseinschränkung artikulär bedingt ist, Re-Test nach Behandlung, sowie zur gezielten Knorpelbehandlung. Behandelt wird in der Stellung, in der die Provokation schmerzhaft war.",
+      },
+      {
+        type: "text",
+        heading: "Ortolani-Test",
+        text: "Der Hund liegt in Seitlage. Über das oben liegende, gebeugte Knie gibt der Therapeut einen longitudinalen Druck zum Femur in die Hüfte, während die andere Hand flächig das Sakrum fixiert. Bei stärkeren Gelenkveränderungen kommt es zur Subluxation des Kopfes aus der Pfanne nach dorsal, was dorsal palpiert werden kann. Zusätzliche Abduktion lässt einen luxierten Femurkopf mit einem deutlich hörbaren „Klick“ in die Gelenkpfanne zurückschnappen — ein positives Ortolani-Zeichen ist ein Hinweis auf Gelenklaxität, wie sie typisch für eine Hüftdysplasie ist.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.2.1 (Spezifische Untersuchung des Gelenkes Art. coxae), S. 44–47. Griffe, Ausführung und Befundinterpretation sind im Original so beschrieben. Der Ortolani-Test bestätigt und vertieft den bereits im Anatomie-Item `huefte` verlinkten Kurzbefund zu diesem Test.",
+    relatedCaseIds: ["luna"],
+    relatedAnatomyIds: ["huefte"],
+  },
+  {
+    id: "hueftgelenk-manuelle-therapie-traktion-oszillation",
+    category: "THERAPIE",
+    title: "Hüftgelenk behandeln: Oszillation, Traktion und Gleittechniken",
+    teaser:
+      "Kleine, schnelle Bewegungen lindern Schmerz über gate control — große, langsame Traktionen verbessern die Beweglichkeit. Welche Technik zum Einsatz kommt, entscheidet das Behandlungsziel.",
+    sections: [
+      {
+        type: "text",
+        heading: "Schmerzlindernde Oszillation",
+        text: "Aus entspannter Ruhestellung des Hüftgelenks wird eine oszillierende Bewegung mit kleiner Amplitude und hoher Frequenz ausgeführt — entweder flächig medial in der Leiste (Behandlungsrichtung lateral-kaudal-ventral) oder longitudinal am distalen Femur. Indikation: Schmerzlinderung über gate control, Steigerung der Durchblutung, Tonussenkung und Sympathikusdämpfung (Traktionsstufe 1–2).",
+      },
+      {
+        type: "text",
+        heading: "Mobilisierende Traktion",
+        text: "Ziel ist die Verbesserung der Mobilität, deshalb wird das Gelenk zuerst submaximal in die jeweils eingeschränkte Richtung eingestellt (Extension, Flexion, Abduktion oder Innenrotation). Eine longitudinale Traktion am distalen Femur (Traktionsstufe 3) verbessert die Mobilität der gewichttragenden Gelenkflächen; eine laterale Traktion in kaudoventrolateraler Richtung eignet sich zusätzlich sehr gut zur Dehnung der medialen Weichteile, z. B. bei Hüftdysplasie.",
+      },
+      {
+        type: "table",
+        heading: "Gleitrichtung je nach eingeschränkter Bewegung",
+        columns: ["Eingeschränkte Bewegung", "Gleitrichtung am Femur"],
+        rows: [
+          ["Extension", "Gleiten kranial"],
+          ["Flexion", "Gleiten kaudal"],
+          ["Abduktion", "Gleiten medial (Kleinfingerkante dorsal des Trochanter major)"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Kompression zur Knorpelernährung",
+        text: "Bei gebeugtem Knie wird ein longitudinaler Schub zum Femur mit gleichzeitigem Druck über den Trochanter major Richtung Gelenkpfanne gegeben — in verschiedenen Flexions-/Extensionsstellungen. Indikation: intermittierende Kompression zur Durchblutungs- und Ernährungsverbesserung sowie zur Steigerung der Belastungsfähigkeit des Knorpels, z. B. nach Immobilisation. Cave: nicht zu viel Kompression geben, der Hund soll während der Behandlung entspannt liegen können.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.2.2 (Behandlung des Gelenkes Art. coxae), S. 48–50. Techniken, Griffe und Indikationen sind im Original so beschrieben. Traktionsstufen-Zählung (1–3) und der Begriff „gate control“ werden im Original ohne weitere Erläuterung vorausgesetzt, hier so übernommen.",
+    relatedCaseIds: ["luna"],
+    relatedAnatomyIds: ["huefte"],
+  },
+  {
+    id: "hueftflexoren-untersuchung-differenzierung",
+    category: "UNTERSUCHUNG",
+    title: "Hüftflexoren differenzieren: Iliopsoas, Rectus femoris, TFL und Sartorius",
+    teaser:
+      "Eine eingeschränkte Hüftextension mit gleichzeitiger Kniebeugung zeigt auf den M. rectus femoris statt den M. iliopsoas — die Gelenkkombination verrät den Muskel.",
+    sections: [
+      {
+        type: "list",
+        heading: "Differenzierungshinweise bei eingeschränkter Hüftextension/-adduktion",
+        items: [
+          "Ist der M. rectus femoris (statt M. iliopsoas) verantwortlich, ist die Hüftextension stärker eingeschränkt mit gleichzeitiger Kniegelenksflexion (der Muskel zieht über beide Gelenke).",
+          "Ist der M. tensor fasciae latae (statt M. sartorius) verantwortlich, ist die zusätzliche Hüftadduktion stärker eingeschränkt.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "M. iliopsoas: tief liegend, nur auf Schmerz prüfbar",
+        text: "Ein verkürzter M. iliopsoas zieht die LWS in Kyphose; das Tier stellt die Hintergliedmaße eher unter den Bauch und außenrotiert. Der Muskel wird in Hüftflexion/-außenrotation medialseitig am Ansatz oder von lateral in der Tiefe ventral der Procc. transversi der LWS palpiert. Er ist nicht in seiner Konsistenz palpabel (dafür liegt er zu tief, bedeckt von der Bauchmuskulatur), sondern nur auf Schmerzhaftigkeit. Cave: Der Muskel liegt kranial des M. pectineus unter der V. und A. femoralis — hier ist die Schmerzprovokation am ehesten möglich, verstärkbar durch Extension/Abduktion/Innenrotation der Hüfte.",
+      },
+      {
+        type: "text",
+        heading: "M. rectus femoris: Ansatzreizung als Leitsymptom",
+        text: "Der M. rectus femoris ist häufig von einer Ansatzreizung am Lig. patellae betroffen. Betroffene Hunde laufen dann weder gerne treppab/bergab (exzentrische Belastung) noch treppauf/bergauf (konzentrische Belastung), da beides Schmerzen im Muskel verursacht. Er liegt nicht oberflächlich (kranial vom M. sartorius, lateral vom M. tensor fasciae latae bzw. M. vastus lateralis bedeckt) und wird vom Ursprung an der Spina iliaca ventralis caudalis bis zum Lig. patellae palpiert.",
+      },
+      {
+        type: "text",
+        heading: "M. tensor fasciae latae und M. sartorius",
+        text: "Der M. tensor fasciae latae wird vom Tuber coxae bis zur Fascia lata in seinem Verlauf palpiert. Der M. sartorius wird vom Tuber coxae, der Crista iliaca und den Alae ilii bis zur Medialseite der Tibia verfolgt. Beide werden für den Längentest in Kniegelenksflexion und Hüftgelenksextension geprüft; zusätzliche Hüftadduktion verstärkt die Dehnung speziell des M. tensor fasciae latae.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.3.1 (Spezifische Untersuchung Hüftflexoren), S. 50–53. Differenzierungslogik, Palpationswege und Schmerzprovokation sind im Original so beschrieben. Die dort ebenfalls beschriebenen Dehnungs-/Massage-/Deep-friction-Behandlungstechniken je Muskel sind aus Umfangsgründen hier nicht übernommen (Fokus dieses Eintrags: Untersuchung/Differenzierung).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["iliopsoas", "sartorius", "tensor-fasciae-latae", "quadriceps"],
+  },
+  {
+    id: "hueftadduktoren-untersuchung-und-glutealinsuffizienz",
+    category: "UNTERSUCHUNG",
+    title: "Hüftadduktoren: Wie ihre Verspannung die Glutealmuskulatur lahmlegt",
+    teaser:
+      "Verspannte Adduktoren ziehen den Femurkopf lateral in der Pfanne — und dehnen die Glutealmuskulatur so weit, dass ihre Myosinköpfchen bei Kontraktion nicht mehr greifen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Mechanismus: Verspannung statt Atrophie",
+        text: "Die Hüftadduktoren (M. pectineus, M. adductor, M. gracilis) neigen mehr zu Verspannungen als zu Atrophie. Durch die erhöhte Spannung wird das Femur im Hüftgelenk deutlich adduziert, wodurch der Femurkopf in der Gelenkpfanne lateral gleitet (lateralisierter Kopf). Über die Adduktionsstellung der Hintergliedmaße und die Lateralisation des Femurkopfes wird die Glutealmuskulatur überdehnt und funktionell insuffizient: Die Z-Scheiben der Sarkomere werden so weit auseinandergezogen, dass die Myosinköpfchen bei Kontraktion nicht mehr ansetzen können und der Muskel nicht mehr wirksam kontrahieren kann.",
+      },
+      {
+        type: "text",
+        heading: "Palpation der drei Adduktoren",
+        text: "Der M. pectineus springt medial am Femur als prominenter, ca. zeigefingerdicker Strang hervor, direkt kaudal der A. femoralis (Puls) zu palpieren. Der M. adductor liegt zwischen dem kranial liegenden M. pectineus und dem kaudal liegenden M. gracilis auf der Innenseite des Femurs. Der M. gracilis wird als breiter Muskel kranial des M. semitendinosus an der Medialseite des Femurs palpiert.",
+      },
+      {
+        type: "text",
+        heading: "Klinische Konsequenz",
+        text: "Da hypertone Adduktoren über die Lateralisation des Femurkopfes indirekt die Glutealmuskulatur schwächen, sollte eine Hüftbehandlung bei verspannten Adduktoren nicht isoliert auf die Glutealmuskulatur zielen (Kraftaufbau bei insuffizienter Vordehnung bleibt wirkungslos), sondern die Adduktorenspannung zuerst adressieren.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "falsche Priorisierung", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.3.2 (Spezifische Untersuchung Hüftadduktoren), S. 53f. Mechanismus, Palpationswege und die Sarkomer-/Z-Scheiben-Erklärung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["huefte", "gracilis"],
+  },
+  {
+    id: "hueftextensoren-hamstrings-fasertyp-differenzierung",
+    category: "UNTERSUCHUNG",
+    title: "Hamstrings: Warum Semis eher verspannen und der M. biceps femoris eher atrophiert",
+    teaser:
+      "Gleiche Muskelgruppe, unterschiedliches Schicksal: Der Fasertyp-Mix von M. semimembranosus/-tendinosus und M. biceps femoris erklärt, welcher Befund bei welchem Hamstring-Muskel zu erwarten ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Fasertyp bestimmt das Störungsmuster",
+        text: "Unter dem Begriff Hamstrings werden M. semimembranosus, M. semitendinosus und M. biceps femoris zusammengefasst und gemeinsam untersucht. Der M. semimembranosus und der M. semitendinosus verkürzen bzw. verspannen am ehesten, da beide Muskeln mehr Typ-I-Fasern (Haltearbeit) besitzen — dabei kann es zu einer dorsalen Rotation des Iliums auf der hypertonen Seite kommen. Der M. biceps femoris hat dagegen mehr Typ-II-Fasern, weshalb bei ihm eine Atrophie wahrscheinlicher ist als eine Hypertonie.",
+      },
+      {
+        type: "text",
+        heading: "Palpation",
+        text: "Vom medialen Tuber ischiadicum wird die kaudomediale Oberschenkelportion bis zum Ansatz von M. semimembranosus und M. semitendinosus palpiert (auf der Medialseite vom M. gracilis bedeckt). Für den M. biceps femoris wird die laterale Oberschenkelportion vom Tuber ischiadicum bis zum Ansatz an Patella, Lig. patellae, Tuberositas patellae und Fascia cruris untersucht.",
+      },
+      {
+        type: "text",
+        heading: "Die drei Muskeln im Längentest voneinander unterscheiden",
+        text: "Ausgangsstellung für alle drei: Sprunggelenksflexion und Kniegelenksextension. Um den M. semimembranosus isoliert zu testen, wird zusätzlich Hüftabduktion eingestellt — das erhöht die Länge speziell auf ihn, während der M. semitendinosus dabei unverändert bleibt. Lässt man stattdessen die Sprunggelenksbeugung weg, nähert sich der Test dem M. semitendinosus an (er zieht zum Kalkaneus und bildet den Tendo calcaneus mit). Für den M. biceps femoris wird zusätzlich zu Sprunggelenkflexion/Knieextension/Hüftflexion die gesamte Extremität in Hüftadduktion gebracht.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund überbewertet", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.3.3 (Spezifische Untersuchung Hüftextensoren/Hamstrings), S. 55f. Fasertyp-Zuordnung, Palpationswege und Differenzierungstests sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["biceps-femoris", "semitendinosus", "gracilis"],
+  },
+  {
+    id: "hueftrotatoren-kruppenmuskulatur-tiefe-rotatoren",
+    category: "UNTERSUCHUNG",
+    title: "Kruppenmuskulatur und kleine Beckengesellschaft: tiefe Hüftrotatoren untersuchen",
+    teaser:
+      "Zwischen Trochanter major und Tuber ischiadicum liegt nicht nur die kleine Beckengesellschaft, sondern auch der N. ischiadicus — Palpationsdruck hier will gut überlegt sein.",
+    sections: [
+      {
+        type: "list",
+        heading: "Beteiligte Muskeln",
+        items: [
+          "Kruppenmuskulatur: M. gluteus medius, M. gluteus profundus, M. gluteus superficialis, M. piriformis (bis auf den M. piriformis alle phasische Typ-II-Fasern)",
+          "Kleine Beckengesellschaft (Hüftrotatoren): Mm. gemelli, M. quadratus femoris, M. obturatorius externus, M. obturatorius internus, M. articularis coxae (ebenfalls phasische Typ-II-Fasern)",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Palpation und Schmerzprovokation",
+        text: "Die Kruppenmuskulatur wird über ihre gesamte Länge von Ursprung bis Ansatz auf Konsistenzveränderung und Schmerzhaftigkeit palpiert; M. gluteus profundus und M. piriformis liegen unter den Mm. glutei medius/superficialis und müssen mit mehr Druck in der Tiefe erreicht werden. Die kleine Beckengesellschaft liegt zwischen Trochanter major und Tuber ischiadicum unter M. biceps femoris und M. gluteus superficialis. Cave: Hier verläuft auch der N. ischiadicus (mit A. und V. glutea caudalis) — bei positiver Schmerzprovokation muss zwingend differenziert werden, ob der Nerv oder die Muskulatur die Schmerzursache ist, da beides unterschiedlich behandelt wird.",
+      },
+      {
+        type: "text",
+        heading: "Längentests zur Differenzierung",
+        text: "M. gluteus medius, M. gluteus superficialis und M. piriformis werden über Hüftflexion in ihrer Länge geprüft; der M. piriformis wird von den anderen beiden durch zusätzliche Innen- bzw. Außenrotation abgegrenzt (je mehr Hüftflexion, desto mehr Innenrotation). Der M. gluteus profundus wird über Hüftadduktion geprüft. Innerhalb der kleinen Beckengesellschaft dehnt Innenrotation der Hüfte Mm. gemelli und M. obturatorius internus, zusätzliche Hüftflexion den M. quadratus femoris und zusätzliche Hüftabduktion den M. obturatorius externus.",
+      },
+      {
+        type: "text",
+        heading: "Rehabilitations-Prinzip bei Hüftarthrose",
+        text: "Bei Arthrosepatienten muss das Hüftgelenk aktiv stabilisiert werden: Durch Bewegungseinschränkung und Schmerz arbeiten die tiefen Hüftmuskeln nicht mehr ausreichend, wodurch das Gelenk zunehmend instabil wird. Ein Stabilitätstraining (v. a. Abduktionstraining zum Wiederaufbau der Kapselspannung) sollte deshalb mit langsam gesteigertem Widerstand erfolgen, da die Hunde durch die vorbestehende Inaktivität oft erst wieder lernen müssen, die entsprechenden Muskeln adäquat anzuspannen.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.3.4 (Spezifische Untersuchung Hüftrotatoren) und Kap. 7.3.8 (Behandlung der Hüftrotatoren), S. 57–59 und S. 77f. Muskelzuordnung, Palpationswege, N.-ischiadicus-Warnhinweis, Längentests und das Rehabilitationsprinzip bei Arthrose sind im Original so beschrieben.",
+    relatedCaseIds: ["luna"],
+    relatedAnatomyIds: ["huefte"],
+  },
+  {
+    id: "kniegelenk-menisken-patella-biomechanik",
+    category: "BIOMECHANIK",
+    title: "Menisken und Patella-Tracking: warum die laterale Knieseite beweglicher ist",
+    teaser:
+      "Der laterale Femurkondylus legt bei Flexion/Extension den doppelten Weg zurück wie der mediale — und genau das erklärt, warum der laterale Meniskus so viel beweglicher ist als der mediale.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum die Kniegelenkseiten unterschiedlich beweglich sind",
+        text: "Die Femurkondylen laufen kraniokaudal ventral zusammen; der laterale Kondylus ist stärker ausgebildet/größer und steht etwas abgespreizt zur vertikalen Belastungsachse, während der mediale Kondylus parallel zu dieser Achse steht. Dadurch stimmt der Krümmungsradius der Femurkondylen nicht mit dem des Tibiaplateaus überein — die Rotationsachse ist nach medial verschoben, sodass der laterale Femurkondylus bei Flexion/Extension einen doppelt so langen Bewegungsweg zurücklegt wie der mediale. Zusätzlich muss die Tibia bei Flexion eine Innenrotation, bei Extension eine Außenrotation im Knie ausführen.",
+      },
+      {
+        type: "text",
+        heading: "Menisken: Puffer, Führung und Belastungsverteilung",
+        text: "Die Menisken wandern bei Kniebewegungen mit der Tibia mit, gleichen die Inkongruenz zwischen Femurkondylen und Tibiaplateau aus, fangen Kräfte ab und sind für die Propriozeption bedeutsam. Sie haben zusätzlich eine aktive Führungsfunktion über einstrahlende Muskelfasern: Der M. popliteus zieht den lateralen Meniskus zusammen mit dem lateralen Femur bei fixierter Tibia nach kaudal, Fasern des M. semimembranosus nehmen entsprechend Einfluss auf den medialen Meniskus, während von kranial Fasern der Mm. vastus medialis/lateralis (M. quadriceps femoris) beide Menisken nach kranial ziehen. Da die Vasti phasisch sind (neigen eher zur Atrophie) und M. semimembranosus/M. popliteus eher tonisch (neigen eher zur Verspannung), verändert sich bei Kniegelenksextension die Belastung im kaudalen Meniskusbereich. Der laterale Meniskus ist insgesamt deutlich beweglicher als der mediale — er ist weder mit Gelenkkapsel noch Ligamenten verwachsen, während der mediale Meniskus fest mit Kapsel und medialem Kollateralband verbunden ist.",
+      },
+      {
+        type: "text",
+        heading: "Patella als Hypomochlion",
+        text: "Die Art. femoropatellaris ist ein Schlittengelenk: Die Facies articularis der Patella gleitet auf den Femurkondylen proximal/distal für Extension/Flexion. Ein eigenes Kapselmuster existiert nicht — Einschränkungen der Patella-Gleitfähigkeit laufen stets zusammen mit einer Einschränkung der Art. femorotibialis, da die Patella über Ligamente mit dem Femur verbunden ist. Die Patella wirkt als Hypomochlion (Umlenkrolle) in der Endsehne des M. quadriceps femoris: Das Gleiten nach distal ist muskulär limitiert, das Gleiten nach proximal ligamentär (über das Lig. patellae). Das Lig. femoropatellare/die Retinacula patellae ziehen von den Fabellae des M. gastrocnemius zu den Seitenrändern der Patella — eine Verkürzung oder Reizung des M. gastrocnemius kann sich deshalb direkt auf die Patella auswirken.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.1 (Anatomie Art. genus, Art. femoropatellaris, Art. femorotibialis), S. 80–82. Gelenkmechanik, Meniskusfunktion und Patella-Tracking sind im Original so beschrieben. Ergänzt die bereits vorhandenen, aus Kap. 8 dieser Quelle stammenden Anatomie-Items zur Kniemuskulatur (`biceps-femoris`, `semitendinosus`, `gracilis`, `sartorius`, `tensor-fasciae-latae`, `quadriceps`) um die zugehörige Gelenkbiomechanik.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["quadriceps", "biceps-femoris", "semitendinosus"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

@@ -60,18 +60,22 @@ kein Überblick verloren geht.
   wurde. Dieselbe Lücken-Regel gilt ab sofort für alle künftigen
   Anatomie-Items: keine leeren/unklaren Kernfelder mehr als Endzustand.
 
-## Stand (24.09.2026)
+## Stand (25.09.2026)
 
-- Wissensbibliothek: 97 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 27
-  Untersuchung, 46 Pathologie, 9 Biomechanik, 6 Therapie — genaue Aufteilung
-  kann leicht abweichen, da manche Einträge mehrere Kategorien berühren). Die
-  46 neuen seit dem 21.09. sind Koch/Fischer Kap. 6.2/6.3 (liegender Hund, 7
-  Einträge), Kap. 7 (Neurologischer Untersuchungsgang, 9 Einträge), Kap. 8
-  komplett (Wichtige Erkrankungen des Skeletts, 23 Einträge) und Kap. 9
-  komplett (Ausgewählte neurologische Erkrankungen, 7 Einträge, siehe
-  Backlog unten) — **damit ist Koch/Fischer, Lahmheitsuntersuchung beim
-  Hund (ISBN 978-3-13-242101-1), vollständig durchgearbeitet (Kap. 1–9).**
-  Nächster Schritt: nächstes Buch aus dem Backlog wählen.
+- Wissensbibliothek: 105 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 30
+  Untersuchung, 46 Pathologie, 11 Biomechanik, 7 Therapie — genaue
+  Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
+  berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
+  (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
+  Einträge seit dem 21.09.). Danach 8 weitere neue Einträge aus Hárrer,
+  Manuelle Therapie beim Hund (Kap. 6/7 Hüftregion + neu entdeckter
+  Kniegelenk-Biomechanik-Abschnitt aus Kap. 8, siehe BIOMECHANIK-Backlog
+  unten). Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus- und
+  Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7 identifiziert),
+  aber wegen Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen
+  zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer
+  Kap. 8 Rest (Knieregion Muskulatur/Untersuchung/Behandlung) oder Kap. 16
+  (Wirbelsäule) fortsetzen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -509,11 +513,46 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Hohmann Bewegungsapparat Hund-Restkapitel oder VetCenter
       Wirbelsäulenerkrankungen — siehe Abschnitte unten).
 
-### UNTERSUCHUNG — Baumgartner, Klinische Propädeutik der Haus- und Heimtiere
+### UNTERSUCHUNG — Baumgartner/Wittek/Khol, Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4, Thieme, 10. Aufl. 2026)
 
-- [ ] Ganze Datei noch ungelesen. Enthält voraussichtlich: Allgemeine
-      Adspektion, Auskultation, Palpation-Grundlagen, Vitalparameter — guter
-      Ergänzungsstoff zur Allgemeinuntersuchung aus Koch/Fischer Kap. 5.1.
+- [ ] **Struktur erkundet, noch nicht als Content umgesetzt (25.09.2026).**
+      Dieses Buch ist — anders als Koch/Fischer und Hárrer — ein
+      **Allgemeinwerk für ALLE Tierarten** (Pferd, Rind, kleine
+      Wiederkäuer, Neuweltkamele, Schwein, Hund, Katze, Heimtiere, Vögel,
+      Exoten), nicht hundespezifisch. Der Fließtext ist durchgehend mit
+      Spezies-Icons markiert (Ä=Hund, Å=Katze, Í=Pferd, Ç=Rind usw.), die
+      meisten Passagen betreffen Pferd/Rind/Schwein/Vogel-spezifische
+      Details (Zuchtmanagement, Klauenerkrankungen, Vogelröntgen,
+      Wiederkäuer-Stoffwechsel) und sind für Denkgang irrelevant.
+      Inhaltsverzeichnis zeigt aber zwei hochrelevante Kapitel:
+      **Kap. 6 „Orthopädischer Untersuchungsgang" (S. 178–230, Kofler/
+      Lischer/Rheinfeld/Kramer/Pees)** und **Kap. 7 „Neurologischer
+      Untersuchungsgang" (S. 231–ca. 249, Pakozdy/Tipold)** — beide ein
+      allgemeinveterinärmedizinisches Pendant zu Koch/Fischer Kap. 6/7,
+      mit eigenständigen Autoren und damit eine echte Zweitquelle zum
+      Gegenlesen/Ergänzen (z. B. Kap. 7.7 Haltungs-/Stellreaktionen,
+      Kap. 7.8 Spinale Reflexe). Kap. 4 „Allgemeiner klinischer
+      Untersuchungsgang" (S. 50–163) enthält außerdem die schon länger
+      vorgemerkten allgemeinen Vitalparameter-Grundlagen (4.2
+      Allgemeinverhalten, 4.6 Körpertemperatur, 4.7 Puls, 4.10.1 Atmung).
+      **Technisches Problem:** Die Chunk-Extraktion (kl.pdf, kl(1)–kl(13).pdf)
+      zeigt bei genauerem Hinsehen deutliche Anzeichen von
+      Spalten-Verschachtelung (zweispaltiges Layout mit seitlichen
+      Spezies-Icon-Boxen, die beim Extrahieren in falscher Reihenfolge
+      zwischen den Fließtext gemischt werden — z. B. „Í Eine nisches
+      Lahmheit Symptom ist als beim Ausdruck Pferd in einer der Regel
+      ein die kli-..."). Das macht eine zuverlässige wortgetreue
+      Übernahme deutlich riskanter als bei Koch/Fischer oder Hárrer.
+      **Entscheidung:** Vorerst zurückgestellt zugunsten von Hárrer (Kap.
+      6/7 Hüfte, siehe BIOMECHANIK-Abschnitt unten), das hundespezifisch
+      und sauber extrahiert ist und daher pro Lesezeit deutlich mehr
+      verlässlichen Content liefert. Beim nächsten Anlauf: Kap. 6 (S.
+      178–230, Datei kl(6).pdf) und Kap. 7 (ab S. 231, Datei kl(7).pdf)
+      satzweise sehr sorgfältig lesen und jede Aussage gegen den
+      Seitenkopf/die restliche Chunk-Struktur prüfen, bevor sie
+      übernommen wird — im Zweifel eher eine Aussage auslassen als eine
+      durch Spaltenverschachtelung verfälschte Aussage übernehmen
+      (MASTER-PROMPT §22).
 
 ### THERAPIE — Mai, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3, Thieme 2022)
 
@@ -565,16 +604,65 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
 - [x] Das Karpalgelenk als drei Gelenketagen (Art. antebrachiocarpea,
       mediocarpea, ossis carpi accessorii) plus Metacarpus/Sesambeinchen —
       Kap. 15, S. 192.
-- [ ] Rest von Kap. 13 (Ellenbogenregion) und alle anderen Regionen-Kapitel
-      (Hüfte Kap. 7, Wirbelsäule Kap. 16 — teilweise schon für Quellenprüfung
-      gelesen, aber nicht systematisch auf weitere Biomechanik-Fakten
-      durchsucht) enthalten wahrscheinlich noch mehr ähnliche
-      Gelenkmechanik-Fakten.
+- [ ] Rest von Kap. 13 (Ellenbogenregion) sowie Wirbelsäule Kap. 16 —
+      teilweise schon für Quellenprüfung gelesen, aber nicht systematisch
+      auf weitere Biomechanik-Fakten durchsucht.
 - [x] Kap. 9 Unterschenkelregion (ma(9).pdf) — proximales/distales
       Tibiofibulargelenk, Membrana interossea cruris, die Diskussion um das
       tatsächliche Bewegungsausmaß über die Talus-Form erklärt — S. 94f.
       (`tibiofibulargelenke`). Die Muskulatur dieser Region (Unterschenkel)
       selbst ist damit noch nicht abgedeckt, nur die Gelenkmechanik.
+- [x] **Kap. 6 „Die Hintergliedmaßen" (S. 42, LSÜ-Twist als Kompensations-
+      mechanismus bei eingeschränkter Hüftextension) und Kap. 7 „Hüftregion"
+      (S. 43–79) vollständig gelesen und umgesetzt (25.09.2026).** Acht neue
+      Wissenseinträge: `hueftgelenk-anatomie-rom-endgefuehl` (Kap. 7.1: Art.
+      coxae als „Nussgelenk", vollständige ROM-Tabelle, Kapselmuster,
+      Endgefühl, Kollodiaphysenwinkel/PennHIP-Hinweis — ergänzt das
+      bestehende Anatomie-Item `huefte`), `hueftgelenk-manuelle-
+      untersuchung-ortolani-joint-play` (Kap. 7.2.1: Bewegungspalpation,
+      Joint Play distal/lateral, Provokation, Ortolani-Test — bestätigt und
+      vertieft den im Anatomie-Item `huefte` bereits kurz erwähnten
+      Ortolani-Befund), `hueftgelenk-manuelle-therapie-traktion-oszillation`
+      (Kap. 7.2.2: Oszillation/Traktion/Gleittechniken je nach
+      Einschränkungsrichtung), `hueftflexoren-untersuchung-differenzierung`
+      (Kap. 7.3.1: Iliopsoas vs. Rectus femoris, TFL vs. Sartorius
+      unterscheiden), `hueftadduktoren-untersuchung-und-
+      glutealinsuffizienz` (Kap. 7.3.2: Mechanismus, wie hypertone
+      Adduktoren über einen lateralisierten Femurkopf die
+      Glutealmuskulatur insuffizient machen), `hueftextensoren-hamstrings-
+      fasertyp-differenzierung` (Kap. 7.3.3: Fasertyp-basierte
+      Tonus-/Atrophie-Differenzierung Semis vs. M. biceps femoris),
+      `hueftrotatoren-kruppenmuskulatur-tiefe-rotatoren` (Kap. 7.3.4 +
+      7.3.8: Kruppenmuskulatur + kleine Beckengesellschaft, N.-ischiadicus-
+      Warnhinweis, Stabilitätstraining-Prinzip bei Hüftarthrose) und
+      `kniegelenk-menisken-patella-biomechanik` (Kap. 8.1: neu entdeckter,
+      bisher nicht ausgewerteter Anatomie-Abschnitt zu Meniskusfunktion und
+      Patella-Tracking, der beim erneuten Lesen von Kap. 8 zusätzlich zu
+      den bereits verwendeten Muskeldaten auffiel — ergänzt die
+      bestehenden Kniemuskulatur-Anatomie-Items um die Gelenkbiomechanik).
+      **Bewusste Entscheidung:** Die im Original zu jedem Einzelmuskel
+      ausführlich beschriebenen Behandlungstechniken (Querdehnung/
+      Längsdehnung/Funktionsmassage/Deep friction/Übungen, je Muskel fast
+      identisch aufgebaut) wurden nicht 1:1 als Einzeleinträge pro Muskel
+      übernommen — das wären 15+ nahezu redundante Rezept-Einträge
+      gewesen. Stattdessen wurden die Untersuchungs-/Differenzierungslogik
+      (fachlich am wertvollsten für klinisches Denken) sowie die
+      Kernprinzipien der Behandlung auf Gelenk- bzw. Muskelgruppenebene
+      zusammengefasst. Verifiziert per Playwright-Screenshot (8/8 Seiten,
+      0 Console-/Page-Errors).
+      **OCR-Qualitätshinweis:** Die Chunk-Extraktion dieses Buchs enthält
+      im Bereich der Übungen-Randspalten (z. B. Ende Kap. 7.3.5/7.3.6, um
+      „Sitz-Steh-Übung"/Cavaletti/Bergaufgehen) sichtbar verschachtelte,
+      teilweise duplizierte Textfragmente (zweispaltiges Layout, beim
+      Extrahieren nicht sauber sortiert) — diese Übungslisten wurden
+      deshalb bewusst nicht in die neuen Einträge übernommen, da eine
+      verlässliche Rekonstruktion aus dem verfügbaren Text nicht möglich
+      war. Beim nächsten Fortsetzen dieses Buchs ggf. gezielt prüfen, ob
+      andere Kapitel dieselbe Spalten-Verschachtelung zeigen.
+      Nächster Fortsetzungspunkt: Rest von Kap. 8 „Knieregion" (Muskulatur/
+      Untersuchung/Behandlung ab ca. S. 83, Chunk ma(7).pdf/ma(8).pdf —
+      Seitenzuordnung neu prüfen), danach Kap. 13-Rest und Kap. 16
+      Wirbelsäule (S. 202).
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 
