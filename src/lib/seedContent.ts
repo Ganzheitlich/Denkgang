@@ -9751,6 +9751,45 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
+  {
+    id: "hansen-klassifikation-diskopathie-lig-intercapitale-nervenwurzelzeichen",
+    category: "PATHOLOGIE",
+    title: "Warum Bandscheibenvorfälle im mittleren Brustwirbelbereich so selten sind",
+    teaser:
+      "Ein unscheinbares Band, das die Rippenköpfchen verbindet, verhindert zwischen Th1 und Th10 fast zuverlässig einen Diskusprolaps — ganz ohne dass die Bandscheibe selbst dort gesünder wäre.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Degenerationswege nach Hansen (1952)",
+        text: "Die Klassifikation nach Hansen unterscheidet zwei Wege der Bandscheibendegeneration. Hansen-Typ-I betrifft vorwiegend chondrodystrophe Rassen (Dackel, Pekinese, Spaniel, Pudel): Eine chondroide Metaplasie des Nucleus pulposus beginnt teilweise schon in den ersten Lebensjahren, mit Austrocknung und Elastizitätsverlust des Anulus fibrosus sowie Degeneration, Nekrose und Verkalkung des Nucleus — klinische Beschwerden treten meist im Alter von 4–6 Jahren auf, als vollständiger Anulus-Einriss mit (meist langsamer, seltener explosionsartiger) Entleerung des metaplastisch veränderten Nukleusmaterials in den Wirbelkanal (Diskusruptur/-extrusion/-prolaps Typ I). Hansen-Typ-II betrifft dagegen alle Rassen im Zuge normaler Alterungsprozesse: eine fibroide statt chondroide Metaplasie wandelt das Nukleusmaterial allmählich in Fasergewebe um, das eine wesentlich geringere Neigung zum Prolaps hat — Beschwerden treten seltener und erst im höheren Lebensalter (6–10 Jahre) auf, meist als Vorwölbung des Anulus fibrosus (Diskusprotrusion Typ II) statt als echter Durchbruch.",
+      },
+      {
+        type: "text",
+        heading: "Das Lig. intercapitale: ein anatomischer Schutzmechanismus im Brustwirbelbereich",
+        text: "Wohin vorgefallenes Bandscheibenmaterial im Wirbelkanal gelangt, hängt von der beim Anulus-Durchtritt frei werdenden kinetischen Energie, der Konsistenz des austretenden Materials und den anatomischen Gegebenheiten ab. Im Hals- und Lendenwirbelsäulenbereich bleibt das Material nach Durchdringung des Anulus fibrosus mitunter noch vom Lig. longitudinale dorsale überdeckt. Zwischen Th1 und Th10 verhindert dagegen meist das Lig. intercapitale einen Diskusprolaps — dieses Band überspannt die Bandscheibe von einem Rippenkopfgelenk zum gegenüberliegenden und stabilisiert den Anulus fibrosus so zusätzlich mechanisch, unabhängig vom Degenerationszustand der Bandscheibe selbst.",
+      },
+      {
+        type: "table",
+        heading: "Bevorzugte Lokalisationen von Bandscheibenvorfällen",
+        columns: ["Lokalisation", "Anteil", "Klinische Bedeutung"],
+        rows: [
+          ["C2–C3", "50 % aller zervikalen Vorfälle", "häufigste zervikale Lokalisation"],
+          ["Th10–L6 (davon 70 % zwischen Th12 und L2)", "häufigste Gesamtlokalisation", "durch die Lig.-intercapitale-Schutzwirkung liegt der Häufigkeitsschwerpunkt kranial und kaudal des geschützten Th1–Th10-Bereichs"],
+          ["L7–S1", "seltener", "eine mögliche Ursache des Cauda-equina-Syndroms"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Das Nervenwurzelzeichen: eine Falle für die Lahmheitsdiagnostik",
+        text: "Komprimiert ein zervikaler Bandscheibenvorfall gezielt eine einzelne Nervenwurzel, kann sich das als Vorderbeinlahmheit oder als Schmerzäußerung beim passiven Strecken einer Vordergliedmaße äußern — das sogenannte Nervenwurzelzeichen. Ohne die zervikale Wirbelsäule gezielt in die Untersuchung einzubeziehen, lässt sich dieser Befund leicht fälschlich als isoliertes Schulter- oder Ellbogenproblem fehldeuten.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "vorschnelle Diagnose", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Diskopathie/Diskushernie/Diskusprolaps (Definition, Ätiologie/Pathogenese, Symptome). Die Hansen-I/II-Klassifikation mit Altersangaben, der Schutzmechanismus des Lig. intercapitale, die Lokalisationsprozentangaben sowie das Nervenwurzelzeichen sind in der Quelle so beschrieben. Ergänzt die bereits bestehenden Einträge zum thorakolumbalen und zervikalen Bandscheibenvorfall um die zugrunde liegende Klassifikation und den anatomischen Schutzmechanismus, ohne deren krankheitsspezifische Details (Grading, Therapie) zu wiederholen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["discus", "rueckenmark"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
