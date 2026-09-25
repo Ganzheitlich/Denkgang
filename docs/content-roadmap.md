@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 205 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 52
-  Untersuchung, 69 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 208 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 53
+  Untersuchung, 71 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -122,10 +122,20 @@ kein Überblick verloren geht.
   Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere" wurde
   erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
   Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
-  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: nächstes Buch aus dem
-  Backlog wählen — VetCenter Wirbelsäulenerkrankungen (eigene Datei, noch
-  ungelesen) oder Baumgartner/Wittek/Khol trotz der bekannten
-  Einschränkungen.
+  (siehe UNTERSUCHUNG-Backlog). Danach 3 weitere neue Einträge aus dem
+  ersten Abschnitt von VetCenter „Wirbelsäulenerkrankungen"
+  (Rückenmarkkompressionen — Ätiologie/Pathogenese/Symptome/
+  Lokalisationsbestimmung/Differentialdiagnose, S. 1–9 von 43): die
+  Sekundärschädigungskaskade bei plötzlicher vs. langsamer Kompression,
+  die krankheitsunabhängige Lokalisationslogik (Ausfallreihenfolge,
+  OMN/UMN) sowie eine Differentialdiagnosen-Liste jenseits des
+  Bandscheibenvorfalls. Details und bewusste Auslassungen (allgemeine
+  Prognoseskala, Medikamenten-Dosierungen) siehe PATHOLOGIE-Backlog unten.
+  Nächster Schritt: VetCenter „Wirbelsäulenerkrankungen" fortsetzen
+  (Diskushernien-Rest, dann die noch unbehandelten Krankheitsbilder wie
+  Atlantoaxiale Luxation, Wobbler-Syndrom im Detail, Lumbosakrale
+  Instabilität/Stenose im Detail — siehe Backlog), danach ggf.
+  Baumgartner/Wittek/Khol trotz der bekannten Einschränkungen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -271,10 +281,41 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       inhaltlich weitgehend ausgeschöpft für die aktuell relevanten
       Denkgang-Themen (Bewegungsapparat + Grundlagen-Neurologie).
 
-### PATHOLOGIE — VetCenter, „Wirbelsäulenerkrankungen" (eigene Datei, noch ungelesen)
+### PATHOLOGIE — VetCenter, „Wirbelsäulenerkrankungen" (eigene Datei, 43 Web-Seiten, vetcenter.thieme.de)
 
-- [ ] Ganze Datei sichten — zentral für Fall Nala (Facettengelenke,
-      lumbosakraler Übergang, Spondylose/IVDD als Differentialdiagnosen)
+- [x] **Erster Abschnitt „Rückenmarkkompressionen durch Wirbelsäulenläsionen"
+      (Ätiologie/Pathogenese/Symptome/Lokalisationsbestimmung/
+      Differentialdiagnose, S. 1–9 von 43) gelesen und ausgewertet
+      (25.09.2026).** Drei neue Wissenseinträge: die Sekundärschädigungs-
+      kaskade bei plötzlicher vs. langsamer Kompression (Elektrolytshift →
+      Blutung → Ischämie → Ödem → Myelomalazie → Sekundärschäden, Circulus
+      vitiosus bei Unterschreiten der Mindestdurchblutung), die
+      krankheitsunabhängige Lokalisationslogik (charakteristische
+      Ausfallreihenfolge Propriozeption→Motorik→Oberflächensensibilität→
+      Tiefenschmerz, OMN- vs. UMN-Lokalisation inkl. der zeitlich
+      begrenzten Blasenfunktionsstörung) sowie eine Differentialdiagnosen-
+      Liste jenseits des Bandscheibenvorfalls (Diskospondylitis, infektiöse
+      Myelitiden, Polyradikuloneuritis/Coonhound-Paralysis, Myasthenia
+      gravis u. a.). Bewusst nicht extrahiert: die allgemeine Fünf-Grade-
+      Prognoseskala mit Erfolgsraten (teilweise redundant zur bereits
+      bestehenden krankheitsspezifischen Fünf-Grade-Skala beim
+      thorakolumbalen Bandscheibenvorfall) sowie sämtliche Medikamenten-
+      Dosierungsangaben (Prednisolon, NSAID, Protonenpumpenblocker mit
+      mg/kg-Angaben) — Letzteres bewusst außerhalb des Nachschlage-Scopes
+      für eine physiotherapeutisch ausgerichtete Plattform (analog zur
+      bereits dokumentierten Nutraceutical-Dosierungs-Auslassung bei Mai).
+      Verifiziert via Playwright (3/3 Seiten, 0 Fehler).
+      **Nächster Fortsetzungspunkt:** Die Datei hat noch 43 Web-Seiten
+      insgesamt; ab „Diskushernien" (bereits über Koch/Fischer und die
+      bestehenden Bandscheibenvorfall-Einträge weitgehend abgedeckt, ggf.
+      nur auf Ergänzungen prüfen) weiterlesen, danach die noch komplett
+      unbehandelten Themen Wirbelfrakturen/-luxationen, Atlantoaxiale
+      Luxation, Zervikale Spondylopathie/Wobbler-Syndrom im Detail,
+      Lumbosakrale Instabilität/Stenose im Detail, Wirbelmissbildungen,
+      Exostosenbildung, Tumoren der Wirbelsäule/des Rückenmarks,
+      Rückenmarködem, Zysten der Rückenmarkhäute, Abszesse der
+      Wirbelsäule sowie die allgemeine Prognoseskala mit Erfolgsraten
+      (ohne die Medikamenten-Dosierungen).
 
 ### PATHOLOGIE — Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3)
 

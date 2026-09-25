@@ -9643,6 +9643,114 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "rueckenmarkkompression-sekundaerschaedigung-circulus-vitiosus",
+    category: "PATHOLOGIE",
+    title: "Warum ein langsam wachsender Tumor das Rückenmark schont, ein akuter Bandscheibenvorfall dagegen nicht",
+    teaser:
+      "Nicht die Kompression allein entscheidet über den Schaden am Rückenmark, sondern vor allem, wie schnell sie entsteht — daraus entwickelt sich bei akutem Geschehen ein sich selbst verstärkender Circulus vitiosus.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei entscheidende Faktoren: Geschwindigkeit und Schweregrad",
+        text: "Bei einer Rückenmarkkompression ist zusätzlich zur reinen Kompression auch eine Schädigung des Nervengewebes durch ein konkussives (erschütterndes) Geschehen möglich — besonders bei Bandscheibenvorfällen und Wirbelsäulentraumata. Das tatsächliche Ausmaß dieser Erschütterung ist klinisch nicht direkt feststellbar, sondern nur indirekt über den Krankheitsverlauf abschätzbar. Die wichtigsten Faktoren für das Ausmaß der resultierenden Schäden sind die Geschwindigkeit, mit der die Kompression entsteht, und ihr Schweregrad.",
+      },
+      {
+        type: "list",
+        heading: "Die Kaskade bei plötzlichem Eintreten (z. B. akuter Bandscheibenvorfall, Knochenfragment-Verlagerung nach Trauma)",
+        items: [
+          "1. Plötzlicher Leitungsblock in eng begrenztem Gebiet durch Elektrolytverschiebungen an geschädigten Zellmembranen",
+          "2. Blutungen in der grauen Substanz innerhalb von Minuten",
+          "3. Katecholaminausschüttung, Gefäßspasmen, Ischämie und Hypoxie — breiten sich zentrifugal vom Ort des Geschehens aus",
+          "4. Zusätzliche Verschlechterung der Rückenmarkdurchblutung durch Ödembildung, intradurale Druckerhöhung, Blutdruckabfall, Mikrothrombenbildung und venöse Abflussstörungen",
+          "5. Myelomalazie (Rückenmarkerweichung) — in schweren Fällen ischämisch bedingte Nekrose, die sich auf- und absteigend auch in nicht direkt betroffene Rückenmarkabschnitte ausbreiten kann",
+          "6. Sekundärschäden durch bei der Hypoperfusion angesammelte toxische Stoffwechselprodukte (freie Sauerstoffradikale, exzitotoxische Aminosäuren, Neurotransmitter)",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Langsames Eintreten: geringerer Schaden, aber ein Kipppunkt bleibt",
+        text: "Ein langsames Eintreten der Kompression (z. B. Tumorwachstum, Hansen-Typ-II-Prolaps, sukzessiv austretendes Material eines Hansen-I-Prolapses) verursacht wesentlich geringere Schäden als ein plötzliches Ereignis — das Rückenmark verfügt über eine beträchtliche Anpassungs- und Kompensationsfähigkeit, sodass überwiegend die direkten mechanischen Folgen der Kompression und nur begrenzte Sekundärschäden auftreten. Wird jedoch ein absolutes Mindestmaß an Durchblutung unterschritten, kommt es dennoch zu einer plötzlichen Verschlechterung: Ein Circulus vitiosus aus Druckerhöhung im Rückenmark → Minderperfusion → Ischämie → Ödembildung → weiterem Druckanstieg setzt ein — auch bei einer ursprünglich langsam entstandenen Kompression.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Pathogenese. Die Sekundärschädigungskaskade bei plötzlichem Kompressionseintritt sowie die Gegenüberstellung zu langsam entstehender Kompression mit dem beschriebenen Circulus vitiosus bei Unterschreiten der Mindestdurchblutung sind in der Quelle so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "rueckenmarkkompression-lokalisation-omn-umn-ausfallreihenfolge",
+    category: "UNTERSUCHUNG",
+    title: "Die Reihenfolge der Ausfälle bei Rückenmarkkompression: erst Propriozeption, zuletzt der Tiefenschmerz",
+    teaser:
+      "Je nach Stärke der Traumatisierung fallen die Nervenbahnen in einer charakteristischen Reihenfolge aus — der Verlust der Tiefenschmerzempfindung ist dabei immer das letzte und schwerwiegendste Zeichen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Vier Schweregrade des Querschnittsyndroms",
+        text: "Bei geringfügiger Rückenmarkkompression zeigen sich vor allem Schmerzen (durch die Empfindlichkeit von Meningen und Nervenwurzeln), Bewegungsunlust, klammer Gang, je nach Lokalisation steifer Hals oder aufgekrümmter Rücken, Muskelverspannungen und Palpationsschmerz im Läsionsbereich. Bei schwererer Kompression treten motorische Ausfälle kaudal der Läsion auf, in ernsten Fällen auch sensorische Ausfälle — bis zum Querschnittsyndrom, das partiell (einige Leitungsbahnen zumindest teilweise erhalten) oder total (jegliche Leitfähigkeit erloschen) sein kann.",
+      },
+      {
+        type: "list",
+        heading: "Die charakteristische Ausfallreihenfolge mit zunehmender Traumatisierung",
+        items: [
+          "1. Propriozeptionsverlust (zuerst, da die dafür zuständigen Bahnen am druckempfindlichsten sind)",
+          "2. Schwäche (Parese) und Sistieren (Paralyse/Plegie) der willkürlichen Muskelbewegung",
+          "3. Erlöschen der Oberflächensensibilität",
+          "4. Verlust der Tiefenschmerzempfindung (zuletzt und am schwerwiegendsten)",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Lokalisation über oberes vs. unteres Motoneuron",
+        text: "Die Lokalisationsbestimmung stützt sich auf Muskeltonus, Haltungs- und Stellreaktionen, spinale Reflexe sowie Harn-/Kotabsatzverhalten. Eine Schädigung des oberen Motoneurons zeigt eine spastische Lähmung kaudal der Kompression; bei Läsionen kranial des 5. Lendenwirbels fehlt zunächst die willkürliche Kontrolle über die Harnblase mit Inkoordination zwischen Detrusor und Urethrasphinkter — in vielen Fällen stellt sich aber nach 7–10 Tagen ein Ausgleich durch einen allmählich einsetzenden reflektorischen Blasenentleerungsmechanismus ein. Eine Läsion des unteren Motoneurons zeigt dagegen eine schlaffe Lähmung kaudal der Kompression. Eine besonders schwere Läsion zwischen den Segmenten T und L kann zusätzlich das Schiff-Sherrington-Syndrom auslösen (schlaffe Hinterextremitäten bei gleichzeitigem Streckkrampf der Vorderextremitäten) — vertiefend siehe den bestehenden Eintrag zum thorakolumbalen Bandscheibenvorfall.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Anatomieverwechslung", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitte Symptome und Lokalisationsbestimmung. Die vier Schweregrade, die charakteristische Ausfallreihenfolge sowie die OMN-/UMN-Unterscheidung inkl. der zeitlich begrenzten Blasenfunktionsstörung sind in der Quelle so beschrieben. Ergänzt den bereits bestehenden Eintrag zum thorakolumbalen Bandscheibenvorfall (dort mit derselben Fünf-Grade-Skala, krankheitsspezifisch) um die allgemeine, krankheitsunabhängige Lokalisationslogik.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "rueckenmarkkompression-differentialdiagnosen-nicht-nur-bandscheibe",
+    category: "PATHOLOGIE",
+    title: "Nicht jede Hintergliedmaßen-Schwäche ist eine Bandscheibe",
+    teaser:
+      "Von infektiöser Myelitis über Polyradikuloneuritis bis Myasthenia gravis — eine vermutete Rückenmarkkompression hat ein überraschend breites Feld an Differentialdiagnosen, die sich in Therapie und Prognose fundamental unterscheiden.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Weichenstellungen vor der Diagnose",
+        text: "Bei einem Hund mit Verdacht auf Rückenmarkkompression sind vor der endgültigen Diagnose zwei Unterscheidungen entscheidend: erstens zwischen kompressiven und nichtkompressiven Rückenmarkläsionen, zweitens zwischen milden, konservativ behandelbaren Fällen und Fällen, die eine chirurgische Notfallbehandlung benötigen. Eine von Beginn an adäquate Therapie ist wichtig — sonst droht eine Begünstigung des Schadensfortschritts.",
+      },
+      {
+        type: "list",
+        heading: "Differentialdiagnosen bei vermuteter Rückenmarkkompression (Auswahl)",
+        items: [
+          "Diskospondylitis (infektiöse Bandscheibenentzündung — Vorwölbung ähnlich einer Diskushernie, aber infektiöse statt mechanische Ursache)",
+          "Meningitis (aseptisch-suppurativ oder septisch) und granulomatöse Enzephalitis",
+          "Infektiöse Myelitiden — u. a. durch Toxoplasmose, Neosporose, Staupe, Tollwut",
+          "Fibrokartilaginäre Infarkte und Thrombosen/Blutungen im Rückenmark",
+          "Degenerative Myelopathie alter, großer Hunde",
+          "Polyneuropathien — z. B. die akute Polyradikuloneuritis („Coonhound-Paralysis“) sowie diabetisch oder Hypothyreose-bedingte Neuropathien",
+          "Ischämische thromboembolische Myopathie und Polymyositis",
+          "Myasthenia gravis (neuromuskuläre Übertragungsstörung statt Rückenmarkproblem)",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Konsequenz für die Untersuchung",
+        text: "Die klinische Untersuchung (inkl. neurologischer Untersuchung) und bildgebende Verfahren müssen diese Differentialdiagnosen aktiv ausschließen, statt vorschnell von der häufigsten Ursache (Bandscheibenvorfall) auszugehen. Bei milden Kompressionssymptomen mit konservativem Therapieplan dienen Leerröntgenbilder dem Ausschluss der wichtigsten Differentialdiagnosen; bei Traumapatienten sind Wirbelsäulenübersichtsaufnahmen vorrangig. Verschlechtert sich das klinische Bild oder liegen stärkere Kompressionssymptome vor, ist eine unverzügliche weiterführende Abklärung mittels Myelografie, CT oder MRT angezeigt — idealerweise direkt beim Spezialisten, der die nötigen chirurgischen Eingriffe im Anschluss auch durchführen kann.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitte Differentialdiagnose und Diagnosesicherung. Die Differentialdiagnosen-Liste sowie die diagnostische Vorgehensweise (Leerröntgen vs. Schnittbildverfahren je nach Schweregrad) sind in der Quelle so beschrieben. Ergänzt den bestehenden Übersichtseintrag `neurologische-erkrankungen-rueckenmark-periphere-nerven` um Differentialdiagnosen außerhalb des orthopädisch-neurologischen Kernspektrums (Infektionen, Autoimmunerkrankungen, neuromuskuläre Übertragungsstörung).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
