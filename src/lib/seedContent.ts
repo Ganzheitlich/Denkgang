@@ -8091,6 +8091,132 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "ausdauertraining-methoden-fasertyp-adaptation",
+    category: "BIOMECHANIK",
+    title: "Vier Trainingsmethoden — und warum aus einem Windhund kein Ausdauerläufer wird",
+    teaser:
+      "Dauer-, Intervall-, Wiederholungs- und Wettkampfmethode trainieren jeweils andere Energiesysteme — aber keine von ihnen hebelt die angeborene Fasertyp-Verteilung eines Sprinters komplett aus.",
+    sections: [
+      {
+        type: "table",
+        heading: "Vier Ausdauertrainingsmethoden (aus der Human-Sportmedizin, auf den Hund übertragen)",
+        columns: ["Methode", "Prinzip", "Trainiert vor allem"],
+        rows: [
+          ["Dauermethode", "relativ niedrige Geschwindigkeit über ultralange Trainingsstrecken", "Fettstoffwechsel"],
+          ["Intervallmethode", "Belastungsperioden im Wechsel mit „lohnenden Pausen“ von max. 1 Minute (aktiv gestaltet: Gehen/langsames Traben), damit sich Herz-Kreislauf-Werte nicht bis zur Ruhelage erholen", "Herzleistungsgrößen, maximale Sauerstoffversorgung"],
+          ["Wiederholungsmethode", "nach jeder Belastungsperiode kehren alle Leistungsparameter zur Ruhe zurück, jeder neue Belastungsblock startet die Energiegewinnungs-Mechanismen komplett neu", "Energiebereitstellung sowie Anpassung von Herz, Kreislauf und Atmung"],
+          ["Wettkampfmethode", "der Wettkampf selbst ist das Training", "Verarbeitung vieler unterschiedlicher Reize/Eindrücke — aber nur sehr spezifische Einzelleistungen"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Was sich durch Ausdauertraining im Muskel verändert",
+        text: "Regelmäßiges, langfristiges Lauftraining führt zur temporären Umwandlung von Fast-twitch- in Slow-twitch-Fasern (ermüdungsresistenter, größere oxidative Kapazität), zu einem Anstieg des Myoglobingehalts im Muskel um teilweise bis zu 80 %, zu einer deutlich verbesserten Kapillarisierung und zur Ausbildung von Kollateralgefäßen. Zusätzlich wird die intramuskuläre Blutverteilung optimiert, sodass die jeweils aktiven motorischen Einheiten gezielt mit Sauerstoff versorgt werden.",
+      },
+      {
+        type: "text",
+        heading: "Die Grenze der Trainierbarkeit",
+        text: "Trotz dieser Anpassungsfähigkeit sollte die angeborene Fasertyp-Verteilung nicht ignoriert werden — aus einem Sprinter (z. B. Windhund) lässt sich durch Training kein Ausdauerläufer machen. Die Trainingsmethode muss zur genetisch vorgegebenen Leistungsausrichtung des Hundes passen, nicht umgekehrt.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Faktenwissen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.1.1 (Ausdauertraining), S. 56f. Die vier Trainingsmethoden mit ihren jeweiligen Prinzipien und Zielgrößen sowie die muskulären Anpassungen durch Ausdauertraining sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "open-window-phaenomen-hochleistungssport",
+    category: "PATHOLOGIE",
+    title: "Das „Open Window“-Phänomen: wenn Höchstleistung die Abwehr schwächt",
+    teaser:
+      "Ein Hund an der Grenze seiner Leistungsfähigkeit ist nicht nur müde — durch den Kortisolanstieg sinkt vorübergehend seine Immunabwehr, und die Darmbarriere kann durchlässig werden.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Mechanismus",
+        text: "Erreicht ein Hund den Rand seiner Leistungsfähigkeit, führt die dabei erhöhte Kortisolausschüttung zu einer Verminderung der körpereigenen Abwehr: Die Anzahl von Lymphozyten und Leukozyten sinkt messbar, die Immunreaktion ist dramatisch eingeschränkt, und die Infektanfälligkeit steigt deutlich an. Viele Hunde entwickeln zusätzlich einen medikamentös schwer zu behebenden Stressdurchfall — der Wasserverlust schwächt sie weiter, und die Darmschleimhaut verliert ihre Barrierefunktion gegen Toxine und peroral aufgenommene Krankheitserreger, wird also durchlässig.",
+      },
+      {
+        type: "list",
+        heading: "Vorbeugung gegen zu hohen Infektionsdruck",
+        items: [
+          "Impfung und Parasitenbekämpfung der gesamten Tierpopulation",
+          "Penible Sauberkeit in Zwingeranlagen bzw. im Hundebereich",
+          "Vermeidung von Überbelegung bei Mehr-Hunde-Haushalten — auch Rudelkämpfe und Rangordnungsrangeleien bedeuten zusätzlichen Stress",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Praktische Konsequenz",
+        text: "Ein Hund, der kurz nach einer sportlichen Höchstleistung (Wettkampf, intensives Training) unerklärlich krank wirkt oder Durchfall entwickelt, muss nicht zwangsläufig eine neue, unabhängige Erkrankung haben — das Open-Window-Phänomen ist eine physiologisch erklärbare, vorübergehende Immunschwäche direkt nach Erschöpfungsleistungen und sollte als Differentialdiagnose mitgedacht werden.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.1.1 (Ausdauertraining), S. 56. Der Kortisol-vermittelte Immunsuppressions-Mechanismus, die Stressdurchfall-/Darmbarriere-Folge sowie die drei Vorbeugungsfaktoren sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "trainingsspezifitaet-schnelligkeitstraining-aufwaermen",
+    category: "BIOMECHANIK",
+    title: "Warum ein Agility-Hund in der Halle plötzlich unsicher wirkt",
+    teaser:
+      "Hunde müssen so trainiert werden, wie sie ihre Leistung später erbringen sollen — ein das ganze Jahr auf Gras trainierter Agility-Hund trifft in der Halle auf völlig neue Reize, die ihn ausbremsen können.",
+    sections: [
+      {
+        type: "text",
+        heading: "Drei Komponenten der Schnelligkeit",
+        text: "Schnelligkeit gliedert sich in Reaktionsgeschwindigkeit (wie schnell reagiert der Hund auf ein Startsignal), Aktionsgeschwindigkeit (wie ausgreifend/kraftvoll die einzelne Bewegung, z. B. der Galoppsprung, ausfällt) und Frequenzschnelligkeit (wie schnell diese Bewegungen hintereinander gesetzt werden können). Schnelligkeit ist von allen leistungsbestimmenden Faktoren am wenigsten trainierbar — Reaktionszeiten lassen sich aber durch gezielte Vorbereitung auf die Wettkampfsituation deutlich verkürzen.",
+      },
+      {
+        type: "text",
+        heading: "Das Prinzip der Trainingsspezifität",
+        text: "Hunde müssen so trainiert werden, wie sie ihre Leistung später erbringen sollen. Ein Schlittenhund braucht Training über lange Distanzen im mittelschnellen Tempo — reines Intervalltraining zwischen schnellem Galopp und Schritt bereitet ihn nicht auf seine tatsächliche Renndistanz vor. Ein Greyhound, der blitzschnell geradeaus laufen kann, beherrscht deshalb noch lange nicht den kurvenreichen Rennkurs im Renntempo. Ein Agility-Hund, der das ganze Jahr über auf Gras trainiert wurde, trifft bei einer Hallenveranstaltung auf gehäufte neue Reize gleichzeitig: veränderte Akustik der Kommandos, glatter/harter Hallenboden mit Rutschgefahr in schnellen Wendungen, dunklere und bedrohlicher wirkende Begrenzungen als im Freien. Die Summe dieser Störfaktoren erklärt, warum ein im Freien überlegener Hund in der Halle plötzlich langsam und unsicher wirkt — nicht mangelnde Fitness, sondern fehlende situationsspezifische Vorbereitung ist hier die Ursache.",
+      },
+      {
+        type: "text",
+        heading: "Übergeschwindigkeitstraining und Aufwärmen",
+        text: "Um die Schnellkraft zu verbessern, eignet sich Laufen gegen leichten Widerstand (Ziehen) oder Galoppieren im Wasser (höherer Wasserstand = höherer Trainingseffekt). Zusätzlich kann der Trainer dem Hund die Möglichkeit geben, schneller zu laufen, als der Hund selbst für möglich hielt (Rückenwind, ein starker Trainingspartner, optimaler Untergrund) — das Gehirn speichert die erreichte Sprunglänge und -frequenz als neues Bewegungsbild ab. Für die Verletzungsprophylaxe gilt: Ein aufgewärmter Hund bleibt nur warm, solange er in Bewegung ist. Nach Pausen über 2–3 Minuten kehren die Leistungsparameter bereits wieder auf Ruhewerte zurück, und ab 5 Minuten Bewegungslosigkeit gilt der Hund als nicht mehr aufgewärmt.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.1.3–4.1.4 (Schnelligkeitstraining, Beweglichkeitstraining), S. 57f. Die drei Schnelligkeitskomponenten, das Spezifitäts-Prinzip mit den Beispielen (Schlittenhund/Greyhound/Agility-Hund), das Übergeschwindigkeitstraining sowie die Aufwärm-Zeitschwellen (2–3 min bzw. 5 min) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "piezoelektrischer-effekt-knochenumbau-belastung",
+    category: "BIOMECHANIK",
+    title: "Der piezoelektrische Effekt: wie Knochen elektrisch auf Belastung reagiert",
+    teaser:
+      "Biegekräfte im Knochen erzeugen elektrische Ladungen — negative Ladung baut Knochen auf, positive baut ihn ab. Genau deshalb führt schon 4 Wochen Immobilisation zu messbarer Kalziumverdopplung im Harn.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der piezoelektrische Effekt",
+        text: "Physiologische Kräfte, die auf den belasteten Knochen einwirken, erzeugen Biegekräfte, die wiederum elektrische Spannungen hervorrufen (piezoelektrischer Effekt): Negative Ladung fördert die Synthese der Osteoblasten und damit den Knochenaufbau, positive Ladung fördert die Osteoklastenaktivität und damit den Knochenabbau. Erhöhte Belastung und vermehrtes Training führen dadurch zu höherer Knochenstabilität und verstärkter Mineralisierung — Unterbelastung durch Immobilisation dagegen rasch zur Demineralisierung und damit zur Osteoporose.",
+      },
+      {
+        type: "text",
+        heading: "Wie schnell das geht",
+        text: "Nach nur 4-wöchiger Immobilisation ist die Kalziumkonzentration im Harn bereits doppelt so hoch wie der physiologische Wert — ein messbares Zeichen für den raschen Knochenabbau bei fehlender Belastung. Als gut durchblutetes Organ ist der Knochen aber auch gut regenerationsfähig, vorausgesetzt es stehen ausreichend Nährstoffe, Vitamin D und kontrolliertes (Wieder-)Training zur Verfügung.",
+      },
+      {
+        type: "text",
+        heading: "Implantate verändern die physiologische Belastung",
+        text: "Osteosynthese-Implantate fangen viele der für den physiologischen Knochenum- und -aufbau notwendigen Kraftvektoren ab und wirken damit unphysiologisch: Bei Schrauben zeigen sich bereits nach 6 Wochen erste Resorptionszeichen, die auch nach 14 Wochen noch nicht verschwunden sind. Bei Platten führt deren höhere Steifigkeit im Vergleich zum Knochen zu Knochenschwund als Folge mangelnder physiologischer Be- und Entlastung (Stress Shielding). Diese implantatbedingte Stressumverteilung ist bei der Belastungssteuerung nach Osteosynthesen mitzudenken.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.2 (Immobilisation — Knochen), S. 58f. Der piezoelektrische Effekt mit Osteoblasten-/Osteoklasten-Zuordnung, die Kalzium-Verdopplung nach 4 Wochen Immobilisation sowie die implantatspezifischen Resorptionszeichen (Schrauben/Platten) sind im Original so beschrieben. Ergänzt den bestehenden Eintrag zur Frakturheilung (Kap. 5.2.5) um den zugrunde liegenden physiologischen Mechanismus.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

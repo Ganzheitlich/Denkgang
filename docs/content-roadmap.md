@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 161 Einträge (7 Anatomie-Spiegelungen, 8 Grundlagen, 51
-  Untersuchung, 62 Pathologie, 33 Biomechanik, 15 Therapie — genaue
+- Wissensbibliothek: 165 Einträge (7 Anatomie-Spiegelungen, 8 Grundlagen, 51
+  Untersuchung, 63 Pathologie, 36 Biomechanik, 15 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -71,16 +71,16 @@ kein Überblick verloren geht.
   Manuelle Therapie beim Hund — **damit ist Hárrer, Manuelle Therapie beim
   Hund (ISBN 978-3-13-245429-3), in seinen fachlich dichten
   Kernabschnitten vollständig ausgewertet (Kap. 6–17)**. Kap. 18 ist reine
-  Literaturliste, kein Extraktionsziel mehr. Danach 15 weitere neue
+  Literaturliste, kein Extraktionsziel mehr. Danach 19 weitere neue
   Einträge aus Mai, Physiotherapie und Bewegungstraining für Hunde —
-  **Kap. 5.1 „Evaluierung", Kap. 5.2 „Ausgewählte Erkrankungen" und Kap.
-  5.3 „Mobilisationstechniken" (Manuelle Medizin: OMT/Chiropraxis/
-  Osteopathie; Tuina: TCM-Theorie klar von belegten Massage-Effekten
-  getrennt, plus Grifftechniken-Glossar) sind vollständig abgedeckt**.
-  Siehe BIOMECHANIK-/THERAPIE-Backlog unten für die im Detail bewusst
-  ausgelassenen reinen Technik-Rezeptteile. Baumgartner/Wittek/Khol
-  „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
-  (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
+  **Kap. 4.1 „Training" (Anfang), Kap. 5.1 „Evaluierung", Kap. 5.2
+  „Ausgewählte Erkrankungen" und Kap. 5.3 „Mobilisationstechniken"
+  (Manuelle Medizin: OMT/Chiropraxis/Osteopathie; Tuina: TCM-Theorie klar
+  von belegten Massage-Effekten getrennt, plus Grifftechniken-Glossar)
+  sind abgedeckt**. Siehe BIOMECHANIK-/THERAPIE-Backlog unten für die im
+  Detail bewusst ausgelassenen reinen Technik-Rezeptteile. Baumgartner/
+  Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere" wurde
+  erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
   Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
   (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Mai Kap. 4.3
   (Rückenschmerzen/Trainingsfehler, Trainingsalter-Richtlinien) oder der
@@ -568,6 +568,36 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
 
 ### THERAPIE — Mai, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3, Thieme 2022)
 
+- [x] **Kap. 4.1 „Training" und Kap. 4.2 „Immobilisation" (Anfang, S. 56–59,
+      ph(20).pdf) abgeschlossen (25.09.2026).** Vier neue Einträge:
+      `ausdauertraining-methoden-fasertyp-adaptation` (4.1.1 — die vier
+      Ausdauertrainingsmethoden Dauer/Intervall/Wiederholung/Wettkampf
+      als Tabelle, Fast-twitch→Slow-twitch-Faseradaptation, die Grenze der
+      Trainierbarkeit bei rassebedingter Fasertyp-Verteilung),
+      `open-window-phaenomen-hochleistungssport` (4.1.1 — Kortisol-
+      vermittelte Immunsuppression nach Erschöpfungsleistung, Stress-
+      durchfall mit Darmbarriere-Verlust, als Differentialdiagnose bei
+      unerklärlicher Krankheit nach Wettkampf/intensivem Training),
+      `trainingsspezifitaet-schnelligkeitstraining-aufwaermen` (4.1.3–4.1.4
+      — die drei Schnelligkeitskomponenten, das Spezifitäts-Prinzip mit
+      den Beispielen Schlittenhund/Greyhound/Agility-Hund-in-der-Halle,
+      Übergeschwindigkeitstraining, die 2–3-min-/5-min-Aufwärm-
+      Zeitschwellen — ergänzt den bestehenden, ausführlicheren
+      Aufwärm-/Abkühl-Eintrag aus Kap. 4.3.5–4.3.6 um die
+      sportartspezifische Perspektive) und
+      `piezoelektrischer-effekt-knochenumbau-belastung` (4.2 — der
+      piezoelektrische Effekt mit Osteoblasten-/Osteoklasten-Zuordnung,
+      Kalzium-Verdopplung im Harn nach 4 Wochen Immobilisation,
+      implantatspezifische Resorptionszeichen bei Schrauben/Platten —
+      ergänzt den bestehenden Eintrag zur Gelenkknorpel-/Bandschädigung
+      unter Ruhigstellung aus Kap. 4.3, S. 62, um die parallele
+      Knochenphysiologie; beide Einträge behandeln unterschiedliche
+      Gewebe, keine Duplikation). Verifiziert per Playwright-Screenshot
+      (4/4 Seiten, 0 Console-/Page-Errors). Nächster Fortsetzungspunkt:
+      Rest von Kap. 4.2 (Immobilisation — weitere Gewebe wie Knorpel/
+      Bänder/Muskulatur, falls noch nicht durch bestehende Einträge
+      abgedeckt) und Kap. 4.3 (Rückenschmerzen/Trainingsfehler,
+      Trainingsalter-Richtlinien, S. 62–65 — noch offen, siehe unten).
 - [x] Belastungssteuerung nach Verletzung (Immobilisation vs. kontrollierte
       Bewegung, Kap. 4.3, S. 62)
 - [x] Aufwärmen und Abkühlen beim Hundetraining (Kap. 4.3.5–4.3.6, S. 65–67)
