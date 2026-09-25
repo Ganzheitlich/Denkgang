@@ -9848,6 +9848,69 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
+  {
+    id: "wirbelsaeulentrauma-8-stunden-tiefenschmerz-prognosegrenze",
+    category: "UNTERSUCHUNG",
+    title: "Acht Stunden nach dem Unfall: der Zeitpunkt, der die Prognose kippt",
+    teaser:
+      "Ob nach einem Wirbelsäulentrauma noch mit einer Erholung zu rechnen ist, hängt weniger vom Röntgenbild ab als davon, ob und wie schnell der Tiefenschmerz kaudal der Läsion zurückkehrt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein Befund, der wichtiger ist als das Röntgenbild",
+        text: "Die Prognose nach einem Wirbelsäulentrauma richtet sich vor allem nach dem Ergebnis der neurologischen Eingangsuntersuchung — nicht in erster Linie nach dem Röntgenbild, das die Schwere der Schädigung gelegentlich unterschätzen kann (siehe den eigenen Eintrag zu den Grenzen der Röntgendiagnostik nach Trauma). Der entscheidende Einzelbefund ist dabei die Tiefenschmerzreaktion kaudal der Läsion.",
+      },
+      {
+        type: "table",
+        heading: "Drei Zeitfenster, drei Prognosen",
+        columns: ["Befund", "Prognose"],
+        rows: [
+          ["Muskeltonus erhalten und/oder deutliche Tiefenschmerzreaktion kaudal der Läsion", "günstig, sofern rasch und adäquat therapiert wird"],
+          ["Tiefenschmerzreaktion unmittelbar nach dem Trauma erloschen", "vorsichtig"],
+          ["Tiefenschmerzreaktion auch mehr als 8 Stunden nach dem Trauma noch abwesend", "ungünstig"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die praktische Konsequenz",
+        text: "Diese Achtstundengrenze macht die wiederholte Tiefenschmerzprüfung zu einer der wichtigsten Verlaufskontrollen in der Akutphase: Ein Patient, der unmittelbar nach dem Unfall keinen Tiefenschmerz zeigt, ist damit noch nicht endgültig eingestuft — erst das Ausbleiben der Reaktion über die Acht-Stunden-Marke hinaus verschlechtert die Prognose deutlich.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Unterkonfidenz", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Luxationen/Frakturen/Frakturluxationen — Prognose. Die drei prognostischen Stufen (erhaltene Reaktion, akut erloschen, über 8 Stunden erloschen) sowie der Hinweis, dass das Röntgenbild gelegentlich täuschen kann, sind in der Quelle so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "atlantoaxiale-subluxation-densentwicklung-diagnostisches-zeichen",
+    category: "PATHOLOGIE",
+    title: "Warum ausgerechnet Chihuahua, Pekinese und Zwergpudel zur atlantoaxialen Subluxation neigen",
+    teaser:
+      "Bei mehr als der Hälfte betroffener Zwerghunde zeigen sich neurologische Symptome schon im ersten Lebensjahr — oft ausgelöst durch ein Trauma, das für einen anderen Hund völlig harmlos gewesen wäre.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eine Wachstumsstörung, kein reiner Unfallschaden",
+        text: "Die atlantoaxiale Subluxation entsteht aus einer Instabilität zwischen dem 1. und 2. Halswirbel. Anders als eine reine Bandverletzung ist sie bei prädisponierten Rassen — Chihuahua, Pekinese, Zwergpudel — meist entwicklungsbedingt angelegt: Der Dens axis bleibt hypoplastisch, bricht, oder sein Epiphysenschluss verläuft unvollständig. Kommt zusätzlich eine Lockerung oder ein Riss der dorsalen (und mitunter ventralen) Bandverbindungen zwischen den beiden Wirbeln hinzu, reicht bei diesen Hunden oft schon ein für andere Rassen harmloses Trauma, um die Instabilität symptomatisch werden zu lassen — bei mehr als 50 % der betroffenen Patienten geschieht das bereits im ersten Lebensjahr, teils auch ganz ohne erkennbaren Auslöser.",
+      },
+      {
+        type: "text",
+        heading: "Von milder Berührungsempfindlichkeit bis zur Tetraparese",
+        text: "Leichte Fälle zeigen sich als milde Ataxie oder als Abwehr, am Kopf berührt zu werden. In schweren Fällen kommt es zu Ataxien und Paresen an Vorder- und/oder Hintergliedmaßen mit den für eine obere Motoneuronschädigung typischen Zeichen: Muskelschwäche bei normalen bis übersteigerten spinalen Reflexen. Bevor diese Diagnose steht, müssen Frakturen, Luxationen oder Bandscheibenvorfälle im Okzipital- und oberen Halsbereich sowie eine Enzephalitis oder Meningitis ausgeschlossen werden — die Symptome überschneiden sich mit denen aller drei Differentialdiagnosen.",
+      },
+      {
+        type: "text",
+        heading: "Das diagnostische Zeichen: eine Lücke, die sich verdoppelt bis verdreifacht",
+        text: "Die Diagnosesicherung beginnt mit einer laterolateralen Übersichtsaufnahme am unsedierten Hund. Erst wenn eine Wirbelfraktur röntgenologisch ausgeschlossen ist, wird der Kopf des anästhesierten Patienten vorsichtig abgebeugt: Bei bestehender Instabilität weicht der kammförmige Dornfortsatz des Axis dabei auf das 2- bis 3-Fache des normalen Abstands vom dorsalen Atlasbogen zurück — genau diese kontrollierte, unter Röntgenkontrolle provozierte Abstandsvergrößerung sichert die Diagnose.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Atlantoaxiale Subluxation beim Hund. Die entwicklungsbedingte Ätiologie (Densanomalie plus Bandinstabilität), die Rasseprädisposition, die Altersstatistik, das klinische Spektrum, die Differentialdiagnosen sowie die diagnostische Flexionsaufnahme mit dem 2- bis 3-fachen Abstandszeichen sind in der Quelle so beschrieben. Ergänzt den bestehenden Eintrag `obere-hws-instabilitaet-dens-warnsignale` (Hárrer, manualtherapeutische Warnsignale) um die entwicklungsbedingte Ätiologie und die klinisch-radiologische Diagnosesicherung.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 211 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 55
-  Untersuchung, 72 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 213 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 56
+  Untersuchung, 73 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -139,11 +139,14 @@ kein Überblick verloren geht.
   Einträge aus dem Abschnitt „Wirbelsäulentrauma": der spinale Schock als
   diagnostische Frühbefund-Falle sowie die Grenzen des Röntgenbilds nach
   einem Unfall (Momentaufnahme-Charakter, spontan reponierte Luxationen).
-  Details und bewusste Auslassungen siehe PATHOLOGIE-Backlog unten.
-  Nächster Schritt: VetCenter „Wirbelsäulenerkrankungen" ab S. 25/43
-  fortsetzen (Atlantoaxiale Luxation, Wobbler-Syndrom im Detail,
-  Lumbosakrale Instabilität/Stenose im Detail — siehe Backlog), danach
-  ggf. Baumgartner/Wittek/Khol trotz der bekannten Einschränkungen.
+  Danach 2 weitere neue Einträge (S. 27–29): die Acht-Stunden-
+  Prognosegrenze bei Tiefenschmerzverlust nach Trauma sowie die
+  atlantoaxiale Subluxation mit Rasseprädisposition, Altersstatistik und
+  diagnostischem Flexionsaufnahme-Zeichen. Details und bewusste
+  Auslassungen siehe PATHOLOGIE-Backlog unten. Nächster Schritt: VetCenter
+  „Wirbelsäulenerkrankungen" ab S. 30/43 fortsetzen (Wobbler-Syndrom im
+  Detail, Lumbosakrale Instabilität/Stenose im Detail — siehe Backlog),
+  danach ggf. Baumgartner/Wittek/Khol trotz der bekannten Einschränkungen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -346,13 +349,32 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       der Quelle nur mit Bindewörtern zu Fließtext zu verketten, wird jetzt
       stärker unabhängig synthetisiert: eigene Reihenfolge der Argumente,
       eigene Einstiegsfrage/-these pro Abschnitt, Fakten unverändert.
+- [x] **„Prognose" (Wirbelsäulentrauma) und „Atlantoaxiale Subluxation
+      beim Hund" (S. 27–29 von 43) gelesen und ausgewertet (25.09.2026).**
+      Zwei weitere neue Wissenseinträge, ebenfalls mit der verschärften
+      Paraphrasier-Disziplin verfasst: die Acht-Stunden-Prognosegrenze bei
+      Tiefenschmerzverlust nach Trauma (drei Zeitfenster: erhalten/akut
+      erloschen/über 8 h erloschen → günstig/vorsichtig/ungünstig), sowie
+      die atlantoaxiale Subluxation mit ihrer entwicklungsbedingten
+      Ätiologie (Denshypoplasie/-fraktur/unvollständiger Epiphysenschluss
+      plus Bandinstabilität), Rasseprädisposition (Chihuahua, Pekinese,
+      Zwergpudel), der Altersstatistik (>50 % Symptome im 1. Lebensjahr)
+      und dem diagnostischen Flexionsaufnahme-Zeichen (2- bis 3-facher
+      Abstand Dornfortsatz–Atlasbogen). Bewusst ausgelassen: die
+      chirurgischen Stabilisierungstechniken und Verbandsmaterialien
+      (S. 25–27, rein operativ-technisch, außerhalb des
+      physiotherapeutischen Nachschlage-Scopes). Ergänzt den bestehenden
+      Eintrag `obere-hws-instabilitaet-dens-warnsignale` (Hárrer,
+      manualtherapeutische Warnsignale) um die entwicklungsbedingte
+      Ätiologie und Diagnosesicherung, ohne dessen Inhalte zu wiederholen.
+      Verifiziert via Playwright (2/2 Seiten, 0 Fehler).
       **Nächster Fortsetzungspunkt:** Die Datei hat noch 43 Web-Seiten
-      insgesamt, davon S. 1–24 jetzt ausgewertet. Ab S. 25 weiterlesen:
-      Atlantoaxiale Luxation, Zervikale Spondylopathie/Wobbler-Syndrom im
-      Detail, Lumbosakrale Instabilität/Stenose im Detail,
-      Wirbelmissbildungen, Exostosenbildung, Tumoren der Wirbelsäule/des
-      Rückenmarks, Rückenmarködem, Zysten der Rückenmarkhäute, Abszesse
-      der Wirbelsäule sowie die allgemeine Prognoseskala mit Erfolgsraten
+      insgesamt, davon S. 1–29 jetzt ausgewertet. Ab S. 30 weiterlesen:
+      Zervikale Spondylopathie/Wobbler-Syndrom im Detail, Lumbosakrale
+      Instabilität/Stenose im Detail, Wirbelmissbildungen,
+      Exostosenbildung, Tumoren der Wirbelsäule/des Rückenmarks,
+      Rückenmarködem, Zysten der Rückenmarkhäute, Abszesse der
+      Wirbelsäule sowie die allgemeine Prognoseskala mit Erfolgsraten
       (ohne die Medikamenten-Dosierungen).
 
 ### PATHOLOGIE — Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3)
