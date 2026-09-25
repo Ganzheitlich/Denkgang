@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 201 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 51
-  Untersuchung, 68 Pathologie, 61 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 203 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 51
+  Untersuchung, 68 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -108,14 +108,19 @@ kein Überblick verloren geht.
   Vorschwing-/Stemmphasen-Muskelchoreografie, Selbststabilisierung der
   Gliedmaße, Schritt/Trab (Trittsiegel, Crabbing), Passgang/Galopp/Sprung
   sowie Schrittlänge-Anteile mit diagnostischer Konsequenz und
-  Beweglichkeitsfaktoren. Baumgartner/Wittek/Khol „Klinische Propädeutik
-  der Haus- und Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7
-  identifiziert), aber wegen Multi-Spezies-Umfang und
-  Extraktions-Qualitätsproblemen zurückgestellt (siehe
-  UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann Kap. 9 „Muskeln in
-  Bewegung" (b11.pdf) oder Kap. 10 „Klinischer Bezug zu ideomotorischen
-  Bewegungen" (b12.pdf) versuchen (siehe Hohmann-Backlog), danach ggf.
-  VetCenter Wirbelsäulenerkrankungen oder
+  Beweglichkeitsfaktoren. Danach 2 weitere neue Einträge aus Kap. 9.1
+  „Grundlagen" (Muskeln in Bewegung): der Muskel-Steckbrief (Kraft/
+  Leistung/Fasertyp mit Renngreyhound-Rekordwerten) sowie die Fischer/
+  Lilje-Neudefinition der Beuger-/Strecker-Rollen. Kap. 9.2/9.3 (der
+  komplette Vordergliedmaßen-Muskelatlas) bewusst nicht extrahiert —
+  Doppelarbeit zu Hárrer, Details siehe Hohmann-Backlog. Baumgartner/
+  Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere" wurde
+  erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
+  Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
+  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann Kap. 10
+  „Klinischer Bezug zu ideomotorischen Bewegungen" (b12.pdf) versuchen
+  (siehe Hohmann-Backlog), danach ggf. VetCenter Wirbelsäulenerkrankungen
+  oder
   Baumgartner/Wittek/Khol.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
@@ -1418,10 +1423,24 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       auffällig) und Beweglichkeitsfaktoren (aktives vs. passives ROM, nur
       ⅓ im Alltag genutzt). Verifiziert via Playwright (6/6 Seiten,
       0 Fehler).
-- [ ] Kap. 9 Muskeln in Bewegung (b11.pdf, 15 MB) — weiterhin technisch blockiert
-      für Quadriceps-Detail; ggf. andere, kleinere Muskeln aus diesem Kapitel
-      zuerst versuchen (kürzere Passagen könnten erreichbar sein, auch wenn das
-      ganze Kapitel es nicht ist)
+- [x] **Kap. 9.1 „Grundlagen" abgeschlossen (25.09.2026), S. 219f. (b11.pdf).**
+      b11.pdf ließ sich diesmal komplett lesen (die frühere Blockade
+      betraf offenbar nur einen früheren Leseversuch). Zwei neue
+      BIOMECHANIK-Wissenseinträge: der Muskel-Steckbrief (Kraft in Newton,
+      Leistung in Watt, Fasertyp-Anteil, konkrete Renngreyhound-Rekordwerte
+      mit explizitem Übertragbarkeits-Vorbehalt) sowie die Fischer/Lilje-
+      Neudefinition von Beuger-/Strecker-Rollen (Strecker dosieren die
+      Flexion, „steifer Stab"-Konzept; Beuger dosieren die Extension und
+      geben gespeicherte Energie frei) inkl. des Hinweises, dass
+      humanmedizinische Synergisten-/Antagonisten-Zuordnungen sich nicht 1:1
+      auf den Hund übertragen lassen. **Bewusste Scope-Entscheidung:**
+      Kap. 9.2/9.3 „Muskeln der Vordergliedmaße im Überblick/im Detail"
+      (S. 220–450+, ein vollständiger Ursprung-/Ansatz-/Funktion-Atlas
+      Muskel für Muskel) wird NICHT extrahiert — dieser Regionen-Atlas der
+      Vordergliedmaße überschneidet sich mit der bereits vollständigen
+      Hárrer-Abdeckung (Kap. 12–14) und wäre reine Doppelarbeit. b11.pdf
+      enthält keine Hintergliedmaßen-Kapitel (9.4+); ein entsprechendes
+      Kapitel wurde in diesem Drive-Ordner nicht gefunden.
 - [ ] Kap. 10 Klinischer Bezug zu ideomotorischen Bewegungen (b12.pdf) — schon
       als Zitat für „vorschnelle Diagnose" genutzt (Fall Nala), eigener
       Wissenseintrag noch offen

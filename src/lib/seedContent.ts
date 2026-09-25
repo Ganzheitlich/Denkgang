@@ -9498,6 +9498,70 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "muskel-steckbrief-kraft-leistung-fasertyp",
+    category: "BIOMECHANIK",
+    title: "Der stärkste Muskel des Hundes trägt nicht die meiste Leistung",
+    teaser:
+      "Mit 1475 Newton ist der M. triceps brachii der kraftvollste Muskel der Vordergliedmaße — für die tatsächliche Leistung beim Laufen ist aber die Muskelmasse entscheidender als die reine Kraft.",
+    sections: [
+      {
+        type: "text",
+        heading: "Drei Kenndaten pro Muskel",
+        text: "Zur Charakterisierung eines Muskels dienen drei Kenndaten: Kraft in Newton, Leistung in Watt und Anteil der Typ-I-Fasern. Kraft = Masse × Beschleunigung — je höher die Geschwindigkeit, mit der Muskulatur belastet wird, desto größer die auf das Gewebe einwirkende Kraft und die nötige Gegenkraft. Die maximale Leistung eines Muskels ist dagegen proportional zu seinem Muskelvolumen (Muskelmasse ÷ Muskeldichte, wobei die Muskeldichte mit ca. 1,06 g/cm³ bei praktisch allen Muskeln nahezu gleich ist) — die Muskelmasse allein erlaubt also schon eine Abschätzung der maximalen Leistung.",
+      },
+      {
+        type: "table",
+        heading: "Kraft- und Leistungsrekorde beim Renngreyhound",
+        columns: ["Muskel", "Kennwert", "Bedeutung"],
+        rows: [
+          ["M. triceps brachii, Caput longum", "bis zu 1475 Newton", "stärkster Muskel der Vordergliedmaße"],
+          ["M. biceps femoris", "940 Newton", "stärkster Muskel der Hintergliedmaße"],
+          ["M. biceps femoris", "50 Watt", "hohe Leistung passend zum starken Schub aus der Hinterhand"],
+          ["M. biceps brachii", "3 Watt", "vergleichsweise geringe Leistung trotz Kraftentwicklung"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Fasertyp-Verteilung: vorne mehr Ausdauer, hinten mehr Schnellkraft",
+        text: "Typ-I-Fasern (rote Fasern) kontrahieren langsam, arbeiten oxidativ und sind ausdauernd; Typ-II-Fasern (weiße Fasern) kontrahieren schnell, ermüden schneller und arbeiten sowohl oxidativ als auch glykolytisch. Knochennah finden sich mehr Typ-I-Fasern, knochenfern mehr Typ-II-Fasern (dort ist schnelle Kontraktion gefragt). In der Vordergliedmaße kommen insgesamt mehr Typ-I-Fasern vor als in der Hintergliedmaße — vermutlich weil die Vordergliedmaße den Schub aus der Hinterhand abfangen und gleichzeitig dauerhaft gegen die Schwerkraft arbeiten muss, statt nur kurzfristig hohe Kraft zu entwickeln.",
+      },
+      {
+        type: "text",
+        heading: "Wichtiger Vorbehalt zur Übertragbarkeit",
+        text: "Die genannten Kraft- und Leistungswerte stammen ausschließlich von Messungen an Renngreyhounds. Eine direkte Übertragung auf andere Hunderassen ist nur eingeschränkt möglich, da manche Muskeln beim Renngreyhound deutlich größer ausgeprägt sind als bei anderen Rassen (z. B. der M. biceps femoris) — die Werte liefern also nur einen groben Anhaltspunkt, keine rassenübergreifend gültige Norm.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 9.1.1 (Kenndaten der Muskeln), S. 219f., mit Verweis im Original auf Messungen von Williams et al. an Renngreyhounds sowie Tokuriki für die Fasertyp-Anteile. Die drei Kenndaten (Kraft/Leistung/Fasertyp), die konkreten Kraft-/Leistungswerte sowie der ausdrückliche Renngreyhound-Vorbehalt zur eingeschränkten Übertragbarkeit sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "beuger-strecker-neudefinition-synergisten-antagonisten-quadruped",
+    category: "BIOMECHANIK",
+    title: "Strecker beugen mit: warum die Begriffe „Beuger“ und „Strecker“ beim Hund überdacht werden müssen",
+    teaser:
+      "Ein Antagonist des Menschen ist an der Hundegliedmaße oft ein Synergist — die aus der Humanmedizin übernommenen Muskelrollen lassen sich beim Vierbeiner nicht einfach 1:1 übertragen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Strecker dosieren die Beugung, Beuger dosieren die Streckung",
+        text: "Nach den Arbeiten von Fischer und Lilje haben Strecker nicht nur die klassische Aufgabe der Extension, sondern modulieren zusätzlich den Grad der Flexion eines Gelenks durch isometrische Kontraktion — stabilisieren sie das Gelenk auf diese Weise vollständig, wird die Gliedmaße zu „einem steifen Stab“. Lassen sie dagegen passive Dehnung zu, kann sich das Gelenk beugen. Umgekehrt haben Beuger die Aufgabe, die Extension zu dosieren — dabei wird die in der Dehnung gespeicherte elastische Energie wieder freigesetzt. Die klassische Einteilung in reine „Beuger“ und „Strecker“ wird durch diesen Befund infrage gestellt: Viele Muskeln dienen überwiegend der Gelenkstabilisierung während der Fortbewegung, da die Gelenke inkongruent sind, und viele körperferne Muskeln dienen vor allem der Speicherung elastischer Energie für den Höhenausgleich auf unebenem Untergrund — das gilt besonders für die Muskeln, die Karpal- und Tarsalgelenk kontrollieren.",
+      },
+      {
+        type: "text",
+        heading: "Synergist beim Menschen, Antagonist beim Hund — und umgekehrt",
+        text: "Klassifikationen von Synergisten und Antagonisten stammen ursprünglich aus der Humanmedizin. Beim Vierbeiner verhält es sich oft anders: Was beim Menschen als Antagonist gilt, ist an Vorder- und Hintergliedmaße des Hundes häufig ein Synergist. An der Wirbelsäule dagegen stimmen die Synergisten-/Antagonisten-Zuordnungen von Mensch und Tier meist überein. Weitere systematische Untersuchungen zu dieser Übertragbarkeit fehlen bislang — beim Anwenden humanmedizinischer Muskelfunktions-Tabellen auf den Hund ist entsprechende Vorsicht geboten.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 9.1 (Grundlagen) und Kap. 9.1.2 (Synergisten und Antagonisten), S. 219f., mit Verweis im Original auf Fischer und Lilje. Die Neudefinition der Beuger-/Strecker-Rollen (Stabilisierung, Energiespeicherung, „steifer Stab“-Konzept) sowie der ausdrückliche Vorbehalt zur eingeschränkten Übertragbarkeit humanmedizinischer Synergisten-/Antagonisten-Zuordnungen auf den Hund sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
