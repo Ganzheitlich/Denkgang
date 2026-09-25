@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 195 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 51
-  Untersuchung, 68 Pathologie, 55 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 201 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 51
+  Untersuchung, 68 Pathologie, 61 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -103,12 +103,19 @@ kein Überblick verloren geht.
   vitiosus) sowie Rollen/Gleiten/Rollgleiten mit Ruhestellung/Gelenkspiel.
   Kap. 5.4 „Die Gelenke im Einzelnen" (regionaler Gelenkatlas, S. 60–161)
   bewusst nicht extrahiert — Details und Begründung siehe Hohmann-Backlog
-  unten. Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus- und
-  Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7 identifiziert),
-  aber wegen Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen
-  zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann
-  Kap. 8 „Die Bewegung des Hundes" (b10.pdf) fortsetzen (siehe
-  Hohmann-Backlog), danach ggf. VetCenter Wirbelsäulenerkrankungen oder
+  unten. Danach 6 weitere neue Einträge aus Kap. 8 „Die Bewegung des
+  Hundes" (vollständig, S. 200–217): Pantografenbein-Prinzip,
+  Vorschwing-/Stemmphasen-Muskelchoreografie, Selbststabilisierung der
+  Gliedmaße, Schritt/Trab (Trittsiegel, Crabbing), Passgang/Galopp/Sprung
+  sowie Schrittlänge-Anteile mit diagnostischer Konsequenz und
+  Beweglichkeitsfaktoren. Baumgartner/Wittek/Khol „Klinische Propädeutik
+  der Haus- und Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7
+  identifiziert), aber wegen Multi-Spezies-Umfang und
+  Extraktions-Qualitätsproblemen zurückgestellt (siehe
+  UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann Kap. 9 „Muskeln in
+  Bewegung" (b11.pdf) oder Kap. 10 „Klinischer Bezug zu ideomotorischen
+  Bewegungen" (b12.pdf) versuchen (siehe Hohmann-Backlog), danach ggf.
+  VetCenter Wirbelsäulenerkrankungen oder
   Baumgartner/Wittek/Khol.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
@@ -1393,8 +1400,24 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       gefunden (nur Fasertyp-Beispiele) — für die restlichen
       Hintergliedmaßen-Muskeln bleibt eine Regionen-Quelle (Hárrer-Pendant zu
       Kap. 8, oder Hohmanns Landmarken-Kap. 7/9) nötig.
-- [ ] Kap. 8 Die Bewegung des Hundes (b10.pdf) — Bewegungsarten,
-      Gangartenanalyse (Ergänzung zu Koch/Fischer, anderer Autor/Blickwinkel)
+- [x] **Kap. 8 „Die Bewegung des Hundes" vollständig abgeschlossen
+      (25.09.2026), S. 200–217 (b10.pdf).** Sechs neue BIOMECHANIK-
+      Wissenseinträge: das Pantografenbein-Prinzip (Zwangskopplung
+      Schulterblatt/Unterarm über M. triceps brachii bzw. M. gastrocnemius,
+      klinischer Nutzen bei langhaarigen Hunden), die Muskelchoreografie der
+      Vorschwing-/Stemmphase (Zehn-Abschnitte-Gliederung, konstante
+      Vorschwingzeit 25–30 ms über fast alle Säugetiere, Raith-Befund zur
+      Lastenübernahme), die Selbststabilisierung der Gliedmaße
+      („intelligente Bein-Mechanik", schneller als der Reflexbogen), Schritt/
+      Trab (dreieckige Unterstützungsfläche vs. Unterstützungslinie,
+      Trittsiegel/Schnüren, Schwerpunktlinie, drei Trab-Varianten, Crabbing),
+      Passgang/Galopp/Sprung (Passgang beim Hund als meist pathologisches
+      Signal, Galopp-Schwebephasen, Sprintstart-Kinetik, 8-fache-
+      Körpergewicht-Landekraft beim Ballfangen) sowie Schrittlänge-Anteile
+      mit diagnostischer Konsequenz (ED spät vs. HD/Spondylose früh
+      auffällig) und Beweglichkeitsfaktoren (aktives vs. passives ROM, nur
+      ⅓ im Alltag genutzt). Verifiziert via Playwright (6/6 Seiten,
+      0 Fehler).
 - [ ] Kap. 9 Muskeln in Bewegung (b11.pdf, 15 MB) — weiterhin technisch blockiert
       für Quadriceps-Detail; ggf. andere, kleinere Muskeln aus diesem Kapitel
       zuerst versuchen (kürzere Passagen könnten erreichbar sein, auch wenn das

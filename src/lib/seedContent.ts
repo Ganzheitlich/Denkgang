@@ -9301,6 +9301,203 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "pantografenbein-zwangskopplung-schulterblatt-unterarm",
+    category: "BIOMECHANIK",
+    title: "Das „Pantografenbein“: warum man bei langhaarigen Hunden auf den Unterarm statt auf den Widerrist schauen sollte",
+    teaser:
+      "Die Stellung des Unterarms spiegelt fast immer die Stellung des Schulterblatts wider — bei Hunden mit dichtem Fell ist das oft die zuverlässigere Beobachtungsstelle für die Lahmheitsdiagnostik.",
+    sections: [
+      {
+        type: "text",
+        heading: "Das Prinzip: Zwangskopplung wie bei einem Zeichengerät",
+        text: "Ein Pantograf ist ein historisches Zeicheninstrument aus vier gelenkig verbundenen Leisten, das eine Zwangskopplung zwischen seinen Elementen bewirkt. Fischer und Witte übertrugen diesen Begriff auf die Gliedmaße des Hundes: Die Bewegungen des Schulterblatts und des Unterarms sind ebenso miteinander gekoppelt wie die Bewegungen des Oberschenkels und des Mittelfußes — vergleichbar einem Kraft-Parallelogramm. Der verbindende mittlere Knochen (Oberarm bzw. Unterschenkel) überträgt Winkel- und Lageveränderungen vom ersten auf den dritten Knochen der Kette. An der Vordergliedmaße wird diese Zwangskopplung durch den M. triceps brachii, Caput longum, hervorgerufen, an der Hintergliedmaße durch den M. gastrocnemius.",
+      },
+      {
+        type: "text",
+        heading: "Klinischer Nutzen und Grenze",
+        text: "Bei der Lahmheitsdiagnostik wird üblicherweise die Bewegung des Widerrists beobachtet, um die Schulterblattbewegung zu beurteilen — bei langhaarigen oder steifhaarigen Hunden wird das jedoch schnell zum Ratespiel. Weil die Bewegung des Schulterblatts über die Zwangskopplung weitgehend die Bewegung des Unterarms nach sich zieht, lässt sich die Schulterblattbewegung bei solchen Hunden über die Beobachtung des Unterarms in der Stemmphase deutlich zuverlässiger beurteilen; analog verrät die Stellung des Mittelfußes die Stellung des Oberschenkels. Kehrseite der Zwangskopplung: Der Hund kann eine unvorhergesehene Bewegung (z. B. einen Tritt in ein Mäuseloch) nicht ohne großen Steueraufwand ausgleichen — die Kopplung spart dafür aber Bewegungsenergie.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 8.1.2 (Bewegung mit Ortsveränderung — Das Pantografenbein), S. 201f., mit Verweis im Original auf Fischer und Witte. Das Zwangskopplungsprinzip, die beteiligten Muskeln (M. triceps brachii Caput longum, M. gastrocnemius) sowie der klinische Nutzen bei langhaarigen Hunden sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "vorschwing-stemmphase-muskelchoreografie-schritt",
+    category: "BIOMECHANIK",
+    title: "25 bis 30 Millisekunden: die erstaunlich konstante Vorschwingzeit über fast alle Säugetiere hinweg",
+    teaser:
+      "Egal ob Schritt oder Trab — die Vorschwingzeit einer Gliedmaße bleibt bei fast allen Säugetieren bei 25 bis 30 Millisekunden. Schneller wird nicht die Bewegung selbst, sondern nur die Schrittlänge.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Phasen, vier Abschnitte",
+        text: "Jede Gliedmaßenbewegung gliedert sich in die Vorschwing- (Hangbein-)Phase mit den Abschnitten Heben und Vorschwingen sowie die Stemm- (Stütz-)Phase mit den Abschnitten Stützen und Stemmen. Beim Heben leiten an der Vordergliedmaße die Mm. brachiocephalicus/brachialis und die Karpalbeuger die Bewegung ein, an der Hintergliedmaße die kaudale Portion des M. biceps femoris, der M. semitendinosus und der M. gracilis. Beim anschließenden Vorschwingen dreht sich das Schulterblatt nach vorne bei gleichzeitiger Beugung von Ellbogen- und Karpalgelenk; an der Hintergliedmaße sorgen v. a. M. tensor fasciae latae, M. sartorius, M. rectus femoris und M. iliopsoas für die Vorführung, M. tibialis cranialis und M. extensor digitorum longus für die Tarsalgelenk-Flexion.",
+      },
+      {
+        type: "text",
+        heading: "Eine konstante Zeitkonstante über fast alle Säugetiere",
+        text: "Die Winkelbewegungen der Vordergliedmaßengelenke sind in allen Gangarten beim Auffußen weitgehend gleich und variieren kaum — im Gegensatz zu den Winkelbewegungen der Hintergliedmaßengelenke. Die Vorschwingzeit selbst beträgt unabhängig von der Gangart 25–30 Millisekunden, und das bei fast allen Säugetieren. Im Trab führt der Hund die Gliedmaße lediglich weiter nach vorne (höher oder mit abgesenktem oberem Drehpunkt), um trotz gleichbleibender Vorschwingzeit eine längere Laufstrecke zu erreichen — dadurch verkürzt sich die Pendelstrecke im Vergleich zum Schritt um 10–20 %. Am Ende der Vorschwingphase bremsen Muskeln (u. a. M. deltoideus Pars scapularis, M. extensor carpi ulnaris, M. latissimus dorsi vorne; M. biceps femoris, M. semimembranosus, M. flexor digitorum profundus hinten) die Vorwärtsbewegung sanft ab — ein abruptes Abbremsen wäre so unökonomisch wie eine Vollbremsung mit der Vorderradbremse am Fahrrad.",
+      },
+      {
+        type: "table",
+        heading: "Die Vorschwingphase in zehn Abschnitten",
+        columns: ["Anteil", "Geschehen"],
+        rows: [
+          ["Erste 10 %", "Gliedmaße noch gestreckt (schwerkraftinduziert nach kaudal) — Extension von Schulter/Ellbogen/Karpus bzw. Hüfte/Knie/Tarsus"],
+          ["20–70 %", "Vorführung nach kranial mit Flexion aller Gelenke"],
+          ["Nächste 30 %", "Ausbremsen der Bewegung nach kranial, beginnende Streckung (Ausnahme: Tarsalgelenk wird gebeugt, Hüftgelenk stabilisiert)"],
+          ["Letzte 10 %", "Streckung der Gelenke und Ausbremsen unmittelbar vor dem Auffußen"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Stemmphase und die Lastenübernahme",
+        text: "In der Stemmphase folgt eine analoge Zehn-Abschnitte-Gliederung, hier mit gegenläufiger Bewegungsrichtung: In den ersten 10 % wirken Antischwerkraftmuskeln der schwerkraftinduzierten Flexion entgegen, in den mittleren 20–70 % wird die Gliedmaße ohne weitere Flexion zurückgeführt (Ausnahme: Hüftgelenk streckt sich dabei), in den nächsten 30 % wird die Rückwärtsbewegung abgebremst, und in den letzten 10 % strecken sich die Gelenke zur Abfußung. In der Dissertation von Raith wurde direkt nach dem Aufsetzen eine kurzfristig stärkere Extension bzw. Flexion mit anschließender Verlangsamung gemessen, bevor jedes Gelenk seine ursprüngliche Bewegung fortsetzte — interpretiert als Beginn der muskulären Lastenübernahme beim Auffußen, wobei ein Bewegungsartefakt durch Hautverschiebung von Raith selbst nicht vollständig ausgeschlossen werden konnte, aber wegen der Konsistenz zwischen beiden Gliedmaßen und mehreren Hunden als unwahrscheinlich bewertet wurde.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 8.1.2 (Die Vorschwing- und die Stemm- oder Stützbeinphase), S. 202–204, mit Verweis im Original auf die Dissertation von Raith [183]. Die Phaseneinteilung mit beteiligten Muskeln, die konstante Vorschwingzeit von 25–30 ms, die Zehn-Abschnitte-Gliederung beider Phasen sowie der Raith-Befund zur Lastenübernahme (inkl. dessen eigener Vorbehalt zum Hautverschiebungsartefakt) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "selbststabilisierung-gliedmasse-intelligente-bein-mechanik",
+    category: "BIOMECHANIK",
+    title: "Die „intelligente Bein-Mechanik“: wie der Hund schneller reagiert, als sein Reflexbogen es könnte",
+    teaser:
+      "Auf unebenem Gelände gleicht der Hund Bodenunebenheiten aus, bevor überhaupt ein Reflex ausgelöst werden könnte — durch reine mechanische Selbststabilisierung der Gliedmaße, nicht durch Nervenleitung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein festgelegter Landepunkt mit variabler Gelenkkompensation",
+        text: "Der Landepunkt der Pfote ist beim Hund geometrisch festgelegt und kann vom Tier nicht aktiv beeinflusst werden — er fußt immer im gleichen Winkel auf. Tritt der Hund auf unebenem Gelände einmal höher, einmal tiefer auf, bleibt die Rückenlinie dennoch immer gleich: Der Höhenausgleich erfolgt über die Gelenke selbst. Bildhaft verfügt der Hund über einen „Einzelradantrieb“ mit hoch gelegenem Drehpunkt und zwei Stoßdämpfersystemen — an der Vordergliedmaße Schulter- und Ellbogengelenk, an der Hintergliedmaße Knie- und Tarsalgelenk.",
+      },
+      {
+        type: "text",
+        heading: "Schneller als der Reflexbogen — aber nicht unfehlbar",
+        text: "Die Strecker dosieren dabei den Grad der schwerkraftinduzierten Flexion, die Beuger den Grad der Extension. Durch diese muskuläre Dosierung kann der Hund auf Bodenerhöhungen oder -vertiefungen reagieren, ohne dass die Reflexbögen im Rückenmark überhaupt angesprochen werden müssen — daher reagiert er schneller, als es über eine reine Reflexschaltung möglich wäre. Diese „intelligente Bein-Mechanik“ bewahrt den Hund allerdings nicht vor Verletzungen: Gerät ein tiefes Loch in den bereits geometrisch festgelegten Auffußungsbereich, muss der Hund hineintreten — er kann es nicht verhindern.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 8.1.3 (Die Selbststabilisierung der Gliedmaße), S. 204f. Der festgelegte Landepunkt, das Zwei-Stoßdämpfersysteme-Bild sowie der Mechanismus der Selbststabilisierung ohne Reflexbogen-Beteiligung (inkl. der Grenze bei unvorhersehbaren tiefen Unebenheiten) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "gangarten-schritt-trab-unterstuetzungsflaeche-trittsiegel",
+    category: "BIOMECHANIK",
+    title: "Schritt und Trab: von der dreieckigen Unterstützungsfläche zur Schwerpunktlinie",
+    teaser:
+      "Im Schritt läuft der Hund immer über eine dreieckige Unterstützungsfläche, im Trab dagegen exakt auf einer Linie — ein guter Traber setzt die Hinterpfote sogar präzise in die Fußspur der Vorderpfote.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Schritt: die langsamste, sicherste Gangart",
+        text: "Der Schritt ist die langsamste Gangart. Es liegt physiologisch eine diagonale Schrittfolge vor, bei der immer mindestens eine Gliedmaße am Boden bleibt — der Körperschwerpunkt befindet sich dabei stets innerhalb einer dreieckigen Unterstützungsfläche. Anders als bei den schnelleren Gangarten erfolgt keine Unterstützung aus dem Bewegungsschwung, die Gliedmaße wird rein durch Muskelkraft bewegt. Physiologisch pendeln Kopf, Hals, Rumpf und Rute rhythmisch gegenläufig; der Kopf senkt sich zur vorschwingenden Vordergliedmaße hin und hebt sich in deren Stützphase wieder. Fehlt diese rhythmische Kopf-Hals-Nickbewegung oder liegt sogar ein Kopfwippen vor, ist das ein Lahmheitshinweis — dabei sind neben Gelenkerkrankungen auch muskuläre Verspannungen oder Erkrankungen der Vordergliedmaßenmuskulatur als Differentialdiagnose zu bedenken. Im Schritt wird ein Großteil der Knorpelareale gleichmäßig belastet, und die entstehende Bewegung macht die Synovialflüssigkeit dünnflüssiger, was die Knorpelernährung verbessert.",
+      },
+      {
+        type: "text",
+        heading: "Der Trab: Schnüren, Trittsiegel und die Schwerpunktlinie",
+        text: "Beim Trab schwingt jeweils das diagonale Gliedmaßenpaar gemeinsam vor bzw. stützt gemeinsam (einfacher diagonaler Synchronismus) — es liegt keine Unterstützungsfläche mehr vor, sondern nur noch eine Unterstützungslinie. Beim gewöhnlichen Hundetrab fußt die Vordergliedmaße meist früher und hebt früher ab als die diagonale Hintergliedmaße, sodass beide auf dieselbe Bodenstelle treten (Trittsiegel) — dieses „Schnüren“ ist ausdauerfreundlich, weil drei Viertel der potenziellen Bewegungsenergie als elastische Energie zurückgewonnen werden. Ein guter Traber läuft dabei minimal schräg statt gerade, weil er dadurch mehr Schrittlänge gewinnt und exakt unter seiner eigenen Schwerpunktlinie (auf Höhe des 12.–13. Brustwirbels) laufen kann — bei einem breitbrüstigen Hund (z. B. Mastiff) gelingt das nicht, seine Gliedmaßen treten neben die Schwerpunktlinie und der Körper muss zusätzliche Stabilisierungskräfte aufbringen.",
+      },
+      {
+        type: "table",
+        heading: "Trab-Varianten im Vergleich",
+        columns: ["Variante", "Merkmal", "Typisches Beispiel"],
+        rows: [
+          ["Geworfener Trab", "vollkommener diagonaler Synchronismus mit vollständiger freier Schwebephase", "quadratisch gebaute, steilgliedrige Rassen (z. B. Pinscher)"],
+          ["Geschwungener Trab", "vollkommener Synchronismus, aber ohne freie Schwebephase", "rechteckig gestreckte Rassen (z. B. Dackel)"],
+          ["Übereilter Trab", "schneller, aber ermüdender Trab; Hintergliedmaße fußt vor der Vordergliedmaße, gesamtes Gewicht kurzzeitig auf einer Hintergliedmaße", "—"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Crabbing als klinisches Warnzeichen",
+        text: "Läuft ein Hund von hinten betrachtet mit mehr als 20° seitlich schräg (fast krabbenartig), spricht man von „Crabbing“. Es kann durch Schonhaltung, einseitiges Fehltraining (z. B. wenn beim Obedience immer nur auf einer Seite des Hundeführers trainiert wird) oder eine spinale Erkrankung entstehen — meist liegen dann bereits muskuläre Dysfunktionen vor. Bei der Gangbildanalyse sollte der Hund deshalb auch auf der jeweils anderen Seite des Besitzers vorgeführt werden, um zu prüfen, ob das Crabbing seitenunabhängig oder seitenspezifisch auftritt.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Differentialdiagnostik unvollständig", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 8.2.1–8.2.2 (Der Schritt, Der Trab), S. 206–210. Die Unterstützungsfläche/-linie, das Trittsiegel-/Schnüren-Prinzip, die Schwerpunktlinie, die drei Trab-Varianten sowie das Crabbing-Phänomen mit seinen Differentialdiagnosen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "gangarten-passgang-galopp-sprung-landekraft",
+    category: "BIOMECHANIK",
+    title: "Passgang beim Hund: fast immer ein Warnsignal, kein normaler Gang",
+    teaser:
+      "Beim Wolf ist der Passgang eine natürliche Gangart — beim Hund deutet er meist auf eine neurologische Störung, Rückenschmerzen oder gezielte Entlastung schmerzhafter Muskelgruppen hin.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Passgang: instabil, aber meist krankheitsbedingt",
+        text: "Beim Passgang bewegt sich jeweils das gleichseitige Gliedmaßenpaar vorwärts, während das andere Paar seine Körperseite nach kranial stemmt — der Körper pendelt dabei schaukelnd hin und her, der Schwerpunkt liegt meist neben statt auf der Unterstützungslinie. Der Passgang ist im gesamten Bewegungszyklus dynamisch stabil, würde man die Bewegung jedoch einfrieren, würde der Hund umfallen — im Grunde also eine instabile Gangart. Während der Passgang beim Wolf eine natürliche Gangart ist, kommt er beim gesunden Hund selten vor (allenfalls als kurzer Übergangsschritt zwischen Schritt und Trab). Bei Hunden, die dauerhaft im Passgang laufen, liegt meist eine neurologische Störung vor, oder der Hund möchte gezielt schmerzende Muskelgruppen entlasten — viele ältere Hunde mit gestörter Koordination oder Rückenschmerzen (z. B. durch Spondylose) beginnen im Passgang zu laufen. Der Passgang zählt zu den erworbenen Bewegungsstörungen; aus ihm heraus kann der Hund nicht direkt in den Trab wechseln, sondern muss zunächst einen Dreibeinschritt einlegen.",
+      },
+      {
+        type: "text",
+        heading: "Der Galopp: asymmetrisch, mit aktiver Wirbelsäulenbeteiligung",
+        text: "Der Galopp ist die schnellste, asymmetrische Gangart des Hundes und setzt einen Umbau der Lendenwirbelsäule für sagittale Beweglichkeit voraus — nur Säugetiere und junge Krokodile können galoppieren. Rumpf und besonders Lendenwirbelsäule werden aktiv in die Bewegung einbezogen und tragen zu Beschleunigung und Schrittlängengewinn bei; die Bogensehnenbrücke wird dabei maximal dorsal-konvex gekrümmt. Beim Sprung- oder Renngalopp (schnellste Bewegungsform) entstehen zwei Schwebephasen — die erste mit maximaler dorsal-konkaver Rückenstreckung nach Abfußen der Hintergliedmaßen, die zweite nach dem Abstoßen der Vordergliedmaßen; beim langsameren Mittelgalopp entfallen beide Schwebephasen. Der Kanter ist die langsamste Galoppform.",
+      },
+      {
+        type: "text",
+        heading: "Sprintstart und Landekraft: nicht jede Belastung ist unbedenklich",
+        text: "Beim Sprintstart werden die Hintergliedmaßen synchron abgestemmt, der Schwerpunkt stärker angehoben als im normalen Galopp, die Kniegelenke stärker gebeugt und Hüft-/Tarsalgelenk stärker gestreckt — die Hintergliedmaßen liefern dabei bis zu 50 % mehr Vortriebskraft, die Vordergliedmaßen tragen 43 % zur Beschleunigung bei, da ihre sonst zu Beginn der Stemmphase auftretenden Bremskräfte entfallen. Landet ein Hund beim Hochspringen (z. B. beim Ballfangen) direkt auf der Hintergliedmaße, wird der Femur ungebremst in das Hüftgelenk gepresst — anders als an der Vordergliedmaße fehlt hier die muskuläre Aufhängung zur Abfederung, sodass die Kraft nahezu ungedämpft über das Becken auf die Wirbelsäule und den gesamten Bewegungsapparat übertragen wird. Die dabei auf die knöchernen Strukturen einwirkende Kraft kann bis zum 8-Fachen des Körpergewichts betragen — ein Grund, ballfangende Sprungspiele beim Hund nur in Maßen auszuüben.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 8.2.3–8.2.5 (Der Passgang, Der Galopp, Der Sprung), S. 210–216. Der Passgang mit seinen Differentialdiagnosen, die Galopp-Mechanik mit Schwebephasen, sowie Sprintstart-Kinetik und die 8-fache-Körpergewicht-Landekraft beim Hochspringen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "schrittlaenge-beweglichkeit-anteile-aktiv-passiv-rom",
+    category: "BIOMECHANIK",
+    title: "Warum eine Ellbogendysplasie oft erst spät auffällt, eine Hüftdysplasie dagegen früh",
+    teaser:
+      "An der Schrittlänge der Vordergliedmaße ist der Unterarm nur zu 17,5–35 % beteiligt — deshalb bleibt eine Ellbogendysplasie biomechanisch lange kompensierbar, während das stark beteiligte Hüftgelenk Störungen viel früher sichtbar macht.",
+    sections: [
+      {
+        type: "table",
+        heading: "Woher die Schrittlänge kommt",
+        columns: ["Gliedmaße/Gangart", "Hauptanteil", "Klinische Konsequenz"],
+        rows: [
+          ["Vordergliedmaße (Schritt/Trab/Galopp)", "65–80 % Schulterblatt, 17,5–35 % Ober-/Unterarm", "Ellbogendysplasie fällt wegen der geringen Ober-/Unterarm-Beteiligung oft erst im fortgeschrittenen Stadium auf"],
+          ["Hintergliedmaße (Schritt/Trab)", "70 % Hüftgelenk/Oberschenkel, 25 % Unterschenkel/Hinterfuß, 5 % Becken (Lendenwirbelsäule)", "Hüftdysplasie wird durch die hohe Hüftgelenk-Beteiligung oft frühzeitig erkannt"],
+          ["Hintergliedmaße (Galopp)", "ca. 50 % Rücken, ca. 50 % gesamte Hintergliedmaßenbewegung (exakte Messwerte fehlen noch)", "Spondylose fällt wegen der hohen Rückenbeteiligung im Galopp meist frühzeitig auf"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Aktives vs. passives Bewegungsausmaß",
+        text: "Beweglichkeit ist die Fähigkeit, alltägliche und sportliche Bewegungen mit optimalem Bewegungsausmaß der beteiligten Gelenke auszuführen. Während der normalen Bewegung erreicht der Hund die maximale Gelenkbeweglichkeit bei Weitem nicht — er nutzt im Alltag maximal etwa ein Drittel seines Bewegungsumfangs; nur beim Schwimmen kann er sich dem Maximum annähern. Das Verhältnis von Vorschwingphase zu Stemmphase beträgt 1:2 — je schneller der Hund läuft, desto kürzer wird die Stemmphase. In der Stemmphase selbst werden Schulter-, Ellbogen- und Karpalgelenk kaum bewegt (nur zu Beginn und Ende); die Hauptbewegung der Hintergliedmaße kommt aus einer Hüftgelenk-Drehung von 40–50°, während Knie- und Tarsalgelenk vor allem als Stoßdämpfer für den Höhenausgleich auf unebenem Boden dienen.",
+      },
+      {
+        type: "list",
+        heading: "Was die Beweglichkeit eines Hundes beeinflusst",
+        items: [
+          "Anatomisch-strukturelle, rassetypische Gelenkigkeit (variiert von Gelenk zu Gelenk, abhängig von Gelenkstruktur, umgebendem Gewebe und Bändern)",
+          "Dehnfähigkeit des gelenkumgebenden Muskel- und Bindegewebes",
+          "Trainingszustand, Muskelmasse/Muskelkorsett, Fett-/Bindegewebsanteil",
+          "Individuelle Faktoren (Alter, Geschlecht, hormonelle Situation)",
+          "Tageszeit/Biorhythmus, Außen-/Körper-/Muskeltemperatur",
+          "Muskeltonus, aktuelle Stoffwechsellage im Muskel, Muskelermüdung",
+        ],
+      },
+    ],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 8.2.6 (Die Schrittlänge) und Kap. 8.3 (Die Beweglichkeit des Hundes), S. 215–217, mit Verweis im Original auf Millis, Levine und Taylor sowie auf Fischer für die aktiven/passiven Bewegungsausmaß-Winkelmessungen. Die Schrittlängen-Anteile mit ihrer diagnostischen Konsequenz (ED spät, HD/Spondylose früh auffällig), die aktive vs. passive Beweglichkeit, das 1:2-Verhältnis von Vorschwing- zu Stemmphase sowie die Einflussfaktoren-Liste sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
