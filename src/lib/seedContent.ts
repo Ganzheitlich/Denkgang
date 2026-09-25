@@ -8662,6 +8662,167 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "bogensehnenbruecke-hundekoerper-hebelwerke",
+    category: "BIOMECHANIK",
+    title: "Die „Bogensehnenbrücke“: das Bauprinzip des Hundekörpers",
+    teaser:
+      "Der Rumpf des Hundes funktioniert wie eine Brückenkonstruktion — und die Vorder- und Hintergliedmaßen sind an diese Brücke auf grundlegend verschiedene Weise angehängt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Brückenbogen, Brückensehne und Tragegurt",
+        text: "Die Körperkonstruktion des Hundes lässt sich mit einer Bogensehnenbrücke vergleichen. Den Brückenbogen bilden Brust- und Lendenwirbelsäule sowie das Becken mitsamt ihrer Muskulatur und Sehnen — gekennzeichnet durch Beweglichkeit, Elastizität (durch die Zwischenwirbelscheiben) und Tragfähigkeit. Die Brückensehne wird aus Brustbein, Linea alba und Bauchmuskulatur gebildet und ist über die Rippen, die schiefe Bauchmuskulatur und deren Aponeurosen mit dem Brückenbogen verbunden — zusammen eine hochbelastungsfähige Einheit. Der Brustkorb ruht zusätzlich in einem muskulösen Tragegurt aus M. serratus ventralis und den Mm. pectorales, der den Zug der Brückensehne nur indirekt auf den Brückenbogen überträgt und Bewegungen elastisch und stoßbrechend abfängt.",
+      },
+      {
+        type: "text",
+        heading: "Zwei grundverschiedene Anhängungen",
+        text: "Die Vordergliedmaßen sind flexibel mit der Bogensehnenbrücke verbunden (über den muskulösen Tragegurt) — dadurch wird Druck bei Bewegung nur indirekt und gedämpft übertragen. Die Hintergliedmaßen dagegen sind relativ fest über das Kreuzbein mit der Bogensehnenbrücke verbunden, wodurch Druck direkt von den Hintergliedmaßen auf Becken und Brückenbogen weitergegeben wird — ohne dieselbe dämpfende Zwischenstufe.",
+      },
+      {
+        type: "text",
+        heading: "Auffanghebelwerk vs. Stemmhebelwerk",
+        text: "Die Gliedmaßen wirken in Statik und Dynamik als Hebelwerke dieser Konstruktion: Die Vordergliedmaßen fungieren als Auffanghebelwerke, die das bei Bewegung entstehende Gewicht auffangen und abfedern. Die Hintergliedmaßen dienen dagegen als Wurf- oder Stemmhebelwerke, die die Hauptschubkräfte für die Vorwärtsbewegung liefern. Bänder, Sehnen und Muskeln — allen voran die Antischwerkraftmuskeln — fixieren die gewinkelten Hebelwerke und verhindern ihr Einknicken.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 2.1 (Statik), S. 22f. Das Bogensehnenbrücken-Modell mit Brückenbogen/-sehne/Tragegurt sowie die unterschiedliche Anbindung und Hebelwerk-Funktion von Vorder- und Hintergliedmaße sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "ursachen-gestoerte-gelenkfunktion-uebersicht",
+    category: "PATHOLOGIE",
+    title: "Wenn ein Gelenkproblem nicht vom Gelenk selbst kommt",
+    teaser:
+      "Von Adipositas über Wachstumsstörungen bis zu endokrinen Erkrankungen — eine gestörte Gelenkfunktion hat oft eine Ursache weit außerhalb des betroffenen Gelenks selbst.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Circulus vitiosus der Gelenkfunktionsstörung",
+        text: "Eine Instabilität im Gelenk kann über ausgelöste Nozizeption die segmentale Muskulatur hemmen. In der Folge werden Bänder gereizt, es entsteht eine Entzündung, und der Körper reagiert mit Verfestigung des Gewebes bis hin zur Verknöcherung (z. B. bei Ellbogenarthrose oder Spondylose). Daraus resultieren funktionell beeinträchtigte Bewegungen und Stellungsveränderungen — manche Gelenke werden dabei bis zur Überbeanspruchung zusätzlich belastet. Auch Gelenkfehlstellungen selbst können Ausweichbewegungen in anderen Körperabschnitten auslösen, etwa wenn eine Wirbelsäulenfehlstellung zur Kippung und Rotation des Beckens zur Gegenseite führt.",
+      },
+      {
+        type: "list",
+        heading: "Ursachengruppen für gestörte Gelenkfunktion (Auswahl)",
+        items: [
+          "Hochgradige Adipositas — erhöhte Gewichtsbelastung von Gelenken und Herz-Kreislauf-System, besonders bei wachsenden oder alten Hunden",
+          "Mangel-/Fehlernährung, z. B. Kohlenhydratüberschuss mit zu schnellem Wachstum",
+          "Wachstumsstörungen: Salter-Harris-Frakturen Typ I–V, Osteochondrosis dissecans, Enostose, Morbus Osgood-Schlatter, enchondrale Ossifikationsstörungen",
+          "Gewebeverquellung/-verhärtung/-verklebung nach akutem Trauma (Distorsion, Patellaluxation, Bänderriss)",
+          "Nervale Erkrankungen (z. B. chronischer Bandscheibenvorfall) und degenerative Erkrankungen (z. B. Arthrose, Hüftdysplasie)",
+          "Endokrine Erkrankungen (Hypothyreose, Hyperadrenokortizismus, Diabetes mellitus) und metabolische Erkrankungen (Hyper-/Hypovitaminosen)",
+          "Immunologische Erkrankungen (systemischer Lupus erythematodes, rheumatoide Arthritis, idiopathische immunmediierte Polyarthritis)",
+          "Infektiöse und nichtinfektiöse Gelenkentzündungen (septische Arthritis, Osteomyelitis, reaktive Polyarthritis durch Pilze/Bakterien/Parasiten/Medikamente/Vakzine)",
+          "Aseptische Femurkopfnekrose (Legg-Calvé-Perthes), Prostataerkrankungen, zirkulatorische Grunderkrankungen, Tumoren",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Konsequenz für die Therapie",
+        text: "Bei Statikveränderungen ist entscheidend, Kompensationsmechanismen zu erkennen und einzuschätzen, ob sie noch therapiert werden können, ohne dem Tier durch die falsche Therapie zu schaden. Liegt „nur“ eine funktionelle Gelenkstörung ohne strukturelle Veränderung vor, kann die muskuläre Dysbalance oft vollständig wiederhergestellt werden. Bei bereits strukturellen Veränderungen steht dagegen die Lebensqualität im Mittelpunkt — Therapieschwerpunkte sind dann Schmerzlinderung, Bewegungsausmaß und Funktionsverbesserung der umgebenden Strukturen, statt vollständige Wiederherstellung zu erwarten.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 2.2 (Statikveränderungen und deren Folgen), S. 23–25. Der Circulus-vitiosus-Mechanismus, die Ursachengruppen sowie die Therapie-Konsequenz (funktionell vs. strukturell) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "muskelfunktionsstoerungen-tonus-insuffizienz-atrophietypen",
+    category: "PATHOLOGIE",
+    title: "Zwei Muskelatrophie-Typen, zwei völlig unterschiedliche Zeitfenster",
+    teaser:
+      "Entwickelt sich eine Muskelatrophie über Wochen oder innerhalb weniger Tage? Die Antwort verrät, ob eine obere oder untere motorische Läsion dahintersteckt.",
+    sections: [
+      {
+        type: "table",
+        heading: "Hypotonus vs. Hypertonus",
+        columns: ["Merkmal", "Hypotonus", "Hypertonus"],
+        rows: [
+          ["Schmerzcharakter", "Kontraktionsschmerz (Schmerz bei Muskelkontraktion)", "Dehnungsschmerz (Schmerz bei Muskeldehnung)"],
+          ["Typisches Beispiel", "schlaffe Lähmung, Innervationsstörung (lokal); bewusstloses Tier (generalisiert)", "Myogelose (lokal); Tetraspastik (generalisiert)"],
+          ["Folge für die Gelenkstabilität", "beeinträchtigte muskuläre Stabilität bis zum Ausfall der Gelenkfunktion", "Bewegungseinschränkung im Gelenk und seiner Umgebung"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Muskelinsuffizienz: passiv vs. aktiv",
+        text: "Bei der passiven Muskelinsuffizienz lässt sich der Muskel nicht mehr so weit wie ein gesunder Muskel dehnen — das Bewegungsmaß der Hebelarme kann nicht bis zur Arretierung ausgeführt werden. Bei der aktiven Muskelinsuffizienz ist der Muskel nicht mehr in der Lage, die Extremstellung seiner Hebelarme durch Kontraktion aktiv zu fixieren. Physiologisch kommt aktive Insuffizienz bei zweigelenkigen Muskeln vor — pathologisch dagegen auch bei eingelenkigen Muskeln, was auf eine Funktionsstörung hindeutet.",
+      },
+      {
+        type: "table",
+        heading: "Zwei Atrophie-Typen mit unterschiedlichem Zeitfenster",
+        columns: ["Typ", "Ursache", "Zeitverlauf", "Besonderheit"],
+        rows: [
+          [
+            "Inaktivitätsatrophie",
+            "Bewegungsmangel, z. B. nach Operation; auch bei Schädigung des oberen motorischen Neurons",
+            "entwickelt sich langsam, erst nach 3–4 Wochen sichtbar",
+            "betrifft häufig alte Hunde, deren Besitzer denken, der Hund brauche mehr Ruhe",
+          ],
+          [
+            "Degenerative Atrophie",
+            "Schädigung des unteren motorischen Neuronensystems (infranukleär/nukleär), z. B. spinale Muskelatrophie, progressive neurogene Muskelatrophie, parasitär (Neosporose/Leishmaniose) oder metabolisch (Diabetes mellitus, Hepatopathie mit IGF-I-Mangel)",
+            "kann sich innerhalb einer Woche bis zu einem hochgradigen Stadium entwickeln",
+            "Muskel ist atonisch und reflektorisch nicht erregbar",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Weitere Muskelfunktionsstörungen im Überblick",
+        text: "Eine Muskeldysbalance liegt vor, wenn das Gleichgewicht zwischen Muskellänge und -kraft gestört ist. Eine Muskelprellung entsteht durch direkte Gewalteinwirkung mit Hämatom und narbiger Abheilung. Eine Muskelzerrung erhält die anatomische Struktur (krampfartiger, schnell zunehmender Schmerz), während bei einem partiellen Muskelriss Dehnungs-/Anspannungsschmerzen und bei einem vollständigen Muskelriss eine tastbare Vertiefung an der Rupturstelle sowie der komplette Ausfall der Kontraktion auftreten.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 2.2.2 (Statikveränderungen und Muskelfunktionsstörungen), S. 25f. Hypo-/Hypertonus mit Schmerzcharakteristik, die passive/aktive Muskelinsuffizienz, die beiden Atrophietypen mit Zeitverlauf sowie die weiteren Muskelverletzungsformen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "schwerkraft-massefedermodell-schwerpunkt-bewegung",
+    category: "BIOMECHANIK",
+    title: "Wie der Hund mit der Schwerkraft läuft, statt gegen sie",
+    teaser:
+      "Der Hund verbraucht nur für die Hälfte jedes Schrittes Energie — den Rest holt er sich durch elastische Energierückgewinnung aus seinen Gelenken zurück, im Ellenbogen bis zu 96 %.",
+    sections: [
+      {
+        type: "text",
+        heading: "Schwerkraft als eingebauter Bewegungsmotor",
+        text: "Flexion und Extension z. B. des Ellbogengelenks erfolgen schwerkraftinduziert — der Muskel dosiert dabei nur den Grad der Bewegung, statt sie komplett selbst anzutreiben. Die Gliedmaßen werden größtenteils passiv durch die Schwerkraft gebeugt; die Aufgabe der Streckmuskulatur (Antischwerkraftmuskeln) ist es, dieser Schwerkraft entgegenzuwirken und ein Einknicken zu verhindern. Entsprechend ist das Verhältnis von Beugern zu Streckern am Ellbogengelenk 2:10 und am Schultergelenk 3:10 — deutlich streckerlastig.",
+      },
+      {
+        type: "text",
+        heading: "Das Masse-Feder-Modell nach Blickhan",
+        text: "Beim Schritt hebt sich der Körperschwerpunkt bis zur Mitte der Stemmphase aktiv an (aufgewendete Energie wird zu potenzieller Energie), danach wird beim Auffußen die eingestauchte Gliedmaße zusammengeschoben — ab Mitte der Stemmphase wird diese potenzielle Energie in elastische, kinetische Energie umgewandelt. Es wird also nur bis zur Hälfte jedes Schrittes Energie verbraucht, nicht für die gesamte Schrittlänge. Im Trab wippt der Körperschwerpunkt stärker auf und ab, die Gliedmaße wird stärker eingestaucht und dadurch mehr potenzielle Energie erzeugt. Je elastischer und stabiler Bänder, Sehnen, Faszien, Muskeln und Gelenke der Gliedmaße sind, desto effektiver gelingt diese Energieumwandlung.",
+      },
+      {
+        type: "table",
+        heading: "Elastische Energierückgewinnung nach Gelenk und Gangart",
+        columns: ["Gelenk", "Trab", "Galopp"],
+        rows: [
+          ["Ellbogengelenk", "96 %", "unter 60 %"],
+          ["Schultergelenk", "38 %", "49 %"],
+          ["Kniegelenk", "60 %", "5 %"],
+          ["Fersensehnenstrang", "bis zu 97 %", "—"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Schwerpunktlage: 3/5 vorne, 2/5 hinten",
+        text: "Der imaginäre Körperschwerpunkt des stehenden Hundes liegt an der Schnittstelle einer senkrechten Linie hinter dem Schulterblatt und einer horizontalen Linie durch das untere Drittel des Brustkorbs — etwa auf Höhe des 9. Zwischenrippenraums, also im kranialen Körperabschnitt. Das Körpergewicht verteilt sich dadurch nicht gleichmäßig: 3/5 trägt die Vorhand, 2/5 die Hinterhand (ein 30-kg-Hund trägt im Stand 18 kg auf der Vorhand, 12 kg auf der Hinterhand). Weil der Schwerpunkt im vorderen Drittel der Unterstützungsfläche liegt, lässt sich ein Hund leichter nach vorne/zur Seite als nach hinten aus dem Gleichgewicht bringen. Rassespezifisch schwankt die Verteilung: Rottweiler/Dobermann tragen 58–68 % vorne, der Deutsche Schäferhund 63 %, im Durchschnitt liegen 60 % vorne — Ausnahme ist der Greyhound mit nur 55 % vorne.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 2.3 (Bewegungsdynamik des Hundes) und Kap. 3.1 (Schwerpunkt), S. 26–31. Das Beuger-/Strecker-Verhältnis, das Masse-Feder-Modell nach Blickhan, die gelenkspezifischen Energierückgewinnungswerte sowie die Schwerpunktlage mit rassespezifischen Gewichtsverteilungen sind im Original so beschrieben. Ergänzt die bereits dokumentierte Gewichtsverteilungsangabe aus Hárrer Kap. 11 um eine zweite, unabhängige Quelle mit teils abweichenden Rassebeispielen (Dobermann, Deutscher Schäferhund, Greyhound) — beide Quellen stimmen im Kernbefund (Vordergliedmaße überwiegend stärker belastet) überein.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

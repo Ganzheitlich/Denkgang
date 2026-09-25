@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 177 Einträge (7 Anatomie-Spiegelungen, 9 Grundlagen, 51
-  Untersuchung, 65 Pathologie, 40 Biomechanik, 23 Therapie — genaue
+- Wissensbibliothek: 181 Einträge (7 Anatomie-Spiegelungen, 9 Grundlagen, 51
+  Untersuchung, 66 Pathologie, 44 Biomechanik, 23 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -80,14 +80,19 @@ kein Überblick verloren geht.
   weitere Fachkapitel). Siehe BIOMECHANIK-/THERAPIE-Backlog unten für die
   im Detail bewusst ausgelassenen reinen Technik-Rezeptteile (u. a. die
   ca. 25 Einzelübungen aus Kap. 5.5, die alle demselben Indikation/Wie
-  oft/Wie lange-Schema folgen). Baumgartner/Wittek/Khol „Klinische
-  Propädeutik der Haus- und Heimtiere" wurde erkundet (Struktur,
-  relevante Kapitel 6/7 identifiziert), aber wegen Multi-Spezies-Umfang
-  und Extraktions-Qualitätsproblemen zurückgestellt (siehe
-  UNTERSUCHUNG-Backlog). Nächster Schritt: nächstes Buch aus dem Backlog
-  wählen (Hohmann Bewegungsapparat Restkapitel, VetCenter
-  Wirbelsäulenerkrankungen, oder Baumgartner/Wittek/Khol trotz der
-  bekannten Einschränkungen).
+  oft/Wie lange-Schema folgen). Danach 4 weitere neue Einträge aus Hohmann,
+  Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Kap. 2 „Statik und
+  Dynamik des Hundes" (vollständig, S. 22–30) sowie Abschnitt 3.1
+  „Schwerpunkt" (S. 31) — Bogensehnenbrücken-Bauprinzip, Ursachen gestörter
+  Gelenkfunktion, Muskelfunktionsstörungen/Atrophietypen, Schwerkraft/
+  Masse-Feder-Modell/Schwerpunktlage; Details siehe Hohmann-Backlog unten.
+  Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere"
+  wurde erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber
+  wegen Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen
+  zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann
+  Kap. 3.2 „Unterstützungsfläche" bzw. Kap. 4 „Der Knochen" fortsetzen
+  (siehe Hohmann-Backlog), danach ggf. VetCenter Wirbelsäulenerkrankungen
+  oder Baumgartner/Wittek/Khol.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -1264,9 +1269,34 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 
-- [ ] Kap. 2 Statik und Dynamik des Hundes (b3.pdf, teilweise bereits beim
-      Lesen für ED/Bizeps überflogen)
-- [ ] Kap. 3 Schwerpunkt und Unterstützungsfläche (b4.pdf)
+- [x] **Kap. 2 „Statik und Dynamik des Hundes" vollständig abgeschlossen
+      (25.09.2026), S. 22–30 (b3.pdf).** Vier neue BIOMECHANIK/PATHOLOGIE-
+      Wissenseinträge: das Bogensehnenbrücken-Bauprinzip (Brückenbogen/
+      -sehne/Tragegurt, unterschiedliche Anbindung von Vorder-/Hintergliedmaße,
+      Auffang- vs. Stemmhebelwerk), eine Übersicht der Ursachen gestörter
+      Gelenkfunktion (Circulus vitiosus, Wachstumsstörungen, endokrine/
+      immunologische/infektiöse Ursachen, funktionell vs. strukturell als
+      Therapieweiche), Muskelfunktionsstörungen (Hypo-/Hypertonus, passive/
+      aktive Muskelinsuffizienz, zwei Atrophietypen mit Zeitfenster:
+      Inaktivitätsatrophie 3–4 Wochen vs. degenerative Atrophie innerhalb
+      einer Woche) sowie Schwerkraft/Masse-Feder-Modell (Beuger-/Strecker-
+      Verhältnis, elastische Energierückgewinnung nach Gelenk und Gangart,
+      Schwerpunktlage 3/5 vorne). Bewusst nicht dupliziert: die bereits
+      vorhandenen Einträge `tonische-und-phasische-muskulatur` (anderer
+      Circulus-vitiosus-Mechanismus, Kap. 6.1) und `offene-geschlossene-
+      muskelkette` (enthält bereits eine Teilliste der Antischwerkraft-
+      muskeln für die Stemmphase) wurden respektiert, nicht wiederholt. Die
+      Schwerpunkt-Gewichtsverteilung ergänzt den bestehenden Hárrer-Kap.-11-
+      Eintrag (`vordergliedmasse-gewichtsverteilung-taeter-opfer-prinzip`)
+      als zweite unabhängige Quelle mit teils abweichenden Rassebeispielen
+      (Dobermann, Deutscher Schäferhund, Greyhound statt Hárrers Beispielen)
+      — beide Quellen stimmen im Kernbefund überein. Verifiziert via
+      Playwright (4/4 Seiten, 0 Fehler) und visueller Kontrolle der beiden
+      tabellenlastigen Einträge.
+- [ ] Kap. 3 Schwerpunkt und Unterstützungsfläche (b4.pdf) — Abschnitt 3.1
+      „Schwerpunkt" (S. 31) bereits mit abgedeckt (siehe Kap. 2 oben, da b3.pdf
+      bis S. 31 reicht). Rest offen: Abschnitt 3.2 „Unterstützungsfläche"
+      (S. 32ff., vermutlich in b4.pdf).
 - [ ] Kap. 4 Der Knochen (b5.pdf)
 - [x] Kap. 5 Das Gelenk (b6.pdf) — Struktur-/Bauart-/Gelenktyp-Einteilung mit
       caninen Beispielen + Gelenkflächen-Inkongruenz (S. 48–50). Rest des
