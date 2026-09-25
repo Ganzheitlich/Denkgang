@@ -8572,6 +8572,96 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "hilfsmittel-behinderung-ist-kein-tierleid",
+    category: "GRUNDLAGEN",
+    title: "Warum ein Rollstuhl kein Grund zum Einschläfern ist",
+    teaser:
+      "„Ich will ihn nicht leiden lassen“ — hinter dieser gut gemeinten Aussage steckt oft die unbegründete Annahme, Behinderung bedeute automatisch Leid. Viele Einschränkungen sind ein Management-, kein Tierschutzproblem.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eine verbreitete Fehlannahme",
+        text: "Tierbesitzer wollen ihren behinderten Hund mit den Worten „Ich will ihn nicht leiden lassen“ häufig einschläfern lassen — auch unter Tierärzten und Hundetherapeuten ist die Ansicht verbreitet, Behinderung bedeute zwangsläufig ein nicht lebenswertes Leben. Tatsächlich können auch Hunde mit Arthrose ein erfülltes Leben führen, auch gelähmte Hunde wollen laufen und spielen. Viele Behinderungen sind in erster Linie ein Managementproblem — mit den passenden Hilfsmitteln lösbar —, keine zwangsläufige Tierquälerei.",
+      },
+      {
+        type: "text",
+        heading: "Der Rollstuhl als Beispiel",
+        text: "Der Einsatz von Hunderollstühlen ist in der hiesigen Veterinärmedizin noch immer negativ besetzt — nach Einschätzung der Autorin völlig zu Unrecht. In den USA ist der selbstverständliche Gebrauch verschiedenster Hilfsmittel (inkl. Hundewindeln bei Inkontinenz) weit verbreitet. Selbst wenn ein Tier mit Hilfsmittel später durch einen Unfall zu Tode kommt (Beispielfall einer querschnittsgelähmten Katze im Rollstuhl, die nach einem halben Jahr vom Auto erfasst wurde), spricht das nicht gegen das Hilfsmittel: Entscheidend ist die zurückgewonnene Lebensqualität während der Nutzungsdauer, nicht die Vermeidung jedes Risikos um jeden Preis.",
+      },
+      {
+        type: "text",
+        heading: "Konsequenz für die Beratung",
+        text: "Viele Hilfsmittel sind in der Rehabilitationsphase von unschätzbarem Wert und werden nach der Genesung oft gar nicht mehr benötigt. Die Entscheidung für oder gegen ein Hilfsmittel sollte deshalb nicht von einer pauschalen Einschätzung „Behinderung = Leid“ geleitet werden, sondern von einer konkreten Abwägung der tatsächlich erreichbaren Lebensqualität — eine Unterscheidung, die auch in der Beratung von Tierbesitzern aktiv vermittelt werden muss.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Befund überbewertet", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.6 (Hilfsmittel, Einleitung), S. 135. Die geschilderten Fallbeispiele (Rollstuhlkatze, Diskussion unter Tierärzten) und die daraus gezogene Schlussfolgerung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "rehabilitations-hilfsmittel-uebersicht-schlingen-schienen-rollstuhl",
+    category: "THERAPIE",
+    title: "Schlinge, Schiene, Rollstuhl: welches Hilfsmittel wann",
+    teaser:
+      "Sieben Hilfsmittelklassen für sieben unterschiedliche Probleme — von der Teilbelastungs-Schlinge bis zum Rollstuhl bei Beckenfraktur mit sechswöchigem Belastungsverbot.",
+    sections: [
+      {
+        type: "table",
+        heading: "Hilfsmittel im Überblick",
+        columns: ["Hilfsmittel", "Zweck/Indikation", "Wichtige Anforderungen"],
+        rows: [
+          [
+            "Schlingen",
+            "Aufstehhilfe, Sicherung beim Gehen, Teilbelastung der Gelenke ermöglichen; auch als „dritte Hand“ des allein arbeitenden Therapeuten am Laufband",
+            "weich, waschbar, darf nicht einschneiden (Extremitäten/Hals), darf beim Urinieren nicht behindern, fest/glatt sitzend, gut verstellbare Griffe",
+          ],
+          [
+            "Schienen",
+            "Fixation instabiler Gelenke/Extremitäten bei instabilen Gelenken, Frakturen, peripheren Nervenläsionen, Sehnen-/Bandverletzungen — besonders für distale Extremitätengelenke geeignet",
+            "muss Muskel-/Sehnen-/Bandfunktion unterstützen oder übernehmen, physiologische Beweglichkeit erlauben, propriozeptives Feedback vermitteln; rutschfeste, gerippte Sohle im Fußteil",
+          ],
+          [
+            "Boots",
+            "nach Verletzung, bei Zehenschleifern, als Schutz vor unwegsamem Gelände, Streusalz, Wundlecken/Selbstbenagen",
+            "fest sitzend, Klettverschluss-anpassbar, waschbar, rutschfeste gepolsterte Sohle",
+          ],
+          [
+            "Gelenkschoner",
+            "Gelenkstabilisation und Schutz vor unerwünschter Hyperextension, meist am Karpalgelenk",
+            "meist Neopren, ggf. kunststoffverstärkt, Klettverschluss, weich/waschbar/stabil",
+          ],
+          [
+            "Rollstuhl",
+            "alle nicht mehr lauffähigen Hunde (Lähmungen, Beckenfraktur mit Belastungsverbot, instabiler lumbosakraler Übergang, hochgradige HD u. v. a.) — ermöglicht frühe Mobilität und zeitweise Unabhängigkeit vom Besitzer",
+            "leicht, große luftgefüllte geländegängige Reifen, kippsicher, druckfrei; Anfangs nur kurze Übungszeiten (5×2 Minuten); schlaff gelähmte Hinterextremitäten müssen hochgebunden werden, um wund geschliffene Fußrücken zu vermeiden",
+          ],
+          [
+            "Rampen",
+            "wenn Springen/Treppensteigen nicht mehr möglich ist und der Besitzer den Hund nicht mehr heben kann/will (Wohnbereich, Auto)",
+            "stabil, wackelfrei, rutschfester Belag, dennoch leicht zu transportieren; Hund muss an die Rampe gewöhnt werden",
+          ],
+          [
+            "Inkontinenzbetten",
+            "für dauerhaft inkontinente (v. a. große) Hunde, wenn Kontinenz trotz Therapieversuch nicht wiederherstellbar ist",
+            "festes kleinmaschiges Kunststoffnetz auf Metallrahmen, weich gepolsterte Ränder, jederzeit entleerbare Wanne darunter",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Praktische Randbedingungen bei der Auswahl",
+        text: "Die Passform eines Hilfsmittels muss sowohl die Biomechanik des Hundes als auch die Handhabbarkeit für den Besitzer berücksichtigen — nicht jeder ältere Mensch kann sich zum Sichern eines Dackels gut bücken, nicht jeder Besitzer ist stark genug, einen Neufundländer ohne Hilfsmittel aus dem Sitz zu heben. Diese alltagspraktische Seite ist bei der Hilfsmittelauswahl genauso zu berücksichtigen wie die rein medizinische Indikation.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.6.1–5.6.7 (Schlingen, Schienen, Boots, Gelenkschoner, Rollstuhl, Rampen, Inkontinenzbetten), S. 135–138. Alle sieben Hilfsmittelklassen mit ihren Indikationen und Anforderungen sowie der Hinweis zu den alltagspraktischen Randbedingungen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

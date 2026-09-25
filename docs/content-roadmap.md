@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 175 Einträge (7 Anatomie-Spiegelungen, 8 Grundlagen, 51
-  Untersuchung, 65 Pathologie, 40 Biomechanik, 21 Therapie — genaue
+- Wissensbibliothek: 177 Einträge (7 Anatomie-Spiegelungen, 9 Grundlagen, 51
+  Untersuchung, 65 Pathologie, 40 Biomechanik, 23 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -71,24 +71,23 @@ kein Überblick verloren geht.
   Manuelle Therapie beim Hund — **damit ist Hárrer, Manuelle Therapie beim
   Hund (ISBN 978-3-13-245429-3), in seinen fachlich dichten
   Kernabschnitten vollständig ausgewertet (Kap. 6–17)**. Kap. 18 ist reine
-  Literaturliste, kein Extraktionsziel mehr. Danach 29 weitere neue
+  Literaturliste, kein Extraktionsziel mehr. Danach 31 weitere neue
   Einträge aus Mai, Physiotherapie und Bewegungstraining für Hunde —
-  **Kap. 4 „Training und Hundesport" (komplett), Kap. 5.1 „Evaluierung",
-  Kap. 5.2 „Ausgewählte Erkrankungen", Kap. 5.3 „Mobilisationstechniken"
-  (Manuelle Medizin: OMT/Chiropraxis/Osteopathie; Tuina) und aus Kap. 5.5
-  der Abschnitt „Hydrotherapie" (Auftrieb/Gelenkbelastung nach
-  Wasserstand/Unterwasserlaufband) sind abgedeckt**. Siehe BIOMECHANIK-/
-  THERAPIE-Backlog unten für die im Detail bewusst ausgelassenen reinen
-  Technik-Rezeptteile (u. a. die ca. 25 Einzelübungen aus Kap. 5.5, die
-  alle demselben Indikation/Wie oft/Wie lange-Schema folgen).
-  Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere"
-  wurde erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber
-  wegen Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen
-  zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: der noch
-  nicht systematisch gesichtete Rest von Mai ab Kap. 6 (westliche
-  Massage-Grundtechniken, Bandagieren/Orthesen) oder nächstes Buch aus
-  dem Backlog wählen (Hohmann Bewegungsapparat Restkapitel, VetCenter
-  Wirbelsäulenerkrankungen).
+  **damit ist Mai, Physiotherapie und Bewegungstraining für Hunde
+  (ISBN 978-3-13-240099-3), vollständig durchgearbeitet** (Kap. 4
+  „Training und Hundesport", Kap. 5.1–5.3 sowie 5.5 „Hydrotherapie" und
+  5.6 „Hilfsmittel"; das Buch endet danach mit einem reinen Anhang ohne
+  weitere Fachkapitel). Siehe BIOMECHANIK-/THERAPIE-Backlog unten für die
+  im Detail bewusst ausgelassenen reinen Technik-Rezeptteile (u. a. die
+  ca. 25 Einzelübungen aus Kap. 5.5, die alle demselben Indikation/Wie
+  oft/Wie lange-Schema folgen). Baumgartner/Wittek/Khol „Klinische
+  Propädeutik der Haus- und Heimtiere" wurde erkundet (Struktur,
+  relevante Kapitel 6/7 identifiziert), aber wegen Multi-Spezies-Umfang
+  und Extraktions-Qualitätsproblemen zurückgestellt (siehe
+  UNTERSUCHUNG-Backlog). Nächster Schritt: nächstes Buch aus dem Backlog
+  wählen (Hohmann Bewegungsapparat Restkapitel, VetCenter
+  Wirbelsäulenerkrankungen, oder Baumgartner/Wittek/Khol trotz der
+  bekannten Einschränkungen).
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -808,13 +807,26 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       auch zur eigenen Absicherung) wiederholt bereits an anderer Stelle
       erfasste Evaluierungs-/Dokumentationsprinzipien aus Kap. 5.1 — keine
       Duplikation nötig.
-      Nächster Fortsetzungspunkt: Rest des Buches ab Kap. 6 (westliche
-      Massage-Grundtechniken, Bandagieren/Orthesen — noch nicht
-      systematisch gesichtet, vermutlich ph(28).pdf und ggf. weitere,
-      noch nicht identifizierte Dateien).
-- [ ] Rest des Buches ab Kap. 6 (vermutlich ph(28).pdf und weitere) noch
-      nicht systematisch gesichtet — voraussichtlich westliche
-      Massage-Grundtechniken, Bandagieren/Orthesen.
+      Nächster Fortsetzungspunkt: Kap. 5.6 „Hilfsmittel" (letztes echtes
+      Inhaltskapitel des Buches, siehe unten).
+- [x] **Kap. 5.6 „Hilfsmittel" (S. 135–138, ph(28).pdf) abgeschlossen
+      (25.09.2026) — damit ist Mai, Physiotherapie und Bewegungstraining
+      für Hunde, vollständig durchgearbeitet.** Zwei neue Einträge:
+      `hilfsmittel-behinderung-ist-kein-tierleid` (die verbreitete
+      Fehlannahme „Behinderung = Leid", der Rollstuhl-Fallbeispiel-Diskurs,
+      die Unterscheidung Management- vs. Tierschutzproblem) und
+      `rehabilitations-hilfsmittel-uebersicht-schlingen-schienen-rollstuhl`
+      (alle 7 Hilfsmittelklassen — Schlingen/Schienen/Boots/Gelenkschoner/
+      Rollstuhl/Rampen/Inkontinenzbetten — als Tabelle mit Indikation und
+      Anforderungen, plus die alltagspraktische Handhabbarkeits-Dimension
+      für den Besitzer). Verifiziert per Playwright-Screenshot (2/2
+      Seiten, 0 Console-/Page-Errors).
+      **Wichtige Korrektur der bisherigen Annahme:** Das Buch endet nach
+      Kap. 5.6 mit „Teil 3 Anhang" (Kap. 6 Kontaktadressen, Kap. 7
+      Glossar, Kap. 8 Literatur) — es gibt entgegen der ursprünglichen
+      Vermutung KEIN separates Kapitel zu „westlicher Massage" oder
+      „Bandagieren/Orthesen". Der Anhang ist wie Hárrers Literaturliste
+      kein Extraktionsziel. **Mai ist damit vollständig abgeschlossen.**
 
 ### BIOMECHANIK — Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3)
 
