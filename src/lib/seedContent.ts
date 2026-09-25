@@ -8908,6 +8908,197 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "knochenaufbau-bestandteile-makro-mikrostruktur",
+    category: "BIOMECHANIK",
+    title: "Knochenaufbau: warum Kollagen für Zug und Kalzium für Druck zuständig ist",
+    teaser:
+      "Ein Knochen besteht zu einem Drittel aus organischem und zu zwei Dritteln aus anorganischem Material — und diese beiden Anteile teilen sich die mechanische Arbeit fein säuberlich auf.",
+    sections: [
+      {
+        type: "text",
+        heading: "Organisches und anorganisches Material",
+        text: "Der lebende Knochen besteht aus 92 % Trockensubstanz und 8 % Wasser. Ein Drittel der Trockensubstanz ist organisches Material — zu über 90 % Kollagenfasern Typ I, die von Osteoblasten gebildet werden, den Knochen gegenüber Belastung und Spannung festigen und vor allem Zugkräfte aufnehmen; ergänzt durch die noch nicht mineralisierte Grundsubstanz Osteoid (Kollagenfasern, Proteoglykane, Wachstumsfaktoren, Osteocalcin u. a.). Zwei Drittel sind anorganisches Material — überwiegend Kalziumphosphat als Kalziumhydroxylapatit, daneben Kalziumkarbonat, Magnesiumphosphat und Kalziumfluorid. Diese anorganischen Bestandteile nehmen vor allem die Druckkräfte auf und sichern die Stabilität des Knochens.",
+      },
+      {
+        type: "text",
+        heading: "Makroskopischer Aufbau",
+        text: "Von außen nach innen: die Substantia compacta, überzogen vom zweischichtigen Periost (Knochenhaut), das einerseits Muskeln, Sehnen und Bänder am Knochen verankert und andererseits an Knochenumbauvorgängen wie der Kallusbildung beteiligt ist; darunter die Spongiosa, deren Trabekel entlang der auftretenden Zug- und Druckkräfte ausgerichtet sind (trajektorielle Ausrichtung); im Bereich der Diaphyse die zentrale Markhöhle. Etwa 80 % des Skeletts bestehen aus Kortikalis-, 20 % aus Spongiosa-Anteilen — die Spongiosa hat wegen ihrer größeren Oberfläche und Nachbarschaft zum blutbildenden Knochenmark eine höhere Stoffwechselleistung als die Kortikalis.",
+      },
+      {
+        type: "text",
+        heading: "Mikroskopischer Aufbau: drei Zelltypen, ein Versorgungssystem",
+        text: "Für den Knochenumbau sind drei Zelltypen verantwortlich: Osteoblasten (knochenproduzierend), Osteozyten (reife Knochenzellen) und Osteoklasten (knochenabbauend). Das Osteon ist die kleinste funktionelle Grundeinheit der Substantia compacta eines Röhrenknochens: Es besteht aus einem zentralen Havers-Kanal mit einem Havers'schen Blutgefäß und einem vegetativen Nerv, umgeben von konzentrisch angeordneten Knochenlamellen aus Osteozyten und ihrer Matrix. Der Volkmann'sche Kanal verbindet die Havers'schen Gefäße untereinander — dadurch ist der Knochen gut durchblutet und Kalzium kann je nach Bedarf schnell ein- oder ausgelagert werden.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 4.2 (Allgemeiner Aufbau), S. 38f. Die Zusammensetzung (organisch/anorganisch mit Zug-/Druckkraft-Zuordnung), der makroskopische Aufbau (Substantia compacta, Periost, Spongiosa, Kortikalis-/Spongiosa-Anteil) sowie der mikroskopische Aufbau (drei Zelltypen, Osteon, Havers-/Volkmann-Kanal) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "knochenformen-klassifikation-sesambeine-organknochen",
+    category: "ANATOMIE",
+    title: "Sechs Knochenformen — vom Röhrenknochen bis zum Penisknochen",
+    teaser:
+      "Nicht jeder Knochen ist ein Röhrenknochen: Platte, kurze, unregelmäßige, lufthaltige Knochen, Sesambeine und sogar ein eigener Organknochen erfüllen jeweils ganz unterschiedliche mechanische Aufgaben.",
+    sections: [
+      {
+        type: "table",
+        heading: "Die fünf Grundformen des Knochens",
+        columns: ["Knochenform", "Merkmal", "Beispiel beim Hund"],
+        rows: [
+          ["Breite/platte Knochen (Ossa plana)", "Markhöhle enthält nur Trabekelspongiosa mit rotem, blutbildendem Knochenmark", "Schulterblatt"],
+          [
+            "Lange Knochen / Röhrenknochen (Ossa longa)",
+            "Corpus (Diaphyse) plus proximale und distale Epiphyse; dichter Knochenmantel, Markhöhle mit fettreichem gelbem Knochenmark",
+            "Humerus, Femur",
+          ],
+          ["Kurze Knochen (Ossa brevia)", "unregelmäßig würfelförmig bis rundlich; Spongiosa, von dünner Kortikalis überzogen", "Wirbelknochen"],
+          ["Unregelmäßige Knochen (Ossa irregularia)", "komplexer Aufbau, teils kurze, teils platte Knochenstrukturen", "Keilbein des Schädels"],
+          ["Lufthaltige Knochen (Ossa pneumatica)", "schleimhautausgekleidete Hohlräume durch Pneumatisierung und Knochenresorption", "Siebbein"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Sesambeine: Abstandhalter im Sehnenverlauf",
+        text: "Sesambeine sind Verknöcherungen (z. B. die Patella, das größte Sesambein) oder Verknorpelungen (z. B. die distalen Sesambeine der Zehen) im Ursprungs- oder Ansatzgebiet einer Sehne. Sie minimieren Scherkräfte, fungieren als Abstandhalter, verbessern den Hebelarm und schützen die Sehne vor Druck.",
+      },
+      {
+        type: "text",
+        heading: "Organknochen",
+        text: "Als Organknochen bezeichnet man Knochen, die in einem Weichteilorgan liegen, z. B. den Penisknochen (Os penis) des Rüden.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 4.3 (Knochenformen), S. 38f. Die fünf Grundformen mit ihren caninen Beispielen sowie Sesambeine und Organknochen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "trajektorielle-knochenstruktur-minimal-maximal-prinzip",
+    category: "BIOMECHANIK",
+    title: "Das Minimal-Maximal-Prinzip: wie der Knochen mit möglichst wenig Material möglichst viel trägt",
+    teaser:
+      "Die Spongiosa-Trabekel im Femurkopf sind entlang der Belastungslinien ausgerichtet wie die Streben eines Baukrans — schon bei sechs Wochen alten Welpen lässt sich diese Struktur nachweisen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Trajektorielle Ausrichtung und das Minimal-Maximal-Prinzip",
+        text: "Die knöcherne Struktur eines Knochens ist genetisch festgelegt, wird aber lebenslang von statischen und dynamischen Beanspruchungen geformt — durch umliegende Organe und vor allem durch Muskulatur, Bänder, Faszien und Sehnen. Zug- und Druckkräfte führen zum trajektoriellen Aufbau: Die Spongiosa bildet ein engmaschiges Gerüst, dessen Knochenbälkchen entlang der wichtigsten Belastungslinien (Trajektorien) angeordnet sind. Daraus entsteht das Minimal-Maximal-Prinzip — mit einem Minimum an Knochenmaterial und -gewicht wird ein Maximum an Tragkraft erreicht. Am Femurkopf lässt sich diese Anordnung mit der Konstruktion eines Baukrans vergleichen. Schon bei sechs Wochen alten Beagle-Welpen konnte eine geringgradige trajektorielle Ausrichtung der Spongiosa nachgewiesen werden. Die konkrete Spongiosa-Architektur hängt davon ab, ob ein Knochenabschnitt vorwiegend Druckkräften (z. B. Wirbelkörper) oder Biege- und Torsionskräften (z. B. Oberschenkelkopf) ausgesetzt ist.",
+      },
+      {
+        type: "text",
+        heading: "Knochendichte: mehr Belastung, mehr Dichte — mit einer Ausnahme im Alter",
+        text: "Dort, wo der Knochen am meisten belastet wird, ist er am dichtesten. Gesteigerte Belastung (z. B. durch Krafttraining) erhöht — in der Humanmedizin nachgewiesen und beim Hund vergleichbar — die Mineralisierung und damit die Dichte des Knochengewebes. Mit zunehmendem Alter nimmt die Gesamt-Knochendichte dagegen ab, weil Durchblutung und Kalziumversorgung nachlassen. Im belasteten Gelenk selbst nimmt die Knochendichte laut den Untersuchungen von Eller u. a. am alternden Hund dagegen zu — hierfür werden zwei Erklärungen diskutiert: entweder verursachen bereits vorliegende Knorpelschäden die höhere Dichte, oder eine Sklerosierung der Knochenschichten erhöht die Dichte und verursacht dadurch erst die Knorpelschäden. Welche Richtung ursächlich ist, bleibt damit offen.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 4.4 (Statik des Knochens) und Kap. 4.6.1 (Die Knochendichte), S. 40–43, mit Bezug auf Eller D., Anatomische und biomechanische Untersuchungen am Schultergelenk des Hundes (Inauguraldissertation, LMU München 2003). Die trajektorielle Ausrichtung, das Minimal-Maximal-Prinzip, der Welpen-Befund sowie die gegenläufigen Alterseffekte auf Gesamt- vs. Gelenk-Knochendichte (inkl. der beiden konkurrierenden Erklärungsansätze) sind im Original so beschrieben. Ergänzt die bereits dokumentierten Einträge zum Bogensehnenbrücken-Bauprinzip und zum Schwerkraft-/Masse-Feder-Modell (Kap. 2/3.1) um die zugrunde liegende Knochenstruktur-Ebene.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "knochenfunktionen-kraftuebertragung-humerus-tibia-ocd",
+    category: "BIOMECHANIK",
+    title: "Warum Humerus und Tibia funktionell zusammengehören — und wo OCD deshalb entsteht",
+    teaser:
+      "Die Hauptbewegung der Gliedmaße kommt aus Schulter bzw. Hüfte — Humerus und Tibia selbst übertragen kaum Bewegung, sondern vor allem Kraft. Genau an ihren konvexen Stellen entsteht deshalb bevorzugt OCD.",
+    sections: [
+      {
+        type: "list",
+        heading: "Sechs Funktionen des Knochens",
+        items: [
+          "Mechanische Trage- und Stützfunktion: ermöglicht Bewegung gegen die Schwerkraft und Stabilität in allen Haltungen, über Ansatzflächen für Muskeln, Sehnen und Bänder",
+          "Kraftübertragung: siehe Humerus-Tibia-Analogie unten",
+          "Schutzfunktion: Thorax für innere Organe, Schädel und Wirbelkörper für das Nervensystem",
+          "Formgebung: speziesspezifisch und individuell — ein bulliger Hund hat ein breites Becken mit rundem Humerus-/Femurschaft, ein schmaler Hund (z. B. Greyhound) ein schmales Becken mit ovalem Schaft",
+          "Bewegende Funktion: durch Gelenkbildung wird schnellere, differenziertere Bewegung möglich",
+          "Produzierende Funktion: Blutbildung (rotes Knochenmark, Hämopoese) sowie Hormonproduktion (Osteocalcin, das den Blutzuckerspiegel senkt und über Adiponectin die Insulinsekretion anregt — an männlichen Mäusen wurde zudem ein die Testosteronproduktion fördernder, damit fruchtbarkeitsrelevanter Effekt nachgewiesen; eine direkte Übertragung dieses Tiermodell-Befunds auf den Hund ist damit nicht automatisch gegeben)",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die Humerus-Tibia-Analogie und ihre klinische Bedeutung",
+        text: "Die Hauptbewegung der Vordergliedmaße kommt aus der Schulter, die der Hintergliedmaße aus dem Hüftgelenk. Humerus und Tibia selbst übertragen dabei kaum Bewegung, sondern vor allem Kraft — biomechanisch gehört der Humerus funktional zur Tibia; beide besitzen sogar ähnliche Fortsätze (Olecranon bzw. Calcaneus). Das ist auch der Grund, warum Osteochondrosis dissecans (OCD) gerade an den konvexen Stellen dieser beiden Knochen entsteht — an den Stellen also, die überwiegend der Kraftübertragung dienen.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 4.5 (Funktion des Knochens), S. 41f. Die sechs Funktionen, die Humerus-Tibia-Kraftübertragungsanalogie mit der daraus abgeleiteten OCD-Lokalisation sowie die Formgebungs-Beispiele (bulliger Hund vs. Greyhound) sind im Original so beschrieben. Der Osteocalcin-Fruchtbarkeitsbefund ist im Original explizit als Mausstudien-Ergebnis gekennzeichnet — hier entsprechend mit dem Vorbehalt übernommen, dass eine Übertragbarkeit auf den Hund nicht belegt ist.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "knochenwachstum-zeitfenster-kastration-statikfolgen",
+    category: "PATHOLOGIE",
+    title: "Vom 4. bis zum 24. Lebensmonat: warum das Wachstumsfenster je nach Rasse und Kastration so unterschiedlich lang ist",
+    teaser:
+      "Kleine Hunde sind früher ausgewachsen als große — und eine Kastration vor der Geschlechtsreife verlängert das Längenwachstum sogar noch zusätzlich.",
+    sections: [
+      {
+        type: "text",
+        heading: "Einflussfaktoren und Zeitfenster des Wachstums",
+        text: "Knochenwachstum hängt ab von dynamischer Belastung (Schwerkraft, Durchblutung — nicht von statischer Belastung), der Ernährung sowie hormonellen Einflüssen (Wachstums-, Schilddrüsen-, Nebennieren- und Geschlechtshormone). Vom 4. bis 7. Lebensmonat erfolgt beim Hund die größte Skelettwachstumsleistung — in dieser Zeit werden 90 % des Längenwachstums der Gliedmaßen erbracht, hauptsächlich über die distalen Epiphysenfugen der langen Röhrenknochen. Im 9. bis 10. Lebensmonat endet bei den meisten Rassen das Längenwachstum; kleinwüchsige Hunde sind dabei früher ausgewachsen als großwüchsige, die teils erst mit 18 bis 24 Monaten ausgewachsen sind. Das Längenwachstum endet mit Eintritt der Geschlechtsreife durch die Wirkung der Geschlechtshormone — solange noch Knorpel vorhanden ist, ist Längenwachstum möglich; mit der Verknöcherung der Epiphysenfugen kommt es zum Stillstand. Das Dickenwachstum dagegen läuft über den lebenslangen Knochenumbau weiter.",
+      },
+      {
+        type: "text",
+        heading: "Kastration vor der Geschlechtsreife: der eunuchoide Großwuchs",
+        text: "Wird ein Hund vor der Geschlechtsreife kastriert, hält das Längenwachstum durch das Fehlen der Sexualhormone noch etwas länger an — man spricht vom sogenannten eunuchoiden Großwuchs, der durch einen verzögerten oder ausbleibenden Epiphysenschluss entsteht.",
+      },
+      {
+        type: "list",
+        heading: "Fehlernährung in der Wachstumsphase: die Folgekette bis zur Statikveränderung",
+        items: [
+          "Kohlenhydrat- oder kalziumreiche Fehlernährung kann bei großwüchsigen, dafür prädisponierten Hunden skelettale Wachstumsstörungen auslösen (z. B. Panostitis, OCD, hypertrophe Osteodystrophie — Differenzierung dieser drei siehe eigener Eintrag)",
+          "Diese Wachstumsstörungen führen beim Junghund zu Statikveränderungen: Achsenabweichungen und Rotationsfehler an und in den Gelenken sowie ein Missverhältnis der knöchernen Längenverhältnisse durch verzögertes Wachstum",
+          "Mögliche konkrete Folgen: Supination der Pfoten, Unterarmverkürzung, Ermüdungsfraktur, Karpushyperextension, Radius curvus, Subluxation von Radius und Ulna im Ellbogengelenk, X- und O-Beinigkeit (Valgus-/Varusstellung), unterschiedlich ausgeprägte Inkongruenzen im Ellbogen- oder Karpalgelenk",
+        ],
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 4.6 (Knochenwachstum), S. 41f. Die Wachstumsfaktoren, die Zeitfenster mit Rasseunterschieden, der eunuchoide Großwuchs nach Frühkastration sowie die Folgekette von Fehlernährung über Wachstumsstörungen zu konkreten Statikveränderungen sind im Original so beschrieben. Verweist auf den bereits bestehenden Eintrag zur Differenzierung von Panosteitis/hypertropher Osteodystrophie/retinierten Knorpelzapfen (Koch/Fischer) statt diese drei Erkrankungen hier erneut im Detail auszuführen, sowie auf den bestehenden Eintrag zu den Ursachen gestörter Gelenkfunktion (Hohmann Kap. 2.2).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "piezoelektrischer-effekt-physik-geschichte-osteoklasten-mechanismus",
+    category: "BIOMECHANIK",
+    title: "„Wer rastet, der rostet“: die Physik und Geschichte hinter dem piezoelektrischen Knochenumbau",
+    teaser:
+      "1880 entdeckten die Brüder Curie den piezoelektrischen Effekt an Turmalinkristallen — heute weiß man, dass derselbe Mechanismus dem Knochen sagt, wo er auf- und wo er abgebaut werden soll.",
+    sections: [
+      {
+        type: "text",
+        heading: "Das physikalische Prinzip",
+        text: "Piezoelektrizität bezeichnet die Änderung der elektrischen Polarisation und damit das Auftreten einer elektrischen Spannung an einem Festkörper, wenn er elastisch verformt wird (direkter Piezoeffekt): Die Belastung dehnt die Bindungen zwischen den Molekülen, und diese Dehnung verursacht einen leichten elektrischen Strom (piezoelektrische Ladung, Druckelektrizität). Umgekehrt kann sich Material beim Anlegen einer elektrischen Spannung verformen (inverser Piezoeffekt). Der Effekt tritt nur in nichtleitenden Materialien auf.",
+      },
+      {
+        type: "text",
+        heading: "Von den Curie-Brüdern zum lebenden Gewebe",
+        text: "1880 entdeckten die Brüder Jacques und Pierre Curie den direkten Piezoeffekt an Turmalinkristallen: Mechanische Verformung erzeugte auf der Kristalloberfläche elektrische Ladungen proportional zur Beanspruchung. 1967 wiesen der Physiker Morris H. Shamos und der Mediziner Leroy S. Lavine in der Fachzeitschrift „Nature“ erstmals den piezoelektrischen Effekt an kollagenhaltigen Zellen weicher Gewebearten (Haut, Bindegewebe, Knorpel) nach. Man geht heute davon aus, dass alle Gewebearten — pflanzlich, tierisch, menschlich — piezoelektrisch aktiv sind und mechanische Beanspruchung in elektrische Ladungen umwandeln; wesentlicher gemeinsamer Bestandteil ist dabei das Kollagen.",
+      },
+      {
+        type: "text",
+        heading: "Osteoklasten und die Howship-Lakune",
+        text: "Osteoklasten heften sich mit ihren Zellausläufern an den Knochen, pumpen Protonen in den dabei entstehenden abgeschlossenen Reaktionsraum (Ansäuerung, Entmineralisierung) und sezernieren Proteasen, die das Osteoid abbauen — es entsteht eine Einbuchtung, die Howship-Lakune. Osteoklasten bauen dabei keinen piezoelektrisch aktiven Knochen ab: Man geht davon aus, dass Osteoblasten von der negativen Ladung an der mechanisch beanspruchten Knochenseite angezogen werden; sind zu wenig negativ geladene Bereiche vorhanden (z. B. bei mangelnder Belastung), werden stattdessen die Osteoklasten stimuliert. So entsteht das belastungsspezifische Minimum an Knochenmaterial bei maximaler Festigkeit.",
+      },
+      {
+        type: "text",
+        heading: "Klinische Anwendung und Bewegungsmangel",
+        text: "Professor R. O. Becker (New York) nutzte den piezoelektrischen Mechanismus gezielt zur Knochenheilung: Ein an der Bruchstelle angelegter kontinuierlicher elektrischer Strom simulierte den natürlichen piezoelektrischen Strom und führte zu vollständiger Frakturheilung. Übersteigt die Deformation des Knochens durch einwirkende Kräfte mehr als 2 %, kommt es dagegen zur Fraktur. Bleibt physiologischer Druck aus — etwa durch Bewegungsmangel bei alten Hunden mit Hüftarthrose — fehlt der piezoelektrische Effekt, und der Knochenabbau schreitet kontinuierlich fort: Der Spruch „Wer rastet, der rostet“ bekommt damit eine konkrete physiologische Bedeutung. Passive, passiv-assistive und aktive Gelenkbewegungen sowie Koordinationsübungen halten den Knochen piezoelektrisch aktiv. Die konkreten klinischen Kennzahlen dazu (Kalziumverdopplung im Harn nach 4-wöchiger Immobilisation, implantatbedingtes Stress Shielding) sind im bereits bestehenden Eintrag zum piezoelektrischen Effekt aus Mai, Physiotherapie und Bewegungstraining für Hunde, dokumentiert — dieser Eintrag ergänzt dort die physikalischen Grundlagen und die Entdeckungsgeschichte.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Unterkonfidenz", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 4.7 (Knochenabbau), Kap. 4.8 (Der piezoelektrische Effekt) und Kap. 4.9 (Folgen des Bewegungsmangels für den Hund), S. 45–47, mit Verweis im Original auf Shamos/Lavine, Nature 1967, sowie R. O. Becker. Physikalisches Prinzip, Entdeckungsgeschichte, Osteoklasten-Mechanismus mit Howship-Lakune sowie die klinische Anwendung (Becker, 2%-Frakturgrenze) sind im Original so beschrieben. Ergänzt bewusst — statt zu duplizieren — den bereits bestehenden Eintrag `piezoelektrischer-effekt-knochenumbau-belastung` (Mai, Kap. 4.2) um die physikalisch-historische Ebene; die dortigen klinischen Kennzahlen werden hier nicht wiederholt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

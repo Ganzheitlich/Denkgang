@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 183 Einträge (7 Anatomie-Spiegelungen, 9 Grundlagen, 51
-  Untersuchung, 67 Pathologie, 45 Biomechanik, 23 Therapie — genaue
+- Wissensbibliothek: 189 Einträge (7 Anatomie-Spiegelungen, 9 Grundlagen, 51
+  Untersuchung, 68 Pathologie, 50 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -87,14 +87,21 @@ kein Überblick verloren geht.
   Bauprinzip, Ursachen gestörter Gelenkfunktion, Muskelfunktionsstörungen/
   Atrophietypen, Schwerkraft/Masse-Feder-Modell/Schwerpunktlage sowie
   Unterstützungsflächen-Grundlagen und deren pathologische Veränderungen
-  (Dreibeinigkeit, Cauda-equina); Details siehe Hohmann-Backlog unten. Damit
-  ist Teil 1 des Buches („Klinische Untersuchung, Statik und Dynamik")
-  vollständig ausgewertet. Baumgartner/Wittek/Khol „Klinische Propädeutik
-  der Haus- und Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7
-  identifiziert), aber wegen Multi-Spezies-Umfang und
-  Extraktions-Qualitätsproblemen zurückgestellt (siehe
-  UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann Kap. 4 „Der Knochen"
-  (b5.pdf, Teil 2 „Grundlagen der Anatomie") fortsetzen (siehe
+  (Dreibeinigkeit, Cauda-equina). Damit ist Teil 1 des Buches („Klinische
+  Untersuchung, Statik und Dynamik") vollständig ausgewertet. Danach 6
+  weitere neue Einträge aus Kap. 4 „Der Knochen" (Teil 2 „Grundlagen der
+  Anatomie", vollständig, S. 38–47): Knochenaufbau, sechs Knochenformen,
+  trajektorielle Struktur/Minimal-Maximal-Prinzip, Knochenfunktionen inkl.
+  Humerus-Tibia-Kraftübertragung/OCD, Knochenwachstum mit
+  Kastrationseffekt, sowie der piezoelektrische Effekt physikalisch-
+  historisch vertieft (ergänzt den bestehenden Eintrag aus Mai statt ihn
+  zu duplizieren). Details siehe Hohmann-Backlog unten. Baumgartner/
+  Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere" wurde
+  erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
+  Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
+  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann Kap. 5 „Das
+  Gelenk" Rest (Gelenkkapsel/Synovia/Bänder, falls noch mehr als S. 48–50
+  folgt) oder Kap. 8 „Die Bewegung des Hundes" (b10.pdf) fortsetzen (siehe
   Hohmann-Backlog), danach ggf. VetCenter Wirbelsäulenerkrankungen oder
   Baumgartner/Wittek/Khol.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
@@ -1311,7 +1318,31 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       abgedeckt — Teil 1 „Klinische Untersuchung/Statik und Dynamik" des
       Buches ist nun vollständig ausgewertet. Verifiziert via Playwright
       (2/2 Seiten, 0 Fehler).
-- [ ] Kap. 4 Der Knochen (b5.pdf)
+- [x] **Kap. 4 „Der Knochen" vollständig abgeschlossen (25.09.2026), S. 38–47
+      (b5.pdf).** Sechs neue Wissenseinträge: Knochenaufbau (organisch/
+      anorganisch mit Zug-/Druckkraft-Zuordnung, Makro-/Mikrostruktur inkl.
+      Osteon/Havers-/Volkmann-Kanal, BIOMECHANIK), sechs Knochenformen inkl.
+      Sesambeine/Organknochen (ANATOMIE), trajektorielle Struktur/Minimal-
+      Maximal-Prinzip + Knochendichte-Alterseffekt (BIOMECHANIK), sechs
+      Knochenfunktionen inkl. Humerus-Tibia-Kraftübertragungsanalogie als
+      OCD-Erklärung (BIOMECHANIK, mit epistemischem Vorbehalt beim
+      Osteocalcin-Fruchtbarkeitsbefund, der im Original nur an Mäusen gezeigt
+      wurde), Knochenwachstum mit Zeitfenstern/Kastrationseffekt/
+      Statikfolgen-Liste (PATHOLOGIE) sowie der piezoelektrische Effekt aus
+      physikalisch-historischer Perspektive (Curie-Brüder 1880, Shamos/
+      Lavine 1967, Osteoklasten-Mechanismus mit Howship-Lakune, BIOMECHANIK).
+      Bewusst nicht dupliziert: Kap. 5.1 „Einteilungen der Gelenke" (S. 48,
+      identische Tab. 5.1–5.3) ist bereits über den bestehenden Eintrag
+      `gelenktypen-klassifikation` abgedeckt — hier nur Kap. 4 extrahiert.
+      Der neue Piezoelektrizitäts-Eintrag ergänzt bewusst den bestehenden
+      `piezoelektrischer-effekt-knochenumbau-belastung` (Mai Kap. 4.2) um die
+      physikalischen Grundlagen, statt dessen klinische Kennzahlen
+      (Kalziumverdopplung, Stress Shielding) zu wiederholen. Die
+      Wachstumsstörungen Panostitis/OCD/hypertrophe Osteodystrophie wurden
+      nicht erneut im Detail behandelt (bereits über Koch/Fischer
+      differenziert), nur die neue Statikfolgen-Liste (Supination,
+      Karpushyperextension, Radius curvus, X-/O-Beinigkeit u. a.) ergänzt.
+      Verifiziert via Playwright (6/6 Seiten, 0 Fehler).
 - [x] Kap. 5 Das Gelenk (b6.pdf) — Struktur-/Bauart-/Gelenktyp-Einteilung mit
       caninen Beispielen + Gelenkflächen-Inkongruenz (S. 48–50). Rest des
       Kapitels (Gelenkkapsel, Synovia, Bänder — falls noch mehr folgt) noch
