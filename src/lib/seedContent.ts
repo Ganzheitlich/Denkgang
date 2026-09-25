@@ -6501,6 +6501,419 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
+  {
+    id: "obere-hws-funktionelle-anatomie-atlas-foramen-jugulare",
+    category: "BIOMECHANIK",
+    title: "Obere HWS: warum ein verschobener Atlas Übelkeit und Schluckbeschwerden auslösen kann",
+    teaser:
+      "Der Therapeut könnte sich die Finger wund massieren, ohne etwas zu erreichen — liegt die Ursache am verschobenen Atlas, hilft nur dessen Mobilisation, nicht die Behandlung der davon betroffenen Strukturen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Segmente, entgegengesetzt gekoppelt",
+        text: "Die obere HWS besteht aus 6 Gelenken, funktionell aber vor allem aus den Segmenten C0 (Artt. atlantooccipitales, Ellipsoidgelenk: Flexion/Extension und Seitneige) und C1 (Artt. atlantoaxiales, bikonvexes Zapfengelenk: hier findet die Hälfte der gesamten HWS-Rotation statt). Für die obere HWS sind Rotation und Seitneige entgegengesetzt gekoppelt: Eine Rotation des Kopfes nach links führt automatisch zu einer Seitneige des Okziputs nach rechts, weil dies die Bänder auf der rechten Seite entspannt und so das größtmögliche Bewegungsausmaß ermöglicht (gekoppelte Bewegung).",
+      },
+      {
+        type: "text",
+        heading: "Atlas, Kapsel und Foramen jugulare",
+        text: "Die Atlasflügel (Procc. laterales) sind beim Hund immer tastbar — der Atlas ist der „Träger des Kopfes“. Die Gelenkkapsel von C0 ist sehr groß und grenzt an das Foramen jugulare. Ist der Atlas verschoben, kann die dadurch gereizte, verdickte Kapsel das Foramen jugulare beeinträchtigen — dort verlaufen N. vagus, N. accessorius, N. glossopharyngeus und die V. jugularis. Eine Irritation dieser Strukturen kann zu einem völlig verspannten M. trapezius und M. sternocephalicus (N. accessorius), zu „Unwohlsein“ oder vegetativer Symptomatik (N. vagus), zu Schluckbeschwerden (N. glossopharyngeus) oder zu intrakranieller Stase (V. jugularis) führen.",
+      },
+      {
+        type: "text",
+        heading: "Konsequenz für die Behandlung",
+        text: "In einem solchen Fall ist die Ursache der verschobene Atlas — nicht die davon betroffene Struktur selbst. Eine lokale Behandlung der Symptomregion (z. B. Massage des M. trapezius) bringt keinen Erfolg; erst nach erfolgreicher Mobilisation des Atlas bildet sich die Symptomatik zurück. Dies ist ein Beispiel dafür, warum die korrekte Lokalisation der Ursache in der Manuellen Therapie wichtiger ist als die reine Behandlung des Symptomorts.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1 (Obere HWS-Region — Anatomie und funktionelle Bedeutung), S. 204f. Gelenkanatomie, gekoppelte Bewegung und die Atlas-Foramen-jugulare-Verbindung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "obere-hws-instabilitaet-dens-warnsignale",
+    category: "PATHOLOGIE",
+    title: "Dens axis und Lig. transversum: wann die obere HWS ein Fall für die Klinik ist",
+    teaser:
+      "Verweigert ein Hund partout die Flexion der oberen Kopfgelenke, ist das kein Grund für mehr Nachdruck, sondern ein Warnsignal — hier kann eine instabile Halswirbelsäule vorliegen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Sicherungsmechanismus",
+        text: "Der Dens axis (mit konvexer Facies articularis anterior) artikuliert mit der konkaven Fovea dentis des Atlas. Das Lig. transversum hält den Dens axis am vorderen Atlasbogen. Bei Kopfflexion entfernt sich der vordere Atlasbogen vom Dens — hält das Lig. transversum den Dens dabei nicht, würde dieser in die Medulla oblongata fallen, was zu Übelkeit, Erbrechen und Panik führen würde. Gleitet der Axis ventral, hören diese Symptome sofort auf.",
+      },
+      {
+        type: "list",
+        heading: "Ursachen eines insuffizienten Lig. transversum",
+        items: [
+          "Trauma mit Ruptur des Ligaments",
+          "Lange Kortisongabe (Kortison weicht Muskeln und Sehnen auf)",
+          "Entzündliche Erkrankungen von Rachen, Nase oder Ohren",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warnsignale — wann in die Klinik überwiesen werden muss",
+        text: "Verweigert der Hund in der Untersuchung partout jede Flexion der oberen Kopfgelenke, oder treten dabei Symptome auf, muss er zur weiterführenden Untersuchung in eine Klinik überwiesen werden. Mögliche Ursachen sind eine atlantoaxiale Subluxation, eine Densanomalie, eine Densfraktur oder eine Ruptur der Ligg. alaria. In diesen Fällen ist eine weitere manualtherapeutische Untersuchung der oberen HWS nicht angezeigt.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "falsche Priorisierung", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1 (Obere HWS-Region — Segment C1, Dens axis), S. 205f. Sicherungsmechanismus, Ursachen der Instabilität und die Überweisungskriterien sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "untere-hws-funktionelle-anatomie-differentialdiagnosen",
+    category: "PATHOLOGIE",
+    title: "Untere HWS: warum Kratzen an der Schulter auf den Hals zurückgehen kann",
+    teaser:
+      "Die Dermatome der unteren Halswirbelsäule liegen supraskapulär — vermehrtes Kratzen an dieser Stelle kann tatsächlich ein Hinweis auf ein Problem der unteren HWS sein, nicht auf Hautjucken.",
+    sections: [
+      {
+        type: "text",
+        heading: "Orientierung an der unteren HWS",
+        text: "Die Procc. spinosi der unteren HWS sind flach, kurz und durch die Mm. interspinales nicht palpierbar. Zur Orientierung dienen daher die Querfortsätze: C2/C3 liegen etwa auf halber Halshöhe, C6 wird bei flektiertem Kopf auf halber Höhe des Margo cranialis scapulae nach kraniomedial ertastet und ist durch seine ausgeprägte Crista ventralis besonders gut palpabel. C7 liegt kaudal von C6, etwas dorsal, und ist deutlich schwieriger zu finden.",
+      },
+      {
+        type: "text",
+        heading: "Gekoppelte Bewegungen — anders als in der oberen HWS",
+        text: "In der unteren HWS sind Rotation und Seitneige in Extension/Flexion gleichsinnig gekoppelt (Rechtsrotation → Rechtsseitneige, größtmögliches Bewegungsausmaß). In der Neutralstellung dagegen sind sie entgegengesetzt gekoppelt — schaut ein Hund physiologisch nach rechts, ist die begleitende Rotation bei Rechtsseitneige nach links. Konvergenzgleiten (Facetten schließen sich) findet bei Extension auf der Seite der Lateralflexion statt, Divergenzgleiten (Facetten öffnen sich) bei Flexion auf der Gegenseite.",
+      },
+      {
+        type: "text",
+        heading: "Dermatom-Hinweis und Symptome",
+        text: "Die Dermatome der unteren Halswirbelsäule verlaufen supraskapulär — vermehrtes Kratzen in dieser Region kann daher ein Hinweis auf ein Problem der unteren HWS sein statt auf reinen Juckreiz. Hunde mit Problemen der unteren HWS bewegen den Kopf oft nicht normal, tragen ihn tief oder steif, winseln bei Bewegungsaufforderung, und belasten evtl. eine Vordergliedmaße nicht (durch die Kompression, die beim Auftreten in die HWS gegeben wird).",
+      },
+      {
+        type: "list",
+        heading: "Mögliche Ursachen von Problemen der unteren HWS",
+        items: [
+          "Somatische Dysfunktion",
+          "Bandscheibenprobleme/-vorfälle",
+          "Stenose des Foramen intervertebrale",
+          "Atlantoaxiale Subluxation",
+          "Spondylosen, Osteoarthritis",
+          "Neoplasie",
+          "Dysfunktion der 1. Rippe",
+          "Akuter Torticollis",
+        ],
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.2 (Untere HWS-Region — Anatomie und funktionelle Bedeutung), S. 210f. Palpationslandmarken, gekoppelte Bewegungen, Dermatom-Hinweis, Symptome und Ursachenliste sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "bws-funktionelle-anatomie-facettengeometrie",
+    category: "BIOMECHANIK",
+    title: "Die BWS als Übergangsregion: warum Th10–L1 so anfällig für Spondylose sind",
+    teaser:
+      "Am 10. Brustwirbel drehen sich die Facettengelenke buchstäblich um — die kranialen Facetten stehen frontal, die kaudalen sagittal. Genau dieser Übergang macht die kaudale BWS zur mechanischen Schwachstelle.",
+    sections: [
+      {
+        type: "text",
+        heading: "Facettenstellung von kranial nach kaudal",
+        text: "Die Gelenkflächen der BWS stehen beinahe frontal, wobei die kraniale BWS (ähnlich der HWS) etwas horizontal steht (mehr Rotation, wenig Seitneige), während sich die kaudale BWS der LWS annähert und die Gelenkflächen fast vertikal stehen (mehr Flexion/Extension). Der 10. Brustwirbel nimmt eine Sonderstellung ein: Seine kranialen Facetten sind frontal, die kaudalen sagittal ausgerichtet. Kleine Hunderassen haben mit einer Häufigkeit von 63 % eine uni- oder bilaterale Facettenaplasie an dieser Stelle.",
+      },
+      {
+        type: "text",
+        heading: "Warum die kaudale BWS besonders anfällig ist",
+        text: "In diesem Übergangsbereich ändert sich sowohl die Wirbelsäulenkrümmung (von Lordose zu Kyphose) als auch die Gelenkstellung — beides zusammen sorgt für eine erhebliche mechanische Mehrbelastung. Die kaudale BWS hat dadurch ein hohes Bewegungsausmaß und ist besonders anfällig für Spondylosen und Bandscheibenprobleme, die hier am häufigsten zwischen Th10 und L1 auftreten. Für die BWS gilt: Das größte Bewegungsausmaß bei Flexion/Extension ergibt sich, wenn Seitneige und Rotation gleichsinnig gekoppelt sind; in der Neutralstellung ist die Seitneige der Rotation entgegengesetzt gekoppelt.",
+      },
+      {
+        type: "list",
+        heading: "Symptome von BWS-Dysfunktionen",
+        items: [
+          "Eingeschränkte Range of Motion in BWS, Vordergliedmaße und evtl. HWS/LWS",
+          "Schmerz bei Seitneige und/oder Extension, bewegungsabhängiger Schmerz",
+          "Übertriebene kyphotische/lordotische Haltung",
+          "Springt nicht gerne, flachere Atmung",
+          "Geringere horizontale Auslenkung der Vordergliedmaße",
+          "Vegetative Zeichen (z. B. Verquellungen), hypertone Rückenmuskulatur, verspannte Faszien",
+          "Lässt sich nicht gerne über der BWS-Region anfassen",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Ursachen — auch aus den Organen",
+        text: "Neben somatischen Dysfunktionen, Bandscheibenproblemen, Rückenmarkinfarkt, Rippendysfunktionen, Spondylosen, Arthrose/Arthritis, Discospondylitis, Stenosen und Traumata (Spielunfälle, Anrempeln) können BWS-Funktionsstörungen auch aus Organproblemen (Darm, Prostata, Bauchspeicheldrüse) oder einem verspannten Diaphragma entstehen — Letzteres z. B. durch Hecheln, Atemwegserkrankungen oder einen verkürzten M. iliopsoas. Auch extreme Inspirationszyklen (Sport, Angst, Stress, Husten) und Sport mit plötzlichen Bewegungen in ungewohnter Stellung zählen zu den Auslösern.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.3 (Brustwirbelsäule — Anatomie und funktionelle Bedeutung), S. 214–216. Facettengeometrie, Übergangsmechanik, Symptom- und Ursachenliste sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["discus", "iliopsoas"],
+  },
+  {
+    id: "bws-springingtest-rosett-test-differenzierung",
+    category: "UNTERSUCHUNG",
+    title: "Springingtest und Rosett-Test: wenn der Hund in die Knie geht, ist das ein Alarmsignal",
+    teaser:
+      "Ein Muskelzucken bei der BWS-Provokation deutet auf eine Gelenkdysfunktion hin — geht der Hund dabei in die Knie, ist das ein Hinweis auf ein akutes Bandscheibenproblem.",
+    sections: [
+      {
+        type: "text",
+        heading: "Springingtest von kranial",
+        text: "Eine Hand drückt im Schnäuzgriff bilateral über den Proc. spinosus des kranialen Wirbels nach ventral/etwas kaudal, während die andere Hand flächig an der Bauchmuskulatur anliegt, um ein Anspannen bei Schmerz zu fühlen. Dabei entsteht eine Kompression in den kaudalen Facetten (Facettenschluss) und eine Separation in den Procc. articulares craniales. Ist die Provokation positiv, weiß der Therapeut nur, dass das Segment schmerzhaft ist — noch nicht, wo genau. Zur genaueren Lokalisation dient der Rosett-Test oder eine einseitige dorsoventrale Druckprovokation am Querfortsatz jedes Segments von Th1–Th13.",
+      },
+      {
+        type: "text",
+        heading: "Rote Flagge: Muskelzucken vs. Einknicken",
+        text: "Ein Muskelzucken bei dieser Provokation ist ein Hinweis auf eine Gelenkdysfunktion. Geht der Hund dagegen in die Knie, ist das ein Hinweis auf ein Bandscheibenproblem mit akutem Schmerz — ein klinisch bedeutsamer Unterschied für die weitere Abklärung.",
+      },
+      {
+        type: "text",
+        heading: "Rosett-Test",
+        text: "Der kaudale Proc. spinosus wird von lateral mit einem Daumen fixiert, während der Daumen der anderen Hand von der Gegenseite einen rotatorischen Impuls auf den kranialen Proc. spinosus gibt — es entsteht eine Facettenkompression auf der Seite, zu der der kraniale Dornfortsatz gedreht wird. Zu beachten: Bei Th4–9 liegen die Dornfortsätze kaudaler als die zugehörige Facette, was bei der Interpretation berücksichtigt werden muss.",
+      },
+      {
+        type: "text",
+        heading: "Differenzierung Rippe vs. Bandscheibe",
+        text: "Zwischen Th3 und Th10 hat sich die mediale Translation als Differenzialdiagnostik bewährt: Eine Rippe wird fixiert, die kranial benachbarte Rippe parallel zur Bandscheibenebene nach medial transliert. Physiologisch ist dieser Test schmerzfrei; ist er schmerzhaft, deutet das auf ein Bandscheibenproblem hin. Zum Ausschluss eines reinen Rippenproblems werden beide gleichzähligen Rippen beidseits gleichzeitig nach medial transliert — das komprimiert die Rippen gegen den Wirbelkörper, ohne Facetten oder Muskeln zu provozieren. Bei Bandscheibenproblemen zeigt der Hund typischerweise eine totale Muskelabwehrspannung mit fehlendem Endgefühl, und häufig sind dabei beide Rippen extrem schmerzhaft — deutlich mehr als bei einem isolierten Rippen- oder Facettenproblem.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.3 und 16.2.4 (Provokation der BWS, Differenzialdiagnostik Rippe/Bandscheibe/Facettengelenk), S. 218–222. Springingtest, Rosett-Test und die mediale Translation als Rippen-/Bandscheiben-DD sind im Original so beschrieben, inklusive der Warnzeichen-Unterscheidung Muskelzucken vs. Einknicken.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["discus"],
+  },
+  {
+    id: "rippen-anatomie-1-rippe-stellungsdiagnose",
+    category: "UNTERSUCHUNG",
+    title: "Rippenblockaden erkennen: Pumpenschwengel, Eimerhenkel und die Stellungsdiagnose der 1. Rippe",
+    teaser:
+      "Kraniale und kaudale Rippen bewegen sich um unterschiedlich geneigte Achsen — wer die 1. Rippe wie die 8. behandelt, mobilisiert in die falsche Richtung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Bewegungsmuster der Rippen",
+        text: "Die ersten 9 Rippen (Tragerippen) sind gelenkig mit dem Sternum verbunden und führen eine Pumpenschwengelbewegung um eine Achse aus, die ca. 35° zur Frontalebene geneigt ist — das erweitert beim Einatmen den sagittalen Thoraxdurchmesser. Die 10.–12. Rippe (Atmungsrippen) und die frei endende 13. Rippe (Fleischrippe) führen dagegen eine Eimerhenkelbewegung um eine ca. 35° zur Sagittalebene geneigte Achse aus, die den lateralen Thoraxdurchmesser erweitert. Grund für diesen Unterschied: Die Querfortsätze stehen kranial weiter zentral, kaudal weiter dorsal.",
+      },
+      {
+        type: "text",
+        heading: "Warum Rippen- und Bandscheibenprobleme zusammenhängen",
+        text: "Jede Rippe (außer Th1 und Th13) hat mit zwei Wirbelkörpern und der dazwischenliegenden Bandscheibe Kontakt — dem gleichzähligen und dem kranial davon liegenden Wirbel. Dadurch sind Rippen direkt in die segmentale Beweglichkeit eingebunden: Rippendysfunktionen treten meist gemeinsam mit Dysfunktionen des zugehörigen Brustwirbelkörpers auf, und Bandscheibe und Rippe können sich gegenseitig beeinflussen. Eine Dysfunktion der Rippen kann zudem den Sympathikotonus erhöhen, da der sympathische Grenzstrang ventral der Rippenköpfchen liegt.",
+      },
+      {
+        type: "text",
+        heading: "Stellungsdiagnose der 1. Rippe",
+        text: "Von C6 (gut palpabel durch die ausgeprägte Crista ventralis) senkrecht nach kaudal palpiert, findet sich die 1. Rippe. Im Seitenvergleich wird ihre Höhe beurteilt; zusätzlich wird bei Seitneige der HWS weg von der zu testenden Seite geprüft, ob die 1. Rippe mit nach kranial gleitet. Tut sie das, ist sie in Inspiration blockiert; gleitet sie nicht mit, ist sie in Exspiration blockiert. Steht die 1. Rippe z. B. rechts hoch, steht Th1 in Linksrotation.",
+      },
+      {
+        type: "text",
+        heading: "Stellungsdiagnose der 2.–13. Rippe",
+        text: "Mit dem Thenar wird auf der kontralateralen Thoraxseite entlang der Rippenwinkel gefahren — von kranial nach kaudal zur Diagnose von Inspirationsrippen (fühlbare Stufenbildung = Hinweis auf eine in Inspiration stehende Rippe), von kaudal nach kranial zur Diagnose von Exspirationsrippen. Die ersten 3 Rippen liegen unter der Skapula und werden bei abduzierter Vordergliedmaße in der Achsel palpiert; die 4. Rippe liegt direkt kaudal der Skapula.",
+      },
+      {
+        type: "list",
+        heading: "Prädisponierte Hunde für Rippengelenk-Dysfunktionen",
+        items: [
+          "Kleine Hunde, die auf die Couch springen",
+          "Sporthunde",
+          "Hunde mit Stress oder Atemwegserkrankungen",
+          "Spielende Hunde",
+        ],
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.4 (Rippen — Anatomie und Stellungsdiagnose), S. 220–228. Bewegungsachsen, Rippen-Bandscheiben-Kopplung und die Stellungsdiagnostik-Methoden sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["discus"],
+  },
+  {
+    id: "sympathikus-manuelle-therapie-wirkmechanismus",
+    category: "BIOMECHANIK",
+    title: "Warum Manuelle Therapie als Reflextherapie wirkt: der Sympathikus-Mechanismus",
+    teaser:
+      "Ein Mikrotrauma kann eine Negativspirale aus Vasokonstriktion, Sauerstoffmangel und noch mehr Schmerz auslösen — gezielte Stimulation zwischen C8 und L4 kann genau diesen Kreislauf durchbrechen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die Negativspirale der erhöhten sympathischen Reflexaktivität",
+        text: "Überbelastung, einseitige Belastung oder Mikrotrauma setzen Entzündungs-/Schmerzmediatoren frei, was zu lokalem Hypertonus oder Défence musculaire (Cyriax) führen kann. Die dadurch gesteigerte sympathische Reflexaktivität löst im Gewebe Vasokonstriktion aus (außer in der Muskulatur, dort erhöhten Gammatonus). Durch die Vasokonstriktion wird der Abtransport von Stoffwechselendprodukten gestört, O2-Konzentration und pH-Wert sinken, die Konzentration von Schmerzmediatoren steigt — das Gewebe selbst wird zur Schmerzquelle, was die sympathische Reflexaktivität weiter erhöht. Zunächst ist dies segmental begrenzt, breitet sich bei anhaltender Aktivität aber auf Nachbarsegmente aus.",
+      },
+      {
+        type: "text",
+        heading: "Auswirkung auf Bindegewebe und periphere Sensoren",
+        text: "Verminderte Durchblutung und Immobilisation reduzieren die Matrix im kollagenen Bindegewebe; die kollagenen Fasern rücken näher zusammen und bilden zusätzliche H-Brücken sowie pathologische Cross-Links, was zwar Stabilität, aber auf Kosten der Mobilität gibt (solche Cross-Links entstehen erst nach 300–500 Tagen Immobilität). Kontraktile Myofibroblasten im Bindegewebe reagieren auf die erhöhte sympathische Aktivität mit Kontraktion — das erklärt akut nach einer Irritation auftretende Spannungserhöhungen sowie das unmittelbare Auftreten eines Kapselmusters. Zusätzlich senkt die erhöhte sympathische Aktivität die Reizschwelle peripherer Sensoren, sodass Reize weitergeleitet werden, die normalerweise unterschwellig blieben.",
+      },
+      {
+        type: "text",
+        heading: "Der therapeutische Hebel: Fasertyp 2/3-Stimulation zwischen C8 und L4",
+        text: "Die gesteigerte sympathische Reflexaktivität lässt sich senken, indem man Sensoren reizt, deren afferente Fasern über Fasertypen 2 und 3 nach zentral ziehen. Den größten Effekt erzielt eine Stimulation innerhalb des Gebiets der sympathischen Ursprungskerne (C8–L4): Druck-, Tast-, Berührungs- und Vibrationsrezeptoren paravertebral der Wirbelsäule in diesem Bereich. Dafür eignen sich alle Weichteiltechniken (Streichungen, Klopfungen, Knetungen, Vibrationen), Piccolotraktionen, Schüttelungen am Proc. spinosus sowie Mobilisationen im Matrixbelastungsbereich (z. B. Bewegungspalpationstechniken). Dies liefert die physiologische Erklärung dafür, warum Manuelle Therapie in der Physiotherapie als eine Form der Reflextherapie verstanden wird.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.5 (Sympathikus), S. 230f. Der gesamte Reflexmechanismus, die Bindegewebs-/Cross-Link-Erklärung und die C8–L4-Stimulationsempfehlung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "lws-facettengeometrie-instabilitaet-bandscheibe",
+    category: "PATHOLOGIE",
+    title: "LWS-Facettengeometrie: warum 42 % der Schäferhunde ein strukturelles Risiko haben",
+    teaser:
+      "Asymmetrische oder abgeflachte Facettengelenke sind beim Deutschen Schäferhund deutlich häufiger als bei anderen Rassen — eine mechanisch ineffiziente Geometrie, die Osteophyten und Stenosen begünstigt.",
+    sections: [
+      {
+        type: "text",
+        heading: "L4 als Übergangszone",
+        text: "Die Beweglichkeit der LWS-Wirbelkörper nimmt nach kaudal ab; die Gelenkflächen stehen sagittal, wodurch Flexion/Extension die Hauptbewegung sind. Das größte Bewegungsausmaß ergibt sich bei Extension/Flexion mit gleichseitiger Seitneige und Rotation (gekoppelt); in Neutralstellung bei Seitneige mit entgegengesetzter Rotation. Die Procc. accessorii, die die Seitneige limitieren, sind nur bis L4 ausgebildet — L4 ist damit eine Übergangszone mit entsprechend erhöhtem Problempotenzial; Benninger et al. (2004) fanden hier deutlich mehr Seitneige als in den kaudaleren Wirbeln. L7 hat eine Sonderstellung, da sein kaudaler Gelenkpartner das Sakrum ist, dessen Gelenkfläche fast frontal steht.",
+      },
+      {
+        type: "table",
+        heading: "Vier Formen der LWS-Facettengelenke beim Hund",
+        columns: ["Form", "Bemerkung"],
+        rows: [
+          ["Gerade stehende Facettengelenke", "—"],
+          ["Bogenförmige Facettengelenke", "—"],
+          [
+            "Runde Facettengelenke",
+            "Häufiger bei dicken Hunden, Border Collies mit sehr viel Extension, Hunden ohne segmentale Stabilität und Hündinnen mit vielen Würfen — alle bilden zusätzliche Facettengelenke aus (ventral wie kaudal)",
+          ],
+          [
+            "Asymmetrische Facettengelenke",
+            "Verursachen Beschwerden, da die Bewegungsachse sich verlagert und Bandscheibe, Weichteile und Gelenke stärker belastet werden",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Der Deutsche Schäferhund: eine strukturelle Sonderstellung",
+        text: "42 % der Deutschen Schäferhunde haben asymmetrisch stehende Facettengelenke auf Höhe L5–7 (gegenüber 31 % bei anderen Rassen), bei 47 % ist die Facettenform dort sogar gerade gestellt (gegenüber 16 % bei anderen Rassen; Benninger et al. 2006). Diese ineffiziente Facettengeometrie kann Ursache mechanischer Probleme sein und zu Osteophyten an den Facetten und in der Folge zu Stenosen führen.",
+      },
+      {
+        type: "text",
+        heading: "Von der Instabilität zur Bandscheibenüberlastung",
+        text: "Da die Bewegungsachsen der LWS physiologisch innerhalb der Bandscheibe liegen, sind Zug- und Druckkräfte auf die Bandscheibe beim gesunden Tier unproblematisch. Bei einem LWS-Gelenkproblem entsteht jedoch auf einer Seite des Bewegungssegments eine Hypomobilität, auf der Gegenseite eine Hypermobilität im Facettengelenk — die Bewegungsachse verschiebt sich dadurch aus der Bandscheibe heraus, was diese vermehrt belastet und Schmerz verursachen kann. Dieser Mechanismus könnte mit erklären, warum Hunde mit langem Rücken und kurzen Beinen für Bandscheibenprobleme prädisponiert sind.",
+      },
+      {
+        type: "list",
+        heading: "Risikofaktoren für fehlende segmentale Stabilisation",
+        items: [
+          "Hormonelle Einflüsse (Läufigkeit)",
+          "Allgemeiner Spannungsverlust am Rumpf",
+          "Längere Immobilisation (Käfigruhe)",
+          "Höheres Alter (abnehmende Muskelmasse)",
+          "Rassebedingt schwaches Bindegewebe",
+        ],
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund übersehen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.6 (Lendenwirbelsäule — Anatomie und funktionelle Bedeutung), S. 231–233, unter Bezug auf Benninger et al. 2004 und 2006. Facettengeometrie-Typen, Schäferhund-Zahlen und der Instabilitäts-Bandscheiben-Mechanismus sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["discus"],
+  },
+  {
+    id: "hypaxiale-muskulatur-iliopsoas-diaphragma-thoracic-outlet",
+    category: "PATHOLOGIE",
+    title: "Von der verspannten Lende bis zum Gliedmaßen-Knabbern: fasziale Ketten der Rumpfmuskulatur",
+    teaser:
+      "Ein verspannter M. iliopsoas kann über das Diaphragma bis zur Organmotilität durchschlagen — und verspannte Mm. scaleni können am Plexus brachialis ein Thoracic-outlet-Syndrom auslösen.",
+    sections: [
+      {
+        type: "text",
+        heading: "M. iliopsoas: von der Lende bis zum Nervensystem",
+        text: "Bei LWS-Problemen hat der Hund oft zusätzlich bilaterale M.-iliopsoas-Probleme. Neben der Fehlstellung der Facettengelenke kann die Hypertonie des Muskels den durch ihn ziehenden N. femoralis komprimieren — mit Parästhesien in den autonomen Hautzonen des Oberschenkels, an denen der Hund knabbert oder leckt. Da der M. iliopsoas direkt an das Diaphragma angrenzt, kann sich seine Hypertonie faszial auf das Zwerchfell übertragen; ein verspanntes Diaphragma gibt seine Spannung faszial an angrenzende Organe weiter, was deren Motilität (die natürliche rhythmische Eigenbewegung von ca. 7–9 Zyklen/Minute) einschränken und über die Segmentreflektorik Dysfunktionen an den zugehörigen Wirbelsäulensegmenten auslösen kann. Zusätzlich kann ein verspanntes Diaphragma den hindurchziehenden N. vagus irritieren, was zu HWS-Problemen (C0) oder vegetativen Symptomen führen kann.",
+      },
+      {
+        type: "text",
+        heading: "M. quadratus lumborum",
+        text: "Bei Spondylose und LSÜ-Twist ist dieser Muskel oft hyperton. Er liegt am weitesten dorsal der sublumbalen Muskulatur (zwischen den letzten Rippen, ventral der Procc. transversi der LWS, Ansatz an den Ilia) und wirkt als Stabilisator der LWS sowie als Flexor und Seitneiger — funktionell vergleichbar mit dem stabilisierenden Lig. iliolumbale beim Menschen.",
+      },
+      {
+        type: "text",
+        heading: "Mm. scaleni und Thoracic-Outlet-Risiko",
+        text: "Der mediale M. scalenus zieht von den Querfortsätzen der unteren HWS zur 1. Rippe und kann diese bei Verspannung in eine Inspirationsstellung ziehen; der dorsale M. scalenus zieht weiter bis zur 2.–4. bzw. 8.–9. Rippe. Unter dem M. scalenus medius verläuft der Plexus brachialis hindurch — bei Verspannung des Muskels ist eine Irritation des Plexus (Thoracic-outlet-Syndrom) denkbar, mit Parästhesien in der Vordergliedmaße, an denen der Hund knabbert oder leckt. In der Praxis ist die Scaleni-Muskulatur oft so schmerzhaft verspannt, dass Hunde selbst bei vorsichtiger Palpation aufjaulen können — hier ist besondere Vorsicht geboten.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.3.4 (Spezifische Untersuchung der hypaxialen Stammmuskeln), S. 250f. Die faszialen Ketten (Iliopsoas–Diaphragma–Organe–N. vagus), der M.-quadratus-lumborum-Vergleich und das Thoracic-outlet-Risiko der Mm. scaleni sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["iliopsoas"],
+  },
+  {
+    id: "epaxiale-stammmuskulatur-erector-spinae-multifidi",
+    category: "BIOMECHANIK",
+    title: "M. erector spinae und Mm. multifidi: warum Tonusveränderungen auf Facettenprobleme hindeuten",
+    teaser:
+      "Ausgeprägte Tonusveränderungen genau neben den Dornfortsätzen sind meist kein Zufallsbefund — sie zeigen häufig auf eine darunterliegende Facettengelenkproblematik.",
+    sections: [
+      {
+        type: "text",
+        heading: "M. erector spinae als funktionelle Einheit",
+        text: "M. iliocostalis, M. longissimus und M. spinalis werden als M. erector spinae zusammengefasst, da sie in allen Wirbelsäulenabschnitten dieselbe Funktion haben (Extension und Seitneige) und deshalb gemeinsam untersucht und behandelt werden können. Der M. iliocostalis verläuft divergierend von den LWS-Querfortsätzen und der Crista iliaca bis zu den letzten Halswirbeln und ist weit lateral gut palpabel. Der M. longissimus ist der stärkste und längste Rückenmuskel und liegt zwischen dem transversospinalen System (medial) und dem M. iliocostalis (lateral). Der M. spinalis verbindet sich im Brust-/Halsbereich mit dem M. semispinalis; dessen Pars capitis entspringt an der Fascia thoracolumbalis und setzt am Os occipitale an — eine anatomische Erklärung dafür, warum sich Probleme „hinten“ als Symptome „vorne“ am Kopf/an der HWS zeigen können. Auch der M. splenius entspringt an der Fascia thoracolumbalis und kann auf demselben Weg Probleme von kaudal nach kranial weiterleiten.",
+      },
+      {
+        type: "text",
+        heading: "Mm. multifidi und Mm. rotatores: Feinabstimmung mit Signalwirkung",
+        text: "Die Mm. multifidi (HWS, BWS, LWS) überspannen bis zu 5 Segmente zwischen Procc. mamillares/accessorii/transversi und den Spinosi; sie gehen kranial in die Mm. obliqui capitis über und kaudal in den M. sacrocaudalis dorsalis medialis der Rute. Die Mm. rotatores liegen lateral von den Multifidi verdeckt, ausschließlich in der BWS, und überspringen 1–2 Segmente. Beide Muskelgruppen sind reich an Muskelspindeln und Golgi-Sehnenapparaten und damit für die Feinabstimmung der Wirbelsäulenbewegung zuständig. Klinisch bedeutsam: Ausgeprägte Tonusveränderungen der Mm. multifidi direkt neben den Dornfortsätzen sind ein häufiger Hinweis auf eine Facettengelenkproblematik im selben Segment.",
+      },
+      {
+        type: "text",
+        heading: "Grenzen der Längentestung bei kurzen Muskeln",
+        text: "Bei den Mm. multifidi/rotatores lässt sich Ursprung und Ansatz nicht wie bei anderen Muskeln einfach auseinanderziehen, da das laterale Muskelsystem den Untersucher sonst aus dem Gewebe drückt. Stattdessen wird die zu untersuchende Seite zunächst durch Seitneige zu ihr hin entspannt und die Muskulatur durch zusätzliche Rotation zur untersuchten Seite in Spannung gebracht. Grundsätzlich gilt: Da diese Muskulatur sehr kurz ist und der Hund — anders als der Mensch — während der Längenuntersuchung keine differenzierte Schmerzangabe machen kann, ist die Aussagekraft einer isolierten Längentestung dieser kurzen Muskeln generell begrenzt.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Anatomieverwechslung", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.3.3 (Spezifische Untersuchung der epaxialen Stammmuskeln), S. 248–250. Muskelfunktionen, die Fascia-thoracolumbalis-Kette und die methodischen Grenzen der Längentestung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "atemmuskulatur-inspiratoren-exspiratoren-uebersicht",
+    category: "BIOMECHANIK",
+    title: "Atemmuskulatur: welche Muskeln beim Hund ein- und welche ausatmen",
+    teaser:
+      "Mm. intercostales externi und interni liegen im selben Zwischenrippenraum und sehen sich zum Verwechseln ähnlich — nur ihr entgegengesetzter Faserverlauf entscheidet, ob sie bei der Ein- oder Ausatmung mitarbeiten.",
+    sections: [
+      {
+        type: "table",
+        heading: "Inspiratoren und Exspiratoren im Überblick",
+        columns: ["Gruppe", "Muskeln"],
+        rows: [
+          [
+            "Inspiratoren",
+            "Diaphragma (wichtigster Inspirator), Mm. intercostales externi, M. serratus dorsalis cranialis, Mm. levatores costarum, Mm. scaleni, M. serratus ventralis thoracis",
+          ],
+          [
+            "Exspiratoren",
+            "Mm. intercostales interni, M. retractor costae, M. serratus dorsalis caudalis, Bauchmuskeln, M. transversus thoracis",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Diaphragma",
+        text: "Das Diaphragma ist eine Muskel-Sehnen-Platte zwischen Brust- und Bauchhöhle mit mittig gelegener Sehne; der periphere, muskuläre Teil inseriert an Lendenwirbelkörpern, Rippen und Sternum und beeinflusst diese Strukturen entsprechend. Palpiert wird vorsichtig entlang des gesamten Rippenbogens von der 13. Rippe bis zum Proc. xiphoideus, indem die Fingerbeeren unter den Rippenbogen geschoben werden.",
+      },
+      {
+        type: "text",
+        heading: "Warum sich Mm. intercostales externi und interni entgegengesetzt verhalten",
+        text: "Beide Muskelgruppen liegen im selben Interkostalraum, unterscheiden sich aber im Faserverlauf: Die Mm. intercostales externi ziehen schräg nach kaudodorsal und unterstützen dadurch die Inspiration, während die Mm. intercostales interni mit Faserverlauf Richtung kaudoventral bei der Exspiration mitarbeiten. Der M. serratus dorsalis teilt sich ebenso funktionell: Die Pars cranialis ist Inspirator, die Pars caudalis Exspirator; Ursprung ist jeweils die Fascia thoracolumbalis, weshalb eine hypertone Fascia thoracolumbalis über diesen Muskel Spannung bis in die kranialen Rippen weiterleiten und dort Dysfunktionen der Rippen-Bewegungssegmente verursachen kann.",
+      },
+      {
+        type: "text",
+        heading: "Verbindung zur Rippen-Stellungsdiagnose",
+        text: "Eine eigenständige, isolierte Längentestung der Interkostalmuskulatur ist nicht möglich — stattdessen liefert die Stellungsdiagnostik der Rippen (siehe Wissenseintrag zur 1. Rippe und Rippen-Stellungsdiagnose) indirekt die Information, welche Interkostalmuskulatur verspannt ist: Eine in Inspiration stehende Rippe ist der kranialen Rippe angenähert und von der nächstkaudalen Rippe abstandsvergrößert; bei einer in Exspiration stehenden Rippe ist es genau umgekehrt.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.3.5 und 16.3.6 (Spezifische Untersuchung der Inspiratoren und Exspiratoren), S. 251f. Muskelgruppen, Diaphragma-Anatomie und der Faserverlauf-Gegensatz der Intercostales sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

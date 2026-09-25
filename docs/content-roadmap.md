@@ -62,24 +62,25 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 119 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 37
-  Untersuchung, 49 Pathologie, 17 Biomechanik, 9 Therapie — genaue
+- Wissensbibliothek: 130 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 39
+  Untersuchung, 52 Pathologie, 24 Biomechanik, 9 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
-  Einträge seit dem 21.09.). Danach 22 weitere neue Einträge aus Hárrer,
+  Einträge seit dem 21.09.). Danach 33 weitere neue Einträge aus Hárrer,
   Manuelle Therapie beim Hund — **Kap. 6–9 (komplette Hintergliedmaße:
-  Hüfte, Knie, Unterschenkel/Zehen) sind vollständig abgedeckt**, dazu aus
-  Kap. 16 (Wirbelsäule) die allgemeinen Grundlagen, das komplette
-  ISG-Unterkapitel und der einleitende Muskelfunktions-/Subokzipital-Teil
-  (siehe BIOMECHANIK-Backlog unten für den noch offenen Rest von Kap. 16
-  sowie Kap. 13). Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus-
-  und Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7
-  identifiziert), aber wegen Multi-Spezies-Umfang und
-  Extraktions-Qualitätsproblemen
+  Hüfte, Knie, Unterschenkel/Zehen) sind vollständig abgedeckt**, und aus
+  **Kap. 16 (Wirbelsäule) sind alle fachlich dichten Kernabschnitte
+  (Anatomie, Funktion, Differenzialdiagnostik, benannte Tests für HWS,
+  BWS, Rippen, Sympathikus, LWS, ISG sowie die Rumpf-/Atemmuskulatur)
+  vollständig ausgewertet** (siehe BIOMECHANIK-Backlog unten für die
+  bewusst ausgelassenen reinen Technik-Rezeptteile sowie für Kap. 13).
+  Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere"
+  wurde erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber
+  wegen Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen
   zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer
-  Kap. 16-Rest (einzelne Wirbelsäulenabschnitte/übrige Rückenmuskulatur)
-  oder Kap. 13-Rest (Ellenbogenregion) fortsetzen.
+  Kap. 13-Rest (Ellenbogenregion) oder Kap. 10–12 (Vordergliedmaße-
+  Regionen) fortsetzen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -772,6 +773,65 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       16.3.3–16.3.11 (übrige Rückenmuskelgruppen), danach Kap. 13-Rest
       (Ellenbogenregion) und Kap. 10–12 (Vordergliedmaße-Regionen, noch
       nicht auf Vollständigkeit geprüft).
+- [x] **Kap. 16-Rest: funktionelle Anatomie/Differenzialdiagnostik aller
+      Wirbelsäulenabschnitte sowie Rumpf-/Atemmuskulatur abgeschlossen
+      (25.09.2026), S. 204–252 (ma(16).pdf) — nach demselben selektiven
+      Prinzip wie beim ersten Kap.-16-Durchgang: Anatomie/Funktion/
+      Differenzialdiagnostik/benannte Tests vollständig übernommen, die
+      reinen Einzelgelenk-/Einzelmuskel-Bewegungspalpations-/Joint-play-/
+      Mobilisationsrezepte weiterhin bewusst ausgelassen (identisches
+      Muster wie bei den Hüft-/Knie-/Unterschenkelkapiteln).**
+      Elf neue Wissenseinträge: `obere-hws-funktionelle-anatomie-atlas-
+      foramen-jugulare` (Kap. 16.2.1: C0/C1-Kopplung, der Atlas-Foramen-
+      jugulare-Hirnnerven-Mechanismus als Lehrbeispiel für „Ursache ≠
+      Symptomort"), `obere-hws-instabilitaet-dens-warnsignale` (Kap.
+      16.2.1: Dens-/Lig.-transversum-Sicherungsmechanismus und konkrete
+      Überweisungskriterien — sicherheitsrelevant), `untere-hws-
+      funktionelle-anatomie-differentialdiagnosen` (Kap. 16.2.2:
+      Palpationslandmarken, gekoppelte Bewegungen, Dermatom-Hinweis
+      supraskapulär, Ursachenliste), `bws-funktionelle-anatomie-
+      facettengeometrie` (Kap. 16.2.3: Facettenwandel kranial→kaudal,
+      Th10-Sonderstellung, Th10–L1-Spondylose-Risiko, Symptom-/
+      Ursachenliste inkl. Organe/Diaphragma), `bws-springingtest-rosett-
+      test-differenzierung` (Kap. 16.2.3/16.2.4: die zwei benannten
+      Provokationstests plus die Rippen-Bandscheiben-DD über mediale
+      Translation, inkl. Rotwarnsignal „Hund geht in die Knie" = Diskus
+      statt „Muskelzucken" = Facettengelenk), `rippen-anatomie-1-rippe-
+      stellungsdiagnose` (Kap. 16.2.4: Pumpenschwengel- vs.
+      Eimerhenkelbewegung, Rippen-Bandscheiben-Kopplung, Stellungs-
+      diagnostik 1. und 2.–13. Rippe), `sympathikus-manuelle-therapie-
+      wirkmechanismus` (Kap. 16.2.5: der komplette neurophysiologische
+      Erklärungsmechanismus, warum Manuelle Therapie als Reflextherapie
+      wirkt — Negativspirale, Kollagen-/Cross-Link-Veränderungen,
+      C8–L4-Stimulationsprinzip), `lws-facettengeometrie-instabilitaet-
+      bandscheibe` (Kap. 16.2.6: L4-Übergangszone, vier
+      Facettengelenk-Formen, die 42-%/47-%-Schäferhund-Zahlen nach
+      Benninger et al. 2006, der Instabilitäts-Bandscheiben-Mechanismus
+      als mögliche IVDD-Teilerklärung bei lang-kurzbeinigen Rassen),
+      `hypaxiale-muskulatur-iliopsoas-diaphragma-thoracic-outlet` (Kap.
+      16.3.4: die fasziale Kette Iliopsoas→Diaphragma→Organmotilität→
+      N. vagus, plus das Thoracic-outlet-Risiko der Mm. scaleni am
+      Plexus brachialis), `epaxiale-stammmuskulatur-erector-spinae-
+      multifidi` (Kap. 16.3.3: M.-erector-spinae-Funktionseinheit, die
+      Fascia-thoracolumbalis-Kette „hinten"→„vorne", Multifidus-Tonus
+      als Facettenproblem-Indikator, methodische Grenzen der
+      Kurzmuskel-Längentestung) und `atemmuskulatur-inspiratoren-
+      exspiratoren-uebersicht` (Kap. 16.3.5/16.3.6: vollständige
+      Inspiratoren-/Exspiratoren-Übersicht, Diaphragma-Palpation,
+      Intercostales-externi-vs.-interni-Gegensatz). Verifiziert per
+      Playwright-Screenshot (11/11 Seiten, 0 Console-/Page-Errors).
+      **Damit ist Hárrer Kap. 16 „Die Wirbelsäule" in seinen fachlich
+      dichten Kernabschnitten (Anatomie, Funktion, Differenzialdiagnostik,
+      benannte Tests) vollständig ausgewertet.** Weiterhin offen (bewusst
+      ausgelassen, siehe oben): alle reinen Bewegungspalpations-/Joint-
+      play-/Mobilisationstechnik-Rezepte für einzelne Wirbelsäulen-
+      segmente sowie 16.3.7–16.3.11 (Behandlungstechniken der bereits
+      untersuchten Muskelgruppen) und 16.2.8 Rute (dünner Anatomieteil,
+      nur Facettengelenke an den ersten 4 Schwanzwirbeln, kein
+      eigenständiger Eintrag nötig).
+      Nächster Fortsetzungspunkt: Kap. 13-Rest (Ellenbogenregion) oder
+      Kap. 10–12 (Vordergliedmaße-Regionen, noch nicht auf Vollständigkeit
+      geprüft).
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 
