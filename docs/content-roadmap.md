@@ -62,27 +62,26 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 136 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 42
-  Untersuchung, 55 Pathologie, 29 Biomechanik, 9 Therapie — genaue
+- Wissensbibliothek: 137 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 42
+  Untersuchung, 55 Pathologie, 30 Biomechanik, 9 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
-  Einträge seit dem 21.09.). Danach 39 weitere neue Einträge aus Hárrer,
-  Manuelle Therapie beim Hund — **Kap. 6–10 (komplette Hintergliedmaße:
-  Hüfte, Knie, Unterschenkel, Sprunggelenk/Zehen), Kap. 12 (Schulterregion/
-  skapulothorakales Gleitlager) und Kap. 13 (Ellenbogenregion) sind
-  vollständig abgedeckt**, und aus **Kap. 16 (Wirbelsäule) sind alle
-  fachlich dichten Kernabschnitte** (Anatomie, Funktion,
-  Differenzialdiagnostik, benannte Tests für HWS, BWS, Rippen, Sympathikus,
-  LWS, ISG sowie die Rumpf-/Atemmuskulatur) **vollständig ausgewertet**
-  (siehe BIOMECHANIK-Backlog unten für die bewusst ausgelassenen reinen
-  Technik-Rezeptteile). Baumgartner/Wittek/Khol „Klinische Propädeutik der
-  Haus- und Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7
-  identifiziert), aber wegen Multi-Spezies-Umfang und
-  Extraktions-Qualitätsproblemen zurückgestellt (siehe
-  UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer Kap. 11
-  (Vordergliedmaße-Einleitung) prüfen oder nächstes Buch aus dem Backlog
-  wählen.
+  Einträge seit dem 21.09.). Danach 40 weitere neue Einträge aus Hárrer,
+  Manuelle Therapie beim Hund — **Kap. 6–13 (komplette Hintergliedmaße,
+  die Vordergliedmaßen-Einleitung, Schulterregion/skapulothorakales
+  Gleitlager und Ellenbogenregion) sind vollständig abgedeckt**, und aus
+  **Kap. 16 (Wirbelsäule) sind alle fachlich dichten Kernabschnitte**
+  (Anatomie, Funktion, Differenzialdiagnostik, benannte Tests für HWS,
+  BWS, Rippen, Sympathikus, LWS, ISG sowie die Rumpf-/Atemmuskulatur)
+  **vollständig ausgewertet** (siehe BIOMECHANIK-Backlog unten für die
+  bewusst ausgelassenen reinen Technik-Rezeptteile). Baumgartner/Wittek/
+  Khol „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
+  (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
+  Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
+  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: restliches Hárrer Kap. 14
+  sowie Kap. 15/17/18 auf Vollständigkeit prüfen, oder nächstes Buch aus
+  dem Backlog wählen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -894,6 +893,29 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       laut Inhaltsverzeichnis sehr kurz, S. 126) oder nächstes Buch aus
       dem Backlog, falls Kap. 11 keinen eigenständigen Eintrag
       rechtfertigt.
+- [x] **Kap. 11 „Die Vordergliedmaßen" (Einleitung, S. 126, ma(11).pdf)
+      abgeschlossen (25.09.2026).** Wie erwartet sehr kurz, aber
+      fachlich eigenständig (keine Überschneidung mit den bereits aus
+      Kap. 6–10/12/13 erfassten Gelenk-/Muskel-Inhalten): rassebedingte
+      Gewichtsverteilung auf die Vordergliedmaße (60% im Mittel, 80%
+      Whippet vs. 58% Rottweiler) und ihre Konsequenz für die
+      Kompensationsfähigkeit bei Lastumverteilung, das Täter-Opfer-Prinzip
+      (verspannte Schultergürtelmuskulatur schränkt die
+      Skapulabeweglichkeit ein → kleinere Schritte → Gelenküberlastung als
+      Folge, nicht Ursache), der Zusammenhang Skapulawinkelung↔Gangbild
+      (steil → Stechtrab, physiologisch z. B. beim Foxterrier; flach →
+      raumgreifender Trab), und das Schwerelot als klinisches
+      Beurteilungskonzept für eine physiologische Skapulastellung. Ein
+      neuer Eintrag: `vordergliedmasse-gewichtsverteilung-taeter-opfer-prinzip`.
+      Verifiziert per Playwright-Screenshot (1/1 Seite, 0 Console-/
+      Page-Errors).
+      **Damit sind Hárrer Kap. 6–13 vollständig ausgewertet** (die
+      fachlich dichten Kernabschnitte; reine Technik-Rezepte bewusst
+      ausgelassen, siehe oben). Nächster Fortsetzungspunkt: verbleibende
+      Hárrer-Kapitel (Kap. 14 nur teilweise erfasst — Unterarm-
+      Rotationsgelenke und Toe-in/Toe-out sind vorhanden, der Rest von
+      Kap. 14 sowie Kap. 15, 17, 18 sind noch nicht auf Vollständigkeit
+      geprüft) oder nächstes Buch aus dem Backlog.
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 

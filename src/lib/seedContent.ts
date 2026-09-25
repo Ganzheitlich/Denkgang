@@ -7139,6 +7139,40 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["rocky"],
     relatedAnatomyIds: ["supraspinatus", "infraspinatus", "subscapularis", "coracobrachialis", "deltoideus", "teres-major", "teres-minor"],
   },
+  {
+    id: "vordergliedmasse-gewichtsverteilung-taeter-opfer-prinzip",
+    category: "BIOMECHANIK",
+    title: "Warum ein schmerzhaftes Gelenk oft nur das Opfer ist",
+    teaser:
+      "Verspannte Schultergürtelmuskulatur schränkt die Skapulabewegung ein, verkleinert die Schritte und überlastet dadurch Schulter- und Ellenbogengelenk — der Therapeut muss Täter und Opfer unterscheiden.",
+    sections: [
+      {
+        type: "text",
+        heading: "Rassebedingte Gewichtsverteilung",
+        text: "Die Vordergliedmaße trägt beim Hund im Mittel etwa 60% des Körpergewichts, da der Körperschwerpunkt in etwa auf einem Drittel der Thoraxhöhe hinter der Skapula liegt. Die tatsächliche Belastung variiert jedoch rassebedingt erheblich — von ca. 80% beim Whippet bis zu nur ca. 58% beim Rottweiler. Ein Hund, der von Natur aus wenig Gewicht auf der Vordergliedmaße trägt (wie der Rottweiler), kann eine Lastumverteilung von hinten nach vorne (z. B. bei Hintergliedmaßen-Problemen) anatomisch schlechter kompensieren als ein Hund, der ohnehin schon viel Gewicht vorne trägt (wie der Whippet) — bei ihm entwickeln sich in dieser Situation eher zusätzliche Probleme an der Vordergliedmaße.",
+      },
+      {
+        type: "text",
+        heading: "Muskuläre Aufhängung und das Täter-Opfer-Prinzip",
+        text: "Die Vordergliedmaße ist am Thorax ausschließlich muskulär aufgehängt (skapulothorakales Gleitlager, keine gelenkige Verbindung). Diese Aufhängung federt Bewegungen elastisch ab, bremst den Körper, lenkt ihn seitlich und wirkt als vertikale Stütze. Funktionell wichtig: Die Skapulabewegung trägt 65–80% zum Schrittlängengewinn der Vordergliedmaße bei. Verspannte Schultergürtelmuskulatur schränkt deshalb die Skapulabeweglichkeit ein, die Schritte werden kleiner, und da weder das Schultergelenk noch das Ellenbogengelenk für eine dauerhafte Mehrbelastung durch diese härtere Kraftübertragung ausgelegt sind, kommt es über die Zeit wahrscheinlich zu Gangbildveränderungen. Der Therapeut muss sich hier über das Täter-Opfer-Prinzip im Klaren sein: Das schmerzhafte, überlastete Gelenk ist oft nur das Opfer einer proximal liegenden muskulären Ursache (dem eigentlichen „Täter“) — eine reine Gelenktherapie am Opfer würde die Ursache verfehlen.",
+      },
+      {
+        type: "text",
+        heading: "Skapulawinkelung und Gangbild",
+        text: "Die Winkelung der Skapula beeinflusst das Gangbild direkt. Steht die Skapula steil (z. B. beim Foxterrier), hat die Vordergliedmaße nur eine kurze Reichweite und das Tier zeigt einen Stechtrab — das ist bei dieser Rasseanatomie physiologisch, nicht pathologisch. Steht die Skapula flach (z. B. beim Border Collie), hat die Vordergliedmaße eine längere Reichweite und das Tier zeigt einen raumgreifenden Trab. Steht die Skapula jedoch zu steil, wirken deutlich größere Kompressionskräfte auf die Knorpelflächen der Gelenke der Vordergliedmaße, und das Tier muss mehr über seine Muskulatur abfangen — was zu Tonuserhöhungen im Schultergürtelbereich führen kann.",
+      },
+      {
+        type: "text",
+        heading: "Das Schwerelot als Beurteilungshilfe",
+        text: "Um zu beurteilen, ob die Skapula physiologisch steht, wird das Schwerelot herangezogen: Es verläuft durch die Mitte der Skapula zum Boden, soll hinter dem Schultergelenk verlaufen, durch den Drehpunkt des Ellenbogengelenks und entlang dem senkrecht stehenden Unterarm bis zum Ballen ziehen — der Carpus sollte dabei hinter dem Lot stehen. Von vorne betrachtet soll das Schwerelot senkrecht auf den Boden fallen.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Befund überbewertet", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 11 „Die Vordergliedmaßen“ (Einleitung), S. 126. Gewichtsverteilung, Rassenbeispiele, Täter-Opfer-Prinzip, Skapulawinkelung/Gangbild-Zusammenhang und das Schwerelot-Konzept sind im Original so beschrieben.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["biceps"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
