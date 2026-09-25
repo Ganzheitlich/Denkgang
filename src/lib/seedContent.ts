@@ -236,7 +236,7 @@ const CASES: CaseSeed[] = [
       { label: "Der M. temporalis", correct: false, errorCategory: "Anatomieverwechslung" },
     ],
     sourceStatus:
-      "Quellenkandidat: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 10 (Klinischer Bezug zu ideomotorischen Bewegungen) — beschreibt, wie Schmerz sich zunächst in vermiedenen Alltagsbewegungen zeigen kann statt in offensichtlicher Lahmheit. Status weiterhin DRAFT — Seitenangabe und fachliche Freigabe stehen noch aus.",
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 10.1 (Grundlagen — Klinischer Bezug zu ideomotorischen Bewegungen), S. 450f. Beschreibt, wie Schmerz sich zunächst in vermiedenen ideomotorischen Alltagsbewegungen (hier: Vermeidung des Bückens beim Fressen) zeigen kann, statt in offensichtlicher Lahmheit — siehe auch den vertiefenden Wissenseintrag `ideomotorische-bewegungen-diagnostisches-potenzial`.",
     einstiegsbildUrl: "/cases/nala-01.png",
   },
   {
@@ -9559,6 +9559,87 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Faktenwissen", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 9.1 (Grundlagen) und Kap. 9.1.2 (Synergisten und Antagonisten), S. 219f., mit Verweis im Original auf Fischer und Lilje. Die Neudefinition der Beuger-/Strecker-Rollen (Stabilisierung, Energiespeicherung, „steifer Stab“-Konzept) sowie der ausdrückliche Vorbehalt zur eingeschränkten Übertragbarkeit humanmedizinischer Synergisten-/Antagonisten-Zuordnungen auf den Hund sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "ideomotorische-bewegungen-diagnostisches-potenzial",
+    category: "UNTERSUCHUNG",
+    title: "Wenn sich ein Hund nicht mehr hinter dem Ohr kratzen kann",
+    teaser:
+      "Nicht nur die Lahmheit selbst zählt: verweigerte Alltagsbewegungen wie Kratzen, Wälzen oder Pfötchengeben haben einen hohen diagnostischen Wert — wenn man gezielt danach fragt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was sind ideomotorische Bewegungen?",
+        text: "„Ideo“ stammt aus dem Griechischen für „eigen“/„selbst“ — ideomotorische Bewegungen sind unbewusst gesteuerte, selbst ausgelöste Bewegungen, die auf den eigenen Körper oder auf Artgenossen gerichtet sind, im Gegensatz zur lokomotorischen Fortbewegung. Der skelettomuskuläre Apparat des Hundes wurde nicht nur durch Fortbewegung, sondern wesentlich auch durch diese ideomotorischen Bewegungen geformt.",
+      },
+      {
+        type: "list",
+        heading: "Beispiele ideomotorischer Bewegungen",
+        items: [
+          "Treppensteigen, Springen (Sofa, Hindernis, Auto), nach Mäusen graben, mit Artgenossen herumtoben",
+          "Sich hinter dem Ohr kratzen, sich an Flanke oder After lecken/beißen, sich wälzen",
+          "Den Rücken krümmen oder durchstrecken, den Kopf/ganzen Körper schütteln (z. B. um Behandlungsstress abzuschütteln)",
+          "Den Kopf heben/senken, mit der Rute wedeln, sich zum Kotabsatz hinsetzen, die Hintergliedmaße zum Urinieren heben",
+          "Die Vorderpfote heben (Pfötchengeben), Augen/Schnauze mit der Vorderpfote abreiben, einen anderen Hund bespringen, sich zusammenrollen",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum verweigerte Bewegungen so aussagekräftig sind",
+        text: "Bei der Lahmheitsdiagnostik wird meist nur auf das physiologische Aufsetzen der Pfoten und die Gangart geachtet — die ideomotorischen Bewegungen werden dabei oft übersehen, obwohl eine verweigerte Bewegung einen hohen diagnostischen Wert hat. Der Zeitfaktor liefert dabei einen wichtigen Anhaltspunkt: Nimmt der Hund schon immer eine bestimmte Sitzhaltung ein, spricht das für eine Angewohnheit oder einen angeborenen Schaden; wird die Haltung erst seit Kurzem eingenommen, liegt eher eine Schonhaltung vor. Auch das Verhältnis von Aufwärts- zu Abwärtsbewegung ist aufschlussreich: Bei der Aufwärtsbewegung müssen schmerzhafte Gelenke stärker belastet werden als bei der Abwärtsbewegung, weshalb Aufwärtsbewegungen bei Gelenkproblemen typischerweise stärker betroffen sind.",
+      },
+      {
+        type: "text",
+        heading: "Ganzheitliche statt reduktionistische Betrachtung",
+        text: "Ideomotorische Bewegungen lassen sich nicht schematisch einzelnen Krankheiten zuordnen — der Hund ist als Einheit aus Körper und Verhalten zu betrachten, nicht als „die Hüftdysplasie“ oder „die Lahmheit hinten links“. Eine länger bestehende Erkrankung zieht meist Folgeerscheinungen nach sich: Ein Hund mit HD hat häufig auch Rückenverspannungen, ein eingeschränktes thorakoskapuläres Gleiten und in der Folge eine Schrittverkürzung der Vordergliedmaße. Genaue klinische Anamnese und das gezielte Abfragen ideomotorischer Bewegungen bleiben deshalb eine wichtige, oft unterschätzte Grundlage der Diagnosefindung.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 10.1 (Grundlagen), S. 450f. Die Definition, die Beispielliste, der Zeitfaktor als diagnostischer Hinweis, die Aufwärts-/Abwärtsbewegungs-Asymmetrie sowie die ganzheitliche Betrachtungsweise mit dem HD-Folgeerscheinungs-Beispiel sind im Original so beschrieben.",
+    relatedCaseIds: ["nala"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "haengende-rute-water-tail-differentialdiagnosen",
+    category: "PATHOLOGIE",
+    title: "Hängende Rute: vom harmlosen „Water Tail“ bis zum Cauda-equina-Syndrom",
+    teaser:
+      "Ob ein Hund plötzlich oder schon seit Wochen nicht mehr mit der Rute wedeln kann, entscheidet zwischen einem harmlosen Muskelkater nach dem Schwimmen und einer ernsten neurologischen Erkrankung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Zeitfaktor als erste Weiche",
+        text: "Bei einer hängenden, nicht mehr wedelnden Rute ist die erste entscheidende Frage: seit wann? Eine akut hängende Rute und eine chronisch hängende Rute haben grundlegend unterschiedliche Ursachenspektren.",
+      },
+      {
+        type: "table",
+        heading: "Akute vs. chronische hängende Rute",
+        columns: ["Zeitverlauf", "Typische Ursachen", "Besonderheit"],
+        rows: [
+          [
+            "Akut",
+            "„Water Tail“ (Wasserschwanz) nach starker Schwimmbelastung — Muskelkater durch den Einsatz der Rute als „5. Gliedmaße“; akuter Bandscheibenvorfall; Faserknorpelembolie des Rückenmarks; akute Analdrüsenentzündung/Proktitis; Rutenfraktur; Hämatom an der Rute; hochgradige Prostatitis",
+            "„Water Tail“ betrifft besonders den Labrador; bei neurologischer Ursache treten zusätzliche neurologische Ausfallerscheinungen auf",
+          ],
+          [
+            "Chronisch",
+            "Cauda-equina-Syndrom; „alter“ oder verkalkter Bandscheibenvorfall; sich langsam entwickelndes Prostataadenom; chronische Analdrüsenentzündung",
+            "Rutentonus herabgesetzt statt schmerzhaft akut; oft begleitet von Schleifspuren an den Zehen der Hintergliedmaße und beidseits auslösbarer Schublade an den Kniegelenken",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die Lehre daraus: keine Symptom-Diagnose-Abkürzung",
+        text: "Dieselbe verweigerte ideomotorische Bewegung — hier das Wedeln — kann je nach Zeitverlauf, Begleitbefunden und betroffener Rasse auf ein harmloses, selbstlimitierendes Ereignis oder auf eine ernsthafte neurologische, muskuloskelettale oder internistische Erkrankung hinweisen. Eine sorgfältige Anamnese (Zeitpunkt, Auslöser, Verlauf) und eine gezielte neurologische Zusatzuntersuchung (Rutentonus, Reflexe, Schleifspuren) sind unerlässlich, bevor eine der möglichen Ursachen als wahrscheinlichste Diagnose priorisiert wird.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Differentialdiagnostik unvollständig", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 10.2 (Praktische Beispiele — Rute), S. 453. Die akuten und chronischen Ursachen der hängenden Rute (inkl. „Water Tail“ beim Labrador und der Cauda-equina-typischen Begleitbefunde) sind im Original so beschrieben.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },

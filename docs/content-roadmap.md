@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 203 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 51
-  Untersuchung, 68 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 205 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 52
+  Untersuchung, 69 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -113,15 +113,19 @@ kein Überblick verloren geht.
   Leistung/Fasertyp mit Renngreyhound-Rekordwerten) sowie die Fischer/
   Lilje-Neudefinition der Beuger-/Strecker-Rollen. Kap. 9.2/9.3 (der
   komplette Vordergliedmaßen-Muskelatlas) bewusst nicht extrahiert —
-  Doppelarbeit zu Hárrer, Details siehe Hohmann-Backlog. Baumgartner/
+  Doppelarbeit zu Hárrer, Details siehe Hohmann-Backlog. Danach 2 weitere
+  neue Einträge aus Kap. 10 „Klinischer Bezug zu ideomotorischen
+  Bewegungen": ideomotorische Bewegungen als diagnostisches Potenzial
+  sowie die hängende Rute als Differentialdiagnose-Fallbeispiel (Water
+  Tail bis Cauda-equina-Syndrom) — **damit ist Hohmann, Bewegungsapparat
+  Hund (ISBN 978-3-13-245265-7), vollständig ausgewertet.** Baumgartner/
   Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere" wurde
   erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
   Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
-  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann Kap. 10
-  „Klinischer Bezug zu ideomotorischen Bewegungen" (b12.pdf) versuchen
-  (siehe Hohmann-Backlog), danach ggf. VetCenter Wirbelsäulenerkrankungen
-  oder
-  Baumgartner/Wittek/Khol.
+  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: nächstes Buch aus dem
+  Backlog wählen — VetCenter Wirbelsäulenerkrankungen (eigene Datei, noch
+  ungelesen) oder Baumgartner/Wittek/Khol trotz der bekannten
+  Einschränkungen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -1441,9 +1445,22 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Hárrer-Abdeckung (Kap. 12–14) und wäre reine Doppelarbeit. b11.pdf
       enthält keine Hintergliedmaßen-Kapitel (9.4+); ein entsprechendes
       Kapitel wurde in diesem Drive-Ordner nicht gefunden.
-- [ ] Kap. 10 Klinischer Bezug zu ideomotorischen Bewegungen (b12.pdf) — schon
-      als Zitat für „vorschnelle Diagnose" genutzt (Fall Nala), eigener
-      Wissenseintrag noch offen
+- [x] **Kap. 10 „Klinischer Bezug zu ideomotorischen Bewegungen" vollständig
+      abgeschlossen (25.09.2026), S. 450–453 (b12.pdf).** Zwei neue
+      Wissenseinträge: ideomotorische Bewegungen als diagnostisches
+      Potenzial (Definition, Beispielliste, Zeitfaktor als Diagnose-Hinweis,
+      Aufwärts-/Abwärtsbewegungs-Asymmetrie, ganzheitliche Betrachtung statt
+      Reduktion auf „die Hüftdysplasie", UNTERSUCHUNG) sowie die hängende
+      Rute als Fallbeispiel für Differentialdiagnostik-Breite (akutes „Water
+      Tail" beim Labrador bis chronisches Cauda-equina-Syndrom, PATHOLOGIE).
+      Der bereits bestehende Fall-Nala-Quellenverweis (DRAFT,
+      „Quellenkandidat" ohne Seitenzahl) wurde dabei auf „Verifiziert" mit
+      korrekter Seitenangabe aktualisiert und mit dem neuen Wissenseintrag
+      verknüpft. **Damit ist Hohmann, Bewegungsapparat Hund
+      (ISBN 978-3-13-245265-7), vollständig ausgewertet** — Teil 4 „Anhang"
+      (Kap. 11 Glossar, Kap. 12 Literaturverzeichnis, Kap. 13 Schlusswort)
+      ist reiner Anhang ohne Extraktionsziel, analog zu Hárrers Kap. 18 und
+      Mais Anhang. Verifiziert via Playwright (2/2 Seiten, 0 Fehler).
 
 ### ANATOMIE — neue, fallunabhängige Items (jetzt technisch möglich)
 
