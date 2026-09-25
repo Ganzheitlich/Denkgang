@@ -9911,6 +9911,35 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
+  {
+    id: "wobbler-syndrom-zwei-phaenotypen-dynamische-kompression",
+    category: "PATHOLOGIE",
+    title: "Wobbler-Syndrom: bei der Deutschen Dogge liegt das Problem meist im Knochen, beim Dobermann im Band",
+    teaser:
+      "Zwei Rassen, ein Name, zwei ganz unterschiedliche Mechanismen — was beim jungen Riesenrassehund eine Wachstumsstörung des Wirbelknochens ist, ist beim Dobermann meist ein Wirbelgleiten mit Bandscheibendegeneration.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei rassetypische Entstehungswege hinter demselben Namen",
+        text: "Das canine Wobbler-Syndrom (kaudale zervikale Spondylomyelopathie) bezeichnet eine Rückenmarkkompression im kaudalen Halswirbelbereich, die aus mehreren, oft kombinierten Ursachen entstehen kann: Wirbelkanalstenose, Deformation von Wirbelkörper und Gelenkfacetten, Malartikulation, Instabilität der kaudalen Halswirbel, Bandscheibendegeneration (einschließlich Hansen-Typ-II-Vorfällen), Band- und Gelenkkapselhypertrophie sowie Exostosen an den Wirbelendplatten. Bei den beiden am stärksten betroffenen Rassen dominiert dabei jeweils ein anderer Mechanismus: Bei der Deutschen Dogge steht meist eine Deformation von Wirbelbogen oder -körper mit Malartikulation im Vordergrund — ausgelöst durch genetische Prädisposition und/oder Überernährung in der Phase raschen Wachstums —, wobei es seltener tatsächlich zur Rückenmarkkompression kommt. Beim Dobermann Pinscher (und anderen betroffenen Rassen) beruht die Instabilität dagegen überwiegend auf einem Wirbelgleiten (Spondylolisthesis), oft zusätzlich verstärkt durch Typ-II-Bandscheibenschäden. Betroffen sind vor allem große bis sehr große Rassen im Alter von 6 Monaten bis 8 Jahren.",
+      },
+      {
+        type: "text",
+        heading: "Ein Krankheitsbild, das sich von hinten nach vorne ausbreitet",
+        text: "Initial zeigt sich meist eine geringgradige Ataxie der Hintergliedmaßen mit Propriozeptionsdefiziten, gelegentlich auch Hypermetrie. Im weiteren Verlauf nehmen die Paresen zu, die Manipulation der Halswirbelsäule wird schmerzhaft, und der Hund hält den Kopf typischerweise tief. Schreitet die Erkrankung fort, erreicht sie schließlich auch die Vordergliedmaßen: Parese, Muskelatrophie und Manipulationsschmerz treten dann vor allem bei passiver dorsaler Überstreckung der Halswirbelsäule auf — dasselbe Nervenwurzelzeichen, das auch beim zervikalen Bandscheibenvorfall beschrieben ist (siehe den entsprechenden Eintrag zur Hansen-Klassifikation). Bei Junghunden mit ähnlicher Symptomatik dürfen orthopädische Differentialdiagnosen wie Osteochondrose oder Panostitis nicht vergessen werden — ebenso wie thorakolumbale Bandscheibenvorfälle, Diskospondylitis, Traumata, degenerative Myelopathie und aseptische suppurative Meningitis.",
+      },
+      {
+        type: "text",
+        heading: "Warum ein unauffälliges Halswirbelröntgenbild in Neutralstellung nicht genügt",
+        text: "Ein Teil der Rückenmarkkompressionen beim Wobbler-Syndrom ist rein dynamisch: Erst bei bestimmten Kopf-Hals-Stellungen drücken Lig. longitudinale dorsale, Lig. flavum oder ein Typ-II-Bandscheibenvorfall auf Rückenmark oder Nervenwurzeln, während die Neutralaufnahme unauffällig bleibt. Zum Nachweis werden deshalb gezielt Stressaufnahmen in dorsaler Überstreckung, maximaler Beugung und unter Längstraktion angefertigt — am aussagekräftigsten in Kombination mit einer Myelographie des kaudalen Halsbereichs oder als Myelo-CT. Diese Methode zeigt damit ein Prinzip, das über das Wobbler-Syndrom hinausweist: Ein im Stand oder in Neutralstellung geröntgtes Rückenmark kann in Bewegung ganz anders komprimiert werden, als es die statische Aufnahme vermuten lässt.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Kompressionssyndrom der kaudalen Halswirbelsäule (kaudale zervikale Spondylomyelopathie, canines Wobbler-Syndrom). Die zwei rassetypischen Entstehungsmechanismen (Deutsche Dogge vs. Dobermann), die Symptomprogression von hinten nach vorne mit dem Nervenwurzelzeichen, die Differentialdiagnosen bei Junghunden sowie das Konzept der dynamischen, nur unter Stressaufnahme sichtbaren Kompression sind in der Quelle so beschrieben. Ergänzt den bestehenden Übersichtseintrag `neurologische-erkrankungen-rueckenmark-periphere-nerven` (dort nur Kurzbefund) sowie den Hansen-Klassifikations-Eintrag (Nervenwurzelzeichen) um die krankheitsspezifische Tiefe.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

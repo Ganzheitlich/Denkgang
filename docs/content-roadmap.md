@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 213 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 56
-  Untersuchung, 73 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 214 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 56
+  Untersuchung, 74 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -142,11 +142,15 @@ kein Überblick verloren geht.
   Danach 2 weitere neue Einträge (S. 27–29): die Acht-Stunden-
   Prognosegrenze bei Tiefenschmerzverlust nach Trauma sowie die
   atlantoaxiale Subluxation mit Rasseprädisposition, Altersstatistik und
-  diagnostischem Flexionsaufnahme-Zeichen. Details und bewusste
+  diagnostischem Flexionsaufnahme-Zeichen. Danach ein weiterer neuer
+  Eintrag zum Wobbler-Syndrom (S. 31–34): die zwei rassetypischen
+  Entstehungswege (Deutsche Dogge vs. Dobermann), die Symptomprogression
+  von hinten nach vorne sowie das Konzept der rein dynamischen,
+  stressaufnahme-abhängigen Rückenmarkkompression. Details und bewusste
   Auslassungen siehe PATHOLOGIE-Backlog unten. Nächster Schritt: VetCenter
-  „Wirbelsäulenerkrankungen" ab S. 30/43 fortsetzen (Wobbler-Syndrom im
-  Detail, Lumbosakrale Instabilität/Stenose im Detail — siehe Backlog),
-  danach ggf. Baumgartner/Wittek/Khol trotz der bekannten Einschränkungen.
+  „Wirbelsäulenerkrankungen" ab S. 35/43 fortsetzen (Lumbosakrale
+  Instabilität/Stenose im Detail — siehe Backlog), danach ggf.
+  Baumgartner/Wittek/Khol trotz der bekannten Einschränkungen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -368,10 +372,28 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       manualtherapeutische Warnsignale) um die entwicklungsbedingte
       Ätiologie und Diagnosesicherung, ohne dessen Inhalte zu wiederholen.
       Verifiziert via Playwright (2/2 Seiten, 0 Fehler).
+- [x] **„Kompressionssyndrom der kaudalen Halswirbelsäule (Wobbler-
+      Syndrom)" (S. 31–34 von 43) gelesen und ausgewertet (25.09.2026).**
+      Ein neuer, dicht synthetisierter Wissenseintrag zu den zwei
+      rassetypischen Entstehungswegen (Deutsche Dogge: Wirbeldeformation/
+      Malartikulation durch Genetik/Überernährung, selten echte
+      Rückenmarkkompression; Dobermann: Spondylolisthesis-Instabilität
+      plus Typ-II-Bandscheibenschäden), der Symptomprogression von hinten
+      nach vorne (initiale Hintergliedmaßen-Ataxie → später auch
+      Vordergliedmaßen-Parese mit Nervenwurzelzeichen bei Halsüberstreckung)
+      sowie dem Konzept der rein dynamischen, nur unter Stressaufnahme
+      sichtbaren Rückenmarkkompression (Lig. longitudinale dorsale/Lig.
+      flavum/Typ-II-Vorfall). Ergänzt den bestehenden Kurzbefund im
+      Übersichtseintrag `neurologische-erkrankungen-rueckenmark-periphere-
+      nerven` sowie das Nervenwurzelzeichen-Konzept aus dem Hansen-
+      Klassifikations-Eintrag um die krankheitsspezifische Tiefe, ohne
+      diese zu wiederholen. Bewusst ausgelassen: die chirurgischen
+      Stabilisierungstechniken (Platten, Cages, Ankylosierungsverfahren)
+      als rein operativ-technischer Inhalt außerhalb des Nachschlage-
+      Scopes. Verifiziert via Playwright (1/1 Seite, 0 Fehler).
       **Nächster Fortsetzungspunkt:** Die Datei hat noch 43 Web-Seiten
-      insgesamt, davon S. 1–29 jetzt ausgewertet. Ab S. 30 weiterlesen:
-      Zervikale Spondylopathie/Wobbler-Syndrom im Detail, Lumbosakrale
-      Instabilität/Stenose im Detail, Wirbelmissbildungen,
+      insgesamt, davon S. 1–34 jetzt ausgewertet. Ab S. 35 weiterlesen:
+      Lumbosakrale Instabilität/Stenose im Detail, Wirbelmissbildungen,
       Exostosenbildung, Tumoren der Wirbelsäule/des Rückenmarks,
       Rückenmarködem, Zysten der Rückenmarkhäute, Abszesse der
       Wirbelsäule sowie die allgemeine Prognoseskala mit Erfolgsraten
