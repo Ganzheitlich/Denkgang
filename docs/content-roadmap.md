@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 157 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 51
-  Untersuchung, 62 Pathologie, 33 Biomechanik, 12 Therapie — genaue
+- Wissensbibliothek: 158 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 51
+  Untersuchung, 62 Pathologie, 33 Biomechanik, 13 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -75,16 +75,14 @@ kein Überblick verloren geht.
   Karpalgelenk/Zehen, die gesamte Wirbelsäule inkl. Sympathikus, und die
   Neurotension inkl. Neuroanatomie und der wichtigsten peripheren
   Nervenverläufe)**. Kap. 18 ist reine Literaturliste, kein
-  Extraktionsziel mehr. Danach 11 weitere neue Einträge aus Mai,
+  Extraktionsziel mehr. Danach 12 weitere neue Einträge aus Mai,
   Physiotherapie und Bewegungstraining für Hunde — **Kap. 5.1
-  „Evaluierung" (Lahmheitserkennung/-graduierung, Schmerzskalen, BCS,
-  Goniometrie, Wundheilungsphasen) und Kap. 5.2 „Ausgewählte
-  Erkrankungen" (Reha-Entscheidungsparameter, HD-/Kreuzband-OP-Methoden
-  im Vergleich, Frakturheilung, Arthrose-Teufelskreis) sind in ihren
-  fachlich dichten Kernabschnitten abgedeckt**. Siehe BIOMECHANIK-/
-  THERAPIE-Backlog unten für die im Detail bewusst ausgelassenen reinen
-  Technik-Rezeptteile sowie die noch offenen Abschnitte 5.2.2/5.2.6 (Der
-  neurologische Patient — zurückgestellt). Baumgartner/Wittek/Khol
+  „Evaluierung" und Kap. 5.2 „Ausgewählte Erkrankungen" (Reha-
+  Entscheidungsparameter, HD-/Kreuzband-OP-Methoden im Vergleich,
+  Frakturheilung, Arthrose-Teufelskreis, Pflege des festliegenden
+  neurologischen Patienten) sind vollständig abgedeckt**. Siehe
+  BIOMECHANIK-/THERAPIE-Backlog unten für die im Detail bewusst
+  ausgelassenen reinen Technik-Rezeptteile. Baumgartner/Wittek/Khol
   „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
   (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
   Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
@@ -653,6 +651,24 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Patient — Festlieger-Pflege) nachholen, dann Kap. 5.3.1 (Manuelle
       Medizin) und 5.3.2 (Tuina) wie unten offen vermerkt, oder Kap. 4.3
       fortsetzen.
+- [x] **Kap. 5.2.6 „Der neurologische Patient" (S. 82–84, ph(24).pdf)
+      abgeschlossen (25.09.2026).** Ein neuer Eintrag:
+      `neurologischer-patient-festliegend-pflege-training` — Pflege-
+      grundsätze für festliegende Hunde (Lagerung/Umbetten-Rhythmus,
+      Defäkations-/Blasenmanagement inkl. Harnwegsinfekt-Früherkennung
+      per Streifentest, Analdrüsenkontrolle, Fellpflege), der erhöhte
+      Kalorienbedarf (1,2–1,6-fach) und Sedierung/Schmerztherapie,
+      Trainingsprinzipien ohne aktive Bewegungsfähigkeit (passive ROM,
+      Flexorreflex-Auslösung, „Radfahren", Sensibilitätsreize, elektrische
+      Muskelreizung nur als letzte Stufe) sowie ein konkretes
+      Reha-Zeitschema nach Bandscheiben-OP (48h/14 Tage-Meilensteine,
+      HWS- vs. BWS/LWS-Schwerpunkt). Bewusst NICHT übernommen: 5.2.2
+      (Gelenkoperationen allgemein, reine Wochenplan-Technik-Rezepte).
+      Verifiziert per Playwright-Screenshot (1/1 Seite, 0 Console-/
+      Page-Errors). **Damit ist Kap. 5.2 vollständig abgeschlossen.**
+      Nächster Fortsetzungspunkt: Kap. 5.3.1 (Manuelle Medizin) und 5.3.2
+      (Tuina), oder Kap. 4.3 (Rückenschmerzen/Trainingsfehler,
+      Trainingsalter-Richtlinien).
 - [x] Bewegungstherapie bei Arthrose (Grundprinzipien: kurze Bewegungsphasen,
       viele Pausen, Gewichtsreduktion vor Muskelaufbau, Untergrund) — aus der
       Einleitung von Kap. 5.3 (ph(25).pdf), S. 85

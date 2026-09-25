@@ -7929,6 +7929,53 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "neurologischer-patient-festliegend-pflege-training",
+    category: "THERAPIE",
+    title: "Der festliegende Hund: Pflege ist die halbe Rehabilitation",
+    teaser:
+      "Ob Cauda-equina-Patient, Radialislähmung nach Autounfall oder Dackel nach Bandscheiben-OP — bei nicht gehfähigen Hunden entscheiden oft die Pflegegrundsätze über den Rehabilitationserfolg, nicht die Übung selbst.",
+    sections: [
+      {
+        type: "text",
+        heading: "Gemeinsame Grundsätze trotz unterschiedlicher Krankheitsbilder",
+        text: "Der neurologische Patient begegnet in völlig unterschiedlichen Erscheinungsformen: der Cauda-equina-Patient, der schlecht aufsteht und die Zehen schleift, der Hund mit Radialislähmung nach einem Autounfall, oder der Dackel nach einer Bandscheibenoperation. Die grundlegenden Pflegeprinzipien bleiben aber immer dieselben.",
+      },
+      {
+        type: "list",
+        heading: "Basispflege beim festliegenden Hund",
+        items: [
+          "Weich (Luftmatratze) und sauber (Inkontinenzbett) bei angenehmer Körpertemperatur lagern",
+          "Alle 4–6 Stunden umbetten, damit sich der Hund nicht wund liegt, die Lunge gleichmäßig belüftet wird und der Kreislauf angeregt bleibt",
+          "Mindestens 4× täglich Gelegenheit zur Defäkation im Freien anbieten",
+          "Farbe und Geruch des Urins bei inkontinenten Hunden regelmäßig kontrollieren; ein Urin-Streifentest hilft, aufsteigende Blasenentzündungen rechtzeitig zu erkennen",
+          "Analdrüsen alle 14 Tage auf Füllungszustand prüfen und ggf. entleeren — bei gestörtem Defäkationsreflex werden sie oft nicht ausreichend entleert",
+          "Bei langhaarigen Hunden Leisten-, Perineal- und Schwanzgegend scheren, um sie leichter sauber und trocken halten zu können",
+          "Massage sowie passive und aktive Bewegungsübungen halten den Hund aufmerksam und beugen sekundären Infektionen über Haut oder Urogenitaltrakt vor",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Ernährung und Wohlbefinden nicht vergessen",
+        text: "Der erhöhte Kalorienbedarf durch den Stress des Festliegens wird oft vernachlässigt: Die Nahrung sollte vor allem aus hochwertigem Protein und Fett bestehen und das 1,2- bis 1,6-Fache des früheren Kalorienbedarfs abdecken. Sehr gestresste Tiere profitieren von leichter Sedierung, alle festliegenden Hunde benötigen eine adäquate Schmerztherapie. Die Lebensfreude zu erhalten ist bei festliegenden Tieren nicht trivial — jede Form von Ablenkung und Freude ist erlaubt und sinnvoll.",
+      },
+      {
+        type: "text",
+        heading: "Training ohne aktive Bewegungsfähigkeit",
+        text: "Zur Erhaltung der Gelenkbeweglichkeit dienen passive ROM-Übungen (mindestens 2× täglich), das mehrfach tägliche Auslösen des Flexorreflexes sowie „Radfahren“ im Stehen oder Liegen (nach vorn = physiologisch, nach hinten = Bahnung neuer Bewegungsmuster). Zur Anregung der Sensibilität eignen sich Berührungsreize: Streichen über die Ballen, Kitzeln, Massieren der Zehenzwischenräume, einzelnes und gemeinsames Drücken der Zehen, Kälte-Wärme-Reize an Ballen und Haut. Aktive und wiederholte Muskelkontraktionen sind der einzige Weg, effektive Muskelmasse wieder aufzubauen — ist der Hund dazu nicht fähig, werden wiederholt Reflexe ausgelöst (setzt einen intakten Reflexbogen voraus). Erst wenn eine Muskelgruppe weder aktiv noch reflektorisch bewegt werden kann, kommt die elektrische Muskelreizung zum Einsatz.",
+      },
+      {
+        type: "text",
+        heading: "Beispiel: Reha-Zeitplan nach Bandscheiben-OP",
+        text: "Erste lokale physiotherapeutische Maßnahmen beginnen bereits 48 Stunden postoperativ, ebenso das erste vorsichtige Aufsetzen/Aufstellen (1–2 Minuten reichen anfangs). Hydrotherapie mit Assistenz kann ebenfalls schon nach 48 Stunden beginnen, sofern die OP-Wunde nicht nass wird — sonst erst nach Nahtentnahme. Aktive ROM-Übungen der Wirbelsäule sind dagegen erst ab Tag 14 postoperativ erlaubt. Nach HWS-Operationen liegt der Trainingsschwerpunkt meist auf der Kräftigung der Vorderextremitäten, nach BWS-/LWS-Operationen dagegen auf der Wiedererlangung der Propriozeption und Kräftigung der Hinterextremitäten.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "falsche Priorisierung", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.2.6 (Der neurologische Patient), S. 82–84. Die Pflegegrundsätze, die Ernährungsangabe, die Trainingsprinzipien bei fehlender aktiver Bewegungsfähigkeit sowie das Bandscheiben-OP-Zeitschema sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
