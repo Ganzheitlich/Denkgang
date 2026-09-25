@@ -7517,6 +7517,237 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "force-plate-vs-praktische-lahmheitserkennung",
+    category: "UNTERSUCHUNG",
+    title: "Warum Force-Plates trotz wissenschaftlicher Exaktheit nicht praxisrelevant sind",
+    teaser:
+      "Computergesteuerte Druckmessplatten liefern beeindruckend genaue Daten zu Schrittlänge, Kraft und Geschwindigkeit — für die tägliche Praxis bleibt trotzdem meist nur das geschulte Auge.",
+    sections: [
+      {
+        type: "text",
+        heading: "Objektive Messverfahren vs. Praxisalltag",
+        text: "Laufband-Untersuchungen mit kinetischer Analyse und Force-Plates (im Boden eingelassene Druckmessplatten) liefern über eine computergesteuerte Auswertung präzise Daten zu Schrittlänge, Schritthöhe, Rückenbewegung, Aufprallkraft und Abrollgeschwindigkeit. So beeindruckend diese Messergebnisse für Forschung und Objektivierung des Gangbildes auch sind — für die praktische tierärztliche oder physiotherapeutische Arbeit sind sie nicht praxisrelevant. Für den Praxisalltag bleiben die entscheidenden Fragen: Ist der Hund überhaupt lahm, und auf welchem Bein?",
+      },
+      {
+        type: "text",
+        heading: "Volten als praktisches Differenzierungswerkzeug",
+        text: "Lässt man den Hund in Volten (Kreisen von 3–4 m Durchmesser, mit Seitenwechsel) traben, betonen sich Lahmheiten seitenabhängig unterschiedlich: Volten betonen Hangbeinlahmheiten an der Außenhand und Stützbeinlahmheiten an der Innenhand. Ergänzend liefert die Beurteilung des Wendeschmerzes (können Vorder-/Hinterbeine beim Richtungswechsel gekreuzt werden, biegt sich die Wirbelsäule in Lateralflexion ohne Ausweichen der Hinterhand?) einen weiteren praktischen Hinweis, den keine Messplatte ersetzt.",
+      },
+      {
+        type: "text",
+        heading: "Praktische Fallstricke bei der Vorführung",
+        text: "Manche Lahmheiten laufen sich bei Arthrose in den ersten Schritten nach dem Liegen/Rasten besonders schmerzhaft ein, danach wirken die Hunde nur noch steif statt lahm. Manche Probleme der Wirbelsäule und der Schultern zeigen sich am deutlichsten beim Bergab-Springen aus dem Auto. Stützbeinlahmheiten treten oft auf hartem Untergrund (Asphalt) deutlicher hervor, manche Hangbeinlahmheiten dagegen erst auf tiefem Untergrund (Sand) oder im Wasser — die Wahl des Untergrunds bei der Vorführung ist damit selbst ein diagnostisches Werkzeug.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.1 (Feststellen einer Lahmheit), S. 71f. Die Einordnung der Force-Plate-Messung als wissenschaftlich wertvoll, aber praxisirrelevant, die Volten-Technik mit ihrer Außenhand-/Innenhand-Zuordnung sowie die Untergrund-/Zeitpunkt-Beobachtungen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "lahmheitsgrad-mai-differenzierungsmerkmale",
+    category: "UNTERSUCHUNG",
+    title: "Regelmäßig, unregelmäßig oder gar nicht: was das Muster einer Lahmheit verrät",
+    teaser:
+      "Lahmt ein Hund bei jedem Schritt gleich, ist das orthopädisch verdächtig. Tritt die Störung nur alle paar Schritte auf, denkt man eher neurologisch — der Central-Pattern-Generator liefert die Erklärung dafür.",
+    sections: [
+      {
+        type: "table",
+        heading: "Lahmheitsgrade nach Mai (eigenständige Skala, ergänzend zur Brunnberg-Skala)",
+        columns: ["Grad", "Beschreibung"],
+        rows: [
+          ["1", "nur hörbar, nicht sichtbar (z. B. beim Zehenschleifen) — geringgradige Taktfehler hört man, bevor man sie sieht"],
+          ["2", "sichtbare Lahmheit mit verkürzter Schrittfolge"],
+          ["3", "deutlich sichtbare Lahmheit mit Ausweichbewegungen, starkes Auffallen auf die gesunde Extremität, deutliches Kopfnicken zur schnellen Gewichtsverlagerung"],
+          ["4", "die erkrankte Extremität wird nicht belastet"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Zwei ähnlich nummerierte, aber unterschiedliche Skalen",
+        text: "Diese Einteilung von Mai ist inhaltlich eigenständig und nicht identisch mit der an anderer Stelle dokumentierten Lahmheitsgrad-Skala nach Brunnberg (1 = kaum gestört bis 4 = keine Belastung) — beide verwenden zufällig eine 4-stufige Nummerierung, beschreiben die Stufen aber unterschiedlich. Beim Dokumentieren eines Lahmheitsgrades sollte deshalb immer die verwendete Skala mit angegeben werden, um Verwechslungen zu vermeiden.",
+      },
+      {
+        type: "text",
+        heading: "Regelmäßigkeit als Differentialdiagnose-Hinweis",
+        text: "Lahmt der Hund bei jedem Schritt gleich, spricht das für ein orthopädisches Problem. Läuft er sich ein (die Lahmheit bessert sich mit der Bewegung), spricht das für arthrotische Veränderungen. Treten Auffälligkeiten dagegen in unregelmäßigen Abständen auf (z. B. nach 3 oder 5 Schritten, nur bei Tempowechseln), spricht das für ein neurologisches Problem. Der Grund: Diese unregelmäßigen Bewegungsabläufe werden nicht vom Central-Pattern-Generator im Rückenmark gesteuert (der die stereotype, rhythmische Schrittfolge automatisiert), sondern laufen unter Hirnbeteiligung ab — entsprechend sind sie störanfälliger und weniger gleichmäßig. Bei Verdacht auf eine ZNS-Erkrankung hilft antraben lassen, nach 2–3 Trabtritten wieder zum Schritt zurückkehren und gleich wieder antraben, um diese Unregelmäßigkeit sichtbar zu machen.",
+      },
+      {
+        type: "list",
+        heading: "Weitere praktisch relevante Beobachtungskriterien",
+        items: [
+          "Fußung: Wird die Pfote plan aufgesetzt oder unphysiologisch belastet?",
+          "„Bügeln“: übertriebenes Auswärtsschleudern der distalen Vorderextremität, als würde der Hund die Vorderpfote vom Karpalgelenk ab wegschleudern",
+          "Schmerzäußerungen in Wendungen oder beim Aussteigen aus dem Auto",
+          "Bewegungsunlust — manche Hunde lassen sich gar nicht erst vorführen, weil Gehen selbst schon schmerzhaft ist",
+        ],
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.2 (Bestimmung der Lahmheit), S. 72f. Die Lahmheitsgrad-Einteilung, die Regelmäßigkeits-Differenzierung samt Central-Pattern-Generator-Erklärung sowie die Beobachtungskriterien (Fußung, Bügeln, Schmerzäußerung, Bewegungsunlust) sind im Original so beschrieben. Der Hinweis auf die Nicht-Identität mit der Brunnberg-Skala ist eine eigene, zum Vermeiden von Verwechslungen hinzugefügte Einordnung.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "schmerzskalen-mathews-hielm-bjorkman",
+    category: "UNTERSUCHUNG",
+    title: "Zwei Schmerzskalen für zwei verschiedene Zwecke",
+    teaser:
+      "Die Mathews-Skala ist für Therapeuten gemacht, die einen Hund umfassend beschreiben wollen — die Hielm-Bjorkman-Skala für Besitzer, die zu Hause den Verlauf einer chronischen Arthrose einschätzen sollen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum überhaupt eine Skala?",
+        text: "Die routinemäßige Verwendung einer für den Praxisbetrieb passenden Schmerzskala ist die Voraussetzung für eine seriöse Auseinandersetzung mit dem tierischen Schmerzempfinden — die Vorstellung „Schmerz schützt und bewahrt vor Belastung“ gilt als überholt. Die Beurteilung sollte immer von derselben Person vorgenommen werden, da sich Therapeuten wie Besitzer stark darin unterscheiden, wie viel Schmerz sie als „normal“ einstufen.",
+      },
+      {
+        type: "table",
+        heading: "Zwei etablierte Skalen im Vergleich",
+        columns: ["Skala", "Zielgruppe & Zweck", "Aufbau"],
+        rows: [
+          [
+            "Mathews-Skala",
+            "für Therapeuten — umfassende, detaillierte Beschreibung des Patienten",
+            "11 Stadien von „kein Schmerz“ bis „unerträglicher, lebensbedrohender Schmerz“; berücksichtigt Spiel-/Schlafverhalten, Appetit, Verhalten beim Anfassen sowie Puls-/Atemfrequenz",
+          ],
+          [
+            "Hielm-Bjorkman-Osteoarthritis-Skala",
+            "für Hundehalter chronisch kranker Tiere — einfache Selbsteinschätzung zu Hause",
+            "elf einfache Sätze zu Schmerzempfinden und Beweglichkeit des Hundes; jede Antwort ergibt Punkte, deren Summe den Grad von Schmerz und Bewegungseinschränkung anzeigt",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Subtile Schmerzzeichen richtig deuten",
+        text: "Nur wenige Hunde vokalisieren ihre Beschwerden deutlich (Wegzucken, Schreien, Bellen) — bei ihnen ist die Gefahr geringer, versehentlich über die Toleranzschwelle hinaus behandelt zu werden. Bei stoischeren Hunden sind oft nur sehr kleine Verhaltensänderungen der einzige Hinweis: veränderte Atemfrequenz, Zusammenkneifen der Augenlider, Kopf-Hochheben mit Blick zur Behandlungsstelle, Lecken über das Maul, Rückzug aus dem Familienverband oder nachlassende Spiellust. Diese subtileren Veränderungen werden beim älteren Hund leicht fälschlich dem Alter statt dem Schmerz zugeschrieben.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Unterkonfidenz", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.5–5.1.6 (Ausdrucksverhalten, Schmerzskala), S. 73–75. Beide Skalen mit ihrem jeweiligen Aufbau und Einsatzzweck sowie die Liste der subtilen Schmerzzeichen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "body-conditioning-score-bcs",
+    category: "UNTERSUCHUNG",
+    title: "Body Conditioning Score: das Idealgewicht ohne Kilogrammangabe beschreiben",
+    teaser:
+      "Weil Größe, Muskelmasse und Trainingszustand das gesunde Gewicht eines Hundes viel stärker bestimmen als seine Rasse, ersetzt eine 5-stufige Erscheinungsbeschreibung die reine Kilogrammzahl.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum nicht einfach Kilogramm?",
+        text: "Das optimale Körpergewicht eines Hundes hängt von zu vielen individuellen Faktoren ab (Größe, Muskelmasse, Trainingszustand, Fettanteil), um es sinnvoll in Kilogramm vorzugeben. Der Body Conditioning Score (BCS, Fa. Iams) beschreibt stattdessen die Erscheinung des Hundes in 5 Graden — unabhängig vom absoluten Gewicht.",
+      },
+      {
+        type: "table",
+        heading: "Die fünf BCS-Grade",
+        columns: ["BCS", "Bezeichnung", "Merkmale"],
+        rows: [
+          ["1", "Dünner Hund", "Rippen, Dornfortsätze und Beckenknochen auch aus der Entfernung deutlich sichtbar, kein Körperfett, deutlicher Muskelverlust"],
+          ["2", "Untergewichtiger Hund", "Rippen sichtbar und leicht zu palpieren, Beckenknochen treten hervor, deutliche Taille"],
+          ["3", "Idealer Hund", "Rippen spürbar, aber nicht sichtbar, deutliche Taille von oben und von der Seite"],
+          ["4", "Übergewichtiger Hund", "Rippen nur schwer unter einer Fettschicht spürbar, Fettdepots über Rücken/Schwanzbasis, Taille kaum erkennbar"],
+          ["5", "Fetter Hund", "Rippen unter dicker Fettschicht nicht mehr palpierbar, massive Fettdepots über Rücken/Schwanzbasis, keine Taille"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum Gewichtsoptimierung für die Reha zählt",
+        text: "Hunde, die sich leichter bewegen, belasten weder den passiven noch den aktiven Bewegungsapparat so stark wie deutlich übergewichtige Tiere. In Studien an arthrotischen Hunden, bei denen ausschließlich das Körpergewicht reduziert und ein leichtes aktives Bewegungstraining durchgeführt wurde, verbesserten sich Beweglichkeit und Leistungsbereitschaft aller Hunde signifikant — Gewichtsreduktion allein ist damit schon ein wirksamer therapeutischer Hebel. Eine Reevaluierung des BCS im Abstand von 1–2 Wochen wird empfohlen. Ein Befund wird z. B. so dokumentiert: „27 kg, BCS 4, Gewichtsabnahme empfohlen“.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.7 (Gewichtskontrolle), S. 75f. Die fünf BCS-Grade mit ihren Merkmalen, die Studienangabe zur Wirksamkeit von Gewichtsreduktion sowie das Dokumentationsbeispiel sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "goniometrie-rom-messung-grenzen",
+    category: "UNTERSUCHUNG",
+    title: "Goniometrie: warum Extension und Flexion getrennt dokumentiert gehören",
+    teaser:
+      "Eine ROM-Angabe von „90°“ sagt nicht, wohin die Bewegung eingeschränkt ist — erst die getrennte Dokumentation von Extension und Flexion verrät die tatsächliche Bewegungsrichtung des Problems.",
+    sections: [
+      {
+        type: "text",
+        heading: "Messmethodik",
+        text: "Das zweischenklige Plastik-Goniometer wird mit dem Drehpunkt an der vermuteten Gelenkdrehachse und den beiden Schenkeln an den physiologischen Gelenkachsen angelegt. Der proximale Extremitätenanteil wird gut fixiert, der distale Anteil maximal gebeugt und gestreckt. Das Bewegungsausmaß (Range of Motion, ROM) gibt Auskunft über die Gelenkbeweglichkeit, aber auch über die Muskellänge — bei verkürztem M. quadriceps z. B. lässt sich das Kniegelenk nicht vollständig durchbeugen.",
+      },
+      {
+        type: "text",
+        heading: "Zwei Dokumentationsarten — eine davon aussagekräftiger",
+        text: "Das Bewegungsausmaß kann als einzelner ROM-Wert (z. B. „90°“) oder getrennt als Extension/Flexion (z. B. „Extension: 160°, Flexion: 40°“) dokumentiert werden. Die getrennte Angabe ist deutlich aussagekräftiger, da sie bereits verrät, in welche Richtung die Gelenkbeweglichkeit eingeschränkt ist — ein reiner ROM-Summenwert verschleiert das.",
+      },
+      {
+        type: "text",
+        heading: "Eine wichtige Grenze der Methode",
+        text: "Die manuelle Goniometrie hat eine erhebliche Messvarianz: Ergebnisse verschiedener Untersucher können um bis zu 11 % voneinander abweichen. Vergleiche mit CT-Aufnahmen zeigen, dass die manuelle Goniometrie bestenfalls eine Schätzung des tatsächlichen Bewegungsausmaßes ist. Die Varianz lässt sich verringern, indem immer derselbe Untersucher misst, mehrfach ausmisst und den Mittelwert bildet. Bei stark eingeschränkter Beweglichkeit bleibt die ROM trotzdem ein wichtiger Parameter, um eine Verbesserung im Therapieverlauf zu belegen — eine Reevaluierung nach 2 Wochen Therapie wird empfohlen.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Faktenwissen", "Überkonfidenz"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.8 (Goniometrie – Range of Motion), S. 75–77. Die Messmethodik, die beiden Dokumentationsarten mit ihrer unterschiedlichen Aussagekraft sowie die Angabe zur Messvarianz (bis 11 %) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "wundheilungsphasen-zeitfenster-reha",
+    category: "GRUNDLAGEN",
+    title: "Die vier Phasen der Wundheilung — und warum ihr Timing die Reha bestimmt",
+    teaser:
+      "Ein Rehabilitationsplan, der die falsche Wundheilungsphase belastet, kann frisch gebildetes Bindegewebe wieder zerreißen — die vier Phasen laufen nach einem ziemlich genauen Zeitplan ab.",
+    sections: [
+      {
+        type: "table",
+        heading: "Die vier Wundheilungsphasen",
+        columns: ["Phase", "Zeitraum", "Was passiert"],
+        rows: [
+          [
+            "Entzündungsphase — vaskulär",
+            "bis 48 Stunden nach Verletzung",
+            "Bildung von Wundschorf, Blutgerinnung; danach sollte die Blutstillung abgeschlossen sein",
+          ],
+          [
+            "Entzündungsphase — zellulär",
+            "bis Tag 5",
+            "Granulozyten säubern die Wunde, Entzündungsmediatoren stimulieren Bindegewebszellen zur Neusynthese, Makrophagen eliminieren nekrotisches Gewebe, lösen den Wundschorf auf und setzen Wachstumsfaktoren frei",
+          ],
+          [
+            "Proliferationsphase",
+            "Tag 5 bis Tag 21",
+            "eigentliche Wundheilung — Bildung von Granulationsgewebe",
+          ],
+          [
+            "Konsolidierungsphase",
+            "Tag 21 bis Tag 60",
+            "das junge Granulationsgewebe wird zu Narbengewebe umstrukturiert, das sich durch Myofibroblasten-Aktivität zusammenzieht (Narbenzug)",
+          ],
+          [
+            "Organisationsphase",
+            "bis zu 1 Jahr (gewebeabhängig)",
+            "Ausrichtung und weitere Umbildung des Narbengewebes",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum dieses Zeitfenster für die Reha zählt",
+        text: "Rehabilitationspläne müssen sich an diesem Zeitplan orientieren: Belastung, die zu früh zu stark ausfällt, kann das noch fragile Granulationsgewebe (Proliferationsphase) oder das sich erst festigende Narbengewebe (Konsolidierungsphase) überlasten. Alle Rehabilitationspläne sind deshalb in Absprache mit dem Chirurgen bzw. dem zuweisenden Tierarzt zu erstellen — die Wahl von Übungen und Belastungsintensität richtet sich nach der Wundheilungsphase, in der sich das behandelte Gewebe gerade befindet.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Befund überbewertet", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.14 (Wiedererlangung verlorener Fähigkeiten, Wundheilung), S. 77f. Die vier Phasen mit ihren Zeitfenstern und Gewebevorgängen sowie der Hinweis zur Abstimmung mit dem Chirurgen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

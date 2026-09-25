@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 146 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 45
+- Wissensbibliothek: 152 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 51
   Untersuchung, 58 Pathologie, 33 Biomechanik, 9 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -75,14 +75,20 @@ kein Überblick verloren geht.
   Karpalgelenk/Zehen, die gesamte Wirbelsäule inkl. Sympathikus, und die
   Neurotension inkl. Neuroanatomie und der wichtigsten peripheren
   Nervenverläufe)**. Kap. 18 ist reine Literaturliste, kein
-  Extraktionsziel mehr. Siehe BIOMECHANIK-Backlog unten für die im Detail
-  bewusst ausgelassenen reinen Technik-Rezeptteile. Baumgartner/Wittek/Khol
+  Extraktionsziel mehr. Danach 6 weitere neue Einträge aus Mai,
+  Physiotherapie und Bewegungstraining für Hunde — **Kap. 5.1
+  „Evaluierung" (Lahmheitserkennung/-graduierung, Schmerzskalen, BCS,
+  Goniometrie, Wundheilungsphasen) ist vollständig abgedeckt**. Siehe
+  BIOMECHANIK-/THERAPIE-Backlog unten für die im Detail bewusst
+  ausgelassenen reinen Technik-Rezeptteile. Baumgartner/Wittek/Khol
   „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
   (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
   Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
-  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: nächstes Buch aus dem
-  Backlog wählen (Mai Physiotherapie Restkapitel inkl. Tuina, Hohmann
-  Bewegungsapparat Restkapitel, oder VetCenter Wirbelsäulenerkrankungen).
+  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Mai Kap. 4.3
+  (Rückenschmerzen/Trainingsfehler, Trainingsalter-Richtlinien) oder Kap.
+  5.2 (Therapiepläne) fortsetzen, oder nächstes Buch aus dem Backlog
+  wählen (Hohmann Bewegungsapparat Restkapitel, VetCenter
+  Wirbelsäulenerkrankungen).
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -574,10 +580,41 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
 - [ ] Trainingsalter-Richtlinien für Welpen/Junghunde/alte Hunde (Kap.
       4.3.3–4.3.4, S. 64f.) — z. B. Faustregeln ab wann Joggen/Rad/Reiten,
       Wachstumsfugenschluss als Grenze
-- [ ] Evaluierung/objektive Verlaufskontrolle in der Reha (Kap. 5.1, S. 71) —
-      Links-Rechts-Vergleich als Praxisstandard, warum Force-Plate-Messungen
-      trotz wissenschaftlicher Exaktheit nicht praxisrelevant sind. Gute
-      Ergänzung zum bestehenden Untersuchung-Eintrag „Ganganalyse“.
+- [x] **Kap. 5.1 „Evaluierung" (S. 71–78, ph(23).pdf) abgeschlossen
+      (25.09.2026).** Sechs neue Einträge:
+      `force-plate-vs-praktische-lahmheitserkennung` (5.1.1 — warum
+      Force-Plate-Messungen trotz wissenschaftlicher Exaktheit nicht
+      praxisrelevant sind, die Volten-Technik mit Außenhand-/
+      Innenhand-Zuordnung, Untergrund/Zeitpunkt als diagnostisches
+      Werkzeug — gute Ergänzung zum bestehenden Eintrag
+      `ganganalyse-gangbild`), `lahmheitsgrad-mai-differenzierungsmerkmale`
+      (5.1.2 — Mais eigenständige, von der bereits dokumentierten
+      Brunnberg-Skala inhaltlich abweichende 4-Grad-Skala mit
+      ausdrücklichem Hinweis auf die Verwechslungsgefahr durch die
+      zufällig gleiche Nummerierung, die Regelmäßigkeit-als-DD-Kriterium
+      mit Central-Pattern-Generator-Erklärung, „Bügeln" als Fachbegriff),
+      `schmerzskalen-mathews-hielm-bjorkman` (5.1.5–5.1.6 — Mathews-Skala
+      vs. Hielm-Bjorkman-OA-Skala im Vergleich, subtile Schmerzzeichen
+      beim stoischen Hund), `body-conditioning-score-bcs` (5.1.7 — die
+      5 BCS-Grade als Tabelle, Studienbeleg zur Wirksamkeit reiner
+      Gewichtsreduktion bei Arthrose), `goniometrie-rom-messung-grenzen`
+      (5.1.8 — warum getrennte Extension-/Flexion-Dokumentation
+      aussagekräftiger ist als ein ROM-Summenwert, die ca. 11 %
+      Interrater-Varianz als Methodengrenze) und
+      `wundheilungsphasen-zeitfenster-reha` (5.1.14 — die vier
+      Wundheilungsphasen mit exakten Tagesangaben als Tabelle,
+      Konsequenz für die Belastungssteuerung in der Reha). Bewusst NICHT
+      übernommen: 5.1.3–5.1.4 (neurologischer Untersuchungsgang/Reflexe —
+      Standardwissen ohne caninen-spezifischen Mehrwert gegenüber
+      Lehrbuchgrundlagen), 5.1.9–5.1.13 (Muskel-/Gelenkumfangsmessung,
+      Schrittlängenmessung, Belastungsmessung, Gangbildänderungen — reine
+      Messmethodik-Wiederholungen ohne neuen fachlichen Gehalt gegenüber
+      den bereits erfassten Prinzipien). Verifiziert per
+      Playwright-Screenshot (6/6 Seiten, 0 Console-/Page-Errors).
+      Nächster Fortsetzungspunkt: Kap. 4.3 (Rückenschmerzen/
+      Trainingsfehler, Trainingsalter-Richtlinien, S. 62–65, vermutlich
+      ph(20)–ph(22).pdf) oder Kap. 5.2 (Therapiepläne für ausgewählte
+      Erkrankungen, direkt im Anschluss an S. 78).
 - [x] Bewegungstherapie bei Arthrose (Grundprinzipien: kurze Bewegungsphasen,
       viele Pausen, Gewichtsreduktion vor Muskelaufbau, Untergrund) — aus der
       Einleitung von Kap. 5.3 (ph(25).pdf), S. 85
