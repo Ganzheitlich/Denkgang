@@ -62,25 +62,27 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 133 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 40
-  Untersuchung, 55 Pathologie, 26 Biomechanik, 9 Therapie — genaue
+- Wissensbibliothek: 136 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 42
+  Untersuchung, 55 Pathologie, 29 Biomechanik, 9 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
-  Einträge seit dem 21.09.). Danach 36 weitere neue Einträge aus Hárrer,
+  Einträge seit dem 21.09.). Danach 39 weitere neue Einträge aus Hárrer,
   Manuelle Therapie beim Hund — **Kap. 6–10 (komplette Hintergliedmaße:
-  Hüfte, Knie, Unterschenkel, Sprunggelenk/Zehen) und Kap. 13
-  (Ellenbogenregion) sind vollständig abgedeckt**, und aus **Kap. 16
-  (Wirbelsäule) sind alle fachlich dichten Kernabschnitte** (Anatomie,
-  Funktion, Differenzialdiagnostik, benannte Tests für HWS, BWS, Rippen,
-  Sympathikus, LWS, ISG sowie die Rumpf-/Atemmuskulatur) **vollständig
-  ausgewertet** (siehe BIOMECHANIK-Backlog unten für die bewusst
-  ausgelassenen reinen Technik-Rezeptteile). Baumgartner/Wittek/Khol
-  „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
-  (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
-  Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
-  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer Kap. 11/12
-  (Vordergliedmaße-Einleitung und Schulterregion) fortsetzen.
+  Hüfte, Knie, Unterschenkel, Sprunggelenk/Zehen), Kap. 12 (Schulterregion/
+  skapulothorakales Gleitlager) und Kap. 13 (Ellenbogenregion) sind
+  vollständig abgedeckt**, und aus **Kap. 16 (Wirbelsäule) sind alle
+  fachlich dichten Kernabschnitte** (Anatomie, Funktion,
+  Differenzialdiagnostik, benannte Tests für HWS, BWS, Rippen, Sympathikus,
+  LWS, ISG sowie die Rumpf-/Atemmuskulatur) **vollständig ausgewertet**
+  (siehe BIOMECHANIK-Backlog unten für die bewusst ausgelassenen reinen
+  Technik-Rezeptteile). Baumgartner/Wittek/Khol „Klinische Propädeutik der
+  Haus- und Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7
+  identifiziert), aber wegen Multi-Spezies-Umfang und
+  Extraktions-Qualitätsproblemen zurückgestellt (siehe
+  UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer Kap. 11
+  (Vordergliedmaße-Einleitung) prüfen oder nächstes Buch aus dem Backlog
+  wählen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -862,6 +864,36 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Nächster Fortsetzungspunkt: Kap. 11/12 (Vordergliedmaße-Einleitung
       und Schulterregion/skapulothorakales Gleitlager, S. 126–164, noch
       komplett offen).
+- [x] **Kap. 12 „Schulterregion und skapulothorakales Gleitlager" (S. 127–144,
+      ma(12).pdf) abgeschlossen (25.09.2026).** Gelesen: 12.1.1–12.1.5
+      (Skapula-Anatomie, skapulothorakales Gleitlager/Synsarkose statt
+      echtem Gelenk, Schultergelenk-Anatomie/ROM/Kapselmuster/
+      Stabilisatoren, Schultergürtel-/Schultergelenkmuskulatur), 12.2.1
+      (spezifische Untersuchung — Bizepstest, Stabilitätstests) und
+      12.3.1–12.3.4 (Muskelgruppen-Untersuchung). Drei neue Einträge:
+      `schultergelenk-skapulothorakales-gleitlager-anatomie` (warum die
+      Skapula muskulär statt gelenkig am Thorax hängt und die
+      Konvex-Konkav-Regel hier nicht gilt, Schultergelenk-ROM/
+      Kapselmuster/Stabilisatoren, die Biceps-Schulter-Korrelation),
+      `bizepstest-schultergelenk-stabilitaetstests` (Bizepstest als
+      Rupturzeichen der Ursprungssehne, Sulcus-intertubercularis-
+      Provokation, mediales/laterales Gapping mit Stabilisator-Zuordnung)
+      und `schultergelenkmuskulatur-flexoren-extensoren-differenzierung`
+      (oberflächliche/tiefe Schultergürtelmuskulatur als Tabelle, der
+      Flexor-/Extensor-Funktionswechsel je nach Sehnenverlauf vor/hinter
+      der Rotationsachse bei M. infraspinatus/M. subscapularis/
+      M. coracobrachialis, Differenzierung per Ausschluss- und
+      Zusatzbewegung, M.-supraspinatus-Kontraktur bei sehr aktiven
+      Hunden). Bewusst ausgelassen: 12.2.2 (Behandlung der
+      Stabilitätsdefizite) und 12.3.5–12.3.8 (Behandlungstechnik-Rezepte
+      für die einzelnen Muskelgruppen) — reine, bereits aus anderen
+      Kapiteln bekannte Technik-Rezepte ohne neuen fachlichen Gehalt.
+      Verifiziert per Playwright-Screenshot (3/3 Seiten, 0 Console-/
+      Page-Errors).
+      Nächster Fortsetzungspunkt: Kap. 11 (Vordergliedmaße-Einleitung,
+      laut Inhaltsverzeichnis sehr kurz, S. 126) oder nächstes Buch aus
+      dem Backlog, falls Kap. 11 keinen eigenständigen Eintrag
+      rechtfertigt.
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 

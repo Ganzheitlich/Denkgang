@@ -7030,6 +7030,115 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["rocky"],
     relatedAnatomyIds: ["biceps", "brachialis"],
   },
+  {
+    id: "schultergelenk-skapulothorakales-gleitlager-anatomie",
+    category: "BIOMECHANIK",
+    title: "Das skapulothorakale Gleitlager: warum die Skapula gar kein Gelenk hat",
+    teaser:
+      "Die Skapula des Hundes ist nicht gelenkig, sondern rein muskulär mit dem Thorax verbunden — die Konvex-Konkav-Regel der Gelenklehre gilt hier deshalb nicht.",
+    sections: [
+      {
+        type: "text",
+        heading: "Skapula-Landmarken",
+        text: "Die dreieckige Skapula hat drei Ränder (Margo cranialis mit der Incisura scapulae für den N. suprascapularis, Margo dorsalis zur Wirbelsäule, Margo caudalis zu den Rippen) und drei Winkel. Der ventrale Angulus trägt die Cavitas glenoidalis; kranial davon liegt das Tuberculum supraglenoidale (Ursprung M. biceps brachii), kaudal das Tuberculum infraglenoidale (Ursprung M. triceps brachii caput longum). Die Spina scapulae teilt die Skapula in Fossa supraspinata und Fossa infraspinata (Ursprünge der gleichnamigen Muskeln) und verbreitert sich distal zum Akromion. Medial liegt die Facies subscapularis mit der Fossa subscapularis (Ursprung M. subscapularis) sowie die Facies serrata für den Ansatz des M. serratus ventralis. Die Klavikula ist beim Hund weitgehend degeneriert (ggf. nur ein ca. 1 cm langes Knöchelchen, auf Röntgenbildern meist nicht sichtbar).",
+      },
+      {
+        type: "text",
+        heading: "Skapulothorakales Gleitlager (Synsarkose) statt echtem Gelenk",
+        text: "Die Skapula ist nicht gelenkig, sondern rein muskulär (v. a. M. subscapularis, M. serratus ventralis) mit dem Thorax verbunden. Deshalb gilt bei der Untersuchung nicht die Konvex-Konkav-Regel der Gelenklehre — stattdessen wird die Translation der Skapula auf dem Thorax untersucht. Die Bewegungsachse der Skapula liegt am dorsalen Skapularand und wandert während der Bewegung mit: Bei Schulterextension dreht die Skapula nach kaudal (Achse wandert kaudoventral), bei Schulterflexion nach kranial (Achse wandert dorsokranial).",
+      },
+      {
+        type: "text",
+        heading: "Das Schultergelenk selbst",
+        text: "Die Art. humeri ist anatomisch ein Kugelgelenk, funktioniert aber wie ein Scharniergelenk: Flexion (50–58°) und Extension (160–165°) sind die Hauptbewegungen, dazu passiv Ab-/Adduktion (55–65°) und Innen-/Außenrotation (35°/45°). Die Gelenkpfanne (Cavitas glenoidalis) ist flach und bietet knöchern wenig Halt — ein Labrum glenoidale vergrößert sie, die Kapsel ist straff, und das Gelenk wird hauptsächlich muskulär geführt: M. subscapularis als innerer, M. infraspinatus als äußerer Kapselverstärker, M. biceps brachii als kranialer Stabilisator, dazu die Ligg. glenohumeralia mediale et laterale. Kapselmuster: Extension – Flexion. Endgefühle: fest-elastisch in Extension, Ab-/Adduktion und Rotation; weich-elastisch in Flexion.",
+      },
+      {
+        type: "text",
+        heading: "Warum Schulter- und Bizepsprobleme fast immer zusammen auftreten",
+        text: "Bei Schulterproblemen treten fast immer gleichzeitig M.-biceps-brachii-Probleme auf — vermutlich weil dieser Muskel als kranialer Schulterstabilisator durch seine Haltearbeit (v. a. im Stand) einer besonders hohen Dauerbelastung ausgesetzt ist.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 12.1.1–12.1.3 (Skapula, Skapulothorakales Gleitlager, Schultergelenk), S. 127f. Skapula-Anatomie, Synsarkose-Konzept, Schultergelenk-ROM/Kapselmuster/Stabilisatoren und die Biceps-Korrelation sind im Original so beschrieben.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["biceps", "supraspinatus", "infraspinatus", "subscapularis"],
+  },
+  {
+    id: "bizepstest-schultergelenk-stabilitaetstests",
+    category: "UNTERSUCHUNG",
+    title: "Der Bizepstest: wenn sich Schulter und Ellenbogen gleichzeitig strecken lassen",
+    teaser:
+      "Physiologisch kann ein Hund bei maximaler Schulterflexion das Ellenbogengelenk nicht vollständig strecken — gelingt es doch, ist die Bizepssehne höchstwahrscheinlich gerissen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Bizepstest",
+        text: "Eine Hand widerlagert die Wirbelsäule, die andere umgreift von kaudolateral den Unterarm. Das Schultergelenk wird maximal flektiert, während gleichzeitig versucht wird, das Ellenbogengelenk so weit wie möglich zu strecken. Physiologisch kann der Hund bei maximaler Schulterflexion das Ellenbogengelenk nicht extendieren. Ist die Ursprungssehne des M. biceps brachii rupturiert, kann der Hund das Ellenbogengelenk dabei voll strecken.",
+      },
+      {
+        type: "text",
+        heading: "Provokation im Sulcus intertubercularis",
+        text: "Der M. biceps brachii muss nicht rupturiert sein, um Probleme in der Art. humeri zu verursachen — permanente Lastumverteilung nach vorn und dauerhafte exzentrische Belastung können ihn ebenfalls schmerzhaft machen und seine Funktion einschränken. In derselben Ausgangsstellung wie beim Bizepstest gibt der Untersucher zusätzlich Druck auf die Bizepssehne im Sulcus intertubercularis und prüft auf Schmerzreaktion.",
+      },
+      {
+        type: "text",
+        heading: "Mediale und laterale Stabilitätstests (Gapping)",
+        text: "Werden beim Joint play der Art. humeri signifikant vergrößerte Bewegungsausschläge festgestellt, ergänzt der Untersucher Stabilitätstests: Beim medialen Gapping wird das Gelenk mit einem schnellen Impuls medial aufgeklappt (testet mediale Kollateralligamente und Kapselanteil — der M. subscapularis stabilisiert hier zusätzlich); beim lateralen Gapping entsprechend lateral (testet laterale Kollateralligamente und Kapselanteil — hier stabilisiert zusätzlich der M. infraspinatus). Wichtig für die Therapie: Findet sich zu viel Spiel nach medial, muss der Fokus auf der Stabilisation liegen, nicht auf einer Mobilisation.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 12.2.1 (Spezifische Untersuchung der Gelenke — Stabilitätstests, Bizepstest), S. 130–132. Testdurchführung, Aussagen und die Muskel-Stabilisator-Zuordnung sind im Original so beschrieben.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["biceps", "subscapularis", "infraspinatus"],
+  },
+  {
+    id: "schultergelenkmuskulatur-flexoren-extensoren-differenzierung",
+    category: "UNTERSUCHUNG",
+    title: "Wenn ein Muskel je nach Gelenkstellung beugt oder streckt",
+    teaser:
+      "M. infraspinatus, M. subscapularis und M. coracobrachialis wechseln ihre Funktion, je nachdem ob ihre Sehne vor oder hinter der Rotationsachse der Schulter verläuft — Flexor oder Extensor ist hier keine feste Eigenschaft.",
+    sections: [
+      {
+        type: "table",
+        heading: "Schultergürtelmuskulatur: oberflächliche und tiefe Schicht",
+        columns: ["Schicht", "Muskeln", "Bemerkung"],
+        rows: [
+          [
+            "Oberflächlich",
+            "M. trapezius, M. omotransversarius, M. brachiocephalicus, M. latissimus dorsi, M. pectoralis superficialis",
+            "M. latissimus dorsi (Schulterflexion, zieht die Gliedmaße nach kaudal) ist der direkte Antagonist des M. brachiocephalicus (zieht nach kranial)",
+          ],
+          [
+            "Tief",
+            "M. rhomboideus, M. serratus ventralis, M. pectoralis profundus",
+            "M. serratus ventralis ist fächerförmig mit zervikalem (Ursprung Halswirbel-Querfortsätze) und thorakalem Anteil (Ursprung bis zur 10. Rippe), beide konvergieren zur Facies serrata scapulae",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum manche Schultermuskeln je nach Stellung beugen oder strecken",
+        text: "M. infraspinatus, M. subscapularis und M. coracobrachialis können je nach Gelenkstellung als Flexor oder Extensor des Schultergelenks fungieren: Ihre Sehne verläuft je nach Stellung der Art. humeri entweder vor oder hinter der Rotationsachse. Der M. subscapularis hat dieselbe Doppelfunktion wie der M. infraspinatus, stabilisiert dabei aber die Medialseite (statt der Lateralseite). Der M. coracobrachialis flektiert/extendiert ebenfalls je nach Stellung, macht aber zusätzlich eine Adduktion im Schultergelenk.",
+      },
+      {
+        type: "text",
+        heading: "Differenzierung per Ausschluss- und Zusatzbewegung",
+        text: "Da M. subscapularis und M. coracobrachialis medial liegen und dort nicht direkt palpiert werden können, hilft Ausschlussdiagnostik: Ist das Schultergelenk in Extension oder Flexion eingeschränkt/schmerzhaft (bei fixierter Skapula), findet sich aber lateral keine Gewebeveränderung, liegt die Ursache vermutlich im M. subscapularis. Der M. coracobrachialis wird über die zusätzliche Adduktionsbewegung bei der Schmerzprovokation identifiziert bzw. ausgeschlossen. Der M. deltoideus flektiert dagegen ausschließlich (nie extendierend) und wird vom M. teres major durch zusätzliche Außenrotation (mehr Spannung auf M. teres major) sowie vom M. coracobrachialis durch zusätzliche Adduktion (mehr Provokation) unterschieden.",
+      },
+      {
+        type: "text",
+        heading: "M. supraspinatus: Kontraktur bei sehr aktiven Hunden",
+        text: "Sehr aktive Hunde können eine traumatisch bedingte Kontraktur des M. supraspinatus entwickeln. Die Therapie besteht dann in einer Resektion der Ansatzsehne — was allerdings zu erheblichen Stabilitätsproblemen im Schultergelenk führt, da der M. supraspinatus zu den Schulterextensoren zählt und das Gelenk hauptsächlich muskulär geführt wird.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 12.1.4–12.1.5 und 12.3.1–12.3.4 (Schultergürtel-/Schultergelenkmuskulatur, spezifische Untersuchung), S. 127f., 134–144. Muskelgruppen, der Flexor-/Extensor-Wechselmechanismus, die Differenzierungslogik und die Supraspinatus-Kontraktur sind im Original so beschrieben.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["supraspinatus", "infraspinatus", "subscapularis", "coracobrachialis", "deltoideus", "teres-major", "teres-minor"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
