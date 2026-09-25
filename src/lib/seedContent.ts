@@ -9974,6 +9974,40 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
+  {
+    id: "diskospondylitis-hund-infektionsherd-anderswo-roentgen-verzoegerung",
+    category: "PATHOLOGIE",
+    title: "Diskospondylitis: wenn die eigentliche Infektion nicht in der Wirbelsäule sitzt",
+    teaser:
+      "Eine entzündete Bandscheibe ist bei der Diskospondylitis fast nie das eigentliche Problem — meist steckt eine Harnwegs-, Zahn-, Herzklappen- oder Hautinfektion dahinter, die sich über die Blutbahn bis in die Wirbelsäule ausgebreitet hat.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eine Blutbahninfektion, die in der Wirbelsäule landet",
+        text: "Diskospondylitis bezeichnet eine meist chronisch verlaufende Entzündung von Bandscheibe, angrenzenden Wirbelendplatten und Wirbelkörpern; ist ausschließlich der Knochen ohne Bandscheibenbeteiligung betroffen, spricht man von einer Wirbelkörperosteomyelitis (Spondylitis). Die Ursache liegt in aller Regel nicht in der Wirbelsäule selbst: Am häufigsten gelangen Bakterien (vor allem Staphylococcus intermedius oder aureus, seltener Streptokokken, E. coli, Nokardien oder Brucella canis) über den Blutweg aus einem ganz anderen Infektionsherd in die Bandscheibenregion. Entsprechend sind Hunde mit bestehenden Harnapparat-, Periodont-, Herzklappen- oder Hautinfektionen besonders gefährdet — die eigentliche Ursache ist damit oft an einer Körperstelle zu suchen, die mit der Wirbelsäule auf den ersten Blick nichts zu tun hat. Seltener entsteht die Infektion durch wandernde Fremdkörper wie Gräsergrannen, durch Pilze (vor allem Aspergillose) oder iatrogen als Komplikation einer Bandscheibenoperation. Junge bis mittelaltrige Rüden großer Rassen sind bevorzugt betroffen, mit Prädilektionsstellen an kaudaler Halswirbelsäule, mittlerer Brustwirbelsäule sowie thorakolumbalem und lumbosakralem Übergang.",
+      },
+      {
+        type: "text",
+        heading: "Vom unauffälligen Beginn zum Fieberschub",
+        text: "Diskospondylitis beginnt oft subklinisch mit allenfalls leichter Bewegungsunlust und kann sich jederzeit akut zuspitzen: hochgradige, lokal begrenzte Schmerzhaftigkeit, Fieberschübe, Inappetenz, Abmagerung und deutliche Bewegungsunlust. Greift die Infektion auf umgebendes Gewebe über, entstehen Weichteilschwellungen, epidurale Abszesse und Fistelkanäle; komprimiert sie neurale Strukturen, kommen neurologische Ausfälle hinzu. Differentialdiagnostisch muss vor allem an Spondylosis deformans (dort fehlt die für Diskospondylitis typische Lyse der Wirbelendplatten) sowie an Wirbelneoplasien gedacht werden — Letztere beschränken sich meist auf einen einzelnen Wirbel, außer bei multiplem Myelom, Lymphom oder Metastasen (z. B. von Prostatatumoren), die mehrere Wirbel gleichzeitig befallen können.",
+      },
+      {
+        type: "text",
+        heading: "Warum das Röntgenbild zunächst täuscht",
+        text: "Ein frisch infizierter Hund kann röntgenologisch noch vollkommen unauffällig sein: Charakteristische Veränderungen wie ein irregulär begrenzter, verengter Zwischenwirbelraum, Osteolyse der Endplatten oder Osteophytenbildung werden frühestens 10 bis 14 Tage nach der Infektion sichtbar. CT und MRT erkennen Endplattenlyse und Bandscheibenveränderungen dagegen deutlich früher und sind deshalb die bildgebenden Methoden der Wahl, wenn der klinische Verdacht schon vor diesem Zeitfenster besteht. Die endgültige Diagnose stützt sich zusätzlich auf wiederholte Blutkulturen und bakteriologische Harnuntersuchungen (in 50–70 % bzw. 25 % der Fälle erfolgreich keimisolierend) sowie — in endemischen Gebieten — eine serologische Untersuchung auf kanine Brucellose.",
+      },
+      {
+        type: "text",
+        heading: "Prognostisch entscheidend: Erreger und neurologischer Zustand",
+        text: "Die Prognose ist günstig bei Schmerzen ohne motorische Ausfälle und raschem Ansprechen auf die Antibiotikatherapie, wird aber vorsichtig bis ungünstig bei deutlichen motorischen Defiziten, Stehunfähigkeit oder ausgeprägter Wirbelsäuleninstabilität — unabhängig von einer fachgerechten chirurgischen Versorgung. Eine Sonderstellung nehmen Aspergillus-Infektionen ein: Sie gehen mit einer schlechten Langzeitprognose einher, unabhängig vom übrigen klinischen Bild.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Diskospondylitis, Osteomyelitis der Wirbelkörper (Spondylitis) beim Hund. Die hämatogene Infektionsroute mit den genannten Erregern und Prädispositionsfaktoren (Harnapparat-/Periodont-/Herzklappen-/Hautinfektionen), der klinische Verlauf, die Differentialdiagnosen, die zeitliche Verzögerung der Röntgenbefunde gegenüber CT/MRT sowie die prognostischen Faktoren (inkl. der schlechten Aspergillus-Prognose) sind in der Quelle so beschrieben. Medikamentöse Dosierungsdetails (Antibiotika-Auswahl, Behandlungsdauer) bewusst nicht übernommen (außerhalb des physiotherapeutischen Nachschlage-Scopes). Mit diesem Eintrag ist die Quelldatei (43 von 43 Webseiten) vollständig ausgewertet.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark", "discus"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

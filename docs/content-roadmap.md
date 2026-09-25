@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 215 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 56
-  Untersuchung, 75 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 216 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 56
+  Untersuchung, 76 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -150,11 +150,16 @@ kein Überblick verloren geht.
   neuer Eintrag zur lumbosakralen Instabilität/Stenose (S. 35–38): die
   orthopädische Verwechslungsgefahr mit einer Kreuzbandläsion bei
   foraminaler Nervenwurzelkompression, Automutilation als mögliches
-  Symptom sowie spezifische Bildgebungsgrenzen. Details und bewusste
-  Auslassungen siehe PATHOLOGIE-Backlog unten. Nächster Schritt: VetCenter
-  „Wirbelsäulenerkrankungen" ab S. 39/43 fortsetzen (Wirbelmissbildungen,
-  Tumoren, Rückenmarködem u. a. — siehe Backlog), danach ggf.
-  Baumgartner/Wittek/Khol trotz der bekannten Einschränkungen.
+  Symptom sowie spezifische Bildgebungsgrenzen. Danach ein letzter neuer
+  Eintrag zur Diskospondylitis (S. 39–43, letzter Abschnitt): die
+  hämatogene Infektionsroute mit meist wirbelsäulenfernem Ursprungsherd
+  (Harnapparat/Periodont/Herzklappen/Haut) und die zeitliche Verzögerung
+  der Röntgenbefunde gegenüber CT/MRT — **damit ist VetCenter
+  „Wirbelsäulenerkrankungen" als Quelle vollständig ausgewertet (43/43
+  Webseiten).** Details siehe PATHOLOGIE-Backlog unten. Nächster Schritt:
+  neues Buch aus dem Backlog wählen — Baumgartner/Wittek/Khol trotz der
+  bekannten Einschränkungen, oder ein noch nicht begonnenes Thema aus dem
+  ANATOMIE-Backlog (fallunabhängige Items).
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -414,12 +419,33 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Verlaufsform). Verweist auf den bestehenden Eintrag zur allgemeinen
       Sekundärschädigungskaskade statt den Ischämie-Mechanismus zu
       wiederholen. Verifiziert via Playwright (1/1 Seite, 0 Fehler).
-      **Nächster Fortsetzungspunkt:** Die Datei hat noch 43 Web-Seiten
-      insgesamt, davon S. 1–38 jetzt ausgewertet. Ab S. 39 weiterlesen:
-      Wirbelmissbildungen, Exostosenbildung, Tumoren der Wirbelsäule/des
-      Rückenmarks, Rückenmarködem, Zysten der Rückenmarkhäute, Abszesse
-      der Wirbelsäule sowie die allgemeine Prognoseskala mit Erfolgsraten
-      (ohne die Medikamenten-Dosierungen).
+- [x] **„Diskospondylitis, Osteomyelitis der Wirbelkörper (Spondylitis)"
+      (S. 39–43 von 43, letzter Abschnitt) gelesen und ausgewertet
+      (25.09.2026) — damit ist diese Quelldatei vollständig (43/43
+      Webseiten) ausgewertet.** Ein neuer Eintrag zur hämatogenen
+      Infektionsroute (meist Staph. intermedius/aureus, seltener
+      Aspergillose/Gräsergrannen/iatrogen) mit dem didaktisch wichtigen
+      Punkt, dass die eigentliche Infektionsquelle meist außerhalb der
+      Wirbelsäule liegt (Harnapparat-/Periodont-/Herzklappen-/
+      Hautinfektionen als Prädisposition), der Differentialdiagnose
+      gegen Spondylosis deformans und Wirbelneoplasien, sowie der
+      zeitlichen Verzögerung der Röntgenbefunde (10–14 Tage) gegenüber
+      CT/MRT. Medikamentendosierungen bewusst nicht übernommen.
+      **Korrektur einer früheren Roadmap-Annahme:** Die im allerersten
+      Seitenabschnitt der Datei genannten Stichworte „Wirbelmissbildungen,
+      Exostosenbildung, Tumoren, Rückenmarködem, Zysten der
+      Rückenmarkhäute, Abszesse der Wirbelsäule" sind dort nur als
+      Ätiologie-Aufzählung möglicher Kompressionsursachen genannt — die
+      Datei enthält dazu KEINE eigenen, vertiefenden Abschnitte mehr
+      (das komplette Inhaltsverzeichnis der Datei ist: allgemeine
+      Rückenmarkkompression, Diskushernien, Wirbelfrakturen/-luxationen/
+      Trauma, Atlantoaxiale Subluxation, Wobbler-Syndrom, Lumbosakrale
+      Instabilität/Cauda equina, Diskospondylitis/Spondylitis — dann
+      Quellenangabe/Ende). Diese Themen bleiben als potenzielle
+      Anatomie-/Pathologie-Lücken für eine andere Quelle vorgemerkt,
+      sind aber nicht mehr Teil des VetCenter-Fortsetzungspunkts.
+      Verifiziert via Playwright (1/1 Seite, 0 Fehler). **VetCenter
+      „Wirbelsäulenerkrankungen" ist damit als Quelle abgeschlossen.**
 
 ### PATHOLOGIE — Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3)
 
