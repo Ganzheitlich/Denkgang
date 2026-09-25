@@ -8497,6 +8497,81 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "hydrotherapie-physik-auftrieb-druck-widerstand",
+    category: "BIOMECHANIK",
+    title: "Wasser bis zum Sprunggelenk entlastet das Gelenk kaum — bis zum Hals fast vollständig",
+    teaser:
+      "Drei physikalische Eigenschaften des Wassers — Auftrieb, hydrostatischer Druck, Wasserwiderstand — machen aus derselben Übung im Wasser ein völlig anderes Training, je nachdem wie tief der Hund einsteigt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Auftrieb hängt vom Körperbau ab, nicht nur vom Wasserstand",
+        text: "Der Auftrieb, den ein Körper im Wasser entwickelt, hängt von seinem spezifischen Gewicht ab — und das wiederum vom Luftgehalt, Fettanteil und Knochenanteil der Lebendmasse: Je mehr Luft und Fett, desto mehr Auftrieb; Knochen ist schwerer als Wasser und sinkt. Je nach Wasserstand nimmt der Auftrieb dem Hund bis zu 70 % seines Körpergewichts ab.",
+      },
+      {
+        type: "table",
+        heading: "Gelenkbelastung nach Wasserstand (Faustregel)",
+        columns: ["Wasserstand", "Verbleibende Gelenkbelastung unter Wasser"],
+        rows: [
+          ["bis zum Sprunggelenk", "90 %"],
+          ["bis zum Ellbogen", "85 %"],
+          ["bis zum Hüftgelenk", "40 %"],
+          ["bis zum Hals", "weniger als 30 %"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Hydrostatischer Druck und Wasserwiderstand",
+        text: "Der hydrostatische Druck des Wassers nimmt mit der Tiefe zu und hilft dabei, Ödeme und Schwellungen abzutransportieren — sowohl der distale Kreislauf als auch der Lymphtransport von distal nach proximal werden gefördert. Der Wasserwiderstand erschwert dagegen die aktive Bewegung und erhöht dadurch den Trainingseffekt; Wirbel- oder Gegenstromanlagen verstärken diesen Widerstand und damit auch den Muskelaufbau während des Trainings.",
+      },
+      {
+        type: "text",
+        heading: "Wassertemperatur: kühl für Training, lauwarm für Rehabilitation",
+        text: "Kaltes Wasser wirkt bei gesunden, aktiv trainierenden Hunden als Abkühlung — wichtig, weil sich Hunde im Wasser leicht überhitzen können, da die Bewegungswärme dort nicht abgestrahlt wird: Je mehr aktive Bewegung verlangt wird, desto kühler sollte das Wasser sein. Lauwarmes Wasser dagegen wirkt bei Rehabilitationspatienten angenehm und schmerzstillend und verbessert durch die Oberflächenwärme die Dehnbarkeit kollagener und elastischer Fasern. Als grundsätzliche Empfehlung gelten 25–28 °C — zu warmes Wasser dämpft die Bewegungsfreude.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.5.24 (Hydrotherapie), S. 125f. Der Auftriebs-Mechanismus, die Gelenkbelastungs-Faustregel nach Wasserstand, die Wirkung von hydrostatischem Druck und Wasserwiderstand sowie die Temperaturempfehlungen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "unterwasserlaufband-indikation-kontraindikation",
+    category: "THERAPIE",
+    title: "Das Unterwasserlaufband: wann es hilft und wann es gefährlich wird",
+    teaser:
+      "State of the Art in der Bewegungstherapie beim Hund — aber bei Herz-Kreislauf-Erkrankung, Atembeschwerden oder Wasserpanik kann genau dieselbe Therapie zum Risiko werden.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum das Unterwasserlaufband so vielseitig einsetzbar ist",
+        text: "Das Unterwasserlaufband gilt als State of the Art der Bewegungstherapie beim Hund: Es wird zur Gangbildkorrektur, zum Muskelaufbau, zur Förderung von Balance und Propriozeption sowie zum Abbau von überflüssigem Körpergewicht eingesetzt. Ödeme werden schneller abtransportiert, die Gelenke werden in ihrem Bewegungsausmaß verbessert, die tiefe Rumpfmuskulatur gekräftigt — und die Gelenke können bereits frühzeitig in physiologischer Bewegung beübt werden, ohne überlastet zu werden. Wichtig: Bis zum Sprunggelenk im Wasser werden die Gelenke noch mit 90 % belastet, der Wasserwiderstand ist bei so niedrigem Wasserstand ebenfalls noch gering — das Wasser sollte für einen nennenswerten Effekt mindestens bis zum Bauch des Hundes reichen.",
+      },
+      {
+        type: "list",
+        heading: "Kontraindikationen",
+        items: [
+          "Hunde, die im Wasser Panik bekommen",
+          "Hunde mit starken Atembeschwerden — sie fühlen sich vom hydrostatischen Druck erdrückt",
+          "Herz-Kreislauf-erkrankte Hunde — sie überarbeiten sich im Wasser leicht",
+          "Hunde mit offenen Wunden",
+          "Durchfall",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Praktische Hinweise",
+        text: "Frisch operierte Tiere sollen wegen der Wundinfektionsgefahr erst nach dem Nähteziehen ins Wasser. Die Bewegungstherapie im Wasser muss ebenso überwacht und kontrolliert werden wie an Land. Übungsdauer langsam steigern — bei jungen, fitten Hunden bis zu 20–25 Minuten; stationäre Patienten werden 2× täglich, andere 2× wöchentlich behandelt. Als kostengünstige Alternative ohne Gerät eignet sich das Waten im Wasser (Meer, Teich, flaches Flussufer, an der Leine, ggf. mit Gummistiefeln für den Therapeuten) — hier lassen sich Tempo, Wasserhöhe und Temperatur zwar nicht standardisieren, der Effekt der Hydrotherapie stellt sich aber dennoch ein.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.5.24 (Hydrotherapie — Unterwasserlaufband), S. 126f. Indikationen, die vollständige Kontraindikationsliste sowie die praktischen Hinweise (Wundheilung, Überwachung, Trainingsdauer, Waten als Alternative) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

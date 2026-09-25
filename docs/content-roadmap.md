@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 173 Einträge (7 Anatomie-Spiegelungen, 8 Grundlagen, 51
-  Untersuchung, 65 Pathologie, 39 Biomechanik, 20 Therapie — genaue
+- Wissensbibliothek: 175 Einträge (7 Anatomie-Spiegelungen, 8 Grundlagen, 51
+  Untersuchung, 65 Pathologie, 40 Biomechanik, 21 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -71,24 +71,24 @@ kein Überblick verloren geht.
   Manuelle Therapie beim Hund — **damit ist Hárrer, Manuelle Therapie beim
   Hund (ISBN 978-3-13-245429-3), in seinen fachlich dichten
   Kernabschnitten vollständig ausgewertet (Kap. 6–17)**. Kap. 18 ist reine
-  Literaturliste, kein Extraktionsziel mehr. Danach 27 weitere neue
+  Literaturliste, kein Extraktionsziel mehr. Danach 29 weitere neue
   Einträge aus Mai, Physiotherapie und Bewegungstraining für Hunde —
-  **Kap. 4 „Training und Hundesport" (komplett: Trainingsmethoden/-alter,
-  Immobilisation aller relevanten Gewebe, Hallgren-Rückenschmerzstudie,
-  Rassebesonderheiten, Nutraceuticals), Kap. 5.1 „Evaluierung", Kap. 5.2
-  „Ausgewählte Erkrankungen" und Kap. 5.3 „Mobilisationstechniken"
-  (Manuelle Medizin: OMT/Chiropraxis/Osteopathie; Tuina: TCM-Theorie klar
-  von belegten Massage-Effekten getrennt, plus Grifftechniken-Glossar)
-  sind vollständig abgedeckt**. Siehe BIOMECHANIK-/THERAPIE-Backlog unten
-  für die im Detail bewusst ausgelassenen reinen Technik-Rezeptteile.
+  **Kap. 4 „Training und Hundesport" (komplett), Kap. 5.1 „Evaluierung",
+  Kap. 5.2 „Ausgewählte Erkrankungen", Kap. 5.3 „Mobilisationstechniken"
+  (Manuelle Medizin: OMT/Chiropraxis/Osteopathie; Tuina) und aus Kap. 5.5
+  der Abschnitt „Hydrotherapie" (Auftrieb/Gelenkbelastung nach
+  Wasserstand/Unterwasserlaufband) sind abgedeckt**. Siehe BIOMECHANIK-/
+  THERAPIE-Backlog unten für die im Detail bewusst ausgelassenen reinen
+  Technik-Rezeptteile (u. a. die ca. 25 Einzelübungen aus Kap. 5.5, die
+  alle demselben Indikation/Wie oft/Wie lange-Schema folgen).
   Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere"
   wurde erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber
   wegen Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen
   zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: der noch
-  nicht systematisch gesichtete Rest von Mai (Hydrotherapie, westliche
-  Massage-Grundtechniken, Bandagieren/Orthesen — Kap. 6+) oder nächstes
-  Buch aus dem Backlog wählen (Hohmann Bewegungsapparat Restkapitel,
-  VetCenter Wirbelsäulenerkrankungen).
+  nicht systematisch gesichtete Rest von Mai ab Kap. 6 (westliche
+  Massage-Grundtechniken, Bandagieren/Orthesen) oder nächstes Buch aus
+  dem Backlog wählen (Hohmann Bewegungsapparat Restkapitel, VetCenter
+  Wirbelsäulenerkrankungen).
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -782,10 +782,39 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Trainingsfehler, Trainingsalter-Richtlinien) oder der Rest des
       Buches (Hydrotherapie, westliche Massage-Grundtechniken,
       Bandagieren/Orthesen — noch nicht systematisch gesichtet).
-- [ ] Rest des Buches (ca. 26+ Einzeldateien ph.pdf, ph1–ph22) noch nicht
-      systematisch gesichtet — voraussichtlich eigene Kapitel zu Hydrotherapie,
-      Massage-Grundtechniken (westliche/klassische Massage), Bandagieren/
-      Orthesen.
+- [x] **Kap. 5.5.24 „Hydrotherapie" (S. 125–127, ph(27).pdf) abgeschlossen
+      (25.09.2026).** Zwei neue Einträge:
+      `hydrotherapie-physik-auftrieb-druck-widerstand` (Auftrieb als
+      Funktion des Körperbaus, die Gelenkbelastungs-Faustregel nach
+      Wasserstand als Tabelle — 90 % bis zum Sprunggelenk, 85 % bis zum
+      Ellbogen, 40 % bis zur Hüfte, <30 % bis zum Hals —,
+      hydrostatischer Druck für den Lymphtransport, Wasserwiderstand als
+      Trainingsreiz, Temperaturlogik kühl-für-Training vs.
+      lauwarm-für-Reha) und `unterwasserlaufband-indikation-kontraindikation`
+      (Einsatzgebiete, vollständige Kontraindikationsliste, praktische
+      Hinweise inkl. Waten als geräteloser Alternative). Verifiziert per
+      Playwright-Screenshot (2/2 Seiten, 0 Console-/Page-Errors).
+      **Kap. 5.5 „Übungen" (S. 107–127+, ph(27).pdf) im Übrigen bewusst
+      NICHT einzeln übernommen** — die knapp 25 Einzelübungen
+      (Assistiertes Aufrichten, Stehen, Gewichtsverlagern, Stufen,
+      Cavaletti, Slalom, Theraband etc.) folgen alle demselben
+      Indikation/Wie oft/Wie lange-Rezeptschema, analog zu den bereits an
+      anderer Stelle bewusst ausgelassenen Gelenktechnik-Rezepten aus
+      Hárrer — reine Anwendungsanleitungen ohne zusätzlichen
+      Differenzialdiagnose- oder Mechanismus-Gehalt für die
+      Wissensbibliothek. Die kurze Einleitung zu Kap. 5.5 (kleine,
+      erreichbare Trainingsziele setzen, Evaluierung bei jeder
+      Intervall-Steigerung insbesondere bei Arbeitshunden, Dokumentation
+      auch zur eigenen Absicherung) wiederholt bereits an anderer Stelle
+      erfasste Evaluierungs-/Dokumentationsprinzipien aus Kap. 5.1 — keine
+      Duplikation nötig.
+      Nächster Fortsetzungspunkt: Rest des Buches ab Kap. 6 (westliche
+      Massage-Grundtechniken, Bandagieren/Orthesen — noch nicht
+      systematisch gesichtet, vermutlich ph(28).pdf und ggf. weitere,
+      noch nicht identifizierte Dateien).
+- [ ] Rest des Buches ab Kap. 6 (vermutlich ph(28).pdf und weitere) noch
+      nicht systematisch gesichtet — voraussichtlich westliche
+      Massage-Grundtechniken, Bandagieren/Orthesen.
 
 ### BIOMECHANIK — Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3)
 
