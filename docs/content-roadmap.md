@@ -62,20 +62,24 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 112 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 34
-  Untersuchung, 46 Pathologie, 15 Biomechanik, 8 Therapie — genaue
+- Wissensbibliothek: 119 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 37
+  Untersuchung, 49 Pathologie, 17 Biomechanik, 9 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
-  Einträge seit dem 21.09.). Danach 15 weitere neue Einträge aus Hárrer,
+  Einträge seit dem 21.09.). Danach 22 weitere neue Einträge aus Hárrer,
   Manuelle Therapie beim Hund — **Kap. 6–9 (komplette Hintergliedmaße:
-  Hüfte, Knie, Unterschenkel/Zehen) sind damit vollständig abgedeckt**
-  (siehe BIOMECHANIK-Backlog unten). Baumgartner/Wittek/Khol „Klinische
-  Propädeutik der Haus- und Heimtiere" wurde erkundet (Struktur, relevante
-  Kapitel 6/7 identifiziert), aber wegen Multi-Spezies-Umfang und
+  Hüfte, Knie, Unterschenkel/Zehen) sind vollständig abgedeckt**, dazu aus
+  Kap. 16 (Wirbelsäule) die allgemeinen Grundlagen, das komplette
+  ISG-Unterkapitel und der einleitende Muskelfunktions-/Subokzipital-Teil
+  (siehe BIOMECHANIK-Backlog unten für den noch offenen Rest von Kap. 16
+  sowie Kap. 13). Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus-
+  und Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7
+  identifiziert), aber wegen Multi-Spezies-Umfang und
   Extraktions-Qualitätsproblemen
   zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer
-  Kap. 13-Rest (Ellenbogenregion) oder Kap. 16 (Wirbelsäule) fortsetzen.
+  Kap. 16-Rest (einzelne Wirbelsäulenabschnitte/übrige Rückenmuskulatur)
+  oder Kap. 13-Rest (Ellenbogenregion) fortsetzen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -714,6 +718,60 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Rest (Ellenbogenregion) oder Kap. 16 Wirbelsäule (S. 202) — beide
       noch komplett offen für systematische Biomechanik-Auswertung
       (bisher nur einzelne Fakten für die Quellenprüfung entnommen).
+- [x] **Kap. 16 „Die Wirbelsäule" (S. 202–247, ma(16).pdf) — Kernabschnitte
+      gelesen und umgesetzt (25.09.2026), gezielt statt vollständig.**
+      Wegen des enormen Umfangs (3265 Zeilen, HWS+BWS+Rippen+Sympathikus+
+      LWS+ISG+Rute als Gelenkkapitel, dazu ein komplettes Muskelkapitel mit
+      derselben Region-für-Region-/Muskel-für-Muskel-Untersuchungs- und
+      Behandlungstiefe wie in Kap. 7–9) wurde bewusst selektiv gelesen:
+      die allgemeinen, wirbelsäulenübergreifenden Grundlagenabschnitte
+      (16.1, 16.1.1, 16.1.2) vollständig, das ISG-Unterkapitel (16.2.7)
+      vollständig (da von den Kap.-6/7/9-Einträgen bereits als
+      Cross-Reference „Differenzialdiagnostik siehe Kap. LWS/ISG"
+      angekündigt), sowie der einleitende Muskel-Funktionsteil (16.3.1)
+      und die subokzipitale Muskulatur (16.3.2) als Beispiel für die
+      Untersuchungstiefe der übrigen Muskelgruppen. **Bewusst NICHT
+      gelesen:** die einzelnen Gelenk-Untersuchungs-/Behandlungskapitel
+      pro Wirbelsäulenabschnitt (16.2.1–16.2.4 HWS/BWS/Rippen, 16.2.5
+      Sympathikus, 16.2.6 LWS-Einzeltechniken, 16.2.8 Rute) sowie die
+      übrigen Muskelgruppen-Kapitel (16.3.3–16.3.11: Rumpfmuskulatur,
+      Bauchmuskulatur, Atemmuskulatur) — das sind, analog zu den
+      Hüft-/Knie-/Unterschenkelkapiteln, hunderte nahezu identisch
+      aufgebaute Einzeltechniken (Palpation/Schmerzprovokation/
+      Längenveränderung je Muskel bzw. Bewegungspalpation/Joint
+      play/Mobilisation je Segment), deren vollständige Auswertung den
+      Rahmen einer einzelnen Session sprengen würde.
+      Sieben neue Wissenseinträge: `wirbelsaeule-ligamente-cecs-
+      spondylose` (16.1/16.1.1: alle Wirbelsäulenbänder mit Funktion,
+      plus der Mechanismus, wie Bandscheibenhöhenverlust den
+      Spinalnerv-Platz im Foramen intervertebrale verengt — direkte
+      Verbindung zu CECS/Wobbler-Syndrom und zur Spondylose-Entstehung
+      am Lig. longitudinale ventrale bei Hypermobilität),
+      `wirbelsaeulendysfunktionen-ursachen-mobilisationsprinzipien`
+      (16.1.2: Ursachen/Folgen von WS-Blockaden, welche
+      Mobilisationstechnik zu welcher Pathologie passt, Kontraindikationen),
+      `iliosakralgelenk-anatomie-symptome-ursachen` (16.2.7: ISG-Anatomie,
+      vollständige Symptomliste inkl. Fossa-ischiorectalis-/N.-pudendus-
+      Verbindung zu Blasen-/Darmproblemen, Ursachenliste),
+      `iliosakralgelenk-sakrum-ilium-laesion-beinlaenge` (16.2.7:
+      Sakrum- vs. Iliumläsion, Befundtabelle Ilium dorsal/ventral,
+      funktioneller vs. anatomischer Beinlängenunterschied),
+      `iliosakralgelenk-manuelle-untersuchung-provokationstests` (16.2.7:
+      DD Hüfte-ISG-LWS-Provokation, die validierte ⅗-Regel nach Fortin
+      et al., Bewegungspalpation/Vorlaufphänomen/Federtest),
+      `autochthone-rueckenmuskulatur-funktionelle-anatomie` (16.3.1:
+      dorsale/ventrale Rückenmuskelgruppen, die M.-longissimus-Kette als
+      Erklärung für Becken→obere-HWS-Fortleitung, allgemeine muskuläre
+      Symptomliste) und `subokzipitale-muskulatur-kopfschmerz-schwindel`
+      (16.3.2: Überlastungsauslöser wie Apportieren/Kong-Kauen/
+      Hochschauen zum Halter, Symptome bis hin zu vagusvermittelter
+      Übelkeit und Sehstörungen). Verifiziert per Playwright-Screenshot
+      (7/7 Seiten, 0 Console-/Page-Errors).
+      Nächster Fortsetzungspunkt: Kap. 16.2.1–16.2.6/16.2.8 (HWS/BWS/
+      Rippen/Sympathikus/LWS/Rute — Einzelgelenk-Techniken) und Kap.
+      16.3.3–16.3.11 (übrige Rückenmuskelgruppen), danach Kap. 13-Rest
+      (Ellenbogenregion) und Kap. 10–12 (Vordergliedmaße-Regionen, noch
+      nicht auf Vollständigkeit geprüft).
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 

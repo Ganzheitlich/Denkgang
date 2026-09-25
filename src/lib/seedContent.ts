@@ -6173,6 +6173,334 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["semitendinosus", "gracilis", "biceps-femoris"],
   },
+  {
+    id: "wirbelsaeule-ligamente-cecs-spondylose",
+    category: "BIOMECHANIK",
+    title: "Bänder der Wirbelsäule: wie ihre Degeneration CECS und Spondylose erklärt",
+    teaser:
+      "Verlieren die Ligg. flava an Höhe mit, wenn eine Bandscheibe degeneriert, wird genau dort der Platz eng, den der Spinalnerv im Foramen intervertebrale hat — ein Mechanismus, der bei CECS direkt zur Nervenirritation führt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum Bandscheibenhöhe und Nervenraum zusammenhängen",
+        text: "Das Foramen intervertebrale entsteht aus der Incisura vertebralis cranialis des kaudalen und der Incisura vertebralis caudalis des kranialen Wirbels. Diese beiden Inzisuren und die Dicke der dazwischenliegenden Bandscheibe bestimmen gemeinsam, wie viel Platz der austretende Spinalnerv im Foramen hat. Degeneriert eine Bandscheibe und verliert an Höhe, werden die Platzverhältnisse entsprechend enger — das ist der Mechanismus, über den Bandscheibendegeneration den Spinalnerv irritieren kann, auch ohne klassischen Bandscheibenvorfall.",
+      },
+      {
+        type: "list",
+        heading: "Kurze und lange Bänder der Wirbelsäule",
+        items: [
+          "Ligg. interspinalia — zwischen den Procc. spinosi (BWS bis kranialer LWS-Abschnitt), beim Hund in der HWS muskulär als Mm. interspinales ausgebildet; hemmen die Flexion, viele Mechanorezeptoren (Propriozeption); geraten bei Facettengelenk-Blockaden unter Spannung und werden schmerzhaft.",
+          "Ligg. intertransversaria — zwischen den Querfortsätzen an HWS/BWS/LWS, ebenfalls muskulär (Mm. intertransversarii); hemmen die Seitneige.",
+          "Ligg. intercapitalia — nur in der BWS, verbinden dorsal über der Bandscheibe die Rippenköpfchen und verhindern deren Vorfallen.",
+          "Ligg. flava — verbunden mit den Facettengelenkkapseln, hemmen die Flexion, reich an Schmerzrezeptoren.",
+          "Lig. supraspinale — Fortsetzung des Lig. nuchae, zieht über die Procc. spinosi von BWS/LWS/Sakrum, verbindet sich mit der Fascia thoracolumbalis.",
+          "Lig. nuchae — elastisch, zwischen Axis und Th1 ausgespannt, gibt dem Lig. supraspinale seine Verbindung zu C2.",
+          "Lig. longitudinale dorsale — sanduhrförmig vom Dens axis bis zu den Schwanzwirbeln, mit den Bandscheiben verbunden, reich an Schmerzfasern.",
+          "Lig. longitudinale ventrale — von Th7 bis zum Sakrum auf der Wirbelkörper-Ventralseite, hemmt die Extension.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Klinischer Bezug: CECS und Spondylose",
+        text: "Die Ligg. flava sind für CECS (kaudale zervikale Spondylomyelopathie, Wobbler-Syndrom) besonders relevant: Degeneriert z. B. das Segment C7 und werden die Ligg. flava dadurch hypertroph, kann der Spinalnerv im Foramen intervertebrale eingeengt und irritiert werden — durch den raumfordernden Prozess selbst und durch die zahlreichen Schmerzrezeptoren in den Ligg. flava ist dieser Zustand für den Hund schmerzhaft. Das Lig. longitudinale dorsale ist reich an Schmerzfasern, weshalb Bandscheibenvorwölbungen/-vorfälle oder Osteophyten, die auf dieses Band drücken, starke Schmerzen verursachen. Bei Hypermobilität der Wirbelsäule bilden sich im Lig. longitudinale ventrale Kalkeinlagerungen — das ist der Entstehungsmechanismus der Spondylose.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.1 und 16.1.1 (Anatomischer Aufbau, Ligamente der Wirbelsäule), S. 202f. Bandanatomie, Funktion und die CECS-/Spondylose-Mechanismen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["discus", "rueckenmark"],
+  },
+  {
+    id: "wirbelsaeulendysfunktionen-ursachen-mobilisationsprinzipien",
+    category: "THERAPIE",
+    title: "Wirbelsäulendysfunktionen: Ursachen, Folgen und wann welche Mobilisationstechnik",
+    teaser:
+      "Facettenprobleme sprechen am besten auf schnelle High-velocity-Techniken an, diskogene Probleme dagegen auf vorsichtige generalisierte Rotationen — die Pathologie entscheidet über die Technik, nicht umgekehrt.",
+    sections: [
+      {
+        type: "list",
+        heading: "Typische Ursachen von Wirbelsäulendysfunktionen",
+        items: [
+          "Trauma (Spiel, Sturz, Tritt, Unfall)",
+          "Über-/Fehlbelastung (Hüftdysplasie, Ellbogendysplasie, CECS, Dreibeinigkeit)",
+          "Veränderte Statik (Zustand nach OP, einseitige Belastung z. B. bei Obedience)",
+          "Störung innerer Organe (segmentale Zugehörigkeit)",
+          "Führerfehler (Leinenruck, ausschließliches Linksführen des Hundes)",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Wie sich eine Blockade auswirkt",
+        text: "Durch die Entzündung im Kapsel-Band-Apparat kommt es zu Ödem und fibrotischer Gewebeveränderung, was zu chronischem Mobilitätsverlust führt. Der Spinalnerv kann im Foramen intervertebrale gereizt werden (auch eine Durareizung ist möglich). Im blockierten Segment entsteht eine paravertebrale Tonuserhöhung mit übertragenem Schmerz (referred pain). Fasziale Ketten übertragen die Störung weiter: Eine LWS-Blockade kann z. B. die Fascia thoracolumbalis verspannen, die ihre Spannung an Bauchmuskeln, Rückenmuskeln und den M. latissimus dorsi weitergibt — dadurch wird die Vordergliedmaße beim Vorführen limitiert, und über die verspannte Bauchmuskulatur kann sich sogar die Organmotilität verändern.",
+      },
+      {
+        type: "table",
+        heading: "Welche Technik passt zu welcher Pathologie",
+        columns: ["Befundlage", "Geeignete Technik"],
+        rows: [
+          ["Akut schmerzhaft oder Nervenwurzelsymptomatik", "Vorsichtige, intermittierende Traktion Stufe 1–2, 2–3× für 20–30 s"],
+          ["Chronische Wurzelsymptome", "Traktion Stufe 3, auch anhaltend (ca. 1 min, 4–6×), inkl. Foramen-öffnender Techniken"],
+          ["Facettenprobleme", "High-velocity-Techniken (auch impulslos als Mobilisation mit Gleitstufe 3 in submaximaler Einschränkung)"],
+          ["Diskogene Probleme", "Generalisierte, vorsichtige Rotationen wie bei der Bewegungspalpation"],
+          ["Osteoarthritis", "Große, aktive Bewegungen durch die gesamte Bewegungsbahn (auch als Heimübung geeignet)"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Praxisprinzipien",
+        text: "In der Manuellen Therapie wird die Einschränkung immer von kranial aus benannt (kann C2 auf C3 nicht in Rechtsrotation bewegen, ist „C2 in Rechtsrotation eingeschränkt“) und in diese eingeschränkte Richtung mobilisiert — mit einer wichtigen Ausnahme: Am ISG geht man von einer Fehlstellung statt einer Bewegungseinschränkung aus, weshalb dort nicht in die schmerzhafte Richtung behandelt wird. Direkte Technik (Fokus direkt im gestörten Gelenk) wird bevorzugt, bei zu schmerzhaftem umliegendem Gewebe wird indirekt über die Gegenseite gearbeitet. Es wird immer nur eine Veränderung pro Behandlungseinheit eingeführt, damit Wirkung und Nebenwirkung einer Technik zuordenbar bleiben — und eine Therapieeinheit wird nach Möglichkeit immer mit einer Verbesserung abgeschlossen.",
+      },
+      {
+        type: "list",
+        heading: "Kontraindikationen der Manuellen Therapie an der Wirbelsäule",
+        items: [
+          "Frakturen",
+          "Neoplasie mit Knochenmetastasen",
+          "Akute, entzündliche Prozesse (Osteomyelitis, Tuberkulose)",
+          "Osteoporose",
+          "Aneurysmen, Fieber",
+          "Nicht zusammenpassende Untersuchungsergebnisse/Endgefühle oder unerklärliche Reaktionen des Hundes auf die Technik",
+          "Ängstliche oder aggressive Hunde, bzw. wenn sich der Therapeut mit der Technik unwohl fühlt",
+        ],
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.1.2 (Wirbelsäulendysfunktionen und deren Behandlung), S. 203–205. Ursachen, Auswirkungen, Techniken-Zuordnung und Kontraindikationen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["discus"],
+  },
+  {
+    id: "iliosakralgelenk-anatomie-symptome-ursachen",
+    category: "PATHOLOGIE",
+    title: "ISG-Dysfunktion: von der Fossa ischiorectalis bis zur Rutenhaltung",
+    teaser:
+      "Ein Iliosakralgelenk-Problem zeigt sich selten nur als Rückenschmerz — Blasen-/Darmprobleme, eine weniger schwingende Rute und ein „kürzeres“ Bein können genauso gut Symptome sein.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum das ISG kaum Bewegung haben darf",
+        text: "Das ISG ist ein Synovialgelenk mit sehr straffer, schmerzrezeptorenreicher Gelenkkapsel — minimale Entzündungsreize können hier schon massive Einschränkungen auslösen. Physiologisch hat das Gelenk nur wenig Bewegung, was für die Kraftübertragung von der Hintergliedmaße nach kranial in die LWS auch nötig ist: Wäre das ISG gut beweglich, würde der Schub aus der Hinterhand hier verpuffen. Da das ISG kaum eigene Muskulatur zur Stabilisation besitzt, übernehmen die Bänder (Lig. sacrotuberale, Ligg. sacroiliaca dorsalia/ventralia/interossea) sowie die Fascia thoracolumbalis diese Aufgabe. Weil die Gelenkflächen des Sakrums beinahe sagittal stehen, ist das Gelenk anfällig für Scherkräfte.",
+      },
+      {
+        type: "text",
+        heading: "Fossa ischiorectalis und viszerale Verbindung",
+        text: "Bei ISG-Dysfunktionen kommt es zu einer Tonuserhöhung der Strukturen, die die Fossa ischiorectalis begrenzen — dadurch kann der N. pudendus zwischen M. obturatorius internus und M. sphincter ani externus komprimiert werden, mit möglicher Störung der Blasen-/Darmentleerung. Da der Urogenitaltrakt bindegewebig unter dem Sakrum aufgehängt ist, sind zusätzlich viszerale Auswirkungen möglich.",
+      },
+      {
+        type: "list",
+        heading: "Symptome einer ISG-Dysfunktion",
+        items: [
+          "Gangbildveränderung/Lahmheit durch reduzierten Schub aus der Hinterhand, verkürzte horizontale Auslenkung und Stemmphase",
+          "Insgesamt langsameres Bewegungstempo",
+          "Bewegungsunlust bei Schmerz (springt nicht mehr ins Auto/aufs Sofa)",
+          "Lastumverteilung im Stand, Bein evtl. unter den Körper gestellt und innenrotiert",
+          "Scheinbar kürzeres oder längeres Bein",
+          "Hypertone Rückenmuskulatur, Blockaden der Facettengelenke, evtl. kyphotische Haltung",
+          "Jaulen bei Lageänderung (z. B. Aufstehen aus dem Liegen)",
+          "Adduktorenschutzspannung (Bein unter dem Körperschwerpunkt, innenrotiert) zur Stabilisierung des ISG",
+          "Blasen-/Darm-Problematik sowie weitere viszerale Auswirkungen auf den Urogenitaltrakt",
+          "Deutlich reduziertes Rutenschwingen, Rute wird nicht mehr hochgestellt",
+        ],
+      },
+      {
+        type: "list",
+        heading: "Typische Ursachen",
+        items: [
+          "Trauma (Stolpern, Ausrutschen, Spielen, Sturz, Hürdensprung)",
+          "Muskeldysbalance durch einseitiges Führen (z. B. immer links geführt → verspannte rechte Rückenmuskulatur zieht das Ilium kranial)",
+          "Muskeltonusverlust nach OP (z. B. geschwächte Hamstrings nach Knie-OP nehmen dem M. iliocostalis den Gegenhalt, der das Ilium ebenfalls kranial zieht)",
+          "Lahmheiten mit Lastumverteilung, veränderte Statik",
+          "Probleme des bindegewebig am Sakrum aufgehängten Urogenitaltrakts",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Folge: verlorene Stoßdämpfung",
+        text: "Geht die Stoßdämpfungsfunktion des ISG verloren, werden Impulse aus der Hintergliedmaße über das Sakrum ungepuffert nach kranial übertragen — die Bandscheiben werden dadurch erheblich stärker belastet.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Anatomie und funktionelle Bedeutung), S. 236–238. Anatomie, Symptomliste und Ursachen sind im Original so beschrieben. Löst das in `hueftgelenk-anatomie-rom-endgefuehl` und `lahmheit-laehmung-abgrenzung` angekündigte Cross-Reference „Differenzialdiagnostik siehe Kap. LWS/ISG“ ein.",
+    relatedCaseIds: ["luna"],
+    relatedAnatomyIds: ["huefte", "rueckenmark"],
+  },
+  {
+    id: "iliosakralgelenk-sakrum-ilium-laesion-beinlaenge",
+    category: "UNTERSUCHUNG",
+    title: "Sakrum- vs. Iliumläsion: warum ein Bein plötzlich länger erscheint",
+    teaser:
+      "Steht die Spina iliaca dorsalis cranialis tiefer, aber die Spina iliaca ventralis cranialis höher, ist das Bein nur funktionell verkürzt — stehen alle drei Landmarken gemeinsam höher, ist es tatsächlich länger.",
+    sections: [
+      {
+        type: "text",
+        heading: "Sakrumläsion vs. Iliumläsion",
+        text: "Bei einer Sakrumläsion bewegt sich nicht die (ab dem 2. Lebensjahr ohnehin verknöcherte) Beckensymphyse, sondern das Sakrum selbst gerät — z. B. durch einen Sturz auf beide Tubera ischiadica — durch das Körpergewicht in eine Fehlstellung (Nutation), während das Ilium „hält“. Bei einer Iliumläsion dagegen erfährt das Becken eine Verwringung: Das Ilium bewegt sich im Verhältnis zum Sakrum und gerät in eine Rotationsfehlstellung — typischerweise durch einseitige Belastung, einen Hürdensprung mit Hängenbleiben (z. B. am Gartenzaun) oder chronisches Muskelungleichgewicht (etwa ausschließliches Linksführen).",
+      },
+      {
+        type: "table",
+        heading: "Befund Ilium dorsal vs. Ilium ventral",
+        columns: ["Landmarke/Befund", "Ilium dorsal", "Ilium ventral"],
+        rows: [
+          ["Sulcus sacralis der betroffenen Seite", "tiefer", "flacher"],
+          ["Tuber sacrale derselben Seite", "steht mehr dorsokaudal", "steht mehr ventrokranial"],
+          ["Tuber ischiadicum derselben Seite", "tiefer, Bein erscheint länger", "höher, Bein erscheint kürzer"],
+          ["Vorlaufphänomen", "positiv", "positiv"],
+          ["Weitere Befunde", "erhöhte Spannung des Lig. sacrotuberale der betroffenen Seite", "Spannung in ischiokruraler Muskulatur, Adduktoren und Glutealmuskulatur"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Funktioneller vs. anatomischer Beinlängenunterschied",
+        text: "Zur Unterscheidung orientiert man sich an Crista iliaca, Spina iliaca dorsalis cranialis, Tuber coxae, L6, L7 und Trochanter major und beurteilt von kaudal die Stellung der Sprunggelenke (auf einer Höhe? Crista iliaca weiter dorsal? Stellung der Querfortsätze von L6/L7?). Beim funktionellen Beinlängenunterschied steht die Spina iliaca dorsalis cranialis tiefer, während die Spina iliaca ventralis cranialis höher steht — der Hund hat eine dorsale Rotation (Verwringung) des Beckens. Beim anatomischen Beinlängenunterschied stehen dagegen Spina iliaca dorsalis cranialis, Tuber coxae und Trochanter major derselben Seite gemeinsam höher, was zu einem echten Schiefstand führt. Diese Unterscheidung ist klinisch entscheidend: Nur der funktionelle Unterschied ist über die Wirbelsäule/das Becken manualtherapeutisch beeinflussbar.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Differenzierung von Läsionen und Beinlängenunterschieden), S. 237f. Läsionsmechanismen, Befundtabelle und Beinlängen-Differenzierung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["huefte"],
+  },
+  {
+    id: "iliosakralgelenk-manuelle-untersuchung-provokationstests",
+    category: "UNTERSUCHUNG",
+    title: "ISG-Provokation und die ⅗-Regel: warum ein einzelner Test nicht reicht",
+    teaser:
+      "Kein einzelner Test beweist eine ISG-Störung zuverlässig — erst wenn mindestens drei von fünf Provokationstests positiv ausfallen, gilt das ISG-Problem als wahrscheinlich.",
+    sections: [
+      {
+        type: "text",
+        heading: "Differenzialdiagnose Hüftgelenk – ISG – LWS",
+        text: "In der Beckenregion liegen viele Gelenke auf engem Raum, die ähnliche Beschwerden verursachen können — deshalb werden gezielte Provokationstests zur Differenzierung eingesetzt. Das Hüftgelenk wird provoziert, indem im Stand das Ilium auf das Hüftgelenk komprimiert wird. Das Ilium wird provoziert, indem es bei fixiertem Sakrum kranial, oder bei fixiertem gegenüberliegendem Ilium ventral geglitten wird (Kompression auf das ISG); alternativ über Separation, indem der Halter eine Flexion der gesamten Wirbelsäule ausführen lässt (Sakrum kippt in Nutation) und der Therapeut die Sakrumbasis weiter in Nutation drückt. L7 wird provoziert, indem der Sakrumapex fixiert und L7 ventral geglitten wird (Kompression der Facette L7/S1), oder indem der Querfortsatz von L7 bei dorsal fixiertem gleichseitigem Ilium ventral geglitten wird. Ein Befund gilt als positiv, wenn der Hund mit Unwohlsein oder Schmerz reagiert.",
+      },
+      {
+        type: "list",
+        heading: "Die ⅗-Regel für das ISG (per Doppelblindstudie validiert)",
+        items: [
+          "Sind die dorsalen Ligg. sacroiliaca schmerzhaft?",
+          "Ist der M. piriformis schmerzhaft (Ursprung S3–C2, Ansatz Trochanter major)?",
+          "Ist der Tonus des Lig. sacrotuberale im Seitenvergleich verändert?",
+          "Ist das Becken asymmetrisch (steht ein Ilium höher oder mehr kranial)?",
+          "Stehen die Tubera ischiadica auf gleicher Höhe?",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum die Regel nötig ist",
+        text: "Ein „Goldstandard-Test“ für das ISG existiert nach wie vor nicht — daher gilt: Erst wenn mindestens drei der fünf genannten Provokationstests positiv sind, kann von einem ISG-Problem ausgegangen werden. Ein einzelner positiver Test reicht nicht als Beweis.",
+      },
+      {
+        type: "text",
+        heading: "Bewegungspalpation und Joint Play",
+        text: "Lateralverschiebung: Im Stand liegen beide Daumen im ISG-Gelenkspalt; das Körpergewicht des Hundes wird vom rechten auf das linke Hinterbein verschoben und die Tiefe des Gelenkspalts im Seitenvergleich beurteilt. Ein tieferer Gelenkspalt zeigt an, dass das Ilium dieser Seite dorsal steht bzw. das Sakrum rotiert ist — ein Hund verlagert sein Gewicht ungern auf die Seite, auf der Nutation/Iliumdorsalstand besteht, weil dies die Fehlstellung verstärkt. Vorlaufphänomen: Die Daumen liegen auf beiden Spinae iliacae craniales dorsales, während der Halter über den Hundekopf eine Wirbelsäulenflexion ausführt — beide Spinae sollten synchron nach kranioventral laufen; läuft eine Seite schneller mit, ist der Vorlauf positiv (die Behandlung erfolgt dann in die Gegenrichtung). Federtest (Joint Play): Eine Hand fixiert das Ilium einer Seite, die andere gleitet das Ilium der Gegenseite translatorisch nach ventral bzw. dorsal (Gleitstufe 2); beurteilt wird das Endgefühl im Seitenvergleich.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund überbewertet", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Differenzialdiagnose und spezifische Untersuchung), S. 238–240. Provokationstests, die ⅗-Regel (nach Fortin et al., im Original zitiert) sowie Bewegungspalpation und Joint Play sind im Original so beschrieben.",
+    relatedCaseIds: ["luna"],
+    relatedAnatomyIds: ["huefte"],
+  },
+  {
+    id: "autochthone-rueckenmuskulatur-funktionelle-anatomie",
+    category: "BIOMECHANIK",
+    title: "Die autochthone Rückenmuskulatur: warum sie sich ganz ohne Trauma verspannt",
+    teaser:
+      "Ein eigenständiger Muskeltonus bedeutet: Diese Muskulatur braucht kein Trauma, um zu verspannen — und ein verspanntes Becken kann über eine einzige lange Muskelkette bis in die obere Halswirbelsäule durchschlagen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was „autochthon“ bedeutet",
+        text: "Die autochthone Rückenmuskulatur hält einen eigenständigen Muskeltonus aufrecht — im Gegensatz zu vielen anderen Muskeln braucht es also kein äußeres Ereignis wie ein Trauma, damit sie sich verspannt. Ihre einzelnen Fasern sind sehr kurz und segmental aufgebaut, was viel Kraft ermöglicht. Die kurzen Muskeln verfügen zudem über viele Mechanorezeptoren und sind dadurch zentral für Propriozeption, Bewegungskoordination und die Aufrechterhaltung des Standes.",
+      },
+      {
+        type: "table",
+        heading: "Dorsale autochthone Rückenmuskulatur (Funktion: Extension und Seitneige)",
+        columns: ["Muskel", "Besonderheit"],
+        rows: [
+          ["M. splenius", "Hebt Kopf/Hals; Seitneige bei einseitiger Kontraktion"],
+          ["M. longissimus (Pars cervicis/capitis/thoracis/lumborum)", "Feststeller und Strecker der Wirbelsäule — zieht funktionell von der Crista iliaca bis zum Proc. mastoideus"],
+          ["M. iliocostalis (Pars thoracis/lumborum)", "Fixator der Wirbelsäule, Seitneige"],
+          ["M. spinalis (Pars cervicis/thoracis)", "Synergist des M. longissimus"],
+          ["M. semispinalis (Pars capitis/cervicis/thoracis)", "Synergist des M. longissimus; richtet die HWS auf (Apportier-/Wühlmuskel)"],
+          ["Mm. multifidi", "Extension/Seitneige HWS, Rotation BWS, Extension LWS — Feinabstimmung der Bewegung"],
+          ["Mm. interspinales / intertransversarii", "Extension bzw. Seitneige"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Ventrale autochthone Rückenmuskulatur (Funktion: Flexion und Seitneige)",
+        text: "Mm. scaleni, M. longus capitis, M. longus colli, Mm. quadrati lumborum sowie Mm. psoas major et minor bilden die ventrale Schicht und werden über die Rr. ventrales innerviert.",
+      },
+      {
+        type: "text",
+        heading: "Die lange Kette: warum Beckenprobleme in der oberen HWS ankommen",
+        text: "Der Verlauf des M. longissimus von der Crista iliaca bis zum Proc. mastoideus macht anschaulich, warum sich Dysfunktionen aus dem Becken (z. B. eine Fehlstellung des Iliums) bis in die obere Halswirbelsäule fortpflanzen können — mit möglichen Folgen an der Vordergliedmaße (Verspannungen, Lahmheiten) oder am kraniosakralen Rhythmus. Entscheidend für die Untersuchung: Ein gefundenes Problem kann die eigentliche Ursache sein oder nur deren Folge. Je länger sich ein Hund in einer Schmerzspirale (Störfaktor → Muskelverspannung → Schonhaltung → Überlastung → Schmerz) befindet, desto schwerer wird die eigentliche Ursache auffindbar. Atrophien der kurzen Feinabstimmungsmuskeln (Mm. multifidi, Mm. rotatores) führen zu segmentaler Instabilität — ein gezieltes Aufbautraining dieser kleinen Rückenmuskeln ist daher fester Bestandteil der Behandlung.",
+      },
+      {
+        type: "list",
+        heading: "Allgemeine muskuläre Symptome bei Rückenmuskel-Dysfunktion",
+        items: [
+          "Steifigkeit, unelastisch, fest",
+          "Verminderte Seitneige und/oder Flexion der Wirbelsäule (Dehnungsschmerz)",
+          "Parästhesien durch Entrapment peripherer Nerven",
+          "Bevorzugtes Liegen auf einer Seite (Dehnung der Rückenstrecker) mit Annäherung auf der Gegenseite",
+          "Schmerzhafte konzentrische Muskelanspannung (z. B. beim Apportieren, Beinvorführen)",
+          "Ausweichbewegungen zur Vermeidung der Exzentrik",
+          "Schnelle Ermüdbarkeit",
+        ],
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.3.1 (Muskulatur — Anatomie und funktionelle Bedeutung), S. 245f. Muskelfunktionen, die Longissimus-Ketten-Erklärung und die Symptomliste sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "subokzipitale-muskulatur-kopfschmerz-schwindel",
+    category: "PATHOLOGIE",
+    title: "Subokzipitale Muskulatur: wenn Apportieren zu Schwindel und Übelkeit führt",
+    teaser:
+      "Ständiges Hochschauen zum Halter, exzessives Kauen auf Ball oder Kong und schweres Apportieren überlasten dieselbe kleine Muskelgruppe — mit Symptomen, die von Kopfschmerz bis Übelkeit reichen können.",
+    sections: [
+      {
+        type: "text",
+        heading: "Funktion der subokzipitalen Muskeln",
+        text: "Alle subokzipitalen Muskeln werden vom R. dorsalis des 1. Halsnerven innerviert und bewegen die Segmente C0–C1–C2: Mm. recti capitis dorsalis minor et major (Kopfheber/Extension), Mm. recti capitis ventralis et lateralis (Flexion/Seitneige), M. obliquus capitis cranialis (Extensor/Seitneiger) und M. obliquus capitis caudalis (Dreher).",
+      },
+      {
+        type: "text",
+        heading: "Typische Überlastungsauslöser",
+        text: "Störungen der subokzipitalen Muskulatur treten auf, wenn der Hund die obere HWS dauerhaft in Extension hält — etwa bei atlantoaxialer Subluxation, einem schlaffen Lig. transversum atlantis oder anderen HWS-Dysfunktionen —, wenn er viel/schwer apportiert, ständig zu seinem Halter hochschaut, oder wenn er exzessiv auf Ball, Stöckchen oder Kong kaut (die Kaumuskulatur hat eine stabilisierende Funktion auf die HWS).",
+      },
+      {
+        type: "list",
+        heading: "Mögliche Symptome",
+        items: [
+          "Kopfschmerz",
+          "Schwindel (Ataxie)",
+          "Eingeschränkte Bewegung",
+          "Übelkeit (über den N. vagus)",
+          "Sehstörungen",
+          "Parästhesien im Schädel-, Ohr- und Halsbereich",
+          "Sekundäre Verspannungen von M. trapezius und M. sternocephalicus (N. accessorius)",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Untersuchung und Konsequenz",
+        text: "Zur Palpation werden die oberen Kopfgelenke leicht in Extension gestellt, um die oberflächliche Muskulatur anzunähern. Wegen der teils vagalen/vestibulären Symptomatik (Schwindel, Übelkeit, Sehstörungen) ist bei entsprechendem Befund eine sorgfältige Differenzierung zwischen rein muskulärer Ursache und tatsächlicher neurologischer/vestibulärer Erkrankung wichtig, bevor rein manualtherapeutisch behandelt wird.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.3.2 (Spezifische Untersuchung der Kopfbeweger, subokzipitale Muskulatur), S. 246f. Funktion, Überlastungsauslöser und Symptomliste sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
