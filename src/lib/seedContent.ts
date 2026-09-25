@@ -8321,6 +8321,182 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "hallgren-studie-rueckenschmerz-trainingsfehler",
+    category: "PATHOLOGIE",
+    title: "Die Hallgren-Studie: 91 % der oft am Leinenruck gearbeiteten Hunde hatten HWS-Schäden",
+    teaser:
+      "Eine schwedische Studie an 400 Hunden zeigt einen auffälligen Zusammenhang zwischen Erziehungsmethoden und Rückenschmerzen — Rückenschmerzen, die Besitzer oft nur als Bewegungsunlust wahrnehmen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Teile eines Fragebogens an 400 Hunden",
+        text: "Hundetrainer, Osteopathen und Chiropraktiker untersuchten in Zusammenarbeit mit Tierärzten das Phänomen „Rückenschmerz beim Hund“ (Hallgren, A., Rückenprobleme beim Hund, Animal Learn Verlag). Im ersten Teil diagnostizierte ein Chiropraktiker/Osteopath den Rückenschmerz mit genauer Lokalisation; im zweiten Teil beantwortete der Besitzer Fragen zu Bewegung, Fütterung, früheren Verletzungen und vor allem zu den verwendeten Erziehungsmethoden.",
+      },
+      {
+        type: "list",
+        heading: "Zentrale Befunde",
+        items: [
+          "Mehr als zwei Drittel der 400 Hunde hatten Rückenschmerzen, meist an der Lendenwirbelsäule — von den Besitzern oft nicht als Schmerz erkannt, sondern nur als Bewegungsunlust oder Vermeiden von Sprüngen wahrgenommen",
+          "Verhaltensauffällige Hunde (Aggression, Ängstlichkeit) zeigten doppelt so oft Rückenschmerzen wie Hunde mit unauffälligem Verhalten",
+          "Mehr als 80 % der Hunde mit Rückenschmerzen litten während der Wachstumsphase an irgendeiner Form von Gelenkerkrankung",
+          "75 % der Hunde, die aus unklarer Ursache lahmten, hatten Rückenschmerzen",
+          "Hunde mit Schäden/Missempfindungen im Bereich der Brustwirbelsäule wechselten häufig zum Passgang",
+          "91 % der Hunde, die mittels häufigen Leinenrucks gearbeitet wurden, wiesen Schäden oder Schmerzen an der Halswirbelsäule auf",
+          "72 % der Hunde mit im Vorbericht bejahter äußerer Gewalteinwirkung (Raufen, Autounfälle, wildes Spielen, Alphawurf) hatten Rückenschmerzen",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Konsequenz für die Praxis",
+        text: "Heftiger Leinenruck — ob an der kurzen Leine bei Wendungen/Tempowechseln, an der Schleppleine zum Aufmerksammachen oder beim Anlernen des Junghundes — ist demnach nicht empfehlenswert, ebenso wenig heftiges Springen ins Halsband beim angebundenen Hund oder der Einsatz eines Kettenwürgers. Auch ein Halti (Kopfhalfter) verursacht bei falscher Anwendung Schäden an der Halswirbelsäule und muss korrekt eingesetzt werden.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Teilverifiziert (Sekundärzitat): Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.3 (Hundesport), S. 63f. Die Studie selbst (Hallgren, A., Rückenprobleme beim Hund, Animal Learn Verlag) wurde NICHT im Original geprüft — alle Prozentzahlen und Befunde stammen aus Mais Zusammenfassung und sind entsprechend als Sekundärzitat zu behandeln, nicht als eigenständig verifizierte Primärquelle.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "brustgeschirr-passform-kriterien",
+    category: "THERAPIE",
+    title: "Ein gut sitzendes Brustgeschirr: die Checkliste",
+    teaser:
+      "Ein zu enges Geschirr verursacht selbst Rückenschmerzen — dieselbe Ausrüstung, die eigentlich vor Leinenruck-Schäden schützen soll, kann bei falscher Passform zum eigenen Risikofaktor werden.",
+    sections: [
+      {
+        type: "list",
+        heading: "Passform-Kriterien für ein gutes Brustgeschirr",
+        items: [
+          "Nur in angelegtem Zustand prüfbar: Die Gurte dürfen nicht in die Achseln rutschen und dort die Bewegung behindern",
+          "Die Rotation des Schulterblattes muss in beide Richtungen ungestört möglich sein",
+          "Nicht zu eng am Rücken: Zwischen dem Rückenteil des Geschirrs und der Wirbelsäule sollte eine flache Hand bequem Platz haben — sonst drohen Rückenschmerzen",
+          "Nicht zu eng am Hals: Sonst entsteht Druck auf Brustbein und Luftröhre",
+          "Breite Gurte verteilen den Druck besser als schmale",
+          "Alle Teile sollten verstellbar sein, Schnallen gut abgepolstert und eng anliegend",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum das über reinen Komfort hinausgeht",
+        text: "Die Hallgren-Studie (siehe zugehöriger Wissenseintrag) zeigt einen deutlichen Zusammenhang zwischen Leinenruck-Erziehungsmethoden und Halswirbelsäulen-Schäden. Ein gut sitzendes Brustgeschirr wird deshalb als Alternative zu Kettenwürger oder falsch angewendetem Halti empfohlen — ein zu enges oder schlecht sitzendes Geschirr kann aber selbst zum Risikofaktor für Rückenschmerzen werden. Die Passform ist damit kein reines Komfortmerkmal, sondern eine biomechanisch relevante Entscheidung.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "falsche Priorisierung", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.3 (Hundesport), S. 64. Die Passform-Kriterien sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "trainingsalter-welpen-junghunde-alte-hunde",
+    category: "THERAPIE",
+    title: "Wachstumsfugenschluss als Trainingsgrenze: Welpe, Junghund, alter Hund",
+    teaser:
+      "Was ein 10 Wochen alter Welpe darf, will später auch der 45 kg schwere erwachsene Hund — Trainingsgrenzen richten sich nicht nach dem Kalenderalter, sondern nach dem Schluss der Wachstumsfugen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Welpenschule (6.–16. Lebenswoche)",
+        text: "Hundetraining beginnt meist im Alter von 6–8 Wochen. Welpen lernen bis zur 16. Woche annähernd angstfrei — alles, was sie in diesem Zeitfenster kennenlernen, verunsichert sie später kaum noch. Deshalb sollen Welpen möglichst vielen unterschiedlichen Artgenossen, Kindern verschiedener Altersstufen, späteren Hausgenossen (Katze, Meerschweinchen etc.), Untergründen und — wenn möglich — auch Hydrotherapiebecken/Laufband begegnen. Ebenso wichtig: Welpen sollen lernen, sich überall am Körper anfassen zu lassen — sie sind die künftigen Patienten des Therapeuten.",
+      },
+      {
+        type: "text",
+        heading: "Warum der Wachstumsfugenschluss die Grenze ist, nicht das Alter",
+        text: "Welpen und noch nicht ausgewachsene Hunde sind unkoordiniert (große Pfoten, schwache Muskulatur), ihre Knochen sind im Wachstum noch weich, sie sind hitze- und kälteanfälliger und können ihre Leistungsgrenzen aus Enthusiasmus nicht immer richtig einschätzen. Ernsthaftes Training wird deshalb erst ab dem Schluss der Wachstumsfugen empfohlen — bei kleinen Hunderassen mit 12–14 Monaten, bei großen Hunderassen mit 14–16 Monaten.",
+      },
+      {
+        type: "table",
+        heading: "Faustregeln für Junghunde vor Wachstumsfugenschluss",
+        columns: ["Aktivität", "Freigabe"],
+        rows: [
+          ["Begleitung beim Joggen/Radfahren/Reiten", "ab 14 Monate"],
+          ["Springen", "nicht höher als 3/4 der aktuellen Körperhöhe, nur spielerisch/vereinzelt"],
+          ["Hindernisse betreten (Wippe, Schlauch, Steg)", "jederzeit"],
+          ["Apportieren, Gehorsamsübungen", "jederzeit"],
+          ["Schwimmen/Planschen im Wasser", "jederzeit"],
+          ["Ausdauertraining mit dem Boot, Laufbandarbeit", "ab 14 Monate"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Alte Hunde: gleicher Enthusiasmus, andere Anpassung",
+        text: "Alte Hunde brauchen längere Aufwärmphasen mit besonderer Betonung von Streck- und Dehnungsübungen, sind erfahren im Bewältigen von Hindernissen, aber anfälliger für Bodenunebenheiten und Balanceprobleme. Empfehlenswert ist ein angepasster Parcours mit „Erfolgsgarantie“ (niedrigere Hindernisse, Problemhindernisse auslassen) statt genereller Trainingsreduktion — körperliche und geistige Forderung bleiben auch im Alter wichtig. Da viele alte Hunde schlechter hören, sollten Kommandos zusätzlich mit Handzeichen verdeutlicht werden.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.3.1, 4.3.3–4.3.4 (Welpenschule, Junghunde, Alte Hunde), S. 64ff. Das Sozialisierungsfenster, der Wachstumsfugenschluss als Trainingsgrenze mit den rassegrößenabhängigen Monatsangaben, die Faustregel-Tabelle sowie die Anpassungen für alte Hunde sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "rassebesonderheiten-training-brachiozephal-herz-fell-boden",
+    category: "BIOMECHANIK",
+    title: "Warum ein Pekinese kein guter Agility-Hund ist, auch wenn er groß genug wäre",
+    teaser:
+      "Gleiche Größe, ganz andere Belastbarkeit: Brachiozephale Rassen, Herzvorerkrankungen, Fellbeschaffenheit und der Untergrund selbst bestimmen mit, wie viel Training ein Hund tatsächlich verträgt.",
+    sections: [
+      {
+        type: "list",
+        heading: "Rassebedingte Belastungsgrenzen",
+        items: [
+          "Brachiozephale Rassen (z. B. Pekinese) tragen relativ viel Gewicht bei ungünstiger Biomechanik und sind deshalb selbst bei vergleichbarer Größe/Gewicht schlechter für Agility geeignet als z. B. ein Papillon",
+          "Kurznasige Rassen (Mops, Pekinese, aber auch Boxer) können oft die benötigte Atemleistung nicht erbringen und sind nur begrenzt belastbar, besonders im Sommer",
+          "Herzvorerkrankungen sind in vielen Zuchtlinien verbreitet — die dilatative Kardiomyopathie (DKM) etwa weitet das Herz zu einem dünnen, funktionsarmen Sack auf und Hunde werden dabei rasch nicht mehr belastbar. Bei Leistungsabfall oder besonderer Hitzeempfindlichkeit sind Kontrolluntersuchungen (EKG, Herz-Lungen-Röntgen, Herzultraschall) angezeigt",
+          "Dickes, dunkles Fell wärmt stärker als kurzes, helles Fell — entsprechend brauchen Hunde mit dichtem dunklem Fell im Sommer Schatten oder eine Schur, während kurzhaarige, hellfellige Hunde (z. B. Whippet) im Winter zusätzlichen Wärmeschutz benötigen",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Der Untergrund als eigener Risikofaktor",
+        text: "Sehr harter Boden ist für Tiere mit Sehnen-/Bandproblemen gut geeignet, aber schlecht für Arthrose-Patienten. Tiefer, unebener Boden behindert dagegen Sehnen-/Band-geschädigte Hunde, während sich Arthrose-Patienten dort eher wohlfühlen. Rutschiger Boden verunsichert viele Springer — hier hilft es, den Hund in geraden Linien zu den Sprüngen zu führen und die Wendungen großzügiger zu wählen. Die Wahl des Trainingsuntergrunds ist damit kein reines Komfortdetail, sondern muss zum jeweiligen orthopädischen Risikoprofil des Hundes passen.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "falsche Priorisierung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.3.7 (Tipps und Tricks), S. 67f. Die rassebedingten Belastungsgrenzen (brachiozephal, Herz, Fell) sowie die untergrundabhängigen Empfehlungen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "nutraceuticals-chondroprotektiva-ueberblick",
+    category: "THERAPIE",
+    title: "Nutraceuticals: Nahrungsergänzung mit unsicherem Wirknachweis",
+    teaser:
+      "Glykosaminoglykan, Chondroitinsulfat, Hyaluronsäure, MSM — der Markt für Gelenk-Nahrungsergänzungsmittel boomt, aber die Autorin selbst räumt ein: eindeutig bewiesen ist die Wirkung nicht durchgängig.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was Nutraceuticals sind",
+        text: "Nutraceuticals (Kunstwort aus Nutrition und pharmaceutical) bezeichnet Nahrung, die wie Medizin wirken soll — dazu zählen alle Futterzusatzstoffe, die nicht als Arzneimittel deklariert werden müssen und daher nicht dem Arzneimittelgesetz unterliegen. In der Bewegungstherapie stehen vor allem die sogenannten Chondroprotektiva (Knorpelschutzprodukte) im Fokus: Sie sollen rasch in die Knorpelmatrix eingebaut werden, knorpelbildende Zellen zur Neuproduktion anregen, Abbauprozesse verlangsamen, die Hyaluronsäuresynthese fördern und die Schmiermittelfunktion der Synovia erhöhen.",
+      },
+      {
+        type: "table",
+        heading: "Die wichtigsten Substanzen im Überblick",
+        columns: ["Substanz", "Herkunft/Verabreichung", "Postulierter Wirkmechanismus"],
+        rows: [
+          ["Glykosaminoglykan (GAG)", "peroral", "Baustein der Grundsubstanz; osteoarthritisch veränderte Chondrozyten verlieren die Fähigkeit, Glukosamin selbst zu produzieren"],
+          ["Chondroitinpolysulfat", "intramuskulär, aus Rindertrachea-Knorpel", "rasch im Gelenk nachweisbar"],
+          ["Chondroitinsulfat", "peroral (Wirksamkeit umstritten)", "häufigstes Proteoglykan der Grundsubstanz, meist an Hyaluronsäure gebunden"],
+          ["Hyaluronsäure", "intraartikulär oder intravenös (peroral umstritten)", "höchste Wasserbindungsfähigkeit, polstert Gelenkknorpel mit Wasser auf, vermehrte Wasserbindung der Synovia"],
+          ["Methylsulfonylmethan (MSM)", "peroral", "liefert essenziellen Schwefel für die Bildung von Bändern, Sehnen, Knorpel und Bindegewebe"],
+          ["Omega-3-Fettsäuren", "peroral, z. B. Fischöl", "entzündungshemmend, soll der Bildung von Mikrothromben vorbeugen"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Wichtige Einschränkung",
+        text: "Die Autorin weist ausdrücklich darauf hin, dass die Wirkung vieler dieser Präparate „nicht immer eindeutig erwiesen“ ist und dass viele kommerzielle Produkte zu geringe Dosen der Wirkstoffe enthalten. Für Glykosaminoglykan wird eine 3-jährige Humanstudie am Knie als Beleg angeführt (Verlangsamung der Osteoarthritis-Zeichen, wirksame Schmerzunterdrückung), die sichere Langzeiteinnahme wurde dabei aber nicht belegt. NICHT VERIFIZIERT: Konkrete Dosierungsangaben für den Hund variieren stark zwischen Quellen und sollten vor Anwendung mit einem Tierarzt abgestimmt werden — sie werden hier deshalb bewusst nicht als Handlungsanleitung wiedergegeben.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Überkonfidenz", "falsche Priorisierung"],
+    sourceStatus:
+      "Teilverifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.3.8 (Nahrungsergänzungsmittel/Nutraceuticals), S. 69f. Definition, die genannten Substanzen mit Verabreichungsart und postuliertem Wirkmechanismus sowie der ausdrückliche Vorbehalt der Autorin zur unsicheren Wirksamkeit sind im Original so beschrieben. Konkrete mg/kg-Dosierungsangaben aus dem Original wurden bewusst nicht übernommen, da sie ärztliche/tierärztliche Verordnungsdetails betreffen und außerhalb des Nachschlage-Charakters der Wissensbibliothek liegen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

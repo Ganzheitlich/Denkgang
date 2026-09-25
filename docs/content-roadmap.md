@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 168 Einträge (7 Anatomie-Spiegelungen, 8 Grundlagen, 51
-  Untersuchung, 64 Pathologie, 38 Biomechanik, 15 Therapie — genaue
+- Wissensbibliothek: 173 Einträge (7 Anatomie-Spiegelungen, 8 Grundlagen, 51
+  Untersuchung, 65 Pathologie, 39 Biomechanik, 20 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -71,25 +71,24 @@ kein Überblick verloren geht.
   Manuelle Therapie beim Hund — **damit ist Hárrer, Manuelle Therapie beim
   Hund (ISBN 978-3-13-245429-3), in seinen fachlich dichten
   Kernabschnitten vollständig ausgewertet (Kap. 6–17)**. Kap. 18 ist reine
-  Literaturliste, kein Extraktionsziel mehr. Danach 22 weitere neue
+  Literaturliste, kein Extraktionsziel mehr. Danach 27 weitere neue
   Einträge aus Mai, Physiotherapie und Bewegungstraining für Hunde —
-  **Kap. 4.1 „Training", Kap. 4.2 „Immobilisation" (komplett: Knochen,
-  Knorpel, Knochen-Sehnen-Übergang, Sehnen, Kapsel/Bänder, Muskeln),
-  Kap. 5.1 „Evaluierung", Kap. 5.2 „Ausgewählte Erkrankungen" und Kap.
-  5.3 „Mobilisationstechniken" (Manuelle Medizin: OMT/Chiropraxis/
-  Osteopathie; Tuina: TCM-Theorie klar von belegten Massage-Effekten
-  getrennt, plus Grifftechniken-Glossar) sind abgedeckt**. Siehe
-  BIOMECHANIK-/THERAPIE-Backlog unten für die im Detail bewusst
-  ausgelassenen reinen Technik-Rezeptteile. Baumgartner/Wittek/Khol
-  „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
-  (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
-  Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
-  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Mai Kap. 4.3
-  (Rückenschmerzen/Trainingsfehler, Trainingsalter-Richtlinien) oder der
-  noch nicht systematisch gesichtete Rest des Buches (Hydrotherapie,
-  westliche Massage-Grundtechniken, Bandagieren/Orthesen) fortsetzen,
-  oder nächstes Buch aus dem Backlog wählen (Hohmann Bewegungsapparat
-  Restkapitel, VetCenter Wirbelsäulenerkrankungen).
+  **Kap. 4 „Training und Hundesport" (komplett: Trainingsmethoden/-alter,
+  Immobilisation aller relevanten Gewebe, Hallgren-Rückenschmerzstudie,
+  Rassebesonderheiten, Nutraceuticals), Kap. 5.1 „Evaluierung", Kap. 5.2
+  „Ausgewählte Erkrankungen" und Kap. 5.3 „Mobilisationstechniken"
+  (Manuelle Medizin: OMT/Chiropraxis/Osteopathie; Tuina: TCM-Theorie klar
+  von belegten Massage-Effekten getrennt, plus Grifftechniken-Glossar)
+  sind vollständig abgedeckt**. Siehe BIOMECHANIK-/THERAPIE-Backlog unten
+  für die im Detail bewusst ausgelassenen reinen Technik-Rezeptteile.
+  Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere"
+  wurde erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber
+  wegen Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen
+  zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: der noch
+  nicht systematisch gesichtete Rest von Mai (Hydrotherapie, westliche
+  Massage-Grundtechniken, Bandagieren/Orthesen — Kap. 6+) oder nächstes
+  Buch aus dem Backlog wählen (Hohmann Bewegungsapparat Restkapitel,
+  VetCenter Wirbelsäulenerkrankungen).
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -625,14 +624,37 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
 - [x] Belastungssteuerung nach Verletzung (Immobilisation vs. kontrollierte
       Bewegung, Kap. 4.3, S. 62)
 - [x] Aufwärmen und Abkühlen beim Hundetraining (Kap. 4.3.5–4.3.6, S. 65–67)
-- [ ] Rückenschmerzen und Trainingsfehler (Hallgren-Studie, zitiert in Kap.
-      4.3, S. 63f. — Leinenruck, Halti, Brustgeschirr-Passform als
-      Risikofaktoren). Achtung: Hallgrens Originalstudie (Animal Learn Verlag)
-      selbst noch nicht geprüft, nur Mais Zusammenfassung gelesen — als
-      Sekundärzitat kennzeichnen.
-- [ ] Trainingsalter-Richtlinien für Welpen/Junghunde/alte Hunde (Kap.
-      4.3.3–4.3.4, S. 64f.) — z. B. Faustregeln ab wann Joggen/Rad/Reiten,
-      Wachstumsfugenschluss als Grenze
+- [x] **Kap. 4.3 „Hundesport" (S. 62–70, ph(21)/ph(22).pdf) abgeschlossen
+      (25.09.2026).** Fünf neue Einträge:
+      `hallgren-studie-rueckenschmerz-trainingsfehler` (die schwedische
+      400-Hunde-Studie: >80% der Rückenschmerz-Hunde mit
+      Wachstumsphasen-Gelenkerkrankung, 75% der unklar lahmenden Hunde
+      mit Rückenschmerz, 91% der häufig am Leinenruck gearbeiteten Hunde
+      mit HWS-Schäden, 72% bei Gewalteinwirkung mit Rückenschmerz — als
+      Sekundärzitat gekennzeichnet, da Hallgrens Originalstudie nicht
+      geprüft wurde, nur Mais Zusammenfassung), `brustgeschirr-passform-kriterien`
+      (Passform-Checkliste, warum ein zu enges Geschirr selbst zum
+      Risikofaktor wird), `trainingsalter-welpen-junghunde-alte-hunde`
+      (Sozialisierungsfenster bis Woche 16, Wachstumsfugenschluss als
+      Trainingsgrenze mit rassegrößenabhängigen Monatsangaben als
+      Faustregel-Tabelle, Anpassungen für alte Hunde),
+      `rassebesonderheiten-training-brachiozephal-herz-fell-boden`
+      (brachiozephale Rassen/Herzvorerkrankungen wie DKM/Fellbeschaffenheit
+      als Belastungsgrenzen, Untergrund als eigener Risikofaktor je nach
+      orthopädischem Profil) und `nutraceuticals-chondroprotektiva-ueberblick`
+      (GAG/Chondroitin/Hyaluronsäure/MSM/Omega-3 im Überblick, mit dem im
+      Original selbst formulierten Vorbehalt zur unsicheren Wirksamkeit;
+      konkrete mg/kg-Dosierungsangaben bewusst NICHT übernommen, da
+      tierärztliche Verordnungsdetails außerhalb des
+      Nachschlage-Charakters der Bibliothek liegen). Kap. 4.3.5–4.3.6
+      (Aufwärmen/Abkühlen) waren bereits durch den bestehenden Eintrag
+      `aufwaermen-abkuehlen-hund` vollständig abgedeckt — keine
+      Duplikation. Verifiziert per Playwright-Screenshot (5/5 Seiten, 0
+      Console-/Page-Errors). **Damit ist Mai Kap. 4 („Training und
+      Hundesport") vollständig abgeschlossen.** Nächster
+      Fortsetzungspunkt: der noch nicht systematisch gesichtete Rest des
+      Buches (Hydrotherapie, westliche Massage-Grundtechniken,
+      Bandagieren/Orthesen) oder nächstes Buch aus dem Backlog.
 - [x] **Kap. 5.1 „Evaluierung" (S. 71–78, ph(23).pdf) abgeschlossen
       (25.09.2026).** Sechs neue Einträge:
       `force-plate-vs-praktische-lahmheitserkennung` (5.1.1 — warum
