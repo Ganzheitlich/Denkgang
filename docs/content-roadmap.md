@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 214 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 56
-  Untersuchung, 74 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 215 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 56
+  Untersuchung, 75 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -146,10 +146,14 @@ kein Überblick verloren geht.
   Eintrag zum Wobbler-Syndrom (S. 31–34): die zwei rassetypischen
   Entstehungswege (Deutsche Dogge vs. Dobermann), die Symptomprogression
   von hinten nach vorne sowie das Konzept der rein dynamischen,
-  stressaufnahme-abhängigen Rückenmarkkompression. Details und bewusste
+  stressaufnahme-abhängigen Rückenmarkkompression. Danach ein weiterer
+  neuer Eintrag zur lumbosakralen Instabilität/Stenose (S. 35–38): die
+  orthopädische Verwechslungsgefahr mit einer Kreuzbandläsion bei
+  foraminaler Nervenwurzelkompression, Automutilation als mögliches
+  Symptom sowie spezifische Bildgebungsgrenzen. Details und bewusste
   Auslassungen siehe PATHOLOGIE-Backlog unten. Nächster Schritt: VetCenter
-  „Wirbelsäulenerkrankungen" ab S. 35/43 fortsetzen (Lumbosakrale
-  Instabilität/Stenose im Detail — siehe Backlog), danach ggf.
+  „Wirbelsäulenerkrankungen" ab S. 39/43 fortsetzen (Wirbelmissbildungen,
+  Tumoren, Rückenmarködem u. a. — siehe Backlog), danach ggf.
   Baumgartner/Wittek/Khol trotz der bekannten Einschränkungen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
@@ -391,12 +395,30 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Stabilisierungstechniken (Platten, Cages, Ankylosierungsverfahren)
       als rein operativ-technischer Inhalt außerhalb des Nachschlage-
       Scopes. Verifiziert via Playwright (1/1 Seite, 0 Fehler).
+- [x] **„Instabilität im Lumbosakralbereich, Stenose des
+      Lumbosakralkanals, Cauda-equina-Kompressions-Syndrom" (S. 35–38 von
+      43) gelesen und ausgewertet (25.09.2026).** Weitestgehend redundant
+      zum bereits sehr ausführlichen bestehenden DLSS-Eintrag (Koch/
+      Fischer: Ätiologie, Klinik, Pseudohyperreflexie, Bildgebung,
+      Therapie mit Erfolgsraten) — aber ein neuer, eigenständiger Eintrag
+      zu vier genuin neuen Aspekten: die orthopädische
+      Verwechslungsgefahr bei foraminaler Nervenwurzelkompression
+      (Lahmheitsbild täuschend ähnlich einer Kreuzbandläsion, zusätzliche
+      Differentialdiagnosen Coxarthrose/Kniegelenkserkrankungen/
+      Prostataerkrankungen), der ischämische Verstärkungsmechanismus bei
+      gleichzeitiger Gefäßkompression, Automutilation von Rute/Perineum/
+      Präputium als mögliches, leicht als Verhaltensproblem
+      fehlgedeutetes Symptom, sowie die spezifischen Grenzen von Röntgen-
+      und Myelographie-Diagnostik (u. a. Foraminostenose myelographisch
+      nicht darstellbar — gerade bei der orthopädisch täuschenden
+      Verlaufsform). Verweist auf den bestehenden Eintrag zur allgemeinen
+      Sekundärschädigungskaskade statt den Ischämie-Mechanismus zu
+      wiederholen. Verifiziert via Playwright (1/1 Seite, 0 Fehler).
       **Nächster Fortsetzungspunkt:** Die Datei hat noch 43 Web-Seiten
-      insgesamt, davon S. 1–34 jetzt ausgewertet. Ab S. 35 weiterlesen:
-      Lumbosakrale Instabilität/Stenose im Detail, Wirbelmissbildungen,
-      Exostosenbildung, Tumoren der Wirbelsäule/des Rückenmarks,
-      Rückenmarködem, Zysten der Rückenmarkhäute, Abszesse der
-      Wirbelsäule sowie die allgemeine Prognoseskala mit Erfolgsraten
+      insgesamt, davon S. 1–38 jetzt ausgewertet. Ab S. 39 weiterlesen:
+      Wirbelmissbildungen, Exostosenbildung, Tumoren der Wirbelsäule/des
+      Rückenmarks, Rückenmarködem, Zysten der Rückenmarkhäute, Abszesse
+      der Wirbelsäule sowie die allgemeine Prognoseskala mit Erfolgsraten
       (ohne die Medikamenten-Dosierungen).
 
 ### PATHOLOGIE — Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3)

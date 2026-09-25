@@ -9940,6 +9940,40 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
+  {
+    id: "dlss-cauda-equina-kreuzband-verwechslungsgefahr-automutilation",
+    category: "PATHOLOGIE",
+    title: "Warum eine Cauda-equina-Kompression wie ein Kreuzbandriss aussehen kann",
+    teaser:
+      "Sitzt die Nervenwurzelkompression bei der lumbosakralen Stenose vor allem im Foramen intervertebrale, entsteht ein Lahmheitsbild, das orthopädisch täuschend echt wirkt — samt Muskelschwund und Belastungsschmerz in der Hintergliedmaße.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eine orthopädische Verkleidung",
+        text: "Betrifft die Nervenwurzelkompression bei der lumbosakralen Instabilität und Stenose vor allem den Bereich der Foramina intervertebralia statt den zentralen Wirbelkanal, kann das resultierende Lahmheitsbild einem orthopädischen Problem der Hintergliedmaße täuschend ähnlich sehen — die betroffenen Nerven (N. ischiadicus, N. pudendus, Nn. pelvini, Nn. caudales) erzeugen dann Paresen und belastungsabhängige Schmerzen, die klinisch kaum von einer Kreuzbandläsion zu unterscheiden sind. Ebenso gehören Coxarthrose, andere Kniegelenkserkrankungen sowie Prostataerkrankungen zu den Differentialdiagnosen, die vor einer endgültigen Diagnose ausgeschlossen werden müssen — neben weiter kranial liegenden Rückenmark- oder Wirbelsäulenläsionen, degenerativer Myelopathie, Diskospondylitis und Wirbelsäulentumoren.",
+      },
+      {
+        type: "text",
+        heading: "Wenn die Kompression zusätzlich die Durchblutung abschnürt",
+        text: "Über die reine mechanische Kompression hinaus kann die Nervenschädigung zusätzlich verstärkt werden, wenn die komprimierenden Strukturen gleichzeitig die versorgenden Blutgefäße abschnüren und dadurch eine Ischämie der betroffenen Nervenwurzeln auslösen — eine lokale Variante des bereits an anderer Stelle beschriebenen allgemeinen Mechanismus der Sekundärschädigung durch Minderperfusion.",
+      },
+      {
+        type: "text",
+        heading: "Vom Aufstehschmerz bis zur Selbstverstümmelung",
+        text: "Die Beschwerden entwickeln sich mitunter über Monate in wechselnden Kombinationen: Hyperalgesie im Lumbosakralbereich, Schmerzen beim Aufstehen, Springen und Treppensteigen sowie bei Dorsoflexion der Rute. In ausgeprägten Fällen können Missempfindungen so weit gehen, dass der Hund Rute, Perineum oder Präputialbereich (seltener auch die Hintergliedmaßen) durch Belecken oder Beknabbern selbst verletzt (Automutilation) — ein Symptom, das ohne die zugrunde liegende Nervenwurzelreizung leicht als reines Verhaltensproblem fehlgedeutet würde.",
+      },
+      {
+        type: "text",
+        heading: "Grenzen der Bildgebung",
+        text: "Röntgenübersichts- und Stressaufnahmen (in Beugung und dorsaler Überstreckung der Sakrolumbalregion) weisen zwar Instabilität zwischen L7 und S1 sowie knöcherne Veränderungen nach, sind aber allein meist nicht diagnostisch: Sie zeigen das Ausmaß der Nervenkompression nicht, und ähnliche Veränderungen finden sich gelegentlich auch bei völlig beschwerdefreien Hunden. Die Myelographie stellt dynamische Kompressionen zwar rasch dar, versagt aber in zwei Situationen: wenn der Duralsack nicht bis über den lumbosakralen Übergang nach kaudal reicht, und wenn die Kompression ausschließlich lateral im Foramen liegt (Foraminostenose) — also gerade bei der Verlaufsform, die orthopädisch fehlgedeutet werden kann.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Instabilität im Lumbosakralbereich, Stenose des Lumbosakralkanals, Cauda-equina-Kompressions-Syndrom. Die orthopädische Verwechslungsgefahr bei foraminaler Nervenwurzelkompression, der ischämische Verstärkungsmechanismus, die Automutilation als mögliches Symptom sowie die Grenzen von Röntgen- und Myelographie-Diagnostik sind in der Quelle so beschrieben. Ergänzt den bestehenden, ausführlichen Eintrag zur DLSS (Koch/Fischer, Klinik/Reflexbefunde/Therapie) um Differentialdiagnostik-Fallstricke und Bildgebungsgrenzen, ohne dessen Inhalte zu wiederholen. Verweist auf den bestehenden Eintrag zur allgemeinen Sekundärschädigungskaskade statt den Ischämie-Mechanismus erneut herzuleiten.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
