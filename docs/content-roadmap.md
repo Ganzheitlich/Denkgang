@@ -62,27 +62,31 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 139 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 43
-  Untersuchung, 56 Pathologie, 31 Biomechanik, 9 Therapie — genaue
+- Wissensbibliothek: 142 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 43
+  Untersuchung, 56 Pathologie, 33 Biomechanik, 9 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
-  Einträge seit dem 21.09.). Danach 42 weitere neue Einträge aus Hárrer,
+  Einträge seit dem 21.09.). Danach 45 weitere neue Einträge aus Hárrer,
   Manuelle Therapie beim Hund — **Kap. 6–15 (komplette Hintergliedmaße,
   Vordergliedmaßen-Einleitung, Schulterregion/skapulothorakales
   Gleitlager, Ellenbogenregion, Unterarmregion sowie Karpalgelenk/Zehen)
-  sind vollständig abgedeckt**, und aus **Kap. 16 (Wirbelsäule) sind alle
+  sind vollständig abgedeckt**, aus **Kap. 16 (Wirbelsäule) sind alle
   fachlich dichten Kernabschnitte** (Anatomie, Funktion,
   Differenzialdiagnostik, benannte Tests für HWS, BWS, Rippen, Sympathikus,
-  LWS, ISG sowie die Rumpf-/Atemmuskulatur) **vollständig ausgewertet**
-  (siehe BIOMECHANIK-Backlog unten für die bewusst ausgelassenen reinen
-  Technik-Rezeptteile). Baumgartner/Wittek/Khol „Klinische Propädeutik der
-  Haus- und Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7
-  identifiziert), aber wegen Multi-Spezies-Umfang und
-  Extraktions-Qualitätsproblemen zurückgestellt (siehe
-  UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer Kap. 17 „Neurotension"
-  prüfen (letztes noch offenes Kapitel laut Inhaltsverzeichnis) oder
-  nächstes Buch aus dem Backlog wählen.
+  LWS, ISG sowie die Rumpf-/Atemmuskulatur) **vollständig ausgewertet**,
+  und aus **Kap. 17 (Neurotension) ist 17.1–17.4 (Neuroanatomie,
+  Mechanosensitivität, Wirkprinzip, Kontraindikationen) vollständig
+  ausgewertet** (siehe BIOMECHANIK-Backlog unten für die bewusst
+  ausgelassenen reinen Technik-Rezeptteile sowie den noch offenen
+  Nervenverlaufs-/Druckpunkt-Abschnitt 17.5.3). Baumgartner/Wittek/Khol
+  „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
+  (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
+  Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
+  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer Kap. 17.5.3
+  (Nervenverlauf/Druckpunkte der Hintergliedmaßen-Nerven) abschließen
+  oder nächstes Buch aus dem Backlog wählen — Hárrer ist damit im Kern
+  (Kap. 6–17) durchgearbeitet.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -951,6 +955,52 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       abgedeckt) und Kap. 17 „Neurotension" (S. 269, noch offen).
       Nächster Fortsetzungspunkt: Kap. 17 Neurotension prüfen (vermutlich
       ma(16)–ma(18).pdf) oder nächstes Buch aus dem Backlog.
+- [x] **Kap. 17.1 „Neurotension — Anatomie" (S. 273–277, ma(17).pdf)
+      abgeschlossen (25.09.2026).** ma(18).pdf enthält entgegen der
+      Namenskonvention nur noch Kap. 18 „Literaturliste" und das
+      Sachverzeichnis (kein eigener Inhaltskapitel-Text mehr) — Kap. 17
+      „Neurotension" (S. 269–297) liegt komplett in ma(17).pdf. 17.2–17.5
+      (Ursachen/Symptome der Mechanosensitivität, Wirkprinzip,
+      Kontraindikationen, Nervenleitung) waren bereits aus einer früheren
+      Session vollständig erfasst (`nervenkompression-...`,
+      `neurotensionsbehandlung-wirkprinzip-kontraindikationen`) — geprüft,
+      keine Duplikate. Drei neue Einträge aus dem bisher unbearbeiteten
+      17.1 (Anatomie): `nervenwurzeln-bindegewebeschichten-nervenspannung`
+      (Bewegungsverhalten der Nervenwurzeln bei Wirbelsäulenbewegung, die
+      vier Bindegewebeschichten Endo-/Peri-/Epi-/Mesoneurium als Tabelle,
+      der Verklebungsmechanismus am Mesoneurium bei Überlastung),
+      `nervenblutversorgung-ischaemie-zeitfenster` (intra-/extraneurales
+      Gefäßsystem mit Schutzmechanismus, das 2-Stunden-Zeitfenster bis zum
+      irreversiblen peripheren Nervenschaden vs. 3–8 min im Gehirn,
+      longitudinales/transversales Rückenmark-Gefäßsystem, klappenloses
+      venöses System) und `meningen-membranoeses-system-dura-verbindungen`
+      (die drei Hirnhäute, Fixationspunkte der Dura vom Sakrum bis zur
+      Schädelbasis, das membranöse System, der theoretische Wirkweg einer
+      Sakrumfehlstellung bis zum Kopf — mit den im Original ausdrücklich
+      als „beim Hund nicht bestätigt" markierten Übertragungen aus der
+      Humananatomie bewusst 1:1 als Unsicherheit übernommen statt als
+      sichere caninen Fakten dargestellt). Bewusst NICHT übernommen:
+      17.1.1–17.1.3 (generische, nicht caninen-spezifische
+      Neurophysiologie-Grundlagen: Sympathikus-Grenzstrang-Anatomie,
+      Neuron-/Erregungsleitungs-Grundlagen, Spinalnerv-Grundaufbau — zu
+      lehrbuchgenerisch für eigenständige Einträge), 17.1.7 (Befestigungen
+      der Neuralstrukturen — als kompakte Liste in den
+      Nervenwurzeln-Eintrag integriert), 17.2.2 (konkrete
+      „Spannungspunkte" C6/7 etc. — bereits in der Vorsession bewusst
+      ausgelassen, da die Autorin deren Übertragbarkeit auf den Hund
+      selbst als unüberprüfbar bezeichnet), sowie 17.5 (die einzelnen
+      Neurotensionstests je Nerv mit ASTE/Griff/Ausführung — praktische
+      Technik-Rezepte) und 17.5.3 (Druckpunktpalpation/vollständige
+      Nervenverlaufsanatomie für Hintergliedmaßen-Nerven — umfangreicher
+      Nerven-Atlas, noch nicht ausgewertet). Verifiziert per
+      Playwright-Screenshot (3/3 Seiten, 0 Console-/Page-Errors).
+      Nächster Fortsetzungspunkt: 17.5.3 (Nervenverlauf/Druckpunkte N.
+      ischiadicus/tibialis/peroneus/femoralis/saphenus/obturatorius,
+      inkl. der interessanten Differenzialdiagnose „kein
+      Piriformis-Syndrom beim Hund möglich") oder nächstes Buch aus dem
+      Backlog — **damit ist Hárrer im Kern (Kap. 6–17) durchgearbeitet**,
+      nur noch dieser Spezial-Abschnitt sowie Kap. 18 (reine
+      Literaturliste, nicht extraktionsrelevant) stehen aus.
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 

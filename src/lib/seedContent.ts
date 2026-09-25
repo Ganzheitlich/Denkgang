@@ -7243,6 +7243,134 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "nervenwurzeln-bindegewebeschichten-nervenspannung",
+    category: "BIOMECHANIK",
+    title: "Warum Nerven wellenförmig gebaut sind",
+    teaser:
+      "Ein Nerv ist kein starres Kabel, sondern gleicht einem alten, gedrehten Telefonkabel — genau diese Wellenform und vier Bindegewebeschichten geben ihm sein Bewegungsausmaß, bis Überlastung sie verkleben lässt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Nervenwurzeln reagieren auf jede Wirbelsäulenbewegung",
+        text: "Nervenwurzeln liegen je nach Bewegung wellenförmig-locker oder gespannt im Gewebe. Bei Extension und bei homolateraler Seitneige werden sie angenähert und liegen locker; bei kontralateraler Seitneige und bei Flexion kommen sie durch axiale Verlängerung auf Spannung. Wird zeitgleich eine Extremität bewegt, kann sich diese Spannung je nach Bewegungsrichtung noch verstärken. Periphere Nerven sind selbst wellenförmig aufgebaut (ebenso ihre arterielle Versorgung) — dadurch können sie sich bei Bewegung „entfalten“ und „glätten“, ohne dass Zug auf das Nervengewebe entsteht.",
+      },
+      {
+        type: "text",
+        heading: "Wechselseitige Anpassung von Gelenk und Nerv",
+        text: "Ein physiologisches Nervensystem erlaubt dem Hund volle Gelenkbeweglichkeit ohne Limitation. Da Nervengewebe sich aber anpassen kann, führt eine zu hohe Nervenspannung mit der Zeit zu Bewegungseinschränkungen — und umgekehrt: Ist ein Gelenk in seiner ROM eingeschränkt, adaptiert auch der Nerv an diese Limitation und bildet Adhäsionen. Nerv und Gelenk beeinflussen sich also wechselseitig.",
+      },
+      {
+        type: "table",
+        heading: "Die vier Bindegewebeschichten (von innen nach außen)",
+        columns: ["Schicht", "Aufbau", "Funktion"],
+        rows: [
+          [
+            "Endoneurium",
+            "umgibt das einzelne Axon, elastisch",
+            "Druckveränderungen durch Ödeme können hier das Axoplasma beeinträchtigen → Minderversorgung, Ischämie",
+          ],
+          [
+            "Perineurium",
+            "umschließt mehrere Axone (Faszikel), longitudinaler und zirkulärer Faserverlauf",
+            "sehr widerstandsfähig gegen Zug (ähnlich der Dura); Diffusionsbarriere (blood-nerve barrier) gegen chemische Reizstoffe aus dem Epiduralraum",
+          ],
+          [
+            "Epineurium",
+            "umschließt mehrere Faszikel, locker-fettig-elastisch, ausgedehntes Gefäß-/Lymphnetz",
+            "ermöglicht die wellenförmige Bewegung und das Gleiten des Nervs gegenüber dem umliegenden Gewebe, polstert die Faszikel",
+          ],
+          [
+            "Mesoneurium",
+            "lockere äußerste Schicht, verbindet den Nerv mit dem umliegenden Gewebe",
+            "erlaubt das Gleiten des Nervs gegenüber der Umgebung — bei Überlastung entstehen hier Fibrin-/Fibrinogenablagerungen und Verklebungen",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Wenn das Mesoneurium verklebt",
+        text: "Überlastung (Sport, langes Gassigehen, Trick-Training) führt zu Ablagerungen und Verklebungen am Mesoneurium. Der Nerv kann dann gegenüber dem umliegenden Gewebe nicht mehr optimal gleiten und bei Kompression nicht mehr ausweichen — Ischämie und eine gestörte Ver-/Entsorgung sind die Folge, der Nerv schwillt über die Zeit an und wird an Engstellen (z. B. am M. pronator teres oder im Karpaltunnel) durch Kompression symptomatisch. Eine Nervenkompression mit Folgeproblematik entsteht nach diesem Modell nur dann, wenn der Nerv seine Gleitfähigkeit bereits verloren hat — deshalb ist die Behandlung des Mesoneuriums (verbesserte Gleitfähigkeit) für den Therapieerfolg zentral. Beispiel aus dem Alltag: Der N. medianus muss im Sulcus bicipitalis bei Kontraktion des M. biceps brachii nach kaudal und bei Kontraktion des M. triceps brachii nach kranial gleiten können — gelingt dieses Gleiten nicht mehr, hat das Tier bei jeder Bewegung Probleme.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.1.4–17.1.5 (Nervenwurzeln, Bindegewebeschichten der Neuralstrukturen), S. 273–275. Das Bewegungsverhalten der Nervenwurzeln, die vier Bindegewebeschichten mit ihren Funktionen, der Verklebungsmechanismus am Mesoneurium und das N.-medianus-Gleitbeispiel sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["supinator", "pronator-teres"],
+  },
+  {
+    id: "nervenblutversorgung-ischaemie-zeitfenster",
+    category: "PATHOLOGIE",
+    title: "Zwei Stunden: das Zeitfenster bis zum irreversiblen Nervenschaden",
+    teaser:
+      "Ein peripherer Nerv hat einen eingebauten Schutzmechanismus gegen Kompression — aber er versagt nach spätestens zwei Stunden, was auch postoperative Lagerungsschäden erklärt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei parallele Gefäßsysteme mit Schutzmechanismus",
+        text: "Der periphere Nerv verfügt über ein intraneurales (inneres) und ein extraneurales (äußeres), parallel verlaufendes Gefäßsystem, die durch spiralförmige Verbindungsgefäße verbunden sind. Drückt z. B. ein extraneurales Ödem auf den Nerv, verengt sich das Lumen des inneren und äußeren Systems, während sich das Lumen der Verbindungsgefäße ober- und unterhalb der Kompression erweitert — ein Schutzmechanismus, der die Sauerstoffversorgung der intraneuralen Gefäße trotz der Kompression bis zu einem gewissen Grad aufrechterhält. Je mehr bzw. länger der Druck anhält, desto weniger kann dieser Mechanismus greifen, bis die Blutzufuhr schließlich vollständig abgeklemmt wird und eine intraneurale Verklebung entsteht.",
+      },
+      {
+        type: "text",
+        heading: "Das Zeitfenster bis zur irreversiblen Schädigung",
+        text: "Bei länger anhaltender Kompression eines der beiden Gefäßsysteme kommt es zur Ischämie mit möglicherweise irreversiblen Schäden. Beim peripheren Nerv treten diese bereits nach etwa 2 Stunden auf — das erklärt die gelegentlich auftretenden Lagerungsschäden nach Operationen. Im Gehirn genügen dafür bereits 3–8 Minuten Kompression.",
+      },
+      {
+        type: "text",
+        heading: "Longitudinales und transversales Gefäßsystem des Rückenmarks",
+        text: "Die Gefäßversorgung des Rückenmarks gliedert sich in ein longitudinales System (Spinalarterien: dorsal die paarige, kleinere A. spinalis posterior, ventral die einzelne, große A. spinalis anterior) und ein transversales System (Segmentarterien, ringförmig aus der Aorta kommend).",
+      },
+      {
+        type: "text",
+        heading: "Venöse Entsorgung ohne Venenklappen",
+        text: "Im Wirbelkanal liegen die Plexus venosi vertebrales internus et externus, wobei die venöse Versorgung ventral größer ist als dorsal. Die Vv. intervertebrales verlaufen gemeinsam mit dem Spinalnerv durch das Foramen intervertebrale. Da die Venen der Wirbelsäule keine Venenklappen besitzen, wirkt sich jeder Rückstau — z. B. durch einen Bandscheibenvorfall, einen raumfordernden Prozess oder eine Gleitstörung der Facettengelenke — direkt auf die Venae plexi und zusätzlich als Platzmangel im Foramen intervertebrale aus. Der dadurch steigende Druck im Nerv macht eine Behandlung (z. B. Lymphdrainage, Neurotensionstechniken) erforderlich, um Schäden zu vermeiden.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.1.8 (Blutversorgung des Rückenmarks und der peripheren Nerven), S. 276f. Der Schutzmechanismus der Verbindungsgefäße, die Zeitangaben zur irreversiblen Schädigung (2 h peripherer Nerv, 3–8 min Gehirn), das longitudinale/transversale arterielle System sowie das klappenlose venöse System mit seinen Rückstau-Ursachen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "meningen-membranoeses-system-dura-verbindungen",
+    category: "ANATOMIE",
+    title: "Wie eine Sakrumfehlstellung über die Dura bis zum Kopf wirken kann",
+    teaser:
+      "Die Dura mater ist an mehreren Stellen fixiert, vom Hinterhauptsloch bis zum Kreuzbein — eine Nutationsfehlstellung des Sakrums kann darüber theoretisch bis zu den Hirnhäuten wirken. Vieles davon ist beim Hund allerdings nicht bestätigt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die drei Hirnhäute",
+        text: "Die äußerste Meninge, die Dura mater cerebri, ist mit den Suturen des Schädels verwachsen (nicht mit dem Knochen selbst), kaum dehnbar und die stärkeste der drei Hirnhäute. Darunter liegt die feine Arachnoidea, die durch den Liquor von der innersten, gefäßführenden Pia mater getrennt ist — der Liquor polstert und ernährt das Gehirn und hält die feinen Trabekel (Verbindungen zwischen Pia und Dura) spannungsfrei. Bei Liquorverlust zieht das Gehirn an diesen hochgradig nozizeptiven Trabekeln, was zu starken Kopfschmerzen führen kann.",
+      },
+      {
+        type: "text",
+        heading: "Fixationspunkte der Dura (Mensch → Hund nur teilweise übertragbar)",
+        text: "Beim Menschen ist nachgewiesen, dass die Dura mater neben ihrer Verwachsung am Rand des Foramen magnum weitere Verbindungen aufweist: auf Höhe C2 strahlen Fasern des M. rectus capitis posterior minor ein, und kaudal ist sie an S3 (Filum terminale) fixiert. NICHT VERIFIZIERT: Ob diese Fixation an C2 beim Hund ebenso vorliegt, ist unbestätigt. Die durale Bandverbindung zum Lig. longitudinale posterius, die beim Menschen segmental beschrieben ist, wurde beim Hund bislang nicht nachgewiesen.",
+      },
+      {
+        type: "list",
+        heading: "Das membranöse System — drei „Gehirnsicheln“",
+        items: [
+          "Falx cerebri — trennt in der Medianen längs die beiden Großhirnhälften",
+          "Falx cerebelli — trennt längs die beiden Kleinhirnhälften",
+          "Tentorium cerebelli — trennt quer Klein- von Großhirn",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum eine Sakrumfehlstellung theoretisch bis zum Kopf wirken kann",
+        text: "Über die durchgehenden Fixationspunkte der Dura (Sakrum bis Schädelbasis) kann eine Sakrum-Nutationsfehlstellung — etwa nach einem Sprung, bei dem der Hund rückwärts auf sein Kreuzbein fällt — vermehrten Zug auf die Dura mater spinalis ausüben und darüber bis zu den Schädelgruben und dem membranösen System wirken (z. B. über die Falx cerebri bis zu Hypophyse/Hypothalamus). NICHT VERIFIZIERT: Ob der M. rectus capitis posterior minor beim Hund — wie beim Menschen beschrieben — tatsächlich über die Membrana atlantooccipitalis Fasern in die Dura einstrahlt, ist unbestätigt; die Autorin formuliert dies ausdrücklich als Möglichkeit („kann er … diese bei Kontraktion … nach kranial ziehen“), nicht als belegte Tatsache. Zusätzlich zu beachten: Ein kranialisiertes Rückenmark wirkt sich negativ auf das Gleitverhalten der kaudalen Dura und der peripheren Nerven der Hintergliedmaße aus, da das Nervensystem sein volles Bewegungsausmaß nur erreicht, wenn die Dura sowohl kranialisiert als auch kaudalisiert werden kann.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund überbewertet"],
+    sourceStatus:
+      "Teilverifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.1.6 (Meningen und membranöses System), S. 275f. Der Aufbau der drei Meningen, die Fixationspunkte der Dura und das membranöse System (Falx cerebri/cerebelli, Tentorium cerebelli) sind im Original so beschrieben, jedoch überwiegend unter Bezug auf den Menschen — die Autorin markiert die Übertragbarkeit auf den Hund an mehreren Stellen ausdrücklich als unbestätigt (C2-Fixation, durale Bänder, M.-rectus-capitis-posterior-minor-Verbindung zur Dura). Diese Einschränkungen sind hier bewusst mit übernommen worden, statt sie als sichere caninen Fakten darzustellen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
