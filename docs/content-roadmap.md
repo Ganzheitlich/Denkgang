@@ -62,31 +62,27 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 142 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 43
-  Untersuchung, 56 Pathologie, 33 Biomechanik, 9 Therapie — genaue
+- Wissensbibliothek: 146 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 45
+  Untersuchung, 58 Pathologie, 33 Biomechanik, 9 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
-  Einträge seit dem 21.09.). Danach 45 weitere neue Einträge aus Hárrer,
-  Manuelle Therapie beim Hund — **Kap. 6–15 (komplette Hintergliedmaße,
-  Vordergliedmaßen-Einleitung, Schulterregion/skapulothorakales
-  Gleitlager, Ellenbogenregion, Unterarmregion sowie Karpalgelenk/Zehen)
-  sind vollständig abgedeckt**, aus **Kap. 16 (Wirbelsäule) sind alle
-  fachlich dichten Kernabschnitte** (Anatomie, Funktion,
-  Differenzialdiagnostik, benannte Tests für HWS, BWS, Rippen, Sympathikus,
-  LWS, ISG sowie die Rumpf-/Atemmuskulatur) **vollständig ausgewertet**,
-  und aus **Kap. 17 (Neurotension) ist 17.1–17.4 (Neuroanatomie,
-  Mechanosensitivität, Wirkprinzip, Kontraindikationen) vollständig
-  ausgewertet** (siehe BIOMECHANIK-Backlog unten für die bewusst
-  ausgelassenen reinen Technik-Rezeptteile sowie den noch offenen
-  Nervenverlaufs-/Druckpunkt-Abschnitt 17.5.3). Baumgartner/Wittek/Khol
+  Einträge seit dem 21.09.). Danach 49 weitere neue Einträge aus Hárrer,
+  Manuelle Therapie beim Hund — **damit ist Hárrer, Manuelle Therapie beim
+  Hund (ISBN 978-3-13-245429-3), in seinen fachlich dichten
+  Kernabschnitten vollständig ausgewertet (Kap. 6–17: komplette
+  Hintergliedmaße, Vordergliedmaße/Schulter/Ellenbogen/Unterarm/
+  Karpalgelenk/Zehen, die gesamte Wirbelsäule inkl. Sympathikus, und die
+  Neurotension inkl. Neuroanatomie und der wichtigsten peripheren
+  Nervenverläufe)**. Kap. 18 ist reine Literaturliste, kein
+  Extraktionsziel mehr. Siehe BIOMECHANIK-Backlog unten für die im Detail
+  bewusst ausgelassenen reinen Technik-Rezeptteile. Baumgartner/Wittek/Khol
   „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
   (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
   Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
-  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer Kap. 17.5.3
-  (Nervenverlauf/Druckpunkte der Hintergliedmaßen-Nerven) abschließen
-  oder nächstes Buch aus dem Backlog wählen — Hárrer ist damit im Kern
-  (Kap. 6–17) durchgearbeitet.
+  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: nächstes Buch aus dem
+  Backlog wählen (Mai Physiotherapie Restkapitel inkl. Tuina, Hohmann
+  Bewegungsapparat Restkapitel, oder VetCenter Wirbelsäulenerkrankungen).
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -1001,6 +997,41 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Backlog — **damit ist Hárrer im Kern (Kap. 6–17) durchgearbeitet**,
       nur noch dieser Spezial-Abschnitt sowie Kap. 18 (reine
       Literaturliste, nicht extraktionsrelevant) stehen aus.
+- [x] **Kap. 17.5.3 „Druckpunktpalpation" — Nervenverlaufsanatomie
+      (S. 288–297, ma(17).pdf) im Kern abgeschlossen (25.09.2026).** Vier
+      neue Einträge: `n-ischiadicus-verlauf-kein-piriformis-syndrom`
+      (Verlauf/Aufzweigung des N. ischiadicus plus die caninen-spezifische
+      Differenzialdiagnose, dass ein Piriformis-Syndrom beim Hund
+      anatomisch nicht möglich ist — andere Muskelschichtung als beim
+      Menschen), `hintergliedmasse-nerven-femoralis-saphenus-obturatorius`
+      (N. femoralis/N. saphenus/N. obturatorius als Tabelle mit Verlauf/
+      Versorgung/Palpation, plus das Halbkreis-Gangbild bei
+      N.-obturatorius-Schädigung als leicht fehlinterpretierbares
+      Hüft-/Knie-Differential), `vordergliedmasse-nerven-radialis-medianus-ulnaris-verlauf`
+      (N. radialis/N. medianus/N. ulnaris als Tabelle inkl. der
+      ungeschützten N.-radialis-Engstelle an der Crista supracondylaris
+      lateralis, sowie die Erklärung, warum eine Ellenbogendenervation bei
+      ED — anders als am Hüftgelenk — keine guten Ergebnisse liefert, weil
+      auch periostale Fasern die Kapsel mitinnervieren) und
+      `karpaltunnelsyndrom-hund-hypothese` (der biomechanisch plausible,
+      aber von der Autorin ausdrücklich als unbewiesen gekennzeichnete
+      Mechanismus eines caninen Karpaltunnelsyndroms bei
+      Sprunglandungen — inkl. der Mahnung, Pfoten-Beknabbern nicht
+      vorschnell auf Allergie/Grasmilben zu schieben). Bewusst NICHT
+      übernommen: die vollständigen Verlaufsbeschreibungen für N. tibialis
+      und N. peroneus (reine Palpationslandmarken ohne zusätzlichen
+      Differenzialdiagnose-Mehrwert gegenüber den bereits erfassten
+      Nerven) sowie 17.5.4 (Behandlung der peripheren Nerven —
+      Technik-Rezepte). Verifiziert per Playwright-Screenshot (4/4 Seiten,
+      0 Console-/Page-Errors).
+      **Damit ist Hárrer, Manuelle Therapie beim Hund, in seinen fachlich
+      dichten Kernabschnitten vollständig ausgewertet (Kap. 6–17).**
+      Kap. 18 ist reine Literaturliste, kein Extraktionsziel mehr.
+      Nächster Schritt: nächstes Buch aus dem Backlog wählen (Mai
+      Physiotherapie Restkapitel inkl. Tuina, Hohmann Bewegungsapparat
+      Restkapitel, VetCenter Wirbelsäulenerkrankungen, oder
+      Baumgartner/Wittek/Khol trotz der bekannten
+      Qualitätseinschränkungen).
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 

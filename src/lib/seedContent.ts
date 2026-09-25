@@ -7371,6 +7371,152 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
+  {
+    id: "n-ischiadicus-verlauf-kein-piriformis-syndrom",
+    category: "PATHOLOGIE",
+    title: "Warum es beim Hund kein Piriformis-Syndrom gibt",
+    teaser:
+      "Beim Menschen ein Klassiker der Differentialdiagnostik — beim Hund anatomisch unmöglich: Der N. ischiadicus verläuft dort zwischen Muskelschichten, die eher abschwächen als hyperton werden.",
+    sections: [
+      {
+        type: "text",
+        heading: "Verlauf des N. ischiadicus",
+        text: "Die Nervenwurzeln L6–S2 bilden über den Truncus lumbosacralis (v. a. L6/L7) den wichtigsten Anteil des N. ischiadicus. Der Nerv verläuft mediodorsal des Iliumschaftes, vereint sich mit der Wurzel S2, verlässt durch die Incisura ischiadica major die Beckenhöhle Richtung M. gluteus profundus und zieht weiter zwischen M. gluteus profundus und M. gluteus medius mit dem M. piriformis zum Trochanter major, den er kaudalseitig umrundet. Hier gibt er motorische Äste an Mm. gemelli, M. quadratus femoris und M. obturatorius internus sowie sensible Äste an die Hüftgelenkskapsel ab, bevor er weitere motorische Äste an die Hamstrings abgibt. Zwischen Trochanter major und Tuber ischiadicum verläuft er in fettreichem, gut durchblutetem Bindegewebe unter der Glutealmuskulatur — hier können sich Entzündungen schnell ausbreiten. Etwas proximal des lateralen M.-gastrocnemius-Kopfes teilt er sich in N. tibialis und N. peroneus communis (N. fibularis).",
+      },
+      {
+        type: "text",
+        heading: "Der entscheidende Unterschied zum Menschen",
+        text: "Ein Piriformis-Syndrom, wie man es aus der Humanphysiotherapie kennt (Kompression des N. ischiadicus durch einen hyperton gewordenen M. piriformis), ist beim Hund nicht möglich: Der N. ischiadicus verläuft hier zwischen Muskelschichten, die bei Überlastung eher abschwächen, statt wie beim Menschen hyperton zu werden und ein Entrapment zu verursachen. Eine 1:1-Übertragung dieser beim Menschen bekannten Differentialdiagnose auf den Hund wäre also ein Anatomieverwechslungs-Fehler.",
+      },
+      {
+        type: "list",
+        heading: "Druckpalpationspunkte",
+        items: [
+          "Zwischen Trochanter major und Tuber ischiadicum",
+          "Kurz vor der Bifurkation in N. tibialis und N. peroneus, auf ca. halber Femurstrecke lateralseitig, etwas proximal des lateralen Gastrocnemiuskopfes",
+        ],
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.5.3 (Druckpunktpalpation, N. ischiadicus), S. 288f. Der Nervenverlauf, die Aufzweigung, die explizite Verneinung eines caninen Piriformis-Syndroms sowie die Palpationspunkte sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "hintergliedmasse-nerven-femoralis-saphenus-obturatorius",
+    category: "UNTERSUCHUNG",
+    title: "N. femoralis, N. saphenus und N. obturatorius: drei Nerven, drei Gangbild-Hinweise",
+    teaser:
+      "Ein Hund, der die Hintergliedmaße im Halbkreis nach vorne führt, statt sie medial unter dem Körper zu halten, hat womöglich kein Hüftproblem — sondern eine N.-obturatorius-Schädigung.",
+    sections: [
+      {
+        type: "table",
+        heading: "Verlauf, Versorgung und Palpation",
+        columns: ["Nerv", "Verlauf", "Versorgung", "Palpation"],
+        rows: [
+          [
+            "N. femoralis (L4–6)",
+            "zieht mittig im M. iliopsoas nach kaudal, verlässt die Bauchhöhle mit den Femoralgefäßen über die Lacuna musculorum/vasorum, tritt proximal am M. quadriceps zwischen M. rectus femoris und M. vastus medialis ein",
+            "motorisch: M. iliopsoas, M. quadratus lumborum, M. quadriceps femoris, M. sartorius, M. pectineus",
+            "—",
+          ],
+          [
+            "N. saphenus (Ast des N. femoralis)",
+            "teilt sich bereits in der Leiste vom N. femoralis ab, zieht medial zwischen M. sartorius und M. gracilis zum Knie, gibt sensible Fasern ans Femoropatellargelenk/mediale Kniekapsel ab, überkreuzt das Knie mit V./A. saphena, zieht um den medialen Malleolus zu Digiti I+II",
+            "sensorisch: Medialseite der Hintergliedmaße",
+            "medial am Oberschenkel zwischen M. sartorius und Adduktoren; ventrokranial des medialen Malleolus",
+          ],
+          [
+            "N. obturatorius (L5–S1)",
+            "zieht mit der A. obturatoria an der Darmbeinsäule entlang durch den M. levator ani zum Foramen obturatum und oberflächig auf der medialen Oberschenkelseite nach distal bis medial ans Kniegelenk",
+            "motorisch: Adduktoren des Oberschenkels",
+            "zwischen M. pectineus und M. gracilis, medial am Oberschenkel",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Das Gangbild bei N.-obturatorius-Schädigung",
+        text: "Bei einer Schädigung des N. obturatorius (z. B. durch Ausrutschen und Wegspreizen) überwiegt die muskuläre Spannung der Antagonisten (Abduktoren): Der Hund steht mit dem Hinterbein je nach Schweregrad etwas abgespreizt, im Stand besteht Rutschgefahr, und im Gangbild führt er die Hintergliedmaße möglicherweise in einem leichten Halbkreis nach vorne, statt sie medial unter dem Körper zu halten. Dieses Bild lässt sich leicht als Hüft- oder Kniegelenksproblem fehlinterpretieren, wenn man den N. obturatorius nicht als Differentialdiagnose in Betracht zieht.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.5.3 (Druckpunktpalpation, N. femoralis/N. saphenus/N. obturatorius), S. 291f. Verlauf, Versorgungsgebiete, Palpationspunkte sowie das klinische Bild bei N.-obturatorius-Schädigung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "vordergliedmasse-nerven-radialis-medianus-ulnaris-verlauf",
+    category: "UNTERSUCHUNG",
+    title: "N. radialis, N. medianus und N. ulnaris: Verlauf und typische Engstellen",
+    teaser:
+      "Drei Nerven teilen sich die Vordergliedmaße untereinander auf — jeder mit einer eigenen ungeschützten Engstelle, an der Kompression oder direktes Trauma zuerst zuschlagen.",
+    sections: [
+      {
+        type: "table",
+        heading: "Verlauf, Versorgung und kritische Stellen",
+        columns: ["Nerv", "Verlauf & kritische Stelle", "Versorgung"],
+        rows: [
+          [
+            "N. radialis (C7–Th2)",
+            "kräftigster/wichtigster Nerv der Vordergliedmaße; zieht kaudal der A. axillaris zwischen den Trizepsköpfen nach distal, über den Sulcus nervi radialis des Humerus zwischen Tuberositas deltoidea und Crista supracondylaris lateralis auf die Lateralseite. Läuft dort meist direkt über die Crista supracondylaris lateralis, ungeschützt von Muskelgewebe und dem Knochen direkt aufliegend — daher hier besonders anfällig für direktes Trauma. Auch Hartspann des M. triceps brachii kann ihn auf seinem Weg durch die Trizepsmuskulatur irritieren.",
+            "motorisch: M. tensor fasciae antebrachii, M. triceps brachii, M. anconeus (Oberarm); Ramus profundus: Extensoren des Unterarms/der Zehen, M. brachioradialis, M. supinator. Sensorisch (Ramus superficialis): radiale Dorsalseite der Vorderpfote (außer 5. Strahl), Lateralseite des Unterarms",
+          ],
+          [
+            "N. medianus (C8–Th2)",
+            "zieht gemeinsam mit dem N. ulnaris zum Schultergelenk, dann medial am Humerus mit A./V. brachialis nach distal, verschwindet in der Ellenbogenbeuge medial des M. biceps brachii in der Tiefe, unterkreuzt den M. pronator teres (seine Engstelle) und zieht zwischen oberflächlichem und tiefem Zehenflexor zum Carpus",
+            "motorisch: Mm. pronatores teres et quadratus, M. flexor carpi radialis, Caput radiale des M. flexor digitorum profundus, M. flexor digitorum superficialis. Sensorisch: Medialseite der Vorderpfote (Os metacarpale I, mediale Hälfte II, Digiti I und medial II)",
+          ],
+          [
+            "N. ulnaris (C8–Th2)",
+            "zieht zunächst gemeinsam mit dem N. medianus medial am Humerus nach distal, gibt in Höhe des distalen ersten Humerusdrittels den gut palpablen N. cutaneus antebrachii caudalis ab (überquert den medialen Epicondylus humeri), zieht dann unter dem M. flexor carpi ulnaris caput ulnare weiter zum Carpus",
+            "motorisch: M. flexor carpi ulnaris, Caput ulnare des M. flexor digitorum profundus. Sensorisch: kaudomedial/kaudolateral am Unterarm",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Gemeinsame Doppelinnervation und Ellenbogenkapsel",
+        text: "Das Caput humerale des M. flexor digitorum profundus hat eine Doppelinnervation von N. medianus und N. ulnaris. Alle drei Nerven zusammen (N. radialis, N. medianus, N. ulnaris) versorgen gemeinsam die Kapsel des Ellenbogengelenks — zusätzlich treten aber auch Fasern vom Periost auf die Gelenkkapsel über. Das ist der Grund, warum eine gezielte Denervation des Ellenbogengelenks bei Ellenbogendysplasie (anders als die vergleichbare OP am Hüftgelenk, die dort gute Ergebnisse zeigt) keine wirklich befriedigenden Ergebnisse liefert: Ein Großteil der sensiblen Innervation kommt aus der Umgebung des Gelenks und lässt sich kaum gezielt unterbrechen.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.5.3 (Druckpunktpalpation, N. radialis/N. medianus/N. ulnaris), S. 292–295. Verlauf, Versorgungsgebiete und die Denervations-Begründung (unter Bezug auf Staszyk und Gasse 1999 sowie Böttcher und Grevel 2008) sind im Original so beschrieben.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["supinator", "pronator-teres"],
+  },
+  {
+    id: "karpaltunnelsyndrom-hund-hypothese",
+    category: "PATHOLOGIE",
+    title: "Karpaltunnelsyndrom beim Hund: eine unbewiesene, aber plausible Hypothese",
+    teaser:
+      "Bislang beim Hund nicht beschrieben — aber ein Sprung mit voller Karpalextension bis zum Ballenkontakt liefert genau den Mechanismus, der beim Menschen ein Karpaltunnelsyndrom auslöst.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Mechanismus",
+        text: "Bei Sprüngen extendieren Hunde das Karpalgelenk deutlich weiter als im Stand — Sporthunde bis hin zum Bodenkontakt mit dem Pfotenballen. Der N. medianus und der N. ulnaris verlaufen dort palmar und werden über den Carpus dabei stark gedehnt. Gleichzeitig gleitet die distale Handwurzelreihe bei Karpalextension nach palmar und verengt so zusätzlich den Raum im Canalis carpi. Ist ein Nerv dadurch irritiert, schwillt sein Myelin an — wodurch er im ohnehin schon verengten Karpaltunnel noch weniger Platz hat. Ein Teufelskreis aus Überdehnung und Platzverminderung ist die Folge.",
+      },
+      {
+        type: "text",
+        heading: "Ausdrücklich unbewiesen",
+        text: "Ein Karpaltunnelsyndrom wie im Humanbereich wurde beim Hund bislang NICHT beschrieben — die Autorin bezeichnet dies ausdrücklich nur als „mittlerweile Überlegungen“, nicht als belegten Befund. Besonders gefährdet wären nach dieser Überlegung durchtrittige Hunde und Dreibeiner (fehlende Vordergliedmaße), bei denen der Stress auf das verbleibende Karpalgelenk besonders hoch ist.",
+      },
+      {
+        type: "text",
+        heading: "Differentialdiagnostische Konsequenz",
+        text: "Sind Nerven durch diesen Mechanismus irritiert, knabbert der Hund in den autonomen Zonen der betroffenen Nerven an den Pfoten (Parästhesien). Die Autorin weist pointiert darauf hin, dass mancher Hund, der wegen vermeintlicher Allergie oder Grasmilben behandelt wird, in Wirklichkeit gereizte periphere Nerven haben könnte — eine Mahnung, bei Pfoten-Beknabbern aktiv auch die neurogene Differentialdiagnose zu prüfen, statt vorschnell bei der naheliegendsten Diagnose zu bleiben.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Differentialdiagnostik unvollständig", "Faktenwissen"],
+    sourceStatus:
+      "Teilverifiziert (als explizite Hypothese der Autorin gekennzeichnet, nicht als belegter Befund): Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.5.3 (N. medianus), S. 293f. Der biomechanische Mechanismus (Karpalextension bei Sprüngen, palmares Gleiten der distalen Handwurzelreihe, Myelin-Anschwellung) und die ausdrückliche Einordnung als unbewiesene Überlegung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
