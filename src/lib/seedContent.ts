@@ -6057,6 +6057,122 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["quadriceps", "sartorius", "tensor-fasciae-latae", "biceps-femoris"],
   },
+  {
+    id: "unterschenkelmuskulatur-dorsalflexoren-uebersicht",
+    category: "UNTERSUCHUNG",
+    title: "Unterschenkelmuskulatur: Sprunggelenksflexoren und Zehenextensoren",
+    teaser:
+      "Was beim Hund „Sprunggelenksflexion“ heißt, ist funktionell das Anheben der Pfote in der Schwungphase — die gleiche Bewegungsrichtung, die man beim Menschen als Dorsalextension bezeichnen würde.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wichtige Begriffsklärung",
+        text: "In der Veterinäranatomie wird die Bewegung, die den Fußrücken zum Unterschenkel hin annähert (also die Pfote während der Schwungphase vom Boden abhebt), als Flexion des Sprunggelenks bezeichnet — nicht als Extension wie man es aus der Humananatomie („Dorsalextension“) kennen könnte. Die hier beschriebenen Muskeln heben die Pfote an und strecken dabei zugleich die Zehen.",
+      },
+      {
+        type: "table",
+        heading: "Sprunggelenksflexoren und Zehenextensoren im Überblick",
+        columns: ["Muskel", "Funktion", "Palpationsweg"],
+        rows: [
+          [
+            "M. tibialis cranialis",
+            "Flexion des Sprunggelenks, Supination der Pfote",
+            "Direkt unter der Fascia cruris, am weitesten kraniomedial der kraniolateralen Unterschenkelmuskeln; entlang der Tibiakante vom Condylus lateralis tibiae bis zum Ansatz medial an den Tarsal- und proximomedial an den Metatarsalknochen (Ansatzsehne von einer Sehnenscheide umhüllt)",
+          ],
+          [
+            "M. peroneus longus",
+            "Pronator der Pfote; flektiert in der Hangbeinphase zusätzlich das Sprunggelenk",
+            "Lateral am Unterschenkel vom Condylus lateralis tibiae/Lig. collaterale laterale/proximaler Fibula, ca. 2 cm starker Muskelbauch bis Mitte Unterschenkel, dann Sehne kreuzt das Lig. collaterale laterale kranial, Ansatz an Tarsal-/proximalen Metatarsalknochen von plantar",
+          ],
+          [
+            "M. peroneus brevis",
+            "Abduktor der Pfote",
+            "Distale ⅔ von Tibia/Fibula lateral bis zum Malleolus lateralis, Ansatz am proximalen Metatarsale V",
+          ],
+          [
+            "Mm. extensores digitorum longus et lateralis, M. extensor digiti I longus",
+            "Hauptsächlich Extension der Zehen, Hilfsflexor des Sprunggelenks",
+            "Ursprünge an Fossa extensoria des lateralen Femurkondylus / proximalem Fibuladrittel / Kranialrand der Fibula zwischen proximalem und mittlerem Drittel; gemeinsamer Ansatz an den Cristae unguiculariae der Krallenbeine der 2.–5. Zehe. Auf dem Metatarsus sind nur noch Sehnen tastbar, keine Muskelbäuche",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Halte-Retinacula",
+        text: "Das Retinaculum extensorum crurale hält M. extensor digitorum longus, M. peroneus tertius, M. extensor digiti I longus und M. tibialis cranialis in ihrer Lage; das weiter distal gelegene Retinaculum extensorum tarsale fixiert zusätzlich die Sehnen von M. extensor digitorum longus und M. extensor digiti I longus auf dem Tarsus.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 9.3.1 und 9.3.4 (Spezifische Untersuchung der Sprunggelenksflexoren und Zehenextensoren), S. 97–99. Muskelfunktionen, Palpationswege und Retinacula sind im Original so beschrieben. Ergänzt den bestehenden Eintrag `tibiofibulargelenke` (Gelenkmechanik desselben Kapitels) um die zugehörige Muskulatur.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "zehenbeuger-oberflaechlich-tief-differenzierung",
+    category: "UNTERSUCHUNG",
+    title: "Oberflächlicher und tiefer Zehenbeuger: unterschiedliche Fasertypen, unterschiedliche Aufgaben",
+    teaser:
+      "Rund 55 % Typ-I-Fasern machen den M. flexor digitorum superficialis zu einem Antischwerkraftmuskel — kein Zufall, dass er nach einem Achillessehnenriss oft der letzte ist, der das Körpergewicht noch trägt.",
+    sections: [
+      {
+        type: "table",
+        heading: "Oberflächlicher vs. tiefe Zehenbeuger",
+        columns: ["Muskel(gruppe)", "Funktion", "Besonderheit"],
+        rows: [
+          [
+            "M. flexor digitorum superficialis",
+            "Flexion der Zehengelenke bis zum proximalen Interphalangealgelenk (PIP), Extension des Sprunggelenks, Hilfsflexor des Kniegelenks",
+            "Ca. 55 % Typ-I-Fasern → Antischwerkraftmuskel. Bildet mit seiner Sehne die Fersenkappe (Teil des Tendo calcaneus communis)",
+          ],
+          [
+            "Mm. flexores digitorum profundi (M. flexor digitorum lateralis et medialis) + M. tibialis caudalis",
+            "Flexion der Zehengelenke bis zum distalen Interphalangealgelenk (DIP), Hilfsextensor des Sprunggelenks",
+            "M. flexor digitorum lateralis ist der kräftigste der drei tiefen Zehenbeuger; alle drei liegen kaudal an Tibia/Fibula und vereinigen sich Mitte des Metatarsus zu 4 Sehnen zu den Zehen 2–4. Der schwache M. tibialis caudalis bleibt separat und inseriert medial am Sprunggelenk",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die beiden Gruppen im Längentest unterscheiden",
+        text: "Für den M. flexor digitorum superficialis werden Sprunggelenk in Flexion und Zehen (MTP, PIP) in Extension gebracht, danach das Kniegelenk gestreckt (die Endglieder/Phalanx distalis bleiben dabei frei). Für die Mm. flexores digitorum profundi wird ebenfalls das Sprunggelenk flektiert, jedoch werden die Zehengelenke komplett bis zum DIP extendiert — das Kniegelenk muss dabei nicht gestreckt sein, da keiner der drei tiefen Beuger über das Kniegelenk zieht.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 9.3.2 und 9.3.3 (Spezifische Untersuchung der Zehenflexoren), S. 97–99. Fasertyp-Angabe, Funktionen und Differenzierungstests sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "musculus-gastrocnemius-sprungfeder-tendo-calcaneus",
+    category: "BIOMECHANIK",
+    title: "M. gastrocnemius als Sprungfeder — und was ein Teilriss von einem kompletten Riss unterscheidet",
+    teaser:
+      "Reißt nur die Gastrocnemius-Sehne, trägt der M. flexor digitorum superficialis das Körpergewicht allein weiter — das Sprunggelenk steht dann übermäßig gebeugt statt komplett durchgetreten.",
+    sections: [
+      {
+        type: "text",
+        heading: "Energiespeicher-Funktion",
+        text: "Elektrophysiologisch ist der M. gastrocnemius Strecker des Tarsalgelenks in der Stützbeinphase (Antischwerkraftmuskel) und speichert dabei kinetische Energie: In höheren Gangtempi wird die durch Vordehnung bei Sprunggelenksflexion gespeicherte Energie bei der anschließenden Kontraktion in Bewegungsenergie umgewandelt und für den Vorschub genutzt (Sprungfeder-Prinzip). Der Muskel entspringt mit zwei Köpfen von den Tuberositates supracondylares lateralis et medialis femoris (mit je einem Sesambeinchen, der Fabella, in der Ursprungssehne), vereinigt sich zu einer kräftigen Sehne und inseriert am Tuber calcanei. Lateral wird er vom M. biceps femoris überdeckt, medial von Mm. semimembranosus et gracilis.",
+      },
+      {
+        type: "text",
+        heading: "Fabellae als Prädilektionsstelle",
+        text: "Ein besonderer Untersuchungsfokus gehört den Strukturen rund um die Fabellae, da Hunde nicht selten eine Tendopathie der Ursprungssehne des M. gastrocnemius an dieser Stelle aufweisen.",
+      },
+      {
+        type: "text",
+        heading: "Klinischer Praxistipp: Teilriss vs. kompletter Riss des Tendo calcaneus communis",
+        text: "Reißt beim Hund nur die Sehne des M. gastrocnemius (Teilriss des Fersensehnenstrangs), zeigt sich im Stand ein Tarsalgelenk in verstärkter Flexionsstellung mit stark gebeugten Zehen — das Körpergewicht wird dann allein vom (intakt gebliebenen) M. flexor digitorum superficialis getragen. Reißen dagegen alle drei Sehnen, die den Tendo calcaneus communis bilden (kompletter Achillessehnenabriss), steht das Tarsalgelenk plantigrad. Diese Unterscheidung ergänzt den bestehenden Wissenseintrag zu den vier Sprunggelenk-/Fersensehnenstrang-Erkrankungen um das entscheidende klinische Unterscheidungsmerkmal zwischen Teil- und Komplettriss.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 9.3.3 (Spezifische Untersuchung der Sprunggelenksextensoren, M. gastrocnemius), S. 99f. Sprungfeder-Funktion, Fabella-Hinweis und der Praxistipp zum Teil-/Komplettriss sind im Original so beschrieben. Ergänzt den bestehenden Eintrag `tarsus-erkrankungen-hund` (Koch/Fischer-Quelle, dort u. a. „Riss des Fersensehnenstrangs“) um dieses klinische Unterscheidungsmerkmal zwischen Teil- und Komplettriss.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["semitendinosus", "gracilis", "biceps-femoris"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

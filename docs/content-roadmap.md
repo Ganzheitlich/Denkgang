@@ -62,20 +62,20 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 109 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 32
-  Untersuchung, 46 Pathologie, 13 Biomechanik, 8 Therapie — genaue
+- Wissensbibliothek: 112 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 34
+  Untersuchung, 46 Pathologie, 15 Biomechanik, 8 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
-  Einträge seit dem 21.09.). Danach 12 weitere neue Einträge aus Hárrer,
-  Manuelle Therapie beim Hund — Kap. 6/7 (Hintergliedmaße/Hüftregion) und
-  Kap. 8 (Knieregion) sind damit vollständig abgedeckt (siehe
-  BIOMECHANIK-Backlog unten). Baumgartner/Wittek/Khol „Klinische
+  Einträge seit dem 21.09.). Danach 15 weitere neue Einträge aus Hárrer,
+  Manuelle Therapie beim Hund — **Kap. 6–9 (komplette Hintergliedmaße:
+  Hüfte, Knie, Unterschenkel/Zehen) sind damit vollständig abgedeckt**
+  (siehe BIOMECHANIK-Backlog unten). Baumgartner/Wittek/Khol „Klinische
   Propädeutik der Haus- und Heimtiere" wurde erkundet (Struktur, relevante
   Kapitel 6/7 identifiziert), aber wegen Multi-Spezies-Umfang und
   Extraktions-Qualitätsproblemen
   zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer
-  Kap. 9 Unterschenkelmuskulatur oder Kap. 16 (Wirbelsäule) fortsetzen.
+  Kap. 13-Rest (Ellenbogenregion) oder Kap. 16 (Wirbelsäule) fortsetzen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -690,6 +690,30 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Nächster Fortsetzungspunkt: Kap. 9 Unterschenkelregion — Muskulatur
       (Gelenkmechanik bereits über `tibiofibulargelenke` abgedeckt, siehe
       oben), danach Kap. 13-Rest und Kap. 16 Wirbelsäule (S. 202).
+- [x] **Kap. 9 Unterschenkelmuskulatur abgeschlossen (25.09.2026), S. 95–100
+      (ma(9).pdf) — damit ist auch Kap. 9 komplett abgedeckt.** Drei neue
+      Wissenseinträge: `unterschenkelmuskulatur-dorsalflexoren-uebersicht`
+      (Kap. 9.3.1/9.3.4: M. tibialis cranialis, Mm. peronei longus/brevis,
+      Zehenextensoren-Gruppe — inkl. Begriffsklärung „Sprunggelenksflexion"
+      = funktionell Anheben der Pfote, nicht Extension wie man es aus der
+      Humananatomie kennen könnte), `zehenbeuger-oberflaechlich-tief-
+      differenzierung` (Kap. 9.3.2/9.3.3: M. flexor digitorum superficialis
+      als Typ-I-faserreicher Antischwerkraftmuskel vs. die tiefen
+      Zehenbeuger, samt Differenzierungstests) und
+      `musculus-gastrocnemius-sprungfeder-tendo-calcaneus` (Kap. 9.3.3:
+      Sprungfeder-Energiespeicherfunktion, Fabellae als
+      Tendopathie-Prädilektionsstelle, sowie der klinisch wichtige
+      Praxistipp zur Unterscheidung Teilriss — nur Gastrocnemius-Sehne,
+      Tarsalgelenk übermäßig flektiert, Zehen gebeugt — vs. Komplettriss
+      des gesamten Tendo calcaneus communis — Tarsalgelenk plantigrad;
+      ergänzt den bestehenden Koch/Fischer-Eintrag `tarsus-erkrankungen-
+      hund` um dieses Unterscheidungsmerkmal). Verifiziert per
+      Playwright-Screenshot (3/3 Seiten, 0 Console-/Page-Errors).
+      **Damit sind Hárrer Kap. 6–9 (Hintergliedmaße komplett von Hüfte bis
+      Zehen) vollständig abgedeckt.** Nächster Fortsetzungspunkt: Kap. 13
+      Rest (Ellenbogenregion) oder Kap. 16 Wirbelsäule (S. 202) — beide
+      noch komplett offen für systematische Biomechanik-Auswertung
+      (bisher nur einzelne Fakten für die Quellenprüfung entnommen).
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 
