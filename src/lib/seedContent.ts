@@ -8217,6 +8217,110 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "knorpelernaehrung-pumpmechanismus-be-entlastung",
+    category: "BIOMECHANIK",
+    title: "Der Knorpel als Schwamm: warum völlige Ruhigstellung ihn verhungern lässt",
+    teaser:
+      "Gelenkknorpel hat keine eigene Blutversorgung — er wird nur durch den Wechsel aus Be- und Entlastung ernährt. Bleibt dieser Pumpmechanismus aus, verhungert der Knorpel buchstäblich.",
+    sections: [
+      {
+        type: "text",
+        heading: "Das Schwamm-Prinzip",
+        text: "Gesunder Gelenkknorpel wird von der Synovialflüssigkeit und dem subchondralen Knochen mit Nährstoffen versorgt — aber nur über die physiologische Wechselbelastung, nicht passiv. Bei Belastung werden Abfallstoffe aus dem Knorpel in Richtung Synovialflüssigkeit und subchondralen Knochen herausgepresst; bei Entlastung saugt sich der Knorpel wieder mit Nährstoffen und Sauerstoff voll. Dieser Vorgang ist mit einem Schwamm vergleichbar, der abwechselnd ausgedrückt und wieder vollgesogen wird. Die dabei physiologisch auftretende piezoelektrische Aktivität fördert zusätzlich die Zellsynthese — bleibt die Wechselbelastung aus, kommt es stattdessen zu degenerativen Veränderungen.",
+      },
+      {
+        type: "text",
+        heading: "Was bei fehlender Wechselbelastung passiert",
+        text: "Ohne Be- und Entlastung stagnieren Nährstoffversorgung und Synovialproduktion. Es kommt zur Verengung des Gelenkspaltes und zur Verschiebung der Tidemark (Grenze zwischen mineralisiertem und elastischem Knorpel) — mineralisierter Knorpel wird vermehrt gebildet, elastischer Knorpel dagegen verstärkt abgebaut. In den direkten Kontaktzonen des Gelenks treten diese Veränderungen schneller und deutlicher auf, aber auch nicht direkt belastete Zonen zeigen degenerative Veränderungen, da die gesamte Gelenkfunktion von der Zirkulation der Synovialflüssigkeit abhängt.",
+      },
+      {
+        type: "list",
+        heading: "Trainingsalternativen bei eingeschränkter Vollbelastung",
+        items: [
+          "Leichte, kontrollierte Bewegung an der Hand",
+          "Aqua-Trainer (Unterwasserlaufband)",
+          "Schwimmen",
+          "Passives Training mittels Manualtherapie — dosierte Druckbelastung des Gelenkknorpels als Imitation der physiologischen Be- und Entlastung",
+        ],
+      },
+    ],
+    errorTags: ["Faktenwissen", "falsche Priorisierung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.2 (Immobilisation — Knorpel), S. 59f. Der Be-/Entlastungs-Pumpmechanismus, die Tidemark-Verschiebung sowie die vier genannten Trainingsalternativen sind im Original so beschrieben. Das Ausmaß der Regenerationsfähigkeit des Gelenkknorpels wird von der Autorin selbst als „zurzeit heftig umstritten“ bezeichnet und hier entsprechend nicht als geklärt dargestellt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "knochen-sehnen-uebergang-sehnenheilung-rehazeitplan",
+    category: "PATHOLOGIE",
+    title: "Der Knochen-Sehnen-Übergang: die am meisten überlastete Stelle im System",
+    teaser:
+      "Am Übergang zwischen Sehne und Knochen wirken Kräfte 3- bis 4-mal so stark wie auf Sehne oder Knochen allein — kein Wunder, dass diese Zone nach Immobilisation am längsten braucht, um wieder voll belastbar zu sein.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum genau diese Zone so verletzungsanfällig ist",
+        text: "Der Knochen-Sehnen-Übergang vermittelt zwischen aktiven (Muskel/Sehne) und passiven (Knochen) Bewegungsanteilen. Genau dadurch wirken einwirkende Belastungen an dieser Stelle 3- bis 4-mal so stark wie auf die Sehne oder den Knochen allein. Nach nur 4 Wochen Immobilisation sinkt die Belastbarkeit des Knochen-Sehnen-Übergangs auf 20 % — die angegebene Regenerationsdauer bis zur vollen Belastbarkeit beträgt 12 Monate. Solange sollte die betroffene Struktur nicht voll belastet werden.",
+      },
+      {
+        type: "text",
+        heading: "Sehnengewebe selbst: schlecht organisiertes Kollagen",
+        text: "Bei Nichtbelastung sinkt die Kollagensynthese im Sehnengewebe. Das Kollagen, das während der Immobilisierung dennoch neu gebildet wird, ist schlecht organisiert, weil es mangels Zugbelastung nicht physiologisch entlang der Kraftlinien ausgerichtet werden kann — die Folge sind deutlich verminderte Elastizität und Belastbarkeit. Im histologischen Präparat zeigt Sehnengewebe eine Reparationsdauer von bis zu 18 Monaten.",
+      },
+      {
+        type: "text",
+        heading: "Konkreter Reha-Zeitplan nach Sehnennaht",
+        text: "Nach schweren Sehnenverletzungen mit anschließender Sehnennaht wird folgender Ablauf empfohlen: 3 Wochen Immobilisierung, danach leichte, kontrollierte Arbeit an der Hand, ab Woche 6 langsame Steigerung der Belastung. Bis zum Abschluss der histologischen Reparation (bis zu 18 Monate) soll der Hund mittels Gelenkschoner oder Schienen trainiert werden — Training ist dabei ausdrücklich weiterhin nötig, nicht optional. Auch bei Kapsel-/Bandverletzungen gilt sinngemäß: lange Immobilisierung vermeiden, sobald wie möglich zu kontrolliertem Training übergehen, Hydrotherapie sowie passive ROM-/Stretching-Übungen (idealerweise nach Wärme- oder Ultraschallanwendung) frühzeitig einsetzen.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.2 (Immobilisation — Knochen-Sehnen-Übergang, Sehnen), S. 60f. Die Kraftverteilung am Knochen-Sehnen-Übergang, die Belastbarkeits-/Regenerationszeiten, der Kollagen-Organisationsmechanismus sowie der konkrete Reha-Zeitplan nach Sehnennaht sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "kapsel-faserknorpel-muskelfasertyp-atrophie-immobilisation",
+    category: "BIOMECHANIK",
+    title: "Warum Fast-twitch-Fasern und die Gelenkkapsel unterschiedlich auf Ruhigstellung reagieren",
+    teaser:
+      "Ein Fast-twitch-Muskel, der mehrere Gelenke überspannt, atrophiert deutlich schneller als ein haltungsstabilisierender Slow-twitch-Muskel — und die Gelenkkapsel wächst bei Immobilisation regelrecht mit Faserknorpel zu.",
+    sections: [
+      {
+        type: "text",
+        heading: "Faserknorpel-Einwuchs in die Gelenkkapsel",
+        text: "Während der Immobilisation eines Gelenks kommt es zu Verklebungen zwischen den verschiedenen Kapselanteilen sowie zwischen Kapsel und Knochen, die Gelenkkapsel schrumpft und die Gelenkmobilität nimmt ab. Auf zellulärer Ebene werden weniger Fibroblasten, aber mehr Kollagen-Typ-II-Fasern gebildet — es kommt zu einer Verknorpelung des Gelenks: Faserknorpel wächst von der Kapsel-Knochen-Verbindung ausgehend ins Gelenkinnere ein.",
+      },
+      {
+        type: "table",
+        heading: "Unterschiedliche Atrophie-Anfälligkeit der Muskelfasertypen",
+        columns: ["Fasertyp", "Funktion", "Atrophie-Anfälligkeit"],
+        rows: [
+          [
+            "Typ I (Slow-twitch)",
+            "kontrolliert Haltung und Spannung, kann diese lange halten, kreuzt meist nur ein Gelenk",
+            "wenig anfällig für Atrophie",
+          ],
+          [
+            "Typ II (Fast-twitch)",
+            "zuständig für schnelle Bewegungen, hat meist einen im Zug gedehnten Antagonisten, kreuzt meist mehr als ein Gelenk",
+            "deutlich stärker atrophieanfällig",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Position während der Immobilisation entscheidet mit",
+        text: "Neben dem Fasertyp beeinflusst auch die Gelenkstellung während der Ruhigstellung das Ausmaß der Muskelatrophie: Ein Muskel, der in verkürzter Position immobilisiert wird, atrophiert deutlich stärker als ein Muskel, der in verlängerter Position ruhiggestellt wird. Bei der Wahl von Schienen oder Verbänden ist die resultierende Muskellänge deshalb keine Nebensächlichkeit, sondern beeinflusst direkt das Ausmaß der späteren Rehabilitation.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.2 (Immobilisation — Kapsel und Bänder, Muskeln), S. 61f. Der Faserknorpel-Einwuchs-Mechanismus, die Typ-I-/Typ-II-Fasertyp-Unterscheidung sowie die positionsabhängige Atrophie sind im Original so beschrieben. Ergänzt den bestehenden Eintrag zur allgemeinen Ruhigstellungs-Problematik (Kap. 4.3, S. 62) um die zugrunde liegenden Gewebemechanismen bei Kapsel und Muskulatur.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

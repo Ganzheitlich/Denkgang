@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 165 Einträge (7 Anatomie-Spiegelungen, 8 Grundlagen, 51
-  Untersuchung, 63 Pathologie, 36 Biomechanik, 15 Therapie — genaue
+- Wissensbibliothek: 168 Einträge (7 Anatomie-Spiegelungen, 8 Grundlagen, 51
+  Untersuchung, 64 Pathologie, 38 Biomechanik, 15 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -71,16 +71,18 @@ kein Überblick verloren geht.
   Manuelle Therapie beim Hund — **damit ist Hárrer, Manuelle Therapie beim
   Hund (ISBN 978-3-13-245429-3), in seinen fachlich dichten
   Kernabschnitten vollständig ausgewertet (Kap. 6–17)**. Kap. 18 ist reine
-  Literaturliste, kein Extraktionsziel mehr. Danach 19 weitere neue
+  Literaturliste, kein Extraktionsziel mehr. Danach 22 weitere neue
   Einträge aus Mai, Physiotherapie und Bewegungstraining für Hunde —
-  **Kap. 4.1 „Training" (Anfang), Kap. 5.1 „Evaluierung", Kap. 5.2
-  „Ausgewählte Erkrankungen" und Kap. 5.3 „Mobilisationstechniken"
-  (Manuelle Medizin: OMT/Chiropraxis/Osteopathie; Tuina: TCM-Theorie klar
-  von belegten Massage-Effekten getrennt, plus Grifftechniken-Glossar)
-  sind abgedeckt**. Siehe BIOMECHANIK-/THERAPIE-Backlog unten für die im
-  Detail bewusst ausgelassenen reinen Technik-Rezeptteile. Baumgartner/
-  Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere" wurde
-  erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
+  **Kap. 4.1 „Training", Kap. 4.2 „Immobilisation" (komplett: Knochen,
+  Knorpel, Knochen-Sehnen-Übergang, Sehnen, Kapsel/Bänder, Muskeln),
+  Kap. 5.1 „Evaluierung", Kap. 5.2 „Ausgewählte Erkrankungen" und Kap.
+  5.3 „Mobilisationstechniken" (Manuelle Medizin: OMT/Chiropraxis/
+  Osteopathie; Tuina: TCM-Theorie klar von belegten Massage-Effekten
+  getrennt, plus Grifftechniken-Glossar) sind abgedeckt**. Siehe
+  BIOMECHANIK-/THERAPIE-Backlog unten für die im Detail bewusst
+  ausgelassenen reinen Technik-Rezeptteile. Baumgartner/Wittek/Khol
+  „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
+  (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
   Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
   (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Mai Kap. 4.3
   (Rückenschmerzen/Trainingsfehler, Trainingsalter-Richtlinien) oder der
@@ -593,10 +595,32 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       unter Ruhigstellung aus Kap. 4.3, S. 62, um die parallele
       Knochenphysiologie; beide Einträge behandeln unterschiedliche
       Gewebe, keine Duplikation). Verifiziert per Playwright-Screenshot
-      (4/4 Seiten, 0 Console-/Page-Errors). Nächster Fortsetzungspunkt:
-      Rest von Kap. 4.2 (Immobilisation — weitere Gewebe wie Knorpel/
-      Bänder/Muskulatur, falls noch nicht durch bestehende Einträge
-      abgedeckt) und Kap. 4.3 (Rückenschmerzen/Trainingsfehler,
+      (4/4 Seiten, 0 Console-/Page-Errors).
+      **Kap. 4.2 „Immobilisation" (Rest: Knorpel, Knochen-Sehnen-Übergang,
+      Sehnen, Kapsel/Bänder, Muskeln, S. 59–62, ph(21).pdf) abgeschlossen
+      (25.09.2026).** Drei weitere neue Einträge:
+      `knorpelernaehrung-pumpmechanismus-be-entlastung` (der
+      Schwamm-Prinzip-Pumpmechanismus für die Knorpelernährung,
+      Tidemark-Verschiebung bei fehlender Wechselbelastung,
+      Trainingsalternativen wie Aqua-Trainer/Manualtherapie — mit dem
+      im Original selbst als „zurzeit heftig umstritten" gekennzeichneten
+      Vorbehalt zur Knorpel-Regenerationsfähigkeit bewusst mit
+      übernommen), `knochen-sehnen-uebergang-sehnenheilung-rehazeitplan`
+      (die 3- bis 4-fache Kraftkonzentration am Knochen-Sehnen-Übergang,
+      20 % Belastbarkeit nach 4 Wochen Immobilisation, 12 Monate
+      Regenerationsdauer, Sehnen-Kollagen-Desorganisation, ein konkreter
+      Reha-Zeitplan nach Sehnennaht) und
+      `kapsel-faserknorpel-muskelfasertyp-atrophie-immobilisation`
+      (Faserknorpel-Einwuchs in die Gelenkkapsel bei Immobilisation als
+      Tabelle mit dem Typ-I-/Typ-II-Fasertyp-Atrophieunterschied, plus
+      die positionsabhängige Muskelatrophie). Alle drei Einträge wurden
+      gegen die bereits bestehenden Einträge zur allgemeinen
+      Ruhigstellungs-Problematik (Kap. 4.3, S. 62) und zum
+      piezoelektrischen Effekt geprüft — keine inhaltliche Duplikation,
+      da jeweils andere Gewebemechanismen im Fokus stehen. Verifiziert
+      per Playwright-Screenshot (3/3 Seiten, 0 Console-/Page-Errors).
+      **Damit ist Kap. 4.2 vollständig abgedeckt.** Nächster
+      Fortsetzungspunkt: Kap. 4.3 (Rückenschmerzen/Trainingsfehler,
       Trainingsalter-Richtlinien, S. 62–65 — noch offen, siehe unten).
 - [x] Belastungssteuerung nach Verletzung (Immobilisation vs. kontrollierte
       Bewegung, Kap. 4.3, S. 62)
