@@ -9099,6 +9099,208 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "gelenkknorpel-vier-schichten-reibung-belastungsgrenzen",
+    category: "BIOMECHANIK",
+    title: "70 °C im Gelenk: wie viel Reibungswärme kranker Knorpel erzeugt",
+    teaser:
+      "Gesunder Gelenkknorpel hat einen Reibungskoeffizienten von 0,002 — bei fortgeschrittener Arthrose steigt er auf das 250-Fache, und die dabei entstehende Wärme kann örtlich über 70 °C erreichen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Vier Schichten mit unterschiedlichen Aufgaben",
+        text: "Der Gelenkknorpel besteht aus vier Schichten: der oberflächlichen Gelenkfläche (10–20 % der Gesamtschicht, höchste Wasserbindungsfähigkeit, fängt Scherkräfte ab), der mittleren Knorpelzone (40–60 %, produziert die primäre Grundsubstanz), der radialen/tiefen Zone (ca. 30 %, absorbiert Kompressionskräfte, am Gelenkrand dicker als in der Mitte) und der dünnen kalzifizierten Knorpelzone, die über die Tidemark mit dem subchondralen Knochen verbunden ist. Der Knorpel selbst besteht zu 70–80 % aus Wasser und nur zu 20–30 % aus festen Bestandteilen; er hat keine eigene Blutversorgung, keine Lymphgefäße und keine nervale Versorgung — Knorpelverletzungen sind deshalb schmerzlos und heilen nicht von selbst.",
+      },
+      {
+        type: "table",
+        heading: "Reibungskoeffizient und Wärmeentwicklung steigen mit dem Gelenkzustand",
+        columns: ["Zustand", "Reibungskoeffizient"],
+        rows: [
+          ["Gesunder Knorpel", "0,002"],
+          ["Fibroelastischer Ersatzknorpel", "0,1"],
+          ["Osteoarthritis", "0,5–1"],
+          ["Knochen auf Knochen (subchondraler Knochen)", "1,5"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum das klinisch zählt",
+        text: "Die Wärmeproduktion im Gelenk steigt proportional zum Reibungskoeffizienten — bei hochgradig verändertem Gelenk (z. B. Osteoarthritis mit Knochen-auf-Knochen-Kontakt) können örtlich Temperaturen von über 70 °C entstehen. Zum Vergleich: Beim gesunden Menschen steigt die Temperatur im Kniegelenk beim Joggen nur um etwa 2 °C. Ein Hund mit hochgradiger Osteoarthrose läuft deshalb zunehmend langsamer, weil die Bewegung selbst schmerzhafter wird.",
+      },
+      {
+        type: "text",
+        heading: "Über- und Unterbelastung führen beide zur Arthrose",
+        text: "Nur 20–30 % des Gelenkknorpels wird bei normaler Bewegung tatsächlich beansprucht — der Rest wird mangelernährt, wenn er nicht regelmäßig genutzt wird; stereotype Bewegungsmuster lassen diesen Teil des Knorpels regelrecht „verhungern“, freier Lauf mit wechselnden Bewegungsmustern ist deshalb ideal. Fehlt der ständige Wechsel zwischen Be- und Entlastung, entsteht in beiden Extremen eine Arthrose: bei Überlastung (z. B. zu frühes/zu intensives Welpentraining) direkt über Knorpelschädigung, bei Unterlastung über die gestörte Diffusionsernährung. Unter anhaltend hoher Belastung kommt es zunächst zu Mikrofrakturen und Erosionen, die ausheilen können, wenn keine erneute Überlastung folgt — bei fortgesetzter Überlastung degeneriert der Knorpel jedoch über Chondromalazie, Fissurbildung und Fibrillation bis zum vollständigen Knorpelverlust mit freiliegendem subchondralem Knochen.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund überbewertet", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 5.2.2 (Der Gelenkknorpel), S. 50–53. Die Vier-Schichten-Struktur, die Reibungskoeffizienten mit Wärmeentwicklung sowie die Über-/Unterbelastungs-Mechanismen bis zur Chondromalazie sind im Original so beschrieben. Ergänzt bewusst den bereits bestehenden Eintrag `knorpelernaehrung-pumpmechanismus-be-entlastung` (Mai Kap. 4.2) um Schichtstruktur, Reibungsphysik und den Degenerationsverlauf, statt den dort bereits erklärten Pumpmechanismus zu wiederholen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "gelenkkapsel-vier-mechanorezeptortypen",
+    category: "BIOMECHANIK",
+    title: "Vier Rezeptortypen in der Gelenkkapsel — warum Arthritis anders schmerzt als Arthrose",
+    teaser:
+      "Bei akuter Arthritis reagiert ein anderer Rezeptortyp als bei chronischer Arthrose — das erklärt, warum sich frischer Gelenkerguss und alte knöcherne Veränderungen klinisch so unterschiedlich anfühlen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Aufbau und Grundfunktion der Gelenkkapsel",
+        text: "Die Gelenkkapsel besteht aus einer äußeren fibrinösen Schicht (Membrana fibrosa) und einer inneren synovialen Gelenkmembran (Membrana synovialis). Die äußere Schicht ist reich innerviert und für Propriozeption und Nozizeption verantwortlich; sie steht mit dem Bandapparat in Verbindung, der die mechanische Bewegungssteuerung und Stabilität übernimmt. Bei normaler Bewegung wird die Kapsel durch Zug und Druck belastet — fällt diese Belastung weg, kommt es zu Verklebungen der Kapselfalten und einer Einschränkung des physiologischen Bewegungsausmaßes. Der Gelenkrand wird durch die dort physiologisch geringere Druck-/Zugbelastung schlechter ernährt als die Hauptbelastungsstelle — entsprechend höher ist dort das Arthrose-/Arthritis-Risiko.",
+      },
+      {
+        type: "table",
+        heading: "Die vier Mechanorezeptortypen der Gelenkkapsel",
+        columns: ["Typ", "Lage", "Auslöser", "Klinische Zuordnung"],
+        rows: [
+          ["Typ 1", "vor allem Gelenkkapseloberfläche, überwiegend obere Gliedmaßenabschnitte", "starke Dehnungs-/Kompressionskräfte, schon bei niedrigen Impulsen aktiv", "reagiert bei vermehrter Gelenkfüllung (Arthritis)"],
+          ["Typ 2", "innerhalb der Gelenkkapsel", "Flexion des Gelenks (dynamischer Rezeptor), abhängig von Stärke/Frequenz", "—"],
+          ["Typ 3", "Insertionsbereich von Bändern und Gelenkkapsel", "nur bei Dehnung über das physiologische Maß hinaus", "—"],
+          ["Typ 4", "Periost, artikuläres Fettpolster, subchondraler Knochen, nichtmyelinisiert in der Kapsel", "langsam, erst bei hohen Impulsen", "reagiert bei länger bestehender knöcherner Veränderung (Arthrose)"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum Mobilisation wirkt",
+        text: "Mobilisationstechniken wie Gelenktraktion, passives Bewegen oder Dehnung verringern die Spannung der Gelenkkapsel und lindern den Gelenkschmerz, indem sie gezielt Mechanorezeptoren und Propriozeptoren ansprechen und deren Aktivität reduzieren. Über Druck, Dehnung, Zug, Kompression und minimale Bewegungen im Bereich von Sehnen, Kapselbandapparat und Bindegewebe wird die Gelenkbeweglichkeit verbessert, die Muskulatur gedehnt und entspannt und der Muskeltonus normalisiert.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund überbewertet", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 5.2.3 (Gelenkkapsel), S. 54f. Der Kapselaufbau, die vier Mechanorezeptortypen mit ihrer jeweiligen klinischen Zuordnung (Typ 1 bei Arthritis, Typ 4 bei Arthrose) sowie der Wirkmechanismus der Mobilisationstechniken sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "synovia-gelenkbaender-passive-bewegungssteuerung",
+    category: "BIOMECHANIK",
+    title: "Bänder und Muskeln als Funktionseinheit: wer die passive, wer die aktive Stabilität liefert",
+    teaser:
+      "Fällt die Bandfunktion aus, kann Muskelkraft sie nur teilweise ersetzen — die passive Bewegungssteuerung durch Bänder ist durch aktive Muskelarbeit nicht vollständig zu kompensieren.",
+    sections: [
+      {
+        type: "text",
+        heading: "Synovia: mehr als nur Schmiermittel",
+        text: "Die Synovia ist eine klare, bernsteinfarbene Flüssigkeit aus Wasser, Glukose, Muzin, Hyaluronsäure, Elektrolyten, Aminosäuren und abgestoßenen Zellen. Sie minimiert die Reibung im Gelenkspalt, ernährt den Knorpel, trägt zu dessen Regeneration bei und wirkt als Stoßdämpfer, der kleine Unregelmäßigkeiten ausgleicht. Passive und aktive Bewegung erhöht die Synovialbewegung und fördert dadurch die Diffusion zur Knorpelernährung.",
+      },
+      {
+        type: "text",
+        heading: "Gelenkbänder: Führung, Bremse, Funktionseinheit mit dem Muskel",
+        text: "Gelenkkapsel und Bänder sind für die passive Bewegungssteuerung und passive Stabilität des Gelenks zuständig — nichtkontraktile Bandstrukturen sichern die achsengerechte Bewegung (Führungsbänder) und das physiologische Endgefühl (Bremsbänder). Bänder und Muskeln bilden biomechanisch eine Funktionseinheit: Durch ihr Zusammenwirken werden Gelenkabstand und Gelenkhaftung ständig reguliert und der Bewegung angepasst. Fällt die Bandfunktion aus, kann sie durch vermehrte Muskelfunktion nur teilweise ersetzt werden — die passive Bewegungssteuerung bleibt dann suboptimal.",
+      },
+      {
+        type: "list",
+        heading: "Drei anatomische Bandkategorien",
+        items: [
+          "Ligg. articularia (Ligamenta extracapsularia): Führungs- und Hemmungsbänder aus kollagenem Bindegewebe (mit variablem Elastin-Anteil), liegen außerhalb der Gelenkkapsel",
+          "Ligg. capsularia: Verstärkungszüge, in die Gelenkkapsel eingelagert und dadurch vor Einklemmung geschützt",
+          "Ligg. intracapsularia: verlaufen durch den Gelenkspalt, liegen innerhalb der Gelenkkapsel",
+        ],
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 5.2.4 (Synovia) und Kap. 5.2.5 (Gelenkbänder), S. 55f. Die Synovia-Zusammensetzung/-Funktion, die Bänder-Muskel-Funktionseinheit sowie die drei anatomischen Bandkategorien (Ligg. articularia/capsularia/intracapsularia) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "menisken-stossdaempfer-inkongruenz-kniegelenk",
+    category: "ANATOMIE",
+    title: "Die Menisken: Unterlegscheiben, Hemmkeil und Pressfeder in einem",
+    teaser:
+      "Der Innenmeniskus ist mit Gelenkkapsel und Seitenband verwachsen und dadurch deutlich unbeweglicher als der Außenmeniskus — ein Unterschied mit direkter Relevanz für Verletzungsmuster am Kniegelenk.",
+    sections: [
+      {
+        type: "text",
+        heading: "Form und Funktion",
+        text: "Das Kniekehlgelenk besitzt zwei faserknorpelige Menisken zwischen den femoralen und tibialen Kondylen: den Innenmeniskus (Meniscus medialis) und den Außenmeniskus (Meniscus lateralis), in ihrer Form mit Mandarinenscheiben vergleichbar — scharfer, konkaver Innenrand, dicker konvexer Außenumriss. Die zur Tibia gerichtete Fläche ist eben, die zu den Femurkondylen gerichtete Fläche ausgehöhlt. Dadurch vertiefen die Menisken das nahezu ebene Tibiaplateau und passen es besser an die stark gekrümmten Femurkondylen an — sie gleichen wie Unterlegscheiben die Inkongruenz der Gelenkflächen aus und erhöhen so die Stabilität des Kniegelenks. Zusätzlich wirken sie als Hemmkeil gegen extreme Flexion/Extension, als stoßdämpfender Puffer während der Stemmphase und als Pressfeder, die die Spannung der Kniebandverbindungen reguliert.",
+      },
+      {
+        type: "text",
+        heading: "Medial fixiert, lateral beweglich",
+        text: "Beide Menisken sind über kraniale und kaudale Bänder an der Tibia fixiert. Der Meniscus medialis ist zusätzlich mit der Gelenkkapsel und dem medialen Seitenband verwachsen und dadurch bei Flexion/Extension weniger beweglich als der Meniscus lateralis. Bei Extension gleiten beide Menisken nach kranial, bei Flexion nach kaudal, und sie folgen auch Drehbewegungen. Nur der periphere Anteil (etwa 10–15 %) ist vaskularisiert — der Hauptanteil wird durch Diffusion aus der Synovialflüssigkeit ernährt, was ihre begrenzte Heilungsfähigkeit nach Verletzung erklärt.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 5.2.6 (Intraartikuläre Strukturen — Die Menisken), S. 56f. Form, Funktion (Inkongruenzausgleich, Hemmkeil, Stoßdämpfer, Pressfeder) sowie die unterschiedliche Beweglichkeit und Vaskularisierung von Innen- und Außenmeniskus sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "gelenkbiomechanik-hebelarme-gewichttragende-flaeche-circulus-vitiosus",
+    category: "BIOMECHANIK",
+    title: "Warum die gewichttragende Fläche kleiner ist als die Gelenkkontaktfläche — und weshalb das entscheidend ist",
+    teaser:
+      "Vergrößert sich die gewichttragende Fläche eines Gelenks, sinkt der Druck darauf automatisch — verkleinert sie sich durch eine Fehlstellung, beginnt ein Circulus vitiosus aus Knorpelabbau und Muskelverspannung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Hebelarme und die gelenkresultierende Kraft",
+        text: "Auf ein Gelenk wirken das Körpergewicht (Last) und Muskel-/Bandkräfte (Kraft). Wirkt eine Kraft außerhalb der Bewegungsachse, entsteht ein Drehmoment; der senkrechte Abstand zwischen Kraftwirkungslinie und Drehzentrum ist der wirksame Hebelarm. Gelenk und Knochenpartner bilden gemeinsam einen anatomischen Hebel — beim Hund überwiegen einarmige Hebel (z. B. Schulter-, Ellbogen-, Kniegelenk, wo Kraft und Last auf derselben Seite des Drehzentrums wirken), zweiarmige Hebel sind seltener (z. B. Hüft- und Tarsalgelenk). Die Summe der Kraft- und Lastvektoren ergibt die gelenkresultierende Kraft — die eigentliche Belastung des Gelenks. Wird sie verkleinert, sinkt auch der Gelenkdruck.",
+      },
+      {
+        type: "text",
+        heading: "Gewichttragende Fläche als Schlüsselgröße",
+        text: "Man unterscheidet die anatomische Gelenkfläche, die Gelenkkontaktfläche (Kontaktfläche der Gleitbewegung) und die gewichttragende Fläche (auf die tatsächlich Druck ausgeübt wird) — Letztere ist meist kleiner als die Gelenkkontaktfläche und maßgebend für die mechanische Belastung. Gewichttragende Fläche und gelenkresultierende Kraft verhalten sich umgekehrt proportional: je größer die belastete Fläche, desto kleiner der einwirkende Druck (Druck = Kraft ÷ Flächeneinheit). Unphysiologisch hohe Druckbelastung entsteht z. B. durch Adipositas oder veränderte Hebelverhältnisse nach Sehnenverletzung oder Knieoperation; angeborene Fehlstellung, degenerative Veränderung oder Trauma können die gewichttragende Fläche verkleinern. Liegt die gelenkresultierende Kraft zentral auf der gewichttragenden Fläche, verteilt sich der Druck gleichmäßig auf den Knorpel — der Gelenkdruck ist dabei selbst der Erhaltungsreiz für Knochen und Knorpel als Stützgewebe.",
+      },
+      {
+        type: "list",
+        heading: "Der Circulus vitiosus bei fehlender oder überhöhter Druckbelastung",
+        items: [
+          "Fehlt die Druckbelastung, fehlt der Ernährungsreiz für den Knorpel → Knorpelabbau → weitere Verkleinerung der gewichttragenden Fläche",
+          "Bei permanenter Überlastung der gewichttragenden Fläche kommt es ebenso zu Knorpelzerstörung und Knorpelschwund",
+          "In beiden Fällen fällt die Proteoglykanproduktion aus, die Knorpeloberfläche wird unregelmäßig, der Knorpel verliert an mechanischer Widerstandskraft",
+          "Folge: Schmerzen schon bei normaler Druckbelastung, Kapselzerrungen durch unphysiologischen Bewegungsablauf, sekundäre Synovitis durch Knorpel-Zelldetritus",
+          "Veränderte Propriozeption durch die gestörten Druck-/Zugbelastungen löst unphysiologische Muskelverspannungen aus, die den achsengerechten Bewegungsablauf weiter stören — der Circulus vitiosus schließt sich",
+          "Endstadium: Knorpelfaserabbrüche, Knorpelabrisse, abgeriebene Kollagene bis zu sogenannten „Knochenglatzen“",
+        ],
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 5.3 (Allgemeine Biomechanik eines Gelenks), S. 57–59. Hebelarme/Drehmoment mit ein-/zweiarmigen Gelenken, die gewichttragende Fläche als Schlüsselgröße sowie der Circulus vitiosus bei gestörter Druckbelastung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "rollen-gleiten-rollgleiten-ruhestellung-gelenkspiel",
+    category: "BIOMECHANIK",
+    title: "Rollen, Gleiten, Rollgleiten: was hinter Begriffen wie „Joint Play“ und „Ruhestellung“ steckt",
+    teaser:
+      "Weil Gelenkflächen nie exakt kongruent sind, findet reine Gleitbewegung in der Natur nie isoliert statt — jedes physiologisch bewegte Gelenk kombiniert ständig Rollen und Gleiten.",
+    sections: [
+      {
+        type: "text",
+        heading: "Rotation und Translation als einzige Grundbewegungen",
+        text: "Knochen können sich nur auf zwei Arten bewegen: durch Rotation (drehende, angulare Bewegung um eine Gelenkachse — anatomisch als Flexion/Extension, Abduktion/Adduktion, Innen-/Außenrotation bezeichnet) oder durch Translation (geradlinige Bewegung parallel bzw. rechtwinklig zur Behandlungsebene, mit gleichbleibendem Winkel zwischen den Gelenkpartnern — das translatorische Gelenkspiel).",
+      },
+      {
+        type: "table",
+        heading: "Rollen, Gleiten und Rollgleiten im Vergleich",
+        columns: ["Bewegungsart", "Mechanismus", "Vorteil", "Nachteil"],
+        rows: [
+          ["Rollen", "ein Punkt der einen Gelenkfläche berührt immer den gegenüberliegenden Punkt der anderen (wie ein rollender Ball); Richtung immer gleichsinnig zur Knochenbewegung", "relativ geringe Abnutzung durch Haftreibung", "benötigt eine relativ große Gelenkfläche für das Mitwandern der Umdrehungsachse"],
+          ["Gleiten", "derselbe Punkt der einen Gelenkfläche berührt immer neue Punkte der anderen (wie ein Schlitten); nur bei kongruenten Gelenkflächen isoliert möglich", "keine Scherkräfte, da keine Hebelwirkung", "hohe Haftreibung"],
+          ["Rollgleiten", "Kombination aus Rollen und Gleiten; findet zwischen den in der Natur immer inkongruenten Gelenkflächen fortwährend statt", "kleine Gelenkflächen ermöglichen relativ große angulare Bewegungen; Gleitanteil verhindert das Herausspringen des Gelenkkopfs", "hohe Haftreibung"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Ruhestellung, verriegelte Stellung und das Gelenkspiel (Joint Play)",
+        text: "Die Ruhestellung eines Gelenks ist der Zustand maximal lockerer Gelenkkapsel mit größtem Rauminhalt und dem geringsten Gelenkpartner-Kontakt aller Gelenkstellungen — hier ist das Gelenkspiel am größten. Das Gegenstück ist die verriegelte Stellung mit maximalem Gelenkpartner-Kontakt und minimalem Spiel. Das Gelenkspiel (Joint Play) selbst setzt sich aus allen passiven translatorischen Bewegungen zweier Gelenkpartner zusammen (Traktion, Kompression, Gleitbewegungen) und wird durch den Bewegungsspielraum der Gelenkkapsel begrenzt; geprüft wird es in Ruhestellung, in Behandlungsstellung und im Seitenvergleich. Je nach Translationsrichtung entsteht: längs weg von der Behandlungsebene eine Traktion, längs hin zur Behandlungsebene eine Kompression, parallel zur Behandlungsebene ein Gleiten. Bei einer Bewegungseinschränkung wie Hypomobilität ist dieses Verhältnis zwischen Rollen und Gleiten gestört, mit vermindertem Gleitanteil.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 5.3.1 (Gelenkbewegungen und Gelenkbeweglichkeit), S. 58–60. Rotation/Translation, die Mechanismen von Rollen/Gleiten/Rollgleiten sowie Ruhestellung, verriegelte Stellung und Gelenkspiel (Joint Play) mit den drei Translationsrichtungen sind im Original so beschrieben. Erklärt die Grundbegriffe, auf die bereits bestehende Einträge (u. a. zu Ruhestellung/Joint play am Hüftgelenk und proximalen Tibiofibulargelenk) ohne nähere Herleitung Bezug nehmen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

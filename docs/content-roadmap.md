@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 189 Einträge (7 Anatomie-Spiegelungen, 9 Grundlagen, 51
-  Untersuchung, 68 Pathologie, 50 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 195 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 51
+  Untersuchung, 68 Pathologie, 55 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -95,13 +95,19 @@ kein Überblick verloren geht.
   Humerus-Tibia-Kraftübertragung/OCD, Knochenwachstum mit
   Kastrationseffekt, sowie der piezoelektrische Effekt physikalisch-
   historisch vertieft (ergänzt den bestehenden Eintrag aus Mai statt ihn
-  zu duplizieren). Details siehe Hohmann-Backlog unten. Baumgartner/
-  Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere" wurde
-  erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
-  Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
-  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann Kap. 5 „Das
-  Gelenk" Rest (Gelenkkapsel/Synovia/Bänder, falls noch mehr als S. 48–50
-  folgt) oder Kap. 8 „Die Bewegung des Hundes" (b10.pdf) fortsetzen (siehe
+  zu duplizieren). Danach 6 weitere neue Einträge aus Kap. 5.2/5.3 „Das
+  Gelenk" (allgemeine Gelenkphysiologie, vollständig, S. 48–60):
+  Gelenkknorpel (Reibung/Wärme, Degenerationskaskade), Gelenkkapsel mit
+  vier Mechanorezeptortypen, Synovia/Gelenkbänder, Menisken,
+  Gelenkbiomechanik (Hebelarme, gewichttragende Fläche, Circulus
+  vitiosus) sowie Rollen/Gleiten/Rollgleiten mit Ruhestellung/Gelenkspiel.
+  Kap. 5.4 „Die Gelenke im Einzelnen" (regionaler Gelenkatlas, S. 60–161)
+  bewusst nicht extrahiert — Details und Begründung siehe Hohmann-Backlog
+  unten. Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus- und
+  Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7 identifiziert),
+  aber wegen Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen
+  zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann
+  Kap. 8 „Die Bewegung des Hundes" (b10.pdf) fortsetzen (siehe
   Hohmann-Backlog), danach ggf. VetCenter Wirbelsäulenerkrankungen oder
   Baumgartner/Wittek/Khol.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
@@ -1343,10 +1349,37 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       differenziert), nur die neue Statikfolgen-Liste (Supination,
       Karpushyperextension, Radius curvus, X-/O-Beinigkeit u. a.) ergänzt.
       Verifiziert via Playwright (6/6 Seiten, 0 Fehler).
-- [x] Kap. 5 Das Gelenk (b6.pdf) — Struktur-/Bauart-/Gelenktyp-Einteilung mit
-      caninen Beispielen + Gelenkflächen-Inkongruenz (S. 48–50). Rest des
-      Kapitels (Gelenkkapsel, Synovia, Bänder — falls noch mehr folgt) noch
-      nicht gesichtet.
+- [x] **Kap. 5.1–5.3 „Das Gelenk" (allgemeine Gelenkphysiologie) vollständig
+      abgeschlossen (25.09.2026), S. 48–60 (b6.pdf).** Kap. 5.1 „Einteilungen
+      der Gelenke" war bereits über den bestehenden Eintrag
+      `gelenktypen-klassifikation` abgedeckt (identische Tab. 5.1–5.3, keine
+      erneute Extraktion nötig). Sechs neue Wissenseinträge zu Kap. 5.2/5.3:
+      Gelenkknorpel (Vier-Schichten-Struktur, Reibungskoeffizienten mit
+      Wärmeentwicklung bis 70 °C, Über-/Unterbelastungs-Degenerationskaskade
+      — ergänzt bewusst den bestehenden Pumpmechanismus-Eintrag aus Mai statt
+      ihn zu wiederholen), Gelenkkapsel mit den vier Mechanorezeptortypen
+      (Typ 1 bei Arthritis, Typ 4 bei Arthrose), Synovia/Gelenkbänder als
+      Bänder-Muskel-Funktionseinheit (Ligg. articularia/capsularia/
+      intracapsularia), die Menisken (Inkongruenzausgleich, mediale
+      Fixierung vs. laterale Beweglichkeit, Vaskularisierung nur 10–15 %),
+      allgemeine Gelenkbiomechanik (Hebelarme, gewichttragende vs.
+      Gelenkkontaktfläche, Circulus vitiosus bei gestörter Druckbelastung)
+      sowie Rollen/Gleiten/Rollgleiten mit Ruhestellung/verriegelter
+      Stellung/Gelenkspiel (erklärt die Grundbegriffe, auf die bereits
+      bestehende Einträge zu Ruhestellung/Joint play ohne Herleitung Bezug
+      nehmen). **Bewusste Scope-Entscheidung:** Kap. 5.4 „Die Gelenke im
+      Einzelnen" (S. 60–161, regionaler Gelenk-für-Gelenk-Atlas von Schulter
+      bis Hüftgelenk und vermutlich weiter) wird NICHT extrahiert — analog
+      zu den bereits bewusst ausgelassenen Technik-Rezeptteilen bei Hárrer/
+      Mai überschneidet sich dieser Regionen-Atlas voraussichtlich stark mit
+      Hárrers bereits vollständig ausgewertetem Regionenteil (Kap. 6–17).
+      Ebenfalls bewusst nicht extrahiert: die krankheitsspezifischen
+      Unterkapitel zu OCD-Lokalisationsstatistiken, Distractio cubiti,
+      hypertropher Osteodystrophie und persistierendem Knorpelzapfen
+      (S. 53f.) — das sind Diagnose-Details, kein allgemeine Gelenkphysiologie,
+      und HOD/persistierender Knorpelzapfen sind über den bestehenden
+      Differenzierungseintrag (Koch/Fischer) bereits abgedeckt. Verifiziert
+      via Playwright (6/6 Seiten, 0 Fehler).
 - [x] Kap. 6 Die Muskulatur (b7.pdf, 22 MB) — Extraktion hat diesmal
       funktioniert (anders als frühere Session-Notiz vermutete). Kein
       Regionen-Atlas mit Ursprung/Ansatz/Funktion einzelner Muskeln (kein
