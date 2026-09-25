@@ -5902,6 +5902,161 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["quadriceps", "biceps-femoris", "semitendinosus"],
   },
+  {
+    id: "kniegelenk-baender-kapselmuster",
+    category: "BIOMECHANIK",
+    title: "Bänder der Art. femorotibialis: warum sich die Kreuzbänder umeinanderwickeln",
+    teaser:
+      "Die Kreuzbänder begrenzen nicht nur die Schublade, sondern auch die Innenrotation — weil sie sich bei dieser Bewegung buchstäblich umeinanderwickeln.",
+    sections: [
+      {
+        type: "list",
+        heading: "Die Bänder der Art. femorotibialis und ihre Funktion",
+        items: [
+          "Ligg. cruciata cranialis et caudalis: innerhalb der Gelenkkapsel gelegen. Das hintere Kreuzband ist Hauptstabilisator und unterstützt den (hier exzentrisch arbeitenden) M. popliteus, mit dessen lateralem Meniskus es verbunden ist. Beide Kreuzbänder limitieren in jeder Gelenkstellung die kraniale und kaudale Schublade sowie — weil sie sich bei dieser Bewegung umeinanderwickeln — die Innenrotation.",
+          "Lig. collaterale mediale: strahlt in den medialen Meniskus und die Kapsel ein, deutlich dicker und länger als das laterale Seitenband. In Extension sind die Kollateralbänder gespannt, dann ist wenig Lateralbewegung möglich.",
+          "Lig. collaterale laterale: zieht zum Caput fibulae, mit Ansatz weiter kaudal als das mediale Band — dieser Verlauf hemmt die Außenrotation.",
+          "Coronary Ligaments (Ligg. meniscotibialia): Kapselverstärkungszüge, die die Menisken an der Tibia befestigen.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Kapselmuster und Endgefühl",
+        text: "Das Kapselmuster der Art. femorotibialis lautet: Extension > Flexion > Rotation. Endgefühl: Flexion weich-elastisch, Rotation und Extension jeweils fest-elastisch.",
+      },
+      {
+        type: "text",
+        heading: "Klinischer Bezug",
+        text: "Diese normale Biomechanik erklärt, warum ein Kreuzbandriss klinisch mehr als nur eine vordere/hintere Instabilität verursacht: Da die intakten Kreuzbänder auch die Innenrotation begrenzen, geht bei ihrer Ruptur zusätzlich diese Rotationsbegrenzung verloren — ein Aspekt, der die im Wissenseintrag zu den klinischen Kreuzband-/Meniskustests beschriebene Instabilität mechanisch einordnet.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.1 (Anatomie Art. femorotibialis, Ligamente), S. 81f. Bandanatomie, Funktion und Kapselmuster sind im Original so beschrieben. Ergänzt `kniegelenk-menisken-patella-biomechanik` (Gelenkmechanik/Menisken/Patella aus demselben Kapitel) sowie den bestehenden Eintrag zu den klinischen Kreuzband-/Meniskustests um die normale Bandbiomechanik.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["quadriceps"],
+  },
+  {
+    id: "kniegelenk-manuelle-untersuchung-bewegungspalpation",
+    category: "UNTERSUCHUNG",
+    title: "Kniegelenk manuell untersuchen: Bewegungspalpation, Joint Play und Flexionslimit-DD",
+    teaser:
+      "Ein „Knick“ bei Extension, ein „Klaffen“ bei Flexion — die Bewegungspalpation des Kniegelenks lebt von solchen tastbaren Signaturen, die verraten, wie Femur und Tibia gegeneinander gleiten.",
+    sections: [
+      {
+        type: "text",
+        heading: "Bewegungspalpation Art. femorotibialis",
+        text: "Der Hund liegt in Seitlage, das zu prüfende Bein oben. Daumen und Zeigefinger liegen von kranial rechts und links neben dem Lig. patellae im Gelenkspalt, während das Kniegelenk in Flexion/Extension sowie Innen-/Außenrotation bewegt wird. Bei Extension gleitet das Tibiaplateau nach kranial (tastbar als „Knick“), bei Flexion nach kaudal (tastbar als „Klaffen“). Bei Innenrotation wandert das mediale Tibiaplateau nach kaudal und das laterale nach kranial; bei Außenrotation ist es umgekehrt.",
+      },
+      {
+        type: "text",
+        heading: "Joint Play und Provokation",
+        text: "Das laterale bzw. mediale Tibiaplateau wird bei proximal fixiertem Femur parallel zur Behandlungsebene nach kranial/kaudal geglitten (Traktionsstufe 2) — Joint Play wird immer in der submaximalen Bewegungseinschränkung getestet. Die Separation der Art. femorotibialis (Tibia senkrecht zur Behandlungsebene vom fixierten Femur weggezogen, Traktionsstufe 2) prüft die Gelenkweite. Die aussagekräftigste Provokation ist die passive, endgradige Bewegung mit Überdruck ins Gelenk; ergänzend kann senkrecht zur Behandlungsebene Kompression auf die Gelenkflächen gegeben werden.",
+      },
+      {
+        type: "text",
+        heading: "Art. femoropatellaris: Bewegungspalpation und Joint Play",
+        text: "Bei Extension gleitet die Patella nach proximal, bei Flexion nach distal — in Flexion muss sie dabei so weit nach distal gleiten können, wie sie lang ist. Anders als beim Menschen kann die Patella nicht angehoben und separiert werden; geprüft wird nur die Verschieblichkeit nach distal sowie nach medial/lateral.",
+      },
+      {
+        type: "table",
+        heading: "Differenzialdiagnostik einer Flexionseinschränkung im Kniegelenk",
+        columns: ["Befund beim Test", "Ursache"],
+        rows: [
+          [
+            "Kniegelenk lässt sich bei zusätzlicher Hüftgelenksflexion weiter beugen",
+            "Muskuläre Verspannung war ursächlich (Muskel wird durch Hüftflexion entspannt)",
+          ],
+          [
+            "Keine weitere Beugung möglich trotz Hüftgelenksflexion, Joint Play unauffällig",
+            "Verklebung des Recessus suprapatellaris",
+          ],
+          [
+            "Ursache liegt zusätzlich im Patellofemoralgelenk selbst (nicht nur femorotibial)",
+            "Nur eine eingeschränkte Flexion kann patellofemoral verursacht sein — eine eingeschränkte Extension hat immer ihre Ursache in der Art. femorotibialis",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Pes-anserinus-Differenzialdiagnostik bei medialem Knieschmerz",
+        text: "Bei schmerzhafter Druckpalpation der medialen Kniegelenksseite werden die drei den Pes anserinus bildenden Muskeln durch gezielte Längsdehnung nacheinander provoziert: M. gracilis über Knieextension und Hüftabduktion, M. sartorius über Knieflexion und Hüftextension, M. semitendinosus über Knieextension, Hüftflexion und zusätzliche Sprunggelenksflexion. So lässt sich der tatsächlich schmerzhafte Muskel gezielt herausfinden, statt die gesamte mediale Gruppe undifferenziert zu behandeln.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.2.1 (Spezifische Untersuchung der Gelenke Art. femorotibialis und Art. femoropatellaris), S. 82f. und S. 87. Griffe, Befundinterpretation, Flexionslimit-Differenzierung und Pes-anserinus-Provokation sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["gracilis", "sartorius", "semitendinosus"],
+  },
+  {
+    id: "kniegelenk-manuelle-therapie-mobilisation-patella",
+    category: "THERAPIE",
+    title: "Kniegelenk behandeln: Mobilisationsrichtung nach Bewegungseinschränkung wählen",
+    teaser:
+      "Eingeschränkte Flexion? Tibiaplateau nach kaudal gleiten. Eingeschränkte Extension? Nach kranial. Die Gleitrichtung folgt konsequent der eingeschränkten Bewegung.",
+    sections: [
+      {
+        type: "table",
+        heading: "Mobilisationsrichtung der Art. femorotibialis nach Einschränkung",
+        columns: ["Eingeschränkte Bewegung", "Gleitrichtung Tibiaplateau", "Traktionsstufe"],
+        rows: [
+          ["Extension", "kranial (medial und lateral)", "Gleitstufe 3"],
+          ["Flexion", "kaudal (medial und lateral)", "Gleitstufe 3"],
+          ["Flexion oder Extension (allgemein)", "medial bzw. lateral", "Gleitstufe 3"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Traktion und Kompression",
+        text: "Zur Mobilisation wird die Tibia aus submaximaler Einstellung der Einschränkung senkrecht zur Behandlungsebene longitudinal gezogen (Traktionsstufe 3). Cave: Bei sehr starker Knieflexion strafft sich der M. rectus femoris — das Bein muss dann zusätzlich in Hüftflexion gebracht werden, damit der Muskel die Bewegung nicht limitiert. Kompression (Femur und Tibia werden gelenknah gefasst und je nach Flexions-/Extensionsstellung senkrecht zur Behandlungsebene zusammengedrückt) dient der Knorpelbehandlung und Durchblutungsverbesserung; sogenannte „Reizknie“ reagieren nach Erfahrung des Autors sehr gut auf diese Kompressionsbehandlung.",
+      },
+      {
+        type: "text",
+        heading: "Patella-Mobilisation",
+        text: "Die Patella wird analog zur eingeschränkten Bewegung mobilisiert: Bei eingeschränkter Flexion wird sie mit der Handwurzel/den Fingern nach distal geglitten (Gleitstufe 3; bei Verklebung des Recessus suprapatellaris Gleitstufe 2–3), bei eingeschränkter Flexion/Extension zusätzlich medial bzw. lateral (Gleitstufe 3). Ein Gleiten der Patella unter gleichzeitiger Kompression ist zusätzlich möglich, um sowohl den Knorpel als auch die ROM zu beeinflussen.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.2.2 (Behandlung der Gelenke Art. femorotibialis und Art. femoropatellaris), S. 87–90. Techniken, Gleitrichtungen und Indikationen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["quadriceps"],
+  },
+  {
+    id: "kniemuskulatur-popliteus-quadriceps-differenzierung",
+    category: "UNTERSUCHUNG",
+    title: "M. popliteus beim Hund: anders als beim Menschen ein Kniestrecker",
+    teaser:
+      "Beim Menschen beugt der M. popliteus das Knie — beim Hund liegt sein Ursprung kranial der Bewegungsachse, wodurch er das Knie stattdessen leicht streckt. Humananatomie 1:1 zu übertragen wäre hier ein Fehler.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die tiefen Kniegelenkmuskeln: kaum zugänglich, aber propriozeptiv wichtig",
+        text: "M. articularis genus und M. popliteus sind palpatorisch nicht komplett zugänglich und können daher nicht einzeln untersucht und behandelt werden wie sonst in der manuellen Therapie üblich. Der M. articularis genus liegt unter dem M. quadriceps femoris (Abspaltung des M. vastus intermedius) und spannt bei Kniegelenksextension die Kapsel, um ein Einquetschen zu verhindern. Der M. popliteus ist nur an seinem lateralen Ursprungsgebiet palpabel, da er im weiteren Verlauf direkt kaudal der Gelenkkapsel liegt. Beide Muskeln sind — wie alle kurzen, gelenknahen Muskeln — für die Propriozeption des Gelenkes bedeutsam; der M. popliteus verfügt zusätzlich über einen hohen Muskelspindelgehalt.",
+      },
+      {
+        type: "text",
+        heading: "Wichtiger Artunterschied: Funktion des M. popliteus",
+        text: "Im Gegensatz zur Humanphysiotherapie hat der M. popliteus beim Hund seinen Ursprung kranial der Drehachse der Art. femorotibialis. Dadurch bewirkt er bei Kontraktion eine (geringe) Extension im Kniegelenk statt — wie beim Menschen — eine Flexion. Zusätzlich wirkt er als Innenrotator des Unterschenkels. Wer Wissen aus der Humananatomie unreflektiert auf den Hund überträgt, würde hier die Funktion genau verkehrt herum einschätzen.",
+      },
+      {
+        type: "text",
+        heading: "M. quadriceps femoris: die drei Vasti voneinander abgrenzen",
+        text: "Der M. vastus lateralis liegt oberflächlich zwischen M. biceps femoris (kaudal) und M. sartorius (kranial)/M. tensor fasciae latae (proximal) und zieht distal zur Patella. Der M. vastus medialis wird vom M. sartorius komplett überlagert — zur Palpation muss die Hüfte deshalb leicht flektiert werden, um den M. sartorius zu entspannen. Am tiefsten liegt der M. vastus intermedius, dem Femur direkt aufliegend und von M. rectus femoris und M. sartorius überlagert; er wird bei der Behandlung des M. rectus femoris automatisch mitbehandelt. Zur gezielten Schmerzprovokation wird jeweils zusätzlich in die Bewegungsrichtung gegangen, die den jeweiligen Vastus am meisten dehnt: Innenrotation für den M. vastus medialis, Außenrotation für den M. vastus lateralis, reine Flexion für den M. vastus intermedius — bei vorab eingestellter Hüftflexion, um M. sartorius und M. rectus femoris aus der Testung herauszunehmen.",
+      },
+      {
+        type: "text",
+        heading: "Laterale Kniestabilität und Patella-Lateralisation",
+        text: "Der M. tractus iliotibialis stabilisiert das Kniegelenk lateral. Da der M. tensor fasciae latae häufig verkürzt ist und dabei die Patella lateralisiert, verdient er speziell bei Verdacht auf Patelladysplasie besondere Aufmerksamkeit.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.3.1 (Spezifische Untersuchung der Kniemuskulatur), S. 91f. Muskelanatomie, der Artunterschied beim M. popliteus sowie die Vasti-Differenzierung und der TFL-Patella-Hinweis sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["quadriceps", "sartorius", "tensor-fasciae-latae", "biceps-femoris"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

@@ -62,20 +62,20 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 105 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 30
-  Untersuchung, 46 Pathologie, 11 Biomechanik, 7 Therapie — genaue
+- Wissensbibliothek: 109 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 32
+  Untersuchung, 46 Pathologie, 13 Biomechanik, 8 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
-  Einträge seit dem 21.09.). Danach 8 weitere neue Einträge aus Hárrer,
-  Manuelle Therapie beim Hund (Kap. 6/7 Hüftregion + neu entdeckter
-  Kniegelenk-Biomechanik-Abschnitt aus Kap. 8, siehe BIOMECHANIK-Backlog
-  unten). Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus- und
-  Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7 identifiziert),
-  aber wegen Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen
+  Einträge seit dem 21.09.). Danach 12 weitere neue Einträge aus Hárrer,
+  Manuelle Therapie beim Hund — Kap. 6/7 (Hintergliedmaße/Hüftregion) und
+  Kap. 8 (Knieregion) sind damit vollständig abgedeckt (siehe
+  BIOMECHANIK-Backlog unten). Baumgartner/Wittek/Khol „Klinische
+  Propädeutik der Haus- und Heimtiere" wurde erkundet (Struktur, relevante
+  Kapitel 6/7 identifiziert), aber wegen Multi-Spezies-Umfang und
+  Extraktions-Qualitätsproblemen
   zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer
-  Kap. 8 Rest (Knieregion Muskulatur/Untersuchung/Behandlung) oder Kap. 16
-  (Wirbelsäule) fortsetzen.
+  Kap. 9 Unterschenkelmuskulatur oder Kap. 16 (Wirbelsäule) fortsetzen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -663,6 +663,33 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Untersuchung/Behandlung ab ca. S. 83, Chunk ma(7).pdf/ma(8).pdf —
       Seitenzuordnung neu prüfen), danach Kap. 13-Rest und Kap. 16
       Wirbelsäule (S. 202).
+- [x] **Kap. 8 „Knieregion" vollständig abgeschlossen (25.09.2026), S. 80–94
+      (ma(8).pdf).** Vier weitere neue Wissenseinträge:
+      `kniegelenk-baender-kapselmuster` (Kap. 8.1: Kreuz-/Kollateralbänder,
+      Kapselmuster Extension > Flexion > Rotation — ergänzt
+      `kniegelenk-menisken-patella-biomechanik` sowie den bestehenden
+      Kreuzband-/Meniskustest-Eintrag um die normale Bandbiomechanik),
+      `kniegelenk-manuelle-untersuchung-bewegungspalpation` (Kap. 8.2.1:
+      Bewegungspalpation mit den tastbaren „Knick"/„Klaffen"-Signaturen,
+      Joint Play, Flexionslimit-DD muskulär vs. Recessus suprapatellaris,
+      Pes-anserinus-DD über Kniegelenk-Provokationskombinationen — ergänzt
+      die bereits vorhandene Pes-anserinus-DD aus der Hüftregion um die
+      Gegenperspektive vom Knie aus), `kniegelenk-manuelle-therapie-
+      mobilisation-patella` (Kap. 8.2.2: Mobilisationsrichtung je nach
+      Einschränkung, Kompression, Patella-Mobilisation) und
+      `kniemuskulatur-popliteus-quadriceps-differenzierung` (Kap. 8.3.1:
+      wichtiger Artunterschied — M. popliteus streckt beim Hund das Knie,
+      beim Menschen beugt er es —, Vasti-Differenzierung, TFL/Tractus-
+      iliotibialis-Hinweis bei Patelladysplasie-Verdacht). Die
+      Kreuzband-/Meniskus-Klinik-Tests (Lachmann, Tibiakompressionstest,
+      Apley, McMurray) aus diesem Kapitel waren bereits in einer früheren
+      Session als eigener Eintrag erfasst — keine Duplikation. **Damit ist
+      Hárrer Kap. 6–8 (Hintergliedmaße/Hüfte/Knie) vollständig
+      abgedeckt.** Verifiziert per Playwright-Screenshot (4/4 Seiten, 0
+      Console-/Page-Errors).
+      Nächster Fortsetzungspunkt: Kap. 9 Unterschenkelregion — Muskulatur
+      (Gelenkmechanik bereits über `tibiofibulargelenke` abgedeckt, siehe
+      oben), danach Kap. 13-Rest und Kap. 16 Wirbelsäule (S. 202).
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 
