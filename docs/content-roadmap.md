@@ -62,26 +62,27 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 137 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 42
-  Untersuchung, 55 Pathologie, 30 Biomechanik, 9 Therapie — genaue
+- Wissensbibliothek: 139 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 43
+  Untersuchung, 56 Pathologie, 31 Biomechanik, 9 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
-  Einträge seit dem 21.09.). Danach 40 weitere neue Einträge aus Hárrer,
-  Manuelle Therapie beim Hund — **Kap. 6–13 (komplette Hintergliedmaße,
-  die Vordergliedmaßen-Einleitung, Schulterregion/skapulothorakales
-  Gleitlager und Ellenbogenregion) sind vollständig abgedeckt**, und aus
-  **Kap. 16 (Wirbelsäule) sind alle fachlich dichten Kernabschnitte**
-  (Anatomie, Funktion, Differenzialdiagnostik, benannte Tests für HWS,
-  BWS, Rippen, Sympathikus, LWS, ISG sowie die Rumpf-/Atemmuskulatur)
-  **vollständig ausgewertet** (siehe BIOMECHANIK-Backlog unten für die
-  bewusst ausgelassenen reinen Technik-Rezeptteile). Baumgartner/Wittek/
-  Khol „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
-  (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
-  Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
-  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: restliches Hárrer Kap. 14
-  sowie Kap. 15/17/18 auf Vollständigkeit prüfen, oder nächstes Buch aus
-  dem Backlog wählen.
+  Einträge seit dem 21.09.). Danach 42 weitere neue Einträge aus Hárrer,
+  Manuelle Therapie beim Hund — **Kap. 6–15 (komplette Hintergliedmaße,
+  Vordergliedmaßen-Einleitung, Schulterregion/skapulothorakales
+  Gleitlager, Ellenbogenregion, Unterarmregion sowie Karpalgelenk/Zehen)
+  sind vollständig abgedeckt**, und aus **Kap. 16 (Wirbelsäule) sind alle
+  fachlich dichten Kernabschnitte** (Anatomie, Funktion,
+  Differenzialdiagnostik, benannte Tests für HWS, BWS, Rippen, Sympathikus,
+  LWS, ISG sowie die Rumpf-/Atemmuskulatur) **vollständig ausgewertet**
+  (siehe BIOMECHANIK-Backlog unten für die bewusst ausgelassenen reinen
+  Technik-Rezeptteile). Baumgartner/Wittek/Khol „Klinische Propädeutik der
+  Haus- und Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7
+  identifiziert), aber wegen Multi-Spezies-Umfang und
+  Extraktions-Qualitätsproblemen zurückgestellt (siehe
+  UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer Kap. 17 „Neurotension"
+  prüfen (letztes noch offenes Kapitel laut Inhaltsverzeichnis) oder
+  nächstes Buch aus dem Backlog wählen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -916,6 +917,40 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Rotationsgelenke und Toe-in/Toe-out sind vorhanden, der Rest von
       Kap. 14 sowie Kap. 15, 17, 18 sind noch nicht auf Vollständigkeit
       geprüft) oder nächstes Buch aus dem Backlog.
+- [x] **Kap. 14-Rest (Unterarmregion, S. 179–191, ma(14).pdf) und Kap. 15.1
+      (Karpalgelenk-/Zehen-Anatomie, S. 192f., ma(14)/ma(15).pdf) auf
+      Vollständigkeit geprüft (25.09.2026) — bereits vollständig
+      abgedeckt, keine neuen Einträge nötig.** Geprüft und als bereits
+      vorhanden bestätigt: Unterarmmuskulatur (Supinatoren/Pronatoren/
+      Extensoren/Flexoren inkl. Fasertyp-Angaben) als Anatomie-Items,
+      Radioulnargelenk-Anatomie als `unterarm-rotationsgelenke`,
+      Toe-in/Toe-out-Mechanismus als `toe-in-toe-out-nervenkompression`,
+      Karpalgelenk-Etagen/Metacarpus/Sesambeine als
+      `karpalgelenk-gelenketagen`, Zehen-Beknabbern-DDx als
+      `zehen-beknabbern-differentialdiagnosen`, Radiuskurvensyndrom
+      ebenfalls vorhanden. Die reinen Gelenk-/Muskel-Technik-Rezepte
+      (14.2.1–14.2.2, 14.3.1–14.3.7) bleiben wie gehabt bewusst
+      ausgelassen.
+      **Kap. 15.2 (Karpal-/Zehen-Kleingelenke, S. 193f., ma(15).pdf)
+      abgeschlossen (25.09.2026).** Zwei neue Einträge:
+      `mtp-pip-dip-gelenktypen-zehengang` (MTP als zweiachsiges
+      Scharniergelenk vs. PIP/DIP als Sattelgelenke, ROM,
+      Sesambein-Bandapparat, der klinische Gangbild-Marker „wie auf
+      Eiern" bei PIP/DIP-Funktionsverlust) und
+      `os-carpi-accessorium-nervus-ulnaris-differenzierung` (der
+      N.-ulnaris-Ast unter der Bandfixierung des Os carpi accessorium —
+      Loge-de-Guyon-Analogie beim Hund — als Ursache falsch-positiver
+      Gelenkprovokation bei Sporthunden, arthrogen/neurogen-
+      Differenzierung). Die restlichen Technik-Rezepte in 15.2.1/15.2.3–
+      15.2.6 bewusst ausgelassen (reine Joint-play-/Gleit-/Traktions-
+      Wiederholungen bereits bekannter Prinzipien). Verifiziert per
+      Playwright-Screenshot (2/2 Seiten, 0 Console-/Page-Errors).
+      **Damit ist Hárrer Kap. 14/15 (Unterarm, Karpalgelenk, Zehen)
+      vollständig ausgewertet.** Laut Inhaltsverzeichnis am Ende von
+      ma(15).pdf folgt als Teil 4 nur noch Kap. 16 (Wirbelsäule, bereits
+      abgedeckt) und Kap. 17 „Neurotension" (S. 269, noch offen).
+      Nächster Fortsetzungspunkt: Kap. 17 Neurotension prüfen (vermutlich
+      ma(16)–ma(18).pdf) oder nächstes Buch aus dem Backlog.
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 

@@ -7173,6 +7173,76 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: ["rocky"],
     relatedAnatomyIds: ["biceps"],
   },
+  {
+    id: "mtp-pip-dip-gelenktypen-zehengang",
+    category: "BIOMECHANIK",
+    title: "Vom Scharnier- zum Sattelgelenk: die Mechanik der Zehengelenke",
+    teaser:
+      "MTP, PIP und DIP sehen ähnlich aus, sind aber mechanisch verschieden — und wenn PIP/DIP Bodenunebenheiten nicht mehr ausgleichen können, läuft der Hund „wie auf Eiern“.",
+    sections: [
+      {
+        type: "table",
+        heading: "Gelenktypen der Zehenregion",
+        columns: ["Gelenk", "Gelenktyp", "Bewegung / Besonderheit"],
+        rows: [
+          [
+            "Art. metacarpophalangea (MTP/MCP)",
+            "zweiachsiges Scharniergelenk",
+            "Flexion/Extension, Ab-/Adduktion, passive Rotation möglich; im Stand physiologisch hyperextendiert; Gelenkspalt bei Flexion ca. 1 cm distal tastbar (größenabhängig)",
+          ],
+          [
+            "Art. interphalangea proximalis (PIP)",
+            "Sattelgelenk",
+            "konvex für Flexion/Extension, konkav für Ab-/Adduktion; im Stand physiologisch deutlich flektiert, passiv weitere ca. 60° Flexion möglich",
+          ],
+          [
+            "Art. interphalangea distalis (DIP, Krallengelenk)",
+            "Sattelgelenk",
+            "mechanisch identisch zum PIP",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Sesambeine der MTP-Gelenke",
+        text: "Auf der palmaren Seite jedes Metakarpalköpfchens (2.–5. Zehe) liegen je zwei Sesambeine. Sie sind durch ein Lig. sesamoideum collaterale mediale und laterale am Metakarpalknochen befestigt und plantar durch ein Lig. palmare untereinander verbunden. Da sie häufig Probleme verursachen, gehören sie routinemäßig in die Untersuchung.",
+      },
+      {
+        type: "text",
+        heading: "Warum PIP/DIP-Probleme das Gangbild verändern",
+        text: "PIP und DIP gleichen im Gang die Unebenheiten des Untergrunds aus. Ist das durch Gelenkveränderungen an diesen kleinen Gelenken nicht mehr möglich, läuft der Hund „wie auf Eiern“ — ein unspezifisch wirkendes, aber diagnostisch verwertbares Gangbild, das auf ein Problem in genau diesen distalen Zehengelenken hindeuten kann, statt vorschnell auf ein größeres proximales Gelenk fokussiert zu werden.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 15.1.2 und 15.2.2 (Anatomie der Zehenregion, Artt. metacarpophalangeae/interphalangeae), S. 192f. Gelenktypen, Bewegungsausmaße, die Sesambein-Bänder und die klinische Beobachtung zum Gangbild sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "os-carpi-accessorium-nervus-ulnaris-differenzierung",
+    category: "PATHOLOGIE",
+    title: "Wenn eine „Blockade“ am Karpus in Wahrheit der Nerv ist",
+    teaser:
+      "Unter der Bandfixierung des Os carpi accessorium verläuft ein Ast des N. ulnaris — reizbar wie beim Menschen in der Loge de Guyon. Eine positive Gelenkprovokation kann deshalb täuschen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Anatomische Lage",
+        text: "Das Os carpi accessorium ist in die Sehne der Mm. flexor et extensor carpi ulnaris eingelagert und artikuliert mit dem Os carpi ulnare. Es ist zusätzlich ligamentär nach medial an der Handwurzel fixiert. Unter dieser ligamentären Struktur verläuft ein Ast des N. ulnaris — eine anatomische Situation, die der Loge de Guyon beim Menschen entspricht.",
+      },
+      {
+        type: "text",
+        heading: "Die diagnostische Falle",
+        text: "Ist der N. ulnaris in diesem Bereich mechanosensitiv verändert (z. B. durch Durchtrittigkeit), kann die spezifische Provokation des Os carpi accessorium positiv ausfallen, ohne dass tatsächlich ein Gelenkproblem vorliegt. Dieses Bild — eine vermeintliche „Blockade“ des Os carpi accessorium — kommt gerade bei Sporthunden häufig vor. Der Therapeut muss deshalb aktiv differenzieren, ob die Schmerzreaktion arthrogen (echtes Gelenkproblem) oder neurogen (Nervenreizung) bedingt ist, statt die positive Gelenkprovokation unkritisch als Diagnose zu übernehmen.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Differentialdiagnostik unvollständig", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 15.2.1 (Spezifische Provokation Art. ossis carpi accessorii), S. 194. Die anatomische Lage des N.-ulnaris-Astes, die Loge-de-Guyon-Analogie und die geforderte arthrogen/neurogen-Differenzierung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
