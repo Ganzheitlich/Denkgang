@@ -62,25 +62,25 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 130 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 39
-  Untersuchung, 52 Pathologie, 24 Biomechanik, 9 Therapie — genaue
+- Wissensbibliothek: 133 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 40
+  Untersuchung, 55 Pathologie, 26 Biomechanik, 9 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
-  Einträge seit dem 21.09.). Danach 33 weitere neue Einträge aus Hárrer,
-  Manuelle Therapie beim Hund — **Kap. 6–9 (komplette Hintergliedmaße:
-  Hüfte, Knie, Unterschenkel/Zehen) sind vollständig abgedeckt**, und aus
-  **Kap. 16 (Wirbelsäule) sind alle fachlich dichten Kernabschnitte
-  (Anatomie, Funktion, Differenzialdiagnostik, benannte Tests für HWS,
-  BWS, Rippen, Sympathikus, LWS, ISG sowie die Rumpf-/Atemmuskulatur)
-  vollständig ausgewertet** (siehe BIOMECHANIK-Backlog unten für die
-  bewusst ausgelassenen reinen Technik-Rezeptteile sowie für Kap. 13).
-  Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere"
-  wurde erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber
-  wegen Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen
-  zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer
-  Kap. 13-Rest (Ellenbogenregion) oder Kap. 10–12 (Vordergliedmaße-
-  Regionen) fortsetzen.
+  Einträge seit dem 21.09.). Danach 36 weitere neue Einträge aus Hárrer,
+  Manuelle Therapie beim Hund — **Kap. 6–10 (komplette Hintergliedmaße:
+  Hüfte, Knie, Unterschenkel, Sprunggelenk/Zehen) und Kap. 13
+  (Ellenbogenregion) sind vollständig abgedeckt**, und aus **Kap. 16
+  (Wirbelsäule) sind alle fachlich dichten Kernabschnitte** (Anatomie,
+  Funktion, Differenzialdiagnostik, benannte Tests für HWS, BWS, Rippen,
+  Sympathikus, LWS, ISG sowie die Rumpf-/Atemmuskulatur) **vollständig
+  ausgewertet** (siehe BIOMECHANIK-Backlog unten für die bewusst
+  ausgelassenen reinen Technik-Rezeptteile). Baumgartner/Wittek/Khol
+  „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
+  (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
+  Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
+  (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hárrer Kap. 11/12
+  (Vordergliedmaße-Einleitung und Schulterregion) fortsetzen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -832,6 +832,36 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Nächster Fortsetzungspunkt: Kap. 13-Rest (Ellenbogenregion) oder
       Kap. 10–12 (Vordergliedmaße-Regionen, noch nicht auf Vollständigkeit
       geprüft).
+- [x] **Kap. 10 „Sprunggelenk und Zehen" (S. 112, ma(10).pdf) sowie Kap. 13
+      „Ellenbogenregion" (S. 165–178, ma(13).pdf) abgeschlossen
+      (25.09.2026).** Kap. 10 besteht zu über 90 % aus reinen
+      Gelenk-für-Gelenk-Joint-play-Rezepten (Fixation + Gleiten dorsal/
+      plantar für jedes einzelne Tarsal-/Zehengelenk) nach demselben
+      Fixations-/Gleit-Prinzip wie die bereits erfassten Gelenktechniken —
+      diese wurden bewusst nicht einzeln übernommen. Ein neuer Eintrag:
+      `sprunggelenk-zehen-funktionelle-anatomie-hyperaesthesien` (Kap.
+      10.1: warum nur die Art. tarsocruralis wirklich beweglich ist,
+      Zehenanatomie, und die Nervenversorgungs-/Hyperästhesie-Liste als
+      Differenzialdiagnose zu vorschnell dermatologisch gedeutetem
+      Beknabbern). **Kap. 13 komplett abgeschlossen** — zwei neue
+      Einträge: `ellenbogenmuskulatur-flexoren-extensoren-fasertyp` (Kap.
+      13.1.2: Flexoren M. biceps brachii/M. brachialis, Extensoren M.
+      triceps brachii mit seinen 4 Köpfen/M. tensor fasciae antebrachii/
+      M. anconeus — Fasertyp- und Funktionsübersicht, ergänzt den
+      bestehenden Eintrag zur Ellenbogengelenk-Biomechanik aus
+      Kap. 13, S. 165) und `processus-coronoideus-medialis-ueberlastung-
+      provokation` (Kap. 13.1.1/13.2.1: der Rotations-Überlastungs-
+      mechanismus am medialen Kronfortsatz, seine Verbindung zur
+      Bizepssehnen-Ansatzreizung, und die gezielte Provokationstechnik).
+      Die Unterarm-Gelenkanatomie (Kap. 14.1.1, gleich im Anschluss
+      gelesen) sowie die Toe-in-/Toe-out-Nervenkompression (Kap. 14
+      Einleitung) waren bereits als `unterarm-rotationsgelenke` bzw.
+      `toe-in-toe-out-nervenkompression` aus früheren Sessions erfasst —
+      keine Duplikation. Verifiziert per Playwright-Screenshot (3/3
+      Seiten, 0 Console-/Page-Errors).
+      Nächster Fortsetzungspunkt: Kap. 11/12 (Vordergliedmaße-Einleitung
+      und Schulterregion/skapulothorakales Gleitlager, S. 126–164, noch
+      komplett offen).
 
 ### BIOMECHANIK — Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7)
 

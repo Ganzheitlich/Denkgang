@@ -6914,6 +6914,122 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "sprunggelenk-zehen-funktionelle-anatomie-hyperaesthesien",
+    category: "PATHOLOGIE",
+    title: "Sprunggelenk und Zehen: warum Beknabbern hier oft eine Nervenursache hat",
+    teaser:
+      "Nicht jedes Beknabbern der Hinterpfote ist Dermatologie — mehrere periphere Nerven versorgen genau diese Region, und Hyperästhesien in ihrem Gebiet fühlen sich für den Hund wie ein unangenehmes Kribbeln an.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum nur ein Gelenk wirklich beweglich ist",
+        text: "Der Art. tarsocruralis kommt die wichtigste Funktion bei der aktiven Bewegung im Sprunggelenk zu (Flexion/Extension). Alle anderen Sprunggelenksanteile sind straff und wenig beweglich — das ist für den Schub aus der Hinterhand wichtig: Bei hoher Beweglichkeit der einzelnen Gelenke würde viel Schub verpuffen. Der Talus steht gegenüber der Tibiaachse ca. 20° nach lateral, weshalb die Pfote bei Flexion physiologisch leicht nach außen zeigt.",
+      },
+      {
+        type: "text",
+        heading: "Zehenanatomie",
+        text: "Die 1. Zehe hat keine Phalanx media, sondern nur zwei Glieder, während die 2.–5. Zehe aus Grund-, Mittel- und Endglied besteht. Wie am Karpus sind die proximalen Gelenkanteile (Basis) konkav, die distalen (Köpfchen) konvex. Zur Zehenregion gehören das Grundglied (Art. metatarsophalangea), das Mittelglied (Art. interphalangea proximalis) und das Endglied (Art. interphalangea distalis) — anatomisch identisch mit den Zehengelenken der Vordergliedmaße.",
+      },
+      {
+        type: "text",
+        heading: "Wenn Beknabbern eine neurologische statt eine dermatologische Ursache hat",
+        text: "Neben Polyarthritis, arthrogenen Veränderungen und allergischen Reaktionen können Hunde in dieser Region auch Hyperästhesien entwickeln. Die Area nervina von N. peroneus, N. tibialis, N. saphenus, Nn. cutanei surae caudalis et lateralis sowie des N. cutaneus femoralis lateralis liegen an Pfote und Unterschenkel. Solche Hyperästhesien führen zu einem unangenehmen Kribbeln, worauf der Hund mit Lecken oder Knabbern reagiert — besonders häufig bei Rückenpatienten zu beobachten. Bevor ein Beknabbern vorschnell dermatologisch eingeordnet wird, lohnt sich also die Überlegung, ob ein peripherer Nerv aus dieser Liste betroffen sein könnte.",
+      },
+      {
+        type: "text",
+        heading: "Wo Muskulatur und Untersuchung stattfinden",
+        text: "Da die zehenbeeinflussende Muskulatur ihren Muskelbauch am Unterschenkel hat, erfolgt ihre Untersuchung und Behandlung dort (siehe die entsprechenden Wissenseinträge zu Sprunggelenksflexoren/-extensoren und Zehenbeugern). Am Sprunggelenk und an den Zehen selbst stehen dagegen die vielen kleinen Gelenke im Fokus der manuellen Untersuchung (Art. tarsocruralis, Artt. intertarsales proximalis/distalis, Art. tarsometatarsalis sowie die MTP-/PIP-/DIP-Gelenke der Zehen).",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 10.1 (Sprunggelenk und Zehen — Anatomie), S. 112. Gelenkfunktion, Zehenanatomie und die Nervenversorgungs-/Hyperästhesie-Liste sind im Original so beschrieben. Die detaillierten Bewegungspalpations-/Joint-play-Techniken für die einzelnen Tarsal-/Zehengelenke (Kap. 10.2) sind aus Umfangsgründen nicht einzeln übernommen — sie folgen demselben Fixations-/Gleit-Prinzip wie die bereits erfassten Gelenktechniken anderer Regionen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "ellenbogenmuskulatur-flexoren-extensoren-fasertyp",
+    category: "BIOMECHANIK",
+    title: "Ellenbogenmuskulatur: fünf Muskeln, die meiste Zeit im Stand aktiv",
+    teaser:
+      "Der M. anconeus besteht zu 100 % aus ermüdungsresistenten Typ-I-Fasern — ein Extremfall unter den Ellenbogenmuskeln, die fast alle stärker auf Ausdauer als auf Kraft ausgelegt sind.",
+    sections: [
+      {
+        type: "table",
+        heading: "Ellenbogenflexoren",
+        columns: ["Muskel", "Besonderheit", "Funktion"],
+        rows: [
+          [
+            "M. biceps brachii",
+            "Hoher Anteil Typ-I-Fasern (ermüdungsresistent) plus kräftige Sehnenfasern — beide zusammen wichtig für die passive Schulterstabilisation im Stand. Die Bizepssehne verläuft geschützt durch eine Sehnenscheide im Sulcus intertubercularis. Geteilter Ansatz: ein Schenkel zur Tuberositas radii, der zweite zur Ulna (distal des medialen Proc. coronoideus)",
+            "Flexion und Supination Ellenbogen, Extension Schulter, Schulterstabilisation in der Stützbeinphase, Antischwerkraftmuskel",
+          ],
+          [
+            "M. brachialis",
+            "Lateral des M. biceps brachii, ca. 50 % Typ-I-Fasern, ebenfalls geteilter Ansatz (schmaler Schenkel zur Tuberositas radii, kräftigerer Schenkel unter der gespaltenen Bizepssehne hindurch zum Proc. coronoideus medialis der Ulna)",
+            "Flexion des Ellenbogengelenks",
+          ],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Ellenbogenextensoren",
+        columns: ["Muskel", "Besonderheit", "Funktion"],
+        rows: [
+          [
+            "M. triceps brachii (4 Köpfe)",
+            "Caput longum als einziger Kopf mit Ansatz am kaudalen Skapularand (wirkt daher zusätzlich auf die Schulter); Caput laterale/mediale überwiegend Typ-II-Fasern (Bremsfunktion); Caput accessorium von den anderen 3 Köpfen bedeckt, nicht direkt palpierbar, überwiegend Typ-I-Fasern",
+            "Extension Ellenbogen; Caput longum zusätzlich Flexion Schulter in der Hangbeinphase; verhindert in der Stützbeinphase das Einknicken der Gliedmaße (Antischwerkraftmuskel)",
+          ],
+          [
+            "M. tensor fasciae antebrachii",
+            "Mediokaudalster Muskel (bildet die hintere Achselfalte), bis zu ca. 2 mm dick bei großen Hunden — funktionell wie ein „5. Trizepskopf“ von einer Abspaltung des M. latissimus dorsi zum Olekranon",
+            "Extension Ellenbogen, spannt die Unterarmfaszie",
+          ],
+          [
+            "M. anconeus",
+            "Zu 100 % aus ermüdungsresistenten Typ-I-Fasern aufgebaut, hohe Muskelspindeldichte — wichtig für propriozeptive Information über das Ellenbogengelenk",
+            "Extension Ellenbogen (reiner Ausdauermuskel, kann ohne Ermüdung dauerhaft arbeiten)",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Gemeinsames Prinzip",
+        text: "Auffällig ist, wie viele der Ellenbogenmuskeln (Biceps brachii, hälftig Brachialis, Caput accessorium des Triceps, komplett der Anconeus) einen hohen Anteil ermüdungsresistenter Typ-I-Fasern haben — passend zu ihrer Rolle als Antischwerkraftmuskeln, die in der Stützbeinphase permanent gegen das Körpergewicht arbeiten, statt nur kurzfristig Kraft zu entwickeln.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 13.1.2 (Muskulatur Art. cubiti), S. 165f. Muskelfunktionen, Fasertyp-Angaben und Ansatzverhältnisse sind im Original so beschrieben.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["biceps", "brachialis", "anconeus"],
+  },
+  {
+    id: "processus-coronoideus-medialis-ueberlastung-provokation",
+    category: "PATHOLOGIE",
+    title: "Proc. coronoideus medialis: die Überlastungsstelle hinter vielen Ellbogenproblemen",
+    teaser:
+      "Rotationskräfte aus dem Unterarm treffen quer auf den Proc. coronoideus medialis — derselbe Ort, der bei einer Ansatzreizung des M. biceps brachii ebenfalls schmerzhaft wird.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum genau diese Stelle überlastet wird",
+        text: "Durch die Rotation des Unterarms (Pro-/Supination) wirken quer gerichtete Kräfte auf den Proc. coronoideus medialis, die dort zu einer Kompression gegen die Trochlea humeri und damit zur Überlastung führen können. Da der M. brachialis mit seinem kräftigeren Sehnenschenkel direkt am Proc. coronoideus medialis der Ulna ansetzt und auch die Ansatzsehne des M. biceps brachii in dessen Nähe zur Ulna zieht, kann eine Ansatzreizung des M. biceps brachii den Proc. coronoideus medialis ebenfalls schmerzhaft werden lassen — eine wichtige differenzialdiagnostische Überlegung, bevor ein schmerzhafter Befund an dieser Stelle automatisch als rein artikuläres (z. B. FCP-artiges) Problem gewertet wird.",
+      },
+      {
+        type: "text",
+        heading: "Gezielte Provokation des Proc. coronoideus medialis",
+        text: "Um speziell den Proc. coronoideus medialis zu provozieren, gibt der Untersucher mit dem Finger Druck auf den medialen Processus coronoideus, während er zeitgleich eine Flexion und Supination im Ellenbogengelenk ausführt — dabei ist auf Schmerz zu achten. Allgemeiner lässt sich die gesamte Gelenkfläche der Incisura trochlearis (die gegenüber der Longitudinalen um ca. 45° gekippt steht) über verschiedene Ausgangsstellungen provozieren: Kompression auf den Proc. anconeus durch longitudinalen Zug des Unterarms nach distal bei fixiertem Humerus, Kompression auf den Proc. coronoideus durch longitudinale Stauchung des Unterarms nach proximal.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 13.1.1 und 13.2.1 (Art. cubiti — Anatomie und spezifische Provokation), S. 165, 167f. Überlastungsmechanismus, die Biceps-brachii-Verbindung und die Provokationstechniken sind im Original so beschrieben.",
+    relatedCaseIds: ["rocky"],
+    relatedAnatomyIds: ["biceps", "brachialis"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
