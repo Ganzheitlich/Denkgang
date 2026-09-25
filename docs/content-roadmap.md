@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 152 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 51
-  Untersuchung, 58 Pathologie, 33 Biomechanik, 9 Therapie — genaue
+- Wissensbibliothek: 157 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 51
+  Untersuchung, 62 Pathologie, 33 Biomechanik, 12 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -75,20 +75,24 @@ kein Überblick verloren geht.
   Karpalgelenk/Zehen, die gesamte Wirbelsäule inkl. Sympathikus, und die
   Neurotension inkl. Neuroanatomie und der wichtigsten peripheren
   Nervenverläufe)**. Kap. 18 ist reine Literaturliste, kein
-  Extraktionsziel mehr. Danach 6 weitere neue Einträge aus Mai,
+  Extraktionsziel mehr. Danach 11 weitere neue Einträge aus Mai,
   Physiotherapie und Bewegungstraining für Hunde — **Kap. 5.1
   „Evaluierung" (Lahmheitserkennung/-graduierung, Schmerzskalen, BCS,
-  Goniometrie, Wundheilungsphasen) ist vollständig abgedeckt**. Siehe
-  BIOMECHANIK-/THERAPIE-Backlog unten für die im Detail bewusst
-  ausgelassenen reinen Technik-Rezeptteile. Baumgartner/Wittek/Khol
+  Goniometrie, Wundheilungsphasen) und Kap. 5.2 „Ausgewählte
+  Erkrankungen" (Reha-Entscheidungsparameter, HD-/Kreuzband-OP-Methoden
+  im Vergleich, Frakturheilung, Arthrose-Teufelskreis) sind in ihren
+  fachlich dichten Kernabschnitten abgedeckt**. Siehe BIOMECHANIK-/
+  THERAPIE-Backlog unten für die im Detail bewusst ausgelassenen reinen
+  Technik-Rezeptteile sowie die noch offenen Abschnitte 5.2.2/5.2.6 (Der
+  neurologische Patient — zurückgestellt). Baumgartner/Wittek/Khol
   „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
   (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
   Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
   (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Mai Kap. 4.3
-  (Rückenschmerzen/Trainingsfehler, Trainingsalter-Richtlinien) oder Kap.
-  5.2 (Therapiepläne) fortsetzen, oder nächstes Buch aus dem Backlog
-  wählen (Hohmann Bewegungsapparat Restkapitel, VetCenter
-  Wirbelsäulenerkrankungen).
+  (Rückenschmerzen/Trainingsfehler, Trainingsalter-Richtlinien), Kap.
+  5.2.6 (neurologischer Patient) oder Kap. 5.3 (Manuelle Medizin/Tuina)
+  fortsetzen, oder nächstes Buch aus dem Backlog wählen (Hohmann
+  Bewegungsapparat Restkapitel, VetCenter Wirbelsäulenerkrankungen).
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -615,6 +619,40 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Trainingsfehler, Trainingsalter-Richtlinien, S. 62–65, vermutlich
       ph(20)–ph(22).pdf) oder Kap. 5.2 (Therapiepläne für ausgewählte
       Erkrankungen, direkt im Anschluss an S. 78).
+- [x] **Kap. 5.2 „Ausgewählte Erkrankungen" (S. 79–85, ph(24).pdf) in seinen
+      fachlich dichten Kernabschnitten abgeschlossen (25.09.2026).** Fünf
+      neue Einträge: `postoperative-rehabilitation-parameter-abschlusskriterien`
+      (5.2.1 — die 5 Entscheidungsparameter für jeden Reha-Plan, die
+      Chirurg-Therapeut-Zusammenarbeit inkl. Rücküberweisungskriterien,
+      die 5 Abschlusskriterien einer Rehabilitation),
+      `hd-operationsmethoden-vergleich-reha` (5.2.3 — Beckenosteotomie/
+      Totalendoprothese/Oberschenkelkopfresektion im Vergleich, inkl. des
+      Kompensations-Paradoxons bei kleinen Hunden nach
+      Oberschenkelkopfresektion), `kreuzbandriss-op-methoden-reha-desmitis`
+      (5.2.4 — extrakapsuläre Technik/intrakapsuläre Auto-Implantat-
+      Technik/TPLO mit ihren stark unterschiedlichen
+      Belastungsfreigabe-Zeitpunkten, plus die TPLO-typische Komplikation
+      Desmitis der Patellasehne — ergänzt die bestehenden
+      Kreuzbandriss-Einträge um die operationsmethodenspezifische
+      Belastungslogik), `frakturheilung-belastung-als-stimulus` (5.2.5 —
+      warum Knochenheilung Belastung statt Schonung braucht,
+      Osteoporose-Risiko bei Immobilisation, 2–52 Wochen
+      Heilungsdauer-Spanne) und `arthrose-risikofaktoren-teufelskreis-schonung`
+      (5.2.7 — die vier Risikofaktorengruppen für Arthrose, der
+      Teufelskreis aus Schmerz/Schonung/Übergewicht, moderates Training
+      als Ausweg). Bewusst NICHT übernommen: 5.2.2 (Gelenkoperationen
+      allgemein — reine Woche-für-Woche-Übungsprotokolle ohne
+      zusätzlichen Diagnostik-/Differenzierungswert), 5.2.6 (Der
+      neurologische Patient — umfangreiche Pflegeanleitung für
+      Festlieger; inhaltlich wertvoll, aber als eigenständiger,
+      abgegrenzter Themenblock für eine spätere Session zurückgestellt)
+      sowie die konkreten Wochenplan-Tabellen (z. B. University-of-
+      Tennessee-TPLO-Schema) als reine Technik-Rezepte. Verifiziert per
+      Playwright-Screenshot (5/5 Seiten, 0 Console-/Page-Errors).
+      Nächster Fortsetzungspunkt: 5.2.2 und 5.2.6 (Der neurologische
+      Patient — Festlieger-Pflege) nachholen, dann Kap. 5.3.1 (Manuelle
+      Medizin) und 5.3.2 (Tuina) wie unten offen vermerkt, oder Kap. 4.3
+      fortsetzen.
 - [x] Bewegungstherapie bei Arthrose (Grundprinzipien: kurze Bewegungsphasen,
       viele Pausen, Gewichtsreduktion vor Muskelaufbau, Untergrund) — aus der
       Einleitung von Kap. 5.3 (ph(25).pdf), S. 85

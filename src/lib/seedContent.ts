@@ -7748,6 +7748,187 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "postoperative-rehabilitation-parameter-abschlusskriterien",
+    category: "THERAPIE",
+    title: "Postoperative Reha: fünf Fragen, bevor der Trainingsplan feststeht",
+    teaser:
+      "Wie stark ein frisch operierter Hund bewegt werden darf, hängt nicht von einer Faustregel ab, sondern von fünf konkreten Fragen — plus fünf ebenso konkreten Kriterien dafür, wann die Rehabilitation abgeschlossen ist.",
+    sections: [
+      {
+        type: "list",
+        heading: "Fünf Parameter, die den Rehabilitationsplan bestimmen",
+        items: [
+          "Welche Operationsmethode wurde gewählt?",
+          "Welche Gewebe wurden in Mitleidenschaft gezogen?",
+          "In welchem Zustand war der Hund vor der OP?",
+          "Wie alt ist der Hund?",
+          "Wird er in der Praxis rehabilitiert oder geht er nach Hause?",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Chirurg und Therapeut als Team",
+        text: "Im Idealfall ist der Chirurg in die Rehabilitation eingebunden und wird regelmäßig über den Fortschritt informiert — auch die ACVS (American College of Veterinary Surgeons) gibt inzwischen Empfehlungen zur physiotherapeutischen Nachbehandlung von Gelenkoperationen. Bei Stellungsfehlern, abnormen Gangbildern oder verlängerter Nichtbelastung der operierten Extremität sollte eine Rücküberweisung zum Chirurgen erfolgen. Schont ein Tier auffällig stark, lohnt sich zudem die Rückfrage nach der Schmerztherapie mit dem Chirurgen — manchmal schont ein Hund nicht aus Gewohnheit, sondern weil es tatsächlich noch wehtut.",
+      },
+      {
+        type: "list",
+        heading: "Die Rehabilitation ist erreicht, wenn …",
+        items: [
+          "das Gelenk keine Entzündungssymptome mehr zeigt",
+          "die volle Beweglichkeit des Gelenks wieder gegeben ist",
+          "beide Extremitäten eine symmetrische Bemuskelung aufweisen",
+          "die Operationswunde vollständig abgeheilt ist",
+          "das Gelenk stabil ist und die vollständige Funktion der Extremität wiederhergestellt ist",
+        ],
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.2.1 (Postoperative Rehabilitation), S. 79. Die fünf Entscheidungsparameter, die Chirurg-Therapeut-Zusammenarbeit inkl. Rücküberweisungskriterien sowie die fünf Abschlusskriterien der Rehabilitation sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "hd-operationsmethoden-vergleich-reha",
+    category: "THERAPIE",
+    title: "Drei OP-Verfahren bei Hüftgelenkdysplasie — drei völlig verschiedene Reha-Logiken",
+    teaser:
+      "Je kleiner und leichter ein Hund ist, desto müheloser bewegt er sich dreibeinig — und desto schwerer lässt er sich überreden, die operierte Extremität wieder zu belasten.",
+    sections: [
+      {
+        type: "table",
+        heading: "Verfahren im Vergleich",
+        columns: ["Verfahren", "Typisches Patientenprofil", "Reha-Schwerpunkt"],
+        rows: [
+          [
+            "Beckenosteotomie",
+            "meist sehr große, schwere, aber auch sehr junge Tiere",
+            "langsamer Wiederaufbau wegen der biomechanischen Veränderung im Becken; Knochengewebe braucht mindestens 6 Wochen bis zur stabilen Abheilung, freie Arbeit frühestens nach 6 Wochen und erst nach 20 Minuten lockerem Leinentraben",
+          ],
+          [
+            "Totalendoprothese des Hüftgelenks",
+            "meist gut fußende Hunde direkt nach der OP",
+            "Rehabilitation besteht vor allem aus kontrollierter Arbeit; Propriozeptionstraining ist besonders wichtig, da dem Tier durch das künstliche Gelenk viele Propriozeptoren fehlen; Gelenkmanipulationen erst nach 6 Wochen erlaubt",
+          ],
+          [
+            "Oberschenkelkopfresektion (Hängehüfte)",
+            "meist ältere, kleinere, leichtere Hunde mit bereits ausgeprägter Muskelatrophie durch längere Schonung",
+            "rasche Fußung ist dringend erwünscht, um die neue, rein muskulär/bindegewebig gehaltene Hängehüfte zu stabilisieren — erschwert dadurch, dass gerade kleine/leichte Hunde mühelos dreibeinig laufen und sich deshalb schwerer zur Belastung überreden lassen",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Der gemeinsame Kernkonflikt bei der Oberschenkelkopfresektion",
+        text: "Bei der Oberschenkelkopfresektion entsteht ein scheinbares Paradox: Gerade weil kleine, leichte Hunde ihre Dreibeinigkeit besonders mühelos kompensieren, fehlt ihnen der Leidensdruck, die frisch operierte Extremität zu belasten — obwohl genau diese frühe Belastung für den Trainingserfolg (rasche Kräftigung der Muskulatur, gute Gelenkbeweglichkeit der Hängehüfte) entscheidend ist. Das Training muss deshalb aktiv zur Belastung motivieren, statt sich auf den natürlichen Bewegungsdrang des Hundes zu verlassen.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.2.3 (Hüftgelenkdysplasie), S. 79f. Die drei Operationsverfahren mit ihren jeweiligen Patientenprofilen und Reha-Schwerpunkten sowie das Kompensations-Paradox bei der Oberschenkelkopfresektion sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "kreuzbandriss-op-methoden-reha-desmitis",
+    category: "PATHOLOGIE",
+    title: "Warum manche Kreuzband-OPs sofort, andere erst nach Monaten belastet werden dürfen",
+    teaser:
+      "Extrakapsuläre Technik und TPLO erlauben frühe Belastung — die intrakapsuläre Technik mit Auto-Implantat dagegen braucht bis zu 20 Wochen, weil das Implantat selbst erst noch einheilen und an Festigkeit gewinnen muss.",
+    sections: [
+      {
+        type: "table",
+        heading: "Drei OP-Prinzipien im Vergleich",
+        columns: ["Verfahren", "Prinzip", "Belastungsfreigabe"],
+        rows: [
+          [
+            "Extrakapsuläre Technik (laterales Halteband)",
+            "Kunststofffaden als Kreuzbandersatz außerhalb der Gelenkkapsel",
+            "sehr frühe Gewichtsbelastung erwünscht (24–48 h p. op.); voller Bewegungsumfang idealerweise bereits bei Nahtentnahme wieder erreicht",
+          ],
+          [
+            "Intrakapsuläre Technik mit Auto-Implantat",
+            "körpereigenes Gewebe (Patellasehne/Faszienstreifen) als Bandersatz — dehnt sich unter Belastung und verliert während der Revaskularisierung zunächst an Festigkeit",
+            "vorsichtige, kontrollierte Bewegung über die gesamte Dauer von ca. 20 Wochen; Sprünge/scharfe Wendungen erst nach 5 Monaten, da die endgültige Festigkeit erst nach vollständiger Biointegration erreicht ist",
+          ],
+          [
+            "TPLO (Tibial Plateau Leveling Osteotomy)",
+            "verändert die Biomechanik des Kniegelenks durch Rotation des Tibiaplateaus",
+            "kontrollierte, leichte Bewegung auf ebenem Untergrund; in der frühen Phase sind exzessive Beugungsübungen unter Belastung sowie Laufen, Springen, Stufensteigen, Cavaletti und Tanzen verboten",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die typische TPLO-Komplikation: Desmitis der Patellasehne",
+        text: "Weil die TPLO die Biomechanik des Knies gezielt verändert, ist ihre häufigste Komplikation die Desmitis der Patellasehne mit starker Lahmheit — und zwar oft bei Hunden, die direkt nach der Operation bereits sehr gut belastet hatten. Therapie: Ruhe, Kälte, NSAIDs, Elektrotherapie, therapeutischer Ultraschall. Muskelkräftigungsübungen sind bei dieser Operationsmethode erst indiziert, wenn der Hund im Trab bereits voll belastet.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.2.4 (Kniegelenk — Kreuzbandriss), S. 81f. Die drei Operationsprinzipien mit ihren unterschiedlichen Belastungszeitpunkten sowie die TPLO-typische Desmitis der Patellasehne als Komplikation sind im Original so beschrieben. Ergänzt bereits bestehende Einträge zum Kreuzbandriss-Krankheitsbild und zur TPLO-Reha-Dauer um die operationsmethodenspezifische Belastungslogik.",
+    relatedCaseIds: ["bruno"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "frakturheilung-belastung-als-stimulus",
+    category: "GRUNDLAGEN",
+    title: "Warum ein heilender Knochen Belastung braucht, keine Ruhe",
+    teaser:
+      "Ganz ohne Belastung wird Knochen spröde und osteoporotisch — die Rehabilitation nach einer Fraktur muss deshalb möglichst früh eine kontrollierte, aber echte Teilbelastung einbauen, statt auf reine Schonung zu setzen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Heilungsdauer stark variabel",
+        text: "Knochenbrüche beginnen sofort nach der Verletzung zu heilen: Der Körper stabilisiert die zerbrochenen Knochenenden durch die Bildung von Fixationskallus. Diese Phase ist je nach Auseinanderweichen der Knochenenden und Alter des Hundes sehr unterschiedlich lang — sie reicht von 2 Wochen bei einfachen Frakturen bei Welpen bis zu 52 Wochen bei weit voneinander entfernten Bruchenden beim erwachsenen Hund.",
+      },
+      {
+        type: "text",
+        heading: "Belastung als Wachstumsreiz, nicht als Risiko",
+        text: "Ist die Fraktur stabil versorgt, kann vorsichtiges Bewegungstraining einsetzen. Knochen braucht Belastung, nach der er sich ständig ausrichtet und umformt — ganz ohne Belastung kommt es zur Osteoporose: Der Knochen wird spröde und kann über oder unter dem Implantat erneut brechen. Teilbelastung ist deshalb sehr hilfreich; sie lässt sich z. B. über Hydrotherapie, Schlingen oder Schienen erreichen, die die Gewichtsbelastung dosiert verringern, statt sie ganz zu vermeiden. Bevor volle Gewichtsbelastung erlaubt wird, muss die Fraktur allerdings nachweislich stabil sein.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Befund überbewertet", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.2.5 (Frakturen), S. 82f. Die Heilungsdauer-Spanne (2–52 Wochen) sowie das Belastung-statt-Osteoporose-Prinzip mit den genannten Teilbelastungs-Hilfsmitteln sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "arthrose-risikofaktoren-teufelskreis-schonung",
+    category: "PATHOLOGIE",
+    title: "Der Teufelskreis, der aus Arthrose-Patienten übergewichtige Arthrose-Patienten macht",
+    teaser:
+      "Schmerz führt zu Schonung, Schonung zu Bewegungsmangel und Frust — und der frustrierte Hund frisst mehr, verbraucht aber weniger Kalorien. Am Ende steht ein noch stärker belastetes Gelenk.",
+    sections: [
+      {
+        type: "list",
+        heading: "Vier Faktorengruppen, die Arthrose begünstigen",
+        items: [
+          "Dysplastisch angelegtes Gelenk (z. B. Hüftgelenkdysplasie) — durch das Missverhältnis der Gelenkpartner kann das Gelenk biomechanisch nicht reibungsfrei funktionieren",
+          "Altersbedingter Elastizitätsverlust in Gelenkknorpel, Knochen und Bändern, verstärkt durch mangelnde Propriozeption, die die Gelenkstabilisierung erschwert",
+          "Körperliche Überlastung eines oder mehrerer Gelenke — ungünstige Bodenverhältnisse, schlechte Trainingsbedingungen und Übergewicht sind hier gleichwertige Belastungsfaktoren",
+          "Entwicklungsstörungen beim schnell wachsenden Hund (z. B. unterschiedlich schnell wachsende Knochen/Knochenkerne) mit resultierender Gelenkflächen-Inkongruenz, sowie Folgeerkrankungen entzündlicher und nicht entzündlicher Gelenkerkrankungen",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Der Teufelskreis",
+        text: "Bewegungsunlust und Schmerzhaftigkeit der Gelenke führen zum Verlust von Flexibilität der dynamischen Strukturen, zum Verlust von Muskelkraft und damit zu weiterer Aktivitätseinschränkung. Durch den Bewegungsmangel und den dadurch entstehenden Frust fressen die Tiere mehr, verbrauchen aber weniger Kalorien und werden übergewichtig — was die Gelenke wiederum zusätzlich belastet. Typisch vorgestellt werden Patienten, die mittelalt, deutlich übergewichtig sind, eine hochgradige Muskelatrophie sowie Schmerzen bei jeder Bewegung zeigen und dabei oft depressiv oder grantig wirken.",
+      },
+      {
+        type: "text",
+        heading: "Der Ausweg: moderates Training statt weiterer Schonung",
+        text: "Aus der humanen Trainingsphysiologie ist bekannt, dass moderates Muskeltraining die meisten dieser Probleme beseitigen kann: Regelmäßige Muskelarbeit baut Muskulatur auf, stabilisiert Rumpf und Gelenke, fördert den Auf- und Umbau von Knochen, Bändern und Sehnen, ernährt den Gelenkknorpel, vergrößert die Range of Motion und verbessert nachweislich auch die Stimmungslage der Patienten. Das einzige Problem dabei sind die Schmerzen, die die Tiere zu Beginn der Therapie noch haben — ein korrektes Schmerzmanagement ist deshalb Voraussetzung, nicht Nebensache, für den Trainingserfolg.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Befund übersehen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.2.7 (Der Arthrose-Patient), S. 84f. Die vier Risikofaktorengruppen, der beschriebene Teufelskreis aus Schonung/Frust/Übergewicht sowie die Begründung für moderates Training (aus der humanen Trainingsphysiologie übertragen) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
