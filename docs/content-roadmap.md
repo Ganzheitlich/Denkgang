@@ -62,35 +62,32 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 158 Einträge (7 Anatomie-Spiegelungen, 6 Grundlagen, 51
-  Untersuchung, 62 Pathologie, 33 Biomechanik, 13 Therapie — genaue
+- Wissensbibliothek: 161 Einträge (7 Anatomie-Spiegelungen, 8 Grundlagen, 51
+  Untersuchung, 62 Pathologie, 33 Biomechanik, 15 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
   Einträge seit dem 21.09.). Danach 49 weitere neue Einträge aus Hárrer,
   Manuelle Therapie beim Hund — **damit ist Hárrer, Manuelle Therapie beim
   Hund (ISBN 978-3-13-245429-3), in seinen fachlich dichten
-  Kernabschnitten vollständig ausgewertet (Kap. 6–17: komplette
-  Hintergliedmaße, Vordergliedmaße/Schulter/Ellenbogen/Unterarm/
-  Karpalgelenk/Zehen, die gesamte Wirbelsäule inkl. Sympathikus, und die
-  Neurotension inkl. Neuroanatomie und der wichtigsten peripheren
-  Nervenverläufe)**. Kap. 18 ist reine Literaturliste, kein
-  Extraktionsziel mehr. Danach 12 weitere neue Einträge aus Mai,
-  Physiotherapie und Bewegungstraining für Hunde — **Kap. 5.1
-  „Evaluierung" und Kap. 5.2 „Ausgewählte Erkrankungen" (Reha-
-  Entscheidungsparameter, HD-/Kreuzband-OP-Methoden im Vergleich,
-  Frakturheilung, Arthrose-Teufelskreis, Pflege des festliegenden
-  neurologischen Patienten) sind vollständig abgedeckt**. Siehe
-  BIOMECHANIK-/THERAPIE-Backlog unten für die im Detail bewusst
+  Kernabschnitten vollständig ausgewertet (Kap. 6–17)**. Kap. 18 ist reine
+  Literaturliste, kein Extraktionsziel mehr. Danach 15 weitere neue
+  Einträge aus Mai, Physiotherapie und Bewegungstraining für Hunde —
+  **Kap. 5.1 „Evaluierung", Kap. 5.2 „Ausgewählte Erkrankungen" und Kap.
+  5.3 „Mobilisationstechniken" (Manuelle Medizin: OMT/Chiropraxis/
+  Osteopathie; Tuina: TCM-Theorie klar von belegten Massage-Effekten
+  getrennt, plus Grifftechniken-Glossar) sind vollständig abgedeckt**.
+  Siehe BIOMECHANIK-/THERAPIE-Backlog unten für die im Detail bewusst
   ausgelassenen reinen Technik-Rezeptteile. Baumgartner/Wittek/Khol
   „Klinische Propädeutik der Haus- und Heimtiere" wurde erkundet
   (Struktur, relevante Kapitel 6/7 identifiziert), aber wegen
   Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen zurückgestellt
   (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Mai Kap. 4.3
-  (Rückenschmerzen/Trainingsfehler, Trainingsalter-Richtlinien), Kap.
-  5.2.6 (neurologischer Patient) oder Kap. 5.3 (Manuelle Medizin/Tuina)
-  fortsetzen, oder nächstes Buch aus dem Backlog wählen (Hohmann
-  Bewegungsapparat Restkapitel, VetCenter Wirbelsäulenerkrankungen).
+  (Rückenschmerzen/Trainingsfehler, Trainingsalter-Richtlinien) oder der
+  noch nicht systematisch gesichtete Rest des Buches (Hydrotherapie,
+  westliche Massage-Grundtechniken, Bandagieren/Orthesen) fortsetzen,
+  oder nächstes Buch aus dem Backlog wählen (Hohmann Bewegungsapparat
+  Restkapitel, VetCenter Wirbelsäulenerkrankungen).
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -674,18 +671,42 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Einleitung von Kap. 5.3 (ph(25).pdf), S. 85
 - [x] Ziele und Grundprinzip der Bewegungstherapie (Kap. 5.4, ph(26).pdf, S.
       100f.) — neun Ziele, Abgrenzung zu „einfachem Laufenlassen“
-- [ ] Kap. 5.3.1 Manuelle Medizin — Überblick über OMT (Maitland/Mulligan/
-      Kaltenborn), Chiropraxis, Osteopathie (ph(25).pdf, S. 85–87) — bewusst
-      noch nicht geschrieben: braucht sorgfältige Abgrenzung zwischen
-      etablierter Biomechanik-Erklärung und schulenspezifischer Theorie
-- [ ] Kap. 5.3.2 Tuina (Traditionelle chinesische Massage, ph(25).pdf, S.
-      87–100) — sehr umfangreich (Geschichte, TCM-Theorie, einzelne
-      Grifftechniken, Kontraindikationen). Konzeptionelle Entscheidung noch
-      offen: eigener „Referenzbild“-artiger Nachschlage-Eintrag zu den
-      Grifftechniken (TUI, NA, AN, MO, ROU, QIA, PAI, KOU, DOU, YAO, GUN,
-      ZHEN, CUO) wäre möglich, sollte aber die TCM-Begrifflichkeit klar von
-      schulmedizinisch verifizierten Aussagen trennen.
-- [ ] Rest des Buches (ca. 26+ Einzeldateien ph.pdf, ph1–ph26) noch nicht
+- [x] **Kap. 5.3.1 „Manuelle Medizin" (S. 85–87, ph(25).pdf) abgeschlossen
+      (25.09.2026).** Ein neuer Eintrag:
+      `manuelle-medizin-drei-schulen-omt-chiropraxis-osteopathie` — OMT
+      (Maitland/Mulligan/Kaltenborn, biomechanisch begründet über das
+      Konzept der Muskelfunktionsketten), Chiropraxis (Subluxations-
+      Modell) und Osteopathie (ganzheitliches Selbstheilungs-Modell) im
+      Überblick, jeweils klar als Schulmeinung statt als verifizierte
+      Tatsache gekennzeichnet. Besonders wichtig: Die im Original selbst
+      berichtete Kontroverse um die Chiropraxis (der Schulmedizin ist es
+      nicht gelungen, die postulierten Wirbel-Subluxationen
+      röntgenologisch nachzuweisen) wurde bewusst mit übernommen, statt
+      das Modell unkritisch als Fakt darzustellen — ein Beispiel für die
+      geforderte Abgrenzung zwischen etablierter Biomechanik und
+      schulenspezifischer Theorie.
+      **Kap. 5.3.2 „Tuina" (S. 86–99, ph(25).pdf) abgeschlossen
+      (25.09.2026).** Zwei neue Einträge:
+      `tuina-geschichte-tcm-theorie-belegte-wirkungen` (Herkunft/
+      Geschichte, TCM-interne Erklärung als ausdrücklich gekennzeichnete
+      Schulmeinung — Qi/Yin-Yang/Meridiane NICHT VERIFIZIERT als
+      unabhängiger Wirkmechanismus —, getrennt davon die aus westlicher
+      Sicht belegten physiologischen Massage-Effekte wie Vasodilatation
+      und Gate-Control-Analgesie, Indikationen und eine ausführliche
+      Kontraindikationsliste) und `tuina-grifftechniken-glossar` (die 13
+      benannten Grifftechniken TUI/NA/AN/MO/ROU/QIA/PAI/KOU/DOU/YAO/GUN/
+      ZHEN/CUO als Nachschlage-Tabelle mit Ausführung, Vergleich zur
+      westlichen Massage und der jeweils TCM-zugeschriebenen Wirkung,
+      plus das Tonisieren-/Sedieren-Prinzip). Beide Einträge halten
+      durchgängig die im Backlog geforderte Trennung zwischen
+      TCM-Begrifflichkeit und schulmedizinisch verifizierten Aussagen ein.
+      Verifiziert per Playwright-Screenshot (3/3 Seiten, 0 Console-/
+      Page-Errors). **Damit ist Mai Kap. 5.3 vollständig abgedeckt.**
+      Nächster Fortsetzungspunkt: Kap. 4.3 (Rückenschmerzen/
+      Trainingsfehler, Trainingsalter-Richtlinien) oder der Rest des
+      Buches (Hydrotherapie, westliche Massage-Grundtechniken,
+      Bandagieren/Orthesen — noch nicht systematisch gesichtet).
+- [ ] Rest des Buches (ca. 26+ Einzeldateien ph.pdf, ph1–ph22) noch nicht
       systematisch gesichtet — voraussichtlich eigene Kapitel zu Hydrotherapie,
       Massage-Grundtechniken (westliche/klassische Massage), Bandagieren/
       Orthesen.

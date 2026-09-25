@@ -7976,6 +7976,121 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "manuelle-medizin-drei-schulen-omt-chiropraxis-osteopathie",
+    category: "GRUNDLAGEN",
+    title: "OMT, Chiropraxis und Osteopathie: drei Denkmodelle, eine gemeinsame Ausbildungshürde",
+    teaser:
+      "Alle drei Richtungen der Manuellen Medizin verlangen hunderte Fortbildungsstunden — aber sie erklären, warum eine Behandlung wirkt, auf sehr unterschiedliche und nicht immer gleichermaßen belegte Weise.",
+    sections: [
+      {
+        type: "text",
+        heading: "Gemeinsamer Ausbildungsanspruch",
+        text: "Die Ausbildung zum Osteopathen umfasst an der Wiener Schule für Osteopathie 1800 Fortbildungsstunden, die Ausbildung zum Manualtherapeuten 1500 Stunden — beide Ausbildungen setzen bereits ein medizinisches oder physiotherapeutisches Grundstudium voraus. Unabhängig von der gewählten Methode gilt: Keine dieser Richtungen ist an einem Wochenende zu erlernen, und jede birgt Risiken und Kontraindikationen, die ein verantwortungsvoller Therapeut kennen muss.",
+      },
+      {
+        type: "text",
+        heading: "Orthopädische Manuelle Therapie (OMT) — biomechanisch begründet",
+        text: "Die OMT (Hauptrichtungen nach Maitland, Mulligan und Kaltenborn) behandelt Biomechanik der Gelenke, manuelle Untersuchung der Gelenkfunktionen und Gelenkmobilisation in physiologische Bewegungsrichtung. Zentrales Konzept ist die Muskelfunktionskette: Ist z. B. die Kniegelenkextension eingeschränkt, kompensiert der Hund das oft durch vermehrte Hüft- oder Sprunggelenksextension — wird nur das kompensierende Gelenk behandelt, ohne die eigentliche Restriktion im Knie zu lösen, bleibt die Behandlung erfolglos. Die OMT sucht deshalb gezielt den Ort der stärksten Restriktion (z. B. Kapsel-/Bandverklebungen, postoperative Verklebungen, Narbengewebe) und behandelt dort mit Kompression, Translation und Traktion in verschiedenen Stärkegraden.",
+      },
+      {
+        type: "text",
+        heading: "Chiropraxis — ein umstrittenes Erklärungsmodell",
+        text: "Die Chiropraxis erklärt Gesundheit über ein reibungslos funktionierendes Nervensystem und die Beweglichkeit der einzelnen Wirbel zueinander; blockierte, schmerzende Wirbel werden als (sub-)luxiert bezeichnet und durch kurze, schnelle Impulsbewegungen in Richtung der Blockade „eingerichtet“. WICHTIGE EINSCHRÄNKUNG: Dieses Subluxations-Modell gilt als fachlich umstritten — die Quelle selbst berichtet, dass es der Schulmedizin trotz wiederholter Versuche nicht gelungen ist, solche Luxationen röntgenologisch nachzuweisen, weshalb die Chiropraxis in schulmedizinischen Kreisen teils als unbelegt kritisiert wird. Diese Kontroverse wird hier bewusst mit wiedergegeben, statt das Subluxations-Modell unkritisch als verifizierte Tatsache darzustellen.",
+      },
+      {
+        type: "text",
+        heading: "Osteopathie — ganzheitlicher Ansatz",
+        text: "Die Osteopathie (mit Untergebieten wie viszeraler und kraniosakraler Osteopathie) vertritt eine stark ganzheitlich denkende Idee der Regulativmedizin: Nicht das Lösen einer einzelnen Blockade soll gesund machen, sondern die Verbesserung der Gesamtsituation soll die Selbstheilungskräfte des Organismus aktivieren. Auch dies ist als das Erklärungsmodell dieser Schule zu verstehen, nicht als unabhängig verifizierter Wirkmechanismus.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "vorschnelle Diagnose", "Überkonfidenz"],
+    sourceStatus:
+      "Verifiziert (als Darstellung der jeweiligen Schulmeinung, nicht als unabhängig verifizierter Wirknachweis): Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.3.1 (Manuelle Medizin), S. 85–87. Die Ausbildungsstunden, die drei Schulen mit ihren jeweiligen Konzepten sowie der ausdrückliche Hinweis der Autorin auf die fehlende radiologische Nachweisbarkeit chiropraktischer Subluxationen sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "tuina-geschichte-tcm-theorie-belegte-wirkungen",
+    category: "THERAPIE",
+    title: "Tuina: was TCM-Theorie behauptet — und was aus westlicher Sicht belegt ist",
+    teaser:
+      "Tuina wirkt über zwei völlig verschiedene Erklärungsebenen: die traditionell-chinesische Vorstellung vom freien Qi-Fluss, und ganz unabhängig davon nachweisbare physiologische Massage-Effekte wie verbesserte Durchblutung und Schmerzlinderung über Gate-Control.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was Tuina ist",
+        text: "Tuina (wörtlich „Schieben und Kneifen“) ist eine eigenständige, manuelle Massageform der traditionellen chinesischen Medizin (TCM) und gilt neben Akupunktur und chinesischen Heilkräutern als eine der fünf Hauptsäulen der TCM. Der Begriff selbst erscheint erstmals in der Ming-Dynastie (1368–1644); frühere Aufzeichnungen therapeutischer Massage (ANMO) reichen bis in die Shang-Dynastie (16.–11. Jh. v. Chr.) zurück. Was Tuina von klassischer westlicher Massage unterscheidet, ist die Diagnostik und Technikauswahl über die TCM-Theorie: die Lehre vom freien Energiefluss (Qi) in Energieleitbahnen (Meridianen). Die Veterinärmedizin übernimmt dabei meist ein transpositionelles System, das Meridiane und Massagepunkte von humanen Lokalisationen ableitet.",
+      },
+      {
+        type: "text",
+        heading: "TCM-interne Erklärung (nicht unabhängig verifiziert)",
+        text: "Innerhalb der TCM-Theorie wird Tuina u. a. folgende Wirkung zugeschrieben: Balance von Yin und Yang, Befreiung des Qi-Flusses in den Meridianen, Stärkung der Immunantwort („Abwehr-Qi“), Ableitung von „Fülle“ und Auffüllen von „Leere“. Diagnostisch arbeitet die TCM mit Puls- und Zungendiagnostik sowie — in der Veterinärmedizin vor allem — mit der Druckschmerzhaftigkeit von Zustimmungspunkten entlang der Wirbelsäule. NICHT VERIFIZIERT: Diese Konzepte (Qi, Meridiane, Yin/Yang) entstammen der TCM-Theorie und sind als solche zu kennzeichnen — sie sind keine unabhängig belegten physiologischen Mechanismen im Sinne der Schulmedizin.",
+      },
+      {
+        type: "list",
+        heading: "Aus westlicher Sicht belegte physiologische Effekte der Massage",
+        items: [
+          "Vasodilatation der Arteriolen mit verstärkter Durchblutung, Erwärmung und Rötung des behandelten Gebiets",
+          "Verbesserter venöser Rückstrom durch Sogwirkung und Muskelpumpe, Verbesserung des Ödem-Rücktransports",
+          "Abtransport von Milchsäure und anderen Stoffwechselprodukten",
+          "Analgesie über Gate-Control-Mechanismus und Counter-Irritation durch Beeinflussung sensibler Nervenbahnen",
+          "Tonusregulierung über motorische Bahnen des ZNS und des vegetativen Nervensystems",
+          "Förderung von Muskelelastizität und Kontraktionsbereitschaft, hilfreich bei bestehender Inaktivitätsatrophie in Kombination mit therapeutischen Übungen",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Indikationen und wichtige Kontraindikationen",
+        text: "Tuina wird u. a. bei chronischen Schmerzen von Wirbelsäule, Schulter, Ellbogen, Karpalgelenk, Zehengrundgelenken, ISG, Hüfte, Knie und Sprunggelenk eingesetzt sowie unterstützend bei der Regeneration nach Paresen/Paralysen. Die Indikation beschränkt sich ausdrücklich auf funktionelle, reversible Störungen — Regulationsmedizin kann Zerstörtes nicht ersetzen, sondern nur Gestörtes regulieren. Kontraindiziert ist Tuina bei offenen Wunden, Wundheilungsstörungen, Hauttumoren (Sarkome/Sarkoide) und anderen Hauterkrankungen im betroffenen Areal, bei Osteosarkomen, Dekalzifizierungsprozessen der Knochen, Osteomyelitis, frischen Frakturen, Phlebitis im betroffenen Gebiet, septischen Zuständen und frischen Blutungen. Bei Trächtigkeit ist die Massage an Abdomen, Leistenregion und Hinterextremitäten mit besonderer Vorsicht durchzuführen.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert, mit expliziter Trennung von TCM-Theorie (als Schulmeinung wiedergegeben) und unabhängig belegten physiologischen Effekten: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.3.2 (Tuina – Traditionelle chinesische Massage), S. 86–91. Geschichte, TCM-Konzepte, die aufgelisteten physiologischen Massage-Effekte sowie Indikations-/Kontraindikationsliste sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "tuina-grifftechniken-glossar",
+    category: "THERAPIE",
+    title: "Tuina-Grifftechniken: ein Nachschlage-Glossar",
+    teaser:
+      "13 chinesische Fachbegriffe für 13 unterschiedliche Handgriffe — von TUI (Schieben) bis MO (Wischen). Die genannten Wirkungen entstammen der TCM-Theorie und sind entsprechend zu kennzeichnen, nicht mit unabhängig belegten Effekten zu verwechseln.",
+    sections: [
+      {
+        type: "table",
+        heading: "Die wichtigsten Tuina-Grifftechniken",
+        columns: ["Technik", "Ausführung", "Vergleich mit westlicher Massage", "TCM-zugeschriebene Wirkung"],
+        rows: [
+          ["TUI (Schieben)", "mäßiger Druck in eine Richtung, drucklose Rückführung zum Ausgangspunkt; mit Faust, Handfläche, Fingerknöcheln oder Daumen", "am ehesten vergleichbar mit Effleurage", "Gewöhnung/Entspannung, fördert Zirkulation, löst Krämpfe"],
+          ["NA (Kneifen)", "zangenartiges Komprimieren und Loslassen mit Daumen/Fingern, langsam und rhythmisch", "keine direkte westliche Entsprechung", "löst Muskelkrämpfe, öffnet Meridiane"],
+          ["AN (Drücken)", "Druck auf Akupunkturpunkt oder Körperteil, steigernd oder intermittierend-rhythmisch", "entspricht der Friktion", "löst Qi-Stauungen, lindert Schmerzen"],
+          ["MO (Kreisendes Reiben)", "kreisende Reibung mit Fingern/Handfläche, nicht tiefer als das Bindegewebe", "Form der Friktion", "normalisiert Qi-Fluss, lindert Schwellungen"],
+          ["ROU (Kreisendes Drücken)", "kräftiger, tiefgehender kreisender Druck, steigernd bis zur Reaktion des Tieres", "entspricht der Gelotrypsie (löst Myogelosen)", "schmerzlindernd, abschwellend"],
+          ["QIA (Zwicken)", "kräftiges Zwicken von Akupunkturpunkt/Körperteil bis nahe an die Schmerzgrenze", "entspricht der Fingerspitzenpetrissage", "starke Punktstimulation, öffnet Meridiane"],
+          ["PAI (Klopfen)", "gleichmäßiges, sanftes, rhythmisches Klopfen mit Fingerkuppen/Handrücken/Handfläche", "klassische Klopfung (Tapotement)", "löst Muskelverspannungen"],
+          ["KOU (Trommeln)", "Steigerung von PAI, mit Fingerkuppen oder Fingerglied-Rückseite", "verstärktes Tapotement", "entspannt Muskulatur, hilft bei Erschöpfung"],
+          ["DOU (Schütteln)", "Gliedmaße am distalen Ende fassen und wie ein Seil auf-/abschütteln, ohne Drehung", "keine direkte westliche Entsprechung", "entspannt Muskeln/Sehnen, fördert Beweglichkeit"],
+          ["YAO (Kreisen lassen)", "Gliedmaße unter dem Gelenk halten und langsam kreisen lassen, von klein bis zum maximalen Radius", "passive Zirkumduktion", "lockert steife Gelenke, verbessert ROM"],
+          ["GUN (Rollen)", "gekrümmte Hand mit der Handkante über muskelreiches Areal rhythmisch hin- und herrollen", "keine direkte westliche Entsprechung", "entspannt Muskulatur, fördert Sehnenzirkulation"],
+          ["ZHEN (Vibrieren)", "kräftiger, regelmäßiger Druck mit schnellen Vibrationen über Fingerkuppen/Daumenballen/Handfläche", "entspricht der Vibrationsmassage", "löst Verspannungen, erreicht tiefe Schichten"],
+          ["CUO (Zwirbeln)", "Extremität zwischen gegenübergesetzten Handflächen zwirbeln, Frequenz variierend", "keine direkte westliche Entsprechung", "öffnet Meridiane, entspannt Muskulatur"],
+          ["MO (Wischen)", "beide Hände/Daumen streichen vom Mittelpunkt sanft nach außen, v. a. an Kopf/Nacken/Rücken/Bauch", "beruhigende Streichung", "beruhigend, leitet Übererregbarkeit ab"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Tonisieren vs. Sedieren — dieselbe Technik, anders eingesetzt",
+        text: "Dieselben Grifftechniken werden je nach Zustand des Tieres gegensätzlich ausgeführt: Bei einem TCM-„Leeremuster“ (chronisch krank, müde, kraftloser Puls) wird zart, oberflächlich, langsam, im Meridianverlauf und im Uhrzeigersinn behandelt (tonisierend). Bei einem „Füllemuster“ (akut, nervös, hochgradig schmerzhaft, kräftiger Puls) wird kräftig, kurz, gegen den Meridianverlauf und gegen den Uhrzeigersinn gearbeitet (sedierend/ausleitend). Auch diese Unterscheidung folgt der TCM-internen Logik und ist nicht unabhängig von der TCM-Theorie zu verstehen.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert als Wiedergabe der TCM-internen Terminologie und der von der Autorin beschriebenen Ausführung (nicht als unabhängig belegte Wirkungsnachweise): Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.3.2 (Tuina — Die wichtigsten Griffe), S. 91–99. Alle 13 Techniken mit Ausführung, dem Vergleich zur westlichen Massage sowie das Tonisieren-/Sedieren-Prinzip sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
