@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 181 Einträge (7 Anatomie-Spiegelungen, 9 Grundlagen, 51
-  Untersuchung, 66 Pathologie, 44 Biomechanik, 23 Therapie — genaue
+- Wissensbibliothek: 183 Einträge (7 Anatomie-Spiegelungen, 9 Grundlagen, 51
+  Untersuchung, 67 Pathologie, 45 Biomechanik, 23 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -82,17 +82,21 @@ kein Überblick verloren geht.
   ca. 25 Einzelübungen aus Kap. 5.5, die alle demselben Indikation/Wie
   oft/Wie lange-Schema folgen). Danach 4 weitere neue Einträge aus Hohmann,
   Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Kap. 2 „Statik und
-  Dynamik des Hundes" (vollständig, S. 22–30) sowie Abschnitt 3.1
-  „Schwerpunkt" (S. 31) — Bogensehnenbrücken-Bauprinzip, Ursachen gestörter
-  Gelenkfunktion, Muskelfunktionsstörungen/Atrophietypen, Schwerkraft/
-  Masse-Feder-Modell/Schwerpunktlage; Details siehe Hohmann-Backlog unten.
-  Baumgartner/Wittek/Khol „Klinische Propädeutik der Haus- und Heimtiere"
-  wurde erkundet (Struktur, relevante Kapitel 6/7 identifiziert), aber
-  wegen Multi-Spezies-Umfang und Extraktions-Qualitätsproblemen
-  zurückgestellt (siehe UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann
-  Kap. 3.2 „Unterstützungsfläche" bzw. Kap. 4 „Der Knochen" fortsetzen
-  (siehe Hohmann-Backlog), danach ggf. VetCenter Wirbelsäulenerkrankungen
-  oder Baumgartner/Wittek/Khol.
+  Dynamik des Hundes" (vollständig, S. 22–30) und Kap. 3 „Schwerpunkt und
+  Unterstützungsfläche" (vollständig, S. 31–35) — Bogensehnenbrücken-
+  Bauprinzip, Ursachen gestörter Gelenkfunktion, Muskelfunktionsstörungen/
+  Atrophietypen, Schwerkraft/Masse-Feder-Modell/Schwerpunktlage sowie
+  Unterstützungsflächen-Grundlagen und deren pathologische Veränderungen
+  (Dreibeinigkeit, Cauda-equina); Details siehe Hohmann-Backlog unten. Damit
+  ist Teil 1 des Buches („Klinische Untersuchung, Statik und Dynamik")
+  vollständig ausgewertet. Baumgartner/Wittek/Khol „Klinische Propädeutik
+  der Haus- und Heimtiere" wurde erkundet (Struktur, relevante Kapitel 6/7
+  identifiziert), aber wegen Multi-Spezies-Umfang und
+  Extraktions-Qualitätsproblemen zurückgestellt (siehe
+  UNTERSUCHUNG-Backlog). Nächster Schritt: Hohmann Kap. 4 „Der Knochen"
+  (b5.pdf, Teil 2 „Grundlagen der Anatomie") fortsetzen (siehe
+  Hohmann-Backlog), danach ggf. VetCenter Wirbelsäulenerkrankungen oder
+  Baumgartner/Wittek/Khol.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
   Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
   "Im Quellentext nicht genannt"-Kernfelder mehr.
@@ -1293,10 +1297,20 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       — beide Quellen stimmen im Kernbefund überein. Verifiziert via
       Playwright (4/4 Seiten, 0 Fehler) und visueller Kontrolle der beiden
       tabellenlastigen Einträge.
-- [ ] Kap. 3 Schwerpunkt und Unterstützungsfläche (b4.pdf) — Abschnitt 3.1
-      „Schwerpunkt" (S. 31) bereits mit abgedeckt (siehe Kap. 2 oben, da b3.pdf
-      bis S. 31 reicht). Rest offen: Abschnitt 3.2 „Unterstützungsfläche"
-      (S. 32ff., vermutlich in b4.pdf).
+- [x] **Kap. 3 „Schwerpunkt und Unterstützungsfläche" vollständig
+      abgeschlossen (25.09.2026), S. 31–35 (b4.pdf).** Abschnitt 3.1
+      „Schwerpunkt" bereits über Kap. 2 mit abgedeckt (b3.pdf reicht bis
+      S. 31). Für Abschnitt 3.2 „Die Unterstützungsfläche" zwei neue
+      Wissenseinträge: Grundlagen/Regelkreis (Definition, Rezeptoren-Regelkreis
+      der Gleichgewichtskontrolle, sechs physiologische Situationen von
+      Bauchlage bis Greyhound-Bemuskelung, BIOMECHANIK) sowie pathologische
+      Veränderungen (Verkleinerung/Vergrößerung, Dreibeinigkeits-Tabelle mit
+      gegensätzlicher Schwerpunktverlagerung je nach amputierter/geschonter
+      Gliedmaße, Cauda-equina-Endstadium, Normalisierung durch Physiotherapie
+      als Therapieziel, PATHOLOGIE). Damit ist auch Kap. 3 komplett
+      abgedeckt — Teil 1 „Klinische Untersuchung/Statik und Dynamik" des
+      Buches ist nun vollständig ausgewertet. Verifiziert via Playwright
+      (2/2 Seiten, 0 Fehler).
 - [ ] Kap. 4 Der Knochen (b5.pdf)
 - [x] Kap. 5 Das Gelenk (b6.pdf) — Struktur-/Bauart-/Gelenktyp-Einteilung mit
       caninen Beispielen + Gelenkflächen-Inkongruenz (S. 48–50). Rest des

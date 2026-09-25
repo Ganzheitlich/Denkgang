@@ -8823,6 +8823,91 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "unterstuetzungsflaeche-grundlagen-regelkreis-gleichgewicht",
+    category: "BIOMECHANIK",
+    title: "Die Unterstützungsfläche: warum der Vierfüßlerstand so stabil ist",
+    teaser:
+      "Trifft das Lot des Körperschwerpunkts die Unterstützungsfläche, bleibt der Hund im Gleichgewicht — ein ganzes Netzwerk aus Rezeptoren sorgt dafür, dass das fast immer gelingt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Definition und Grundprinzip",
+        text: "Die Unterstützungsfläche ist die kleinste Fläche, die die Kontaktstellen der aktivierten Körperabschnitte — beim Hund die Gliedmaßen — mit der Unterlage einschließt. Sie ist beim Vierfüßler, im Gegensatz zum Menschen, relativ groß und rechteckig; der Vierfüßlerstand ist entsprechend die stabilste Körperhaltung des gesunden Tieres. Trifft das Lot des imaginären Körperschwerpunkts die Unterstützungsfläche, bleibt der Hundekörper im Gleichgewicht — je zentraler das Lot in der Fläche liegt, desto stabiler ist dieses Gleichgewicht.",
+      },
+      {
+        type: "text",
+        heading: "Der Regelkreis der Gleichgewichtskontrolle",
+        text: "Die Lage des Schwerpunkts wird dem Tier über multiple Rezeptoren vermittelt: in Gelenken, Muskeln, Sehnen, Faszien, Bändern und Haut, ergänzt durch visuelle Wahrnehmung und das Vestibularorgan. Diese Informationen werden an das zentrale Nervensystem weitergeleitet, verarbeitet und an das motorische System übermittelt, das die entsprechenden Stellreaktionen sowie statokinetische und Haltereflexe auslöst. Der Regelkreis schließt sich über eine erneute Kontrolle der ausgeführten Bewegung durch dieselben Rezeptoren. Gerät das Lot des Schwerpunkts außerhalb der Unterstützungsfläche, erfolgt sofort eine Korrekturbewegung — deren Qualität individuell verschieden ist und von Alter und Gesundheitszustand des Tieres abhängt.",
+      },
+      {
+        type: "table",
+        heading: "Unterstützungsfläche und Schwerpunkt in sechs physiologischen Situationen",
+        columns: ["Situation", "Größe der Unterstützungsfläche", "Lage des Schwerpunkts"],
+        rows: [
+          ["Bauchlage", "sehr groß", "mittig im Tierkörper, nahe der Unterstützungsfläche"],
+          ["Vierfüßlerstand", "rechteckig, groß", "über und im vorderen Drittel der Unterstützungsfläche"],
+          ["Sitzen", "kleiner (begrenzt durch Gesäß + Vordergliedmaßen)", "mehr auf den Hintergliedmaßen; Vordergliedmaßen tragen nur einen Teil des Gewichts"],
+          ["Aufstehen", "im Übergang", "verlagert sich nach kranial, Druck auf Vordergliedmaßen nimmt zu"],
+          ["Bewegung allgemein", "kontinuierlich verändert", "passt sich dem Bewegungsablauf kontinuierlich an"],
+          ["Stark bemuskelte, gut trainierte Hunde (z. B. Greyhound)", "physiologisch vergrößert (trapezförmig durch Hintergliedmaßenmuskulatur)", "—"],
+        ],
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 3.2.1 (Physiologische Veränderungen und ihre Auswirkungen auf die Unterstützungsfläche), S. 32f. Definition, Regelkreis und die sechs physiologischen Situationen (inkl. Greyhound-Beispiel) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "unterstuetzungsflaeche-pathologisch-dreibeinigkeit-prognose",
+    category: "PATHOLOGIE",
+    title: "Dreieckige Unterstützungsfläche: was ihre Form über die Prognose verrät",
+    teaser:
+      "Ob nach Kreuzbandriss oder Amputation — die entstehende Dreiecksform der Unterstützungsfläche verlagert den Schwerpunkt in genau entgegengesetzte Richtungen, je nachdem, welche Gliedmaße betroffen ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der gemeinsame Mechanismus",
+        text: "Bei einer Verkleinerung oder Vergrößerung der Unterstützungsfläche durch pathologische Veränderungen am Bewegungsapparat muss der Körper sein Gewicht neu auf die Unterstützungsfläche verteilen. Diese Gleichgewichtsreaktion führt zu einer größeren Veränderung der Muskelaktivität als bei physiologischer Haltung — die in der Folge verspannte Muskulatur (bis hin zur Kontraktur) verändert die Unterstützungsfläche weiter und beeinträchtigt die Gesamthaltung zusätzlich.",
+      },
+      {
+        type: "list",
+        heading: "Verkleinerung der Unterstützungsfläche",
+        items: [
+          "Engstellung der Gliedmaßen, oder Hintergliedmaßen weiter kranial bzw. Vordergliedmaßen weiter kaudal als die physiologische Gliedmaßenachse",
+          "Ursachen u. a.: Gonarthrose, Spondylose, Hüftdysplasie, Faserknorpelembolie/Bandscheibenvorfall — jeweils mit Verlagerung des Schwerpunkts nach kranial",
+          "Wandert der Schwerpunkt über den Rand der verkleinerten Unterstützungsfläche hinaus, verliert das Tier das Gleichgewicht und fällt um",
+        ],
+      },
+      {
+        type: "table",
+        heading: "Dreibeinigkeit: Ursache entscheidet über die Richtung der Schwerpunktverlagerung",
+        columns: ["Ursache", "Form der Unterstützungsfläche", "Schwerpunktverlagerung"],
+        rows: [
+          ["Kreuzbandriss (Schonhaltung einer Hintergliedmaße)", "dreieckig; Prognose umso schwieriger, je ausgeprägter und je gleichschenkliger das Dreieck", "nach kranial"],
+          ["Amputation einer Hintergliedmaße", "dreieckig, gleichschenklig", "nach kranial (Schwerpunkt vor dem Rippenbogen, in der Mitte des Dreiecks)"],
+          ["Amputation einer Vordergliedmaße", "dreieckig, gleichschenklig", "nach kaudal (Schwerpunkt hinter dem Rippenbogen, in der Mitte des Dreiecks)"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Vergrößerung der Unterstützungsfläche",
+        text: "Eine Vergrößerung entsteht durch Schon- oder Fehlhaltung infolge pathologischer Veränderungen an Gelenken oder Wirbelsäule — z. B. bei Spondylose (hier als Ausnahme von der sonst schwerpunktverkleinernden Wirkung degenerativer Wirbelsäulenveränderungen genannt) oder fortgeschrittener Hüftdysplasie. Auch bei länger bestehendem Kreuzbandriss mit arthrotischen Veränderungen im Kniegelenk kann die Unterstützungsfläche vergrößert sein, weil diese Haltung Schmerzlinderung im Kniegelenk bewirkt — der Schwerpunkt verlagert sich dabei trotz vergrößerter Fläche nach kranial. Bei einem fortgeschrittenen Cauda-equina-Syndrom kommt es ebenfalls zu einer Vergrößerung, hier mit Verlagerung des Schwerpunkts nach kaudal.",
+      },
+      {
+        type: "text",
+        heading: "Normalisierung als Therapieziel",
+        text: "Eine durch Erkrankungen des Bewegungsapparats veränderte Unterstützungsfläche kann durch Wiederherstellung der physiologischen Haltung mittels guter physiotherapeutischer Behandlung normalisiert werden — soweit die zugrunde liegenden pathologischen Veränderungen dies noch zulassen. Die Form und Ausprägung der Unterstützungsfläche liefert damit nicht nur einen Befund, sondern auch einen prognostischen Hinweis darauf, wie schwierig es wird, den Hund aus einer eingefahrenen Schon- oder Fehlhaltung wieder herauszuführen.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Differentialdiagnostik unvollständig", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 3.2.2 (Pathologische Veränderungen und ihre Auswirkungen auf die Unterstützungsfläche), S. 33–35. Der Circulus-vitiosus-Mechanismus, die Verkleinerungs-/Vergrößerungsursachen, die Dreibeinigkeits-Tabelle (Kreuzbandriss vs. Amputation Vorder-/Hintergliedmaße mit jeweiliger Schwerpunktrichtung) sowie die Normalisierung durch Physiotherapie sind im Original so beschrieben, inkl. der von Hohmann selbst markierten Ausnahme (Spondylose kann sowohl verkleinernd als auch — hier — vergrößernd wirken).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
