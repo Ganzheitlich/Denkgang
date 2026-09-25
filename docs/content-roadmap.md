@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (25.09.2026)
 
-- Wissensbibliothek: 209 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 53
+- Wissensbibliothek: 211 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 55
   Untersuchung, 72 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -132,11 +132,16 @@ kein Überblick verloren geht.
   Bandscheibenvorfalls. Danach ein weiterer neuer Eintrag aus dem
   Diskopathie-Abschnitt: die Hansen-I/II-Klassifikation mit dem
   anatomischen Schutzmechanismus des Lig. intercapitale (Th1–Th10) und
-  dem Nervenwurzelzeichen als Fehldeutungsfalle. Details und bewusste
-  Auslassungen (allgemeine Prognoseskala, Medikamenten-Dosierungen) siehe
-  PATHOLOGIE-Backlog unten. Nächster Schritt: VetCenter
-  „Wirbelsäulenerkrankungen" ab S. 16/43 fortsetzen (Wirbelfrakturen/
-  -luxationen, Atlantoaxiale Luxation, Wobbler-Syndrom im Detail,
+  dem Nervenwurzelzeichen als Fehldeutungsfalle. Auf Vanessas Nachfrage,
+  ob die Formulierungen zu nah an den Quelltexten bleiben, wurde die
+  Paraphrasier-Disziplin danach verschärft (unabhängige Synthese statt
+  Verkettung von Quell-Stichpunkten) — angewendet auf 2 weitere neue
+  Einträge aus dem Abschnitt „Wirbelsäulentrauma": der spinale Schock als
+  diagnostische Frühbefund-Falle sowie die Grenzen des Röntgenbilds nach
+  einem Unfall (Momentaufnahme-Charakter, spontan reponierte Luxationen).
+  Details und bewusste Auslassungen siehe PATHOLOGIE-Backlog unten.
+  Nächster Schritt: VetCenter „Wirbelsäulenerkrankungen" ab S. 25/43
+  fortsetzen (Atlantoaxiale Luxation, Wobbler-Syndrom im Detail,
   Lumbosakrale Instabilität/Stenose im Detail — siehe Backlog), danach
   ggf. Baumgartner/Wittek/Khol trotz der bekannten Einschränkungen.
 - Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
@@ -320,9 +325,29 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Fehldeutungsfalle (zervikaler Bandscheibenvorfall kann sich als
       isolierte Vorderbeinlahmheit äußern). Verifiziert via Playwright
       (1/1 Seite, 0 Fehler).
+- [x] **„Luxationen, Frakturen, Frakturluxationen/Traumata der
+      Wirbelsäule" (S. 18–24 von 43) gelesen und ausgewertet (25.09.2026,
+      mit verschärfter Paraphrasier-Disziplin — siehe unten).** Zwei neue
+      UNTERSUCHUNG-Wissenseinträge: der spinale Schock als reversibler,
+      morphologisch nicht fassbarer Funktionsausfall in der ersten ein bis
+      zwei Stunden nach Trauma (verfälscht die Früheinschätzung) plus die
+      gegenseitige Maskierung von oberer und unterer
+      Motoneuronschädigung, sowie die Grenzen des Röntgenbilds nach einem
+      Trauma (reine Momentaufnahme, spontan reponierte Luxationen bleiben
+      unsichtbar, Narkose-bedingtes Risiko durch Wegfall des
+      stabilisierenden Muskeltonus). Bewusst nicht extrahiert: die
+      Notfallmedikation (Methylprednisolon, Opioid-Dosierungen) und die
+      allgemeinen Pflegemaßnahmen bei Festliegen (bereits über bestehende
+      Rückenmarkkompressions-Einträge abgedeckt). Verifiziert via
+      Playwright (2/2 Seiten, 0 Fehler).
+      **Hinweis zur Arbeitsweise:** Ab diesem Abschnitt wurde die
+      Paraphrasierung bewusst verschärft (auf Vanessas Nachfrage, ob zu
+      nah an der Quellformulierung gearbeitet wird) — statt Stichpunkte
+      der Quelle nur mit Bindewörtern zu Fließtext zu verketten, wird jetzt
+      stärker unabhängig synthetisiert: eigene Reihenfolge der Argumente,
+      eigene Einstiegsfrage/-these pro Abschnitt, Fakten unverändert.
       **Nächster Fortsetzungspunkt:** Die Datei hat noch 43 Web-Seiten
-      insgesamt, davon S. 1–15 jetzt ausgewertet. Ab S. 16 weiterlesen:
-      die noch komplett unbehandelten Themen Wirbelfrakturen/-luxationen,
+      insgesamt, davon S. 1–24 jetzt ausgewertet. Ab S. 25 weiterlesen:
       Atlantoaxiale Luxation, Zervikale Spondylopathie/Wobbler-Syndrom im
       Detail, Lumbosakrale Instabilität/Stenose im Detail,
       Wirbelmissbildungen, Exostosenbildung, Tumoren der Wirbelsäule/des

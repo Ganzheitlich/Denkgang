@@ -9790,6 +9790,64 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["discus", "rueckenmark"],
   },
+  {
+    id: "spinaler-schock-motoneuron-maskierung-trauma-fruehbefund",
+    category: "UNTERSUCHUNG",
+    title: "Warum die erste neurologische Untersuchung nach einem Unfall zu pessimistisch ausfallen kann",
+    teaser:
+      "Ein frisch verunfallter Hund kann in der ersten Stunde funktionell komplett gelähmt wirken, obwohl das Rückenmark strukturell noch gar nicht dauerhaft geschädigt ist — ein Phänomen, das die Prognose auf den ersten Blick massiv verfälschen kann.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein reversibler Totalausfall, der wie eine bleibende Läsion aussieht",
+        text: "In den ersten ein bis zwei Stunden nach einem Wirbelsäulentrauma kann das Rückenmark seine Funktion vorübergehend komplett einstellen, ohne dass zu diesem Zeitpunkt bereits eine strukturelle (morphologische) Schädigung vorliegt. Dieser sogenannte spinale Schock ist von einer echten, bleibenden Rückenmarkläsion klinisch nicht zu unterscheiden — eine neurologische Untersuchung in diesem Zeitfenster kann das Ausmaß des tatsächlichen Schadens deshalb erheblich überschätzen. Eine belastbare Prognose lässt sich entsprechend erst stellen, wenn dieses Zeitfenster verstrichen ist und sich zeigt, welche Funktionen tatsächlich zurückkehren.",
+      },
+      {
+        type: "text",
+        heading: "Wenn sich zwei Läsionstypen gegenseitig verdecken",
+        text: "Eine zweite, unabhängige Fehlerquelle entsteht, wenn eine Schädigung des oberen motorischen Neurons gleichzeitig mit einer Schädigung des unteren motorischen Neurons auftritt — etwa bei einer Wirbelfraktur mit begleitender Nervenwurzelschädigung. Die für das untere Motoneuron typische schlaffe Lähmung mit erloschenen Reflexen kann dabei die eigentlich vorhandene obere Motoneuronschädigung überdecken, sodass die alleinige Reflexprüfung kurz nach dem Trauma zu einer falschen Lokalisationseinschätzung führen kann.",
+      },
+      {
+        type: "text",
+        heading: "Weitere Warnzeichen, die über den Ersteindruck hinausweisen",
+        text: "Bei Läsionen des kranialen Halsmarks kann eine Atemlähmung auftreten — ein Notfallzeichen, das unabhängig vom sonstigen neurologischen Bild sofort erkannt werden muss. Tritt dagegen erst Tage nach dem Trauma eine aufsteigende Lähmung auf (eher selten, aber ernst zu nehmen), deutet das auf eine progressive, sich sekundär ausbreitende Myelomalazie hin — den in einem eigenen Eintrag beschriebenen Mechanismus der Sekundärschädigung nach akuter Kompression.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Befund überbewertet", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Luxationen/Frakturen/Frakturluxationen — Symptome. Der spinale Schock als reversibler, morphologisch nicht fassbarer Funktionsausfall, die gegenseitige Maskierung von oberer und unterer Motoneuronschädigung sowie Atemlähmung und verzögert auftretende aufsteigende Lähmung als zusätzliche Warnzeichen sind in der Quelle so beschrieben. Verweist auf den bereits bestehenden Eintrag zur Sekundärschädigungskaskade (Myelomalazie) sowie den Eintrag zur allgemeinen OMN-/UMN-Lokalisation, statt deren Inhalte zu wiederholen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "roentgenbild-nach-wirbelsaeulentrauma-momentaufnahme-grenzen",
+    category: "UNTERSUCHUNG",
+    title: "Ein unauffälliges Röntgenbild nach einem Unfall entwarnt nicht automatisch",
+    teaser:
+      "Ein Wirbel kann sich im Moment des Aufpralls massiv verschoben und danach von selbst wieder eingerenkt haben — das Röntgenbild danach zeigt dann nur noch die scheinbar harmlose Endposition.",
+    sections: [
+      {
+        type: "text",
+        heading: "Das Röntgenbild zeigt nur einen Moment, nicht den Unfall selbst",
+        text: "Eine Röntgenaufnahme bildet ausschließlich den Zustand der Wirbelsäule zum Zeitpunkt der Untersuchung ab — nicht das, was im Moment der Gewalteinwirkung tatsächlich passiert ist. Eine Wirbelverlagerung kann kurzzeitig gravierend gewesen sein und sich noch am Unfallort spontan reponiert haben, bevor der Patient in der Praxis geröntgt wird. Das Bild wirkt dann unauffällig, obwohl das Rückenmark für einen kurzen Moment massiv komprimiert oder gedehnt wurde. Rückschlüsse vom Röntgenbild auf den tatsächlichen Zustand des Rückenmarks sind entsprechend nur begrenzt möglich — ein unauffälliger Befund schließt eine relevante Rückenmarkschädigung nicht aus.",
+      },
+      {
+        type: "text",
+        heading: "Warum die Aufnahmetechnik selbst zur Fehlerquelle werden kann",
+        text: "Eine verlässliche Beurteilung ist nur anhand von Aufnahmen in mindestens zwei senkrecht zueinander stehenden Projektionsebenen möglich; für die Beurteilung der Processus articulares und des Dens axis sind zusätzlich Schrägaufnahmen nötig. Die dafür nötige Umlagerung des Patienten birgt selbst ein Risiko und muss mit größter Vorsicht erfolgen. Wird für die Aufnahmen eine Vollnarkose eingesetzt, fällt der stabilisierende Muskeltonus weg — dadurch kann eine an sich noch instabile Wirbelsäule während der Diagnostik erst recht zu einer weiteren, iatrogenen Rückenmarkschädigung führen. Wo möglich, wird deshalb ohne Allgemeinanästhesie geröntgt.",
+      },
+      {
+        type: "text",
+        heading: "Konsequenz für den Umgang mit dem Patienten",
+        text: "Aus diesen beiden Einschränkungen ergibt sich der Grundsatz der schonenden Erstversorgung: Der Patient wird auf eine harte, tragbare Unterlage verbracht und unnötige Manipulation so weit wie möglich vermieden — unabhängig davon, wie das spätere Röntgenbild ausfällt, da dessen Aussagekraft über das tatsächliche Ausmaß der stattgefundenen Krafteinwirkung von vornherein begrenzt ist.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Befund übersehen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Luxationen/Frakturen/Frakturluxationen — Diagnosesicherung/Röntgenuntersuchung. Die Momentaufnahme-Limitation des Röntgenbilds (inkl. spontan reponierter Luxationen), die Notwendigkeit von mindestens zwei Projektionsebenen mit Schrägaufnahmen, das Narkose-bedingte Risiko durch Wegfall des stabilisierenden Muskeltonus sowie der daraus resultierende Grundsatz der schonenden Erstversorgung sind in der Quelle so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
