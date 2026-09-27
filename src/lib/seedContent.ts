@@ -1438,6 +1438,55 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 9.3.3 (Spezifische Untersuchung der Sprunggelenksextensoren, M. gastrocnemius), S. 99f. Ursprung (inkl. Fabellae), gemeinsamer Ansatz am Tuber calcanei, die Überlagerungsverhältnisse, die Sprungfeder-Funktion sowie die klinische Unterscheidung Teilriss/Komplettriss sind im Original so beschrieben. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (27.09.2026) aus konvergenten veterinäranatomischen Fachquellen (u. a. IMAIOS vet-Anatomy, ScienceDirect Veterinary Science): die Innervation über den N. tibialis (der zwischen den beiden Muskelköpfen verläuft) mit Rückenmarkssegmenten L7–S1. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
+  {
+    id: "extensoren-tarsus-zehen",
+    name: "Extensoren-/Pronatorengruppe des Unterschenkels (Tarsus/Zehen)",
+    origin:
+      "M. tibialis cranialis vom Condylus lateralis tibiae; M. extensor digitorum longus von der Fossa extensoria des lateralen Femurkondylus; M. extensor digitorum lateralis vom proximalen Drittel der Fibula; M. extensor digiti I longus vom Kranialrand der Fibula zwischen proximalem und mittlerem Drittel; Mm. peronei longus et brevis vom Condylus lateralis tibiae/Lig. collaterale laterale/proximaler Fibula (Peroneus longus) bzw. den distalen zwei Dritteln von Tibia und Fibula lateral (Peroneus brevis)",
+    insertion:
+      "M. tibialis cranialis medial an den Tarsalknochen und proximomedial an den Metatarsalknochen; die drei Zehenextensoren an den Cristae unguiculares der Krallenbeine der 2.–5. Zehe; M. peroneus longus an Tarsal- und proximalen Metatarsalknochen von plantar; M. peroneus brevis am proximalen Metatarsale V",
+    funktion:
+      "Flexion des Sprunggelenks (in der veterinäranatomischen Terminologie: Anheben der Pfote/Dorsalflexion) und Supination der Pfote durch den M. tibialis cranialis. Die drei Zehenextensoren strecken die Zehen bis zu den Krallenbeinen und unterstützen zusätzlich die Sprunggelenksflexion. Der M. peroneus longus proniert die Pfote und flektiert in der Hangbeinphase zusätzlich das Sprunggelenk; der M. peroneus brevis abduziert die Pfote.",
+    innervation:
+      "N. fibularis (peroneus) profundus für M. tibialis cranialis und die drei Zehenextensoren; N. fibularis (peroneus) superficialis für Mm. peronei longus et brevis — beide Äste des N. fibularis communis, der wiederum aus dem N. ischiadicus hervorgeht",
+    clinicalRelevance:
+      "Bei einer Lähmung des N. peroneus knickt der Hund typischerweise nach lateral um, da die dorsalflektierende/pronierende Gegenkraft zur Sprunggelenksstabilisierung fehlt — dieselbe Nervengruppe versorgt sowohl die Sprunggelenksflexion als auch die Pfotenpronation.",
+    palpationHint:
+      "M. tibialis cranialis liegt direkt unter der Fascia cruris am weitesten kraniomedial der kraniolateralen Unterschenkelmuskeln. M. peroneus longus ist bei großen Hunden als ca. 2 cm starker, gut palpabler Muskelbauch bis etwa zur Unterschenkelmitte lateral zu verfolgen, bevor er in seine Sehne übergeht. Auf der Dorsalseite des Metatarsus sind nur noch die Endsehnen der Zehenextensoren tastbar, keine Muskelbäuche mehr.",
+    transferQ: "Was passiert typischerweise mit der Sprunggelenksstellung, wenn der N. peroneus gelähmt ist?",
+    transferOptions: [
+      { label: "Der Hund knickt im Sprunggelenk nach lateral um, weil die dorsalflektierende/pronierende Muskelgruppe ausfällt", correct: true },
+      { label: "Das Sprunggelenk wird dauerhaft maximal gestreckt und stabil", correct: false },
+      { label: "Es gibt keinerlei Auswirkung auf das Sprunggelenk", correct: false },
+      { label: "Der Hund kann die Zehen nicht mehr beugen, das Sprunggelenk bleibt aber unbeeinflusst", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 9.3.1–9.3.2 (Spezifische Untersuchung der Sprunggelenksflexoren und Zehenflexoren [Funktionsbeschreibung der Peronei/Extensoren]) sowie Kap. 9.1 (laterale Sprunggelenksinstabilität und N.-peroneus-Lähmung), S. 96–99. Ursprung, Ansatz und Funktion der fünf Einzelmuskeln sowie der Zusammenhang zwischen N.-peroneus-Lähmung und lateralem Umknicken sind im Original so beschrieben. Innervation im Original nicht als Sammelangabe genannt. Ergänzt per Web-Recherche (27.09.2026) aus konvergenten veterinäranatomischen Fachquellen: die Aufteilung in N. fibularis profundus (Tibialis cranialis/Extensoren) und N. fibularis superficialis (Peronei). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
+  {
+    id: "flexoren-tarsus-zehen",
+    name: "Flexorengruppe des Unterschenkels (Tarsus/Zehen, ohne M. gastrocnemius)",
+    origin:
+      "M. flexor digitorum superficialis von der Fossa supracondylaris ossis femoris und der Tuberositas supracondylaris lateralis (zwischen den Gastrocnemiusköpfen); M. flexor digitorum lateralis proximokaudal von Tibia und Fibula; M. flexor digitorum medialis vom Caput fibulae; M. tibialis caudalis proximal der Fibula",
+    insertion:
+      "M. flexor digitorum superficialis bildet über seine Sehne die Fersenkappe am Tuber calcanei und zieht weiter plantar zur Phalanx media der 2.–5. Zehe; die Mm. flexores digitorum lateralis et medialis (zusammen Mm. flexores digitorum profundi) teilen sich mittig am Metatarsus in vier Sehnen und ziehen plantar zu den Zehen 2–5; der schwache M. tibialis caudalis kreuzt die Tibia kaudal und inseriert mit zarter Endsehne medial am Sprunggelenk",
+    funktion:
+      "M. flexor digitorum superficialis flektiert die Zehen bis zum proximalen Interphalangealgelenk (PIP), streckt das Sprunggelenk und wirkt als Hilfsbeuger im Kniegelenk. Die Mm. flexores digitorum profundi flektieren die Zehen bis zum distalen Interphalangealgelenk (DIP) und wirken als Hilfsextensor des Sprunggelenks — der M. flexor digitorum lateralis ist dabei der stärkste der drei tiefen Zehenbeuger. Der M. tibialis caudalis bleibt beim Hund funktionell schwach und eigenständig.",
+    innervation: "N. tibialis (Ast des N. ischiadicus) — dieselbe Nervengruppe wie beim M. gastrocnemius, mit dem diese Muskeln die kaudale (plantarflektierende) Muskelgruppe des Unterschenkels bilden",
+    clinicalRelevance:
+      "Der M. flexor digitorum superficialis weist mit ca. 55 % Typ-I-Fasern einen hohen Anteil ermüdungsresistenter Fasern auf und gilt damit als Antischwerkraftmuskel — kein Zufall, dass er nach einem Achillessehnenabriss oft der letzte ist, der das Körpergewicht noch trägt (siehe den bestehenden Eintrag zum M. gastrocnemius für die klinische Teilriss-/Komplettriss-Unterscheidung).",
+    palpationHint:
+      "Alle drei Hauptmuskeln liegen an der Kaudalseite der Tibia. Palpation proximokaudal von Tibia und Fibula (M. flexor digitorum lateralis), vom Caput fibulae (M. flexor digitorum medialis) und proximal der Fibula lateral in der Tiefe (M. tibialis caudalis) jeweils in Richtung ihres Ansatzes an der Plantarseite des Tarsus.",
+    transferQ: "Warum gilt der M. flexor digitorum superficialis als Antischwerkraftmuskel?",
+    transferOptions: [
+      { label: "Weil er ca. 55 % ermüdungsresistente Typ-I-Fasern besitzt", correct: true },
+      { label: "Weil er ausschließlich beim Liegen aktiv ist", correct: false },
+      { label: "Weil er der einzige Muskel ohne Sehne ist", correct: false },
+      { label: "Weil er nur bei jungen Hunden vorkommt", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 9.3.2–9.3.3 (Spezifische Untersuchung der Zehenflexoren und Sprunggelenksextensoren), S. 97–99. Ursprung, Ansatz, Funktion, der Typ-I-Faseranteil des M. flexor digitorum superficialis sowie die Sonderstellung des schwachen M. tibialis caudalis sind im Original so beschrieben. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (27.09.2026) aus konvergenten veterinäranatomischen Fachquellen: die Innervation über den N. tibialis, analog zur bereits verifizierten Innervation des M. gastrocnemius (kaudale Muskelgruppe). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -6158,7 +6207,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 9.3.1 und 9.3.4 (Spezifische Untersuchung der Sprunggelenksflexoren und Zehenextensoren), S. 97–99. Muskelfunktionen, Palpationswege und Retinacula sind im Original so beschrieben. Ergänzt den bestehenden Eintrag `tibiofibulargelenke` (Gelenkmechanik desselben Kapitels) um die zugehörige Muskulatur.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["extensoren-tarsus-zehen"],
   },
   {
     id: "zehenbeuger-oberflaechlich-tief-differenzierung",
@@ -6194,7 +6243,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 9.3.2 und 9.3.3 (Spezifische Untersuchung der Zehenflexoren), S. 97–99. Fasertyp-Angabe, Funktionen und Differenzierungstests sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["flexoren-tarsus-zehen", "musculus-gastrocnemius-anatomie"],
   },
   {
     id: "musculus-gastrocnemius-sprungfeder-tendo-calcaneus",

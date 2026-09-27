@@ -161,17 +161,22 @@ kein Überblick verloren geht.
   (Ursprung/Ansatz/Funktion aus Hárrer, Innervation per Web-Recherche
   ergänzt) — damit ist die zuvor offene Hamstrings-/
   Unterschenkelmuskulatur-Lücke geschlossen, 29 → 31 Anatomie-Items.
-  Details siehe ANATOMIE-Backlog unten. Nächster Schritt: nächstes
-  fallunabhängiges Anatomie-Item (Processus anconaeus/Processus
-  coronoideus medialis am Ellbogen, oder Ligamentum capitis femoris an
-  der Hüfte) oder ein neues Buch — Baumgartner/Wittek/Khol trotz der
-  bekannten Einschränkungen.
-- Anatomie-Sektion: 31 Items. Die ursprünglichen 29 haben vollständige
+  Danach 2 weitere gruppierte Items, das Hintergliedmaßen-Pendant zu den
+  bereits bestehenden Karpus-Gruppen: `extensoren-tarsus-zehen` und
+  `flexoren-tarsus-zehen` (Hárrer Kap. 9.3, S. 96–99) — 31 → 33
+  Anatomie-Items, damit ist die komplette Hintergliedmaße von Hüfte bis
+  Zehen abgedeckt. Processus anconaeus/coronoideus medialis und Lig.
+  capitis femoris bleiben bewusst offen (Schema-Mismatch, siehe
+  ANATOMIE-Backlog unten — keine einseitige Datenmodell-Änderung ohne
+  Rücksprache). Nächster Schritt: ein neues Buch wählen — Baumgartner/
+  Wittek/Khol trotz der bekannten Einschränkungen.
+- Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
-  oben); die 2 neuen (semimembranosus, gastrocnemius) tragen dieselbe
-  Vollständigkeit, mit klar gekennzeichneten Web-Ergänzungen für die im
-  Original fehlende Innervation — keine offenen "Im Quellentext nicht
-  genannt"-Kernfelder mehr.
+  oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
+  flexoren-tarsus-zehen) tragen dieselbe Vollständigkeit, mit klar
+  gekennzeichneten Web-Ergänzungen für die im Original fehlende
+  Innervation — keine offenen "Im Quellentext nicht genannt"-Kernfelder
+  mehr.
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
   aktiv mit einer zweiten Quelle abgeglichen (siehe Toe-in/Toe-out-Fund
@@ -1676,6 +1681,39 @@ gelesenen Quellen:
       `musculus-gastrocnemius-sprungfeder-tendo-calcaneus` um
       `relatedAnatomyIds`-Verknüpfung zu den neuen Items ergänzt. Verifiziert
       via Playwright (2/2 Seiten, 0 Fehler). Damit: 31 Anatomie-Items.
+- [x] **Zwei gruppierte Items für Extensoren-/Pronatorengruppe und
+      Flexorengruppe des Unterschenkels (Tarsus/Zehen) (27.09.2026) —
+      Hintergliedmaßen-Pendant zu den bereits bestehenden Karpus-Gruppen der
+      Vordergliedmaße.** `extensoren-tarsus-zehen` (M. tibialis cranialis,
+      Mm. peronei longus et brevis, Mm. extensores digitorum longus et
+      lateralis, M. extensor digiti I longus) und `flexoren-tarsus-zehen`
+      (M. flexor digitorum superficialis, Mm. flexores digitorum profundi
+      [lateralis et medialis], M. tibialis caudalis) — verifiziert gegen
+      Hárrer Kap. 9.3.1–9.3.4, S. 96–99. Innervation im Original nicht als
+      Sammelangabe genannt, per Web-Recherche ergänzt (N. fibularis
+      profundus/superficialis bzw. N. tibialis), mit WICHTIGE-EINSCHRÄNKUNG-
+      Kennzeichnung. Bestehende Wissenseinträge
+      `unterschenkelmuskulatur-dorsalflexoren-uebersicht` und
+      `zehenbeuger-oberflaechlich-tief-differenzierung` um
+      `relatedAnatomyIds`-Verknüpfung ergänzt. Verifiziert via Playwright
+      (2/2 Seiten, 0 Fehler). Damit: 33 Anatomie-Items — die komplette
+      Hintergliedmaße von Hüfte bis Zehen ist jetzt mit Anatomie-Items
+      abgedeckt (Ausnahme: einzelne Zehengelenk-Kollateralbänder, siehe
+      unten).
+      **Bewusste Scope-Entscheidung zu Processus anconaeus/coronoideus
+      medialis und Lig. capitis femoris:** Das AnatomySeed-Datenmodell
+      (Ursprung/Ansatz/Funktion/Innervation) ist strukturell auf Muskeln
+      zugeschnitten. Reine Knochenfortsätze wie der Processus anconaeus
+      oder der Processus coronoideus medialis (keine Muskeln, kein
+      Ursprung/Ansatz im eigentlichen Sinn) passen nicht sinnvoll in dieses
+      Schema — eine Erzwingung würde die Feldbedeutung verfälschen. Das
+      Lig. capitis femoris (ein Band, kein Muskel) hätte zwar zwei
+      Ansatzpunkte, aber keine muskuläre „Funktion" oder Innervation im
+      selben Sinn. Beide Punkte bleiben daher im Backlog offen, bis
+      entweder eine eigene Datenstruktur für Knochen-/Bandlandmarken
+      entsteht (Frage an Vanessa, keine einseitige Schemaänderung) oder sie
+      passender als Abschnitt eines bestehenden Wissenseintrags ergänzt
+      werden.
 - [x] M. brachialis, M. triceps brachii, M. tensor fasciae antebrachii,
       M. anconeus (komplette Ellbogenflexoren-/-extensorengruppe) —
       verifiziert gegen Hárrer Kap. 13, S. 165–178
