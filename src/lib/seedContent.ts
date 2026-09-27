@@ -10299,6 +10299,213 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
+  {
+    id: "bewusstseinsstufen-apathie-somnolenz-stupor-koma",
+    category: "UNTERSUCHUNG",
+    title: "Apathie, Somnolenz, Stupor, Koma: eine Stufenskala, kein Sammelbegriff",
+    teaser:
+      "Wer „der Hund wirkt müde und teilnahmslos“ pauschal als Apathie notiert, verschenkt Information — die vier Begriffe bilden eine geordnete Skala mit jeweils eigenem Prüfkriterium.",
+    sections: [
+      {
+        type: "text",
+        heading: "Nicht mit dem Allgemeinbefund verwechseln",
+        text: "Die Beurteilung des Allgemeinverhaltens prüft grob das Bewusstsein, die Sinne und ihre Verarbeitung im Gehirn — und ist damit etwas anderes als der Allgemeinbefund, der Körpertemperatur, Puls und Atmung umfasst. Beide Ebenen ergänzen sich, sollten aber begrifflich nicht vermischt werden: Ein fieberhaft erkranktes Tier fällt zwar oft schon durch sein Verhalten auf, die eigentliche Ursache dafür liegt aber nicht im Allgemeinverhalten selbst.",
+      },
+      {
+        type: "table",
+        heading: "Vier Stufen zunehmender Bewusstseinstrübung",
+        columns: ["Stufe", "Erscheinungsbild", "Reaktion auf Reize"],
+        rows: [
+          [
+            "Apathie",
+            "Teilnahmslosigkeit gegenüber der Umwelt",
+            "Bereits durch schwache Reize aktivierbar",
+          ],
+          [
+            "Somnolenz",
+            "Matt und schläfrig wirkend, leichtes Schwanken beim Gehen, Augenlider halb geschlossen, reduzierte spontane Futter- und Wasseraufnahme",
+            "Durch äußere Reize noch normal weckbar",
+          ],
+          [
+            "Stupor (Sopor)",
+            "Liegt, ausgesprochen schlafsüchtiges Verhalten, tiefe Atmung, typische Schlafstellungen",
+            "Nur durch sehr starke Reize (v. a. Schmerz) kurzzeitig aufzutreiben — lässt der Reiz nach, fällt das Tier sofort wieder zurück",
+          ],
+          [
+            "Koma",
+            "Nicht weckbar; Reflexe können verzögert oder aufgehoben sein; Atmung kann oberflächlich sein",
+            "Selbst starke Schmerzreize verändern die Bewusstseinslage nicht mehr",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum die Abstufung praktisch zählt",
+        text: "Die vier Begriffe unterscheiden sich nicht nur graduell, sondern durch ein konkretes Prüfkriterium: ob und mit welcher Reizstärke sich das Tier noch aus seinem Zustand herausholen lässt. Stupor und Koma lassen sich dabei nur zuverlässig unterscheiden, wenn tatsächlich ein starker, notfalls schmerzhafter Reiz gesetzt wird — eine rein beobachtende Einschätzung reicht nicht aus, um beide auseinanderzuhalten. Wer diese Abstufung überspringt und pauschal von „Apathie“ spricht, verschenkt eine Information, die für Dringlichkeit und Prognose unmittelbar relevant ist.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Faktenwissen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 4.2 „Allgemeinverhalten“, S. 53–56. Die Abgrenzung von Allgemeinverhalten und Allgemeinbefund sowie die vier Bewusstseinsstufen mit ihren jeweiligen Reizschwellen-Kriterien sind im Original so beschrieben. Die zahlreichen tierartspezifischen Verhaltensbeschreibungen (Pferd, Schwein, Vögel, Reptilien, Kleinnager) in diesem Abschnitt wurden bewusst nicht übernommen, da sie für Denkgang (Hund) nicht relevant sind. Ergänzt den bestehenden Eintrag `bewusstsein-haltung-gang-neurologisch`, der diese vier Begriffe bisher nur als undifferenzierte Gruppe nennt, um die Abgrenzungskriterien zwischen ihnen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "fieberterminologie-grade-verlaufsmuster",
+    category: "UNTERSUCHUNG",
+    title: "Fieber ist nicht gleich Fieber: Grade und Verlaufsmuster",
+    teaser:
+      "38,9 °C beim Hund kann noch normal sein oder schon deutlich erhöht — und selbst echtes Fieber lässt sich nach Verlaufsmuster weiter unterscheiden, sobald mehrfach am Tag gemessen wird.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein Wert allein sagt wenig, ohne Referenz und Messsorgfalt",
+        text: "Die physiologische innere (rektale) Körpertemperatur des Hundes liegt zwischen 38,0 und 39,0 °C, wobei kleinere Rassen tendenziell am oberen, große Rassen eher am unteren Ende dieses Bereichs liegen. Bevor ein erhöhter Wert als Fieber gewertet wird, müssen typische Fehlerquellen ausgeschlossen werden: Eine Messung sollte frühestens eine Stunde nach körperlicher Anstrengung, Transport oder Futteraufnahme erfolgen, da all das die gemessene Temperatur falsch erhöhen kann — ebenso wie Aufregung während der Untersuchung selbst. Auch bei technisch korrekter Messung kann der Wert verfälscht sein: Eine Entzündung des Mastdarms oder ein periproktaler Abszess täuschen einen zu hohen Wert vor, eine mangelnde Schließfunktion des Afters oder eine kurz zuvor erfolgte Klistierspülung dagegen einen zu niedrigen.",
+      },
+      {
+        type: "table",
+        heading: "Grade der Temperaturerhöhung",
+        columns: ["Bezeichnung", "Abweichung vom oberen Referenzwert"],
+        rows: [
+          ["subfebril", "0,1–0,2 °C"],
+          ["geringgradig erhöht", "bis 1 °C"],
+          ["mittelgradig erhöht", "> 1–2 °C"],
+          ["hochgradig erhöht", "> 2–3 °C"],
+          ["hyperpyretisch", "mehr als 3 °C über dem oberen physiologischen Grenzwert"],
+          ["subnormal", "unter dem unteren physiologischen Grenzwert"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Der Verlauf zeigt oft mehr als der Einzelwert",
+        text: "Erst wiederholte, mindestens zweimal tägliche Messungen zeigen das eigentlich aussagekräftige Muster: die Fieberkurve. Je nach Verlaufsform unterscheidet man mehrere Fiebertypen.",
+      },
+      {
+        type: "table",
+        heading: "Fiebertypen nach Tagesverlauf",
+        columns: ["Fiebertyp", "Kennzeichen"],
+        rows: [
+          ["Febris continua (kontinuierlich)", "Tagesschwankungen unter 1 °C"],
+          ["Febris remittens (remittierend)", "Tagesschwankungen über 1 °C"],
+          [
+            "Febris intermittens (intermittierend)",
+            "Kurze fieberfreie Phasen zwischen einzelnen Fieberanfällen",
+          ],
+          [
+            "Febris recurrens (rekurrierend)",
+            "Wechselnd lange fieberfreie Phasen zwischen längeren Fieberanfällen",
+          ],
+          [
+            "Febris atypica (atypisch)",
+            "Wechselnde Tagesschwankungen ohne erkennbar regelmäßigen Verlauf — in der Praxis die häufigste Fieberform",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Eine Umkehr, die nur beim mehrfachen Messen auffällt",
+        text: "Physiologisch ist die Körpertemperatur morgens am niedrigsten und steigt zum späten Nachmittag hin an. Ist die Morgentemperatur ausnahmsweise höher als die Abendtemperatur, wird dies als Typus inversus bezeichnet — ein Muster, das nur sichtbar wird, wenn tatsächlich zu beiden Tageszeiten gemessen wird, nicht nur einmalig.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 4.6 „Innere Körpertemperatur“, S. 81–83. Referenzwert für den Hund, die genannten Fehlerquellen, die Grade der Temperaturerhöhung, die fünf Fiebertypen nach Tagesverlauf sowie der Typus inversus sind im Original so beschrieben. Vor diesem Eintrag enthielt Denkgang keinerlei strukturierte Fieber- oder Temperaturterminologie.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "pulsqualitaet-terminologie-hund",
+    category: "UNTERSUCHUNG",
+    title: "Kräftig, hüpfend, träge: was die Pulsqualität verrät",
+    teaser:
+      "Die Pulsfrequenz ist nur eines von mehreren Beurteilungskriterien — Kraft und Form der Pulswelle liefern einen eigenständigen diagnostischen Hinweis, den eine reine Frequenzmessung nicht erfasst.",
+    sections: [
+      {
+        type: "text",
+        heading: "Fünf Kriterien statt nur der Frequenz",
+        text: "Bei der Pulsuntersuchung wird nicht nur die Frequenz gezählt (eine Viertelminute lang, mit 4 multipliziert), sondern zusätzlich Qualität, Rhythmus, Gleichmäßigkeit, Füllung und Spannung des Gefäßes geprüft. Die Qualität — Kraft und Form der Pulswelle — wird ermittelt, indem der herznahe Finger die Pulswelle zunehmend abdrückt, bis der herzferne Finger ihr Ausbleiben registriert: Aus dem dafür nötigen Druck lässt sich auf die Kraft der Welle schließen, aus der Geschwindigkeit von Anstieg und Abfall auf ihre Form.",
+      },
+      {
+        type: "table",
+        heading: "Frequenz- und Qualitätsbezeichnungen",
+        columns: ["Begriff", "Bedeutung"],
+        rows: [
+          ["Pulsus frequens", "Beschleunigter Puls (Tachykardie)"],
+          ["Pulsus rarus", "Verlangsamter Puls (Bradykardie)"],
+          [
+            "Pulsus parvus et debilis",
+            "Vermindert kräftiger, schwacher Puls — Folge einer Herzschwäche oder eines zu geringen Blutangebots ans Herz",
+          ],
+          [
+            "Pulsus magnus et fortis",
+            "Vermehrte Pulskraft und -füllung — Folge einer linksseitigen Herzhypertrophie mit kräftigem Schlagvolumen",
+          ],
+          [
+            "Pulsus celer",
+            "Rasch ansteigende und ebenso rasch abfallende Pulswelle („hüpfender Puls“)",
+          ],
+          ["Pulsus tardus", "Träge ansteigende und abfallende Pulswelle"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Der hüpfende Puls als Hinweis auf eine bestimmte Klappenerkrankung",
+        text: "Ein Pulsus celer ist nicht nur eine deskriptive Formvariante, sondern hat eine sehr spezifische Erklärung: Er gilt als charakteristisch für eine Insuffizienz der Aortenklappen. Weil das Blut während der Diastole zu einem Teil in die linke Herzkammer zurückströmt, zieht sich die Aorta besonders rasch wieder zusammen — die Pulswelle fällt entsprechend genauso steil ab, wie sie angestiegen ist. Wer einen hüpfenden Puls rein beschreibend als „kräftig“ einordnet, übersieht damit einen konkreten Hinweis auf die zugrunde liegende Klappenpathologie.",
+      },
+      {
+        type: "text",
+        heading: "Wenn Puls und Herzfrequenz auseinanderfallen",
+        text: "Gelingt die Pulsuntersuchung aus irgendeinem Grund nicht zuverlässig (zu schwacher Puls, Unruhe, Fettansatz), wird ersatzweise die Herzfrequenz gezählt — deren Wert aber nicht zwangsläufig mit der tatsächlichen Pulsfrequenz übereinstimmt (Pulsdefizit). Physiologisch kommt beim Hund zudem eine respiratorische Arrhythmie vor: Der Puls ist während der Einatmung stets frequenter als während der Ausatmung, allerdings nur bis zu einer Herzfrequenz von etwa 140–160 Schlägen pro Minute nachweisbar — oberhalb dieser Grenze geht die Unregelmäßigkeit in einen regelmäßigen Rhythmus über. Eine unregelmäßige Pulsfrequenz beim ruhigen Hund ist daher nicht automatisch pathologisch, sondern kann schlicht diese physiologische Atemkopplung sein.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Faktenwissen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 4.7 „Puls“, S. 84–87. Die fünf Beurteilungskriterien, die Pulsus-Terminologie samt Ursachen, der Pulsus celer als Aortenklappeninsuffizienz-Hinweis, das Pulsdefizit sowie die physiologische respiratorische Arrhythmie mit ihrer Frequenzobergrenze sind im Original so beschrieben. Vor diesem Eintrag enthielt Denkgang keinerlei Pulsqualitäts-Terminologie.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "atemtypus-dyspnoe-pathologische-atemmuster",
+    category: "UNTERSUCHUNG",
+    title: "Wie man Atemnot präzise beschreibt, statt nur „Dyspnoe“ zu notieren",
+    teaser:
+      "Vier Kriterien — Frequenz, Typus, Rhythmus, Qualität — zerlegen eine unspezifische Beobachtung wie „der Hund atmet schwer“ in eine Beschreibung, die tatsächlich weiterhilft.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Atemtypus als erstes Kriterium",
+        text: "Beim Hund ist physiologisch der kostoabdominale Atemtypus zu erwarten: Brust- und Bauchwand bewegen sich etwa im gleichen Ausmaß. Ein rein kostaler (nur Brustatmung) oder rein abdominaler (nur Bauchatmung) Typus gilt dagegen als pathologisch. Ebenfalls pathologisch ist der Typus inversus der Atmung: Hier verkleinert sich das Abdomen bei der Einatmung, statt sich wie physiologisch zu vergrößern — beim sogenannten Afteratmen sinkt dabei der After bei der Einatmung sichtbar in die Beckenhöhle hinein.",
+      },
+      {
+        type: "text",
+        heading: "Dyspnoe wird nach vier Kriterien beurteilt, nicht pauschal notiert",
+        text: "Als Dyspnoe gilt jede krankhaft erschwerte Atmung. Um sie präzise zu beschreiben, werden dieselben vier Kriterien geprüft wie bei der physiologischen Atembeurteilung: Frequenz, Typus, Rhythmus und Qualität — einzeln oder in Kombination betroffen. Je nachdem, welche Atemphase erschwert ist, unterscheidet man inspiratorische, exspiratorische oder gemischte Dyspnoe, dem Grad nach gering-, mittel- oder hochgradige. Eine erhöhte Atemanstrengung ist dabei nicht automatisch krankhaft: Bei Anstrengung, in großer Höhe oder bei psychischer Erregung tritt physiologischerweise eine Arbeits- oder Ruhedyspnoe auf.",
+      },
+      {
+        type: "table",
+        heading: "Pathologische Atemrhythmus-Muster nach länger andauernden Atempausen",
+        columns: ["Muster", "Kennzeichen"],
+        rows: [
+          ["Biot-Atmen", "Normale Atemzüge folgen unmittelbar auf die Atempause"],
+          ["Synkopisches Atmen", "Zunächst tiefe Atemzüge, die allmählich flacher werden"],
+          [
+            "Cheyne-Stokes-Atmen",
+            "Oberflächliche Atemzüge, die zunächst tiefer und dann wieder oberflächlicher werden",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Zwei Sonderformen, die die Beurteilung selbst verhindern",
+        text: "Hecheln — beschleunigtes, kurzes, oberflächliches Atmen mit heraushängender Zunge zur Wärmeabgabe — macht die Atmung während seines Auftretens weder zählbar noch anderweitig beurteilbar; die eigentliche Atembeurteilung muss davor oder danach erfolgen. Singultus (Schluckauf) entsteht durch ruckartige, klonische Kontraktionen des Zwerchfells infolge einer Reizung des N. phrenicus und ist von echten Bauchmuskelkrämpfen zu unterscheiden: Beim Singultus wölbt sich die Bauchwand ruckartig nach außen, weil sich das Zwerchfell abflacht.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Faktenwissen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 4.10.1 „Atmung“, S. 117–120. Atemtypen, Typus inversus/Afteratmen, die vier Dyspnoe-Beurteilungskriterien, die drei pathologischen Atemrhythmus-Muster sowie Hecheln und Singultus sind im Original so beschrieben. Vor diesem Eintrag enthielt Denkgang keine strukturierte Atemtypus-/Dyspnoe-Terminologie.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

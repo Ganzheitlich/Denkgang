@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (27.09.2026)
 
-- Wissensbibliothek: 220 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 60
+- Wissensbibliothek: 224 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 64
   Untersuchung, 76 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -206,9 +206,18 @@ kein Überblick verloren geht.
   Trizeps-, Flexor-, Anal-/Perinealreflex) fehlten bisher komplett als
   Referenztabelle mit Nerv/Segment/Auslösetechnik, ebenso der in der
   Praxis wichtige Pannikulusreflex zur groben Höhenlokalisation
-  thorakolumbaler Rückenmarksläsionen. Daraus 2 neue Einträge. Kap. 4
-  „Allgemeiner klinischer Untersuchungsgang" ist noch nicht gelesen —
-  siehe UNTERSUCHUNG-Backlog für den Stand im Detail.
+  thorakolumbaler Rückenmarksläsionen. Daraus 2 neue Einträge. Danach
+  die vier ursprünglich vorgemerkten Abschnitte aus Kap. 4 „Allgemeiner
+  klinischer Untersuchungsgang" gelesen (4.2 Allgemeinverhalten, 4.6
+  Körpertemperatur, 4.7 Puls, 4.10.1 Atmung) — hier gab es bisher
+  **keinerlei** strukturierte Terminologie in Denkgang. 4 neue,
+  überwiegend tabellenbasierte Einträge zu Bewusstseinsstufen
+  (Apathie/Somnolenz/Stupor/Koma), Fieberterminologie (Grade,
+  Verlaufsmuster), Pulsqualität (Pulsus-Terminologie) und
+  Atemtypus/Dyspnoe-Terminologie. Damit sind alle vier vorgemerkten
+  Kap.-4-Abschnitte abgearbeitet; die übrigen, nicht vorgemerkten
+  Abschnitte von Kap. 4 sind offen — siehe UNTERSUCHUNG-Backlog für den
+  Stand im Detail.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -882,9 +891,42 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Mobile-Breite mit sehr schmalen Spalten (bestehendes,
       appweites Verhalten aller Tabellen-Einträge, keine Regression aus
       diesem Content).
-      Nächster Schritt: Kap. 4 „Allgemeiner klinischer Untersuchungsgang"
-      (S. 50–163, u. a. 4.2 Allgemeinverhalten, 4.6 Körpertemperatur, 4.7
-      Puls, 4.10.1 Atmung) — noch ungelesen.
+- [x] **Kap. 4 „Allgemeiner klinischer Untersuchungsgang" — die vier
+      vorgemerkten Abschnitte 4.2, 4.6, 4.7, 4.10.1 gelesen, 4 neue
+      Einträge (27.09.2026).** Datei kl(4).pdf (S. 50–163) ist mit knapp
+      390.000 Zeichen die bisher größte Einzeldatei dieses Buches und zu
+      weiten Teilen multi-spezies-spezifisch (Kolik beim Pferd,
+      Terrarienhaltung, Vogelverhalten, Wiederkäuer-Pansenperkussion
+      usw.) — diese Anteile wurden übersprungen. Die vier vorgemerkten,
+      allgemein gehaltenen Abschnitte erwiesen sich dagegen als
+      vollständig neues Terrain: Denkgang hatte bisher **keinerlei**
+      strukturierte Terminologie zu Bewusstseinsstufen, Fieber oder
+      Puls-/Atemqualität. Vier neue, überwiegend tabellenbasierte
+      Nachschlage-Einträge:
+      `bewusstseinsstufen-apathie-somnolenz-stupor-koma` (4.2, S. 53–56;
+      ergänzt den bestehenden Eintrag `bewusstsein-haltung-gang-
+      neurologisch`, der die vier Begriffe bisher nur ungegliedert als
+      Gruppe nennt, um die Abgrenzungskriterien zwischen ihnen),
+      `fieberterminologie-grade-verlaufsmuster` (4.6, S. 81–83: Referenz-
+      wert Hund, Fehlerquellen, Grade der Temperaturerhöhung, fünf
+      Fiebertypen nach Tagesverlauf, Typus inversus),
+      `pulsqualitaet-terminologie-hund` (4.7, S. 84–87: die
+      Pulsus-Terminologie inkl. Pulsus celer als spezifischer
+      Aortenklappeninsuffizienz-Hinweis, Pulsdefizit, physiologische
+      respiratorische Arrhythmie) und
+      `atemtypus-dyspnoe-pathologische-atemmuster` (4.10.1, S. 117–120:
+      Atemtypen, Dyspnoe-Beurteilungskriterien, Biot-/synkopisches/
+      Cheyne-Stokes-Atmen, Hecheln, Singultus). Verifiziert per
+      Playwright-Screenshot (4/4 Seiten, 0 Console-/Page-Errors) — die
+      2-spaltigen Tabellen dieser Einträge rendern bei 390px
+      Mobile-Breite sauber lesbar (im Gegensatz zur 4-spaltigen
+      Reflex-Tabelle aus Kap. 7).
+      **Damit sind alle vier ursprünglich vorgemerkten Abschnitte aus
+      Kap. 4 abgearbeitet.** Die übrigen Abschnitte von Kap. 4 (4.1
+      Vorbericht, 4.3–4.5 Körperhaltung/Ernährungszustand/Haut, 4.8–4.9
+      Kopf/Hals, 4.10.2–4.10.5 Thoraxpalpation/-perkussion/-auskultation)
+      waren nicht vorgemerkt und wurden nicht systematisch gelesen — bei
+      Bedarf für eine spätere Session offen.
 
 - [ ] **Ursprüngliche Struktur-Erkundung (25.09.2026, weiterhin gültig für
       die noch nicht gelesenen Kapitel/Abschnitte).**
