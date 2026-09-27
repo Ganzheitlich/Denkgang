@@ -10177,6 +10177,128 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["facettengelenke"],
   },
+  {
+    id: "spinale-reflexe-hund-nerv-segment-technik",
+    category: "UNTERSUCHUNG",
+    title: "Spinale Reflexe des Hundes: Nerv, Segment und Auslösetechnik",
+    teaser:
+      "Jeder Klopfreflex hat ein festes Rückenmarksegment als Reflexzentrum — trifft der Reflexhammer nicht exakt die vorgegebene Stelle, prüft man ein anderes Segment oder gar keines.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum die Auslösestelle so genau vorgegeben ist",
+        text: "Ein myotaktischer Reflex verläuft über einen festen Reflexbogen: ein Rezeptor in der Muskelspindel, eine sensible Bahn, eine Umschaltstelle in einem ganz bestimmten Rückenmarksegment und eine motorische Bahn zurück zum selben Muskel. Weil dieses Reflexzentrum an ein festes Segment gebunden ist, prüft jeder Reflex — je nach Auslöseort — immer nur genau diesen einen Abschnitt des Rückenmarks. Wird die Sehne oder der Muskelbauch nicht exakt an der vorgegebenen Stelle beklopft, wird entweder ein Nachbarsegment geprüft oder gar kein Reflex ausgelöst.",
+      },
+      {
+        type: "table",
+        heading: "Reflexe der Hintergliedmaße",
+        columns: ["Reflex", "Nerv", "Segment", "Auslösung und Reaktion"],
+        rows: [
+          [
+            "Patellarreflex",
+            "N. femoralis",
+            "L4–L6",
+            "Beklopfen des geraden Kniescheibenbandes in Seitenlage → Extension der Gliedmaße durch Kontraktion des M. quadriceps femoris",
+          ],
+          [
+            "Tibialis-cranialis-Reflex",
+            "N. fibularis",
+            "L6–S2",
+            "Beklopfen des M. tibialis cranialis dorsolateral im oberen Unterschenkeldrittel, knapp unterhalb des Kniegelenks → Beugung des Sprunggelenks",
+          ],
+          [
+            "Achillessehnenreflex",
+            "N. tibialis",
+            "L5–S1",
+            "Beklopfen der Achillessehne über dem Fersenbeinhöcker bei gebeugtem Sprunggelenk → geringgradige Streckung; meist nur undeutlich auslösbar, eine schwache Antwort gilt nicht als abnormal",
+          ],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Reflexe der Vordergliedmaße",
+        columns: ["Reflex", "Nerv", "Segment", "Auslösung und Reaktion"],
+        rows: [
+          [
+            "Extensor-carpi-radialis-Reflex",
+            "N. radialis",
+            "C7–Th1",
+            "Beklopfen des Muskels dorsolateral des Ellbogens bei leicht gebeugtem Ellbogen- und Karpalgelenk → geringgradige Streckung des Karpalgelenks",
+          ],
+          [
+            "Trizepsreflex",
+            "N. radialis",
+            "C6–Th1",
+            "Beklopfen der Trizepssehne oberhalb des Olekranons bei abduziertem, gebeugtem Ellbogen → geringgradige Streckung; nur mit viel Erfahrung sicher beurteilbar",
+          ],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Schutzreflexe ohne festes Einzelsegment",
+        columns: ["Reflex", "Nerv", "Segment", "Auslösung und Reaktion"],
+        rows: [
+          [
+            "Flexorreflex",
+            "mehrere periphere Nerven (Schutzreflex)",
+            "kein festes Einzelsegment",
+            "Zwicken von Zehen, Fußballen oder Zwischenzehenhaut → Anziehen der Extremität mit Beugung aller Gelenke",
+          ],
+          [
+            "Anal-/Perinealreflex",
+            "N. pudendus",
+            "Sakralmark",
+            "Berühren von Anus, Perineum oder Schweifunterseite → Kontraktion des M. sphincter ani externus und der Schweifmuskulatur",
+          ],
+          [
+            "Bulbokavernosus-/Vulvareflex",
+            "N. pudendus",
+            "Sakralmark",
+            "Streichen am Bulbus penis bzw. an der Vulva → dieselbe Kontraktionsantwort wie beim Anal-/Perinealreflex",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Gesteigert heißt nicht automatisch intakter",
+        text: "„Vorhanden und prompt“ ist der physiologische Normalbefund. Ein herabgesetzter oder erloschener Reflex zeigt eine Unterbrechung irgendwo im Reflexbogen selbst an — im Rezeptor, in der sensiblen oder motorischen Bahn, in der Synapse oder im Erfolgsorgan (z. B. bei Muskeldegeneration). Ein gesteigerter Reflex bedeutet dagegen meist das Gegenteil einer lokalen Schädigung: Er entsteht, wenn der hemmende Einfluss des oberen motorischen Neuronensystems auf diesen an sich intakten Reflexbogen wegfällt. Kein Reflex sollte deshalb isoliert interpretiert werden — sind mehrere benachbarte Reflexe gemeinsam betroffen, muss die Schädigung dort liegen, wo sich ihre Reflexbögen räumlich treffen oder kreuzen.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 7.8.1–7.8.5 „Spinale Reflexe“ (Kapitelautoren Pakozdy/Tipold), S. 245–249. Die einzelnen Reflexe mit Nerv, Rückenmarksegment und Auslösetechnik sowie die allgemeine Interpretationslogik (herabgesetzt = Unterbrechung im Reflexbogen, gesteigert = Enthemmung durch Ausfall des oberen motorischen Neuronensystems) sind im Original so beschrieben. Der Flexorreflex wird in der Quelle ohne festes Einzelsegment als Schutzreflex beschrieben. Diese Textstelle enthielt vereinzelte Wortdopplungen aus der Texterfassung (kein Spezies-Icon-Verschachtelungsfehler), die anhand der an anderer Stelle im selben Kapitel wortgleich wiederholten Beschreibung (Kap. 7.9.2) eindeutig auflösbar waren.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "pannikulusreflex-hoehenlokalisation-rueckenmarklaesion",
+    category: "UNTERSUCHUNG",
+    title: "Der Pannikulusreflex: ein Hautreflex, der die Höhe einer Rückenmarksläsion eingrenzt",
+    teaser:
+      "Ein Kneifen der Rückenhaut kann verraten, wo im Rückenmark eine Läsion sitzt — weil dieser Reflex einen ungewöhnlich weiten Weg durchs Rückenmark nehmen muss, bevor er umgeschaltet wird.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein Hautreflex mit festem Reflexzentrum weit entfernt vom Reizort",
+        text: "Der Pannikulusreflex (auch Cutaneus-trunci-Reflex) prüft nicht wie die myotaktischen Reflexe einen einzelnen Muskel, sondern die Rumpfhautmuskulatur: Ein lokaler Hautreiz beidseits der Wirbelsäule — beginnend in der Kreuzregion und fortschreitend in Richtung Schulterblätter — löst reflektorisch eine Kontraktion des M. cutaneus trunci aus. Das Besondere an diesem Reflexbogen ist der Weg des sensiblen Schenkels: Der Reiz wird über die Spinalnerven ins Rückenmark geleitet und zieht dort in aufsteigenden Bahnen der weißen Substanz weiter nach kranial bis zu einem einzigen festen Reflexzentrum zwischen C8 und Th1, wo erst die Umschaltung auf die motorischen Fasern der Hautmuskulatur erfolgt.",
+      },
+      {
+        type: "text",
+        heading: "Warum ausgerechnet dieser Umweg zur Höhenlokalisation taugt",
+        text: "Weil der sensible Reiz von jedem Prüfpunkt entlang der Wirbelsäule erst bis zum festen Zentrum C8/Th1 aufsteigen muss, unterbricht eine Rückenmarksläsion auf diesem Weg den Reflex für alle Prüfpunkte kaudal davon — Prüfpunkte kranial der Läsion bleiben dagegen unbeeinträchtigt. Prüft man den Reflex also systematisch von der Kreuzregion nach kranial fortschreitend, lässt sich aus der Stelle, ab der er plötzlich nicht mehr auslösbar ist, eine grobe Höhenlokalisation von Rückenmarksläsionen im Bereich zwischen L4 und C8 ableiten — ein Bereich, der einen großen Teil der thorakolumbalen Bandscheibenvorfälle abdeckt.",
+      },
+      {
+        type: "text",
+        heading: "Ergänzende Reflexe für die Halswirbelsäule",
+        text: "Der Pannikulusreflex deckt vor allem den Übergang zwischen Brust- und Lendenwirbelsäule ab. Für Läsionen weiter kranial im Halsmark stehen zwei ergänzende, seltener eingesetzte Reflexe mit vergleichbarer Grundidee zur Verfügung. Der Zervikofazialisreflex prüft, ob leichtes Beklopfen seitlich am Hals zwischen Atlas und Schulterregion noch ein reflektorisches Zucken der Lippen-, Ohr- oder Lidmuskulatur auf derselben Seite auslöst — kaudal einer Halsmarkläsion ist dieser Reflex nicht mehr auslösbar. Der Slap-Test prüft einen anderen Bogen: Beklopfen der Haut am Widerrist löst reflektorisch eine Adduktion des gegenüberliegenden Aryknorpels im Kehlkopf aus, beobachtbar endoskopisch oder palpatorisch. Dieser Reflex ist bei Erkrankungen des Halsmarks oder des betroffenen peripheren Nervs abgeschwächt oder fehlt — gilt aber selbst als schwierig zu interpretieren, da eine unvollständige oder asymmetrische Antwort in ihrer Bedeutung umstritten ist.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 7.8.7–7.8.9 „Pannikulusreflex“, „Slap-Test“, „Zervikofazialisreflex“ (Kapitelautoren Pakozdy/Tipold), S. 249f. Der Reflexbogen des Pannikulusreflexes (Reflexzentrum C8–Th1), seine Nutzung zur Höhenlokalisation zwischen L4 und C8, sowie Durchführung und diagnostischer Wert von Slap-Test und Zervikofazialisreflex sind im Original so beschrieben. Diese Textstelle enthielt vereinzelte Wortdopplungen aus der Texterfassung (kein Spezies-Icon-Verschachtelungsfehler), die anhand von Wiederholungen im Fließtext eindeutig auflösbar waren.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (27.09.2026)
 
-- Wissensbibliothek: 218 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 58
+- Wissensbibliothek: 220 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 60
   Untersuchung, 76 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -196,10 +196,19 @@ kein Überblick verloren geht.
   Kompensationszeichen einer Gliedmaßenlahmheit statt eines primären
   Rückenbefunds sowie zum Prüfschema in drei Bewegungsebenen —
   **damit ist Kap. 6 „Orthopädischer Untersuchungsgang" (S. 178–231)
-  vollständig gelesen, mit 2 neuen Einträgen als Nettoertrag.** Kap. 7
-  „Neurologischer Untersuchungsgang" und Kap. 4 „Allgemeiner
-  klinischer Untersuchungsgang" sind noch nicht gelesen — siehe
-  UNTERSUCHUNG-Backlog für den Stand im Detail.
+  vollständig gelesen, mit 2 neuen Einträgen als Nettoertrag.** Danach
+  Kap. 7 „Neurologischer Untersuchungsgang" (S. 231–253) gelesen: eine
+  echte Zweitquelle zu Koch/Fischer, wobei die meisten Abschnitte
+  (Haltungs-/Stellreaktionen, Hirnnervenfunktionen, allgemeine
+  OMN/UMN-Theorie) bereits abgedeckt sind. Zwei echte Lücken gefunden:
+  die einzelnen namentlich benannten spinalen Reflexe (Patellar-,
+  Tibialis-cranialis-, Achillessehnen-, Extensor-carpi-radialis-,
+  Trizeps-, Flexor-, Anal-/Perinealreflex) fehlten bisher komplett als
+  Referenztabelle mit Nerv/Segment/Auslösetechnik, ebenso der in der
+  Praxis wichtige Pannikulusreflex zur groben Höhenlokalisation
+  thorakolumbaler Rückenmarksläsionen. Daraus 2 neue Einträge. Kap. 4
+  „Allgemeiner klinischer Untersuchungsgang" ist noch nicht gelesen —
+  siehe UNTERSUCHUNG-Backlog für den Stand im Detail.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -839,12 +848,43 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       detaillierter abgedeckt ist.
       **Damit ist Kap. 6 „Orthopädischer Untersuchungsgang" vollständig
       gelesen (S. 178–231), mit 2 neuen Einträgen als Nettoertrag.**
-      Nächster Schritt: Kap. 7 „Neurologischer Untersuchungsgang"
-      (S. 231–ca. 249, Datei kl(7).pdf) — echte Zweitquelle zu Koch/Fischer
-      Kap. 7, siehe ursprüngliche Einschätzung unten — oder Kap. 4
-      „Allgemeiner klinischer Untersuchungsgang" (S. 50–163, u. a. 4.2
-      Allgemeinverhalten, 4.6 Körpertemperatur, 4.7 Puls, 4.10.1 Atmung),
-      beide noch ungelesen.
+
+- [x] **Kap. 7 „Neurologischer Untersuchungsgang" (S. 231–253, Datei
+      kl(7).pdf, Kapitelautoren Pakozdy/Tipold) gelesen, 2 neue Einträge
+      (27.09.2026).** Wie erwartet eine echte Zweitquelle zu Koch/Fischer
+      Kap. 6/7: 7.5 (Haltung/Gang), 7.6 (Hirnnervenfunktionen), 7.7
+      (Haltungs-/Stellreaktionen: Korrekturreaktion, Hüpfreaktion,
+      Schubkarrentest, Tischkantenprobe) und die allgemeine
+      Reflexbogen-/OMN-UMN-Theorie überschneiden sich stark mit
+      bestehendem Content und wurden nicht dupliziert. Zwei Lücken waren
+      dagegen genuin neu: Erstens fehlten die einzelnen namentlich
+      benannten spinalen Reflexe (Patellar-, Tibialis-cranialis-,
+      Achillessehnen-, Extensor-carpi-radialis-, Trizeps-, Flexor-,
+      Anal-/Perineal-/Bulbokavernosusreflex) mit Nerv, Rückenmarksegment
+      und exakter Auslösetechnik komplett — bisher gab es nur die
+      allgemeine OMN/UMN-Interpretation, keine Referenztabelle der
+      Einzelreflexe selbst. Daraus 1 neuer, tabellenbasierter
+      Nachschlage-Eintrag: `spinale-reflexe-hund-nerv-segment-technik`
+      (UNTERSUCHUNG). Zweitens fehlte der Pannikulusreflex
+      (Cutaneus-trunci-Reflex) vollständig, obwohl er in der Praxis das
+      Standardwerkzeug zur groben Höhenlokalisation thorakolumbaler
+      Rückenmarksläsionen (zwischen L4 und C8) ist — dazu 1 weiterer
+      neuer Eintrag `pannikulusreflex-hoehenlokalisation-
+      rueckenmarklaesion` (UNTERSUCHUNG), der auch die selteneren,
+      ergänzenden Zervikofazialisreflex und Slap-Test (Halsmark- bzw.
+      Larynxfunktions-Lokalisation) kurz einordnet. Diese Textstelle
+      enthielt keine Spezies-Icon-Verschachtelung, aber vereinzelte
+      Wortdopplungen aus der Texterfassung (z. B. „physiologisch phy...“),
+      die anhand von wortgleichen Wiederholungen an anderer Stelle im
+      selben Kapitel eindeutig auflösbar waren — satzweise gegengeprüft
+      vor Übernahme. Verifiziert per Playwright-Screenshot (2/2 Seiten,
+      0 Console-/Page-Errors); die Reflex-Tabelle rendert bei 390px
+      Mobile-Breite mit sehr schmalen Spalten (bestehendes,
+      appweites Verhalten aller Tabellen-Einträge, keine Regression aus
+      diesem Content).
+      Nächster Schritt: Kap. 4 „Allgemeiner klinischer Untersuchungsgang"
+      (S. 50–163, u. a. 4.2 Allgemeinverhalten, 4.6 Körpertemperatur, 4.7
+      Puls, 4.10.1 Atmung) — noch ungelesen.
 
 - [ ] **Ursprüngliche Struktur-Erkundung (25.09.2026, weiterhin gültig für
       die noch nicht gelesenen Kapitel/Abschnitte).**
