@@ -10109,6 +10109,40 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark", "discus"],
   },
+  {
+    id: "fraktur-kardinalsymptome-diagnostische-grenzen",
+    category: "UNTERSUCHUNG",
+    title: "Warum fehlende Krepitation eine Fraktur nicht ausschließt",
+    teaser:
+      "Drei Kardinalsymptome gelten klassisch als Frakturzeichen — bei der leichtesten Frakturform fehlen alle drei, und trotzdem liegt ein Knochenbruch vor.",
+    sections: [
+      {
+        type: "text",
+        heading: "Drei Kardinalsymptome sind kein Ausschlusskriterium",
+        text: "Bei Verdacht auf eine Fraktur wird der Knochen klassischerweise auf drei Kardinalsymptome geprüft: abnorme Achsenbrechung, abnorme Beweglichkeit an einer Stelle, die physiologischerweise unbeweglich ist, und Krepitation (das Reiben der Bruchenden aneinander). Wer daraus den Umkehrschluss zieht, dass bei negativem Ausfall aller drei Zeichen keine Fraktur vorliegen kann, irrt: Je nach betroffenem Knochen, Lokalisation und Frakturform ist mitunter nur eines, manchmal auch keines der drei Symptome nachweisbar.",
+      },
+      {
+        type: "text",
+        heading: "Warum Krepitation ausbleiben kann",
+        text: "Krepitation lässt sich unter anderem dann nicht auslösen, wenn die Fragmente entweder vollständig gegeneinander verlagert oder gar nicht disloziert sind, wenn Weichteile zwischen die Bruchenden interponiert sind, bei sehr kleinen Knochen sowie dann, wenn der betroffene Knochen fest in straffes umgebendes Gewebe eingebettet ist. Ein fehlender Krepitationsbefund ist damit ein schwaches, aber kein beweisendes Ausschlusskriterium für eine Fraktur.",
+      },
+      {
+        type: "text",
+        heading: "Die Fissur: die unauffälligste Frakturform",
+        text: "Am deutlichsten zeigt sich diese Grenze bei der Fissur, der leichtesten Form einer unvollständigen Fraktur: ein Haarriss im Knochen ohne Fragmentverlagerung. Definitionsgemäß fehlen hier alle drei Kardinalsymptome. Klinisch fällt die Fissur stattdessen durch eine plötzlich aufgetretene, hochgradige Lahmheit und deutliche Schmerzhaftigkeit auf — dieser Symptomkombination kommt bei unauffälligem Kardinalsymptom-Befund daher die eigentliche differentialdiagnostische Bedeutung zu, nicht dem Nachweis von Achsenbrechung, Beweglichkeit oder Krepitation.",
+      },
+      {
+        type: "text",
+        heading: "Praktische Konsequenz für die Untersuchung",
+        text: "Eine plötzlich aufgetretene, hochgradige Lahmheit begründet daher unabhängig vom Ausfall der drei Kardinalsymptome den Verdacht auf eine Fraktur oder Fissur und damit die Indikation zur Röntgenuntersuchung. Besteht dieser Verdacht, muss die weitere orthopädische Untersuchung besonders vorsichtig und schonend erfolgen, um dem Tier nicht zusätzliche Schmerzen zuzufügen oder durch die Manipulation selbst weitere Weichteilverletzungen zu verursachen.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Überkonfidenz", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 6.6.4 „Untersuchung von Knochen“ (Kapitelautoren Kofler/Lischer/Rheinfeld/Kramer/Pees), S. 203f. Die drei Kardinalsymptome der Fraktur, die Faktoren für ausbleibende Krepitation, die Fissur-Definition sowie die daraus resultierende Handlungskonsequenz bei Frakturverdacht sind im Original so beschrieben. Diese Textstelle liegt außerhalb der bei diesem Buch dokumentierten Spalten-Verschachtelungs-Fehlerzone (keine Spezies-Icon-Unterbrechung im relevanten Absatz) und wurde satzweise gegen den unmittelbaren Kontext geprüft. Alle übrigen in Kap. 6 gesichteten Passagen zu Ortolani-/Schubladen-/Bizepssehnentest, Processus anconaeus/coronoideus medialis, Osteomyelitis und Muskelatrophie überschneiden sich inhaltlich mit bereits bestehenden, hundespezifischeren Einträgen aus Koch/Fischer und Hárrer und wurden daher bewusst nicht erneut übernommen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

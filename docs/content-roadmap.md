@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (27.09.2026)
 
-- Wissensbibliothek: 216 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 56
+- Wissensbibliothek: 217 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 57
   Untersuchung, 76 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -168,8 +168,29 @@ kein Überblick verloren geht.
   Zehen abgedeckt. Processus anconaeus/coronoideus medialis und Lig.
   capitis femoris bleiben bewusst offen (Schema-Mismatch, siehe
   ANATOMIE-Backlog unten — keine einseitige Datenmodell-Änderung ohne
-  Rücksprache). Nächster Schritt: ein neues Buch wählen — Baumgartner/
-  Wittek/Khol trotz der bekannten Einschränkungen.
+  Rücksprache). Danach Baumgartner/Wittek/Khol Kap. 6 „Orthopädischer
+  Untersuchungsgang" satzweise sorgfältig gelesen (Abschnitte 6.1–6.7,
+  vollständige S. 178–209): Die dokumentierte Spalten-Verschachtelung
+  ist real und exakt so lokalisiert wie vermerkt (Spezies-Icon-Boxen
+  reißen mitten im Satz auf), der übrige Fließtext ist aber sauber
+  lesbar. Ergebnis der Prüfung gegen den bestehenden Content:
+  Provokationsproben, Ortolani-/Schubladen-/Bizepssehnentest, die
+  Processus-anconaeus-/-coronoideus-medialis-Unterscheidung sowie die
+  neurogene/Inaktivitäts-Atrophie-Unterscheidung sind bereits in
+  hundespezifischerer und detaillierterer Form aus Koch/Fischer und
+  Hárrer vorhanden — hier keine Doppelarbeit betrieben. Ein Abschnitt
+  war jedoch genuin neu und lag klar außerhalb der Fehlerzone: 6.6.4
+  „Untersuchung von Knochen" beschreibt, dass die drei
+  Fraktur-Kardinalsymptome (Achsenbrechung, abnorme Beweglichkeit,
+  Krepitation) keineswegs immer alle drei nachweisbar sein müssen —
+  bei einer Fissur fehlen definitionsgemäß alle drei, obwohl eine
+  Fraktur vorliegt. Daraus 1 neuer Eintrag: die diagnostische Grenze
+  von Krepitation als Ausschlusskriterium. Die übrigen Abschnitte 6.8
+  (Hintergliedmaße), 6.9 (Rektaluntersuchung, vermutlich
+  großtierspezifisch) und 6.10 (Wirbelsäule) sowie Kap. 7
+  „Neurologischer Untersuchungsgang" und Kap. 4 „Allgemeiner
+  klinischer Untersuchungsgang" sind noch nicht gelesen — siehe
+  UNTERSUCHUNG-Backlog für den Stand im Detail.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -750,7 +771,51 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
 
 ### UNTERSUCHUNG — Baumgartner/Wittek/Khol, Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4, Thieme, 10. Aufl. 2026)
 
-- [ ] **Struktur erkundet, noch nicht als Content umgesetzt (25.09.2026).**
+- [x] **Kap. 6.1–6.7 (S. 178–209) satzweise gelesen, 1 neuer Eintrag
+      (27.09.2026).** Die dokumentierte Spalten-Verschachtelung wurde
+      bestätigt und ist exakt so lokalisiert wie unten beschrieben
+      (Spezies-Icon-Boxen reißen mitten im Satz auf); der übrige
+      Fließtext liest sich dazwischen sauber und zusammenhängend.
+      Systematischer Abgleich mit dem bestehenden Content ergab: Die
+      meisten fachlich dichten Passagen in diesem Kapitel (Adspektion/
+      Beurteilung der Lahmheit, Provokationsproben/Beugeproben,
+      Ortolani-Test, Schubladentest, Bizepssehnentest, die
+      Processus-anconaeus-/-coronoideus-medialis-Rotationsprüfung am
+      Ellenbogen, Osteomyelitis, Panostitis, neurogene vs.
+      Inaktivitätsatrophie) sind bereits in hundespezifischerer und
+      detaillierterer Form aus Koch/Fischer und Hárrer im Content
+      vorhanden — hier wurde bewusst nichts dupliziert. Zusätzlich sind
+      mehrere Kapitelabschnitte (6.4.3 Ganganalyse-Technik, Tab. 6.2/6.3
+      Lahmheitsgrad-Scores, 6.5 Provokationsproben) überwiegend
+      pferde-/rinderspezifisch und für Denkgang nicht relevant. Ein
+      Abschnitt war jedoch genuin neu, klar dog-relevant und lag
+      eindeutig außerhalb der Fehlerzone: **6.6.4 „Untersuchung von
+      Knochen"** beschreibt, dass die drei Fraktur-Kardinalsymptome
+      (abnorme Achsenbrechung, abnorme Beweglichkeit, Krepitation)
+      keineswegs immer alle drei nachweisbar sein müssen — Krepitation
+      kann u. a. bei vollständiger oder fehlender Fragmentverlagerung,
+      Weichteilinterposition oder sehr kleinen Knochen ausbleiben; bei
+      einer Fissur (Haarriss ohne Verlagerung) fehlen definitionsgemäß
+      alle drei, obwohl eine Fraktur vorliegt. Daraus 1 neuer Eintrag:
+      `fraktur-kardinalsymptome-diagnostische-grenzen` (UNTERSUCHUNG) —
+      die diagnostische Grenze von Krepitation als vermeintliches
+      Ausschlusskriterium, mit der Fissur als Extrembeispiel und der
+      praktischen Konsequenz (Röntgen-Indikation trotz negativem
+      Kardinalsymptom-Befund).
+      **Noch offen:** Abschnitt 6.8 (Untersuchung der Hintergliedmaße,
+      S. 209–213, voraussichtlich ähnlich stark mit Koch/Fischer/Hárrer
+      überlappend), 6.9 (Rektale Untersuchung — vermutlich
+      großtierspezifisch, wahrscheinlich zu überspringen) und 6.10
+      (Untersuchung der Wirbelsäule, noch nicht gesichtet — hier ist am
+      ehesten noch unentdeckter Mehrwert zu erwarten, da Denkgang bisher
+      keinen dedizierten Wirbelsäulen-Palpationsablauf hat). Danach Kap. 7
+      „Neurologischer Untersuchungsgang" (S. 231–ca. 249) und Kap. 4
+      „Allgemeiner klinischer Untersuchungsgang" (S. 50–163, u. a. 4.2
+      Allgemeinverhalten, 4.6 Körpertemperatur, 4.7 Puls, 4.10.1 Atmung)
+      — beide noch ungelesen, siehe ursprüngliche Einschätzung unten.
+
+- [ ] **Ursprüngliche Struktur-Erkundung (25.09.2026, weiterhin gültig für
+      die noch nicht gelesenen Kapitel/Abschnitte).**
       Dieses Buch ist — anders als Koch/Fischer und Hárrer — ein
       **Allgemeinwerk für ALLE Tierarten** (Pferd, Rind, kleine
       Wiederkäuer, Neuweltkamele, Schwein, Hund, Katze, Heimtiere, Vögel,
