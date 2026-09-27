@@ -1386,6 +1386,58 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8, S. 91f. Funktion, die stabilisierende Rolle des Tractus iliotibialis sowie der Zusammenhang zwischen Verkürzung des Muskels und Patella-Lateralisation (insbesondere bei Patelladysplasie) sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (23.09.2026) aus konvergenten veterinäranatomischen Fachquellen: Ursprung (Tuber coxae), Ansatz (Fascia lata, darüber Patella/Lig. patellae) und Innervation (N. gluteus cranialis). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
+  {
+    id: "semimembranosus",
+    name: "M. semimembranosus",
+    origin: "Tuber ischiadicum, mit zwei annähernd gleichwertigen Muskelbäuchen (Pars cranialis und Pars caudalis)",
+    insertion:
+      "Pars cranialis endet an der Ursprungsaponeurose des M. gastrocnemius sowie mit ihr am distalen Femur; die Sehne der Pars caudalis verläuft unter dem medialen Kollateralband des Kniegelenks hindurch und setzt am Condylus medialis tibiae an",
+    funktion:
+      "Extension im Hüftgelenk, unterstützt zusätzlich die Flexion im Kniegelenk. Strahlt mit Fasern in den medialen Meniskus ein und nimmt darüber aktiven Einfluss auf dessen Führung.",
+    innervation: "N. tibialis (Ast des N. ischiadicus)",
+    clinicalRelevance:
+      "Gehört zusammen mit M. semitendinosus und M. biceps femoris zu den Hamstrings, neigt aber wegen seines hohen Typ-I-Faseranteils (Haltearbeit) eher zu Verspannung/Hypertonie als zu Atrophie — bei einseitiger Hypertonie kann es zu einer dorsalen Rotation des Iliums auf der betroffenen Seite kommen. Da seine tonische Muskulatur (zusammen mit dem M. popliteus) und die phasische Quadrizeps-Muskulatur gegenläufig auf den medialen Meniskus einwirken, verändert sich bei Kniegelenksextension die Belastung im kaudalen Meniskusbereich.",
+    palpationHint:
+      "Vom medialen Tuber ischiadicum die kaudomediale Oberschenkelportion bis zum Ansatz verfolgen (auf der Medialseite vom M. gracilis überdeckt). Isolierte Längentestung über Sprunggelenksflexion, Kniegelenksextension und zusätzliche Hüftabduktion — Letztere erhöht die Spannung gezielt auf den M. semimembranosus, während der M. semitendinosus dabei unverändert bleibt.",
+    transferQ: "Warum neigt der M. semimembranosus eher zu Hypertonie, der M. biceps femoris dagegen eher zu Atrophie?",
+    transferOptions: [
+      {
+        label: "Weil der M. semimembranosus überwiegend Typ-I-Fasern (Haltearbeit) besitzt, der M. biceps femoris dagegen mehr Typ-II-Fasern",
+        correct: true,
+      },
+      { label: "Weil der M. semimembranosus keine Sehne besitzt", correct: false },
+      { label: "Weil beide Muskeln identische Fasertypen haben und sich nicht unterscheiden", correct: false },
+      { label: "Weil nur der M. biceps femoris einen Nerv erhält", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7.3.3 (Hüftextensoren/Hamstrings), S. 55f., und Kap. 8.1.1 (Menisken), S. 80. Der hohe Typ-I-Faseranteil mit Neigung zu Hypertonie/dorsaler Iliumrotation, die Palpation, der Differenzierungstest über Hüftabduktion sowie die Einstrahlung in den medialen Meniskus mit tonisch-phasischer Gegenspielerbeziehung zum M. quadriceps femoris sind im Original so beschrieben. Ursprung, Ansatz und Innervation werden im Original nicht genannt. Ergänzt per Web-Recherche (27.09.2026) aus konvergenten veterinäranatomischen Fachquellen (u. a. IMAIOS vet-Anatomy): der zweigeteilte Ursprung am Tuber ischiadicum, die getrennten Ansätze der Pars cranialis (Gastrocnemius-Aponeurose/distales Femur) und Pars caudalis (Condylus medialis tibiae) sowie die Innervation über den N. tibialis. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
+  {
+    id: "musculus-gastrocnemius-anatomie",
+    name: "M. gastrocnemius",
+    origin:
+      "Zweiköpfig: Caput laterale von der Tuberositas supracondylaris lateralis, Caput mediale von der Tuberositas supracondylaris medialis femoris — in beiden Ursprungssehnen je ein Sesambeinchen (Fabella) eingelagert",
+    insertion: "Beide Köpfe vereinigen sich zu einer kräftigen gemeinsamen Sehne und inserieren über den Tendo calcaneus communis am Tuber calcanei",
+    funktion:
+      "Streckt das Tarsalgelenk (Sprunggelenk), vor allem in der Stützbeinphase als Antischwerkraftmuskel. Speichert dabei durch Vordehnung bei Sprunggelenksflexion elastische Energie, die bei der anschließenden Kontraktion für den Vorschub genutzt wird (Sprungfeder-Prinzip).",
+    innervation: "N. tibialis (Ast des N. ischiadicus, Segmente L7–S1) — der Nerv verläuft zwischen den beiden Muskelköpfen hindurch",
+    clinicalRelevance:
+      "Ein besonderer Untersuchungsfokus gehört den Fabellae, da an der Ursprungssehne nicht selten eine Tendopathie auftritt. Reißt nur die Sehne des M. gastrocnemius, steht das Tarsalgelenk im Stand verstärkt gebeugt mit stark gekrümmten Zehen, da das Gewicht dann allein vom M. flexor digitorum superficialis getragen wird — reißen dagegen alle drei den Tendo calcaneus communis bildenden Sehnen (kompletter Achillessehnenabriss), steht das Tarsalgelenk plantigrad.",
+    palpationHint:
+      "Auf der Lateralseite des Unterschenkels vom M. biceps femoris überdeckt, medial von den Mm. semimembranosus et gracilis überlagert. Palpation vom Ursprung zwischen den Gastrocnemiusköpfen bis zur Hälfte des Unterschenkels auf der kaudalen Seite, wo der Muskel in seine Sehne übergeht.",
+    transferQ: "Woran erkennt man einen reinen Teilriss der Gastrocnemius-Sehne im Unterschied zum kompletten Achillessehnenabriss?",
+    transferOptions: [
+      {
+        label: "Beim Teilriss steht das Tarsalgelenk verstärkt gebeugt mit gekrümmten Zehen (M. flexor digitorum superficialis trägt das Gewicht), beim Komplettriss plantigrad",
+        correct: true,
+      },
+      { label: "Beide Verletzungen sehen im Stand identisch aus", correct: false },
+      { label: "Beim Teilriss steht das Tarsalgelenk plantigrad, beim Komplettriss überstreckt", correct: false },
+      { label: "Ein Teilriss ist nur am Röntgenbild erkennbar, nie klinisch", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 9.3.3 (Spezifische Untersuchung der Sprunggelenksextensoren, M. gastrocnemius), S. 99f. Ursprung (inkl. Fabellae), gemeinsamer Ansatz am Tuber calcanei, die Überlagerungsverhältnisse, die Sprungfeder-Funktion sowie die klinische Unterscheidung Teilriss/Komplettriss sind im Original so beschrieben. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (27.09.2026) aus konvergenten veterinäranatomischen Fachquellen (u. a. IMAIOS vet-Anatomy, ScienceDirect Veterinary Science): die Innervation über den N. tibialis (der zwischen den beiden Muskelköpfen verläuft) mit Rückenmarkssegmenten L7–S1. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -5834,7 +5886,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.3.3 (Spezifische Untersuchung Hüftextensoren/Hamstrings), S. 55f. Fasertyp-Zuordnung, Palpationswege und Differenzierungstests sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["biceps-femoris", "semitendinosus", "gracilis"],
+    relatedAnatomyIds: ["biceps-femoris", "semitendinosus", "semimembranosus", "gracilis"],
   },
   {
     id: "hueftrotatoren-kruppenmuskulatur-tiefe-rotatoren",
@@ -6171,7 +6223,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 9.3.3 (Spezifische Untersuchung der Sprunggelenksextensoren, M. gastrocnemius), S. 99f. Sprungfeder-Funktion, Fabella-Hinweis und der Praxistipp zum Teil-/Komplettriss sind im Original so beschrieben. Ergänzt den bestehenden Eintrag `tarsus-erkrankungen-hund` (Koch/Fischer-Quelle, dort u. a. „Riss des Fersensehnenstrangs“) um dieses klinische Unterscheidungsmerkmal zwischen Teil- und Komplettriss.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["semitendinosus", "gracilis", "biceps-femoris"],
+    relatedAnatomyIds: ["musculus-gastrocnemius-anatomie", "semitendinosus", "semimembranosus", "gracilis", "biceps-femoris"],
   },
   {
     id: "wirbelsaeule-ligamente-cecs-spondylose",

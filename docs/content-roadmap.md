@@ -60,7 +60,7 @@ kein Überblick verloren geht.
   wurde. Dieselbe Lücken-Regel gilt ab sofort für alle künftigen
   Anatomie-Items: keine leeren/unklaren Kernfelder mehr als Endzustand.
 
-## Stand (25.09.2026)
+## Stand (27.09.2026)
 
 - Wissensbibliothek: 216 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 56
   Untersuchung, 76 Pathologie, 63 Biomechanik, 24 Therapie — genaue
@@ -156,13 +156,22 @@ kein Überblick verloren geht.
   (Harnapparat/Periodont/Herzklappen/Haut) und die zeitliche Verzögerung
   der Röntgenbefunde gegenüber CT/MRT — **damit ist VetCenter
   „Wirbelsäulenerkrankungen" als Quelle vollständig ausgewertet (43/43
-  Webseiten).** Details siehe PATHOLOGIE-Backlog unten. Nächster Schritt:
-  neues Buch aus dem Backlog wählen — Baumgartner/Wittek/Khol trotz der
-  bekannten Einschränkungen, oder ein noch nicht begonnenes Thema aus dem
-  ANATOMIE-Backlog (fallunabhängige Items).
-- Anatomie-Sektion: alle 29 Items haben jetzt vollständige Ursprung-/Ansatz-/
-  Innervations-Angaben (siehe Anatomie-Lückenschluss oben) — keine offenen
-  "Im Quellentext nicht genannt"-Kernfelder mehr.
+  Webseiten).** Danach 2 neue fallunabhängige Anatomie-Items aus dem
+  ANATOMIE-Backlog (27.09.2026): M. semimembranosus und M. gastrocnemius
+  (Ursprung/Ansatz/Funktion aus Hárrer, Innervation per Web-Recherche
+  ergänzt) — damit ist die zuvor offene Hamstrings-/
+  Unterschenkelmuskulatur-Lücke geschlossen, 29 → 31 Anatomie-Items.
+  Details siehe ANATOMIE-Backlog unten. Nächster Schritt: nächstes
+  fallunabhängiges Anatomie-Item (Processus anconaeus/Processus
+  coronoideus medialis am Ellbogen, oder Ligamentum capitis femoris an
+  der Hüfte) oder ein neues Buch — Baumgartner/Wittek/Khol trotz der
+  bekannten Einschränkungen.
+- Anatomie-Sektion: 31 Items. Die ursprünglichen 29 haben vollständige
+  Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
+  oben); die 2 neuen (semimembranosus, gastrocnemius) tragen dieselbe
+  Vollständigkeit, mit klar gekennzeichneten Web-Ergänzungen für die im
+  Original fehlende Innervation — keine offenen "Im Quellentext nicht
+  genannt"-Kernfelder mehr.
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
   aktiv mit einer zweiten Quelle abgeglichen (siehe Toe-in/Toe-out-Fund
@@ -1647,9 +1656,26 @@ gelesenen Quellen:
       Quelle medial liegen.
 - [x] M. biceps femoris, M. semitendinosus, M. gracilis, M. sartorius,
       M. tensor fasciae latae — verifiziert gegen Hárrer Kap. 8 (Knieregion),
-      S. 91–93, zusammen mit dem korrigierten `quadriceps`-Item. Noch offen:
-      M. semimembranosus, M. gastrocnemius (Rest der "Hamstrings"/
-      Unterschenkelmuskulatur).
+      S. 91–93, zusammen mit dem korrigierten `quadriceps`-Item.
+- [x] **M. semimembranosus und M. gastrocnemius (27.09.2026) — damit ist die
+      "Hamstrings"-/Unterschenkelmuskulatur-Lücke geschlossen.** Ursprung/
+      Ansatz/Innervation stammen aus Hárrer nur teilweise (Kap. 7.3.3
+      Hüftextensoren/Hamstrings S. 55f. + Kap. 8.1.1 Menisken S. 80 für
+      Semimembranosus: Fasertyp/Klinik/Palpation/Meniskus-Einstrahlung;
+      Kap. 9.3.3 Sprunggelenksextensoren S. 99f. für Gastrocnemius: Ursprung
+      inkl. Fabellae, gemeinsamer Ansatz, Sprungfeder-Funktion,
+      Teilriss-/Komplettriss-Unterscheidung) — beide Male ohne explizite
+      Innervationsangabe im Original. Ergänzt per Web-Recherche (IMAIOS
+      vet-Anatomy, ScienceDirect) um die fehlenden Ursprungs-/Ansatz-Details
+      (Semimembranosus: zweigeteilter Ursprung Tuber ischiadicum, getrennte
+      Ansätze Pars cranialis/caudalis) sowie beide Innervationsangaben
+      (N. tibialis), mit der etablierten WICHTIGE-EINSCHRÄNKUNG-Kennzeichnung
+      (WebFetch blockiert, nur Websuche-Zusammenfassungen statt
+      Volltextprüfung). Bestehende Wissenseinträge
+      `hueftextensoren-hamstrings-fasertyp-differenzierung` und
+      `musculus-gastrocnemius-sprungfeder-tendo-calcaneus` um
+      `relatedAnatomyIds`-Verknüpfung zu den neuen Items ergänzt. Verifiziert
+      via Playwright (2/2 Seiten, 0 Fehler). Damit: 31 Anatomie-Items.
 - [x] M. brachialis, M. triceps brachii, M. tensor fasciae antebrachii,
       M. anconeus (komplette Ellbogenflexoren-/-extensorengruppe) —
       verifiziert gegen Hárrer Kap. 13, S. 165–178
