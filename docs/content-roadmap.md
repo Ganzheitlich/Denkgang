@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (27.09.2026)
 
-- Wissensbibliothek: 217 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 57
+- Wissensbibliothek: 218 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 58
   Untersuchung, 76 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -185,9 +185,18 @@ kein Überblick verloren geht.
   Krepitation) keineswegs immer alle drei nachweisbar sein müssen —
   bei einer Fissur fehlen definitionsgemäß alle drei, obwohl eine
   Fraktur vorliegt. Daraus 1 neuer Eintrag: die diagnostische Grenze
-  von Krepitation als Ausschlusskriterium. Die übrigen Abschnitte 6.8
-  (Hintergliedmaße), 6.9 (Rektaluntersuchung, vermutlich
-  großtierspezifisch) und 6.10 (Wirbelsäule) sowie Kap. 7
+  von Krepitation als Ausschlusskriterium. Danach die restlichen
+  Abschnitte 6.8–6.12 gelesen: 6.8 (Hintergliedmaße), 6.11 (Wunden)
+  und 6.12 (weiterführende Bildgebung) überschneiden sich stark mit
+  Bestehendem, 6.9 (Rektaluntersuchung) ist großtierspezifisch — alle
+  drei ohne neue Einträge. 6.10 (Wirbelsäule) lieferte den bisher
+  fehlenden Baustein eines dedizierten Wirbelsäulen-Prüfschemas:
+  1 weiterer neuer Eintrag zu den drei Verbiegungstypen der
+  Wirbelsäule (Lordose/Kyphose/Skoliose), zur Kyphose als möglichem
+  Kompensationszeichen einer Gliedmaßenlahmheit statt eines primären
+  Rückenbefunds sowie zum Prüfschema in drei Bewegungsebenen —
+  **damit ist Kap. 6 „Orthopädischer Untersuchungsgang" (S. 178–231)
+  vollständig gelesen, mit 2 neuen Einträgen als Nettoertrag.** Kap. 7
   „Neurologischer Untersuchungsgang" und Kap. 4 „Allgemeiner
   klinischer Untersuchungsgang" sind noch nicht gelesen — siehe
   UNTERSUCHUNG-Backlog für den Stand im Detail.
@@ -802,17 +811,40 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Ausschlusskriterium, mit der Fissur als Extrembeispiel und der
       praktischen Konsequenz (Röntgen-Indikation trotz negativem
       Kardinalsymptom-Befund).
-      **Noch offen:** Abschnitt 6.8 (Untersuchung der Hintergliedmaße,
-      S. 209–213, voraussichtlich ähnlich stark mit Koch/Fischer/Hárrer
-      überlappend), 6.9 (Rektale Untersuchung — vermutlich
-      großtierspezifisch, wahrscheinlich zu überspringen) und 6.10
-      (Untersuchung der Wirbelsäule, noch nicht gesichtet — hier ist am
-      ehesten noch unentdeckter Mehrwert zu erwarten, da Denkgang bisher
-      keinen dedizierten Wirbelsäulen-Palpationsablauf hat). Danach Kap. 7
-      „Neurologischer Untersuchungsgang" (S. 231–ca. 249) und Kap. 4
+
+- [x] **Kap. 6.8–6.12 (S. 209–231) satzweise gelesen, 1 weiterer neuer
+      Eintrag (27.09.2026).** 6.8 (Untersuchung der Hintergliedmaße)
+      bestätigte die Erwartung: starke Überlappung mit Ortolani-/
+      Schubladen-/Tibiakompressionstest, die bereits deutlich
+      detaillierter aus Hárrer und Koch/Fischer vorhanden sind — nichts
+      übernommen. 6.9 (Rektale Untersuchung) ist wie vermutet
+      großtierspezifisch (Becken-/Wirbelpalpation von innen beim Pferd)
+      und wurde übersprungen. 6.11 (Wunduntersuchung) und 6.12
+      (Weiterführende Untersuchungsmethoden: Röntgen/Sono/CT/MRT/
+      Szintigrafie) sind allgemein gehalten, aber ebenfalls bereits
+      hinreichend über bestehende Einträge (u. a. Osteomyelitis-Diagnostik,
+      Diskospondylitis-Bildgebung) abgedeckt — keine neuen Einträge.
+      **6.10 (Untersuchung der Wirbelsäule)** lieferte dagegen den
+      erhofften, bisher fehlenden Baustein: 1 neuer Eintrag
+      `wirbelsaeule-krummer-ruecken-lahmheitshinweis` (UNTERSUCHUNG) — die
+      drei Verbiegungstypen Lordose/Kyphose/Skoliose, die Kyphose
+      insbesondere als mögliches Kompensationszeichen einer
+      Gliedmaßenlahmheit statt eines primären Wirbelsäulenbefunds, das
+      Prüfschema der Wirbelsäulenbeweglichkeit in drei Ebenen (inkl.
+      Futterreiz-Technik für die Halswirbelsäule) sowie die Notwendigkeit,
+      die orthopädische Wirbelsäulenprüfung stets mit der neurologischen
+      Untersuchung zu kombinieren. Die im selben Abschnitt behandelte
+      Iliosakralgelenk-Palpation wurde bewusst nicht übernommen, da sie in
+      den bestehenden Hárrer-Einträgen (Kap. 16.2.7) bereits erheblich
+      detaillierter abgedeckt ist.
+      **Damit ist Kap. 6 „Orthopädischer Untersuchungsgang" vollständig
+      gelesen (S. 178–231), mit 2 neuen Einträgen als Nettoertrag.**
+      Nächster Schritt: Kap. 7 „Neurologischer Untersuchungsgang"
+      (S. 231–ca. 249, Datei kl(7).pdf) — echte Zweitquelle zu Koch/Fischer
+      Kap. 7, siehe ursprüngliche Einschätzung unten — oder Kap. 4
       „Allgemeiner klinischer Untersuchungsgang" (S. 50–163, u. a. 4.2
-      Allgemeinverhalten, 4.6 Körpertemperatur, 4.7 Puls, 4.10.1 Atmung)
-      — beide noch ungelesen, siehe ursprüngliche Einschätzung unten.
+      Allgemeinverhalten, 4.6 Körpertemperatur, 4.7 Puls, 4.10.1 Atmung),
+      beide noch ungelesen.
 
 - [ ] **Ursprüngliche Struktur-Erkundung (25.09.2026, weiterhin gültig für
       die noch nicht gelesenen Kapitel/Abschnitte).**

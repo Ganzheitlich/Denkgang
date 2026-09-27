@@ -10143,6 +10143,40 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "wirbelsaeule-krummer-ruecken-lahmheitshinweis",
+    category: "UNTERSUCHUNG",
+    title: "Warum ein krummer Rücken nicht immer von der Wirbelsäule kommt",
+    teaser:
+      "Ein aufgekrümmter Rücken ist beim Hund oft gar kein Wirbelsäulenbefund, sondern ein Kompensationszeichen für Schmerzen in einer Gliedmaße — die drei Verbiegungstypen der Wirbelsäule verraten dabei, wonach überhaupt gesucht werden muss.",
+    sections: [
+      {
+        type: "text",
+        heading: "Drei Verbiegungstypen mit sehr unterschiedlicher Bedeutung",
+        text: "Verbiegt sich die Wirbelsäule sichtbar aus ihrem geraden Verlauf, wird nach der Richtung der Abweichung unterschieden: Bei der Lordose verläuft die Wirbelsäule nach ventral durchgebogen, bei der Kyphose konvex nach dorsal aufgekrümmt, bei der Skoliose seitlich nach rechts oder links verbogen — Letztere typischerweise mit einer Versteifung der Wirbelkörper genau in dem betroffenen Abschnitt. Diese rein beschreibende Unterscheidung sagt für sich genommen noch nichts über die Ursache aus; erst der jeweilige Verbiegungstyp lenkt den differentialdiagnostischen Blick in eine bestimmte Richtung.",
+      },
+      {
+        type: "text",
+        heading: "Die Kyphose als Kompensationszeichen",
+        text: "Besonders die Kyphose ist eine Falle für vorschnelle Diagnosen: Ein aufgekrümmter Rücken im Stand und in der Bewegung ist bei Hund (und Rind) oft gar kein eigenständiger Wirbelsäulenbefund, sondern ein deutlicher Hinweis auf eine Lahmheit — der Hund entlastet über die veränderte Rückenhaltung eine schmerzhafte Gliedmaße. Erst wenn eine sorgfältige Lahmheitsuntersuchung keine plausible Gliedmaßenursache liefert, rückt eine andere Erklärung in den Vordergrund, etwa eine Fehlbildung der Wirbelkörper selbst. Wer bei einem Hund mit gekrümmtem Rücken direkt die Wirbelsäule in den Fokus nimmt, ohne zuvor die Gliedmaßen auszuschließen, läuft Gefahr, die eigentliche Ursache zu übersehen.",
+      },
+      {
+        type: "text",
+        heading: "Die Wirbelsäule in drei Bewegungsebenen prüfen",
+        text: "Um eine primäre Wirbelsäulenbeteiligung von einem reinen Kompensationsbefund abzugrenzen, wird die Beweglichkeit in drei Ebenen geprüft. Für die Halswirbelsäule eignet sich ein motivierender Futterreiz: Der Hund wird animiert, den Kopf bis zur Schulter seitwärts (Lateroflexion), ganz nach unten zum Boden (Ventroflexion) und nach oben (Dorsoflexion) zu führen. Für Brust- und Lendenwirbelsäule wird die Lateroflexion durch gleichmäßigen, kontinuierlichen Druck auf die lange Rückenmuskulatur links und rechts geprüft, die Dorsoflexion durch plötzlichen, gleichzeitigen Druck mit beiden Händen auf beide Kruppenseiten von hinten. Physiologisch zeigt sich dabei jeweils eine leichte, schmerzfreie Ausweichbewegung der Wirbelsäule in die geprüfte Richtung.",
+      },
+      {
+        type: "text",
+        heading: "Warum diese Untersuchung nie isoliert steht",
+        text: "Reduzierte Biegsamkeit oder Schmerzhaftigkeit bei einer dieser drei Prüfungen wird abschnittsweise dokumentiert, um die betroffene Region einzugrenzen. Wegen der unmittelbaren Nachbarschaft von Rückenmark und den dort ein- und austretenden Segmentalnerven treten bei Wirbelsäulenerkrankungen jedoch häufig gleichzeitig orthopädische und neurologische Symptome auf. Die orthopädische Prüfung der Wirbelsäule ersetzt deshalb nie die neurologische Untersuchung, sondern muss sie gezielt ergänzen — wer nur die Beweglichkeit testet, aber neurologische Ausfälle nicht aktiv mitprüft, übersieht leicht die Hälfte des Befundes.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Differentialdiagnostik unvollständig", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 6.10 „Untersuchung der Wirbelsäule“ (Kapitelautoren Kofler/Lischer/Rheinfeld/Kramer/Pees), S. 226–228. Die drei Verbiegungstypen (Lordose/Kyphose/Skoliose) mit der Kyphose als Lahmheitshinweis, das Prüfschema in drei Bewegungsebenen (inkl. Futterreiz-Technik für die Halswirbelsäule) sowie der Hinweis auf die notwendige Kombination von orthopädischer und neurologischer Untersuchung sind im Original so beschrieben. Die im selben Abschnitt behandelte Iliosakralgelenk-Palpation wurde bewusst nicht mit übernommen, da sie in `iliosakralgelenk-anatomie-symptome-ursachen` und den zugehörigen Einträgen (Hárrer, Kap. 16.2.7) bereits erheblich detaillierter abgedeckt ist. Diese Textstelle liegt außerhalb der bei diesem Buch dokumentierten Spalten-Verschachtelungs-Fehlerzone.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["facettengelenke"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
