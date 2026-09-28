@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (28.09.2026)
 
-- Wissensbibliothek: 231 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
-  Untersuchung, 82 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 232 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
+  Untersuchung, 83 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -244,8 +244,16 @@ kein Überblick verloren geht.
   Epicondylus). Dazwischen außerdem Distractio cubiti (DC) gefunden —
   löst direkt den seit dem 25.09. offenen Hárrer-Backlog-Punkt zum
   Radiuskurvensyndrom auf (siehe PATHOLOGIE-Hárrer-Abschnitt oben).
-  3 weitere neue Einträge. Der Rest der 121-seitigen Datei (Fraktur-,
-  Tumor- und Wirbelsäulenabschnitte, vermutlich ab ca. S. 65) bleibt
+  3 weitere neue Einträge. Danach Karpalgelenkluxation und
+  -hyperextension gelesen (S. 71–75): 1 gemeinsamer neuer Eintrag
+  `karpalgelenk-luxation-hyperextension-hund` (PATHOLOGIE) — der
+  plantigrade „Bärentatzen"-Gang als gemeinsames Symptom zweier
+  Krankheitsbilder mit sehr unterschiedlicher Ursache (akutes Trauma
+  vs. Grunderkrankung vs. rasseassoziierte chronische Degeneration bei
+  Shelties/Collies), klar abgegrenzt vom bestehenden
+  Tarsus-Instabilitäts-Eintrag (Hintergliedmaße statt Vordergliedmaße).
+  Der Rest der 121-seitigen Datei (Femurkopfluxation sowie Fraktur-,
+  Tumor- und Wirbelsäulenabschnitte, vermutlich ab ca. S. 76) bleibt
   offen für eine spätere Session.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
@@ -395,10 +403,25 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       PATHOLOGIE-Hárrer-Abschnitt oben). Damit ist von den in Kap.
       „Ellbogengelenkdysplasie" benannten Einzelkomponenten (IPA, FPC,
       OCD, IOCH, MEHB, DC) nur noch keine offen.
+- [x] **Karpalgelenkluxation und -hyperextension (28.09.2026, S. 71–75).**
+      Als ein gemeinsamer Eintrag `karpalgelenk-luxation-hyperextension-hund`
+      umgesetzt (nicht zwei getrennte, da beide zum selben plantigraden
+      „Bärentatzen"-Gangbild führen und sich gegenseitig als
+      Differentialdiagnose bedingen): Luxation als akutes
+      Hochenergietrauma vs. Hyperextension als Folge einer
+      Grunderkrankung oder — bei Shelties/Collies — als eigenständige
+      chronisch-degenerative „Niederbrechen"-Erkrankung ganz ohne
+      Trauma. Betrifft das Karpalgelenk (Vordergliedmaße) und ist damit
+      klar vom bestehenden `tarsus-erkrankungen-hund`-Eintrag
+      (Sprunggelenk, Hintergliedmaße) abzugrenzen, obwohl beide zum
+      gleichen Gangbild führen können. Die dort ebenfalls genannte
+      Tendopathie des M. abductor pollicis longus ist über den
+      bestehenden Eintrag `tendovaginitis-abductor-pollicis-longus`
+      bereits abgedeckt und wurde nicht dupliziert.
 - [ ] Rest des Kapitels systematisch weiterlesen (Datei ca. 121 Seiten, bisher
-      bis ca. S. 64 gesichtet — Karpalgelenkluxation/-hyperextension
-      [S. 65 ff., angelesen, noch nicht ausgewertet], Femurkopfluxation
-      sowie Fraktur-, Tumor- und Wirbelsäulenabschnitte am Ende vermutlich
+      bis ca. S. 75 gesichtet — Femurkopfluxation [S. 76, angelesen, noch
+      nicht ausgewertet] sowie Fraktur-, Tumor- und Wirbelsäulenabschnitte
+      am Ende vermutlich
       noch offen)
 
 ### PATHOLOGIE — Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates" (VetCenter/Thieme, aus: Physikalische Therapie für Kleintiere)

@@ -10831,6 +10831,45 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "karpalgelenk-luxation-hyperextension-hund",
+    category: "PATHOLOGIE",
+    title: "Der plantigrade „Bärentatzen“-Gang: Karpalluxation und Karpal-Hyperextension",
+    teaser:
+      "Ein Hund, der plötzlich flach auf der ganzen Handwurzel statt auf den Zehen läuft, hat fast immer eines von zwei verwandten Problemen — mit sehr unterschiedlichen Ursachen, aber demselben chirurgischen Endpunkt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein gemeinsames Bild mit zwei unterschiedlichen Ursachen",
+        text: "Sowohl die Luxation als auch die Hyperextension des Karpalgelenks führen zum selben auffälligen Symptom: Bricht die palmare Stützstruktur des Gelenks zusammen, tritt der Hund nicht mehr auf den Zehen, sondern flach mit dem ganzen Karpus auf — ein vorsichtig belastender, plantigrader „bärentatziger“ Gang, bei einseitiger Verletzung oft mit vollständiger Entlastung des betroffenen Beins. Trotz des gemeinsamen Erscheinungsbilds unterscheiden sich die beiden Krankheitsbilder grundlegend in ihrer Entstehung.",
+      },
+      {
+        type: "text",
+        heading: "Luxation: meist ein akutes, hochenergetisches Trauma",
+        text: "Bei der Karpalgelenkluxation reißen infolge eines Unfalls (häufig Autounfall oder Sturz/Sprung aus großer Höhe), meist während einer Überstreckung des Gelenks, Gelenkkapsel, kleine interkarpale Bänder und mitunter auch der palmare Faserknorpel oder die Kollateralbänder. Je nach betroffener Gelenkebene unterscheidet man antebrachiokarpale, mittlere karpale und karpometakarpale Luxationen — mehrere Formen können gleichzeitig vorliegen; daneben ist auch die isolierte Luxation einzelner Karpalknochen möglich (am häufigsten Os carpale radiale und Ossa carpalia I/II nach dorsal). Selbst bei intakten palmaren Bändern und intaktem Faserknorpel kann nach Reposition eine bleibende Hyperextensionsfähigkeit des Gelenks zurückbleiben.",
+      },
+      {
+        type: "text",
+        heading: "Hyperextension: auch aus geringem Trauma — oder ganz ohne Unfall",
+        text: "Die Hyperextension des Karpalgelenks betrifft dieselben palmaren Strukturen (palmare Bänder, palmarer Faserknorpel sowie die Bänder zwischen Os carpale accessorium und den Basen der Ossa metacarpalia IV/V), ohne dass dabei eine eigentliche Luxation vorliegt. Sie kann bereits durch ein vergleichsweise geringes Trauma ausgelöst werden, wenn das Gelenk durch eine Grunderkrankung (rheumatoide Arthritis, systemischer Lupus erythematodes) bereits vorgeschädigt ist — oder ganz ohne erkennbares Trauma als chronische Degeneration von Sehnen und Bändern mit allmählichem „Niederbrechen“ des Gelenks entstehen, was vor allem bei Shelties und Collies beschrieben ist.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik: warum Stressaufnahmen hier unverzichtbar sind",
+        text: "Bei beiden Krankheitsbildern kann die Instabilität auf Standardröntgenaufnahmen unauffällig bleiben, weil sie sich erst unter Belastung zeigt — Stressaufnahmen sind deshalb notwendig, um Lokalisation und Ausmaß der Bandverletzung darzustellen, insbesondere bei der Hyperextension, bei der definitionsgemäß keine sichtbare Luxation vorliegt. Zusätzlich wird auf Ausrissfragmente und dystrophische Kalzifizierungen an Bändern und Sehnen geachtet. Beide Krankheitsbilder stehen zudem wechselseitig auf der jeweils anderen Differentialdiagnoseliste, ergänzt um immunbedingte und infektiöse Arthritis sowie — bei der Hyperextension — die Tendopathie des M. abductor pollicis longus.",
+      },
+      {
+        type: "text",
+        heading: "Therapie: konservativ nur bei jungen Tieren, sonst Arthrodese",
+        text: "Eine konservative Behandlung mit Schienenverband kann bei sehr jungen, noch wachsenden Tieren ausreichen — bei ausgewachsenen Hunden bleibt die Instabilität unter Belastung meist bestehen, da die ursprüngliche Bandfestigkeit nicht wiederhergestellt werden kann. Je nach betroffener Struktur kommen Bandrekonstruktionen mit Faszienimplantat oder synthetischem Bandersatz durch einen Knochentunnel infrage; bei Verletzung der palmaren Bänder oder des palmaren Faserknorpels führt praktisch immer eine Arthrodese zum Ziel — bei antebrachiokarpalen Luxationen als Panarthrodese, bei karpometakarpalen Luxationen genügt manchmal eine partielle Arthrodese der distalen Gelenkreihen. Nach Abheilung der Arthrodese (Nachbehandlung mit Schienenverband über 6–8 Wochen) ist die Prognose in beiden Fällen sehr gut, mit voller Belastbarkeit des Beins und meist nur geringer Restlahmheit.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitte „Luxation des Karpalgelenks beim Hund“ und „Hyperextension des Karpalgelenks beim Hund“. Verletzungsmechanismen, Klassifikation der Luxationsformen, das plantigrade Gangbild, die Rasseprädisposition (Shelties/Collies) bei der chronisch-degenerativen Hyperextension, Diagnostik (inkl. Stressaufnahmen) und das vierstufige Therapieschema mit Prognose sind in der Quelle so beschrieben. Betrifft das Karpalgelenk (Vordergliedmaße) und ist damit ein eigenständiges Krankheitsbild gegenüber dem bestehenden Eintrag `tarsus-erkrankungen-hund` (Hintergliedmaße/Sprunggelenk, Koch/Fischer) — nicht zu verwechseln, auch wenn beide zum selben plantigraden Gangbild führen können. Die als Differentialdiagnose genannte Tendopathie des M. abductor pollicis longus ist bereits über den bestehenden Eintrag `tendovaginitis-abductor-pollicis-longus` abgedeckt und wurde hier nicht dupliziert.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
