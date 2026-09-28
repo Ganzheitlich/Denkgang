@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (28.09.2026)
 
-- Wissensbibliothek: 232 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
-  Untersuchung, 83 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 233 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
+  Untersuchung, 84 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -252,9 +252,18 @@ kein Überblick verloren geht.
   vs. Grunderkrankung vs. rasseassoziierte chronische Degeneration bei
   Shelties/Collies), klar abgegrenzt vom bestehenden
   Tarsus-Instabilitäts-Eintrag (Hintergliedmaße statt Vordergliedmaße).
-  Der Rest der 121-seitigen Datei (Femurkopfluxation sowie Fraktur-,
-  Tumor- und Wirbelsäulenabschnitte, vermutlich ab ca. S. 76) bleibt
-  offen für eine spätere Session.
+  Danach Femurkopfluxation ergänzt (S. 78–80): 1 weiterer neuer Eintrag
+  `femurkopfluxation-kaudodorsal-zeitfenster-begleitverletzungen` —
+  gezielt um das, was im bestehenden `hueftgelenkluxation-hund`-Eintrag
+  fehlte (dritte, kaudodorsale Luxationsrichtung, Begleitverletzungs-
+  Statistik, Vier-Tage-Zeitfenster für die Reposition), nicht als
+  Duplikat. Dabei zeigte sich, dass die gespeicherte Drive-Extraktion
+  mitten im Femurkopfluxations-Therapieabschnitt abbricht (dasselbe
+  Zeichenlimit-Muster wie bei kl(4).pdf) — bewusst nichts aus dem
+  abgeschnittenen Rest übernommen. Der Rest der 121-seitigen Datei
+  (Rest der Femurkopfluxations-Therapie sowie eventuelle Fraktur-,
+  Tumor- und Wirbelsäulenabschnitte) bleibt offen für eine spätere
+  Session mit erneutem, gezieltem Drive-Read.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -418,11 +427,28 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       Tendopathie des M. abductor pollicis longus ist über den
       bestehenden Eintrag `tendovaginitis-abductor-pollicis-longus`
       bereits abgedeckt und wurde nicht dupliziert.
-- [ ] Rest des Kapitels systematisch weiterlesen (Datei ca. 121 Seiten, bisher
-      bis ca. S. 75 gesichtet — Femurkopfluxation [S. 76, angelesen, noch
-      nicht ausgewertet] sowie Fraktur-, Tumor- und Wirbelsäulenabschnitte
-      am Ende vermutlich
-      noch offen)
+- [x] **Femurkopfluxation, Ergänzung (28.09.2026, S. 78–80).** Als
+      `femurkopfluxation-kaudodorsal-zeitfenster-begleitverletzungen`
+      umgesetzt — bewusst als gezielte Ergänzung, nicht als Duplikat des
+      bestehenden `hueftgelenkluxation-hund` (Koch/Fischer): die dort
+      fehlende dritte Luxationsrichtung (kaudodorsal, mit
+      spiegelverkehrtem Rotationsmuster und N.-ischiadicus-Risiko), die
+      Häufigkeit von Begleitverletzungen (60–80 %, davon 50 %
+      Thoraxtrauma — nie isoliert behandeln), eine ergänzende
+      Linien-Palpationstechnik sowie das Vier-Tage-Zeitfenster für eine
+      noch erfolgversprechende geschlossene Reposition.
+      **Technische Grenze erreicht:** Die gespeicherte Drive-Extraktion
+      (`vetcenter-bewegungsapparat.txt`, 106.693 Zeichen) bricht mitten
+      im Therapie-Abschnitt der Femurkopfluxation ab („Anlegen einer der
+      folgenden Schlingen" — dann Dateiende), obwohl die Quelldatei
+      121 Seiten umfasst. Gleiches Muster wie bei kl(4).pdf: Der
+      Drive-Read-Tool-Output wird bei einer festen Zeichengrenze
+      gekappt, nicht am Dokumentende. Bewusst nichts aus dem
+      abgeschnittenen Rest übernommen. Fraktur-, Tumor- und
+      Wirbelsäulenabschnitte (falls vorhanden, vermutlich ab ca. S. 80)
+      sowie das Ende des Femurkopfluxations-Therapieabschnitts bleiben
+      offen — erfordern einen erneuten, gezielteren Drive-Read in einer
+      späteren Session.
 
 ### PATHOLOGIE — Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates" (VetCenter/Thieme, aus: Physikalische Therapie für Kleintiere)
 

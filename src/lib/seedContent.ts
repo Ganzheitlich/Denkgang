@@ -10870,6 +10870,40 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "femurkopfluxation-kaudodorsal-zeitfenster-begleitverletzungen",
+    category: "PATHOLOGIE",
+    title: "Femurkopfluxation: die seltene dritte Richtung — und warum bei der Reposition die Uhr tickt",
+    teaser:
+      "Eine Hüftluxation ist selten eine isolierte Verletzung, und je länger man mit der Reposition wartet, desto schwerer wird sie — zwei Punkte, die im Trubel der Erstversorgung leicht untergehen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum eine Hüftluxation nie isoliert betrachtet werden darf",
+        text: "Bei rund 60–80 % aller Femurkopfluxationen bestehen parallel weitere Verletzungen, bei der Hälfte aller Patienten insbesondere ein Thoraxtrauma. Eine Hüftluxation nach einem Unfall ist deshalb nie eine rein orthopädische Angelegenheit: Vor der gezielten Versorgung des Hüftgelenks steht immer eine gründliche Untersuchung auf weitere Verletzungen und, falls nötig, eine kreislaufstabilisierende Behandlung.",
+      },
+      {
+        type: "text",
+        heading: "Die dritte, seltene Richtung: kaudodorsale Luxation",
+        text: "Neben der häufigen kraniodorsalen (~80 %) und der seltenen ventralen Luxation (~3 %, eher bei kleinwüchsigen Rassen wie Pudeln) gibt es die seltene kaudodorsale Luxation — vermutlich meist als sekundäre Verlagerung aus einer ursprünglich kraniodorsalen Luxation mit besonders ausgeprägter Weichteilzerstörung und entsprechend großer Instabilität. Im Gegensatz zur kraniodorsalen Luxation zeigt sich hier eine Innenrotation des Kniegelenks bei gleichzeitiger Außenrotation des Sprunggelenks — also das spiegelverkehrte Rotationsmuster — und die Gliedmaße erscheint eher etwas verlängert statt verkürzt. Wegen der unmittelbaren Nähe des N. ischiadicus, der das Becken kaudal des Acetabulums von medial nach lateral überquert, besteht hier zusätzlich ein erhöhtes Risiko einer Nervenschädigung.",
+      },
+      {
+        type: "text",
+        heading: "Eine ergänzende Palpationstechnik",
+        text: "Neben dem Daumentest in der Grube zwischen Tuber ischiadicum und Trochanter major lässt sich eine kraniodorsale Luxation auch über eine gedachte Linie zwischen dem höchsten Punkt der Spina iliaca und dem Tuber ischii einordnen: Physiologisch liegt der Trochanter major ventral dieser Linie, bei kraniodorsaler Luxation liegt er dorsal davon.",
+      },
+      {
+        type: "text",
+        heading: "Warum die Reposition zeitkritisch ist",
+        text: "Eine geschlossene, unblutige Reposition wird nach den ersten vier Tagen zunehmend schwierig: Einsetzende Muskelkontrakturen und die Organisation des periartikulären Hämatoms erschweren den Eingriff, und mit der Zeit steigt zusätzlich die Wahrscheinlichkeit eines ausgeprägten Knorpelschadens am Femurkopf durch dessen fortgesetzten Kontakt mit dem Beckenknochen. Je früher eine Reposition versucht wird, desto besser stehen die Chancen auf ein gutes funktionelles Ergebnis — ein Grund, eine Hüftluxation nicht erst nach Abklingen der akuten Aufregung, sondern zeitnah definitiv zu versorgen.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Femurkopfluxation beim Hund“. Die Häufigkeit von Begleitverletzungen (60–80 %, davon 50 % Thoraxtraumata), die kaudodorsale Luxation mit ihrem spiegelverkehrten Rotationsmuster und dem N.-ischiadicus-Risiko, die ergänzende Linien-Palpationstechnik sowie das Vier-Tage-Zeitfenster für eine erfolgreiche geschlossene Reposition sind in der Quelle so beschrieben. Ergänzt gezielt den bestehenden Eintrag `hueftgelenkluxation-hund` (Koch/Fischer, Kap. 8.3.10), der Ätiologie, die kraniodorsale/ventrale Luxation, den Daumentest und die Therapieoptionen (Ehmer-Schlinge, Toggle-Pin, Hüftprothese) bereits abdeckt — bewusst nicht dupliziert, sondern um die dort fehlende dritte Luxationsrichtung sowie die Begleitverletzungs- und Zeitfenster-Aspekte erweitert.",
+    relatedCaseIds: ["luna"],
+    relatedAnatomyIds: ["huefte"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
