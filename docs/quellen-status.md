@@ -10,6 +10,23 @@ komplett per `read_file_content` extrahieren — die Antwort wird bei sehr lange
 abgeschnitten, bevor die gesuchte Textstelle erreicht wird. Gezielte `fullText`-Suche innerhalb
 eines Buchordners findet trotzdem zuverlässig die richtige Teildatei/Kapitel.
 
+**Workaround gefunden (28.09.2026), aber mit fester Größengrenze:** Bricht `read_file_content`
+eine PDF-Datei mitten im Text ab, lässt sich die Datei stattdessen per `download_file_content`
+(liefert base64) herunterladen und lokal mit `pdftotext -layout <datei>.pdf <datei>.txt`
+vollständig zu Text konvertieren — ohne die Kappung von `read_file_content`. Erfolgreich getestet
+an VetCenter „Erkrankungen des Bewegungsapparates" (2,7 MB Rohdatei → 106.693 Zeichen bei
+`read_file_content`, aber 280.920 Zeichen bei lokaler Extraktion — kompletter Rest des Kapitels
+dadurch erst zugänglich geworden). **Harte Grenze:** `download_file_content` verweigert Dateien
+über 10 MB Rohgröße explizit mit einer klaren Fehlermeldung; kl(4).pdf (9 MB Rohdatei, ca. 12 MB
+nach Base64-Kodierung) scheiterte am 28.09.2026 wiederholt mit der unklareren Fehlermeldung
+„session expired" statt der Größenmeldung — vermutlich, weil die Base64-Kodierung die effektive
+Übertragungsgröße über die 10-MB-Grenze hebt, auch wenn die Rohdatei knapp darunter liegt. Der
+Workaround funktioniert also zuverlässig nur für Rohdateien bis ca. 7 MB. Für größere Dateien wie
+kl(4).pdf (9 MB) oder Hohmann b11.pdf (15 MB, siehe Quadriceps/Bruno unten) bleibt keine der
+beiden Methoden vollständig; hier hilft nur eine Bitte an Vanessa um eine bereits vorab in
+kleinere Teile gesplittete Datei (wie bei Baumgartner/Wittek/Khol kl.pdf → kl(1)–kl(13).pdf schon
+geschehen).
+
 ## Geprüft (Stand 20.09.2026)
 
 | Anspruch | Quelle | Ergebnis |
@@ -45,7 +62,10 @@ Besonders relevant für künftige Kategorien:
 2. Quadriceps/Bruno: Kap. 9 (Hohmann, b11.pdf, 15 MB) bleibt technisch nicht extrahierbar über
    S. 297 hinaus — mehrere gezielte Versuche (Volltext-Read, `fullText`-Suche mit erhöhter
    Snippet-Verbosity) bestätigen den Begriff im Kapitel, erreichen aber nicht die Textstelle
-   selbst. Bleibt offen, bis Vanessa ggf. die betroffene Seite direkt bereitstellen kann.
+   selbst. Auch der neue `download_file_content` + `pdftotext`-Workaround (s. o.) scheitert hier
+   explizit an der 10-MB-Grenze (b11.pdf: 15 MB) — am 28.09.2026 erneut versucht und bestätigt
+   nicht möglich. Bleibt offen, bis Vanessa ggf. die betroffene Seite direkt bereitstellen kann
+   oder das Kapitel wie bei Baumgartner/Wittek/Khol in kleinere Dateien vorab aufgeteilt wird.
 3. ~~Hohmann-Korrektur (Co-Autorin „Mima")~~ — erledigt sich von selbst: „Mima Hohmann" ist der
    volle Autorinnenname (Einzelautorin), keine zweite Person. Zitierweise „Hohmann, ..." war
    bereits korrekt.
