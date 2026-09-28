@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (28.09.2026)
 
-- Wissensbibliothek: 233 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
-  Untersuchung, 84 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 234 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
+  Untersuchung, 85 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -259,11 +259,20 @@ kein Überblick verloren geht.
   Statistik, Vier-Tage-Zeitfenster für die Reposition), nicht als
   Duplikat. Dabei zeigte sich, dass die gespeicherte Drive-Extraktion
   mitten im Femurkopfluxations-Therapieabschnitt abbricht (dasselbe
-  Zeichenlimit-Muster wie bei kl(4).pdf) — bewusst nichts aus dem
-  abgeschnittenen Rest übernommen. Der Rest der 121-seitigen Datei
-  (Rest der Femurkopfluxations-Therapie sowie eventuelle Fraktur-,
-  Tumor- und Wirbelsäulenabschnitte) bleibt offen für eine spätere
-  Session mit erneutem, gezieltem Drive-Read.
+  Zeichenlimit-Muster wie bei kl(4).pdf). Statt erneut `read_file_content`
+  zu versuchen, wurde die Datei per `download_file_content` (base64)
+  heruntergeladen und lokal mit `pdftotext -layout` vollständig
+  konvertiert (280.920 statt 106.693 Zeichen — keine Kappung mehr). Die
+  vollständige Extraktion zeigte: keine Fraktur-/Tumor-/
+  Wirbelsäulenabschnitte vorhanden (falsche Vermutung), stattdessen die
+  fehlenden Erfolgsquoten der Femurkopfluxations-Reposition (in den
+  bestehenden Eintrag nachträglich ergänzt) sowie als letztes Thema der
+  Datei die Quadrizepskontraktur nach distaler Femurfraktur — 1 weiterer
+  neuer Eintrag `quadrizepskontraktur-nach-femurfraktur-physiotherapie-
+  kontraindiziert` mit der für die Zielgruppe besonders wichtigen Warnung,
+  dass Physiotherapie bei bereits eingetretener Kontraktur gefährlich
+  statt hilfreich ist. **Damit ist die 121-seitige Datei „Erkrankungen
+  des Bewegungsapparates" vollständig ausgewertet.**
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -437,18 +446,37 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       Thoraxtrauma — nie isoliert behandeln), eine ergänzende
       Linien-Palpationstechnik sowie das Vier-Tage-Zeitfenster für eine
       noch erfolgversprechende geschlossene Reposition.
-      **Technische Grenze erreicht:** Die gespeicherte Drive-Extraktion
-      (`vetcenter-bewegungsapparat.txt`, 106.693 Zeichen) bricht mitten
-      im Therapie-Abschnitt der Femurkopfluxation ab („Anlegen einer der
-      folgenden Schlingen" — dann Dateiende), obwohl die Quelldatei
-      121 Seiten umfasst. Gleiches Muster wie bei kl(4).pdf: Der
-      Drive-Read-Tool-Output wird bei einer festen Zeichengrenze
-      gekappt, nicht am Dokumentende. Bewusst nichts aus dem
-      abgeschnittenen Rest übernommen. Fraktur-, Tumor- und
-      Wirbelsäulenabschnitte (falls vorhanden, vermutlich ab ca. S. 80)
-      sowie das Ende des Femurkopfluxations-Therapieabschnitts bleiben
-      offen — erfordern einen erneuten, gezielteren Drive-Read in einer
-      späteren Session.
+      **Technische Grenze überwunden — Lösung für künftige Fälle dieser
+      Art dokumentiert:** Die über `read_file_content` gespeicherte
+      Drive-Extraktion (`vetcenter-bewegungsapparat.txt`, 106.693
+      Zeichen) brach mitten im Therapie-Abschnitt der Femurkopfluxation
+      ab, obwohl die Quelldatei 121 Seiten umfasst — dasselbe
+      Zeichenlimit-Muster wie zuvor bei kl(4).pdf. Lösung: Statt erneut
+      `read_file_content` zu versuchen, wurde die PDF-Datei direkt per
+      `download_file_content` (base64) heruntergeladen und lokal mit
+      `pdftotext -layout` vollständig zu Text konvertiert (280.920
+      Zeichen statt 106.693 — keine Kappung). Diese Methode empfiehlt
+      sich künftig direkt, sobald `read_file_content` bei einer PDF-Datei
+      eine Kappungswarnung zeigt, statt Zeit mit wiederholten
+      `read_file_content`-Versuchen zu verlieren.
+      Die vollständige lokale Extraktion zeigte: Es gibt in dieser Quelle
+      **keine** Fraktur-, Tumor- oder Wirbelsäulenabschnitte — die
+      Vermutung dazu war falsch. Die Datei ist ein reiner Katalog
+      namentlich benannter Gelenk-/Gliedmaßenkrankheitsbilder und endet
+      nach der Femurkopfluxation (jetzt vollständig ausgewertet, inkl.
+      der zuvor fehlenden Erfolgsquoten [geschlossen ~50 %, offen
+      ~85–90 %] und Nachsorge-Details, in den bestehenden Eintrag
+      nachträglich ergänzt) mit einem letzten, bisher komplett fehlenden
+      Thema: **Quadrizepskontraktur nach distaler Femurfraktur** — als
+      `quadrizepskontraktur-nach-femurfraktur-physiotherapie-kontraindiziert`
+      umgesetzt. Fachlich besonders relevant für die Zielgruppe: Die
+      Quelle warnt ausdrücklich, dass Physiotherapie/forciertes Dehnen
+      bei bereits eingetretener Kontraktur nicht nur wirkungslos, sondern
+      gefährlich ist (Risiko erneuter Muskelrisse oder Frakturen) — ein
+      Fall, in dem die Grenzen der eigenen Modalität aktiv erkannt werden
+      müssen.
+      **Damit ist die Quelldatei „Erkrankungen des Bewegungsapparates"
+      (121 S.) vollständig ausgewertet.**
 
 ### PATHOLOGIE — Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates" (VetCenter/Thieme, aus: Physikalische Therapie für Kleintiere)
 

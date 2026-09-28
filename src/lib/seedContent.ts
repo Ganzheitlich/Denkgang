@@ -10897,12 +10897,51 @@ const KNOWLEDGE: KnowledgeSeed[] = [
         heading: "Warum die Reposition zeitkritisch ist",
         text: "Eine geschlossene, unblutige Reposition wird nach den ersten vier Tagen zunehmend schwierig: Einsetzende Muskelkontrakturen und die Organisation des periartikulären Hämatoms erschweren den Eingriff, und mit der Zeit steigt zusätzlich die Wahrscheinlichkeit eines ausgeprägten Knorpelschadens am Femurkopf durch dessen fortgesetzten Kontakt mit dem Beckenknochen. Je früher eine Reposition versucht wird, desto besser stehen die Chancen auf ein gutes funktionelles Ergebnis — ein Grund, eine Hüftluxation nicht erst nach Abklingen der akuten Aufregung, sondern zeitnah definitiv zu versorgen.",
       },
+      {
+        type: "text",
+        heading: "Erfolgsquote und Nachsorge — warum eine gescheiterte geschlossene Reposition kein Rückschlag ist",
+        text: "Die geschlossene Reposition gelingt dauerhaft nur in etwa 50 % der Fälle; scheitert sie oder liegt von vornherein eine instabile Situation, eine Fraktur oder eine bestehende Hüftgelenkdysplasie vor, folgt eine offene, chirurgische Reposition (z. B. Toggle-Pin-Technik oder extrakapsuläre Fadenzügelung nach Slocum) mit einer deutlich höheren Erfolgsquote von etwa 85–90 % — eine vorausgegangene gescheiterte geschlossene Reposition verschlechtert diese Erfolgsaussichten dabei nicht. Nach erfolgreicher geschlossener Reposition wird das Bein für 10–14 Tage in einer Schlinge (z. B. modifizierte Ehmer-, Robinson- oder Slocum-Schlinge) ruhiggestellt, anschließend folgen acht Wochen strenger Leinenzwang ohne Springen und Rennen. Die Schlinge selbst muss alle 3–4 Tage kontrolliert werden — andernfalls drohen Durchblutungsstörungen und Hautabschürfungen bis hin zum Verlust der Gliedmaße.",
+      },
     ],
     errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "vorschnelle Diagnose"],
     sourceStatus:
-      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Femurkopfluxation beim Hund“. Die Häufigkeit von Begleitverletzungen (60–80 %, davon 50 % Thoraxtraumata), die kaudodorsale Luxation mit ihrem spiegelverkehrten Rotationsmuster und dem N.-ischiadicus-Risiko, die ergänzende Linien-Palpationstechnik sowie das Vier-Tage-Zeitfenster für eine erfolgreiche geschlossene Reposition sind in der Quelle so beschrieben. Ergänzt gezielt den bestehenden Eintrag `hueftgelenkluxation-hund` (Koch/Fischer, Kap. 8.3.10), der Ätiologie, die kraniodorsale/ventrale Luxation, den Daumentest und die Therapieoptionen (Ehmer-Schlinge, Toggle-Pin, Hüftprothese) bereits abdeckt — bewusst nicht dupliziert, sondern um die dort fehlende dritte Luxationsrichtung sowie die Begleitverletzungs- und Zeitfenster-Aspekte erweitert.",
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Femurkopfluxation beim Hund“ (per lokaler PDF-Extraktion vollständig ausgewertet, S. 78–82 — die zuvor über den Drive-Lesezugriff gespeicherte Extraktion war an dieser Stelle abgeschnitten und wurde durch direkten PDF-Download plus lokale Textextraktion ergänzt). Die Häufigkeit von Begleitverletzungen (60–80 %, davon 50 % Thoraxtraumata), die kaudodorsale Luxation mit ihrem spiegelverkehrten Rotationsmuster und dem N.-ischiadicus-Risiko, die ergänzende Linien-Palpationstechnik, das Vier-Tage-Zeitfenster für eine erfolgreiche geschlossene Reposition sowie die Erfolgsquoten (geschlossen ca. 50 %, offen ca. 85–90 %, unabhängig von einem vorausgegangenen gescheiterten geschlossenen Versuch) und die Nachsorge (Schlingenkontrolle alle 3–4 Tage, 8 Wochen Leinenzwang) sind in der Quelle so beschrieben. Ergänzt gezielt den bestehenden Eintrag `hueftgelenkluxation-hund` (Koch/Fischer, Kap. 8.3.10), der Ätiologie, die kraniodorsale/ventrale Luxation, den Daumentest und die Therapieoptionen (Ehmer-Schlinge, Toggle-Pin, Hüftprothese) bereits abdeckt — bewusst nicht dupliziert, sondern um die dort fehlende dritte Luxationsrichtung, die Begleitverletzungs- und Zeitfenster-Aspekte sowie die konkreten Erfolgsquoten und Nachsorge-Details erweitert.",
     relatedCaseIds: ["luna"],
     relatedAnatomyIds: ["huefte"],
+  },
+  {
+    id: "quadrizepskontraktur-nach-femurfraktur-physiotherapie-kontraindiziert",
+    category: "PATHOLOGIE",
+    title: "Quadrizepskontraktur: wenn Physiotherapie nach einer Fraktur zur falschen Antwort wird",
+    teaser:
+      "Ein steifes Knie nach einer Oberschenkelfraktur beim Junghund verlangt nach Dehnung und Mobilisation — bei einer bereits eingetretenen Quadrizepskontraktur kann genau das aber eine erneute Fraktur auslösen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wie aus einer Fraktur eine bindegewebige Versteifung wird",
+        text: "Die Quadrizepskontraktur entsteht typischerweise bei jungen Hunden nach distalen Femurfrakturen (oft vom Typ Salter-Harris I oder II) und ist eine bindegewebige Durchbauung des M. quadriceps femoris mit fortschreitender Verkürzung und Versteifung. Begünstigt wird sie durch Weichteil- und Muskeltraumen im Frakturbereich, fehlerhafte Osteosynthesen mit starker Kallusbildung, eine extensive Traumatisierung von Muskel und Gelenkkapsel während der Operation — und vor allem durch die Ruhigstellung des Kniegelenks in Streckstellung mittels Verband. Zunächst entstehen lediglich Verklebungen zwischen Muskel, Kallus und Gelenkkapsel; bleibt die frühzeitige Mobilisierung des Gelenks aus, verstärkt sich das Bindegewebe, und der angeheftete Muskel kontrahiert zunehmend, bis der distale Quadrizepsanteil dauerhaft mit dem distalen Femur verwächst.",
+      },
+      {
+        type: "text",
+        heading: "Ein Knie, das sich zunehmend nur noch strecken lässt",
+        text: "Betroffene Hunde werden meist einige Wochen nach der Fraktur des distalen Femurs vorgestellt, häufig nach operativer Stabilisierung oder Verbandsbehandlung. Anfänglich ist eine völlige Streckung des Kniegelenks noch möglich, die Beugung aber bereits auf 20–30° eingeschränkt; im Verlauf nimmt die Beugefähigkeit weiter ab, bis das Gelenk im Endstadium vollständig in überstreckter Haltung arretiert ist und die Quadrizepsmuskulatur als harter, fibrosierter Strang tastbar wird. Unbehandelt drohen langfristig Knochenatrophie, permanente Knorpelschäden, intraartikuläre Fibrose und schließlich eine Ankylose des Kniegelenks. Eine seltene kongenitale Form mit unbekannter Ursache kommt daneben ebenfalls vor.",
+      },
+      {
+        type: "text",
+        heading: "Warum Physiotherapie hier gefährlich statt hilfreich sein kann",
+        text: "Bei einer bereits eingetretenen Quadrizepskontraktur bringen physiotherapeutische Übungen oder ein gewaltsames Beugen des Kniegelenks meist keinen Erfolg — im Gegenteil: Sie können erneute Muskelrupturen oder sogar eine erneute Fraktur auslösen. Die Versteifung ist zu diesem Zeitpunkt bereits strukturell durch verwachsenes Bindegewebe bedingt, nicht mehr funktionell, und lässt sich entsprechend nicht durch Dehnung auflösen. Prävention ist deshalb der eigentliche Schlüssel: Gelenknahe Frakturen müssen technisch einwandfrei und möglichst atraumatisch osteosynthetisch versorgt werden, mit früher Mobilisierung des Gelenks, damit die anfänglichen Verklebungen gar nicht erst entstehen.",
+      },
+      {
+        type: "text",
+        heading: "Therapie und Prognose, wenn die Kontraktur bereits besteht",
+        text: "Ist die Kontraktur bereits eingetreten, bleibt nur die chirurgische Behandlung: Durchtrennung der Verwachsungen zwischen Quadrizepsmuskulatur und Gelenkkapsel bzw. distalem Femur, Resektion des fibrotischen Bindegewebes, bei Bedarf zusätzlich Durchtrennung des Muskels im Fibrosebereich oder eine Z-Plastik zur Muskelverlängerung. Die postoperative Nachbehandlung entscheidet maßgeblich über den Erfolg: Das Gelenk wird zunächst in Beugestellung ruhiggestellt (Verband oder transartikulärer Fixateur externe) und anschließend über zwei bis drei Monate durch mehrmals tägliche passive Beugung und Streckung mobilisiert — jetzt, nach der operativen Lösung der Verwachsungen, ist Bewegungstherapie also wieder Teil der Lösung, nicht mehr das Risiko. Die Prognose bleibt trotzdem vorsichtig, da erneute Verwachsungen und eine erneute Kontraktur drohen; eine nahezu normale Bewegungsfreiheit wird nur selten erreicht, bei Therapieversagen kann im Extremfall eine Amputation der Gliedmaße nötig werden.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Quadrizepskontraktur beim Hund“ (per lokaler PDF-Extraktion ausgewertet, S. 118–120 — letzter Abschnitt der Datei). Pathogenese (inkl. der Ruhigstellung in Streckstellung als Hauptrisikofaktor), Symptomverlauf, die ausdrückliche Warnung vor physiotherapeutischen Dehnübungen bei bereits eingetretener Kontraktur (Risiko erneuter Muskelrisse oder Frakturen), die chirurgische Therapie samt postoperativer Bewegungstherapie sowie die vorsichtige Prognose sind in der Quelle so beschrieben. Mit diesem Eintrag ist die Quelldatei „Erkrankungen des Bewegungsapparates“ (121 S.) vollständig ausgewertet — vollständige lokale Re-Extraktion per PDF-Download (280.920 Zeichen) bestätigt, dass Quadrizepskontraktur der letzte Abschnitt der Datei ist; die zuvor vermuteten Fraktur-/Tumor-/Wirbelsäulenabschnitte existieren in dieser Quelle nicht.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["quadriceps"],
   },
 ];
 
