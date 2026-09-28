@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (28.09.2026)
 
-- Wissensbibliothek: 225 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
-  Untersuchung, 76 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 228 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
+  Untersuchung, 79 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -223,7 +223,21 @@ kein Überblick verloren geht.
   zeigte, dass die gespeicherte Drive-Extraktion mitten in einer
   Tabelle abbricht — bewusst nichts aus dem unvollständigen Fragment
   übernommen. Die übrigen, nicht vorgemerkten Abschnitte von Kap. 4 sind
-  offen — siehe UNTERSUCHUNG-Backlog für den Stand im Detail.
+  offen — siehe UNTERSUCHUNG-Backlog für den Stand im Detail. Danach
+  zurück zu einem länger offenen Backlog-Punkt: VetCenter „Erkrankungen
+  des Bewegungsapparates" (121 S.) war bisher nur bis ca. S. 80 gesichtet.
+  Die drei dort explizit vorgemerkten, noch offenen Themen gelesen und
+  umgesetzt (28.09.2026): Immunvermittelte Gelenkerkrankungen (15
+  benannte Subtypen in einer Vergleichstabelle, ergänzt den bestehenden
+  `polyarthritis-hund`-Eintrag statt ihn zu duplizieren — inkl. bewusster
+  Vermeidung der Abkürzung „IPA" wegen Kollision mit „Isolierter
+  Processus Anconaeus"), Osteochondrosis dissecans im Schultergelenk
+  (eigenständiges Krankheitsbild mit Gelenkmaus-Pathogenese) und die
+  Kontraktur des M. infraspinatus (das namensgebende „eigenartige"
+  Jagdhund-Gangbild, verknüpft mit dem bestehenden Anatomie-Item). 3 neue
+  Einträge. Der Rest der 121-seitigen Datei (Fraktur-, Tumor- und
+  Wirbelsäulenabschnitte, vermutlich ab ca. S. 80) bleibt offen für eine
+  spätere Session.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -282,14 +296,42 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       Koch/Fischer Kap. 8.3.10 abgedeckt (`hueftgelenkluxation-hund`,
       24.09.2026), inkl. der hier geforderten klaren Abgrenzung zur HD
       (plötzliches Trauma vs. langsam entstandene Gelenklockerheit)
-- [ ] Immunvermittelte Gelenkerkrankungen (Lymphoplasmazelluläre Gonitis,
-      rheumatoide Arthritis, systemischer Lupus erythematodes, IPA Typ I–IV als
-      Immunreaktion — Achtung: anderer Kontext als das strukturelle „IPA" bei ED,
-      im Original getrennt zu halten)
-- [ ] Osteochondrosis dissecans (OCD) im Schultergelenk (eigenständig, nicht nur
-      als ED-Differential)
-- [ ] Kontraktur des M. infraspinatus (typisches Jagdhund-Bild, „eigenartige
-      Gliedmaßenhaltung")
+- [x] **Immunvermittelte Gelenkerkrankungen (28.09.2026).** Als
+      `immunvermittelte-gelenkerkrankungen-subtypen-hund` umgesetzt: 15
+      benannte Subtypen (reaktive Polyarthritis Typ I–IV, SLE,
+      impfassoziiert, Polyarthritis/Polymyositis, PA/M, Polyarteriitis
+      nodosa, Akita-Inu-Arthritis, Sjögren-Syndrom, Shar-Pei-Fieber,
+      medikamenteninduziert, juvenile Cellulitis/Arthritis,
+      Lymphoplasmazelluläre Gonitis) in einer Vergleichstabelle mit
+      Rasse-/Altersprädisposition, Zusatzbefunden und Prognose. Ergänzt
+      den bestehenden Eintrag `polyarthritis-hund` (Koch/Fischer, Kap.
+      8.2.5), der nur die allgemeine Klassifikation und die idiopathische
+      Polyarthritis als häufigste Form behandelt, um die granulare
+      Differenzierung — bewusst nicht dupliziert. Die im Original
+      verwendete Abkürzung „IPA" für die Typ-I–IV-Klassifikation wurde
+      bewusst NICHT übernommen und stattdessen ausgeschrieben, da „IPA"
+      in Denkgang bereits für „Isolierter Processus Anconaeus" (ED)
+      etabliert ist — genau die Verwechslungsgefahr, vor der dieser
+      Backlog-Eintrag ursprünglich gewarnt hatte.
+- [x] **Osteochondrosis dissecans (OCD) im Schultergelenk (28.09.2026).**
+      Als `osteochondrosis-dissecans-schultergelenk-hund` umgesetzt:
+      Pathogenese (Gelenkmaus-Entstehung, Bizepssehnenscheiden-
+      Beteiligung), Rasseprädispositionen, altersabhängiges
+      Therapieschema (konservativ < 6 Mon., sonst operativ) und Prognose.
+      Eigenständiges Krankheitsbild, klar abgegrenzt von der Erwähnung
+      als ED-Differential und von der allgemeinen OC/OCD-Pathogenese aus
+      Koch/Fischer bzw. Hohmann.
+- [x] **Kontraktur des M. infraspinatus (28.09.2026).** Als
+      `infraspinatuskontraktur-jagdhund-gliedmassenfehlhaltung` umgesetzt:
+      typischer Jagdhund-Vorbericht, die namensgebende
+      Gliedmaßenfehlhaltung (Detailbeschreibung der Rotations-/
+      Beugestellungen), die sekundäre Inaktivitätsatrophie von
+      M. supraspinatus/M. deltoideus, Differentialdiagnose (Luxatio
+      antebrachii lateralis), Tenotomie-Therapie und die bleibende
+      Infraspinatus-Atrophie trotz günstiger Prognose. Erweitert die
+      bisher nur einzeilige `clinicalRelevance`-Erwähnung im
+      Anatomie-Item `infraspinatus` (Hárrer) um das vollständige
+      Krankheitsbild — verknüpft via `relatedAnatomyIds`.
 - [x] Generalisierte Skeletterkrankungen: Osteochondrose (OC), Panostitis,
       hypertrophe Osteodystrophie — inhaltlich abgedeckt über Koch/Fischer
       Kap. 8.2.1–8.2.4 (24.09.2026, siehe eigener Abschnitt oben) statt aus

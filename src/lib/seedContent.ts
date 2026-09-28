@@ -10540,6 +10540,205 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "infraspinatuskontraktur-jagdhund-gliedmassenfehlhaltung",
+    category: "PATHOLOGIE",
+    title: "Die Infraspinatuskontraktur: wenn eine bizarre Beinhaltung der einzige Hinweis ist",
+    teaser:
+      "Ein Jagdhund kehrt lahmend von der Jagd zurück, die Lahmheit bessert sich — und Wochen später steht eine seltsam nach außen gedrehte Gliedmaße im Halbkreis vor, ohne dass der Hund dabei Schmerzen zeigt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Vom akuten Trauma zur bleibenden Kontraktur",
+        text: "Der Kontraktur des M. infraspinatus liegt vermutlich ein Muskelfaserriss nach einem Trauma zugrunde, der über ein Kompartmentsyndrom zur dauerhaften narbigen Verkürzung des Muskels führt — die genaue Ursache bleibt aber oft unbekannt. Typisch ist ein Vorbericht, der die eigentliche Verletzung leicht verschleiert: Der Hund (meist ein mittelgroßer Jagdhund) kehrt nach dem Einsatz mit einer mittel- bis hochgradigen Lahmheit zurück, die sich zunächst bessert — bevor sich erst später die charakteristische, „eigenartige“ Gliedmaßenhaltung entwickelt, die für diese Erkrankung namensgebend ist.",
+      },
+      {
+        type: "text",
+        heading: "Ein Gangbild, das sich einprägt",
+        text: "Das betroffene Bein wird nach dorsokranial angehoben, wobei sich der gesamte Schultergürtel verlagert: Der proximale Humerus ist dabei um etwa 30° nach außen rotiert, Ellbogen- und Karpalgelenk sind gebeugt, während das Schultergelenk selbst gestreckt gehalten wird. Der Ellbogen ist adduziert und unter den Brustkorb verlagert, die distale Gliedmaße dagegen abduziert, die Pfote supiniert. Beim Vorschwingen bewegt sich das Bein in einem nach außen gerichteten Halbkreis, die Fußung erfolgt in Abduktionsstellung.",
+      },
+      {
+        type: "text",
+        heading: "Warum am Ende drei Muskeln atrophiert sind, obwohl nur einer betroffen ist",
+        text: "Bei der Palpation fällt die Schulter fixiert in Streckstellung auf. Zunächst ist nur der M. infraspinatus selbst atrophiert — im weiteren Verlauf atrophieren jedoch auch M. supraspinatus und M. deltoideus, allerdings nicht durch eine eigene Erkrankung, sondern schlicht durch Inaktivität, weil die kontrakte Infraspinatussehne die Schulterbewegung blockiert. Entsprechend wird die Spina scapulae zunehmend deutlicher tastbar. Trotz der auffälligen Fehlstellung ist die Muskulatur dabei nicht schmerzhaft — Schmerz zeigt sich allenfalls bei der passiven Manipulation des Schultergelenks selbst. Differentialdiagnostisch muss vor allem die Luxatio antebrachii lateralis abgegrenzt werden, die eine ganz ähnliche Gliedmaßenhaltung erzeugen kann.",
+      },
+      {
+        type: "text",
+        heading: "Therapie und die eine Sache, die auch danach bleibt",
+        text: "Die Diagnose stützt sich auf das typische Stand- und Gangbild, die fehlende Schulterbeweglichkeit sowie Röntgenaufnahmen (mediolateral und kaudokranial), die je nach Krankheitsdauer eine sekundäre Arthropathia deformans, einen verengten Gelenkspalt oder knöcherne Zubildungen am Sehnenansatz (Insertionstendopathie) zeigen können. Therapeutisch wird die Endsehne des M. infraspinatus quer zum Faserverlauf auf Höhe des Akromions tenotomiert (eine Resektion ist nicht notwendig) und das Schultergelenk anschließend mobilisiert, um die Verklebungen zu lösen. Die Prognose ist bei korrekter Tenotomie günstig, langfristig ohne Stabilitätsverlust — die Atrophie des M. infraspinatus selbst bleibt jedoch bestehen, während sich M. supraspinatus und M. deltoideus wieder normalisieren, sobald die Bewegungseinschränkung behoben ist.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund übersehen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Kontraktur des Musculus infraspinatus beim Hund“. Pathogenese, typischer Vorbericht, die charakteristische Gliedmaßenfehlhaltung, Palpationsbefunde (inkl. sekundärer Inaktivitätsatrophie von M. supraspinatus und M. deltoideus), Differentialdiagnose, Diagnosesicherung, Therapie (Tenotomie) und Prognose sind in der Quelle so beschrieben. Erweitert die bisher nur einzeilige `clinicalRelevance`-Erwähnung im bestehenden Anatomie-Item `infraspinatus` (aus Hárrer, Kap. 12) um das vollständige Krankheitsbild.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["infraspinatus"],
+  },
+  {
+    id: "osteochondrosis-dissecans-schultergelenk-hund",
+    category: "PATHOLOGIE",
+    title: "Osteochondrosis dissecans im Schultergelenk: wenn sich ein Knorpelstück selbstständig macht",
+    teaser:
+      "Eine erblich bedingte Störung der Knorpelverknöcherung kann eine frei im Gelenk schwimmende „Gelenkmaus“ hinterlassen — die sich sogar in der Bizepssehnenscheide festsetzen und dort eine eigene Entzündung auslösen kann.",
+    sections: [
+      {
+        type: "text",
+        heading: "Vom Knorpeldefekt zur freien Gelenkmaus",
+        text: "Osteochondrosis dissecans (OCD) im Schultergelenk beruht auf einer im Wesentlichen erblich bedingten Störung der enchondralen Ossifikation des Gelenkknorpels — meist am Caput humeri, nur sehr selten an der konkaven Gelenkfläche der Cavitas glenoidalis. Am Defekt entsteht zunächst eine Knorpelschuppe, die häufig noch über einen dünnen, medial gelegenen Steg mit dem umliegenden Knorpel verbunden ist. Löst sich diese Schuppe vollständig ab, entsteht ein freier Gelenkkörper (Corpus liberum, „Gelenkmaus“). Setzt sich dieser an der Gelenkkapsel fest, wird er von dort weiter ernährt, kann weiterwachsen und sogar verknöchern — meist im kaudalen Gelenkrezessus, gelegentlich aber auch in der Sehnenscheide des M. biceps brachii, wo er zusätzlich eine eigenständige Sehnenscheidenentzündung unterhalten kann.",
+      },
+      {
+        type: "text",
+        heading: "Wer betroffen ist und wie sich das zeigt",
+        text: "Betroffen sind vor allem junge, schnell wachsende mittelgroße bis große Hunde verschiedener Rassen — häufig Rhodesian Ridgeback, Berner Sennenhund, Boxer, Golden Retriever, Deutscher Schäferhund, Bernhardiner, Pyrenäenberghund, Neufundländer, Deutsch Draht-/Kurz-/Langhaar und Deutsche Dogge, daneben auch Mischlinge sowie gehäuft Border Collies unter den kleineren Rassen. Rüden sind häufiger betroffen als Hündinnen, ein beidseitiges Auftreten ist nicht selten. Die Lahmheit beginnt meist ab dem 5. Lebensmonat, ein- oder beidseitig gemischt, mit unterschiedlichem Schweregrad und Schrittverkürzung, oft nach Ruhe oder Belastung deutlicher ausgeprägt und mitunter intermittierend. Bei beidseitiger Erkrankung kann Steifheit nach dem Liegen sogar das einzige auffällige Symptom sein. Häufig findet sich eine vermehrte Gelenkfüllung sowie Schmerzhaftigkeit bei passiver Beugung und Streckung; eine Muskelatrophie entsteht erst sekundär als Folgeerscheinung.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik und die wichtigsten Verwechslungsgefahren",
+        text: "Differentialdiagnostisch müssen vor allem Bizepssehnenerkrankungen, eine angeborene Schultergelenkluxation, erworbene traumatische Verletzungen und Panostitis abgegrenzt werden. Die Diagnose stützt sich auf eine Röntgenuntersuchung beider Schultergelenke im Vergleich (mediolateraler Strahlengang), die eine halbmondförmige Aufhellung am Caput humeri und ggf. sichtbare verkalkte Gelenkmäuse zeigt; in unklaren Fällen kommen ergänzend Ultraschall, Arthrographie, CT oder MRT zum Einsatz.",
+      },
+      {
+        type: "text",
+        heading: "Therapie abhängig vom Alter — und was danach bleibt",
+        text: "Bei sehr jungen Hunden unter 6 Monaten wird zunächst konservativ behandelt (strikte Ruhighaltung, ggf. Fütterungsumstellung). Bei älteren Hunden mit persistierender Lahmheit erfolgt die operative Entfernung der Knorpelschuppe mit vorsichtiger Kürettage des darunterliegenden nekrotischen Knochens (Arthrotomie oder Arthroskopie), wodurch der Defekt mit Faserknorpel abheilen kann; postoperativ folgen etwa sechs Wochen strenger Leinenzwang mit vorsichtiger Belastungssteigerung nach etwa zwei Wochen sowie begleitende Physiotherapie zum Muskelaufbau. Die Prognose ist hinsichtlich der Lahmheit nach operativer Behandlung günstig — ein Fortschreiten der Arthrose trotz Operation bleibt jedoch möglich, führt aber nur selten erneut zu Lahmheit.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Osteochondrosis dissecans im Schultergelenk beim Hund“. Definition/Pathogenese (inkl. Gelenkmaus-Entstehung und Bizepssehnenscheiden-Beteiligung), Rasseprädispositionen, Symptome, Differentialdiagnosen, Diagnosesicherung und die altersabhängige Therapie mit Prognose sind in der Quelle so beschrieben. Eigenständiges Krankheitsbild, nicht zu verwechseln mit der allgemeinen OC/OCD-Pathogenese aus Koch/Fischer bzw. Hohmann oder der OCD als Ellbogendysplasie-Differential — dieser Eintrag behandelt speziell die Schultergelenk-Manifestation.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "immunvermittelte-gelenkerkrankungen-subtypen-hund",
+    category: "PATHOLOGIE",
+    title: "Immunvermittelte Gelenkerkrankungen: eine Familie mit sehr unterschiedlichen Gesichtern",
+    teaser:
+      "Hinter „immunvermittelter Polyarthritis“ verbergen sich mindestens ein Dutzend eigenständige Krankheitsbilder — von der harmlosen Impfreaktion beim Welpen bis zur fast immer tödlich endenden Akita-Arthritis.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein gemeinsamer Mechanismus, viele Gesichter",
+        text: "Allen immunvermittelten Gelenkerkrankungen liegt ein ähnlicher Mechanismus zugrunde, unabhängig vom konkreten Erscheinungsbild: Eine Hypersensitivitätsreaktion vom Typ III führt zu Immunkomplexablagerungen in den Gelenken, die dort Komplement binden und eine lokale Entzündungsreaktion mit Anlockung neutrophiler Granulozyten auslösen. Bei stärkerer perivaskulärer Infiltration von T- und B-Lymphozyten, Plasmazellen und Makrophagen in der Synovialmembran (zusätzlich Typ-IV-Reaktion) kommt es zur Zytokinproduktion und teils zum Verlust der Selbsttoleranz mit Bildung von Autoantikörpern (Rheumafaktoren) gegen die eigenen Immunkomplexe. Dieser gemeinsame Mechanismus erklärt, warum sich die einzelnen Subtypen im akuten Bild oft ähneln (Fieber, Polyarthritis, Lahmheit, Muskelatrophie) — die entscheidenden Unterschiede liegen in Rasseprädisposition, Begleitbefunden und vor allem der Prognose.",
+      },
+      {
+        type: "table",
+        heading: "Subtypen im Überblick",
+        columns: [
+          "Erkrankung",
+          "Rasse-/Altersprädisposition",
+          "Charakteristische Zusatzbefunde",
+          "Prognose",
+        ],
+        rows: [
+          [
+            "Reaktive Polyarthritis Typ I (idiopathisch, ohne erkennbaren Auslöser)",
+            "—",
+            "Häufigste Form; Rezidivrate bis 50 %",
+            "Gut, Heilung möglich; evtl. Vorläufer der rheumatoiden Arthritis",
+          ],
+          [
+            "Reaktive Polyarthritis Typ II (mit Infektion außerhalb der Gelenke)",
+            "—",
+            "Dritthäufigste Form; Auslöser z. B. Atemwegs-, Harnwegs-, Zahn-, Ohr- oder Hautinfektionen; Erreger selbst nicht im Gelenk nachweisbar",
+            "Abhängig von der Grundkrankheit",
+          ],
+          [
+            "Reaktive Polyarthritis Typ III (mit gastrointestinalen Störungen)",
+            "—",
+            "Vermutlich erhöhte Darmpermeabilität für Antigene als Auslöser",
+            "Abhängig von der Grundkrankheit",
+          ],
+          [
+            "Reaktive Polyarthritis Typ IV (paraneoplastisch)",
+            "—",
+            "Assoziiert mit Neoplasien außerhalb der Gelenke; Gelenksymptome oft nur geringgradig",
+            "Abhängig von der Grundkrankheit",
+          ],
+          [
+            "Systemischer Lupus erythematodes (SLE)",
+            "Möglicherweise Deutscher Schäferhund, Irish Setter",
+            "Vierthäufigste Form; positiver ANA-Titer plus mind. ein weiteres Majorsymptom (z. B. Polymyositis, Zytopenien, Proteinurie)",
+            "Vorsichtig, Dauertherapie nötig, ungünstig bei Nierenbeteiligung",
+          ],
+          [
+            "Impfassoziierte Polyarthritis",
+            "Welpen, junge Hunde",
+            "Impfung innerhalb der letzten 4 Wochen; häufigste Polyarthritis-Form überhaupt",
+            "Gut, meist Spontanheilung",
+          ],
+          [
+            "Polyarthritis/Polymyositis",
+            "Vorwiegend Spanielrassen",
+            "Erhöhte Muskelenzyme, Muskelschmerz/-atrophie, ANA negativ",
+            "Vorsichtig",
+          ],
+          [
+            "Polyarthritis/Meningitis (PA/M)",
+            "Junge adulte Berner Sennenhunde, Boxer, Weimaraner, Deutsch-Kurzhaar, Neufundländer, Akita Inu u. a.",
+            "Halsbiegeschmerz, Liquorveränderungen, ANA negativ",
+            "Günstig, außer beim Akita Inu (Rezidivneigung)",
+          ],
+          [
+            "Polyarteriitis nodosa",
+            "Vorwiegend junge Beagle (6–9 Monate)",
+            "Evtl. Myositis, Meningitis; Überlappung mit PA/M",
+            "Günstig",
+          ],
+          [
+            "Arthritis beim Akita Inu",
+            "Nur Akita Inu, unter 1 Jahr",
+            "Familiär; extraartikuläre Organsymptome, Meningitis, Lymphadenopathie; Überlappung mit PA/M",
+            "Ungünstig — meist Euthanasie vor dem 1. Lebensjahr",
+          ],
+          [
+            "Sjögren-Syndrom",
+            "—",
+            "Evtl. erosiv; Keratoconjunctivitis sicca, Xerostomie (trockene Augen/Maulschleimhaut)",
+            "—",
+          ],
+          [
+            "Shar-Pei-Fieber-Syndrom",
+            "Nur Shar Pei",
+            "Fieber, meist Tarsalgelenke betroffen, Nieren-/Leberamyloidose",
+            "Vorsichtig — Risiko für Nieren-/Leberversagen",
+          ],
+          [
+            "Medikamenteninduzierte Arthritis",
+            "U. a. Dobermann (Sulfonamid-Überempfindlichkeit)",
+            "Beginn 10–21 Tage nach Medikamentengabe (z. B. Sulfonamide, Lincomycin)",
+            "Günstig — meist Besserung 2–7 Tage nach Absetzen",
+          ],
+          [
+            "Juvenile Cellulitis und Arthritis",
+            "Welpen",
+            "Im Vordergrund steht eine juvenile Pyodermie (Cellulitis), teils mit begleitender Polyarthritis",
+            "Gut",
+          ],
+          [
+            "Lymphoplasmazelluläre Gonitis",
+            "Vorwiegend kleine bis mittelgroße Hunde",
+            "Betrifft isoliert das Kniegelenk; bei unter 10 % der Hunde mit Kreuzbandriss begleitend nachweisbar; Synovia überwiegend Lymphozyten statt Neutrophile",
+            "Meist günstig",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Eine Namensverwechslung, die vermieden werden sollte",
+        text: "In manchen Quellen wird die vierstufige Klassifikation der reaktiven Polyarthritis mit der Abkürzung „IPA“ bezeichnet — derselben Abkürzung, die in der Ellbogendysplasie-Diagnostik für den „Isolierten Processus Anconaeus“ steht. Beide Erkrankungen haben nichts miteinander zu tun; die Abkürzung sollte im Gespräch deshalb immer ausgeschrieben werden, um Verwechslungen zu vermeiden.",
+      },
+      {
+        type: "text",
+        heading: "Warum Rasse und betroffenes Organsystem oft der entscheidende Hinweis sind",
+        text: "Bei einem Hund mit unklarer Polyarthritis lohnt es sich, gezielt nach Rasse, Alter und Begleitbefunden zu fragen, bevor vorschnell die Diagnose „idiopathische Polyarthritis Typ I“ gestellt wird: Ein junger Akita Inu mit Polyarthritis und gleichzeitiger Meningitis hat eine grundlegend andere Prognose als ein Welpe mit Polyarthritis kurz nach der Impfung. Auch die Lymphoplasmazelluläre Gonitis zeigt, wie wichtig eine präzise Differenzierung ist: Sie betrifft isoliert das Kniegelenk und kann leicht mit einem beginnenden Kreuzbandriss verwechselt werden — tatsächlich tritt sie sogar bei einem Teil der Hunde mit echtem Kreuzbandriss begleitend auf, sodass beide Differentialdiagnosen einander nicht ausschließen.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Immunvermittelte Gelenkerkrankungen“. Die gemeinsame Pathogenese (Typ-III-/Typ-IV-Hypersensitivität), alle in der Tabelle genannten Subtypen mit Rasse-/Altersprädisposition, Zusatzbefunden und Prognose sind in der Quelle so beschrieben. Ergänzt den bestehenden Eintrag `polyarthritis-hund` (Koch/Fischer, Kap. 8.2.5), der die allgemeine Klassifikation und die idiopathische Polyarthritis als häufigste Form behandelt, um die granulare Differenzierung der einzelnen benannten Subtypen — bewusst nicht dupliziert. Die Abkürzung „IPA“ für diese Klassifikation wird bewusst vermieden bzw. explizit von der bereits in Denkgang etablierten Verwendung als „Isolierter Processus Anconaeus“ (Ellbogendysplasie) abgegrenzt, um Verwechslungen zu vermeiden.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
