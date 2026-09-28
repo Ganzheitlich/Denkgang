@@ -60,9 +60,9 @@ kein Überblick verloren geht.
   wurde. Dieselbe Lücken-Regel gilt ab sofort für alle künftigen
   Anatomie-Items: keine leeren/unklaren Kernfelder mehr als Endzustand.
 
-## Stand (27.09.2026)
+## Stand (28.09.2026)
 
-- Wissensbibliothek: 224 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 64
+- Wissensbibliothek: 225 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
   Untersuchung, 76 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -215,9 +215,15 @@ kein Überblick verloren geht.
   (Apathie/Somnolenz/Stupor/Koma), Fieberterminologie (Grade,
   Verlaufsmuster), Pulsqualität (Pulsus-Terminologie) und
   Atemtypus/Dyspnoe-Terminologie. Damit sind alle vier vorgemerkten
-  Kap.-4-Abschnitte abgearbeitet; die übrigen, nicht vorgemerkten
-  Abschnitte von Kap. 4 sind offen — siehe UNTERSUCHUNG-Backlog für den
-  Stand im Detail.
+  Kap.-4-Abschnitte abgearbeitet. Danach zusätzlich Kap. 4.5.3
+  „Hautelastizität" gelesen (28.09.2026): 1 weiterer neuer Eintrag zum
+  Hautturgor-Test als Dehydratationsgradmesser beim Hund, inkl. der
+  ergänzenden V.-ulnaris-/Augapfel-Schwellenwerte. Ein Versuch, danach
+  auch Kap. 4.10.4/4.10.5 (Herz-/Lungenauskultation) auszuwerten,
+  zeigte, dass die gespeicherte Drive-Extraktion mitten in einer
+  Tabelle abbricht — bewusst nichts aus dem unvollständigen Fragment
+  übernommen. Die übrigen, nicht vorgemerkten Abschnitte von Kap. 4 sind
+  offen — siehe UNTERSUCHUNG-Backlog für den Stand im Detail.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -922,11 +928,36 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Mobile-Breite sauber lesbar (im Gegensatz zur 4-spaltigen
       Reflex-Tabelle aus Kap. 7).
       **Damit sind alle vier ursprünglich vorgemerkten Abschnitte aus
-      Kap. 4 abgearbeitet.** Die übrigen Abschnitte von Kap. 4 (4.1
-      Vorbericht, 4.3–4.5 Körperhaltung/Ernährungszustand/Haut, 4.8–4.9
-      Kopf/Hals, 4.10.2–4.10.5 Thoraxpalpation/-perkussion/-auskultation)
-      waren nicht vorgemerkt und wurden nicht systematisch gelesen — bei
-      Bedarf für eine spätere Session offen.
+      Kap. 4 abgearbeitet.**
+
+- [x] **Zusätzlich Kap. 4.5.3 „Hautelastizität" gelesen, 1 neuer Eintrag
+      (28.09.2026).** Nicht ursprünglich vorgemerkt, aber naheliegende
+      Fortsetzung derselben Vitalparameter-Logik: Hautturgor als
+      Dehydratationsgradmesser. Auch hier gab es zuvor keinerlei
+      strukturierte Terminologie in Denkgang. Neu:
+      `hautelastizitaet-dehydratationsgrad-hund` (UNTERSUCHUNG) — die
+      Hund/Katze-spezifische Hautfaltenprobe (physiologisch 1–2 Sek.,
+      pathologisch \> 2 Sek. bzw. aufgehoben), ihre Grenzen als
+      Einzelparameter, sowie die ergänzenden Schwellenwerte V.-ulnaris-
+      Füllung (ab ca. 7 % Flüssigkeitsdefizit) und Augapfel-Einsinken (ab
+      ca. 10 %). Verifiziert per Playwright-Screenshot (0 Console-/
+      Page-Errors).
+      Beim Versuch, anschließend auch Kap. 4.10.4/4.10.5 (Herz-/
+      Lungenperkussion und -auskultation, S. 128–133) auszuwerten, zeigte
+      sich, dass die gespeicherte Drive-Extraktion (`baumgartner-kl4.txt`,
+      388.254 Zeichen) genau mitten in Tab. 4.10 (Herzdämpfung nach
+      Tierart) abbricht — die Pathologische-Befunde-/Ursachen-Abschnitte
+      der Lungenauskultation (Rasselgeräusche, Pfeifgeräusche usw.)
+      fehlen dadurch. Bewusst **nicht** aus dem unvollständigen Fragment
+      extrahiert (Prinzip: im Zweifel eher auslassen als aus
+      unvollständigem Kontext übernehmen, MASTER-PROMPT §22) — bei
+      Bedarf in einer späteren Session per erneutem Drive-Read
+      nachholen. Die übrigen Abschnitte von Kap. 4 (4.1 Vorbericht, 4.3
+      Körperhaltung, 4.4 Ernährungszustand, 4.5.1/4.5.2/4.5.5 restliche
+      Hautuntersuchung, 4.8–4.9 Kopf/Hals, 4.10.2/4.10.3
+      Thoraxpalpation/Lungenperkussion) waren nicht vorgemerkt und wurden
+      nicht systematisch gelesen — bei Bedarf für eine spätere Session
+      offen.
 
 - [ ] **Ursprüngliche Struktur-Erkundung (25.09.2026, weiterhin gültig für
       die noch nicht gelesenen Kapitel/Abschnitte).**

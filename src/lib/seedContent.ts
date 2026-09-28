@@ -10506,6 +10506,40 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "hautelastizitaet-dehydratationsgrad-hund",
+    category: "UNTERSUCHUNG",
+    title: "Die Hautfalte als Gradmesser: wie zuverlässig ist der Hautturgor-Test wirklich?",
+    teaser:
+      "Eine stehenbleibende Hautfalte gilt als klassisches Dehydratationszeichen — aber sie ist nur eines von mehreren Anzeichen, und keines davon sollte isoliert bewertet werden.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was die Hautelastizität tatsächlich misst",
+        text: "Die Elastizität der Haut wird in erster Linie durch den physiologischen Wassergehalt des Gewebes bestimmt (Turgor, Hydratationszustand) — die elastischen Fasern der Haut selbst tragen dazu nur wenig bei. Eine verminderte Hautelastizität gilt deshalb als Gradmesser für den Dehydratationsgrad eines Patienten: Ändert sich der hydrostatische, onkotische oder osmotische Druck im Gewebe, verändert sich auch dessen Turgor und damit die Spannung der darüberliegenden Haut.",
+      },
+      {
+        type: "text",
+        heading: "Durchführung und Befunde beim Hund",
+        text: "Bei Hund und Katze wird eine Hautfalte lateral an der Brustkorbwand aufgezogen und die Zeit gemessen, die sie zum Verstreichen benötigt. Physiologisch verstreicht die Falte innerhalb von 1–2 Sekunden. Verstreicht sie erst nach mehr als 2 Sekunden, gilt die Hautelastizität als vermindert; bleibt sie nahezu unverändert stehen, gilt sie als aufgehoben.",
+      },
+      {
+        type: "text",
+        heading: "Warum der Test allein nicht ausreicht",
+        text: "Der Hautfaltentest hat Grenzen, die bei der Interpretation mitbedacht werden müssen: Rassebedingte, ohnehin überschüssige Hautfaltenbildung kann den Befund verfälschen, und der Test bildet ohnehin nur eine grobe Einschätzung ab, keinen exakten Flüssigkeitsverlust in Prozent. Zwei weitere Parameter liefern zusätzliche, unabhängige Anhaltspunkte: Die Gefäßfüllung der V. ulnaris ist ab einem Flüssigkeitsdefizit von etwa 7 % herabgesetzt, ein Einsinken des Augapfels und der orbitalen Region tritt erst ab etwa 10 % Flüssigkeitsverlust auf. Ein einzelner Parameter — Hautfalte, Venenfüllung oder Augapfelstand — sollte deshalb nie isoliert bewertet werden, sondern immer im Zusammenhang mit den beiden anderen.",
+      },
+      {
+        type: "text",
+        heading: "Was hinter einer verminderten Hautelastizität stecken kann",
+        text: "Hauptursache ist ein verminderter Wassergehalt der Haut, meist infolge starker Flüssigkeitsverluste (chronischer Durchfall, wiederholtes Erbrechen, Polyurie) oder Störungen des Elektrolythaushalts. Daneben können auch allgemeine Ernährungsstörungen mit vermindertem Plasma-/Gewebeprotein oder Kreislaufstörungen mit reduzierter Flüssigkeitszufuhr zum Gewebe eine verminderte Hautelastizität verursachen — nicht jede verstrichene Hautfalte bedeutet also zwangsläufig eine reine Flüssigkeitsdefizit-Dehydratation im engeren Sinn.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 4.5.3 „Hautelastizität“, S. 75f. Der Mechanismus (Turgor als Hauptfaktor), die Hund/Katze-spezifische Durchführung, die physiologischen/pathologischen Zeitschwellen sowie die ergänzenden Parameter V.-ulnaris-Füllung (ab ca. 7 % Flüssigkeitsdefizit) und Augapfel-Einsinken (ab ca. 10 %) samt Ursachenliste sind im Original so beschrieben. Vor diesem Eintrag enthielt Denkgang keine strukturierte Hautturgor-/Dehydratationsterminologie.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
