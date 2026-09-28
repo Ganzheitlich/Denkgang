@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (28.09.2026)
 
-- Wissensbibliothek: 234 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
+- Wissensbibliothek: 235 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 66
   Untersuchung, 85 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -272,7 +272,14 @@ kein Überblick verloren geht.
   kontraindiziert` mit der für die Zielgruppe besonders wichtigen Warnung,
   dass Physiotherapie bei bereits eingetretener Kontraktur gefährlich
   statt hilfreich ist. **Damit ist die 121-seitige Datei „Erkrankungen
-  des Bewegungsapparates" vollständig ausgewertet.**
+  des Bewegungsapparates" vollständig ausgewertet.** Denselben lokalen
+  PDF-Extraktionsweg danach auf Hárrer Kap. 17.1 (Sympathikus-
+  Grundlagen, zuvor gelesen, aber nie in einen Eintrag umgesetzt)
+  angewendet: 1 weiterer neuer Eintrag zur Segmentüberlappung von
+  Plexus brachialis und zervikalem Sympathikus, die erklärt, warum ein
+  Horner-Syndrom bevorzugt bei tiefen Plexus-brachialis-Läsionen
+  auftritt — inkl. der Warnung, dass dieselbe Symptomkombination je
+  nach Ursache entgegengesetzte Therapieentscheidungen verlangt.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -680,9 +687,26 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
 - [ ] Kap. 16 (Wirbelsäule) — teilweise für Quellenprüfung von facettengelenke
       gelesen, aber nicht systematisch nach weiteren Pathologie-Themen
       durchsucht (z. B. Spondylose, IVDD, Cauda-equina)
-- [~] Kap. 17 Neurotension (S. 269–296) — gelesen: 17.1 (ZNS/PNS-Grundlagen,
-      Sympathikus, Horner-Syndrom — sehr ausführlich, aber eher humanmedizin-
-      nahe Grundlagenanatomie, noch nicht als Wissenseintrag umgesetzt),
+- [~] **Kap. 17.1 jetzt ausgewertet (28.09.2026, per lokaler PDF-Extraktion
+      neu geholt — ma(17).pdf, 3,1 MB, `read_file_content` kappte bei
+      106.325 Zeichen, lokale `pdftotext`-Extraktion lieferte vollständige
+      157.905 Zeichen).** Ein Punkt aus dem allgemein eher
+      humanmedizin-nahen Grundlagenteil erwies sich als genuin wertvoll
+      und dog-spezifisch klinisch relevant: die Segmentüberlappung von
+      Plexus brachialis (C6–Th2) und zervikalen Sympathikusfasern
+      (C8–Th7) erklärt, warum ein Horner-Syndrom bevorzugt bei tiefen/
+      kaudalen Plexus-brachialis-Läsionen auftritt. Als
+      `horner-syndrom-plexus-brachialis-laesionshoehe` (UNTERSUCHUNG)
+      umgesetzt — ergänzt den bestehenden Kopfnerven/Horner-Syndrom-
+      Eintrag (Koch/Fischer) um dieses Lokalisationskriterium sowie
+      `plexusschaden-vordergliedmasse` um die Horner-Komponente,
+      inklusive der klinisch wichtigen Warnung, dass Horner-Syndrom je
+      nach Ursache (Trauma vs. Mittelohrentzündung) entgegengesetzte
+      Therapieentscheidungen verlangt. Bewusst NICHT übernommen: die
+      übrige, sehr humanmedizin-nahe Grenzstrang-/Parasympathikus-
+      Detailanatomie (Ganglienkette, Nn.-splanchnici-Verlauf im Detail)
+      ohne erkennbaren zusätzlichen Denkgang-Mehrwert über den
+      Horner-Punkt hinaus.
       17.2–17.2.4 (Bewegung/Dehnung/Kompression, Ursachen und Symptome
       mechanosensitiver Nerven — als `nervenkompression-druck-dehnungsschwellen`
       umgesetzt) sowie 17.3/17.4/17.5.1/17.5.2 (Wirkprinzip, Kontraindikationen,

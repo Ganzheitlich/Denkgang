@@ -10943,6 +10943,35 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["quadriceps"],
   },
+  {
+    id: "horner-syndrom-plexus-brachialis-laesionshoehe",
+    category: "UNTERSUCHUNG",
+    title: "Horner-Syndrom bei Plexus-brachialis-Schaden: warum es fast nie bei einer hohen Läsion auftritt",
+    teaser:
+      "Zwei benachbarte Nervengeflechte entspringen aus fast, aber nicht ganz denselben Rückenmarksegmenten — und genau diese kleine Verschiebung entscheidet, ob eine Plexusverletzung ein Horner-Syndrom auslöst oder nicht.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Nervengeflechte mit ähnlichem, aber verschobenem Ursprung",
+        text: "Der Plexus brachialis entspringt aus den Rückenmarksegmenten C6–Th2. Die präganglionären sympathischen Fasern, die über den Grenzstrang zum Auge ziehen und dort gemeinsam als Horner-Syndrom auffallen (Ptosis, Miosis, Enophthalmus, verminderte Schweißsekretion), stammen dagegen aus den Segmenten C8–Th7 — also insgesamt etwas tiefer und weiter kaudal als der Plexus brachialis. Beide Faserbündel überlappen sich deshalb nur in einem schmalen gemeinsamen Segmentbereich (C8–Th2).",
+      },
+      {
+        type: "text",
+        heading: "Warum die Läsionshöhe über das Auftreten eines Horner-Syndroms entscheidet",
+        text: "Weil sich Plexus brachialis und sympathische Zervikalfasern nur in den kaudalsten Plexus-Segmenten überschneiden, tritt ein Horner-Syndrom bevorzugt bei tiefen (kaudalen) Plexus-brachialis-Läsionen auf — deutlich seltener, wenn die Schädigung weiter kranial liegt (etwa C6–C8). Ein Hund mit traumatischer Monoplegie einer Vordergliedmaße und zusätzlichem Horner-Syndrom lässt damit gezielter auf die betroffene Segmenthöhe innerhalb des Plexus schließen, als es die Monoplegie allein könnte — ein ergänzendes Lokalisationskriterium zu den bereits bekannten Ursachen des Horner-Syndroms (Hypothalamusläsion, Trauma der Nervenwurzeln, Mittelohrläsion).",
+      },
+      {
+        type: "text",
+        heading: "Warum dieselbe Symptomkombination unterschiedliche Therapieentscheidungen verlangt",
+        text: "Ein Horner-Syndrom ist nie automatisch dasselbe Problem. Entsteht es durch ein Trauma des unteren Plexus brachialis, sind am zervikothorakalen Übergang vorsichtige Mobilisationstechniken (z. B. Piccolotraktionen), Weichteiltechniken sowie physikalische Maßnahmen wie Wärme, Magnetfeld-, Elektro- und Lasertherapie indiziert. Liegt der Ursache dagegen z. B. eine Mittelohrentzündung zugrunde, muss diese zunächst tierärztlich behandelt werden — und ausgerechnet im akuten Stadium ist mit Wärme und durchblutungsfördernden Maßnahmen Zurückhaltung geboten. Dieselbe Symptomkombination verlangt also je nach zugrunde liegender Ursache nach entgegengesetzten therapeutischen Entscheidungen, nicht nach einem einheitlichen Behandlungsschema.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.1 (Sympathikus — Anatomie), S. 270–272. Der Segmentursprung des Plexus brachialis (C6–Th2) und der zervikalen sympathischen Fasern (C8–Th7), die daraus resultierende Lokalisationslogik (Horner-Syndrom eher bei tiefer/kaudaler Plexusläsion) sowie die unterschiedlichen Therapieempfehlungen je nach Ursache (Trauma vs. Mittelohrentzündung) sind im Original so beschrieben. Ergänzt den bestehenden Eintrag zu Kopfnerven/Horner-Syndrom (Koch/Fischer, Kap. 7.8) um dieses zusätzliche Lokalisationskriterium sowie den bestehenden Eintrag `plexusschaden-vordergliedmasse` um die Horner-Syndrom-Komponente — bewusst nicht dupliziert.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
