@@ -10739,6 +10739,98 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "inkomplette-ossifikation-condylus-humeri-hund",
+    category: "PATHOLOGIE",
+    title: "IOCH: wenn eine unscheinbare Wachstumsfugenlücke zur Humerusfraktur nach Bagatelltrauma wird",
+    teaser:
+      "Ein Hund kann jahrelang nur leicht und wechselnd lahmen — bis ein harmloser Sprung von der Couch genügt, um den Humerus tatsächlich zu brechen, weil die Wachstumsfuge zwischen den beiden Gelenkhöckern nie richtig verschmolzen ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eine Fuge, die eigentlich mit sechs Wochen schließen sollte",
+        text: "Bei der inkompletten Ossifikation des Condylus humeri (IOCH) verschmilzt die distale interkondyläre Wachstumsfuge des Humerus nicht wie physiologisch im Alter von etwa sechs Wochen — früher wurde dieser Befund sogar fälschlich als „inkomplette Humerusfraktur“ beschrieben. Die genaue Ursache ist unklar; diskutiert wird eine Gelenkinkongruenz im Ellbogen, die zu einer ungleichen Kräfteverteilung zwischen medialem und lateralem Condylus humeri führt und dadurch die Fusion der Fuge verhindert. IOCH kann isoliert oder gemeinsam mit anderen Ellbogendysplasie-Komponenten im selben Gelenk auftreten.",
+      },
+      {
+        type: "text",
+        heading: "Wer betroffen ist und wie unterschiedlich sich das zeigen kann",
+        text: "Betroffen sind überwiegend mittelgroße Hunde, besonders Spanielrassen (beim Cockerspaniel vermutlich polygen-rezessiver Erbgang, Rüden 3- bis 5-fach häufiger betroffen) sowie der Deutsche Wachtelhund; Einzelfälle sind auch bei anderen Rassen beschrieben. Bei Spanieln ist häufig beidseitig betroffen. Das klinische Bild variiert stark: Meist zeigt sich eine chronisch-intermittierende, gering- bis mittelgradige Lahmheit mit unspezifischem Ellbogenschmerz, besonders bei Hyperflexion oder -extension — manche Hunde fallen dagegen erst als Zufallsbefund im Rahmen von Screening-Untersuchungen auf, ganz ohne Lahmheit.",
+      },
+      {
+        type: "text",
+        heading: "Der gefährlichste Präsentationsweg: die Fraktur nach Bagatelltrauma",
+        text: "Manche Hunde werden erst mit einer akuten, hochgradigen Lahmheit vorgestellt — verursacht durch eine ein- oder beidseitige Humerusfraktur nach einem Bagatelltrauma, weil die nicht verschmolzene Fuge als vorgezeichnete Bruchlinie wirkt. Genau deshalb gilt: Bei Diagnose einer IOCH sollte immer auch das kontralaterale Ellbogengelenk geröntgt werden, da die Erkrankung häufig beidseitig vorliegt, ohne dass die zweite Seite bereits Symptome zeigt.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik und Therapie",
+        text: "Im Röntgenbild ist die IOCH nicht immer leicht zu erkennen: Der Strahl muss im kraniokaudalen Strahlengang direkt parallel zum Defekt auf den distalen Humerus gerichtet werden (ggf. mit leichter Außenrotation des Ellbogens), um die charakteristische intrakondyläre Aufhellungslinie sichtbar zu machen; eine mediolaterale Aufnahme hilft für die IOCH-Diagnose selbst nicht, dient aber dem Ausschluss anderer Erkrankungen. Beweisend ist die Computertomografie. Eine rein medikamentöse Therapie bringt keinen dauerhaften Erfolg; bei entsprechender Symptomatik erfolgt eine operative Versorgung mit einer transkondylären Zugschraube — bei Spaniel-Rassen und anderen stark beanspruchten Hunden wird diese wegen der Frakturgefahr auch prophylaktisch ohne aktuelle Symptome erwogen. Die Schraube muss ausreichend dimensioniert sein, da zu dünne Schrauben der Belastung nicht standhalten und vorzeitig brechen können. Nach erfolgreicher Zugschraubenfixation ist die Prognose gut, meist mit Lahmheitsfreiheit; liegt gleichzeitig ein fragmentierter Processus coronoideus medialis vor, hängt die Prognose zusätzlich vom Zeitpunkt des chirurgischen Eingriffs ab.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Faktenwissen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Inkomplette Ossifikation des Condylus humeri (IOCH) beim Hund“. Definition/Pathogenese, Rasseprädispositionen, die Bandbreite klinischer Präsentationen (inkl. der Fraktur nach Bagatelltrauma und der Empfehlung zur Röntgenkontrolle des kontralateralen Ellbogens), Diagnosesicherung (Strahlengang-Besonderheiten, CT als beweisend) sowie Therapie (Zugschraube, auch prophylaktisch) und Prognose sind in der Quelle so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "metaplasie-beugesehnen-medialer-epicondylus-mehb-hund",
+    category: "PATHOLOGIE",
+    title: "MEHB: wenn sich Sehnengewebe am Ellbogen in Knochen verwandelt",
+    teaser:
+      "Eine seltene, noch nicht vollständig verstandene Verknöcherung mitten in den Beugesehnen am Ellbogen kann eine steife, staksige Vordergliedmaße erklären, die auf den ersten Blick nach ganz anderen Ursachen aussieht.",
+    sections: [
+      {
+        type: "text",
+        heading: "Sehnengewebe, das sich in Knochen verwandelt",
+        text: "Bei der Metaplasie der am medialen Epicondylus humeri ansetzenden Beugesehnen (MEHB) wandelt sich vermutlich kollagenes Bindegewebe der Flexorsehnen in Knochengewebe um, teils mit Verwachsungen zu Gelenkkapsel und medialem Seitenband. Ätiologie und Pathogenese sind noch weitgehend ungeklärt; diskutiert werden unter anderem eine fehlende Verschmelzung des Verknöcherungskerns des medialen Epicondylus, eine unfallbedingte Absprengung dieses Kerns, ein vorgebildetes Verknöcherungszentrum (ähnlich einem Sesambein) oder eine sekundäre dystrophische Kalzifikation im Rahmen einer chronischen Arthrose.",
+      },
+      {
+        type: "text",
+        heading: "Ein unspezifisches Bild, das leicht übersehen wird",
+        text: "Betroffen sind vor allem mittelgroße bis große Rassen (u. a. Labrador Retriever, Englischer Setter, Neufundländer, Rottweiler, Airedale Terrier, Basenji, Border Collie, Deutscher Schäferhund), meist Junghunde unter einem Jahr, Hündinnen etwas häufiger als Rüden. Das klinische Bild ist unspezifisch: eine steife, staksige Bewegung der Gliedmaße mit meist nur gering- bis mittelgradiger, intermittierender oder permanenter Lahmheit. Eine vermehrte Gelenkfüllung fehlt oft, dafür ist in vielen Fällen eine Verdickung am medialen Ellbogengelenk selbst tastbar, mit Schmerzhaftigkeit bei passiver Beugung/Streckung oder Druck auf den medialen Gelenkabschnitt.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik und Therapie",
+        text: "Am besten sichtbar wird die Metaplasie im kraniokaudalen Röntgenstrahlengang als mineraldichte, oval- bis spindelförmige Struktur auf Höhe des Gelenkspalts, einzeln oder multipel; Ultraschall oder CT helfen bei der genauen Lokalisation. Differentialdiagnostisch müssen vor allem Frakturen des Epicondylus medialis und freie Gelenkkörper im medialen Gelenkbereich abgegrenzt werden. Therapeutisch wird die Metaplasie chirurgisch entfernt; nach vollständiger Entfernung ist die Prognose überwiegend gut mit nur seltenen Rezidiven — liegt gleichzeitig ein fragmentierter Processus coronoideus medialis oder eine Osteochondrosis dissecans vor, hängt die Prognose vom Zeitpunkt des Eingriffs ab, bei bereits ausgeprägter Arthrose verschlechtert sie sich.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Metaplasie der am medialen Epicondylus humeri ansetzenden Beugesehnen (MEHB) beim Hund“. Definition/mögliche Pathogenesen, Rasseprädispositionen, das unspezifische klinische Bild, Diagnosesicherung und Differentialdiagnosen sowie Therapie und Prognose sind in der Quelle so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "distractio-cubiti-radius-curvus-carpus-valgus-hund",
+    category: "PATHOLOGIE",
+    title: "Distractio cubiti: zwei Wachstumsfugen, zwei ganz unterschiedliche Deformitäten",
+    teaser:
+      "Schließt sich die Wachstumsfuge der Ulna zu früh, verbiegt sich der Radius nach außen — schließt sich stattdessen die des Radius zu früh, wird das Bein einfach zu kurz. Dieselbe Grundstörung, zwei gegensätzliche Erscheinungsbilder.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ungleiches Wachstum, verschobene Gelenkfläche",
+        text: "Distractio cubiti (DC) entsteht durch ungleichmäßiges Wachstum von Radius und Ulna infolge eines vorzeitigen Schlusses einer der beiden Wachstumsfugen, wodurch sich eine Stufenbildung zwischen radialer und ulnarer Gelenkfläche im Ellbogen ergibt. Je nachdem, welche Fuge zu früh schließt, wird zwischen retardiertem Wachstum der Radiusfuge („Short-Radius-Syndrom“) und retardiertem Wachstum der Ulnafuge („Short-Ulna-Syndrom“) unterschieden — in der angloamerikanischen Literatur wird DC auch als Subluxation bezeichnet. Als Ursachen kommen eine erblich bedingte Störung der enchondralen Ossifikation mit persistierenden Knorpelzapfen an der distalen Ulnaepiphyse ebenso infrage wie mechanische Reize, Fehlernährung, Entzündungen, toxische Schäden oder Stoffwechselstörungen.",
+      },
+      {
+        type: "text",
+        heading: "Zwei Störungsorte, zwei entgegengesetzte Deformitäten",
+        text: "Am häufigsten betroffen ist die distale Ulnaepiphysenfuge, insbesondere bei schnellwüchsigen (empfindlich gegenüber alimentären Störungen) und chondrodystrophen Rassen (z. B. Dackel, Basset, Shih Tzu, Pekinese, Welsh Corgi, Lhasa Apso) — hier führt die Wachstumsstörung zunächst zu einer Verbiegung des Radius nach kranial und dann nach medial (Radius curvus), später zu einer Auswärtsbiegung von Karpus und Metakarpus mit Außenrotation der distalen Gliedmaße (Carpus valgus), möglicherweise begleitet von Gliedmaßenverkürzung, Ellbogensubluxation und Arthrosen in Ellbogen- und Karpalgelenk. Ein vorzeitiger Schluss der distalen Radiusfuge führt dagegen zu einer Gliedmaßenverkürzung: bei symmetrischem Fugenschluss zu einer Varusdeformation mit Innenrotation der Pfote, bei asymmetrischem Schluss auch zu einer Valgusdeformation. Ein vorzeitiger Schluss der proximalen Radiusfuge verursacht dagegen meist keine Achsenabweichung, sondern vor allem Lahmheit, Krepitation und einen verbreiterten Gelenkspalt. Je früher die Wachstumsstörung eintritt, desto ausgeprägter die Folgen und desto früher die ersten Symptome.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik und Therapieprinzip",
+        text: "Geröntgt werden beide Vordergliedmaßen im mediolateralen und kraniokaudalen Strahlengang unter Einbeziehung von Ellbogen- und Karpalgelenk, um die jeweilige Deformität und die Stufenbildung im Ellbogengelenk zu beurteilen. Differentialdiagnostisch muss ein traumatisch bedingter vorzeitiger Epiphysenfugenschluss abgegrenzt werden. Die Therapie ist chirurgisch und verfolgt vier Ziele: Schmerzfreiheit, Beseitigung der Stellungsfehler, Erhaltung der Gliedmaßenlänge sowie Beseitigung der Gelenkinkongruenz zur Vermeidung von Folgeschäden. Ein möglichst frühzeitiger Eingriff — vor dem Auftreten schwerer sekundärer Gelenkveränderungen — wird empfohlen; das genaue Vorgehen (u. a. Ulnaostektomie oder verschiedene Korrekturosteotomien) richtet sich nach Alter sowie Form und Grad der Deformität. Die Prognose ist günstig bis vorsichtig, oft sind mehrere Operationssitzungen nötig, und sichtbare Restdeformationen können bestehen bleiben.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Distractio cubiti (DC) beim Hund“. Pathomechanismus, die Unterscheidung Short-Radius- vs. Short-Ulna-Syndrom mit ihren jeweiligen Deformitäten (Radius curvus/Carpus valgus vs. Varus-/Valgusdeformation mit Gliedmaßenverkürzung), Rasseprädispositionen (chondrodystrophe Rassen), Diagnostik und die vier Therapieziele sind in der Quelle so beschrieben. Löst den in mehreren bestehenden Einträgen (u. a. zu Panostitis/hypertropher Osteodystrophie und zu Wachstumsstörungen großwüchsiger Rassen) nur als Endzustand erwähnten „Radius curvus“ erstmals mechanistisch auf und schließt damit den entsprechenden Backlog-Punkt aus dem Hárrer-Pathologie-Abschnitt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

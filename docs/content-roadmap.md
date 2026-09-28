@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (28.09.2026)
 
-- Wissensbibliothek: 228 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
-  Untersuchung, 79 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 231 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 65
+  Untersuchung, 82 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -235,9 +235,18 @@ kein Überblick verloren geht.
   (eigenständiges Krankheitsbild mit Gelenkmaus-Pathogenese) und die
   Kontraktur des M. infraspinatus (das namensgebende „eigenartige"
   Jagdhund-Gangbild, verknüpft mit dem bestehenden Anatomie-Item). 3 neue
-  Einträge. Der Rest der 121-seitigen Datei (Fraktur-, Tumor- und
-  Wirbelsäulenabschnitte, vermutlich ab ca. S. 80) bleibt offen für eine
-  spätere Session.
+  Einträge. Beim Weiterlesen (S. 57–64) zeigte sich, dass zwei weitere
+  namentlich benannte Ellbogendysplasie-Komponenten bisher fehlten:
+  IOCH (Inkomplette Ossifikation des Condylus humeri — mit der
+  wichtigen Praxiskonsequenz, bei Diagnose immer auch den
+  kontralateralen Ellbogen zu röntgen, da eine Bagatelltrauma-Fraktur
+  drohen kann) und MEHB (Metaplasie der Beugesehnen am medialen
+  Epicondylus). Dazwischen außerdem Distractio cubiti (DC) gefunden —
+  löst direkt den seit dem 25.09. offenen Hárrer-Backlog-Punkt zum
+  Radiuskurvensyndrom auf (siehe PATHOLOGIE-Hárrer-Abschnitt oben).
+  3 weitere neue Einträge. Der Rest der 121-seitigen Datei (Fraktur-,
+  Tumor- und Wirbelsäulenabschnitte, vermutlich ab ca. S. 65) bleibt
+  offen für eine spätere Session.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -370,9 +379,27 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       PubMed/PMC, vettimes) — die beiden Quellenarten bestätigen sich
       gegenseitig im Kernmechanismus (Achsenabweichung → veränderte
       Quadrizeps-Zugrichtung → Patella-Fehlführung).
+- [x] **Zwei weitere Ellbogendysplasie-Komponenten + Radiuskurvensyndrom
+      (28.09.2026, S. 57–64).** Beim Weiterlesen gefunden und umgesetzt:
+      `inkomplette-ossifikation-condylus-humeri-hund` (IOCH — inkl. der
+      wichtigen Praxiskonsequenz, bei Diagnose immer auch den
+      kontralateralen Ellbogen zu röntgen, da eine Fraktur nach
+      Bagatelltrauma drohen kann, sowie der teils prophylaktischen
+      Zugschrauben-Versorgung bei Spanieln),
+      `metaplasie-beugesehnen-medialer-epicondylus-mehb-hund` (MEHB —
+      seltene Sehnen-Knochen-Metaplasie mit unspezifischem klinischem
+      Bild) und `distractio-cubiti-radius-curvus-carpus-valgus-hund`
+      (Short-Radius- vs. Short-Ulna-Syndrom als zwei entgegengesetzte
+      Deformitätsmuster je nach betroffener Wachstumsfuge — löst den
+      Hárrer-Backlog-Punkt „Radiuskurvensyndrom" auf, siehe
+      PATHOLOGIE-Hárrer-Abschnitt oben). Damit ist von den in Kap.
+      „Ellbogengelenkdysplasie" benannten Einzelkomponenten (IPA, FPC,
+      OCD, IOCH, MEHB, DC) nur noch keine offen.
 - [ ] Rest des Kapitels systematisch weiterlesen (Datei ca. 121 Seiten, bisher
-      nur bis ca. S. 80 gesichtet — Fraktur-, Tumor- und Wirbelsäulenabschnitte
-      am Ende vermutlich noch offen)
+      bis ca. S. 64 gesichtet — Karpalgelenkluxation/-hyperextension
+      [S. 65 ff., angelesen, noch nicht ausgewertet], Femurkopfluxation
+      sowie Fraktur-, Tumor- und Wirbelsäulenabschnitte am Ende vermutlich
+      noch offen)
 
 ### PATHOLOGIE — Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates" (VetCenter/Thieme, aus: Physikalische Therapie für Kleintiere)
 
@@ -565,9 +592,14 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
 - [x] Warum Hunde ihre Zehen beknabbern — drei Differentialdiagnosen
       (Allergie, Arthrose, Hyperästhesie durch Nervenreizung) — Kap. 15
       (Karpalgelenk und Zehen), S. 193
-- [ ] Radiuskurvensyndrom (frühzeitiger Epiphysenschluss der Ulna →
-      Valgusstellung des Radius) — nur beiläufig erwähnt in Kap. 14, S. 179,
-      eigenes Unterkapitel/eigene Quelle noch zu finden
+- [x] **Radiuskurvensyndrom (28.09.2026).** Eigene Quelle gefunden und
+      umgesetzt: VetCenter, „Erkrankungen des Bewegungsapparates",
+      Abschnitt „Distractio cubiti (DC)" — als
+      `distractio-cubiti-radius-curvus-carpus-valgus-hund`. Löst den
+      bisher nur als Endzustand erwähnten Begriff „Radius curvus"
+      mechanistisch auf: Short-Radius- vs. Short-Ulna-Syndrom als zwei
+      Varianten je nachdem, welche der beiden Wachstumsfugen zu früh
+      schließt, mit ihren jeweils entgegengesetzten Deformitäten.
 - [ ] Kap. 16 (Wirbelsäule) — teilweise für Quellenprüfung von facettengelenke
       gelesen, aber nicht systematisch nach weiteren Pathologie-Themen
       durchsucht (z. B. Spondylose, IVDD, Cauda-equina)
