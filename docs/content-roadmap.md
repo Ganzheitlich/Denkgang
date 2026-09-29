@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 241 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
-  Untersuchung, 87 Pathologie, 65 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 245 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
+  Untersuchung, 87 Pathologie, 65 Biomechanik, 28 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -307,9 +307,22 @@ kein Überblick verloren geht.
   Muskeltonus-Regulation mit Angst als Tonus-Störfaktor (BIOMECHANIK). Der
   Muskulatur- und der Gelenke-Abschnitt desselben Kapitels wurden bewusst
   nicht in eigene Einträge umgesetzt (Doppelarbeit zu bereits vorhandenen
-  Hohmann-/Mai-/Hárrer-Inhalten ohne neue Fakten). Vier weitere
-  Kapitel-Dateien dieses Buches („Physiotechnik", „Indikationen",
-  „Krankengymnastik", „Massage") stehen noch aus.
+  Hohmann-/Mai-/Hárrer-Inhalten ohne neue Fakten). Danach „Physiotechnik"
+  (C.-S. Alexander) vollständig extrahiert (43.692 Zeichen, keine Kappung):
+  4 weitere neue THERAPIE-Einträge zur Elektrotherapie — physikalische
+  Grundlagen samt Galvanisation und Iontophorese, TENS/Ultrareizstrom nach
+  Träbert mit ihrem gemeinsamen Verdeckungsprinzip-Mechanismus,
+  Elektrostimulation zur Atrophieprophylaxe inkl. des historisch
+  widerlegten Exponentialstroms (Lehrbeispiel: ältere Empfehlung ohne
+  aktuellen Sicherheitsnachweis), sowie Hochfrequenztherapie/Diathermie mit
+  der besonders sicherheitsrelevanten Metallimplantat-Gefahr (Verbrennung
+  statt bloßer Wirkungslosigkeit — praxisrelevant bei TPLO- und anderen
+  Implantat-Patienten). Der im selben Kapitel enthaltene Licht-/
+  Chromotherapie-Abschnitt wurde bewusst nicht umgesetzt, da er
+  überwiegend humanmedizinische, chronobiologische Evidenz mit nur vager
+  veterinärmedizinischer Übertragbarkeit referiert. Drei weitere
+  Kapitel-Dateien dieses Buches („Indikationen", „Krankengymnastik",
+  „Massage") stehen noch aus.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -620,9 +633,46 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       hinreichend abgedeckt, keine neuen Fakten; der Gelenke-Abschnitt
       (Gelenkknorpel/-kapsel/Synovia) — Doppelarbeit zu Hohmann Kap. 5.2/5.3.
 
+#### Kapitel „Physiotechnik" (C.-S. Alexander)
+
+- [x] **Vollständig gelesen und ausgewertet (29.09.2026).** Kapitel per
+      `download_file_content` + lokaler `pdftotext`-Extraktion vollständig
+      abgerufen (43.692 Zeichen, keine Kappung; 977 Zeilen). Deckt nur
+      Elektrotherapie und Lichttherapie (Phototherapie) ab — die im
+      einleitenden Absatz angekündigten Abschnitte zu therapeutischem
+      Ultraschall, Laser- und Magnetfeldanwendungen kommen in dieser
+      Kapitel-Datei tatsächlich NICHT vor (per Grep bestätigt), obwohl sie
+      inhaltlich zur „Physiotechnik" zählen würden — vermutlich in einer
+      anderen, hier nicht vorliegenden Kapitel-Datei behandelt oder im
+      Buch nicht ausgeführt. 4 neue Einträge, alle THERAPIE, alle aus dem
+      Elektrotherapie-Abschnitt: `elektrotherapie-grundlagen-stromformen-
+      galvanisation` (physikalische Grundprinzipien: Rheobase,
+      Akkommodation, Refraktärzeit; Galvanisation mit Kathoden-/
+      Anodenwirkung; Iontophorese), `tens-traebert-reizstrom-
+      schmerztherapie-mechanismus` (TENS-Wirkmechanismus über Aβ-Fasern
+      und Hinterhorn-Interneuron-Blockade, Endorphinausschüttung;
+      Ultrareizstrom nach Träbert; gemeinsamer Gewöhnungseffekt mit
+      Behandlungspausen-Notwendigkeit), `elektrostimulation-muskelatrophie-
+      exponentialstrom-irrtum` (Typ-I-/Typ-II-faserspezifische
+      Elektrostimulation zur Atrophieprophylaxe; der historisch empfohlene,
+      heute als potenziell schädlich geltende Exponentialstrom als
+      Lehrbeispiel für überholte Therapieempfehlungen — thematisch
+      anschlussfähig an den Bruno-Fall) und
+      `hochfrequenztherapie-diathermie-metallimplantat-gefahr`
+      (Kurzwelle/Dezimeterwelle/Mikrowelle im Vergleich, explizite
+      Metallimplantat-/Herzschrittmacher-Verbrennungsgefahr mit
+      5-Meter-Sicherheitsabstand — besonders relevant bei postoperativen
+      Implantat-Patienten wie nach TPLO). Bewusst nicht übernommen: der
+      Licht-/Chromotherapie-Abschnitt (überwiegend humanmedizinische,
+      chronobiologische Evidenz mit nur vager, unbelegter
+      veterinärmedizinischer Übertragbarkeit) sowie die Diadynamischen
+      Ströme nach Bernard und das Interferenzstromverfahren nach Nemec
+      (gerätespezifische Detailtiefe ohne zusätzlichen Praxis-Mehrwert
+      gegenüber den bereits abgedeckten TENS-/Träbert-/Galvanisations-
+      Grundprinzipien).
+
 #### Übrige Kapitel — noch ungelesen
 
-- [ ] „Physiotechnik" (Drive fileId `1LkbGrLQ1So4q8-OLjCIb6Ji5GUsGI63k`, 814 KB)
 - [ ] „Indikationen" (Drive fileId `1Zl0_zVMYvVDJ-ZT1I_n3uaK7qvKfZ_mJ`, 5,1 MB)
 - [ ] „Krankengymnastik (Physiotherapie)" (Drive fileId `1hTsuiVQ3E-Hsrh7e4guIOXciqy57crvU`, 1,7 MB)
 - [ ] „Massage" (Drive fileId `1xNlYSYXsuB6chLTs69gjqv2odiPPZ1oO`, 2,2 MB)

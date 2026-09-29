@@ -11247,6 +11247,167 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
+  {
+    id: "elektrotherapie-grundlagen-stromformen-galvanisation",
+    category: "THERAPIE",
+    title: "Elektrotherapie-Grundlagen: Warum nicht jeder Strom gleich wirkt",
+    teaser:
+      "Gleichstrom, Niederfrequenz und Hochfrequenz reizen Gewebe auf grundlegend verschiedene Weise — wer den physikalischen Unterschied nicht kennt, kann Wirkung und Nebenwirkung eines Geräts nicht einschätzen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was Elektrotherapie überhaupt auslöst",
+        text: "Ein elektrischer Reiz löst nur dann ein Aktionspotential aus, wenn zwei Bedingungen gleichzeitig erfüllt sind: eine ausreichende Mindeststromstärke (Rheobase, ca. 15–20 mV) UND eine ausreichende Anstiegssteilheit des Impulses. Steigt der Reiz zu langsam an, tritt der sogenannte Einschleicheffekt (Akkommodation) ein — der Nerv passt sich an, ohne ein Aktionspotential auszulösen, weil sich der Natrium-Kanal-Apparat progressiv inaktiviert. Außerdem darf die Reizfrequenz nicht zu hoch gewählt werden, da das Gewebe sich sonst noch in der Refraktärzeit befindet und schlicht nicht erregbar ist. Glatte Muskulatur ist vegetativ innerviert und praktisch nicht mit üblichem Reizstrom therapierbar — sie verhält sich wie denervierte Muskulatur und wäre nur durch sehr langsam ansteigende Exponentialströme erregbar.",
+      },
+      {
+        type: "text",
+        heading: "Galvanisation: Gleichstrom mit zwei unterschiedlich wirkenden Polen",
+        text: "Bei der Gleichstromtherapie (Galvanisation) entsteht unter der Kathode (negative Elektrode) eine Depolarisation — die Reizschwelle motorischer Nerven sinkt, ihre Reaktionsfähigkeit steigt. Unter der Anode (positive Elektrode) entsteht dagegen eine Hyperpolarisation, welche die Erregbarkeit sensibler Nerven herabsetzt — hierauf beruht die analgetische Wirkung der Galvanisation. Weil die Elektroden auf der Haut und nicht direkt am Nerv liegen, ist die in der Praxis nötige Spannung wegen des Hautwiderstands deutlich höher als die reine Rheobase. Zusätzlich zur Nervenwirkung wandern im gesamten durchflossenen Gewebe Ionen (Kationen zur Kathode, Anionen zur Anode) — unter Metallelektroden mit direktem Hautkontakt entstehen dabei durch Elektrolyse unter der Anode Säuren und unter der Kathode Basen, weshalb eine gute, feuchte Polsterung zwingend nötig ist, um Verätzungen zu vermeiden.",
+      },
+      {
+        type: "text",
+        heading: "Iontophorese: Wirkstofftransport statt Nervenreizung",
+        text: "Dieselbe Ionenwanderung, die bei der Galvanisation Verätzungen verursachen kann, lässt sich gezielt nutzen, um Medikamente elektrisch durch die Haut in tieferliegende Gewebe einzubringen (Iontophorese). Je nach Ladung des Wirkstoffs wird die Creme oder das Gel unter der Kathode (negativ geladene Wirkstoffe, z. B. Salicylate) oder unter der Anode (positiv geladene Wirkstoffe, z. B. Lokalanästhetika, Hyaluronidase) aufgetragen. Die Wirkstoffe dringen dabei trotz hoher Stromdichte nur oberflächlich ein und werden rasch über die Hautgefäße resorbiert — gut erreichbar sind daher praktisch nur kutan gedeckte Sehnenansätze oder Gelenke, nicht tiefer gelegene Strukturen.",
+      },
+      {
+        type: "table",
+        heading: "Galvanisation im Überblick",
+        columns: ["Bereich", "Angabe"],
+        rows: [
+          ["Wirkung", "aktive Hyperämie, verbesserte Gewebeernährung, entzündungshemmend, resorptionsfördernd (via vegetative Nervenreizung), analgetisch (Anode), gesteigerte motorische Reaktionsfähigkeit (Kathode)"],
+          ["Indikationen", "Weichteilerkrankungen, Arthrosen, diffuse Gelenk-/Muskelschmerzen, Neuralgien, Durchblutungsstörungen, schlecht heilende Wunden, periphere Lähmungen"],
+          ["Kontraindikationen", "metallische Implantate, Herzschrittmacher, Hautreizungen, Sensibilitätsstörungen der Haut, Tumoren im Durchströmungsbereich, erhöhte Blutungsneigung"],
+        ],
+      },
+    ],
+    errorTags: ["Faktenwissen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Physiotechnik — Elektrotherapie“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 12 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189983). Die physikalischen Grundprinzipien (Rheobase, Akkommodation, Refraktärzeit), die Galvanisation mit ihrer Kathoden-/Anodenwirkung, die Elektrolyse-bedingte Verätzungsgefahr sowie die Iontophorese (Ladungszuordnung, Eindringtiefe, Indikationen) sind im Original so beschrieben. Erster von vier neuen Einträgen aus diesem Kapitel — kein bestehender Eintrag deckt bisher Elektrotherapie-Grundlagen strukturiert ab (bisher nur beiläufige Erwähnung von „Elektrotherapie, therapeutischer Ultraschall“ als TPLO-Nachbehandlung).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "tens-traebert-reizstrom-schmerztherapie-mechanismus",
+    category: "THERAPIE",
+    title: "TENS und Ultrareizstrom: wie elektrischer Reizstrom Schmerz unterdrückt",
+    teaser:
+      "TENS lindert Schmerz nicht durch Betäubung, sondern indem er das Rückenmark gezielt dazu bringt, den eigenen Schmerz-Input zu blockieren — ein Mechanismus mit eingebautem Gewöhnungseffekt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Wirkmechanismus: Reizüberflutung im Hinterhorn, nicht Betäubung",
+        text: "TENS (Transkutane elektrische Nervenstimulation) setzt sehr schmale, steil an- und abflutende Rechteckstromimpulse (1–150 Hz) ein — mono- oder diphasisch, teils mit stochastisch, also unregelmäßig verteilten Impulsabständen, um einem Gewöhnungseffekt vorzubeugen. Über die Reizung von Mechanorezeptoren und freien Nervenendigungen der Haut werden Aktionspotentiale ausgelöst, die über die schnellleitenden Aβ-Fasern zum Hinterhorn des Rückenmarks geleitet werden. Dort blockieren sie über Interneurone die Weiterleitung der langsameren, dumpfen Schmerzsignale — TENS wirkt also nicht direkt betäubend, sondern verstärkt einen physiologischen Hemmungsvorgang durch gezielte Gegenirritation. Zusätzlich wurde im Tierversuch eine Endorphinausschüttung nachgewiesen, die erklärt, warum die Wirkung noch Stunden nach der eigentlichen Stromanwendung anhält.",
+      },
+      {
+        type: "text",
+        heading: "Ultrareizstrom nach Träbert: dasselbe Prinzip, andere Zielstruktur",
+        text: "Der Ultrareizstrom nach Träbert arbeitet mit Rechteckströmen fester Frequenz (143 Hz, Impulsdauer 2 ms, Pause 5 ms) nach demselben Verdeckungsprinzip wie TENS, wirkt aber zusätzlich über die γ-Fasern detonisierend, indem er den reflektorischen Hypertonus der Muskulatur unterbindet — praktisch nutzbar bei muskulärer Verspannung (z. B. Myogelosen), rheumatischen Schmerzen, Radikulopathien und Arthroseschmerzen. Wegen seiner hohen Anstiegssteilheit überwindet er den Hautwiderstand rasch und wird deshalb nur gering als unangenehm empfunden.",
+      },
+      {
+        type: "text",
+        heading: "Warum beide Verfahren nach wenigen Tagen eine Pause brauchen",
+        text: "Beide auf dem Verdeckungsprinzip beruhenden Verfahren zeigen nach mehrmaliger Behandlung einen Gewöhnungseffekt: Der Ultrareizstrom sollte deshalb nur 4–6 Tage hintereinander (5–15 Minuten täglich) angewendet werden, danach ist eine mehrtägige Pause bis zur nächsten Serie sinnvoll — eine spürbare Besserung sollte sich bereits nach der dritten Behandlung zeigen. Wer diesen Gewöhnungseffekt nicht kennt, läuft Gefahr, eine ausbleibende Wirkung nach Tag 6 oder 7 fälschlich als Therapieversagen statt als erwartbaren Verdeckungsverlust zu interpretieren.",
+      },
+      {
+        type: "table",
+        heading: "TENS: Indikationen und Grenzen",
+        columns: ["Kategorie", "Angabe"],
+        rows: [
+          ["Indikationen", "Zervikal-/Lumbal-Syndrome, chronische schmerzhafte Gelenkprozesse, posttraumatische und postoperative Schmerzen"],
+          ["Kontraindikation", "größere Metallimplantate, Hautallergien am Anwendungsort"],
+          ["Relative Kontraindikationen (TENS wirkungslos)", "anästhetische Hautbezirke, psychogener Schmerz, zentrale Schmerzsyndrome"],
+        ],
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Physiotechnik — Elektrotherapie“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 12, Abschnitte „Ultrareizstrom nach Träbert“ und „TENS“ (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189983). Der TENS-Mechanismus (Aβ-Faser-Weiterleitung, Interneuron-Blockade im Hinterhorn, Endorphinausschüttung), die Träbert-Parameter samt γ-Faser-Wirkung, der Gewöhnungseffekt mit konkreten Behandlungsintervallen sowie die Indikationen/Kontraindikationen sind im Original so beschrieben. Ergänzt gezielt die bestehende, nur beiläufige Erwähnung von Gate-Control-artigen Mechanismen im Tuina-Eintrag sowie von TENS im Eintrag zu peripherer/zentraler Sensibilisierung — bewusst nicht dupliziert, sondern um den konkreten elektrotherapeutischen Wirkmechanismus ergänzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "elektrostimulation-muskelatrophie-exponentialstrom-irrtum",
+    category: "THERAPIE",
+    title: "Elektrostimulation bei Muskelatrophie: Nutzen und ein widerlegtes Verfahren",
+    teaser:
+      "Elektrostimulation kann Muskelatrophie gezielt vorbeugen — aber eine früher dafür empfohlene Stromform gilt heute als potenziell schädlich für genau die Muskulatur, die sie eigentlich retten sollte.",
+    sections: [
+      {
+        type: "text",
+        heading: "Niederfrequente Elektrostimulation zur Atrophieprophylaxe",
+        text: "Rechteckströme im Bereich von 10–60 Hz können gezielt zur Atrophieprophylaxe und Rehabilitation innervierter Muskulatur eingesetzt werden, wobei sich durch Wahl der Reizparameter gezielt auf schnelle Typ-II- oder langsame Typ-I-Muskelfasern einwirken lässt. Eine Steigerung des Trainingseffekts ist durch zusätzliche Belastung der Extremität mit einer Gewichtsmanschette möglich (Elektromechanotherapie). Kontraindiziert ist dieses Verfahren bei total denervierter Muskulatur und bei Myositis.",
+      },
+      {
+        type: "text",
+        heading: "Der Exponentialstrom: von der Hoffnung zur widerlegten Methode",
+        text: "Für denervierte Muskulatur (schlaffe Paresen) wurde historisch der Exponentialstrom eingesetzt — ein Dreiecksimpuls mit langsamem Anstieg und langer Impulsdauer, der selektiv nur die denervierte, nicht aber die (durch Akkommodation geschützte) innervierte Muskulatur reizt. Die Idee dahinter: Die Muskelatrophie sollte aufgehalten werden, ohne dass ein Effekt auf das Axonwachstum selbst angenommen wurde. Diese Methode findet inzwischen kaum mehr Anwendung — aus zwei Gründen: Sie führt einerseits zu einer sehr schmerzhaften Hautirritation (durch die sehr langsame Überwindung des Hautwiderstands), andererseits zeigten neuere Untersuchungen einen sogar schädigenden Einfluss auf die Muskulatur selbst — nach Behandlung wurden vermehrt degenerierte Fasern nachgewiesen, die Reinnervation wurde eher verzögert, und es wird vermutet, dass die Bildung neuer neuromuskulärer Synapsen dadurch sogar verhindert wird.",
+      },
+      {
+        type: "text",
+        heading: "Warum dieser Fall als Lehrbeispiel wichtig ist",
+        text: "Der Exponentialstrom zeigt exemplarisch, dass eine physiologisch plausibel klingende Therapieidee („selektive Reizung der geschwächten Muskulatur, ohne die gesunde zu belasten“) sich in der Nachprüfung als kontraproduktiv herausstellen kann. Für die Praxis heißt das: Eine ältere Lehrbuch- oder Traditionsempfehlung ist kein Ersatz für den aktuellen Wirksamkeits- und Sicherheitsnachweis — insbesondere bei Verfahren, die genau die Struktur behandeln sollen, die bereits geschädigt ist (hier: potenziell weitere Faserdegeneration bei ohnehin schon denervierter Muskulatur).",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Untersuchung falsch gewählt", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Physiotechnik — Elektrotherapie“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 12, Abschnitte „Anwendungsempfehlungen für die Elektrostimulationstherapie mit Niederfrequenzstrom“ und „Exponentialstrom“ (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189983). Die Typ-I-/Typ-II-faserspezifische Elektrostimulation, die Elektromechanotherapie-Kombination sowie die historische Verwendung und explizite spätere Widerlegung des Exponentialstroms (Hautirritation, vermehrte Faserdegeneration, verzögerte Reinnervation, vermutete Blockade neuer neuromuskulärer Synapsen) sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher elektrotherapeutische Atrophieprophylaxe ab — thematisch anschlussfähig an den bestehenden Bruno-Fall (Quadrizepsatrophie nach TPLO), ohne diesen Fall selbst zu verändern.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["quadriceps"],
+  },
+  {
+    id: "hochfrequenztherapie-diathermie-metallimplantat-gefahr",
+    category: "THERAPIE",
+    title: "Hochfrequenztherapie (Diathermie): Tiefenwärme und die Metallimplantat-Gefahr",
+    teaser:
+      "Kurzwelle, Dezimeterwelle und Mikrowelle erwärmen Gewebe in ganz unterschiedlicher Tiefe — bei einem Patienten mit Metallimplantat wird aus derselben Technik aber ein reales Verbrennungsrisiko.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wärme statt Reizung: das Funktionsprinzip der Diathermie",
+        text: "Elektromagnetische Wellen und Felder über 1 MHz lösen keine sensible oder motorische Reizung mehr aus, sondern erwärmen das Gewebe allein durch Reibung der Ladungsträger — daher auch der Name Diathermie. Wasserarme Gewebe wie Fett- und Knochengewebe erwärmen sich dabei etwa zehnmal stärker als wasserreiche Gewebe wie Muskel oder innere Organe. Die drei gebräuchlichen Frequenzbereiche unterscheiden sich stark in Eindringtiefe und Gewebeselektivität und sind deshalb nicht beliebig austauschbar.",
+      },
+      {
+        type: "table",
+        heading: "Kurzwelle, Dezimeterwelle und Mikrowelle im Vergleich",
+        columns: ["Verfahren", "Frequenz/Wellenlänge", "Eindringtiefe/Selektivität", "Besonderheit"],
+        rows: [
+          [
+            "Kurzwelle",
+            "27 MHz, ca. 11 m",
+            "je nach Applikationsform unterschiedlich",
+            "im elektrischen Feld (Kondensatorplatten) erwärmt sich Fett ca. 10× stärker als Muskel; im magnetischen Feld (Spule/Induktionskabel) erwärmt sich gut leitendes Gewebe wie Muskel stärker als Fett — dadurch besonders vielseitig einsetzbar",
+          ],
+          [
+            "Dezimeterwelle",
+            "434 MHz, ca. 69 cm",
+            "ca. 2 cm im Muskelgewebe",
+            "entlastet das Fettgewebe, da tiefer gelegene Muskulatur und Organe stärker erwärmt werden — für größere Körperareale geeignet",
+          ],
+          [
+            "Mikrowelle",
+            "2450 MHz, ca. 12,5 cm",
+            "< 1 mm bzw. 1 cm im Muskelgewebe, Wärme wird durch Konduktion weitergeleitet",
+            "geeignet für kleine, umschriebene Areale",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum Metallimplantate hier absolut tabu sind",
+        text: "Diathermie erwärmt wasserarmes Gewebe deutlich stärker — Metall leitet elektromagnetische Energie in einem Ausmaß, das zu schweren lokalen Verbrennungen durch Streustrahlung führen kann. Metallimplantate, Endoprothesen und Herzschrittmacher sind deshalb eine absolute Kontraindikation; auch Halsbänder mit Metallteilen (z. B. Steuermarken) müssen vor der Behandlung abgenommen werden, und die Behandlung darf nicht auf einem Metalltisch stattfinden. Zusätzlich ist ein Mindestabstand von 5 Metern zu gleichzeitig betriebenen Niederfrequenzgeräten im selben Raum einzuhalten, um Störungen elektrischer Geräte zu vermeiden — bei Herzschrittmacherträgern im Behandlungsraum sind explizite Warnhinweise anzubringen. Für die Praxis ist das ein zentraler Unterschied zu Verfahren wie TENS oder Galvanisation: Dort sind Metallimplantate „nur“ eine Kontraindikation unter mehreren, bei der Hochfrequenztherapie ist die Gefährdung deutlich unmittelbarer (Verbrennung statt Wirkungslosigkeit).",
+      },
+      {
+        type: "text",
+        heading: "Wirkung, Indikationen und weitere Vorsichtsmaßnahmen",
+        text: "Diathermie bewirkt Muskelrelaxation, erhöhte Bindegewebsdehnbarkeit und eine lokale Beschleunigung metabolischer Prozesse — nutzbar bei Arthrosen, Periarthropathien, Wirbelsäulensyndromen, Myotendinosen, Myalgien, Torsionen, Prellungen, chronischen Chondropathien sowie postoperativ nach Gelenkoperationen (ohne Metallimplantat). Die Dosierung erfolgt nach dem Wärmeempfinden, das beim Tier kaum objektivierbar ist — der Patient muss deshalb in den ersten Behandlungsminuten sehr genau beobachtet werden. Weitere Kontraindikationen sind akute Entzündungen, floride Tumoren, gestörte Sensibilität, Gravidität und frische Blutungen; ein möglicher Blutdruckabfall durch die ausgelöste Vasodilatation sowie zunehmende Ödematisierung im Anwendungsgebiet sind zu beachten.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Untersuchung falsch gewählt", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Physiotechnik — Elektrotherapie“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 12, Abschnitt „Hochfrequenztherapie“ (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189983). Das Diathermie-Wirkprinzip, die drei Frequenzbereiche mit ihrer jeweiligen Eindringtiefe/Gewebeselektivität, die explizite Metallimplantat-/Herzschrittmacher-Warnung samt 5-Meter-Sicherheitsabstand sowie Indikationen/weitere Kontraindikationen sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher Hochfrequenz-/Diathermie-Sicherheitsaspekte ab — besonders relevant in Kombination mit häufigen postoperativen Fällen mit Metallimplantaten (z. B. TPLO-Platte). Der im selben Kapitel behandelte Abschnitt zur Licht-/Chromotherapie wurde bewusst nicht in einen Eintrag umgesetzt, da er überwiegend humanmedizinische, chronobiologische Evidenz mit nur vager veterinärmedizinischer Übertragbarkeit referiert („mindestens mit dem letzten Punkt wird diese Therapieform auch für die Veterinärmedizin interessant“) — nicht mit der für Denkgang nötigen fachlichen Absicherung.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
