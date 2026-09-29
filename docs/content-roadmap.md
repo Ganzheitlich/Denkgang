@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 245 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
-  Untersuchung, 87 Pathologie, 65 Biomechanik, 28 Therapie — genaue
+- Wissensbibliothek: 248 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
+  Untersuchung, 88 Pathologie, 65 Biomechanik, 30 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -320,9 +320,39 @@ kein Überblick verloren geht.
   Implantat-Patienten). Der im selben Kapitel enthaltene Licht-/
   Chromotherapie-Abschnitt wurde bewusst nicht umgesetzt, da er
   überwiegend humanmedizinische, chronobiologische Evidenz mit nur vager
-  veterinärmedizinischer Übertragbarkeit referiert. Drei weitere
-  Kapitel-Dateien dieses Buches („Indikationen", „Krankengymnastik",
-  „Massage") stehen noch aus.
+  veterinärmedizinischer Übertragbarkeit referiert. Danach „Indikationen"
+  (C.-S. Alexander/A. Jaggy/I. Kathmann) teilweise extrahiert (121.417
+  Zeichen, keine Kappung; sehr umfangreiches Kapitel — Schmerzpatient,
+  prä-/postoperative Rehabilitation, Arthrosepatient, neurologische
+  Rehabilitation nach Diskushernie/Kopftrauma/Wirbelfraktur/
+  Spinalnerventrauma/atlantoaxialer Subluxation/degenerativer Myelopathie,
+  Geriatriepatient, Gelenkfehlstellung): 3 neue Einträge aus den
+  Abschnitten Schmerzpatient und Geriatriepatient —
+  `gewebeheilungsphasen-rehabilitation-zeitfenster-technik` (THERAPIE: die
+  drei Gewebeheilungsphasen mit konkreten Zeitfenstern und
+  phasenspezifischer Technikwahl, ergänzt gezielt den bestehenden Eintrag
+  `belastungssteuerung-nach-verletzung` um das WANN/WAS),
+  `schmerzpatient-klassifikation-vier-schmerztypen-therapiewahl` (THERAPIE:
+  Gelenk-/Weichteil-/Neuritis-/Muskelspannungsschmerz als vier
+  unterschiedliche Mechanismen mit direkter Technikwahl-Konsequenz, inkl.
+  Traktion als Arthrose-Mittel-der-Wahl und der Schultergelenk-Kälte-
+  Ausnahme) und `geriatrischer-hund-alterungsmechanismen-
+  rassenabhaengige-lebenserwartung` (PATHOLOGIE: rassenabhängige
+  Lebenserwartung/Alterungsgeschwindigkeit, die drei universellen
+  Alterungsmechanismen Dehydrierung/Fibrosierung/Involution,
+  Multimorbiditäts-Erklärung, physikalische Digitaliswirkung der
+  Ganzkörpermassage — erste Geriatrie-Einträge der Wissensbibliothek
+  überhaupt). **Noch nicht ausgewertet** (nächster Fortsetzungspunkt für
+  eine Folgesession): die umfangreiche neurologische Rehabilitations-
+  Sektion (Diskushernie, Kopftrauma, Wirbelfraktur, Spinalnerventrauma,
+  atlantoaxiale Subluxation, degenerative Myelopathie — hoher
+  Duplikations-Verdacht mit der bereits vollständig ausgewerteten
+  VetCenter-Quelle „Wirbelsäulenerkrankungen", da dort dieselben
+  Krankheitsbilder bereits diagnostisch abgedeckt sind; zu prüfen ist, ob
+  dieses Kapitel spezifisch neue Rehabilitations-/Physiotherapie-Aspekte
+  beisteuert, die dort fehlen) sowie der Abschnitt „Gelenkfehlstellung".
+  Zwei weitere Kapitel-Dateien dieses Buches („Krankengymnastik",
+  „Massage") stehen ebenfalls noch aus.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -671,9 +701,35 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       gegenüber den bereits abgedeckten TENS-/Träbert-/Galvanisations-
       Grundprinzipien).
 
+#### Kapitel „Indikationen" (C.-S. Alexander/A. Jaggy/I. Kathmann) — TEILWEISE ausgewertet
+
+- [x] **Abschnitte „Schmerzpatient" und „Geriatriepatient" gelesen und
+      ausgewertet (29.09.2026).** Kapitel per `download_file_content` +
+      lokaler `pdftotext`-Extraktion vollständig abgerufen (121.417 Zeichen,
+      keine Kappung; 2.312 Zeilen — mit Abstand das umfangreichste bisher
+      gefundene Einzelkapitel dieses Buches). 3 neue Einträge:
+      `gewebeheilungsphasen-rehabilitation-zeitfenster-technik` (THERAPIE),
+      `schmerzpatient-klassifikation-vier-schmerztypen-therapiewahl`
+      (THERAPIE) und `geriatrischer-hund-alterungsmechanismen-
+      rassenabhaengige-lebenserwartung` (PATHOLOGIE) — Details siehe
+      Stand-Abschnitt oben.
+- [ ] **Noch offen:** die umfangreiche neurologische Rehabilitations-Sektion
+      (Kippfenstersyndrom, akute idiopathische Polyradikuloneuritis,
+      Diskushernie/-prolaps, Kopftrauma, Wirbelfraktur/-luxation/
+      -subluxation, Spinalnerventrauma, atlantoaxiale Subluxation,
+      degenerative Myelopathie) — vor Umsetzung in Einträge muss geprüft
+      werden, ob dieses Kapitel gegenüber der bereits vollständig
+      ausgewerteten VetCenter-Quelle „Wirbelsäulenerkrankungen" (dieselben
+      Krankheitsbilder dort schon diagnostisch abgedeckt) tatsächlich neue
+      Rehabilitations-/Physiotherapie-spezifische Fakten beisteuert, statt
+      nur dieselben Diagnosen zu wiederholen. Ebenfalls noch offen: der
+      Abschnitt „Gelenkfehlstellung" (Tab. 13.12, ab Zeile 2134) sowie der
+      allgemeine „Arthrosepatient"-Abschnitt (Tab. 13.6, teilweise bereits
+      in `schmerzpatient-klassifikation-vier-schmerztypen-therapiewahl`
+      verwertet, aber nicht vollständig).
+
 #### Übrige Kapitel — noch ungelesen
 
-- [ ] „Indikationen" (Drive fileId `1Zl0_zVMYvVDJ-ZT1I_n3uaK7qvKfZ_mJ`, 5,1 MB)
 - [ ] „Krankengymnastik (Physiotherapie)" (Drive fileId `1hTsuiVQ3E-Hsrh7e4guIOXciqy57crvU`, 1,7 MB)
 - [ ] „Massage" (Drive fileId `1xNlYSYXsuB6chLTs69gjqv2odiPPZ1oO`, 2,2 MB)
 

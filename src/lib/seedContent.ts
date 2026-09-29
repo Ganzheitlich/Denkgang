@@ -11408,6 +11408,123 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "gewebeheilungsphasen-rehabilitation-zeitfenster-technik",
+    category: "THERAPIE",
+    title: "Drei Gewebeheilungsphasen der Rehabilitation: Zeitfenster und passende Technik",
+    teaser:
+      "Ein Rehabilitationsplan sollte sich nicht nach dem Kalender, sondern nach dem tatsächlichen Heilungsstadium des Gewebes richten — jede der drei Phasen verlangt nach einer anderen Technikauswahl.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum sich Physiotherapie am Erkrankungsstadium orientieren muss, nicht an einem festen Datum",
+        text: "Nach einer Operation oder Verletzung sollte sich der Einsatz physikalischer Therapie grundsätzlich am aktuellen Gewebeheilungsstadium orientieren statt an einem starren Datum — auch wenn sich diesen Stadien grobe Zeitfenster zuordnen lassen. Selbst leichte Massage darf wegen der damit verbundenen Gewebsmobilisierung frühestens ab dem 2. Tag postoperativ eingesetzt werden; Thermotherapie dagegen ist schon direkt nach der Operation möglich.",
+      },
+      {
+        type: "table",
+        heading: "Die drei Phasen im Überblick",
+        columns: ["Phase", "Zeitfenster", "Klinisches Bild", "Physiotherapeutisches Ziel"],
+        rows: [
+          [
+            "Akute Phase (entzündliche Reaktion)",
+            "2–6 Tage",
+            "Entzündungszeichen, Schmerz",
+            "maximale Schutzphase: Ruhigstellung, Thermotherapie, allenfalls vorsichtige passive Bewegung, Massage frühestens ab Tag 2",
+          ],
+          [
+            "Subakute Phase (Reparatur und Heilung)",
+            "10–14 bzw. 14–21 Tage p. Trauma/p. OP",
+            "Besserung von Entzündung und Schmerz",
+            "Phase der kontrollierten Bewegung: isometrische und aktive Übungen, Dehnungsübungen",
+          ],
+          [
+            "Chronische Phase (Reifung und Umbau)",
+            "ab 14.–21. Tag p. Trauma/p. OP",
+            "keine Entzündung, wenig Schmerz — oder wiederkehrender Schmerz bei chronischer Entzündung",
+            "Phase der Funktionsrückkehr: Narbenmobilisierung (ab 8.–10. Woche möglich), Kräftigungs-, Ausdauer- und Dehnungsübungen",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Prä- und postoperative Zielsetzung sind nicht dasselbe",
+        text: "Präoperativ geht es darum, einen bestehenden Hypertonus der erkrankten Extremität herabzusetzen und sie auf die bevorstehende passive Bewegung vorzubereiten — praktisch etwa über Kälte- oder Wärmeanwendung, detonisierende (abschließend leicht tonisierende) Massage, passive Bewegung zur Kontrakturprophylaxe und TENS zur Schmerzreduktion. Postoperativ verschiebt sich das Ziel: Die Extremität soll auf aktive Bewegungstherapie vorbereitet und kompensatorische Fehlhaltungen sollen positiv beeinflusst werden — in der Schutzphase über TENS und Thermotherapie sowie distal-nach-proximal geführte Ausstreichungen (Ödemausschwemmung, Gewebserwärmung), in der Phase der kontrollierten Bewegung über passive Bewegung, ggf. Tapes zur kurzzeitigen Ruhigstellung im Wechsel mit Übung sowie Magnetfeldanwendung, und in der Funktionsrückkehr-Phase über Dehnungen, Koordinations- und Widerstandsübungen sowie eine schrittweise Steigerung von Übungsgeschwindigkeit und -dauer.",
+      },
+      {
+        type: "text",
+        heading: "Warum dieses Zeitraster den Grundsatz „kontrollierte Bewegung statt Ruhigstellung“ konkretisiert",
+        text: "Dieses Phasenraster liefert die konkrete zeitliche Landkarte für das an anderer Stelle beschriebene Prinzip, dass dosierte, kontrollierte Bewegung einer kompletten Ruhigstellung überlegen ist: Es sagt nicht nur, dass bewegt werden soll, sondern wann welche Bewegungsform (passiv, isometrisch, aktiv, gegen Widerstand) angemessen ist — abhängig vom tatsächlichen Gewebezustand, nicht von einem beliebigen Kalenderdatum.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Indikationen — Kurativ, Schmerzpatient“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984), Abschnitt „Prä- und postoperative Schmerztherapie“, Tab. 13.4 und Tab. 13.5. Die drei Phasen mit ihren Zeitfenstern und Techniken, die 2-Tage-Regel für Massage sowie die unterschiedliche prä-/postoperative Zielsetzung sind im Original so beschrieben. Ergänzt gezielt den bestehenden Eintrag `belastungssteuerung-nach-verletzung` (Hohmann), der das WARUM kontrollierter Bewegung erklärt, um das konkrete WANN/WAS (Zeitfenster und Technikwahl je Phase) — bewusst nicht dupliziert.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "schmerzpatient-klassifikation-vier-schmerztypen-therapiewahl",
+    category: "THERAPIE",
+    title: "Schmerzpatient-Klassifikation: Vier Schmerztypen und ihre Therapiekonsequenz",
+    teaser:
+      "Ein Arthrose-Schmerz und ein Spondylose-Schmerz fühlen sich für den Untersucher ähnlich an — entstehen aber über völlig unterschiedliche Mechanismen und verlangen deshalb nach unterschiedlichen physikalischen Therapieansätzen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum „Schmerzpatient“ keine einheitliche Diagnose ist",
+        text: "Schmerzpatienten sind ätiologisch völlig inhomogen — derselbe Oberbegriff verdeckt vier grundsätzlich verschiedene Schmerzmechanismen, die sich gegenseitig bedingen können: Gelenkschmerz entsteht an Gelenkkapsel und Bändern selbst sowie sekundär aus der durch Dauerkontraktur überlasteten, gelenkumgebenden Muskulatur (z. B. beim Arthrosepatienten). Neuritisschmerz entsteht durch ein Wurzelreizsyndrom (z. B. beim Spondylosepatienten) und kann sekundär einen schmerzhaften Hypertonus der Rückenmuskulatur nach sich ziehen. Weichteilschmerz entsteht primär im Weichteilgewebe selbst — etwa bei Narbenschmerzen oder den seltenen Myogelosen — und kann bei Narbenstriktur über eine Kreuzung des Nervenverlaufs sekundär ebenfalls zum Neuritisschmerz werden. Muskelspannungsschmerz schließlich ist meist die gemeinsame Endstrecke: Fast alle der genannten Schmerzformen führen direkt oder indirekt zu ihm.",
+      },
+      {
+        type: "text",
+        heading: "Gelenkschmerz als Beispiel: warum hier Traktion statt Wärme das Mittel der Wahl ist",
+        text: "Am akut schmerzhaften Gelenk eignet sich zunächst Kälte (Kältepackung, Pfefferminzöl-Einreibung) zur Vorbereitung einer Traktionsbehandlung. Bei degenerierten, chronischen Gelenkerkrankungen wie Arthrose dagegen eignet sich eher Wärme zur Einleitung — an schwer zugänglichen, tiefer liegenden Gelenken bevorzugt als therapeutischer Ultraschall wegen seiner Tiefenwirkung. Eine praktisch wichtige Ausnahme: Das Schultergelenk verträgt erfahrungsgemäß generell Kälte besser als Wärme. Die Traktionsbehandlung selbst gilt beim Arthrosepatienten als Mittel der Wahl, weil sie nicht nur schmerzlindernd wirkt, sondern die Arthrose zusätzlich im bestehenden Stadium „einfrieren“ kann — ein Effekt, den eine rein medikamentöse Schmerztherapie nicht erreicht. Für ein optimales Ergebnis sollte die Traktion möglichst schmerzfrei begonnen werden, weshalb ihr vorbereitend Thermotherapie und Massage vorausgehen sollten.",
+      },
+      {
+        type: "text",
+        heading: "Warum diese Unterscheidung mehr ist als Kategorisierung um ihrer selbst willen",
+        text: "Wer einen Spondylose-bedingten Neuritisschmerz wie einen reinen Muskelspannungsschmerz behandelt (z. B. nur mit detonisierender Massage), behandelt lediglich die sekundäre Endstrecke und übersieht die eigentliche Ursache — das Wurzelreizsyndrom bleibt unbehandelt und der Muskelhypertonus kehrt zurück. Ebenso würde eine reine Wärmebehandlung am akut schmerzhaften Gelenk, wo eigentlich Kälte zur Vorbereitung der Traktion angezeigt wäre, das eigentliche Ziel (schmerzarme Traktionsfähigkeit) verfehlen. Die Klassifikation nach Schmerzursprung ist deshalb keine akademische Übung, sondern entscheidet direkt über die Technikwahl.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Differentialdiagnostik unvollständig", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Indikationen — Kurativ, Schmerzpatient“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984), Abschnitte „Schmerzpatient“ und „Schmerztherapie am Gelenk“/„Arthrosepatient“. Die vier Schmerztypen mit ihren jeweiligen Beispielen und wechselseitigen Übergängen, die Gelenkschmerz-spezifische Kälte-vor-Traktion- bzw. Wärme-bei-Arthrose-Logik, die Schultergelenk-Ausnahme sowie die „Einfrier“-Wirkung der Traktionsbehandlung auf das Arthrose-Stadium sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher eine schmerzursprungs-basierte Klassifikation mit direkter Technikwahl-Konsequenz ab.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "geriatrischer-hund-alterungsmechanismen-rassenabhaengige-lebenserwartung",
+    category: "PATHOLOGIE",
+    title: "Der geriatrische Hund: Drei Alterungsmechanismen und warum kleine Rassen länger leben",
+    teaser:
+      "Ein Zwerghund erreicht das Äquivalent eines 60-jährigen Menschen erst mit 11 Jahren — ein Vertreter einer Riesenrasse schon mit 8. Dahinter stehen drei immer gleiche Alterungsmechanismen, die sich in jedem Organ wiederfinden.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum große Hunde schneller altern als kleine",
+        text: "Die Lebenserwartung ist genetisch determiniert, wird aber von Ernährungszustand, Lebensweise und medizinischen Eingriffen (z. B. Kastration) beeinflusst. Die genetische Komponente zeigt sich deutlich im Rassenvergleich: Kleine Rassen erreichen im Schnitt etwa 11 Lebensjahre, mittelgroße rund ein Jahr weniger, Riesenrassen im Schnitt nur etwa 7 Jahre. Entsprechend unterschiedlich schnell altern sie: Verglichen mit dem alternden Menschen entspricht ein Zwerghund erst mit 11 Jahren einem 60-jährigen Menschen, ein mittelgroßer Hund bereits mit 9,5 Jahren und ein Vertreter einer Riesenrasse schon mit 8 Jahren. Für die Praxis bedeutet das: Das kalendarische Alter allein sagt bei unterschiedlich großen Hunden wenig über das biologische Alter aus — ein 8-jähriger Riesenrassehund ist physiologisch bereits ein Geriatriepatient, ein gleichaltriger Zwerghund noch nicht.",
+      },
+      {
+        type: "text",
+        heading: "Drei Mechanismen, die sich in jedem alternden Organ wiederfinden",
+        text: "„Altern“ lässt sich definieren als die herabgesetzte Fähigkeit, Stress zu widerstehen — getragen von drei Mechanismen, die sich organübergreifend nachweisen lassen: Dehydrierung (zunehmende Gewebeaustrocknung durch geringeres Wasserbindungsvermögen und eine abnehmende Zahl hypothalamischer Osmorezeptoren, was das Durstgefühl herabsetzt), Fibrosierung (fortschreitende Bindegewebseinlagerung mit Verlust funktionsfähiger Zellen, teils Ersatz durch Fettzellen) und Involution (abnehmende Zellzahl durch herabgesetzte Teilungsrate intermitotischer Zellen wie Nerven- und Muskelzellen). Diese drei Mechanismen erklären so unterschiedliche Alterserscheinungen wie die atrophische, unelastische Haut, die eingesunkenen Flanken durch Rumpfmuskelatrophie, den um rund 30 % reduzierten kardialen Output im letzten Lebensdrittel (durch Fibrosierung von Herzmuskel und -klappen) sowie die eingeschränkte Thermoregulation (verminderte Wärmeproduktion, verlangsamte Vasomotorenreaktion — das Tier kann seine Hauttemperatur nicht mehr konstant halten).",
+      },
+      {
+        type: "text",
+        heading: "Warum alte Hunde besonders anfällig für Multimorbidität sind",
+        text: "Weil Dehydrierung, Fibrosierung und Involution nicht ein einzelnes Organ, sondern alle Organsysteme gleichzeitig betreffen, sinkt mit dem Alter die allgemeine Anpassungsfähigkeit des gesamten Organismus an innere und äußere Belastungen — das begünstigt die im Alter typische Multimorbidität (mehrere gleichzeitig bestehende Erkrankungen). Diese Funktionseinbußen werden für Tierhalter und in Laborwerten aber oft erst sichtbar, wenn bereits ein erheblicher Anteil der Organfunktion verloren gegangen ist — ein rein äußerlich unauffälliger alter Hund kann organfunktionell bereits deutlich eingeschränkt sein.",
+      },
+      {
+        type: "text",
+        heading: "Physikalische Therapie kann mehrere dieser Mechanismen gezielt abmildern",
+        text: "Mehrere Altersveränderungen lassen sich durch physikalische Therapie mildern, was die Anpassungsfähigkeit steigert und das Multimorbiditätsrisiko senkt. Ein prägnantes Beispiel: Einer Ganzkörpermassage wird eine sogenannte „physikalische Digitaliswirkung“ zugeschrieben — über ihre positiv chronotrope Wirkung übt sie einen Trainingseffekt auf den durch Fibrosierung geschwächten Herzmuskel aus, ganz ohne Medikamentengabe. Das zeigt exemplarisch, dass physikalische Therapie beim Geriatriepatienten nicht nur symptomatisch (z. B. gegen Gelenkschmerz), sondern gezielt gegen die zugrunde liegenden Alterungsmechanismen selbst eingesetzt werden kann.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Indikationen — Präventive Anwendungen/Metaphylaxe, Geriatriepatient“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Die rassenabhängige Lebenserwartung, die Hunde-/Menschenalter-Äquivalenz-Beispiele, die drei Alterungsmechanismen (Dehydrierung/Fibrosierung/Involution), die konkreten Organveränderungen (kardialer Output −30 %, Thermoregulationsstörung u. a.), die Multimorbiditäts-Erklärung sowie die „physikalische Digitaliswirkung“ der Ganzkörpermassage sind im Original so beschrieben. Erste Wissensbibliothek-Einträge zum Thema Geriatrie überhaupt — bisher existierte dazu nur ein Fall-Themen-Tag ohne zugehörigen strukturierten Grundlagen-Eintrag.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
