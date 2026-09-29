@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 248 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
-  Untersuchung, 88 Pathologie, 65 Biomechanik, 30 Therapie — genaue
+- Wissensbibliothek: 252 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
+  Untersuchung, 88 Pathologie, 65 Biomechanik, 34 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -351,8 +351,22 @@ kein Überblick verloren geht.
   Krankheitsbilder bereits diagnostisch abgedeckt sind; zu prüfen ist, ob
   dieses Kapitel spezifisch neue Rehabilitations-/Physiotherapie-Aspekte
   beisteuert, die dort fehlen) sowie der Abschnitt „Gelenkfehlstellung".
-  Zwei weitere Kapitel-Dateien dieses Buches („Krankengymnastik",
-  „Massage") stehen ebenfalls noch aus.
+  Danach „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken"
+  vollständig extrahiert (37.610 Zeichen, keine Kappung): 4 neue
+  THERAPIE-Einträge — eine Bewegungstherapie-Grundtaxonomie
+  (passiv/aktiv-assistiv/aktiv mit offener/geschlossener kinematischer
+  Kette/resistiv/isometrisch), das von der Autorin selbst entwickelte
+  Reflexinduzierte Training (RITA) zur Gehbewegungssimulation bei
+  schlaffer Parese über Fremdreflexe (direkte praktische Anwendung der
+  bereits bestehenden Sherrington-Gesetze-Einträge), die PNF-Technik samt
+  einer konkreten Artspezifitätsfalle (dieselbe Vorführbewegung der
+  Vorderextremität ist beim Hund eine Extension, beim Menschen eine
+  Flexion des Schultergelenks — wegen der entgegengesetzten
+  Bizeps-Funktionsdefinition) sowie die fachliche Abgrenzung
+  „Dehnen" (nur durch Therapeuten, überschreitet bewusst das
+  Bewegungsausmaß) versus „Stretching" (bleibt innerhalb des
+  Bewegungsausmaßes, tierhaltertauglich). Ein weiteres Kapitel dieses
+  Buches („Massage") steht noch aus.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -728,9 +742,37 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       in `schmerzpatient-klassifikation-vier-schmerztypen-therapiewahl`
       verwertet, aber nicht vollständig).
 
+#### Kapitel „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken" (C.-S. Alexander)
+
+- [x] **Vollständig gelesen und ausgewertet (29.09.2026).** Kapitel per
+      `download_file_content` + lokaler `pdftotext`-Extraktion vollständig
+      abgerufen (37.610 Zeichen, keine Kappung; 760 Zeilen). 4 neue
+      THERAPIE-Einträge: `bewegungstherapie-taxonomie-passiv-aktiv-resistiv`
+      (passiv/aktiv-assistiv/aktiv/resistiv/isometrisch mit offener/
+      geschlossener kinematischer Kette und gemeinsamer Kontraindikations-
+      liste), `rita-reflexinduziertes-training-alexander-fremdreflexe`
+      (das von der Buchautorin selbst entwickelte RITA-Verfahren, direkte
+      praktische Anwendung der bereits bestehenden Sherrington-Gesetze),
+      `pnf-technik-artspezifische-bewegungsmuster-terminologiefalle`
+      (PNF-Grundwerkzeuge Stretch/Widerstand/Approximation plus der
+      konkreten Artspezifitätsfalle bei der Vorderextremitäten-Vorführung:
+      Extension beim Hund vs. Flexion beim Menschen, wegen
+      entgegengesetzter Bizeps-Funktionsdefinition) und
+      `dehnen-versus-stretching-risikoprofile-technik` (die fachliche
+      Abgrenzung zwischen therapeutenpflichtigem Dehnen — überschreitet
+      bewusst das Bewegungsausmaß — und tierhaltertauglichem Stretching —
+      bleibt innerhalb des Bewegungsausmaßes — samt der beiden
+      Aktive-Inhibition-Mechanismen postisometrische Relaxation und
+      Antagonistenhemmung). Bewusst nicht übernommen: die
+      Bobath-/Vojta-Verfahren (im Original selbst als für die
+      Veterinärmedizin nicht direkt übertragbar beschrieben, ohne
+      konkrete Anlehnungstechnik) sowie die vollständige PNF-Pattern-
+      Tabelle mit allen Diagonalen für Vorder- und Hintergliedmaße
+      (zu techniklastig für einen Nachschlage-Eintrag, das Kernprinzip
+      — die Terminologiefalle — ist im neuen Eintrag abgedeckt).
+
 #### Übrige Kapitel — noch ungelesen
 
-- [ ] „Krankengymnastik (Physiotherapie)" (Drive fileId `1hTsuiVQ3E-Hsrh7e4guIOXciqy57crvU`, 1,7 MB)
 - [ ] „Massage" (Drive fileId `1xNlYSYXsuB6chLTs69gjqv2odiPPZ1oO`, 2,2 MB)
 
   (alle im Drive-Ordner `1qVtWpp31AzfZL1HQp8a7qJssmwL8r71a`)

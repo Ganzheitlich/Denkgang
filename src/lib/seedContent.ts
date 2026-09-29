@@ -11525,6 +11525,149 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "bewegungstherapie-taxonomie-passiv-aktiv-resistiv",
+    category: "THERAPIE",
+    title: "Bewegungstherapie-Taxonomie: von passiv bis resistiv",
+    teaser:
+      "„Bewegungsübungen“ ist kein einheitliches Werkzeug — passives Bewegen, aktiv-assistives Bewegen, aktives Bewegen und Bewegen gegen Widerstand verfolgen jeweils andere Ziele und passen zu unterschiedlichen Patientenzuständen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Passives Bewegen: Bewegung ohne jede Muskelkontraktion",
+        text: "Passives Bewegen ist per Definition ein Bewegen der Gelenke durch äußere Kraft (Behandler, Schwerkraft oder Gerät) ohne jede Muskelkontraktion des Patienten. Es dient vor allem der Kontraktur- und Atrophieprophylaxe: Es erhält das volle Bewegungsausmaß, die mechanische Elastizität der Muskulatur und die Knorpelernährung, verbessert die Durchblutung, senkt Schmerzen und erhält das Bewegungsgefühl. Durchgeführt wird endgradig durch das gesamte Bewegungsausmaß eines Gelenks (bei einachsigen Gelenken Flexion/Extension, bei zweiachsigen zusätzlich Ab-/Adduktion oder Supination/Pronation, bei dreiachsigen in alle Richtungen), 5–10 Wiederholungen, aber ausdrücklich nicht dehnend über das Bewegungsausmaß hinaus.",
+      },
+      {
+        type: "text",
+        heading: "Aktiv-assistives Bewegen: Training unter reduzierter Schwerkraft",
+        text: "Aktiv-assistives (unterstütztes) Bewegen ist aktive Bewegung unter Abnahme der Eigenschwere — geschwächte Muskulatur wird dadurch kontrolliert belastet, ohne sie zu überfordern. Die Unterstützung kann manuell durch den Therapeuten oder durch die Auftriebskraft des Wassers erfolgen. Drei Abstufungen werden unterschieden: unterstütztes isoliertes Bewegen (eine Gelenkachse, z. B. Kniegelenk-Extension für den M. quadriceps femoris), unterstütztes komplexes Bewegen (zwei Gelenke oder zwei Achsen gemeinsam, z. B. Hüftflexion und -rotation) und Bewegen in kombinierten Bewegungsmustern (mehrere Gelenkbewegungen aus verschiedenen Ebenen, z. B. nach PNF-Mustern).",
+      },
+      {
+        type: "text",
+        heading: "Aktives Bewegen: offene versus geschlossene kinematische Kette",
+        text: "Aktives Bewegen wird durch die eigene Muskelkontraktion des Patienten ausgelöst. Entscheidend für die Trainingswirkung ist, ob es in der offenen kinematischen Kette (der distale Extremitätenabschnitt bewegt sich frei im Raum, Hangbeinphase) oder in der geschlossenen kinematischen Kette (der distale Abschnitt ist fixiert, der Körper bewegt sich über der Extremität, Stützphase, z. B. Treppenlaufen) stattfindet — beide Varianten sprechen unterschiedliche Funktionen desselben Muskels an. Stehübungen (Aufstellen mit Bauch-/Brustgurt-Unterstützung) setzen zusätzlich gezielt propriozeptive Reize (v. a. über Muskelspindeln durch die dehnende Schwerkraftwirkung sowie über Vater-Pacini-Körperchen der Pfotenballen), erfordern aber, dass das Körpergewicht tatsächlich getragen werden kann oder soll.",
+      },
+      {
+        type: "text",
+        heading: "Bewegen gegen Widerstand und isometrische Übungen: Kraft- statt Mobilisationsziel",
+        text: "Bewegen gegen Widerstand (resistives Bewegen) setzt einen zusätzlichen Widerstand zum Eigengewicht ein — manuell durch Gegenhalt, über angelegte Gewichte (50–100 g reichen aus) oder über Wasserwiderstand. Isometrische Übungen kontrahieren den Muskel ohne Lageveränderung und erzeugen dabei hohe Spannung; ein Trainingseffekt braucht mindestens 6 Sekunden Haltezeit bei 50–70 % Maximalkraft über 3–5 Wiederholungen — gekräftigt wird dabei allerdings nur die geübte Gelenkstellung, nicht die gesamte Bewegungsbahn. Diese beiden Techniken zielen auf Kraft- und Leistungssteigerung sowie verbesserte Hämodynamik, nicht primär auf Mobilisation — Mobilisation wird stattdessen durch passives Bewegen und Traktion erreicht.",
+      },
+      {
+        type: "table",
+        heading: "Kontraindikationen der Bewegungstherapie (alle Formen)",
+        columns: ["Kontraindikation"],
+        rows: [
+          ["akute Entzündungen"],
+          ["akute Erkrankungen mit fehlender Belastungsfähigkeit"],
+          ["anatomische Bewegungsbehinderung"],
+          ["Bewegungsschmerz"],
+          ["Herz-/Atmungsinsuffizienz in Ruhe"],
+        ],
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 11 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189982), Abschnitte „Passive Techniken“, „Aktive Techniken“ und „Wirkungen, Indikationen und Kontraindikationen der Bewegungstherapie“. Die vollständige Techniktaxonomie (passiv/aktiv-assistiv/aktiv/resistiv/isometrisch) mit ihren jeweiligen Wirkmechanismen, Parametern (Wiederholungszahlen, Haltezeiten, Gewichte) und der gemeinsamen Kontraindikationsliste ist im Original so beschrieben. Kein bestehender Eintrag deckt bisher eine strukturierte Bewegungstherapie-Grundtaxonomie ab.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "rita-reflexinduziertes-training-alexander-fremdreflexe",
+    category: "THERAPIE",
+    title: "RITA: Gehbewegung mit Fremdreflexen simulieren bei schlaffer Parese",
+    teaser:
+      "Wenn die Willkürbewegung ausfällt, aber der Reflexbogen intakt ist, lässt sich eine Gehbewegung über gezielt ausgelöste Schmerz- und Berührungsreflexe simulieren — eine Technik, die direkt auf den Sherrington-Gesetzen aufbaut.",
+    sections: [
+      {
+        type: "text",
+        heading: "Das Prinzip: Flexor- und Extensorreflex im Wechsel auslösen",
+        text: "Beim Reflexinduzierten Training nach Alexander (RITA) wird zunächst in Seitenlage, später — sofern möglich — im Stand, der Flexorreflex (schmerzhafte Reizung der Zwischenzehenhaut) und anschließend der Extensorreflex (Anregung der Pfotenballen-Tastorgane durch Reiben) ausgelöst. Im Wechsel entsteht so eine simulierte Gehbewegung. Der entscheidende Vorteil: Diese Technik erreicht Muskelkontraktionen auch bei Patienten mit schlaffer Parese, solange die Reflextätigkeit selbst noch erhalten ist — also selbst dann, wenn die willkürliche Bewegung bereits ausgefallen ist. Ziel ist mindestens der Erhalt der vorhandenen Muskelmasse, im besten Fall die Förderung motorischen Lernens durch Simulation einer aktiven Laufbewegung.",
+      },
+      {
+        type: "text",
+        heading: "Warum RITA ein Lehrbeispiel für angewandte Reflexphysiologie ist",
+        text: "Flexor- und Extensorreflex sind polysynaptische Fremdreflexe (Rezeptor in der Haut, Effektor im Muskel) und unterliegen deshalb genau den Sherrington-Gesetzen: Bei wiederholter Auslösung zeigen sich Summation, Sensitivierung (verkürzte Reflexzeit, gesenkte Reflexschwelle) und Irradiation (zunehmender Reizerfolg bei steigender Intensität) — messbar bereits nach drei- bis fünfmaliger rascher Auslösung hintereinander. Das ist keine zufällige Nebenbeobachtung, sondern der Kern des Verfahrens: RITA nutzt die Sensitivierung gezielt aus, um mit wiederholter Reflexauslösung eine zunehmend kräftigere motorische Antwort zu erzeugen.",
+      },
+      {
+        type: "text",
+        heading: "Warum Vorsicht bei der ersten Anwendung geboten ist",
+        text: "Da der Flexorreflex über die Schmerzbahnen verläuft, reagieren Tiere bei der ersten Anwendung meist erschreckt — sie gewöhnen sich in der Regel aber an die Prozedur. Die Technik sollte pro Anwendung nicht wesentlich häufiger als drei- bis fünfmal ausgelöst werden, um die Geduld (und das Vertrauen) des Patienten nicht zu überfordern. Wer die zugrunde liegende Reflexsensitivierung nicht kennt, könnte versucht sein, den Reiz beliebig oft zu wiederholen, um einen stärkeren Effekt zu erzielen — genau das würde aber unnötigen Stress erzeugen, ohne den Trainingseffekt proportional zu steigern.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Faktenwissen", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 11 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189982), Abschnitt „Reflexinduziertes Training nach Alexander (RITA)“. Das Verfahren (von der Buchautorin selbst entwickelt), der Reflexmechanismus, die explizite Anwendung der Sherrington-Gesetze (Summation, Sensitivierung, Irradiation) sowie die Anwendungshinweise zur Reizhäufigkeit sind im Original so beschrieben. Baut direkt auf dem bestehenden Eintrag `monosynaptische-polysynaptische-reflexe-sherrington-gesetze` auf (dort die allgemeine Reflexphysiologie, hier die konkrete therapeutische Anwendung) — bewusst nicht dupliziert, sondern als Praxisbeispiel ergänzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "pnf-technik-artspezifische-bewegungsmuster-terminologiefalle",
+    category: "THERAPIE",
+    title: "PNF-Technik: warum sich dieselbe Bewegung beim Hund anders nennt als beim Menschen",
+    teaser:
+      "„Vorführen der Vorderextremität“ ist beim Hund eine Extension des Schultergelenks — beim Menschen wäre dieselbe Armbewegung eine Flexion. Wer PNF-Bewegungsmuster unreflektiert aus der Humanmedizin übernimmt, benennt die Bewegung falsch.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die Terminologiefalle: derselbe Muskel, entgegengesetzte Funktionsbezeichnung",
+        text: "Die PNF-Technik (Propriozeptive neuromuskuläre Fazilitation, entwickelt von Hermann Kabat in den 1940er-Jahren) arbeitet mit diagonalen, dreidimensionalen Bewegungsmustern (PNF-Pattern) in allen drei Bewegungsebenen gleichzeitig. Diese Pattern wurden ursprünglich für den Menschen definiert — und lassen sich nicht einfach direkt auf den Hund übertragen: Das Vorführen der Vorderextremität ist beim Hund eine Extension des Schultergelenks, da der M. biceps brachii beim Hund ein Extensor des Schultergelenks ist. Beim Menschen dagegen gilt das Heben des Arms als Flexion des Schultergelenks, weil der M. biceps brachii dort als Flexor definiert ist. Die PNF-Pattern der Vorderextremität müssen deshalb für die Veterinärmedizin umbenannt werden, sonst wird exakt die gegenteilige Bewegung beschrieben.",
+      },
+      {
+        type: "text",
+        heading: "Die drei Grundwerkzeuge: Stretch, Widerstand und Approximation",
+        text: "Ein Stretch (Dehnreiz) regt die Muskulatur zur Kontraktion an; der entstehenden Bewegung wird manueller Widerstand entgegengesetzt, was die Muskelspannung erhöht und über Irradiation auch benachbarte Synergisten fazilitiert — sogar Widerstand an der kontralateralen Seite kann die Kontraktion der zu behandelnden Seite erleichtern. Traktion kann den Stretch vorbereiten (Verlängerung der Muskulatur bahnt den Stretchreflex) und zusätzlich Gelenkschmerzen lindern. Approximation — das Komprimieren einer Extremität in gewichtstragender Position — wirkt umgekehrt: Sie fazilitiert z. B. nach Approximation am Becken gezielt die Belastung einer geschwächten Hinterextremität.",
+      },
+      {
+        type: "text",
+        heading: "Drei Sherrington-nahe Zusatzprinzipien der PNF-Technik",
+        text: "Neben den bereits bekannten Sherrington-Prinzipien Summation und Irradiation nutzt PNF drei weitere Phänomene: After discharge (Nach-Entladung) — der Effekt eines Reizes hält kurz über dessen Ende hinaus an, abhängig von Dauer und Intensität. Successive induction — eine Antagonistenaktion erhöht direkt danach die Reizbarkeit des Agonisten. Reciprocal inhibition — die Agonistenaktion hemmt reflektorisch den Antagonisten, damit die Kontraktion ungestört und vollständig ablaufen kann (dieselbe reziproke Hemmung, die bereits aus der allgemeinen Reflexphysiologie bekannt ist, hier gezielt therapeutisch genutzt).",
+      },
+      {
+        type: "text",
+        heading: "Warum diese Terminologiefalle mehr als eine Fußnote ist",
+        text: "Wer eine Bewegungsanleitung aus einem humanmedizinischen PNF-Lehrbuch wörtlich auf den Hund überträgt, ohne die artspezifisch entgegengesetzte Flexor-/Extensor-Definition des M. biceps brachii zu kennen, führt am Patienten genau die falsche Bewegung durch — mit dem Risiko, statt der beabsichtigten Kräftigung eine unerwünschte oder sogar schädliche Bewegungsrichtung zu trainieren. Diese Terminologiefalle ist ein konkretes Beispiel dafür, warum tiermedizinische Anatomie nicht einfach eine Übersetzung der Humananatomie ist.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 11 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189982), Abschnitt „PNF-Technik (Propriozeptive neuromuskuläre Fazilitation)“. Die Kabat-Entstehungsgeschichte, die artspezifische Umbenennung der Vorderextremitäten-Pattern (mit der zugrunde liegenden Bizeps-Funktionsumkehr), Stretch/Widerstand/Approximation als Grundwerkzeuge sowie die drei Zusatzprinzipien After discharge/Successive induction/Reciprocal inhibition sind im Original so beschrieben. Cross-referenziert den bestehenden Eintrag `monosynaptische-polysynaptische-reflexe-sherrington-gesetze` (dortige reziproke Hemmung wird hier als PNF-Werkzeug wiederaufgegriffen) — bewusst nicht dupliziert. Bewusst nicht übernommen: die vollständige PNF-Pattern-Tabelle mit allen Diagonalen für Vorder- und Hintergliedmaße sowie die Bobath-/Vojta-Verfahren (im Original selbst als „für die Veterinärmedizin nicht direkt übertragbar, es müsste eine angelehnte Technik entwickelt werden“ beschrieben — zu vage/unspezifisch für einen eigenen Praxis-Eintrag).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "dehnen-versus-stretching-risikoprofile-technik",
+    category: "THERAPIE",
+    title: "Dehnen versus Stretching: zwei ähnliche Wörter, zwei Risikoprofile",
+    teaser:
+      "„Dehnen“ und „Stretching“ werden umgangssprachlich synonym verwendet — fachlich beschreiben sie zwei grundverschiedene Techniken mit unterschiedlicher Gefährlichkeit und unterschiedlichem Anwenderkreis.",
+    sections: [
+      {
+        type: "text",
+        heading: "Dehnen: bewusst über das bestehende Bewegungsausmaß hinaus, nur für den Therapeuten",
+        text: "Dehnen wird zur Kontrakturbeseitigung eingesetzt und bewegt das Gelenk bewusst über das bestehende Bewegungsausmaß hinaus — das Bewegungsausmaß wird dabei mechanisch langsam vergrößert. Diese Maßnahme gehört ausdrücklich ausschließlich in die Hand des erfahrenen Therapeuten und darf keinesfalls dem Tierhalter nach Anleitung übergeben werden. Vor jeder Dehnungsbehandlung muss zunächst das Gleitverhalten des Gelenks geprüft werden — ist es eingeschränkt, muss zuerst eine Gelenkbehandlung erfolgen. Statische Dehnung (langsam über das Bewegungsausmaß hinausgeführt, 6–30 Sekunden gehalten) ist Standard; föderndes, ballistisches Dehnen ist wegen der Gefahr der Mikrotraumatisierung unbedingt zu vermeiden, da dabei die Gewebespannung doppelt so hoch werden kann wie bei der statischen Dehnung.",
+      },
+      {
+        type: "text",
+        heading: "Aktive Inhibition: die Abwehr des Patienten gegen sich selbst nutzen",
+        text: "Zwei Reflexmechanismen erleichtern die Dehnung, indem sie den Muskel vor der eigentlichen Dehnung entspannen. Bei der postisometrischen Relaxation wird der Muskel vom Patienten nach passiver Dehnung aktiv isometrisch angespannt; die danach einsetzende autogene Hemmung (Muskelentspannung) macht die anschließende, erneute Dehnung leichter. Bei der Antagonistenhemmung wird zunächst der Agonist des verkürzten Muskels angespannt (z. B. aktiv-assistiv geführte Extension, bevor rasch in die Flexion gedehnt wird), was über reziproke Hemmung den Antagonisten entspannt — dieselbe reziproke Hemmung, die bereits als allgemeines Reflexprinzip bekannt ist, wird hier gezielt zur schmerzärmeren Dehnung genutzt. Antagonistenhemmung eignet sich besonders in der frühen, schmerzhaften Phase.",
+      },
+      {
+        type: "text",
+        heading: "Warum eine Dehnungsserie ein strukturiertes Protokoll braucht",
+        text: "Eine Dehnungsbehandlung folgt einem festen Ablauf: initiale Wärme (Rotlicht oder Moorauflagen, ca. 5 Min.), überwiegend detonisierende Massage (ca. 5 Min.), dann 10–15-minütige Dehnung mit Halten des maximal erreichten Punkts (mindestens 7, besser 20–30 Sekunden), bei deutlicher Schmerzhaftigkeit abschließende Kälteanwendung, und zwingend anschließende Bewegung (zügiges Laufen), damit das neu erworbene Bewegungsausmaß „eingelaufen“ wird. Wegen der schmerzhaften Natur der Behandlung sollte das Tier bis in die Endphase der Anwendungsserie unter Analgesie stehen. Erfahrungsgemäß zeigt sich eine deutliche Verbesserung nach der 4.–6. Anwendung, das volle Bewegungsausmaß meist nach 8–10 Anwendungen — die Serie sollte spätestens nach drei Wochen abgeschlossen sein. Absolute Kontraindikationen sind Fraktur, lokale Entzündung, Infektion, Hämatom und Ödem; bei plötzlichem Schmerz oder Gelenkdestabilisierung während der Anwendung muss sofort abgebrochen werden.",
+      },
+      {
+        type: "text",
+        heading: "Stretching: dasselbe Wortfeld, aber grundsätzlich anderes Risiko",
+        text: "Stretching bedeutet im Gegensatz zum Dehnen ausdrücklich kein Bewegen über das vorhandene Bewegungsausmaß hinaus, sondern lediglich ein endgradiges Halten bis zu seiner bestehenden Grenze (bis zu 20 Sekunden je Richtung). Durch dieses Halten geben die Weichteilstrukturen geringfügig nach, wodurch sich das Bewegungsausmaß nur langsam und in kleinen Schritten erweitert. Weil Stretching die bestehende Grenze nicht überschreitet, eignet es sich — anders als das Dehnen — gut zur Anwendung durch den Tierhalter selbst, insbesondere prophylaktisch bei sportlich geführten Hunden. Bei Abwehrreaktionen wird vom Bewegungsendpunkt eine kleine Strecke zurückgenommen und dort gehalten, wo keine Abwehr mehr auftritt — die zentrale Sicherheitsregel: Stretching arbeitet innerhalb der Grenze, Dehnen überschreitet sie bewusst. Wer diese begriffliche Unterscheidung nicht kennt, könnte einem Tierhalter fälschlich eine Übung empfehlen, die eigentlich nur unter Fachaufsicht durchgeführt werden darf.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund überbewertet", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 11 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189982), Abschnitte „Dehnen“ und „Stretching“. Die Definition und das Sicherheitsprofil des Dehnens (nur durch Therapeuten, statisch vs. ballistisch, Ablaufprotokoll, Erfolgs-Zeitverlauf, Kontraindikationen), die beiden Aktive-Inhibition-Mechanismen (postisometrische Relaxation, Antagonistenhemmung) sowie die klare Abgrenzung zum patientenhalter-tauglichen Stretching sind im Original so beschrieben. Cross-referenziert den bestehenden Eintrag `monosynaptische-polysynaptische-reflexe-sherrington-gesetze` (reziproke Hemmung als allgemeines Prinzip) — bewusst nicht dupliziert, sondern als therapeutische Anwendung ergänzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
