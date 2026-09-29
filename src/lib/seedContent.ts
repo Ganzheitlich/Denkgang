@@ -11134,6 +11134,119 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "propriozeption-rezeptortypen-muskelspindel-golgi-sehnenorgan",
+    category: "BIOMECHANIK",
+    title: "Propriozeption: Welche Rezeptoren melden Stellung, Bewegung und Kraft",
+    teaser:
+      "Ein Hund kann seine Gelenkstellung auf etwa 2° genau einschätzen — dahinter steckt kein einzelner Sinn, sondern ein Zusammenspiel klar arbeitsteiliger Rezeptortypen mit jeweils eigener Aufgabe.",
+    sections: [
+      {
+        type: "text",
+        heading: "Propriozeption ist keine einzelne Sinnesmodalität, sondern drei",
+        text: "Propriozeption bezeichnet das Bewusstsein für Haltung und Bewegung der Körperteile im Raum — konkret aufgeteilt in drei Teilsinne: den Stellungssinn (Winkelstellung der Gelenke), den Bewegungssinn (Richtungsänderung und Geschwindigkeit einer Gelenkbewegung) und den Kraftsinn (Einschätzung des für eine Bewegung nötigen Kraftaufwands). Die Messgenauigkeit dieses propriozeptiven Systems ist erstaunlich hoch: Nach Auswertung aller Informationen lässt sich die Gelenkstellung distaler Extremitätengelenke auf etwa 2° genau bewusst machen.",
+      },
+      {
+        type: "text",
+        heading: "Muskelspindel: misst Länge, meldet über die schnelle Ia-Faser",
+        text: "Muskelspindeln liegen längs zum Faserverlauf im Muskel und bestehen aus modifizierten, bindegewebig ummantelten Muskelfasern (intrafusale Fasern) mit einer sich mittig darumschlingenden Ia-Nervenfaser (anulospirale Endigung). Sie messen die Länge — und damit indirekt den Spannungszustand — der Muskelfasern: Wird der Muskel gedehnt, werden die Spindeln mitgedehnt und lösen ein Aktionspotential aus, das über die schnellleitende Ia-Faser sowohl an übergeordnete Zentren als auch direkt monosynaptisch zurück zum selben Muskel geleitet wird und dort eine Kontraktion auslöst — die Grundlage des Muskeldehnreflexes und der Haltereflexe. Die Spindeldichte schwankt stark je nach Muskelgröße und -funktion (unter 1 bis über 100 Spindeln pro Gramm Muskelgewebe).",
+      },
+      {
+        type: "text",
+        heading: "Golgi-Sehnenorgan: misst Spannung, wirkt hemmend statt aktivierend",
+        text: "Golgi-Sehnenorgane sitzen am Muskel-Sehnen-Übergang und messen über afferente Ib-Fasern die Spannung der Sehne — und damit indirekt die des zugehörigen Muskels. Der entscheidende Unterschied zur Muskelspindel: Ihre Reizschwelle ist höher, und ihre Erregung löst einen hemmenden statt aktivierenden Impuls aus, um die muskuläre Kraftentwicklung innerhalb physiologischer Grenzen zu halten und eine Sehnenruptur zu verhindern. Weil Golgi-Sehnenorgane die Spannung und Muskelspindeln die Länge messen, werden beide Rezeptortypen je nach Kontraktionsart (isotonisch, isometrisch, konzentrisch) unterschiedlich stark erregt — ein Muskel „weiß“ über diese beiden gegenläufig arbeitenden Systeme gleichzeitig, wie lang er ist und wie stark er zieht.",
+      },
+      {
+        type: "table",
+        heading: "Das propriozeptive System im Überblick",
+        columns: ["Rezeptor", "Was er misst", "Afferenz", "Besonderheit"],
+        rows: [
+          ["Muskelspindel", "Länge der Muskelfaser (Dehnung)", "Ia-Faser (schnell)", "löst direkt monosynaptisch eine Kontraktion aus"],
+          ["Golgi-Sehnenorgan", "Spannung der Sehne/des Muskels", "Ib-Faser", "wirkt hemmend, schützt vor Sehnenruptur"],
+          ["Vater-Pacini-Körperchen", "Druck (Subkutis, Muskulatur, Gelenknähe)", "dünne, markhaltige Faser", "kein echter Propriozeptor, aber Teil des propriozeptiven Systems"],
+          ["Golgi-Mazzoni-Körperchen", "Druck (Haut)", "dünne δ-Faser", "wie Vater-Pacini ein Mechanorezeptor, kein echter Propriozeptor"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum auch die Haut zur Propriozeption beiträgt",
+        text: "Vater-Pacini- und Golgi-Mazzoni-Körperchen sind streng genommen Mechanorezeptoren der Haut und keine echten Propriozeptoren, liefern aber als Teil des propriozeptiven Gesamtsystems wichtige Zusatzinformation über die Lage des Körpers zur Umgebung — insbesondere über das Druckempfinden beim Bodenkontakt, das etwa bei der Aufrichtreaktion aus der Seitenlage eine Rolle spielt. Auch in der Gelenkkapsel selbst gibt es Mechanorezeptoren; nach Anästhesieversuchen spielen sie für die Propriozeption aber nur eine untergeordnete Rolle — die eigentliche propriozeptive Hauptarbeit leisten Muskelspindeln und Golgi-Sehnenorgane. (Die vier klinisch bedeutsamen Mechanorezeptortypen speziell der Gelenkkapsel selbst, mit ihrer jeweiligen Zuordnung zu Arthritis bzw. Arthrose, sind Gegenstand des bestehenden, eigenständigen Eintrags dazu.)",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./Baatz, G., „Physiologische Grundlagen — Nervensystem“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 1, Abschnitt „Propriozeption“ (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189972). Die drei propriozeptiven Teilsinne (Stellungs-/Bewegungs-/Kraftsinn), die 2°-Messgenauigkeit, die Funktionsweise von Muskelspindel (Ia, aktivierend) und Golgi-Sehnenorgan (Ib, hemmend) sowie die Einordnung von Vater-Pacini- und Golgi-Mazzoni-Körperchen als Mechanorezeptoren statt echter Propriozeptoren sind im Original so beschrieben. Ergänzt gezielt den bestehenden Eintrag `gelenkkapsel-vier-mechanorezeptortypen` (Hohmann, Kap. 5.2.3), der die vier gelenkkapselspezifischen Mechanorezeptortypen und ihre Arthritis-/Arthrose-Zuordnung abdeckt, sowie die verstreuten Einzelerwähnungen von Muskelspindeln/Golgi-Sehnenorganen in mehreren Anatomie- und Muskelfunktions-Einträgen (z. B. Hárrer Kap. 13, 16) — bewusst nicht dupliziert, sondern erstmals als strukturiertes propriozeptives Gesamtsystem zusammengeführt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "monosynaptische-polysynaptische-reflexe-sherrington-gesetze",
+    category: "UNTERSUCHUNG",
+    title: "Eigen- und Fremdreflexe: warum manche Reflexe hemmen statt zu verstärken",
+    teaser:
+      "Nicht jeder Reflex funktioniert nach demselben Muster — und die Unterscheidung entscheidet darüber, ob ein beidseits symmetrisch verstärkter Reflexbefund normal oder ein Warnsignal ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eigenreflexe: monosynaptisch, ein Organ, eine Umschaltung",
+        text: "Monosynaptische Reflexe schalten die Afferenz nur ein einziges Mal im Rückenmark auf ein α-Motoneuron um. Sie sind Eigenreflexe — Rezeptor und Effektor liegen im selben Organ. Der Prototyp ist der Muskeldehnreflex (myostatischer Reflex): Dehnung der Muskelspindel (z. B. durch die Schwerkraft in der Haltemuskulatur im Stand) löst über das Vorderhorn-Motoneuron eine Kontraktion desselben Muskels aus und stellt so die ursprüngliche Faserlänge wieder her — muskeltonusregulierend und Grundlage der Haltereflexe. Die bekannten klinischen Sehnenreflexe (Patellar-, Trizeps-, Extensor-carpi-radialis-, Achillessehnen-, Tibialis-cranialis-Reflex) sind alle Eigenreflexe dieser Art — ergänzend zur reinen Auslösetechnik dieser Reflexe (siehe den bestehenden Eintrag dazu) erklärt dieser Mechanismus, warum sie überhaupt so zuverlässig segmentspezifisch sind.",
+      },
+      {
+        type: "text",
+        heading: "Fremdreflexe: polysynaptisch, verstärkbar, ausbreitungsfähig",
+        text: "Die meisten Reflexe sind dagegen polysynaptisch und verlaufen über mehrere hintereinandergeschaltete Neurone — meist als Fremdreflexe, bei denen Rezeptor und Effektor in unterschiedlichen Organen liegen. Beispiel ist der Flexorreflex: Eine schmerzhafte Hautreizung im Zwischenzehenbereich führt reflektorisch zum Wegziehen der Gliedmaße. Nach Sherrington zeigen solche Fremdreflexe drei besondere Eigenschaften: Summation (unterschwellige Reize summieren sich zentral zu einem überschwelligen Reiz), Irradiation (bei steigender Reizintensität breitet sich der Reflex auch auf unbeteiligte Muskelgruppen aus) und Sensitivierung (wiederholte schmerzhafte Reize verkürzen die Reflexzeit, senken die Reflexschwelle und vergrößern das Ausbreitungsgebiet — Schmerzrezeptoren adaptieren anders als andere Rezeptoren nicht).",
+      },
+      {
+        type: "text",
+        heading: "Physiologisch gekoppelt statt Zufall: reziproke Innervation und Gegenseiten-Tonus",
+        text: "Reflexe unterliegen auch hemmenden Kopplungen, die eine koordinierte Bewegung erst ermöglichen. Agonist und Antagonist (Beuger und Strecker) sind reziprok innerviert: Wird der Beuger aktiviert, hemmt eine Kollaterale gleichzeitig über ein Hemmungsneuron den Antagonisten, damit die Beugung vollständig ablaufen kann. Ebenso besteht eine reziproke Verschaltung zwischen beiden Hintergliedmaßen: Wird auf einer Seite der Flexorreflex ausgelöst, steigt gleichzeitig der Tonus der Extensoren der Gegenseite — physiologische Grundlage der Gewichtsverlagerung beim Anheben einer Gliedmaße. Bei stärkerer Reizeinwirkung kann sich der Reflex zusätzlich diagonal auf die gegenüberliegende Vordergliedmaße ausbreiten (diagonaler Streckreflex).",
+      },
+      {
+        type: "text",
+        heading: "Warum diese Unterscheidung eine Verwechslungsfalle entschärft",
+        text: "Der physiologische, durch Reizausbreitung entstehende Extensoren-Tonusanstieg der Gegenseite darf nicht mit dem gekreuzten Streckreflex verwechselt werden — einem pathologischen Reflex, der erst bei chronischer Rückenmarksläsion auftritt. Beide sehen im Ansatz ähnlich aus (Tonuserhöhung der kontralateralen Extensoren bei Reizung der einen Seite), haben aber eine völlig unterschiedliche klinische Bedeutung: Der eine ist ein normaler Bestandteil des Gangbilds, der andere ein Hinweis auf eine schwere, chronische Rückenmarksschädigung. Wer die zugrunde liegende Reflexphysiologie nicht kennt, läuft Gefahr, den physiologischen Befund fälschlich als pathologisches Warnzeichen zu werten — oder umgekehrt.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Differentialdiagnostik unvollständig", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./Baatz, G., „Physiologische Grundlagen — Nervensystem“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 1, Abschnitt „Reflexe“ (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189972). Die Klassifikation in mono-/polysynaptische Reflexe bzw. Eigen-/Fremdreflexe, die Sherrington-Gesetze (Summation, Irradiation, Sensitivierung), die reziproke Innervation von Agonist/Antagonist, der physiologische Extensoren-Tonusanstieg der Gegenseite, der diagonale Streckreflex sowie die explizite Abgrenzung zum pathologischen gekreuzten Streckreflex bei chronischer Rückenmarksläsion sind im Original so beschrieben. Ergänzt gezielt den bestehenden Eintrag `spinale-reflexe-hund-nerv-segment-technik` (Baumgartner/Wittek/Khol, Kap. 7.8) sowie `spinale-reflexe-hund`, die beide Auslösetechnik und Segmentzuordnung einzelner benannter Reflexe abdecken, aber nicht deren physiologische Klassifikation und Verschaltungsgesetze — bewusst nicht dupliziert, sondern um die Mechanismus-Ebene ergänzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "muskeltonus-gamma-loop-halte-stellreflexe",
+    category: "BIOMECHANIK",
+    title: "Muskeltonus-Regulation: warum Angst die Grundspannung erhöht",
+    teaser:
+      "Ein ängstliches Tier hat objektiv einen anderen Muskeltonus als ein entspanntes — ein physiologischer Mechanismus, der bei der Untersuchung mitbedacht werden muss, bevor ein Tonusbefund als pathologisch gewertet wird.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ruhetonus ist nie wirklich null",
+        text: "Auch ein vollständig entspannter Muskel behält eine gleichmäßige Grundspannung, den Ruhetonus, mit einer Erregungsfrequenz von etwa 5 Aktionspotentialen pro Sekunde. Dieser Ruhetonus bewirkt eine leichte Vordehnung der Muskulatur, die wiederum die Kraftentwicklung bei einer nachfolgenden Kontraktion beeinflusst — der Muskel ist also physiologisch nie vollständig „aus“, sondern ständig reflektorisch in Bereitschaft gehalten.",
+      },
+      {
+        type: "text",
+        heading: "Der γ-Loop: wie psychische Zustände den Tonus objektiv verändern",
+        text: "Neben der direkten Dehnung der Muskelspindel durch die Arbeitsmuskulatur (extrafusal) gibt es einen zweiten, zentral gesteuerten Weg, den Tonus zu erhöhen: über γ-Motoneurone, die ebenso wie die α-Motoneurone im Vorderhorn liegen, aber von übergeordneten Zentren — insbesondere der Formatio reticularis — gesteuert werden. γ-Motoneurone spannen die kontraktilen Enden der Muskelspindel selbst an, senken dadurch deren Reizschwelle und erhöhen so indirekt, aber messbar den Tonus des Arbeitsmuskels. Psychische Zustände wie Angst aktivieren diesen γ-Loop und erzeugen einen erhöhten Bereitschaftstonus als Vorbereitung auf eine Abwehr- oder Fluchtbewegung — ein objektiv veränderter, nicht nur subjektiv „angespannt wirkender“ Muskeltonus. Für die Untersuchung folgt daraus: Ein bei einem ängstlichen oder gestressten Tier erhobener Tonusbefund kann durch diesen physiologischen Mechanismus verfälscht sein, ohne dass eine strukturelle Ursache vorliegt.",
+      },
+      {
+        type: "text",
+        heading: "Haltereflexe und Stellreflexe: zwei verschiedene Aufgaben",
+        text: "Haltereflexe korrigieren fortlaufend die Tonusverteilung der Muskulatur — ausgelöst durch Meldungen aus Nackenmuskulatur und Labyrinth — und sichern damit die natürliche Körperhaltung, insbesondere in der Haltemuskulatur (z. B. lange Rückenstrecker, M. quadriceps). Stellreflexe dagegen stellen bei einer abnormen Lageveränderung des Körpers die normale Haltung aktiv wieder her. Beide lassen sich weiter unterteilen: Statische Reflexe halten die Gliedmaßen- und Körperhaltung in Ruhelage aufrecht, statokinetische Reflexe passen die Gliedmaßenposition fortlaufend an eine Lageänderung während der Bewegung an.",
+      },
+      {
+        type: "text",
+        heading: "Die Aufrichtreaktion als Kettenreflex",
+        text: "Die Aufrichtreaktion eines in Seitenlage gebrachten Tieres läuft als feste Reihenfolge ab: Zuerst wird der Kopf — ausgelöst durch Labyrinth-Efferenzen — in die Normalposition gedreht, diese Kopf-/Halsdrehung löst wiederum die Stellreaktionen der Extremitäten aus, während gleichzeitig die Druckrezeptoren der bodenaufliegenden Körperseite den Reflex zusätzlich absichern. Halte- und Stellreflexe unterliegen dem Hirnstamm — insbesondere vestibulo- und rubrospinalen Efferenzen — unter zusätzlicher Kontrolle durch das Kleinhirn. Diese Kettenlogik (zuerst Kopf, dann Hals, dann Extremitäten) liefert die physiologische Erklärung dafür, warum die bereits an anderer Stelle beschriebene klinische Aufrichtreaktions-Prüfung so aussagekräftig ist: Ein Ausbleiben oder eine Störung an einer bestimmten Stelle dieser Kette lässt sich auf die jeweils zuständige Struktur zurückführen.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./Baatz, G., „Physiologische Grundlagen — Nervensystem“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 1, Abschnitte „Muskeltonus“ und „Halte- und Stellreflexe“ (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189972). Der Ruhetonus (ca. 5 AP/s), der γ-Loop-Mechanismus mit der ausdrücklichen Nennung von Angst als Tonus-erhöhendem psychischen Einfluss, die Unterscheidung Haltereflexe/Stellreflexe bzw. statische/statokinetische Reflexe sowie die Ablaufkette der Aufrichtreaktion (Kopf → Hals → Extremitäten, vestibulo-/rubrospinal, Kleinhirn-Kontrolle) sind im Original so beschrieben. Ergänzt gezielt den bestehenden klinischen Test-Eintrag zur Aufrichtreaktion (Koch/Fischer, Kap. 7.6) um die zugrunde liegende Physiologie, sowie den Hohmann-Eintrag zu Schwerpunkt/Unterstützungsfläche, der Stellreaktionen und Haltereflexe nur beiläufig erwähnt — bewusst nicht dupliziert, sondern um Mechanismus und Praxisimplikation (Angst als Tonus-Störfaktor bei der Untersuchung) ergänzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

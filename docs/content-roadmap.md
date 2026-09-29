@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 238 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 67
-  Untersuchung, 87 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 241 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
+  Untersuchung, 87 Pathologie, 65 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -297,8 +297,18 @@ kein Überblick verloren geht.
   (UNTERSUCHUNG), sowie periphere/zentrale Sensibilisierung als
   Mechanismus der Chronifizierung samt klinischer Schmerzformen-
   Terminologie (PATHOLOGIE) — Details siehe PATHOLOGIE/GRUNDLAGEN-
-  Alexander-Abschnitt unten. Fünf weitere Kapitel-Dateien dieses Buches
-  („Physiologische Grundlagen", „Physiotechnik", „Indikationen",
+  Alexander-Abschnitt unten. Danach „Physiologische Grundlagen" (C.-S.
+  Alexander/G. Baatz) ebenso vollständig extrahiert (84.375 Zeichen, keine
+  Kappung): 3 weitere neue Einträge aus dem Nervensystem-Abschnitt —
+  Propriozeption als Zusammenspiel arbeitsteiliger Rezeptortypen
+  (Muskelspindel/Golgi-Sehnenorgan/Vater-Pacini-Körperchen, BIOMECHANIK),
+  die physiologische Klassifikation Eigen-/Fremdreflex mit den
+  Sherrington-Gesetzen (UNTERSUCHUNG) sowie der γ-Loop-Mechanismus der
+  Muskeltonus-Regulation mit Angst als Tonus-Störfaktor (BIOMECHANIK). Der
+  Muskulatur- und der Gelenke-Abschnitt desselben Kapitels wurden bewusst
+  nicht in eigene Einträge umgesetzt (Doppelarbeit zu bereits vorhandenen
+  Hohmann-/Mai-/Hárrer-Inhalten ohne neue Fakten). Vier weitere
+  Kapitel-Dateien dieses Buches („Physiotechnik", „Indikationen",
   „Krankengymnastik", „Massage") stehen noch aus.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
@@ -580,9 +590,38 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       Praxisbezug der Wissensbibliothek zu tief, ohne fachlichen
       Mehrwert für Tierphysiotherapeut:innen in Ausbildung.
 
+#### Kapitel „Physiologische Grundlagen" (C.-S. Alexander/G. Baatz)
+
+- [x] **Vollständig gelesen und ausgewertet (29.09.2026).** Kapitel per
+      `download_file_content` + lokaler `pdftotext`-Extraktion vollständig
+      abgerufen (84.375 Zeichen, keine Kappung; 1.605 Zeilen, Abschnitte
+      Muskulatur/Gelenke/Nervensystem). 3 neue Einträge, alle aus dem
+      Nervensystem-Abschnitt (G. Baatz):
+      `propriozeption-rezeptortypen-muskelspindel-golgi-sehnenorgan`
+      (BIOMECHANIK: die drei propriozeptiven Teilsinne, Muskelspindel [Ia,
+      aktivierend, misst Länge] vs. Golgi-Sehnenorgan [Ib, hemmend, misst
+      Spannung] vs. Vater-Pacini-/Golgi-Mazzoni-Körperchen als
+      Mechanorezeptoren, 2°-Messgenauigkeit — ergänzt gezielt den
+      bestehenden Eintrag `gelenkkapsel-vier-mechanorezeptortypen`, ohne ihn
+      zu duplizieren), `monosynaptische-polysynaptische-reflexe-sherrington-
+      gesetze` (UNTERSUCHUNG: Eigenreflex vs. Fremdreflex, Sherrington-
+      Gesetze Summation/Irradiation/Sensitivierung, reziproke
+      Agonist-/Antagonist-Innervation, physiologischer vs. pathologischer
+      gekreuzter Streckreflex als Verwechslungsfalle — ergänzt die
+      bestehenden Reflex-Technik-Einträge um die physiologische
+      Klassifikationsebene) und `muskeltonus-gamma-loop-halte-stellreflexe`
+      (BIOMECHANIK: Ruhetonus, γ-Loop-Mechanismus mit Angst als
+      Tonus-Störfaktor bei der Untersuchung, Halte-/Stellreflexe,
+      statische/statokinetische Reflexe, Aufrichtreaktion als Kettenreflex
+      — ergänzt den bestehenden klinischen Aufrichtreaktions-Test-Eintrag
+      um die zugrunde liegende Physiologie). Bewusst nicht übernommen: der
+      Muskulatur-Abschnitt (Muskelfasertypen, Kontraktionsmechanismus,
+      Muskelstoffwechsel) — inhaltlich bereits über Hohmann/Mai/Hárrer
+      hinreichend abgedeckt, keine neuen Fakten; der Gelenke-Abschnitt
+      (Gelenkknorpel/-kapsel/Synovia) — Doppelarbeit zu Hohmann Kap. 5.2/5.3.
+
 #### Übrige Kapitel — noch ungelesen
 
-- [ ] „Physiologische Grundlagen" (Drive fileId `1M5x4nlLqbqCvHHo069XbQJS1PwOH61u5`, 1,4 MB)
 - [ ] „Physiotechnik" (Drive fileId `1LkbGrLQ1So4q8-OLjCIb6Ji5GUsGI63k`, 814 KB)
 - [ ] „Indikationen" (Drive fileId `1Zl0_zVMYvVDJ-ZT1I_n3uaK7qvKfZ_mJ`, 5,1 MB)
 - [ ] „Krankengymnastik (Physiotherapie)" (Drive fileId `1hTsuiVQ3E-Hsrh7e4guIOXciqy57crvU`, 1,7 MB)
