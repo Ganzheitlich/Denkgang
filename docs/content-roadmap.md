@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 263 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
-  Untersuchung, 92 Pathologie, 66 Biomechanik, 40 Therapie — genaue
+- Wissensbibliothek: 268 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 69
+  Untersuchung, 94 Pathologie, 68 Biomechanik, 40 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -464,6 +464,46 @@ kein Überblick verloren geht.
   Kapitel (Kap. 13) vollständig ausgewertet — nur Kippfenstersyndrom
   (katzenspezifisch) und Diskushernie/-prolaps (zu stark duplizierend)
   wurden bewusst nicht in eigene Einträge umgesetzt.**
+- **Neue Quelle (29.09.2026): Kasper, Markus/Zohmann, Andreas (Hrsg., unter
+  Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie
+  für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte
+  Auflage 2011, ISBN 978-3-8304-9288-7.** Direkt aus Vanessas Google-Drive-
+  Bibliothek erschlossen (Ordner-ID `1ujBnaEPGqeLZquilC5vXpGSTS0n4Gy_J`, 42
+  PDF-Chunks g.pdf–g(41).pdf); die Bulk-Extraktion von Kap. 2–3 (S. 7–48)
+  wurde an einen Subagenten delegiert, um das Hauptkontextfenster zu schonen
+  — Ergebnis war eine saubere, mit Seitenzahlen markierte Verbatim-Abschrift,
+  die selbst auf Extraktionsunsicherheiten hinwies (siehe unten). Daraus 5
+  neue Einträge: (1) `schmerzgrade-lahmheitsgrade-kasper-zohmann-dreistufig`
+  (UNTERSUCHUNG) — eine dritte, dreistufig-deskriptive Schmerz-/
+  Lahmheitsgrad-Einteilung neben den bestehenden vierstufigen Skalen nach
+  Brunnberg und Mai, mit expliziter Abgrenzung aller drei Systeme
+  voneinander; (2) `segmentalreflektorischer-komplex-dermatom-myotom-
+  sklerotom-viszerotom` (PATHOLOGIE) — das bisher in Denkgang fehlende
+  Metamerie-Konzept (Dermatom/Myotom/Sklerotom/Viszerotom über Angio-/
+  Neurotom verschaltet), Head'sche Zonen, Kibler'sche Hautfalte, Junghanns'
+  Bewegungssegment und die anatomische Grundlage des dolor translatus; (3)
+  `gate-control-theorie-deszendierende-schmerzhemmung` (PATHOLOGIE) — die
+  Gate-Control-Theorie (Melzack u. Wall 1965) und die deszendierende
+  Schmerzhemmung als komplementäre Gegenseite zum bestehenden
+  Sensibilisierungs-Eintrag aus Kulpa/Alexander; (4)
+  `schmerzreise-hd-knie-sig-lsue-kaskade` und (5)
+  `schmerzreise-vorderextremitaet-tlue-kompensation-kaskade` (beide
+  BIOMECHANIK) — die im Buch als „Schmerzreise" bezeichnete, sehr detaillierte
+  Kaskade von einer Hüftdysplasie über Kniegelenk, Iliosakralgelenk und
+  Lendenwirbelsäule bis zu den Vordergliedmaßen (inkl. der rassespezifischen
+  Gewichtsverteilungstabelle Tab. 3.2), bewusst als vertiefende Fortsetzung
+  des bestehenden, einfacheren Alexander-Eintrags
+  `gelenkfehlstellung-kaskade-zweigelenkige-muskeln-hueft-knie` angelegt statt
+  diesen zu duplizieren. Die vom Subagenten selbst geflaggten
+  Extraktionsunsicherheiten (dichte Zweispaltigkeit auf S. 32–44 mit
+  Restunsicherheit in der lokalen Absatzreihenfolge; ein möglicherweise
+  doppelt extrahierter Absatz am Übergang 3.12.3/3.12.4) wurden in den
+  sourceStatus-Feldern der betroffenen Einträge offen dokumentiert statt
+  stillschweigend geglättet. Kap. 2 (Schmerz – was ist das?) und Kap. 3
+  (Schmerzsymptome) sind damit inhaltlich vollständig gesichtet; weitere
+  Kapitel (4 Untersuchungsgang, 5 Methoden der Schmerztherapie, 7
+  Schmerztherapie bei bestimmten Indikationen) stehen noch aus — siehe
+  PATHOLOGIE-/BIOMECHANIK-Backlog unten.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -509,6 +549,86 @@ kein Überblick verloren geht.
 Checkboxen = grobe Segmentierung, kein 1:1-Verhältnis zu späteren Einträgen (ein
 Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erledigt,
 `[~]` teilweise/in Arbeit.
+
+### PATHOLOGIE/BIOMECHANIK/UNTERSUCHUNG — Kasper/Zohmann, Ganzheitliche Schmerztherapie für Hund und Katze (ISBN 978-3-8304-9288-7, Sonntag/Thieme, 2. Aufl. 2011)
+
+Quelle liegt in Vanessas Google-Drive-Bibliothek (Ordner-ID
+`1ujBnaEPGqeLZquilC5vXpGSTS0n4Gy_J`, 42 PDF-Chunks `g.pdf`–`g(41).pdf`,
+deutlich kleiner/unproblematischer als bei den meisten anderen Büchern
+dieser Session). Vollständiges Inhaltsverzeichnis wurde erfasst. Kap. 2–3
+wurden per delegiertem Subagenten als Verbatim-Text extrahiert
+(Scratchpad-Datei `kap2-3-verbatim.txt`, nicht Teil des Repos — bei Bedarf
+erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
+
+- [x] Kap. 2 „Schmerz – was ist das?" (S. 7–14): akuter/chronischer Schmerz,
+  Nozizeption (Transduktion/Transmission/Modulation/Projektion/Perzeption),
+  periphere/zentrale Sensibilisierung inkl. Hyperpathie als dritter
+  Kategorie neben Hyperalgesie/Allodynie, Gate-Control-Theorie,
+  deszendierende Schmerzhemmung, Chronifizierung/Schmerzgedächtnis — daraus
+  `gate-control-theorie-deszendierende-schmerzhemmung`. Die übrigen
+  Sensibilisierungs-Inhalte decken sich weitgehend mit dem bestehenden
+  Kulpa/Alexander-Eintrag `periphere-zentrale-sensibilisierung-
+  chronifizierung-schmerz` und wurden bewusst nicht dupliziert; Hyperpathie
+  als dritte Kategorie könnte bei Gelegenheit noch als kleine Ergänzung in
+  jenen bestehenden Eintrag eingearbeitet werden (bisher nicht gemacht).
+- [x] Kap. 3.1–3.4 (Schmerzäußerungen, Missempfindung/Parästhesie,
+  Schmerzgrade, Schmerzkrankheit, S. 15–20): daraus
+  `schmerzgrade-lahmheitsgrade-kasper-zohmann-dreistufig`. Tab. 3.1
+  (regionaler Schmerzsymptom-Katalog, als 3-spaltige Tabelle bei der
+  Extraktion beschädigt) sowie die drei offenen Praxisbeobachtungen der
+  Autoren (Linksseiten-Prävalenz Vordergliedmaßenlahmheit, felines
+  Lebersegment-Muster, Kothbauer'sche Druckpunkt-Normalisierung) bewusst
+  nicht in eigene Einträge umgesetzt — zu anekdotisch/spekulativ für einen
+  eigenständigen Faktenbaustein, ggf. als klar gekennzeichnete
+  Experten-Hypothese in einem künftigen Untersuchungs-Eintrag verwertbar.
+- [x] Kap. 3.5–3.5.2 (Segmentalreflektorik, S. 20–25): daraus
+  `segmentalreflektorischer-komplex-dermatom-myotom-sklerotom-viszerotom`.
+- [ ] Kap. 3.6–3.11 (Schmerzspirale, Psychosomatik/Somatopsychik,
+  besitzerbezogene Schmerzen, Fehlregulation, Schmerz als Leitsymptom bzw.
+  als Heilungshindernis, S. 25–32): gelesen, aber noch nicht in Einträge
+  umgesetzt. Enthält u. a. den Circulus-vitiosus-Mechanismus der
+  Schmerzspirale (pseudoradikuläre Reizung durch progressive
+  Muskelrekrutierung) und die dreidimensionale Schmerzerlebnis-Theorie nach
+  Melzack/Wall (sensorisch-diskriminativ/affektiv-motivational/kognitiv-
+  evaluativ) — fachlich solide, aber mit anekdotischen/spekulativen
+  Anteilen durchsetzt (Einzelfall-Beispiele, „persönliche Mitteilung"-
+  Zitate, TCM-Analogien); bei Umsetzung sorgfältig zwischen belastbarem
+  Mechanismus und Autoren-Anekdote trennen.
+- [x] Kap. 3.12.1–3.12.2.2 (Die Schmerzreise — Gelenkbereich, Kniegelenk,
+  Schonhaltung, sekundäre/tertiäre Folgen, S. 32–44): daraus
+  `schmerzreise-hd-knie-sig-lsue-kaskade` und
+  `schmerzreise-vorderextremitaet-tlue-kompensation-kaskade`. **Wichtig:**
+  Diese Seiten weisen laut Subagenten-Extraktion eine dichte
+  Zweispaltigkeit auf, die die lokale Absatzreihenfolge unsicher macht
+  (Einzelsätze bleiben wortgetreu). Vor einer wörtlichen Zitation aus
+  diesem Abschnitt das Original-PDF visuell gegenprüfen. Die
+  Ellbogendysplasie-als-sekundäre-Folge-Hypothese (S. 43) wurde in
+  `schmerzreise-vorderextremitaet-tlue-kompensation-kaskade` ausdrücklich
+  als von den Autoren selbst benannte offene Hypothese gekennzeichnet, nicht
+  als Fakt übernommen.
+- [ ] Kap. 3.12.3–3.12.5 (Keine klinisch inapparente HD,
+  Schmerzvermeidungsstrategie bei angeborenen Gelenkerkrankungen,
+  Schmerz-/Missempfindungsstrategie im Alter, S. 45–48): gelesen, noch
+  nicht umgesetzt. Enthält die Engrammbildungs-Erklärung für unauffällige
+  Jungtiere mit HD (frühzeitige Schmerzvermeidungsstrategie verhindert
+  physiologische Bewegungsmuster-Prägung), die 80/20-Aufwand-Nutzen-Faustregel
+  für die Therapieplanung sowie geriatrische Besonderheiten (Restlebenszeit
+  als Prognosefaktor, Kurbehandlung statt Dauertherapie). Hinweis: Am
+  Seitenübergang 3.12.3/3.12.4 (S. 46–47) extrahierte der Subagent einen
+  Absatz zweifach (vermutlich Spaltenreihenfolge-Artefakt) — vor Verwendung
+  im Original-PDF gegenprüfen.
+- [ ] Kap. 4 „Untersuchungsgang" (S. 49 ff.) — noch nicht gesichtet.
+- [ ] Kap. 5 „Methoden der Schmerztherapie" — noch nicht gesichtet.
+  Medikamentendosierungen bewusst außerhalb des Extraktionsziels (etablierte
+  Session-Konvention); alternative Modalitäten (Homöopathie, Aromatherapie,
+  Musiktherapie, falls enthalten) mit Vorsicht auf Passung zur
+  evidenzbasierten Physiotherapie-Ausrichtung von Denkgang prüfen, bevor
+  daraus Einträge entstehen.
+- [ ] Kap. 7 „Schmerztherapie bei bestimmten Indikationen" — noch nicht
+  gesichtet.
+- [ ] Restliche Kapitel (6, weitere) laut Inhaltsverzeichnis noch nicht
+  einzeln geprüft — Inhaltsverzeichnis bei Bedarf erneut aus Drive-Ordner
+  `1ujBnaEPGqeLZquilC5vXpGSTS0n4Gy_J` abrufen.
 
 ### PATHOLOGIE — VetCenter, Hundekrankheiten kompakt, „Erkrankungen des Bewegungsapparates" (121 S., vetcenter.thieme.de)
 

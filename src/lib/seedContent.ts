@@ -12102,6 +12102,244 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["huefte", "quadriceps"],
   },
+  {
+    id: "schmerzgrade-lahmheitsgrade-kasper-zohmann-dreistufig",
+    category: "UNTERSUCHUNG",
+    title: "Drei statt vier Stufen: Schmerz- und Lahmheitsgrade nach Kasper/Zohmann",
+    teaser:
+      "Nicht jede Einteilung zählt bis vier: Kasper/Zohmann unterscheiden Schmerz- und Lahmheitsgrad jeweils dreistufig — mit eigenen, sehr konkreten klinischen Kriterien statt bloßer Zahlen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eine dritte Einteilung neben Brunnberg und Mai",
+        text: "Neben der an anderer Stelle dokumentierten vierstufigen Lahmheitsgrad-Skala nach Brunnberg (Grad 1–4, zitiert nach Koch/Fischer) und der ebenfalls vierstufigen, aber inhaltlich eigenständigen Skala nach Mai beschreiben Kasper/Zohmann eine dritte, deskriptive Einteilung — dreistufig statt vierstufig, und nicht nur für die Lahmheit, sondern getrennt auch für den allgemeinen Schmerzzustand des Patienten. Wer beim Dokumentieren nur „Grad 2“ notiert, ohne die verwendete Skala zu nennen, riskiert eine Verwechslung zwischen drei nicht austauschbaren Systemen.",
+      },
+      {
+        type: "table",
+        heading: "Schmerzgrade nach Kasper/Zohmann (Quantifizierung)",
+        columns: ["Grad", "Kriterien"],
+        rows: [
+          [
+            "geringgradig",
+            "ungestörte Lebensäußerungen bezogen auf Rasse und Alter; keine Herz-Kreislauf-Symptomatik; normale bis leicht forcierte Atmung; Schmerzreaktion nur durch Palpation/Funktionsprüfung provozierbar; beginnende Ausgleichsbewegung (z. B. LSÜ-Twist) bzw. geringgradige Lahmheit",
+          ],
+          [
+            "mittelgradig",
+            "verminderte Aktivität, vermehrtes Liegen, beginnende Bewegungsunlust; vermindertes Komfortverhalten (Putzen, Wälzen); Tachykardie/Hypertension; weitgestellte Pupillen; blasse Schleimhäute; höhergradige Entlastungshaltung bzw. mittelgradige Lahmheit; Belecken/Benagen schmerzhafter Stellen; Schmerzäußerung selbständig oder mit geringem Aufwand provozierbar",
+          ],
+          [
+            "hochgradig",
+            "Passivität bis Somnolenz, Seitenlage; forcierte oder oberflächliche Atmung, exspiratorisches Stöhnen; Tachykardie mit Hyper- oder Hypotension; weitgestellte Pupillen, blasse Schleimhäute; Sistieren der Darmaktivität, ungeregelter Kot-/Harnabsatz; aktive Schmerzäußerung schon bei Hautberührung; Hyperthermie der Akren (später Hypothermie); Lahmheit Grad 4 bzw. gekrümmter Rücken mit hochgradiger Bauchdeckenspannung; Belecken/Benagen bis zur Selbstverstümmelung",
+          ],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Lahmheitsgrade nach Kasper/Zohmann (eigenständig, nicht identisch mit Brunnberg oder Mai)",
+        columns: ["Grad", "Kriterien"],
+        rows: [
+          [
+            "geringgradig",
+            "beginnendes Kopfnicken (bessere Seite hinunter, schlechtere Seite hinauf); beginnende Asymmetrie von hinten oder vorn; Extremität wird geringgradig abgestellt, kontralaterale Extremität geringgradig vermehrt unter den Schwerpunkt geführt; beginnende Schrittvermeidung",
+          ],
+          [
+            "mittelgradig",
+            "Beginn des diagonalen Gehens und/oder Trabens; deutliche akzessorische Kopfbewegungen; Verkürzung der Belastungsphase bis tippende Fußung; schmerzhafte Extremität wird nur kurz oder gar nicht mehr in die senkrechte Stützphase gebracht; deutliche Asymmetrie von hinten und vorn; Schrittvermeidung; einsetzender Passgang; gebundener Gang; Sohlenstreifen",
+          ],
+          [
+            "hochgradig",
+            "verstärktes diagonales Laufen; deutliche akzessorische Kopfbewegungen schon im Schritt (Kopf wird auf der schlechteren Seite nach oben gerissen); tippende bis aufgehobene Fußung, dreibeiniges Gehen; sichtbare Zusatzentlastung der vorderen oder hinteren Körperpartie",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum diese Kriterien mehr hergeben als eine reine Zahl",
+        text: "Anders als die vierstufigen numerischen Skalen verknüpft die dreistufige Schmerzgrad-Einteilung ausdrücklich internistisch-vegetative Zeichen (Pupillenweite, Schleimhautfarbe, Darmaktivität, Akren-Temperatur, Bauchdeckenspannung) mit dem orthopädischen Bild. Ein Patient kann orthopädisch nur geringgradig lahmen und trotzdem — etwa bei einer schmerzhaften Pankreatitis — vegetativ bereits im hochgradigen Bereich liegen. Die getrennte Erhebung von Schmerzgrad und Lahmheitsgrad verhindert, dass ein unauffälliges Gangbild fälschlich mit „kein relevanter Schmerz“ gleichgesetzt wird.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 3.3 (Schmerzgrade), S. 17–20 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(5)–g(18).pdf). Die dreistufige Schmerzgrad-Tabelle (3.3.1) und die dreistufige Lahmheitsgrad-Tabelle (3.3.2) sind im Original so beschrieben. Ausdrücklich abgegrenzt von den bestehenden Einträgen zur vierstufigen Lahmheitsgrad-Skala nach Brunnberg (zitiert nach Koch/Fischer, Kap. 4) und nach Mai (Kap. 5.1.2) — alle drei Systeme sind eigenständig und nicht ineinander überführbar; dieser Eintrag ergänzt sie um eine dritte, im Kern deskriptive statt numerische Variante und um die zusätzliche, in den anderen beiden Quellen nicht enthaltene separate Schmerzgrad-Skala.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "segmentalreflektorischer-komplex-dermatom-myotom-sklerotom-viszerotom",
+    category: "PATHOLOGIE",
+    title: "Der segmentalreflektorische Komplex: warum ein Organproblem am Rücken tastbar wird",
+    teaser:
+      "Haut, Muskel, Skelett und das zugehörige innere Organ eines Körpersegments sind so eng neuronal verschaltet, dass keiner dieser Anteile isoliert gestört sein kann — die anatomische Grundlage für tastbare Rückenveränderungen bei rein internistischen Erkrankungen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Metamerie: der Körper als Kette gleichartiger Segmente",
+        text: "Der Rumpf von Säugetieren ist nach dem Prinzip der Metamerie gegliedert — in hintereinanderliegende, gleichartige Abschnitte (Segmente). Jedes dieser Segmente setzt sich von außen nach innen aus vier Anteilen zusammen: Hautabschnitt (Dermatom), Muskulatur (Myotom), Knochenabschnitt (Sklerotom) und Eingeweideabschnitt (Viszerotom). Innerhalb eines Segments stehen diese vier Anteile über zwei weitere segmentale Strukturen in Verbindung: das Angiotom (segmentale Gefäße) und das Neurotom (segmentale afferente und efferente Nerven samt sympathischem Plexus perivascularis). Diese Verschaltung wird als segmentalreflektorischer Komplex bezeichnet (n. Bergsmann u. Eder 1977) — ein phylogenetisch altes Informationssystem mit einer zentralen Konsequenz: Kein Segmentanteil kann isoliert gestört sein, ohne dass die übrigen Anteile desselben Metamers mitreagieren.",
+      },
+      {
+        type: "table",
+        heading: "Die vier Segmentanteile im Überblick",
+        columns: ["Anteil", "Struktur"],
+        rows: [
+          ["Dermatom", "Hautabschnitt des Segments"],
+          ["Myotom", "Muskulatur des Segments"],
+          ["Sklerotom", "Knochenabschnitt des Segments"],
+          ["Viszerotom", "Eingeweideabschnitt des Segments"],
+          ["Angiotom / Neurotom", "segmentale Gefäße bzw. segmentale afferente/efferente Nerven — verbinden alle vier Anteile untereinander"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Dermatom: von Head'schen Zonen zur Kibler'schen Hautfalte",
+        text: "Ende des 19. Jahrhunderts beschrieb Head beim Menschen stereotyp lokalisierte Hautreaktionen bei Erkrankungen innerer Organe — Farbveränderungen durch Sympathikotonus oder -lyse, Temperaturveränderung, Schweißaustritt, Piloarrektion und Hypersensibilität bis Hyperalgesie (Head'sche Zone). Nährich (1903) untersuchte diese Zonen beim Hund, Kalchschmidt beschrieb sie klinisch beim Rind im Zusammenhang mit der Fremdkörpererkrankung, Schreiber vervollständigte die Dermatom-Kartografie des Rindes. Der Humanorthopäde Max Kibler entwickelte daraus Mitte des 20. Jahrhunderts, ausgehend von der Bindegewebsmassage, eine Untersuchungsmethode: Über den Turgorstatus der Haut (Kibler'sche Hautfalte) lassen sich Hinweise auf irritierte Segmente gewinnen. Head fand zudem in jeder Hautzone mindestens eine besonders sensible, rasch reagierende Stelle (Head'sche Maximalzone/-punkt, bei Kibler „Maximale Reaktionszone“, MRZ) — diese Punkte stimmen mit der Lage kutaner Akupunkturpunkte bzw. cutaneous trigger points überein (Travell u. Simons 1983).",
+      },
+      {
+        type: "text",
+        heading: "Myotom und Sklerotom: von Hartspann zu Myogelose und Spondylose",
+        text: "Nahezu zeitgleich mit Head beschrieb Mackenzie stereotype Korrelationen zwischen Organstörungen und zugehörigen Muskel- bzw. Skelettabschnitten. Das betroffene Myotom reagiert mit reaktiver Überfazilitierung — einer tetaniformen Spannungsvermehrung, die zu Hartspann führt („défense musculaire“); zusätzlicher Druck löst eine weitere Kontraktion aus (twitch response). Hält der Hartspann an, kann es zu Mikrozerreißungen mit nachfolgender Defektheilung und Kalkeinlagerung kommen — an Muskel-Sehnen-Übergängen als Myotendinose, an periostalen Sehnenansätzen als Insertionstend(in)opathie bezeichnet; im Muskelbauch selbst entsteht als Überlastungszeichen die Myogelose (denaturiertes, wasserreiches, kontraktil funktionsloses Muskelgewebe, vergleichbar dem PSE-Fleisch: pale, soft, exsudative). Bergsmann und Meng beschrieben darüber hinaus Muskelfunktionsketten — funktionell, nicht notwendig über dieselbe Innervation verbundene Muskelgruppen (z. B. von der Zehe bis in die Rückenmuskulatur beim Schritt) —, die sich teils mit den Mackenzie'schen Muskelzonen, teils mit den Meridianverläufen der Akupunktur decken. Ihre Hauptreaktionsstellen heißen myofascial trigger points (Travell u. Simons 1983) und korrelieren mit tendo-muskulären Akupunkturpunkten. Auch die Verbindung zu Skelettabschnitten (Wirbelsäule) geht auf Mackenzie zurück und wurde beim Hund im Zusammenhang mit Spondylosen nachgewiesen (Kasper 1996).",
+      },
+      {
+        type: "text",
+        heading: "Das Bewegungssegment nach Junghanns und der Weg zum übertragenen Schmerz",
+        text: "Die funktionelle Einheit aus zwei benachbarten Wirbeln und allen dazwischenliegenden Strukturen (Discus intervertebralis, Ligg. interspinalia et intertransversaria u. a.) wird als Bewegungssegment nach Junghanns bezeichnet. Störungen innerhalb dieses Segments werden über den N. sinuvertebralis Luschkae (syn. Ramus meningeus n. spinalis) an alle Derma- und Myotome des zugehörigen Metamers weitergeleitet — dafür genügt bereits eine geringe Facettengelenk-Fehlstellung oder ein Muskelhartspann (Mm. multifidi, M. longissimus dorsi), auch traumatisch bedingt, ohne dass es erst einer schweren Läsion wie einer Diskusprotrusion bedarf. Die Beziehung wirkt in beide Richtungen: Menschen mit Depression berichten bevorzugt Rückenschmerzen als somatisches Korrelat, umgekehrt können chronische gastrointestinale oder kardiale Probleme über das Bewegungssegment zu Dorsalgien und — als Versuch des Organismus, über ossäre Zubildung am Lig. longitudinale ventrale Ruhe in das gestörte Segment zu bringen — letztlich zu Spondylosen führen (Kasper 1996). Wird dabei zusätzlich das Neurotom sekundär gereizt, entsteht die Symptomatik des dolor translatus (referred pain), von Brügger (1980) als „pseudoradikuläre Schmerzirradiation“ bezeichnet.",
+      },
+      {
+        type: "text",
+        heading: "Die klinische Konsequenz: ein Tastbefund ist kein Diagnose-Ersatz",
+        text: "Aus dem segmentalreflektorischen Komplex folgt unmittelbar eine wichtige Vorsicht bei der Befundinterpretation: Eine veränderte Hautverschieblichkeit, ein Muskelhartspann oder ein Periostreiz in einem Segment muss nicht auf ein Problem des Bewegungsapparates hinweisen — ebenso gut kann der primäre Störungsträger das zugehörige innere Organ oder eine gestörte Gefäß-/Nervenversorgung sein. Nur die Gesamtheit aller klinisch erhobenen Befunde entscheidet, wo das eigentliche Problem liegt; eine Behandlung wirkt nur dann kausal, wenn die tatsächlich verantwortliche Struktur identifiziert und gezielt behandelt wird — ein rein am Symptomort ansetzendes Vorgehen bleibt sonst wirkungslos oder nur vorübergehend erfolgreich.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Faktenwissen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 3.5–3.5.2 (Segmentalreflektorik), S. 20–25 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(5)–g(18).pdf). Das Metamerie-Prinzip, die vier Segmentanteile samt Angio-/Neurotom, die historischen Zuordnungen (Head, Nährich 1903, Kalchschmidt, Schreiber, Kibler, Mackenzie, Bergsmann u. Meng, Travell u. Simons 1983), das Junghanns'sche Bewegungssegment, der N. sinuvertebralis Luschkae sowie die Brügger'sche (1980) Terminologie der pseudoradikulären Schmerzirradiation sind im Original so beschrieben. Ergänzt gezielt den bestehenden Eintrag `periphere-zentrale-sensibilisierung-chronifizierung-schmerz` (Kulpa/Alexander), der den Begriff „Dolor translatus“ bereits nennt, aber nicht dessen anatomisch-segmentale Grundlage erklärt, sowie die Dermatom-Erwähnungen in den Hárrer-Einträgen zur HWS — bewusst nicht dupliziert, sondern um die zugrunde liegende Mechanismus-Ebene (Metamerie, segmentalreflektorischer Komplex) ergänzt, die bislang in keinem bestehenden Eintrag abgedeckt war.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["discus", "facettengelenke", "rueckenmark"],
+  },
+  {
+    id: "gate-control-theorie-deszendierende-schmerzhemmung",
+    category: "PATHOLOGIE",
+    title: "Wie der Körper Schmerz selbst dämpft: Gate-Control und absteigende Hemmbahnen",
+    teaser:
+      "Dass Reiben einer verletzten Stelle den Schmerz lindert, ist kein Zufall, sondern ein konkreter Rückenmarksmechanismus — und derselbe Mechanismus erklärt, warum lang anhaltender Schmerz irgendwann die eigene Bremse verliert.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die Gate-Control-Theorie: ein Tor auf Rückenmarkebene",
+        text: "Melzack und Wall postulierten 1965 in ihrer Gate-Control-Theorie eine inhibitorische Kontrolle des Schmerzes bereits auf Rückenmarkebene: Dicke, markhaltige Aβ-Fasern hemmen dort die Erregungsübertragung. Erst wenn dünne Aδ- und C-Fasern durch überschwellige Erregung der Nozisensoren aktiviert werden, öffnet sich das „Tor“, und der Schmerzreiz wird weitergeleitet. Dieser Mechanismus erklärt ein alltägliches Phänomen: Mechanisches Reiben einer verletzten Stelle lindert den Schmerz, weil es die Aβ-Mechanorezeptoren erregt und diese eine segmentale Hemmung auslösen. Neben den Aminen Adenosin, Noradrenalin, Dopamin und Gamma-Amino-Buttersäure (GABA) wirken vor allem die endogenen Opioide (Enkephaline, Dynorphin) hemmend auf diese Schmerzübertragung (Handwerker 1999).",
+      },
+      {
+        type: "text",
+        heading: "Warum Massage, Akupunktur und TENS hier ansetzen",
+        text: "Weil die Gate-Control-Hemmung über die Erregung von Berührungs- und Druckrezeptoren (Aβ-Fasern) funktioniert, lässt sie sich therapeutisch gezielt nutzen: Massage, Akupunktur und transkutane elektrische Nervenstimulation (TENS) wirken zu einem wesentlichen Teil über genau diesen segmentalen Hemmmechanismus schmerzlindernd — ohne dass dafür die eigentliche Gewebeschädigung behandelt werden muss.",
+      },
+      {
+        type: "text",
+        heading: "Die zweite Bremse: deszendierende Schmerzhemmung aus dem Gehirn",
+        text: "Zusätzlich zur segmentalen Gate-Control-Hemmung verfügt der Körper über ein vom Gehirn ausgehendes, absteigendes (deszendierendes) Hemmsystem: Supraspinale Efferenzen hemmen über absteigende Axone die synaptische Übertragung direkt im Dorsalhorn des Rückenmarks. Beteiligt sind Noradrenalin, Serotonin, endogene Opioide (Endorphine, Enkephaline), Dopamin und GABA. α2-Adrenozeptor-Agonisten wirken zentral analgetisch, indem sie gezielt dieses noradrenerge Hemmsystem aktivieren. Endogene Opioide sind zudem für die stressinduzierte Hypalgesie verantwortlich: Unmittelbar nach einem schweren Trauma wird die Schmerzempfindung zunächst unterdrückt — ein Mechanismus, der es einem verletzten Tier erlaubt, sich trotz der Verletzung noch fortzubewegen. Auch konkurrierende Schmerzreize können dieses deszendierende Hemmsystem aktivieren, allerdings nur teilweise über endogene Opioide vermittelt.",
+      },
+      {
+        type: "text",
+        heading: "Wenn die Bremse selbst erschöpft ist",
+        text: "Die deszendierende Hemmung ist keine unerschöpfliche Ressource. Hält die Reizung der Nozisensoren lange genug an, kann die Aktivität der absteigenden Hemmbahnen erschöpfen — mit der Folge, dass der Schmerz chronifiziert und seine eigentliche Schutzfunktion verliert. Das ergänzt die an anderer Stelle beschriebene periphere und zentrale Sensibilisierung um die Kehrseite desselben Vorgangs: Chronischer Schmerz entsteht nicht nur, weil die schmerzverstärkenden Mechanismen zunehmen, sondern auch, weil die körpereigene Schmerzbremse selbst nachlässt.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Untersuchung falsch gewählt", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 2.2.1.1 und 2.2.3, S. 11–14 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(5)–g(18).pdf). Die Gate-Control-Theorie (Melzack u. Wall 1965) mit ihrem Aβ-/Aδ-C-Mechanismus, die genannten hemmenden Mediatoren (Handwerker 1999), die deszendierende Schmerzhemmung mit ihren Transmittern, die Rolle der α2-Adrenozeptor-Agonisten, die stressinduzierte Hypalgesie sowie die Merke-Aussage zur Erschöpfung der Hemmbahnen als Chronifizierungsmechanismus sind im Original so beschrieben. Der knappe Gate-Control-Hinweis im bestehenden Tuina-Eintrag wird hier erstmals mechanistisch ausgeführt; bewusst abgegrenzt vom bestehenden Eintrag `periphere-zentrale-sensibilisierung-chronifizierung-schmerz` (Kulpa/Alexander), der die verstärkenden (sensibilisierenden) Mechanismen der Chronifizierung behandelt, während dieser Eintrag die hemmende Gegenseite (Gate-Control, deszendierende Bahnen) ergänzt — nicht dupliziert, sondern komplementär.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "schmerzreise-hd-knie-sig-lsue-kaskade",
+    category: "BIOMECHANIK",
+    title: "Die Schmerzreise: wie eine Hüftdysplasie über das Knie bis zur Bandscheibe wandert",
+    teaser:
+      "Eine Hüftdysplasie bleibt selten an der Hüfte — über eine ganze Kette kompensatorischer Bewegungsmuster verändert sie auch Knie, Kreuzbein und Lendenwirbelsäule, oft Jahre bevor am Hüft-Röntgenbild überhaupt etwas auffällt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wie eine leichte Hüft-Außenrotation das Kniegelenk einseitig überlastet",
+        text: "Eine Hüftgelenkdysplasie (HD) führt bei vielen Hunden zu einer instinktiven Schonhaltung mit leichter Außenrotation des Femurkopfes in der Pfanne (Antetorsionssyndrom nach Schawalder). Klinisch fällt das als „enges“ Gangbild auf: Die Hintergliedmaßen werden näher an die Körpermittellinie geführt, gestützt durch Anspannung der Gesäß- und lateralen Oberschenkelmuskulatur. Dieselbe Außenrotation verschiebt die Druckverteilung im Kniegelenk: Der laterale Gelenkspalt und mit ihm der laterale Meniskus stehen unter dauerhaft erhöhtem Druck, während medialer Kollateralband-Bereich, vorderes Kreuzband und mediale Gelenkkapsel überdehnt werden. Dieser rotationsbedingte Übertragungsweg ist ein eigenständiger, zusätzlicher Mechanismus neben dem bereits an anderer Stelle dokumentierten, über zweigelenkige Oberschenkelmuskeln vermittelten Weg von der Hüfte zum Knie — beide wirken bei derselben Grunderkrankung gleichzeitig.",
+      },
+      {
+        type: "text",
+        heading: "Warum bei asymmetrischer beidseitiger HD nicht immer die schlechtere Seite reißt",
+        text: "Bilaterale HD ist in der Praxis deutlich häufiger als eine rein einseitige Erkrankung, meist jedoch mit unterschiedlichem Schweregrad zwischen beiden Seiten. Der Hund verlagert Gewicht und Bewegungsschwung tendenziell auf die vermeintlich „bessere“ Seite, die dadurch paradoxerweise im Lauf der Zeit eine stärkere Coxarthrose entwickeln kann als die ursprünglich schlechtere Seite — und mit ihr ein höheres Risiko für einen Kreuzbandriss auf genau dieser Seite (Slocum et al. 1983). Für die Praxis folgt daraus: Bei asymmetrischer beidseitiger HD ist die radiologisch „bessere“ Hüfte keineswegs automatisch die klinisch unproblematischere.",
+      },
+      {
+        type: "text",
+        heading: "LSÜ-Twist und SIG-Verblockung: wenn die Wirbelsäule den Hüftschmerz mitträgt",
+        text: "Die anhaltende reaktive Anspannung der Rückenmuskulatur (Mm. longissimi und multifidi, dorsal wie ventral) zur Entlastung der schmerzhaften Hüfte führt über Muskelkontraktur und Myogelosen zu einer horizontalen Ausgleichsbewegung, dem LSÜ-Twist. Dieser Twist wird zunehmend Teil des Bewegungsmusters und verstärkt die Kontraktur seinerseits — bis er zu einer Fehlstellung bzw. Verblockung des Sakroiliakalgelenks (SIG) führt, deren Ausmaß mit dem Schweregrad der Hüfterkrankung korreliert. Für Besitzer wirkt der veränderte Bewegungsablauf oft täuschend elegant, tatsächlich hat das SIG dabei seine physiologische stoßdämpfende Funktion zwischen Becken und Wirbelsäule verloren: Der von der Hintergliedmaße erzeugte Schub wird nun bei jedem Schritt ungedämpft und abrupt auf die Wirbelsäule, insbesondere den lumbosakralen Übergang, übertragen.",
+      },
+      {
+        type: "text",
+        heading: "Vom SIG zur Bandscheibe: Cauda-equina-Risiko und Spondylose als Kompensationsversuch",
+        text: "Die SIG-Blockade und die daraus resultierende Rückenmuskel-Kontraktur beschleunigen die Alterung der Bandscheibe L7–S1 (Kärkkäinen et al. 1993 dokumentierten dabei mittels MRT eine wasserverlustbedingte Elastizitätsabnahme). Der siebte Lendenwirbel wird durch die verkürzte Muskulatur näher an das Kreuzbein gezogen, was die zugehörige Nervenwurzel beeinträchtigen und im fortgeschrittenen Fall zu einer Cauda-equina-Kompression beitragen kann. Die Überlastung des ventralen Längsbandes an diesem Übergang beantwortet der Organismus mit spondylotischer Osteophytenbildung — als Stützmechanismus gedacht, im Endstadium aber mit knöcherner Überbrückung benachbarter Wirbel (Kasper 1996); seitlich wachsende Randosteophyten können zusätzlich die Nervenaustrittslöcher einengen und ein bestehendes Cauda-equina-Kompressionssyndrom verschärfen. Merke: Spondylosen selbst sind — außer im Endstadium, wenn gegenüberliegende Osteophyten aneinanderreiben — in aller Regel nicht schmerzhaft. Schmerzhaft sind die begleitende Facettengelenksarthrose und die veränderte paravertebrale Muskulatur, deren Wirkung über den an anderer Stelle beschriebenen segmentalreflektorischen Komplex auch die zugehörigen Organsegmente miteinbezieht.",
+      },
+      {
+        type: "text",
+        heading: "Der thorakolumbale Übergang als anatomisch vorgegebene Schwachstelle",
+        text: "Der Übergang von der Brust- zur Lendenwirbelsäule ist funktionell durch die sogenannte Vertebra anticlinalis definiert — nicht identisch mit der anatomischen Grenze zwischen Th13 und L1, sondern meist etwas weiter kranial (etwa Th10/11–Th11/12) gelegen. An dieser Stelle ändert sich die Ausrichtung der Wirbelgelenke abrupt, was den Übergang schon unter physiologischen Bedingungen zu einer mechanischen Schwachstelle macht (Künzel 2002). Chronische Unterbelastung der hintergliedmaßengetriebenen Vorwärtsbewegung zwingt die Rückenmuskulatur, den fehlenden Schub zu kompensieren — was die Bandscheiben dieses Übergangs zusätzlich und dauerhaft belastet und den beschriebenen Kaskadenverlauf weiter verstärkt.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 3.12.1.1 und 3.12.2.2, S. 32, S. 38–40 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(5)–g(18).pdf). Das Antetorsionssyndrom nach Schawalder, der biomechanische Übertragungsweg Hüft-Außenrotation → laterale Meniskus-/mediale Kreuzband-Überlastung, das Phänomen der paradox stärker belasteten „besseren“ Seite bei asymmetrischer beidseitiger HD samt Kreuzbandriss-Risiko (Slocum et al. 1983), der LSÜ-Twist-Mechanismus, die SIG-Verblockung, die beschleunigte Bandscheibenalterung L7–S1 (Kärkkäinen et al. 1993), die Spondylose als kompensatorische Osteophytenbildung (Kasper 1996) und die Vertebra-anticlinalis-Schwachstelle (Künzel 2002) sind im Original so beschrieben. Wichtiger Hinweis zur Extraktionsqualität: Diese Passage entstammt den Seiten 32–44 der Quelle, die bei der Extraktion als dicht zweispaltig layoutet identifiziert wurden; alle wiedergegebenen Sätze sind wortgetreu extrahiert, die lokale Absatzreihenfolge innerhalb der Passage trägt aber eine Restunsicherheit durch mögliche Spaltenverschränkung — vor einer wörtlichen Zitation sollte das Original-PDF visuell geprüft werden. Ergänzt den bestehenden, einfacheren Eintrag `gelenkfehlstellung-kaskade-zweigelenkige-muskeln-hueft-knie` (Alexander, Kap. 13) um einen zweiten, unabhängigen biomechanischen Übertragungsweg (Rotationsfehlstellung statt zweigelenkiger Muskelzug) sowie um die deutlich weiterreichende Kaskade bis zu SIG, Bandscheibe und Spondylose — bewusst nicht dupliziert, sondern als vertiefende Fortsetzung angelegt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["huefte", "quadriceps", "discus", "facettengelenke"],
+  },
+  {
+    id: "schmerzreise-vorderextremitaet-tlue-kompensation-kaskade",
+    category: "BIOMECHANIK",
+    title: "Wenn die Hinterhand schont, zahlt die Vorderhand: die Gewichtsverlagerungs-Kaskade zu Ellenbogen und Schulter",
+    teaser:
+      "Ein Windhund steckt eine hüftbedingte Gewichtsverlagerung nach vorne mühelos weg — ein Rottweiler oder Schäferhund nicht. Tab. 3.2 zeigt, warum dieselbe Kompensation je nach Rasse harmlos oder gravierend ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der thorakolumbale Übergang als Bremse und Schwungverteiler",
+        text: "Bei jedem Schritt muss der von der Hintergliedmaße erzeugte Vorwärtsschub am thorakolumbalen Übergang (TLÜ) abgebremst und über sehnig-muskuläre Strukturen — vor allem den thorakalen Anteil des M. trapezius und den M. latissimus dorsi — auf die Vordergliedmaßen übertragen werden, die dadurch in eine Vorspannung für die folgende Auffangphase gebracht werden. Physiologisch ist das bereits eine erhebliche Belastung für den TLÜ; schon geringe Qualitätseinbußen der stoßbrechenden lumbalen Strukturen überlasten ihn zusätzlich. Besonders deutlich wird das bei Hunden, die wegen einer durch Muskelkontraktur und/oder Spondylose versteiften Lendenwirbelsäule den an anderer Stelle beschriebenen kompensatorischen „Twist“ zur Hüftentlastung aus dem TLÜ heraus ausführen: Der TLÜ muss dann zusätzlich zur normalen Stoßbrechung die Rotationsarbeit übernehmen — mit rascher Zunahme der Schmerzhaftigkeit.",
+      },
+      {
+        type: "text",
+        heading: "Sichtbare Gangbild-Zeichen einer fortgeschrittenen Rückenschmerzhaftigkeit",
+        text: "Erfasst die Schmerzhaftigkeit weite Teile der Lendenwirbelsäule, versucht der Hund im Trab, die Wirbelsäule durch muskuläre Versteifung zu entlasten und den Bewegungsschwung stattdessen allein über die Extremitätengelenke abzufangen — sichtbar als Kopfwippen, wippender Gang und horizontal weggestreckter Schwanz. Dieser Schutzreflex belastet die Extremitätengelenke dauerhaft zusätzlich; der Schwung wird u. a. durch elastisches Beugen von Schulter- und Ellenbogengelenk sowie über die sehnig-muskuläre Schulterblattanheftung am Thorax (M. trapezius, M. longissimus, M. subscapularis) abgefangen — am deutlichsten im Galopp sichtbar. Bei bereits überlasteten Vorderbeinen entwickelt sich daraus das typische Bild des Stechschritts: Der Kopf wird im Trab extrem hoch genommen (im Extremfall bildet die Nase den höchsten Körperpunkt), um den zusätzlichen Schub von den schon schmerzhaften Vorderbeinen fernzuhalten; die Fußung erfolgt entlastet-tappend weit vor dem Körper. Radiologisches Korrelat dieser weit vor der Senkrechten liegenden Fußung ist eine Sklerosierung des Corpus ulnaris durch die dabei vermehrte Belastung des Humeroulnargelenks.",
+      },
+      {
+        type: "table",
+        heading: "Rassetypische Gewichtsverteilung zwischen Vorder- und Hintergliedmaßen (Tab. 3.2)",
+        columns: ["Rasse", "Vorderextremität (%)", "Hinterextremität (%)"],
+        rows: [
+          ["Whippet", "79,2", "20,8"],
+          ["Greyhound", "78,3", "21,7"],
+          ["Boxer", "75,6", "24,4"],
+          ["Borzoi", "67,9", "32,1"],
+          ["Pointer", "67,6", "32,4"],
+          ["Airedale", "66,8", "33,2"],
+          ["Deutsch Drahthaar", "65,7", "34,3"],
+          ["Dobermann", "62,3", "37,7"],
+          ["Schäferhund", "62,3", "37,7"],
+          ["Pudel", "62,2", "37,8"],
+          ["Rottweiler", "58,4", "41,6"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum dieselbe Kompensation je nach Rasse harmlos oder gravierend ist",
+        text: "Die Gewichtsverteilung aus Tab. 3.2 entscheidet mit, wie folgenreich eine hüftbedingte Gewichtsverlagerung nach vorne ausfällt. Ein Whippet trägt im Stand ohnehin nur 20,8 % seines Körpergewichts auf den Hinterbeinen — eine zusätzliche Vorverlagerung „fällt prozentual kaum ins Gewicht“. Beim Rottweiler stehen dagegen 41,6 % des Körpergewichts zur Disposition; dieselbe Vorverlagerung bedeutet dort bei jedem Schritt eine ernstzunehmende Dauerbelastung der Vorderextremitäten. Getrennt von dieser statischen Gewichtsverteilung gilt zusätzlich: Physiologisch sollen die Hintergliedmaßen 70–75 % des Vorwärtsschubs erzeugen, die Vordergliedmaßen sind nicht als „Motor“, sondern als „Lenkung“ und „vordere Bremse“ konzipiert. Kann die Hinterhand diesen Schub — etwa weil eine schmerzhafte Steilstellung das Aufrichten der Hinterbeine verhindert — nicht mehr leisten, springt rassebedingt unterschiedlich ein Anteil von rund 60–65 % des Vorwärtsschubs auf die Vorderextremitäten über. Beim Deutschen Schäferhund erklärt genau dieser Mechanismus das typische Erscheinungsbild „vorne mächtig, hinten schmächtig“: Die dauerhaft entlastete und dadurch schlecht trainierte Hintergliedmaßen-Muskulatur verliert weiter an Leistungsfähigkeit — ein sich selbst verstärkender Kreislauf. Ergänzend liegen im Segmentbereich des TLÜ (Th10/11 bis L2/3) mehrere Viszerotome (Zwerchfell, Leber, Magen, teilweise Nieren); die orthopädische Dauerüberlastung dieses Übergangs kann über den an anderer Stelle beschriebenen segmentalreflektorischen Komplex auch zu Funktionsstörungen dieser Organe beitragen.",
+      },
+      {
+        type: "text",
+        heading: "Warum der Ellenbogen vor der Schulter schmerzhaft wird",
+        text: "Bei chronischer Vorderextremitäten-Überlastung reagiert typischerweise zuerst der Ellenbogen und erst später die Schulter. Der Grund liegt in der Gelenkgeometrie: Der Ellenbogen besitzt nur zwei Freiheitsgrade, sodass schon eine geringe Abweichung von der Senkrechten oder ein kompensatorisches „Ausstellen“ nach lateral den Druck auf die medialen Gelenkabschnitte deutlich erhöht. Palpatorisch zeigt sich das zunächst am medialen Seitenband und am Processus coronoideus medialis, erst später auch lateral im Bereich der Tuberositas radii. Die als DI 11 und DI 10 bekannten Akupunkturpunkte fungieren dabei als diagnostisch nutzbare Triggerpunkte für Kapselprobleme (DI 11) bzw. muskuläre Verspannung der Streckermuskulatur, vor allem des M. extensor carpi radialis (DI 10). Die Autoren merken hierzu ausdrücklich als offene, noch zu klärende Frage an, ob verschiedene Formen der Ellenbogendysplasie nicht primär angeboren, sondern zumindest teilweise sekundäre Folge genau dieser frühen Überlastung sein könnten — eine von den Autoren selbst so benannte Hypothese, keine gesicherte Tatsache.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 3.12.2.2, S. 40–45 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(5)–g(18).pdf). Die Rolle des TLÜ als Schwung-Umlenkpunkt, die Gangbildzeichen (Kopfwippen, Stechschritt, Corpus-ulnaris-Sklerose), die rassespezifische Gewichtsverteilungstabelle (Tab. 3.2), die 70–75-%-/60–65-%-Schub-Angaben, die Erklärung des Schäferhund-Körperbaus, die TLÜ-Viszerotom-Zuordnung sowie die Ellenbogen-vor-Schulter-Sequenz samt DI-11/DI-10-Akupunkturpunkt-Zuordnung sind im Original so beschrieben; die als offene Frage benannte ED-Hypothese wird hier ausdrücklich als Hypothese der Autoren gekennzeichnet, nicht als gesicherter Fakt. Wichtiger Hinweis zur Extraktionsqualität: Diese Passage entstammt den Seiten 32–44 der Quelle, die bei der Extraktion als dicht zweispaltig layoutet identifiziert wurden; alle wiedergegebenen Sätze sind wortgetreu extrahiert, die lokale Absatzreihenfolge trägt aber eine Restunsicherheit durch mögliche Spaltenverschränkung — vor einer wörtlichen Zitation sollte das Original-PDF visuell geprüft werden. Ergänzt den bestehenden Eintrag `schmerzreise-hd-knie-sig-lsue-kaskade` (dieselbe Quelle) um die Fortsetzung der Kaskade von der Wirbelsäule zu den Vordergliedmaßen sowie den bestehenden Eintrag `gelenkfehlstellung-kaskade-zweigelenkige-muskeln-hueft-knie` (Alexander) um die rassespezifische Schub-Gewichts-Dimension, die dort nicht behandelt wird.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["biceps", "triceps-brachii", "supraspinatus", "discus"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
