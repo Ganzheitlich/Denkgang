@@ -10972,6 +10972,168 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "schmerz-akut-chronisch-iasp-schmerzkrankheit",
+    category: "PATHOLOGIE",
+    title: "Akuter und chronischer Schmerz: Warnsignal versus eigenständige Krankheit",
+    teaser:
+      "Schmerz ist beim Tier nie direkt messbar, sondern nur über Verhalten erschließbar — und ab einer bestimmten Dauer verliert er seine eigentliche Warnfunktion und wird selbst zur Erkrankung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum Schmerz beim Tier nie „einfach ablesbar“ ist",
+        text: "Nach der Definition der International Association for the Study of Pain (IASP) ist Schmerz ein unangenehmes Sinnes- und Gefühlserlebnis, das mit tatsächlicher oder potenzieller Gewebeschädigung verknüpft ist oder in den entsprechenden Begriffen beschrieben wird — also immer eine sensorische UND eine affektive Komponente hat, nicht nur eine Reizantwort. Daraus folgt Wichtiges für die Praxis: Schmerz ist subjektiv, situationsabhängig und tierartspezifisch (was für ein Ultraschallgerät beim Menschen unhörbar ist, kann für ein Tier schmerzhaft sein), und das Fehlen einer erkennbaren organischen Ursache schließt Schmerz nicht aus. Nozizeption — der objektive, messbare neuronale Vorgang der Reizaufnahme durch Nozizeptoren — und Schmerz — das subjektive Erleben — sind dabei nicht dasselbe und stehen auch nicht zwingend in einem 1:1-Verhältnis: Schmerzverhalten und Schmerzerleben müssen nicht deckungsgleich sein.",
+      },
+      {
+        type: "text",
+        heading: "Akuter Schmerz: ein Warnsystem mit eingebautem Verfallsdatum",
+        text: "Akuter Schmerz hat eine klare biologische Schutz- und Warnfunktion: Er signalisiert eine drohende oder bestehende Gewebeschädigung und löst Vermeidungs- bzw. Schonverhalten aus. Er ist zeitlich begrenzt (Sekunden bis Tage) und klingt ab, sobald die auslösende Situation beseitigt ist; typischerweise begleitet ihn eine ausgeprägte vegetative Komponente (z. B. erhöhte Herzfrequenz, Schwitzen/Hecheln). Solange diese Kriterien erfüllt sind, erfüllt der Schmerz seinen eigentlichen biologischen Zweck.",
+      },
+      {
+        type: "text",
+        heading: "Ab wann Schmerz aufhört, ein Symptom zu sein, und selbst zur Krankheit wird",
+        text: "Die IASP empfiehlt eine Dauer von mehr als drei Monaten als Grenze für „chronischen“ Schmerz; bis zu einem Monat gilt Schmerz als „protrahiert“, der Bereich dazwischen als „chronifiziert“. Entscheidend ist dabei nicht nur die reine Zeitspanne, sondern eine qualitative Veränderung: Chronischer Schmerz hat seine physiologische Warnfunktion verloren und wird durch fortbestehende pathophysiologische Prozesse selbst aufrechterhalten — er ist dann keine Begleiterscheinung mehr, sondern eine eigenständige „Schmerzkrankheit“. Bei Menschen verstärkt zusätzlich die kognitive Bewertung (z. B. Zukunftsangst, Grübeln über die Prognose) den chronischen Schmerz; ob Tiere über eine vergleichbare prognostische Bewertungsfähigkeit verfügen, ist offen — was aber nicht bedeutet, dass ihr chronischer Schmerz deshalb leichter wiegt.",
+      },
+      {
+        type: "text",
+        heading: "Warum rein somatische Therapie bei chronischem Bewegungsapparat-Schmerz oft nicht reicht",
+        text: "Für funktionelle, chronifizierte Schmerzen des Bewegungsapparats gilt ausdrücklich: Eine rein somatisch ausgerichtete Therapie (die nur am ursprünglichen Gewebeschaden ansetzt) führt allein meist nicht zu einem befriedigenden Langzeitergebnis, weil der Schmerz sich zu diesem Zeitpunkt bereits über eigenständige, sich selbst tragende Mechanismen im Nervensystem verselbstständigt hat (siehe dazu den ergänzenden Eintrag zur peripheren und zentralen Sensibilisierung). Für die klinische Praxis heißt das: Je länger ein Schmerzzustand unbehandelt oder unzureichend behandelt besteht, desto wahrscheinlicher wird diese Chronifizierung — ein zusätzliches, eigenständiges Argument für eine frühzeitige und adäquate Schmerzkontrolle, unabhängig von der Frage, wie gut die ursprüngliche Gewebeschädigung selbst verheilt.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Kulpa, H.-U., „Schmerz und Nozizeption“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 3 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189974). IASP-Schmerzdefinition, die Abgrenzung Nozizeption/Schmerz, die Kriterien für akuten vs. chronischen/protrahierten/chronifizierten Schmerz (IASP-Zeitgrenzen) sowie die explizite Aussage zur Unzulänglichkeit rein somatischer Therapie bei funktionellen Bewegungsapparat-Schmerzen sind im Original so beschrieben. Dieses Kapitel wurde in der Denkgang-Bibliothek bisher nicht ausgewertet — bestehende Erwähnungen von „Nozizeption“ in anderen Einträgen (z. B. Arthrose, Tuina, Gelenkinstabilität) sind beiläufige Einzelerwähnungen ohne strukturierte Schmerzphysiologie-Grundlage und werden hier bewusst nicht dupliziert, sondern ergänzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "schmerzverhalten-erkennen-tierartunterschiede",
+    category: "UNTERSUCHUNG",
+    title: "Schmerzverhalten erkennen: allgemeine Anzeichen und Tierartunterschiede",
+    teaser:
+      "Ein Tier kann seinen Schmerz nicht benennen — die Diagnose läuft ausschließlich über Verhalten. Wer dabei nur das typische Hundeverhalten kennt, übersieht Schmerz bei anderen Tierarten leicht.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum Schmerzdiagnose beim Tier zwangsläufig Verhaltensdiagnose ist",
+        text: "Da Tiere Schmerz nicht verbal mitteilen können, bleibt Schmerzverhalten der einzige praktisch zugängliche Hinweis auf einen Schmerzzustand. Wichtig dabei: Ein teilnahmsloses oder ruhiges Tier ist nicht automatisch schmerzfrei — gerade Großtiere gelten als „stumme Leider“, deren Schmerz sich kaum in auffälligem Verhalten zeigt, obwohl er besteht. Umgekehrt bedeutet ausgeprägtes Verhalten auch nicht automatisch starken Schmerz, da individuelle Erfahrung, Wachheitsgrad und Umweltfaktoren die Schmerzantwort erheblich modulieren.",
+      },
+      {
+        type: "table",
+        heading: "Allgemeine klinische Anzeichen für Schmerz (tierartübergreifend)",
+        columns: ["Bereich", "Typische Anzeichen"],
+        rows: [
+          ["Temperament", "Inaktivität bis Hyperaktivität"],
+          [
+            "Klinische Symptome",
+            "erweiterte Lidspalten/Pupillen, erhöhte Atemfrequenz (z. B. Keuchen), ungepflegtes/gesträubtes Haarkleid, Augen-/Nasenausfluss, erhöhter Muskeltonus, erhöhte oder erniedrigte Körpertemperatur",
+          ],
+          ["Psychisches Verhalten", "teilnahmslos, stumpfsinnig, nicht reagierend — oder leicht erregbar, aggressiv, übererregt"],
+          [
+            "Bewegungsverhalten",
+            "veränderte Gangart, vorsichtige Bewegung, Lahmheit, unphysiologische Bewegungen (z. B. Stoßen nach dem Bauch bei Abdominalschmerz), Kratzen/Belecken/Benagen von Körperteilen",
+          ],
+          ["Körperhaltung", "abnorme Haltung, gekrümmter Rücken, Schonen einzelner Gliedmaßen"],
+          ["Sozialverhalten", "Absonderung von der Gruppe, Änderung der Rangordnung"],
+          ["Reaktion auf Berührung", "verstärkt"],
+          ["Vokalisation", "Quieken, Schreien, Jaulen, Winseln, Grunzen, Zähneknirschen"],
+          ["Futter-/Wasseraufnahme", "Inappetenz — in den ersten 1–2 Tagen nach einem großen Eingriff noch als normal zu werten"],
+          ["Körpergewicht", "Abnahme"],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Speziesspezifisches akutes Schmerzverhalten (nach Hellebrekers)",
+        columns: ["Spezies", "Typisches akutes Schmerzverhalten"],
+        rows: [
+          [
+            "Hund",
+            "sucht aktiv Aufmerksamkeit; wimmert, winselt, heult — Lautäußerung endet oft, sobald das Tier beruhigt wird; versteckt den schmerzhaften Körperteil nur selten; gekrümmte/„betende“ Haltung bei Abdominalschmerz; Zittern, Keuchen",
+          ],
+          [
+            "Katze",
+            "Lautäußerung selten; faucht/knurrt bei Annäherung; neigt dazu, sich zu verstecken UND den schmerzhaften Körperteil zu verbergen; herabgesetzte Aktivität und Körperpflege; Aggression bei Annäherung an oder Wegziehen des schmerzhaften Körperteils",
+          ],
+          [
+            "Pferd",
+            "bei Kolik: Unruhe, gesenkter Kopf, unterbrochene Futteraufnahme, geweitete Pupillen, Nüsternblähen, Schwitzen, Aufstehen/Niederlegen, Kopfdrehen/Treten gegen den Bauch, Wälzen; bei geringeren Schmerzen: trüber Ausdruck, Rückzug, Zähneknirschen, Appetitminderung",
+          ],
+          [
+            "Rind, Schaf, Ziege",
+            "trüber Gesichtsausdruck, Rückzug, Bewegungsunwilligkeit, steife Haltung, Zähneknirschen, Stöhnen; Lautäußerung insgesamt selten, außer bei Ziegen",
+          ],
+          ["Schwein", "eindeutiges Schmerzverhalten selten; verändertes Sozialverhalten, gesteigerte Lautäußerung, Gangveränderung, Verstecken in der Einstreu"],
+          ["Labornager", "eindeutiges Schmerzverhalten selten; verminderte Futteraufnahme, herabgesetzte Lokomotion, Krümmen bei starkem Abdominalschmerz"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum Artenkenntnis selbst Teil der Schmerzdiagnose ist",
+        text: "Hund und Katze zeigen bei akutem Schmerz nahezu gegensätzliche Strategien: Der Hund sucht typischerweise aktiv Kontakt und Aufmerksamkeit und verbirgt den betroffenen Körperteil selten, während die Katze sich eher zurückzieht, versteckt und bei Annäherung an die schmerzhafte Stelle aggressiv reagieren kann. Wer nur das Hundeverhalten als Referenz kennt, läuft deshalb Gefahr, Schmerz bei einer Katze (stilles Rückzugsverhalten statt Lautäußerung) systematisch zu unterschätzen — und umgekehrt, ruhiges Verhalten eines schwer leidenden Großtiers fälschlich als Schmerzfreiheit zu werten. Zusätzlich bestehen auch innerhalb einer Art Unterschiede: Warmblüter gelten als schmerzempfindlicher als Kaltblüter, Zwerghunderassen als sensibler als große Rassen, und Wiederkäuer — besonders Ziegen — als besonders schmerzempfindlich.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Befund überbewertet", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Kulpa, H.-U., „Schmerz und Nozizeption“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 3, Tab. 3.1 und Tab. 3.2 (zitiert nach Hellebrekers 2000, Animal Pain) (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189974). Die allgemeinen klinischen Schmerzanzeichen (Tab. 3.1), das speziesspezifische akute Schmerzverhalten (Tab. 3.2, hier auf Hund/Katze/Pferd/Wiederkäuer/Schwein/Labornager konzentriert und leicht gekürzt wiedergegeben) sowie die Aussagen zu „stumm leidenden“ Großtieren und den rasse-/tierartspezifischen Empfindlichkeitsunterschieden sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher ein strukturiertes, tierartvergleichendes Schmerzverhalten-Repertoire ab — dieser Eintrag ist eigenständig und nicht duplizierend.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "periphere-zentrale-sensibilisierung-chronifizierung-schmerz",
+    category: "PATHOLOGIE",
+    title: "Periphere und zentrale Sensibilisierung: wie sich Schmerz selbstständig macht",
+    teaser:
+      "Warum ein leichter Reiz nach einer Entzündung plötzlich wehtut, warum Schmerz sich manchmal vom ursprünglichen Gewebeschaden löst — und was das für die Therapiewahl bedeutet.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum ein Bagatellreiz nach einer Verletzung plötzlich schmerzt",
+        text: "Eine Entzündung senkt die Reizschwelle der Nozizeptoren im betroffenen Gewebe und vergrößert ihr rezeptives Feld (periphere Sensibilisierung). Dabei werden auch zuvor inaktive, sogenannte „schlafende“ Nozizeptoren aktiviert — in Gelenken sollen unter physiologischen Bedingungen bis zu 70 % aller C-Faser-Nozizeptoren zu dieser schlafenden Population gehören. Klinisch äußert sich das als Hyperalgesie (verstärkte Reaktion auf einen an sich schon schmerzhaften Reiz) und Allodynie (schmerzhafte Empfindung eines normalerweise nicht-schmerzhaften Reizes, z. B. leichte Berührung).",
+      },
+      {
+        type: "text",
+        heading: "Wenn nicht mehr die Peripherie, sondern das Rückenmark selbst überempfindlich wird",
+        text: "Hält der nozizeptive Input über längere Zeit an, werden nicht nur die Nozizeptoren in der Peripherie sensibilisiert, sondern auch die nachgeschalteten Neurone im Hinterhorn des Rückenmarks selbst (zentrale Sensibilisierung). Diese Neurone reagieren dann mit gesteigerter und teils spontaner Aktivität und vergrößertem rezeptivem Feld — unabhängig davon, ob der ursprüngliche periphere Reiz noch unverändert fortbesteht. Hält dieser Zustand ausreichend lange an, verändert sich sogar die Genexpression der betroffenen Rückenmarksneurone, was zum dauerhaften Einbau neuer Ionenkanäle und Rezeptoren führt. Der entscheidende Punkt für die Praxis: Der Schmerz kann sich auf diesem Weg im Nervensystem selbst festsetzen und besteht dann fort, auch wenn die ursprüngliche Gewebeschädigung längst verheilt ist — der neurobiologische Unterbau für das an anderer Stelle beschriebene Kippen von akutem in chronischen Schmerz (siehe den Eintrag zu akutem/chronischem Schmerz).",
+      },
+      {
+        type: "table",
+        heading: "Klinische Schmerzformen unterscheiden",
+        columns: ["Begriff", "Bedeutung"],
+        rows: [
+          [
+            "Dolor projectus (projizierter/neuralgischer Schmerz)",
+            "Erregung entsteht direkt am geschädigten Nerv und wird ins Versorgungsgebiet dieses Nervs projiziert — der Schmerz bleibt dabei streng auf das Ausbreitungsgebiet des betroffenen Nervs beschränkt.",
+          ],
+          [
+            "Dolor translatus (übertragener Schmerz)",
+            "Viszerale und kutane Afferenzen laufen im Rückenmark auf dieselben Neurone zusammen (Konvergenz). Das Gehirn kann die Herkunft nicht unterscheiden und ordnet den Schmerz fälschlich der Haut zu (Head-Zonen) — anders als beim projizierten Schmerz hält sich dieser nicht an ein Nervenversorgungsgebiet.",
+          ],
+          [
+            "Anaesthesia dolorosa (Deafferenzierungsschmerz)",
+            "Schmerz durch Enthemmung nozizeptiver Rückenmarksneurone nach Verlust der eigentlichen Afferenz, z. B. Phantomschmerz nach Amputation oder nach traumatischem Wurzelausriss — empfunden im Versorgungsgebiet des Nervs, obwohl das zugehörige Gewebe fehlt.",
+          ],
+          [
+            "Zentraler Schmerz",
+            "Ausgelöst durch eine Läsion in Gehirn oder Rückenmark selbst (Blutung, Infarkt, Trauma, raumfordernder Prozess) — Gehirn und Rückenmark enthalten selbst keine Nozizeptoren. Ausdehnung und Qualität sind sehr variabel.",
+          ],
+          [
+            "Kausalgie / Reflexdystrophie (komplexes regionales Schmerzsyndrom)",
+            "Brennender Dauerschmerz mit lokalen vegetativen Veränderungen, dessen Ausdehnung unabhängig von Nerv oder Rückenmarkssegment ist — vermutlich durch eine sympathische Fehlsteuerung mit erhöhter Nozizeptor-Erregbarkeit bedingt.",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum dieser Mechanismus die Therapiewahl mitbestimmt",
+        text: "Dieselbe Konvergenz von viszeralen und kutanen Afferenzen im Rückenmark, die den übertragenen Schmerz erklärt, ist auch die Grundlage dafür, dass Reflextherapien wie Massage, Akupunktur, Wärme-/Kältebehandlung und TENS über kutiviszerale Reflexbögen schmerzlindernd wirken können. Umgekehrt folgt aus der zentralen Sensibilisierung: Ist ein chronischer Schmerz einmal im Rückenmark selbst verankert, reicht eine Behandlung, die ausschließlich am ursprünglichen peripheren Gewebeschaden ansetzt, oft nicht mehr aus, um ihn aufzulösen. Das unterstreicht, warum eine frühzeitige, ausreichende Schmerzkontrolle nicht nur dem Tierwohl im Akutstadium dient, sondern aktiv der Chronifizierung vorbeugen soll.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Kulpa, H.-U., „Schmerz und Nozizeption“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 3 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189974). Periphere Sensibilisierung (inkl. „schlafender“ Nozizeptoren, ca. 70 % der Gelenk-C-Fasern), zentrale Sensibilisierung/Wind-up (bewusst ohne die im Original zusätzlich beschriebenen Details zu NMDA-/Non-NMDA-Rezeptoren und einzelnen second-messenger-Kaskaden wiedergegeben, da für den Praxisbezug der Wissensbibliothek nicht erforderlich), die Terminologie Dolor projectus/translatus, Anaesthesia dolorosa, Zentraler Schmerz und Kausalgie sowie die Kopplung an kutiviszerale Reflextherapien (Massage, Akupunktur, TENS) sind im Original so beschrieben. Abgegrenzt von der bestehenden Verwendung von „Hyperalgesie“ in den Einträgen zur Schmerzauslösung bei der neurologischen Untersuchung (Koch/Fischer, Kap. 7.9) und zur lumbosakralen Kompression, die den Begriff nur als Einzelbefund nennen, ohne den zugrunde liegenden Sensibilisierungsmechanismus zu erklären — bewusst nicht dupliziert, sondern um die Mechanismus-Ebene ergänzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

@@ -60,10 +60,10 @@ kein Überblick verloren geht.
   wurde. Dieselbe Lücken-Regel gilt ab sofort für alle künftigen
   Anatomie-Items: keine leeren/unklaren Kernfelder mehr als Endzustand.
 
-## Stand (28.09.2026)
+## Stand (29.09.2026)
 
-- Wissensbibliothek: 235 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 66
-  Untersuchung, 85 Pathologie, 63 Biomechanik, 24 Therapie — genaue
+- Wissensbibliothek: 238 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 67
+  Untersuchung, 87 Pathologie, 63 Biomechanik, 24 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -280,6 +280,26 @@ kein Überblick verloren geht.
   Horner-Syndrom bevorzugt bei tiefen Plexus-brachialis-Läsionen
   auftritt — inkl. der Warnung, dass dieselbe Symptomkombination je
   nach Ursache entgegengesetzte Therapieentscheidungen verlangt.
+  Danach Hárrer Kap. 13-Rest (Ellenbogenregion) und Kap. 15
+  (Karpalgelenk/Zehen-Kollateralligamente) vollständig gegengelesen —
+  beide bestätigt ohne neue Inhalte, entsprechend im Backlog geschlossen
+  (siehe unten). **Entdeckung (29.09.2026):** Das Buch Alexander (Hrsg.),
+  „Physikalische Therapie für Kleintiere", war bisher fälschlich als
+  „weitgehend ausgeschöpft" vermerkt, obwohl nur eine von sieben
+  Kapitel-Dateien überhaupt gesichtet wurde. Als erste der bisher
+  ungelesenen Kapitel-Dateien wurde „Schmerz und Nozizeption" (H.-U.
+  Kulpa) vollständig extrahiert (per `download_file_content` +
+  lokaler `pdftotext`-Konvertierung, 61.367 Zeichen, keine Kappung) und
+  ausgewertet: 3 neue Einträge zu den Grundlagen der Schmerzphysiologie
+  beim Tier — akuter vs. chronischer Schmerz und die IASP-Definition der
+  „Schmerzkrankheit" (PATHOLOGIE), tierartübergreifendes und
+  speziesspezifisches Schmerzverhalten als Untersuchungsgrundlage
+  (UNTERSUCHUNG), sowie periphere/zentrale Sensibilisierung als
+  Mechanismus der Chronifizierung samt klinischer Schmerzformen-
+  Terminologie (PATHOLOGIE) — Details siehe PATHOLOGIE/GRUNDLAGEN-
+  Alexander-Abschnitt unten. Fünf weitere Kapitel-Dateien dieses Buches
+  („Physiologische Grundlagen", „Physiotechnik", „Indikationen",
+  „Krankengymnastik", „Massage") stehen noch aus.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -485,10 +505,21 @@ Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erled
       **Damit ist die Quelldatei „Erkrankungen des Bewegungsapparates"
       (121 S.) vollständig ausgewertet.**
 
-### PATHOLOGIE — Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates" (VetCenter/Thieme, aus: Physikalische Therapie für Kleintiere)
+### PATHOLOGIE/GRUNDLAGEN — Alexander C. (Hrsg.), „Physikalische Therapie für Kleintiere" (Parey Verlag, 2. Auflage 2003, VetCenter/Thieme)
 
-Neu entdeckte Quelle (22.09.2026), bisher nur teilweise gesichtet (nur Muskulatur-
-und Achsenabweichungs-Abschnitt gelesen für `patellaluxation-krankheitsbild`).
+**Korrektur (29.09.2026):** Dieses Buch ist umfangreicher als bisher hier vermerkt.
+Es besteht aus mehreren eigenständigen, jeweils von einem Fachautor verfassten
+Kapitel-Dateien im Drive-Ordner — bisher wurde nur die Kapitel-Datei
+„Pathophysiologie des Bewegungsapparates" (Alexander/Baatz/Jaggy/Kathmann)
+gesichtet, und auch die nur teilweise. Fünf weitere Kapitel-Dateien waren bis
+heute ungelesen: „Physiologische Grundlagen", „Schmerz und Nozizeption" (H.-U.
+Kulpa), „Physiotechnik", „Indikationen" und „Krankengymnastik (Physiotherapie)"
+sowie „Massage" — alle direkt einschlägig für Denkgangs Physiotherapie-Fokus.
+Die frühere Einschätzung „inhaltlich weitgehend ausgeschöpft" (s. u.) war
+verfrüht und wird hiermit zurückgenommen.
+
+#### Kapitel „Pathophysiologie des Bewegungsapparates" (Alexander/Baatz/Jaggy/Kathmann)
+
 Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschrift.
 
 - [x] Achsenabweichung (Varus/Valgus, Patellaluxation als Beispiel,
@@ -520,11 +551,44 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       (feline Aortenthrombose/Kippfenstersyndrom, Coonhound-Paralyse,
       diabetische Polyneuropathie) — katzen- bzw. seltenheitsspezifisch,
       passen eher in eine spätere gezielte Ergänzung als in Grundlagen-Einträge.
-- [ ] Rest der Datei (Literaturverzeichnis zeigt u. a. Kapitel zu
+- [ ] Rest dieser Kapitel-Datei (Literaturverzeichnis zeigt u. a. Abschnitte zu
       Polyneuropathien, Klinischer Pathophysiologie, Canine Rehabilitation)
-      noch nicht systematisch gesichtet — diese Quelle gilt damit als
-      inhaltlich weitgehend ausgeschöpft für die aktuell relevanten
-      Denkgang-Themen (Bewegungsapparat + Grundlagen-Neurologie).
+      noch nicht systematisch gesichtet.
+
+#### Kapitel „Schmerz und Nozizeption" (H.-U. Kulpa)
+
+- [x] **Vollständig gelesen und ausgewertet (29.09.2026).** Kapitel per
+      `download_file_content` + lokaler `pdftotext`-Extraktion vollständig
+      abgerufen (61.367 Zeichen, keine Kappung). 3 neue Einträge:
+      `schmerz-akut-chronisch-iasp-schmerzkrankheit` (PATHOLOGIE: IASP-
+      Schmerzdefinition, Abgrenzung Nozizeption/Schmerz, akuter vs.
+      chronischer/protrahierter/chronifizierter Schmerz mit IASP-Zeitgrenzen,
+      Chronifizierung als eigenständige „Schmerzkrankheit", Grenzen rein
+      somatischer Therapie), `schmerzverhalten-erkennen-tierartunterschiede`
+      (UNTERSUCHUNG: allgemeine klinische Schmerzanzeichen sowie
+      speziesspezifisches akutes Schmerzverhalten nach Hellebrekers,
+      Hund/Katze im Kontrast, „stumm leidende" Großtiere, Warmblüter/
+      Kaltblüter- und Rasseunterschiede) und
+      `periphere-zentrale-sensibilisierung-chronifizierung-schmerz`
+      (PATHOLOGIE: periphere und zentrale Sensibilisierung/Wind-up als
+      Mechanismus der Chronifizierung, Hyperalgesie/Allodynie, klinische
+      Schmerzformen-Terminologie Dolor projectus/translatus, Anaesthesia
+      dolorosa, Zentraler Schmerz, Kausalgie — verknüpft mit der
+      Reflextherapie-Wirkung von Massage/Akupunktur/TENS über Head-Zonen).
+      Bewusst nicht übernommen: einzelne Rezeptor-/Ionenkanal-Details (VR1,
+      TTX-resistente Natriumkanäle, NMDA-Subtyp-Kaskaden) — für den
+      Praxisbezug der Wissensbibliothek zu tief, ohne fachlichen
+      Mehrwert für Tierphysiotherapeut:innen in Ausbildung.
+
+#### Übrige Kapitel — noch ungelesen
+
+- [ ] „Physiologische Grundlagen" (Drive fileId `1M5x4nlLqbqCvHHo069XbQJS1PwOH61u5`, 1,4 MB)
+- [ ] „Physiotechnik" (Drive fileId `1LkbGrLQ1So4q8-OLjCIb6Ji5GUsGI63k`, 814 KB)
+- [ ] „Indikationen" (Drive fileId `1Zl0_zVMYvVDJ-ZT1I_n3uaK7qvKfZ_mJ`, 5,1 MB)
+- [ ] „Krankengymnastik (Physiotherapie)" (Drive fileId `1hTsuiVQ3E-Hsrh7e4guIOXciqy57crvU`, 1,7 MB)
+- [ ] „Massage" (Drive fileId `1xNlYSYXsuB6chLTs69gjqv2odiPPZ1oO`, 2,2 MB)
+
+  (alle im Drive-Ordner `1qVtWpp31AzfZL1HQp8a7qJssmwL8r71a`)
 
 ### PATHOLOGIE — VetCenter, „Wirbelsäulenerkrankungen" (eigene Datei, 43 Web-Seiten, vetcenter.thieme.de)
 
