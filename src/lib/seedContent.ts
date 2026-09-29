@@ -11668,6 +11668,154 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "massagewirkung-durchblutung-schmerz-muskeltonus",
+    category: "THERAPIE",
+    title: "Massagewirkung auf Durchblutung, Schmerz und Muskeltonus",
+    teaser:
+      "Derselbe Massagedehnreiz kann einen Muskel je nach Ausgangszustand tonisieren oder detonisieren — Massage wirkt nicht auf einen einzelnen Zielwert hin, sondern normalisiert in beide Richtungen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wie stark Massage die Durchblutung tatsächlich steigert",
+        text: "Unter Massage entsteht eine Hyperämie sowohl der Haut (reflektorisch über Sympathikolyse sowie reaktiv durch die kurzfristige Minderdurchblutung unter dem Massagedruck, mit Histaminausschüttung) als auch der Muskulatur (durch Erschließung ruhender Kapillargebiete). Eine Messung am Meerschweinchen (Nöcker 1980) zeigt das Ausmaß: Die Kapillarzahl pro mm² Muskelquerschnitt steigt von ca. 31–85 in Ruhe auf etwa 1.400 unter Massage — nahe an die 2.500, die bei tatsächlicher Muskelarbeit erreicht werden, und deutlich näher am Maximalwert von 3.000 als der Ruhewert. Massage kann die lokale Durchblutung damit fast so stark steigern wie aktive Bewegung selbst, ganz ohne Muskelkontraktion des Patienten.",
+      },
+      {
+        type: "text",
+        heading: "Warum Massage ein potentes Schmerztherapeutikum ist — vier Mechanismen gleichzeitig",
+        text: "Massage lindert Schmerz über mehrere, sich zeitlich überlappende Mechanismen, deren Summation die hohe Wirksamkeit erklärt: Mechanisch wird über den Verdeckungseffekt gewirkt — die schnellleitenden Ia-Afferenzen aus den Muskelspindeln überlagern die langsamen, schmerzleitenden IV-Afferenzen, sodass der Schmerz zentral nur noch vermindert verarbeitet wird (derselbe Grundmechanismus, der auch TENS und Ultrareizstrom analgetisch wirken lässt). Depletorisch werden mit der ausgeschwemmten Flüssigkeit auch schmerzauslösende Substanzen wie Histamin und Prostaglandine aus dem Gewebe abtransportiert — bei chronischen Entzündungen wie Zehengelenksarthrosen dauert es bis zu drei Tage, bis sich diese Stoffe wieder auf schmerzauslösendes Niveau angereichert haben. Durch die verbesserte aerobe Stoffwechsellage werden physiologische pH-Werte wiederhergestellt, was laktat-/azidosebedingten Schmerz lindert. Schließlich werden während der Massage Endorphine ausgeschüttet (Halbwertszeit 6–8 Stunden), die über dieselben Rezeptoren wie Morphin analgetisch wirken — und zusätzlich wirkt die psychische Entspannung dem Circulus vitiosus des Muskelspannungsschmerzes entgegen.",
+      },
+      {
+        type: "text",
+        heading: "Der Muskeltonus-Trick: derselbe Reiz wirkt in zwei Richtungen",
+        text: "Der Massagedehnreiz löst über die Muskelspindeln den myostatischen Eigenreflex aus — an einem normalspannigen Muskel wird der Tonus dadurch erhöht. Wird derselbe Massagedehnreiz jedoch an einem bereits hypertonen Muskel angewandt, kehrt sich der Effekt um: Die Golgi-Sehnenorgane aktivieren dann inhibitorische Synapsen, um eine Schädigung der durch den Hypertonus vorgespannten Sehne zu verhindern — der Tonus wird auf einen niedrigeren Sollwert eingestellt. Massage tonisiert oder detonisiert also nicht nach einem festen Rezept, sondern normalisiert abhängig vom Ausgangszustand des Muskels. Zusätzlich verändert sich der Tonus über das vegetative Nervensystem: Oberflächliche Massagegriffe wirken eher parasympathikusanregend, tiefe eher sympathikusanregend.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund überbewertet", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Massage“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 7 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189978), Abschnitte „Hyperämisierende Wirkung“ (inkl. Tab. 7.1 nach Nöcker 1980), „Schmerzlindernde Wirkung“ und „Wirkung auf den Muskeltonus“. Die Kapillarwerte, die vier Schmerzlinderungsmechanismen samt Endorphin-Halbwertszeit sowie der gegensätzliche Muskeltonus-Effekt je nach Ausgangszustand (Muskelspindel vs. Golgi-Sehnenorgan) sind im Original so beschrieben. Cross-referenziert die bestehenden Einträge `propriozeption-rezeptortypen-muskelspindel-golgi-sehnenorgan` (Rezeptor-Grundlagen) und `tens-traebert-reizstrom-schmerztherapie-mechanismus` (identischer Verdeckungseffekt-Mechanismus) — bewusst nicht dupliziert, sondern um die Massage-spezifische Anwendung ergänzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "klassische-massagegriffe-fuenf-handgriffe-hoffman",
+    category: "THERAPIE",
+    title: "Klassische Massagegriffe: die fünf Handgriffe und ihre jeweilige Aufgabe",
+    teaser:
+      "Effleurage, Petrissage, Friktion, Vibration und Tapotement sind keine austauschbaren Varianten „irgendeiner Streichung“ — jeder Griff hat einen eigenen Wirkmechanismus und eine eigene Aufgabe im Behandlungsablauf.",
+    sections: [
+      {
+        type: "text",
+        heading: "Effleurage: Kontaktaufnahme, Übergang und Abschluss",
+        text: "Effleurage (Ausstreichung) ist ein großflächiger, ausgleichender Griff. Oberflächlich dient sie der ersten Kontaktaufnahme, der Befunderhebung über Haut/Unterhaut sowie als entspannender Übergang zwischen intensiveren Grifffolgen — sie eröffnet und beendet praktisch jede Massage. Tief ausgeführt wirkt sie dagegen dehnend auf Unterhaut und Muskulatur und beschleunigt den Blutstrom. Ein tierspezifischer Sicherheitshinweis: Anders als in der Humanmedizin sollte am Tier nicht gegen die Fellwuchsrichtung gestrichen werden — das großflächige Aufrichten der Haare wird als unangenehm empfunden und kann Abwehrreaktionen auslösen.",
+      },
+      {
+        type: "text",
+        heading: "Petrissage: Abheben und Lösen von Gewebeschichten",
+        text: "Petrissage (Knetung) erfasst Haut und Unterhaut (in tieferer Form auch die Muskulatur) quer oder schräg zum Faserverlauf und hebt sie von den darunterliegenden Strukturen ab — Ziel sind Lockerung von Unterhautverklebungen, Anregung des Lymphflusses sowie Beeinflussung von Muskelstoffwechsel und -tonus. Bei der Walkung (Zweihandpetrissage) wird die Muskulatur durch gegenläufige Handbewegungen regelrecht ausgedrückt und gewrungen.",
+      },
+      {
+        type: "text",
+        heading: "Friktion: von der Hautdurchblutung bis zur Myogelose-Sprengung",
+        text: "Friktion (Reibung) reicht von der oberflächlichen Gleittechnik (starke Hautdurchblutung, Gewebsentwässerung) bis zur tiefen Verschiebetechnik, die sich in die Muskulatur hineinarbeitet und dehnt. Eine Spezialform ist die Gelotripsie: Die Fingerspitzen arbeiten sich schneckenförmig von der Kapsel einer Myogelose zu ihrer Mitte vor, um sie dann unter Druck zu „sprengen“. Eine weitere Spezialform ist die Querfriktion von Sehnen/Sehnenscheiden — quer zum Faserverlauf ausgeführt, regt sie über die Golgi-Sehnenorgane reflektorisch eine Entspannung der gespannten Sehne über Erschlaffung des zugehörigen Muskels an.",
+      },
+      {
+        type: "text",
+        heading: "Vibration und Tapotement: entgegengesetzte Wirkrichtungen",
+        text: "Vibration (Erschütterung) wirkt rein entspannend und wird zur Muskelrelaxation eingesetzt, etwa vorbereitend zu einer Traktionsbehandlung. Tapotement (Klopfung) dagegen wirkt dosisabhängig: sanft ausgeführt lockernd/entspannend, kräftiger eingesetzt hauthyperämisierend und muskeltonusanregend — über dem Brustkorb kann es zusätzlich sekretolytisch wirken. Wichtige Kontraindikation in der Durchführung: Eine scharfe Hackung mit der Handkante darf keinesfalls großflächig am Rücken eingesetzt werden — Tiere empfinden das als stark irritierend und reagieren mit Abwehr, die den gesamten Massageablauf unterbricht.",
+      },
+      {
+        type: "text",
+        heading: "Warum diese Unterscheidung praktisch zählt",
+        text: "Diese fünf Griffe wurden Ende des 19. Jahrhunderts vom Orthopäden Albert Hoffman als „klassische Massage“ systematisiert und tragen bis heute französische Namen. Wer sie als beliebig austauschbare Streichbewegungen versteht, statt jeweils gezielt den zur Behandlungsphase und zum Befund passenden Griff zu wählen (z. B. Effleurage zur sanften Einleitung, Friktion/Gelotripsie gezielt gegen eine Myogelose, Vibration zur reinen Entspannung), verschenkt einen erheblichen Teil der therapeutischen Wirkung.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Faktenwissen", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Massage“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 7 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189978), Abschnitte „Geschichte“ und „Massagegriffe“ (Effleurage, Petrissage, Friktion, Vibration, Tapotement). Die historische Einordnung (Albert Hoffman, Ende 19. Jh.), alle fünf Griffe mit Mechanismus und Anwendungsbesonderheiten (inkl. Gelotripsie, Querfriktion, tierspezifischer Fellrichtungs-Hinweis, Hackungs-Warnung) sind im Original so beschrieben. Ergänzt die bestehende Tuina-Vergleichstabelle (die TUI/AN/MO/PAI/KOU jeweils mit Effleurage/Friktion/Tapotement vergleicht, ohne diese Techniken selbst zu erklären) um die zugrunde liegenden westlichen Referenztechniken — bewusst nicht dupliziert.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "bindegewebsmassage-dicke-schliack-wolff-reflexzonentherapie",
+    category: "THERAPIE",
+    title: "Bindegewebsmassage nach Dicke: über die Haut auf innere Organe wirken",
+    teaser:
+      "Erkrankungen innerer Organe hinterlassen segmental zugeordnete Spannungszonen im Bindegewebe des Rückens — ein gezielter Zugreiz genau dort kann reflektorisch auf das erkrankte Organ zurückwirken.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Grundgedanke: Organfunktion spiegelt sich im Rückenbindegewebe",
+        text: "Die Bindegewebsmassage wurde 1929 von der Krankengymnastin Elisabeth Dicke entwickelt und 1938 durch Prof. W. Kohlrausch wissenschaftlich bestätigt. Kohlrausch entdeckte dabei den Zusammenhang zwischen Funktionsstörungen eines inneren Organs und segmental zugeordneten hypertonen Muskeln. Bei Erkrankungen innerer Organe bauen sich zusätzlich Spannungen im interstitiellen Bindegewebe des zugehörigen Rückensegments auf — in drei Verschiebeschichten (zwischen Kutis/Subkutis, Subkutis/Faszie, Körper-/Extremitätenfaszie). Diese Bindegewebszonen sind am Rücken als Quellung oder Einziehung sicht- und fühlbar und lassen sich über Sichtbefund, Tastbefund (flächiges Verschieben der Subkutis gegen die Körperfaszie) oder die Hautfaltenmethode (vergleichbar der Kibler-Hautfalte aus der Manuellen Medizin) erheben.",
+      },
+      {
+        type: "text",
+        heading: "Behandlungsaufbau: immer entfernt vom betroffenen Areal beginnen",
+        text: "Die Technik nach Dicke, Schliack und Wolff folgt einem gleichmäßigen, schematischen Aufbau beginnend am Becken in kranialer Richtung — der erste Reiz sollte dabei bewusst vom eigentlich betroffenen Areal entfernt gesetzt werden. Ausgeführt wird mit langen Fingerkuppenzügen (überwiegend Mittel- und Ringfinger). Die Weiterentwicklung nach Teirich-Leube behandelt dagegen gezielt Lokalbefunde ohne diesen Grundaufbau, mit kurzen anhakenden Fingerkuppenstrichen zur neurovegetativen Gesamtbeeinflussung — hier muss wegen der zu erwartenden parasympathischen Spätfolgen nach der Behandlung zwingend Nachruhe eingehalten werden.",
+      },
+      {
+        type: "text",
+        heading: "Wirkung über kutiviszerale Reflexe, mit spürbaren vegetativen Nebenwirkungen",
+        text: "Die Wirkung beruht überwiegend auf kutiviszeralen Reflexen sowie auf Histamin- und nachfolgender Katecholaminausschüttung und kann die Sympathikusaktivität bei chronischem Schmerz senken. Die erwünschte Wirkung tritt frühestens ein bis zwei Stunden nach der Behandlung ein — während und noch Stunden danach können parasympathische Reaktionen wie Müdigkeit und Heißhunger auftreten. Weitere mögliche Nebenwirkungen sind Übelkeit bei überschießender Vagustätigkeit, ein charakteristisches Schneidegefühl beim therapeutischen Zug, Pruritus an entfernteren Hautstellen, Atemnot und Blasendruck — ein deutlicher Unterschied zur klassischen Massage, deren Nebenwirkungsprofil weit harmloser ist.",
+      },
+      {
+        type: "table",
+        heading: "Indikationen und Kontraindikationen",
+        columns: ["Kategorie", "Angabe"],
+        rows: [
+          [
+            "Indikationen",
+            "funktionelle Störungen innerer Organe: chronische Bronchitis, Asthma bronchiale, Lungenemphysem, Fettleber, nervöser Reizmagen, Gastritis, Colon irritabile, Zystitis (bei rein lokalen Bindegewebsbefunden eignet sich stattdessen eher die klassische Massage unter Einbeziehung von Bindegewebsstrichen)",
+          ],
+          ["Kontraindikationen", "Hauterkrankungen, Blutungsneigung, akute Erkrankungszustände innerer Organe sowie alle allgemeinen Massage-Kontraindikationen"],
+        ],
+      },
+    ],
+    errorTags: ["Faktenwissen", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Massage“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 7 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189978), Abschnitt „Bindegewebsmassage“. Die Entstehungsgeschichte (Dicke 1929, Kohlrausch-Bestätigung 1938), das Bindegewebszonen-Konzept mit den drei Verschiebeschichten, die Befundungstechniken, der Behandlungsaufbau nach Dicke/Schliack/Wolff und die Weiterentwicklung nach Teirich-Leube sowie Wirkungen/Nebenwirkungen/Indikationen/Kontraindikationen sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher ein reflextherapeutisches Bindegewebs-Verfahren zur Beeinflussung innerer Organe ab — bestehende Erwähnung von „kutiviszeralen Reflexbögen“ im Sensibilisierungs-Eintrag bleibt beiläufig, ohne diese konkrete Technik zu behandeln.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "kolonmassage-vogler-obstipation-fuenf-kolonpunkte",
+    category: "THERAPIE",
+    title: "Kolonmassage nach Vogler: gezielte Bauchmassage gegen Obstipation",
+    teaser:
+      "Fünf genau definierte Punkte entlang des Dickdarmverlaufs lassen sich gezielt massieren, um über viszero-viszerale Reflexe die Darmpassagezeit zu verkürzen — besonders relevant bei der altersbedingt verlangsamten Darmtätigkeit geriatrischer Patienten.",
+    sections: [
+      {
+        type: "text",
+        heading: "Fünf Punkte entlang des Kolonverlaufs statt beliebiger Bauchmassage",
+        text: "Die Kolonmassage nach Vogler ist keine allgemeine Bauchmassage, sondern eine gezielte, analwärts gerichtete Druck- und Gleitbewegung an fünf anatomisch definierten Punkten: dem Zäkalpunkt (aboral der Zäkalklappe), dem Aszendenzpunkt (Colon ascendens unter dem rechten Rippenbogen), dem linearen Punkt (spiegelbildlich zum Aszendenzpunkt auf der linken Körperseite), dem Deszendenzpunkt (spiegelbildlich zum Zäkalpunkt) und dem Sigmapunkt (kaudal des Deszendenzpunkts).",
+      },
+      {
+        type: "text",
+        heading: "Durchführung: kurz, häufig, im Atemrhythmus",
+        text: "Vor der Behandlung sollte auf Blasenentleerung geachtet und ein Abstand von mindestens einer Stunde zur letzten Mahlzeit eingehalten werden. Die Kolonpunkte 3–5 werden mit weichen Streichungen 3–5 Minuten lang massiert, mindestens einmal täglich über eine Behandlungsserie von 15–20 Anwendungen, wobei der Behandlungsrhythmus möglichst synchron zur Atmung des Patienten erfolgen sollte.",
+      },
+      {
+        type: "text",
+        heading: "Wirkung: über viszero-viszerale Reflexe direkt auf die Darmmotorik",
+        text: "Über viszero-viszerale Reflexe wirkt die Kolonmassage reflektorisch auf den Magen-Darm-Trakt — messbar als verkürzte Darmpassagezeit und normalisierte Tonusabweichungen der Darmmuskulatur. Zusätzlich wird die Bauchatmung betont, was Blut- und Lymphzirkulation der Abdominalorgane sowie die Darmmotorik anregt und insgesamt vegetativ beruhigend wirkt. Das macht die Technik besonders relevant bei geriatrischen Patienten, deren Darmpassagezeit altersbedingt ohnehin verlängert ist.",
+      },
+      {
+        type: "table",
+        heading: "Indikationen und Kontraindikationen",
+        columns: ["Kategorie", "Angabe"],
+        rows: [
+          ["Indikationen", "atonische und spastische Obstipation, Reizkolon, Meteorismus, Gallenwegserkrankungen/Hepatopathien mit reflektorischer Kolon-Wirkung, postoperative Zustände (z. B. Verwachsungen)"],
+          ["Kontraindikationen (absolut)", "Entzündungen im Abdominalbereich, Tumoren, Gravidität, Ileus, Colitis ulcerosa"],
+          ["Kontraindikationen (relativ)", "Entzündungen der Bauchdecke, unsicheres Auffinden der Kolonpunkte, nicht kooperierende Patienten"],
+        ],
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Massage“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 7 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189978), Abschnitt „Kolonmassage nach Vogler“. Die fünf Kolonpunkte, das Durchführungsprotokoll, der viszero-viszerale Wirkmechanismus sowie Indikationen/Kontraindikationen sind im Original so beschrieben. Direkt anschlussfähig an den bestehenden Eintrag `geriatrischer-hund-alterungsmechanismen-rassenabhaengige-lebenserwartung`, der die altersbedingt verlängerte Darmpassagezeit nennt, aber keine konkrete Gegenmaßnahme beschreibt — sowie an die im Indikationen-Kapitel (Geriatriepatient-Abschnitt) genannte, dort nur beiläufig erwähnte „Kolonmassage nach Vogler“, die hier erstmals inhaltlich ausgeführt wird.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

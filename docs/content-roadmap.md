@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 252 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
-  Untersuchung, 88 Pathologie, 65 Biomechanik, 34 Therapie — genaue
+- Wissensbibliothek: 256 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
+  Untersuchung, 88 Pathologie, 65 Biomechanik, 38 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -365,8 +365,25 @@ kein Überblick verloren geht.
   Bizeps-Funktionsdefinition) sowie die fachliche Abgrenzung
   „Dehnen" (nur durch Therapeuten, überschreitet bewusst das
   Bewegungsausmaß) versus „Stretching" (bleibt innerhalb des
-  Bewegungsausmaßes, tierhaltertauglich). Ein weiteres Kapitel dieses
-  Buches („Massage") steht noch aus.
+  Bewegungsausmaßes, tierhaltertauglich). Danach „Massage" vollständig
+  extrahiert (47.063 Zeichen, keine Kappung) — **damit ist Alexander
+  (Hrsg.), Physikalische Therapie für Kleintiere, vollständig
+  ausgewertet (alle 7 Kapitel-Dateien).** 4 neue THERAPIE-Einträge:
+  Massagewirkung auf Durchblutung/Schmerz/Muskeltonus (inkl. der
+  Meerschweinchen-Kapillarwerte nach Nöcker 1980 und des gegenläufigen
+  Muskeltonus-Effekts je nach Ausgangszustand), die fünf klassischen
+  Massagegriffe nach Hoffman (Effleurage/Petrissage/Friktion/Vibration/
+  Tapotement, ergänzt die bestehende Tuina-Vergleichstabelle um die
+  westlichen Referenztechniken), die Bindegewebsmassage nach Dicke/
+  Schliack/Wolff als reflextherapeutisches Verfahren für innere Organe
+  sowie die Kolonmassage nach Vogler mit ihren fünf anatomisch
+  definierten Kolonpunkten gegen Obstipation (direkt anschlussfähig an
+  den bestehenden Geriatrie-Eintrag). Bewusst nicht übernommen: Japanische
+  Stäbchenmassage, Bürstenmassage und Narbenmassage nach Thomsen (drei
+  weitere im Kapitel beschriebene Sonderformen mit geringerem
+  Alleinstellungswert gegenüber den bereits abgedeckten Verfahren —
+  als Backlog-Punkt für eine mögliche spätere Ergänzung vermerkt, siehe
+  Alexander-Abschnitt unten).
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -771,11 +788,39 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       (zu techniklastig für einen Nachschlage-Eintrag, das Kernprinzip
       — die Terminologiefalle — ist im neuen Eintrag abgedeckt).
 
-#### Übrige Kapitel — noch ungelesen
+#### Kapitel „Massage" (C.-S. Alexander) — **letztes Kapitel dieses Buches**
 
-- [ ] „Massage" (Drive fileId `1xNlYSYXsuB6chLTs69gjqv2odiPPZ1oO`, 2,2 MB)
+- [x] **Vollständig gelesen und ausgewertet (29.09.2026).** Kapitel per
+      `download_file_content` + lokaler `pdftotext`-Extraktion vollständig
+      abgerufen (47.063 Zeichen, keine Kappung; 1.081 Zeilen). 4 neue
+      THERAPIE-Einträge: `massagewirkung-durchblutung-schmerz-muskeltonus`
+      (Kapillarwerte nach Nöcker 1980, vier Schmerzlinderungsmechanismen,
+      gegenläufiger Muskeltonus-Effekt), `klassische-massagegriffe-fuenf-
+      handgriffe-hoffman` (Effleurage/Petrissage/Friktion/Vibration/
+      Tapotement, ergänzt die bestehende Tuina-Vergleichstabelle),
+      `bindegewebsmassage-dicke-schliack-wolff-reflexzonentherapie`
+      (reflextherapeutisches Verfahren für innere Organe) und
+      `kolonmassage-vogler-obstipation-fuenf-kolonpunkte` (schließt direkt
+      an den bestehenden Geriatrie-Eintrag an). **Backlog für eine mögliche
+      spätere Ergänzung:** Japanische Stäbchenmassage (Triggerpunkt-/
+      Narbenbehandlung mit Holzstäbchen), Bürstenmassage/Trockenbürsten
+      sowie Narbenmassage nach Thomsen (Schiebe-/Abhebetechnik) — drei im
+      Kapitel beschriebene Sonderformen, bewusst zurückgestellt, da ihr
+      Alleinstellungswert gegenüber den bereits umgesetzten Verfahren
+      (Bindegewebsmassage, Kolonmassage, klassische Griffe) geringer
+      eingeschätzt wurde; ihre Rohdaten liegen aber bereits vollständig
+      extrahiert in der Kapitel-Datei vor (Zeilen 923–1034 von
+      `massage.txt`, siehe Scratchpad dieser Session) und könnten bei
+      Bedarf ohne erneuten Drive-Zugriff nachgezogen werden.
 
-  (alle im Drive-Ordner `1qVtWpp31AzfZL1HQp8a7qJssmwL8r71a`)
+**Damit ist Alexander (Hrsg.), Physikalische Therapie für Kleintiere
+(2. Auflage, Parey Verlag, 2003), vollständig ausgewertet — alle 7
+Kapitel-Dateien** (Pathophysiologie des Bewegungsapparates, Schmerz und
+Nozizeption, Physiologische Grundlagen, Physiotechnik, Indikationen
+[bis auf die neurologische Rehabilitations-Sektion und Gelenkfehlstellung,
+siehe oben], Krankengymnastik, Massage).
+
+  (Drive-Ordner `1qVtWpp31AzfZL1HQp8a7qJssmwL8r71a`)
 
 ### PATHOLOGIE — VetCenter, „Wirbelsäulenerkrankungen" (eigene Datei, 43 Web-Seiten, vetcenter.thieme.de)
 
