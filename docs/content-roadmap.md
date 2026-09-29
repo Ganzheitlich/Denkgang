@@ -1448,9 +1448,24 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
 - [x] Das Karpalgelenk als drei Gelenketagen (Art. antebrachiocarpea,
       mediocarpea, ossis carpi accessorii) plus Metacarpus/Sesambeinchen —
       Kap. 15, S. 192.
-- [ ] Rest von Kap. 13 (Ellenbogenregion) sowie Wirbelsäule Kap. 16 —
-      teilweise schon für Quellenprüfung gelesen, aber nicht systematisch
-      auf weitere Biomechanik-Fakten durchsucht.
+- [x] **Rest von Kap. 13 (Ellenbogenregion) gegengelesen (29.09.2026,
+      ma(13).pdf, vollständig, 165–179).** Systematisch auf noch nicht
+      erfasste Biomechanik-Fakten geprüft — Ergebnis: bereits vollständig
+      abgedeckt. Die ROM-Werte (Flexion 30–36°, Extension 160–166°,
+      Pronation ~20°, Supination ~50°), die Endgefühle je Bewegungsrichtung,
+      die Jena-Studie (135° Gesamt- vs. 20° effektive Bewegung während
+      Lokomotion), die Typ-I-Faseranteile der Ellenbogenmuskeln (inkl.
+      M. anconeus 100 %) sowie der Proc.-coronoideus-medialis-
+      Überlastungsmechanismus durch Rotationskräfte sind bereits in
+      bestehenden Einträgen erfasst. Der verbleibende Rest der Datei
+      (13.2/13.3: konkrete Untersuchungs-/Behandlungsgriffe wie Traktion,
+      Gleiten, Querdehnung, Funktionsmassage, Querfriktion) bleibt bewusst
+      NICHT als Wissensbibliothek-Content vorgesehen — praktische
+      Handgriffe für ausgebildete Therapeut:innen, kein Nachschlage-Wissen
+      (konsistent mit der bisherigen Praxis bei Kap. 17.5). Kap. 13 gilt
+      damit als abgeschlossen. Wirbelsäule Kap. 16 — teilweise schon für
+      Quellenprüfung gelesen, aber nicht systematisch auf weitere
+      Biomechanik-Fakten durchsucht (noch offen).
 - [x] Kap. 9 Unterschenkelregion (ma(9).pdf) — proximales/distales
       Tibiofibulargelenk, Membrana interossea cruris, die Diskussion um das
       tatsächliche Bewegungsausmaß über die Talus-Form erklärt — S. 94f.
@@ -2107,9 +2122,21 @@ gelesenen Quellen:
       Flexorenmuskulatur des Karpus/der Zehen — verifiziert gegen Hárrer
       Kap. 14, S. 179–184. Damit ist die komplette Vordergliedmaße von
       Schulter bis Karpus abgedeckt.
-- [ ] Kap. 15 Karpalgelenk und Zehen: einzelne Bänder/Kollateralligamente der
-      Zehengelenke noch nicht als eigene Anatomie-Items, nur im
-      Biomechanik-Eintrag "Karpalgelenk" mit erwähnt
+- [x] **Kap. 15 Karpalgelenk und Zehen gegengelesen (29.09.2026, ma(15).pdf,
+      vollständig).** Ergebnis wie bei Kap. 13: bereits vollständig
+      abgedeckt (ROM-Werte, MTP/PIP/DIP-Mechanik, Sesambein-Ligamente
+      inkl. Lig. sesamoideum collaterale mediale/laterale, „wie auf
+      Eiern"-Gangbild, Loge-de-Guyon-Analogie am Os carpi accessorium).
+      Die einzelnen Kollateralbänder der Zehengelenke selbst (mediales/
+      laterales Kollateralband je MTP/PIP/DIP) bleiben bewusst NICHT als
+      eigene Anatomie-Items vorgesehen — dieselbe Schema-Begründung wie
+      bei Processus anconaeus/coronoideus medialis und Lig. capitis
+      femoris (AnatomySeed ist auf Muskeln zugeschnitten, ein Kollateral-
+      band hat keine muskuläre „Funktion"/Innervation im selben Sinn);
+      sie sind über den bestehenden Biomechanik-Eintrag „Karpalgelenk"
+      bereits mit erwähnt. Der Rest der Datei (Untersuchungs-/
+      Behandlungsgriffe) bleibt wie bei Kap. 13 bewusst kein
+      Wissensbibliothek-Content.
 - [ ] Processus anconaeus, Processus coronoideus medialis (Ellbogen — direkt
       aus dem ED-Pathologie-Eintrag ableitbar, Quelle bereits gelesen)
 - [ ] Ligamentum capitis femoris (Hüfte — bereits in Luna/Fällen erwähnt, aber
