@@ -5599,13 +5599,23 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       },
       {
         type: "text",
+        heading: "Warum trotz schwerer Lähmung oft die Tiefensensibilität erhalten bleibt",
+        text: "Da fibrokartilaginöse Infarkte in erster Linie die graue Substanz des Rückenmarks schädigen, entstehen meist hochgradige motorische Ausfälle (Paresen bis Paralysen) bei gleichzeitig erhaltener Tiefensensibilität. Eine kompressive Rückenmarksläsion, die dieselben motorischen Ausfälle verursacht, würde dagegen zwangsläufig auch die Tiefensensibilität beeinträchtigen. Diese Dissoziation — schwere Motorik-Ausfälle bei erhaltenem Tiefenschmerz — ist damit ein zusätzliches, eigenständiges Unterscheidungskriterium zur kompressiven Läsion, neben der bereits genannten fehlenden Ausfallskaskade und der meist fehlenden Schmerzhaftigkeit.",
+      },
+      {
+        type: "text",
         heading: "Therapie und Prognose",
         text: "Kortikosteroide sind nicht indiziert — sie beeinflussen weder Verlauf noch Prognose. Wichtig sind Dekubitusprophylaxe (weiche Lagerung), Urinabführung alle 8 Stunden sowie Physiotherapie zum Erhalt der Muskelmasse und zur Durchblutungsförderung. Die Prognose hängt stark von Ausmaß und Lokalisation ab: Infarkte außerhalb der Reflexzentren sind prognostisch günstig, Läsionen innerhalb der Zervikal- oder Lumbalintumeszenz erholen sich unvollständiger und langsamer. Bleibt über 2 Wochen ein sichtbarer Fortschritt aus oder fehlt der Tiefenschmerz, muss eine Euthanasie in Betracht gezogen werden.",
+      },
+      {
+        type: "text",
+        heading: "Praktisches Rehabilitationsprotokoll",
+        text: "Weil beim Rückenmarksinfarkt weder eine OP-Wunde noch Schmerz vorliegen, kann sofort nach Diagnosestellung mit intensiver Physio-, Hydro- und Elektrotherapie begonnen werden: Massage und passive Bewegung aller Gelenke 3- bis 5-mal täglich für 10–15 Minuten, Schwimmtraining 2- bis 3-mal täglich für 5–10 Minuten (bei plegischen Tieren mit zusätzlicher passiver Bewegung im Wasser), Elektrostimulation der betroffenen Gliedmaßen 3-mal täglich für 5 Minuten, bei tetraparetischen Tieren 2–4 Stunden täglich Aufenthalt in einem Stützgestell. Die durchschnittliche Rehabilitationsdauer liegt bei etwa 2 Wochen.",
       },
     ],
     errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet", "vorschnelle Diagnose"],
     sourceStatus:
-      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.4 (Rückenmarksinfarkt), S. 232f. Ätiologie, Klinik, Bildgebung und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.5, Kap. 7.10.2, dort als „Fibrokartilaginäre Embolie / Rückenmarksinfarkt“) um die volle klinische Tiefe aus Kapitel 9.",
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.4 (Rückenmarksinfarkt), S. 232f. Ätiologie, Klinik, Bildgebung und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.5, Kap. 7.10.2, dort als „Fibrokartilaginäre Embolie / Rückenmarksinfarkt“) um die volle klinische Tiefe aus Kapitel 9. Ergänzt (29.09.2026) um den Grau-Substanz-Mechanismus der Tiefensensibilitäts-Erhaltung sowie ein konkretes physiotherapeutisches Rehabilitationsprotokoll nach Alexander, C.-S., „Indikationen — Neurologische Indikationen, Rückenmarksinfarkt“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984) — mit explizitem Hinweis auf zwei Widersprüche dieser älteren Quelle zur oben verifizierten (Altersprädisposition, Kortikosteroidnutzen), die NICHT übernommen wurden.",
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
@@ -11815,6 +11825,58 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       "Verifiziert: Alexander, C.-S., „Massage“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 7 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189978), Abschnitt „Kolonmassage nach Vogler“. Die fünf Kolonpunkte, das Durchführungsprotokoll, der viszero-viszerale Wirkmechanismus sowie Indikationen/Kontraindikationen sind im Original so beschrieben. Direkt anschlussfähig an den bestehenden Eintrag `geriatrischer-hund-alterungsmechanismen-rassenabhaengige-lebenserwartung`, der die altersbedingt verlängerte Darmpassagezeit nennt, aber keine konkrete Gegenmaßnahme beschreibt — sowie an die im Indikationen-Kapitel (Geriatriepatient-Abschnitt) genannte, dort nur beiläufig erwähnte „Kolonmassage nach Vogler“, die hier erstmals inhaltlich ausgeführt wird.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
+  },
+  {
+    id: "neurologische-rehabilitation-uebersicht-nach-laehmungsmuster",
+    category: "THERAPIE",
+    title: "Neurologische Rehabilitation: welche Maßnahme zu welchem Lähmungsmuster passt",
+    teaser:
+      "Tetraparese, Paraparese und Monoparese verlangen nicht dieselbe Rehabilitationsstrategie — und ein konservativ behandelter, instabiler Diskusvorfall verlangt sogar nach dem genauen Gegenteil von Bewegungstherapie.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum das Lähmungsmuster die Rehabilitationsstrategie mitbestimmt",
+        text: "Neurologische Bewegungsstörungen unterscheiden sich nicht nur in der Diagnose, sondern auch darin, welche physiotherapeutischen, hydrotherapeutischen und elektrotherapeutischen Maßnahmen angezeigt sind. Bei Tetraparese bis Tetraplegie (z. B. zervikale Diskopathie, Polyradikuloneuritis) und bei Paraparese bis Paraplegie (z. B. degenerative Myelopathie, Rückenmarksinfarkt, Diskopathie, ischämische Neuromyopathie) gehören Massage, passives und aktives Bewegen, Gangschulung, Hydrotherapie sowie — bei Läsionen des oberen motorischen Neurons — Elektrotherapie zum Standardrepertoire, ergänzt um Dekubitusprophylaxe, Blasenmanagement und intensive persönliche Zuwendung. Bei Paraparese mit Läsion des unteren motorischen Neurons wird das passive Bewegen gezielt als Beuge-Streck-Bewegung durchgeführt. Bei Monoparese bis Monoplegie (z. B. Spinalnervenläsion) kommen zusätzlich ein Stützverband mit Schiene sowie der Schutz der betroffenen Pfote hinzu.",
+      },
+      {
+        type: "text",
+        heading: "Die Ausnahme: wenn Bewegungstherapie kontraindiziert ist",
+        text: "Bei konservativ behandeltem Diskusvorfall mit Instabilität der Wirbelsäule (z. B. Wirbelfraktur/-luxation/-subluxation, atlantoaxiale Subluxation) gilt ein grundsätzlich anderes Prinzip: strikte Boxenruhe, allenfalls Massage und passives Bewegen mit größter Vorsicht. Hier steht nicht die Mobilisierung, sondern die Vermeidung einer sekundären mechanischen Schädigung der instabilen Wirbelsäule im Vordergrund — eine Kategorie, bei der dieselbe Bewegungstherapie, die bei Tetra-/Paraparese das Mittel der Wahl ist, zur Gefahr werden kann.",
+      },
+      {
+        type: "table",
+        heading: "Neurologische Indikationen für Physiotherapie (Übersicht)",
+        columns: ["Bewegungsstörung", "Rehabilitationsmaßnahmen"],
+        rows: [
+          [
+            "Tetraparese bis Tetraplegie (z. B. zervikale Diskopathie, Polyradikuloneuritis)",
+            "Massage, passive Bewegung, aktive Bewegung, Gangschulung, Stützgestell, Hydrotherapie, Elektrotherapie (bei UMN-Läsion), Dekubitusprophylaxe, Blasenmanagement, persönliche Zuwendung",
+          ],
+          [
+            "Paraparese bis Paraplegie (z. B. degenerative Myelopathie, Rückenmarksinfarkt, Diskopathie, ischämische Neuromyopathie)",
+            "Massage, passive Bewegung (Beuge-Streck-Bewegung bei UMN-Läsion), aktive Bewegung, Gangschulung, Hydrotherapie, Elektrotherapie (UMN-Läsion), Dekubitusprophylaxe, Blasenmanagement, persönliche Zuwendung",
+          ],
+          [
+            "Konservativ behandelter Diskusvorfall mit Wirbelsäuleninstabilität (z. B. Wirbelfraktur/-luxation/-subluxation, atlantoaxiale Subluxation)",
+            "strikte Boxenruhe, Massage und passive Bewegung nur mit größter Vorsicht",
+          ],
+          [
+            "Monoparese bis Monoplegie (z. B. Spinalnervenläsion)",
+            "Massage, passive Bewegung, aktive Bewegung, Gangschulung, Hydrotherapie, Elektrotherapie, Stützverband mit Schiene, Pfotenschutz, persönliche Zuwendung",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum diese Übersicht keine Diagnosetabelle ersetzt",
+        text: "Diese Übersicht ordnet Rehabilitationsmaßnahmen dem Lähmungsmuster (Tetra-/Para-/Monoparese) und der UMN-/OMN-Zuordnung zu — sie ersetzt nicht die eigentliche Diagnosestellung und Lokalisation der zugrunde liegenden Erkrankung, die weiterhin über die neurologische Untersuchung erfolgen muss (siehe die bestehenden Einträge zu UMN-/OMN-Läsionslokalisation und Reflexbefunden). Sie beantwortet erst die nachgelagerte Frage: Ist die Diagnose einmal gestellt, welches Maßnahmenbündel ist angezeigt — und ist Bewegungstherapie in diesem konkreten Fall überhaupt angezeigt, oder (wie bei Wirbelsäuleninstabilität) gerade kontraindiziert?",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13, Tab. 13.7 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Die vollständige Übersichtstabelle mit allen vier Kategorien und ihren jeweiligen Rehabilitationsmaßnahmen ist im Original so beschrieben. Kein bestehender Eintrag ordnet Rehabilitationsmaßnahmen bisher systematisch nach Lähmungsmuster zu — die bestehenden Einträge zu UMN-/OMN-Lokalisation und einzelnen Krankheitsbildern (z. B. Rückenmarksinfarkt, thorakolumbaler Bandscheibenvorfall) behandeln jeweils Diagnostik/Pathologie einzelner Erkrankungen, nicht die übergreifende Rehabilitationsmaßnahmen-Zuordnung — bewusst nicht dupliziert, sondern als praktische Entscheidungshilfe ergänzt. Die im selben Kapitel im Detail besprochenen Einzelkrankheiten (Kippfenstersyndrom, Polyradikuloneuritis, Diskushernie, Kopftrauma, Wirbelfraktur, Spinalnerventrauma, atlantoaxiale Subluxation, degenerative Myelopathie) wurden bewusst noch nicht in eigene Einträge umgesetzt, da eine sorgfältige Duplikations- und Widerspruchsprüfung gegen die bereits vorhandene VetCenter-Quelle „Wirbelsäulenerkrankungen“ sowie gegen Koch/Fischer aussteht (siehe dazu den bereits identifizierten Quellenkonflikt beim Rückenmarksinfarkt-Eintrag zu Altersprädisposition und Kortikosteroidnutzen) — Details siehe Roadmap-Backlog.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
   },
 ];
 

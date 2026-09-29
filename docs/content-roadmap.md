@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 256 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
-  Untersuchung, 88 Pathologie, 65 Biomechanik, 38 Therapie — genaue
+- Wissensbibliothek: 257 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
+  Untersuchung, 88 Pathologie, 65 Biomechanik, 39 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -383,7 +383,37 @@ kein Überblick verloren geht.
   weitere im Kapitel beschriebene Sonderformen mit geringerem
   Alleinstellungswert gegenüber den bereits abgedeckten Verfahren —
   als Backlog-Punkt für eine mögliche spätere Ergänzung vermerkt, siehe
-  Alexander-Abschnitt unten).
+  Alexander-Abschnitt unten). Danach die neurologische Rehabilitations-
+  Sektion des Indikationen-Kapitels begonnen: die Übersichtstabelle
+  „Neurologische Indikationen für Physiotherapie" (Tab. 13.7) als neuer
+  Eintrag `neurologische-rehabilitation-uebersicht-nach-laehmungsmuster`
+  umgesetzt (Rehabilitationsmaßnahmen nach Lähmungsmuster
+  Tetra-/Para-/Monoparese, inkl. der Ausnahme „strikte Boxenruhe statt
+  Bewegungstherapie" bei instabiler Wirbelsäule). Beim anschließenden
+  Abschnitt „Rückenmarksinfarkt" zeigte sich ein **Quellenkonflikt**: Diese
+  ältere Quelle (2003) nennt eine Altersprädisposition für alte Hunde und
+  empfiehlt Kortikosteroide (Methylprednisolon/Dexamethason) gegen
+  sekundäre Ödembildung — beides widerspricht dem bereits verifizierten,
+  neueren und spezialisierteren Eintrag `rueckenmarksinfarkt-
+  fibrokartilaginoese-embolie` (Koch/Fischer 2019: jungadulte Hunde,
+  Kortikosteroide explizit wirkungslos). Beide widersprüchlichen Angaben
+  wurden bewusst NICHT übernommen; stattdessen wurde der bestehende
+  Eintrag nur um zwei unstrittige, neue Fakten aus Alexander ergänzt: den
+  Grau-Substanz-Mechanismus der Tiefensensibilitäts-Erhaltung trotz
+  schwerer Motorik-Ausfälle (zusätzliches Differenzierungskriterium zur
+  Kompression) sowie ein konkretes physiotherapeutisches
+  Rehabilitationsprotokoll (Frequenz/Dauer von Massage, Schwimmtraining,
+  Elektrostimulation, Stützgestell; ø 2 Wochen Rehabilitationsdauer). Der
+  Quellenkonflikt selbst ist ausführlich im `sourceStatus` dieses Eintrags
+  dokumentiert. **Wichtige Lehre für die weitere Bearbeitung dieses
+  Kapitels:** Die übrigen, noch nicht ausgewerteten Einzelkrankheiten
+  (Kippfenstersyndrom, Polyradikuloneuritis, Diskushernie, Kopftrauma,
+  Wirbelfraktur, Spinalnerventrauma, atlantoaxiale Subluxation,
+  degenerative Myelopathie) müssen vor Umsetzung ebenso sorgfältig gegen
+  bereits bestehende Einträge (v. a. aus VetCenter „Wirbelsäulenerkrankungen"
+  und Koch/Fischer) auf Widersprüche geprüft werden, nicht nur auf reine
+  Doppelung — ältere Therapieempfehlungen dieser Quelle sind mit Vorsicht
+  zu behandeln.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -744,19 +774,39 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       (THERAPIE) und `geriatrischer-hund-alterungsmechanismen-
       rassenabhaengige-lebenserwartung` (PATHOLOGIE) — Details siehe
       Stand-Abschnitt oben.
-- [ ] **Noch offen:** die umfangreiche neurologische Rehabilitations-Sektion
+- [x] **Neurologische Indikationen — Übersichtstabelle umgesetzt (29.09.2026).**
+      Tab. 13.7 „Neurologische Indikationen für Physiotherapie" als neuer
+      Eintrag `neurologische-rehabilitation-uebersicht-nach-laehmungsmuster`
+      (THERAPIE) umgesetzt.
+- [x] **Rückenmarksinfarkt gegengelesen — Quellenkonflikt gefunden und
+      dokumentiert (29.09.2026).** Diese Quelle (2003) widerspricht dem
+      bestehenden, neueren Eintrag `rueckenmarksinfarkt-
+      fibrokartilaginoese-embolie` (Koch/Fischer 2019) in zwei Punkten:
+      Altersprädisposition (alt vs. jungadult) und Kortikosteroidnutzen
+      (empfohlen vs. explizit wirkungslos). Beide widersprüchlichen
+      Angaben wurden NICHT übernommen. Stattdessen wurde der bestehende
+      Eintrag um zwei unstrittige neue Fakten ergänzt: den
+      Grau-Substanz-Mechanismus der Tiefensensibilitäts-Erhaltung sowie
+      ein konkretes physiotherapeutisches Rehabilitationsprotokoll
+      (Frequenz/Dauer der Maßnahmen, ø 2 Wochen Rehabilitationsdauer).
+      Der Konflikt ist vollständig im `sourceStatus` dieses Eintrags
+      dokumentiert.
+- [ ] **Noch offen — mit Quellenkonflikt-Warnung:** die übrigen
+      Einzelkrankheiten der neurologischen Rehabilitations-Sektion
       (Kippfenstersyndrom, akute idiopathische Polyradikuloneuritis,
       Diskushernie/-prolaps, Kopftrauma, Wirbelfraktur/-luxation/
       -subluxation, Spinalnerventrauma, atlantoaxiale Subluxation,
-      degenerative Myelopathie) — vor Umsetzung in Einträge muss geprüft
-      werden, ob dieses Kapitel gegenüber der bereits vollständig
-      ausgewerteten VetCenter-Quelle „Wirbelsäulenerkrankungen" (dieselben
-      Krankheitsbilder dort schon diagnostisch abgedeckt) tatsächlich neue
-      Rehabilitations-/Physiotherapie-spezifische Fakten beisteuert, statt
-      nur dieselben Diagnosen zu wiederholen. Ebenfalls noch offen: der
-      Abschnitt „Gelenkfehlstellung" (Tab. 13.12, ab Zeile 2134) sowie der
-      allgemeine „Arthrosepatient"-Abschnitt (Tab. 13.6, teilweise bereits
-      in `schmerzpatient-klassifikation-vier-schmerztypen-therapiewahl`
+      degenerative Myelopathie) — vor Umsetzung in Einträge muss jede
+      einzelne sowohl auf Dopplung mit der bereits vollständig
+      ausgewerteten VetCenter-Quelle „Wirbelsäulenerkrankungen" als auch
+      — wichtiger noch, siehe der Rückenmarksinfarkt-Fund oben — auf
+      inhaltliche Widersprüche zu bereits verifizierten neueren Quellen
+      geprüft werden, bevor Therapieempfehlungen (insbesondere
+      Medikamentendosierungen) aus dieser Quelle übernommen werden.
+      Ebenfalls noch offen: der Abschnitt „Gelenkfehlstellung" (Tab. 13.12,
+      ab Zeile 2134) sowie der allgemeine „Arthrosepatient"-Abschnitt
+      (Tab. 13.6, teilweise bereits in
+      `schmerzpatient-klassifikation-vier-schmerztypen-therapiewahl`
       verwertet, aber nicht vollständig).
 
 #### Kapitel „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken" (C.-S. Alexander)
