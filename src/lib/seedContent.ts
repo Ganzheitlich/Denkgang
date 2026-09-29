@@ -11878,6 +11878,40 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
+  {
+    id: "akute-idiopathische-polyradikuloneuritis-aufsteigende-laehmung",
+    category: "PATHOLOGIE",
+    title: "Akute idiopathische Polyradikuloneuritis: aufsteigende Lähmung mit erhaltenem Schmerzempfinden",
+    teaser:
+      "Die häufigste Polyneuropathie des Hundes beginnt in der Hinterhand und wandert binnen 1–2 Tagen nach vorne — während die spinalen Reflexe verschwinden, bleibt die Schmerzempfindung fast immer vollständig erhalten.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eine entzündliche Erkrankung der Nervenwurzeln, vermutlich autoimmun",
+        text: "Die akute idiopathische Polyradikuloneuritis ist die häufigste Polyneuropathie beim Hund und betrifft überwiegend Tiere älter als 6 Monate. Es handelt sich um eine entzündliche Erkrankung des peripheren Nervensystems mit Schwerpunkt auf den proximalen Nervenwurzeln. Die Ursache ist im Einzelfall unbekannt, vermutet werden autoimmune Mechanismen ähnlich dem humanen Guillain-Barré-Syndrom, mit banalen Infektionen oder Impfungen als möglichen Auslösern. In Nordamerika wurde eine besondere Verlaufsform häufig im Zusammenhang mit Waschbärbissen beobachtet (Coonhound-Paralysis).",
+      },
+      {
+        type: "text",
+        heading: "Das charakteristische Muster: aufsteigend, mit einer auffälligen Dissoziation",
+        text: "Die Symptome setzen akut zuerst in der Nachhand ein, mit progressiver Parese bis Plegie, die nach 24–48 Stunden auch die Vordergliedmaßen erfasst (ein Beginn in der Vorhand ist sehr selten). Kopfnerven sind selten betroffen, gelegentlich mit Stimmveränderungen, Schluck-/Kaubeschwerden oder Fazialisparese. Klinisch auffällig ist eine deutliche Dissoziation: Die spinalen Reflexe sind sehr schwach bis abwesend, während die Schmerzempfindung dabei fast immer völlig intakt bleibt — bei Palpation der Nerven kann sogar Schmerz oder Hyperästhesie ausgelöst werden. In sehr schweren, aber seltenen Fällen sind Interkostalnerven und N. phrenicus mitbetroffen, was zu Atemlähmung oder Aspirationspneumonie führen kann.",
+      },
+      {
+        type: "text",
+        heading: "Diagnose und Prognose: meist gut, aber mit möglichem Rückfall",
+        text: "Die Diagnose stützt sich auf Vorgeschichte, klinisch-neurologische Untersuchung und Elektrodiagnostik: Das EMG zeigt positive scharfe Wellen und Fibrillationspotentiale als Ausdruck einer diffusen Denervation (im frühen Stadium kann es noch normal sein), die motorische Nervenleitgeschwindigkeit ist normal bis herabgesetzt, der Liquor zeigt häufig eine leichte Proteinerhöhung. Bei entsprechend aufwendiger Pflege ist die Prognose gut — die meisten Tiere erholen sich spontan, auch wenn ein Teil der Muskelatrophie permanent bestehen bleiben kann. Rezidive sind möglich (chronisch-rezidivierende Verlaufsform). Eine spezifische Therapie existiert nicht; die Behandlung ist supportiv (Unterstützung bei Fressen/Trinken/Harn-/Kotabsatz, weiche Lagerung mit Wendung alle 4–6 Stunden zur Dekubitus- und Pneumonieprophylaxe, intensives Monitoring bei Atemproblemen).",
+      },
+      {
+        type: "text",
+        heading: "Das physiotherapeutische Rehabilitationsprotokoll",
+        text: "Der Funktionsrückgewinn wird anhand von spinalen Reflexen und Willkürbewegungen überwacht. Gegen die drohende Muskelatrophie wird intensive Physiotherapie eingesetzt: mindestens 3- bis 5-mal täglich für 10–15 Minuten Massage sowie passive und aktive Bewegung, ergänzt durch Hydro- und Elektrotherapie. Die Patienten verbringen zusätzlich 2–4 Stunden täglich in einem Stützgestell, und mit Gangschulung sowie selbständigem Laufen wird so früh wie möglich begonnen. Die Regenerationszeit variiert stark — von wenigen Wochen bis zu mehreren Monaten.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Akute idiopathische Polyradikuloneuritis“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Ätiologie/Pathogenese, das aufsteigende Lähmungsmuster mit der Reflex-Schmerz-Dissoziation, die EMG-Diagnostik, Prognose sowie das physiotherapeutische Rehabilitationsprotokoll (Frequenz/Dauer von Massage, Bewegung, Stützgestell) sind im Original so beschrieben. Bewusst NICHT übernommen: die im Original genannte Kortikosteroidgabe in den ersten 10 Tagen — diese ältere (2003), unspezifisch begründete Therapieempfehlung wird hier mangels unabhängiger neuerer Verifizierung nicht als Fakt wiedergegeben (dieselbe Vorsicht, die bereits beim Quellenkonflikt zum Rückenmarksinfarkt-Eintrag dieser Quelle angewendet wurde). Kein bestehender Eintrag deckt diese Erkrankung bisher inhaltlich ab — bisherige Erwähnungen (z. B. im Differentialdiagnosen-Eintrag zur Rückenmarkkompression) sind reine Namensnennungen ohne klinische Beschreibung.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

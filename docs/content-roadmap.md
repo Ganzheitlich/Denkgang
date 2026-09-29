@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 257 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
-  Untersuchung, 88 Pathologie, 65 Biomechanik, 39 Therapie — genaue
+- Wissensbibliothek: 258 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
+  Untersuchung, 89 Pathologie, 65 Biomechanik, 39 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -413,6 +413,28 @@ kein Überblick verloren geht.
   bereits bestehende Einträge (v. a. aus VetCenter „Wirbelsäulenerkrankungen"
   und Koch/Fischer) auf Widersprüche geprüft werden, nicht nur auf reine
   Doppelung — ältere Therapieempfehlungen dieser Quelle sind mit Vorsicht
+  zu behandeln. Kippfenstersyndrom danach bewusst übersprungen (katzen-
+  spezifisch, konsistent mit der bereits an anderer Stelle getroffenen
+  Ausschluss-Entscheidung für dieses Krankheitsbild). Die anschließende
+  Akute idiopathische Polyradikuloneuritis dagegen als neuer Eintrag
+  `akute-idiopathische-polyradikuloneuritis-aufsteigende-laehmung`
+  (PATHOLOGIE) umgesetzt — im Original ausdrücklich als „häufigste
+  Polyneuropathie beim Hund" bezeichnet, also entgegen der früheren
+  Einschätzung in einer anderen Quelle nicht seltenheitsspezifisch, und
+  bisher nirgends inhaltlich beschrieben (nur Namensnennung als
+  Differentialdiagnose). Das aufsteigende Lähmungsmuster mit der
+  Reflex-Schmerz-Dissoziation sowie das physiotherapeutische
+  Rehabilitationsprotokoll wurden übernommen; die im Original genannte
+  Kortikosteroidgabe in den ersten 10 Tagen dagegen bewusst nicht — dieselbe
+  Vorsicht wie beim Rückenmarksinfarkt-Quellenkonflikt. Anschließend
+  Diskushernie/-prolaps gelesen und bewusst NICHT umgesetzt: hoher
+  Duplikationsgrad mit den bereits ausführlich bestehenden Einträgen zum
+  thorakolumbalen/zervikalen Bandscheibenvorfall und zur Hansen-I/II-
+  Klassifikation (VetCenter) bestätigt — keine wesentlich neuen Fakten.
+  Kopftrauma, Wirbelfraktur/-luxation/-subluxation, Spinalnerventrauma,
+  atlantoaxiale Subluxation und degenerative Myelopathie bleiben aus
+  Zeitgründen für eine Folgesession offen (siehe Backlog unten) — jeweils
+  mit dem gleichen zweistufigen Prüfschema (Duplikation UND Widerspruch)
   zu behandeln.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
@@ -791,21 +813,31 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       (Frequenz/Dauer der Maßnahmen, ø 2 Wochen Rehabilitationsdauer).
       Der Konflikt ist vollständig im `sourceStatus` dieses Eintrags
       dokumentiert.
-- [ ] **Noch offen — mit Quellenkonflikt-Warnung:** die übrigen
-      Einzelkrankheiten der neurologischen Rehabilitations-Sektion
-      (Kippfenstersyndrom, akute idiopathische Polyradikuloneuritis,
-      Diskushernie/-prolaps, Kopftrauma, Wirbelfraktur/-luxation/
-      -subluxation, Spinalnerventrauma, atlantoaxiale Subluxation,
-      degenerative Myelopathie) — vor Umsetzung in Einträge muss jede
-      einzelne sowohl auf Dopplung mit der bereits vollständig
-      ausgewerteten VetCenter-Quelle „Wirbelsäulenerkrankungen" als auch
-      — wichtiger noch, siehe der Rückenmarksinfarkt-Fund oben — auf
-      inhaltliche Widersprüche zu bereits verifizierten neueren Quellen
-      geprüft werden, bevor Therapieempfehlungen (insbesondere
-      Medikamentendosierungen) aus dieser Quelle übernommen werden.
-      Ebenfalls noch offen: der Abschnitt „Gelenkfehlstellung" (Tab. 13.12,
-      ab Zeile 2134) sowie der allgemeine „Arthrosepatient"-Abschnitt
-      (Tab. 13.6, teilweise bereits in
+- [x] **Kippfenstersyndrom geprüft und bewusst übersprungen (29.09.2026):**
+      katzenspezifisch (feline Aortenthrombose kombiniert mit Klemmtrauma),
+      konsistent mit der bereits früher getroffenen Ausschluss-Entscheidung
+      für dieses Krankheitsbild in einer anderen Quelle.
+- [x] **Akute idiopathische Polyradikuloneuritis umgesetzt (29.09.2026)** als
+      `akute-idiopathische-polyradikuloneuritis-aufsteigende-laehmung`
+      (PATHOLOGIE) — die häufigste Polyneuropathie des Hundes, bisher ohne
+      eigenen Eintrag. Kortikosteroidgabe aus der Quelle bewusst nicht
+      übernommen (ungeprüft gegen neuere Literatur).
+- [x] **Diskushernie/-prolaps gelesen, bewusst nicht umgesetzt (29.09.2026):**
+      hoher Duplikationsgrad mit den bereits bestehenden, ausführlichen
+      Einträgen zum thorakolumbalen/zervikalen Bandscheibenvorfall und zur
+      Hansen-I/II-Klassifikation (VetCenter) bestätigt.
+- [ ] **Noch offen — mit Quellenkonflikt-Warnung:** Kopftrauma,
+      Wirbelfraktur/-luxation/-subluxation, Spinalnerventrauma,
+      atlantoaxiale Subluxation und degenerative Myelopathie — vor
+      Umsetzung in Einträge muss jede einzelne sowohl auf Dopplung mit der
+      bereits vollständig ausgewerteten VetCenter-Quelle
+      „Wirbelsäulenerkrankungen" als auch — wichtiger noch, siehe der
+      Rückenmarksinfarkt-Fund oben — auf inhaltliche Widersprüche zu
+      bereits verifizierten neueren Quellen geprüft werden, bevor
+      Therapieempfehlungen (insbesondere Medikamentendosierungen) aus
+      dieser Quelle übernommen werden. Ebenfalls noch offen: der Abschnitt
+      „Gelenkfehlstellung" (Tab. 13.12, ab Zeile 2134) sowie der allgemeine
+      „Arthrosepatient"-Abschnitt (Tab. 13.6, teilweise bereits in
       `schmerzpatient-klassifikation-vier-schmerztypen-therapiewahl`
       verwertet, aber nicht vollständig).
 
