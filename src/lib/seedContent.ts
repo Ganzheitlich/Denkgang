@@ -5568,10 +5568,15 @@ const KNOWLEDGE: KnowledgeSeed[] = [
         heading: "Abgrenzung von der DLSS",
         text: "DM und DLSS überschneiden sich klinisch (beide: langsam progrediente Hinterhandschwäche beim älteren, oft großen Hund), unterscheiden sich aber deutlich: DLSS zeigt Rückenschmerz und Reflexbefunde des unteren Motoneurons (Cauda-equina-Kompression), DM ist meist schmerzlos mit Reflexbefunden des oberen Motoneurons (intramedulläre Axondegeneration). Diese Unterscheidung ist klinisch relevant, weil DLSS operativ dekomprimiert werden kann, DM dagegen nicht.",
       },
+      {
+        type: "text",
+        heading: "Das konkrete physiotherapeutische Vorgehen",
+        text: "Da keine wirksame Therapie existiert, ist es das realistische Ziel der Physiotherapie, die Zeit bis zur vollständigen Lähmung und damit bis zur Euthanasie um Monate hinauszuzögern — nicht die Erkrankung aufzuhalten. Bewährt haben sich mehrmals tägliche manuelle Physiotherapie und Massage der Hintergliedmaßen sowie regelmäßige, aber kurze Spaziergänge (bei Bedarf mit Bauchschlinge unterstützt), um den Hund in Bewegung zu halten. Da betroffene Hunde durch ausgeprägtes Zehenschleifen trotz Gehfähigkeit schwere Hautverletzungen erleiden können, ist Pfotenschutz wichtig — Spaziergänge sollten deshalb bevorzugt auf Wiesen oder anderem weichen Untergrund stattfinden. Besteht die Möglichkeit zum regelmäßigen Schwimmen, sollte diese unbedingt genutzt werden.",
+      },
     ],
     errorTags: ["Anatomieverwechslung", "Faktenwissen", "Differentialdiagnostik unvollständig", "Befund überbewertet"],
     sourceStatus:
-      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.3 (Degenerative Myelopathie), S. 232. Ätiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.5, Kap. 7.10.2) um die volle klinische Tiefe aus Kapitel 9.",
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.3 (Degenerative Myelopathie), S. 232. Ätiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.5, Kap. 7.10.2) um die volle klinische Tiefe aus Kapitel 9. Ergänzt (29.09.2026) um das konkrete physiotherapeutische Vorgehen aus Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Degenerative Myelopathie“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984) — diese ältere Quelle nennt die Ursache noch als ungeklärt (vor Entdeckung der SOD1-Mutation 2009), was keinen Widerspruch, sondern lediglich einen durch das Publikationsdatum bedingten Wissensstand darstellt; das hier übernommene physiotherapeutische Vorgehen selbst steht nicht im Widerspruch zur oben verifizierten Quelle.",
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
@@ -10015,10 +10020,15 @@ const KNOWLEDGE: KnowledgeSeed[] = [
         heading: "Das diagnostische Zeichen: eine Lücke, die sich verdoppelt bis verdreifacht",
         text: "Die Diagnosesicherung beginnt mit einer laterolateralen Übersichtsaufnahme am unsedierten Hund. Erst wenn eine Wirbelfraktur röntgenologisch ausgeschlossen ist, wird der Kopf des anästhesierten Patienten vorsichtig abgebeugt: Bei bestehender Instabilität weicht der kammförmige Dornfortsatz des Axis dabei auf das 2- bis 3-Fache des normalen Abstands vom dorsalen Atlasbogen zurück — genau diese kontrollierte, unter Röntgenkontrolle provozierte Abstandsvergrößerung sichert die Diagnose.",
       },
+      {
+        type: "text",
+        heading: "Warum bei Verdacht jede Manipulation der Halswirbelsäule zum Notfallrisiko wird",
+        text: "Solange eine atlantoaxiale Subluxation im Raum steht, muss die Halswirbelsäule bei jeder Untersuchung oder Handhabung (etwa auch bei einer Jugularvenenpunktion) mit größtmöglicher Vorsicht behandelt werden — schon geringster zusätzlicher Kraftaufwand kann zur vollständigen Luxation von C1–C2 und damit zum Tod des Patienten führen. Einzig die chirurgische Stabilisierung von C1–C2 bietet Aussicht auf Erfolg; postoperativ folgen sechs Wochen strikte Boxenruhe mit Halskrause. Physiotherapeutische Maßnahmen wie Massage, passive Bewegung und Schwimmen sind dennoch unverzichtbar, um Muskelatrophie und Kontrakturen zu vermeiden — sie müssen aber ebenso unter größter Vorsicht durchgeführt werden wie die Diagnostik selbst.",
+      },
     ],
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen"],
     sourceStatus:
-      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Atlantoaxiale Subluxation beim Hund. Die entwicklungsbedingte Ätiologie (Densanomalie plus Bandinstabilität), die Rasseprädisposition, die Altersstatistik, das klinische Spektrum, die Differentialdiagnosen sowie die diagnostische Flexionsaufnahme mit dem 2- bis 3-fachen Abstandszeichen sind in der Quelle so beschrieben. Ergänzt den bestehenden Eintrag `obere-hws-instabilitaet-dens-warnsignale` (Hárrer, manualtherapeutische Warnsignale) um die entwicklungsbedingte Ätiologie und die klinisch-radiologische Diagnosesicherung.",
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Atlantoaxiale Subluxation beim Hund. Die entwicklungsbedingte Ätiologie (Densanomalie plus Bandinstabilität), die Rasseprädisposition, die Altersstatistik, das klinische Spektrum, die Differentialdiagnosen sowie die diagnostische Flexionsaufnahme mit dem 2- bis 3-fachen Abstandszeichen sind in der Quelle so beschrieben. Ergänzt den bestehenden Eintrag `obere-hws-instabilitaet-dens-warnsignale` (Hárrer, manualtherapeutische Warnsignale) um die entwicklungsbedingte Ätiologie und die klinisch-radiologische Diagnosesicherung. Ergänzt (29.09.2026) um das therapeutische Vorgehen (chirurgische Stabilisierung als einzige erfolgversprechende Option, postoperative Nachsorge, vorsichtige Physiotherapie) aus Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Atlanto-axiale Subluxation“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984).",
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
@@ -10975,10 +10985,15 @@ const KNOWLEDGE: KnowledgeSeed[] = [
         heading: "Warum dieselbe Symptomkombination unterschiedliche Therapieentscheidungen verlangt",
         text: "Ein Horner-Syndrom ist nie automatisch dasselbe Problem. Entsteht es durch ein Trauma des unteren Plexus brachialis, sind am zervikothorakalen Übergang vorsichtige Mobilisationstechniken (z. B. Piccolotraktionen), Weichteiltechniken sowie physikalische Maßnahmen wie Wärme, Magnetfeld-, Elektro- und Lasertherapie indiziert. Liegt der Ursache dagegen z. B. eine Mittelohrentzündung zugrunde, muss diese zunächst tierärztlich behandelt werden — und ausgerechnet im akuten Stadium ist mit Wärme und durchblutungsfördernden Maßnahmen Zurückhaltung geboten. Dieselbe Symptomkombination verlangt also je nach zugrunde liegender Ursache nach entgegengesetzten therapeutischen Entscheidungen, nicht nach einem einheitlichen Behandlungsschema.",
       },
+      {
+        type: "text",
+        heading: "Wenn dieselbe Kombination sogar die Prognose entscheidet",
+        text: "Die Kombination aus Horner-Syndrom und gleichzeitigen oberen Motoneuron-Symptomen in der ipsilateralen Hintergliedmaße ist mehr als nur ein Lokalisationskriterium — sie gilt als sicheres Zeichen für einen vollständigen Wurzelabriss (Avulsion) des Plexus brachialis. In diesem Fall ist die Prognose infaust, und die Amputation der betroffenen Gliedmaße bleibt die einzige verbleibende Therapieoption. Diese Symptomkombination markiert damit die Grenze, ab der ein Physiotherapieprogramm keine sinnvolle Behandlungsoption mehr darstellt.",
+      },
     ],
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt"],
     sourceStatus:
-      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.1 (Sympathikus — Anatomie), S. 270–272. Der Segmentursprung des Plexus brachialis (C6–Th2) und der zervikalen sympathischen Fasern (C8–Th7), die daraus resultierende Lokalisationslogik (Horner-Syndrom eher bei tiefer/kaudaler Plexusläsion) sowie die unterschiedlichen Therapieempfehlungen je nach Ursache (Trauma vs. Mittelohrentzündung) sind im Original so beschrieben. Ergänzt den bestehenden Eintrag zu Kopfnerven/Horner-Syndrom (Koch/Fischer, Kap. 7.8) um dieses zusätzliche Lokalisationskriterium sowie den bestehenden Eintrag `plexusschaden-vordergliedmasse` um die Horner-Syndrom-Komponente — bewusst nicht dupliziert.",
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.1 (Sympathikus — Anatomie), S. 270–272. Der Segmentursprung des Plexus brachialis (C6–Th2) und der zervikalen sympathischen Fasern (C8–Th7), die daraus resultierende Lokalisationslogik (Horner-Syndrom eher bei tiefer/kaudaler Plexusläsion) sowie die unterschiedlichen Therapieempfehlungen je nach Ursache (Trauma vs. Mittelohrentzündung) sind im Original so beschrieben. Ergänzt den bestehenden Eintrag zu Kopfnerven/Horner-Syndrom (Koch/Fischer, Kap. 7.8) um dieses zusätzliche Lokalisationskriterium sowie den bestehenden Eintrag `plexusschaden-vordergliedmasse` um die Horner-Syndrom-Komponente — bewusst nicht dupliziert. Ergänzt (29.09.2026) um die prognostische Zuspitzung aus Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Spinalnerventrauma“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984): Horner-Syndrom + ipsilaterale OMN-Symptome der Hintergliedmaße als sicheres Avulsions-Zeichen mit infauster Prognose und Amputation als einziger Therapieoption.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
@@ -11911,6 +11926,181 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Akute idiopathische Polyradikuloneuritis“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Ätiologie/Pathogenese, das aufsteigende Lähmungsmuster mit der Reflex-Schmerz-Dissoziation, die EMG-Diagnostik, Prognose sowie das physiotherapeutische Rehabilitationsprotokoll (Frequenz/Dauer von Massage, Bewegung, Stützgestell) sind im Original so beschrieben. Bewusst NICHT übernommen: die im Original genannte Kortikosteroidgabe in den ersten 10 Tagen — diese ältere (2003), unspezifisch begründete Therapieempfehlung wird hier mangels unabhängiger neuerer Verifizierung nicht als Fakt wiedergegeben (dieselbe Vorsicht, die bereits beim Quellenkonflikt zum Rückenmarksinfarkt-Eintrag dieser Quelle angewendet wurde). Kein bestehender Eintrag deckt diese Erkrankung bisher inhaltlich ab — bisherige Erwähnungen (z. B. im Differentialdiagnosen-Eintrag zur Rückenmarkkompression) sind reine Namensnennungen ohne klinische Beschreibung.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
+  },
+  {
+    id: "kopftrauma-coup-contrecoup-verzoegerte-symptome",
+    category: "PATHOLOGIE",
+    title: "Kopftrauma: Coup-Contrecoup-Mechanismus und die tückische Latenz von Blutungen",
+    teaser:
+      "Das Gehirn schwimmt lose in der Schädelkapsel — ein Aufprall kann deshalb auch auf der gegenüberliegenden Seite Schaden anrichten, und die schlimmsten Symptome zeigen sich manchmal erst Stunden später.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum ein Schlag auf eine Seite auch die andere Seite schädigen kann",
+        text: "Da das Gehirn nicht fest mit der Schädelkapsel verbunden ist, sondern in ihr „herumschwimmt“, kann ein Trauma nicht nur am Ort der Gewalteinwirkung (Coup) eine direkte Schädigung des Gehirnparenchyms (Lazeration, Kontusion) verursachen, sondern auch an der gegenüberliegenden Stelle (Contrecoup) — die Hirnmasse wird innerhalb der Schädelkapsel den Beschleunigungskräften des Aufpralls ausgesetzt. Bei einer Gehirnerschütterung (Commotio cerebri) tritt eine tiefe, aber vorübergehende Bewusstlosigkeit durch rein funktionelle Störungen des Gehirnparenchyms auf, ohne dass morphologische Veränderungen sichtbar wären.",
+      },
+      {
+        type: "text",
+        heading: "Die eigentliche Gefahr: ein sich selbst verstärkender Druckanstieg",
+        text: "Das größte Problem beim Kopftrauma sind starke intrakranielle Blutungen: Die Ansammlung von Blut in der starren Schädelkalotte führt zu intrakraniellem Druckanstieg und setzt damit einen Circulus vitiosus in Gang. Durch diesen Druckanstieg kann es zu einer subtentoriellen Hernie kommen — Anteile des okzipitalen Großhirns werden unter dem Tentorium cerebelli hindurchgedrückt und komprimieren den Hirnstamm, eine lebensbedrohliche Situation. Bemerkenswert im Vergleich zur Humanmedizin: Wegen der anatomischen Verhältnisse tritt diese Komplikation beim Menschen deutlich früher ein als bei Hund und Katze.",
+      },
+      {
+        type: "text",
+        heading: "Warum eine einmalige Untersuchung nicht ausreicht",
+        text: "Neurologische Symptome treten meist unmittelbar nach dem Trauma auf, können aber auch erst Stunden oder Tage später erscheinen — ein Hinweis auf eine sich entwickelnde Blutung. Eine wiederholte neurologische Untersuchung in den ersten Stunden nach dem Unfall ist deshalb unerlässlich, um eine Progression rechtzeitig zu erfassen; die Pupillen sind dabei ein besonders wichtiger Indikator für einen intrakraniellen Druckanstieg. Therapeutisch gilt dasselbe Prinzip wie beim Rückenmarkstrauma: Sekundärschäden durch Druckanstieg müssen vorgebeugt werden, wobei entsprechende Maßnahmen innerhalb weniger Stunden Wirkung zeigen sollten — bleibt der Effekt aus, verschlechtert sich die Prognose.",
+      },
+      {
+        type: "text",
+        heading: "Physiotherapie: sanfte Manipulation als Sicherheitsprinzip",
+        text: "Nach dramatischen Ausfallerscheinungen erholen sich Tiere nach Schädeltrauma erstaunlich oft innerhalb von Wochen oder Monaten gut — vorausgesetzt, die Besitzer sind zu wochenlanger Pflege und Physiotherapie bereit. Bei bewusstlosen Patienten ist regelmäßiges Wenden für die beidseitige Lungenbelüftung und Dekubitusprophylaxe zentral, ergänzt durch adäquates Blasenmanagement. Sobald der Patient stabilisiert ist, beginnt vorsichtige Physiotherapie mit passiver Bewegung und Massage — das Tier darf dabei aber nur sehr sanft manipuliert werden, da Erschütterung erneute intrakranielle Blutungen auslösen kann. Erst später folgen Traggestell, Hydrotherapie und Gangschulung, mit einer Belastung, die laufend an den aktuellen Zustand angepasst wird. Bei Großhirnläsionen sind Spätfolgen bis zu mehreren Jahren nach dem Unfall möglich, etwa eine posttraumatische Epilepsie durch Narbenbildung im Gehirnparenchym.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Kopftrauma“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Der Coup-Contrecoup-Mechanismus, die Commotio-cerebri-Definition, die subtentorielle Hernie samt Spezies-Vergleich zur Humanmedizin, die Bedeutung wiederholter Untersuchungen und der Pupillen als ICP-Indikator sowie das physiotherapeutische Vorsichtsprinzip (sanfte Manipulation wegen Nachblutungsgefahr) und die mögliche Spätfolge posttraumatischer Epilepsie sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher Kopf-/Hirntrauma ab — die bereits vollständig ausgewertete VetCenter-Quelle „Wirbelsäulenerkrankungen“ behandelt ausschließlich Wirbelsäule/Rückenmark, nicht das Gehirn.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "wirbelfraktur-luxation-uebergangszonen-verletzungsklassifikation",
+    category: "PATHOLOGIE",
+    title: "Wirbelfraktur und -luxation: warum gerade die Übergangszonen der Wirbelsäule betroffen sind",
+    teaser:
+      "Nicht jeder Wirbelsäulenabschnitt bricht gleich häufig — die Übergänge zwischen beweglichen und starren Abschnitten sind die mechanischen Schwachstellen, an denen Kräfte sich konzentrieren.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum ausgerechnet die Übergangszonen betroffen sind",
+        text: "Bei Hund und Katze sind im Zusammenhang mit schweren Traumata/Polytraumata bevorzugt die Übergänge zwischen „beweglichen“ und „starren“ Abschnitten der Wirbelsäule von Frakturen, Luxationen und Subluxationen betroffen: hochzervikal (Kopf–C2), tiefzervikal (C6–Th1), thorakolumbal (Th11–L2) und lumbosakral (L5–S3). An diesen Übergängen konzentrieren sich mechanische Kräfte, weil ein beweglicherer und ein starrerer Abschnitt aufeinandertreffen — dasselbe Grundprinzip, das auch andernorts in der Wirbelsäule (etwa am Lig.-intercapitale-Schutzmechanismus) die Verteilung von Verletzungshäufigkeiten mitbestimmt.",
+      },
+      {
+        type: "text",
+        heading: "Drei Verletzungstypen des Rückenmarks selbst",
+        text: "Unabhängig von der knöchernen Verletzung lassen sich Rückenmarksverletzungen in drei Typen einteilen: Rückenmarkserschütterung (Commotio medullae spinalis) — Ausfallerscheinungen durch Erschütterung oder Sauerstoffmangel ohne nachweisbare morphologische Störung, die sich innerhalb von Stunden zurückbilden; Rückenmarksprellung (Contusio medullae spinalis); und Blutung (Laceratio medullae spinalis). Morphologische Veränderungen wie Kontusion oder Lazeration sind nur mittels MRT oder CT darstellbar — ein Normalbefund im reinen Röntgenbild schließt sie nicht aus.",
+      },
+      {
+        type: "text",
+        heading: "Warum der neurologische Befund die Radiologie schlägt",
+        text: "Die Prognose richtet sich in erster Linie nach dem neurologischen Status, erst in zweiter Linie nach dem radiologischen Befund. Zwei Beispiele verdeutlichen das: Ein paraplegischer Patient ohne Tiefensensibilität hat auch bei unauffälligem Röntgenbild eine schlechte Prognose, weil die fehlende Tiefensensibilität bereits eine hochgradige Rückenmarksläsion anzeigt. Umgekehrt hat ein Tier mit nur milder Paraparese und einer Wirbelfraktur ohne Dislokation eine günstige Prognose — obwohl formal eine Fraktur vorliegt. Da polytraumatisierte Patienten mit hochgradiger Parese sich häufig im Schockzustand befinden, ist eine vorliegende Schmerzhaftigkeit oft nicht deutlich erkennbar; ihr Fehlen kann ebenso gut auf eine hochgradige Rückenmarksläsion mit fehlender Tiefensensibilität wie auf den Schock selbst zurückgehen — ein Grund, weshalb die Untersuchung unter größtmöglicher Schonung wiederholt werden muss, statt sich auf einen einzelnen Ersteindruck zu verlassen.",
+      },
+      {
+        type: "text",
+        heading: "Rehabilitation: Muskelatrophie ist unvermeidbar, aber eingrenzbar",
+        text: "Nach Stabilisierung der lebensbedrohlichen Zustände und Festlegung der Läsion richtet sich die Therapie (chirurgisch oder konservativ) nach neurologischem und radiologischem Befund; Blasenmanagement und Dekubitusprophylaxe sind dabei obligat. Das Eintreten von Muskelatrophie lässt sich nicht vollständig verhindern, aber durch regelmäßige Physio- und Hydrotherapie eingrenzen. Große tetraparetische/tetraplegische Hunde verbringen zusätzlich 2–4 Stunden täglich in einem Traggestell. Besitzer müssen sich bei hochgradigen Ausfallerscheinungen auf eine wochen- bis monatelange Pflege einstellen — die Erholung kann dabei erstaunlich gut ausfallen, auch wenn residuelle Ataxien oder Paresen häufig zurückbleiben, ohne die Lebensqualität notwendigerweise relevant einzuschränken.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Wirbelfraktur, -luxation, -subluxation“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Die vier prädisponierten Übergangszonen, die Commotio-/Contusio-/Laceratio-medullae-spinalis-Klassifikation, die beiden konkreten Prognosebeispiele sowie das Rehabilitationsprotokoll sind im Original so beschrieben. Ergänzt gezielt die bereits bestehenden, diagnostisch/prognostisch fokussierten Einträge `spinaler-schock-motoneuron-maskierung-trauma-fruehbefund`, `roentgenbild-nach-wirbelsaeulentrauma-momentaufnahme-grenzen` und `wirbelsaeulentrauma-8-stunden-tiefenschmerz-prognosegrenze` (VetCenter) um die anatomischen Prädilektionsstellen, die Verletzungsklassifikation des Rückenmarks selbst sowie das Rehabilitationsprotokoll — bewusst nicht dupliziert, da diese Aspekte dort nicht behandelt werden.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
+    id: "periphere-nervenlaehmungen-radialis-supraskapularis-ischiadikus",
+    category: "PATHOLOGIE",
+    title: "Periphere Nervenlähmungen der Gliedmaßen: drei charakteristische Muster",
+    teaser:
+      "Radialis-, Supraskapularis- und Ischiadikuslähmung erzeugen jeweils ein eigenes, wiedererkennbares Gangbild — eine davon entsteht nicht selten durch die eigene Spritze des Behandlers.",
+    sections: [
+      {
+        type: "text",
+        heading: "Radialislähmung: proximal und distal unterschiedlich schwer",
+        text: "Der proximale Anteil des N. radialis innerviert den M. triceps — einen der Hauptantigravitationsmuskeln —, der distale Anteil die Extensoren von Carpus und Zehen. Verletzungen treten vor allem im Zusammenhang mit Frakturen der ersten Rippe und Plexusavulsionen auf. Bei proximaler Läsion (oberhalb des Ellbogens) sind sämtliche Extensoren der Vordergliedmaße gelähmt, die Gliedmaße kann nicht belastet werden, der Ellbogen wird in Flexion gehalten und der Trizepsreflex fällt aus. Bei distalerer Läsion (unterhalb des Ellbogens) sind die Bewegungsstörungen deutlich milder — es besteht eine Neigung zum Überköten und Gehen auf dem Fußrücken.",
+      },
+      {
+        type: "text",
+        heading: "Supraskapularislähmung: die Schulterblatt-Instabilität nach direktem Anprall",
+        text: "Häufig nach Anprall gegen einen Gegenstand (z. B. einen Baum) verursacht, fällt bei der Supraskapularislähmung die Innervation der Schulterblattmuskulatur aus. Die Folgen sind Instabilität und Abduktion der Schulter bei Belastung sowie Mühe bei der Vorführung des Beins — ein eigenständiges klinisches Bild, das sich von der Radialis- oder Plexusschädigung unterscheidet.",
+      },
+      {
+        type: "text",
+        heading: "Ischiadikuslähmung: auch eine iatrogene Gefahr",
+        text: "Die Ischiadikuslähmung tritt vor allem im Zusammenhang mit Ilium- und proximalen Femurfrakturen auf — kommt aber auch iatrogen vor, sowohl bei chirurgischen Eingriffen in dieser Region als auch bei intramuskulären Injektionen in den M. semitendinosus oder M. semimembranosus. Die neurologischen Ausfälle umfassen Parese bis Plegie aller Muskeln distal des Kniegelenks mit ständigem Überköten und Nachschleifen des Fußes samt Hautabschürfung am Fußrücken; der Tarsus ist dabei passiv in alle Richtungen frei beweglich. Diese iatrogene Gefahr ist ein konkreter, vermeidbarer Risikofaktor — die Injektionsstelle in der kaudalen Oberschenkelmuskulatur ist entsprechend mit Bedacht zu wählen.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik: Elektrodiagnostik als zentrales Hilfsmittel",
+        text: "Eine exakte klinisch-neurologische und orthopädische Untersuchung lokalisiert die Läsion und bestimmt ihr Ausmaß. Die Elektrodiagnostik ist dabei von großer Bedeutung — vor allem zur Prognoseabschätzung und als Verlaufskontrolle über die Zeit, da sich klinisch ähnlich aussehende Läsionen (Neurapraxie versus Axonotmesis, siehe die bestehende Seddon-Klassifikation) in ihrer Erholungsfähigkeit stark unterscheiden.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Spinalnerventrauma (Monoparese/Monoplegie)“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Die drei klinischen Bilder (Radialis-, Supraskapularis-, Ischiadikuslähmung) mit ihren jeweiligen Verletzungsmechanismen und Ausfallmustern, inkl. der iatrogenen Injektionsgefahr beim Ischiadikus, sind im Original so beschrieben. Ergänzt gezielt die bestehenden Einträge `vordergliedmasse-nerven-radialis-medianus-ulnaris-verlauf` (anatomischer Nervenverlauf) und `plexusschaden-vordergliedmasse` (Plexus-brachialis-spezifisch) um die eigenständigen klinischen Bilder der Supraskapularis- und Ischiadikuslähmung sowie die iatrogene Injektionsgefahr — bewusst nicht dupliziert, da diese beiden Nervenläsionen dort nicht behandelt werden.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "physiotherapie-periphere-nervenlaehmung-protokoll-entscheidungspunkte",
+    category: "THERAPIE",
+    title: "Physiotherapie bei peripherer Nervenlähmung: Protokoll und Entscheidungszeitpunkte",
+    teaser:
+      "Bei einer gelähmten Gliedmaße zählt nicht nur, WAS therapiert wird, sondern WANN spätestens entschieden werden muss, ob eine chirurgische Wiederherstellung oder eine Amputation nötig ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Das Ziel: Durchblutung erhalten, nicht die Nervenfunktion direkt behandeln",
+        text: "Physiotherapie bei peripherer Nervenlähmung kann den geschädigten Nerv selbst nicht reparieren — ihr Ziel ist, die Blutzirkulation in der betroffenen Gliedmaße so gut wie möglich zu erhalten und damit Blutstase und lokale Hypoxie zu vermeiden, die sonst zu Muskelatrophie und Fibrose führen würden. Das Standardprogramm besteht aus Wärme (z. B. heiße Tücher um die denervierte Gliedmaße), Massage, Gelenkmanipulation und Elektrostimulation — alternativ auch ein Whirlpool mit warmem Wasser. Jede dieser Maßnahmen sollte mindestens 3- bis 5-mal täglich für 5–10 Minuten angewendet werden.",
+      },
+      {
+        type: "text",
+        heading: "Schutz vor Folgeschäden: Abschürfungen und Selbstverstümmelung",
+        text: "Wird die Pfote beim Gehen nachgeschleift, muss die Haut aktiv vor Abschürfungen geschützt werden (Lederschuh, Verband). Während der Reinnervation können zudem Parästhesien auftreten — die Tiere benagen dann ihre eigene Gliedmaße und können sich dabei schwere Verletzungen zufügen. Dies muss durch Verbände oder einen Halskragen konsequent unterbunden werden, da eine ansonsten erfolgreich verlaufende Reinnervation sonst durch Selbstverstümmelung zunichtegemacht werden kann.",
+      },
+      {
+        type: "table",
+        heading: "Zeitliche Entscheidungspunkte",
+        columns: ["Zeitpunkt", "Entscheidung"],
+        rows: [
+          ["Nach 1 Monat ohne jede Veränderung des Neurostatus", "chirurgische Exploration und Wiederherstellung des Nervs erwägen"],
+          ["Nach mehreren Monaten ohne Fortschritt, chirurgische Wiederherstellung nicht möglich", "Gelenkversteifung (Arthrodese) oder Sehnentransplantation angezeigt"],
+          ["Nach mehreren Monaten kritischer Beobachtung ohne jede Besserung", "Amputation der Gliedmaße als letzte Möglichkeit"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum diese Zeitpunkte kein starres Schema, sondern eine Eskalationslogik sind",
+        text: "Diese Entscheidungspunkte sind keine automatischen Abbruchkriterien, sondern eine gestufte Eskalation: Solange sich der Neurostatus unter Elektrodiagnostik und wiederholten neurologischen Untersuchungen verbessert, wird die konservative Physiotherapie fortgesetzt. Die Prognose hängt letztlich vom Schweregrad der zugrunde liegenden Nervenschädigung ab (Neurapraxie erholt sich rascher als Axonotmesis, siehe die bestehende Seddon-Klassifikation), von der Distanz der Läsion zum zu innervierenden Muskel — und ganz wesentlich auch von der Bereitschaft des Besitzers, eine monatelange, aufwendige Physiotherapie tatsächlich mitzutragen.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Spinalnerventrauma (Monoparese/Monoplegie)“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Das physiotherapeutische Standardprogramm (Frequenz/Dauer), der Schutz vor Abschürfung und Selbstverstümmelung sowie die drei zeitlichen Entscheidungspunkte (1 Monat/mehrere Monate/kritische Beobachtung) sind im Original so beschrieben. Cross-referenziert die bestehende Seddon-Klassifikation sowie den neuen Eintrag `periphere-nervenlaehmungen-radialis-supraskapularis-ischiadikus` (klinische Bilder) — bewusst nicht dupliziert, sondern um die Behandlungslogik ergänzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "gelenkfehlstellung-kaskade-zweigelenkige-muskeln-hueft-knie",
+    category: "BIOMECHANIK",
+    title: "Warum eine Hüftfehlstellung auch das gesunde Knie krank macht",
+    teaser:
+      "Weil die großen Oberschenkelmuskeln gleichzeitig über Hüfte und Knie ziehen, überträgt sich eine Fehlstellung des einen Gelenks zwangsläufig auf das andere — ein Mechanismus, der auch aus der Humanmedizin bekannt ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der Ausgangspunkt: eine Steilstellung des Hüftgelenks",
+        text: "Bei einer Fehlstellung des Femurkopfes in der Hüftpfanne mit leicht außenrotierter Steilstellung (Antetorsionssyndrom) entsteht im Kniegelenk eine geringfügige Innenrotationsstellung — was für sich genommen bereits zu einer Fehlbelastung des Kniegelenkknorpels führt.",
+      },
+      {
+        type: "text",
+        heading: "Der Übertragungsmechanismus: zweigelenkige Muskeln als Verbindungsstück",
+        text: "Die großen Agonisten/Antagonisten des Oberschenkels sind zweigelenkige Muskeln: Der M. biceps femoris und der M. semitendinosus wirken gleichzeitig als Hüftgelenkstrecker und Kniegelenkbeuger, der M. quadriceps femoris ist Kniegelenkstrecker, wobei sein vierter Kopf (M. rectus femoris) zusätzlich synergistisch als Hüftgelenkbeuger wirkt. Weil diese Muskeln beide Gelenke gleichzeitig überspannen, wird das Kniegelenk bei jeder Bewegung des fehlgestellten Hüftgelenks zusätzlich fehlbelastet — die Hüftproblematik bleibt also nicht auf die Hüfte beschränkt, sondern schädigt über kurz oder lang auch das Kniegelenk.",
+      },
+      {
+        type: "text",
+        heading: "Eine aus der Humanmedizin bekannte Wechselwirkung",
+        text: "Dieses Phänomen ist kein rein veterinärmedizinisches Kuriosum: Aus der Humanmedizin ist bekannt, dass hüftkranke Patienten häufig Gonarthrosen entwickeln, und dass umgekehrt bei am Kniegelenk operierten Patienten oft Hüftgelenkschäden als Spätfolge auftreten. Die biomechanische Kopplung zweier benachbarter Gelenke über zweigelenkige Muskeln wirkt in beide Richtungen.",
+      },
+      {
+        type: "text",
+        heading: "Warum frühzeitiges Eingreifen den Verlauf deutlich verzögern kann",
+        text: "Der passive Bewegungsapparat (Knorpel, Bänder) lässt sich nur durch chondroprotektive Ergänzungsfuttermittel und operative Maßnahmen behandeln. Am aktiven Bewegungsapparat dagegen setzt die physikalische Therapie prophylaktisch-kurativ an: Bei ersten Anzeichen eines Hypertonus der Rückenmuskulatur wird in zyklisch wiederkehrenden Anwendungsserien (5–10 Anwendungen, 2–3 Serien pro Jahr mit 1–2 Anwendungen pro Woche) Massage der Rückenmuskulatur sowie der von der Fehlstellung betroffenen Extremität und ihrer Gegenseite durchgeführt — im Idealfall als Ganzkörpermassage. Das hält die Rückenmuskulatur funktionsfähig für ihre Aufgabe der Gewichtsumverteilung und beugt Schmerzen durch algetischen Muskelhartspann vor. Vor jeder Anwendungsserie werden die vor- und nachgeschalteten Gelenke auf ihre Funktionsfähigkeit geprüft; bestehen noch keine Einschränkungen, wird prophylaktisch passives Bewegen ergänzt, bei bereits bestehenden Kontrakturen zusätzlich Dehnungs- und Traktionsbehandlung bis zur Wiederherstellung des vollen Bewegungsausmaßes.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Kurativ, Gelenkfehlstellung“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13, Tab. 13.12 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Der Kaskadenmechanismus (Hüft-Antetorsion → Knie-Innenrotation → Fehlbelastung über zweigelenkige Muskeln), der humanmedizinische Vergleich sowie das konkrete Behandlungskonzept (Anwendungsfrequenz, Massageumfang, prophylaktisches vs. kuratives Vorgehen) sind im Original so beschrieben. Damit ist auch der Abschnitt „Gelenkfehlstellung“ dieses Kapitels ausgewertet. Kein bestehender Eintrag beschreibt bisher diese spezifische Zwei-Gelenke-Kaskade über zweigelenkige Muskeln als eigenständigen biomechanischen Mechanismus.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["huefte", "quadriceps"],
   },
 ];
 

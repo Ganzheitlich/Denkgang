@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 258 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
-  Untersuchung, 89 Pathologie, 65 Biomechanik, 39 Therapie — genaue
+- Wissensbibliothek: 263 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 68
+  Untersuchung, 92 Pathologie, 66 Biomechanik, 40 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -431,11 +431,39 @@ kein Überblick verloren geht.
   Duplikationsgrad mit den bereits ausführlich bestehenden Einträgen zum
   thorakolumbalen/zervikalen Bandscheibenvorfall und zur Hansen-I/II-
   Klassifikation (VetCenter) bestätigt — keine wesentlich neuen Fakten.
-  Kopftrauma, Wirbelfraktur/-luxation/-subluxation, Spinalnerventrauma,
-  atlantoaxiale Subluxation und degenerative Myelopathie bleiben aus
-  Zeitgründen für eine Folgesession offen (siehe Backlog unten) — jeweils
-  mit dem gleichen zweistufigen Prüfschema (Duplikation UND Widerspruch)
-  zu behandeln.
+  **Die restlichen Abschnitte des Kapitels wurden danach vollständig
+  ausgewertet (29.09.2026), mit dem Ergebnis: Kopftrauma war komplett
+  unbehandeltes Terrain** (die VetCenter-Quelle deckt nur Wirbelsäule/
+  Rückenmark ab, nicht das Gehirn) — neuer Eintrag
+  `kopftrauma-coup-contrecoup-verzoegerte-symptome` (PATHOLOGIE): Coup-
+  Contrecoup-Mechanismus, subtentorielle Hernie mit Spezies-Vergleich zur
+  Humanmedizin, Pupillen als ICP-Indikator, physiotherapeutisches
+  Vorsichtsprinzip gegen Nachblutungen. Wirbelfraktur/-luxation/
+  -subluxation als neuer Eintrag `wirbelfraktur-luxation-uebergangszonen-
+  verletzungsklassifikation` (PATHOLOGIE) ergänzt die bereits
+  ausführlichen VetCenter-Diagnostik-/Prognose-Einträge gezielt um die
+  vier anatomisch prädisponierten Übergangszonen und die Commotio-/
+  Contusio-/Laceratio-medullae-spinalis-Klassifikation — bewusst nicht
+  dupliziert. Spinalnerventrauma lieferte gleich zwei neue Einträge
+  (`periphere-nervenlaehmungen-radialis-supraskapularis-ischiadikus` und
+  `physiotherapie-periphere-nervenlaehmung-protokoll-entscheidungspunkte`)
+  sowie eine Ergänzung des bestehenden Horner-Syndrom-Eintrags um die
+  Avulsions-/Amputations-Prognostik. Atlantoaxiale Subluxation und
+  degenerative Myelopathie waren beide bereits als eigene Einträge
+  vorhanden (VetCenter bzw. Koch/Fischer) und wurden entsprechend nur um
+  die jeweiligen, dort fehlenden Rehabilitationsprotokolle ergänzt statt
+  neu angelegt — bei der DM ausdrücklich mit dem Hinweis, dass die ältere
+  Quelle die Ursache noch als ungeklärt beschreibt (vor der SOD1-
+  Entdeckung 2009), was keinen Widerspruch, sondern nur einen älteren
+  Wissensstand darstellt. Zuletzt der Abschnitt „Gelenkfehlstellung"
+  (Tab. 13.12) als neuer Eintrag
+  `gelenkfehlstellung-kaskade-zweigelenkige-muskeln-hueft-knie`
+  (BIOMECHANIK) umgesetzt: die Übertragung einer Hüftfehlstellung aufs
+  Kniegelenk über zweigelenkige Muskeln, mit dem aus der Humanmedizin
+  bekannten Parallel-Phänomen. **Damit ist das komplette Indikationen-
+  Kapitel (Kap. 13) vollständig ausgewertet — nur Kippfenstersyndrom
+  (katzenspezifisch) und Diskushernie/-prolaps (zu stark duplizierend)
+  wurden bewusst nicht in eigene Einträge umgesetzt.**
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -826,20 +854,36 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       hoher Duplikationsgrad mit den bereits bestehenden, ausführlichen
       Einträgen zum thorakolumbalen/zervikalen Bandscheibenvorfall und zur
       Hansen-I/II-Klassifikation (VetCenter) bestätigt.
-- [ ] **Noch offen — mit Quellenkonflikt-Warnung:** Kopftrauma,
-      Wirbelfraktur/-luxation/-subluxation, Spinalnerventrauma,
-      atlantoaxiale Subluxation und degenerative Myelopathie — vor
-      Umsetzung in Einträge muss jede einzelne sowohl auf Dopplung mit der
-      bereits vollständig ausgewerteten VetCenter-Quelle
-      „Wirbelsäulenerkrankungen" als auch — wichtiger noch, siehe der
-      Rückenmarksinfarkt-Fund oben — auf inhaltliche Widersprüche zu
-      bereits verifizierten neueren Quellen geprüft werden, bevor
-      Therapieempfehlungen (insbesondere Medikamentendosierungen) aus
-      dieser Quelle übernommen werden. Ebenfalls noch offen: der Abschnitt
-      „Gelenkfehlstellung" (Tab. 13.12, ab Zeile 2134) sowie der allgemeine
-      „Arthrosepatient"-Abschnitt (Tab. 13.6, teilweise bereits in
+- [x] **Restliche Kapitel-Abschnitte vollständig ausgewertet (29.09.2026),
+      nach demselben zweistufigen Prüfschema (Duplikation UND Widerspruch):**
+      Kopftrauma als komplett neues Themengebiet identifiziert (VetCenter
+      deckt nur Wirbelsäule/Rückenmark ab) → neuer Eintrag
+      `kopftrauma-coup-contrecoup-verzoegerte-symptome` (PATHOLOGIE).
+      Wirbelfraktur/-luxation/-subluxation → neuer Eintrag
+      `wirbelfraktur-luxation-uebergangszonen-verletzungsklassifikation`
+      (PATHOLOGIE), gezielt um die anatomischen Prädilektionsstellen und
+      die Rückenmarksverletzungs-Klassifikation ergänzt, ohne die
+      bestehenden VetCenter-Diagnostik-/Prognose-Einträge zu duplizieren.
+      Spinalnerventrauma → zwei neue Einträge
+      (`periphere-nervenlaehmungen-radialis-supraskapularis-ischiadikus`,
+      `physiotherapie-periphere-nervenlaehmung-protokoll-entscheidungspunkte`)
+      sowie eine Ergänzung von `horner-syndrom-plexus-brachialis-
+      laesionshoehe` um die Avulsions-/Amputations-Prognostik. Atlantoaxiale
+      Subluxation und degenerative Myelopathie waren beide bereits als
+      eigene Einträge vorhanden — hier wurden nur die jeweils fehlenden
+      Rehabilitationsprotokolle ergänzt, keine neuen Einträge angelegt.
+      Gelenkfehlstellung (Tab. 13.12) → neuer Eintrag
+      `gelenkfehlstellung-kaskade-zweigelenkige-muskeln-hueft-knie`
+      (BIOMECHANIK). Der allgemeine „Arthrosepatient"-Abschnitt (Tab. 13.6)
+      bleibt als kleinerer, nicht sicherheitsrelevanter Restpunkt
+      offen (teilweise bereits in
       `schmerzpatient-klassifikation-vier-schmerztypen-therapiewahl`
-      verwertet, aber nicht vollständig).
+      verwertet).
+
+**Damit ist das Indikationen-Kapitel (Kap. 13) vollständig ausgewertet** —
+bis auf den kleinen Arthrosepatient-Restpunkt (Tab. 13.6) und die bewusst
+ausgeschlossenen Themen Kippfenstersyndrom (katzenspezifisch) und
+Diskushernie/-prolaps (zu stark duplizierend).
 
 #### Kapitel „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken" (C.-S. Alexander)
 
