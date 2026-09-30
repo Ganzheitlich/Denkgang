@@ -12442,6 +12442,74 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "hd-engrammbildung-schmerzvermeidungsstrategie-junghund",
+    category: "PATHOLOGIE",
+    title: "Warum eine Hüftdysplasie bei Junghunden oft unsichtbar bleibt",
+    teaser:
+      "Ein Welpe mit schlechter Hüftanlage kennt keinen Vergleich — er entwickelt früh ein schmerzvermeidendes Bewegungsmuster, das für ihn zur Normalität wird, und wird deshalb oft erst Jahre später als Schmerzpatient erkannt.",
+    sections: [
+      {
+        type: "text",
+        heading: "„Klinisch inapparente HD“ gibt es eigentlich nicht",
+        text: "Manche Hunde laufen jahrelang mit angeboren schlechter Hüftanlage, durchlaufen dabei die für eine Hüftdysplasie (HD) typische Belastungskaskade (vgl. den an anderer Stelle beschriebenen Eintrag zur Schmerzreise) und zeigen trotzdem kaum sekundäre radiologische Veränderungen. Solche Fälle wurden früher als „klinisch inapparente HD“, also klinisch unbedeutend, eingestuft. Aus jahrelanger Erfahrung mit sehr vielen Patienten lässt sich aber sagen: Eine wirklich unbedeutende HD gibt es nicht — allein wegen der Chronizität hat sie immer Auswirkungen, bei jedem einzelnen Schritt. Warum manche Hüften dennoch ohne sichtbare Sekundärveränderungen bleiben, ist nicht abschließend geklärt; mögliche Faktoren sind eine rasseabhängig unterschiedliche „Arthrosefreudigkeit“ (abhängig von Gewebezusammensetzung und Nutzung als Arbeits-, Sport- oder Familienhund), eine individuell besonders ökonomische Lastumverteilung sowie eine individuell und rassespezifisch stark schwankende Schmerztoleranzgrenze. Helen Giuliano (Tierärztin, Mailand) brachte zusätzlich die Hypothese individuell bzw. rassespezifisch unterschiedlicher Knorpelqualität in die Diskussion — ausdrücklich als Hypothese, nicht als bewiesene Tatsache.",
+      },
+      {
+        type: "text",
+        heading: "Engrammbildung: wie aus Schmerzvermeidung eine falsche Normalität wird",
+        text: "Angeborene Erkrankungen bereiten in frühen Lebensphasen selten sichtbare Probleme — die betroffenen Tiere kennen keine andere Situation und entwickeln deshalb rasch eine höhere Schmerztoleranzgrenze für genau dieses Problem als gleichaltrige gesunde Artgenossen. Es entsteht ein unphysiologisches Bewegungsmuster, das für das Individuum zur Normalität wird. Solange aus der schmerzvermeidenden Schonhaltung keine zusätzliche Schmerzhaftigkeit entsteht, tobt das Tier mit gleichem jugendlichem Übermut wie seine Artgenossen — dieser Bewegungsdrang ist physiologisch notwendig für eine orthograde Verknöcherung. Geschonte Abschnitte (Hüfte, Ellenbogen) erleiden dabei, für Besitzer und Tierarzt in diesem Alter oft nicht erkennbar, Verknöcherungsdefizite, die später nicht mehr aufgeholt werden können. Die Floskel „warten wir zu, das wächst sich noch aus“ beruht damit auf einem Missverständnis der zugrunde liegenden Kausalkette und sollte aus dem tierärztlichen Sprachgebrauch gestrichen werden. Selbst die jugendliche „Übermotivation“ beim Spiel kann die Schmerzvermeidungsstrategie zeitweise außer Kraft setzen — bleibt ein junger Hund beim Herumtollen mit Altersgenossen zurück, sollten deshalb die Alarmglocken läuten.",
+      },
+      {
+        type: "text",
+        heading: "Warum die Lahmheit erst nach Jahren sichtbar wird",
+        text: "Schonhaltungen, Schonbewegungen und vikariierende Bewegungsmuster verändern das Gangbild schleichend und werden vom Tier selbst wie von den Besitzern als „normal“ bewertet („das macht er schon immer so — schon als Welpe“). Erst wenn es zu einer eindeutigen Lateralisierung (sichtbarer Überbelastung einer Körperseite) kommt oder die Summe der Sekundärprobleme groß genug geworden ist, wird die Schonhaltung bewusst und für uns sichtbar — erst dann sprechen wir von „Lahmheit“. Das erklärt, warum über die Hälfte der orthopädischen Patienten erst zwischen dem späten 4. und 7./8. Lebensjahr vorgestellt wird, und warum Besitzer einer angeborenen Ursache zunächst oft ungläubig gegenüberstehen — ein direkter Vergleich mit Röntgenaufnahmen physiologischer Gelenke macht die Veränderungen dann aber auch für Laien nachvollziehbar.",
+      },
+      {
+        type: "text",
+        heading: "Praktische Konsequenz: Screening statt Abwarten",
+        text: "Weil die Schmerzvermeidungsstrategie eine echte Frühdiagnose so schwierig macht, empfiehlt sich ein routinemäßiges Screening mit geringem Zusatzaufwand — etwa im Rahmen der Grundimmunisierung oder der jährlichen Auffrischungsimpfung. Kibler'sche Hautfalte, Schmerzpunktpalpation und Triggerpunktuntersuchung lassen sich in den ohnehin stattfindenden Untersuchungsgang einbauen, ohne ihn wesentlich zu verlängern, und auch die Impfanamnese lässt sich leicht um gezielte Fragen zum Bewegungsapparat erweitern. Bei rassebedingt vorbelasteten Hunden kann zudem auf die Möglichkeit einer HD-Frühdiagnose in der 16.–20. Lebenswoche (nach E. Köppel) hingewiesen werden.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Befund übersehen", "Unterkonfidenz"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 3.12.3–3.12.4 (Es gibt keine „klinisch inapparente HD“, Schmerzvermeidungsstrategie bei angeborenen Gelenkerkrankungen), S. 45–47 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(5)–g(18).pdf). Die Argumentation gegen den Begriff „klinisch inapparente HD“, die Giuliano-Knorpelqualitäts-Hypothese, der Engrammbildungs-Mechanismus, die Lateralisierungs-Schwelle für sichtbare Lahmheit, die Statistik zur späten Vorstellung (>50 % erst im 4.–8. Lebensjahr) sowie die Screening-Empfehlungen (Kibler'sche Hautfalte, Köppel'sches Frühdiagnose-Fenster 16.–20. Lebenswoche) sind im Original so beschrieben. Hinweis zur Extraktion: Ein inhaltlich weitgehend deckungsgleicher Absatz über junge Tiere/Übermotivation/soziale Isolation erschien im extrahierten Rohtext am Kapitelübergang 3.12.3/3.12.4 zweifach (vermutlich ein Spaltenreihenfolge-Artefakt der PDF-Extraktion) — hier nur einmal, nicht dupliziert wiedergegeben. Ergänzt den bestehenden Eintrag `schmerzreise-hd-knie-sig-lsue-kaskade` (dieselbe Quelle) um die Erklärung, warum die dort beschriebene Kaskade oft über Jahre unbemerkt bleibt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["huefte"],
+  },
+  {
+    id: "geriatrischer-schmerzpatient-funktions-struktur-aktualitaetsanalyse",
+    category: "UNTERSUCHUNG",
+    title: "Funktionsanalyse, Strukturanalyse, Aktualitätsanalyse: der dreistufige Untersuchungsgang nach Tilscher/Eder",
+    teaser:
+      "Beim geriatrischen Schmerzpatienten mit mehreren gleichzeitigen Problemen entscheidet nicht die Summe aller Befunde über den Behandlungsplan, sondern die Frage, welches Problem gerade im Vordergrund steht.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum geriatrische Patienten diagnostisch besonders schwierig sind",
+        text: "Orthopädische Probleme im Alter erscheinen auf den ersten Blick leichter zu beurteilen — tatsächlich betrifft das aber meist nur akute Lahmheiten oder akute Schübe chronischer Prozesse, die häufig sekundärer Natur sind und andere, gleichzeitig bestehende Pathologien überdecken. Zusätzlich erschwert wird die Beurteilung dadurch, dass viele ältere Patienten bereits jahrelang vorbehandelt sind, was die Symptomatik verwäscht. Die Gefahr besteht, sich im Behandlungsansatz in einem „Dschungel von Einzelproblemen“ zu verlieren und dabei das Gesamtbild aus den Augen zu verlieren.",
+      },
+      {
+        type: "text",
+        heading: "Nicht jede Auffälligkeit ist orthopädisch",
+        text: "Auch internistische Belastungen prägen das Erscheinungsbild geriatrischer Patienten und können den Bewegungsablauf oder die Körperhaltung im Alltag beeinflussen — etwa Prostataprobleme (Prostatahypertrophie, -zysten), die sich auf die altersgemäß ohnehin beeinträchtigte Leistungsfähigkeit des lumbosakralen Übergangs auswirken. Die Druckpunktpalpation nach Kothbauer schärft hier den Blick für segmentale Zustände und ermöglicht eine umfassendere Patientenbeurteilung. Der Rücken gehört generell zu den bedeutendsten Problemfeldern beim alten Tier, weil er das größte Schmerzpotenzial birgt: Aus der Humanmedizin ist ein enger Zusammenhang zwischen chronisch schmerzhaftem Rücken und depressiver Verfassung bekannt, und über den segmentalreflektorischen Komplex sind Rückenschmerzen zusätzlich direkt mit den zugehörigen viszeralen Organen verknüpft.",
+      },
+      {
+        type: "text",
+        heading: "Der dreistufige Untersuchungsgang nach Tilscher und Eder (1989)",
+        text: "Um bei mehreren gleichzeitig bestehenden Problemen nicht den Überblick zu verlieren, empfiehlt sich ein Untersuchungsgang in drei aufeinander aufbauenden Schritten: Funktionsanalyse (welcher Bewegungsablauf ist gestört?), Strukturanalyse (welche anatomischen Strukturen verbergen sich dahinter?) und Aktualitätsanalyse (welches Problem steht gerade im Vordergrund? — der eigentliche Ganzheitlichkeits-Schritt). Gerade beim geriatrischen Mehrfachpatienten entscheidet diese dritte Frage über den Behandlungsplan: Nicht jedes vorhandene Problem muss oder sollte gleichzeitig behandelt werden, sondern dasjenige, das aktuell die größte Belastung darstellt. Die verbleibende Restlebenszeit ist dabei ein eigenständiger Faktor für Prognose, Therapieziel und Auswahl der Therapieoptionen — Therapien bei älteren Tieren sollten daher eher als kurze, intensive Kurverfahren angelegt werden, um das Tier rasch in eine Heimtherapie zu überführen, statt in eine unbegrenzte Dauerbehandlung. Eine nicht behebbare, lebensbestimmende Schmerzsituation sollte dem Besitzer gegenüber offen als solche angesprochen werden.",
+      },
+      {
+        type: "text",
+        heading: "Die Gefahr der Übertherapie",
+        text: "Der Versuch, jedes einzelne Problem des Bewegungsapparates gleichzeitig zu therapieren, kann dazu führen, dass der alte Patient mit den dadurch geforderten Bewegungsumstellungen gar nicht mehr zurechtkommt — selbst jüngere Patienten müssen sich erst langsam daran gewöhnen, zuvor geschonte Regionen wieder vermehrt einzusetzen, ältere Patienten tun sich damit ungleich schwerer. Das Ziel bei älteren, multifokal belasteten Patienten ist nicht vollständige Beschwerdefreiheit, sondern eine verbesserte Lebensqualität während der Restlebenszeit; wird die Rehabilitationsphase durch „Übertherapie“ erschwert, wirkt sich das nachteilig auf genau dieses Ziel aus. Als praktische Priorisierungshilfe gilt dabei eine Faustregel aus der klinischen Erfahrung der Autoren: 80 % der Beschwerdebesserung lassen sich meist schon mit 20 % des möglichen Aufwands erzielen — die restlichen 20 % der Besserung erfordern dagegen 80 % des Aufwands, für Tier, Besitzer und Tierarzt gleichermaßen.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Differentialdiagnostik unvollständig", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 3.12.3 und 3.12.5 (80/20-Regel; Schmerz-/Missempfindungsstrategie im Alter), S. 46 und S. 47–48 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(5)–g(18).pdf). Der dreistufige Untersuchungsgang mit dem Zitat Tilscher und Eder (1989), das Prostata-/lumbosakraler-Übergang-Beispiel, die Druckpunktpalpation nach Kothbauer, die Aussage zum Rücken als größtem Schmerzpotenzial, das Kurverfahren-Prinzip sowie die 80/20-Priorisierungsregel (ursprünglich in Kap. 3.12.3 im Kontext der Therapieprognose formuliert, hier thematisch bei der Übertherapie-Vermeidung eingeordnet) sind im Original so beschrieben. Die 80/20-Regel wird hier bewusst mit den unmittelbar benachbarten Übertherapie-Warnungen aus Kap. 3.12.5 zusammengeführt, da beide denselben Priorisierungsgedanken für den geriatrischen Patienten betreffen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 271 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 70
-  Untersuchung, 96 Pathologie, 68 Biomechanik, 40 Therapie — genaue
+- Wissensbibliothek: 273 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 71
+  Untersuchung, 97 Pathologie, 68 Biomechanik, 40 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -523,12 +523,27 @@ kein Überblick verloren geht.
   Miteinreibung, Meridian-Spekulation zur Linksseiten-Prävalenz) wurden
   bewusst nicht in Einträge umgesetzt — zu spekulativ/nicht evidenzbasiert
   für den fachlichen Anspruch dieser Wissensbibliothek (siehe
-  Backlog-Eintrag zu dieser Quelle für die Begründung im Detail). **Damit
-  sind Kap. 2 (Schmerz – was ist das?) und Kap. 3 (Schmerzsymptome)
-  inhaltlich vollständig ausgewertet**; weitere Kapitel (4 Untersuchungsgang,
-  5 Methoden der Schmerztherapie, 7 Schmerztherapie bei bestimmten
-  Indikationen) stehen noch aus — siehe PATHOLOGIE-/BIOMECHANIK-Backlog
-  unten.
+  Backlog-Eintrag zu dieser Quelle für die Begründung im Detail). Danach
+  2 weitere neue Einträge aus Kap. 3.12.3–3.12.5 (Keine klinisch inapparente
+  HD, Schmerzvermeidungsstrategie bei angeborenen Gelenkerkrankungen,
+  Schmerz-/Missempfindungsstrategie im Alter, S. 45–48):
+  `hd-engrammbildung-schmerzvermeidungsstrategie-junghund` (PATHOLOGIE) —
+  warum angeborene Gelenkerkrankungen bei Junghunden durch eine fehlerhafte
+  Engrammbildung jahrelang unsichtbar bleiben können, mit konkreter
+  Screening-Konsequenz (Kibler'sche Hautfalte im Rahmen der
+  Grundimmunisierung, Köppel'sches Frühdiagnose-Fenster 16.–20. Lebenswoche);
+  und `geriatrischer-schmerzpatient-funktions-struktur-aktualitaetsanalyse`
+  (UNTERSUCHUNG) — der bisher in Denkgang fehlende dreistufige
+  Untersuchungsgang nach Tilscher und Eder (1989, Funktionsanalyse/
+  Strukturanalyse/Aktualitätsanalyse) für den multimorbiden geriatrischen
+  Patienten, ergänzt um die 80/20-Priorisierungsregel und die Warnung vor
+  Übertherapie. Ein im Rohtext zweifach extrahierter Absatz
+  (Übermotivation/soziale Isolation am Kapitelübergang 3.12.3/3.12.4) wurde
+  nur einmal übernommen. **Damit sind Kap. 2 (Schmerz – was ist das?) und
+  Kap. 3 (Schmerzsymptome) dieser Quelle vollständig ausgewertet**; weitere
+  Kapitel (4 Untersuchungsgang, 5 Methoden der Schmerztherapie, 7
+  Schmerztherapie bei bestimmten Indikationen) stehen noch aus — siehe
+  PATHOLOGIE-/BIOMECHANIK-Backlog unten.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -638,17 +653,15 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
   `schmerzreise-vorderextremitaet-tlue-kompensation-kaskade` ausdrücklich
   als von den Autoren selbst benannte offene Hypothese gekennzeichnet, nicht
   als Fakt übernommen.
-- [ ] Kap. 3.12.3–3.12.5 (Keine klinisch inapparente HD,
+- [x] Kap. 3.12.3–3.12.4 (Keine klinisch inapparente HD,
   Schmerzvermeidungsstrategie bei angeborenen Gelenkerkrankungen,
-  Schmerz-/Missempfindungsstrategie im Alter, S. 45–48): gelesen, noch
-  nicht umgesetzt. Enthält die Engrammbildungs-Erklärung für unauffällige
-  Jungtiere mit HD (frühzeitige Schmerzvermeidungsstrategie verhindert
-  physiologische Bewegungsmuster-Prägung), die 80/20-Aufwand-Nutzen-Faustregel
-  für die Therapieplanung sowie geriatrische Besonderheiten (Restlebenszeit
-  als Prognosefaktor, Kurbehandlung statt Dauertherapie). Hinweis: Am
-  Seitenübergang 3.12.3/3.12.4 (S. 46–47) extrahierte der Subagent einen
-  Absatz zweifach (vermutlich Spaltenreihenfolge-Artefakt) — vor Verwendung
-  im Original-PDF gegenprüfen.
+  S. 45–47): daraus `hd-engrammbildung-schmerzvermeidungsstrategie-junghund`.
+  Der am Seitenübergang 3.12.3/3.12.4 zweifach extrahierte Absatz
+  (Übermotivation/soziale Isolation, vermutlich Spaltenreihenfolge-Artefakt)
+  wurde nur einmal übernommen.
+- [x] Kap. 3.12.5 (Schmerz-/Missempfindungsstrategie im Alter, S. 47–48):
+  daraus `geriatrischer-schmerzpatient-funktions-struktur-aktualitaetsanalyse`
+  (inkl. der aus 3.12.3 stammenden 80/20-Regel, thematisch hier eingeordnet).
 - [ ] Kap. 4 „Untersuchungsgang" (S. 49 ff.) — noch nicht gesichtet.
 - [ ] Kap. 5 „Methoden der Schmerztherapie" — noch nicht gesichtet.
   Medikamentendosierungen bewusst außerhalb des Extraktionsziels (etablierte
