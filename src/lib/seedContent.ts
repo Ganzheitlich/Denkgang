@@ -12789,6 +12789,74 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["huefte"],
   },
+  {
+    id: "katzenspezifische-schmerzdiagnostik-verdeckte-symptomatik",
+    category: "PATHOLOGIE",
+    title: "Warum Katzenschmerz so oft übersehen wird",
+    teaser:
+      "Eine Katze, die seltener auf den Kratzbaum springt, wird träger genannt — nicht schmerzkrank. Weil Katzen Schmerz fast nie zeigen, sondern nur ihre Gewohnheiten ändern, braucht ihre Untersuchung eine eigene Logik.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum Besitzer Katzenschmerz seltener bemerken als Hundeschmerz",
+        text: "Den wenigsten Katzen wird ein Schmerzgeschehen am Bewegungsapparat überhaupt zugetraut — gemeldet wird es meist erst, wenn die Katze etwas nicht mehr tut, was sie früher konnte (z. B. der Sprung auf ihren gewohnten Schlafplatz). Weil Katzen sich ihre Ruhephasen selbst aussuchen, fällt vermehrtes Liegen kaum auf; besonders bei als „lethargisch“ eingestuften Rassen wie Perserkatzen wird zunehmende Trägheit einfach zugestanden. Die daraus resultierende Gewichtszunahme wird eher als Stoffwechselproblem gedeutet denn als Folge schmerzbedingt reduzierter Bewegung. Der Hund kann sich wegen seiner engen Bindung an den Menschen und seiner sozialen Stellung „keine Müdigkeit erlauben“ und zeigt Schmerz daher eher — die Katze vermeidet Schmerzsituationen stattdessen durch stille Verhaltensänderung.",
+      },
+      {
+        type: "text",
+        heading: "Eine andere Anamnese, ein anderes Meldeverhalten",
+        text: "Katzenbesitzer können über Abwehr beim Streicheln bestimmter Körperregionen oft sehr genau berichten — das ist häufig der eigentliche Vorstellungsgrund. Zum eindeutigen Problem wird es für den Besitzer aber meist erst, wenn die Katze „fauchig“ bzw. aggressiv reagiert, sich zurückzieht und verkriecht oder das Fressverhalten sich ändert. Der Vorbericht von Wohnungskatzen fällt entsprechend dichter aus als bei freilebenden Tieren, die meist erst bei höhergradigen, deutlich sichtbaren akuten Problemen vorgestellt werden.",
+      },
+      {
+        type: "text",
+        heading: "Warum die Gangbildanalyse bei der Katze kaum trägt",
+        text: "Die Gangbildanalyse — beim Hund zentrales Element des Untersuchungsgangs — ist bei der Katze in der Praxis kaum durchführbar. Freies Laufen im Behandlungsraum gibt allenfalls Hinweise, welche Extremität(en) lahmen oder wie die Wirbelsäule gehalten wird; manchmal lässt sich zusätzlich das Sprungverhalten beobachten. Das Untersuchungsgewicht verschiebt sich deshalb stark auf Adspektion in der Ruhe, Palpation und Gelenkfunktionsprüfung: Die Wirbelsäule wird unterstützt von hinten nach vorn untersucht (Kreuzbein → LSÜ → TLÜ → zervikothorakaler Übergang; die HWS erst, wenn andernorts nichts gefunden wurde), danach werden im Hochheben die Beckensymmetrie und die Länge der parallel gehaltenen Hinterbeine verglichen, und schließlich wird die Katze in Seitenlage von proximal nach distal sowie von den Zehenspitzen bis zur Rumpfanheftung vollständig durchpalpiert.",
+      },
+      {
+        type: "text",
+        heading: "Der thorakolumbale Übergang als katzentypischer Locus minoris resistentiae",
+        text: "Auffällig häufig reagiert bei Katzen der thorakolumbale Übergang (TLÜ) mit — unabhängig davon, ob das zugrunde liegende Problem schmerz-, stoffwechsel- oder hormonell bedingt ist. Zwischen Th13 und L2 findet sich dabei fast immer ein deutlich schmerzhaftes Segment, das in den wenigsten Fällen selbst das primäre Schmerzzentrum ist, sondern eher als Locus minoris resistentiae reagiert — die Empfindlichkeit bessert sich deutlich, sobald die eigentlich auslösende Problematik behandelt wird. Die Autoren beschreiben dieses Phänomen als wiederkehrend beobachteten „Katzen-Triggerpunkt“, weisen aber ausdrücklich darauf hin, dass eine nähere wissenschaftliche Untersuchung dazu noch nicht stattgefunden hat — es handelt sich um eine aus der Praxis berichtete, nicht um eine bereits validierte Aussage.",
+      },
+      {
+        type: "text",
+        heading: "Die Obstipations-Fehldiagnosefalle",
+        text: "Schmerzen im LSÜ werden bei Katzen nicht selten mit dem Vorbericht „Kotabsatzbeschwerden“ vorgestellt: Die Katze vermeidet den für die Defäkation nötigen LSÜ-belastenden Haltungswechsel durch bewusstes Zurückhalten des Kotes — innerhalb weniger Tage dickt dieser im Enddarm und Kolon so stark ein, dass selbst Kleinklistiere ihn nicht mehr lösen und sich eine ernstzunehmende Ileussymptomatik aufbauen kann. Nach Lösen der Kotballen muss deshalb neben der abführenden Behandlung immer eine segmentale Schmerztherapie angesetzt werden — sonst erscheinen die Patienten rasch mit Rezidiv. Eine weitere, häufig übersehene Ursache akuter Schmerzhaftigkeit bei der Katze sind Biss- oder Kratzverletzungen: Besitzer berichten oft erst im Nachhinein von einer „verstörten“ Heimkehr Tage zuvor; wird eine Einbissstelle gefunden, muss immer auch nach der Gegenbissstelle gesucht werden.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.6 (Die Untersuchung der Katze), S. 112–114 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Die geschilderten Wahrnehmungs- und Meldeunterschiede zwischen Hunde- und Katzenbesitzern, der abweichende Untersuchungsablauf, der TLÜ als katzentypischer Locus minoris resistentiae (samt ausdrücklicher Kennzeichnung als noch unerforschtes Praxisphänomen durch die Autoren selbst) sowie die Obstipations- und Bissverletzungs-Fallstricke sind im Original so beschrieben. Ergänzt gezielt den bestehenden, tierartvergleichenden Eintrag `schmerzverhalten-erkennen-tierartunterschiede` (Kulpa/Alexander), der das akute Schmerzverhalten mehrerer Spezies knapp gegenüberstellt, um eine ausführliche, katzenspezifische Vertiefung samt konkreter Untersuchungsanpassung — bewusst nicht dupliziert, sondern als eigenständiger, deutlich detaillierterer Eintrag angelegt, der der bisher hundelastigen Wissensbibliothek eine echte Artspezifika-Lücke schließt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "zehenarthrosen-sesambeinfrakturen-uebersehene-schmerzquellen",
+    category: "PATHOLOGIE",
+    title: "„Die Orthopädie beginnt bei den Krallen“: Zehenarthrosen und Sesambeinfrakturen",
+    teaser:
+      "Zwei am Fuß versteckte, häufig übersehene Schmerzquellen erklären so manchen „therapieresistenten“ Fall — die eine bei alten Hunden aller Rassen, die andere fast ausschließlich beim Rottweiler.",
+    sections: [
+      {
+        type: "text",
+        heading: "Sesambeinfrakturen: eine rassetypische Überlastungserkrankung",
+        text: "Sesambeinfrakturen an den Vorderbeinen kommen besonders häufig bei Rottweilern und anderen großen, eher bindegewebsschwachen Rassen vor. Die Überlastung entsteht aus dem Zusammenspiel von Körpergewicht, dynamischer Bewegung, der relativ steil gestellten distalen Vorderextremität und der daraus resultierenden vermehrten Spannung der Beugesehnen — ein Teil der Überlastung geht dabei zusätzlich auf die bei diesen Rassen häufige Hüftgelenkdysplasie zurück, deren schmerzreduzierende Schonbewegung Gewicht und Arbeit zusätzlich in die Vorderbeine verlagert. Weil Rottweiler im Rassenvergleich eine ungewöhnlich ausgeglichene Gewichtsverteilung zwischen hinten und vorn haben, wird bei ihnen mehr Schwungmasse von hinten nach vorn übernommen als bei ungleichmäßiger gebauten Rassen — diese Dauerbelastung zerreibt das Sesambein der 2. bzw. 5. Zehe regelrecht und verursacht hochgradige chronische Stützbeinlahmheiten. Einzig mögliche Primärtherapie ist die fachgerechte chirurgische Exzision der Frakturteile; komplikationslose Lahmheitsfreiheit gelingt aber nur bei wenigen Tieren, da sowohl das chirurgische Trauma als auch der Verlust des funktionierenden Sesambeinchens die Heilung erschweren — eine umfangreiche Nachbehandlung ist unverzichtbar.",
+      },
+      {
+        type: "text",
+        heading: "Zehenarthrosen: ein unterschätztes Thema beim älteren Tier",
+        text: "Zehen- bzw. Zehengrundgelenke werden vor allem beim älteren Tier durch chronische Überlastung in Mitleidenschaft gezogen und reagieren mit heftigen, fast immer sehr schmerzhaften Arthrosen. Sie waren bislang häufig Ursache sogenannter therapieresistenter Probleme und blieben dabei oft unerkannt, obwohl sie sich schon als konturverändernde Auftreibungen ab dem Zehengrundgelenk und distal davon zeigen. Die Palpation erfolgt als Konturpalpation an der hochgehobenen Extremität; die anschließenden Gelenkfunktionsprüfungen (Zehe für Zehe, Gelenk für Gelenk) sind nicht immer schon selbst schmerzhaft, die Druckpalpation gibt aber rasch Gewissheit. Bei Schmerzhaftigkeit ziehen die Patienten die betroffene Extremität zurück und laufen nach der manuellen Untersuchung deutlich schlechter als zuvor — ein wichtiger Hinweis darauf, dass die Untersuchung selbst das Gangbild kurzfristig verschlechtern kann, ohne dass das eine Verschlechterung der zugrunde liegenden Erkrankung bedeutet.",
+      },
+      {
+        type: "text",
+        heading: "Merke: Die Orthopädie beginnt bei den Krallen und Ballen",
+        text: "Eine vollständige orthopädische Untersuchung schließt deshalb immer die distalen Extremitäten mit ein: Palpation der einzelnen Ballen (vergleichend links-rechts, da viele Tiere hier grundsätzlich empfindlich sind), Untersuchung aller Krallen und Krallenbetten, Beugung/Streckung/Rotationsprüfung der Zehen einzeln und gemeinsam, Palpation der Mittelhand-/Mittelfußknochen samt ihrer Beweglichkeit zueinander sowie Beugung, Streckung und Rotation von Karpal- bzw. Tarsalgelenk. Im Zuge der Zehenpalpation müssen zusätzlich die Sesambeinchen der Beugesehne geprüft werden: Die der 2. und 5. Zehe sind im Stehen gut zugänglich, die der 3. und 4. Zehe werden dagegen vom Hauptballen überlagert und erfordern eine angehobene Pfote mit leichter Ballenverdrängung. Schon die einfache Maßnahme des regelmäßigen Krallenkürzens gehört als banaler, aber wichtiger erster Schritt zu diesem Untersuchungsprinzip.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.6 (Untersuchung der distalen Extremitäten, Sesambeinfrakturen, Zehenarthrosen), S. 104–107 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Der Sesambeinfraktur-Mechanismus beim Rottweiler samt Bezug zur rassetypischen Gewichtsverteilung (Tab. 4.8, an anderer Stelle bereits als `schmerzreise-vorderextremitaet-tlue-kompensation-kaskade` verwendet), die Zehenarthrose-Beschreibung sowie die vollständige Untersuchungstechnik der distalen Extremität samt Sesambein-Palpation sind im Original so beschrieben. Die im Original genannten Therapieempfehlungen (Neuraltherapie, Goldimplantation, physikalische Medizin) sind als solche des Buches wiedergegeben, nicht als eigenständige fachliche Bewertung dieser Wissensbibliothek.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

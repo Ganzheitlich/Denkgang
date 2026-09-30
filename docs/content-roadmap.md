@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 280 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 77
-  Untersuchung, 97 Pathologie, 69 Biomechanik, 40 Therapie — genaue
+- Wissensbibliothek: 282 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 77
+  Untersuchung, 99 Pathologie, 69 Biomechanik, 40 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -579,12 +579,23 @@ kein Überblick verloren geht.
   (14.–20. Lebenswoche, ca. 90 % Treffsicherheit, Unterscheidung primär
   ossäre vs. ligamentäre HD-Form), die gezielt den bestehenden
   Koch/Fischer-Eintrag zu Genetik/Coxarthrose um ein zeitlich deutlich
-  vorgelagertes, eigenständiges Frühdiagnoseverfahren ergänzt. Kap. 4 ist
-  damit noch nicht vollständig ausgewertet — siehe
-  PATHOLOGIE-/BIOMECHANIK-/UNTERSUCHUNG-Backlog unten für den detaillierten
-  Stand und die als nächstes vorgesehenen Themen (Signalement-Filter,
-  Gangbildanalyse-Biomechanik, Katzenspezifika, Zehenarthrosen/
-  Sesambeinfrakturen, dynamische Diagnose).
+  vorgelagertes, eigenständiges Frühdiagnoseverfahren ergänzt. Danach 2
+  weitere neue Einträge (beide PATHOLOGIE): Aus Kap. 4.6
+  `katzenspezifische-schmerzdiagnostik-verdeckte-symptomatik` — warum
+  Katzenschmerz so viel seltener bemerkt wird als Hundeschmerz, der stark
+  abweichende Untersuchungsablauf, der TLÜ als katzentypischer Locus
+  minoris resistentiae sowie die Obstipations-Fehldiagnosefalle bei
+  LSÜ-Schmerz; schließt eine echte Artspezifika-Lücke in der bisher stark
+  hundelastigen Wissensbibliothek. Aus Kap. 4.5.6
+  `zehenarthrosen-sesambeinfrakturen-uebersehene-schmerzquellen` — die
+  rassetypische Sesambeinfraktur beim Rottweiler (verknüpft mit der bereits
+  vorhandenen Gewichtsverteilungstabelle) sowie häufig übersehene
+  Zehenarthrosen beim älteren Tier, samt der vollständigen
+  Untersuchungstechnik der distalen Extremität. Kap. 4 ist damit noch nicht
+  vollständig ausgewertet — siehe PATHOLOGIE-/BIOMECHANIK-/UNTERSUCHUNG-
+  Backlog unten für den detaillierten Stand und die als nächstes
+  vorgesehenen Themen (Signalement-Filter, Gangbildanalyse-Biomechanik,
+  dynamische Diagnose, Kap. 5–7).
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -751,22 +762,17 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
     internistischer Befunde, Horner-Syndrom-Hinweis, Piloarrektion —
     teilweise Überschneidung mit bestehenden Adspektions-Einträgen zu
     prüfen.
-  - [ ] 4.5.6 Untersuchung der distalen Extremitäten (S. 104–107):
-    Zehenarthrosen (bislang unterschätztes, häufig übersehenes
-    Praxisthema) und rassetypische Sesambeinfrakturen (Rottweiler, Tab. 4.8
-    Gewichtsverteilung) — guter Kandidat für 1 neue PATHOLOGIE-Eintrag.
+  - [x] 4.5.6 Untersuchung der distalen Extremitäten (S. 104–107):
+    Zehenarthrosen und rassetypische Sesambeinfrakturen (Rottweiler) —
+    daraus `zehenarthrosen-sesambeinfrakturen-uebersehene-schmerzquellen`.
   - [~] 4.5.7 Funktionsprüfungen (S. 107–112): Die SIG-Anatomie und
     Zohmann'sche Gelenkfunktionsprüfung sind umgesetzt (siehe
     `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe`). Noch offen:
     Vordergliedmaßen-Streckung/-Beugung inkl. Bizepsursprungssehnen-
     Überdehnungstest (4.5.7.1, S. 107–108) — kleinerer, eigenständiger
     Ergänzungskandidat.
-  - [ ] 4.6 Die Untersuchung der Katze (S. 112–114): katzenspezifische
-    Untersuchungsbesonderheiten (verdeckte Schmerzäußerung, TLÜ als
-    „Locus minoris resistentiae" bei praktisch allen ernsten Problemen,
-    LSÜ-Schmerz als Obstipations-Fehldiagnose-Falle) — guter Kandidat für
-    einen eigenständigen, artspezifischen Eintrag; bisherige Wissensbibliothek
-    ist stark hundelastig.
+  - [x] 4.6 Die Untersuchung der Katze (S. 112–114): daraus
+    `katzenspezifische-schmerzdiagnostik-verdeckte-symptomatik`.
   - [ ] 4.7 Bildgebende Diagnostik (S. 114–116): CT-/MRI-/Arthroskopie-
     Indikationskatalog, Ultraschall-Indikationen für internistische
     Schmerzprozesse — eher generisches Radiologie-Grundwissen, Mehrwert vs.
