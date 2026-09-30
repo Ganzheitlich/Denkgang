@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 268 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 69
-  Untersuchung, 94 Pathologie, 68 Biomechanik, 40 Therapie — genaue
+- Wissensbibliothek: 271 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 70
+  Untersuchung, 96 Pathologie, 68 Biomechanik, 40 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -499,11 +499,36 @@ kein Überblick verloren geht.
   Restunsicherheit in der lokalen Absatzreihenfolge; ein möglicherweise
   doppelt extrahierter Absatz am Übergang 3.12.3/3.12.4) wurden in den
   sourceStatus-Feldern der betroffenen Einträge offen dokumentiert statt
-  stillschweigend geglättet. Kap. 2 (Schmerz – was ist das?) und Kap. 3
-  (Schmerzsymptome) sind damit inhaltlich vollständig gesichtet; weitere
-  Kapitel (4 Untersuchungsgang, 5 Methoden der Schmerztherapie, 7
-  Schmerztherapie bei bestimmten Indikationen) stehen noch aus — siehe
-  PATHOLOGIE-/BIOMECHANIK-Backlog unten.
+  stillschweigend geglättet. Danach 3 weitere neue Einträge aus Kap. 3.6–3.11
+  (Schmerzspirale, Psychosomatik/Somatopsychik, Fehlregulation, Schmerz als
+  Leitsymptom bzw. Heilungshindernis, S. 25–31):
+  `schmerzspirale-circulus-vitiosus-pseudoradikulaeres-geschehen`
+  (PATHOLOGIE) — der zeitliche Circulus-vitiosus-Ablauf vom Initialreiz über
+  segmentale Muskelkontraktion bis zum pseudoradikulären Geschehen, bewusst
+  als dynamische Ergänzung zum eher statischen
+  `segmentalreflektorischer-komplex`-Eintrag angelegt;
+  `schmerz-psychologische-dimensionen-fehlregulation` (PATHOLOGIE) — die
+  drei Dimensionen des Schmerzerlebens nach Melzack/Wall (1965)
+  (sensorisch-diskriminativ/affektiv-motivational/kognitiv-evaluativ) sowie
+  Fehlregulation als eigenständige, nicht-strukturelle Schmerzursache
+  (bewusst ohne das im Original enthaltene, nicht weiter belegte
+  Kultur-Stereotyp-Beispiel übernommen); und
+  `wesensveraenderung-stress-schmerz-wechselwirkung-locus-minoris-resistentiae`
+  (UNTERSUCHUNG) — Stress/Angst als schmerzverstärkender Faktor, das
+  Ablegeverhalten als beobachtbares Zeichen einer thorakolumbalen
+  Spondylarthrose, eine feste Anamnese-Fragenliste bei Wesensveränderung
+  sowie das Konzept des „locus minoris resistentiae" (bidirektionales
+  Herz-Orthopädie-Beispiel). Abschnitt 3.7.2 (inhaltlich redundant) und
+  3.8 „Besitzerbezogene Schmerzen" (energetische Bilanz, Homöopathie-
+  Miteinreibung, Meridian-Spekulation zur Linksseiten-Prävalenz) wurden
+  bewusst nicht in Einträge umgesetzt — zu spekulativ/nicht evidenzbasiert
+  für den fachlichen Anspruch dieser Wissensbibliothek (siehe
+  Backlog-Eintrag zu dieser Quelle für die Begründung im Detail). **Damit
+  sind Kap. 2 (Schmerz – was ist das?) und Kap. 3 (Schmerzsymptome)
+  inhaltlich vollständig ausgewertet**; weitere Kapitel (4 Untersuchungsgang,
+  5 Methoden der Schmerztherapie, 7 Schmerztherapie bei bestimmten
+  Indikationen) stehen noch aus — siehe PATHOLOGIE-/BIOMECHANIK-Backlog
+  unten.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -583,17 +608,24 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
   Experten-Hypothese in einem künftigen Untersuchungs-Eintrag verwertbar.
 - [x] Kap. 3.5–3.5.2 (Segmentalreflektorik, S. 20–25): daraus
   `segmentalreflektorischer-komplex-dermatom-myotom-sklerotom-viszerotom`.
-- [ ] Kap. 3.6–3.11 (Schmerzspirale, Psychosomatik/Somatopsychik,
-  besitzerbezogene Schmerzen, Fehlregulation, Schmerz als Leitsymptom bzw.
-  als Heilungshindernis, S. 25–32): gelesen, aber noch nicht in Einträge
-  umgesetzt. Enthält u. a. den Circulus-vitiosus-Mechanismus der
-  Schmerzspirale (pseudoradikuläre Reizung durch progressive
-  Muskelrekrutierung) und die dreidimensionale Schmerzerlebnis-Theorie nach
-  Melzack/Wall (sensorisch-diskriminativ/affektiv-motivational/kognitiv-
-  evaluativ) — fachlich solide, aber mit anekdotischen/spekulativen
-  Anteilen durchsetzt (Einzelfall-Beispiele, „persönliche Mitteilung"-
-  Zitate, TCM-Analogien); bei Umsetzung sorgfältig zwischen belastbarem
-  Mechanismus und Autoren-Anekdote trennen.
+- [x] Kap. 3.6 (Schmerzspirale, S. 25–27): daraus
+  `schmerzspirale-circulus-vitiosus-pseudoradikulaeres-geschehen`.
+- [x] Kap. 3.7 und 3.11 (Psychosomatik/Somatopsychik — exogene Faktoren,
+  Schmerz als Heilungshindernis, S. 27–29 und S. 31): daraus
+  `wesensveraenderung-stress-schmerz-wechselwirkung-locus-minoris-resistentiae`.
+  Abschnitt 3.7.2 (Somatopsychik/endogene Faktoren) bewusst nicht gesondert
+  umgesetzt — bietet keine über diesen Eintrag hinausgehende Substanz.
+- [x] Kap. 3.9–3.10 (Schmerzen durch Fehlregulation, Schmerz als
+  Leitsymptom, S. 29–31): daraus
+  `schmerz-psychologische-dimensionen-fehlregulation`.
+- [ ] Kap. 3.8 (Besitzerbezogene Schmerzen, S. 28–29): **bewusst nicht
+  umgesetzt.** Enthält überwiegend spekulative, nicht evidenzbasierte
+  Aussagen (energetische Bilanz zwischen Tier und Besitzer, Homöopathie-
+  Miteinreibung „beide bekommen die gleiche Information eingerieben",
+  Meridian-Spekulation zur Linksseiten-Prävalenz chronischer
+  Vordergliedmaßenprobleme). Passt nicht zum evidenzbasierten
+  physiotherapeutischen Anspruch von Denkgang — dauerhaft zurückgestellt,
+  nicht nur aufgeschoben.
 - [x] Kap. 3.12.1–3.12.2.2 (Die Schmerzreise — Gelenkbereich, Kniegelenk,
   Schonhaltung, sekundäre/tertiäre Folgen, S. 32–44): daraus
   `schmerzreise-hd-knie-sig-lsue-kaskade` und

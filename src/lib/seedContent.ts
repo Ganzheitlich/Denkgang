@@ -12340,6 +12340,108 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["biceps", "triceps-brachii", "supraspinatus", "discus"],
   },
+  {
+    id: "schmerzspirale-circulus-vitiosus-pseudoradikulaeres-geschehen",
+    category: "PATHOLOGIE",
+    title: "Die Schmerzspirale: wie aus einem einzelnen Reiz ein sich selbst verstärkender Prozess wird",
+    teaser:
+      "Ein einziger Auslöser genügt: Über eine reflexhafte Muskelkontraktion, die sich selbst verschlimmert, kann aus einem punktuellen Reiz ein Zustand entstehen, der immer mehr Muskelgruppen und schließlich sogar Nervenwurzeln mit hineinzieht.",
+    sections: [
+      {
+        type: "text",
+        heading: "Vom Initialreiz zur reflexiven Fehlstellung",
+        text: "Ein Initialreiz löst über sympathische Efferenzen eine segmentale reaktive Muskelkontraktion der autochthonen Rückenmuskulatur aus (Mm. longissimi, Mm. multifidi u. a.). Diese Kontraktion führt zu einer minimalen Inkongruenz der kleinen Wirbelgelenksflächen zueinander. Der Organismus versucht reflektorisch, über Halte- und Stellreflexe mit muskulärem Zug und Gegenzug auszugleichen — gerade dieser Ausgleichsversuch verhindert aber, dass die Gelenkflächen wieder in ihre Ausgangsposition zurückkehren.",
+      },
+      {
+        type: "text",
+        heading: "Der sich selbst verstärkende Kreislauf",
+        text: "Die anhaltende Fehlstellung ist selbst wieder schmerzhaft und veranlasst die Rückenmuskulatur zu weiterer Tonuserhöhung. Diese komprimiert die versorgenden Gefäße, was zu Malnutrition und zur Ansammlung saurer Stoffwechselprodukte im Muskel führt — worauf der Muskel mit erneuter Kontraktion antwortet. Je nach Chronizität entsteht daraus früher oder später eine Muskelkontraktur (Hartspann) mit begleitenden intramuskulären Umbauprozessen, die den Organismus zunächst in eine unbewusste Schonhaltung zwingt. Der Prozess ist selbstperpetuierend: Immer mehr Muskeln und Muskelgruppen werden einbezogen, bis die Schmerzschwelle überschritten wird und aus der unbewussten eine bewusste, sichtbare Schonhaltung wird.",
+      },
+      {
+        type: "text",
+        heading: "Pseudoradikuläres Geschehen: häufiger als die echte Radikulitis",
+        text: "Der zunehmende Muskeldruck kann schließlich die Wurzeln der segmentalen Nerven reizen — dieser Zustand wird als pseudoradikuläres Geschehen (Pseudoradikulitis) bezeichnet und tritt nach klinischer Erfahrung deutlich häufiger auf als eine echte Radikulitis mit strukturell bedingter Nervenwurzelkompression. Für die Differentialdiagnostik bedeutet das: Ein Befund, der nach Nervenwurzelreizung aussieht, muss nicht zwingend eine strukturelle Wurzelkompression (z. B. durch eine Diskusprotrusion) bedeuten — er kann ebenso gut das Endstadium dieser rein muskulär vermittelten Spirale sein.",
+      },
+      {
+        type: "text",
+        heading: "Warum der ursprüngliche Auslöser oft nicht mehr erinnerlich ist",
+        text: "Der Initialreiz kann exogen (traumatisch, thermisch, chemisch) oder endogen sein. Exogene Reize müssen kein Makrotrauma sein — auch ein oder mehrere Mikrotraumata, selbst wenn sie Monate oder Jahre zurückliegen, können dieselbe Kaskade in Gang setzen, was hohe Anforderungen an die Anamnese stellt. Endogene Auslöser können ein Reizzustand im Viszerotom oder in anderen segmentalen Geweben sein (vgl. den an anderer Stelle beschriebenen segmentalreflektorischen Komplex) — dieselbe pseudoradikuläre Symptomatik kann also sowohl von einer alten Verletzung als auch von einem inneren Organ ausgehen.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 3.6 (Schmerzspirale), S. 25–27 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(5)–g(18).pdf). Der Circulus-vitiosus-Mechanismus (Initialreiz → segmentale Muskelkontraktion → Facettengelenk-Inkongruenz → Malnutrition → Hartspann → Schonhaltung → pseudoradikuläres Geschehen) sowie die exogene/endogene Auslöser-Unterscheidung sind im Original so beschrieben. Ergänzt den bestehenden Eintrag `segmentalreflektorischer-komplex-dermatom-myotom-sklerotom-viszerotom` (dieselbe Quelle) um die zeitliche Dynamik: Jener Eintrag beschreibt die statische anatomische Verschaltung eines Segments, dieser Eintrag den sich selbst verstärkenden zeitlichen Ablauf, der daraus eine Schmerzkrankheit entstehen lässt — bewusst nicht dupliziert, sondern komplementär angelegt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark", "facettengelenke"],
+  },
+  {
+    id: "schmerz-psychologische-dimensionen-fehlregulation",
+    category: "PATHOLOGIE",
+    title: "Wenn Schmerz sich von der Ursache löst: Fehlregulation und die drei Dimensionen des Schmerzerlebens",
+    teaser:
+      "Nicht jeder chronische Schmerz hat eine auffindbare körperliche Ursache — und selbst wenn er eine hat, wird er nie rein sensorisch erlebt, sondern immer zugleich gelernt, bewertet und sozial mitgeprägt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Schmerz als Interpretation, nicht als primäre Empfindung",
+        text: "Nach Crue et al. (2001) ist Schmerz keine primäre Empfindung, sondern die Interpretation der Bedeutung von Signalen aus der Körperperipherie — eine Deutung der Aktivität verschiedenster Sinnesrezeptoren (Sehen, Hören, Geruch, Geschmack, Berührung, Druck, Temperatur, Propriozeption), nicht das direkte Abbild eines einzelnen Reizes.",
+      },
+      {
+        type: "text",
+        heading: "Drei Dimensionen des Schmerzerlebens nach Melzack und Wall (1965)",
+        text: "Das Schmerzerleben setzt sich aus drei Dimensionen zusammen. Sensorisch-diskriminativ: Weil das Nervensystem nur begrenzt bewusste Kapazität hat, muss die Aufmerksamkeit unter vielen Reizen auswählen — sie kann auf den Schmerz hin oder von ihm weg gelenkt werden, und schon die Erwartungshaltung vor einem Schmerzereignis beeinflusst das tatsächliche Erleben. Affektiv-motivational: Das Schmerzerleben wird durch frühere Erfahrungen und durch Lernen am Verhalten anderer geprägt sowie durch das jeweilige soziokulturelle Wertesystem, das den Ausdruck von Schmerz sichtbar mitformt. Kognitiv-evaluativ: Entscheidend ist auch, wie ein Individuum seinen Körper und dessen Zustand gedanklich einordnet — fehlt die Überzeugung, Einfluss auf die eigene körperliche und seelische Verfassung zu haben („gelernte Hilflosigkeit“), begünstigt das Chronifizierung und Schwere des Schmerzverlaufs.",
+      },
+      {
+        type: "text",
+        heading: "Fehlregulation als eigenständige Schmerzursache",
+        text: "Viele Körperfunktionen (Organdurchblutung, Muskelspannung) werden automatisch über Hormone und Nervensystem geregelt. Versagt diese Regulation — etwa durch übertrieben enge oder weite Blutgefäße oder überschießend angespannte Haltemuskulatur — begünstigt das die Erregung der Nozizeptoren, ganz ohne dass eine strukturelle Gewebeschädigung vorliegen muss (Beispiel Migräne: Gefäß-Fehlregulation im Gehirn; Beispiel Kreuz-/Nackenschmerz: Muskeltonus-Fehlregulation). Daraus folgt ein wichtiger diagnostischer Grundsatz: Chronischer Schmerz ohne erkennbare körperliche Ursache bedeutet nicht automatisch Simulation — er kann eine reale, aber funktionelle (nicht strukturelle) Störung sein, die sich von der ursprünglichen Ursache gelöst hat oder sich sogar unabhängig von einer solchen entwickelt.",
+      },
+      {
+        type: "text",
+        heading: "Soziale Einflussfaktoren auf die Schmerzwahrnehmung",
+        text: "Schmerz unterliegt auch sozialen Einflüssen: Menschen mit hoher sozialer Kompetenz und Entscheidungsbeteiligung berichten seltener von schmerzbedingtem Leidensdruck, während geringere soziale Kompetenz mit verstärkter Schmerzwahrnehmung einhergeht. Auch unbewältigte soziale Konflikte und ein sekundärer Krankheitsgewinn wirken schmerzverstärkend. Die zugrunde liegenden zentralnervösen Mechanismen sind noch nicht vollständig geklärt, die Zusammenhänge selbst gelten aber als gut belegt — ein Hinweis darauf, dass auch beim Tier das unmittelbare psychosoziale Umfeld (Stress, Umgebungswechsel, Beziehung zur Bezugsperson) die tatsächlich erlebte Schmerzintensität mitbestimmt, nicht nur die zugrunde liegende Gewebeschädigung.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Unterkonfidenz"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 3.9–3.10 (Schmerzen durch Fehlregulation, Schmerz als Leitsymptom), S. 29–31 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(5)–g(18).pdf). Die Crue-et-al.-(2001)-Interpretationsthese, die drei Schmerzdimensionen nach Melzack und Wall (1965) inkl. „gelernter Hilflosigkeit“, das Fehlregulations-Konzept mit den Migräne-/Kreuzschmerz-Beispielen sowie die sozialen Einflussfaktoren (Raspe 1991) sind im Original so beschrieben. Das im Original an dieser Stelle enthaltene Kultur-Anekdotenbeispiel (unterschiedlicher Schmerzausdruck bei Angehörigen verschiedener Volksgruppen) wurde bewusst nicht übernommen, da es sich um eine nicht weiter belegte Einzelillustration handelt und der dahinterstehende Grundsatz (soziokulturelle Prägung des Schmerzausdrucks) auch ohne diese Zuspitzung vollständig vermittelt werden kann. Von der ausführlicheren Gate-Control-Theorie im bestehenden Eintrag `gate-control-theorie-deszendierende-schmerzhemmung` bewusst abgegrenzt: Dieser Eintrag behandelt die psychologisch-soziale Dimension des Schmerzerlebens, nicht den spinalen Hemm-Mechanismus.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "wesensveraenderung-stress-schmerz-wechselwirkung-locus-minoris-resistentiae",
+    category: "UNTERSUCHUNG",
+    title: "Warum eine Wesensveränderung in jede Schmerzanamnese gehört",
+    teaser:
+      "Aggressivität, Rückzug oder ein verändertes Ablegeverhalten können die einzigen sichtbaren Hinweise auf einen chronischen Schmerzzustand sein — und Stress selbst verstärkt den Schmerz, den er mitverursacht.",
+    sections: [
+      {
+        type: "text",
+        heading: "Stress und Angst verstärken Schmerz — auch beim Tier",
+        text: "Exogene wie endogene Stressoren können den Organismus nachhaltig beeinträchtigen, und Stress (damit auch Angst) wirkt massiv schmerzverstärkend. Klinisch zeigt sich das etwa, wenn ein Tier mit einer bereits länger bekannten, aber bisher gut kompensierten Grunderkrankung (z. B. einer Hüftgelenkdysplasie mit Coxarthrose) plötzlich ohne erkennbares Trauma lahmt, nachdem sich seine Lebensumstände grundlegend geändert haben — etwa durch ein neues Familienmitglied oder einen neuen Mitbewohner-Hund mit ungeklärter Rangordnung. Der zugrunde liegende Schmerz war vermutlich schon vorher vorhanden, wurde aber erst durch den zusätzlichen Stress manifest.",
+      },
+      {
+        type: "text",
+        heading: "Ablegeverhalten als beobachtbares Zeichen einer Wirbelsäulenproblematik",
+        text: "Ein spezifisches Verhalten beim Übergang vom Sitz in die Liegeposition kann auf eine Erkrankung am thorakolumbalen Übergang hinweisen: entweder ein langsames Vortasten mit den Vorderpfoten bis zur endgültigen Liegeposition, oder ein rasches Sich-fallen-lassen unter bewusster Vermeidung der Zwischenposition zwischen Sitz und Liegen. Dieses Muster gilt als charakteristisch für Spondylarthrosen (seltener Spondylosen) am thorakolumbalen Übergang — dessen Sklerotome mit den Viszerotomen von Magen und Leber korrespondieren (vgl. den segmentalreflektorischen Komplex). Wichtig: Dies ist ein Beobachtungs-Hinweis, der eine gezielte Untersuchung dieser Region nahelegt, keine eigenständige Diagnose. Der von den Autoren in diesem Zusammenhang berichtete Zusammenhang mit einer Tierheim-Vorgeschichte und chronischer Gastritis (als mögliche gemeinsame Stress-Ursache für Magen- und Rückenproblem) ist ausdrücklich eine von ihnen selbst so benannte Pathogenese-Hypothese, kein bewiesener Kausalzusammenhang.",
+      },
+      {
+        type: "text",
+        heading: "Verhaltensänderung als Schmerzzeichen jenseits der Bewegungseinschränkung",
+        text: "Chronische Schmerzen ziehen oft Verhaltensänderungen nach sich, die sich nicht allein durch die schmerzbedingte Bewegungseinschränkung erklären lassen — von einer herabgesetzten Aggressionsschwelle bis zur Depression. Insbesondere chronische Rückenschmerzen neigen dazu, depressive Stimmungslagen auszulösen. Tiere mit bewegungseinschränkenden Schmerzen oder Lähmungen versuchen dieses Defizit nicht selten durch vermehrte abwehrende Lautäußerung (Verbellen, Knurren) zu kompensieren. Daraus folgt für die Anamnese eine feste Fragenliste: Herkunft des Tieres, Dauer im aktuellen Besitz, bekannte vorherige Haltungsbedingungen, und ob eine Verhaltensänderung zeitlich einem bestimmten Ereignis zugeordnet werden kann.",
+      },
+      {
+        type: "text",
+        heading: "Locus minoris resistentiae: chronischer Schmerz als Belastung für den gesamten Organismus",
+        text: "Chronischer Schmerz beeinträchtigt nicht nur die betroffene Struktur, sondern die Regulationsfähigkeit des gesamten Organismus. Ein gut eingestellter Herzpatient kann kardial dekompensieren, wenn sich eine zusätzliche chronische Schmerzsituation dazugesellt — etwa eine leicht übersehene Zehenarthrose oder arthrotische Veränderung an den Sesambeinen der Beugesehnen, die das ohnehin belastete System überfordert und den „locus minoris resistentiae“ (hier: das Herz) aus der Regulation kippen lässt. Das Prinzip gilt auch umgekehrt: Ein orthopädisch gut betreuter Hund, der zusätzlich ein Herzproblem entwickelt, zeigt eine deutlich schlechtere orthopädische Leistung, die sich mit Einleitung der Herztherapie wieder bessert. Für die Praxis folgt daraus, dass moderne Schmerztherapie nicht nur am lokalen Schmerzort ansetzen sollte, sondern die Verbesserung der gesamten Reaktionslage des Patienten zum Ziel haben muss.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 3.7 und 3.11 (Psychosomatik/Somatopsychik, Schmerz als Heilungshindernis), S. 27–29 und S. 31 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(5)–g(18).pdf). Das Stress-Schmerz-Merke, das beschriebene Ablegeverhalten mit seiner Sklerotom-Viszerotom-Zuordnung, die Verhaltensänderungs-Liste samt Anamnese-Fragen sowie das Konzept des Locus minoris resistentiae mit dem Herz-Orthopädie-Beispiel sind im Original so beschrieben; die Tierheim-Magen-Gastritis-Pathogenesekette wird ausdrücklich als von den Autoren selbst benannte Hypothese gekennzeichnet. Die Abschnitte 3.7.2 (Somatopsychik/endogene Faktoren) und 3.8 (Besitzerbezogene Schmerzen) wurden bewusst nicht übernommen: Ersterer bietet inhaltlich keine über diesen Eintrag hinausgehende Substanz, Letzterer enthält vorwiegend spekulative, nicht evidenzbasierte Aussagen (energetische Bilanz zwischen Tier und Besitzer, Homöopathie-Miteinreibung, Meridian-Spekulation zur Linksseiten-Prävalenz), die nicht dem fachlichen Anspruch dieser Wissensbibliothek entsprechen (siehe Backlog-Eintrag zu dieser Quelle).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
