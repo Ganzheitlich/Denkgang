@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 273 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 71
-  Untersuchung, 97 Pathologie, 68 Biomechanik, 40 Therapie — genaue
+- Wissensbibliothek: 278 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 75
+  Untersuchung, 97 Pathologie, 69 Biomechanik, 40 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -540,10 +540,40 @@ kein Überblick verloren geht.
   Übertherapie. Ein im Rohtext zweifach extrahierter Absatz
   (Übermotivation/soziale Isolation am Kapitelübergang 3.12.3/3.12.4) wurde
   nur einmal übernommen. **Damit sind Kap. 2 (Schmerz – was ist das?) und
-  Kap. 3 (Schmerzsymptome) dieser Quelle vollständig ausgewertet**; weitere
-  Kapitel (4 Untersuchungsgang, 5 Methoden der Schmerztherapie, 7
-  Schmerztherapie bei bestimmten Indikationen) stehen noch aus — siehe
-  PATHOLOGIE-/BIOMECHANIK-Backlog unten.
+  Kap. 3 (Schmerzsymptome) dieser Quelle vollständig ausgewertet.** Danach
+  Kap. 4 „Untersuchungsgang" (S. 49–124) per delegiertem Subagenten
+  extrahiert (Scratchpad-Datei `kap4-untersuchungsgang-verbatim.txt`, nicht
+  Teil des Repos) und vollständig gelesen — ein sehr umfangreiches Kapitel
+  (1567 Zeilen Rohtext) mit 20 vom Subagenten selbst geflaggten
+  Extraktionsunsicherheiten (durchgehend dichte Zweispaltigkeit auf vielen
+  Seiten), die in den sourceStatus-Feldern der betroffenen Einträge
+  dokumentiert werden. Erste Charge von 5 neuen Einträgen aus Kap. 4.5
+  (Manuelle Untersuchungen — Palpationen, S. 76–104):
+  `kiblersche-hautfaltenpalpation-technik-vier-kriterien` (UNTERSUCHUNG) —
+  die konkrete Technik hinter dem in mehreren bestehenden Einträgen nur
+  namentlich erwähnten Begriff, inkl. physiologischer Verquellungszonen und
+  kaudaler Dermatomverschiebung;
+  `druckpunktpalpation-kothbauer-technik-organzuordnung` (UNTERSUCHUNG) —
+  Tab. 4.5 (Organ-Druckpunkt-Zuordnung), Technik und die wichtige
+  Einschränkung, dass ein positiver Punkt kein Organbeweis, sondern nur ein
+  Frühwarnsystem ist; zwei neue, eigenständige Einträge zum
+  Triggerpunkt-Untersuchungssystem nach Kasper/Zohmann — Hintergliedmaßen
+  (`triggerpunktuntersuchung-kasper-zohmann-hintergliedmasse`: LG03, MA31,
+  MA32, Knieumfassungsschmerz BL40) und Vordergliedmaßen
+  (`triggerpunktuntersuchung-kasper-zohmann-vordergliedmasse`: medialer/
+  lateraler Ellenbogentrigger, Schulter als „Weichgelenk", proximaler
+  Bizeps-, Trizeps- und Supraspinatustrigger); sowie
+  `muskelfunktionsketten-kasper-zohmann-diagnostisches-werkzeug`
+  (BIOMECHANIK) — die benannten kranialen/kaudalen Muskelketten der
+  Vordergliedmaße (Tab. 4.7) als diagnostisches Werkzeug, ausdrücklich
+  abgegrenzt vom bestehenden, konzeptionell anderen Eintrag
+  `offene-geschlossene-muskelkette` (Hohmann, offene/geschlossene
+  kinematische Kette). Kap. 4 ist damit erst teilweise ausgewertet — siehe
+  PATHOLOGIE-/BIOMECHANIK-/UNTERSUCHUNG-Backlog unten für den detaillierten
+  Stand und die als nächstes vorgesehenen Themen (Signalement-Filter,
+  Gangbildanalyse-Biomechanik, SIG-Anatomie und Zohmann'sche
+  Gelenkfunktionsprüfung, Köppel'sche HD-Frühdiagnostik, Katzenspezifika,
+  dynamische Diagnose).
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -662,7 +692,92 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
 - [x] Kap. 3.12.5 (Schmerz-/Missempfindungsstrategie im Alter, S. 47–48):
   daraus `geriatrischer-schmerzpatient-funktions-struktur-aktualitaetsanalyse`
   (inkl. der aus 3.12.3 stammenden 80/20-Regel, thematisch hier eingeordnet).
-- [ ] Kap. 4 „Untersuchungsgang" (S. 49 ff.) — noch nicht gesichtet.
+- [~] Kap. 4 „Untersuchungsgang" (S. 49–124): vollständig per Subagent
+  extrahiert und gelesen (1567 Zeilen, Scratchpad-Datei
+  `kap4-untersuchungsgang-verbatim.txt`, nicht Teil des Repos — bei Bedarf
+  erneut aus Chunks g(19)–g(27).pdf extrahieren). **Wichtig:** Durchgehend
+  dichte Zweispaltigkeit auf vielen Seiten, vom Subagenten mit 20
+  Einzel-[HINWEIS]-Markierungen versehen (u. a. Tab. 4.2–4.4
+  Gangbild-Befundtabellen mit unsicherer Spaltenzuordnung Bedeutung/
+  Bemerkungen; Tab. 4.6 Triggerpunkt-Übersichtstabelle stark durcheinander,
+  der begleitende Fließtext 4.5.4.1 gilt als verlässlicher; mehrere
+  rekonstruierte Absatzreihenfolgen an Kapitelübergängen) — vor wörtlicher
+  Zitation Original-PDF gegenprüfen. Teilweise umgesetzt:
+  - [x] 4.5.2 Hautfaltenpalpation nach Kibler (S. 76–78): daraus
+    `kiblersche-hautfaltenpalpation-technik-vier-kriterien`.
+  - [x] 4.5.3 Druckpunktpalpation nach Kothbauer (S. 78–82): daraus
+    `druckpunktpalpation-kothbauer-technik-organzuordnung`.
+  - [x] 4.5.4 Triggerpunktuntersuchung, Hintergliedmaßen-Trigger LG03/MA31/
+    MA32/BL40 (S. 82–90): daraus
+    `triggerpunktuntersuchung-kasper-zohmann-hintergliedmasse`.
+  - [x] 4.5.4 Triggerpunktuntersuchung, Ellenbogen-/Schulter-Trigger (S. 90–101):
+    daraus `triggerpunktuntersuchung-kasper-zohmann-vordergliedmasse`.
+  - [x] 4.5.5 Muskelpalpationen, Tab. 4.7 Muskelketten (S. 101–104): daraus
+    `muskelfunktionsketten-kasper-zohmann-diagnostisches-werkzeug`.
+  - [ ] 4.1 Nationale/Signalement (S. 49–54): Rasse/Verwendungszweck,
+    Geschlecht (weiblich/kastriert: LSÜ-/SIG-Disposition während Läufigkeit,
+    40 % Spondylose-Korrelation mit Kastrationsnarbe; männlich/kastriert:
+    Prostata als Störfeld, Skrotal-/Hodensegment-Unterscheidung), Alter
+    (Katzen altern später, kleine Hunde langsamer, mittelalte Hunde als
+    größte orthopädische Schmerzpatienten-Population — Paradox erklärt),
+    Größe/Gewicht (Adipositas-Auswirkung auf HD-Ausprägung) — noch nicht
+    umgesetzt, hohes Potenzial für 1–2 neue Einträge (Geschlecht separat von
+    Alter/Gewicht).
+  - [ ] 4.2 Vorbericht/Anamnese (S. 54–56): Eingangsanamnese-Fragenkatalog,
+    Verlaufsanamnese — teilweise Überschneidung mit bereits vorhandenen
+    Anamnese-Inhalten aus anderen Quellen zu prüfen, bevor Eintrag entsteht.
+  - [ ] 4.3 Gangbildanalyse (S. 57–74): Lahmheit-vs.-Bewegungsstörung-
+    Definition, LSÜ-Twist-Mechanismus im Detail, Kopfnicken-Mechanismus,
+    Schritt-vs.-Trab-Biomechanik (Synoviapumpe/Knorpelernährung), Passgang,
+    Asymmetrie-Ursachenkatalog, Krallenschleifen-Differenzialdiagnose
+    (orthopädisch vs. neurologisch), Tab. 4.2–4.4 Gangbildbefund-Tabellen —
+    sehr umfangreich, hohes Potenzial für mehrere neue Einträge; vorsichtig
+    gegen bestehende Koch/Fischer- und Mai-Gangbildanalyse-Einträge
+    abgrenzen (Kernbegriffe wie Stützbein-/Hangbeinlahmheit dort schon
+    vorhanden, LSÜ-Twist/Kopfnicken-Mechanismus und die Schritt/Trab-
+    Knorpelernährungs-Biomechanik hier aber neu).
+  - [ ] 4.4 Adspektion in der Ruhe (S. 74–76): Checkliste orthopädischer/
+    internistischer Befunde, Horner-Syndrom-Hinweis, Piloarrektion —
+    teilweise Überschneidung mit bestehenden Adspektions-Einträgen zu
+    prüfen.
+  - [ ] 4.5.6 Untersuchung der distalen Extremitäten (S. 104–107):
+    Zehenarthrosen (bislang unterschätztes, häufig übersehenes
+    Praxisthema) und rassetypische Sesambeinfrakturen (Rottweiler, Tab. 4.8
+    Gewichtsverteilung) — guter Kandidat für 1 neue PATHOLOGIE-Eintrag.
+  - [ ] 4.5.7 Funktionsprüfungen (S. 107–112): Vordergliedmaßen-Streckung/
+    -Beugung inkl. Bizepsursprungssehnen-Überdehnungstest, sowie
+    ausführliche SIG-Anatomie (Ligg. sacroiliaca dorsalia/ventralia/
+    interossea, Lig. sacrotuberale — bei der Katze fehlend, Erklärung für
+    häufigere Beckenfrakturen), SIG-Blockierungsmechanismus und die
+    Zohmann'sche SIG-Gelenkfunktionsprüfung (adaptierter „Federtest") —
+    hohes Potenzial für 1–2 neue Einträge (Anatomie+Pathologie getrennt von
+    der Untersuchungstechnik).
+  - [ ] 4.6 Die Untersuchung der Katze (S. 112–114): katzenspezifische
+    Untersuchungsbesonderheiten (verdeckte Schmerzäußerung, TLÜ als
+    „Locus minoris resistentiae" bei praktisch allen ernsten Problemen,
+    LSÜ-Schmerz als Obstipations-Fehldiagnose-Falle) — guter Kandidat für
+    einen eigenständigen, artspezifischen Eintrag; bisherige Wissensbibliothek
+    ist stark hundelastig.
+  - [ ] 4.7 Bildgebende Diagnostik (S. 114–116): CT-/MRI-/Arthroskopie-
+    Indikationskatalog, Ultraschall-Indikationen für internistische
+    Schmerzprozesse — eher generisches Radiologie-Grundwissen, Mehrwert vs.
+    bestehende Einträge vorher prüfen.
+  - [ ] 4.8 Untersuchung/Untersuchungszeitpunkt zur HD-Frühdiagnostik
+    (S. 116–122): Ortolani-Test zu zwei rassenunabhängigen Zeitpunkten
+    (8.–9. Lebenswoche Seitenlage vs. 4.–8. Lebensmonat Rückenlage) sowie
+    die radiologische Köppel-Methode (Os coxae quartum/OCQ,
+    Aplasie/Hypoplasie/Persistenz-Unterscheidung, primär ossäre vs.
+    ligamentäre HD-Form, ca. 90 % Treffersicherheit) — Letzteres komplett
+    neu und in keinem bestehenden Eintrag abgedeckt, hohe Priorität für
+    nächste Charge. Ortolani-Test selbst ist bereits mehrfach aus Hárrer
+    abgedeckt (u. a. `ortolani-test-hueftlaxitaet`, Bardens-Test-Eintrag) —
+    vor Eintragserstellung sorgfältig gegen diese abgrenzen (nur die beiden
+    konkreten Altersstufen-Protokolle wären ggf. neu).
+  - [ ] 4.9 „Dynamische" Diagnose (S. 122–123): Anfangserfolg-Kurve
+    (50-%-Reduktion pro Sitzung, dann Abflachung), Notwendigkeit eines
+    Re-Checks bei Stagnation, häufig übersehene Ursachen (Zehenarthrosen,
+    Sesambein-/Supraspinatusprobleme) — guter Kandidat für einen
+    UNTERSUCHUNG/GRUNDLAGEN-Eintrag zur Erwartungssteuerung.
 - [ ] Kap. 5 „Methoden der Schmerztherapie" — noch nicht gesichtet.
   Medikamentendosierungen bewusst außerhalb des Extraktionsziels (etablierte
   Session-Konvention); alternative Modalitäten (Homöopathie, Aromatherapie,

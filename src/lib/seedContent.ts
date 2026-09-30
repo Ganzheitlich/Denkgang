@@ -12510,6 +12510,190 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "kiblersche-hautfaltenpalpation-technik-vier-kriterien",
+    category: "UNTERSUCHUNG",
+    title: "Die Kibler'sche Hautfaltenpalpation: vier Kriterien, ein System",
+    teaser:
+      "Nicht die einzelne Hautfalte zählt, sondern der Unterschied von Segment zu Segment — und wer die physiologischen Verquellungszonen nicht kennt, produziert reihenweise falsch-positive Befunde.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum nicht die Einzelfalte zählt, sondern der Verlauf",
+        text: "Die Hautfaltenpalpation nach Kibler untersucht die annähernd gürtelförmig angelegten Dermatome — beginnend über dem Os sacrum bis zum Okziput, Segment für Segment oder Halbsegment für Halbsegment. Entscheidend ist dabei nicht der Befund der „Einzelfalte“, sondern die Veränderung der Qualität von Segment zu Segment. Bevor systematisch palpiert wird, muss sich der Untersucher am individuellen Hauttyp des Tieres „eichen“: Westhighland White Terrier etwa haben eine sehr rigide Haut, bei der diese Technik kaum zielführend ist, während Kleinpudel eine sehr dünne, weiche Haut haben — ohne diese Kalibrierung werden rassebedingte Hautunterschiede leicht mit einem pathologischen Befund verwechselt. An den Extremitäten verlaufen die Dermatome longitudinal, palpiert wird daher quer bzw. zirkumferent um Extremität und Gelenke.",
+      },
+      {
+        type: "text",
+        heading: "Technik und die vier Beurteilungskriterien",
+        text: "Bei dieser bimanuellen Technik schiebt der Daumen mit konstantem Druck nach vorn, während Mittel- und Zeigefinger die Haut segmentweise heranziehen — je sanfter untersucht wird, desto deutlicher werden die fühlbaren Unterschiede. Beurteilt wird nach vier Kriterien: Turgor (Konsistenz), Verschieblichkeit, Abhebbarkeit und Links-Rechts-Unterschied. Der physiologische Befund ist eine gleichmäßig dünne, leicht abhebbare und leicht verschiebliche Hautfalte. Pathologisch ist eine verdickte, schwer bis nicht abhebbare und schwer bis nicht verschiebliche Falte, graduiert von + bis ++++ (Verquellungsgrade 1–4). Im ersten Durchgang werden Verquellungszonen gesucht, im zweiten Durchgang die jeweiligen Maximalzonen — jene Segmente mit den stärksten Verquellungen.",
+      },
+      {
+        type: "text",
+        heading: "Physiologische Verquellungszonen als Fallstrick",
+        text: "Um falsch positive Befunde zu vermeiden, muss bekannt sein, dass die Haut über dem Becken und lumbosakralen Übergang sowie von der Thoraxmitte bis zum zervikothorakalen Übergang eine normale, physiologische Verdickung aufweist. Wer diese „physiologischen Verquellungszonen“ nicht kennt, wertet eine normale anatomische Gegebenheit fälschlich als segmentale Störung.",
+      },
+      {
+        type: "text",
+        heading: "Die kaudale Dermatomverschiebung verkompliziert die Segmentzuordnung",
+        text: "In der zervikalen, thorakalen sowie der kranialen und mittleren Lendenwirbelsäule decken sich Dermatome mit den zugehörigen Myo- und Sklerotomen. In der kaudalen Lenden- und der sakralen Wirbelsäule verschieben sich die Dermatome dagegen deutlich nach kaudal — eine Verquellung über dem Os sacrum kann sich deshalb tatsächlich auf eine Störung im lumbosakralen Übergang beziehen, nicht auf das Kreuzbein selbst. Um die Aussage zu präzisieren, sind daher zusätzlich Palpationen des Myo- und Sklerotoms (Druckpunktpalpation, Triggerpunktuntersuchung) notwendig. Eine spezielle Dermatom-Kontrolle bilden zudem die Tonsillarfalten — longitudinale Hautfalten von den Kieferwinkeln Richtung Sternum, deren seitenvergleichende Palpation auf Störungen im segmental zugehörigen Organ (Tonsille, Tonsillartasche, Oropharynx) als klassisches Störfeld hinweisen kann.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Anatomieverwechslung", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.2 (Hautfaltenpalpation nach Kibler), S. 76–78 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Die Technik, die vier Beurteilungskriterien, die physiologischen Verquellungszonen, die Verquellungsgrade sowie die kaudale Dermatomverschiebung samt Tonsillarfalten-Palpation sind im Original so beschrieben. Ergänzt gezielt die bestehenden Erwähnungen der Kibler'schen Hautfalte in mehreren Einträgen dieser Session (u. a. `segmentalreflektorischer-komplex-dermatom-myotom-sklerotom-viszerotom`), die den Begriff und seine historische Herkunft nennen, aber nicht die konkrete Untersuchungstechnik beschreiben — bewusst nicht dupliziert, sondern um die praktische Anwendung ergänzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "druckpunktpalpation-kothbauer-technik-organzuordnung",
+    category: "UNTERSUCHUNG",
+    title: "Druckpunktpalpation nach Kothbauer: ein Frühwarnsystem, kein Organbeweis",
+    teaser:
+      "Ein positiver Druckpunkt im „Nierensegment“ beweist keine Nierenerkrankung — er zeigt nur, dass im betroffenen Segment irgendetwas nicht stimmt, oft lange bevor klinische Symptome auftreten.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was die Druckpunkte anatomisch sind",
+        text: "Nach der Dermatom-Palpation folgt in fraglich bis eindeutig reagierenden Segmentabschnitten die dorsale Druckpunktpalpation als Untersuchung von Myo- und Sklerotom. Die Punkte liegen als „paramediane Kette“ auf Höhe der kleinen Wirbelgelenke, dort wo sich der jeweilige segmentale Anteil des M. longissimus und der Mm. multifidi kreuzen und eine tastbare Eindellung der Muskulatur bilden — dieselben Vertiefungen bezeichnet die TCM als Shu-Punkte am Blasenmeridian.",
+      },
+      {
+        type: "table",
+        heading: "Diagnostische Druckpunkte nach Kothbauer (Tab. 4.5)",
+        columns: ["Bezugssystem", "Druckpunkt"],
+        rows: [
+          ["Herz-Kreislauf", "GB21"],
+          ["Lunge", "BL15/16"],
+          ["Leber (rechts)", "BL19/20/21"],
+          ["Magen (links)", "BL19/20/21; KG12"],
+          ["Urogenitaltrakt", "BL22/23/24"],
+          ["Nieren", "BL23; MP13"],
+          ["Uterus", "BL28"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Technik: von grob nach fein",
+        text: "Der Untersucher steht hinter dem Tier und palpiert bimanuell oder einhändig vom Os sacrum bis zum Okziput; bei bimanueller Technik muss der Bauch des Patienten unterstützt werden, damit er dem Druck nicht durch Niedersetzen ausweicht. Mit gleichartigem Druck werden die paramedian tastbaren Vertiefungen in kurzen kreisenden oder wiegenden Bewegungen punktuell verstärkt. Im ersten Durchgang erfolgt eine grobe Abschätzung der Schmerzzonen, in einem zweiten oder dritten Durchgang werden die Schmerzgrade (+ bis ++++) definiert und die Puncta maxima eruiert. Patientenreaktionen reichen von Schmatzen, kurzfristigem Atemstillstand und Pannikulusreflex über Muskelkontraktion bis zur eindeutigen Abwehrreaktion.",
+      },
+      {
+        type: "text",
+        heading: "Warum ein positiver Befund kein Organbeweis ist",
+        text: "Die segmentale Palpation wirkt als Frühwarnsystem in Bezug auf das Viszerotom — sie liefert einen positiven Befund oft, bevor eindeutige klinische Symptome auftreten. Ein positiver Punkt beweist aber nicht direkt die quantitative Belastung des zugehörigen Organs; nur bei entsprechender klinischer Symptomatik und Zusatzuntersuchung lässt sich die Organentsprechung bestätigen. Mehrere physiologische Zustände können dieselben Punkte ohne jede Pathologie sensibilisieren: Zyklusgeschehen und Trächtigkeitsstadium erhöhen die Empfindlichkeit der Ovar-/Uterussegmente, kurz zurückliegende Nahrungsaufnahme die des Magensegments. Auch eine Hypersensibilität des Lebersegments bedeutet nicht zwingend eine Hepatopathie — jeder chronische pathologische Prozess, auch ein rein orthopädischer, kann die Leber segmental mitreagieren lassen. Umgekehrt weisen z. B. Spondylosen nicht automatisch auf ein rein orthopädisches Problem hin: Durch den „Kreisverkehr“ des segmentalreflektorischen Komplexes können Viszerotom, Sklerotom und Myotom wechselseitig in ihrer Regulation gestört sein.",
+      },
+      {
+        type: "text",
+        heading: "Praxistrick bei verspannter Rückenmuskulatur",
+        text: "Verspannt ein Tier den Rücken so stark, dass die Druckpunktpalpation keine verwertbare Reaktion mehr zeigt, helfen zwei Kunstgriffe zur kurzfristigen Entspannung: die Schwanztraktion — ein dosierter Zug an der Schwanzwurzel mit Nachlassen in kraniokaudaler Richtung, der den Hund leicht aus der Balance bringt und zum Aufwölben und Absenken des Rückens zwingt (der Schwanz darf dabei nie abrupt losgelassen werden, das würde die Muskelverspannung reflexartig verstärken) — sowie die Nadelung des Akupunkturpunktes GB41, bekannt als Öffner des „Gürtelgefäßes“.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.3 (Druckpunktpalpation nach Kothbauer), S. 78–82 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Die Tab. 4.5 (Bezugssystem/Druckpunkt), die Technikbeschreibung, das Frühwarnsystem-Konzept mit seinen physiologischen Störfaktoren (Zyklus, Trächtigkeit, Nahrungsaufnahme), das Kreisverkehr-Prinzip sowie die Schwanztraktion und die GB41-Nadelung sind im Original so beschrieben. Ergänzt die bestehende beiläufige Erwähnung der Kothbauer-Palpation im Eintrag `geriatrischer-schmerzpatient-funktions-struktur-aktualitaetsanalyse` (dieselbe Quelle) um die konkrete Technik und Punktzuordnung.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "triggerpunktuntersuchung-kasper-zohmann-hintergliedmasse",
+    category: "UNTERSUCHUNG",
+    title: "Triggerpunktuntersuchung: warum ein Muskel zum Verräter des ganzen Gelenks wird",
+    teaser:
+      "Der M. gastrocnemius spannt sich bei jedem gestörten Kniegelenk automatisch an, um das Knie in einer schmerzarmen Mittelstellung zu arretieren — das macht ihn zum verlässlichen Kniegelenk-Trigger, unabhängig davon, welche Struktur im Knie eigentlich betroffen ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Das Grundprinzip: ein Muskel als Sensor für das ganze Gelenk",
+        text: "Bei einer gestörten oder schmerzhaften Kniegelenkfunktion reagiert der M. gastrocnemius nahezu immer mit einer Tonuserhöhung, die das Kniegelenk in einer schmerzminimierenden Mittelstellung arretiert. Druck auf die Kaudalfläche des Muskels in der Tiefe der Kniekehle (der „Knieumfassungsschmerz“) löst deshalb eine Trigger-Reaktion bei Störungen in praktisch jedem Abschnitt des Kniegelenks aus — Arthrose, Gelenküberfüllung, Kreuzband-, Seitenband- oder Meniskusproblem eingeschlossen. Eine positive Reaktion verlangt eine gezielte Palpation aller erreichbaren Strukturen und ggf. Bildgebung; reagieren die „externen“ Kniestrukturen dabei nicht, muss es sich um einen intrakapsulären Prozess handeln (z. B. ein Meniskusproblem). Reagiert der Patient auf den Knieumfassungsgriff gar nicht, benötigt das Kniegelenk keine weitere Untersuchung. Cave: Triggerpunkte reagieren oft schon, bevor überhaupt röntgenologisch sichtbare Veränderungen bestehen — in diesem Fall handelt es sich um eine rein funktionelle Störung, für deren weitere Abklärung sich eher ein MRI eignet. Wichtige Voraussetzung für eine valide Untersuchung: Die Extremität muss voll belastet sein, da eine entlastete Extremität deutlich weniger empfindlich reagiert (Gefahr eines falsch negativen Befundes) — der Untersucher muss daher darauf achten, dass sich das Tier nicht vermehrt auf die Gegenseite stützt.",
+      },
+      {
+        type: "text",
+        heading: "LG03: der Triggerpunkt des lumbosakralen Übergangs",
+        text: "Der Triggerpunkt für den lumbosakralen Übergang (LSÜ, zwischen L7 und S1) liegt im Spatium lumbosacrale und wird in der Akupunktur als LG03 bezeichnet. Da sich die Dermatome aller Hinterextremitäten in dieser Region median treffen, reagiert die Haut hier bei sehr unterschiedlichen dermatomalen Störungen mit, ebenso bei Schmerzhaftigkeiten oder Funktionsstörungen der erweiterten Hüftregion. Technik: Der Untersucher drückt mit dem flachen Daumen in Richtung Xiphoid; bei stark verspannter Muskulatur kann der Druck mehrfach und kräftiger wiederholt werden. Die Reaktion reicht graduell von Hauterschütterung und Muskelkontraktion über spontanes Niedersetzen bis zu deutlicher Schmerzäußerung — welcher Anteil (orthopädisch oder internistisch) tatsächlich verantwortlich ist, lässt sich erst aus der Gesamtschau aller Befunde bestimmen.",
+      },
+      {
+        type: "text",
+        heading: "Oberer und unterer Oberschenkeltrigger (MA31, MA32)",
+        text: "Der obere Oberschenkeltriggerpunkt (OST, MA31) liegt in einer länglichen Grube zwischen der kranialen Portion des M. sartorius und dem M. tensor fasciae latae, gebildet vom M. rectus femoris — dem einzigen Muskel der Quadrizepsgruppe, der bereits im ruhigen Stehen angespannt ist. Er reagiert auf Hüftgelenküberlastung, Hüftgelenkdysplasie und Coxarthrose ebenso wie auf Probleme der beckenbezogenen Genitalorgane (Prostata, Zervix) — Letztere wirken über eine reflektorische Tonuserhöhung des M. iliopsoas, die sekundär auch den M. rectus femoris stärker anspannt. Nach Reihenuntersuchungen an vielen hundert Patienten gilt MA31 als hochsignifikant und äußerst sensibel: Schon geringste Abweichungen von der normalen Hüftgelenkfunktion führen zu einem positiven Befund, der hochsignifikant mit bereits minimalen röntgenologischen Hüftabweichungen korreliert. Der untere Oberschenkeltriggerpunkt (MA32) liegt im distalen M. vastus lateralis knapp oberhalb der Patella; eine positive Reaktion weist zwar auf das Kniegelenk im weiteren Sinne hin, kann aber ebenso Ausdruck einer rückenbedingten Tonuserhöhung sein, die den Muskel zusätzlich anspannt, um das Bein weiter unter den Körperschwerpunkt zu bringen.",
+      },
+      {
+        type: "text",
+        heading: "Der Knieumfassungsschmerz (KUS, BL40) als Überblickstechnik",
+        text: "Der tiefste Punkt der Kniekehle entspricht dem Akupunkturpunkt BL40, wo sich innerer und äußerer Blasenmeridian vereinigen — mit Hauptwirkung auf das Kniegelenk, aber auch auf die kaudale Lendenwirbelsäule und den LSÜ (dieselbe Rücken-Knie-Kopplung, die auch die TCM kennt). Technisch werden beide Kniegelenke bilateral von kranial und kaudal komprimiert, wobei die flach aufgelegten Daumen die Mm. gastrocnemii unter Druck setzen. Die dabei eingenommene Untersuchungsposition erlaubt es, ohne Positionswechsel gleich noch mediales, laterales und oberes Knieauge, Kondylen, Seitenbänder, den medialen Meniskus, die Patella sowie — bei seitlichem Positionswechsel — M. semitendinosus, M. semimembranosus, M. gracilis und M. biceps femoris auf Kontrakturen oder Myogelosen zu untersuchen. Ein positiver Befund zeigt sich als spontanes Einknicken schon bei geringer Druckausübung.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, Kap. 4.5.4 (Triggerpunktuntersuchung nach Kasper und Zohmann, Hintergliedmaßen-Trigger LG03/MA31/MA32/BL40), S. 82–90 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Das Grundprinzip am Beispiel Knie/M. gastrocnemius, die LG03-, MA31-, MA32- und BL40-Triggerpunkte mit ihrer anatomischen Lage, Technik, Aussagekraft und den mit der Untersuchungsposition gleichzeitig erreichbaren Strukturen sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher dieses spezifische Triggerpunkt-Untersuchungssystem ab — eigenständig, nicht duplizierend.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["quadriceps", "musculus-gastrocnemius-anatomie", "huefte", "iliopsoas"],
+  },
+  {
+    id: "triggerpunktuntersuchung-kasper-zohmann-vordergliedmasse",
+    category: "UNTERSUCHUNG",
+    title: "Warum am Ellenbogen zuerst medial, an der Schulter zuerst der Bizeps reagiert",
+    teaser:
+      "Die Reihenfolge der Vordergliedmaßen-Triggerpunkte folgt derselben Überlastungslogik wie die Schmerzreise selbst — und erklärt, warum der Processus coronoideus medialis mehr als nur eine chirurgische Entnahmestelle ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ellenbogen medial: mehr Anheftungsstelle als Operationsstelle",
+        text: "Der mediale Ellenbogentriggerpunkt entspricht dem Processus coronoideus medialis ulnae — dort setzen der M. biceps brachii, der M. brachialis und das Lig. collaterale mediale an. Als Anheftungsstelle ist der Kronfortsatz damit weit bedeutsamer als der kleine gelenknahe Anteil, der als chirurgische Interventionsstelle beim isolierten Processus coronoideus (IPC) bekannt ist. Schmerzhaftigkeiten im Ellenbogen oder vermehrte Lastübernahme bei Hinterhandproblemen führen zu einem Auswärtsdrehen der Ellenbogen; der reflektorische Gegenzug durch M. biceps brachii und M. brachialis, die den Unterarm nun gegen die vermehrte Belastung beugen müssen, erklärt die Druckempfindlichkeit an dieser Stelle. Eine direkte Prüfung des medialen Kronfortsatzes selbst ist anatomisch nicht möglich, ohne benachbarte Strukturen mitzuprovozieren — die Palpation bestätigt daher ein Überlastungsmuster, beweist aber keinen IPC; zur weiteren Abklärung sind gezielte Gelenkfunktionsprüfung und Bildgebung nötig.",
+      },
+      {
+        type: "text",
+        heading: "Ellenbogen lateral (DI11, DI10)",
+        text: "DI11 liegt in einer Grube vor dem Epicondylus lateralis und bezieht sich auf die kraniolateralen Ellenbogenstrukturen — lateraler Condylus humeri, Radiuserker, Gelenkkapsel und deren Anheftungen; sein anatomisches Substrat ist mit großer Sicherheit der N. radialis, der hier Äste zur Gelenkkapsel abgibt. DI10, etwa 1–1,5 cun distal von DI11, gibt Äste zur Streckermuskulatur ab, die am Epicondylus lateralis entspringt, und zeigt entsprechend Überlastungen dieser Muskelgruppe an. Die Befundung dieser Region hat die Qualität der Röntgenauswertung verbessert, weil schon kleinste Konturveränderungen am Radiuserker als Vorstufe einer Schalenbildung erkannt werden konnten, lange bevor sie eindeutig sichtbar wurden.",
+      },
+      {
+        type: "text",
+        heading: "Die Schulter als „Weichgelenk“",
+        text: "Anatomie, Funktion und Pathologie der Schulter lassen sich nicht direkt mit anderen Gelenken vergleichen — sie ist teilweise ein „Weichgelenk“, dessen Funktion nur im Zusammenspiel von Gelenk und gelenkbewegenden Muskeln verständlich wird: Die Endsehnen von M. infraspinatus (lateral) und M. subscapularis (medial) übernehmen dabei funktionell die Rolle von Seitenbändern. Die Hauptlast tragen M. biceps brachii und M. supraspinatus, wobei der Bizeps aus dynamischer Sicht am meisten gefordert ist — entsprechend aufwendig sind seine Hilfseinrichtungen: eine lange, kräftige Ursprungssehne, die im Sulcus intertubercularis von einer Kapselsehnenscheide umhüllt gleitet und durch das quer verlaufende Lig. transversum in ihrer Lage gehalten wird. Bei chronischer Tonuserhöhung entsteht am Sulcus eine periostale Gegenreaktion, die als „Bizepslippe“ röntgenologisch sichtbar wird; am Ursprung (Tuberculum supraglenoidale) finden sich nicht selten Insertionstendopathien und im Sehnen-Muskel-Übergang eingelagerte Sehnenknochen (Myotendinosen).",
+      },
+      {
+        type: "text",
+        heading: "Proximaler Bizeps-, Trizeps- und Supraspinatustrigger",
+        text: "Der proximale Bizepstrigger liegt medial des Tuberculum majus, distal des Lig. transversum, direkt über der umhüllten Bizepsursprungssehne — seine Reaktion verrät Probleme im gesamten engeren Schultergelenkbereich ebenso wie primäre oder sekundäre Bizepssehnenprobleme. Der Trizepstrigger (DÜ09, in einer Grube zwischen Pars scapularis und Pars acromialis des M. deltoideus) zeigt Kontrakturen der Trizepsgruppe an: Weil der Trizeps als funktioneller Gegenspieler von Bizeps und Supraspinatus bei deren Problemen reflektorisch mitanspannt („Nichtentspannung“ in der Vorschwingphase), trägt er zu einer schrittverkürzenden Schonbewegung bei — und diese Kontraktur kann bestehen bleiben und den Bewegungsraum weiter einschränken, selbst nachdem sich die ursprüngliche Bizepsfunktion bereits gebessert hat. Der Supraspinatustrigger liegt an der Umschlagstelle des Muskels über die Incisura scapulae, einer physiologisch stark geforderten und daher triggerprädestinierten Stelle; er reagiert als Teil der Muskelkette M. trapezius pars cervicalis → M. supraspinatus → M. biceps brachii → M. pronator teres. Dieselbe Umschlagstelle ist zusammen mit der Bizepsursprungssehne auch die Region, die bei Verletzungen in der Aufwachphase nach Narkosen am häufigsten betroffen ist, wenn Hunde unter Wegfall der schützenden Reflexe vorzeitig aufstehen möchten.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, Kap. 4.5.4 (Triggerpunktuntersuchung, Ellenbogen- und Schulter-Trigger), S. 90–101 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Der mediale und laterale Ellenbogentrigger, die Einordnung des Processus coronoideus medialis als Anheftungsstelle, DI11/DI10, die Charakterisierung der Schulter als „Weichgelenk“, der proximale Bizepstrigger, der Trizepstrigger (DÜ09) und der Supraspinatustrigger samt Muskelkette sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher dieses Triggerpunkt-System für die Vordergliedmaße ab — eigenständig, nicht duplizierend; ergänzt den Schwester-Eintrag zu den Hintergliedmaßen-Triggern derselben Quelle.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["biceps", "triceps-brachii", "supraspinatus", "infraspinatus", "subscapularis", "brachialis"],
+  },
+  {
+    id: "muskelfunktionsketten-kasper-zohmann-diagnostisches-werkzeug",
+    category: "BIOMECHANIK",
+    title: "Muskelfunktionsketten: warum ein Befund am Ellenbogen den Blick zur Schulter lenken muss",
+    teaser:
+      "Kraniale und kaudale Muskelkette der Vordergliedmaße arbeiten als gegenläufiges Team — wer nur den schmerzenden Einzelmuskel behandelt und die Kette ignoriert, übersieht oft die eigentliche Ursache.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei gegenläufige Ketten pro Gliedmaße",
+        text: "Die Muskeln der Vordergliedmaße lassen sich zwei funktionellen Ketten zuordnen. Kraniale Kette: M. trapezius pars cervicalis → M. supraspinatus → M. biceps brachii → M. pronator teres. Kaudale Kette: M. latissimus dorsi → M. trapezius pars thoracalis → M. infraspinatus → M. deltoideus → M. triceps brachii. Der Aufbau dieser Ketten ist an Vorder- und Hintergliedmaße nahezu spiegelbildlich angelegt — passend dazu berücksichtigt auch die Traditionelle Chinesische Medizin mit ihrer „Vorn-Hinten-Regel“ dieselbe funktionelle Gesetzmäßigkeit.",
+      },
+      {
+        type: "text",
+        heading: "Warum Ketten-Denken mehr leistet als Einzelmuskel-Denken",
+        text: "Ist der M. biceps brachii in seiner Funktion gestört, kommen viele mögliche Loci in Frage: sein Ansatz am Tuberculum supraglenoidale, der Verlauf der langen Ursprungssehne über das gebeugte Schultergelenk und durch den Sulcus intertubercularis, sein Verhältnis zum Lig. transversum und zur umhüllenden Kapselsehnenscheide, sein Muskelbauch distal des M. pectoralis sowie seine Endsehne, die den M. pronator teres unterkreuzt und sich zum Ansatz an Radius und Ulna aufteilt. Dass ein einzelner Muskel derart viele Modifikationen und Hilfseinrichtungen benötigt, um seiner Dauerbelastung nachzukommen, zeigt: Schulter- und Ellenbogengelenk dürfen bei einer Bizepsproblematik nie isoliert betrachtet werden — der Muskel reagiert nicht nur auf Gelenkbeschwerden mit, er hält die Pathologie durch seine schmerzbedingte Fehlfunktion auch aufrecht.",
+      },
+      {
+        type: "text",
+        heading: "Der M. triceps brachii als Gegenspieler, der die Heilung verzögern kann",
+        text: "Bei einer erweiterten schmerzhaften Ellenbogen- oder Schultersituation verhindert der M. triceps brachii durch eine reflektorische „Nichtentspannung“ (Tonuserhöhung bis Kontraktur) in der Vorschwingphase eine losgelassene Bewegung und trägt so dauerhaft zu einer schrittverkürzenden Schonbewegung bei. Je länger dieser Zustand besteht, desto eher gerät der Trizeps selbst in eine Dauerkontraktion — die sich verselbständigen kann (Myogelosen) und die Gesamtsituation verschlechtert oder das Ausheilen behindert: Trotz therapiebedingter Verbesserung von Gelenk und Bizeps bleibt der Raumgriff dann aus, weil eine trizepsbedingte Fehlstellung im Schultergelenk eine neuerliche schmerzhafte Gelenksituation aufbaut. In ähnlicher Weise schränkt auch der M. trapezius durch Tonuserhöhung die Beweglichkeit der Vordergliedmaße ein.",
+      },
+      {
+        type: "text",
+        heading: "Nicht jede Muskelverspannung ist orthopädischen Ursprungs",
+        text: "Muskelverspannungen innerhalb einer Kette müssen nicht orthopädisch bedingt sein. Der obere Oberschenkeltrigger (MA31) etwa reagiert nicht nur bei Hüftgelenkproblemen, sondern ebenso bei Problemen der beckenbezogenen Genitalorgane (Zervix, Prostata) — über eine vermehrte Tonisierung des M. iliopsoas und eine begleitende Verspannung der Lendenwirbelsäulenmuskulatur entsteht ein gespannter Gang der Hinterbeine mit steifem, leicht aufgebogenem Wirbelsäulenabschnitt. Dasselbe Prinzip gilt für jede Muskelkette: Ein auffälliger Kettenbefund verlangt immer auch die Differenzialdiagnose eines viszeralen Mitauslösers, nicht nur die Suche nach einer rein orthopädischen Ursache.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "falsche Priorisierung", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, Kap. 4.5.5 (Muskelpalpationen, Tab. 4.7 Muskelketten der Vorderextremitäten), S. 101–104 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Die kraniale und kaudale Muskelkette (Tab. 4.7), das Bizeps-Beispiel, das Trizeps/Trapezius-Gegenspieler-Prinzip sowie das Beispiel der viszeral bedingten OST-Reaktion sind im Original so beschrieben. Ausdrücklich abgegrenzt vom bestehenden Eintrag `offene-geschlossene-muskelkette` (Hohmann, Kap. 6.5): Jener Eintrag beschreibt das aus der Humananatomie übertragene Konzept offener/geschlossener kinematischer Ketten während der Stemmphase, dieser Eintrag ein davon unabhängiges, eigenständiges Konzept benannter, gegenläufiger Muskelfunktionsketten als diagnostisches Werkzeug bei der Trigger- und Muskelpalpation — unterschiedliche Quellen, unterschiedliche Konzepte, bewusst nicht dupliziert.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["biceps", "triceps-brachii", "supraspinatus", "infraspinatus", "iliopsoas"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
