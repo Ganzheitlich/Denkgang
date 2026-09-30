@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 278 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 75
+- Wissensbibliothek: 280 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 77
   Untersuchung, 97 Pathologie, 69 Biomechanik, 40 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -568,12 +568,23 @@ kein Überblick verloren geht.
   Vordergliedmaße (Tab. 4.7) als diagnostisches Werkzeug, ausdrücklich
   abgegrenzt vom bestehenden, konzeptionell anderen Eintrag
   `offene-geschlossene-muskelkette` (Hohmann, offene/geschlossene
-  kinematische Kette). Kap. 4 ist damit erst teilweise ausgewertet — siehe
+  kinematische Kette). Danach 2 weitere neue Einträge aus Kap. 4.5.7.2 und
+  4.8.4: `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe`
+  (UNTERSUCHUNG) — SIG-Bandanatomie, der fehlende bzw. schwächer
+  ausgebildete Lig.-sacrotuberale-latum-Ersatz beim Hund (bei der Katze
+  ganz fehlend, Erklärung für häufigere Beckenfrakturen), der
+  Blockierungsmechanismus und die SIG-Probe nach Zohmann (adaptierter
+  Federtest); sowie `hd-fruehdiagnostik-koeppel-os-coxae-quartum`
+  (UNTERSUCHUNG) — die radiologische Köppel-Methode am Os coxae quartum
+  (14.–20. Lebenswoche, ca. 90 % Treffsicherheit, Unterscheidung primär
+  ossäre vs. ligamentäre HD-Form), die gezielt den bestehenden
+  Koch/Fischer-Eintrag zu Genetik/Coxarthrose um ein zeitlich deutlich
+  vorgelagertes, eigenständiges Frühdiagnoseverfahren ergänzt. Kap. 4 ist
+  damit noch nicht vollständig ausgewertet — siehe
   PATHOLOGIE-/BIOMECHANIK-/UNTERSUCHUNG-Backlog unten für den detaillierten
   Stand und die als nächstes vorgesehenen Themen (Signalement-Filter,
-  Gangbildanalyse-Biomechanik, SIG-Anatomie und Zohmann'sche
-  Gelenkfunktionsprüfung, Köppel'sche HD-Frühdiagnostik, Katzenspezifika,
-  dynamische Diagnose).
+  Gangbildanalyse-Biomechanik, Katzenspezifika, Zehenarthrosen/
+  Sesambeinfrakturen, dynamische Diagnose).
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -744,14 +755,12 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
     Zehenarthrosen (bislang unterschätztes, häufig übersehenes
     Praxisthema) und rassetypische Sesambeinfrakturen (Rottweiler, Tab. 4.8
     Gewichtsverteilung) — guter Kandidat für 1 neue PATHOLOGIE-Eintrag.
-  - [ ] 4.5.7 Funktionsprüfungen (S. 107–112): Vordergliedmaßen-Streckung/
-    -Beugung inkl. Bizepsursprungssehnen-Überdehnungstest, sowie
-    ausführliche SIG-Anatomie (Ligg. sacroiliaca dorsalia/ventralia/
-    interossea, Lig. sacrotuberale — bei der Katze fehlend, Erklärung für
-    häufigere Beckenfrakturen), SIG-Blockierungsmechanismus und die
-    Zohmann'sche SIG-Gelenkfunktionsprüfung (adaptierter „Federtest") —
-    hohes Potenzial für 1–2 neue Einträge (Anatomie+Pathologie getrennt von
-    der Untersuchungstechnik).
+  - [~] 4.5.7 Funktionsprüfungen (S. 107–112): Die SIG-Anatomie und
+    Zohmann'sche Gelenkfunktionsprüfung sind umgesetzt (siehe
+    `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe`). Noch offen:
+    Vordergliedmaßen-Streckung/-Beugung inkl. Bizepsursprungssehnen-
+    Überdehnungstest (4.5.7.1, S. 107–108) — kleinerer, eigenständiger
+    Ergänzungskandidat.
   - [ ] 4.6 Die Untersuchung der Katze (S. 112–114): katzenspezifische
     Untersuchungsbesonderheiten (verdeckte Schmerzäußerung, TLÜ als
     „Locus minoris resistentiae" bei praktisch allen ernsten Problemen,
@@ -762,17 +771,18 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
     Indikationskatalog, Ultraschall-Indikationen für internistische
     Schmerzprozesse — eher generisches Radiologie-Grundwissen, Mehrwert vs.
     bestehende Einträge vorher prüfen.
-  - [ ] 4.8 Untersuchung/Untersuchungszeitpunkt zur HD-Frühdiagnostik
-    (S. 116–122): Ortolani-Test zu zwei rassenunabhängigen Zeitpunkten
-    (8.–9. Lebenswoche Seitenlage vs. 4.–8. Lebensmonat Rückenlage) sowie
-    die radiologische Köppel-Methode (Os coxae quartum/OCQ,
-    Aplasie/Hypoplasie/Persistenz-Unterscheidung, primär ossäre vs.
-    ligamentäre HD-Form, ca. 90 % Treffersicherheit) — Letzteres komplett
-    neu und in keinem bestehenden Eintrag abgedeckt, hohe Priorität für
-    nächste Charge. Ortolani-Test selbst ist bereits mehrfach aus Hárrer
-    abgedeckt (u. a. `ortolani-test-hueftlaxitaet`, Bardens-Test-Eintrag) —
-    vor Eintragserstellung sorgfältig gegen diese abgrenzen (nur die beiden
-    konkreten Altersstufen-Protokolle wären ggf. neu).
+  - [~] 4.8 Untersuchung/Untersuchungszeitpunkt zur HD-Frühdiagnostik
+    (S. 116–122): Die radiologische Köppel-Methode (Os coxae quartum/OCQ)
+    ist umgesetzt (siehe `hd-fruehdiagnostik-koeppel-os-coxae-quartum`).
+    Noch offen: Der Ortolani-Test zu zwei rassenunabhängigen Zeitpunkten
+    (8.–9. Lebenswoche Seitenlage vs. 4.–8. Lebensmonat Rückenlage) — der
+    Ortolani-Test selbst ist bereits mehrfach aus Hárrer abgedeckt (u. a.
+    `ortolani-test-hueftlaxitaet`, Bardens-Test-Eintrag), vor
+    Eintragserstellung sorgfältig abgrenzen (nur die beiden konkreten
+    Altersstufen-Protokolle wären ggf. neu genug für eine Ergänzung). Auch
+    4.8.1–4.8.3 (Anamnese/Adspektion/Palpation bei Jungtieren, inkl. Tab. 4.8
+    Gewichtsverteilung und dem Norberg-Olson-Winkel-Relativierungshinweis der
+    Autoren) noch nicht ausgewertet.
   - [ ] 4.9 „Dynamische" Diagnose (S. 122–123): Anfangserfolg-Kurve
     (50-%-Reduktion pro Sitzung, dann Abflachung), Notwendigkeit eines
     Re-Checks bei Stagnation, häufig übersehene Ursachen (Zehenarthrosen,

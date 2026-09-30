@@ -12694,6 +12694,101 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["biceps", "triceps-brachii", "supraspinatus", "infraspinatus", "iliopsoas"],
   },
+  {
+    id: "sakroiliakalgelenk-anatomie-blockierung-zohmann-probe",
+    category: "UNTERSUCHUNG",
+    title: "Warum der Hund für SIG-Blockierungen anfälliger ist als Huftiere",
+    teaser:
+      "Dem Hund fehlt das kräftige Lig. sacrotuberale latum der Huftiere — ein anatomischer Unterschied, der das Sakroiliakalgelenk deutlich verletzlicher für Verkippungen macht, und der Katze sogar ganz fehlt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein straffes Gelenk mit wenig Spielraum",
+        text: "Das Sakroiliakalgelenk (SIG) ist nach Budras (2000) eine Sonderform einer Articulatio plana als Amphiarthrose: kurze Gelenkbänder, höckerige Gelenkoberfläche, geringer Bewegungsspielraum. Die Gelenkflächen (Facies auricularis ossis sacri und ossis ilii) werden von den Ligg. sacroiliaca dorsalia und ventralia überspannt — mit einer kranialen Pars brevis zwischen Tuber sacrale und den Processus mamillares sowie einer Pars longa zwischen Tuber sacrale und der Pars lateralis des Os sacrum. Zusätzlich stabilisieren fibröse Ligg. sacroiliaca interossea zwischen der Tuberositas iliaca und der Dorsalfläche der Ala ossis sacri als Aufhängebänder des Kreuzbeins.",
+      },
+      {
+        type: "text",
+        heading: "Der entscheidende anatomische Unterschied zu Huftieren",
+        text: "Becken und Kreuzbein bilden den Beckenring, der durch Beckensymphyse und die straffen Kreuzdarmbeingelenke sowohl Festigkeit als auch eine gewisse Nachgiebigkeit gewährleistet — daraus resultiert die Federung, die den Bewegungsimpuls der Hintergliedmaßen auf den Rumpf überträgt. Im Vergleich zu Klauen- oder Huftieren fällt beim Hund die minimale Verspannung dieses Rings auf: Es fehlt ein kräftig ausgebildetes Lig. sacrotuberale latum. Der Hund besitzt lediglich das relativ dünne Lig. sacrotuberale (von den Processus transversi des S3 und dem ersten Schwanzwirbel zu den Tubera ischiadica). Der Katze fehlt dieses Band sogar vollständig — ein Grund dafür, dass Beckenfrakturen bei dieser Tierart relativ häufig vorkommen.",
+      },
+      {
+        type: "text",
+        heading: "Wie es zur Blockierung kommt — und warum sie nie isoliert bleibt",
+        text: "Aus dieser schwachen Verspannung folgt: Seitlich einwirkende Traumen oder damit kombinierte Rumpfdrehungen haben am SIG kaum Gegenkräfte entgegenzusetzen — es kommt zu Verkippungen oder Verwringungen von Kreuz- und Darmbein gegeneinander, die als „Blockierungen“ bezeichnet werden. Neben dieser traumatischen Genese kann eine SIG-Blockierung auch sekundär entstehen, ausgehend von einem gynäkopathischen oder andropathischen Geschehen (aus der Humanmedizin sind z. B. zykluskorrelierte SIG-Blockierungen bekannt; Zohmann 1993). Unabhängig vom Ursprung der Störung reagiert im Segment immer die gesamte Einheit mit: Viszerotom (Beckenorgane), Sklerotom (Beckengürtel), Myotom (Gluteal- und Kruppenmuskulatur) und Dermatom (Hautsegment zwischen sechstem Lendenwirbel und Kreuzbeinmitte). Praktische Konsequenz: Bei einer Hangbeinlahmheit der Hinterextremität darf nicht nur das ipsilaterale SIG beurteilt werden — auch der Urogenitaltrakt muss anamnestisch wie diagnostisch mitberücksichtigt werden.",
+      },
+      {
+        type: "text",
+        heading: "Diagnostik: Adspektion, Palpation, Gelenkfunktionsprüfung",
+        text: "Bei stärkerer SIG-Blockierung fällt von hinten betrachtet eine Kruppen-Asymmetrie auf (ein höher gestellter, ein stärker abfallender Anteil) — dabei ist zu beachten, dass nicht zwangsläufig die höher gestellte Seite die betroffene ist: Die Höherstellung kann gerade durch die reflektorisch kontrahierte (verkürzte) Myotom-Muskulatur der betroffenen Seite entstehen. Die eigentliche Diagnose ergibt sich erst aus der Synthese von Adspektion, digitaler Schmerzpalpation (Dolenz über tastbaren Vertiefungen knapp kranial bzw. kaudal des Tuber sacrale ossis ilii — entsprechend den Akupunkturpunkten B26 und B28) und dem Höhenvergleich der Tubera coxae und Tubera ossis ischii.",
+      },
+      {
+        type: "text",
+        heading: "Die SIG-Probe nach Zohmann (adaptierter Federtest)",
+        text: "Aus der Humanmedizin adaptiert (Tilscher u. Eder 1986, Zohmann u. Kasper 1994): Beim stehenden Tier umgreift die fixierende Hand von hinten die Darmbeinschaufel der einen Seite (Hauptfixierung über den Mittelfinger), während der Daumen dorsal, nach kranial gerichtet, auf dem zu fixierenden SIG aufliegt. Die andere, untersuchende Hand führt mit Zeige-, Mittel- und Ringfinger leicht wippende Bewegungen in einem sagittalen Bogen von kraniolateroventral nach kaudomediodorsal aus. Positiver Befund: Lässt sich auf einer oder beiden Seiten keine Mobilität feststellen, spricht das — im Zusammenhang mit allen anderen Befunden — für eine SIG-Blockierung. Negativer Befund: ein leichtes, physiologisches Spiel der Darmbeinschaufel gegen das Sakrum. Alternativ existiert eine manualmedizinisch-physiodiagnostische Methode in Seitenlage, bei der das Sakrum von dorsal fixiert und über den gegenüberliegenden Sitzbeinhöcker eine sagittale Hin- und Herbewegung geprüft wird.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund übersehen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.7.2 (Sakroiliakalgelenk), S. 108–112 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf, unter Berufung im Original auf Budras 2000 und Nickel et al. 1992). Die SIG-Bandanatomie, der Vergleich zu Huftieren und das Fehlen des Lig. sacrotuberale latum, die Erklärung der häufigeren Beckenfrakturen bei Katzen, der Blockierungsmechanismus (traumatisch und sekundär-gynäko-/andropathisch, Zohmann 1993), die Diagnostik-Landmarken (B26/B28) sowie die SIG-Probe nach Zohmann (Tilscher u. Eder 1986, Zohmann u. Kasper 1994) sind im Original so beschrieben. Der bestehende Eintrag zur Gelenktyp-Klassifikation (Hohmann) nennt das SIG nur beiläufig als Beispiel einer Amphiarthrose, ohne auf Anatomie, Pathologie oder Untersuchungstechnik einzugehen — bewusst nicht dupliziert, sondern erstmals eigenständig ausgeführt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "hd-fruehdiagnostik-koeppel-os-coxae-quartum",
+    category: "UNTERSUCHUNG",
+    title: "Die Köppel-Methode: HD-Frühdiagnose am Pfannendachkern statt am fertigen Schaden",
+    teaser:
+      "Zwischen der 14. und 20. Lebenswoche verrät ein kleiner, leicht übersehener Knochenkern mit rund 90 % Treffsicherheit, ob sich eine Hüftdysplasie entwickelt — lange bevor die klassischen radiologischen Kriterien überhaupt aussagekräftig werden.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum klassische Kriterien bei leichter HD früh versagen",
+        text: "Die klassischen radiologischen Kriterien zur HD-Diagnose haben gerade bei leichten HD-Formen eine relativ geringe Aussagekraft. Köppel (1991) setzt deshalb nicht am fertigen Schaden an, sondern an den Entwicklungs- bzw. Verknöcherungskriterien zweier Strukturen: dem Os coxae quartum (OCQ) und dem Ligamentum capitis femoris. Mit einiger Erfahrung erlaubt diese Methode eine sehr hohe Prognosesicherheit zwischen der 14. und 20. Lebenswoche — einem Zeitraum, in dem klassische Verfahren kaum verwertbare Aussagen liefern.",
+      },
+      {
+        type: "text",
+        heading: "Das Os coxae quartum als „Schalterknochen“",
+        text: "Der T-förmige Pfannendachkern (Os coxae quartum) liegt zwischen Os ilium und Os ischii im kraniolateralen Azetabulumteil und ist ab der 14. Woche histologisch, ab der 16. Woche radiologisch nachweisbar. Unter physiologischen Bedingungen verschmilzt er bis zur 20. Lebenswoche mit den übrigen Azetabulumteilen und schließt dabei die oft sehr breite Fuge zwischen Darm- und Sitzbein — daher die Bezeichnung als „Schalterknochen“. Entwicklungs- bzw. Verknöcherungsstörungen dieses Kerns reichen von Aplasie (vollständiges Fehlen) über Hypoplasie (teilweises Fehlen) bis zur Persistenz (isoliertes Bestehenbleiben über die 20. Woche hinaus).",
+      },
+      {
+        type: "table",
+        heading: "Die drei OCQ-Befundmuster und ihre Bedeutung",
+        columns: ["Befund", "Röntgenbild", "Konsequenz"],
+        rows: [
+          [
+            "Aplasie (vollständiges Fehlen)",
+            "s-förmige Kontur des Pfannendaches und/oder des kranialen Pfannenerkers",
+            "bei Unklarheit Kontrollröntgen mit 5 Monaten empfohlen",
+          ],
+          [
+            "Hypoplasie (teilweises Fehlen)",
+            "konkav bogenförmiger Verlauf im kranialen Bereich bis zur „Einkerbung“ an der ehemaligen Darmbein-Sitzbein-Fuge, geringer Verlust des kranialen Pfannenerkers",
+            "Defektform bleibt zeitlebens bestehen",
+          ],
+          [
+            "Persistenz (isoliertes Bestehenbleiben)",
+            "OCQ noch als eigener Kern sichtbar",
+            "erst ab dem 6. Monat nachweisbar; deutet immer auf eine Entwicklungsstörung hin",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Zwei Dysplasie-Formen mit unterschiedlichem Ursprung",
+        text: "Aplasie und Hypoplasie/Persistenz des OCQ ergeben die Diagnose einer primären azetabulären bzw. ossären Dysplasie. Eine zweite, davon unabhängige Form entsteht auch bei physiologisch verlaufender Pfannendachverknöcherung, wenn trotzdem Instabilitätsmerkmale bestehen (Lateralisation, Subluxation, Erweiterung oder Inkongruenz des Gelenkspaltes): Hier ist die Ursache eine frühzeitige Degeneration des Ligamentum capitis femoris. Das degenerierte Band rupturiert häufig, sein Abraummaterial verknöchert sekundär in der Tiefe der Pfanne — das führt zur Verflachung der Pfanne bzw. zur Verdrängung des Femurkopfes nach lateral. Diese Form wird als primäre Weichteil- bzw. ligamentäre Dysplasie bezeichnet; beide Formen können auch gleichzeitig als Mischform auftreten.",
+      },
+      {
+        type: "text",
+        heading: "Zuverlässigkeit, Grenzen und ein späteres Zusatzkriterium",
+        text: "Eine ungestörte Pfannendachverknöcherung ohne Instabilitätsmerkmale lässt mit hoher Sicherheit eine HD-Freiheit erwarten. Abgesehen von einer „blinden Phase“ nach dem 5. Lebensmonat, in der sehr wenige Hunde noch eine geringgradige HD entwickeln können, liegt die Treffsicherheit der Köppel-Methode bei rund 90 %. Ab dem 7. Lebensmonat kommt ein weiteres, später beurteilbares Kriterium hinzu: Eine Valgusstellung des Femurhalses zum Femurschaft führt ebenfalls zu einer Lateralisierung des Femurkopfes und einer Verkleinerung der Überdachungsfläche — mit entsprechender Drucksteigerung am Pfannendach, überdeutlicher Sklerosierung des vorderen Pfannenanteils zulasten des hyalinen Knorpels und Belastung der sensiblen subchondralen Nerven bis zur Schmerzhaftigkeit.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.8.4 (Frühdiagnostik, radiologische Frühdiagnostik nach Köppel), S. 118–122 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf, unter Berufung im Original auf Köppel 1991 sowie die Bestätigung durch Mahler und Havet, Nizza, 1999). Das Os coxae quartum als Schalterknochen mit seinem zeitlichen Verknöcherungsfenster, die drei Befundmuster (Aplasie/Hypoplasie/Persistenz), die Unterscheidung von primär ossärer und primär ligamentärer Dysplasie, die rund 90-prozentige Treffsicherheit samt „blinder Phase“ und das spätere Valgusstellungs-Kriterium sind im Original so beschrieben. Ergänzt gezielt den bestehenden Eintrag `hueftgelenkdysplasie-und-coxarthrose` (Koch/Fischer), der Genetik, Rasseprädisposition und die Coxarthrose-Entwicklung ab Röntgenkriterien wie dem Norberg-Winkel behandelt, aber diese sehr frühe (14.–20. Lebenswoche), vom klassischen Röntgenbild unabhängige Diagnosemethode nicht kennt — bewusst nicht dupliziert, sondern um ein zeitlich vorgelagertes, eigenständiges Diagnoseverfahren ergänzt. Der Ortolani-Test selbst (in dieser Quelle mit zwei altersabhängigen Protokollen: 8.–9. Lebenswoche in Seitenlage, 4.–8. Lebensmonat in Rückenlage) ist bereits mehrfach aus Hárrer abgedeckt und wurde hier bewusst nicht erneut dargestellt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["huefte"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
