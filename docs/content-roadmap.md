@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 294 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 82
-  Untersuchung, 102 Pathologie, 70 Biomechanik, 42 Therapie — genaue
+- Wissensbibliothek: 295 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 82
+  Untersuchung, 102 Pathologie, 71 Biomechanik, 42 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -692,12 +692,25 @@ kein Überblick verloren geht.
   Verlaufskontrolle). **Damit ist Kap. 4 „Der rote Faden der
   osteopathischen Behandlung" (S. 26–33) vollständig ausgewertet** (mit
   Ausnahme des kraniosakralen Rhythmusdifferenzierungs-Schritts, bewusst
-  ausgelassen). Kap. 1–2 (Geschichte, Technik-Überblick) sowie Kap. 5–10
-  (die eigentlichen Techniken-Kapitel inkl. der wissenschaftlich
-  unterschiedlich gut abgesicherten viszeralen und kraniosakralen
-  Techniken) sind noch ungelesen — siehe Backlog-Eintrag zu dieser Quelle
-  für die geplante Kapitel-Priorisierung und die Einordnung der
-  strittigeren Konzepte.
+  ausgelassen). Danach Kap. 5.1–5.2 „Myofasziales Release (MFR)" (S. 36–43,
+  Chunk o(19).pdf) gesichtet — daraus 1 weiterer neuer Eintrag:
+  `faszie-sinnesorgan-mechanorezeptoren-perforanten-trias` (BIOMECHANIK:
+  interstitielle Rezeptoren/Ruffini-Endigungen, die Perforanten-Trias und
+  Faszie als propriozeptives Sinnesorgan — mit transparenter Kennzeichnung
+  der beiden im Original nicht eigenständig nachvollzogenen
+  Literaturverweise, u. a. zur behaupteten räumlichen Nähe zu
+  Akupunkturpunkten). Bewusst nicht übernommen: die im selben Abschnitt
+  beschriebene MFR-Technik selbst (Unwinding, Point of Balance,
+  funktioneller Stillpunkt) — sie setzt wie die kraniosakrale
+  Rhythmusprüfung eine unabhängig nicht bestätigte Eigenwahrnehmung einer
+  gewebeeigenen Entwindungsbewegung voraus und wurde daher nicht als
+  Technik-Anleitung aufgenommen (Details und die weitere Einschätzung von
+  Kap. 5–6 im Backlog-Eintrag zu dieser Quelle). Kap. 1–2 (Geschichte,
+  Technik-Überblick) sowie der Rest von Kap. 5–10 (inkl. der
+  wissenschaftlich unterschiedlich gut abgesicherten viszeralen und
+  kraniosakralen Techniken) sind noch ungelesen — siehe Backlog-Eintrag zu
+  dieser Quelle für die geplante Kapitel-Priorisierung und die Einordnung
+  der strittigeren Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -823,13 +836,25 @@ Kapitel.
   bestätigte Wahrnehmbarkeit eines eigenständigen kraniosakralen Rhythmus
   voraussetzt — die einzige bewusste Auslassung in diesem ansonsten
   vollständig ausgewerteten Kapitel.
-- [ ] Kap. 5–6 „Myofasziales Release" (S. 36–68): Faszienanatomie/-funktion
-  aus osteopathischer Sicht, Faszienketten, Diaphragmen-Konzept,
-  Release-Techniken für Gliedmaßen/Thorax/Becken/Kraniozervikal. Die reine
-  Faszienanatomie/-physiologie (S. 36–39) ist voraussichtlich unstrittig und
-  ergänzungsfähig zu bestehenden Faszien-Inhalten; die Diaphragmen- und
-  Ketten-Konzepte sind osteopathische Modellbildung und vor Übernahme
-  einzeln auf Evidenzlage zu prüfen.
+- [~] Kap. 5–6 „Myofasziales Release" (S. 36–68): Kap. 5.1–5.2 (S. 36–43,
+  Chunk o(19).pdf) gesichtet. Die Rezeptorphysiologie der Faszie (S. 42,
+  interstitielle Rezeptoren, Ruffini-Endigungen, Perforanten-Trias) wurde
+  als unstrittiger, eigenständiger Eintrag übernommen (siehe Stand oben,
+  `faszie-sinnesorgan-mechanorezeptoren-perforanten-trias`). Die eigentliche
+  MFR-Technik (5.2.1 Unwinding/Release, 5.3 Durchführung inkl. Point of
+  Balance, funktioneller Stillpunkt, 5.3.1 segmentales AKR-Wirbelsäulen-
+  Ruten-Release) wurde **bewusst nicht übernommen**: Die Technik setzt
+  voraus, dass der Therapeut eine eigenständige, gewebeeigene
+  „Entwindungsbewegung" während der Behandlung fühlt, die sich zu einem
+  „Point of Balance" hin auflöst — dies ist dieselbe Art unabhängig nicht
+  bestätigter Eigenwahrnehmung wie die bereits ausgelassene kraniosakrale
+  Rhythmusprüfung und die Motilität (vgl. `somatische-dysfunktion-art-
+  kriterienraster`), nur auf das myofasziale System angewendet. Noch
+  offen: Kap. 6 „MFR in Ketten" (S. 46–68, Faszienketten, Diaphragmen-
+  Konzept, regionale Anwendung an Gliedmaßen/Thorax/Becken/Kraniozervikal)
+  — dieselbe Einordnungsfrage wird hier voraussichtlich noch relevanter,
+  da die Ketten-/Diaphragmen-Konzepte noch stärker osteopathische
+  Modellbildung sind als die reine Rezeptorphysiologie.
 - [ ] **Kap. 7 „Osteoartikuläre Techniken" (S. 70–124) — voraussichtlich
   höchste Priorität dieser Quelle.** Enthält Grundbegriffe der
   Gelenkmechanik, Untersuchungsgang und gelenkspezifische Untersuchung/

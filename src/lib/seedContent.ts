@@ -13284,6 +13284,35 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "faszie-sinnesorgan-mechanorezeptoren-perforanten-trias",
+    category: "BIOMECHANIK",
+    title: "Faszie als Sinnesorgan: Mechanorezeptoren, Ruffini-Endigungen und die Perforanten-Trias",
+    teaser:
+      "Faszie ist weit mehr als passives Hüllgewebe: Eine hohe Dichte an Mechanorezeptoren macht sie zu einem eigenständigen Sinnesorgan für Druck und Dehnung — mit messbaren Gefäß- und Flüssigkeitsreaktionen auf mechanische Reize.",
+    sections: [
+      {
+        type: "text",
+        heading: "Interstitielle Rezeptoren und Ruffini-Endigungen: Faszie reagiert auf Druck und Dehnung",
+        text: "Faszien enthalten zahlreiche interstitielle Mechanorezeptoren, darunter Ruffini-Endigungen, die auf Druck und tangentiale Dehnungen reagieren. Etwa die Hälfte der interstitiellen Rezeptoren reagiert bereits auf leichte Berührung — Faszie ist damit deutlich empfindlicher für mechanische Reize, als ihre traditionelle Einordnung als reines Stütz- oder Trenngewebe vermuten lässt. Stimulation dieser Mechanorezeptoren geht mit einer Zunahme des Flüssigkeitseinstroms in die bindegewebige Grundsubstanz sowie einer Vasodilatation im Gewebe einher — eine messbare Gewebereaktion auf mechanischen Druck, unabhängig vom therapeutischen Konzept, in dessen Rahmen dieser Druck appliziert wird.",
+      },
+      {
+        type: "text",
+        heading: "Die Perforanten-Trias: ein wiederkehrendes anatomisches Muster",
+        text: "In der Oberflächenfaszie gibt es zahlreiche kleine Durchtrittstellen, an denen jeweils eine Vene, eine Arterie und ein Nerv gemeinsam die Faszie durchbrechen — diese Dreierkombination wird als Perforanten-Trias bezeichnet. Die Quelle gibt an, dass die Mehrzahl dieser Durchtrittstellen im Bereich der traditionellen chinesischen Akupunkturpunkte liegt, unter Verweis auf eine eigene Literaturstelle. Diese Angabe wurde von Denkgang nicht eigenständig in der Primärliteratur nachvollzogen und wird hier als im Original zitierte anatomische Beobachtung referiert, nicht als eigenständig geprüfter Beleg für einen bestimmten Wirkmechanismus der Akupunktur.",
+      },
+      {
+        type: "text",
+        heading: "Propriozeption statt reinem Stützgewebe",
+        text: "In den Faszien finden sich zahlreiche Nervenfasern; die Quelle vermutet unter Verweis auf eine weitere, ebenfalls nicht eigenständig geprüfte Literaturstelle, dass darunter auch motorische Endigungen des sympathischen Nervensystems sind. Im Vordergrund stehen jedoch Mechanorezeptoren, die der Propriozeption dienen — Faszie ist damit ein eigenständiges Sinnesorgan und nicht nur ein passives Hüllgewebe. Dieser Befund liefert eine mögliche neurophysiologische Erklärung dafür, warum manuelle Techniken mit gezieltem Druck oder gezielter Dehnung auf Faszien über die rein mechanische Wirkung hinaus auch propriozeptive und möglicherweise vegetative Effekte auslösen können — unabhängig davon, in welchem manualtherapeutischen Rahmen diese Technik angewendet wird.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 5.2, S. 42 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(19).pdf). Die Beschreibung interstitieller Rezeptoren/Ruffini-Endigungen samt vermuteter Sympathikus-Senkung bei deren Reizung, der Perforanten-Trias sowie deren im Original behaupteter räumlicher Überlappung mit Akupunkturpunkten ist im Original so beschrieben, jeweils unter Verweis auf eigene nummerierte Literaturstellen im Buch (dort als [9] und [45] geführt), die von Denkgang nicht eigenständig in der Primärliteratur geprüft wurden — dies ist im Eintrag entsprechend kenntlich gemacht. Bewusst nicht in diesen Eintrag übernommen: die im selben Kapitel (5.2.1, 5.3) beschriebene Technik des Myofaszialen Release (Unwinding, Point of Balance, funktioneller Stillpunkt) — diese stützt sich auf die eigenständige Wahrnehmbarkeit einer gewebeeigenen Entwindungsbewegung während der Behandlung, ein Konzept mit vergleichbar schwacher unabhängiger Evidenzlage wie die bereits an anderer Stelle eingeordnete Motilität (vgl. `somatische-dysfunktion-art-kriterienraster`), und wurde daher nicht als eigenständige Technik-Anleitung in die Wissensbibliothek aufgenommen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
