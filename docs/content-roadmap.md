@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 291 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 81
-  Untersuchung, 101 Pathologie, 70 Biomechanik, 41 Therapie — genaue
+- Wissensbibliothek: 293 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 81
+  Untersuchung, 102 Pathologie, 70 Biomechanik, 42 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -670,13 +670,29 @@ kein Überblick verloren geht.
   Hárrer abgegrenzt statt dupliziert) sowie `zehner-test-hund-globale-
   spannungsuntersuchung` (UNTERSUCHUNG: der für den Hund modifizierte,
   elfschrittige orientierende Ganzkörper-Spannungstest samt den beiden
-  Durchführungsregeln minimale Impulse/Spannungs- statt Schmerzsuche).
-  Begonnen, aber noch nicht in Einträge umgesetzt: Kap. 4 „Der rote Faden
-  der osteopathischen Behandlung" (S. 26 ff., Chunk o(7).pdf endet mitten im
-  Abschnitt 4.2). Kap. 1–2 (Geschichte, Technik-Überblick) sowie Kap. 5–10
-  (die eigentlichen Techniken-Kapitel inkl. der wissenschaftlich
-  unterschiedlich gut abgesicherten viszeralen und kraniosakralen Techniken)
-  sind noch ungelesen — siehe Backlog-Eintrag zu dieser Quelle für die
+  Durchführungsregeln minimale Impulse/Spannungs- statt Schmerzsuche). Danach
+  Kap. 4 „Der rote Faden der osteopathischen Behandlung" (S. 26–32, Chunks
+  o(11), o(13)–o(14).pdf; o(8)–o(10) und o(12) sind Drive-interne Duplikate
+  ohne neuen Inhalt) **vollständig gelesen bis S. 32 — daraus 2 weitere neue
+  Einträge:** `vom-globalen-zum-spezifischen-behandlungsreihenfolge`
+  (THERAPIE: Sanduhrprinzip der Befunderhebung, Behandlung von der
+  allgemeinsten zur spezifischsten Ebene, am wenigsten berührungsintensive
+  Technik zuerst, Kontrolluntersuchung über den Behandlungsort hinaus —
+  bewusst ohne den kraniosakralen Rhythmusdifferenzierungs-Schritt aus
+  Kap. 4.6.1–4.6.3 derselben Quelle, der auf einem nicht unabhängig
+  bestätigten Konzept beruht) sowie `verkettungsmuster-eskalationsstufen-
+  unbehandelter-befund` (PATHOLOGIE: fünf Eskalationsstufen von der lokalen
+  Spannungsadaptation bis zur Dekompensation, mit der klinischen Konsequenz
+  für Prognose und Erwartungsmanagement). Kap. 4.8–4.9 (Überprüfung der
+  Diagnose, Dokumentation) sind in Chunk o(14).pdf mitgelesen, aber inhaltlich
+  noch nicht in einen eigenen Eintrag umgesetzt (Warnsignale für
+  Strukturerkrankungen, Ablehnung von Einzel-„Probebehandlungen", 2.–3.
+  Sitzung als Prognose-Meilenstein) — Kandidat für einen weiteren UNTERSUCHUNG-
+  Eintrag in einer Folgesession. Kap. 1–2 (Geschichte, Technik-Überblick)
+  sowie Kap. 5–10 (die eigentlichen Techniken-Kapitel inkl. der
+  wissenschaftlich unterschiedlich gut abgesicherten viszeralen und
+  kraniosakralen Techniken) sind noch ungelesen — siehe Backlog-Eintrag zu
+  dieser Quelle für die
   geplante Kapitel-Priorisierung und die Einordnung der strittigeren
   Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
@@ -792,14 +808,21 @@ Kapitel.
   **vollständig gelesen und ausgewertet — 4 neue Einträge**, siehe Stand
   oben.
 - [~] Kap. 4 „Der rote Faden der osteopathischen Behandlung" (S. 26–33):
-  Beginn gelesen (4.1 „Der 1. Schritt", 4.2 „Der 2. Schritt" mit dem
-  Sanduhrprinzip der Befunderhebung vor/nach jeder Behandlung), Chunk
-  o(7).pdf endet hier. Noch offen: 4.3–4.9 (Vom Allgemeinen zum
-  Spezifischen, Technikreihenfolge, globales Monitoring, Überprüfung des
-  kraniosakralen Rhythmus als fester Bestandteil des Standardvorgehens,
-  Ausbreitung von Verkettungsmustern, Dokumentation). Vor Extraktion prüfen,
-  ob der feste Einbau der kraniosakralen Rhythmusprüfung ins
-  Standard-Vorgehen eine Einordnung erfordert (vgl. Kap. 9 unten).
+  **S. 26–32 vollständig gelesen (Chunks o(7), o(11), o(13)–o(14).pdf;
+  o(8)–o(10) und o(12) sind Drive-interne Duplikate ohne neuen Inhalt) — 2
+  neue Einträge**, siehe Stand oben
+  (`vom-globalen-zum-spezifischen-behandlungsreihenfolge`,
+  `verkettungsmuster-eskalationsstufen-unbehandelter-befund`). Bewusst nicht
+  übernommen: der in 4.6.1–4.6.3 beschriebene Schritt des „globalen
+  Monitorings" zur Differenzierung von myofaszialer (dreidimensionaler) und
+  kraniosakraler (linearer) Rhythmik, da dieser Schritt die unabhängig nicht
+  bestätigte Wahrnehmbarkeit eines eigenständigen kraniosakralen Rhythmus
+  voraussetzt. Noch offen: 4.8–4.9 (S. 32f., in o(14).pdf bereits mitgelesen,
+  noch nicht in einen Eintrag umgesetzt — Warnsignale für
+  Strukturerkrankungen statt osteopathischer Behandlung, Ablehnung von
+  Einzel-„Probebehandlungen", 2.–3. Sitzung als Meilenstein für eine
+  verlässliche Prognose; guter Kandidat für einen UNTERSUCHUNG-Eintrag zu
+  Red-Flag-Erkennung und Therapieverlaufskontrolle).
 - [ ] Kap. 5–6 „Myofasziales Release" (S. 36–68): Faszienanatomie/-funktion
   aus osteopathischer Sicht, Faszienketten, Diaphragmen-Konzept,
   Release-Techniken für Gliedmaßen/Thorax/Becken/Kraniozervikal. Die reine

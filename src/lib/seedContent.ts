@@ -13191,6 +13191,70 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "vom-globalen-zum-spezifischen-behandlungsreihenfolge",
+    category: "THERAPIE",
+    title: "Erst das große Bild entlasten, dann gezielt werden: eine Behandlungsreihenfolge mit eingebauter Rückmeldeschleife",
+    teaser:
+      "Wer zuerst die am wenigsten eingreifende Technik auf der allgemeinsten Ebene anwendet, erreicht oft mehr als mit sofortiger lokaler Präzisionsarbeit — und eine Kontrolluntersuchung, die nur den behandelten Ort erneut prüft, übersieht die Hälfte der eigentlichen Reaktion.",
+    sections: [
+      {
+        type: "text",
+        heading: "Befunden, behandeln, neu befunden: eine sich wiederholende Schleife",
+        text: "Eine praktikable Behandlungslogik lässt sich als sich wiederholende Schleife beschreiben: Zuerst erfolgt eine vollständige Befunderhebung, danach ein therapeutischer Impuls, anschließend eine erneute Befunderhebung unter besonderer Beachtung der zuvor auffälligen Befunde — und auf dieser Basis die Entscheidung, die Behandlung zu beenden oder fortzusetzen. Diese Struktur stellt sicher, dass jeder therapeutische Schritt unmittelbar überprüft wird, statt sich auf die Wirksamkeit eines einmal festgelegten Behandlungsplans zu verlassen. Der exakte Ablauf verändert sich dabei zwangsläufig mit der Erfahrung des Therapeuten: Je mehr Techniken zur Verfügung stehen, desto mehr Möglichkeiten gibt es, auf einen veränderten Befund zu reagieren.",
+      },
+      {
+        type: "text",
+        heading: "Vom Allgemeinen zum Spezifischen — und warum zuerst die am wenigsten eingreifende Technik sinnvoll ist",
+        text: "Nach der Untersuchung steht die Entscheidung an, auf welcher Ebene die Behandlung ansetzen soll: global, regional, lokal oder gezielt. Zeigen die Befunde eine Störung auf einer übergeordneten, globalen Ebene, sollte die Behandlung dort beginnen, bevor lokal oder gezielt gearbeitet wird — eine Verbesserung auf der übergeordneten Ebene entlastet den gesamten Patienten sofort, wovon die anschließende gezieltere Behandlung messbar profitiert. Aus demselben Grund empfiehlt sich grundsätzlich, mit der am wenigsten berührungsintensiven Technik zu beginnen: Sie respektiert bestehende Spannungen, löst keine Schmerzreaktion aus, stört die eigene weitere Befunderhebung am wenigsten — und setzt dabei durch den bloßen Kontakt bereits Impulse, auf die der Patient reagiert. Diese Reihenfolge macht die Befunderhebung selbst schon zu einem Teil der Behandlung, nicht zu einem von ihr getrennten Schritt.",
+      },
+      {
+        type: "text",
+        heading: "Die Kontrolluntersuchung muss über den behandelten Ort hinausgehen",
+        text: "Nach jeder Behandlung erfolgt eine Kontrolluntersuchung — zuerst am Ort der eben beendeten Behandlung, danach aber ausdrücklich auch an den Hauptbefunden auf allen anderen Ebenen und Regionen. Nur so lassen sich komplexe Anpassungsreaktionen erkennen, die sich an ganz anderer Stelle zeigen als die behandelte Region. Das erklärt ein Phänomen, das sonst leicht als Nichtbefund fehlgedeutet würde: Viele chronische Patienten zeigen nach den ersten Behandlungen zunächst ein deutlich besseres Allgemeinbefinden und wiedererwachte Lebensfreude, ohne dass sich das eigentliche Beschwerdebild von außen betrachtet schon sichtbar verändert hätte. Das gesamte Regulationssystem setzt die Entlastung der behandelten Region auf allen Ebenen um — diese frühe, unspezifische Besserung ist also eine reale Reaktion und keine bedeutungslose Nebensächlichkeit, sie wird aber nur sichtbar, wenn die Kontrolluntersuchung gezielt danach sucht. Ergänzend gilt: Entscheidet sich ein Patient erkennbar selbst dafür, eine Sitzung zu beenden (etwa indem er aufsteht und geht), sollte das respektiert und nicht unterbunden werden — Tiere schätzen erfahrungsgemäß sehr genau ein, wie viele Behandlungsimpulse sie in einer Sitzung verarbeiten können.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Untersuchung falsch gewählt", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 4.2–4.5, S. 26–28 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(11).pdf). Das Sanduhrprinzip der Befunderhebung, das Prinzip vom Allgemeinen zum Spezifischen, die Begründung für die am wenigsten berührungsintensive Technik zuerst sowie die Notwendigkeit einer über den Behandlungsort hinausgehenden Kontrolluntersuchung (inkl. des Beispiels der früh wiedererwachten Lebensfreude vor sichtbarer Beschwerdebesserung) sind im Original so beschrieben. Bewusst nicht in diesen Eintrag übernommen: der in Kap. 4.6.1–4.6.3 desselben Abschnitts beschriebene Schritt der globalen Rhythmusdifferenzierung zwischen myofaszialem und kraniosakralem System (zur Entscheidung, welches System zuerst behandelt wird) — dieser Schritt setzt die Wahrnehmbarkeit eines eigenständigen kraniosakralen Rhythmus voraus, der nicht unabhängig bestätigt ist (vgl. Einordnung bei `somatische-dysfunktion-art-kriterienraster`), und wurde daher nicht als eigenständige Untersuchungstechnik in diesen Eintrag übernommen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "verkettungsmuster-eskalationsstufen-unbehandelter-befund",
+    category: "PATHOLOGIE",
+    title: "Fünf Eskalationsstufen eines unbehandelten Befundes: warum die Ursache mit der Zeit immer schwerer zu finden ist",
+    teaser:
+      "Je länger eine Funktionsstörung unbehandelt bleibt, desto mehr Körperregionen beteiligen sich an ihrer Kompensation — bis irgendwann nicht mehr auseinanderzuhalten ist, was Ursache und was Folge war. Diese Eskalation lässt sich in fünf erkennbaren Stufen beschreiben.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum eine frühe Störung noch eindeutig lokalisierbar ist",
+        text: "Eine unbehandelte Funktionsstörung breitet sich typischerweise in einem erkennbaren Muster aus, das horizontal (innerhalb desselben Systems, auf andere Regionen übergreifend) und vertikal (über zentrale Regelungsmechanismen auf andere Körpersysteme übergreifend) verlaufen kann. Im frühesten Stadium reagiert das betroffene System mit einer lokalen Spannungsadaptation zum Schutz der gestörten Region. Bei der Untersuchung führt diese Spannung in diesem Stadium noch direkt und eindeutig zum Ort der Ursprungsläsion — die Zuordnung von Ursache und Befund ist hier am einfachsten.",
+      },
+      {
+        type: "list",
+        heading: "Die fünf Eskalationsstufen im Überblick",
+        items: [
+          "Stufe 1 — lokale Spannungsadaptation: Schutzspannung direkt um die gestörte Region, der Befund führt eindeutig zur Ursprungsläsion.",
+          "Stufe 2 — horizontale Ausbreitung: Die Spannungsadaptation breitet sich entlang der Muskel-/Gelenkkette aus (weitere Gelenke, Muskelgruppen, Faszienzüge). Der Befund zeigt jetzt sowohl die Ursprungsläsion als auch bereits entstandene Sekundärläsionen — beide müssen jetzt unterschieden werden.",
+          "Stufe 3 — vertikale Verkettung über zentrale Regelung: Stereotype Bewegungsmuster verändern sich (z. B. die Atmung), auch Veränderungen im Verdauungssystem werden möglich. Die Komplexität erlaubt meist keine direkte Zuordnung von Primär- und Sekundärläsion mehr — die Behandlung richtet sich jetzt nach der Stelle mit der höchsten aktuellen Priorität, und die Reaktion auf diesen ersten Behandlungsimpuls liefert selbst wichtige diagnostische Information für die Folgesitzung.",
+          "Stufe 4 — Übergreifen in andere Gewebesysteme: Umfangreiche Beteiligung vor allem des Bindegewebes in fast allen Körperregionen. Der Tastbefund wird regional bis überregional einheitlich straff/unnachgiebig — was gezielte Diagnostik oder gezielte Therapie an dieser Stelle praktisch unmöglich macht. Nur noch überregionale, allgemeine Techniken sind hier sinnvoll einsetzbar.",
+          "Stufe 5 — Dekompensation: Erstmals wird Schmerz bewusst wahrgenommen bzw. sichtbar, etwa als Verhaltensänderung (zögert beim Einsteigen ins Auto, springt nicht mehr aufs Sofa, allgemeine Bewegungsunlust) oder als Lahmheit, häufiges Stolpern, schweres Aufstehen oder Stehenbleiben/Hinlegen während des Spaziergangs.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die klinische Konsequenz: Erwartungsmanagement statt Enttäuschung",
+        text: "Dieses Stufenmodell erklärt, warum ein lange bestehender Befund selten durch eine einzige gezielte Maßnahme an der vermuteten Ursache behoben werden kann: Je weiter die Eskalation fortgeschritten ist, desto weniger lässt sich Ursache von Folge trennen, und desto mehr muss zunächst breiter statt gezielter behandelt werden. Für die Praxis bedeutet das auch ein realistisches Erwartungsmanagement gegenüber Tierhaltern — ein Befund, der sich über Monate oder Jahre zu Stufe 4 oder 5 entwickelt hat, braucht in aller Regel mehrere Behandlungseinheiten und keine einmalige „Probebehandlung“, bevor eine verlässliche Prognose möglich ist.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Befund überbewertet", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 4.7, S. 30f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(14).pdf). Die fünf Eskalationsstufen (horizontale Spannungsadaptation, horizontale Ausbreitung, vertikale Verkettung über zentrale Regelung, Übergreifen in andere Gewebesysteme, Dekompensation) samt ihrer jeweiligen Untersuchungskonsequenz sind im Original so beschrieben; die Nummerierung als „Stufe 1–5“ sowie die abschließende Einordnung zum Erwartungsmanagement sind eigene strukturierende Synthese von Denkgang. Die Verknüpfung mit `primaerlaesion-sekundaerlaesion-kompensation-koenneker` (Primär-/Sekundärläsion) und `barrierekonzept-direkte-indirekte-ease-einstellung` (Spannungsbefund „tight“) aus derselben Quelle ist beabsichtigt — dieser Eintrag beschreibt den zeitlichen Verlauf, die anderen beiden die Momentaufnahme-Konzepte, die dabei verwendet werden.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
