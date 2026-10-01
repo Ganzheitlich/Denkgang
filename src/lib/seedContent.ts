@@ -13750,10 +13750,15 @@ const KNOWLEDGE: KnowledgeSeed[] = [
         heading: "Unwillkürlich und vegetativ gesteuert",
         text: "Die Eigenschaften der Myofibroblasten ähneln denen glatter Muskelzellen in Hohlorganen wie Blase, Darm sowie Lymph- und Blutgefäßen. Ihre Innervation scheint ebenfalls, wie bei diesen Hohlorganen, vom vegetativen Nervensystem abzuhängen: Sie sind willkürlich nicht steuerbar, und bei erhöhter Sympathikusaktivität scheinen sie mit einer Tonussteigerung zu reagieren. Das bedeutet, dass Faszienspannung in der Rückenlendenbinde und vergleichbaren Strukturen nicht nur mechanisch (durch Zug und Dehnung), sondern auch über den Spannungszustand des vegetativen Nervensystems mitbestimmt werden kann — unabhängig vom Willen des Patienten.",
       },
+      {
+        type: "text",
+        heading: "Klinische Beobachtung: Dauerstress als mögliche Erklärung für myofasziale Steifigkeit",
+        text: "Diese vegetative Steuerung liefert eine mögliche Erklärung für eine rein klinisch beschriebene Beobachtung: Bei Menschen mit chronischem Stress zeigt die Palpation der Faszien häufig eine erhöhte myofasziale Steifigkeit, und die Dichte der Myofibroblasten ist bei bereits bestehenden pathologischen Restriktionen erhöht. Überträgt man diesen Zusammenhang probehalber auf den Hund, wäre ein dauerhaft in hohem Trieb stehendes, chronisch angespanntes Tier (als Beispiel wird ein hoch getriebener Malinois genannt) ein Kandidat für einen erhöhten Ruhetonus der Faszien, der nicht primär muskulär, sondern über den Sympathikus vermittelt wäre. Diese Übertragung vom Menschen auf den Hund ist im Original selbst als Analogieschluss formuliert, nicht als am Hund eigenständig nachgewiesener Befund — sie liefert aber einen möglichen Erklärungsansatz dafür, warum Palpationsbefunde bei ängstlichen oder chronisch gestressten Patienten vorsichtig zu interpretieren sind, da ein erhöhter Gewebetonus dort nicht zwangsläufig eine strukturelle Pathologie anzeigen muss.",
+      },
     ],
-    errorTags: ["Faktenwissen", "Anatomieverwechslung", "Befund übersehen"],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
-      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 2.3.1, S. 26 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(2).pdf). Der Nachweis der Myofibroblasten in Faszien durch Robert Schleip, ihre Fundorte (Dura mater, Organkapseln, Fascia cruris, Fascia thoracolumbalis), ihre Ähnlichkeit zu glatten Muskelzellen sowie ihre vermutete vegetative, sympathikusabhängige Steuerung sind im Original so beschrieben.",
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 2.3.1, S. 26, und Kap. 4.2, S. 37 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks f(2).pdf und f(3).pdf). Der Nachweis der Myofibroblasten in Faszien durch Robert Schleip, ihre Fundorte (Dura mater, Organkapseln, Fascia cruris, Fascia thoracolumbalis), ihre Ähnlichkeit zu glatten Muskelzellen sowie ihre vermutete vegetative, sympathikusabhängige Steuerung sind im Original so beschrieben (Kap. 2.3.1). Der dritte Abschnitt ergänzt dies nachträglich um den in Kap. 4.2 beschriebenen klinischen Stress-Zusammenhang (myofasziale Steifigkeit bei chronischem Stress beim Menschen, Analogieschluss auf den Hund am Beispiel eines hoch im Trieb stehenden Malinois) — im Original ausdrücklich als Übertragung formuliert, hier entsprechend gekennzeichnet.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
@@ -13796,6 +13801,192 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Befund übersehen", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 2.6, S. 31 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(2).pdf). Die Definition der Diaphragmen als quere Pufferzonen sowie die Einteilung in respiratorische (Zwerchfell, Tentorium cerebelli, Perineum) und fasziale Diaphragmen (C0/C1, Os hyoideum, vordere Thoraxapertur) sind im Original so beschrieben. Die Einordnung im Verhältnis zur bestehenden, anatomisch-regionalen Fünfer-Einteilung (`diaphragmen-transversale-spannungszonen-koerper`, Könneker/Reiter, andere Quelle) ist eigene vergleichende Synthese von Denkgang — beide Einteilungen ergänzen sich, keine dupliziert die andere.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "embodiment-faszien-koerperwahrnehmung-tiefensensibilitaet",
+    category: "BIOMECHANIK",
+    title: "Embodiment: Warum die Faszie als größtes Sinnesorgan des Körpers gilt",
+    teaser:
+      "Mit mehr sensorischen als motorischen Nervenfasern und einer Fläche, die die Haut übertrifft, ist die Faszie primär ein Wahrnehmungsorgan — ihr Ausfall zeigt sich nicht an der Faszie selbst, sondern an einem unsicheren, tappenden Gangbild.",
+    sections: [
+      {
+        type: "text",
+        heading: "Mehr Sensorik als Motorik",
+        text: "Faszien enthalten eine sehr hohe Dichte an Nervenendigungen, die laufend Rückmeldung über Haltung und Bewegung liefern — und das in einem Ausmaß, das die motorische Versorgung desselben Gewebes deutlich übertrifft. Am Ischiasnerv des Menschen ist die Zahl der sensorischen Fasern etwa dreimal so hoch wie die der motorischen. Da diese Sensoren nicht nur in der oberflächlichen Körperfaszie, sondern auch in Muskelfaszien und Sehnen vorkommen und eine größere Fläche einnehmen als die Haut selbst, wird die Faszie in diesem Sinn als das größte Sinnesorgan des Körpers bezeichnet — ihre primäre Funktion ist demnach Wahrnehmung, nicht nur mechanische Stütze oder Kraftübertragung.",
+      },
+      {
+        type: "text",
+        heading: "Embodiment: ob Bewegung überhaupt ankommt",
+        text: "Ob eine Bewegung oder eine Körperstellung tatsächlich bewusst oder reflektorisch verarbeitet wird, hängt maßgeblich davon ab, ob die faszialen Rezeptoren intakt sind und ihre Signale zuverlässig weiterleiten. Dieses Zusammenspiel aus Faszie, Rückenmark und Gehirn zur Steuerung von Haltung und Bewegung wird als Embodiment bezeichnet — sinngemäß das Gefühl, im eigenen Körper „zu Hause“ zu sein. Gestörte Faszien liefern entsprechend gestörte oder verzögerte Rückmeldung, mit der Folge einer beeinträchtigten Tiefensensibilität (Propriozeption), unabhängig davon, ob Muskulatur und Gelenke selbst noch intakt sind.",
+      },
+      {
+        type: "text",
+        heading: "Das Warnbeispiel aus der Humanmedizin: ein Übergang, der nicht mehr trägt",
+        text: "Wie gravierend sich eine gestörte faszienbasierte Tiefensensibilität auswirken kann, zeigt ein Beispiel aus der Humanmedizin: Bei älteren Menschen, die häufig mit initialem Fersenkontakt gehen, degeneriert gehäuft der Übergang zwischen Achillessehne und Plantarsehne, sodass zwischen beiden Strukturen keine durchgehende faszial-sehnige Verbindung mehr besteht. Die Folge ist ein unsicherer, tappender Gang — und eine deutlich erhöhte, zum Teil lebensbedrohliche Sturzgefahr. Dieses Beispiel stammt aus der Humanmedizin und wird hier nicht als unmittelbarer Befund beim Hund referiert, sondern als Beleg dafür, dass ein Verlust faszialer Kontinuität die Tiefensensibilität und damit die Gangsicherheit über rein mechanische Effekte hinaus beeinträchtigen kann — ein Zusammenhang, der bei der Bewertung von Gangunsicherheiten älterer Hunde als zusätzliche Hypothese neben den bekannten orthopädischen und neurologischen Ursachen mitgedacht werden kann, ohne dass Denkgang dafür einen eigenständig geprüften Beleg beim Hund vorlegt.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 3.1, S. 32 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(3).pdf). Das Mengenverhältnis sensorischer zu motorischer Fasern am Ischiasnerv, die Definition von Embodiment sowie das Fallbeispiel des degenerierenden Achilles-Plantarsehnen-Übergangs bei älteren Menschen (inkl. der daraus resultierenden Gangunsicherheit und Sturzgefahr) sind im Original so beschrieben und stammen dort selbst aus der Humanmedizin. Die Übertragung der Warnimplikation auf ältere Hunde in der dritten Textpassage ist eigene, als Hypothese gekennzeichnete Einordnung von Denkgang, keine im Original belegte Aussage zum Hund.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "vater-pacini-ruffini-koerperchen-gegensaetzliche-reaktionsprofile",
+    category: "BIOMECHANIK",
+    title: "Vater-Pacini- und Ruffini-Körperchen: zwei gegensätzliche Reaktionsprofile der Faszie",
+    teaser:
+      "Dieselbe Faszie enthält zwei Rezeptortypen mit entgegengesetztem Verhalten: einen, der nur auf schnellen Wechsel reagiert und sich binnen Sekunden an Dauerreize gewöhnt, und einen, der auf anhaltenden, langsamen Druck mit aktiver Entspannung antwortet.",
+    sections: [
+      {
+        type: "table",
+        heading: "Zwei Mechanorezeptoren im Vergleich",
+        columns: ["Merkmal", "Vater-Pacini-Körperchen", "Ruffini-Körperchen"],
+        rows: [
+          [
+            "Typische Lokalisation",
+            "Muskelfaszien, Ligamente der Wirbelsäule, Gelenkkapseln, Muskel-Sehnen-Übergänge",
+            "praktisch alle Faszienarten, Muskelhüllen, Gelenkkapseln und Bänder, Aponeurosen, Fascia thoracolumbalis, Dura mater",
+          ],
+          [
+            "Adäquater Reiz",
+            "schnelle Druckwechsel, Vibration, Manipulation, sanftes Wiegen",
+            "Druck auf große Fläche mit tangentialen Scherkräften, langsame, anhaltende Dehnung",
+          ],
+          [
+            "Anpassungsverhalten",
+            "schnell adaptierend — bei monotonem Reiz nach ca. 2 Sekunden keine messbare Aktivität mehr",
+            "langsam adaptierend, auf anhaltenden Reiz ausgelegt",
+          ],
+          [
+            "Physiologische Reaktion",
+            "nach Schleip: „junge Wilde“ der Mechanorezeptoren, benötigen ständig neue Reize",
+            "Reizung senkt die Sympathikusaktivität — messbare Entspannungsreaktion",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum dieser Gegensatz für die Technikwahl relevant ist",
+        text: "Die beiden Rezeptortypen erklären, warum manuelle Techniken mit sehr unterschiedlichem Reizcharakter jeweils eigene Wirkungen erzielen können: Rhythmische Mobilisation, Recoil- und andere Manipulationstechniken mit wechselndem, schnellem Reizmuster sprechen vor allem Vater-Pacini-Körperchen an, während anhaltende Querdehnung, flächiger Druck oder Stretching eher Ruffini-Körperchen aktivieren und über die gesenkte Sympathikusaktivität zu einer messbaren Entspannung führen — ein Mechanismus, der auch die entspannenden Effekte der tangential ausgeführten Tellington-TTouch-Methode erklären kann. Keiner der beiden Rezeptortypen ist dem anderen übergeordnet; sie liefern lediglich unterschiedliche, einander ergänzende Information über mechanische Reize an der Faszie.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 3.2.2–3.2.3, S. 33 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(3).pdf). Lokalisationen, Reizqualitäten und Anpassungsverhalten beider Rezeptortypen, die Charakterisierung der Vater-Pacini-Körperchen als „junge Wilde“ nach Robert Schleip, die sympathikussenkende Wirkung der Ruffini-Reizung sowie der Bezug zu Manipulationstechniken, rhythmischer Mobilisation, Shiften, Stretching und Tellington TTouch sind im Original so beschrieben. Diese vergleichende Tabellenform ist eigene Synthese von Denkgang; sie ergänzt den bestehenden Eintrag `faszie-sinnesorgan-mechanorezeptoren-perforanten-trias` (Könneker/Reiter, andere Quelle), der Ruffini-Endigungen nur knapp erwähnt und Vater-Pacini-Körperchen gar nicht nennt, statt ihn zu duplizieren.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "interstitielle-rezeptoren-ergorezeptoren-interozeption",
+    category: "BIOMECHANIK",
+    title: "Interstitielle Rezeptoren: Bewegungsökonomie und Körpergefühl in einem Rezeptortyp",
+    teaser:
+      "Vier von fünf faszialen Mechanorezeptoren sind interstitielle Rezeptoren — und sie leisten zwei auf den ersten Blick ganz unterschiedliche Aufgaben: Bewegungsabläufe effizienter machen und gleichzeitig emotionale Körperzustände ans Gehirn melden.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der mit Abstand häufigste Rezeptortyp",
+        text: "Interstitielle Rezeptoren (freie Nervenendigungen) machen rund 80 % aller faszialen Mechanorezeptoren aus und kommen praktisch überall vor, sogar im Knochen — in der Oberflächenfaszie, im Periost und im Fettgewebe. Sie sind der am wenigsten erforschte der vier Rezeptortypen; lange wurden sie überwiegend als Nozizeptoren eingeordnet, gehören aber größtenteils zu den Mechanorezeptoren, ein Teil von ihnen zusätzlich zu den Chemo- oder Thermorezeptoren beziehungsweise multimodal zu mehreren Reizarten gleichzeitig.",
+      },
+      {
+        type: "text",
+        heading: "Funktion 1: Ergorezeptoren — Bewegung wird ökonomischer",
+        text: "Als Ergorezeptoren ökonomisieren interstitielle Rezeptoren Bewegungsabläufe: In der Formatio reticularis werden bereits bekannte, wiederkehrende Bewegungsmuster herausgefiltert, sodass nur neue oder unvorhergesehene Reize bewusst weitergeleitet werden. Dieser Filtermechanismus erklärt, warum bereits nach ein bis zwei Wochen regelmäßigen Trainings mit wenigen Einheiten pro Woche (als Beispiel wird Agility genannt) eine spürbar verbesserte Bewegungseffizienz beim Hund zu beobachten ist: Eingeübte Bewegungen laufen zunehmend automatisiert ab, vergleichbar mit dem Schalten der Gänge bei einem geübten Autofahrer.",
+      },
+      {
+        type: "text",
+        heading: "Funktion 2: Interozeption — eine „Innenweltmeinung“ fürs Gehirn",
+        text: "Gleichzeitig haben interstitielle Rezeptoren eine interozeptive Funktion: Sie senden afferente Information über emotionale Körperempfindungen an den Cortex insularis, einen am lateralen Schläfenlappen gelegenen Hirnbereich, der unter anderem für die emotionale Bewertung von Schmerz sowie für Geruchs- und Geschmackssinn zuständig ist. Diese Doppelfunktion liefert einen möglichen Erklärungsansatz dafür, warum sich emotionale Zustände im Bewegungsbild zeigen — ein freudig hüpfender, federnder Gang bei Erregung, ein geschleppter, schwerer Gang bei gedrückter Stimmung — und warum umgekehrt die Beurteilung eines Gangbilds den emotionalen Zustand des Patienten mitberücksichtigen sollte, bevor ein auffälliges Gangbild vorschnell als rein orthopädisch bedingt eingeordnet wird.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Faktenwissen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 3.2.4, S. 33f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(3).pdf). Der Mengenanteil von 80 %, die Lokalisationen, die Einordnung als überwiegend Mechano- (teils Chemo-/Thermo-/multimodale) Rezeptoren, die Ergorezeptor-Funktion samt Formatio-reticularis-Filterung und Agility-Trainingsbeispiel sowie die interozeptive Funktion samt Cortex-insularis-Verbindung sind im Original so beschrieben. Die abschließende klinische Einordnung zur Gangbildbeurteilung bei emotional auffälligen Patienten ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "wdr-neuronen-nozizeptor-mechanorezeptor-umschaltung-schmerzlinderung",
+    category: "PATHOLOGIE",
+    title: "Das WDR-Programm: warum Bewegung und sanfte Massage Schmerzen lindern können",
+    teaser:
+      "Dass ein steifer Hund nach den ersten Schritten lockerer wirkt, ist kein Zeichen, dass die Pathologie verschwunden ist — ein Teil der Schmerzrezeptoren der Faszie lässt sich durch Bewegung selbst vorübergehend in Mechanorezeptoren umschalten.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wide-Dynamic-Range-Neuronen als Umschalter",
+        text: "Unter den interstitiellen Rezeptoren gibt es eine Untergruppe, die Wide-Dynamic-Range-Neuronen (WDR-Neuronen), die sowohl auf Schmerzreize als auch auf niederschwellige mechanische Reize wie Bewegung reagieren können. Da Bewegung zu den niederschwelligen mechanischen Reizen zählt, werden WDR-Neuronen durch Bewegung selbst stimuliert — mit der Folge, dass sich die Schmerzwahrnehmung verändert: Der Nozizeptor schaltet gewissermaßen auf einen Mechanorezeptor um. Diese Umschaltung kann die Schwellenwerte des Schmerzempfindens senken und eingefahrene Schmerzmuster vorübergehend durchbrechen.",
+      },
+      {
+        type: "text",
+        heading: "Die klinische Falle: Besserung durch Bewegung ist keine Heilung",
+        text: "Dieser Mechanismus erklärt ein vertrautes klinisches Bild: Ein Hund, der lange gelegen hat oder aus einem engen Kennel steigt, zeigt die ersten Schritte steif, wirkt nach dem Schütteln und wenigen Metern Gehens aber bereits deutlich lockerer. Ebenso erklärt das WDR-Programm die schmerzlindernde Wirkung von sanfter Massage sowie von Tapes und Pflastern, und das reflektorische Reiben oder Lecken einer schmerzhaften Stelle als unbewussten Versuch, über denselben Mechanismus die Nozizeption zu unterdrücken. Für die klinische Bewertung bedeutet das: Eine Besserung des Gangbilds nach den ersten Bewegungsschritten ist keine verlässliche Aussage darüber, dass die zugrunde liegende Struktur gesund ist — die Schmerzwahrnehmung kann sich allein durch die Bewegung selbst vorübergehend verändern, unabhängig vom Zustand der Pathologie. Als mögliche weitere Erklärung wird im Original zudem diskutiert, dass dieser Mechanismus zur verminderten Schmerzwahrnehmung sehr ballfixierter Hunde im Beutetrieb beitragen könnte.",
+      },
+    ],
+    errorTags: ["Befund unterbewertet", "vorschnelle Diagnose", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 3.2.5, S. 34f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(3).pdf). Die Definition der WDR-Neuronen, der Umschaltmechanismus von Nozizeptor zu Mechanorezeptor (unter Verweis auf eine im Original zitierte, von Denkgang nicht eigenständig geprüfte Literaturstelle [24]), die Beispiele (Aufstehen nach Liegen, Tape-/Pflasterwirkung, reflektorisches Reiben/Lecken) sowie die Diskussion zum verminderten Schmerzempfinden ballfixierter Hunde sind im Original so beschrieben. Die abschließende klinische Einordnung zur Fehlinterpretationsgefahr ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "faszienschmerz-thorakolumbale-faszie-myofibroblasten-verklebung",
+    category: "PATHOLOGIE",
+    title: "Wie Faszien auf Schmerz reagieren: die thorakolumbale Faszie als Beispiel",
+    teaser:
+      "Schmerz hinterlässt in der Faszie selbst Spuren: mehr Myofibroblasten, mehr Spannung, schlechtere Verschieblichkeit — ein Kreislauf, der sich am Hund an einer ganz bestimmten Stelle oft gut palpieren lässt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Dichte Schmerzrezeptor-Besetzung der Rückenlendenbinde",
+        text: "Beim Menschen ist nachgewiesen, dass die Fascia thoracolumbalis (Rückenlendenbinde) dicht mit Nozizeptoren besetzt ist. Robert Schleip stellte zusätzlich fest, dass bei Schmerzzuständen in diesem Bereich sowohl die Zahl der Myofibroblasten als auch die Spannung der Faszie zunehmen. Langevin und Sherman zeigten darüber hinaus, dass Faszien bei chronischen Schmerzzuständen regelrecht verkleben können: Anhaltender Schmerz führt zu vermehrter Myofibroblasten-Produktion, die Faszienspannung steigt, und die freie Verschieblichkeit der Faszienschichten gegeneinander (Shearmotion) nimmt ab — das Gewebe fühlt sich verklebt an und ist in seiner Funktion eingeschränkt.",
+      },
+      {
+        type: "text",
+        heading: "Kein nur lokales Problem",
+        text: "Diese Veränderungen bleiben nicht zwangsläufig auf die ursprünglich betroffene Stelle beschränkt: Über das Faszienkontinuum setzt sich eine schmerzhafte oder verklebte Faszie im gesamten Körper fort und beeinflusst sowohl die Statik des Hundes als auch die Stoffwechsellage im betroffenen Gebiet. Die Quelle überträgt diesen am Menschen beschriebenen Zusammenhang auf den Hund und benennt ihn dort als am Hund klinisch gut lokalisierbar.",
+      },
+      {
+        type: "text",
+        heading: "Palpationsbefund: fasziale Schmerzhaftigkeit von viszeraler Verklebung unterscheiden",
+        text: "Die betroffenen Bereiche der thorakolumbalen Faszie lassen sich beim Hund meist gut lokalisieren: Der Patient zuckt bei Palpation der betroffenen Stelle zusammen, und die Kiblersche Hautfalte löst sich dort nicht ab. Entscheidend für die Interpretation ist dabei ein zusätzliches Kriterium: Löst sich die Hautfalte zwar ebenfalls nicht ab, ist die Palpation der Stelle selbst aber nicht schmerzhaft, spricht das eher für ein über das Dermatom vermitteltes viszerales Problem als für eine primär fasziale Schmerzhaftigkeit — die fehlende Hautfalten-Ablösbarkeit allein erlaubt noch keine Unterscheidung, erst die Schmerzhaftigkeit bei Palpation grenzt beide Ursachen gegeneinander ab.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 3.2.6, S. 34f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(3).pdf). Die Nozizeptorendichte der Fascia thoracolumbalis beim Menschen, der Myofibroblasten-/Spannungsanstieg bei Schmerz nach Schleip, die Verklebung bei chronischem Schmerz nach Langevin und Sherman (im Original als Literaturverweis [22] geführt, von Denkgang nicht eigenständig in der Primärliteratur geprüft), die Übertragung auf den Hund sowie die palpatorische Unterscheidung über Schmerzhaftigkeit und Kiblersche Hautfalte sind im Original so beschrieben. Ergänzt den bestehenden Eintrag `myofibroblasten-faszien-kontraktionsfaehigkeit-vegetative-kontrolle` (dieselbe Quelle, Kap. 2.3.1/4.2) um die konkrete Schmerzphysiologie und das Palpationskriterium, sowie die bestehenden Kibler-Hautfalten-Einträge aus Kasper/Zohmann um die fasziale Differentialdiagnose-Perspektive, statt sie zu duplizieren.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "faszienrestriktion-pathophysiologie-immobilisation-faszienkater",
+    category: "PATHOLOGIE",
+    title: "Faszienrestriktion: von der Immobilisation zum „Faszienkater“",
+    teaser:
+      "Nicht jeder Muskelkater kommt aus dem Muskel: Injektionsstudien deuten darauf hin, dass der eigentliche Schmerz nach Überlastung aus der Faszie stammt — und Bewegungsmangel ist dabei der Hauptverursacher krankhafter Verklebung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Definition: gestörte Verschieblichkeit statt gestörter Struktur",
+        text: "Gesunde Faszie ist sowohl mikroskopisch zwischen ihren einzelnen Fasern als auch makroskopisch zwischen ganzen Faszienschichten frei gegeneinander verschieblich (Shearmotion). Ist diese Verschieblichkeit in eine oder mehrere Richtungen eingeschränkt, liegt eine Faszienrestriktion vor. Weil das Fasziensystem ein zusammenhängendes Kontinuum bildet, bleiben die Folgen einer Restriktion nicht zwangsläufig lokal: Kurzfristige Restriktionen wirken sich eher örtlich begrenzt aus, bestehen sie jedoch länger fort, kann die anschließende Neuausrichtung der Fasern über das Kontinuum globale Bewegungs-, Durchblutungs- und — über die veränderte Propriozeption — Koordinationsstörungen nach sich ziehen.",
+      },
+      {
+        type: "text",
+        heading: "Immobilisation als Hauptverursacher",
+        text: "Hauptverursacher von Faszienrestriktionen ist Immobilisation beziehungsweise Bewegungsarmut (in der Quelle als „unused arc theory“ bezeichnet): Sie führt zu einem Verlust an Fibroblasten, zu verminderter Zellaktivität und zum Verlust von Matrixbestandteilen, mit der Folge einer verminderten Elastizität und Stabilität der Faszie sowie vermehrter pathologischer Quervernetzungen (Crosslinks) durch den Mangel an Grundsubstanz. Zusätzlich nimmt bei Immobilisation die Fettschicht zwischen den Faszienschichten zu, was weitere Restriktionen begünstigt — bis hin zu Kapselfalten in den Gelenkkapseln selbst. Bei starker Überbelastung kann es dagegen zu Rupturen der Faszie kommen, erkennbar an typisch eingezogenen Narben mit stark verminderter Mobilität gegenüber dem umliegenden Gewebe.",
+      },
+      {
+        type: "text",
+        heading: "„Faszienkater“: wo der Schmerz nach Überlastung wirklich sitzt",
+        text: "Auch Muskelkater, Muskelzerrungen, Tendinosen, Bandrupturen und Knochenhautreizungen werden in der Quelle als fasziale Verletzungen eingeordnet. Als Beleg wird eine Untersuchung angeführt, nach der ein schmerzstillendes Präparat, direkt in den schmerzenden Muskel injiziert, den Muskelkater-Schmerz nicht beseitigt — wird dieselbe Substanz dagegen in die Muskelfaszie injiziert, verschwindet der Schmerz. Das spricht dafür, dass nicht das Muskelgewebe selbst, sondern die umhüllende Faszie der eigentliche Ursprungsort der Nozizeption ist; treffender wäre demnach die Bezeichnung „Faszienkater“. Diese Mikroläsionen stören wiederum über die dortigen Nozizeptoren die Propriozeption, was die Koordination verschlechtert, zu Fehlbelastungen führt und damit erneut Mikroläsionen begünstigt — ein sich selbst verstärkender Kreislauf.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 4.1, S. 36f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(3).pdf). Die Definition der Faszienrestriktion über eingeschränkte Shearmotion, die „unused arc theory“ der Immobilisation als Hauptverursacher samt zellulärer Folgen (Fibroblasten-/Matrixverlust, Crosslinks, Fettschicht-Zunahme, Kapselfalten), die Einordnung von Muskelkater/-zerrungen/Tendinosen/Bandrupturen/Knochenhautreizungen als fasziale Verletzungen, die Injektionsstudie zum „Faszienkater“ sowie der beschriebene Teufelskreis aus Mikroläsion und Fehlbelastung sind im Original so beschrieben, die Injektionsstudie selbst ohne eigene Literaturangabe im Originaltext. Ergänzt den bestehenden Eintrag `tensegrity-modell-koerper-stabilitaet-mobilitaet` (dieselbe Quelle, Kap. 2.2), der Faszienrestriktion nur knapp über die Shearmotion definiert, um die vollständige Pathophysiologie und das „Faszienkater“-Konzept, statt die Definition zu duplizieren.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },

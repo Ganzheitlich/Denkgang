@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 311 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
-  Untersuchung, 103 Pathologie, 79 Biomechanik, 43 Therapie — genaue
+- Wissensbibliothek: 317 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
+  Untersuchung, 106 Pathologie, 82 Biomechanik, 43 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -865,7 +865,43 @@ kein Überblick verloren geht.
   querverlinkt wurde, statt ihn zu duplizieren. Die Golgi-Rezeptoren-
   Einleitung in Kap. 3.2.1 (Chunk f(2).pdf, Satzende) wurde gegen den
   bestehenden, aus Alexander/Baatz stammenden Golgi-Sehnenorgan-Eintrag
-  geprüft und als zu nah daran bewusst nicht erneut extrahiert.
+  geprüft und als zu nah daran bewusst nicht erneut extrahiert. Danach
+  Chunk f(3).pdf gelesen (Rest von Kap. 3 „Faszien als „Sinnesorgane"",
+  S. 32–35, sowie Kap. 4.1–4.2 „Pathologie der Faszien", S. 36f.) — **6
+  weitere neue Einträge plus eine Ergänzung eines bestehenden Eintrags**:
+  3.1 „Embodiment" lieferte den Rahmenbegriff der Faszie als größtem
+  Sinnesorgan des Körpers samt des Warnbeispiels zur altersbedingten
+  Achilles-Plantarsehnen-Degeneration beim Menschen
+  (`embodiment-faszien-koerperwahrnehmung-tiefensensibilitaet`); 3.2.2–
+  3.2.3 (Vater-Pacini- und Ruffini-Körperchen) wurden als Vergleichstabelle
+  mit gegensätzlichem Reaktionsprofil aufbereitet und gezielt gegen den
+  bestehenden, nur knappen Ruffini-Hinweis im Könneker/Reiter-Eintrag
+  `faszie-sinnesorgan-mechanorezeptoren-perforanten-trias` abgegrenzt
+  (`vater-pacini-ruffini-koerperchen-gegensaetzliche-reaktionsprofile`);
+  3.2.4 (interstitielle Rezeptoren) lieferte deren Doppelfunktion als
+  Ergo- und Interozeptoren
+  (`interstitielle-rezeptoren-ergorezeptoren-interozeption`); 3.2.5
+  (WDR-Programm) den Mechanismus der Nozizeptor-zu-Mechanorezeptor-
+  Umschaltung durch Bewegung als Erklärung für scheinbare Besserung durch
+  Aufwärmen
+  (`wdr-neuronen-nozizeptor-mechanorezeptor-umschaltung-schmerzlinderung`);
+  3.2.6 (Schmerzreaktion der Faszie) die thorakolumbale Faszie als
+  Schmerzrezeptor-Hotspot samt Palpationskriterium zur Abgrenzung
+  faszialer von viszeraler Schmerzhaftigkeit
+  (`faszienschmerz-thorakolumbale-faszie-myofibroblasten-verklebung`,
+  verknüpft mit dem bestehenden Myofibroblasten-Eintrag); 4.1
+  (Faszienrestriktion) die vollständige Pathophysiologie samt
+  „Faszienkater"-Konzept, die den knappen Restriktionsbegriff aus dem
+  bestehenden Tensegrity-Eintrag ergänzt statt zu duplizieren
+  (`faszienrestriktion-pathophysiologie-immobilisation-faszienkater`).
+  4.2 (Faszien und Stress) war inhaltlich zu knapp für einen
+  eigenständigen Eintrag und wurde stattdessen als dritter Abschnitt in
+  den bestehenden Eintrag
+  `myofibroblasten-faszien-kontraktionsfaehigkeit-vegetative-kontrolle`
+  eingearbeitet (klinischer Stress-Myofibroblasten-Zusammenhang,
+  Malinois-Beispiel). Damit ist Kap. 3 vollständig und Kap. 4.1–4.2 von
+  Kap. 4 ausgewertet; offen bleibt nur noch 4.3–4.4 (Narbengewebe,
+  Faszien und Alter).
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1219,19 +1255,19 @@ Status:
   Chunk f(2).pdf) **vollständig ausgewertet — 4 neue Einträge**, siehe Stand
   oben (Tensegrity-Modell, Katapulteffekt, Myofibroblasten, zweite
   Diaphragmen-Klassifikation).
-- [~] Kap. 3 „Faszien als „Sinnesorgane"" (S. 32–35): nur der Beginn von
-  3.2.1 (Golgi-Rezeptoren, am Ende von Chunk f(2).pdf) gesichtet — gegen den
-  bestehenden, aus Alexander/Baatz stammenden Golgi-Sehnenorgan-Eintrag
-  geprüft und als zu nah daran bewusst nicht erneut extrahiert. Noch offen:
-  Vater-Pacini-Körperchen, Ruffini-Körperchen, interstitielle Rezeptoren,
-  „WDR-Programm", Schmerzreaktion der Faszie — hier ist sorgfältig gegen den
-  bestehenden Eintrag `faszie-sinnesorgan-mechanorezeptoren-perforanten-
-  trias` (Könneker/Reiter) abzugleichen, bevor neue Einträge entstehen, da
-  thematische Überschneidung wahrscheinlich ist (voraussichtlich nächster
-  Chunk: f(3).pdf).
-- [ ] Kap. 4 „Pathologie der Faszien" (S. 36–37): Faszienrestriktion, Faszien
-  und Stress, Narbengewebe, Faszien und Alter — noch ungelesen, erscheint
-  vielversprechend als eigenständiges pathologisches Konzept.
+- [x] Kap. 3 „Faszien als „Sinnesorgane"" (S. 32–35) **vollständig gelesen
+  und ausgewertet (Chunks f(2)/f(3).pdf) — 5 neue Einträge**: 3.1
+  Embodiment, 3.2.2–3.2.3 Vater-Pacini-/Ruffini-Vergleich, 3.2.4
+  interstitielle Rezeptoren (Ergo-/Interozeption), 3.2.5 WDR-Programm,
+  3.2.6 Schmerzreaktion der Faszie — siehe Stand oben für Details. 3.2.1
+  (Golgi-Rezeptoren) bewusst nicht extrahiert (Duplikat des bestehenden
+  Alexander/Baatz-Eintrags).
+- [~] Kap. 4 „Pathologie der Faszien" (S. 36–37): 4.1 Faszienrestriktion
+  und 4.2 Faszien und Stress gelesen und ausgewertet (Chunk f(3).pdf) — 1
+  neuer Eintrag (`faszienrestriktion-pathophysiologie-immobilisation-
+  faszienkater`) sowie 4.2 als Ergänzung in den bestehenden
+  Myofibroblasten-Eintrag eingearbeitet (siehe Stand oben). Noch offen:
+  4.3 Narbengewebe, 4.4 Faszien und Alter.
 - [ ] Kap. 5 „Faszienbefundung" (S. 40–51): Exterieurbeurteilung/Adspektion,
   Gang-/Bewegungsanalyse, Faszienpalpation — noch ungelesen, voraussichtlich
   hoher Lehrwert (konkrete, beobachtbare Untersuchungskriterien statt
