@@ -13598,6 +13598,35 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "antiklinaler-brustwirbel-landmarke-bewegungswechsel",
+    category: "BIOMECHANIK",
+    title: "Der antiklinale Brustwirbel: Orientierungspunkt und Bewegungswechsel zugleich",
+    teaser:
+      "Zwischen dem 9. und 11. Brustwirbel kippt die Ausrichtung der Facettengelenke um — und mit ihr wechselt, welche Bewegung an welchem Wirbelsäulenabschnitt überhaupt noch möglich ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wo die Facettengelenke die Richtung wechseln",
+        text: "Der antiklinale Brustwirbelkörper liegt zwischen dem 9. und 11. Brustwirbel und steht im Gegensatz zu den übrigen Brustwirbeln senkrecht. An dieser Stelle wechselt die Ausrichtung der Facettengelenke abrupt: Kaudal vom antiklinalen Wirbel stehen sie sagittal (senkrecht), begleitet von stark ausgeprägten Procc. accessorii. Kranial vom antiklinalen Wirbel dagegen verlaufen die Facettengelenke fast in der Frontalebene (tangential).",
+      },
+      {
+        type: "text",
+        heading: "Welche Bewegung wo möglich ist",
+        text: "Diese Ausrichtung der Facettengelenke bestimmt unmittelbar, welche Bewegung in welchem Abschnitt überhaupt stattfinden kann. Kranial vom antiklinalen Wirbel sind Rotation und Lateralflexion möglich — synkinetisch gekoppelt, verlaufen also stets in dieselbe Richtung —, während Flexion und Extension dort wegen der Stellung und Länge der Procc. spinosi sowie der frontalen Facettengelenkstellung nur sehr eingeschränkt möglich sind. Kaudal vom antiklinalen Wirbel ist es umgekehrt: Die sagittale Facettengelenkstellung und die ausgeprägten Procc. accessorii schränken Rotation und Lateralflexion stark ein. Gerade die dadurch besonders hohe Beweglichkeit am Übergang von der Brust- zur Lendenwirbelsäule ermöglicht dem Hund, im Galopp die Beine weit nach vorne zu bringen.",
+      },
+      {
+        type: "text",
+        heading: "Die Dornfortsätze als Palpations-Landkarte",
+        text: "Die Stellung der Procc. spinosi (Dornfortsätze) folgt einem erkennbaren Muster, das die Orientierung beim Palpieren erleichtert: An Th1/Th2 stehen die Dornfortsätze noch etwa dorsal ihrer eigenen Wirbelkörper, ihre Spitzen sind also direkt über dem zugehörigen Wirbelkörper tastbar. Von Th3 bis Th5 stehen sie bereits etwa einen Wirbelkörper weiter kaudal, von Th5 bis zum antiklinalen Wirbel sogar etwa zwei Wirbelkörper weiter kaudal (ab Th3 liegen sie dabei dachziegelartig übereinander). Ab dem antiklinalen Wirbel stehen die Dornfortsätze wieder dorsal ihrer eigenen Wirbelkörper. Individuelle Abweichungen von diesem Muster sind möglich, es erlaubt aber eine orientierende Zuordnung, welcher Brustwirbel gerade palpiert wird, ohne dafür ein Röntgenbild zu benötigen.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.4.2, S. 113f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(26).pdf). Die Lage des antiklinalen Brustwirbels, der Wechsel der Facettengelenkausrichtung, die daraus resultierende Bewegungsfähigkeit kranial/kaudal davon samt dem Galopp-Bezug sowie das Dornfortsatz-Stellungsmuster sind im Original so beschrieben. Der antiklinale Brustwirbel als anatomische Schwachstelle des thorakolumbalen Übergangs ist bereits im bestehenden Eintrag `schmerzreise-hd-knie-sig-lsue-kaskade` (Kasper/Zohmann, Vertebra-anticlinalis-Abschnitt) beschrieben; jener Eintrag behandelt die Schmerzkaskade von der Hüfte bis zur Spondylose, dieser Eintrag ergänzt ihn um die eigenständige Bewegungsfähigkeits-Regel kranial/kaudal des antiklinalen Wirbels und die praktische Dornfortsatz-Palpationslandkarte — bewusst nicht dupliziert.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["facettengelenke"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

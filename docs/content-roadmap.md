@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 304 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
-  Untersuchung, 103 Pathologie, 72 Biomechanik, 43 Therapie — genaue
+- Wissensbibliothek: 305 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
+  Untersuchung, 103 Pathologie, 73 Biomechanik, 43 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -784,16 +784,27 @@ kein Überblick verloren geht.
   Übergangssegmenten nach bereits eingetretener Strukturschädigung, und
   das daraus resultierende realistische Therapieziel — Erhalt der
   Kompensationsfähigkeit statt Heilung der Struktur). **Damit ist Kap.
-  7.4.1 vollständig ausgewertet.** Kap. 1–2 (Geschichte, Technik-
-  Überblick), Zehengelenke der Vordergliedmaße (laut Quelle synonym zu
-  den Hintergliedmaßen-Zehen, daher niedrige Priorität), 7.4.2
-  „Untersuchung und Behandlung der Wirbelsäule" (S. 110–124, konkrete
-  Gelenktechniken je Wirbelsäulenabschnitt — hier ist wie bei Kap. 7.3
-  wieder mit Überschneidung zu bestehenden HWS-/SIG-Einträgen aus Hárrer
-  und Kasper/Zohmann zu rechnen) sowie Kap. 8–10 (viszerale und
-  kraniosakrale Techniken) sind noch ungelesen — siehe Backlog-Eintrag zu
-  dieser Quelle für die geplante Kapitel-Priorisierung und die Einordnung
-  der strittigeren Konzepte.
+  7.4.1 vollständig ausgewertet.** Danach 7.4.2 „Untersuchung und
+  Behandlung der Wirbelsäule" begonnen (HWS-Anatomie und Joint-Play-
+  Technik, BWS-Anatomie/Beweglichkeit, Chunk o(26).pdf, S. 110–115): Die
+  konkreten Joint-Play-Grifftechniken für HWS/BWS **bewusst nicht
+  übernommen** (wie bei Kap. 7.3 reine Technik-Anleitungen ohne
+  eigenständigen Lehrwert bzw. Überschneidung mit Hárrer), die BWS-
+  Anatomie lieferte aber **1 weiteren neuen Eintrag**:
+  `antiklinaler-brustwirbel-landmarke-bewegungswechsel` (BIOMECHANIK: der
+  antiklinale Brustwirbel zwischen Th9–Th11 als Punkt, an dem die
+  Facettengelenkausrichtung kippt und sich damit die mögliche
+  Bewegungsrichtung umkehrt, plus eine Dornfortsatz-Palpationslandkarte —
+  ergänzt den bestehenden Kasper/Zohmann-Eintrag `schmerzreise-hd-knie-
+  sig-lsue-kaskade`, der denselben antiklinalen Wirbel bereits als
+  Schwachstelle der Schmerzkaskade nennt, um die eigenständige
+  Bewegungsfähigkeits-Regel und die Palpationslandkarte). Kap. 1–2
+  (Geschichte, Technik-Überblick), Zehengelenke der Vordergliedmaße (laut
+  Quelle synonym zu den Hintergliedmaßen-Zehen, daher niedrige Priorität),
+  der Rest von 7.4.2 (S. 115–124: LWS, SIG, weitere BWS-Techniken) sowie
+  Kap. 8–10 (viszerale und kraniosakrale Techniken) sind noch ungelesen —
+  siehe Backlog-Eintrag zu dieser Quelle für die geplante Kapitel-
+  Priorisierung und die Einordnung der strittigeren Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1018,14 +1029,27 @@ Kapitel.
   (`wirbelsaeulenspezifische-anamnese-lokalisationshinweise`,
   `adspektion-wirbelsaeule-rute-taktgeber-warnsignal`). Damit hat dieser
   Abschnitt insgesamt 4 Einträge geliefert — deutlich ergiebiger als
-  Kap. 7.3, wie erwartet. Noch offen: 7.4.2 „Untersuchung und Behandlung
-  der Wirbelsäule" (S. 110–124, konkrete Gelenktechniken je
-  Wirbelsäulenabschnitt inkl. HWS-Bewegungskopplungsmuster) — hier ist
-  erneut auf Überschneidung mit den umfangreichen bestehenden HWS-/SIG-
-  Einträgen aus Hárrer und Kasper/Zohmann zu achten (die HWS-
-  Bewegungsrichtungen pro Segment aus dem bereits gelesenen Chunk
-  o(26).pdf, S. 109f., wurden testweise nicht übernommen, da hier eine
-  ähnlich hohe Überschneidung wie bei Kap. 7.3 zu erwarten ist).
+  Kap. 7.3, wie erwartet. **7.4.2 „Untersuchung und Behandlung der
+  Wirbelsäule" begonnen** (S. 110–115, Chunk o(26).pdf: HWS-Anatomie/
+  Bewegungskopplung, HWS-Joint-Play-Grifftechniken für Kopfgelenke und
+  C2–C7, BWS-Anatomie/Beweglichkeit, BWS-Ganganalyse/Beweglichkeits-
+  prüfung über Vorder-/Hintergliedmaßenbewegung). Bestätigt wie bei
+  Kap. 7.3: Die konkreten HWS-Joint-Play-Grifftechniken (Atlantookzipital-,
+  Atlantoaxialgelenk, C2–C7) sind reine Grifftechnik-Beschreibungen ohne
+  eigenständigen Lehrwert bzw. decken sich mit bestehenden Hárrer-HWS-
+  Einträgen — **bewusst nicht übernommen.** Die BWS-Anatomie (antiklinaler
+  Brustwirbel, Facettengelenk-Richtungswechsel, Dornfortsatz-Muster)
+  ergab dagegen **1 neuen Eintrag**, siehe Stand oben
+  (`antiklinaler-brustwirbel-landmarke-bewegungswechsel` — ergänzt den
+  bestehenden Kasper/Zohmann-Eintrag `schmerzreise-hd-knie-sig-lsue-
+  kaskade` um die Bewegungsfähigkeits-Regel und die Palpationslandkarte,
+  statt dessen Schmerzkaskaden-Inhalt zu duplizieren). Noch offen: der
+  Rest von 7.4.2 (S. 115–124: BWS-Beweglichkeitsuntersuchung fortgesetzt,
+  LWS, SIG, Wirbelsäulen-Release-Techniken) — hier ist erneut auf
+  Überschneidung mit den umfangreichen bestehenden LWS-/SIG-Einträgen aus
+  Hárrer und Kasper/Zohmann zu achten, aber nach dem BWS-Fund mit
+  vereinzelten weiteren eigenständigen Anatomie-/Biomechanik-Nuggets
+  neben überwiegend redundanten Grifftechniken zu rechnen.
 - [ ] Kap. 8 „Viszerale Techniken" (S. 125–162): Organtopografie,
   viszerovertebrale Diagnostik, viszerales Faszienskelett. Enthält
   Konzepte (Organmotilität, Organverbindung über embryonalen Ursprung) mit
