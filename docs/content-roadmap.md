@@ -827,12 +827,19 @@ kein Überblick verloren geht.
   alternativmedizinische Kapitel bei Kasper/Zohmann auszulassen). **Mit
   dieser bewussten Auslassung von Kap. 1–2 gilt die aktive Extraktion aus
   Könneker/Reiter, Osteopathie in der Kleintierpraxis, für diese Session
-  als abgeschlossen: 19 neue Einträge aus Kap. 3–7.** Kap. 8–10 (viszerale
-  und kraniosakrale Techniken) bleiben als niedrigere Priorität für eine
-  Folgesession offen — siehe Backlog-Eintrag zu dieser Quelle für die
-  bereits dokumentierte Einordnung der dort zu erwartenden strittigen
-  Konzepte (Organmotilität, primär respiratorischer Mechanismus,
-  kraniosakraler Rhythmus).
+  als abgeschlossen: 19 neue Einträge aus Kap. 3–7.** Kap. 8 „Viszerale
+  Techniken" wurde zusätzlich stichprobenartig geprüft (S. 148–157) und
+  ebenfalls bewusst nicht extrahiert — überwiegend disputierte
+  Organmotilitäts-/-mobilitätstheorie, die unstrittige
+  Innervationsanatomie ohne Denkgang-spezifischen Mehrwert, die solide
+  Physiologie des enterischen Nervensystems ohne Bezug zum
+  physiotherapeutischen Fokus (Details im Backlog). **Damit gilt auch
+  Kap. 8 für diese Session als geprüft und abgeschlossen.** Kap. 9
+  (Kraniosakrale Techniken) und Kap. 10 (Von der Technik zur Kunst)
+  bleiben ungelesen und als niedrige Priorität für eine Folgesession
+  offen — siehe Backlog-Eintrag zu dieser Quelle für die bereits
+  dokumentierte Einordnung der dort zu erwartenden strittigen Konzepte
+  (primär respiratorischer Mechanismus, kraniosakraler Rhythmus).
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1118,14 +1125,26 @@ Kapitel.
   dieser Quelle selbst abgedeckt) sowie auf 7.1.1/7.1.2 (Drei-Schulen-
   Gegenüberstellung, bereits durch `manuelle-medizin-drei-schulen-omt-
   chiropraxis-osteopathie` abgedeckt).
-- [ ] Kap. 8 „Viszerale Techniken" (S. 125–162): Organtopografie,
-  viszerovertebrale Diagnostik, viszerales Faszienskelett. Enthält
-  Konzepte (Organmotilität, Organverbindung über embryonalen Ursprung) mit
-  schwächerer unabhängiger Evidenzlage als die rein muskuloskelettalen
-  Kapitel — bei Extraktion durchgehend als „nach osteopathischem
-  Verständnis"/"im osteopathischen Modell" kennzeichnen statt als
-  gesicherte Physiologie darzustellen, analog zur Handhabung von
-  TCM-Inhalten an anderer Stelle der Bibliothek.
+- [x] Kap. 8 „Viszerale Techniken" (S. 125–162): Stichprobenartig gelesen
+  (S. 148–157, Chunk o(28).pdf, im Rahmen der Chunk-Navigation dieser
+  Session) — **Befund: überwiegend disputierte osteopathische
+  Organtheorie, bewusst nicht extrahiert.** Konkret gesichtet und als
+  wenig ergiebig bewertet: Organmotilität/-mobilität als Exspir-/Inspir-
+  Rhythmus (beruht wie die bereits ausgeschlossene MFR-Technik auf einer
+  unabhängig nicht bestätigten Eigenwahrnehmung), viszerale Fixierung/
+  Restriktion, Tensionsprüfung, viszerovertebrale Inhibitionstechnik —
+  alles osteopathisches Erklärungsmodell ohne unabhängige Bestätigung.
+  Die parasympathische Innervationstabelle der Bauchorgane (Tab. 8.4) ist
+  zwar reine, unstrittige Anatomie, deckt sich aber mit Standard-
+  Veterinäranatomie ohne Denkgang-spezifischen Mehrwert. Der Abschnitt
+  zum enterischen Nervensystem (Bauchhirn, Serotoninproduktion, 90:10-
+  Afferenzen-Verhältnis) ist wissenschaftlich solide, aber internistische
+  Physiologie ohne Bezug zu Denkgangs physiotherapeutischem Fokus —
+  bewusst ausgelassen, analog zur Handhabung anderer internistischer
+  Inhalte (vgl. Kasper/Zohmann Kap. 5–8). Eine vollständige Durchsicht des
+  restlichen Kapitels (S. 125–147, 158–162: Organtopografie, viszerales
+  Faszienskelett, Organverbindung über embryonalen Ursprung) wurde auf
+  Basis dieses Befunds nicht mehr für nötig gehalten.
 - [ ] Kap. 9 „Kraniosakrale Techniken" (S. 163–223): primär respiratorischer
   Mechanismus, kraniosakraler Rhythmus, Stillpunkt, SSB/SSO-Technik. Die
   Grundannahme eines bei erwachsenen Säugetieren mit verknöcherten
