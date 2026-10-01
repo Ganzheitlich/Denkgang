@@ -13926,7 +13926,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
         text: "Dieser Mechanismus erklärt ein vertrautes klinisches Bild: Ein Hund, der lange gelegen hat oder aus einem engen Kennel steigt, zeigt die ersten Schritte steif, wirkt nach dem Schütteln und wenigen Metern Gehens aber bereits deutlich lockerer. Ebenso erklärt das WDR-Programm die schmerzlindernde Wirkung von sanfter Massage sowie von Tapes und Pflastern, und das reflektorische Reiben oder Lecken einer schmerzhaften Stelle als unbewussten Versuch, über denselben Mechanismus die Nozizeption zu unterdrücken. Für die klinische Bewertung bedeutet das: Eine Besserung des Gangbilds nach den ersten Bewegungsschritten ist keine verlässliche Aussage darüber, dass die zugrunde liegende Struktur gesund ist — die Schmerzwahrnehmung kann sich allein durch die Bewegung selbst vorübergehend verändern, unabhängig vom Zustand der Pathologie. Als mögliche weitere Erklärung wird im Original zudem diskutiert, dass dieser Mechanismus zur verminderten Schmerzwahrnehmung sehr ballfixierter Hunde im Beutetrieb beitragen könnte.",
       },
     ],
-    errorTags: ["Befund unterbewertet", "vorschnelle Diagnose", "Faktenwissen"],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 3.2.5, S. 34f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(3).pdf). Die Definition der WDR-Neuronen, der Umschaltmechanismus von Nozizeptor zu Mechanorezeptor (unter Verweis auf eine im Original zitierte, von Denkgang nicht eigenständig geprüfte Literaturstelle [24]), die Beispiele (Aufstehen nach Liegen, Tape-/Pflasterwirkung, reflektorisches Reiben/Lecken) sowie die Diskussion zum verminderten Schmerzempfinden ballfixierter Hunde sind im Original so beschrieben. Die abschließende klinische Einordnung zur Fehlinterpretationsgefahr ist eigene Synthese von Denkgang.",
     relatedCaseIds: [],
@@ -14008,7 +14008,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
         text: "Weil Narbengewebe die Strukturen gegeneinander in ihrer Beweglichkeit einschränkt und versteift, kann es chronische Schmerzen verursachen. Ist speziell Muskulatur betroffen, hat dies eine weitere, über den lokalen Befund hinausgehende Konsequenz: Die Koordination zwischen Agonist und Antagonist wird fehlerhaft, und der Hund entwickelt in der Folge inkorrekte Kompensationsbewegungen — nicht, weil die Narbe selbst schmerzt, sondern weil ihr die normale Funktion als dehnbares, verschiebliches Gewebe fehlt. Die Quelle bringt diesen Befund auf die Formel: „Eine Narbe hat keinerlei funktionellen Nutzen. Ihr einziger Zweck besteht darin, im verletzten Gewebe ‚das Loch zu stopfen‘.“",
       },
     ],
-    errorTags: ["Befund unterbewertet", "Differentialdiagnostik unvollständig", "Faktenwissen"],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 4.3, S. 37f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(4).pdf). Die Abhängigkeit des Adhäsionsausmaßes vom initialen Trauma, der gewebeunabhängig immer gleich verlaufende Reparaturprozess, die Funktionslosigkeit des entstehenden Narbengewebes, dessen Folgen (chronischer Schmerz, bei Muskelbeteiligung Agonist-/Antagonist-Fehlkoordination mit inkorrekten Kompensationsbewegungen) sowie das wörtliche Zitat (im Original unter Verweis auf eine eigene Literaturstelle [9], S. 179, von Denkgang nicht eigenständig in der Primärliteratur geprüft) sind im Original so beschrieben. Die Quelle bezeichnet entstehendes Narbengewebe im selben Abschnitt pauschal als „somatische Dysfunktion“ — dieser Begriff wird in dieser Bibliothek an anderer Stelle (`somatische-dysfunktion-art-kriterienraster`, Könneker/Reiter) enger und strenger definiert als rein funktionelle, prinzipiell reversible Störung ohne nachweisbare Strukturursache. Eine strukturell fixierte Narbe erfüllt diese engere Definition gerade nicht; der Begriff wird hier deshalb bewusst nicht aus dem Original übernommen, um die beiden unterschiedlich strengen Verwendungsweisen nicht zu vermischen.",
     relatedCaseIds: [],
@@ -14331,7 +14331,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
         text: "Der direkt nach einer Dehnübung spürbare Effekt (z. B. unmittelbar verbesserte Beweglichkeit) ist demnach nicht in erster Linie auf eine sofortige bessere Gewebehydration zurückzuführen — diese setzt überhaupt erst zeitversetzt ein. Wer den Behandlungserfolg einer Dehnung ausschließlich am unmittelbaren Tastbefund direkt im Anschluss an die Technik beurteilt, läuft Gefahr, den eigentlichen, erst zeitversetzt einsetzenden Hydrationseffekt systematisch zu unterschätzen oder falsch zuzuordnen.",
       },
     ],
-    errorTags: ["Befund unterbewertet", "Faktenwissen", "Untersuchung falsch gewählt"],
+    errorTags: ["Befund übersehen", "Faktenwissen", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 6.2.2, S. 57f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(6).pdf, inkl. eines im Original zitierten Verweises auf Klingler et al. [16], von Denkgang nicht eigenständig in der Primärliteratur geprüft). Die Dehnungsgrundlagen (Zielgewebe, Haltezeit 10–45 Sekunden, Perimysium-Wirkung) sowie der verzögerte, über den Ausgangswert hinausgehende Hydrationsanstieg nach Dehnung sind im Original so beschrieben. Bewusst nicht übernommen: die im selben Kapitel beschriebene Methode des Myofaszialen Release mit den Konzepten State of Ease/State of Bind, Stillpoint und Unwinding — diese setzt dieselbe unabhängig nicht bestätigte Eigenwahrnehmung einer gewebeeigenen Entwindungsbewegung voraus wie die bereits bei Könneker/Reiter ausgeschlossene MFR-Technik.",
     relatedCaseIds: [],
@@ -14469,6 +14469,110 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Befund übersehen", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 7.2.3–7.2.4, S. 98–100 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(7).pdf). Der Verlauf der Fascia antebrachii, der Lacertus-fibrosus-Ansatz, die Spannerfunktion des Os carpi accessorium samt seiner Kipp-/Gleitbewegung bei Flexion/Extension, die Überstreckungsverletzung bei rennenden Windhunden sowie die Funktion und Fehlhaltungsfolgen der Membrana interossea antebrachii sind im Original so beschrieben. Die Verknüpfung mit dem bestehenden Windhund-/Katapulteffekt-Eintrag ist eigene Synthese von Denkgang; die bereits bestehenden, orthopädisch/neurologisch ausgerichteten Os-carpi-accessorium-Einträge (Fraktur, N.-ulnaris-Differenzierung, aus Koch/Fischer) werden hier gezielt um die biomechanische Spannerfunktion ergänzt, nicht dupliziert. Bewusst nicht übernommen: die reinen Grifftechnik-Anleitungen (Faszienlift, myofasziales Release, Mobilisationstechniken, TTouches) desselben Abschnitts.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "fascia-lata-kniekehle-katapulteffekt-uebertragung-hangbeinphase",
+    category: "BIOMECHANIK",
+    title: "Warum die Fascia lata ausgerechnet in der Kniekehle besonders elastisch ist",
+    teaser:
+      "Dieselbe elastische Energie, die der Katapulteffekt in den Beugesehnen speichert, setzt sich über ein besonders faserreiches Stück Fascia lata bis ins Knie fort — und macht aus dem Übergang in die Hangbeinphase eine energiesparende, federnde Bewegung statt reiner Muskelarbeit.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eine auffällig elastische Stelle mit Funktion",
+        text: "Die Fascia lata stabilisiert gemeinsam mit der Fascia cruris seitlich das Kniegelenk und bestimmt mit ihr zusammen die Kniewinkelung. Auffällig ist dabei, dass sie ausgerechnet im Bereich der Kniekehle besonders kräftig ausgebildet ist und dort reichlich elastische Fasern enthält — ein Hinweis darauf, dass dieser Bereich mechanisch mehr leistet als reine Stabilisation.",
+      },
+      {
+        type: "text",
+        heading: "Der Dehnungs-Verkürzungs-Zyklus setzt sich bis ins Knie fort",
+        text: "Der bereits an anderer Stelle beschriebene Katapulteffekt der Beugesehnen (siehe `katapulteffekt-sehnenelastizitaet-energieeffizienter-gang`) endet nicht an der Sehne selbst: Er wird über diesen elastikfaserreichen Kniekehlenbereich der Fascia lata weitergeleitet. Dadurch führt die in der Stützbeinphase gespeicherte Dehnung der elastischen Fasern beim Übergang in die beginnende Hangbeinphase zu einer elastischen, federnden Knieflexion — der Dehnungs-Verkürzungs-Zyklus setzt sich also von der Sehne über die Faszie bis ins Kniegelenk fort. Das Zusammenspiel aus dem Stretch der Beugesehnen und der elastischen Fascia lata in der Kniekehle macht die Fortbewegung der Hintergliedmaße dadurch energiesparender, als es reine Muskelarbeit leisten könnte.",
+      },
+      {
+        type: "text",
+        heading: "Das Pendant an der Vordergliedmaße",
+        text: "An der Vordergliedmaße existiert ein vergleichbarer Mechanismus, dort vermittelt über die Beugesehnen und die Hyperextension im Karpalgelenk — insbesondere über das Os carpi accessorium und das Caput longum des M. triceps brachii (vgl. die dortige Spannerfunktion des Os carpi accessorium, siehe `fascia-antebrachii-os-accessorium-spannerfunktion-ueberstreckung`). Beide Gliedmaßen nutzen damit nach demselben Grundprinzip gelenknahe elastische Strukturen, um gespeicherte Sehnenenergie in eine federnde Gelenkbewegung umzusetzen.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 7.3.3, S. 106f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(7).pdf). Die besonders kräftige, elastikfaserreiche Ausbildung der Fascia lata im Bereich der Kniekehle, die Weiterleitung des Dehnungs-Verkürzungs-Zyklus der Beugesehnen in eine elastische Knieflexion sowie der Verweis auf das vergleichbare Vorderextremitäten-Pendant (Os accessorius, M. triceps Caput longum) sind im Original so beschrieben. Die Verknüpfung mit den bestehenden Katapulteffekt- und Os-carpi-accessorium-Einträgen (dieselbe Quelle, frühere Kapitel) ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "fascia-genus-cruris-kreuzband-kniewinkel-sprunggelenk-spannung",
+    category: "PATHOLOGIE",
+    title: "Zu locker oder zu stramm: wie die Spannung von Fascia genus und Fascia cruris über Kreuzband, Kniewinkel und Sprunggelenk entscheidet",
+    teaser:
+      "Dieselbe Kniefaszie kann in zwei entgegengesetzte Richtungen Probleme verursachen — zu locker begünstigt sie Kreuzbandinstabilität, zu stramm einen geraden, schubarmen Gang mit erhöhtem Arthroserisiko im Sprunggelenk.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Faszien, eine gemeinsame Funktion",
+        text: "Die Fascia genus geht aus der Fascia lata und der Fascia femoralis medialis hervor und bestimmt die Rotationsstabilität und die aufrechte Haltung des Kniegelenks sowie die Position der Patella. Die Fascia cruris stabilisiert das Knie zusätzlich medial (über M. sartorius, M. gracilis, M. semitendinosus, M. semimembranosus) und lateral (über M. tensor fasciae latae, M. biceps femoris), bestimmt den Winkel zwischen Tibia und Femur und stabilisiert über ihre Spannung auch das vordere Kreuzband. Über ihre Fortsetzung, den Tendo accessorius, beeinflusst die Fascia cruris zudem die Stellung des Sprunggelenks.",
+      },
+      {
+        type: "table",
+        heading: "Zwei Richtungen, zwei Problembilder",
+        columns: ["Faszienspannung", "Folgen am Knie", "Folgen am Sprunggelenk/Gangbild"],
+        rows: [
+          [
+            "Zu gering (Fascia genus/cruris zu locker)",
+            "weich-elastisches statt fest-elastisches Endgefühl in Flexion, Kniegelenksinstabilität, erhöhtes Risiko für Läsionen des vorderen Kreuzbandes und der Menisken",
+            "—",
+          ],
+          [
+            "Zu stark (Fascia genus/cruris zu straff)",
+            "sehr fest-elastisches Endgefühl, eingeschränkte Flexion, zu gerades Kniegelenk, Kniegelenksarthrose, verminderte Schubkraft aus der Hinterhand",
+            "zu gerades Sprunggelenk mit erhöhtem Druck auf die Zehengrundgelenke (Senkfuß, reduzierter Katapulteffekt); Belastungsverschiebung von der physiologischen Art. talocalcanea auf die Art. talocalcaneocentralis mit erhöhtem Arthroserisiko",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Das Reifungsfenster: warum junge Hunde besonders gefährdet sind",
+        text: "Eine zu laxe Fascia cruris kommt typischerweise bei jungen Hunden vor, deren Fasziensystem die volle Reifung (die laut Quelle insgesamt rund 14 Monate dauert) noch nicht abgeschlossen hat. Gerade beim Toben und Rennen kann eine noch zu lockere Fascia cruris in dieser Phase zu Kreuzband- oder Meniskusläsionen führen — ein Risiko, das bei Rassen mit einem durch das Exterieur besonders stark beanspruchten Kniebereich (als Beispiel wird der Deutsche Schäferhund genannt) zusätzlich erhöht ist. Dieser Zusammenhang liefert eine zusätzliche, fasziale Begründung dafür, warum unkontrolliertes, exzessives Spiel und Rennen in der Wachstumsphase (vgl. die bereits an anderer Stelle beschriebene sensible Phase des 4.–9. Lebensmonats) gezielt vermieden werden sollte.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 7.3.5–7.3.6, S. 108–111 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(7).pdf). Die Funktion von Fascia genus und Fascia cruris, die jeweiligen Indikationen bei zu geringer bzw. zu starker Spannung (Endgefühl, Instabilität, Kreuzband-/Meniskusrisiko einerseits, Arthrose-/Schubkraftverlust andererseits), die Belastungsverschiebung von Art. talocalcanea zu Art. talocalcaneocentralis sowie die Gefährdung junger, noch nicht faszial ausgereifter Hunde (inkl. Schäferhund-Beispiel) sind im Original so beschrieben. Bewusst nicht aus demselben Abschnitt übernommen: die ausführliche, bereits durch bestehende Einträge (Koch/Fischer u. a.) abgedeckte Kreuzbandriss-Epidemiologie und der Schubladentest sowie die reinen Grifftechnik-Behandlungsvorschläge.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "laufband-aquatraining-quadrizeps-imbalance-kreuzband-rehabilitation",
+    category: "THERAPIE",
+    title: "Warum Laufband- und Aquatraining beim vorderen Kreuzband kontraproduktiv sein können",
+    teaser:
+      "Laufband- und Wassertraining gelten als gelenkschonend — ausgerechnet bei der Rehabilitation des vorderen Kreuzbandes können sie aber genau die muskuläre Dysbalance verstärken, die das Band ohnehin schon belastet.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wie das vordere Kreuzband unter Stress gerät",
+        text: "Das vordere Kreuzband gerät unter Spannung, wenn sich der M. quadriceps femoris anspannt: Über die Patellarsehne wird die Tibia an ihrem Ansatz an der Tuberositas tibiae in Richtung einer vorderen Schublade gezogen. Kontrolliert wird diese Zugkraft durch die Spannung der cranialen Fascia genus und der Muskeln, die in die Fascia cruris einstrahlen — im Wesentlichen also durch die kniebeugende Gegenseite der Muskulatur. Ein zu stark entwickelter M. quadriceps femoris bei gleichzeitig schwacher Kniefaszie bzw. Beugemuskulatur kann bei einer starken, explosiven Kniestreckung deshalb eine Kreuzbandproblematik auslösen. Gute Kniestabilität setzt ein Gleichgewicht zwischen Kniebeugern und -streckern voraus.",
+      },
+      {
+        type: "text",
+        heading: "Die Falle: Laufbandtraining trainiert einseitig den Quadrizeps",
+        text: "Arbeitet man mit dem Hund auf dem Laufband, führt der Hund das Hinterbein nur aktiv in der Hangbeinphase vor — die Stemmphase übernimmt das Laufband passiv für ihn. Dadurch wird vornehmlich der M. quadriceps femoris trainiert, während die kniebeugende Muskulatur, die eigentlich das Kreuzband entlasten sollte, zu kurz kommt. Für die Stabilisierung oder die postoperative Rehabilitation trainiert man auf diese Weise die falschen Muskeln und mobilisiert bzw. stresst damit das vordere Kreuzband zusätzlich, statt es zu entlasten.",
+      },
+      {
+        type: "text",
+        heading: "Aquatraining verstärkt denselben Effekt",
+        text: "Aquatraining verstärkt dieses Ungleichgewicht zusätzlich: Der Hund muss das Kniegelenk im Wasser gegen den Wasserwiderstand strecken, wodurch der M. quadriceps femoris noch stärker trainiert wird als auf dem Laufband an Land — die muskuläre Dysbalance zwischen Streckern und Beugern nimmt also weiter zu, statt sich auszugleichen. Laufband-, Aqua- und Schwimmtraining sowie jede Maßnahme, die eine frühzeitige Belastung des Beins erzwingt, sind in der frühen Rehabilitationsphase des vorderen Kreuzbandes deshalb eher kontraindiziert.",
+      },
+      {
+        type: "text",
+        heading: "Die Alternative: kontrollierte, selbstgesteuerte Belastungssteigerung",
+        text: "Als Kontrastbeispiel beschreibt die Quelle den bei kleinen Hunden teils konservativ (ohne Operation) verlaufenden natürlichen Heilungsprozess: Der Hund entlastet das Bein zunächst bis zu vier Wochen fast vollständig, testet die Stabilität danach im Schritt zunächst nur bei jedem fünften, dann vierten Schritt usw., bis zur vollständigen Belastung im Schrittzyklus, belastet das Bein nach etwa 6–8 Wochen auch gelegentlich im Trab und zeigt nach einem halben Jahr kaum noch eine erkennbare Bewegungsstörung. Diese selbstgesteuerte, schrittweise gesteigerte Belastung — im Unterschied zur einseitig quadrizepslastigen Belastung durch Laufband oder Wasser — baut die kniebeugende Muskulatur und die Kniefaszien gleichmäßiger mit auf.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 7.3.6 (Klinischer Bezug „Vorderer Kreuzbandriss“), S. 110–113 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(7).pdf). Der Spannungsmechanismus des vorderen Kreuzbandes über Quadrizeps und Patellarsehne, die einseitige Quadrizeps-Betonung beim Laufbandtraining durch die passiv übernommene Stemmphase, die zusätzliche Verstärkung durch Wasserwiderstand beim Aquatraining sowie die beschriebene natürliche Selbstrehabilitationsphasen-Abfolge bei kleinen Hunden sind im Original so beschrieben. Bewusst nicht aus demselben Abschnitt übernommen: die ausführliche Kreuzbandriss-Epidemiologie, der Schubladentest und die Operationsverfahren-Übersicht (TTA, TPLO u. a.) — diese sind bereits durch bestehende, spezialisierte Einträge (u. a. aus Koch/Fischer sowie einer eigenständigen, web-recherchierten Quelle) ausführlicher und aktueller abgedeckt.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },

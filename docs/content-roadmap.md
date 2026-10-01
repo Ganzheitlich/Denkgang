@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 329 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 92
-  Untersuchung, 108 Pathologie, 85 Biomechanik, 44 Therapie — genaue
+- Wissensbibliothek: 332 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 92
+  Untersuchung, 109 Pathologie, 86 Biomechanik, 45 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -1074,10 +1074,50 @@ kein Überblick verloren geht.
   übernommen. 7.2.5/7.2.6 (Fascia dorsalis manus, Fascia palmaris) sind
   bis auf Narbenmobilisation nach Schnittverletzungen (bereits durch den
   bestehenden allgemeinen Narbengewebe-Eintrag abgedeckt) unauffällig —
-  ebenfalls keine eigenen Einträge. Noch offen: 7.3 „Beckengliedmaßen"
-  (ab S. 103, Beginn ebenfalls bereits in f(7).pdf enthalten) sowie Kap.
-  7.4 „Zusammenfassende Übersicht" (falls vorhanden) — für eine
-  Folgesession.
+  ebenfalls keine eigenen Einträge. Danach 7.3 „Beckengliedmaßen"
+  (7.3.1–7.3.7, S. 103–116, bereits vollständig im selben Chunk f(7).pdf
+  enthalten) gelesen — **3 weitere neue Einträge, damit ist Kap. 7 „Das
+  parietale System" (S. 80–117) vollständig ausgewertet.** 7.3.3 (Fascia
+  lata) lieferte die Erklärung für die auffällig elastikfaserreiche
+  Kniekehlenregion dieser Faszie: Sie leitet den Katapulteffekt der
+  Beugesehnen bis ins Knie weiter und erzeugt so eine federnde statt rein
+  muskulär erzeugte Knieflexion beim Übergang in die Hangbeinphase —
+  verknüpft mit dem bestehenden Katapulteffekt- und dem neuen Os-carpi-
+  accessorium-Eintrag als Vorderextremitäten-Pendant
+  (`fascia-lata-kniekehle-katapulteffekt-uebertragung-hangbeinphase`).
+  7.3.5/7.3.6 (Fascia genus, Fascia cruris) lieferten ein zweiseitiges
+  Problembild: zu geringe Faszienspannung begünstigt Kreuzband-/
+  Meniskusinstabilität, zu starke Spannung dagegen ein gerades,
+  schubarmes Knie-/Sprunggelenk mit einer Belastungsverschiebung von der
+  Art. talocalcanea zur Art. talocalcaneocentralis und erhöhtem
+  Arthroserisiko — inklusive der Gefährdung junger, faszial noch nicht
+  ausgereifter Hunde (Reifungszeit ca. 14 Monate)
+  (`fascia-genus-cruris-kreuzband-kniewinkel-sprunggelenk-spannung`). Der
+  umfangreiche Kreuzbandriss-Exkurs in 7.3.6 bestätigte zunächst
+  durchgehende Überschneidung mit bereits bestehenden, ausführlicheren
+  Einträgen (Epidemiologie, Schubladentest, OP-Verfahren aus Koch/
+  Fischer u. a.) — enthielt aber einen genuin neuen, gegenintuitiven
+  Rehabilitationshinweis: Laufband- und Aquatraining trainieren beim
+  Kreuzbandriss einseitig den M. quadriceps (der Hund führt das Bein nur
+  aktiv in der Hangbeinphase vor, die Stemmphase übernimmt das Laufband
+  passiv), verstärken damit genau die Dysbalance, die das Kreuzband
+  ohnehin schon belastet, und sind dadurch in der frühen
+  Rehabilitationsphase eher kontraindiziert — im Kontrast zur
+  beschriebenen natürlichen Selbstrehabilitation kleiner Hunde
+  (`laufband-aquatraining-quadrizeps-imbalance-kreuzband-rehabilitation`).
+  7.3.1/7.3.2 (Fascia glutea, Lig. sacrotuberale) bewusst nicht
+  übernommen — neben Überschneidung mit der bestehenden SIG-Dokumentation
+  fiel hier zusätzlich ein Faktencheck-Fund auf: Die Quelle behauptet
+  einen häufigen Hypertonus des M. piriformis bei Hüftgelenksdysplasie,
+  was in Spannung zum bestehenden, auf Hárrer gestützten Eintrag
+  `n-ischiadicus-verlauf-kein-piriformis-syndrom` steht (dort: der
+  M. piriformis schwächt beim Hund unter Überlastung eher ab, statt
+  hyperton zu werden) — diese Spannung wurde nicht stillschweigend
+  aufgelöst, sondern durch bewussten Verzicht auf die neue Behauptung
+  gehandhabt, statt widersprüchliche Fakten nebeneinander stehen zu
+  lassen. 7.3.4 (Fascia femoralis medialis) sowie 7.3.7 (Fascia
+  plantaris/dorsalis pedis) lieferten keinen über Bestehendes
+  hinausgehenden Mehrwert.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1499,25 +1539,27 @@ Status:
   aber die anatomischen Grenzen von vorderer Thoraxapertur und Diaphragma
   pelvis waren neu
   (`vordere-thoraxapertur-diaphragma-pelvis-anatomische-grenzen`).
-- [~] Kap. 7 „Das parietale System" (S. 80–117): 7.1 „Kopf-, Hals- und
-  Rumpffaszien" (S. 80–96, Chunk f(7).pdf) **vollständig gelesen — 1 neuer
-  Eintrag plus 1 Ergänzung eines bestehenden Eintrags**, siehe Stand oben
-  für die ausführliche Begründung. Entgegen der ursprünglichen Erwartung
-  „solide Anatomie" dominiert in 7.1 nicht Überschneidung mit Hárrer/
-  Könneker-Reiter, sondern eine durchgehende Verknüpfung jeder
-  Einzelfaszie mit craniosacraler Theorie (Sphenobasilargelenk,
-  „energetische" Fernverbindungen, bis zu Verhaltensbehauptungen wie
-  „Lernschwierigkeiten, Aggressionen" als Restriktionsfolge) — dieselbe
-  Kategorie wie das bereits bei Könneker/Reiter ausgeschlossene Kap. 9.
-  7.2 „Vordergliedmaßen" (7.2.1–7.2.6, S. 96–102, Chunk f(7).pdf)
-  **vollständig gelesen — 1 neuer Eintrag**, siehe Stand oben. Wie
-  erwartet deutlich weniger craniosacral-kontaminiert als 7.1, da
-  anatomisch weit vom Schädel entfernt. Noch offen: 7.3
-  „Beckengliedmaßen" (ab S. 103, Beginn ebenfalls bereits in f(7).pdf
-  enthalten) sowie ein möglicher Abschluss von Kap. 7 — hier mit dem aus
-  7.1/7.2 gewonnenen Erfahrungswert weiterhin auf craniosacrale
-  Kontamination sowie auf Überschneidung mit den umfangreichen
-  bestehenden Hárrer-Gliedmaßenfaszien-Inhalten zu prüfen.
+- [x] Kap. 7 „Das parietale System" (S. 80–117) **vollständig gelesen und
+  ausgewertet (Chunk f(7).pdf) — 9 neue Einträge insgesamt, Details siehe
+  Stand oben.** 7.1 „Kopf-, Hals- und Rumpffaszien" (1 neuer Eintrag plus
+  1 Ergänzung eines bestehenden Eintrags): entgegen der ursprünglichen
+  Erwartung „solide Anatomie" dominiert hier eine durchgehende
+  Verknüpfung jeder Einzelfaszie mit craniosacraler Theorie
+  (Sphenobasilargelenk, „energetische" Fernverbindungen, bis zu
+  Verhaltensbehauptungen wie „Lernschwierigkeiten, Aggressionen" als
+  Restriktionsfolge) — dieselbe Kategorie wie das bereits bei Könneker/
+  Reiter ausgeschlossene Kap. 9. 7.2 „Vordergliedmaßen" (1 neuer Eintrag):
+  wie erwartet deutlich weniger craniosacral-kontaminiert, da anatomisch
+  weit vom Schädel entfernt. 7.3 „Beckengliedmaßen" (3 neue Einträge):
+  ebenfalls wenig craniosacral-kontaminiert, dafür mit einem bewusst
+  dokumentierten Faktencheck-Fund (Spannung zum bestehenden
+  Piriformis-Syndrom-Eintrag, siehe Stand oben) sowie dem gegenintuitiven
+  Laufband-/Aquatraining-Rehabilitationshinweis als wertvollstem Fund.
+  Insgesamt bestätigt dieses Kapitel das bereits bei Kap. 5/6 etablierte
+  Muster: Trotz erheblicher Craniosacral- und Technik-Kontamination sowie
+  dichter Überschneidung mit Hárrer/Koch-Fischer finden sich bei
+  sorgfältiger Prüfung immer wieder einzelne, klar abgrenzbare,
+  eigenständig wertvolle Fakten.
 - [ ] Kap. 8–10 „Das viszerale System" (S. 118–153): Organfaszien,
   „viszerales Gelenk", viszerale Restriktionen, Organtopografie — noch
   ungelesen, nach Titel/Konzept erwartbar im selben disputierten
