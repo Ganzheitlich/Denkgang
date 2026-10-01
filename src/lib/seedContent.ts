@@ -13480,6 +13480,35 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "wirbelsaeule-kompensationsfaehigkeit-spaete-symptome-kein-kapselmuster",
+    category: "PATHOLOGIE",
+    title: "Warum Wirbelsäulenprobleme oft erst spät auffallen — und warum ihr Kapselmuster fehlt",
+    teaser:
+      "Die Wirbelsäule kompensiert Beschwerden so lange gut, dass Patienten oft erst vorgestellt werden, wenn sich längst eine Spondylose entwickelt hat — und selbst dann fehlt das diagnostische Werkzeug, das an jedem Extremitätengelenk selbstverständlich ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum die Wirbelsäule Beschwerden lange verbirgt",
+        text: "Die Wirbelsäule ist an nahezu jeder Alltagsbewegung beteiligt — Aufstehen, Hinlegen, Gehen, Traben, Galoppieren, Springen. Gerade wegen ihrer vielen Segmente kann sie Beschwerden zunächst gut kompensieren, sodass viele Probleme anfangs nur geringe Symptome verursachen. Patienten werden deshalb häufig erst im Stadium einer bereits manifesten strukturellen Veränderung wie Spondylose oder Spondylarthrose vorgestellt. Eine sorgfältige adspektorische und palpatorische Untersuchung kann Dysfunktionen jedoch schon vor Erreichen dieses Stadiums erkennen: Ein unauffälliger Röntgenbefund gibt zwar Sicherheit, dass zum jeweiligen Zeitpunkt noch kein Strukturbefund vorliegt, schließt eine bereits bestehende Funktionsstörung aber nicht aus.",
+      },
+      {
+        type: "text",
+        heading: "Der fehlende Kapselmuster-Begriff an der Wirbelsäule",
+        text: "Anders als an den Extremitätengelenken, wo ein Kapselmuster einen klaren Hinweis auf Arthrose oder Arthritis liefert, lässt sich ein solches Muster an der Wirbelsäule bisher nicht zuordnen. Eine palpatorische Unterscheidung zwischen reiner Dysfunktion und bereits eingetretener Strukturschädigung ist an der Wirbelsäule deshalb oft nicht möglich. Diese methodische Lücke sollte bei der Interpretation jedes Wirbelsäulenbefundes mitgedacht werden — unabhängig vom gewählten manualtherapeutischen Verfahren.",
+      },
+      {
+        type: "text",
+        heading: "Primäre oder sekundäre Läsion: zwei Entstehungswege",
+        text: "Wirbelsäulenbeschwerden können primär entstehen oder eine Sekundärläsion darstellen. Als Sekundärläsion können sie ihre Ursache in faszialen oder neurovegetativen Verkettungen von inneren Organen zu den jeweiligen Wirbelsäulenabschnitten haben, oder über auf- beziehungsweise absteigende Läsionsketten von einer Vorder- oder Hintergliedmaßen-Problematik stammen — nach Erfahrung der Autorinnen führt nahezu jede Vorder- oder Hinterhandslahmheit früher oder später zu Befunden an der Wirbelsäule (die umgekehrte Blickrichtung dazu, wie ein Wirbelsäulenbefund selbst ein Kompensationszeichen für eine Gliedmaße sein kann, beschreibt der bestehende Eintrag `wirbelsaeule-krummer-ruecken-lahmheitshinweis`). Nach eigener klinischer Erfahrung der Autorinnen lässt sich eine zunächst unbehandelte Funktionsstörung nach Monaten oder Jahren am selben Ort mitunter als Strukturveränderung nachweisen — dies wird von ihnen selbst ausdrücklich als Erfahrungswert und nicht als bewiesener Zusammenhang dargestellt.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Überkonfidenz", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.4, S. 107f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(25).pdf). Die Kompensationsfähigkeit der Wirbelsäule, der fehlende Kapselmuster-Begriff, die primäre/sekundäre Läsionsunterscheidung samt den beiden Sekundärläsions-Entstehungswegen sowie die ausdrücklich als unbewiesene eigene Erfahrung gekennzeichnete Beobachtung zur Spätfolge unbehandelter Dysfunktionen sind im Original so beschrieben. Die Verknüpfung mit `wirbelsaeule-krummer-ruecken-lahmheitshinweis` (andere Quelle) ist beabsichtigt: Jener Eintrag beschreibt, wie ein sichtbarer Wirbelsäulenbefund auf eine Gliedmaße zeigt, dieser Eintrag die umgekehrte Kausalrichtung, wie eine Gliedmaßenlahmheit zu einem Wirbelsäulenbefund führt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

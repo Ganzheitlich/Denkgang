@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 300 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 86
-  Untersuchung, 102 Pathologie, 72 Biomechanik, 42 Therapie — genaue
+- Wissensbibliothek: 301 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 86
+  Untersuchung, 103 Pathologie, 72 Biomechanik, 42 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -754,13 +754,27 @@ kein Überblick verloren geht.
   Hárrer/Koch-Fischer geprüft — **Ergebnis: durchgängige inhaltliche
   Überschneidung, bewusst keine neuen Einträge.** Details der
   Einzelprüfung (welche konkreten Hárrer-Einträge welche Könneker/Reiter-
-  Inhalte bereits abdecken) im Backlog-Eintrag zu dieser Quelle. Kap. 1–2
-  (Geschichte, Technik-Überblick), der Rest von Kap. 7.3 (Karpus, Zehen)
-  sowie 7.4 „Die Wirbelsäule" (S. 108–124, mit der Erwartung geringerer,
-  aber nicht ausgeschlossener Redundanz) sowie Kap. 8–10 (viszerale und
-  kraniosakrale Techniken) sind noch ungelesen — siehe Backlog-Eintrag zu
-  dieser Quelle für die geplante Kapitel-Priorisierung und die Einordnung
-  der strittigeren Konzepte.
+  Inhalte bereits abdecken) im Backlog-Eintrag zu dieser Quelle. Karpus
+  (S. 104–107, Chunk o(25).pdf) ebenfalls überprüft und als bereits
+  abgedeckt bestätigt (Endgefühle am Karpalgelenk sind bereits im
+  bestehenden Hárrer-Eintrag dokumentiert) — bewusst kein neuer Eintrag.
+  Danach der Einleitungsabschnitt zu Kap. 7.4 „Die Wirbelsäule" (S. 107f.)
+  — daraus 1 weiterer neuer Eintrag:
+  `wirbelsaeule-kompensationsfaehigkeit-spaete-symptome-kein-kapselmuster`
+  (PATHOLOGIE: die Kompensationsfähigkeit der Wirbelsäule als Grund für
+  spät erkannte Beschwerden, der an der Wirbelsäule fehlende Kapselmuster-
+  Begriff als methodische Lücke, sowie primäre vs. sekundäre
+  Wirbelsäulenläsion mit Verknüpfung zum bestehenden Eintrag
+  `wirbelsaeule-krummer-ruecken-lahmheitshinweis` aus umgekehrter
+  Kausalrichtung). Dies bestätigt die Erwartung, dass Kap. 7.4 im
+  Gegensatz zu 7.3 eigenständigere Inhalte liefert. Kap. 1–2 (Geschichte,
+  Technik-Überblick), Zehengelenke der Vordergliedmaße (laut Quelle
+  synonym zu den Hintergliedmaßen-Zehen, daher niedrige Priorität), der
+  Rest von Kap. 7.4 (S. 108–124, konkrete Wirbelsäulen-Untersuchung/
+  -Behandlung) sowie Kap. 8–10 (viszerale und kraniosakrale Techniken)
+  sind noch ungelesen — siehe Backlog-Eintrag zu dieser Quelle für die
+  geplante Kapitel-Priorisierung und die Einordnung der strittigeren
+  Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -966,14 +980,25 @@ Kapitel.
   diesem Abschnitt neuen Inhalte sind entweder reine Grifftechnik-
   Beschreibungen ohne eigenständigen Lehrwert (Handposition für Traktion/
   Joint Play) oder die bereits an anderer Stelle ausgeschlossene MFR-in-
-  Ketten-/Release-Anleitung — beides bewusst nicht übernommen. **Fazit:
-  Kap. 7.3 ist für Denkgangs Zwecke überwiegend redundant zur
-  bestehenden Hárrer-/Koch-Fischer-Dokumentation; eine vollständige
-  Durchsicht der übrigen Gelenke (Karpus, Zehen) sowie von 7.4 „Die
-  Wirbelsäule" (S. 108–124, potenziell ergiebiger, da Wirbelsäulenkapitel
-  in Quellen oft eigenständigere Inhalte enthalten als Extremitätengelenke)
-  bleibt als niedrigere Priorität offen, mit der Erwartung ähnlich hoher
-  Redundanz bei den übrigen Extremitätengelenken.**
+  Ketten-/Release-Anleitung — beides bewusst nicht übernommen. Karpus
+  (S. 104–107) ebenfalls geprüft: Endgefühle am Karpalgelenk bereits im
+  bestehenden Hárrer-Eintrag dokumentiert — bewusst kein neuer Eintrag.
+  **Fazit zu 7.3: überwiegend redundant zur bestehenden Hárrer-/Koch-
+  Fischer-Dokumentation.** Die Zehengelenke beider Gliedmaßenpaare wurden
+  von der Quelle nicht im Detail beschrieben (Verweis auf Synonymität zu
+  den bereits behandelten Gelenken) und daher nicht gesondert geprüft —
+  niedrige Priorität, da bei ähnlichem Muster wie die übrigen Gelenke zu
+  rechnen ist. **Kap. 7.4 „Die Wirbelsäule" (S. 107–124) bestätigt wie
+  erwartet eigenständigere Inhalte:** Der Einleitungsabschnitt (S. 107f.)
+  ergab 1 neuen Eintrag, siehe Stand oben
+  (`wirbelsaeule-kompensationsfaehigkeit-spaete-symptome-kein-
+  kapselmuster`). Noch offen: 7.4.1 „Spezifische Anamnese und Adspektion"
+  und 7.4.2 „Untersuchung und Behandlung der Wirbelsäule" (S. 109–124,
+  Chunks ab o(26).pdf) — hier ist erneut auf Überschneidung mit den
+  umfangreichen bestehenden Wirbelsäulen-/SIG-Einträgen aus Hárrer und
+  Kasper/Zohmann zu achten, aber aufgrund der bereits im Einleitungsteil
+  bestätigten Eigenständigkeit mit moderater, nicht hoher Redundanz zu
+  rechnen.
 - [ ] Kap. 8 „Viszerale Techniken" (S. 125–162): Organtopografie,
   viszerovertebrale Diagnostik, viszerales Faszienskelett. Enthält
   Konzepte (Organmotilität, Organverbindung über embryonalen Ursprung) mit
