@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 282 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 77
-  Untersuchung, 99 Pathologie, 69 Biomechanik, 40 Therapie — genaue
+- Wissensbibliothek: 286 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 78
+  Untersuchung, 101 Pathologie, 70 Biomechanik, 40 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -591,11 +591,27 @@ kein Überblick verloren geht.
   rassetypische Sesambeinfraktur beim Rottweiler (verknüpft mit der bereits
   vorhandenen Gewichtsverteilungstabelle) sowie häufig übersehene
   Zehenarthrosen beim älteren Tier, samt der vollständigen
-  Untersuchungstechnik der distalen Extremität. Kap. 4 ist damit noch nicht
-  vollständig ausgewertet — siehe PATHOLOGIE-/BIOMECHANIK-/UNTERSUCHUNG-
-  Backlog unten für den detaillierten Stand und die als nächstes
-  vorgesehenen Themen (Signalement-Filter, Gangbildanalyse-Biomechanik,
-  dynamische Diagnose, Kap. 5–7).
+  Untersuchungstechnik der distalen Extremität. Danach 4 weitere, letzte
+  neue Einträge aus Kap. 4: `geschlechtsspezifische-segmentpraedispositionen-
+  signalement` (PATHOLOGIE, Kap. 4.1.2) — geschlechtsspezifische
+  Segmentdispositionen inkl. der ca. 40-%-Korrelation zwischen
+  Kastrationsnarbe und Spondylose bei Hündinnen;
+  `alter-gewicht-schmerzregulation-signalement` (PATHOLOGIE, Kap. 4.1.3–
+  4.1.4) — das „mittelalte Paradox" (größte Schmerzpatienten-Population
+  trotz, nicht wegen, noch guter Beweglichkeit) sowie Gewichtsverteilung/
+  Adipositas als Risikofaktoren; `schritt-trab-knorpelernaehrung-
+  synoviapumpe-biomechanik` (BIOMECHANIK, Kap. 4.3.2.2) — warum der Trab
+  bei Überlastung die biomechanisch ungesündere Gangart ist (Synoviapumpen-
+  Mechanismus), bewusst von der bestehenden Schmerzreise-Kaskade
+  abgegrenzt; und `dynamische-diagnose-anfangserfolgskurve-
+  therapieerwartung` (UNTERSUCHUNG, Kap. 4.9) — die 50-%-pro-Sitzung-
+  Abflachungskurve als Werkzeug zur Besitzer-Erwartungssteuerung. **Damit
+  ist Kap. 4 „Untersuchungsgang" dieser Quelle inhaltlich vollständig
+  ausgewertet** (23 neue Einträge aus Kap. 2–4 in dieser Session), mit
+  Ausnahme bewusst zurückgestellter kleinerer Restthemen (siehe
+  Backlog-Eintrag zu dieser Quelle für die vollständige Liste). Kap. 5
+  („Methoden der Schmerztherapie"), 6 und 7 („Schmerztherapie bei
+  bestimmten Indikationen") stehen noch komplett aus.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -736,28 +752,31 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
     daraus `triggerpunktuntersuchung-kasper-zohmann-vordergliedmasse`.
   - [x] 4.5.5 Muskelpalpationen, Tab. 4.7 Muskelketten (S. 101–104): daraus
     `muskelfunktionsketten-kasper-zohmann-diagnostisches-werkzeug`.
-  - [ ] 4.1 Nationale/Signalement (S. 49–54): Rasse/Verwendungszweck,
-    Geschlecht (weiblich/kastriert: LSÜ-/SIG-Disposition während Läufigkeit,
-    40 % Spondylose-Korrelation mit Kastrationsnarbe; männlich/kastriert:
-    Prostata als Störfeld, Skrotal-/Hodensegment-Unterscheidung), Alter
-    (Katzen altern später, kleine Hunde langsamer, mittelalte Hunde als
-    größte orthopädische Schmerzpatienten-Population — Paradox erklärt),
-    Größe/Gewicht (Adipositas-Auswirkung auf HD-Ausprägung) — noch nicht
-    umgesetzt, hohes Potenzial für 1–2 neue Einträge (Geschlecht separat von
-    Alter/Gewicht).
+  - [x] 4.1.2 Geschlecht (S. 54–55): daraus
+    `geschlechtsspezifische-segmentpraedispositionen-signalement`.
+  - [x] 4.1.3–4.1.4 Alter, Größe und Gewicht (S. 53–54, 117–118): daraus
+    `alter-gewicht-schmerzregulation-signalement`.
+  - [ ] 4.1.1 Rasse und Verwendungszweck (S. 49–53): rassespezifische
+    Prädisposition als eigener diagnostischer Filter, „Kappenhüfte" bei
+    Dackeln/chondrodystrophen Rassen, Über-/Unterforderungs-Problematik —
+    noch nicht umgesetzt, kleinerer Ergänzungskandidat.
   - [ ] 4.2 Vorbericht/Anamnese (S. 54–56): Eingangsanamnese-Fragenkatalog,
     Verlaufsanamnese — teilweise Überschneidung mit bereits vorhandenen
     Anamnese-Inhalten aus anderen Quellen zu prüfen, bevor Eintrag entsteht.
-  - [ ] 4.3 Gangbildanalyse (S. 57–74): Lahmheit-vs.-Bewegungsstörung-
-    Definition, LSÜ-Twist-Mechanismus im Detail, Kopfnicken-Mechanismus,
-    Schritt-vs.-Trab-Biomechanik (Synoviapumpe/Knorpelernährung), Passgang,
-    Asymmetrie-Ursachenkatalog, Krallenschleifen-Differenzialdiagnose
-    (orthopädisch vs. neurologisch), Tab. 4.2–4.4 Gangbildbefund-Tabellen —
-    sehr umfangreich, hohes Potenzial für mehrere neue Einträge; vorsichtig
+  - [x] 4.3.2.2 Gangarten — Schritt/Trab (S. 61–63): daraus
+    `schritt-trab-knorpelernaehrung-synoviapumpe-biomechanik`.
+  - [ ] 4.3 Gangbildanalyse, Rest (S. 57–74): Lahmheit-vs.-Bewegungsstörung-
+    Definition, LSÜ-Twist-Mechanismus und Kopfnicken-Mechanismus im Detail
+    (Abb. 4.3/4.4 — Vorsicht: thematisch nah am bestehenden Eintrag
+    `schmerzreise-hd-knie-sig-lsue-kaskade`, vor Eintragserstellung genau
+    prüfen, ob die Gangbild-Erkennungsperspektive hier wirklich genug
+    Mehrwert bietet oder eher als kurze Ergänzung jenes Eintrags passt),
+    Passgang, Asymmetrie-Ursachenkatalog, Krallenschleifen-
+    Differenzialdiagnose (orthopädisch vs. neurologisch), Tab. 4.2–4.4
+    Gangbildbefund-Tabellen (vom Subagenten als stark spaltenverschränkt
+    geflaggt, Bedeutung/Bemerkungen-Spalten zusammengefasst) — vorsichtig
     gegen bestehende Koch/Fischer- und Mai-Gangbildanalyse-Einträge
-    abgrenzen (Kernbegriffe wie Stützbein-/Hangbeinlahmheit dort schon
-    vorhanden, LSÜ-Twist/Kopfnicken-Mechanismus und die Schritt/Trab-
-    Knorpelernährungs-Biomechanik hier aber neu).
+    abgrenzen (Stützbein-/Hangbeinlahmheit dort schon vorhanden).
   - [ ] 4.4 Adspektion in der Ruhe (S. 74–76): Checkliste orthopädischer/
     internistischer Befunde, Horner-Syndrom-Hinweis, Piloarrektion —
     teilweise Überschneidung mit bestehenden Adspektions-Einträgen zu
@@ -789,11 +808,13 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
     4.8.1–4.8.3 (Anamnese/Adspektion/Palpation bei Jungtieren, inkl. Tab. 4.8
     Gewichtsverteilung und dem Norberg-Olson-Winkel-Relativierungshinweis der
     Autoren) noch nicht ausgewertet.
-  - [ ] 4.9 „Dynamische" Diagnose (S. 122–123): Anfangserfolg-Kurve
-    (50-%-Reduktion pro Sitzung, dann Abflachung), Notwendigkeit eines
-    Re-Checks bei Stagnation, häufig übersehene Ursachen (Zehenarthrosen,
-    Sesambein-/Supraspinatusprobleme) — guter Kandidat für einen
-    UNTERSUCHUNG/GRUNDLAGEN-Eintrag zur Erwartungssteuerung.
+  - [x] 4.9 „Dynamische" Diagnose (S. 122–123): daraus
+    `dynamische-diagnose-anfangserfolgskurve-therapieerwartung`. **Damit ist
+    Kap. 4 „Untersuchungsgang" inhaltlich vollständig ausgewertet**, bis auf
+    die oben dokumentierten, bewusst zurückgestellten kleineren Restthemen
+    (4.1.1 Rasse/Verwendungszweck, 4.2 Anamnese-Detailkatalog, 4.3-Rest,
+    4.4 Adspektions-Checkliste, 4.5.7.1 Funktionsprüfungs-Technik,
+    4.7 Bildgebende Diagnostik, 4.8-Rest).
 - [ ] Kap. 5 „Methoden der Schmerztherapie" — noch nicht gesichtet.
   Medikamentendosierungen bewusst außerhalb des Extraktionsziels (etablierte
   Session-Konvention); alternative Modalitäten (Homöopathie, Aromatherapie,

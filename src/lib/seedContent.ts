@@ -12857,6 +12857,147 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "geschlechtsspezifische-segmentpraedispositionen-signalement",
+    category: "PATHOLOGIE",
+    title: "Warum das Geschlecht eines Hundes die Differentialdiagnose mitbestimmt",
+    teaser:
+      "Eine Kastrationsnarbe korreliert bei fast der Hälfte der untersuchten Hündinnen mit einer Spondylose exakt in denselben Lendenwirbelsäulensegmenten — ein Beispiel dafür, warum das Signalement selbst schon ein diagnostischer Filter ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum Geschlechtsorgane zu klassischen Störfeldern zählen",
+        text: "Geschlechtsorgane bzw. die mit ihnen verbundenen hormonellen Situationen können Schmerzgeschehen beeinflussen, unterhalten oder sogar begründen. Vor allem innere und äußere Narben — etwa nach Kastration oder Geburtsverletzungen — zählen die Geschlechtsorgane zu den klassischen potenziellen Störfeldern. Der Oberschenkeltriggerpunkt (OST) etwa reagiert nicht nur bei funktionellen Hüftbeschwerden positiv, sondern ebenso bei Problemen der beckenbezogenen Genitalorgane (Zervix, Prostata) — das Geschlecht eines Tieres gehört damit von Anfang an in die differentialdiagnostische Überlegung.",
+      },
+      {
+        type: "list",
+        heading: "Weibliche (intakte) Hündin: typische Dispositionen",
+        items: [
+          "Beschwerden der kaudalen Lendenwirbelsäule, des lumbosakralen Übergangs sowie des Sakroiliakalgelenks während der Läufigkeit — bedingt durch die hormonell ausgelöste Bindegewebslockerung",
+          "segmentale Beschwerden während ovaraktiver Perioden im Sinne einer segmentalen Zusatzbelastung (Segment L2/3, Akupunkturpunkt BL23)",
+          "Bewegungsstörungen und Lahmheiten während östrogendominierter Zyklusphasen durch Gewebeauflockerung",
+          "Rückenprobleme bei mittelalten und älteren Zuchthündinnen",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Kastrierte Hündin: die Narbe als bleibendes Störfeld",
+        text: "Auch bei guter Nahttechnik können der Verschluss der muskulösen Bauchwand und die Endpunkte der Subkutannaht immer wieder zu segmentalen Reaktionen führen — vor allem ältere Tiere mit vorgeschädigter Wirbelsäule leiden vermehrt bei Aktualisierung dieses Störfeldes. Palpatorisch fallen Keloidbildungen der Haut sowie ein oft beträchtlicher Muskeltonus der Bauchwand auf; die früher jahrzehntelang geübte Praxis, die Muskelnaht mit Stahldraht durchzuführen, gilt heute als obsolet, weil die scharfen Nahtenden einen Dauerreiz auf Unterhaut und Haut ausüben. Auch in den Segmenten der Ovar- bzw. Zervixligatur besteht eine erhöhte Bereitschaft zu Wirbelsäulenproblemen im Sinne einer segmentalreflektorischen Muskeltonuserhöhung. Bei etwa 40 % der untersuchten kastrierten Hündinnen ließen sich Spondylosen exakt in denselben LWS-Segmenten feststellen, die einer palpatorisch auffälligen Bauchnarbe entsprachen — erklärbar durch den dort dauerhaft erhöhten Muskeltonus.",
+      },
+      {
+        type: "text",
+        heading: "Rüde und kastrierter Rüde: die Prostata als Doppelproblem",
+        text: "Beim intakten Rüden disponiert eine saisonale Prostatahyperaktivität zu Beschwerden der kaudalen Lendenwirbelsäule, des lumbosakralen Übergangs und des Sakroiliakalgelenks; bei Prostatahypertrophie können sich daraus chronische Beschwerden entwickeln. Die Prostata besitzt dabei gleich mehrfaches Schmerzpotenzial: Eine Hypertrophie kann bereits per se schmerzhaft sein (Kapseldehnungsschmerz) und so die kaudale LWS funktionell beeinträchtigen; gleichzeitig kann sie im Sinne des segmentalreflektorischen Komplexes als eigenständiges Störfeld wirken und durch Umfangsvermehrung des Lymphocentrum lumbosacrale eine sanduhrförmige Einziehung im kranialen Beckeneingang verursachen, die wiederum die Funktion ausleitender Organe (v. a. des Enddarms) beeinträchtigen kann. Beim kastrierten Rüden gilt für Skrotal- bzw. Präskrotalnarben sinngemäß dasselbe wie bei der Hündin, wenn auch abgeschwächt — mit einer anatomischen Besonderheit: Das Skrotum zählt segmental zum lumbosakralen Übergang, die Hoden dagegen zu den ersten Lumbalsegmenten, sodass Narbenstrikturen im Samenstrangbereich ein jeweils anderes Segment betreffen können als gedacht.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.1.2 (Geschlecht, mit Unterabschnitten 4.1.2.1–4.1.2.4), S. 54–55 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Die geschlechtsspezifischen Dispositionslisten, die Kastrationsnarben-Spondylose-Korrelation (ca. 40 %), die Einordnung der Prostata als Mehrfach-Schmerzquelle sowie die Skrotum-/Hoden-Segmentunterscheidung sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher diese geschlechtsspezifische Signalement-Dimension der Differentialdiagnostik ab — eigenständig, nicht duplizierend.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "alter-gewicht-schmerzregulation-signalement",
+    category: "PATHOLOGIE",
+    title: "Warum nicht die alten, sondern die mittelalten Hunde die größte Schmerzpatienten-Gruppe sind",
+    teaser:
+      "Ein Hund, der „gestern noch agil war und heute wie ein alter Hund wirkt“, trägt meist kein neues Problem vor sich her — sondern ein jahrelanges, das die körpereigene Regulationsfähigkeit gerade jetzt unterschreitet.",
+    sections: [
+      {
+        type: "text",
+        heading: "Arten und Größenklassen altern unterschiedlich",
+        text: "Katzen altern später als Hunde — vermutlich, weil sie sich ihre Kräfte frei einteilen können und ihr Alterungsprozess dadurch „würdiger“ verläuft als beim Hund, der sich wegen seiner engen sozialen Bindung keine Müdigkeit erlauben darf: Selbst Perserkatzen mit hochgradiger Hüftdysplasie leiden darunter oft kaum sichtbar, weil sie sich zeitlebens „persergerecht“ verhalten haben. Innerhalb der Hunde altern kleine Rassen langsamer als große — die Kombination aus höherer Stoffwechselleistung, rascherer Organalterung und meist höherer allgemeiner Schmerzbelastung vermindert bei großen Hunden die allgemeine Regulationsfähigkeit, sie geraten früher in eine pathologische Stressbelastung. Als Faustregel empfehlen sich Vorsorgeuntersuchungen bei Katzen ab dem 10. Lebensjahr, bei Hunden je nach Größe bereits ab dem 6.–9. Lebensjahr.",
+      },
+      {
+        type: "text",
+        heading: "Das mittelalte Paradox",
+        text: "Die größte Population in der orthopädischen Schmerztherapie stellen nicht die alten, sondern die mittelalten Hunde — ein Zusammentreffen mehrerer disponierender Faktoren: Viele Probleme weisen bereits beachtliche Chronizität auf, die Tiere sind aber körperlich noch so dynamisch und agil, dass sie diese Störungen oberflächlich betrachtet „wegregulieren“ können. Das erhöht einerseits die Verletzungsgefahr, andererseits dreht die noch gute Bewegungslust die Schmerzspirale genau so weit weiter, bis der beginnende Verlust an Regulationsfähigkeit die ersten gravierenden, sichtbaren Symptome hervorbringt. Der typische Besitzerbericht „Bis gestern war er agil und dynamisch — heute wirkt er wie ein alter Hund!“ signalisiert dabei meist Unglauben gegenüber der Tatsache, dass es sich wahrscheinlich um ein langjähriges Problem handelt — ein Unglaube, der bei Verdacht auf eine angeborene Ursache (z. B. HD) eher noch zunimmt.",
+      },
+      {
+        type: "text",
+        heading: "Warum sich das Therapieziel mit dem Alter verschiebt",
+        text: "Bei geriatrischen Patienten verschiebt sich das Therapieziel vom Ausheilen chronischer Probleme zum Erhalt bzw. zur Steigerung der Lebensqualität — was eine Relativierung der Befunde zueinander verlangt: Welches Problem belastet das Tier gerade am meisten, nicht welches sich am vollständigsten beheben ließe. Das soll nicht zu diagnostischer Unschärfe führen, aber zu mehr Verständnis gegenüber altersbedingten Grenzen. Bei jungen Tieren gilt das Gegenteil: Sie leiden naturgemäß eher an akuten Problemen, und genau deshalb muss hier das Ziel von Untersuchung und Therapie die vollständige Ausheilung und Wiederherstellung der Eigenregulation sein — um die Summierung von Problemen zu verhindern, die später eine Schmerzkrankheit begründen könnte.",
+      },
+      {
+        type: "text",
+        heading: "Gewichtsverteilung und Übergewicht als eigenständige Risikofaktoren",
+        text: "Im Rassendurchschnitt tragen Hunde rund 62 % ihres Körpergewichts auf den Vorder- und 38 % auf den Hinterbeinen — eine physiologische Entlastung der Hinterhand als eigentlicher Antriebsquelle; jede Schubschwäche aus den Hinterbeinen erhöht deshalb zwangsläufig die dynamische Belastung vorn. Zu energiereiche Fütterung im Welpenalter führt einerseits zu zu raschem Muskelwachstum, andererseits zu juveniler Adipositas — beides überlastet die Gelenke zusätzlich; richtig ernährte, schlanke Welpen prädisponierter Rassen zeigen im späteren Verlauf eine geringere HD-Ausprägung als adipöse Wurfgeschwister. Bei bereits mittelalten übergewichtigen Hunden führt der oft noch vorhandene Bewegungswille in Kombination mit bereits erworbenen Problemen zu rasch fortschreitenden Alterungsprozessen — eine strenge Reduktionsdiät ist hier integraler Bestandteil einer erfolgreichen Therapie. Auch bei Katzen wird Übergewicht oft fälschlich als „chronische Faulheit“ abgetan, obwohl dahinter häufig Wirbelsäulenprobleme stecken — sanfter Druck auf den thorakolumbalen bzw. lumbosakralen Übergang löst bei belasteten, übergewichtigen Katzen zuverlässig hochgradige Schmerzäußerungen aus und lässt sich gezielt nutzen, um Besitzer von einer Gewichtsreduktion zu überzeugen.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.1.3–4.1.4 (Alter, Größe und Gewicht), S. 53–54 und S. 117–118 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Die artspezifischen Alterungsunterschiede, die Vorsorgeuntersuchungs-Faustregel, das „mittelalte Paradox“ samt dem typischen Besitzerzitat, die altersabhängige Therapiezielverschiebung sowie die Gewichtsverteilungs- und Adipositas-Zusammenhänge (inkl. des Katzen-Palpationstricks zur Besitzermotivation) sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher diesen spezifischen Alters-/Gewichts-Filter der Schmerzdiagnostik ab — eigenständig, nicht duplizierend; ergänzt thematisch den Eintrag `geschlechtsspezifische-segmentpraedispositionen-signalement` (dieselbe Quelle) um die übrigen Signalement-Dimensionen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "schritt-trab-knorpelernaehrung-synoviapumpe-biomechanik",
+    category: "BIOMECHANIK",
+    title: "Warum der Trab die „ungesündere“ Gangart ist, wenn er zur Dauerlösung wird",
+    teaser:
+      "Im Schritt wird ein Gelenk großflächig durchbewegt, im Trab dagegen nur in kleinen Arealen unter höherem Druck — ein biomechanischer Unterschied, der erklärt, warum Schmerzpatienten den Trab bevorzugen und sich damit selbst schaden.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum der Schritt Lahmheiten zuverlässiger zeigt",
+        text: "Im Schritt wird ein Gelenk „durchbewegt“ — es werden große Gelenkknorpelareale belastet, ohne dass eine Schwungunterstützung zur Verfügung steht; die Bewegung erfolgt allein aus Muskelkraft. Genau das macht den Schritt diagnostisch so ergiebig: Der Hund kann eine begonnene Schrittbewegung nur sehr eingeschränkt vorzeitig abbrechen, um das Gewicht frühzeitig auf die bessere Seite zu verlagern — Lahmheiten und Einseitigkeiten treten im Schritt deshalb deutlicher zutage als im Trab.",
+      },
+      {
+        type: "text",
+        heading: "Warum Schmerzpatienten den Trab überproportional oft wählen",
+        text: "Der Trab bietet dagegen Schwungunterstützung und erlaubt es, eine Bewegungsphase durch Verkürzung vorzeitig abzubrechen und auf die bessere Seite umzuverlagern. Orthopädische Patienten — besonders solange sie noch nicht alt und noch leistungswillig sind — verwenden den Trab deshalb deutlich häufiger als den Schritt, selbst dann, wenn eigentlich ein schneller Schritt oder ein langsamer Galopp angemessen wäre. Dadurch steigt der Trab-Anteil an der gesamten Bewegung spürbar an.",
+      },
+      {
+        type: "text",
+        heading: "Die eigentliche biomechanische Konsequenz: veränderte Knorpelernährung",
+        text: "Im Trab werden kleinere Gelenkknorpelareale belastet als im Schritt — das bedeutet einen höheren Druck pro Flächeneinheit. Dadurch funktioniert die „Synoviapumpe“ (die bewegungsgetriebene Zirkulation der Gelenkflüssigkeit, die den Knorpel ernährt) im überlasteten Bereich nicht mehr im notwendigen Ausmaß: Der vermehrt belastete Knorpelbezirk wird schlechter ernährt. Die daraus resultierende Malnutrition und Drucksteigerung führen zur Ausdünnung des Knorpels bei gleichzeitiger Sklerosierung des darunterliegenden subchondralen Knochens. Der Trab ist damit — zumindest wenn er dauerhaft überproportional als Hauptfortbewegungsart genutzt wird — die biomechanisch „ungesündere“ Gangart.",
+      },
+      {
+        type: "text",
+        heading: "Der Teufelskreis zur Arthrose",
+        text: "Bleibt diese trabbetonte Gewichtsverteilung über längere Zeit bestehen, erklärt sich daraus die Pathogenese vieler Überlastungs-Arthrosen fast von selbst: schmerzbedingte Schonhaltung durch Gewichtsverlagerung (z. B. von hinten nach vorn oder von links nach rechts) → schlechtere Lastverteilung im Gelenk und geringere Synoviapumpen-Effizienz → Malnutrition des Knorpels → Qualitätseinbuße des Knorpels → Schmerz → erneute, verstärkte Schonhaltung. Dieser sich selbst verstärkende Kreislauf erklärt, warum eine anfangs rein funktionelle Kompensationsstrategie über Jahre hinweg zu einer echten strukturellen Arthrose führen kann, ohne dass je ein einzelnes abgrenzbares Trauma stattgefunden hätte.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.3.2.2 (Gangarten — Schritt, Trab), S. 61–63 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Die Schritt-/Trab-Unterscheidung, die Erklärung der Trab-Präferenz orthopädischer Patienten, der Synoviapumpen-Mechanismus mit Malnutrition und subchondraler Sklerosierung sowie der daraus abgeleitete Circulus vitiosus sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher diese spezifische Schritt-vs-Trab-Knorpelernährungs-Biomechanik ab — eigenständig, nicht duplizierend; thematisch komplementär zum bestehenden Eintrag `schmerzreise-hd-knie-sig-lsue-kaskade` (dieselbe Quelle), der den LSÜ-Twist-Mechanismus, nicht aber diese Gangart-Ebene behandelt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "dynamische-diagnose-anfangserfolgskurve-therapieerwartung",
+    category: "UNTERSUCHUNG",
+    title: "Die Anfangserfolgskurve: warum die ersten Sitzungen immer beeindruckender wirken als die späteren",
+    teaser:
+      "Ein zu 100 % bestehendes Problem lässt sich bei jeder Sitzung ungefähr um die Hälfte reduzieren — das macht frühe Fortschritte spektakulär und spätere zwangsläufig unauffällig. Besitzer, die das nicht vorher wissen, brechen Therapien oft genau dann ab, wenn sie eigentlich weiterwirkt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was die dynamische Diagnose leistet",
+        text: "Die dynamische Diagnose führt alle erhobenen Befunde zusammen und gewichtet sie — diese Wertung ermöglicht erst die Erstellung eines priorisierten Therapieansatzes samt realistischer klinischer und zeitlicher Prognose. Besitzer müssen deshalb schon vorab über Zielsetzung und erwarteten Verlauf informiert werden, auch wenn sich diese Einschätzung im Verlauf — im Positiven wie im Negativen, je nach geänderter Befundlage — noch anpassen muss. Die dynamische Diagnose verhindert so das Verfolgen falscher Ziele und erlaubt nötigenfalls auch die Änderung des Vorgehens oder den Abbruch der Therapie zu einem „ehrlichen“ Zeitpunkt.",
+      },
+      {
+        type: "text",
+        heading: "Die mathematische Falle: warum Fortschritt sich verlangsamt, obwohl er anhält",
+        text: "Ein zu 100 % bestehendes klinisches Problem lässt sich bei jeder Sitzung ungefähr um die Hälfte reduzieren. Das bedeutet: Die Erfolge präsentieren sich zu Beginn der Therapie sehr imponierend, die Verbesserungskurve verflacht aber bei gleichbleibender Therapieausbeute zusehends — bis sich der Eindruck einer Stagnation einstellt, obwohl die relative Verbesserung pro Sitzung tatsächlich konstant bleibt. Wird dieser Verlauf dem Besitzer nicht vorab erklärt, wirkt die scheinbare Stagnation nach anfangs dramatischen Fortschritten leicht demotivierend — ein häufiger Grund, warum Besitzer eine mittel- bis langfristig angelegte Therapie vorzeitig abbrechen.",
+      },
+      {
+        type: "text",
+        heading: "Warum positive Triggerpunkte trotz normalisiertem Gangbild kein Rückschlag sind",
+        text: "Selbst eine deutliche Normalisierung des Gangbildes bedeutet nicht, dass alle Triggerpunkte bereits abgeklungen sind — sie können weiterhin nachweisbar sein, wenn auch im Grad deutlich geringer. Auch das muss dem Besitzer erklärt werden: Ohne diese Erklärung sinkt sonst die Bereitschaft zur wirklich mittel- bis langfristigen Therapiesicherung bis hin zum völligen Therapieabbruch, aus dem fälschlichen Eindruck heraus, der Fall sei „doch nicht richtig behandelt“ worden.",
+      },
+      {
+        type: "text",
+        heading: "Wann ein vollständiger Re-Check angezeigt ist",
+        text: "Gerät die Schmerztherapie ins Stocken, sollte in jedem Fall ein nochmaliger, vollständiger Re-Check des Patienten erfolgen — nicht nur eine Kontrolle der bereits bekannten Problemzonen. Häufig übersehene Ursachen für eine solche Stagnation sind gerade die distalen, leicht zu überspringenden Befunde: Zehenarthrosen, Sesambeinprobleme und Supraspinatusprobleme sollten bei einem solchen Re-Check deshalb immer explizit mitgeprüft werden.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Unterkonfidenz", "Überkonfidenz"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.9 („Dynamische“ Diagnose — Wertung und Synthese der Befunde), S. 122–123 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Das Konzept der dynamischen Diagnose, die 50-%-pro-Sitzung-Reduktionslogik mit der daraus resultierenden Abflachungskurve, der Hinweis auf weiterhin positive Triggerpunkte trotz Gangbildnormalisierung sowie die Re-Check-Empfehlung mit den häufig übersehenen Ursachen sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher dieses Konzept der Therapieerwartungssteuerung ab — eigenständig, nicht duplizierend. Damit ist Kap. 4 „Untersuchungsgang“ dieser Quelle inhaltlich vollständig ausgewertet, mit Ausnahme der im Backlog dokumentierten, bewusst zurückgestellten kleineren Restthemen (4.2 Anamnese-Detailkatalog, 4.3 Tab. 4.2–4.4 Gangbild-Befundtabellen, 4.4 Adspektions-Checkliste, 4.5.7.1 Funktionsprüfungs-Technik, 4.7 Bildgebende Diagnostik, 4.8.1–4.8.3 Jungtier-Anamnese/-Adspektion/-Palpation).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
