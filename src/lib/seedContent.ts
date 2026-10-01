@@ -14043,6 +14043,271 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "exterieur-faszienspannung-galopp-trab-kraftform",
+    category: "BIOMECHANIK",
+    title: "Exterieur als Faszien-Diagnostik-Fenster: Galopp-, Trab- und Kraftform",
+    teaser:
+      "Schon die äußere Erscheinung eines Hundes verrät, wie viel Katapulteffekt in seinen Faszien steckt — ein Windhund und ein Leonberger bewegen sich mit demselben Körperbauplan, aber nahezu entgegengesetzter Energiequelle.",
+    sections: [
+      {
+        type: "text",
+        heading: "Faszienspannung ist am Exterieur ablesbar",
+        text: "Bereits an der äußeren Erscheinung (Exterieur) eines Hundes lässt sich etwas über seine Faszienspannung und damit über seine Eignung für bestimmte Belastungen ablesen. Eine trockene, straffe Körpertextur, wie sie etwa bei hoch im Trieb stehenden oder leicht erregbaren Hunden (z. B. Malinois, Jack Russell Terrier) zu beobachten ist, deutet auf hohe Faszienspannung hin; eine weniger definierte, losere Körperkontur, wie bei einem Molosser (z. B. Leonberger), auf niedrigere Spannung. Da die Spannung der Faszie über die Myofibroblasten mit der Aktivität des vegetativen Nervensystems zusammenhängt (siehe `myofibroblasten-faszien-kontraktionsfaehigkeit-vegetative-kontrolle`), liefert dieser Texturunterschied indirekt auch einen Hinweis auf den Sympathikotonus des Tieres.",
+      },
+      {
+        type: "text",
+        heading: "Drei Grundformen, abhängig von Faszienspannung und Muskelmasseanteil",
+        text: "Hunde lassen sich neben der groben Unterscheidung zwischen linearem Typus (z. B. Windhund) und lateralem Typus (z. B. Bulldogge) nach ihrer Bewegungsspezialisierung grob in drei Grundformen einteilen, die auf dem Verhältnis von Faszienspannung zu Muskelmasseanteil beruhen: die Galoppform, die Trabform und die Kraft- bzw. Schrittform.",
+      },
+      {
+        type: "list",
+        heading: "Galoppform: maximaler Katapulteffekt, Beispiel Windhund",
+        items: [
+          "Extrem hohe Faszienspannung (erkennbar an trockener Textur, hochgeschürztem Bauch) ermöglicht einen sehr starken Katapulteffekt (siehe `katapulteffekt-sehnenelastizitaet-energieeffizienter-gang`) — begünstigt durch lange Röhrenknochen und Sehnen, schmale, hochgewölbte Pfoten und leichten Körperbau.",
+          "Im Sprunggalopp spannt der Hund den gesamten Körper wechselseitig wie einen Bogen an (vor allem Rückenband, Fascia thoracolumbalis, ventral die Tunica flava abdominis) und schießt aus dieser Streckung heraus nach vorne; die Schubkraft kommt dabei fast ausschließlich aus der Hinterhand, während das steile, wenig bemuskelte Vorderbein wie die Stange eines Stabhochspringers eingesetzt wird.",
+          "Die hohe Energiekosten dieser Fortbewegungsform erklären ein typisches Verhaltensbild: Nach kurzer, intensiver Leistung (Hetzjagd, Rennen) schalten diese Hunde vollständig ab, um zu regenerieren — im Haus wirken sie dadurch ruhig.",
+          "Dieselbe Spezialisierung bedeutet funktionale Einschränkungen in anderen Bereichen: Die steilen, geraden Gelenkwinkel erlauben kein Ducken (ungeeignet für enge Tunnel/Agility) und der Sprunggalopp funktioniert nur geradeaus (ungeeignet für Slalom).",
+          "Ein klinisch verwertbares Zeichen für erschöpfte Sehnenspannkraft (z. B. bei ausgemusterten Rennhunden): Überstreckung des Vorderfußwurzelgelenks, Absenkung der Zehengewölbe und eine gerade statt gewölbte Rückenlinie. Ist der Katapulteffekt auf diese Weise verloren gegangen, muss sich der Hund nur noch mit Muskelkraft fortbewegen — mit entsprechend reduzierter Ausdauer.",
+        ],
+      },
+      {
+        type: "list",
+        heading: "Trabform: Energieeffizienz ohne Katapult-Extrem, Beispiel Wolf/Border Collie",
+        items: [
+          "Der Wolf gilt als Idealtyp der Trabform: ausgewogene Faszienspannung (gute Körpertextur, ausreichend lange Mittelhandknochen/Sehnen) bei guter Ellenbogen-/Kniewinkelung erlaubt einen ausdauernden, geschmeidigen Trab in leicht geduckter Haltung.",
+          "Der im Verhältnis schwere Kopf verlagert den Schwerpunkt nach vorne, sodass sich der Körper über ein Nacken-Rückenband-System energieeffizient hinterherzieht — vergleichbar einem kontrollierten, kontinuierlichen Fallen nach vorne, ähnlich dem menschlichen Gang. So lassen sich täglich Distanzen von bis zu 50 km zurücklegen, ohne zu verhungern; der muskelintensivere Galopp wird dagegen nur für kurze Distanzen eingesetzt.",
+          "Der Border Collie kommt dieser Bewegungsmechanik unter den Rassehunden am nächsten: seine geduckte, energiesparende Haltung (vergleichbar einem sich anschleichenden Raubtier) und sein tiefer Schwerpunkt prädestinieren ihn für präzise Bewegungen auch bei hoher Geschwindigkeit — eine mögliche Erklärung für seine Eignung für Agility.",
+        ],
+      },
+      {
+        type: "list",
+        heading: "Kraft-/Schrittform: Bewegung überwiegend aus Muskelkraft, Beispiel Leonberger",
+        items: [
+          "Bei Lagerhunden mit geringem Bewegungsdrang (z. B. Leonberger) zeigt lose anliegende Haut auf niedrige Faszienspannung. Eine verminderte Spannung der Fascia spinocostotransversalis führt zu erhöhtem Druck des Oberkörpers auf die Zehen und begünstigt Senk- bzw. Spreizfuß — der Katapulteffekt der Sehnen geht damit verloren.",
+          "Ohne Katapulteffekt muss sich der Hund überwiegend mit aktiver Muskelarbeit fortbewegen, vor allem über den M. latissimus dorsi (Ursprung Fascia thoracolumbalis, Ansatz Tuberositas teres major humeri): Der Hund setzt das Vorderbein auf und zieht den Oberkörper mit diesem Muskel über das stehende Bein — die dabei zunehmende Zugspannung am Ursprung der Fascia thoracolumbalis drückt den Rücken in die Extension und erzeugt den für diese Rasse typischen Sattelrücken.",
+          "Die im Vergleich zur kräftigen Vorhand schwächer bemuskelte, steil gestellte Hinterhand entwickelt wenig Schubkraft — jeder Bewegungsschritt bedeutet hier überdurchschnittlich viel Muskelarbeit, entsprechend geringer ist die Ausdauerleistung dieser Hunde.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Praktische Konsequenz",
+        text: "Weil sich die Energiequelle der Fortbewegung (Faszien-Katapulteffekt vs. aktive Muskelarbeit) am Exterieur bereits grob ablesen lässt, sollte sich die Trainings- und Belastungsplanung am individuellen Körperbau orientieren, statt pauschale Anforderungen an alle Hunde gleichermaßen zu stellen — ein Hund mit erkennbarem Senkfuß, selbst ein junger, ist beispielsweise wegen des fehlenden Katapulteffekts nicht mehr für Sprünge und Hochgeschwindigkeitssport geeignet.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Anatomieverwechslung", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 5.1–5.1.1, S. 40–45 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(5).pdf). Der Zusammenhang zwischen Exterieur und Faszienspannung, die drei Grundformen (Galopp-/Trab-/Kraftform), die Windhund- und Wolf-/Border-Collie-Beispiele samt ihrer biomechanischen Begründung sowie das Leonberger-Beispiel mit dem Sattelrücken-Mechanismus über den M. latissimus dorsi sind im Original so beschrieben. Bewusst nicht übernommen: die im selben Abschnitt behaupteten Zusammenhänge zwischen bestimmten Schädelformen (Bulldogge, Chihuahua, Cocker Spaniel) bzw. aufrechter Halshaltung und einer Störung des „craniosacralen Rhythmus“ bzw. direkter mechanischer Sympathikus-Aktivierung über die Halswirbelsäule — diese Kausalketten setzen die unabhängig nicht bestätigte Wahrnehmbarkeit bzw. Existenz eines eigenständigen craniosacralen Rhythmus voraus (vgl. die bereits bei Könneker/Reiter, Kap. 9, getroffene Einordnung) und werden im Original selbst teils nur als Vermutung („könnte“) formuliert; ebenso nicht übernommen die Einzelbemerkung zur Gelenklaxität des Labradors (zu knapp für einen eigenständigen Beleg). Die Verknüpfungen mit den bestehenden Einträgen zu Katapulteffekt und Myofibroblasten sind eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "rutenhaltung-sichelrute-ringelrute-faszienspannungsindikator",
+    category: "UNTERSUCHUNG",
+    title: "Die Rutenhaltung als sichtbarer Faszienspannungsindikator",
+    teaser:
+      "Eine Sichelrute zeigt ausgewogene Rumpfspannung an — eine hochgetragene Ringelrute dagegen eine durchgehende, einseitig überhöhte Spannungskette von der Rückenfaszie bis zum Unterschenkel, die ständige Kompensation erzwingt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Sichelrute: ausgewogene Spannung",
+        text: "Bei der Trabform ist die Rückenlinie relativ gerade. Trägt ein Hund dabei eine Sichelrute, spricht das für eine ausgewogene Spannung zwischen Bauch- und Rückenmuskulatur beziehungsweise den zugehörigen Faszien — ein neutrales, unauffälliges Zeichen.",
+      },
+      {
+        type: "text",
+        heading: "Ringelrute: eine durchgehende Spannungskette",
+        text: "Eine hochgetragene oder hochangesetzte Ringelrute (wie z. B. beim Appenzeller Sennenhund) zeigt dagegen eine erhöhte Spannung der Rückenmuskulatur und spiegelt häufig eine Sympathikus-Dominanz wider. Anatomisch lässt sich dies als durchgehende fasziale Kette nachvollziehen: Die Fascia thoracolumbalis überträgt ihre Spannung einerseits über die Fascia glutea auf die aufgerichtete Rute, andererseits über die Fascia lata und Fascia femoralis weiter auf die Fascia cruris. Die Folge ist eine steile Winkelung der Hinterhand mit wenig Schubkraft, ein verstärkter axialer Druck auf die Zehengrundgelenke mit Überlastungsrisiko für Beugesehnen und Fesselträger, eine Absenkung des Fußgewölbes und ein dadurch reduzierter Katapulteffekt in den Sehnen.",
+      },
+      {
+        type: "text",
+        heading: "Warum Hunde mit Ringelrute nie wirklich im Gleichgewicht sind",
+        text: "Hunde mit Ringelrute müssen fortlaufend die mechanische Unwucht der aufgerichteten Rute sowie die daraus resultierende Fehlstellung von Sacrum und unterer LWS ausbalancieren und kompensieren — sie sind praktisch nie im eigentlichen Gleichgewicht. Entsprechend sind von ihnen nicht dieselben koordinativen Leistungen zu erwarten wie von einem Hund mit Sichelrute, und man findet Hunde mit Ringelrute so gut wie nie unter den Lauf- oder Begleithunden für lange Distanzen oder in den oberen Agility-Klassen — die geraden Hinterhand-Gelenkwinkel lassen schlicht zu wenig Schubentwicklung und Schrittamplitude zu.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 5.1.1, S. 44f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(5).pdf). Die Einordnung von Sichel- und Ringelrute als Spannungsindikator, die fasziale Kette Fascia thoracolumbalis–glutea–Rute bzw. –lata/femoralis–cruris, die daraus resultierenden biomechanischen Folgen (Hinterhandwinkelung, Überlastungsrisiko, reduzierter Katapulteffekt) sowie die fehlende Gleichgewichtsfähigkeit durch die Rutenunwucht sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "gangbildanalyse-faszienzeichen-vorne-seite-hinten",
+    category: "UNTERSUCHUNG",
+    title: "Gangbildanalyse auf Faszienprobleme: Zeichen von vorne, von der Seite und von hinten",
+    teaser:
+      "Ein im Trab beobachteter Hund verrät aus drei Blickwinkeln unterschiedliche Hinweise auf fasziale Probleme — von der Kopfschiefhaltung über den Senkrücken bis zum einseitig verschobenen Becken.",
+    sections: [
+      {
+        type: "text",
+        heading: "Methodik",
+        text: "Der Hund wird dazu im Schritt von vorne, von der Seite und von hinten betrachtet — möglichst geradeaus und ohne Leinenzug, damit die Bewegung nicht durch Führung verfälscht wird.",
+      },
+      {
+        type: "table",
+        heading: "Analyse von vorne",
+        columns: ["Beobachtung", "Möglicher faszialer Hinweis"],
+        rows: [
+          [
+            "Kopfschiefhaltung",
+            "einseitige Verspannung der dorsalen Kapsel zwischen Occiput und Atlas sowie der Fascia cervicis superficialis — wichtige Differenzialdiagnose: Reibungsverletzung durch Halsband oder Geschirr",
+          ],
+          ["Vorführen der Vordergliedmaße in Adduktion", "Verspannung der Fascia axillaris"],
+          ["Vorführen der Vordergliedmaße in Abduktion", "Verspannung der Fascia brachii"],
+          ["Vorführen des Unterarms in Pro- oder Supination", "Verspannung der Membrana interossea"],
+          [
+            "Zu starkes Einsinken in den Zehengrundgelenken",
+            "Hypotonus der Mm. interossei sowie der mittleren und distalen Sesambeinbänder",
+          ],
+          ["Spreizfuß", "Hypotonus der Zwischenzehenbänder"],
+          ["Zu lange Zehen trotz korrekter Kürzung", "laxe Ligg. dorsalia"],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Analyse von der Seite",
+        columns: ["Beobachtung", "Möglicher faszialer Hinweis"],
+        rows: [
+          [
+            "Dorsokonvexe Halshaltung",
+            "Verspannung der dorsomedianen Raphe (Ursprung von Pars cervicis des M. trapezius, M. rhomboideus und cervicalem M. cleidocephalicus) — oder hypertone, dort inserierende Muskulatur",
+          ],
+          [
+            "Verminderte Vorführphase eines Vorderbeins",
+            "über die thorakolumbale Faszie weitergeleitete Spannung auf den M. latissimus dorsi — oder ein durch Überlastung primär hypertoner M. latissimus dorsi",
+          ],
+          [
+            "Hyperextension im Karpalgelenk",
+            "zu starke Durchtrittigkeit des Zehengrundgelenks durch Hypotension der Ligg. collateralia/Lig. palmare sowie schwache Mm. interossei und Zehenbeuger",
+          ],
+          ["Senkfuß", "Instabilität der Mm. interossei und des Fesseltrageapparates"],
+          [
+            "Karpfenförmige Aufwölbung des Rückens",
+            "starke Spannung der Rektusscheide",
+          ],
+          [
+            "Senkrücken, besonders ab Th 10",
+            "starke Spannung der thorakolumbalen Faszie",
+          ],
+          [
+            "Schwingen der Rückenlinie in die Extension",
+            "mögliche Schwäche von Bauchmuskulatur, Linea alba und ventralem Längsband — bei anhaltender Zugbelastung droht Fibrosierung (Spondylose) und später Knochenspangenbildung (Spondylodese)",
+          ],
+          [
+            "Fehlendes elastisches Federn beim Übergang Stütz- zu Hangbeinphase im Knie",
+            "schlaffer Tonus der kaudalen Fascia lata, Fascia poplitea und Fascia genu — oder Schwäche der Mm. interossei und Sesambänder",
+          ],
+          [
+            "Starkes Einsinken des Thorax in der Landephase",
+            "schwache Fascia spinocostotransversalis mit ihrer myofaszialen Verbindung zum M. serratus ventralis",
+          ],
+        ],
+      },
+      {
+        type: "table",
+        heading: "Analyse von hinten",
+        columns: ["Beobachtung", "Möglicher faszialer Hinweis"],
+        rows: [
+          [
+            "Einseitig nach vorne verschobenes Becken (Ilium upslip) mit deutlicher einseitiger Lateralflexion",
+            "Verspannung der Fascia thoracolumbalis",
+          ],
+          [
+            "Rute wird zu einer Seite getragen",
+            "einseitige Spannung der Fascia thoracolumbalis und/oder der Fascia glutea",
+          ],
+          [
+            "Absinken eines oder beider Tarsalgelenke zu Beginn der Stützbeinphase",
+            "Schwäche der Hamstring-Sehnen (Mm. biceps femoris, semitendinosus) und des M. gastrocnemius sowie der kaudalen Kniefaszie — oder Hypotonus der Mm. interossei und Sesambänder",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Zusatzbeobachtungen im Trab und Galopp",
+        text: "Im Trab sind Durchtritt in den Zehengelenken und Katapulteffekt direkt zu beobachten; die Amplitude der Rückenextension in den diagonalen Stützbeinphasen gibt Auskunft über die Festigkeit von ventralem Längsband und Bauchfaszien. Im Galopp lässt sich der Katapulteffekt in den jeweiligen Einbeinstützen sowie der Dehnungs-Verkürzungs-Zyklus von Bauch- und Rückenfaszie beurteilen.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Untersuchung falsch gewählt", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 5.2–5.2.1, S. 46–49 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(5).pdf). Die Untersuchungsmethodik (Betrachtung von vorne/Seite/hinten, geradeaus, ohne Leinenzug) sowie sämtliche in den drei Tabellen aufgeführten Beobachtungs-/Hinweis-Paare sind im Original so beschrieben. Die tabellarische Aufbereitung ist eigene Strukturierung von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "adspektion-haltungstests-faszienzeichen-statisch",
+    category: "UNTERSUCHUNG",
+    title: "Statische Adspektion und Haltungstests: weitere Faszienzeichen abseits des Gangbilds",
+    teaser:
+      "Nicht nur der Gang verrät fasziale Probleme: Schon im Stehen, Sitzen und Platz liegen Hinweise bereit — bis hin zu einem typischen Ausweichsitz, der auf eine Kreuzbein-/SIG-Problematik hindeutet.",
+    sections: [
+      {
+        type: "text",
+        heading: "Adspektion im Stand: worauf geachtet wird",
+        text: "Die Besichtigung (Adspektion) der Faszien ist nur bei kurz- und glatthaarigen Hunden direkt möglich; bei längerhaarigen Hunden können aber Fellfall sowie Wirbel und Verwirbelungen im Fell auf Faszienprobleme in den entsprechenden Bereichen hinweisen. Der Untersucher achtet auf Einziehungen, Fellverwirbelungen und Fellverfärbungen (die auch durch exzessives Lecken entstehen können) sowie auf Stellungsveränderungen im Exterieur.",
+      },
+      {
+        type: "table",
+        heading: "Statische Stellungsveränderungen und ihre faszialen Hinweise",
+        columns: ["Beobachtung", "Möglicher faszialer Hinweis"],
+        rows: [
+          ["Pro- oder Supinationsstellung des Unterarms", "Restriktion der Membrana interossea"],
+          ["Sattelrücken", "verspannte thorakolumbale Faszie"],
+          ["zu gerades Knie- und Sprunggelenk", "erhöhter Tonus der Fascia cruris"],
+          ["Senkfuß", "Instabilität der Mm. interossei und des Fesseltrageapparates"],
+          ["Spreizfuß", "Erschlaffen der Zwischenzehenbänder"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Haltungs-/Übergangstests: Stand, Sitz, Platz",
+        text: "Ergänzend zur reinen Adspektion liefern gezielte Haltungstests weitere Information: Im Stand lässt sich die Dehnfähigkeit von Hals- und Rückenfaszie prüfen, indem der Hund (z. B. mit einem Leckerli) in Längsbiegung gebracht wird. Im Sitz lassen sich die Dehnfähigkeit der Rückenfaszien und die Flexionsfähigkeit der Beckengliedmaße im Seitenvergleich beurteilen. Im Platz zeigt die Haltung der Vorderläufe in Pro- oder Supination eine mögliche Verspannung der Membrana interossea an.",
+      },
+      {
+        type: "text",
+        heading: "Ein diagnostisch wertvoller Ausweichsitz",
+        text: "Besonders aufschlussreich ist eine typische Ausweichstellung im Sitzen: Liegt eine Kreuzbein- bzw. Iliosakralgelenk-Problematik vor, zeigt der Hund dabei häufig eine Abduktion und Außenrotation des betroffenen Beins, statt sauber symmetrisch zu sitzen. Dieses Zeichen ergänzt die an anderer Stelle bereits ausführlich dokumentierten Iliosakralgelenk-Befunde (siehe `iliosakralgelenk-anatomie-symptome-ursachen` und die zugehörigen Untersuchungseinträge) um eine zusätzliche, leicht zu beobachtende Alltagssituation.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Untersuchung falsch gewählt", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 5.1.2 und 5.2.2, S. 45f. und 48f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(5).pdf). Die Hinweise zur eingeschränkten Adspizierbarkeit bei langhaarigen Hunden, die statische Stellungstabelle, die drei Haltungstests (Stand/Sitz/Platz) sowie der Ausweichsitz bei Kreuzbein-/SIG-Problematik sind im Original so beschrieben. Die Verknüpfung des Ausweichsitzes mit den bestehenden, umfangreicheren Iliosakralgelenk-Einträgen (Hárrer, andere Quelle) ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "faszienpalpation-technik-multidirektional-thixotropie",
+    category: "UNTERSUCHUNG",
+    title: "Faszienpalpation: multidirektionale Prüfung und das Phänomen der Thixotropie",
+    teaser:
+      "Gesunde Faszie lässt sich in alle Richtungen verschieben. Wer nur in eine Richtung testet, übersieht zwei von drei möglichen Restriktionsrichtungen — und wer zu fest drückt, verschiebt nur die Haut, nicht die Faszie selbst.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eine Fertigkeit, die geübt werden muss",
+        text: "Faszienpalpation erfordert nach der Quelle Disziplin, Zeit, Geduld und Übung; sie wird besonders aussagekräftig, wenn die Tastbefunde mit fundierten Kenntnissen der funktionellen Anatomie, Physiologie und Pathophysiologie verknüpft werden. Die tastende Hand liefert dabei Information zu Temperatur, Gewebecharakter, Oberflächenfeuchte (bzw. Fellbeschaffenheit), Elastizität, Turgor, Gewebespannung, Dicke, Form, Empfindlichkeit und Bewegung — Ziel ist es, die Struktur unter dem tastenden Finger gewissermaßen mithilfe der eigenen anatomischen Vorstellungskraft zu „sehen“.",
+      },
+      {
+        type: "text",
+        heading: "Durchführung: multidirektional aus der Neutralstellung",
+        text: "Gesunde, gut ernährte und unverletzte Faszie ist multidirektional verschiebbar. Der Untersucher legt die Hand in Fellrichtung auf die zu testende Faszie und verschiebt sie aus der Neutralstellung heraus mit so viel Druck, dass tatsächlich die Faszie und nicht nur die oberflächliche Haut bewegt wird — getestet wird dabei in den Richtungen cranial-caudal, dorsal-ventral sowie in Rechts- und Linksrotation. Liegt eine Restriktion vor, zeigt sich eine verminderte Verschieblichkeit in einer, zwei oder allen drei geprüften Richtungen; der Patient kann zusätzlich schmerzhaft reagieren und dem Druck ausweichen.",
+      },
+      {
+        type: "text",
+        heading: "Tiefere Schichten: das Phänomen der Thixotropie",
+        text: "Für tiefere Faszienschichten lässt der Untersucher die Hand langsam und mit nur geringem Druck einsinken, bis sich das Gewebe unter der Hand gewissermaßen zu „schmelzen“ scheint. Dieses Phänomen wird mit der Thixotropie erklärt — der Verflüssigung der extrazellulären Grundsubstanz unter anhaltendem, gleichmäßigem Druck. Neben der reinen Verschieblichkeit werden dabei auch Gewebequalität und -charakter mitbeurteilt: Verhärtungen, Fibrosen oder Ödeme, die Dicke und Spannung des Perimysiums, der Tonus im Seitenvergleich sowie eine möglicherweise gesteigerte Reflexaktivität, insbesondere in den Dermatomen des Rückens.",
+      },
+      {
+        type: "text",
+        heading: "Zwei praktisch relevante Landmarken beim Hund",
+        text: "Bei der systematischen Palpation der Rückenfaszien ist der Bereich Th9–Th10 besonders zu beachten: Hier kann es durch Geschirre und deren Schnallen zu mechanisch bedingten Problemen kommen, sodass ein auffälliger Befund dort zunächst gegen diese naheliegende, rein mechanische Ursache abzugrenzen ist, bevor eine andere Erklärung gesucht wird. Die thorakolumbale Faszie selbst ist am einfachsten im Bereich Th13–L3 palpierbar. Verspannungen der Fascia glutea (caudal des Tuber coxae geprüft) können sich zudem in den M. biceps femoris fortsetzen und dort zu Knieproblemen beitragen — ein Beispiel dafür, dass ein fasziale Befund nicht zwangsläufig am Ort seiner eigentlichen Ursache gefunden wird.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 5.3–5.3.1, S. 50f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(5).pdf, inkl. eines im Original zitierten Palpations-Merksatzes unter Verweis auf eine eigene Literaturstelle [15], von Denkgang nicht eigenständig in der Primärliteratur geprüft). Die multidirektionale Prüftechnik aus der Neutralstellung, das Thixotropie-Phänomen bei tieferen Schichten, die Qualitätskriterien der Palpation sowie die beiden herausgegriffenen Landmarken (Th9–10 Geschirr-Risikozone, Th13–L3 als einfachste Palpationsstelle der thorakolumbalen Faszie, Fascia-glutea-Fortsetzung zum M. biceps femoris) sind im Original so beschrieben. Die vollständige Liste aller im Original einzeln aufgeführten Palpationsorte für jede benannte Körperfaszie (Kap. 5.3.1) wurde bewusst nicht als eigenständiger Katalog übernommen — sie ist reine Technikanleitung ohne über die beiden hier herausgegriffenen Landmarken hinausgehenden eigenständigen Lehrwert.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

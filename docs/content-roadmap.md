@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 319 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
-  Untersuchung, 108 Pathologie, 82 Biomechanik, 43 Therapie — genaue
+- Wissensbibliothek: 324 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 92
+  Untersuchung, 108 Pathologie, 83 Biomechanik, 43 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -918,7 +918,41 @@ kein Überblick verloren geht.
   Muskelabbaus, verknüpft mit dem bestehenden Katapulteffekt-Eintrag
   (`faszienalterung-scherengittermuster-verfilzung-kompensation`). Damit
   ist Teil 2 des Buches („Anatomie, Physiologie, Funktion und Pathologie
-  der Faszien", Kap. 2–4) vollständig ausgewertet.
+  der Faszien", Kap. 2–4) vollständig ausgewertet. Danach Chunk f(5).pdf
+  gelesen (Kap. 5 „Faszienbefundung", S. 40–51, vollständig, sowie der
+  Beginn von Kap. 6.1) — **5 weitere neue Einträge, damit ist Kap. 5
+  vollständig ausgewertet.** 5.1/5.1.1 (Exterieurbeurteilung) lieferte
+  die drei Grundformen Galopp-/Trab-/Kraftform mit Windhund-, Wolf-/
+  Border-Collie- und Leonberger-Beispiel, verknüpft mit den bestehenden
+  Katapulteffekt- und Myofibroblasten-Einträgen
+  (`exterieur-faszienspannung-galopp-trab-kraftform`) sowie, als eigener
+  Eintrag, die Rutenhaltung als Spannungsindikator
+  (`rutenhaltung-sichelrute-ringelrute-faszienspannungsindikator`).
+  Bewusst nicht übernommen: die im selben Abschnitt behaupteten
+  Zusammenhänge zwischen bestimmten Schädelformen (Bulldogge, Chihuahua,
+  Cocker Spaniel) bzw. aufrechter Halshaltung und einer Störung des
+  „craniosacralen Rhythmus" bzw. direkter Sympathikus-Aktivierung über
+  die Halswirbelsäule — dieselbe Einordnung wie bei Könneker/Reiter Kap.
+  9 (unabhängig nicht bestätigte Rhythmus-/Kausalitätsannahme). 5.2/5.2.1
+  (Gang-/Haltungsanalyse) und 5.1.2/5.2.2 (statische Adspektion,
+  Haltungstests) lieferten die systematischen Beobachtung-Hinweis-Tabellen
+  für Gangbild (`gangbildanalyse-faszienzeichen-vorne-seite-hinten`) und
+  für statische Zeichen samt des diagnostisch wertvollen Ausweichsitzes
+  bei Kreuzbein-/SIG-Problematik, verknüpft mit den bestehenden
+  Iliosakralgelenk-Einträgen
+  (`adspektion-haltungstests-faszienzeichen-statisch`). 5.3/5.3.1
+  (Faszienpalpation) lieferte die multidirektionale Prüftechnik und das
+  Thixotropie-Phänomen samt zweier herausgegriffener Landmarken (Th9–10
+  Geschirr-Risikozone, Th13–L3 als einfachste Palpationsstelle der
+  thorakolumbalen Faszie); die vollständige Liste aller Palpationsorte je
+  benannter Körperfaszie wurde bewusst nicht als eigener Katalog
+  übernommen (reine Technikanleitung ohne darüber hinausgehenden
+  Lehrwert) (`faszienpalpation-technik-multidirektional-thixotropie`). Der
+  Beginn von Kap. 6.1 (Faszienreifung, 4.–9. Lebensmonat als sensible
+  Phase) führte direkt zu den bereits ausführlich vorhandenen FPC-/IPA-
+  Einträgen (Ellbogendysplasie) — hier bewusst keine erneute Extraktion,
+  da das Thema bereits aus mehreren Quellen umfassend abgedeckt ist; die
+  eigentliche Behandlungsmethodik aus Kap. 6 steht noch aus.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1290,11 +1324,28 @@ Status:
   (`faszienalterung-scherengittermuster-verfilzung-kompensation`). Damit
   ist Teil 2 des Buches („Anatomie, Physiologie, Funktion und Pathologie
   der Faszien", Kap. 2–4) vollständig ausgewertet.
-- [ ] Kap. 5 „Faszienbefundung" (S. 40–51): Exterieurbeurteilung/Adspektion,
-  Gang-/Bewegungsanalyse, Faszienpalpation — noch ungelesen, voraussichtlich
-  hoher Lehrwert (konkrete, beobachtbare Untersuchungskriterien statt
-  Theoriemodell).
-- [ ] Kap. 6 „Behandlungsmöglichkeiten" (S. 52–78): 6.1–6.2 aktive
+- [x] Kap. 5 „Faszienbefundung" (S. 40–51) **vollständig gelesen und
+  ausgewertet (Chunk f(5).pdf) — 5 neue Einträge**: Exterieur/
+  Grundformen (`exterieur-faszienspannung-galopp-trab-kraftform`),
+  Rutenhaltung
+  (`rutenhaltung-sichelrute-ringelrute-faszienspannungsindikator`),
+  Gangbildzeichen vorne/Seite/hinten
+  (`gangbildanalyse-faszienzeichen-vorne-seite-hinten`), statische
+  Adspektion/Haltungstests
+  (`adspektion-haltungstests-faszienzeichen-statisch`) und
+  Faszienpalpationstechnik
+  (`faszienpalpation-technik-multidirektional-thixotropie`). Bestätigte
+  Erwartung: hoher Lehrwert durch konkrete, beobachtbare
+  Untersuchungskriterien. Bewusst nicht übernommen: die Schädelform-/
+  Halshaltungs-Zusammenhänge mit dem „craniosacralen Rhythmus" (disputiert,
+  siehe Stand oben) sowie die vollständige Einzelfaszien-Palpationsorte-
+  Liste aus 5.3.1 (reine Technikanleitung).
+- [~] Kap. 6 „Behandlungsmöglichkeiten" (S. 52–78): Beginn von 6.1
+  (Faszienreifung, 4.–9. Lebensmonat als sensible Phase für Sehnen/
+  Bänder/Gelenkkapseln) im selben Chunk f(5).pdf angelesen — führt direkt
+  zu den bereits umfassend vorhandenen FPC-/IPA-Einträgen
+  (Ellbogendysplasie, siehe `ellbogengelenkdysplasie` u. a.), daher
+  bewusst keine erneute Extraktion an dieser Stelle. 6.1–6.2 aktive
   Faszienstärkung und manuelle Faszientherapie (Ausstreichungen, Dehnung,
   MFR, Massage, Tapes, Gelenkkapsel-Mobilisation, Narbenbehandlung) noch
   ungelesen. **Vorab-Einordnung analog Könneker/Reiter:** 6.3 „Spezielle
