@@ -13627,6 +13627,54 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["facettengelenke"],
   },
+  {
+    id: "divergenz-konvergenz-facettengelenke-wirbelsaeulenbewegung",
+    category: "BIOMECHANIK",
+    title: "Divergenz und Konvergenz: wie sich Facettengelenke bei Flexion, Extension und Lateralflexion bewegen",
+    teaser:
+      "Jede Wirbelsäulenbewegung lässt die Facettengelenke einer Etage entweder auseinander- oder zusammengleiten — und bei Lateralflexion passiert auf der rechten und der linken Seite genau das Gegenteil.",
+    sections: [
+      {
+        type: "text",
+        heading: "Drei Bewegungen, drei Gleitmuster",
+        text: "Bei der Flexion (Kyphose) gleiten die Gelenkfacetten eines Segments auseinander — eine Divergenzbewegung. Bei der Extension (Lordose) gleiten sie ineinander — eine Konvergenzbewegung. Bei der Lateralflexion verhalten sich beide Seiten gegensätzlich: Auf der Neigungsseite (zu der hin sich die Wirbelsäule biegt) konvergieren die Gelenkfacetten, auf der Gegenseite divergieren sie.",
+      },
+      {
+        type: "text",
+        heading: "Warum dieses Muster die Untersuchung leitet",
+        text: "Dieses Gleitmuster ist der Grund, warum die Facettengelenke einer Etage bei der gezielten Beweglichkeitsuntersuchung gezielt in beide Richtungen (Federn/Gleiten sowie Aufklappbarkeit) geprüft werden: Ein Gelenk, das sich nicht mehr vollständig öffnen (divergieren) lässt, zeigt eine andere Bewegungseinschränkung als eines, das sich nicht mehr vollständig schließen (konvergieren) lässt — auch wenn beide auf denselben beiden Gelenkpartnern sitzen. Das Prinzip gilt grundsätzlich für Facettengelenke der gesamten Wirbelsäule, nicht nur für einen einzelnen Abschnitt.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.4.2, S. 117 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(26).pdf). Die Divergenz-/Konvergenzbewegung der Facettengelenke bei Flexion, Extension und Lateralflexion ist im Original so beschrieben (im Kontext der Lendenwirbel, das Prinzip ist aber allgemein für Facettengelenke gültig).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["facettengelenke"],
+  },
+  {
+    id: "pumpbewegung-henkelbewegung-rippenatmung",
+    category: "BIOMECHANIK",
+    title: "Pumpbewegung und Henkelbewegung: wie sternale und freie Rippen bei der Atmung unterschiedlich schwingen",
+    teaser:
+      "Nicht alle Rippen bewegen sich beim Atmen gleich: Die mit dem Brustbein verwachsenen Rippen pumpen nach kranial, die beweglicheren hinteren Rippen schwingen seitlich wie ein Eimerhenkel.",
+    sections: [
+      {
+        type: "text",
+        heading: "Tragrippen und Atmungsrippen",
+        text: "Die Rippen 1–9 sind mit dem Sternum verwachsen und werden deshalb als sternale Rippen oder Tragrippen bezeichnet — ihre Beweglichkeit ist dadurch deutlich eingeschränkt. Die Rippen 10–13 dagegen sind frei beweglich (Atmungsrippen); ihre Beweglichkeit ist eine Voraussetzung für eine ungestörte Atemtätigkeit.",
+      },
+      {
+        type: "text",
+        heading: "Zwei unterschiedliche Bewegungsmuster bei der Einatmung",
+        text: "Die Tragrippen vollziehen während der Atembewegung eine Art Pumpbewegung: Bei der Einatmung wird ihr sternaler Anteil nach kranial angehoben. Die kaudalen, frei beweglichen Rippen machen dagegen eine Art Henkelbewegung: Bei der Einatmung wird ihr lateraler Anteil nach kranial angehoben — vergleichbar mit einem Eimerhenkel, der beim Anheben seitlich ausschwingt. Veränderungen im Bereich der Rippen fallen in der Praxis häufig schon bei der Untersuchung der BWS auf.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund übersehen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.4.2, S. 117 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(26).pdf). Die Unterscheidung zwischen sternalen Trag- und freien Atmungsrippen sowie die Pump- und Henkelbewegung bei der Einatmung sind im Original so beschrieben; der Eimerhenkel-Vergleich für die Henkelbewegung ist eine eigene, erklärende Veranschaulichung von Denkgang auf Basis der im Original verwendeten Bezeichnung „Henkelbewegung“.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

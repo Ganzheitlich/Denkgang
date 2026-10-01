@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 305 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
-  Untersuchung, 103 Pathologie, 73 Biomechanik, 43 Therapie — genaue
+- Wissensbibliothek: 307 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
+  Untersuchung, 103 Pathologie, 75 Biomechanik, 43 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -798,13 +798,22 @@ kein Überblick verloren geht.
   ergänzt den bestehenden Kasper/Zohmann-Eintrag `schmerzreise-hd-knie-
   sig-lsue-kaskade`, der denselben antiklinalen Wirbel bereits als
   Schwachstelle der Schmerzkaskade nennt, um die eigenständige
-  Bewegungsfähigkeits-Regel und die Palpationslandkarte). Kap. 1–2
-  (Geschichte, Technik-Überblick), Zehengelenke der Vordergliedmaße (laut
-  Quelle synonym zu den Hintergliedmaßen-Zehen, daher niedrige Priorität),
-  der Rest von 7.4.2 (S. 115–124: LWS, SIG, weitere BWS-Techniken) sowie
-  Kap. 8–10 (viszerale und kraniosakrale Techniken) sind noch ungelesen —
-  siehe Backlog-Eintrag zu dieser Quelle für die geplante Kapitel-
-  Priorisierung und die Einordnung der strittigeren Konzepte.
+  Bewegungsfähigkeits-Regel und die Palpationslandkarte). Danach BWS/LWS-
+  Facettengelenk-Technik (S. 115–119, Chunk o(26).pdf) überflogen: die
+  konkreten Joint-Play-Grifftechniken (Federn/Gleiten, Aufklappbarkeit)
+  **bewusst nicht übernommen** (reine Technik ohne eigenständigen
+  Lehrwert), die LWS-Kennmuskeln (M. quadratus lumborum, M. longissimus)
+  **bereits durch die bestehende Kennmuskel-Tabelle aus Kap. 7.1.3
+  abgedeckt** — kein neuer Eintrag. 2 eigenständige Biomechanik-Fakten
+  aus demselben Abschnitt ergaben aber **2 weitere neue Einträge**, siehe
+  Stand oben (`divergenz-konvergenz-facettengelenke-wirbelsaeulenbewegung`,
+  `pumpbewegung-henkelbewegung-rippenatmung`). Kap. 1–2 (Geschichte,
+  Technik-Überblick), Zehengelenke der Vordergliedmaße (laut Quelle
+  synonym zu den Hintergliedmaßen-Zehen, daher niedrige Priorität), der
+  Rest von 7.4.2 (S. 119–124: LWS-Behandlung, SIG, Wirbelsäulen-Release-
+  Techniken) sowie Kap. 8–10 (viszerale und kraniosakrale Techniken) sind
+  noch ungelesen — siehe Backlog-Eintrag zu dieser Quelle für die geplante
+  Kapitel-Priorisierung und die Einordnung der strittigeren Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1043,13 +1052,24 @@ Kapitel.
   (`antiklinaler-brustwirbel-landmarke-bewegungswechsel` — ergänzt den
   bestehenden Kasper/Zohmann-Eintrag `schmerzreise-hd-knie-sig-lsue-
   kaskade` um die Bewegungsfähigkeits-Regel und die Palpationslandkarte,
-  statt dessen Schmerzkaskaden-Inhalt zu duplizieren). Noch offen: der
-  Rest von 7.4.2 (S. 115–124: BWS-Beweglichkeitsuntersuchung fortgesetzt,
-  LWS, SIG, Wirbelsäulen-Release-Techniken) — hier ist erneut auf
+  statt dessen Schmerzkaskaden-Inhalt zu duplizieren). Danach BWS/LWS-
+  Facettengelenktechnik (S. 115–119) überflogen: Joint-Play-Grifftechniken
+  (Federn/Gleiten, Aufklappbarkeit der Facettengelenke) **bewusst nicht
+  übernommen** (reine Technik), LWS-Kennmuskeln M. quadratus lumborum/
+  M. longissimus **bereits durch die bestehende Kennmuskel-Tabelle aus
+  Kap. 7.1.3 abgedeckt** (kein neuer Eintrag nötig). **2 weitere neue
+  Einträge** aus denselben Seiten, siehe Stand oben
+  (`divergenz-konvergenz-facettengelenke-wirbelsaeulenbewegung`: das
+  Divergenz-/Konvergenz-Gleitmuster der Facettengelenke bei Flexion/
+  Extension/Lateralflexion, allgemein für die gesamte Wirbelsäule gültig;
+  `pumpbewegung-henkelbewegung-rippenatmung`: sternale Tragrippen mit
+  Pumpbewegung vs. freie Atmungsrippen mit Henkelbewegung bei der
+  Einatmung). Noch offen: der Rest von 7.4.2 (S. 119–124: LWS-Behandlung,
+  SIG, Wirbelsäulen-Release-Techniken) — hier ist erneut auf
   Überschneidung mit den umfangreichen bestehenden LWS-/SIG-Einträgen aus
-  Hárrer und Kasper/Zohmann zu achten, aber nach dem BWS-Fund mit
-  vereinzelten weiteren eigenständigen Anatomie-/Biomechanik-Nuggets
-  neben überwiegend redundanten Grifftechniken zu rechnen.
+  Hárrer und Kasper/Zohmann zu achten, aber nach den bisherigen BWS-/LWS-
+  Funden weiterhin mit vereinzelten eigenständigen Anatomie-/Biomechanik-
+  Nuggets neben überwiegend redundanten Grifftechniken zu rechnen.
 - [ ] Kap. 8 „Viszerale Techniken" (S. 125–162): Organtopografie,
   viszerovertebrale Diagnostik, viszerales Faszienskelett. Enthält
   Konzepte (Organmotilität, Organverbindung über embryonalen Ursprung) mit
