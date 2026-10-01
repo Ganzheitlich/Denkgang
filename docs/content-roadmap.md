@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 301 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 86
-  Untersuchung, 103 Pathologie, 72 Biomechanik, 42 Therapie — genaue
+- Wissensbibliothek: 304 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
+  Untersuchung, 103 Pathologie, 72 Biomechanik, 43 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -767,14 +767,33 @@ kein Überblick verloren geht.
   Wirbelsäulenläsion mit Verknüpfung zum bestehenden Eintrag
   `wirbelsaeule-krummer-ruecken-lahmheitshinweis` aus umgekehrter
   Kausalrichtung). Dies bestätigt die Erwartung, dass Kap. 7.4 im
-  Gegensatz zu 7.3 eigenständigere Inhalte liefert. Kap. 1–2 (Geschichte,
-  Technik-Überblick), Zehengelenke der Vordergliedmaße (laut Quelle
-  synonym zu den Hintergliedmaßen-Zehen, daher niedrige Priorität), der
-  Rest von Kap. 7.4 (S. 108–124, konkrete Wirbelsäulen-Untersuchung/
-  -Behandlung) sowie Kap. 8–10 (viszerale und kraniosakrale Techniken)
-  sind noch ungelesen — siehe Backlog-Eintrag zu dieser Quelle für die
-  geplante Kapitel-Priorisierung und die Einordnung der strittigeren
-  Konzepte.
+  Gegensatz zu 7.3 eigenständigere Inhalte liefert. Danach Kap. 7.4.1
+  „Spezifische Anamnese und Adspektion" (S. 108–110, Chunk o(26).pdf) —
+  daraus 2 weitere neue Einträge:
+  `wirbelsaeulenspezifische-anamnese-lokalisationshinweise` (UNTERSUCHUNG:
+  eine Tabelle, die aus verändertem Alltagsverhalten — Strecken, Schütteln,
+  Treppensteigen hoch/runter, zweiphasiges Aufstehen, Hinein-/
+  Hinausspringen, inkl. katzenspezifischer Kratzbaum-/Katzenklo-Fragen —
+  auf die wahrscheinlich betroffene Wirbelsäulenregion schließt) sowie
+  `adspektion-wirbelsaeule-rute-taktgeber-warnsignal` (UNTERSUCHUNG: die
+  Rute als „Taktgeber“-Warnsignal für eine LWS-Problematik, wenn sie den
+  Bewegungsrhythmus der Hinterhand mitzubestimmen statt nur zu folgen
+  scheint). Außerdem aus der Kap.-7.4-Einleitung (S. 108) 1 weiterer neuer
+  Eintrag: `strukturschaedigung-wirbelsaeule-realistisches-therapieziel-
+  ease` (THERAPIE: Kompensationsmechanismen in Nachbar-/
+  Übergangssegmenten nach bereits eingetretener Strukturschädigung, und
+  das daraus resultierende realistische Therapieziel — Erhalt der
+  Kompensationsfähigkeit statt Heilung der Struktur). **Damit ist Kap.
+  7.4.1 vollständig ausgewertet.** Kap. 1–2 (Geschichte, Technik-
+  Überblick), Zehengelenke der Vordergliedmaße (laut Quelle synonym zu
+  den Hintergliedmaßen-Zehen, daher niedrige Priorität), 7.4.2
+  „Untersuchung und Behandlung der Wirbelsäule" (S. 110–124, konkrete
+  Gelenktechniken je Wirbelsäulenabschnitt — hier ist wie bei Kap. 7.3
+  wieder mit Überschneidung zu bestehenden HWS-/SIG-Einträgen aus Hárrer
+  und Kasper/Zohmann zu rechnen) sowie Kap. 8–10 (viszerale und
+  kraniosakrale Techniken) sind noch ungelesen — siehe Backlog-Eintrag zu
+  dieser Quelle für die geplante Kapitel-Priorisierung und die Einordnung
+  der strittigeren Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -992,13 +1011,21 @@ Kapitel.
   erwartet eigenständigere Inhalte:** Der Einleitungsabschnitt (S. 107f.)
   ergab 1 neuen Eintrag, siehe Stand oben
   (`wirbelsaeule-kompensationsfaehigkeit-spaete-symptome-kein-
-  kapselmuster`). Noch offen: 7.4.1 „Spezifische Anamnese und Adspektion"
-  und 7.4.2 „Untersuchung und Behandlung der Wirbelsäule" (S. 109–124,
-  Chunks ab o(26).pdf) — hier ist erneut auf Überschneidung mit den
-  umfangreichen bestehenden Wirbelsäulen-/SIG-Einträgen aus Hárrer und
-  Kasper/Zohmann zu achten, aber aufgrund der bereits im Einleitungsteil
-  bestätigten Eigenständigkeit mit moderater, nicht hoher Redundanz zu
-  rechnen.
+  kapselmuster`, `strukturschaedigung-wirbelsaeule-realistisches-
+  therapieziel-ease`). **7.4.1 „Spezifische Anamnese und Adspektion"
+  (S. 108–110, Chunk o(26).pdf) vollständig gelesen und ausgewertet — 2
+  weitere neue Einträge**, siehe Stand oben
+  (`wirbelsaeulenspezifische-anamnese-lokalisationshinweise`,
+  `adspektion-wirbelsaeule-rute-taktgeber-warnsignal`). Damit hat dieser
+  Abschnitt insgesamt 4 Einträge geliefert — deutlich ergiebiger als
+  Kap. 7.3, wie erwartet. Noch offen: 7.4.2 „Untersuchung und Behandlung
+  der Wirbelsäule" (S. 110–124, konkrete Gelenktechniken je
+  Wirbelsäulenabschnitt inkl. HWS-Bewegungskopplungsmuster) — hier ist
+  erneut auf Überschneidung mit den umfangreichen bestehenden HWS-/SIG-
+  Einträgen aus Hárrer und Kasper/Zohmann zu achten (die HWS-
+  Bewegungsrichtungen pro Segment aus dem bereits gelesenen Chunk
+  o(26).pdf, S. 109f., wurden testweise nicht übernommen, da hier eine
+  ähnlich hohe Überschneidung wie bei Kap. 7.3 zu erwarten ist).
 - [ ] Kap. 8 „Viszerale Techniken" (S. 125–162): Organtopografie,
   viszerovertebrale Diagnostik, viszerales Faszienskelett. Enthält
   Konzepte (Organmotilität, Organverbindung über embryonalen Ursprung) mit

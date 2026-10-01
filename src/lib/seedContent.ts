@@ -13509,6 +13509,95 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "wirbelsaeulenspezifische-anamnese-lokalisationshinweise",
+    category: "UNTERSUCHUNG",
+    title: "Treppauf oder treppab? Wie Alltagsverhalten die betroffene Wirbelsäulenregion verrät",
+    teaser:
+      "Ob ein Hund beim Hinauf- oder beim Hinuntersteigen zögert, beim Hinein- oder beim Hinausspringen ins Auto Probleme zeigt — aus solchen Alltagsdetails lässt sich die betroffene Wirbelsäulenregion oft schon vor der ersten Palpation eingrenzen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum Alltagsverhalten so aussagekräftig ist",
+        text: "Die Wirbelsäule ist an praktisch jeder Alltagsbewegung beteiligt — Aufstehen, Hinlegen, Treppensteigen, Springen, Strecken, Schütteln. Veränderungen in genau diesen Bewegungen liefern deshalb oft schon vor der eigentlichen Untersuchung wertvolle Lokalisationshinweise, weil bestimmte Bewegungsabläufe bestimmte Wirbelsäulenabschnitte unterschiedlich stark beanspruchen.",
+      },
+      {
+        type: "table",
+        heading: "Verändertes Alltagsverhalten und mögliche Lokalisation",
+        columns: ["Verändertes Verhalten", "Hinweis auf…"],
+        rows: [
+          ["Reduziertes oder fehlendes Strecken nach dem Liegen (vorn und/oder hinten)", "Beschwerden im Bereich der kaudalen BWS und/oder der gesamten LWS (auch auffällig vermehrtes Strecken ist verdächtig)"],
+          ["Das Schütteln bezieht einen Wirbelsäulenabschnitt nicht mehr gleichmäßig mit ein", "Herabgesetzte Beweglichkeit im betroffenen Wirbelsäulenabschnitt"],
+          ["Probleme beim Hinaufsteigen von Treppen", "Kaudale BWS, LWS oder Hüftgelenke"],
+          ["Probleme beim Hinuntersteigen von Treppen", "HWS, BWS oder Vordergliedmaße"],
+          ["Zweiphasiges Aufstehen (erst vorne, dann Hinterbeine „sortieren“ und hochziehen)", "LWS oder Hüftgelenke (Ausnahme: zweiphasiges Aufstehen im Rahmen einer Paraparese hat eine andere Ursache)"],
+          ["Probleme beim Hineinspringen, z. B. ins Auto", "Kaudale BWS, LWS und/oder Hüftgelenke"],
+          ["Probleme beim Hinausspringen, z. B. aus dem Auto", "HWS, kraniale BWS oder Vordergliedmaße"],
+          ["Veränderte Ruten- oder Kopfhaltung", "Der regional zur veränderten Haltung passende Wirbelsäulenabschnitt"],
+          ["Katze richtet sich am Kratzbaum nicht mehr auf die Hintergliedmaßen auf oder fußt einseitig", "Hintergliedmaßen- oder kaudale Wirbelsäulenproblematik bei der Katze"],
+          ["Katze verfehlt beim Kotabsatz das Katzenklo („Unsauberkeit“) oder scharrt nicht mehr danach", "Möglicher Hinweis auf eine Wirbelsäulen- oder Hintergliedmaßenproblematik bei der Katze"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Ergänzende Fragen für Sport- und Arbeitshunde",
+        text: "Bei sportlich geführten Hunden lohnt sich die gezielte Nachfrage, ob sich am Verhalten beim Hundesport etwas verändert hat — etwa das Meiden bestimmter Geräte oder bestimmter Bewegungsabläufe. Ergänzend ist nach einer veränderten Berührungsempfindlichkeit an sonst unauffälligen Körperstellen zu fragen. Solche sportartspezifischen Beobachtungen fallen Haltern oft nicht als „medizinisch relevant“ auf und werden deshalb ohne gezielte Nachfrage häufig gar nicht erst berichtet.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.4.1, S. 108f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(26).pdf). Die wirbelsäulenspezifischen Anamnesefragen samt ihrer jeweiligen Lokalisationszuordnung (inkl. der katzenspezifischen Fragen zu Kratzbaum und Katzenklo) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "adspektion-wirbelsaeule-rute-taktgeber-warnsignal",
+    category: "UNTERSUCHUNG",
+    title: "Die Rute als Taktgeber: ein unterschätztes Warnsignal bei der Adspektion",
+    teaser:
+      "Wenn die Rute den Takt der Hinterhandbewegung vorzugeben scheint, statt ihr nur zu folgen, ist das ein konkretes Warnsignal für eine LWS-Problematik — kein Zufallsbefund am Rande der eigentlichen Untersuchung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Worauf die Adspektion der Wirbelsäule achtet",
+        text: "Viele Wirbelsäulenproblematiken lassen sich bereits bei der genauen Betrachtung der Alltagsbewegungen (Aufstehen, Hinlegen, Gehen, Traben, Galoppieren) erkennen. Zu beachten sind dabei: die Flüssigkeit des gesamten Bewegungsablaufs, ob bestimmte Bewegungen oder Tempi vermieden werden, wie sich die Wirbelsäule sowohl in ihrer Gesamtheit als auch in ihren einzelnen Abschnitten bewegt, wie sich Becken und SIG bewegen, wie sich die Rute bewegt beziehungsweise gehalten wird, sowie wie das Haarkleid im Bereich der Wirbelsäule aussieht — Veränderungen der Hauttrophik oder der „Stellung“ des Haarkleides zeigen sich häufig genau im Bereich des eigentlichen Wirbelsäulenproblems.",
+      },
+      {
+        type: "text",
+        heading: "Die Rute als Taktgeber: ein konkretes Warnsignal",
+        text: "Viele Problematiken der LWS lassen sich gezielt an der Rutenbewegung erkennen. Verdächtig ist es, wenn die Rute als „Taktgeber“ der Bewegung der Hintergliedmaße zu fungieren scheint — wenn sie also die Bewegung nicht mehr nur passiv mitmacht, sondern umgekehrt den Bewegungsrhythmus der Hinterhand mitzubestimmen scheint — oder wenn sie vor allem im Ansatzbereich auffällig steif gehalten wird. Ergänzend sind Haltungsauffälligkeiten wie eine Lateralflexion und/oder Rotation der Rute in eine bestimmte Richtung zu beachten.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Untersuchung falsch gewählt", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.4.1, S. 109f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(26).pdf). Die Adspektionskriterien sowie die Einordnung der Rute als „Taktgeber“-Warnsignal samt der Haltungsauffälligkeiten sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "strukturschaedigung-wirbelsaeule-realistisches-therapieziel-ease",
+    category: "THERAPIE",
+    title: "Wenn die Struktur nicht mehr heilbar ist: ein realistisches Behandlungsziel",
+    teaser:
+      "Eine Strukturschädigung an der Wirbelsäule lässt sich durch keine manuelle Technik rückgängig machen — das bedeutet aber nicht, dass Behandlung dann wirkungslos wäre. Das eigentliche Ziel verschiebt sich auf die Übergangssegmente, die die Last mittragen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Kompensation in den Nachbarsegmenten",
+        text: "In den Segmenten vor oder hinter einer Strukturschädigung — oder in den davon nicht direkt betroffenen Übergangssegmenten wie dem lumbosakralen, thorakolumbalen oder zervikothorakalen Übergang beziehungsweise den Kopfgelenken — entsteht häufig zusätzlich eine Funktionsstörung als Anpassungsreaktion beziehungsweise Kompensationsmechanismus auf die eigentliche Strukturläsion. Die Behandlung dieser Funktionsstörung lindert oft das Beschwerdebild des Patienten spürbar, ohne dass sich an der Strukturschädigung selbst irgendetwas verändert hätte.",
+      },
+      {
+        type: "text",
+        heading: "Ein realistisches Behandlungsziel",
+        text: "Strukturschädigungen lassen sich durch keine manuelle Behandlung rückgängig machen — auch nicht durch osteopathische Techniken. Ein realistisches Behandlungsziel besteht stattdessen darin, dem Patienten seine vorhandenen Anpassungs- und Kompensationsmechanismen zu erhalten und das gesamte Weichteilgewebe im Bereich der Strukturläsion möglichst — wenn auch nur vorübergehend — in einen Zustand des ease zu bringen. Die Hoffnung, dadurch auch das weitere Fortschreiten degenerativer Veränderungen zu bremsen, wird von der Quelle ausdrücklich nicht als bewiesen, sondern als Möglichkeit dargestellt.",
+      },
+    ],
+    errorTags: ["Überkonfidenz", "vorschnelle Diagnose", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.4, S. 108 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(26).pdf). Die Kompensationsmechanismen in Nachbar-/Übergangssegmenten sowie das realistische, ausdrücklich als unbewiesen gekennzeichnete Behandlungsziel sind im Original so beschrieben. Ergänzt den bestehenden Eintrag `wirbelsaeule-kompensationsfaehigkeit-spaete-symptome-kein-kapselmuster` aus derselben Quelle: Jener Eintrag beschreibt die Kompensation, die eine Strukturschädigung lange verzögert, dieser Eintrag die Kompensation, die nach bereits eingetretener Strukturschädigung an den Nachbarsegmenten entsteht, und das daraus resultierende, realistische Therapieziel.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
