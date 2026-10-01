@@ -814,10 +814,25 @@ kein Überblick verloren geht.
   „Osteoartikuläre Techniken" (S. 70–124) vollständig ausgewertet: 12 neue
   Einträge insgesamt**, bei dokumentiertem Verzicht auf alle rein
   technikbasierten oder bereits anderweitig abgedeckten Abschnitte (Details
-  im Backlog-Eintrag zu dieser Quelle). Kap. 1–2 (Geschichte, Technik-
-  Überblick) sowie Kap. 8–10 (viszerale und kraniosakrale Techniken) sind
-  noch ungelesen — siehe Backlog-Eintrag zu dieser Quelle für die geplante
-  Kapitel-Priorisierung und die Einordnung der strittigeren Konzepte.
+  im Backlog-Eintrag zu dieser Quelle). Danach Kap. 1.2 „Geschichte der
+  Osteopathie" (S. 4–8, Chunk o(2).pdf) sowie der Beginn von Kap. 2
+  (S. 8f.) gelesen und **bewusst nicht extrahiert**: Der Abschnitt ist
+  Ideengeschichte (Paracelsus, Descartes, vitalistische Schule, Andrew
+  Taylor Stills Biografie und religiös-philosophische Grundüberzeugungen,
+  der Littlejohn-Schisma, kurze Geschichte der Veterinärosteopathie in
+  Europa ab Giniaux 1992) ohne verifizierbare klinische oder anatomische
+  Einzelaussage — für Denkgangs Ziel, klinisches Denken zu trainieren,
+  liefert dieser Abschnitt keinen geeigneten Lehrinhalt (vergleichbar mit
+  der bereits getroffenen Entscheidung, rein praxisorganisatorische/
+  alternativmedizinische Kapitel bei Kasper/Zohmann auszulassen). **Mit
+  dieser bewussten Auslassung von Kap. 1–2 gilt die aktive Extraktion aus
+  Könneker/Reiter, Osteopathie in der Kleintierpraxis, für diese Session
+  als abgeschlossen: 19 neue Einträge aus Kap. 3–7.** Kap. 8–10 (viszerale
+  und kraniosakrale Techniken) bleiben als niedrigere Priorität für eine
+  Folgesession offen — siehe Backlog-Eintrag zu dieser Quelle für die
+  bereits dokumentierte Einordnung der dort zu erwartenden strittigen
+  Konzepte (Organmotilität, primär respiratorischer Mechanismus,
+  kraniosakraler Rhythmus).
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -924,9 +939,13 @@ als theoretischen Unterbau — relevant für die Einordnung der später folgende
 Kapitel.
 
 - [x] Kap. 1–2 (Osteopathische Denkweise, Geschichte, Techniken-Überblick,
-  S. 2–11) nur über das Inhaltsverzeichnis erschlossen, noch nicht
-  volltextgelesen — niedrige Priorität, da vor allem historisch/einordnend,
-  keine unmittelbar prüfungsrelevanten Einzelfakten erwartet.
+  S. 2–11) **vollständig gelesen (Chunk o(2).pdf) und bewusst nicht
+  extrahiert**: reine Ideen-/Philosophiegeschichte (Paracelsus, Descartes,
+  Still-Biografie, Littlejohn-Schisma, kurze Geschichte der
+  Veterinärosteopathie in Europa) ohne verifizierbare klinische/
+  anatomische Einzelaussage — kein geeigneter Lehrinhalt für Denkgangs
+  Ziel, klinisches Denken zu trainieren. Bestätigt die ursprüngliche
+  Einschätzung.
 - [x] Kap. 3 „Diagnostisches Basiswissen" (S. 12–25, Chunks o(3)–o(7).pdf)
   **vollständig gelesen und ausgewertet — 4 neue Einträge**, siehe Stand
   oben.
