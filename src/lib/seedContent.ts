@@ -13313,6 +13313,41 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "diaphragmen-transversale-spannungszonen-koerper",
+    category: "BIOMECHANIK",
+    title: "Nicht nur das Zwerchfell: die fünf transversalen Diaphragmen des Körpers",
+    teaser:
+      "Das Zwerchfell ist nur eine von fünf queren Übergangszonen zwischen Körperregionen — an jeder davon bündeln sich Gefäße, Nerven und Organstrukturen auf engem Raum, mit einem vergleichbaren Störungsmuster bei Kompression.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was ein Diaphragma in diesem Sinn ist",
+        text: "Als Diaphragma wird hier nicht nur das Zwerchfell im engeren Sinn bezeichnet, sondern allgemein eine Struktur, die gleichzeitig zwei Funktionen erfüllt: räumliche Abgrenzung zwischen benachbarten Körperregionen und strukturelle wie funktionelle Verbindung zwischen eben diesen Regionen. Diaphragmen bestehen aus Muskulatur und Bindegewebe, wodurch sie Belastungen aus unterschiedlichen Richtungen aufnehmen und abfangen können. Funktionell wirken sie an den Kreuzungspunkten der longitudinalen Faszienzüge als Pufferzonen, die verhindern sollen, dass sich eine Spannung ungebremst von einer Körperregion in die nächste fortsetzt.",
+      },
+      {
+        type: "list",
+        heading: "Die fünf Diaphragmen des Körpers",
+        items: [
+          "Diaphragma thoracolumbale (das Zwerchfell im engeren Sinn) — Trennung von Brust- und Bauchhöhle.",
+          "Diaphragma cervicothoracale (kraniale Thoraxapertur) — Übergang zwischen Hals und Brustkorb.",
+          "Kraniozervikales Diaphragma (Atlantookzipitalgelenk C0/C1) einschließlich Os hyoideum (Zungenbein).",
+          "Intrakranielles horizontales Membransystem.",
+          "Diaphragma pelvis (Beckenboden) einschließlich der sakralen Gelenkverbindungen.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum Durchtrittsstellen klinisch besonders empfindlich sind",
+        text: "Alle fünf Diaphragmen teilen dieselbe strukturelle Eigenschaft: Sie sind zugleich Durchtrittsstellen für Gefäße, Nerven und Organstrukturen. Erhöhte Spannung an einer dieser Stellen kann deshalb venösen Rückstau beziehungsweise eine Minderdurchblutung, Störungen des Lymphabflusses sowie Beeinträchtigungen der sie durchquerenden Organstrukturen im jeweils betroffenen Bereich nach sich ziehen. Dieses Muster ist kein rein theoretisches Konstrukt, sondern an anderer Stelle dieser Bibliothek bereits an zwei konkreten Beispielen belegt: Ein verspanntes Diaphragma thoracolumbale kann seine Spannung faszial auf angrenzende Organe übertragen und den hindurchziehenden N. vagus irritieren, und eine Verspannung im Bereich der kranialen Thoraxapertur (Mm. scaleni) kann den dort verlaufenden Plexus brachialis komprimieren und ein Thoracic-Outlet-Syndrom auslösen (siehe `hypaxiale-muskulatur-iliopsoas-diaphragma-thoracic-outlet`). Dieser Eintrag ordnet diese beiden Einzelbeispiele in das vollständige Fünfer-Schema ein und ergänzt es um das kraniozervikale, intrakranielle und pelvine Diaphragma.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 6.1.2, S. 47f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(20).pdf). Die Definition des Diaphragma-Begriffs, die Liste der fünf Diaphragmen sowie ihre gemeinsamen Funktionen (inkl. der Folgen erhöhter Spannung an den Durchtrittsstellen) sind im Original so beschrieben. Bewusst nicht übernommen: die im selben Abschnitt (6.1.1) behauptete Existenz exakt beschriebener Faszienketten-Verläufe unter Verweis auf Studien zu Faszienstruktur und Kollagenfasergehalt — diese Studien wurden von Denkgang nicht eigenständig geprüft und das Konzept der Faszienketten als Ganzes ist osteopathische Modellbildung, die vor Übernahme gesondert auf Evidenzlage zu prüfen ist (siehe Backlog). Die Verknüpfung mit `hypaxiale-muskulatur-iliopsoas-diaphragma-thoracic-outlet` (Hárrer, andere Quelle, bereits bestehend) ist beabsichtigt: Jener Eintrag beschreibt zwei Einzelbeispiele (Diaphragma thoracolumbale, kraniale Thoraxapertur), dieser Eintrag liefert das vollständige anatomische Fünfer-Schema dazu.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

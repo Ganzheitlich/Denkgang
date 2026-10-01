@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 295 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 82
-  Untersuchung, 102 Pathologie, 71 Biomechanik, 42 Therapie — genaue
+- Wissensbibliothek: 296 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 82
+  Untersuchung, 102 Pathologie, 72 Biomechanik, 42 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -705,7 +705,19 @@ kein Überblick verloren geht.
   Rhythmusprüfung eine unabhängig nicht bestätigte Eigenwahrnehmung einer
   gewebeeigenen Entwindungsbewegung voraus und wurde daher nicht als
   Technik-Anleitung aufgenommen (Details und die weitere Einschätzung von
-  Kap. 5–6 im Backlog-Eintrag zu dieser Quelle). Kap. 1–2 (Geschichte,
+  Kap. 5–6 im Backlog-Eintrag zu dieser Quelle). Danach Kap. 6.1
+  „Faszienzüge und Diaphragmen aus osteopathischer Sicht" (S. 46–48, Chunk
+  o(20).pdf) — daraus 1 weiterer neuer Eintrag:
+  `diaphragmen-transversale-spannungszonen-koerper` (BIOMECHANIK: die fünf
+  anatomisch definierten Diaphragmen des Körpers — Zwerchfell, kraniale
+  Thoraxapertur, kraniozervikal, intrakraniell, Beckenboden — als
+  gemeinsame Durchtrittsstellen für Gefäße/Nerven/Organe mit
+  vergleichbarem Störungsmuster bei Kompression; explizit an die
+  bestehenden, aus Hárrer stammenden Einzelbeispiele
+  `hypaxiale-muskulatur-iliopsoas-diaphragma-thoracic-outlet` angebunden).
+  Bewusst nicht übernommen: die im selben Abschnitt behauptete Existenz
+  exakt beschriebener Faszienketten-Verläufe (osteopathische Modellbildung,
+  Studienverweis nicht eigenständig geprüft). Kap. 1–2 (Geschichte,
   Technik-Überblick) sowie der Rest von Kap. 5–10 (inkl. der
   wissenschaftlich unterschiedlich gut abgesicherten viszeralen und
   kraniosakralen Techniken) sind noch ungelesen — siehe Backlog-Eintrag zu
@@ -849,12 +861,24 @@ Kapitel.
   „Point of Balance" hin auflöst — dies ist dieselbe Art unabhängig nicht
   bestätigter Eigenwahrnehmung wie die bereits ausgelassene kraniosakrale
   Rhythmusprüfung und die Motilität (vgl. `somatische-dysfunktion-art-
-  kriterienraster`), nur auf das myofasziale System angewendet. Noch
-  offen: Kap. 6 „MFR in Ketten" (S. 46–68, Faszienketten, Diaphragmen-
-  Konzept, regionale Anwendung an Gliedmaßen/Thorax/Becken/Kraniozervikal)
-  — dieselbe Einordnungsfrage wird hier voraussichtlich noch relevanter,
-  da die Ketten-/Diaphragmen-Konzepte noch stärker osteopathische
-  Modellbildung sind als die reine Rezeptorphysiologie.
+  kriterienraster`), nur auf das myofasziale System angewendet. Danach
+  Kap. 6.1 „Faszienzüge und Diaphragmen aus osteopathischer Sicht"
+  (S. 46–48, Chunk o(20).pdf) gesichtet: Die anatomisch benennbaren fünf
+  Diaphragmen des Körpers samt ihrer Durchtrittsstellen-Funktion wurden als
+  eigenständiger Eintrag übernommen (siehe Stand oben,
+  `diaphragmen-transversale-spannungszonen-koerper`); die im selben
+  Abschnitt (6.1.1) behauptete Existenz exakt beschriebener Faszienketten-
+  Verläufe (unter Verweis auf nicht eigenständig geprüfte Studien zu
+  Faszienstruktur/Kollagenfasergehalt) wurde **bewusst nicht übernommen** —
+  das Konzept der Faszienketten als durchgängiges, kraftübertragendes
+  System ist osteopathische/manualtherapeutische Modellbildung (vergleichbar
+  mit dem im humanmedizinischen Bereich bekannten, ebenfalls umstrittenen
+  „Anatomy Trains"-Konzept) und wird hier nicht als gesicherte Anatomie
+  dargestellt. Noch offen: Kap. 6.2–6.4 (S. 49–68, Prinzip/Durchführung des
+  MFR in Ketten sowie dessen regionale Anwendung an Gliedmaßen, Thorax,
+  Becken, Kraniozervikal) — hier ist dieselbe Einordnungsfrage wie beim
+  einfachen MFR (Kap. 5) zu erwarten, da die Technik selbst vermutlich
+  wieder auf der Wahrnehmung eines Unwinding beruht.
 - [ ] **Kap. 7 „Osteoartikuläre Techniken" (S. 70–124) — voraussichtlich
   höchste Priorität dieser Quelle.** Enthält Grundbegriffe der
   Gelenkmechanik, Untersuchungsgang und gelenkspezifische Untersuchung/
