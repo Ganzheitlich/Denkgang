@@ -14438,6 +14438,40 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "fascia-antebrachii-os-accessorium-spannerfunktion-ueberstreckung",
+    category: "BIOMECHANIK",
+    title: "Das Erbsenbein als Faszienspanner: wie der Unterarm seine Spannung hält — und verliert",
+    teaser:
+      "Das Os carpi accessorium ist mehr als ein Knochen im Karpus: Es muss bei jeder Karpalflexion nach medial wegklappen, um der Unterarmfaszie Raum zu geben — eine Funktion, die bei überstreckten Rennhunden verloren gehen kann.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die Fascia antebrachii als strumpfartige Hülle",
+        text: "Die Fascia antebrachii umhüllt den Unterarm strumpfartig, liegt den kraniolateral gelegenen Streckern dicht, den kaudalen Beugern dagegen nur locker an, und strahlt ab dem Karpalgelenk in die Fußfaszie ein. An muskelfreien Stellen verschmilzt sie mit dem Periost der Unterarmknochen. Der Lacertus fibrosus — eine sehnige Abspaltung des M. biceps brachii — inseriert ebenfalls an dieser Faszie: Eine Problematik des M. biceps brachii kann sich dadurch unmittelbar als Spannungsveränderung der Fascia antebrachii bemerkbar machen.",
+      },
+      {
+        type: "text",
+        heading: "Das Os carpi accessorium als mechanischer Spanner",
+        text: "Ein wichtiger Spanner der Fascia antebrachii ist das Os carpi accessorium (Erbsenbein): Es schafft dem M. flexor carpi radialis und den Beugesehnen auf der palmaren Seite ab dem Karpalgelenk ausreichend Raum. Damit die endgradige Flexion des Karpalgelenks nicht eingeschränkt wird, muss das Os carpi accessorium bei dieser Bewegung nach medial wegklappen und bei der Extension wieder nach lateral zurückschwingen, um die Faszie stabil gespannt zu halten. Diese Gleit- und Kippbewegung kann zusätzlich durch einen Hypotonus der an ihm ansetzenden Mm. extensor und flexor carpi ulnaris eingeschränkt sein.",
+      },
+      {
+        type: "text",
+        heading: "Wenn die Spannerfunktion durch Überstreckung verloren geht",
+        text: "Verletzungen oder Frakturen des Os carpi accessorium entstehen typischerweise durch eine zu starke Überstreckung des Karpalgelenks in der Einbeinphase im Galopp — eine Verletzung, die besonders bei rennenden Windhunden häufig vorkommt (vgl. das Katapulteffekt-Erschöpfungsbild bei ausgemusterten Rennhunden, siehe `exterieur-faszienspannung-galopp-trab-kraftform`). Geht die Spannerfunktion dadurch verloren, äußert sich das klinisch in einem überstreckten Karpalgelenk mit vermehrtem Druck auf die Zehengrundgelenke — dieselbe mechanische Kette, über die bereits an anderer Stelle beschriebene Karpushyperextensionsbilder entstehen. Bei einem überstreckten Karpalgelenk sollten High-Speed-Aktivitäten, Flyball und Galopp in der Einbeinstütze deshalb so lange vermieden werden, bis das Gelenk wieder seine physiologische Haltung zeigt.",
+      },
+      {
+        type: "text",
+        heading: "Die Membrana interossea antebrachii: Drehbegrenzer zwischen Radius und Ulna",
+        text: "Die Membrana interossea antebrachii ist eine bindegewebige Membran, die proximal zwischen Radius und Ulna liegt. Wie beim Menschen und bei der Katze ermöglicht sie dem Hund eine Pro- und Supinationsbewegung im Radioulnargelenk — das Ausmaß dieser Drehbewegung wird dabei unter anderem durch die Straffheit des Membranbindegewebes begrenzt, das zusätzlich Spannung zwischen den beiden Unterarmknochen überträgt. Eine Restriktion dieser Membran kann sich entsprechend als Fehlhaltung des Vorderlaufs in Pro- oder Supinationsstellung mit nachfolgender Fehlbelastung einzelner Zehen (II–III bei Pronations-, IV–V bei Supinationshaltung) zeigen.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund übersehen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 7.2.3–7.2.4, S. 98–100 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(7).pdf). Der Verlauf der Fascia antebrachii, der Lacertus-fibrosus-Ansatz, die Spannerfunktion des Os carpi accessorium samt seiner Kipp-/Gleitbewegung bei Flexion/Extension, die Überstreckungsverletzung bei rennenden Windhunden sowie die Funktion und Fehlhaltungsfolgen der Membrana interossea antebrachii sind im Original so beschrieben. Die Verknüpfung mit dem bestehenden Windhund-/Katapulteffekt-Eintrag ist eigene Synthese von Denkgang; die bereits bestehenden, orthopädisch/neurologisch ausgerichteten Os-carpi-accessorium-Einträge (Fraktur, N.-ulnaris-Differenzierung, aus Koch/Fischer) werden hier gezielt um die biomechanische Spannerfunktion ergänzt, nicht dupliziert. Bewusst nicht übernommen: die reinen Grifftechnik-Anleitungen (Faszienlift, myofasziales Release, Mobilisationstechniken, TTouches) desselben Abschnitts.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

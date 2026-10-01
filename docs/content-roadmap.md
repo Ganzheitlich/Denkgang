@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 328 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 92
-  Untersuchung, 108 Pathologie, 84 Biomechanik, 44 Therapie — genaue
+- Wissensbibliothek: 329 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 92
+  Untersuchung, 108 Pathologie, 85 Biomechanik, 44 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -1053,7 +1053,31 @@ kein Überblick verloren geht.
   zusätzlichen Eintrag — entweder reine Grifftechnik oder inhaltliche
   Überschneidung mit der bereits sehr umfangreichen bestehenden
   Thorakolumbalfaszien-/Rippen-Dokumentation aus Hárrer und Könneker/
-  Reiter.
+  Reiter. Danach 7.2 „Vordergliedmaßen" (7.2.1–7.2.6, S. 96–102, bereits
+  im selben Chunk f(7).pdf enthalten) gelesen — **1 weiterer neuer
+  Eintrag**, und wie erwartet deutlich weniger craniosacral-kontaminiert
+  als 7.1 (die Gliedmaßen liegen anatomisch weit vom Schädel entfernt).
+  7.2.3/7.2.4 (Fascia antebrachii, Membrana interossea antebrachii)
+  lieferten eine genuin neue, biomechanisch konkrete Funktion: das Os
+  carpi accessorium als mechanischer „Spanner" der Fascia antebrachii,
+  der bei Karpalflexion nach medial wegklappen muss, und dessen
+  Spannerfunktion bei der für rennende Windhunde typischen
+  Karpalüberstreckung verloren gehen kann — gezielt verknüpft mit dem
+  bestehenden Windhund-/Katapulteffekt-Eintrag sowie den bereits
+  bestehenden, orthopädisch/neurologisch ausgerichteten Os-carpi-
+  accessorium-Einträgen aus Koch/Fischer (Ergänzung, keine Duplikation)
+  (`fascia-antebrachii-os-accessorium-spannerfunktion-ueberstreckung`).
+  7.2.1/7.2.2 (Fascia axillaris, Fascia brachii) lieferten nur dünne
+  Verletzungsmechanismen (Geschirrreibung) ohne über die bereits in der
+  Gangbildzeichen-Tabelle dokumentierten Adduktions-/Abduktionszeichen
+  hinausgehenden Mehrwert — bewusst nicht als eigene Einträge
+  übernommen. 7.2.5/7.2.6 (Fascia dorsalis manus, Fascia palmaris) sind
+  bis auf Narbenmobilisation nach Schnittverletzungen (bereits durch den
+  bestehenden allgemeinen Narbengewebe-Eintrag abgedeckt) unauffällig —
+  ebenfalls keine eigenen Einträge. Noch offen: 7.3 „Beckengliedmaßen"
+  (ab S. 103, Beginn ebenfalls bereits in f(7).pdf enthalten) sowie Kap.
+  7.4 „Zusammenfassende Übersicht" (falls vorhanden) — für eine
+  Folgesession.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1485,13 +1509,15 @@ Status:
   „energetische" Fernverbindungen, bis zu Verhaltensbehauptungen wie
   „Lernschwierigkeiten, Aggressionen" als Restriktionsfolge) — dieselbe
   Kategorie wie das bereits bei Könneker/Reiter ausgeschlossene Kap. 9.
-  Noch offen: 7.2 „Vordergliedmaßen" (7.2.1–7.2.6, S. 96–102, bereits im
-  selben Chunk f(7).pdf enthalten, aber noch nicht ausgewertet) und 7.3
+  7.2 „Vordergliedmaßen" (7.2.1–7.2.6, S. 96–102, Chunk f(7).pdf)
+  **vollständig gelesen — 1 neuer Eintrag**, siehe Stand oben. Wie
+  erwartet deutlich weniger craniosacral-kontaminiert als 7.1, da
+  anatomisch weit vom Schädel entfernt. Noch offen: 7.3
   „Beckengliedmaßen" (ab S. 103, Beginn ebenfalls bereits in f(7).pdf
-  enthalten) — hier mit dem aus 7.1 gewonnenen Erfahrungswert weiterhin
-  auf craniosacrale Kontamination sowie auf Überschneidung mit den
-  umfangreichen bestehenden Hárrer-Gliedmaßenfaszien-Inhalten zu prüfen,
-  wahrscheinlich mit ähnlich selektivem Ergebnis wie bei 7.1.
+  enthalten) sowie ein möglicher Abschluss von Kap. 7 — hier mit dem aus
+  7.1/7.2 gewonnenen Erfahrungswert weiterhin auf craniosacrale
+  Kontamination sowie auf Überschneidung mit den umfangreichen
+  bestehenden Hárrer-Gliedmaßenfaszien-Inhalten zu prüfen.
 - [ ] Kap. 8–10 „Das viszerale System" (S. 118–153): Organfaszien,
   „viszerales Gelenk", viszerale Restriktionen, Organtopografie — noch
   ungelesen, nach Titel/Konzept erwartbar im selben disputierten
