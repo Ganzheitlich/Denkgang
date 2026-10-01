@@ -748,11 +748,19 @@ kein Überblick verloren geht.
   dieser Bibliothek fehlende allgemeine Anamnese-/Adspektions-
   Systematik, kein Duplikat eines fallspezifischen Anamnese-Eintrags).
   **Damit ist Kap. 7.1–7.2 vollständig ausgewertet** (mit Ausnahme von
-  7.1.2, siehe Backlog). Kap. 1–2 (Geschichte, Technik-Überblick), der
-  Rest von Kap. 7 (S. 86–124, konkrete Gelenk-/Wirbelsäulentechniken, Kap.
-  7.3–7.4) sowie Kap. 8–10 (viszerale und kraniosakrale Techniken) sind
-  noch ungelesen — siehe Backlog-Eintrag zu dieser Quelle für die geplante
-  Kapitel-Priorisierung und die Einordnung der strittigeren Konzepte.
+  7.1.2, siehe Backlog). Danach 7.3.1 „Hintergliedmaßen" und der Anfang
+  von 7.3.2 „Vordergliedmaßen" (S. 87–104, Chunk o(25).pdf: Hüfte, Knie,
+  Tibiofibulargelenk, Tarsalgelenk, Schulter, Ellenbogen) gezielt gegen
+  Hárrer/Koch-Fischer geprüft — **Ergebnis: durchgängige inhaltliche
+  Überschneidung, bewusst keine neuen Einträge.** Details der
+  Einzelprüfung (welche konkreten Hárrer-Einträge welche Könneker/Reiter-
+  Inhalte bereits abdecken) im Backlog-Eintrag zu dieser Quelle. Kap. 1–2
+  (Geschichte, Technik-Überblick), der Rest von Kap. 7.3 (Karpus, Zehen)
+  sowie 7.4 „Die Wirbelsäule" (S. 108–124, mit der Erwartung geringerer,
+  aber nicht ausgeschlossener Redundanz) sowie Kap. 8–10 (viszerale und
+  kraniosakrale Techniken) sind noch ungelesen — siehe Backlog-Eintrag zu
+  dieser Quelle für die geplante Kapitel-Priorisierung und die Einordnung
+  der strittigeren Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -938,12 +946,34 @@ Kapitel.
   orientierende vs. gezielte Beweglichkeitsprüfung) ergab **1 weiteren
   neuen Eintrag**, siehe Stand oben
   (`anamnese-struktur-vier-kategorien-adspektion-ruhepositionen`). **Damit
-  ist Kap. 7.1–7.2 vollständig ausgewertet.** Noch komplett offen: 7.3
-  „Untersuchung und Behandlung einzelner Gelenke"
-  (S. 87–107, alle Gliedmaßengelenke einzeln — hier ist der sorgfältigste
-  Abgleich mit Hárrer/Koch-Fischer nötig, da diese Quellen dieselben
-  Gelenke bereits sehr ausführlich abdecken) sowie 7.4 „Die Wirbelsäule"
-  (S. 108–124).
+  ist Kap. 7.1–7.2 vollständig ausgewertet.** 7.3.1 „Hintergliedmaßen" und
+  der Anfang von 7.3.2 „Vordergliedmaßen" (S. 87–104, Chunk o(25).pdf:
+  Hüftgelenk, Kniegelenk inkl. Schubladen-/Tibiakompressions-/
+  Seitenbandtest, Verbindung der Unterschenkelknochen/proximales und
+  distales Tibiofibulargelenk, Tarsalgelenk, Schultergelenk,
+  Ellenbogengelenk) **gezielt gegen die bestehende Hárrer-/Koch-Fischer-
+  Dokumentation geprüft und dabei durchgängige, inhaltlich enge
+  Überschneidung festgestellt — bewusst keine neuen Einträge daraus.**
+  Konkret geprüft und als bereits abgedeckt bestätigt: Kapselmuster/
+  Endgefühl für Hüfte und Knie (vgl. `hueftgelenk-anatomie-rom-endgefuehl`
+  und den Knie-Kapselmuster-Eintrag, beide Hárrer), Schubladentest/
+  Tibiakompressionstest/Seitenbandtest (vgl. den Lachmann-/
+  Tibiakompressions-/Apley-/McMurray-Eintrag und den eigenständigen
+  Schubladentest-Eintrag, beide Hárrer), proximales Tibiofibulargelenk
+  (bereits als eigener Hárrer-Eintrag vorhanden) sowie die Kennmuskeln
+  M. iliopsoas/M. piriformis (bereits in der in dieser Session aus Kap. 7.1.3
+  dieses Buches erstellten Kennmuskel-Tabelle enthalten). Die einzigen in
+  diesem Abschnitt neuen Inhalte sind entweder reine Grifftechnik-
+  Beschreibungen ohne eigenständigen Lehrwert (Handposition für Traktion/
+  Joint Play) oder die bereits an anderer Stelle ausgeschlossene MFR-in-
+  Ketten-/Release-Anleitung — beides bewusst nicht übernommen. **Fazit:
+  Kap. 7.3 ist für Denkgangs Zwecke überwiegend redundant zur
+  bestehenden Hárrer-/Koch-Fischer-Dokumentation; eine vollständige
+  Durchsicht der übrigen Gelenke (Karpus, Zehen) sowie von 7.4 „Die
+  Wirbelsäule" (S. 108–124, potenziell ergiebiger, da Wirbelsäulenkapitel
+  in Quellen oft eigenständigere Inhalte enthalten als Extremitätengelenke)
+  bleibt als niedrigere Priorität offen, mit der Erwartung ähnlich hoher
+  Redundanz bei den übrigen Extremitätengelenken.**
 - [ ] Kap. 8 „Viszerale Techniken" (S. 125–162): Organtopografie,
   viszerovertebrale Diagnostik, viszerales Faszienskelett. Enthält
   Konzepte (Organmotilität, Organverbindung über embryonalen Ursprung) mit
