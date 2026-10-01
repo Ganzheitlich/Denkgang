@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 296 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 82
+- Wissensbibliothek: 299 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 85
   Untersuchung, 102 Pathologie, 72 Biomechanik, 42 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -717,12 +717,37 @@ kein Überblick verloren geht.
   `hypaxiale-muskulatur-iliopsoas-diaphragma-thoracic-outlet` angebunden).
   Bewusst nicht übernommen: die im selben Abschnitt behauptete Existenz
   exakt beschriebener Faszienketten-Verläufe (osteopathische Modellbildung,
-  Studienverweis nicht eigenständig geprüft). Kap. 1–2 (Geschichte,
-  Technik-Überblick) sowie der Rest von Kap. 5–10 (inkl. der
-  wissenschaftlich unterschiedlich gut abgesicherten viszeralen und
-  kraniosakralen Techniken) sind noch ungelesen — siehe Backlog-Eintrag zu
-  dieser Quelle für die geplante Kapitel-Priorisierung und die Einordnung
-  der strittigeren Konzepte.
+  Studienverweis nicht eigenständig geprüft). Kap. 6.2–6.4 (MFR-in-Ketten-
+  Technik, S. 49–69, Chunks o(22)–o(23).pdf) nur überflogen, dabei wie
+  erwartet bestätigt: Die Technik beruht wieder auf der Wahrnehmung eines
+  Unwinding (bewusst nicht übernommen, siehe Backlog). **Danach Kap. 7.1
+  „Grundlagen der osteoartikulären Osteopathie" (S. 70–79, Chunks o(23)–
+  o(24).pdf) gelesen — die bislang ergiebigste Einzelsitzung dieser Quelle,
+  3 weitere neue Einträge:** `ausweichbewegungen-verfaelschte-
+  gelenkuntersuchung` (UNTERSUCHUNG: wie eine kombinierte Ausweich-Rotation
+  ein Kapselmuster bei der Hüftextension verdeckt, und wie man das
+  verhindert), `kennmuskeln-reflektorische-spannungszeichen-gelenkregion`
+  (UNTERSUCHUNG: Tab. 7.3, sechs Kennmuskeln als Hinweisgeber auf
+  Problemregionen, mit der im Original selbst gemachten Einschränkung,
+  dass dies noch keine verifizierte Tier-Dogmatik ist) sowie
+  `joint-play-technik-traktionsstufen-wirbelsaeulen-limitation`
+  (UNTERSUCHUNG: die drei Traktionsstufen Lösen/Straffen/Dehnen, der
+  siebenschrittige Joint-Play-Ablauf und die methodische Grenze, an der
+  Wirbelsäule außer an den Kopfgelenken nie zwischen rechtem und linkem
+  Facettengelenk unterscheiden zu können — ergänzt den theoretischeren
+  Hohmann-Eintrag `rollen-gleiten-rollgleiten-ruhestellung-gelenkspiel` um
+  die praktische Durchführungsebene). Diese drei Einträge bestätigen die
+  ursprüngliche Einschätzung, dass Kap. 7 die ergiebigste Einzelquelle
+  dieses Buches für Denkgang ist, da sie kaum osteopathie-spezifische
+  Theoriekonzepte benötigen. Kap. 1–2 (Geschichte, Technik-Überblick),
+  Kap. 7.1.2 (Denkmodelle zur Entstehung von Gelenkdysfunktionen — in
+  Chunk o(23).pdf mitgelesen, noch nicht ausgewertet, da inhaltlich mit dem
+  bestehenden Eintrag `manuelle-medizin-drei-schulen-omt-chiropraxis-
+  osteopathie` aus anderer Quelle stark überlappt), der Rest von Kap. 7
+  (S. 86–124, konkrete Gelenk-/Wirbelsäulentechniken) sowie Kap. 8–10
+  (viszerale und kraniosakrale Techniken) sind noch ungelesen — siehe
+  Backlog-Eintrag zu dieser Quelle für die geplante Kapitel-Priorisierung
+  und die Einordnung der strittigeren Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -848,7 +873,7 @@ Kapitel.
   bestätigte Wahrnehmbarkeit eines eigenständigen kraniosakralen Rhythmus
   voraussetzt — die einzige bewusste Auslassung in diesem ansonsten
   vollständig ausgewerteten Kapitel.
-- [~] Kap. 5–6 „Myofasziales Release" (S. 36–68): Kap. 5.1–5.2 (S. 36–43,
+- [x] Kap. 5–6 „Myofasziales Release" (S. 36–68): Kap. 5.1–5.2 (S. 36–43,
   Chunk o(19).pdf) gesichtet. Die Rezeptorphysiologie der Faszie (S. 42,
   interstitielle Rezeptoren, Ruffini-Endigungen, Perforanten-Trias) wurde
   als unstrittiger, eigenständiger Eintrag übernommen (siehe Stand oben,
@@ -874,22 +899,41 @@ Kapitel.
   System ist osteopathische/manualtherapeutische Modellbildung (vergleichbar
   mit dem im humanmedizinischen Bereich bekannten, ebenfalls umstrittenen
   „Anatomy Trains"-Konzept) und wird hier nicht als gesicherte Anatomie
-  dargestellt. Noch offen: Kap. 6.2–6.4 (S. 49–68, Prinzip/Durchführung des
-  MFR in Ketten sowie dessen regionale Anwendung an Gliedmaßen, Thorax,
-  Becken, Kraniozervikal) — hier ist dieselbe Einordnungsfrage wie beim
-  einfachen MFR (Kap. 5) zu erwarten, da die Technik selbst vermutlich
-  wieder auf der Wahrnehmung eines Unwinding beruht.
-- [ ] **Kap. 7 „Osteoartikuläre Techniken" (S. 70–124) — voraussichtlich
-  höchste Priorität dieser Quelle.** Enthält Grundbegriffe der
-  Gelenkmechanik, Untersuchungsgang und gelenkspezifische Untersuchung/
-  Behandlung für alle Gliedmaßengelenke sowie die Wirbelsäule — thematisch
-  eng verwandt mit der bereits umfangreich vorhandenen Hárrer-Manuelle-
-  Therapie- und Koch/Fischer-Lahmheitsuntersuchung-Dokumentation. Vor
-  Extraktion sorgfältiger Abgleich nötig, welche Inhalte tatsächlich neue
-  Perspektiven (gelenkmechanisches statt muskuläres Denkmodell) statt
-  Dopplung liefern. Ein Teil dieser Quelle wurde bereits in einer früheren
-  Session zitiert (Eintrag zu M. iliacus, Kap. 7-Tabelle Beckengliedmaße) —
-  vor neuen Einträgen gegenprüfen, was davon schon übernommen ist.
+  dargestellt. Kap. 6.2–6.4 (S. 49–69, Prinzip/Durchführung des MFR in
+  Ketten sowie dessen regionale Anwendung an Gliedmaßen, Thorax, Becken,
+  Kraniozervikal inkl. Ohrzugtechnik) überflogen (Chunks o(22)–o(23).pdf):
+  Bestätigt wie erwartet dieselbe Einordnung wie beim einfachen MFR —
+  die Technik beruht wieder auf der Wahrnehmung eines Unwinding bis zum
+  funktionellen Stillpunkt und wurde daher **bewusst nicht übernommen**.
+  **Damit ist Kap. 5–6 für diese Session abgeschlossen** (3 neue Einträge:
+  Faszienrezeptoren, Diaphragmen-Katalog; die eigentlichen MFR-Techniken
+  bewusst ausgelassen).
+- [~] **Kap. 7 „Osteoartikuläre Techniken" (S. 70–124) — wie erwartet die
+  bislang ergiebigste Einzelquelle dieses Buches.** 7.1 „Grundlagen der
+  osteoartikulären Osteopathie" (S. 70–79, Chunks o(23)–o(24).pdf)
+  vollständig gelesen: 7.1.1 (Gegenüberstellung Osteopathie/Manuelle
+  Medizin/Chiropraxis zu Gelenkdysfunktion, Terminologie-Warnung vor
+  „Subluxation"/„Dislokation") **bewusst nicht als eigener Eintrag
+  übernommen** — deckt sich inhaltlich zu stark mit dem bestehenden
+  Eintrag `manuelle-medizin-drei-schulen-omt-chiropraxis-osteopathie`
+  (Mai, andere Quelle), der dieselbe Drei-Schulen-Gegenüberstellung inkl.
+  der Subluxations-/Blockade-Terminologiefrage bereits abdeckt. 7.1.3
+  „Grundbegriffe der Gelenkmechanik" (S. 78f.) dagegen ergab **3 neue
+  Einträge**, siehe Stand oben (`ausweichbewegungen-verfaelschte-
+  gelenkuntersuchung`, `kennmuskeln-reflektorische-spannungszeichen-
+  gelenkregion`, `joint-play-technik-traktionsstufen-wirbelsaeulen-
+  limitation`). Noch offen: 7.2.2 f. „Techniken"/„Untersuchungsgang" ab
+  S. 80 wurde zwar schon mitgelesen (Traktion, Mobilisation, HVLA/
+  Manipulation — Letztere wird im Buch nicht im Detail beschrieben —,
+  allgemeine Anamnese-Struktur, Adspektion, orientierende vs. gezielte
+  Beweglichkeitsprüfung), ist aber noch nicht vollständig in weitere
+  Einträge umgesetzt (Kandidat: Anamnese-/Adspektions-Checkliste, falls
+  nicht zu nah an bereits bestehenden Anamnese-Einträgen anderer Quellen).
+  Noch komplett offen: 7.3 „Untersuchung und Behandlung einzelner Gelenke"
+  (S. 87–107, alle Gliedmaßengelenke einzeln — hier ist der sorgfältigste
+  Abgleich mit Hárrer/Koch-Fischer nötig, da diese Quellen dieselben
+  Gelenke bereits sehr ausführlich abdecken) sowie 7.4 „Die Wirbelsäule"
+  (S. 108–124).
 - [ ] Kap. 8 „Viszerale Techniken" (S. 125–162): Organtopografie,
   viszerovertebrale Diagnostik, viszerales Faszienskelett. Enthält
   Konzepte (Organmotilität, Organverbindung über embryonalen Ursprung) mit

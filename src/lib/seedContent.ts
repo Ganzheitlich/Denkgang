@@ -13348,6 +13348,109 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "ausweichbewegungen-verfaelschte-gelenkuntersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Wenn die Bewegung gut aussieht, aber die falsche ist: Ausweichbewegungen",
+    teaser:
+      "Eine scheinbar unauffällige Hüftextension kann in Wahrheit eine Kompensation durch Außenrotation sein — und genau deshalb bleibt eine beginnende Hüftarthrose unentdeckt, wenn die Testbewegung nicht sauber isoliert wird.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was eine Ausweichbewegung kennzeichnet",
+        text: "Eine Ausweichbewegung zeigt sich an zwei Merkmalen: Erstens springt die Bewegung auf eine andere Schaltstelle (ein anderes Gelenk) über, bevor das Bewegungsausmaß der eigentlich geprüften Struktur erreicht ist — die Bewegungsrichtungen verlaufen dabei gegensinnig. Zweitens treten unerwünschte Bewegungen auf: Abweichungen von der eigentlich geprüften Bewegungsrichtung oder aktive Widerlagerungen physiologisch weiterlaufender Bewegung. Ursache einer Ausweichbewegung sind Schmerzen oder eine bereits bestehende Bewegungseinschränkung — der Patient (oder, bei entsprechender Pathologie, auch sein Körper reflektorisch) „löst“ das Bewegungsziel auf einem Umweg, statt die eingeschränkte Bewegung selbst zuzulassen.",
+      },
+      {
+        type: "text",
+        heading: "Das Hüft-Beispiel: wie eine Arthrose übersehen wird",
+        text: "Bei der passiven orientierenden Untersuchung der Hüftextension weicht der Patient der Bewegung aus, indem er gleichzeitig eine Außenrotation vornimmt. Die geprüfte Bewegung wirkt dadurch scheinbar ungestört — sie geht sogar deutlich leichter als eine reine, isolierte Extensionsbewegung ohne diese Ausweichrotation. Die Folge: Eine tatsächlich vorliegende degenerative Hüfterkrankung wird nicht als solche erkannt, weil das eigentlich vorhandene Kapselmuster bei dieser verfälschten Bewegungsausführung gar nicht erst zum Vorschein kommt.",
+      },
+      {
+        type: "text",
+        heading: "Wie man Ausweichbewegungen verhindert",
+        text: "Zwei Vorgehensweisen schließen eine Ausweichbewegung aus: Entweder führt der Untersucher die Testbewegung nur so weit aus, dass keine weiterlaufende Bewegung in ein Nachbargelenk entsteht, oder er widerlagert bzw. verhindert diese weiterlaufende Bewegung aktiv — bei der Hüftuntersuchung etwa durch Stabilisierung von Becken und Wirbelsäule von hinten. Entscheidend ist dabei, konsequent in genau einer Bewegungsebene und -achse zu bleiben: Kombinierte Bewegungen bei der Untersuchung (z. B. Extension gleichzeitig mit Rotation) verfälschen das Ergebnis und verhindern die Beurteilung des Endgefühls, da gleichzeitig zwei Bewegungsrichtungen geprüft werden — ein Kapselmuster kann auf diese Weise nicht zuverlässig aufgefunden werden.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Untersuchung falsch gewählt", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.1.3, S. 78, und Kap. 7.2.1, S. 79f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(24).pdf). Definition und Merkmale der Ausweichbewegung, das Hüftextensions-/Außenrotations-Beispiel sowie die beiden Vermeidungsstrategien samt Begründung über die Endgefühl-/Kapselmuster-Verfälschung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["huefte"],
+  },
+  {
+    id: "kennmuskeln-reflektorische-spannungszeichen-gelenkregion",
+    category: "UNTERSUCHUNG",
+    title: "Kennmuskeln: wenn ein verspannter Muskel auf ein Gelenkproblem woanders zeigt",
+    teaser:
+      "Bestimmte Muskeln verspannen sich reflektorisch zuverlässig genug bei Problemen in einer bestimmten Gelenkregion, dass ihr Tastbefund allein schon ein diagnostischer Hinweis ist — solange man diese vorläufige Erfahrungsbeobachtung nicht mit einem gesicherten Dogma verwechselt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was ein Kennmuskel ist",
+        text: "Als Kennmuskel wird ein Muskel bezeichnet, der bei Problemen in einer bestimmten Körperregion reflektorisch „verspannt“ und in der Ruhelage des Patienten leicht palpatorisch aufgefunden werden kann. Sein diagnostischer Wert liegt darin, dass sein Auffinden auf bestimmte Problemregionen hindeutet, noch bevor diese selbst gezielt untersucht wurden. Solche reflektorischen Muskelzeichen sind bislang nur für den Menschen systematisch beschrieben; die hier wiedergegebene Zuordnung für Hund und Katze beruht auf wiederholter eigener Beobachtung der Autorinnen und wird von ihnen selbst ausdrücklich noch nicht als Dogma, sondern als vorläufige Erfahrung bezeichnet.",
+      },
+      {
+        type: "table",
+        heading: "Kennmuskeln beim Kleintier",
+        columns: ["Kennmuskel", "Hinweis auf…"],
+        rows: [
+          ["M. iliopsoas", "Hüftgelenkprobleme, Probleme im Bereich der kaudalen LWS"],
+          ["M. piriformis", "Hüftgelenkprobleme, Probleme im Bereich der unteren LWS, SIG"],
+          ["M. iliocostalis lumborum, M. quadratus lumborum", "Probleme an Hüftgelenk, SIG und/oder kaudaler LWS"],
+          ["M. longissimus", "betroffenes Segment bzw. dem Segment zugeordnete innere Organe"],
+          ["M. popliteus", "Kniegelenkbeschwerden"],
+          ["M. brachialis, M. biceps brachii", "Probleme an Schulter- oder Ellenbogengelenk"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum diese Tabelle nur ein Ausgangspunkt ist",
+        text: "Ein auffälliger Kennmuskel ersetzt keine gezielte Untersuchung der angezeigten Region, er lenkt lediglich die Aufmerksamkeit dorthin. Da die Zuordnung beim Tier nach eigener Aussage der Autorinnen noch weiter untersucht und verifiziert werden muss, sollte ein positiver Kennmuskel-Befund als Hinweis zur gezielten Nachuntersuchung verstanden werden — nicht als eigenständiger Beweis für eine bestimmte Diagnose.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Anatomieverwechslung", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.1.3, S. 78f. (Tab. 7.3), (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(24).pdf). Definition des Kennmuskel-Begriffs samt der ausdrücklichen Einschränkung auf eine vorläufige, noch zu verifizierende eigene Beobachtung sowie die vollständige Kennmuskel-Tabelle sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["iliopsoas"],
+  },
+  {
+    id: "joint-play-technik-traktionsstufen-wirbelsaeulen-limitation",
+    category: "UNTERSUCHUNG",
+    title: "Lösen, Straffen, Dehnen: die drei Traktionsstufen und der Joint-Play-Ablauf",
+    teaser:
+      "Eine Traktion ist nicht einfach ein Zug am Gelenk — je nach Stärke dient sie entweder nur der schmerzfreien Untersuchung oder bereits der eigentlichen Mobilisation. Und an der Wirbelsäule lässt sich damit ohnehin nie sagen, welche der beiden Gelenkseiten tatsächlich betroffen ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die drei Traktionsstufen",
+        text: "Traktion lässt sich in drei Stufen unterschiedlicher Stärke einteilen. Stufe 1 (Lösen/Piccolotraktion) hebt lediglich den Gelenkinnendruck auf und neutralisiert Adhäsionskräfte, ohne die Gelenkkapsel selbst zu dehnen — sie wird sowohl zur Untersuchung als auch in der Traktions-/Mobilisationsbehandlung eingesetzt. Stufe 2 (Straffen/„Take up the Slack“) überschreitet die Spannungsgrenze noch nicht, führt aber zu einer geringen Distraktion, bei der die Gelenkkapsel gestrafft wird; sie ist als geringer Gewebewiderstand spürbar, wirkt analgetisch, da sie die intraartikulären Strukturen entlastet, und wird ebenfalls sowohl zur Untersuchung als auch zur Mobilisationsbehandlung verwendet. Stufe 3 (Dehnen/„Over the Slack“) wird nahezu nie angewendet: Hier kommt es zu einer tatsächlichen Dehnung der Gelenkkapsel und ihrer kollagenen Fasern, spürbar als zweiter Gewebewiderstand, aber ohne begleitende muskuläre Anspannung. Grundregel für alle drei Stufen: Eine Traktion darf niemals Schmerzen auslösen — treten dabei Abwehrreaktionen des Patienten auf, ist eine Strukturdiagnostik obligat.",
+      },
+      {
+        type: "list",
+        heading: "Der Joint-Play-Ablauf",
+        items: [
+          "Eintasten: im Atemrhythmus allmähliches Einsinken in das Gewebe bei der Ausatmung, Knochen möglichst gelenknah ergreifen.",
+          "Neutral- oder Ruhestellung des Gelenks einstellen bzw. beibehalten.",
+          "Traktionszug (Stufe 1–2) senkrecht zur Pfannenebene: Ist der bewegte Gelenkpartner konvex, verläuft der Zug senkrecht zum fixierten (konkaven) Partner; ist der bewegte Partner konkav, wandert die Traktionsrichtung mit der Bewegung mit, immer senkrecht zur konkaven Gelenkfläche.",
+          "Anterior-posteriore bzw. ventrodorsale Parallelverschiebung unter leichtem Traktionszug, ohne Winkeländerung zwischen den Gelenkflächen — diagnostisches Kriterium ist der Widerstand am Ende des Bewegungsausschlags.",
+          "Laterolaterale Parallelverschiebung nach demselben Prinzip.",
+          "Seitneigungsfedern an Scharniergelenken, geprüft in 10–20° Beugung (Entspannung der Bänder).",
+          "Prüfung der Bänder in Streckstellung durch seitliche Öffnung des Gelenkspaltes — Seitenvergleich obligat. Rotationsbewegungen eignen sich für keinen dieser Schritte zur Joint-Play-Prüfung.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum an der Wirbelsäule keine echte Seitenzuordnung möglich ist",
+        text: "Mit Ausnahme der beiden Kopfgelenke (echte, tragende Synovialgelenke ohne Bandscheibe und ohne Facettengelenke, bei denen eine Gelenkspielprüfung im eigentlichen Sinn möglich ist) werden an der Wirbelsäule bei jeder Segmentuntersuchung immer gleichzeitig beide Facettengelenke — rechts und links — sowie die Verbindung zwischen den Wirbelkörpern mitgeprüft. Es lässt sich dabei nicht zuverlässig klären, ob das eine Facettengelenk sich nicht öffnet oder das gegenüberliegende sich nicht richtig schließt. Eine gefundene Funktionsstörung an der Wirbelsäule lässt sich deshalb immer nur auf die gestörte Bewegungsrichtung beziehen, nicht zuverlässig auf eine bestimmte Seite. Dies ist aus osteopathischer Sicht auch nicht weiter problematisch, da sich der Befund einer somatischen Dysfunktion ohnehin auf alle Strukturen einer Region bezieht (artikulär und myofaszial zusammen) — unabhängig davon ist diese Grenze der Methode selbst beim Interpretieren jedes Wirbelsäulenbefundes mitzudenken, auch außerhalb osteopathischer Zusammenhänge.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Anatomieverwechslung", "Überkonfidenz"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.2.2 f., S. 80–86 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(24).pdf). Die drei Traktionsstufen, der siebenschrittige Joint-Play-Ablauf sowie die Einschränkung der Seitenzuordnung an der Wirbelsäule (mit Ausnahme der Kopfgelenke) sind im Original so beschrieben. Ergänzt den bestehenden, eher theoretisch-biomechanischen Eintrag `rollen-gleiten-rollgleiten-ruhestellung-gelenkspiel` (Hohmann, andere Quelle) um die konkrete praktische Durchführung — bewusst nicht dupliziert, sondern als Technik-Ebene zum dortigen Grundlagenwissen angelegt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
