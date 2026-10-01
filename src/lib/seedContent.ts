@@ -13255,6 +13255,35 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "therapieverlauf-warnsignale-strukturerkrankung-probebehandlung",
+    category: "UNTERSUCHUNG",
+    title: "Wenn die Behandlung nicht anschlägt: ausbleibender Erfolg als diagnostisches Signal",
+    teaser:
+      "Eine einzelne Sitzung sagt wenig über die Prognose aus — aber spätestens nach der dritten Behandlung sollte sich etwas tun. Bleibt die erwartete Besserung aus, ist das kein Grund für mehr vom Gleichen, sondern eine Aufforderung, die Diagnose noch einmal von vorne zu denken.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die Drei-Sitzungs-Regel: ausbleibender Erfolg verlangt eine neue Grunduntersuchung",
+        text: "Spätestens nach der dritten Behandlung sollte eine Besserung der Befunde beziehungsweise der Beschwerden eingetreten sein. Bleibt sie aus oder lässt der Patient die Behandlung gar nicht erst zu, ist nicht die Technik zu wechseln, sondern die Diagnose selbst zu überprüfen — einschließlich einer nochmaligen, vollständigen Grunduntersuchung und der ausdrücklichen Frage, ob tatsächlich eine Strukturerkrankung vorliegt (etwa ein Bänderriss oder eine Tumorerkrankung), die anders beurteilt werden muss und einen anderen therapeutischen Ansatz braucht. Diese Regel gilt unabhängig vom gewählten Therapieverfahren: Ausbleibender Erfolg ist in erster Linie ein diagnostisches Signal, kein Hinweis darauf, einfach intensiver weiterzumachen. Dazu gehört auch die Ehrlichkeit, dass sich manche Patienten trotz korrekt gewählter Technik als vollständig therapieresistent erweisen.",
+      },
+      {
+        type: "text",
+        heading: "Warum eine einzelne Sitzung keine verlässliche Prognose erlaubt",
+        text: "Von einzelnen „Probebehandlungen“ ist aus genau diesem Grund abzuraten: Erst nach der zweiten, spätestens nach der dritten Sitzung lässt sich eine verlässliche Aussage über die voraussichtlich benötigte Zahl an Behandlungseinheiten, über sinnvolle Behandlungsintervalle und über die Gesamtprognose treffen. Ausmaß und Intensität der Anpassungsreaktion auf die vorangegangene Behandlung sind nämlich selbst ein wesentlicher Teil der Befunderhebung — die anfängliche Gesamteinschätzung kann sich gerade in den ersten Sitzungen noch deutlich verändern. Ein Erstgespräch sollte diesen Umstand daher von vornherein klarstellen, statt mit einer einzelnen Sitzung eine Prognose zu versprechen, die zu diesem Zeitpunkt noch gar nicht seriös gestellt werden kann.",
+      },
+      {
+        type: "text",
+        heading: "Dokumentation als Voraussetzung für die Verlaufskontrolle",
+        text: "Diese wiederholte Überprüfung der Diagnose setzt eine durchgehende Dokumentation der Hauptbefunde und des Therapieverlaufs voraus — nicht nur als Nachweis seriöser Arbeit gegenüber Tierhaltern und überweisenden Kollegen, sondern vor allem als Grundlage für die eigene Entscheidung über das weitere diagnostische und therapeutische Vorgehen. Dokumentation zwingt dazu, eine tastend-intuitive Wahrnehmung in eine benennbare, nachvollziehbare Aussage zu übersetzen — ohne diesen Schritt lässt sich eine ausbleibende Besserung über mehrere Sitzungen hinweg kaum zuverlässig von einer bloß subjektiv wechselnden Einschätzung unterscheiden.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Befund übersehen", "Überkonfidenz"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 4.8 f., S. 32f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(16).pdf). Die Drei-Sitzungs-Regel samt Konsequenz (erneute Grunduntersuchung, Strukturerkrankungs-Verdacht), die Ablehnung von Einzel-„Probebehandlungen“ mitsamt Begründung sowie der Dokumentationszweck als Voraussetzung für Verlaufskontrollen sind im Original so beschrieben; die Bezeichnung als „Drei-Sitzungs-Regel“ ist eigene zusammenfassende Benennung von Denkgang. Von der bestehenden, anatomisch-regionsspezifischen Warnsignal-Dokumentation aus Hárrer (`obere-hws-instabilitaet-dens-warnsignale`, Überweisungskriterien für die obere HWS) unterscheidet sich dieser Eintrag durch seinen allgemeinen, verfahrensunabhängigen Fokus auf den zeitlichen Therapieverlauf statt eines Einzelbefundes.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 293 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 81
+- Wissensbibliothek: 294 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 82
   Untersuchung, 102 Pathologie, 70 Biomechanik, 42 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -683,18 +683,21 @@ kein Überblick verloren geht.
   bestätigten Konzept beruht) sowie `verkettungsmuster-eskalationsstufen-
   unbehandelter-befund` (PATHOLOGIE: fünf Eskalationsstufen von der lokalen
   Spannungsadaptation bis zur Dekompensation, mit der klinischen Konsequenz
-  für Prognose und Erwartungsmanagement). Kap. 4.8–4.9 (Überprüfung der
-  Diagnose, Dokumentation) sind in Chunk o(14).pdf mitgelesen, aber inhaltlich
-  noch nicht in einen eigenen Eintrag umgesetzt (Warnsignale für
-  Strukturerkrankungen, Ablehnung von Einzel-„Probebehandlungen", 2.–3.
-  Sitzung als Prognose-Meilenstein) — Kandidat für einen weiteren UNTERSUCHUNG-
-  Eintrag in einer Folgesession. Kap. 1–2 (Geschichte, Technik-Überblick)
-  sowie Kap. 5–10 (die eigentlichen Techniken-Kapitel inkl. der
-  wissenschaftlich unterschiedlich gut abgesicherten viszeralen und
-  kraniosakralen Techniken) sind noch ungelesen — siehe Backlog-Eintrag zu
-  dieser Quelle für die
-  geplante Kapitel-Priorisierung und die Einordnung der strittigeren
-  Konzepte.
+  für Prognose und Erwartungsmanagement) sowie
+  `therapieverlauf-warnsignale-strukturerkrankung-probebehandlung`
+  (UNTERSUCHUNG: die Drei-Sitzungs-Regel — bleibt die erwartete Besserung
+  spätestens nach der dritten Behandlung aus, ist die Diagnose zu
+  überprüfen statt die Technik zu wechseln —, die Ablehnung von Einzel-
+  „Probebehandlungen" und Dokumentation als Voraussetzung für
+  Verlaufskontrolle). **Damit ist Kap. 4 „Der rote Faden der
+  osteopathischen Behandlung" (S. 26–33) vollständig ausgewertet** (mit
+  Ausnahme des kraniosakralen Rhythmusdifferenzierungs-Schritts, bewusst
+  ausgelassen). Kap. 1–2 (Geschichte, Technik-Überblick) sowie Kap. 5–10
+  (die eigentlichen Techniken-Kapitel inkl. der wissenschaftlich
+  unterschiedlich gut abgesicherten viszeralen und kraniosakralen
+  Techniken) sind noch ungelesen — siehe Backlog-Eintrag zu dieser Quelle
+  für die geplante Kapitel-Priorisierung und die Einordnung der
+  strittigeren Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -807,22 +810,19 @@ Kapitel.
 - [x] Kap. 3 „Diagnostisches Basiswissen" (S. 12–25, Chunks o(3)–o(7).pdf)
   **vollständig gelesen und ausgewertet — 4 neue Einträge**, siehe Stand
   oben.
-- [~] Kap. 4 „Der rote Faden der osteopathischen Behandlung" (S. 26–33):
-  **S. 26–32 vollständig gelesen (Chunks o(7), o(11), o(13)–o(14).pdf;
-  o(8)–o(10) und o(12) sind Drive-interne Duplikate ohne neuen Inhalt) — 2
-  neue Einträge**, siehe Stand oben
+- [x] Kap. 4 „Der rote Faden der osteopathischen Behandlung" (S. 26–33)
+  **vollständig gelesen und ausgewertet (Chunks o(7), o(11), o(13)–o(16).pdf;
+  o(8)–o(10), o(12), o(15) sind Drive-interne Duplikate ohne neuen Inhalt) —
+  3 neue Einträge**, siehe Stand oben
   (`vom-globalen-zum-spezifischen-behandlungsreihenfolge`,
-  `verkettungsmuster-eskalationsstufen-unbehandelter-befund`). Bewusst nicht
-  übernommen: der in 4.6.1–4.6.3 beschriebene Schritt des „globalen
+  `verkettungsmuster-eskalationsstufen-unbehandelter-befund`,
+  `therapieverlauf-warnsignale-strukturerkrankung-probebehandlung`). Bewusst
+  nicht übernommen: der in 4.6.1–4.6.3 beschriebene Schritt des „globalen
   Monitorings" zur Differenzierung von myofaszialer (dreidimensionaler) und
   kraniosakraler (linearer) Rhythmik, da dieser Schritt die unabhängig nicht
   bestätigte Wahrnehmbarkeit eines eigenständigen kraniosakralen Rhythmus
-  voraussetzt. Noch offen: 4.8–4.9 (S. 32f., in o(14).pdf bereits mitgelesen,
-  noch nicht in einen Eintrag umgesetzt — Warnsignale für
-  Strukturerkrankungen statt osteopathischer Behandlung, Ablehnung von
-  Einzel-„Probebehandlungen", 2.–3. Sitzung als Meilenstein für eine
-  verlässliche Prognose; guter Kandidat für einen UNTERSUCHUNG-Eintrag zu
-  Red-Flag-Erkennung und Therapieverlaufskontrolle).
+  voraussetzt — die einzige bewusste Auslassung in diesem ansonsten
+  vollständig ausgewerteten Kapitel.
 - [ ] Kap. 5–6 „Myofasziales Release" (S. 36–68): Faszienanatomie/-funktion
   aus osteopathischer Sicht, Faszienketten, Diaphragmen-Konzept,
   Release-Techniken für Gliedmaßen/Thorax/Becken/Kraniozervikal. Die reine
