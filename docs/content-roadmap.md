@@ -609,9 +609,24 @@ kein Überblick verloren geht.
   ist Kap. 4 „Untersuchungsgang" dieser Quelle inhaltlich vollständig
   ausgewertet** (23 neue Einträge aus Kap. 2–4 in dieser Session), mit
   Ausnahme bewusst zurückgestellter kleinerer Restthemen (siehe
-  Backlog-Eintrag zu dieser Quelle für die vollständige Liste). Kap. 5
-  („Methoden der Schmerztherapie"), 6 und 7 („Schmerztherapie bei
-  bestimmten Indikationen") stehen noch komplett aus.
+  Backlog-Eintrag zu dieser Quelle für die vollständige Liste). Kap. 5–8
+  wurden danach stichprobenartig gesichtet (mehrere Chunks aus Kap. 5
+  „Methoden der Schmerztherapie" sowie der Anfang von Kap. 7 „Schmerztherapie
+  bei bestimmten Indikationen"/Kap. 8) und bewusst NICHT vollständig
+  extrahiert: Kap. 5.2 besteht praktisch vollständig aus
+  Medikamentendosierungstabellen (außerhalb des Extraktionsziels), die
+  übrigen Abschnitte (Neuraltherapie, Akupunktur, Radiosynoviorthese,
+  Homöopathie) sowie Kap. 7 (tabellarischer Indikationskatalog nach
+  Neuraltherapie-/Akupunktur-/Homöopathie-Mittelauswahl) sind überwiegend
+  alternativmedizinische Modalitätenbeschreibungen ohne direkten
+  Physiotherapie- oder klinisch-diagnostischen Bezug, Kap. 8 ist reines
+  Praxisorganisations-Kapitel. **Begründete Entscheidung, nicht
+  Zeitmangel:** Diese Kapitel passen nicht zum evidenzbasierten
+  Physiotherapie-Trainings-Auftrag von Denkgang und werden bewusst
+  zurückgestellt (Details und die eine denkbare Ausnahme — die mehrfach
+  referenzierten Goldimplantations-Kriterien — im Backlog-Eintrag zu dieser
+  Quelle). **Kasper/Zohmann gilt damit für diese Session als
+  abgeschlossen: 23 neue Einträge aus Kap. 2–4.**
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -815,17 +830,43 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
     (4.1.1 Rasse/Verwendungszweck, 4.2 Anamnese-Detailkatalog, 4.3-Rest,
     4.4 Adspektions-Checkliste, 4.5.7.1 Funktionsprüfungs-Technik,
     4.7 Bildgebende Diagnostik, 4.8-Rest).
-- [ ] Kap. 5 „Methoden der Schmerztherapie" — noch nicht gesichtet.
-  Medikamentendosierungen bewusst außerhalb des Extraktionsziels (etablierte
-  Session-Konvention); alternative Modalitäten (Homöopathie, Aromatherapie,
-  Musiktherapie, falls enthalten) mit Vorsicht auf Passung zur
-  evidenzbasierten Physiotherapie-Ausrichtung von Denkgang prüfen, bevor
-  daraus Einträge entstehen.
-- [ ] Kap. 7 „Schmerztherapie bei bestimmten Indikationen" — noch nicht
-  gesichtet.
-- [ ] Restliche Kapitel (6, weitere) laut Inhaltsverzeichnis noch nicht
-  einzeln geprüft — Inhaltsverzeichnis bei Bedarf erneut aus Drive-Ordner
-  `1ujBnaEPGqeLZquilC5vXpGSTS0n4Gy_J` abrufen.
+- [x] **Kap. 5–8: stichprobenartig gesichtet (29.09.–01.10.2026), bewusst
+  NICHT in Einträge umgesetzt — begründete Entscheidung, kein Zeitmangel.**
+  Mehrere Chunks aus Kap. 5 „Methoden der Schmerztherapie" (g(28)–g(37).pdf,
+  S. 125–214) sowie der Anfang von Kap. 7 „Schmerztherapie bei bestimmten
+  Indikationen" (g(41).pdf, S. 304–306, Übergang zu Kap. 8 „Wesen und
+  Organisation einer Schmerzambulanz") direkt gelesen, um die inhaltliche
+  Ausrichtung einzuschätzen, bevor eine große Extraktion beauftragt wird
+  (wie bei Kap. 2–4 praktiziert). Befund: Kap. 5.2 „Medikamentöse
+  Schmerztherapie" besteht praktisch vollständig aus Dosierungstabellen
+  (Opioide, NSAIDs, Lokalanästhetika, Kortikosteroide, α2-Agonisten,
+  Ketamin, Tab. 5.1–5.5) — eindeutig außerhalb des Extraktionsziels
+  (etablierte Session-Konvention: keine Medikamentendosierungen). Die
+  übrigen Kap.-5-Abschnitte (5.3 Neuraltherapie-Grundlagen, 5.5/5.8
+  Akupunktur, 5.9 Neuraltherapie-Technik, 5.10 Radiosynoviorthese, 5.11
+  Homöopathie) sind überwiegend alternativmedizinische
+  Modalitätenbeschreibungen ohne direkten Physiotherapie- oder
+  klinisch-diagnostischen Bezug. Kap. 7 ist nach Stichprobe (Tab. 7.47
+  „Analbeutel") als Indikationskatalog im festen Tabellenschema
+  Leitsymptom/Therapieschlüssel/NT (Neuraltherapie-Punkte)/AP
+  (Akupunkturpunkte)/PT/GI/HP (Homöopathie-Mittel mit Symptombild)/MED
+  (Medikamente)/KOMB aufgebaut — strukturell ebenfalls primär
+  Modalitäten-/Mittel-Auswahl statt klinisches Denken oder
+  Physiotherapie-Technik. Kap. 8 ist reines Praxisorganisations-Kapitel
+  (Schmerzambulanz-Einrichtung, Terminplanung, Preisgestaltung) ohne
+  fachlichen Content. **Entscheidung:** Diese Kapitel passen nicht zum
+  evidenzbasierten Physiotherapie-Trainings-Auftrag von Denkgang (MASTER-
+  PROMPT) und werden bewusst nicht vollständig extrahiert — analog zur
+  bereits getroffenen Entscheidung gegen Kap. 3.8 dieser Quelle. Falls eine
+  künftige Session dennoch einzelne, klar physiotherapie-relevante Inseln
+  darin vermutet (am ehesten: die mehrfach referenzierte Goldimplantation
+  mit ihren Indikations-/Zeitpunkt-Kriterien, da in den bereits erstellten
+  Kap.-2–4-Einträgen durchgehend als Therapieoption erwähnt, ohne dass ihre
+  eigentlichen Kriterien bisher ausgewertet wurden), sollte das gezielt per
+  Einzelkapitel-Lektüre geprüft werden, nicht per Vollextraktion. **Damit
+  gilt Kasper/Zohmann, Ganzheitliche Schmerztherapie für Hund und Katze, für
+  diese Session als abgeschlossen: 23 neue Wissensbibliothek-Einträge aus
+  Kap. 2–4, Kap. 5–8 bewusst zurückgestellt.**
 
 ### PATHOLOGIE — VetCenter, Hundekrankheiten kompakt, „Erkrankungen des Bewegungsapparates" (121 S., vetcenter.thieme.de)
 
