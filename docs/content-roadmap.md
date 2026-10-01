@@ -807,11 +807,15 @@ kein Überblick verloren geht.
   abgedeckt** — kein neuer Eintrag. 2 eigenständige Biomechanik-Fakten
   aus demselben Abschnitt ergaben aber **2 weitere neue Einträge**, siehe
   Stand oben (`divergenz-konvergenz-facettengelenke-wirbelsaeulenbewegung`,
-  `pumpbewegung-henkelbewegung-rippenatmung`). Kap. 1–2 (Geschichte,
-  Technik-Überblick), Zehengelenke der Vordergliedmaße (laut Quelle
-  synonym zu den Hintergliedmaßen-Zehen, daher niedrige Priorität), der
-  Rest von 7.4.2 (S. 119–124: LWS-Behandlung, SIG, Wirbelsäulen-Release-
-  Techniken) sowie Kap. 8–10 (viszerale und kraniosakrale Techniken) sind
+  `pumpbewegung-henkelbewegung-rippenatmung`). Der Rest von 7.4.2
+  (S. 119–124: SIG und Schwanzwirbel) wurde gezielt gegen die bereits sehr
+  umfangreiche bestehende Hárrer-SIG-Dokumentation geprüft — durchgängige
+  Überschneidung, bewusst keine neuen Einträge. **Damit ist Kap. 7
+  „Osteoartikuläre Techniken" (S. 70–124) vollständig ausgewertet: 12 neue
+  Einträge insgesamt**, bei dokumentiertem Verzicht auf alle rein
+  technikbasierten oder bereits anderweitig abgedeckten Abschnitte (Details
+  im Backlog-Eintrag zu dieser Quelle). Kap. 1–2 (Geschichte, Technik-
+  Überblick) sowie Kap. 8–10 (viszerale und kraniosakrale Techniken) sind
   noch ungelesen — siehe Backlog-Eintrag zu dieser Quelle für die geplante
   Kapitel-Priorisierung und die Einordnung der strittigeren Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
@@ -974,7 +978,7 @@ Kapitel.
   **Damit ist Kap. 5–6 für diese Session abgeschlossen** (3 neue Einträge:
   Faszienrezeptoren, Diaphragmen-Katalog; die eigentlichen MFR-Techniken
   bewusst ausgelassen).
-- [~] **Kap. 7 „Osteoartikuläre Techniken" (S. 70–124) — wie erwartet die
+- [x] **Kap. 7 „Osteoartikuläre Techniken" (S. 70–124) — wie erwartet die
   bislang ergiebigste Einzelquelle dieses Buches.** 7.1 „Grundlagen der
   osteoartikulären Osteopathie" (S. 70–79, Chunks o(23)–o(24).pdf)
   vollständig gelesen: 7.1.1 (Gegenüberstellung Osteopathie/Manuelle
@@ -1070,6 +1074,31 @@ Kapitel.
   Hárrer und Kasper/Zohmann zu achten, aber nach den bisherigen BWS-/LWS-
   Funden weiterhin mit vereinzelten eigenständigen Anatomie-/Biomechanik-
   Nuggets neben überwiegend redundanten Grifftechniken zu rechnen.
+  **Update: Rest von 7.4.2 gelesen (S. 119–124, SIG und Schwanzwirbel,
+  Chunk o(26).pdf) — gezielt gegen die bestehende, bereits sehr
+  umfangreiche Hárrer-SIG-Dokumentation geprüft (u. a.
+  `iliosakralgelenk-anatomie-symptome-ursachen`,
+  `iliosakralgelenk-sakrum-ilium-laesion-beinlaenge`,
+  `iliosakralgelenk-manuelle-untersuchung-provokationstests`, die bereits
+  Nutation/Gegennutation, Joint Play, Provokationstests, die ⅗-Regel, Lig.
+  sacrotuberale und reduziertes Rutenschwingen als ISG-Symptom abdecken).
+  Ergebnis: durchgängige inhaltliche Überschneidung — bewusst keine neuen
+  Einträge aus dem SIG- und Schwanzwirbel-Abschnitt.** Dasselbe gilt für
+  die konkreten Joint-Play-Grifftechniken der Schwanzwirbel (reine
+  Technik). **Kap. 7 „Osteoartikuläre Techniken" (S. 70–124) ist damit
+  vollständig ausgewertet.** Bilanz: 12 neue Einträge aus diesem Kapitel
+  insgesamt (Ausweichbewegungen, Kennmuskeln aus 7.1.3, Joint-Play-
+  Technik/Traktionsstufen, Anamnese-Struktur, drei Einträge aus der
+  Wirbelsäulen-Einleitung/-Anamnese in 7.4.1, antiklinaler Brustwirbel,
+  Divergenz/Konvergenz, Pumpbewegung/Henkelbewegung aus 7.4.2) — bei
+  bewusstem, dokumentiertem Verzicht auf die gesamten gelenkspezifischen
+  Grifftechnik-Abschnitte für Hüfte, Knie, Tibiofibulargelenk, Tarsus,
+  Schulter, Ellenbogen, Karpus, HWS, BWS/LWS-Facettengelenke, SIG und
+  Schwanzwirbel (durchgängig entweder reine Technik ohne Lehrwert oder
+  bereits durch Hárrer/Koch-Fischer bzw. durch Einträge aus Kap. 7.1.3
+  dieser Quelle selbst abgedeckt) sowie auf 7.1.1/7.1.2 (Drei-Schulen-
+  Gegenüberstellung, bereits durch `manuelle-medizin-drei-schulen-omt-
+  chiropraxis-osteopathie` abgedeckt).
 - [ ] Kap. 8 „Viszerale Techniken" (S. 125–162): Organtopografie,
   viszerovertebrale Diagnostik, viszerales Faszienskelett. Enthält
   Konzepte (Organmotilität, Organverbindung über embryonalen Ursprung) mit
