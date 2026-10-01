@@ -718,17 +718,28 @@ benannte PDF-Dateien (kein Chunk-Schema). Vollständige Dateiliste (Stand
   Priorität (Denkgang fokussiert nicht auf Ernährung).
 - [ ] „Labordiagnostik – Einfluss des Alters...“ — laborchemisch, niedrige
   Priorität.
-- [ ] Organsystemische Kapitel (Nervensystem, Zirkulationsapparat,
-  Harnsystem, Respirationstrakt, Endokrinologie, Gynäkologie, Leber,
-  Exokrines Pankreas, Magen-Darm-Trakt, Haarkleid/Haut/Unterhaut,
-  Krankheiten des Gehörgangs, Krankheiten der Augen, Tumorkrankheiten) —
-  überwiegend internistisch/organspezifisch, voraussichtlich geringe
-  Ausbeute für den physiotherapeutischen Fokus von Denkgang; am ehesten
-  lohnt sich ein kurzer Blick in „Nervensystem“ (neurogeriatrische
-  Mobilitätsaspekte denkbar) und „Zirkulationsapparat“ (Belastbarkeits-
-  grenzen für Bewegungstherapie bei alten Herzpatienten), falls die Quelle
-  in einer künftigen Session weiterverfolgt wird — alle anderen eher
-  nachrangig.
+- [x] „Nervensystem“ (Andrea Tipold) und „Zirkulationsapparat“ (Wilfried
+  Kraft) **direkt gegengeprüft (01.10.2026) — bewusst NICHT umgesetzt.**
+  Beide Kapitel wurden auf physiotherapie-relevante Begriffe durchsucht
+  (Physiotherapie, Krankengymnastik, Bewegungstherapie, Rehabilitation,
+  Massage, Mobilität, Gangbild) — null Treffer in „Nervensystem“ (reine
+  neurologische Differentialdiagnostik altersbedingter ZNS-Veränderungen
+  nach Inzidenzstatistiken, ohne jeden Bewegungs-/Reha-Bezug). Auch
+  „Zirkulationsapparat“ ist durchgehend internistische Kardiologie
+  (Epidemiologie, Pathophysiologie, Diagnostik inkl. EKG-/Echokardiographie-
+  Referenzwerttabellen, Medikamentendosierungen) — die einzige
+  physiotherapie-nahe Aussage ist ein einzelner Satz zur „Reduktion der
+  körperlichen Belastung, bei niederen Insuffizienzgraden jedoch keine
+  absolute Ruhigstellung“, zu knapp für einen eigenständigen Eintrag.
+  Damit ist die ursprüngliche Vermutung, diese beiden Kapitel könnten
+  physiotherapie-relevante Inseln enthalten, widerlegt statt nur vermutet.
+- [ ] Übrige organsystemische Kapitel (Harnsystem, Respirationstrakt,
+  Endokrinologie, Gynäkologie, Leber, Exokrines Pankreas, Magen-Darm-Trakt,
+  Haarkleid/Haut/Unterhaut, Krankheiten des Gehörgangs, Krankheiten der
+  Augen, Tumorkrankheiten) — nach dem Befund bei Nervensystem/
+  Zirkulationsapparat mit sehr geringer Erwartung an physiotherapie-
+  relevante Inhalte; nur noch bei sehr gezieltem Bedarf einzeln prüfen,
+  keine pauschale Vollsichtung mehr vorgesehen.
 - [ ] Möglicherweise weitere, noch nicht aufgelistete Dateien im
   Drive-Ordner (nur zwei Seiten der Ordnerauflistung abgerufen) — bei
   Fortsetzung zuerst vollständige Dateiliste erneut abrufen.
