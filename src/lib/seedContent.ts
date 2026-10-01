@@ -12998,6 +12998,70 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "physiotherapie-geriatrischer-patient-altersveraenderungen-fahrplan",
+    category: "THERAPIE",
+    title: "Welche Alterung welche Physiotherapie braucht: ein System-für-System-Fahrplan",
+    teaser:
+      "Dehydrierung und Fibrosierung sind die zwei Grundmechanismen des Alterns — für fast jede ihrer Folgen an einem einzelnen Organsystem gibt es eine passgenaue physiotherapeutische Antwort, nicht nur allgemeine „Schonung“.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Grundmechanismen hinter sehr unterschiedlichen Symptomen",
+        text: "„Altern“ ist definitionsgemäß die herabgesetzte Fähigkeit, Stress zu widerstehen — gekennzeichnet einerseits durch einen allgemeinen Involutionsprozess, andererseits durch eine fortschreitende Einschränkung der Funktionsreserve einzelner Organe infolge wiederholt aufgetretener kleinerer Schädigungen. Beiden liegen vor allem zwei Grundprinzipien zugrunde: Dehydrierung (Austrocknung der Gewebe durch geringeres Wasserbindungsvermögen) und Fibrosierung (fortschreitende Bindegewebseinlagerung mit Verlust des Anteils funktionsfähiger Zellen im Organ). Aus diesen beiden Mechanismen leiten sich scheinbar ganz unterschiedliche Alterserscheinungen ab — von äußeren Veränderungen an Haarkleid und Maul über Veränderungen im Sauerstoffstoffwechsel und Verdauungstrakt bis zu abnehmender metabolischer Rate, gestörter Thermoregulation, verändertem Schlafrhythmus und allgemeiner Muskelatrophie.",
+      },
+      {
+        type: "text",
+        heading: "Das Behandlungskonzept im Überblick",
+        text: "Empfohlen werden 2–3 Anwendungsserien pro Jahr mit je 5–10 Einzelanwendungen. Die Methodenpalette reicht von Wärme, Massage und Lichttherapie über Physiotherapie im engeren Sinn (passive Bewegung, Widerstandsübungen, isometrische Übungen) bis zum Schwimmen — wobei die klassische „schwedische“ Massage mit ihrem breiten Wirkungsspektrum eindeutig im Zentrum des Behandlungskonzepts steht.",
+      },
+      {
+        type: "table",
+        heading: "Von der Alterungsveränderung zur passenden Intervention",
+        columns: ["Altersbedingte Veränderung", "Physiotherapeutische Antwort"],
+        rows: [
+          [
+            "Verdauungstrakt: Zahn-/Zahnfleischveränderungen, verlängerte Darmpassagezeit",
+            "Kolonmassage",
+          ],
+          [
+            "Sauerstoffstoffwechsel: zelluläre Hypoxie durch eingeschränkte Herzfunktion und arteriokapilläre Fibrose",
+            "Durchblutungsförderung durch Thermotherapie, Massage und Bewegungstherapie — die Ganzkörpermassage übt dabei über ihre positiv chronotrope Wirkung einen Trainingseffekt auf den Herzmuskel aus, die sogenannte „physikalische Digitaliswirkung“",
+          ],
+          [
+            "Respiration: Atemmuskel-Atrophie, Lungenfibrose, erhöhte Sekretviskosität, insuffizienter mukoziliärer Apparat",
+            "Thoraxklopfungen unterstützen den mukoziliären Sekretabtransport; dehnende Massage der Interkostalmuskulatur verbessert die Brustkorbdehnung; angepasstes Ausdauertraining verbessert die O₂-Ausnutzung",
+          ],
+          [
+            "Metabolismus: schilddrüsenbedingtes Sinken des Grundumsatzes, mangelnde Leberfunktion",
+            "Massage steigert den Stoffwechsel; Lichttherapie mit UV-Licht erhöht den Grundumsatz",
+          ],
+          [
+            "Thermoregulation: abnehmende Wärmeproduktion, verlangsamte Vasomotorenreaktion",
+            "Erwärmung des Körpers durch Thermotherapie und Massage",
+          ],
+          [
+            "Schlafrhythmus: kürzere, aber häufigere Schlafphasen",
+            "Lichttherapie mit sichtbarem Licht zur Regulation des Schlaf-Wach-Musters",
+          ],
+          [
+            "Muskelatrophie: Fibrosierung plus dehydrierungsbedingte Faseratrophie",
+            "Wärme und Massage wirken der Dehydrierung der Muskelfasern entgegen und verbessern die Sauerstoffversorgung — gute Voraussetzung für anschließenden Muskelaufbau durch Widerstandsübungen, isometrische Übungen, Schwimmen (sofern die Herz-Kreislauf-Situation es zulässt) und angepasstes Ausdauertraining",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum Massage speziell analgetisch wirkt",
+        text: "Die Schmerzreduktion durch Massage entsteht aus mehreren, sich zeitlich überlagernden und dadurch potenzierenden Mechanismen: dem Massagedruck selbst, der über Gegenirritation nach der Gate-Control-Theorie eine Schmerzüberlagerung bewirkt; der depletorischen (abschwemmenden) Wirkung, die schmerzauslösende Stoffe wie Histamin und Prostaglandine aus dem Gewebe abtransportiert; der verbesserten Sauerstoffversorgung durch die Hyperämie, die den lokalen pH-Wert anhebt und dadurch die Schmerzschwelle erhöht; sowie einer Endorphinausschüttung mit allgemeiner, auch psychischer Relaxation. Ergänzend sinken unter Massageanwendung Hämatokrit und Plasmaviskosität, was insgesamt die Fließeigenschaften des Blutes verbessert.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Alexander, Cécile-Simone, „Massage als Metaphylaxe beim geriatrischen Patienten“ (Vortrag anlässlich des 1. Kongresses für Ganzheitliche Tiermedizin, 08.04.2001, Veitshöchheim). In: Kraft, Wilfried (Hrsg.), Geriatrie bei Hund und Katze, 2. Auflage, Parey Verlag, Stuttgart, 2003 (vollständig per Direktextraktion aus vetcenter.thieme.de ausgewertet, doi:10.1055/b-0042-189927). Die zwei Grundmechanismen des Alterns (Dehydrierung, Fibrosierung), das Behandlungskonzept (Zeitrahmen, Methodenpalette), der vollständige Fahrplan von Alterungsveränderung zu physiotherapeutischer Intervention (inkl. der „physikalischen Digitaliswirkung“ der Ganzkörpermassage) sowie die fünf sich überlagernden analgetischen Massage-Mechanismen sind im Original so beschrieben. Dieselbe Autorin verfasste auch „Physikalische Therapie für Kleintiere“ (Parey, 2003), aus dem diese Session bereits den Eintrag `klassische-massagegriffe-fuenf-handgriffe-hoffman` zu den fünf Massagegriffen selbst erstellt hat — jener Eintrag erklärt die Grifftechniken und ihre allgemeine Wirkung, dieser Eintrag ergänzt ihn um die hier erstmals systematisch dargestellte geriatrische Anwendungslogik (welche konkrete Alterungsveränderung welche konkrete Intervention braucht) — bewusst nicht dupliziert, sondern als eigenständige Anwendungsebene angelegt. Dies ist der erste Eintrag aus der neuen Quelle Kraft (Hrsg.), Geriatrie bei Hund und Katze.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

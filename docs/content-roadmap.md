@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 286 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 78
-  Untersuchung, 101 Pathologie, 70 Biomechanik, 40 Therapie — genaue
+- Wissensbibliothek: 287 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 78
+  Untersuchung, 101 Pathologie, 70 Biomechanik, 41 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -627,6 +627,28 @@ kein Überblick verloren geht.
   referenzierten Goldimplantations-Kriterien — im Backlog-Eintrag zu dieser
   Quelle). **Kasper/Zohmann gilt damit für diese Session als
   abgeschlossen: 23 neue Einträge aus Kap. 2–4.**
+- **Neue Quelle (01.10.2026): Kraft, Wilfried (Hrsg.), Geriatrie bei Hund
+  und Katze, 2. Auflage, Parey Verlag, Stuttgart, 2003.** Aus Vanessas
+  Google-Drive-Bibliothek erschlossen (Ordner-ID
+  `1dsKHQd_GQUEfcu0VhHW1MzaxnD46XwKq`); anders als die PDF-Chunk-Bücher
+  liegt diese Quelle als einzelne, nach Organsystem/Thema benannte
+  VetCenter-Kapitel-PDFs vor (Einführung, Allgemeines, je ein PDF pro
+  Organsystem — Nervensystem, Zirkulationsapparat, Harnsystem usw. —, plus
+  Querschnittsthemen wie Ernährung, Anästhesie, Labordiagnostik im Alter).
+  Direkt gelesen: „Massage als Metaphylaxe beim geriatrischen Patienten“
+  (Cécile-Simone Alexander, Vortrag 2001) — daraus 1 neuer Eintrag
+  `physiotherapie-geriatrischer-patient-altersveraenderungen-fahrplan`
+  (THERAPIE): die zwei Grundmechanismen des Alterns (Dehydrierung,
+  Fibrosierung) und ein vollständiger System-für-System-Fahrplan von
+  Alterungsveränderung zu konkreter physiotherapeutischer Intervention
+  (inkl. der „physikalischen Digitaliswirkung“ der Ganzkörpermassage auf
+  den Herzmuskel), bewusst ergänzend zum bestehenden Eintrag zu den fünf
+  klassischen Massagegriffen (derselben Autorin, aus ihrem anderen Buch)
+  angelegt, nicht dupliziert. Die übrigen, organsystemisch benannten
+  Kapitel dieser Quelle sind überwiegend internistisch (Endokrinologie,
+  Gynäkologie, Harnsystem usw.) und noch nicht gesichtet — siehe
+  Backlog-Eintrag zu dieser Quelle für die Einschätzung, welche davon für
+  Denkgangs physiotherapeutischen Fokus voraussichtlich ergiebig sind.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -672,6 +694,44 @@ kein Überblick verloren geht.
 Checkboxen = grobe Segmentierung, kein 1:1-Verhältnis zu späteren Einträgen (ein
 Kapitel kann mehrere Einträge ergeben oder umgekehrt). `[ ]` offen, `[x]` erledigt,
 `[~]` teilweise/in Arbeit.
+
+### THERAPIE — Kraft, Wilfried (Hrsg.), Geriatrie bei Hund und Katze (Parey Verlag, 2. Aufl. 2003, VetCenter/Thieme)
+
+Quelle liegt in Vanessas Google-Drive-Bibliothek (Ordner-ID
+`1dsKHQd_GQUEfcu0VhHW1MzaxnD46XwKq`) als einzelne, nach Thema/Organsystem
+benannte PDF-Dateien (kein Chunk-Schema). Vollständige Dateiliste (Stand
+01.10.2026, zwei Ordnerseiten abgerufen):
+
+- [x] „Massage als Metaphylaxe beim geriatrischen Patienten“ (Alexander):
+  daraus `physiotherapie-geriatrischer-patient-altersveraenderungen-fahrplan`.
+- [ ] „Einführung“, „Allgemeines“ — noch nicht gesichtet; am ehesten
+  Kandidaten für grundlegende geriatrische Konzepte mit Querbezug zu
+  Physiotherapie, vor Extraktion kurz gegenprüfen.
+- [ ] „Grundsätze der Therapie von Krankheiten...“ (Dateiname abgeschnitten,
+  vollständigen Titel beim Öffnen prüfen) — potenziell physiotherapie-
+  relevant, Titel deutet auf allgemeine Therapieprinzipien hin.
+- [ ] „Krankheitsprophylaxe“ — potenziell relevant für präventive
+  Trainings-/Bewegungsinhalte, kurz prüfen.
+- [ ] „Anästhesie beim alten Patienten“ — eher anästhesiologisch/internistisch,
+  niedrige Priorität für Denkgangs Physiotherapie-Fokus.
+- [ ] „Ernährung alter Hunde und Katzen“ — ernährungsmedizinisch, niedrige
+  Priorität (Denkgang fokussiert nicht auf Ernährung).
+- [ ] „Labordiagnostik – Einfluss des Alters...“ — laborchemisch, niedrige
+  Priorität.
+- [ ] Organsystemische Kapitel (Nervensystem, Zirkulationsapparat,
+  Harnsystem, Respirationstrakt, Endokrinologie, Gynäkologie, Leber,
+  Exokrines Pankreas, Magen-Darm-Trakt, Haarkleid/Haut/Unterhaut,
+  Krankheiten des Gehörgangs, Krankheiten der Augen, Tumorkrankheiten) —
+  überwiegend internistisch/organspezifisch, voraussichtlich geringe
+  Ausbeute für den physiotherapeutischen Fokus von Denkgang; am ehesten
+  lohnt sich ein kurzer Blick in „Nervensystem“ (neurogeriatrische
+  Mobilitätsaspekte denkbar) und „Zirkulationsapparat“ (Belastbarkeits-
+  grenzen für Bewegungstherapie bei alten Herzpatienten), falls die Quelle
+  in einer künftigen Session weiterverfolgt wird — alle anderen eher
+  nachrangig.
+- [ ] Möglicherweise weitere, noch nicht aufgelistete Dateien im
+  Drive-Ordner (nur zwei Seiten der Ordnerauflistung abgerufen) — bei
+  Fortsetzung zuerst vollständige Dateiliste erneut abrufen.
 
 ### PATHOLOGIE/BIOMECHANIK/UNTERSUCHUNG — Kasper/Zohmann, Ganzheitliche Schmerztherapie für Hund und Katze (ISBN 978-3-8304-9288-7, Sonntag/Thieme, 2. Aufl. 2011)
 
