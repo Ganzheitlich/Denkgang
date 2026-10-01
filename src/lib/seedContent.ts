@@ -5556,7 +5556,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       {
         type: "text",
         heading: "Klinisches Bild",
-        text: "Langsamer, progressiver Verlauf mit Ataxie der Hintergliedmaßen, Schwäche und Parese; die Hintergliedmaßen können dabei gekreuzt stehen bleiben. Rückenschmerz fehlt meist. Die Reflexe der Hinterhand sind normal bis gesteigert (Ausdruck eines oberen Motoneuron-Ausfalls), wobei der Patellareflex manchmal auch ganz ausfallen kann. In späten Stadien werden die Hunde harn- und kotinkontinent, bei langem Verlauf ist auch die Vordergliedmaßenfunktion betroffen.",
+        text: "Langsamer, progressiver Verlauf mit Ataxie der Hintergliedmaßen, Schwäche und Parese; die Hintergliedmaßen können dabei gekreuzt stehen bleiben. Rückenschmerz fehlt meist. Die Reflexe der Hinterhand sind normal bis gesteigert (Ausdruck eines oberen Motoneuron-Ausfalls), wobei der Patellareflex manchmal auch ganz ausfallen kann. Ein frühes, wenn auch nicht pathognomonisches Erstsymptom — oft schon vor einer sichtbaren Parese bemerkbar — sind stark abgeschliffene Mittelkrallen der Hinterpfoten, die durch das noch dezente Nachschleifen der Zehen beim Gehen entstehen. In späten Stadien werden die Hunde harn- und kotinkontinent, bei langem Verlauf ist auch die Vordergliedmaßenfunktion betroffen.",
       },
       {
         type: "text",
@@ -5576,7 +5576,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Faktenwissen", "Differentialdiagnostik unvollständig", "Befund überbewertet"],
     sourceStatus:
-      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.3 (Degenerative Myelopathie), S. 232. Ätiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.5, Kap. 7.10.2) um die volle klinische Tiefe aus Kapitel 9. Ergänzt (29.09.2026) um das konkrete physiotherapeutische Vorgehen aus Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Degenerative Myelopathie“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984) — diese ältere Quelle nennt die Ursache noch als ungeklärt (vor Entdeckung der SOD1-Mutation 2009), was keinen Widerspruch, sondern lediglich einen durch das Publikationsdatum bedingten Wissensstand darstellt; das hier übernommene physiotherapeutische Vorgehen selbst steht nicht im Widerspruch zur oben verifizierten Quelle.",
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.3 (Degenerative Myelopathie), S. 232. Ätiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.5, Kap. 7.10.2) um die volle klinische Tiefe aus Kapitel 9. Ergänzt (29.09.2026) um das konkrete physiotherapeutische Vorgehen aus Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Degenerative Myelopathie“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984) — diese ältere Quelle nennt die Ursache noch als ungeklärt (vor Entdeckung der SOD1-Mutation 2009), was keinen Widerspruch, sondern lediglich einen durch das Publikationsdatum bedingten Wissensstand darstellt; das hier übernommene physiotherapeutische Vorgehen selbst steht nicht im Widerspruch zur oben verifizierten Quelle. Ergänzt (01.10.2026) um das als frühes, nicht pathognomonisches Erstsymptom beschriebene Abschleifen der Mittelkrallen der Hinterpfoten aus Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 7.1.5, S. 86 (Chunk f(7).pdf) — im Original so beschrieben, kein Widerspruch zu den bereits verifizierten Angaben.",
     relatedCaseIds: [],
     relatedAnatomyIds: ["rueckenmark"],
   },
@@ -14392,6 +14392,49 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Befund übersehen", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 6.7.4 und 6.7.6, S. 75–78 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(6).pdf). Die knöchern-faszial-muskuläre Zusammensetzung der vorderen Thoraxapertur sowie des Diaphragma pelvis (inkl. seiner Dreiteilung in Pars analis/urogenitalis/Perineum und der beteiligten Beckenstrukturen) sind im Original so beschrieben; ebenso die Einordnung beider Strukturen als funktionelle, wenn auch nicht streng vertikal verlaufende Diaphragmen. Bewusst nicht übernommen: sämtliche im selben Abschnitt vorgeschlagenen Behandlungstechniken (Ear Pull, Unwinding der jeweiligen Diaphragmen) — diese beruhen auf derselben unabhängig nicht bestätigten Eigenwahrnehmung wie die bereits ausgeschlossene MFR-/Listening-/Motilitäts-Technik. Die Verknüpfung mit den bestehenden Diaphragmen-Einträgen (beide aus Kap. 2.6 bzw. Könneker/Reiter) ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "fascia-cervicalis-profunda-drei-blaetter-vagosympathicus-trachea",
+    category: "ANATOMIE",
+    title: "Die Fascia cervicalis profunda: drei Blätter, eine Schutzhülle für Halsorgane",
+    teaser:
+      "Unter der tiefen Halsfaszie verlaufen Truncus vagosympathicus, N. laryngeus recurrens, A. carotis communis, Speise- und Luftröhre — ein anatomisches Bündel, das erklärt, warum Druck auf den Hals mehr als nur Muskulatur betrifft.",
+    sections: [
+      {
+        type: "text",
+        heading: "Verlauf: vom Atlas zum Brustbein",
+        text: "Die Fascia cervicalis profunda entspringt am lateralen Atlasflügel sowie am Fels- und Zungenbein, bedeckt die ventrale Halsseite und läuft spitzwinklig auf das Manubrium sterni zu. Bei kurzhaarigen Hunden lässt sich die Trennlinie zur oberflächlicher liegenden Fascia cervicalis superficialis am aufgestellten Haarkranz erkennen.",
+      },
+      {
+        type: "table",
+        heading: "Die drei Blätter und ihr jeweiliger Inhalt",
+        columns: ["Blatt", "Was es umhüllt"],
+        rows: [
+          [
+            "Oberflächliches Blatt",
+            "M. longus capitis, M. longus colli (als Lamina praevertebralis)",
+          ],
+          [
+            "Tiefes Blatt",
+            "Truncus vagosympathicus, N. laryngeus recurrens, A. carotis communis",
+          ],
+          [
+            "Oberflächliches und tiefes Blatt gemeinsam",
+            "Speiseröhre und Luftröhre (seitlich bzw. ventral umhüllt)",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum diese Hüllfunktion klinisch bedeutsam ist",
+        text: "Dass gleich drei funktionell sehr unterschiedliche Strukturen — der vegetative Truncus vagosympathicus, der motorisch für den Kehlkopf zuständige N. laryngeus recurrens und die große A. carotis communis — gemeinsam von derselben Faszienhülle umschlossen werden, erklärt, warum mechanischer Druck auf den ventralen Hals (z. B. durch ein zu eng sitzendes oder reibendes Halsband) potenziell nicht nur lokale Hautirritationen, sondern auch diese tiefer liegenden neurovaskulären Strukturen betreffen kann. Die Faszie selbst kann zudem über ihre Verbindung zur Fascia endothoracica Spannung in Richtung Perikard und Pleura weiterleiten.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 7.1.4, S. 83–85 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(7).pdf). Der Verlauf der Fascia cervicalis profunda, ihre drei Blätter mit den jeweils umhüllten Strukturen sowie die Verbindung zur Fascia endothoracica sind im Original so beschrieben. Bewusst nicht übernommen: die im selben Abschnitt beschriebenen weiterführenden Kausalketten über das Sphenobasilargelenk, den „craniosacralen Rhythmus“, das „interkranielle Membransystem“ sowie eine behauptete „energetische Verbindung“ zwischen Proc. mastoideus und Tuber ossis ischii — diese Aussagen sind unabhängig nicht verifizierbar und gehören zur selben disputierten Kategorie wie die bereits bei Könneker/Reiter (Kap. 9) ausgeschlossenen craniosacralen Konzepte.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },

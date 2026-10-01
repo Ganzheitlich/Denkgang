@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 327 Einträge (9 Anatomie-Spiegelungen, 10 Grundlagen, 92
+- Wissensbibliothek: 328 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 92
   Untersuchung, 108 Pathologie, 84 Biomechanik, 44 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -1012,7 +1012,48 @@ kein Überblick verloren geht.
   (`vordere-thoraxapertur-diaphragma-pelvis-anatomische-grenzen`). Damit
   ist Kap. 6 trotz seines überwiegend technik- und
   craniosacral-lastigen Profils mit 3 soliden neuen Einträgen
-  abgeschlossen.
+  abgeschlossen. Danach Teil 4 „Das parietale System" begonnen: Chunk
+  f(7).pdf gelesen (Kap. 7.1 „Kopf-, Hals- und Rumpffaszien", S. 80–96,
+  vollständig) — bestätigt die im Backlog bereits vorab geäußerte
+  Erwartung eines erheblichen Überschneidungs- und Craniosacral-
+  Kontaminationsrisikos sehr deutlich: Praktisch jede der acht
+  Einzelfaszien-Unterkapitel (7.1.1–7.1.8) verknüpft ihre jeweilige
+  Restriktion über lange, unabhängig nicht verifizierbare Kausalketten
+  mit dem „Sphenobasilargelenk", dem „craniosacralen Rhythmus" bzw. dem
+  „interkraniellen Membransystem" — bis hin zu einer im Original explizit
+  als Vermutung formulierten „energetischen Verbindung" zwischen Proc.
+  mastoideus und Tuber ossis ischii. Die jeweiligen
+  „Indikationen"-Listen reichen entsprechend bis zu „Lernschwierigkeiten,
+  Aggressionen, Mattigkeit, Depression, Angst" als angeblicher Folge
+  einer Kopffaszien-Restriktion — eine Kausalbehauptung, die weit über
+  das hinausgeht, was unabhängig belegbar ist, und bewusst nicht
+  übernommen wurde (dieselbe Einordnung wie das bereits bei Könneker/
+  Reiter, Kap. 9, ausgeschlossene craniosacrale Konzept). Die
+  „Behandlungsvorschläge" bestehen zudem durchgehend aus bereits
+  bekannter oder reiner Grifftechnik (Unwinding, Ear Pull, TTouches,
+  Clear the Confusion, myofasziales Release). Trotz dieses insgesamt
+  wenig ergiebigen Profils fanden sich **2 werthaltige, von der
+  Craniosacral-Kontamination klar abtrennbare Inhalte**: Die drei Blätter
+  der Fascia cervicalis profunda mit ihrem jeweiligen anatomischen Inhalt
+  (vegetativer Truncus vagosympathicus, N. laryngeus recurrens, A.
+  carotis communis, Speise-/Luftröhre) — unstrittige, klinisch relevante
+  Halsanatomie, die erklärt, warum Druck durch ein Halsband mehr als nur
+  Haut betreffen kann
+  (`fascia-cervicalis-profunda-drei-blaetter-vagosympathicus-trachea`);
+  sowie aus 7.1.5 (Fascia trunci superficialis, die im Text abrupt in
+  einen Exkurs zur degenerativen Myelopathie übergeht) das dort genannte
+  frühe, nicht pathognomonische Erstsymptom der abgeschliffenen
+  Mittelkrallen der Hinterpfoten — als Ergänzung in den bereits
+  bestehenden, sehr ausführlichen DM-Eintrag eingearbeitet statt
+  dupliziert. Die übrigen sechs Unterkapitel (7.1.1, 7.1.2, 7.1.3, 7.1.6,
+  7.1.7, 7.1.8: Fascia capitis superficialis/profunda, Fascia cervicalis
+  superficialis, Fascia trunci profunda, Fascia thoracolumbalis, Fascia
+  spinocostotransversalis) wurden gezielt auf unabhängig von der
+  Craniosacral-Theorie stehende, neue Fakten geprüft und ergaben keinen
+  zusätzlichen Eintrag — entweder reine Grifftechnik oder inhaltliche
+  Überschneidung mit der bereits sehr umfangreichen bestehenden
+  Thorakolumbalfaszien-/Rippen-Dokumentation aus Hárrer und Könneker/
+  Reiter.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1434,11 +1475,23 @@ Status:
   aber die anatomischen Grenzen von vorderer Thoraxapertur und Diaphragma
   pelvis waren neu
   (`vordere-thoraxapertur-diaphragma-pelvis-anatomische-grenzen`).
-- [ ] Kap. 7 „Das parietale System" (S. 80–117): fasziale Anatomie von Kopf/
-  Hals/Rumpf und allen vier Gliedmaßen — noch ungelesen, voraussichtlich
-  solide Anatomie, aber mit erheblichem Überschneidungsrisiko zu
-  bestehenden Hárrer- und Könneker/Reiter-Faszieninhalten; vor Extraktion
-  gezielt gegenprüfen statt pauschal zu übernehmen.
+- [~] Kap. 7 „Das parietale System" (S. 80–117): 7.1 „Kopf-, Hals- und
+  Rumpffaszien" (S. 80–96, Chunk f(7).pdf) **vollständig gelesen — 1 neuer
+  Eintrag plus 1 Ergänzung eines bestehenden Eintrags**, siehe Stand oben
+  für die ausführliche Begründung. Entgegen der ursprünglichen Erwartung
+  „solide Anatomie" dominiert in 7.1 nicht Überschneidung mit Hárrer/
+  Könneker-Reiter, sondern eine durchgehende Verknüpfung jeder
+  Einzelfaszie mit craniosacraler Theorie (Sphenobasilargelenk,
+  „energetische" Fernverbindungen, bis zu Verhaltensbehauptungen wie
+  „Lernschwierigkeiten, Aggressionen" als Restriktionsfolge) — dieselbe
+  Kategorie wie das bereits bei Könneker/Reiter ausgeschlossene Kap. 9.
+  Noch offen: 7.2 „Vordergliedmaßen" (7.2.1–7.2.6, S. 96–102, bereits im
+  selben Chunk f(7).pdf enthalten, aber noch nicht ausgewertet) und 7.3
+  „Beckengliedmaßen" (ab S. 103, Beginn ebenfalls bereits in f(7).pdf
+  enthalten) — hier mit dem aus 7.1 gewonnenen Erfahrungswert weiterhin
+  auf craniosacrale Kontamination sowie auf Überschneidung mit den
+  umfangreichen bestehenden Hárrer-Gliedmaßenfaszien-Inhalten zu prüfen,
+  wahrscheinlich mit ähnlich selektivem Ergebnis wie bei 7.1.
 - [ ] Kap. 8–10 „Das viszerale System" (S. 118–153): Organfaszien,
   „viszerales Gelenk", viszerale Restriktionen, Organtopografie — noch
   ungelesen, nach Titel/Konzept erwartbar im selben disputierten
