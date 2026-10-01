@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 307 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
-  Untersuchung, 103 Pathologie, 75 Biomechanik, 43 Therapie — genaue
+- Wissensbibliothek: 311 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
+  Untersuchung, 103 Pathologie, 79 Biomechanik, 43 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -839,7 +839,33 @@ kein Überblick verloren geht.
   bleiben ungelesen und als niedrige Priorität für eine Folgesession
   offen — siehe Backlog-Eintrag zu dieser Quelle für die bereits
   dokumentierte Einordnung der dort zu erwartenden strittigen Konzepte
-  (primär respiratorischer Mechanismus, kraniosakraler Rhythmus).
+  (primär respiratorischer Mechanismus, kraniosakraler Rhythmus). Als
+  nächste Quelle wurde Welter-Böller, Barbara/Welter, Maximilian/John,
+  Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2, Thieme, 2.
+  Auflage 2025, Drive-Ordner-ID `1hP6DF8W9ft61bAIN9N6rXrKYw1L7aAv1`)
+  ausgewählt — eine gezielte Ergänzung zum bereits ausgewerteten
+  Faszienkapitel aus Könneker/Reiter, da hier ein ganzes Buch
+  faszienspezifisch und hundespezifisch ist. Kap. 1 „Einleitung" (S. 16,
+  Chunk f(1).pdf) wurde gelesen und **bewusst nicht extrahiert**
+  (motivierende Einleitung mit A.-T.-Still-Zitaten, keine überprüfbare
+  Facheinzelaussage). Kap. 2 „Anatomie und Physiologie der Faszien"
+  (S. 20–31, vollständig, Chunk f(2).pdf) lieferte **4 neue Einträge**:
+  das Tensegrity-Modell nach Buckminster Fuller (1975) als Erklärung
+  energiearmer Haltungsstabilität (Stäbe = Knochen, Zugelemente =
+  Faszien unter Dauerspannung); der Katapulteffekt (Kram/Dawson 1998)
+  der Zehenbeuger-Sehnen als elastischer Energiespeicher, der mit der
+  Gangart zunimmt und bei Senk-/Spreizpfote spürbar an Effizienz
+  verliert; die von Robert Schleip (Fascia Research Center Ulm)
+  entdeckten kontraktilen Myofibroblasten in gesunder Faszie (u. a. Dura
+  mater, Fascia thoracolumbalis) mit mutmaßlich sympathikusabhängiger,
+  unwillkürlicher Tonusregulation; sowie eine zweite, komplementäre
+  Diaphragmen-Klassifikation (respiratorische vs. faszial Diaphragmen),
+  die explizit gegen den bestehenden, anatomisch-regional gegliederten
+  Fünf-Diaphragmen-Eintrag aus Könneker/Reiter abgegrenzt und
+  querverlinkt wurde, statt ihn zu duplizieren. Die Golgi-Rezeptoren-
+  Einleitung in Kap. 3.2.1 (Chunk f(2).pdf, Satzende) wurde gegen den
+  bestehenden, aus Alexander/Baatz stammenden Golgi-Sehnenorgan-Eintrag
+  geprüft und als zu nah daran bewusst nicht erneut extrahiert.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1159,6 +1185,85 @@ Kapitel.
   Denkweise, eher philosophisch/zusammenfassend — niedrige Priorität.
 - [ ] Anhang (Abkürzungen, Lage-/Richtungsbezeichnungen, Glossar, Literatur,
   Sachverzeichnis, S. 228–245) — kein Extraktionsziel.
+
+### BIOMECHANIK/ANATOMIE — Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2, Thieme, 2. Aufl. 2025)
+
+Quelle liegt in Vanessas Google-Drive-Bibliothek (Ordner-ID
+`1hP6DF8W9ft61bAIN9N6rXrKYw1L7aAv1`) als PDF-Chunk-Serie (Präfix `f`, `f.pdf`
+bis mindestens `f(10).pdf`). Gezielt als Ergänzung zum bereits ausgewerteten
+Faszienkapitel aus Könneker/Reiter gewählt, da dieses Buch vollständig
+hundespezifisch und faszienspezifisch ist (nicht nur ein Teilkapitel eines
+allgemeinen Osteopathie-Werks). Buchstruktur laut Inhaltsverzeichnis (aus
+`f.pdf`):
+
+- Teil 1: Kap. 1 Einleitung (S. 16)
+- Teil 2 „Anatomie, Physiologie, Funktion und Pathologie der Faszien":
+  Kap. 2 Anatomie und Physiologie der Faszien (S. 20–31), Kap. 3 Faszien als
+  „Sinnesorgane" (S. 32–35), Kap. 4 Pathologie der Faszien (S. 36–37)
+- Teil 3 „Befundungs- und Behandlungsmöglichkeiten": Kap. 5 Faszienbefundung
+  (S. 40–51), Kap. 6 Behandlungsmöglichkeiten (S. 52–78)
+- Teil 4 „Das parietale System": Kap. 7, fasziale Anatomie von Kopf/Hals/
+  Rumpf und allen vier Gliedmaßen (S. 80–117)
+- Teil 5 „Das viszerale System": Kap. 8–10, Organfaszien/„viszerales
+  Gelenk"/viszerale Restriktionen (S. 118–153)
+- Teil 6 „Das craniosacrale System": Kap. 11 (S. 156–159)
+- Teil 7 Anhang: Kap. 12 Faszientraining beim Hund (S. 160–164)
+
+Status:
+
+- [x] Kap. 1 „Einleitung" (S. 16, Chunk f(1).pdf) **vollständig gelesen und
+  bewusst nicht extrahiert**: motivierende Einleitung mit A.-T.-Still-
+  Zitaten, keine überprüfbare Facheinzelaussage — gleiche Einordnung wie
+  Könneker/Reiters Kap. 1–2.
+- [x] Kap. 2 „Anatomie und Physiologie der Faszien" (S. 20–31, vollständig,
+  Chunk f(2).pdf) **vollständig ausgewertet — 4 neue Einträge**, siehe Stand
+  oben (Tensegrity-Modell, Katapulteffekt, Myofibroblasten, zweite
+  Diaphragmen-Klassifikation).
+- [~] Kap. 3 „Faszien als „Sinnesorgane"" (S. 32–35): nur der Beginn von
+  3.2.1 (Golgi-Rezeptoren, am Ende von Chunk f(2).pdf) gesichtet — gegen den
+  bestehenden, aus Alexander/Baatz stammenden Golgi-Sehnenorgan-Eintrag
+  geprüft und als zu nah daran bewusst nicht erneut extrahiert. Noch offen:
+  Vater-Pacini-Körperchen, Ruffini-Körperchen, interstitielle Rezeptoren,
+  „WDR-Programm", Schmerzreaktion der Faszie — hier ist sorgfältig gegen den
+  bestehenden Eintrag `faszie-sinnesorgan-mechanorezeptoren-perforanten-
+  trias` (Könneker/Reiter) abzugleichen, bevor neue Einträge entstehen, da
+  thematische Überschneidung wahrscheinlich ist (voraussichtlich nächster
+  Chunk: f(3).pdf).
+- [ ] Kap. 4 „Pathologie der Faszien" (S. 36–37): Faszienrestriktion, Faszien
+  und Stress, Narbengewebe, Faszien und Alter — noch ungelesen, erscheint
+  vielversprechend als eigenständiges pathologisches Konzept.
+- [ ] Kap. 5 „Faszienbefundung" (S. 40–51): Exterieurbeurteilung/Adspektion,
+  Gang-/Bewegungsanalyse, Faszienpalpation — noch ungelesen, voraussichtlich
+  hoher Lehrwert (konkrete, beobachtbare Untersuchungskriterien statt
+  Theoriemodell).
+- [ ] Kap. 6 „Behandlungsmöglichkeiten" (S. 52–78): 6.1–6.2 aktive
+  Faszienstärkung und manuelle Faszientherapie (Ausstreichungen, Dehnung,
+  MFR, Massage, Tapes, Gelenkkapsel-Mobilisation, Narbenbehandlung) noch
+  ungelesen. **Vorab-Einordnung analog Könneker/Reiter:** 6.3 „Spezielle
+  Techniken" (Falx cerebri, Dura-Traktionen) und 6.6 „Masterclass"
+  (Listening, Motilität/„Faszientanz", Unwinding) sind nach Titel/Konzept
+  erwartbar derselben Kategorie unabhängig nicht bestätigter
+  Eigenwahrnehmung zuzuordnen wie das bereits ausgeschlossene MFR-
+  Unwinding bei Könneker/Reiter — bei Lektüre mit entsprechender Vorsicht zu
+  prüfen, nicht pauschal zu übernehmen.
+- [ ] Kap. 7 „Das parietale System" (S. 80–117): fasziale Anatomie von Kopf/
+  Hals/Rumpf und allen vier Gliedmaßen — noch ungelesen, voraussichtlich
+  solide Anatomie, aber mit erheblichem Überschneidungsrisiko zu
+  bestehenden Hárrer- und Könneker/Reiter-Faszieninhalten; vor Extraktion
+  gezielt gegenprüfen statt pauschal zu übernehmen.
+- [ ] Kap. 8–10 „Das viszerale System" (S. 118–153): Organfaszien,
+  „viszerales Gelenk", viszerale Restriktionen, Organtopografie — noch
+  ungelesen, nach Titel/Konzept erwartbar im selben disputierten
+  Organtheorie-Profil wie das bereits ausgeschlossene Kap. 8 bei
+  Könneker/Reiter.
+- [ ] Kap. 11 „Das craniosacrale System" (S. 156–159): noch ungelesen, nach
+  Titel/Konzept erwartbar am strittigsten, analog zum bereits
+  zurückgestellten Kap. 9 bei Könneker/Reiter.
+- [ ] Kap. 12 „Faszientraining beim Hund" (S. 160–164): Trainingsprinzipien,
+  ein 6-Wochen-Beispielprogramm mit vier Adaptationsphasen, Frage nach
+  effektivem Training, Entwicklung von Faszienspannung — noch ungelesen,
+  voraussichtlich hoher praktischer Lehrwert (konkretes, anwendungsnahes
+  Trainingskapitel, gut vereinbar mit Denkgangs Praxisfokus).
 
 ### PATHOLOGIE/BIOMECHANIK/UNTERSUCHUNG — Kasper/Zohmann, Ganzheitliche Schmerztherapie für Hund und Katze (ISBN 978-3-8304-9288-7, Sonntag/Thieme, 2. Aufl. 2011)
 

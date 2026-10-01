@@ -13675,6 +13675,130 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "tensegrity-modell-koerper-stabilitaet-mobilitaet",
+    category: "BIOMECHANIK",
+    title: "Das Tensegrity-Modell: wie der Körper Stabilität ohne Muskelarbeit hält",
+    teaser:
+      "Ein Baukonstrukt aus Stäben, die sich nie berühren, sondern nur über gespannte Seile zusammengehalten werden, erklärt überraschend gut, warum aufrechte Haltung beim Hund fast keine Energie kostet.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein Konstruktionsprinzip aus der Architektur",
+        text: "Das Tensegrity-Modell (Kunstwort aus tension = Zugspannung und integrity = Zusammenhalt) wurde 1975 vom Architekten Buckminster Fuller entwickelt. Es beschreibt ein mobiles und zugleich stabiles Stabwerk, bei dem sich die einzelnen Stäbe nicht gegenseitig berühren, sondern ausschließlich über Zugelemente miteinander verbunden sind. Entscheidend ist dabei, dass die Spannung auf sehr viele Bauelemente verteilt wird, statt von wenigen Elementen allein getragen zu werden, die dadurch stärker belastet würden.",
+      },
+      {
+        type: "text",
+        heading: "Übertragen auf den Körper: Knochen als Stäbe, Faszien als Zugseile",
+        text: "Auf den Körper übertragen entsprechen die Knochen des Skeletts den Stäben, während die unter konstanter Spannung stehenden Faszien die Zugelemente darstellen. Diese Zugspannung hält die Körperform stabil und beweglich zugleich und ist für den Grundtonus im gesamten Organismus verantwortlich — ohne dass ihr Erhalt Energie verbraucht. Einwirkende Kräfte werden über dieses faszial geprägte Spannungsnetz im gesamten Körper verteilt und aufgefangen, statt sich an einzelnen Punkten zu konzentrieren; der Organismus verhält sich dabei wie eine zusammenhängende Einheit.",
+      },
+      {
+        type: "text",
+        heading: "Warum das Modell auf Faszienrestriktionen verweist",
+        text: "Die Funktionsfähigkeit dieses Spannungsnetzes setzt Viskoelastizität und ein freies Gleiten der einzelnen Faszien gegeneinander (Shearmotion) voraus. Ist diese Verschieblichkeit eingeschränkt oder aufgehoben, spricht man von einer Faszienrestriktion: Die Kontinuität des Gewebes ist dann nicht mehr gewährleistet, die physiologische Mobilität vermindert sich oder fällt ganz aus, und es kann in der Folge zu weitreichenden Problemen kommen — nicht notwendigerweise an der Stelle der ursprünglichen Restriktion selbst, da Spannungsänderungen sich über das gesamte Netz verteilen.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 2.2, S. 22 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(2).pdf). Das Tensegrity-Modell nach Buckminster Fuller (1975), seine Übertragung auf Knochen/Faszien sowie die Definition der Faszienrestriktion über eingeschränkte Shearmotion sind im Original so beschrieben. Dies ist der erste Eintrag aus der neuen Quelle Welter-Böller/Welter/John, Faszientherapie beim Hund.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "katapulteffekt-sehnenelastizitaet-energieeffizienter-gang",
+    category: "BIOMECHANIK",
+    title: "Der Katapulteffekt: warum die Sprungkraft einer Gazelle mehr ist als reine Muskelkraft",
+    teaser:
+      "Als Forscher die Sprungkraft von Kängurus maßen, war sie weit höher, als die vorhandene Muskelmasse hätte leisten können — die fehlende Energie liefern die Sehnen selbst, wie eine gespannte Bogensehne.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die Entdeckung: Sprungkraft, die die Muskelkraft übersteigt",
+        text: "1998 erkannten die Forscher Kram und Dawson, dass die Sprungkraft eines Kängurus deutlich höher ist, als die dafür zur Verfügung stehende Muskelkraft allein erklären könnte — ein Befund, der sich ebenso bei Gazellen, Fröschen und Heuschrecken zeigt. Daraus folgt, dass die Sprungkraft nicht allein von der Muskelmasse abhängt, sondern ein weiteres System Bewegungsenergie speichern und wieder abgeben muss. Diesen Sprungfedermechanismus nannten die Autoren den Katapulteffekt.",
+      },
+      {
+        type: "text",
+        heading: "Wie der Katapulteffekt beim Hund wirkt",
+        text: "Tritt der Hund mit der Pfote auf, senken sich die proximalen Zehengelenke durch die Belastung in den Torus metacarpeus ab. Dabei werden die Zehenflexoren (Mm. flexores digitorum superficialis und profundi) sowie die Mm. interossei gedehnt — vergleichbar mit einer gespannten Bogensehne, die durch die Dehnung Energie speichert. Beim Loslassen entlädt sich diese gespeicherte Energie, ähnlich dem Abschuss eines Pfeils, und wird bei jedem Schritt erneut freigesetzt: Die Sehne übernimmt dabei ohne zusätzlichen Energieverbrauch die Arbeit über einen Dehnungs-Verkürzungs-Zyklus. Nur die Initialbewegung entsteht aus einer konzentrischen Muskelkontraktion, danach übernehmen die Sehnen bei der rhythmischen Bewegung wie ein Jo-Jo die weitere Arbeit. Die Stärke des Stretches — und damit Amplitude und Frequenz der Bewegung — hängt von der Gangart ab: Im Schritt (ohne Schwebephase) ist die gespeicherte Energie am geringsten, im Trab durch das diagonale Auffußen aus der Schwebephase höher, im Galopp durch die Einbeinstützen aus den Schwebephasen am größten.",
+      },
+      {
+        type: "text",
+        heading: "Warum ein gutes Zehengewölbe klinisch entscheidend ist",
+        text: "Entscheidend für die Effektivität des Katapulteffekts ist die Länge von Unterarm, Unterschenkel und Mittelhandknochen, da sie den Hebel der Sehnen bestimmen — und ebenso ein gutes Zehengewölbe sowie gesunde Ballen. Bei einer Senk- oder Spreizpfote ist der Katapulteffekt deutlich herabgesetzt: Die Bewegungsenergie kann nicht mehr effizient in den Sehnen gespeichert und wiederverwendet werden, sodass das Laufen stattdessen vermehrt Muskelenergie verbraucht. Eine unauffällige Pfotenform ist damit nicht nur ein kosmetisches, sondern ein energetisch-funktionelles Kriterium bei der Ganganalyse.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Untersuchung falsch gewählt", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 2.2.1, S. 22f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(2).pdf). Der Katapulteffekt nach Kram und Dawson (1998), seine Übertragung auf die Zehenflexoren des Hundes, die Gangart-Abhängigkeit der gespeicherten Energie sowie die klinische Bedeutung von Zehengewölbe und Ballengesundheit sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "myofibroblasten-faszien-kontraktionsfaehigkeit-vegetative-kontrolle",
+    category: "BIOMECHANIK",
+    title: "Myofibroblasten: kontraktionsfähige Zellen mitten in der Faszie",
+    teaser:
+      "Faszie galt lange als rein passives Hüllgewebe — doch sie enthält Zellen, die sich aktiv zusammenziehen können, unwillkürlich gesteuert vom vegetativen Nervensystem, am dichtesten ausgerechnet in der Rückenlendenbinde.",
+    sections: [
+      {
+        type: "text",
+        heading: "Von der Wundheilung in die Faszie",
+        text: "Myofibroblasten sind durch eingelagerte Aktinfilamente kontraktionsfähige Bindegewebszellen. Ihre Rolle in der Wundheilung war schon länger bekannt: Dort sorgen sie dafür, dass sich Wundränder zusammenziehen (Narbenzug). Robert Schleip vom Fascia Research Center der Universität Ulm konnte Myofibroblasten jedoch auch in gesunder Faszie außerhalb von Wundheilungsprozessen nachweisen — unter anderem in der Dura mater, in Organkapseln, in der Fascia cruris und besonders dicht in der Fascia thoracolumbalis, der Rückenlendenbinde.",
+      },
+      {
+        type: "text",
+        heading: "Unwillkürlich und vegetativ gesteuert",
+        text: "Die Eigenschaften der Myofibroblasten ähneln denen glatter Muskelzellen in Hohlorganen wie Blase, Darm sowie Lymph- und Blutgefäßen. Ihre Innervation scheint ebenfalls, wie bei diesen Hohlorganen, vom vegetativen Nervensystem abzuhängen: Sie sind willkürlich nicht steuerbar, und bei erhöhter Sympathikusaktivität scheinen sie mit einer Tonussteigerung zu reagieren. Das bedeutet, dass Faszienspannung in der Rückenlendenbinde und vergleichbaren Strukturen nicht nur mechanisch (durch Zug und Dehnung), sondern auch über den Spannungszustand des vegetativen Nervensystems mitbestimmt werden kann — unabhängig vom Willen des Patienten.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 2.3.1, S. 26 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(2).pdf). Der Nachweis der Myofibroblasten in Faszien durch Robert Schleip, ihre Fundorte (Dura mater, Organkapseln, Fascia cruris, Fascia thoracolumbalis), ihre Ähnlichkeit zu glatten Muskelzellen sowie ihre vermutete vegetative, sympathikusabhängige Steuerung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "diaphragmen-respiratorisch-faszial-zwei-kategorien",
+    category: "BIOMECHANIK",
+    title: "Respiratorische und fasziale Diaphragmen: zwei Kategorien quer verlaufender Spannungszonen",
+    teaser:
+      "Nicht jedes Diaphragma atmet mit: Manche der quer verlaufenden Spannungszonen des Körpers bewegen sich synchron mit dem Atemrhythmus, andere puffern Spannung, ohne an der Atmung selbst beteiligt zu sein.",
+    sections: [
+      {
+        type: "text",
+        heading: "Diaphragmen als Pufferzonen quer zur Hauptfaserrichtung",
+        text: "Die meisten Faszien verlaufen in Längsrichtung von kranial nach kaudal. Einige Membranen verlaufen jedoch quer dazu und bilden Pufferzonen, die Restriktionen im Fasziennetz auffangen, statt sie ungebremst weiterzuleiten — diese queren Membranen werden als Diaphragmen bezeichnet. Allerdings können Diaphragmen aus demselben Grund auch selbst zur Ursache von Fixationen werden, weshalb sie in der Behandlung gezielt mitberücksichtigt werden müssen.",
+      },
+      {
+        type: "list",
+        heading: "Respiratorische Diaphragmen (bewegen sich synchron mit der Atmung)",
+        items: [
+          "Zwerchfell (Diaphragma abdominale)",
+          "Tentorium cerebelli",
+          "Perineum",
+        ],
+      },
+      {
+        type: "list",
+        heading: "Fasziale Diaphragmen (ohne direkte Atembewegung)",
+        items: [
+          "Gelenkspalt von C0/C1",
+          "Os hyoideum (Zungenbein)",
+          "Vordere Thoraxapertur",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Verhältnis zur anatomisch-regionalen Fünfer-Einteilung",
+        text: "Diese Zweiteilung nach respiratorischer Beteiligung ist eine funktionelle Ergänzung zu der bereits an anderer Stelle beschriebenen, anatomisch-regional gegliederten Einteilung in fünf Diaphragmen des Körpers (Zwerchfell, kraniale Thoraxapertur, kraniozervikal, intrakraniell, Becken). Beide Einteilungen schließen sich nicht aus: Dieselben Strukturen können gleichzeitig regional benannt und danach kategorisiert werden, ob sie synchron mit der Atmung schwingen oder nicht.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 2.6, S. 31 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(2).pdf). Die Definition der Diaphragmen als quere Pufferzonen sowie die Einteilung in respiratorische (Zwerchfell, Tentorium cerebelli, Perineum) und fasziale Diaphragmen (C0/C1, Os hyoideum, vordere Thoraxapertur) sind im Original so beschrieben. Die Einordnung im Verhältnis zur bestehenden, anatomisch-regionalen Fünfer-Einteilung (`diaphragmen-transversale-spannungszonen-koerper`, Könneker/Reiter, andere Quelle) ist eigene vergleichende Synthese von Denkgang — beide Einteilungen ergänzen sich, keine dupliziert die andere.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
