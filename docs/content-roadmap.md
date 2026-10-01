@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 324 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 92
-  Untersuchung, 108 Pathologie, 83 Biomechanik, 43 Therapie — genaue
+- Wissensbibliothek: 327 Einträge (9 Anatomie-Spiegelungen, 10 Grundlagen, 92
+  Untersuchung, 108 Pathologie, 84 Biomechanik, 44 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -951,8 +951,68 @@ kein Überblick verloren geht.
   Beginn von Kap. 6.1 (Faszienreifung, 4.–9. Lebensmonat als sensible
   Phase) führte direkt zu den bereits ausführlich vorhandenen FPC-/IPA-
   Einträgen (Ellbogendysplasie) — hier bewusst keine erneute Extraktion,
-  da das Thema bereits aus mehreren Quellen umfassend abgedeckt ist; die
-  eigentliche Behandlungsmethodik aus Kap. 6 steht noch aus.
+  da das Thema bereits aus mehreren Quellen umfassend abgedeckt ist.
+  Danach Chunk f(6).pdf gelesen (Kap. 6 „Behandlungsmöglichkeiten bei
+  Faszienproblemen", S. 52–78, vollständig) — **3 weitere neue Einträge,
+  damit ist Kap. 6 vollständig ausgewertet.** Aus 6.2 „Manuelle
+  Faszientherapie" (Dehnung, Myofasziales Release, Massage, Tapes,
+  Gelenkkapselmobilisation, Narbenbehandlung): die verzögerte, erst nach
+  ca. 30 Minuten einsetzende und über Stunden über den Ausgangswert
+  hinaus ansteigende Gewebehydration nach Dehnung
+  (`dehnung-faszienhydration-verzoegerter-rebound-effekt`) sowie die
+  Erweiterung des piezoelektrischen Effekts von starren Knochenkristallen
+  auf die biegsamen „Flüssigkristalle" Aktin/Myosin/Elastin/Kollagen,
+  verknüpft mit den bestehenden knochenbezogenen Piezoelektrizitäts-
+  Einträgen
+  (`faszien-piezoelektrizitaet-fluessigkristalle-signalweiterleitung`).
+  Bewusst nicht übernommen aus 6.2: die Methode des Myofaszialen Release
+  mit State of Ease/State of Bind, Stillpoint und Unwinding (6.2.3) —
+  dieselbe unabhängig nicht bestätigte Eigenwahrnehmung wie die bereits
+  bei Könneker/Reiter ausgeschlossene MFR-Technik; Ausstreichungen,
+  Massage und Tapes/Bandagen (6.2.1, 6.2.4, 6.2.5) — restatten im
+  Wesentlichen die bereits extrahierten WDR-/Ruffini-/Thixotropie-
+  Mechanismen auf verschiedene benannte Techniken angewendet, ohne
+  darüber hinausgehenden eigenständigen Lehrwert; die
+  Gelenkkapselmobilisation (6.2.6) — reine Technik, inhaltlich bereits
+  durch bestehende Traktions-/rhythmische-Mobilisationstechniken
+  abgedeckt; die Narbenbehandlungstechnik (6.2.7) — das darin enthaltene
+  Wundheilungsphasen-Zeitschema ist nahezu deckungsgleich mit dem bereits
+  bestehenden Eintrag `wundheilungsphasen-zeitfenster-reha` (Mai, andere
+  Quelle), die eigentliche manuelle Mobilisationstechnik nach Fourie/Robb
+  ist reine Technikanleitung. 6.3 „Spezielle Techniken für besondere
+  Faszien" (Falx cerebri „Clear the Confusion", Detonisierung der kurzen
+  Nackenstrecker/Meningen-Harmonisierung, Dura-Traktionen, Shiften der
+  Wirbelkörper) **vollständig bewusst nicht extrahiert**: durchgehend
+  entweder reine Grifftechnik ohne eigenständigen Lehrwert oder explizit
+  auf das craniosacrale System bezogen (Harmonisierung von Falx
+  cerebri/Tentorium/Falx cerebelli) — dieselbe Einordnung wie das bereits
+  zurückgestellte Kap. 9 bei Könneker/Reiter. 6.4 „Faszienregulation an
+  den Extremitäten" (3D-Mobilisation der Schulter, Release der Fascia
+  antebrachii, Faszienlift) und 6.5 „Besondere Techniken am Rumpf"
+  (Faszienlift, Kiblersche Hautfalte, subkutane Reflextherapie/
+  Bindegewebsmassage) **ebenfalls vollständig bewusst nicht extrahiert**:
+  reine Grifftechnik ohne über bereits Bestehendes hinausgehenden
+  Lehrwert, sowie bei Kiblerscher Hautfalte und Bindegewebsmassage
+  (inkl. identischer Elisabeth-Dicke-Historie) durchgängige Überschneidung
+  mit den bereits sehr ausführlichen bestehenden Einträgen aus
+  Kasper/Zohmann. 6.6 „General Listening/Masterclass" (Listening,
+  Motilität/„Faszientanz", Unwinding) **vollständig bewusst nicht
+  extrahiert**: explizit auf craniosacrale Konzepte verweisend
+  („craniale Welle nach Sutherland", „primäre Atmung") und durchgehend
+  auf unabhängig nicht bestätigter therapeutischer Eigenwahrnehmung
+  beruhend — bestätigt exakt die bereits getroffene Einordnung. 6.7
+  „Diaphragmen als zentrale Strukturen": Die allgemeine Diaphragmen-
+  Klassifikation wiederholt im Kern die bereits aus Kap. 2.6 extrahierte
+  Zweiteilung (keine neue Extraktion), die einzelnen
+  Diaphragmen-Behandlungsabschnitte (6.7.2–6.7.6) sind bis auf die reine
+  Anatomie durchgehend Unwinding-/Ear-Pull-Technik (bewusst nicht
+  übernommen) — die anatomischen Grenzen von vorderer Thoraxapertur und
+  Diaphragma pelvis waren jedoch genuin neu und wurden als eigenständiger
+  Anatomie-Eintrag übernommen
+  (`vordere-thoraxapertur-diaphragma-pelvis-anatomische-grenzen`). Damit
+  ist Kap. 6 trotz seines überwiegend technik- und
+  craniosacral-lastigen Profils mit 3 soliden neuen Einträgen
+  abgeschlossen.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1340,21 +1400,40 @@ Status:
   Halshaltungs-Zusammenhänge mit dem „craniosacralen Rhythmus" (disputiert,
   siehe Stand oben) sowie die vollständige Einzelfaszien-Palpationsorte-
   Liste aus 5.3.1 (reine Technikanleitung).
-- [~] Kap. 6 „Behandlungsmöglichkeiten" (S. 52–78): Beginn von 6.1
-  (Faszienreifung, 4.–9. Lebensmonat als sensible Phase für Sehnen/
-  Bänder/Gelenkkapseln) im selben Chunk f(5).pdf angelesen — führt direkt
-  zu den bereits umfassend vorhandenen FPC-/IPA-Einträgen
-  (Ellbogendysplasie, siehe `ellbogengelenkdysplasie` u. a.), daher
-  bewusst keine erneute Extraktion an dieser Stelle. 6.1–6.2 aktive
-  Faszienstärkung und manuelle Faszientherapie (Ausstreichungen, Dehnung,
-  MFR, Massage, Tapes, Gelenkkapsel-Mobilisation, Narbenbehandlung) noch
-  ungelesen. **Vorab-Einordnung analog Könneker/Reiter:** 6.3 „Spezielle
-  Techniken" (Falx cerebri, Dura-Traktionen) und 6.6 „Masterclass"
-  (Listening, Motilität/„Faszientanz", Unwinding) sind nach Titel/Konzept
-  erwartbar derselben Kategorie unabhängig nicht bestätigter
-  Eigenwahrnehmung zuzuordnen wie das bereits ausgeschlossene MFR-
-  Unwinding bei Könneker/Reiter — bei Lektüre mit entsprechender Vorsicht zu
-  prüfen, nicht pauschal zu übernehmen.
+- [x] Kap. 6 „Behandlungsmöglichkeiten" (S. 52–78) **vollständig gelesen
+  und ausgewertet (Chunks f(5)/f(6).pdf) — 3 neue Einträge**: 6.1
+  (Faszienreifung, 4.–9. Lebensmonat als sensible Phase) führt direkt zu
+  den bereits umfassend vorhandenen FPC-/IPA-Einträgen
+  (`ellbogengelenkdysplasie` u. a.) — keine erneute Extraktion. 6.2
+  „Manuelle Faszientherapie" lieferte 2 neue Einträge (verzögerter
+  Dehnungs-Hydrationseffekt
+  `dehnung-faszienhydration-verzoegerter-rebound-effekt`, fasziale
+  Piezoelektrizität/Flüssigkristalle
+  `faszien-piezoelektrizitaet-fluessigkristalle-signalweiterleitung`);
+  bewusst nicht übernommen: Myofasziales Release/Unwinding (6.2.3, 
+  disputierte Eigenwahrnehmung, wie bei Könneker/Reiter), Ausstreichungen/
+  Massage/Tapes (6.2.1/6.2.4/6.2.5, restatten bestehende WDR-/Ruffini-/
+  Thixotropie-Mechanismen ohne Mehrwert), Gelenkkapselmobilisation (6.2.6,
+  reine Technik) und die Narbenbehandlung (6.2.7, Wundheilungsphasen-
+  Schema deckungsgleich mit bestehendem
+  `wundheilungsphasen-zeitfenster-reha`). 6.3 „Spezielle Techniken" (Falx
+  cerebri „Clear the Confusion", Meningen-Harmonisierung, Dura-
+  Traktionen, Wirbelkörper-Shiften) **vollständig bewusst nicht
+  extrahiert** — wie erwartet reine Technik bzw. explizit
+  craniosacral-bezogen. 6.4 „Faszienregulation Extremitäten" und 6.5
+  „Besondere Techniken Rumpf" (Faszienlift, Kiblersche Hautfalte,
+  Bindegewebsmassage) **vollständig bewusst nicht extrahiert** — reine
+  Technik bzw. Überschneidung mit bestehenden Kasper/Zohmann-Einträgen
+  (inkl. identischer Elisabeth-Dicke-Historie). 6.6 „General Listening/
+  Masterclass" (Listening, Motilität/„Faszientanz", Unwinding) **wie
+  vorab erwartet vollständig bewusst nicht extrahiert** — explizit auf
+  „craniale Welle nach Sutherland"/„primäre Atmung" verweisend, bestätigt
+  die Vorab-Einordnung exakt. 6.7 „Diaphragmen": allgemeine
+  Klassifikation dupliziert Kap. 2.6 (keine neue Extraktion), einzelne
+  Diaphragmen-Behandlungen sind Unwinding-Technik (nicht übernommen),
+  aber die anatomischen Grenzen von vorderer Thoraxapertur und Diaphragma
+  pelvis waren neu
+  (`vordere-thoraxapertur-diaphragma-pelvis-anatomische-grenzen`).
 - [ ] Kap. 7 „Das parietale System" (S. 80–117): fasziale Anatomie von Kopf/
   Hals/Rumpf und allen vier Gliedmaßen — noch ungelesen, voraussichtlich
   solide Anatomie, aber mit erheblichem Überschneidungsrisiko zu

@@ -14308,6 +14308,93 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "dehnung-faszienhydration-verzoegerter-rebound-effekt",
+    category: "THERAPIE",
+    title: "Warum gedehntes Gewebe nicht sofort, sondern erst später „feuchter“ wird",
+    teaser:
+      "Direkt nach einer Dehnung verliert Faszie zunächst an Wassergehalt — die eigentliche Verbesserung der Gewebehydration setzt erst mit Verzögerung ein und steigt über Stunden sogar über den Ausgangswert.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was gedehnt wird",
+        text: "Prinzipiell lässt sich jedes fasziale Gewebe dehnen — Ligament, Sehne, oberflächliche Faszie, Aponeurose oder Muskelfaszie; bei Muskulatur wirkt der Dehnungsreiz vor allem auf das Perimysium. Eine langsam und bis zum physiologischen, schmerzfreien Bewegungsende ausgeführte Dehnung kann verkürztes Gewebe verlängern und unphysiologische Crosslinks lösen; eine Überdehnung birgt dagegen ein Verletzungsrisiko, weshalb die Abwehrspannung des Patienten laufend zu beachten ist. Empfohlen wird ein Halten der schmerzfreien Dehnung über 10–45 Sekunden, wiederholt bis sich eine Bewegungsverbesserung zeigt.",
+      },
+      {
+        type: "text",
+        heading: "Der überraschende zeitliche Verlauf der Gewebehydration",
+        text: "Klingler und Kollegen beobachteten an Schweinegewebe einen zunächst gegenläufig wirkenden Effekt: Direkt im Anschluss an die Dehnung nahm der Wassergehalt der Faszie zunächst ab. Erst nach einer rund 30-minütigen Ruhepause stieg er wieder an — und zwar über den ursprünglichen Ausgangswert hinaus, mit einer weiteren Zunahme über die folgenden drei Stunden. Diese Untersuchung wird im Original unter Verweis auf eine eigene Literaturstelle angeführt, die von Denkgang nicht eigenständig in der Primärliteratur geprüft wurde.",
+      },
+      {
+        type: "text",
+        heading: "Klinische Konsequenz",
+        text: "Der direkt nach einer Dehnübung spürbare Effekt (z. B. unmittelbar verbesserte Beweglichkeit) ist demnach nicht in erster Linie auf eine sofortige bessere Gewebehydration zurückzuführen — diese setzt überhaupt erst zeitversetzt ein. Wer den Behandlungserfolg einer Dehnung ausschließlich am unmittelbaren Tastbefund direkt im Anschluss an die Technik beurteilt, läuft Gefahr, den eigentlichen, erst zeitversetzt einsetzenden Hydrationseffekt systematisch zu unterschätzen oder falsch zuzuordnen.",
+      },
+    ],
+    errorTags: ["Befund unterbewertet", "Faktenwissen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 6.2.2, S. 57f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(6).pdf, inkl. eines im Original zitierten Verweises auf Klingler et al. [16], von Denkgang nicht eigenständig in der Primärliteratur geprüft). Die Dehnungsgrundlagen (Zielgewebe, Haltezeit 10–45 Sekunden, Perimysium-Wirkung) sowie der verzögerte, über den Ausgangswert hinausgehende Hydrationsanstieg nach Dehnung sind im Original so beschrieben. Bewusst nicht übernommen: die im selben Kapitel beschriebene Methode des Myofaszialen Release mit den Konzepten State of Ease/State of Bind, Stillpoint und Unwinding — diese setzt dieselbe unabhängig nicht bestätigte Eigenwahrnehmung einer gewebeeigenen Entwindungsbewegung voraus wie die bereits bei Könneker/Reiter ausgeschlossene MFR-Technik.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "faszien-piezoelektrizitaet-fluessigkristalle-signalweiterleitung",
+    category: "BIOMECHANIK",
+    title: "Piezoelektrizität in weichem Gewebe: Faszien als biegsame „Flüssigkristalle“",
+    teaser:
+      "Nicht nur starre Knochenkristalle reagieren elektrisch auf Druck — auch die biegsamen Eiweißfilamente der Faszie (Aktin, Myosin, Elastin, Kollagen) bauen unter mechanischer Belastung ein elektrisches Feld auf, das Zellen zur Anpassung anregt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Der piezoelektrische Effekt, angewendet auf weiches statt hartes Gewebe",
+        text: "Der piezoelektrische Effekt — das Entstehen eines elektrischen Feldes bei mechanischer Verformung eines Materials — ist für Knochen bereits an anderer Stelle dieser Bibliothek ausführlich dokumentiert (siehe `piezoelektrischer-effekt-knochenumbau-belastung` und `piezoelektrischer-effekt-physik-geschichte-osteoklasten-mechanismus`). Dieselbe physikalische Grundeigenschaft gilt jedoch nicht nur für harte, mineralische Kristalle wie im Knochen, sondern auch für die deutlich biegsameren Eiweißfilamente des faszialen Systems — Aktin, Myosin, Elastin und Kollagen. Diese werden in der Quelle als „Flüssigkristalle“ bezeichnet, da sie im Gegensatz zu starren mineralischen Kristallen (als Vergleich dient ein Diamant) weich und biegsam sind.",
+      },
+      {
+        type: "text",
+        heading: "Vom mechanischen Reiz zum zellulären Signal",
+        text: "Proteine verhalten sich dabei wie Halbleiter: Ihre elektrische Leitfähigkeit nimmt mit steigender Temperatur zu. Bei mechanischer Reizung der faszialen Flüssigkristalle durch Druck oder Zug baut sich ein elektrisches Feld auf, das sich in das umliegende Gewebe ausbreitet und dort als Signal über Belastung oder Bewegung dient. Fibroblasten, Osteoblasten und andere Zellen passen daraufhin ihre Aktivität an diese momentanen mechanischen Gegebenheiten an — ein zellulärer Rückkopplungsmechanismus, der nicht auf den Knochen beschränkt ist, sondern auch im weichen Bindegewebe wirkt.",
+      },
+      {
+        type: "text",
+        heading: "Einordnung",
+        text: "Diese Erweiterung des piezoelektrischen Prinzips auf fasziales Gewebe liefert eine physikalisch plausible, mechanistische Erklärung dafür, warum mechanische Reize (Druck, Zug, Dehnung) auf Faszien zelluläre Anpassungsreaktionen auslösen können — unabhängig davon, in welchem therapeutischen Rahmen ein solcher Reiz gesetzt wird. Die Übertragung der am Knochen gut belegten Druck-/Spannungs-Ladungs-Zuordnung (negative Ladung bei Kompression, positive bei Zug) auf Faszien wird im Original selbst nicht im gleichen Detail belegt wie am Knochen.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 6.2.3, S. 59f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(6).pdf). Die Einordnung von Aktin/Myosin/Elastin/Kollagen als biegsame „Flüssigkristalle“ im Gegensatz zu harten mineralischen Kristallen, die Halbleitereigenschaft von Proteinen sowie der Mechanismus vom mechanischen Reiz über das elektrische Feld zur zellulären Aktivitätsanpassung sind im Original so beschrieben. Die Verknüpfung mit den bestehenden, knochenbezogenen Piezoelektrizitäts-Einträgen ist eigene Synthese von Denkgang; bewusst nicht übernommen wurde der umgebende Kontext dieses Abschnitts (Stillpunkt, Release-Phänomen als Teil der Myofaszialen-Release-/Unwinding-Technik), da dieser auf derselben unabhängig nicht bestätigten Eigenwahrnehmung beruht wie die bereits ausgeschlossene MFR-Technik.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "vordere-thoraxapertur-diaphragma-pelvis-anatomische-grenzen",
+    category: "ANATOMIE",
+    title: "Zwei „untypische“ Diaphragmen: die anatomischen Grenzen von vorderer Thoraxapertur und Beckenboden",
+    teaser:
+      "Vordere Thoraxapertur und Beckenboden verlaufen nicht so exakt vertikal wie Zwerchfell oder Tentorium cerebelli — trotzdem gelten sie als Diaphragmen, weil sie dieselbe Funktion als fasziale Schaltstelle übernehmen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Vordere Thoraxapertur: der knöcherne und fasziale Brusteingang",
+        text: "Der knöcherne Rahmen der vorderen Thoraxapertur wird vom ersten Brustwirbelkörper, der ersten Rippe und dem Sternum gebildet. Nach kranial wird der Brusteingang durch die Fascia endothoracica verschlossen, der innen die Pleura parietalis aufliegt; an dieser Stelle bildet die Pleura parietalis beidseits die sogenannten Cupulae pleurae. Muskulär wird die vordere Thoraxapertur unter anderem vom M. sternocleidomastoideus und M. pectoralis superficialis bedeckt.",
+      },
+      {
+        type: "text",
+        heading: "Diaphragma pelvis: ein bindegewebig-muskulärer Verschluss aus drei Anteilen",
+        text: "Der Beckenboden (Diaphragma pelvis) setzt sich aus Muskulatur und Faszien zusammen und wirkt funktionell als bindegewebig-muskulärer Verschluss des Beckens. Anatomisch bilden die beidseitigen Mm. levator ani und Mm. coccygei die muskuläre Grundlage; die Fasciae diaphragmatis pelvis externa und interna sind die zugehörigen faszialen Strukturen. Wegen seines komplexen Aufbaus wird das Diaphragma pelvis beim Hund in eine Pars analis, eine Pars urogenitalis und das Perineum gegliedert. An der Bildung des Beckenausgangs sind zusätzlich das Sacrum, beide Ossa coxae, die Schwanzwirbel und das Lig. sacrotuberale beteiligt.",
+      },
+      {
+        type: "text",
+        heading: "Warum diese Strukturen trotzdem als Diaphragmen gelten",
+        text: "Weder die vordere Thoraxapertur noch das Diaphragma pelvis verlaufen so exakt vertikal wie die eigentlichen respiratorischen Diaphragmen (Zwerchfell, Tentorium cerebelli). Funktionell werden sie dennoch zu den Diaphragmen gezählt, weil sie dieselbe Doppelrolle übernehmen: räumliche Abgrenzung benachbarter Körperregionen bei gleichzeitiger struktureller Verbindung zwischen ihnen, mit derselben Pufferfunktion gegen eine ungebremste Ausbreitung von Spannungsmustern im Körper (siehe `diaphragmen-transversale-spannungszonen-koerper` und `diaphragmen-respiratorisch-faszial-zwei-kategorien`). Für das Diaphragma pelvis gilt zusätzlich: Eine physiologische Spannung in dieser Struktur ist Voraussetzung für eine korrekte Statik und harmonische Funktion von Sacrum und Ilium — Dysfunktionen im Bereich des Iliosakralgelenks können hier ihre Ursache haben.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 6.7.4 und 6.7.6, S. 75–78 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(6).pdf). Die knöchern-faszial-muskuläre Zusammensetzung der vorderen Thoraxapertur sowie des Diaphragma pelvis (inkl. seiner Dreiteilung in Pars analis/urogenitalis/Perineum und der beteiligten Beckenstrukturen) sind im Original so beschrieben; ebenso die Einordnung beider Strukturen als funktionelle, wenn auch nicht streng vertikal verlaufende Diaphragmen. Bewusst nicht übernommen: sämtliche im selben Abschnitt vorgeschlagenen Behandlungstechniken (Ear Pull, Unwinding der jeweiligen Diaphragmen) — diese beruhen auf derselben unabhängig nicht bestätigten Eigenwahrnehmung wie die bereits ausgeschlossene MFR-/Listening-/Motilitäts-Technik. Die Verknüpfung mit den bestehenden Diaphragmen-Einträgen (beide aus Kap. 2.6 bzw. Könneker/Reiter) ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
