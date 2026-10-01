@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 317 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
-  Untersuchung, 106 Pathologie, 82 Biomechanik, 43 Therapie — genaue
+- Wissensbibliothek: 319 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 88
+  Untersuchung, 108 Pathologie, 82 Biomechanik, 43 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -900,8 +900,25 @@ kein Überblick verloren geht.
   `myofibroblasten-faszien-kontraktionsfaehigkeit-vegetative-kontrolle`
   eingearbeitet (klinischer Stress-Myofibroblasten-Zusammenhang,
   Malinois-Beispiel). Damit ist Kap. 3 vollständig und Kap. 4.1–4.2 von
-  Kap. 4 ausgewertet; offen bleibt nur noch 4.3–4.4 (Narbengewebe,
-  Faszien und Alter).
+  Kap. 4 ausgewertet. Danach Chunk f(4).pdf gelesen (4.3 Narbengewebe und
+  4.4 Faszien und Alter, S. 37f., 4.1–4.2 im selben Chunk nochmals
+  dupliziert vorhanden — nicht erneut verarbeitet) — **2 weitere neue
+  Einträge, damit ist Kap. 4 „Pathologie der Faszien" vollständig
+  ausgewertet.** 4.3 lieferte die Funktionslosigkeit des Narbengewebes
+  samt der daraus folgenden Agonist-/Antagonist-Fehlkoordination bei
+  Muskelbeteiligung
+  (`narbengewebe-funktionsverlust-agonist-antagonist-fehlkoordination`) —
+  bewusst nicht übernommen wurde dabei die im Original pauschale
+  Bezeichnung des Narbengewebes als „somatische Dysfunktion", da dies der
+  bestehenden, strengeren Reversibilitäts-Definition dieses Begriffs
+  (`somatische-dysfunktion-art-kriterienraster`, Könneker/Reiter)
+  widerspricht; 4.4 lieferte die altersbedingte Umwandlung vom
+  Scherengitter- zum Filzmuster der Muskelfaszie samt der paradoxen
+  Kompensationsfunktion dieser Verfilzung für Statik und Haltung trotz
+  Muskelabbaus, verknüpft mit dem bestehenden Katapulteffekt-Eintrag
+  (`faszienalterung-scherengittermuster-verfilzung-kompensation`). Damit
+  ist Teil 2 des Buches („Anatomie, Physiologie, Funktion und Pathologie
+  der Faszien", Kap. 2–4) vollständig ausgewertet.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1262,12 +1279,17 @@ Status:
   3.2.6 Schmerzreaktion der Faszie — siehe Stand oben für Details. 3.2.1
   (Golgi-Rezeptoren) bewusst nicht extrahiert (Duplikat des bestehenden
   Alexander/Baatz-Eintrags).
-- [~] Kap. 4 „Pathologie der Faszien" (S. 36–37): 4.1 Faszienrestriktion
-  und 4.2 Faszien und Stress gelesen und ausgewertet (Chunk f(3).pdf) — 1
-  neuer Eintrag (`faszienrestriktion-pathophysiologie-immobilisation-
-  faszienkater`) sowie 4.2 als Ergänzung in den bestehenden
-  Myofibroblasten-Eintrag eingearbeitet (siehe Stand oben). Noch offen:
-  4.3 Narbengewebe, 4.4 Faszien und Alter.
+- [x] Kap. 4 „Pathologie der Faszien" (S. 36–38) **vollständig gelesen
+  und ausgewertet (Chunks f(3)/f(4).pdf) — 3 neue Einträge insgesamt**:
+  4.1 Faszienrestriktion (`faszienrestriktion-pathophysiologie-
+  immobilisation-faszienkater`), 4.2 Faszien und Stress (als Ergänzung in
+  den bestehenden Myofibroblasten-Eintrag eingearbeitet statt als
+  eigener Eintrag), 4.3 Narbengewebe
+  (`narbengewebe-funktionsverlust-agonist-antagonist-fehlkoordination`)
+  und 4.4 Faszien und Alter
+  (`faszienalterung-scherengittermuster-verfilzung-kompensation`). Damit
+  ist Teil 2 des Buches („Anatomie, Physiologie, Funktion und Pathologie
+  der Faszien", Kap. 2–4) vollständig ausgewertet.
 - [ ] Kap. 5 „Faszienbefundung" (S. 40–51): Exterieurbeurteilung/Adspektion,
   Gang-/Bewegungsanalyse, Faszienpalpation — noch ungelesen, voraussichtlich
   hoher Lehrwert (konkrete, beobachtbare Untersuchungskriterien statt

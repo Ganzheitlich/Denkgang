@@ -13990,6 +13990,59 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "narbengewebe-funktionsverlust-agonist-antagonist-fehlkoordination",
+    category: "PATHOLOGIE",
+    title: "Narbengewebe: funktionslos, aber nicht folgenlos",
+    teaser:
+      "Eine Narbe stopft nur das Loch im Gewebe — mehr nicht. Ist Muskulatur betroffen, kann allein diese fehlende Funktionalität die Koordination zwischen Agonist und Antagonist stören und falsche Kompensationsbewegungen auslösen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Immer derselbe Reparaturprozess, immer dasselbe Ergebnis",
+        text: "Wie ausgeprägt Verwachsungen (Adhäsionen) und bleibende Gewebeveränderungen nach einer Verletzung ausfallen, hängt vom Ausmaß des ursprünglichen Traumas ab: Je größer und je tiefer die Gewebezerstörung reicht — etwa über mehrere Gewebeschichten hinweg —, desto schlechter lässt sich die ursprüngliche Verschieblichkeit des Gewebes wiederherstellen. Der Reparaturprozess selbst verläuft dabei unabhängig von der Art des betroffenen Gewebes immer nach demselben Muster, ob Muskulatur, Sehnen oder Knochen betroffen sind. Das entstehende Narbengewebe besitzt dabei keine Funktionalität mehr.",
+      },
+      {
+        type: "text",
+        heading: "Von der Gewebeversteifung zur Fehlkoordination",
+        text: "Weil Narbengewebe die Strukturen gegeneinander in ihrer Beweglichkeit einschränkt und versteift, kann es chronische Schmerzen verursachen. Ist speziell Muskulatur betroffen, hat dies eine weitere, über den lokalen Befund hinausgehende Konsequenz: Die Koordination zwischen Agonist und Antagonist wird fehlerhaft, und der Hund entwickelt in der Folge inkorrekte Kompensationsbewegungen — nicht, weil die Narbe selbst schmerzt, sondern weil ihr die normale Funktion als dehnbares, verschiebliches Gewebe fehlt. Die Quelle bringt diesen Befund auf die Formel: „Eine Narbe hat keinerlei funktionellen Nutzen. Ihr einziger Zweck besteht darin, im verletzten Gewebe ‚das Loch zu stopfen‘.“",
+      },
+    ],
+    errorTags: ["Befund unterbewertet", "Differentialdiagnostik unvollständig", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 4.3, S. 37f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(4).pdf). Die Abhängigkeit des Adhäsionsausmaßes vom initialen Trauma, der gewebeunabhängig immer gleich verlaufende Reparaturprozess, die Funktionslosigkeit des entstehenden Narbengewebes, dessen Folgen (chronischer Schmerz, bei Muskelbeteiligung Agonist-/Antagonist-Fehlkoordination mit inkorrekten Kompensationsbewegungen) sowie das wörtliche Zitat (im Original unter Verweis auf eine eigene Literaturstelle [9], S. 179, von Denkgang nicht eigenständig in der Primärliteratur geprüft) sind im Original so beschrieben. Die Quelle bezeichnet entstehendes Narbengewebe im selben Abschnitt pauschal als „somatische Dysfunktion“ — dieser Begriff wird in dieser Bibliothek an anderer Stelle (`somatische-dysfunktion-art-kriterienraster`, Könneker/Reiter) enger und strenger definiert als rein funktionelle, prinzipiell reversible Störung ohne nachweisbare Strukturursache. Eine strukturell fixierte Narbe erfüllt diese engere Definition gerade nicht; der Begriff wird hier deshalb bewusst nicht aus dem Original übernommen, um die beiden unterschiedlich strengen Verwendungsweisen nicht zu vermischen.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "faszienalterung-scherengittermuster-verfilzung-kompensation",
+    category: "PATHOLOGIE",
+    title: "Faszienalterung: vom Scherengitter zum Filz",
+    teaser:
+      "Junge Faszie gleitet in einem geordneten Scherengittermuster übereinander, alte Faszie verfilzt — und genau diese Verfilzung hält einen alten Hund trotz Muskelabbau noch halbwegs energieeffizient aufrecht.",
+    sections: [
+      {
+        type: "text",
+        heading: "Vom geordneten Gitter zum Filz",
+        text: "Mit zunehmendem Alter nimmt der Flüssigkeitsgehalt des Bindegewebes ab, der Anteil der Matrix sinkt, und der Anteil der Kollagenfasern steigt. Bei jungen Hunden zeigen Muskelfaszien ein klares Scherengittermuster: Die rautenförmig angeordneten Fasern verlaufen in kleinen Wellenlinien, was dem Gewebe seine Dehnungskapazität verleiht. Bei alten Hunden wirkt dieselbe Struktur dagegen eher verfilzt — die Faszienenden sind untereinander verklebt, die Plastizität des Gewebes ist eingeschränkt. Begünstigt wird dieser Prozess zusätzlich durch vermehrt produziertes Fibronektin, das wie ein Klebstoff wirkt und die Faszien zusätzlich verfilzen lässt.",
+      },
+      {
+        type: "text",
+        heading: "Ein Teufelskreis aus Verfilzung und Bewegungsarmut",
+        text: "Bewegt sich ein alterndes Tier zusätzlich weniger, verstärkt sich die Verfilzung weiter — ein sich selbst verstärkender Kreislauf, in dem die Elastizität des Gewebes kontinuierlich weiter abnimmt. Klinisch macht sich das am Hund unter anderem an einer deutlich reduzierten Sprungkraft bemerkbar (der Hund springt beispielsweise nicht mehr von selbst ins Auto) sowie an allgemein verminderter Elastizität und Kondition. Dieser Rückgang der Sprungkraft lässt sich zusätzlich über den an anderer Stelle beschriebenen Katapulteffekt einordnen: Eine weniger elastische, zunehmend verfilzte Sehnen-Faszien-Einheit speichert und gibt mechanische Energie schlechter ab, unabhängig von der tatsächlich noch vorhandenen Muskelkraft.",
+      },
+      {
+        type: "text",
+        heading: "Die paradoxe Kehrseite: Verfilzung als Überlebensvorteil",
+        text: "Die fortschreitende Verfilzung hat neben ihren Nachteilen auch eine kompensatorische Funktion: Sie sorgt dafür, dass Statik und Haltung des Körpers trotz des mit dem Alter fortschreitenden Muskelabbaus noch mit vergleichsweise wenig Energieaufwand aufrechterhalten werden können. Ein alter Hund, der durch Zahnprobleme oder nachlassende Kraft weniger erfolgreich jagen könnte, kann trotz Muskelabbau länger überleben, weil die verfilzten Faszien einen Teil der mechanischen Stützfunktion übernehmen, die sonst aktive Muskelarbeit leisten müsste. Für die physiotherapeutische Praxis bedeutet dieser Zusammenhang nicht, Bewegung bei alten Hunden zu reduzieren, sondern im Gegenteil: Abwechslungsreiche, regelmäßige Bewegung ist der wirksamste bekannte Hebel, um Muskelerhalt und Gewebegeschmeidigkeit so lange wie möglich zu bewahren und damit die alters- und bewegungsarmutsbedingte Verfilzung zu bremsen statt zu beschleunigen.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Untersuchung falsch gewählt", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 4.4, S. 37f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(4).pdf). Die altersbedingten Gewebeveränderungen (Flüssigkeits-/Matrix-/Kollagenfaseranteil), das Scherengittermuster junger vs. verfilzter alter Muskelfaszien, die Rolle des Fibronektins, der Teufelskreis aus Verfilzung und Bewegungsarmut, die reduzierte Sprungkraft als klinisches Zeichen sowie die kompensatorische Funktion der Verfilzung für Statik/Haltung trotz Muskelabbau (inkl. des Überlebensbeispiels eines alten Hundes in freier Wildbahn und des zitierten A.-T.-Still-Ausspruchs „Bewegung bedeutet Leben“) sind im Original so beschrieben. Die Verknüpfung der reduzierten Sprungkraft mit dem bestehenden Eintrag `katapulteffekt-sehnenelastizitaet-energieeffizienter-gang` (dieselbe Quelle, Kap. 2.2.1) ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
