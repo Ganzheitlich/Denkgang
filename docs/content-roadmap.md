@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 287 Einträge (8 Anatomie-Spiegelungen, 9 Grundlagen, 78
+- Wissensbibliothek: 291 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 81
   Untersuchung, 101 Pathologie, 70 Biomechanik, 41 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -649,6 +649,36 @@ kein Überblick verloren geht.
   Gynäkologie, Harnsystem usw.) und noch nicht gesichtet — siehe
   Backlog-Eintrag zu dieser Quelle für die Einschätzung, welche davon für
   Denkgangs physiotherapeutischen Fokus voraussichtlich ergiebig sind.
+- **Neue Quelle (01.10.2026): Könneker, Henrike/Reiter, Ute, Osteopathie in
+  der Kleintierpraxis, Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart,
+  2010 (ISBN 978-3-8304-9174-3).** Aus Vanessas Google-Drive-Bibliothek
+  erschlossen (Ordner-ID `1Q0EHXX11GL_0yoalAOVocsNFpMO2NMhD`), liegt als
+  PDF-Chunk-Serie vor (Präfix `o`, mindestens `o.pdf` bis `o(34).pdf`).
+  Vollständig gelesen und ausgewertet: Kap. 3 „Diagnostisches Basiswissen"
+  (S. 12–25, Chunks o(3)–o(7).pdf) — daraus 4 neue Einträge:
+  `somatische-dysfunktion-art-kriterienraster` (UNTERSUCHUNG: Definition der
+  somatischen Dysfunktion, das A.R.T.-/T.A.R.T.-Kriterienraster, sowie eine
+  explizit eingeordnete, nicht als gesichert dargestellte Kurzeinführung in
+  den osteopathischen Motilitätsbegriff), `primaerlaesion-sekundaerlaesion-
+  kompensation-koenneker` (GRUNDLAGEN: Primär-/Sekundärläsion, Key Lesion,
+  Kompensation vs. Dysfunktion — als allgemeine diagnostische Denkregel an
+  die bestehenden, konkreteren Kompensations-Einträge `wirbelsaeule-krummer-
+  ruecken-lahmheitshinweis` und `schmerzreise-vorderextremitaet-tlue-
+  kompensation-kaskade` angebunden), `barrierekonzept-direkte-indirekte-
+  ease-einstellung` (UNTERSUCHUNG: restriktive Barriere, direkte/indirekte/
+  Ease-Einstellung — bewusst von der bestehenden Endgefühl-Dokumentation aus
+  Hárrer abgegrenzt statt dupliziert) sowie `zehner-test-hund-globale-
+  spannungsuntersuchung` (UNTERSUCHUNG: der für den Hund modifizierte,
+  elfschrittige orientierende Ganzkörper-Spannungstest samt den beiden
+  Durchführungsregeln minimale Impulse/Spannungs- statt Schmerzsuche).
+  Begonnen, aber noch nicht in Einträge umgesetzt: Kap. 4 „Der rote Faden
+  der osteopathischen Behandlung" (S. 26 ff., Chunk o(7).pdf endet mitten im
+  Abschnitt 4.2). Kap. 1–2 (Geschichte, Technik-Überblick) sowie Kap. 5–10
+  (die eigentlichen Techniken-Kapitel inkl. der wissenschaftlich
+  unterschiedlich gut abgesicherten viszeralen und kraniosakralen Techniken)
+  sind noch ungelesen — siehe Backlog-Eintrag zu dieser Quelle für die
+  geplante Kapitel-Priorisierung und die Einordnung der strittigeren
+  Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -743,6 +773,73 @@ benannte PDF-Dateien (kein Chunk-Schema). Vollständige Dateiliste (Stand
 - [ ] Möglicherweise weitere, noch nicht aufgelistete Dateien im
   Drive-Ordner (nur zwei Seiten der Ordnerauflistung abgerufen) — bei
   Fortsetzung zuerst vollständige Dateiliste erneut abrufen.
+
+### UNTERSUCHUNG/THERAPIE — Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3, Sonntag/Thieme, 2010)
+
+Quelle liegt in Vanessas Google-Drive-Bibliothek (Ordner-ID
+`1Q0EHXX11GL_0yoalAOVocsNFpMO2NMhD`) als PDF-Chunk-Serie (Präfix `o`,
+`o.pdf` bis mindestens `o(34).pdf`, Chunks sind seitenfortlaufend). Autorinnen
+sind Tierärztinnen mit zusätzlicher Physiotherapie- bzw. Osteopathieausbildung;
+das Buch selbst benennt im Vorwort explizit fünf „osteopathische Prinzipien“
+als theoretischen Unterbau — relevant für die Einordnung der später folgenden
+Kapitel.
+
+- [x] Kap. 1–2 (Osteopathische Denkweise, Geschichte, Techniken-Überblick,
+  S. 2–11) nur über das Inhaltsverzeichnis erschlossen, noch nicht
+  volltextgelesen — niedrige Priorität, da vor allem historisch/einordnend,
+  keine unmittelbar prüfungsrelevanten Einzelfakten erwartet.
+- [x] Kap. 3 „Diagnostisches Basiswissen" (S. 12–25, Chunks o(3)–o(7).pdf)
+  **vollständig gelesen und ausgewertet — 4 neue Einträge**, siehe Stand
+  oben.
+- [~] Kap. 4 „Der rote Faden der osteopathischen Behandlung" (S. 26–33):
+  Beginn gelesen (4.1 „Der 1. Schritt", 4.2 „Der 2. Schritt" mit dem
+  Sanduhrprinzip der Befunderhebung vor/nach jeder Behandlung), Chunk
+  o(7).pdf endet hier. Noch offen: 4.3–4.9 (Vom Allgemeinen zum
+  Spezifischen, Technikreihenfolge, globales Monitoring, Überprüfung des
+  kraniosakralen Rhythmus als fester Bestandteil des Standardvorgehens,
+  Ausbreitung von Verkettungsmustern, Dokumentation). Vor Extraktion prüfen,
+  ob der feste Einbau der kraniosakralen Rhythmusprüfung ins
+  Standard-Vorgehen eine Einordnung erfordert (vgl. Kap. 9 unten).
+- [ ] Kap. 5–6 „Myofasziales Release" (S. 36–68): Faszienanatomie/-funktion
+  aus osteopathischer Sicht, Faszienketten, Diaphragmen-Konzept,
+  Release-Techniken für Gliedmaßen/Thorax/Becken/Kraniozervikal. Die reine
+  Faszienanatomie/-physiologie (S. 36–39) ist voraussichtlich unstrittig und
+  ergänzungsfähig zu bestehenden Faszien-Inhalten; die Diaphragmen- und
+  Ketten-Konzepte sind osteopathische Modellbildung und vor Übernahme
+  einzeln auf Evidenzlage zu prüfen.
+- [ ] **Kap. 7 „Osteoartikuläre Techniken" (S. 70–124) — voraussichtlich
+  höchste Priorität dieser Quelle.** Enthält Grundbegriffe der
+  Gelenkmechanik, Untersuchungsgang und gelenkspezifische Untersuchung/
+  Behandlung für alle Gliedmaßengelenke sowie die Wirbelsäule — thematisch
+  eng verwandt mit der bereits umfangreich vorhandenen Hárrer-Manuelle-
+  Therapie- und Koch/Fischer-Lahmheitsuntersuchung-Dokumentation. Vor
+  Extraktion sorgfältiger Abgleich nötig, welche Inhalte tatsächlich neue
+  Perspektiven (gelenkmechanisches statt muskuläres Denkmodell) statt
+  Dopplung liefern. Ein Teil dieser Quelle wurde bereits in einer früheren
+  Session zitiert (Eintrag zu M. iliacus, Kap. 7-Tabelle Beckengliedmaße) —
+  vor neuen Einträgen gegenprüfen, was davon schon übernommen ist.
+- [ ] Kap. 8 „Viszerale Techniken" (S. 125–162): Organtopografie,
+  viszerovertebrale Diagnostik, viszerales Faszienskelett. Enthält
+  Konzepte (Organmotilität, Organverbindung über embryonalen Ursprung) mit
+  schwächerer unabhängiger Evidenzlage als die rein muskuloskelettalen
+  Kapitel — bei Extraktion durchgehend als „nach osteopathischem
+  Verständnis"/"im osteopathischen Modell" kennzeichnen statt als
+  gesicherte Physiologie darzustellen, analog zur Handhabung von
+  TCM-Inhalten an anderer Stelle der Bibliothek.
+- [ ] Kap. 9 „Kraniosakrale Techniken" (S. 163–223): primär respiratorischer
+  Mechanismus, kraniosakraler Rhythmus, Stillpunkt, SSB/SSO-Technik. Die
+  Grundannahme eines bei erwachsenen Säugetieren mit verknöcherten
+  Schädelnähten weiterhin beweglichen/rhythmischen Schädels ist
+  wissenschaftlich umstritten und nicht unabhängig bestätigt — deutlich
+  strittiger als die übrigen Kapitel dieser Quelle. Falls überhaupt
+  extrahiert, nur mit explizit gekennzeichnetem Theoriemodell-Status
+  („nach osteopathischer Lehre", nicht als gesicherte Anatomie/Physiologie)
+  und nur dort, wo ein eigenständiger klinisch-didaktischer Mehrwert für
+  Denkgangs Physiotherapie-Fokus erkennbar ist — eher niedrige Priorität.
+- [ ] Kap. 10 „Von der Technik zur Kunst" (S. 224–227): ganzheitliche
+  Denkweise, eher philosophisch/zusammenfassend — niedrige Priorität.
+- [ ] Anhang (Abkürzungen, Lage-/Richtungsbezeichnungen, Glossar, Literatur,
+  Sachverzeichnis, S. 228–245) — kein Extraktionsziel.
 
 ### PATHOLOGIE/BIOMECHANIK/UNTERSUCHUNG — Kasper/Zohmann, Ganzheitliche Schmerztherapie für Hund und Katze (ISBN 978-3-8304-9288-7, Sonntag/Thieme, 2. Aufl. 2011)
 

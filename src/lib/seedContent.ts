@@ -13062,6 +13062,135 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "somatische-dysfunktion-art-kriterienraster",
+    category: "UNTERSUCHUNG",
+    title: "Was macht einen tastbaren Befund zu einem relevanten Befund? Das A.R.T.-Kriterienraster",
+    teaser:
+      "Asymmetrie, eingeschränkte Beweglichkeit, veränderte Gewebebeschaffenheit: Diese drei Kriterien aus der osteopathischen Theorie geben jeder tastenden Untersuchung ein greifbares Raster an die Hand, unabhängig davon, in welchem manualtherapeutischen Rahmen man arbeitet.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein palpierbarer Befund ohne Strukturschaden",
+        text: "Die osteopathische Lehre bezeichnet eine tastbare, aber (noch) nicht strukturell nachweisbare Funktionsstörung von Gewebe als somatische Dysfunktion: eine veränderte Gewebequalität (Struktur und/oder Spannung) und/oder eine Einschränkung der Gewebebeweglichkeit, ohne dass sich dafür eine strukturelle Ursache nachweisen lässt. Der entscheidende Punkt dieser Definition ist die Reversibilität: Solange eine Störung auf dieser rein funktionellen Stufe bleibt, gilt sie als durch manuelle Techniken vollständig umkehrbar. Eine spätere strukturelle Veränderung ist dagegen oft erst der Endpunkt monate- oder jahrelang bestehender, unbehandelter Funktionsstörungen und lässt sich nicht mehr vollständig rückgängig machen. Das begründet, warum eine frühzeitige Erkennung rein funktioneller Befunde fachlich relevant ist — nicht erst dann, wenn ein Befund bereits radiologisch oder laborchemisch bestätigt werden kann.",
+      },
+      {
+        type: "text",
+        heading: "A.R.T. — drei Kriterien für jeden tastenden Befund",
+        text: "Um diese Funktionsstörung greifbar zu machen, hat sich im englischsprachigen Raum das Kürzel A.R.T. etabliert: A für Asymmetry (Asymmetrie von Form und/oder Funktion zwischen rechts und links), R für Restricted Range of Motion (das Bewegungsausmaß, die Bewegungsqualität und/oder das Endgefühl sind gegenüber der physiologischen Norm verändert) und T für Tissue Texture Changes or Abnormality (eine veränderte Beschaffenheit des Gewebes selbst — etwa in Konsistenz, Temperatur oder Verschieblichkeit). Manche Autoren ergänzen ein weiteres T für Tenderness, also Schmerzempfindlichkeit, und sprechen dann von T.A.R.T. Diese Kriterien sind keine osteopathische Spezialität im engeren Sinn: Sie beschreiben lediglich, nach welchen vier Kategorien eine tastende Untersuchung überhaupt Auffälligkeiten einordnen kann — ähnlich den Gegensatzpaaren, mit denen manuelle Untersuchungsbefunde allgemein dokumentiert werden (z. B. symmetrisch/asymmetrisch, oberflächlich/tief, warm/kalt).",
+      },
+      {
+        type: "text",
+        heading: "Der Sonderfall Motilität: Theoriekonzept statt gesichertem Befund",
+        text: "Neben den vier A.R.T.-Kriterien beschreibt die osteopathische Theorie zusätzlich eine sogenannte Motilität: eine dem Gewebe eigene, rhythmische Mikrobewegung, die auf arteriellen/venösen Puls, Atemrhythmus und wechselnde Muskelfaserspannung zurückgeführt wird — im osteopathischen Modell ergänzt um einen sogenannten „primären respiratorischen Mechanismus“ und spontane Kontraktionen von Myofibroblasten im Fasziengewebe. Anders als die rein deskriptiven A.R.T.-Kriterien ist dieses Motilitätskonzept eine Grundannahme der osteopathischen Theorie, die unabhängig von osteopathischen Lehrmeinungen nicht bestätigt ist; insbesondere bleibt unklar, ob die wahrgenommene Mikrobewegung tatsächlich dem untersuchten Gewebe entspringt oder der Eigenwahrnehmung der untersuchenden Hand selbst. Für die klinische Praxis gilt daher: Die A.R.T.-Kriterien sind als Beobachtungsraster unabhängig von der osteopathischen Theorie nutzbar, der Motilitätsbegriff wird hier nur referiert und nicht als gesicherte physiologische Tatsache gelehrt.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Faktenwissen", "Überkonfidenz"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 3.1, S. 12f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks o(3)–o(4).pdf). Die Definition der somatischen Dysfunktion (inkl. ECOP-Definition), die A.R.T.-/T.A.R.T.-Kriterien sowie die Beschreibung der Motilität (Eigendynamik aus arteriellem/venösem Puls, Atemrhythmus, Muskelfaserspannung, primärem respiratorischen Mechanismus und Myofibroblasten-Kontraktionen) sind im Original so beschrieben. Die einordnende Bewertung der Motilität als osteopathisches Theoriekonzept ohne unabhängige Bestätigung ist eigene fachliche Einschätzung von Denkgang (konsistent mit der Handhabung vergleichbar umstrittener Konzepte an anderer Stelle der Wissensbibliothek, z. B. bei TCM-Inhalten), nicht Teil der Originalquelle. Dies ist der erste Eintrag aus der neuen Quelle Könneker/Reiter, Osteopathie in der Kleintierpraxis.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "primaerlaesion-sekundaerlaesion-kompensation-koenneker",
+    category: "GRUNDLAGEN",
+    title: "Welcher Befund ist die Ursache — und welcher nur die Folge?",
+    teaser:
+      "Eine lange bestehende Funktionsstörung erzeugt fast immer Folgebefunde anderswo im Körper. Wer nur das aktuell störendste Symptom behandelt, riskiert ein Rezidiv — wer die Ursprungsläsion sucht, muss wissen, dass sie sich manchmal längst wieder aufgelöst hat.",
+    sections: [
+      {
+        type: "text",
+        heading: "Primärläsion und Sekundärläsion: zwei Befunde, eine Entstehungsgeschichte",
+        text: "Die osteopathische Denkweise unterscheidet begrifflich zwischen der Primärläsion (der Ursprungsläsion, aus der sich eine Störung ursprünglich entwickelt hat) und der Sekundärläsion (einer Folgeläsion, die sich erst als Reaktion auf die unbehandelte Primärläsion ausbildet). Bleibt eine Primärläsion unentdeckt und unbehandelt, breitet sich die Funktionsstörung häufig über fasziale, muskuläre, vaskuläre oder nervale Verknüpfungen auf andere Körperregionen aus. Symptome zeigen sich dabei oft erst dann, wenn der Körper die bestehende Störung nicht mehr kompensieren kann — und genau das erschwert es, den eigentlichen Auslöser zu finden: Er kann zeitlich lange zurückliegen und an einer ganz anderen Körperstelle liegen als die aktuellen Beschwerden.",
+      },
+      {
+        type: "text",
+        heading: "Die Key Lesion: das lauteste Symptom ist nicht automatisch die Ursache",
+        text: "Wird nur die Sekundärläsion behandelt, ist mit einem Rezidiv zu rechnen, weil die eigentliche Ursache unangetastet bleibt. In der Praxis beginnt die Behandlung daher meist mit der Läsion, die den Patienten im Moment am stärksten belastet oder einschränkt — der sogenannten Key Lesion. Diese stellt das primäre Symptom dar, muss aber nicht mit der Primärläsion im oben genannten Sinn identisch sein. In manchen Fällen hat sich die ursprüngliche Läsion inzwischen von selbst wieder aufgelöst, und nur die aus ihr entstandenen Sekundärläsionen bleiben bestehen — dann lässt sich der ursprüngliche Auslöser gar nicht mehr auffinden, und die Behandlung richtet sich notgedrungen nach dem aktuell relevantesten Befund.",
+      },
+      {
+        type: "text",
+        heading: "Kompensation: eine Anpassung ist noch keine Dysfunktion — kann aber zu einer werden",
+        text: "Von einer Dysfunktion ist eine Kompensation begrifflich zu unterscheiden: Sie ist eine Anpassung des Körpers an eine bestehende Funktions- oder Strukturstörung und verschwindet in der Regel von selbst, sobald diese Störung behoben ist — etwa eine kyphotische Schonhaltung bei abdominalen Schmerzen, die sich auflöst, sobald der Schmerz weg ist. Bleibt ein solcher Kompensationsmechanismus jedoch über längere Zeit bestehen, kann er selbst zu einer Dysfunktion oder sogar zu einer strukturellen Veränderung werden — eine zunächst flexible Schonhaltung kann sich so langfristig fixieren. Dieselbe Logik liegt den bereits beschriebenen, konkreteren Beispielen in dieser Bibliothek zugrunde: dem aufgekrümmten Rücken als Kompensationszeichen für einen Gliedmaßenschmerz und der rasseabhängig unterschiedlich gut tolerierten Gewichtsverlagerungs-Kaskade zur Vorderhand. Beide beschreiben konkrete Kompensationsmuster — dieser Eintrag liefert die allgemeine diagnostische Denkregel dahinter: Eine Kompensation ist zunächst nur ein Hinweis auf das eigentliche Problem, kein eigenständiges Behandlungsziel, kann aber bei fortbestehender Belastung selbst behandlungsbedürftig werden.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "falsche Priorisierung", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 3.1.1 f., S. 13f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(4).pdf). Primärläsion, Sekundärläsion, Key Lesion und Kompensation sind im Original so definiert und begründet (inkl. des Beispiels der kyphotischen Schonhaltung bei abdominalen Schmerzen). Die Verknüpfung mit den bestehenden Einträgen `wirbelsaeule-krummer-ruecken-lahmheitshinweis` und `schmerzreise-vorderextremitaet-tlue-kompensation-kaskade` ist eigene Einordnung von Denkgang: Jene Einträge beschreiben konkrete, rassespezifische bzw. befundspezifische Kompensationsmuster, dieser Eintrag abstrahiert die allgemeine Denkregel (Ursache vs. Folge, Key Lesion, Kompensation vs. Dysfunktion) dahinter — bewusst nicht dupliziert, sondern als übergeordnetes Reasoning-Prinzip in der Grundlagen-Kategorie angelegt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "barrierekonzept-direkte-indirekte-ease-einstellung",
+    category: "UNTERSUCHUNG",
+    title: "Nicht nur ob, sondern wohin: das Barrierekonzept als Richtungsanalyse einer Bewegungseinschränkung",
+    teaser:
+      "Eine Einschränkung ist selten in alle Richtungen gleich ausgeprägt. Das osteopathische Barrierekonzept zwingt dazu, bei jedem Gelenk und jedem Weichteilbereich konkret zu benennen, in welcher Richtung des Raumes zuerst Spannung auftritt — und das systematisch für Gelenke wie für Weichteilgewebe gleichermaßen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die restriktive Barriere: der Punkt, an dem die erste Spannung auftritt",
+        text: "Als restriktive Barriere wird in der spannungsfreien Bewegung der Punkt bezeichnet, an dem die erste Spannung auftritt — bei Weichteilgewebe entsprechend die Richtung mit der größten Spannung. Zeitpunkt des Spannungsauftritts sowie Qualität und Ausmaß der Spannung sind dabei nie in alle Richtungen gleich: Bei einem Gelenk lässt sich die Barriere für jede mögliche Bewegungsrichtung einzeln bestimmen (z. B. getrennt für Flexion und Extension), bei einer Weichteilregion ebenso für jede Richtung des Raumes, die diese Region physiologischerweise zulässt (proximal/distal, medial/lateral, in die Tiefe). Diese Richtungsanalyse unterscheidet das Barrierekonzept von einer reinen Endgefühl-Beurteilung am Ende des vollen Bewegungsausschlags eines Gelenks: Die Barriere kann irgendwo innerhalb des Bewegungsspielraums liegen, nicht nur an dessen Ende, und sie wird für Gelenke wie für Weichteilgewebe gleichermaßen bestimmt.",
+      },
+      {
+        type: "text",
+        heading: "Drei Einstellungsmöglichkeiten: direkt, indirekt, Ease",
+        text: "Aus der ermittelten Barriere ergeben sich drei mögliche Handlagen. Bei der direkten Einstellung verbleibt die Hand genau in der Position mit der höchsten ermittelten Spannung. Bei der indirekten Einstellung wird die entgegengesetzte Richtung eingestellt — wiederum an dem Punkt, an dem erste Spannungszeichen im Gewebe auftreten. Liegt die Barriere senkrecht in die Tiefe statt parallel zur Oberfläche, besteht die indirekte Einstellung in einem sanften Oberflächenkontakt. Die dritte Möglichkeit ist die Ease-Stellung: die Position der größtmöglichen Spannungsfreiheit zwischen beiden Spannungspositionen, also der Punkt maximaler Entspannung des Gewebes.",
+      },
+      {
+        type: "text",
+        heading: "A.R.T. als Leitkriterien für Asymmetrie, Bewegungsausmaß und Gewebebeschaffenheit",
+        text: "Die Beurteilung einer Barriere folgt denselben drei übergeordneten Kriterien, die auch für jeden anderen tastenden Befund gelten (vgl. den Eintrag zum A.R.T.-Kriterienraster): Ist das Bewegungsausmaß gegenüber der physiologischen Norm und im Seitenvergleich eingeschränkt oder vergrößert? Findet sich eine Asymmetrie zwischen rechts und links? Ist die Gewebebeschaffenheit an der Barriere selbst verändert? Diese Verknüpfung macht deutlich, dass das Barrierekonzept kein isoliertes osteopathisches Sonderverfahren ist, sondern eine systematische Anwendung derselben Beobachtungslogik auf die Frage, in welche Richtung eine gefundene Einschränkung konkret zeigt.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Untersuchung falsch gewählt", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 3.3.4, S. 18f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks o(6)–o(7).pdf). Definition der restriktiven Barriere sowie die direkte, indirekte und Ease-Einstellung sind im Original so beschrieben. Die Abgrenzung zur Endgefühl-Beurteilung (vgl. bereits bestehende Einträge zu Kapselmuster und Endgefühl aus Hárrer, Manuelle Therapie beim Hund) ist eigene fachliche Einordnung von Denkgang: Endgefühl beurteilt die Widerstandsqualität am Ende des vollen passiven Bewegungsausschlags eines Gelenks, die Barriere kann dagegen an jedem Punkt innerhalb des Bewegungsspielraums liegen und wird zusätzlich für Weichteilgewebe (nicht nur Gelenke) bestimmt — bewusst nicht dupliziert, sondern als eigenständiges, umfassenderes Konzept angelegt. Der Verweis auf das A.R.T.-Kriterienraster bezieht sich auf den in dieser Session neu erstellten Eintrag `somatische-dysfunktion-art-kriterienraster` aus derselben Quelle.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "zehner-test-hund-globale-spannungsuntersuchung",
+    category: "UNTERSUCHUNG",
+    title: "Der modifizierte 10er-Test: eine orientierende Ganzkörper-Spannungsuntersuchung beim Hund",
+    teaser:
+      "Bevor gezielt ein einzelner Bereich untersucht wird, lohnt sich ein kurzer, standardisierter Rundgang durch den ganzen Körper: Der 10er-Test deckt mit minimalen Bewegungsimpulsen auf, wo überhaupt genauer hingeschaut werden muss.",
+    sections: [
+      {
+        type: "text",
+        heading: "Erst der Überblick, dann die gezielte Untersuchung",
+        text: "Der sogenannte 10er-Test ist eine orientierende Untersuchung, die einen ersten Eindruck von den Spannungsverhältnissen des Patienten verschafft — ein „Scanntest“ der Spannungen an Haut, Unterhaut, Faszien und Muskeln, immer im Seitenvergleich durchgeführt. Wichtig ist dabei, dass bei dieser Übersichtsuntersuchung gefundene Seitenunterschiede zunächst nur registriert, aber noch nicht interpretiert oder gewertet werden. Erst danach folgt die gezielte, segmentale Untersuchung genau der Bereiche, die bei diesem Übersichtstest eine veränderte Spannung ergeben haben. Trotz des Namens besteht die für den Hund modifizierte Version inzwischen aus elf statt zehn Prüfschritten.",
+      },
+      {
+        type: "table",
+        heading: "Die elf Prüfschritte des modifizierten 10er-Tests",
+        columns: ["Körperregion", "Technik"],
+        rows: [
+          ["Kopf/Hals", "Hände von lateral an den Kopf anlegen, Lateralschub an Kopf und Hals im Seitenvergleich rechts/links"],
+          ["Schulter", "Hände von lateral an die Schulter anlegen, Lateralschub"],
+          ["Thorax", "Lateralschub am Thorax"],
+          ["Lendenwirbelsäule (LWS)", "Schub lateral rechts und links"],
+          ["Becken", "Schub lateral rechts und links sowie dorsal und ventral"],
+          ["Brustwirbelsäule (BWS)", "Eine Hand dorsal, eine Hand ventral am Brustkorb, Schub in dorsale und ventrale Richtung"],
+          ["LWS (zweiter Schritt)", "Eine Hand dorsal, eine Hand ventral am Abdomen, Schub in dorsale und ventrale Richtung"],
+          ["Rute", "Eine Hand ergreift die Rute, leichte Bewegungen rechts/links sowie dorsal/ventral"],
+          ["Vorbrust", "Eine Hand liegt von kranial kommend auf dem Sternum, Schub nach kaudal"],
+          ["Hinterschenkel", "Eine Hand liegt von kaudal kommend auf den Hinterschenkeln, Schub nach kranial"],
+          ["Aufhebespannung der Gliedmaßen", "Vordergliedmaße nach kranial, Hintergliedmaße nach kaudal anheben"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Spannung suchen, nicht Schmerz auslösen",
+        text: "Zwei Durchführungsregeln sind für die Aussagekraft des Tests entscheidend. Erstens sind die passiven Bewegungen minimale, kaum sichtbare Impulse — keine schaukelnden Bewegungen bis zum Bewegungsende, sondern lediglich ein geringer Schub-/Druckimpuls, dessen entgegenkommende Spannung registriert wird; jeder Punkt wird deshalb nur ein- bis maximal zweimal hintereinander getestet. Zweitens wird ausdrücklich nach Spannung gesucht, nicht nach Schmerz: Das provozierte Auslösen von Schmerz verbessert die Befundqualität nicht und zerstört das Vertrauensverhältnis zum Patienten. Die Untersuchung sollte außerdem in einer Position erfolgen, die der Hund angstfrei und freiwillig einnimmt — wird eine Stellung dem Tier aufgezwungen, verspannt es reflektorisch, was die Palpation unphysiologischer Spannungen zusätzlich erschwert.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 3.4.1, S. 19–21 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(7).pdf). Der 10er-Test als orientierender Scanntest, die elf Prüfschritte der für den Hund modifizierten Version samt Technik und Schubrichtung sowie die beiden Durchführungsregeln (minimale Impulse, Spannungs- statt Schmerzsuche) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
