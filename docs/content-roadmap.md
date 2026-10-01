@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 299 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 85
+- Wissensbibliothek: 300 Einträge (8 Anatomie-Spiegelungen, 10 Grundlagen, 86
   Untersuchung, 102 Pathologie, 72 Biomechanik, 42 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
@@ -739,15 +739,20 @@ kein Überblick verloren geht.
   die praktische Durchführungsebene). Diese drei Einträge bestätigen die
   ursprüngliche Einschätzung, dass Kap. 7 die ergiebigste Einzelquelle
   dieses Buches für Denkgang ist, da sie kaum osteopathie-spezifische
-  Theoriekonzepte benötigen. Kap. 1–2 (Geschichte, Technik-Überblick),
-  Kap. 7.1.2 (Denkmodelle zur Entstehung von Gelenkdysfunktionen — in
-  Chunk o(23).pdf mitgelesen, noch nicht ausgewertet, da inhaltlich mit dem
-  bestehenden Eintrag `manuelle-medizin-drei-schulen-omt-chiropraxis-
-  osteopathie` aus anderer Quelle stark überlappt), der Rest von Kap. 7
-  (S. 86–124, konkrete Gelenk-/Wirbelsäulentechniken) sowie Kap. 8–10
-  (viszerale und kraniosakrale Techniken) sind noch ungelesen — siehe
-  Backlog-Eintrag zu dieser Quelle für die geplante Kapitel-Priorisierung
-  und die Einordnung der strittigeren Konzepte.
+  Theoriekonzepte benötigen. Danach Kap. 7.2.3 „Untersuchungsgang" (S. 81–
+  83, Chunk o(24).pdf) — daraus 1 weiterer neuer Eintrag:
+  `anamnese-struktur-vier-kategorien-adspektion-ruhepositionen`
+  (UNTERSUCHUNG: die vier Anamnese-Kategorien allgemein/speziell/
+  systemisch/Familienanamnese mit ihren Einzelfragen sowie die Adspektion
+  in den drei Ruhepositionen plus Gangartenprüfung — eine bislang in
+  dieser Bibliothek fehlende allgemeine Anamnese-/Adspektions-
+  Systematik, kein Duplikat eines fallspezifischen Anamnese-Eintrags).
+  **Damit ist Kap. 7.1–7.2 vollständig ausgewertet** (mit Ausnahme von
+  7.1.2, siehe Backlog). Kap. 1–2 (Geschichte, Technik-Überblick), der
+  Rest von Kap. 7 (S. 86–124, konkrete Gelenk-/Wirbelsäulentechniken, Kap.
+  7.3–7.4) sowie Kap. 8–10 (viszerale und kraniosakrale Techniken) sind
+  noch ungelesen — siehe Backlog-Eintrag zu dieser Quelle für die geplante
+  Kapitel-Priorisierung und die Einordnung der strittigeren Konzepte.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -922,14 +927,19 @@ Kapitel.
   Einträge**, siehe Stand oben (`ausweichbewegungen-verfaelschte-
   gelenkuntersuchung`, `kennmuskeln-reflektorische-spannungszeichen-
   gelenkregion`, `joint-play-technik-traktionsstufen-wirbelsaeulen-
-  limitation`). Noch offen: 7.2.2 f. „Techniken"/„Untersuchungsgang" ab
-  S. 80 wurde zwar schon mitgelesen (Traktion, Mobilisation, HVLA/
-  Manipulation — Letztere wird im Buch nicht im Detail beschrieben —,
-  allgemeine Anamnese-Struktur, Adspektion, orientierende vs. gezielte
-  Beweglichkeitsprüfung), ist aber noch nicht vollständig in weitere
-  Einträge umgesetzt (Kandidat: Anamnese-/Adspektions-Checkliste, falls
-  nicht zu nah an bereits bestehenden Anamnese-Einträgen anderer Quellen).
-  Noch komplett offen: 7.3 „Untersuchung und Behandlung einzelner Gelenke"
+  limitation`). 7.2.2 „Techniken" (Traktion, Mobilisation, HVLA/
+  Manipulation — Letztere wird im Buch nicht im Detail beschrieben, da
+  Manipulationen explizit nicht Gegenstand dieses Buches sind) **bewusst
+  nicht als eigener Eintrag übernommen** — die Traktionsstufen und das
+  MFR/MFR-in-Ketten-Prinzip sind bereits in bestehenden Einträgen
+  abgedeckt, und die Manipulations-/HVLA-Technik selbst wird von der
+  Quelle nicht detailliert genug beschrieben, um sie eigenständig korrekt
+  darzustellen. 7.2.3 „Untersuchungsgang" (Anamnese-Struktur, Adspektion,
+  orientierende vs. gezielte Beweglichkeitsprüfung) ergab **1 weiteren
+  neuen Eintrag**, siehe Stand oben
+  (`anamnese-struktur-vier-kategorien-adspektion-ruhepositionen`). **Damit
+  ist Kap. 7.1–7.2 vollständig ausgewertet.** Noch komplett offen: 7.3
+  „Untersuchung und Behandlung einzelner Gelenke"
   (S. 87–107, alle Gliedmaßengelenke einzeln — hier ist der sorgfältigste
   Abgleich mit Hárrer/Koch-Fischer nötig, da diese Quellen dieselben
   Gelenke bereits sehr ausführlich abdecken) sowie 7.4 „Die Wirbelsäule"

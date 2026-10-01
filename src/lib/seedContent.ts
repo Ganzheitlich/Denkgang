@@ -13451,6 +13451,35 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "anamnese-struktur-vier-kategorien-adspektion-ruhepositionen",
+    category: "UNTERSUCHUNG",
+    title: "Vier Anamnese-Kategorien und drei Ruhepositionen: eine vollständigere Checkliste",
+    teaser:
+      "Ein längst vergessener Narkosezwischenfall im Welpenalter oder ein Raucherhaushalt tauchen in keiner „Wann fing es an?“-Frage auf — eine vollständige Anamnese braucht mehr als nur die aktuelle Beschwerde.",
+    sections: [
+      {
+        type: "text",
+        heading: "Vier Anamnese-Kategorien",
+        text: "Eine vollständige Anamnese gliedert sich sinnvollerweise in vier Bereiche. Die allgemeine Anamnese fragt nach Besonderheiten bei der Geburt (Sectio? Schwergeburt?), nach Traumen, Unfällen oder auch nur scheinbar folgenlosen Kleinstunfällen im Welpenalter, nach Operationen und Narkosen jeder Art (auch zu rein diagnostischen Zwecken), nach Veränderungen im Gesamtverhalten, nach einem Besitzerwechsel sowie nach Haltung und Ernährungsplan (Ausschlussdiäten, vegetarische Ernährung) und Rauchen im menschlichen Umfeld. Die spezielle Anamnese fragt gezielt nach der aktuellen Beschwerde: Beginn und zeitlicher Zusammenhang (Auftreten in Ruhe oder bei Belastung, bei bestimmten Bewegungen oder Haltungen), ob die Lahmheit beim Loslaufen auftritt und sich dann bessert (Einlaufen), sowie nach sichtbaren Zeichen wie Wirbelsäulenschwingung, Rutenbewegung, Becken-/SIG-Bewegung, Kopfhaltung oder Schwung/Ausstrahlung der Bewegung. Die systemische beziehungsweise organbezogene Anamnese fragt nach Herz-Kreislauf-System, Lunge/Atemfunktion, Kondition, Appetit/Verdauung sowie Trink- und Harnabsatzverhalten. Die Familienanamnese schließlich fragt sowohl nach der Tierfamilie (Auftreten ähnlicher oder auch anderer Beschwerden, bekannte Dispositionen) als auch nach dem menschlichen Umfeld (Krebs, Diabetes, Rheuma, Epilepsie oder andere chronische Krankheiten im Haushalt).",
+      },
+      {
+        type: "text",
+        heading: "Adspektion in drei Ruhepositionen plus Gangart",
+        text: "Die Adspektion beurteilt zunächst die drei Ruhepositionen Liegen, Sitzen und Stehen: Welche Position nimmt der Patient spontan und welche nach längerer Zeit ein? Welche Besonderheiten zeigen sich an der Haltung in der jeweiligen Position? Wie reagiert der Patient auf die Kommandos Sitz, Platz, Aufstehen? Bei der Prüfung der aktiven Beweglichkeit in den tierartspezifischen Gangarten wird zusätzlich beobachtet: Besonderheiten beim Positionswechsel, die genaue Form des Schüttelns (mit besonderer Beobachtung der Wirbelsäulenbewegung dabei) sowie der Bewegungsablauf in Schritt, Trab und Galopp — wobei hier nicht nur, wie in der rein orthopädischen Untersuchung üblich, der Lahmheitsgrad interessiert, sondern auch die aktive Beteiligung einzelner Körperregionen am Bewegungsablauf und die Bevorzugung einer bestimmten Gangart oder Gangweise (etwa Kreuzgang oder Passgang). Ergänzend gibt der Zustand des Haarkleides Hinweise auf eine gestörte Trophik und damit auf Veränderungen der autonomen Regulationsmechanismen.",
+      },
+      {
+        type: "text",
+        heading: "Warum diese Breite den Unterschied macht",
+        text: "Jede bei der Adspektion auffallende Veränderung sollte bei der anschließenden Palpation besondere Beachtung finden — die Adspektion liefert also nicht nur eigene Befunde, sondern lenkt gezielt die nachfolgende Untersuchung. Der breite Anamnese-Rahmen verhindert zudem, dass eine scheinbar rein orthopädische Beschwerde eine übersehene systemische oder konstitutionelle Komponente hat: Ein im Welpenalter „vergessener“ Narkosezwischenfall, ein Besitzerwechsel oder ein Raucherhaushalt tauchen in keiner Frage nach der aktuellen Beschwerde auf, können aber für das Gesamtbild des Patienten relevant sein.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.2.3, S. 81–83 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(24).pdf). Die vier Anamnese-Kategorien (allgemein, speziell, systemisch/organbezogen, Familienanamnese) mit ihren jeweiligen Einzelfragen sowie die Adspektion in den drei Ruhepositionen plus Gangartenprüfung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
