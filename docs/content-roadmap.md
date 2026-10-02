@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 335 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 93
-  Untersuchung, 109 Pathologie, 88 Biomechanik, 45 Therapie — genaue
+- Wissensbibliothek: 338 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 94
+  Untersuchung, 110 Pathologie, 89 Biomechanik, 45 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -1144,7 +1144,42 @@ kein Überblick verloren geht.
   erwartende Organmotilitäts-/Listening-Theorie — die ursprüngliche
   Vorab-Einschätzung erweist sich damit für Kap. 8 als zu pessimistisch,
   was zeigt, dass eine Buchkapitel-Einordnung nach Titel allein kein
-  Ersatz für die tatsächliche Lektüre ist.
+  Ersatz für die tatsächliche Lektüre ist. Danach den Rest von Kap. 9
+  „Die Organe im Gesamtsystem der Faszien" gelesen (9.1.2–9.4, S. 128–133,
+  Chunk f(9).pdf) — **3 weitere neue Einträge, damit ist Kap. 9
+  vollständig ausgewertet.** 9.1.2 „Motor der Bewegung" unterscheidet drei
+  Organbewegungsformen: Motrizität (passive Mitbewegung der Organe bei
+  Skelettbewegung, z. B. die Niere auf dem M. psoas) und Mobilität
+  (Eigenbewegung im Aufhängungssystem durch Zwerchfell/Herz/Peristaltik,
+  inkl. der Zwerchfellbewegungs-Statistik von rund 28.800 Bewegungen pro
+  Tag und dem Gastropexie-Beispiel) wurden übernommen
+  (`motrizitaet-mobilitaet-organbewegung-skelett-atmung-peristaltik`); die
+  dritte Form, die Motilität (Organ-Eigenbewegung, nur durch „sehr
+  präsente, lauschende Berührung“ wahrnehmbar, Exspir-/Inspir-Rhythmus),
+  bewusst nicht — dieselbe Eigenwahrnehmungskategorie wie die bereits bei
+  Könneker/Reiter ausgeschlossene Organmotilitätstheorie, die Vorab-
+  Erwartung bestätigt sich hier also doch, nur für einen Teilaspekt des
+  Kapitels statt für das ganze. 9.2/9.2.1 lieferten die drei
+  Ursachengruppen verminderter Organbeweglichkeit (Adhäsion/Verklebung/
+  Verwachsung mit Zeitverlauf, Ptose mit Leber-/Nieren-Fettkapsel-
+  Beispiel, Viszerospasmus)
+  (`viszerale-restriktionen-adhaesion-ptose-viszerospasmus`) sowie die
+  Gruppenläsion (>3 aufeinanderfolgende gestörte Wirbelsegmente) als
+  Hinweis auf eine viszerovertebrale Verkettung, verknüpft mit der
+  bestehenden Kibler-Palpationstechnik um ein zusätzliches Texturzeichen
+  (`gruppenlaesion-viszerovertebrale-verkettung-kibler-textur`) — die
+  dabei beschriebene Inhibitionstechnik selbst wurde bewusst nicht als
+  Technikanleitung übernommen. 9.3/9.4 („Fasziale Ketten im
+  Gesamtsystem", Spannungsausbreitung über die Fascia cervicalis
+  profunda bis zu den Organen) lieferte keinen eigenständigen neuen
+  Eintrag: Der Inhalt wiederholt im Kern die bereits aus Kap. 8.3
+  extrahierte Dreischicht-Kontinuität (`koerperhoehlen-dreischichtige-
+  faszienauskleidung-kontinuitaet`) und erweitert sie um das allgemeine,
+  bereits an anderer Stelle als osteopathische Modellbildung eingeordnete
+  „Faszienketten"-Konzept (vgl. die entsprechende Zurückhaltung bei
+  Könneker/Reiter) — hier bewusst keine zusätzliche Extraktion, um das
+  Konzept nicht über die bereits verifizierte Kontinuität hinaus
+  aufzuwerten.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1598,16 +1633,26 @@ Status:
   da die Kapitelgrenze mitten im Chunk lag) gelesen — **1 weiterer neuer
   Eintrag**, ebenfalls überwiegend reguläre Anatomie (Serosa, Mesenterium)
   mit einer bewusst vorsichtig eingeordneten osteopathischen
-  Erweiterungs-Metapher. Noch offen: der Rest von Kap. 9 „Die Organe im
-  Gesamtsystem der Faszien" (9.2 ff., ab S. 125, Chunk f(9).pdf — dort
-  ist nach erster Durchsicht der Organmotilitäts-/-mobilitätstheorie zu
-  erwarten, ähnlich dem bereits bei Könneker/Reiter ausgeschlossenen
-  Profil) sowie Kap. 10 „Typische Restriktionen im Bereich der Viszera"
-  (S. 134–153, Chunk f(10).pdf — dort laut erster Durchsicht explizit
-  Unwinding-/Stacking-/Inhibitions-Techniken sowie ein A.-T.-Still-Zitat
-  gegen jede manuelle Druck-/Zug-/Stichtechnik am Abdomen, d. h.
-  überwiegend dieselbe disputierte Eigenwahrnehmungs-Kategorie wie
-  bereits mehrfach ausgeschlossen).
+  Erweiterungs-Metapher. Danach der Rest von Kap. 9 „Die Organe im
+  Gesamtsystem der Faszien" (9.1.2–9.4, S. 128–133, Chunk f(9).pdf)
+  **vollständig gelesen und ausgewertet — 3 weitere neue Einträge, damit
+  ist Kap. 9 komplett.** Die vorab erwartete Organmotilitätstheorie kam
+  tatsächlich vor (9.1.2, „Motilität"-Begriff), betraf aber nur eine von
+  drei beschriebenen Bewegungsformen — Motrizität und Mobilität (solide,
+  unstrittige Physiologie) wurden übernommen, nur die Motilität
+  ausgeschlossen (siehe Stand oben für Details zu allen drei neuen
+  Einträgen: Motrizität/Mobilität, Adhäsion/Ptose/Viszerospasmus,
+  Gruppenläsion/Kibler-Textur). 9.3/9.4 (Faszienketten-Konzept) lieferte
+  keinen weiteren Eintrag — Wiederholung der bereits aus Kap. 8.3
+  extrahierten Dreischicht-Kontinuität. Noch offen: Kap. 10 „Typische
+  Restriktionen im Bereich der Viszera" (S. 134–153, Chunk f(10).pdf —
+  dort laut erster Durchsicht explizit Unwinding-/Stacking-/
+  Inhibitions-Techniken sowie ein A.-T.-Still-Zitat gegen jede manuelle
+  Druck-/Zug-/Stichtechnik am Abdomen, d. h. überwiegend dieselbe
+  disputierte Eigenwahrnehmungs-Kategorie wie bereits mehrfach
+  ausgeschlossen — nach den Kap.-8/9-Erfahrungen aber dennoch vollständig
+  zu lesen, da auch dort einzelne nicht-disputierte Fakten zu erwarten
+  sind).
 - [ ] Kap. 11 „Das craniosacrale System" (S. 156–159): noch ungelesen, nach
   Titel/Konzept erwartbar am strittigsten, analog zum bereits
   zurückgestellten Kap. 9 bei Könneker/Reiter.

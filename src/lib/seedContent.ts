@@ -14701,6 +14701,93 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "motrizitaet-mobilitaet-organbewegung-skelett-atmung-peristaltik",
+    category: "BIOMECHANIK",
+    title: "Motrizität und Mobilität: wie Organe durch Skelettbewegung und Atmung bewegt werden",
+    teaser:
+      "Organe bewegen sich nicht nur passiv mit, wenn der Hund rennt und springt — das Zwerchfell allein bewegt sie rund 28.800-mal am Tag im Takt der Atmung. Eine Restriktion des Aufhängungssystems kann beide Bewegungsformen einschränken.",
+    sections: [
+      {
+        type: "text",
+        heading: "Motrizität: Organbewegung als Mitbewegung des Skeletts",
+        text: "Motrizität beschreibt die passive Verlagerung der Organe bei willkürlichen Bewegungen des Skelettsystems. Dreh-, Sprung- und Stoppbewegungen beim Spiel oder in der Bewegung insgesamt bewegen die Organe im Körperinneren mit, allein schon durch die physiologische Bewegung der Wirbelsäule in den verschiedenen Gangarten. Ein konkretes Beispiel ist die Niere, die auf dem M. psoas liegt und bei dessen Kontraktion und Entspannung passiv mitgleitet — Restriktionen der Psoasmuskulatur, in der Praxis relativ häufig anzutreffen, schränken deshalb nicht nur die Hüftstreckung und die Beweglichkeit der Lendenwirbelsäule ein, sondern auch diese passive Nierenbewegung.",
+      },
+      {
+        type: "text",
+        heading: "Mobilität: Organbewegung durch Atmung, Herzschlag und Peristaltik",
+        text: "Mobilität beschreibt dagegen die freie mechanische Beweglichkeit der Organe innerhalb ihres eigenen Aufhängungssystems, angetrieben durch die Bewegung von Zwerchfell und Herz sowie die Peristaltik der Hohlorgane des Magen-Darm-Trakts. Allein die Zwerchfellbewegung bewegt die Organe beim Hund bei einer durchschnittlichen Atemfrequenz von 20 Atemzügen pro Minute rund 28.800-mal am Tag — ein kontinuierlicher, rhythmischer Impuls, den die Organe im Rahmen ihrer physiologischen Grenzen aufnehmen. Restriktionen im Aufhängungsapparat der Organe vermindern diese physiologische Mobilität. Ein drastisches klinisches Beispiel ist die Gastropexie nach einer Magendrehung: Um eine erneute, lebensbedrohliche Magendrehung zu verhindern, wird der Magen chirurgisch an der Bauchwand fixiert — die Mobilität dieses Organs wird damit bewusst und dauerhaft aufgehoben, weshalb bei diesen Hunden eine regelmäßige Kontrolle sinnvoll ist, um die übrige Kompensation langfristig zu unterstützen.",
+      },
+      {
+        type: "text",
+        heading: "Eine offen als Hypothese gekennzeichnete Übertragungsidee",
+        text: "Die Quelle diskutiert als offen gekennzeichnete Hypothese, ob unterschiedliche Rumpfformen die Fortleitung dieser Bewegungen beeinflussen könnten — als Beispiel wird der gedrungene Körperbau und die geringe Wirbelsäulenbeweglichkeit der Französischen Bulldogge genannt, die über längere Darmpassagezeiten und Gärprozesse zur bei dieser Rasse häufig beobachteten Flatulenz beitragen könnte. Diese Übertragung ist im Original ausdrücklich als Vermutung („wäre vorstellbar“) formuliert und wird hier entsprechend nicht als gesicherter Zusammenhang, sondern als ungeprüfte Hypothese referiert.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 9.1.2, S. 128f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(9).pdf, unter Verweis im Original auf Helsmoortel et al. [12] sowie Barral und Mercier [2], von Denkgang nicht eigenständig in der Primärliteratur geprüft). Die Definitionen von Motrizität und Mobilität, das Psoas-Nieren-Beispiel, die Zwerchfellbewegungs-Statistik (28.800 Bewegungen/Tag bei 20 Atemzügen/Minute) sowie das Gastropexie-Beispiel sind im Original so beschrieben; die Französische-Bulldogge-Flatulenz-Hypothese wird im Original selbst ausdrücklich als Vermutung formuliert. Bewusst nicht übernommen: die im selben Abschnitt behandelte dritte Bewegungsform, die Motilität (Eigenbewegung der Organe, nur durch eine „sehr präsente, lauschende Berührung“ wahrnehmbar, mit Exspir-/Inspir-Rhythmus) — dieselbe unabhängig nicht bestätigte Eigenwahrnehmungskategorie wie die bereits bei Könneker/Reiter (Kap. 8) ausgeschlossene Organmotilitätstheorie.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "viszerale-restriktionen-adhaesion-ptose-viszerospasmus",
+    category: "PATHOLOGIE",
+    title: "Drei Wege, wie Organe ihre Beweglichkeit verlieren: Adhäsion, Ptose, Viszerospasmus",
+    teaser:
+      "Eine eingeschränkte Organbeweglichkeit hat nicht eine, sondern drei grundsätzlich verschiedene Ursachen — und nur eine davon lässt sich überhaupt noch manuell beeinflussen, sobald sie weit genug fortgeschritten ist.",
+    sections: [
+      {
+        type: "text",
+        heading: "Adhäsion, Verklebung, Verwachsung: ein Prozess mit Zeitfenster",
+        text: "Adhäsionen entstehen durch chirurgische Eingriffe oder Infektionen und vermindern die Verschieblichkeit und Gleitfähigkeit der betroffenen Gewebe und Organe; je nach Ausmaß verliert das Organ dabei seinen Rhythmus und seine Vitalität, was die Blutzirkulation im Organ beeinträchtigen und so Wegbereiter für weitere Erkrankungen sein kann. Zeitlich verläuft diese Entwicklung in den Stufen Adhäsion, Verklebung, Verwachsung mit zunehmend festerer Verbindung — aus einer leichten Verklebung entsteht durch bindegewebige Organisation mit Einsprossung von Blutgefäßen eine immer festere Anhaftung. Bindegewebige Brücken bilden sich nach etwa drei Wochen aus. Adhäsionen und leichte Verklebungen lassen sich durch manuelle Techniken noch positiv beeinflussen, starke Verwachsungen dagegen nicht mehr grundlegend.",
+      },
+      {
+        type: "text",
+        heading: "Ptose: wenn die haltenden Strukturen zu schlaff werden",
+        text: "Eine Ptose bezeichnet zu schlaff gewordene haltende Strukturen (insbesondere Ligamenta und Gekröse), die Organe absinken lassen. Mögliche Ursachen sind sinkende Elastizität im Alter, wiederholte Trächtigkeiten oder Abmagerung mit allgemeiner Hypotonie. Ein konkretes Beispiel beim abgemagerten Hund: Sowohl die Leber als auch die Nieren verfügen über einen schützenden Fettkörper bzw. eine Fettkapsel; wird dieser durch Nahrungsmangel abgebaut, kann sich die Spannung der halte­nden Bänder (bei der Leber die Ligg. triangularia) ändern und insbesondere die linke Niere sich absenken.",
+      },
+      {
+        type: "text",
+        heading: "Viszerospasmus: wenn Hohlorgane gemeinsam statt nacheinander kontrahieren",
+        text: "Ein Viszerospasmus betrifft ausschließlich Hohlorgane: Statt sich der Reihe nach (peristaltisch) zusammenzuziehen, kontrahieren sich die Komponenten des muskulären Systems gemeinsam — mit der Folge einer Stagnation des Nahrungsbreis. Mögliche Ursachen sind Nahrungsmittelunverträglichkeiten oder Stress. Über die fasziale Verbindung zwischen Magen-Darm-Trakt und Wirbelsäule können auf diesem Weg sogar Restriktionen an der Wirbelsäule entstehen — ein Mechanismus, der bei wiederkehrenden, anderweitig nicht erklärbaren Wirbelsäulenbefunden als Differentialdiagnose mitgedacht werden kann.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 9.2, S. 130f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(9).pdf). Die drei Ursachengruppen (Adhäsion/Verklebung/Verwachsung samt Zeitverlauf, Ptose samt Leber-/Nieren-Fettkapsel-Beispiel, Viszerospasmus samt Ursachen und viszerovertebraler Fortleitung) sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "gruppenlaesion-viszerovertebrale-verkettung-kibler-textur",
+    category: "UNTERSUCHUNG",
+    title: "Wenn mehr als drei Wirbelsegmente gemeinsam blockieren: Hinweis auf eine viszerale Ursache",
+    teaser:
+      "Eine einzelne blockierte Facettengelenkebene ist meist ein rein parietaler Befund — blockieren drei oder mehr Segmente in Folge gemeinsam, lohnt sich der Blick auf die Viszera als mögliche eigentliche Ursache.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die Gruppenläsion als Warnsignal",
+        text: "Sind bei der Wirbelsäulenpalpation mehr als drei aufeinanderfolgende Segmente gestört, spricht man von einer sogenannten Gruppenläsion. Im Unterschied zu einer segmentalen Bewegungsstörung einzelner Facettengelenke, deren Ursache primär im parietalen Bereich liegt, kann die Ursache einer Gruppenläsion auch im Bereich der Viszera liegen: Liegt an einem Organ eine Bewegungsrestriktion vor, kann sich diese über veränderte Spannungen im Aufhängungssystem auf die Wirbelsäule fortleiten — eine sogenannte viszerovertebrale Verkettung.",
+      },
+      {
+        type: "text",
+        heading: "Ein zusätzliches Tastzeichen: die veränderte Gewebetextur der Kibler-Hautfalte",
+        text: "Ein weiterer Hinweis auf eine viszerovertebrale Verkettung ist eine verquollene Gewebekonsistenz: Beim Abheben der Kiblerschen Hautfalte (siehe die bestehende Palpationstechnik-Beschreibung, `kiblersche-hautfaltenpalpation-technik-vier-kriterien`) wirkt diese dann zäh und teigig verdickt, statt sich normal von der Unterlage abzuheben. Dieses Zeichen ergänzt die etablierte Kibler-Palpation um eine zusätzliche, auf viszerale statt rein dermatombezogene Ursachen hinweisende Texturqualität.",
+      },
+      {
+        type: "text",
+        heading: "Praktische Konsequenz",
+        text: "Eine global erhöhte Spannung des gesamten Abdomens sollte immer zunächst schulmedizinisch abgeklärt werden, bevor sie manualtherapeutisch gedeutet wird. Bei wiederkehrenden Befunden im parietalen Bereich oder bei ausbleibendem Therapieerfolg (Therapieresistenz) ist es sinnvoll, eine Verkettung der Befunde über viszerale Strukturen als Differentialdiagnose mitzudenken, statt ausschließlich am Bewegungsapparat selbst weiterzusuchen.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 9.2.1, S. 131 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(9).pdf). Die Definition der Gruppenläsion (mehr als drei aufeinanderfolgende gestörte Segmente), die Abgrenzung zur rein parietalen segmentalen Bewegungsstörung, das veränderte Texturzeichen an der Kiblerschen Hautfalte sowie der Hinweis zur schulmedizinischen Abklärung bei global erhöhter Abdominalspannung sind im Original so beschrieben. Bewusst nicht übernommen: die im selben Abschnitt beschriebene Inhibitionstechnik zur Bestätigung der Verkettung (Handauflage auf den Wirbelsäulenbefund, zweite Hand „inhibiert“ das vermutete Organ, Auflösung der Restriktion als Bestätigung) — diese beruht auf einer unmittelbaren, nicht weiter objektivierten Verbesserungsbeurteilung durch den Behandler selbst und wird hier nicht als eigenständige Technikanleitung in die Wissensbibliothek aufgenommen. Die Verknüpfung mit der bestehenden Kibler-Palpationstechnik ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
