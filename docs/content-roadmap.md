@@ -1329,7 +1329,26 @@ kein Überblick verloren geht.
   Fettgewebe-Histologie) — reine Histologie ohne eigenständigen
   klinisch-biomechanischen Mehrwert über das bereits Extrahierte hinaus;
   Myofibroblasten und Ehlers-Danlos-artige Kollagendefekte sind in der
-  Bibliothek bereits an anderer Stelle abgedeckt.
+  Bibliothek bereits an anderer Stelle abgedeckt. Kap. 2 „Bewegungsapparat"
+  erwies sich danach als vollständiger vergleichend-anatomischer Atlas über
+  alle Haussäugetierarten (S. 36–249) und die Folgekapitel als allgemeines
+  veterinärmedizinisches Grundlagenwissen ohne physiotherapeutischen Bezug —
+  die systematische Weiterextraktion aus Salomon/Geyer/Gille wurde daher
+  bewusst gestoppt, die Quelle bleibt als Referenzwerk für
+  Stichproben-Verifikation bestehen. Stattdessen aus VetCenter,
+  Hundekrankheiten kompakt, „Neurologische Erkrankungen" (derselben Reihe
+  wie die bereits ausgewerteten Kapitel „Erkrankungen des Bewegungsapparates"
+  und „Wirbelsäulenerkrankungen") ein Fund: Der bestehende Eintrag zum
+  Plexus-brachialis-Schaden kannte den allgemeinen Mechanismus, aber nicht
+  die drei klinisch unterscheidbaren Unterformen (kranialer partieller
+  Abriss mit guter Prognose vs. kaudaler partieller Abriss — am häufigsten,
+  mit Horner-Syndrom in bis zu 50 % und schlechter Prognose — vs. kompletter
+  Abriss) — als Ergänzung in den bestehenden Eintrag eingearbeitet. Der Rest
+  des Kapitels (Hydrozephalus, Epilepsie-Medikation, GME/SRMA) ist reine
+  internistische Diagnostik/Pharmakotherapie ohne physiotherapeutischen
+  Handlungsspielraum und wurde bewusst nicht extrahiert; die
+  Polyradikuloneuritis/Coonhound-Paralysis ist bereits durch einen
+  ausführlicheren, dezidiert physiotherapeutischen Eintrag abgedeckt.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -4186,6 +4205,41 @@ gelesenen Quellen:
       kapitelweise durchgearbeitet. Insgesamt aus dieser Quelle: 3 neue
       Einträge (Richtungsbezeichnungen, Peritoneum-Klinik, Kollagenfaser-
       Dehnungsverhalten).
+
+### PATHOLOGIE — VetCenter, Hundekrankheiten kompakt, „Neurologische Erkrankungen" (Enke Verlag, 1. Aufl. 2014, vetcenter.thieme.de)
+
+- [x] Vollständig gesichtet (02.10.2026, 28 Web-Seiten). Dieselbe
+      „Hundekrankheiten kompakt"-Reihe, deren Kapitel „Erkrankungen des
+      Bewegungsapparates" und „Wirbelsäulenerkrankungen" bereits früher
+      vollständig ausgewertet wurden. Das Kapitel behandelt: Kongenitaler
+      Hydrozephalus, Epilepsie (inkl. ausführlicher Antiepileptika-
+      Dosierungstabellen), Granulomatöse Meningoenzephalomyelitis (GME),
+      Aseptische Meningitis/SRMA, Akute idiopathische Polyradikuloneuritis
+      (Coonhound-Paralysis), Plexus-brachialis-Abriss, Sensibilitätsstörungen/
+      Parästhesien. **Bewusst nicht extrahiert:** Hydrozephalus, Epilepsie
+      (Medikamentendosierung ist ärztliche, keine physiotherapeutische
+      Entscheidung) und GME/SRMA — reine internistische Diagnostik-/
+      Therapieprotokolle ohne physiotherapeutischen Handlungsspielraum.
+      Polyradikuloneuritis/Coonhound-Paralysis bereits durch einen
+      bestehenden, ausführlicheren Eintrag aus einer dezidiert
+      physiotherapeutischen Quelle (Alexander, Physikalische Therapie für
+      Kleintiere) abgedeckt — keine neuen Fakten in dieser Quelle gefunden.
+      Sensibilitätsstörungs-Terminologie (Hyperästhesie/Dysästhesie/
+      Parästhesie, Head-Zonen) ebenfalls bereits an mehreren Stellen der
+      Bibliothek korrekt verwendet — kein eigenständiger Mehrwert für einen
+      neuen Terminologie-Eintrag. **Ein echter Fund:** Der bestehende Eintrag
+      `plexusschaden-vordergliedmasse` (Quelle: Koch/Fischer) kannte den
+      allgemeinen Mechanismus, aber nicht die klinisch unterscheidbaren
+      Unterformen — ergänzt um die Drei-Formen-Systematik (kranialer
+      partieller Abriss: N. suprascapularis/musculocutaneus, abgeschwächte
+      Ellbogenflexion, gute Prognose; kaudaler partieller Abriss, am
+      häufigsten: N. radialis/medianus/ulnaris, hängender Ellbogen,
+      Pannikulusreflexausfall, bis 50 % Horner-Syndrom, schlechte Prognose;
+      kompletter Abriss: Kombination) samt 2–6-Monats-Prognosefenster.
+      Bewusst nicht übernommen: die rein chirurgischen Therapieoptionen
+      (Bizepssehnentransposition, Karpalarthrodese, Neurotisation) — liegen
+      außerhalb des physiotherapeutischen Handlungsspielraums, den dieser
+      Eintrag bereits mit Koch/Fischer abbildet.
 
 ## Arbeitsweise für künftige Sessions
 
