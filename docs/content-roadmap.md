@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 338 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 94
-  Untersuchung, 110 Pathologie, 89 Biomechanik, 45 Therapie — genaue
+- Wissensbibliothek: 339 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 94
+  Untersuchung, 110 Pathologie, 89 Biomechanik, 46 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -1179,7 +1179,46 @@ kein Überblick verloren geht.
   „Faszienketten"-Konzept (vgl. die entsprechende Zurückhaltung bei
   Könneker/Reiter) — hier bewusst keine zusätzliche Extraktion, um das
   Konzept nicht über die bereits verifizierte Kontinuität hinaus
-  aufzuwerten.
+  aufzuwerten. Danach Kap. 10 „Typische Restriktionen im Bereich der
+  Viszera" gelesen (S. 134–153, vollständig, Chunk f(10).pdf) — **1
+  weiterer neuer Eintrag plus 1 Ergänzung eines bestehenden Eintrags,
+  damit ist Teil 5 „Das viszerale System" (Kap. 8–10) vollständig
+  ausgewertet.** Das Kapitel bestätigt das bereits aus Kap. 9 bekannte
+  Muster in verschärfter Form: Für jedes einzelne Organ (Lunge, Magen,
+  Leber, Dünndarm, Dickdarm, Harnblase, Niere, weibliche
+  Geschlechtsorgane) folgt derselbe Dreischritt aus solider Topografie
+  (meist gut verifizierbar, viele Angaben direkt aus König/Liebich), einem
+  „Faszialen Ketten"-Abschnitt mit größtenteils unstrittiger
+  Bänderanatomie, aber auch spekulativen Spannungsausbreitungs-
+  Formulierungen (wiederholt als „denkbar“ oder „möglich“ relativiert,
+  nie als gesicherter Fakt behauptet), einer „Symptome"-Liste, die über
+  fast alle Organe hinweg dieselben wenig trennscharfen Zeichen wiederholt
+  (v. a. „aufgekrümmter Rücken“ und „schwungloser, steifer Gang“ — ohne
+  erkennbaren diagnostischen Mehrwert, da identisch für Lunge, Magen,
+  Leber und Darm angegeben), und „Behandlungsvorschlägen“, die für jedes
+  Organ erneut auf Wahrnehmung/Induktion der Motilitätsbewegung
+  hinauslaufen (durchgehend dieselbe disputierte Eigenwahrnehmung wie
+  bereits bei Könneker/Reiter und in Kap. 9.1.2 ausgeschlossen). Aus
+  diesem umfangreichen, aber überwiegend bereits bekannten oder disputierten
+  Material stach ein einziger, klar physiotherapeutisch relevanter Fund
+  heraus (Kap. 10.9, Kastration der Hündin): die Diskrepanz zwischen der
+  nach 10–14 Tagen äußerlich verheilten Kastrationsnarbe an der Linea
+  alba und der tatsächlichen, rund dreimonatigen Reifungszeit bis zu
+  belastbarem Narbengewebe — mit der konkreten Empfehlung, sportlich
+  geführte Hunde bis dahin regelmäßig physiotherapeutisch zu begleiten,
+  statt die Fadenentfernung mit voller Belastbarkeit gleichzusetzen,
+  verknüpft mit den bestehenden Wundheilungs-/Narbengewebe-Einträgen
+  (`kastrationsnarbe-linea-alba-reifungszeit-sporthund-nachsorge`).
+  Zusätzlich wurde aus Kap. 10.8 (Niere) die dort beschriebene praktische
+  Nutzung der Psoas-Nieren-Nachbarschaft (Hüftbeuger-Dehnung als indirekte
+  Nierenmobilisation) in den bereits bestehenden Motrizität-/Mobilität-
+  Eintrag aus Kap. 9.1.2 eingearbeitet statt dupliziert. Die detaillierte
+  Organ-für-Organ-Bänderanatomie (Mesenterien, Keimdrüsenbänder,
+  Blasenbänder etc.) wurde dagegen bewusst nicht einzeln in die
+  Wissensbibliothek übernommen — sie liegt an der Grenze zur
+  veterinärinternistischen Anatomie ohne unmittelbaren Bezug zu Denkgangs
+  physiotherapeutischem Fokus und ist zudem über weite Strecken reine
+  Strukturbeschreibung ohne eigenständige klinische Schlussfolgerung.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1622,37 +1661,33 @@ Status:
   dichter Überschneidung mit Hárrer/Koch-Fischer finden sich bei
   sorgfältiger Prüfung immer wieder einzelne, klar abgrenzbare,
   eigenständig wertvolle Fakten.
-- [~] Kap. 8–10 „Das viszerale System" (S. 118–153): Kap. 8 „Anatomie der
-  Faszien im Bereich der Viszera" (S. 118–124) **vollständig gelesen und
-  ausgewertet (Chunk f(8).pdf) — 2 neue Einträge**, siehe Stand oben.
-  Entgegen der eigenen Vorab-Einschätzung keine disputierte
-  Organtheorie, sondern solide, auf König/Liebich gestützte
-  Körperhöhlenanatomie (Quadranten, Schichtgliederung, durchgehende
-  Fascia-endothoracica-/transversalis-/pelvis-Kontinuität). Zusätzlich
-  bereits 9.1 „Das viszerale Gelenk" (S. 124f., ebenfalls Chunk f(8).pdf,
-  da die Kapitelgrenze mitten im Chunk lag) gelesen — **1 weiterer neuer
-  Eintrag**, ebenfalls überwiegend reguläre Anatomie (Serosa, Mesenterium)
-  mit einer bewusst vorsichtig eingeordneten osteopathischen
-  Erweiterungs-Metapher. Danach der Rest von Kap. 9 „Die Organe im
-  Gesamtsystem der Faszien" (9.1.2–9.4, S. 128–133, Chunk f(9).pdf)
-  **vollständig gelesen und ausgewertet — 3 weitere neue Einträge, damit
-  ist Kap. 9 komplett.** Die vorab erwartete Organmotilitätstheorie kam
-  tatsächlich vor (9.1.2, „Motilität"-Begriff), betraf aber nur eine von
-  drei beschriebenen Bewegungsformen — Motrizität und Mobilität (solide,
-  unstrittige Physiologie) wurden übernommen, nur die Motilität
-  ausgeschlossen (siehe Stand oben für Details zu allen drei neuen
-  Einträgen: Motrizität/Mobilität, Adhäsion/Ptose/Viszerospasmus,
-  Gruppenläsion/Kibler-Textur). 9.3/9.4 (Faszienketten-Konzept) lieferte
-  keinen weiteren Eintrag — Wiederholung der bereits aus Kap. 8.3
-  extrahierten Dreischicht-Kontinuität. Noch offen: Kap. 10 „Typische
-  Restriktionen im Bereich der Viszera" (S. 134–153, Chunk f(10).pdf —
-  dort laut erster Durchsicht explizit Unwinding-/Stacking-/
-  Inhibitions-Techniken sowie ein A.-T.-Still-Zitat gegen jede manuelle
-  Druck-/Zug-/Stichtechnik am Abdomen, d. h. überwiegend dieselbe
-  disputierte Eigenwahrnehmungs-Kategorie wie bereits mehrfach
-  ausgeschlossen — nach den Kap.-8/9-Erfahrungen aber dennoch vollständig
-  zu lesen, da auch dort einzelne nicht-disputierte Fakten zu erwarten
-  sind).
+- [x] Kap. 8–10 „Das viszerale System" (S. 118–153) **vollständig gelesen
+  und ausgewertet (Chunks f(8)/f(9)/f(10).pdf) — 7 neue Einträge plus 2
+  Ergänzungen bestehender Einträge insgesamt, Details siehe Stand oben.**
+  Kap. 8 „Anatomie der Faszien im Bereich der Viszera" (2 neue Einträge):
+  entgegen der eigenen Vorab-Einschätzung keine disputierte Organtheorie,
+  sondern solide, auf König/Liebich gestützte Körperhöhlenanatomie. Kap.
+  9 „Die Organe im Gesamtsystem der Faszien" (4 neue Einträge, inkl. 9.1
+  „Das viszerale Gelenk"): die vorab erwartete Organmotilitätstheorie kam
+  tatsächlich vor, betraf aber nur eine von drei beschriebenen
+  Organbewegungsformen (Motrizität/Mobilität solide übernommen, nur
+  Motilität ausgeschlossen); 9.3/9.4 (Faszienketten) lieferte keinen
+  weiteren Eintrag (Wiederholung von Kap. 8.3). Kap. 10 „Typische
+  Restriktionen im Bereich der Viszera" (1 neuer Eintrag plus 1
+  Ergänzung): folgt für jedes Organ (Lunge, Magen, Leber, Dünndarm,
+  Dickdarm, Harnblase, Niere, weibliche Geschlechtsorgane) demselben
+  Muster aus solider Topografie, größtenteils unstrittiger, aber
+  spekulativ in „Spannungsausbreitung denkbar“ eingekleideter
+  Bänderanatomie, einer wenig trennscharfen, organübergreifend
+  wiederholten Symptomliste und durchgehend disputierten
+  Motilitäts-Behandlungsvorschlägen — einziger herausstechender,
+  physiotherapeutisch relevanter Fund: die Diskrepanz zwischen
+  äußerlich verheilter Kastrationsnarbe (10–14 Tage) und tatsächlicher
+  Narbengewebe-Reifungszeit (ca. 3 Monate) bei sportlich geführten
+  Hunden. Insgesamt bestätigt Teil 5 damit ein ähnliches Muster wie
+  bereits Teil 4 (Kap. 5–7): hoher Anteil an Technik/Disputiertem, aber
+  bei konsequenter Prüfung immer wieder einzelne, klar abgrenzbare
+  Fakten von eigenständigem Wert.
 - [ ] Kap. 11 „Das craniosacrale System" (S. 156–159): noch ungelesen, nach
   Titel/Konzept erwartbar am strittigsten, analog zum bereits
   zurückgestellten Kap. 9 bei Könneker/Reiter.

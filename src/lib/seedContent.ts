@@ -14711,7 +14711,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       {
         type: "text",
         heading: "Motrizität: Organbewegung als Mitbewegung des Skeletts",
-        text: "Motrizität beschreibt die passive Verlagerung der Organe bei willkürlichen Bewegungen des Skelettsystems. Dreh-, Sprung- und Stoppbewegungen beim Spiel oder in der Bewegung insgesamt bewegen die Organe im Körperinneren mit, allein schon durch die physiologische Bewegung der Wirbelsäule in den verschiedenen Gangarten. Ein konkretes Beispiel ist die Niere, die auf dem M. psoas liegt und bei dessen Kontraktion und Entspannung passiv mitgleitet — Restriktionen der Psoasmuskulatur, in der Praxis relativ häufig anzutreffen, schränken deshalb nicht nur die Hüftstreckung und die Beweglichkeit der Lendenwirbelsäule ein, sondern auch diese passive Nierenbewegung.",
+        text: "Motrizität beschreibt die passive Verlagerung der Organe bei willkürlichen Bewegungen des Skelettsystems. Dreh-, Sprung- und Stoppbewegungen beim Spiel oder in der Bewegung insgesamt bewegen die Organe im Körperinneren mit, allein schon durch die physiologische Bewegung der Wirbelsäule in den verschiedenen Gangarten. Ein konkretes Beispiel ist die Niere, die auf dem M. psoas liegt und bei dessen Kontraktion und Entspannung passiv mitgleitet — Restriktionen der Psoasmuskulatur, in der Praxis relativ häufig anzutreffen, schränken deshalb nicht nur die Hüftstreckung und die Beweglichkeit der Lendenwirbelsäule ein, sondern auch diese passive Nierenbewegung. Diese anatomische Nähe lässt sich auch therapeutisch nutzen: Da die innere Lendenmuskulatur als eine Art Gleitlager für die Niere dient, kann eine Dehnung des Hüftbeugers (M. iliopsoas) die Niere indirekt mitmobilisieren — eine rein mechanische Konsequenz der räumlichen Nachbarschaft, keine eigenständige Organtechnik.",
       },
       {
         type: "text",
@@ -14726,7 +14726,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Faktenwissen"],
     sourceStatus:
-      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 9.1.2, S. 128f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(9).pdf, unter Verweis im Original auf Helsmoortel et al. [12] sowie Barral und Mercier [2], von Denkgang nicht eigenständig in der Primärliteratur geprüft). Die Definitionen von Motrizität und Mobilität, das Psoas-Nieren-Beispiel, die Zwerchfellbewegungs-Statistik (28.800 Bewegungen/Tag bei 20 Atemzügen/Minute) sowie das Gastropexie-Beispiel sind im Original so beschrieben; die Französische-Bulldogge-Flatulenz-Hypothese wird im Original selbst ausdrücklich als Vermutung formuliert. Bewusst nicht übernommen: die im selben Abschnitt behandelte dritte Bewegungsform, die Motilität (Eigenbewegung der Organe, nur durch eine „sehr präsente, lauschende Berührung“ wahrnehmbar, mit Exspir-/Inspir-Rhythmus) — dieselbe unabhängig nicht bestätigte Eigenwahrnehmungskategorie wie die bereits bei Könneker/Reiter (Kap. 8) ausgeschlossene Organmotilitätstheorie.",
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 9.1.2, S. 128f., sowie Kap. 10.8, S. 149 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks f(9).pdf und f(10).pdf, unter Verweis im Original auf Helsmoortel et al. [12] sowie Barral und Mercier [2], von Denkgang nicht eigenständig in der Primärliteratur geprüft). Die Definitionen von Motrizität und Mobilität, das Psoas-Nieren-Beispiel, die Zwerchfellbewegungs-Statistik (28.800 Bewegungen/Tag bei 20 Atemzügen/Minute) sowie das Gastropexie-Beispiel sind im Original so beschrieben; die Französische-Bulldogge-Flatulenz-Hypothese wird im Original selbst ausdrücklich als Vermutung formuliert. Ergänzt (02.10.2026) um die in Kap. 10.8 beschriebene therapeutische Nutzung der inneren Lendenmuskulatur als Nieren-Gleitlager (Hüftbeuger-Dehnung zur indirekten Nierenmobilisation). Bewusst nicht übernommen: die im selben Abschnitt behandelte dritte Bewegungsform, die Motilität (Eigenbewegung der Organe, nur durch eine „sehr präsente, lauschende Berührung“ wahrnehmbar, mit Exspir-/Inspir-Rhythmus) — dieselbe unabhängig nicht bestätigte Eigenwahrnehmungskategorie wie die bereits bei Könneker/Reiter (Kap. 8) ausgeschlossene Organmotilitätstheorie.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
@@ -14785,6 +14785,35 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "falsche Priorisierung"],
     sourceStatus:
       "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 9.2.1, S. 131 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(9).pdf). Die Definition der Gruppenläsion (mehr als drei aufeinanderfolgende gestörte Segmente), die Abgrenzung zur rein parietalen segmentalen Bewegungsstörung, das veränderte Texturzeichen an der Kiblerschen Hautfalte sowie der Hinweis zur schulmedizinischen Abklärung bei global erhöhter Abdominalspannung sind im Original so beschrieben. Bewusst nicht übernommen: die im selben Abschnitt beschriebene Inhibitionstechnik zur Bestätigung der Verkettung (Handauflage auf den Wirbelsäulenbefund, zweite Hand „inhibiert“ das vermutete Organ, Auflösung der Restriktion als Bestätigung) — diese beruht auf einer unmittelbaren, nicht weiter objektivierten Verbesserungsbeurteilung durch den Behandler selbst und wird hier nicht als eigenständige Technikanleitung in die Wissensbibliothek aufgenommen. Die Verknüpfung mit der bestehenden Kibler-Palpationstechnik ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "kastrationsnarbe-linea-alba-reifungszeit-sporthund-nachsorge",
+    category: "THERAPIE",
+    title: "Äußerlich verheilt heißt nicht belastbar: die Kastrationsnarbe an der Linea alba",
+    teaser:
+      "Nach 10 bis 14 Tagen sieht die Kastrationsnarbe verheilt aus und die Fäden kommen raus — bis das Narbengewebe tatsächlich so organisiert ist, dass es eine volle Rückenstreckung im Galoppsprung verträgt, vergehen aber rund drei Monate.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein Zugang mit funktioneller Konsequenz",
+        text: "Der operative Zugang zur Bauchhöhle beim Hund erfolgt über die Linea alba — eine bindegewebige Struktur, die die gesamte Bauchmuskulatur beider Seiten zu einer funktionellen Einheit verbindet. Eine Narbe in diesem Bereich muss deshalb gut beweglich sein, damit insbesondere die Streckung des Rückens, wie sie bei jedem Galoppsprung nötig ist, nicht eingeschränkt wird.",
+      },
+      {
+        type: "text",
+        heading: "Der Unterschied zwischen äußerlich verheilt und strukturell belastbar",
+        text: "Rein optisch ist die Narbe meist nach 10 bis 14 Tagen gut verheilt — der Zeitpunkt, zu dem üblicherweise die Fäden entfernt werden. Von diesem äußeren Erscheinungsbild sollte man sich aber nicht täuschen lassen: Die reguläre Wundheilungszeit bis zu einem gut organisierten Narbengewebe beträgt rund drei Monate (vgl. die deutlich feinere Phasen-Zeittafel im bestehenden Eintrag `wundheilungsphasen-zeitfenster-reha` sowie die allgemeine Funktionslosigkeit frischen Narbengewebes im Eintrag `narbengewebe-funktionsverlust-agonist-antagonist-fehlkoordination`). Insbesondere im Sport geführte Hunde sollten deshalb bis zum Abschluss dieser Reifungszeit in regelmäßigen, individuellen Abständen bei einem Hundephysiotherapeuten bzw. -osteopathen vorgestellt und betreut werden, statt allein anhand des äußeren Wundbilds als „fertig ausgeheilt“ eingestuft zu werden.",
+      },
+      {
+        type: "text",
+        heading: "Praktische Konsequenz",
+        text: "Eine Rückkehr zu voller sportlicher Belastung (Galopp, Sprünge, Agility) allein am Zeitpunkt der Fadenentfernung festzumachen, unterschätzt systematisch, wie lange das Narbengewebe tatsächlich braucht, um der beim Galoppsprung nötigen Rückenstreckung ohne Risiko standzuhalten. Die Belastungssteigerung sollte sich stattdessen am tatsächlichen Reifungszeitpunkt des Narbengewebes orientieren, nicht am kosmetischen Wundbild.",
+      },
+    ],
+    errorTags: ["Befund überbewertet", "Untersuchung falsch gewählt", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 10.9, S. 151f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(10).pdf, unter Verweis im Original auf König HE/Liebich H-G., Anatomie der Haustiere, 8. Aufl., Thieme 2024, für die zugehörige Abbildung der Bauchmuskelverbindung über die Linea alba). Der Operationszugang über die Linea alba, die funktionelle Verbindung der Bauchmuskulatur, die Diskrepanz zwischen äußerlich sichtbarer Wundheilung (10–14 Tage) und der tatsächlichen Narbengewebe-Reifungszeit (ca. 3 Monate) sowie die Empfehlung zur physiotherapeutisch/osteopathischen Begleitung sportlich geführter Hunde sind im Original so beschrieben. Die Verknüpfung mit den bestehenden Wundheilungs-/Narbengewebe-Einträgen ist eigene Synthese von Denkgang.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
