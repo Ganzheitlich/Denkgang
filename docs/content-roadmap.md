@@ -4157,9 +4157,35 @@ gelesenen Quellen:
       Zell-/Fasertypen-Histologie ohne eigenständigen klinischen Mehrwert
       sowie bereits abgedeckte Themen (Myofibroblasten, Ehlers-Danlos)
       bewusst nicht erneut extrahiert.
-- [ ] Kap. 2.3 ff. „Am Aufbau des Bewegungsapparates beteiligte Bindegewebe"
-      bis zum Ende von Kap. 2 (Knochen, Gelenke, Muskeln im Detail) — als
-      Nächstes zu lesen
+- [x] **Kap. 2.3 ff. gegengelesen und Umfang des Buches neu eingeschätzt
+      (02.10.2026) — systematische Weiterextraktion bewusst gestoppt.**
+      Stichprobenprüfung ergab: Kap. 2 „Bewegungsapparat" selbst zieht sich
+      von S. 36 bis S. 249 (Chunk `002_004_001` beginnt bereits auf S. 342 in
+      Kap. 4 „Atmungssystem") — das ist ein vollständiger vergleichend-
+      anatomischer Knochen-/Gelenk-/Muskelatlas über alle fünf Haussäugetier-
+      arten (Pferd, Rind, Schwein, Katze, Hund gemischt im Fließtext), keine
+      hundespezifische Darstellung. Die Chunk-Nummerierung folgt zwar grob
+      der Seitenreihenfolge, aber einzelne Abschnitts-Ordner überspringen
+      riesige Seitenbereiche nicht-offensichtlich, was systematisches
+      Sequenziell-Lesen unpraktikabel macht, ohne zuerst alle ~150+ Chunks
+      nur zur Seiten-Sortierung einzulesen. Dazu kommt: Die auf Kap. 2
+      folgenden Organsystem-Kapitel (3 Verdauungssystem, 4 Atmungssystem, ...)
+      sind allgemeines veterinärmedizinisches Grundlagenwissen (Embryologie,
+      Histologie, Organogenese) ohne Bezug zu Denkgangs physiotherapeutischem
+      Fokus (MASTER-PROMPT §15: Knochen/Gelenke/Muskeln/Sehnen/Bänder/Nerven/
+      Faszien/Biomechanik, nicht Verdauungs-/Atmungsorganogenese). **Fazit:**
+      Die bereits dog-spezifisch und physiotherapie-fokussiert ausgewerteten
+      Quellen (Hárrer, Hohmann, Koch/Fischer) decken den regionalen Muskel-/
+      Gelenkatlas für den Hund bereits gründlich ab — eine vollständige
+      Durcharbeitung dieses Mehrspezies-Werks böte ein sehr ungünstiges
+      Aufwand-Ertrags-Verhältnis bei hohem Redundanz- und Fehlzuordnungs-
+      risiko (versehentliche Übernahme einer pferde-/rinderspezifischen
+      Aussage als allgemeingültig). Salomon/Geyer/Gille bleibt daher als
+      **Referenzwerk für Stichproben-Verifikation** bestehender Einträge
+      im Bestand (wie bereits bei Kap. 1 geschehen), wird aber nicht weiter
+      kapitelweise durchgearbeitet. Insgesamt aus dieser Quelle: 3 neue
+      Einträge (Richtungsbezeichnungen, Peritoneum-Klinik, Kollagenfaser-
+      Dehnungsverhalten).
 
 ## Arbeitsweise für künftige Sessions
 
