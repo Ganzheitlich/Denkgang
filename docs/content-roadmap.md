@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 346 Einträge (11 Anatomie-Spiegelungen, 10 Grundlagen, 94
-  Untersuchung, 111 Pathologie, 90 Biomechanik, 50 Therapie — genaue
+- Wissensbibliothek: 347 Einträge (11 Anatomie-Spiegelungen, 10 Grundlagen, 94
+  Untersuchung, 111 Pathologie, 91 Biomechanik, 50 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -1313,7 +1313,23 @@ kein Überblick verloren geht.
   bewusst als NICHT VERIFIZIERT gekennzeichnet, da das im Drive-Chunk
   eingeblendete Wasserzeichen eine erkennbar falsche, zu einem anderen
   Werk im selben Thieme-VetCenter-Paket gehörende ISBN nennt
-  („Krankheiten der Katze").
+  („Krankheiten der Katze"). Aus Kap. 2.1/2.2 „Bewegungsapparat"/„Binde-
+  und Stützgewebe, Übersicht" ein weiterer neuer Eintrag zum
+  Zwei-Phasen-Dehnungsverhalten von Kollagenfasern (erst ca. 3 %
+  Wellenstreckung ohne echte Faserbelastung, dann nur noch ca. 5 %
+  tatsächliche, über diese Grenze hinaus irreversible Elastizität;
+  Reißfestigkeit 50–100 N/mm²) samt der gegensätzlichen funktionellen
+  Anpassung bei Be- vs. Entlastung — als mechanistische Grundlage hinter
+  der bereits bestehenden Beobachtung zur Gelenkkapselschrumpfung bei
+  Ruhigstellung und zur Trainingsprogressions-Logik
+  (`kollagenfaser-wellung-dehnungsgrenze-funktionelle-anpassung`). Nicht
+  extrahiert: die reine Zell- und Fasertypen-Taxonomie des Binde- und
+  Stützgewebes (Mesenchymzellen, Fibroblasten/Fibrozyten,
+  Retikulumzellen, Glykosaminoglykan-/Proteoglykan-/Glykoprotein-Details,
+  Fettgewebe-Histologie) — reine Histologie ohne eigenständigen
+  klinisch-biomechanischen Mehrwert über das bereits Extrahierte hinaus;
+  Myofibroblasten und Ehlers-Danlos-artige Kollagendefekte sind in der
+  Bibliothek bereits an anderer Stelle abgedeckt.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -4132,10 +4148,18 @@ gelesenen Quellen:
       VetCenter-Lizenzpaket („Krankheiten der Katze", ISBN
       978-3-13-242675-7); diese wird nicht übernommen, sourceStatus markiert
       ISBN/Auflage entsprechend als NICHT VERIFIZIERT.
-- [ ] Kap. 2 „Bewegungsapparat" (Knochen, Gelenke, Muskeln allgemein) — als
-      Nächstes zu lesen; erste Zeilen (2.1 Allgemeine Vorbemerkungen, 2.2
-      Binde- und Stützgewebe Übersicht) bereits gesichtet, noch nicht
-      extrahiert
+- [x] Kap. 2.1/2.2 „Allgemeine Vorbemerkungen"/„Binde- und Stützgewebe,
+      Übersicht" gelesen (02.10.2026). Daraus 1 neuer Eintrag: das
+      Zwei-Phasen-Dehnungsverhalten von Kollagenfasern (Wellenstreckung ~3 %,
+      Gesamtdehnbarkeit ~5 % mit Irreversibilität darüber, Reißfestigkeit
+      50–100 N/mm², gegensätzliche Anpassung bei Be-/Entlastung)
+      (`kollagenfaser-wellung-dehnungsgrenze-funktionelle-anpassung`). Reine
+      Zell-/Fasertypen-Histologie ohne eigenständigen klinischen Mehrwert
+      sowie bereits abgedeckte Themen (Myofibroblasten, Ehlers-Danlos)
+      bewusst nicht erneut extrahiert.
+- [ ] Kap. 2.3 ff. „Am Aufbau des Bewegungsapparates beteiligte Bindegewebe"
+      bis zum Ende von Kap. 2 (Knochen, Gelenke, Muskeln im Detail) — als
+      Nächstes zu lesen
 
 ## Arbeitsweise für künftige Sessions
 

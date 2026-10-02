@@ -15075,6 +15075,40 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "kollagenfaser-wellung-dehnungsgrenze-funktionelle-anpassung",
+    category: "BIOMECHANIK",
+    title: "Warum eine Sehne erst 3 % nachgibt, bevor sie überhaupt zu dehnen beginnt",
+    teaser:
+      "Kollagenfasern liegen in Ruhe leicht gewellt — die ersten Prozent jeder Dehnung glätten nur diese Wellung, ohne die Faser selbst zu belasten. Erst danach beginnt die eigentliche, nur sehr begrenzte Elastizität, deren Überschreiten die Faser reißen lässt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Phasen einer Dehnung, nicht eine",
+        text: "Kollagenfasern verlaufen im unbelasteten Zustand nicht gestreckt, sondern leicht gewellt. Diese Wellung macht die Faser vor Eintreten der eigentlichen Dehnung um etwa 3 % verlängerbar, ohne dass dabei schon echte Zugspannung auf das Fasermaterial selbst wirkt — es wird zunächst nur die Welligkeit geglättet. Erst danach beginnt die zweite Phase: die tatsächliche elastische Dehnung der gestreckten Faser.",
+      },
+      {
+        type: "text",
+        heading: "Eine enge, harte Grenze",
+        text: "Diese zweite Phase ist sehr begrenzt: Kollagenfasern sind insgesamt nur um etwa 5 % dehnbar. Dehnungen über diese 5 %-Grenze hinaus sind irreversibel und können zum Zerreißen der Fasern führen — klinisch als Sehnenriss oder als Hypermobilität eines Gelenks sichtbar. Die Reißfestigkeit der Fasern selbst liegt bei 50–100 N/mm², ihre hohe Zugfestigkeit wirkt also ausschließlich in Faserlängsrichtung, was die parallele Faseranordnung in Sehnen und Bändern (im Gegensatz zur geflechtartigen Anordnung in Organkapseln oder der Lederhaut, die Zugfestigkeit in alle Richtungen braucht) funktionell erklärt.",
+      },
+      {
+        type: "text",
+        heading: "Dieselbe Struktur reagiert auf Be- und Entlastung gegensätzlich",
+        text: "Kollagenfasergewebe ist kein starres Material, sondern passt sich in beide Richtungen an: Erhöhte Beanspruchung führt zur funktionellen Anpassung durch vermehrte Kollagenbildung in Sehnen und Bändern — mehr Belastung macht das Gewebe stärker. Länger anhaltende Entlastung führt dagegen zur Faserverkürzung, die z. B. als Schrumpfung der Gelenkkapsel bei Ruhigstellung eines Gelenks in Erscheinung tritt. Dieses allgemeine Strukturprinzip liegt der bereits an anderer Stelle beschriebenen Beobachtung zugrunde, dass fixierte Gelenke unter Ruhigstellung Knorpel- und Kapselveränderungen zeigen — hier liefert es die mechanistische Erklärung auf Faserebene.",
+      },
+      {
+        type: "text",
+        heading: "Praktische Konsequenz für die Belastungssteuerung",
+        text: "Aus diesem Zwei-Phasen-Verhalten folgt ein Grundprinzip jeder Rehabilitation: Eine einzelne, zu starke Dehnung kann die enge 5 %-Grenze überschreiten und das Gewebe schädigen, während wiederholte, kontrollierte Belastung unterhalb dieser Grenze genau den Reiz setzt, der die funktionelle Anpassung (mehr Kollagen, mehr Reißfestigkeit) auslöst. Das deckt sich mit der bereits beschriebenen Progressionslogik des Trainingsaufbaus (zunächst Umfang, erst danach Intensität) — hier wird deutlich, warum diese Vorsicht nicht nur klug, sondern durch die Materialeigenschaft des Kollagens selbst vorgegeben ist.",
+      },
+    ],
+    errorTags: ["Faktenwissen", "Untersuchung falsch gewählt", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert gegen Originaltext: Salomon, Franz-Viktor (Kapitelautor It. Fließtext) et al., Anatomie für die Tiermedizin, Georg Thieme Verlag, Kap. 2 „Bewegungsapparat“, Abschnitt 2.2 „Binde- und Stützgewebe, Übersicht“ (Fasern/Kollagenfasern), S. 37f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks 183590104_002_002_002.pdf und 183590104_002_002_003.pdf). Hinweis zur Quellenangabe: Das im Chunk eingeblendete Wasserzeichen nennt eine abweichende Titel-/ISBN-Kombination („Krankheiten der Katze“, ISBN 978-3-13-242675-7), die ersichtlich zu einem anderen Werk im selben Thieme-VetCenter-Lizenzpaket gehört; diese ISBN wird deshalb nicht für das vorliegende Werk übernommen, Auflage und korrekte ISBN von „Anatomie für die Tiermedizin“ sind NICHT VERIFIZIERT. Die Wellung der Kollagenfasern mit der ca. 3 %igen Vordehnbarkeit, die Gesamtdehnbarkeit von ca. 5 % mit Irreversibilität darüber hinaus, die Reißfestigkeit (50–100 N/mm²), die parallele vs. geflechtartige Faseranordnung sowie die gegensätzliche funktionelle Anpassung bei Be- vs. Entlastung (inkl. des Klinik-Hinweises zur Gelenkkapselschrumpfung bei Ruhigstellung) sind im Original so beschrieben. Die Verknüpfung mit der bestehenden Ruhigstellungs-/Glykosaminoglykan-Passage und mit der Trainingsprogressions-Systematik (andere Quellen) sowie die Zuspitzung auf die Rehabilitations-Konsequenz ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
