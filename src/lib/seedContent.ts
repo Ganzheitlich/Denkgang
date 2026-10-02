@@ -14817,6 +14817,181 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "regenerationszeitplan-nach-ueberschwelliger-belastung",
+    category: "THERAPIE",
+    title: "Warum tägliches Training kontraproduktiv ist: der Regenerationszeitplan nach Belastung",
+    teaser:
+      "Nach einer intensiven Trainingseinheit laufen mindestens sieben verschiedene Regenerationsprozesse mit jeweils eigenem Zeitfenster ab — Sehnen, Bänder und Gelenkknorpel brauchen bis zu zehn Tage, um sich von hoher Druck- oder Dehnungsbelastung zu erholen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Was eine überschwellige Belastung im Körper auslöst",
+        text: "Wird ein Hund in einer Trainingseinheit überschwellig belastet, stellt sich sein Körper auf ein höheres Funktionsniveau ein: Der Sympathikus wird zur Leistungssteigerung aktiviert, der Stoffwechsel steigt, die Muskeldurchblutung nimmt zu, die Atmung vertieft sich, und Gelenke, Gelenkkapseln und Sehnen werden vermehrt belastet. Die eigentliche Verarbeitung dieser Belastung erfolgt aber nicht sofort, sondern mit einer Verzögerung von Tagen bis Wochen — abhängig von Belastungsdauer, -art und -intensität.",
+      },
+      {
+        type: "table",
+        heading: "Regenerationsprozesse nach überschwelliger Belastung",
+        columns: ["Zeitpunkt nach Belastung", "Was regeneriert"],
+        rows: [
+          ["Nach 90 Minuten", "Stoffwechsellage verändert sich in Richtung Regeneration"],
+          ["Nach 2 Stunden", "erste Wiederherstellung der ermüdeten Muskulatur (neuromuskuläre/sensomotorische Funktionen)"],
+          ["Nach 6 Stunden bis 1 Tag", "Flüssigkeitshaushalt gleicht sich aus, Blutfluss normalisiert sich"],
+          ["Nach 1 Tag", "Stabilisierung des Blutzuckerspiegels, Energiebereitstellung aus Glykogen für Muskeln/Nerven/Gehirn"],
+          ["Nach 1–3 Tagen", "Immunsystem ist wiederhergestellt"],
+          ["Nach 2–7 Tagen", "Muskelenergiespeicher der stark beanspruchten Muskulatur wird aufgefüllt"],
+          ["Nach 3–10 Tagen", "Regeneration überbeanspruchter Strukturen: Muskulatur, Sehnen, Gelenkknorpel, Bänder"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die Konsequenz: tägliches Training arbeitet gegen die eigene Anpassung",
+        text: "Weil besonders Sehnen, Bänder und Gelenkknorpel bis zu zehn Tage für ihre Regeneration benötigen, ist tägliches Training für den Hund kontraproduktiv — es belastet ein bereits „angezähltes“, noch in der Adaptation befindliches Gewebe erneut. Ein normaler überschwelliger Trainingsreiz sollte deshalb frühestens jeden zweiten bis dritten Tag gesetzt werden, dazwischen sind ruhige Spaziergänge ohne zusätzliche Bewegungsreize möglich. Bei explosiven Kontraktionen im Maximalbereich (z. B. Flyball, Agility, Schutzhundtraining, Hunderennen oder nach einem Jagdeinsatz) ist eine Pause von mindestens 72 Stunden einzuhalten. Nach einer stark beanspruchenden Belastung mit ausgeprägtem Muskelkater-ähnlichem Zustand (in der Quelle als „Greyhoundkrampf“ bezeichnet, vergleichbar einem so starken menschlichen Muskelkater, dass Laufen nicht mehr möglich ist) sind bis zu sieben Tage Pause notwendig. Ohne ausreichende Regenerationszeit setzt sich der Körper eher mit der fortschreitenden Ermüdung als mit der eigentlich gewünschten Anpassung an den Trainingsreiz auseinander.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 12.1, S. 161f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(12).pdf). Die physiologischen Folgen überschwelliger Belastung, der gewebespezifische Regenerationszeitplan (90 Minuten bis 10 Tage), die Trainingsfrequenz-Empfehlung (mindestens jeden 2.–3. Tag, 72 Stunden bei Maximalbelastung, 7 Tage nach starker muskulärer Überlastung/„Greyhoundkrampf“) sowie die Begründung, warum tägliches Training kontraproduktiv ist, sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "vier-anpassungsphasen-training-faszien-muskel-asymmetrie",
+    category: "THERAPIE",
+    title: "Vier Anpassungsphasen im Training — und warum Faszien dabei immer hinter den Muskeln herhinken",
+    teaser:
+      "Muskelkraft wächst schnell und verschwindet schnell wieder — die Stabilität gereifter Faszien bleibt dagegen bis zu einem Jahr erhalten. Dieses Ungleichgewicht im Lauf des Trainings zu ignorieren, ist eine der häufigsten Ursachen für Sehnen- und Bänderschäden im Hundesport.",
+    sections: [
+      {
+        type: "list",
+        heading: "Die vier Anpassungsphasen des Trainings",
+        items: [
+          "Phase 1 — Bewegungsökonomie: Das Bewegungsprogramm verändert sich, unnötige Bewegungen nehmen ab, der Hund bewegt sich nach 1–2 Wochen Training harmonischer und flüssiger. Diese Anpassung bleibt nur bei fortgesetzter Anforderung erhalten — bleiben die Trainingsreize aus, fällt das Steuerungsprogramm auf den Ausgangszustand zurück.",
+          "Phase 2 — Vergrößerung der Energiespeicher: Ein wiederholter überschwelliger Reiz führt zu Substratmangel in der beanspruchten Muskulatur und zu kontrolliertem Kollagenabbau in Sehnen, Bändern und Gelenkkapseln. Wird der Muskel mit Kraftreizen belastet, wächst er, und die auf Zug belasteten Faszien bilden vermehrt Kollagen zur besseren Stabilität — diese Neubildung ist abhängig davon, wie viel Muskelprotein und Kollagen durch das Training zuvor abgebaut wurde.",
+          "Phase 3 — Optimierung des Zusammenspiels: Umgebaute und neu gebildete muskuläre und fasziale Strukturen stimmen sich aufeinander ab; die Muskulatur kann jetzt stärker und sportartspezifischer belastet werden. Diese Funktionsoptimierung ist anfangs störanfällig, weshalb zwischen der 3. und 4. Trainingswoche eine rund einwöchige Reduktion der Gesamtbelastung (ruhige, kontrollierte Spaziergänge, keine überschwelligen Reize) die Anpassung erleichtert und festigt.",
+          "Phase 4 — Systemische Anpassung: Zentrales und vegetatives Nervensystem, Herz-Kreislauf-System, Energiestoffwechsel sowie Hormon- und Immunsystem passen sich an die erhöhte Belastung an. Die Feinabstimmung zwischen zentralem und peripherem Nervensystem beginnt zwischen dem 30. und 40. Trainingstag und dauert etwa 2 Wochen — in diesem Zeitraum nehmen die koordinativen Fähigkeiten zu.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die zentrale Asymmetrie: schnelle Muskeln, langsame Faszien",
+        text: "Alle vier Phasen überlagern sich im Training und sind frühestens nach 4–6 Wochen abgeschlossen — erst wenn dieses Niveau stabil ist, sollte die Belastung weiter gesteigert werden, denn der wirksamste Umbau der belasteten Strukturen findet in den Entlastungsphasen statt, nicht im Training selbst. Entscheidend für die Trainingsplanung ist dabei eine grundlegende Asymmetrie: Faszien reifen langsam, halten ihre einmal erworbene Stabilität aber bis zu einem Jahr, während sich Muskulatur bereits nach einer zehntägigen Ruhepause wieder abzubauen beginnt und ein Trainingseffekt dort höchstens 12 Wochen anhält.",
+      },
+      {
+        type: "text",
+        heading: "Die klinische Konsequenz für die Rehabilitation",
+        text: "Aus dieser Asymmetrie folgt eine praktisch wichtige Unterscheidung: Ein Hund, dessen Faszienreifung bereits abgeschlossen ist und dessen Muskulatur sich durch Immobilisation oder Schonung abgebaut hat, kann vergleichsweise schnell und risikoarm muskulär wieder aufgebaut werden — etwa durch Schwimmen oder einen Unterwasserlaufband-Trainer —, ohne dass Sehnen, Bänder und Gelenke dabei Schaden nehmen, weil deren strukturelle Reife bereits vorhanden ist. Bei einem jungen, faszial noch nicht ausgereiften Hund gilt diese Abkürzung dagegen nicht: Dort muss sich der Trainingsaufbau am langsameren Faszientempo orientieren, nicht am schneller sichtbaren Muskelzuwachs — sonst drohen Sehnenreizungen, Bänderdehnungen oder Faszienrisse mit Muskelschädigung.",
+      },
+    ],
+    errorTags: ["falsche Priorisierung", "Befund übersehen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 12.1–12.3, S. 161–164 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(12).pdf). Die vier Anpassungsphasen samt ihrer jeweiligen physiologischen Inhalte, das 30.–40.-Trainingstag-Zeitfenster der neuronalen Koordinationsanpassung, die Asymmetrie zwischen einjähriger Faszienstabilität und zehntägigem Muskelabbau (Trainingseffekt max. 12 Wochen) sowie die daraus abgeleitete Rehabilitationskonsequenz (risikoarmer Muskelaufbau bei bereits ausgereiften Faszien, z. B. per Schwimmen) sind im Original so beschrieben. Die Verknüpfung mit den bestehenden Faszienreifungs- und Katapulteffekt-Einträgen (dieselbe Quelle, frühere Kapitel) ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "sechs-wochen-periodisierung-deload-plateauphase-ueberlastungszeichen",
+    category: "THERAPIE",
+    title: "Erst sechs Wochen aufbauen, dann zwölf Wochen halten: die Trainingsperiodisierung für Faszien",
+    teaser:
+      "Ein Wolfswelpe braucht bis zur vollen Jagdreife fast zwei Jahre gestaffelter Belastungssteigerung — ein Trainingsplan, der Muskelzuwachs mit Faszienreifung verwechselt, überfordert das Fasziennetz lange bevor der Muskel es merkt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Das natürliche Vorbild: die gestaffelte Reifung beim Wolf",
+        text: "Als Orientierung für eine natürliche, gute Faszien- und Körperreifung beschreibt die Quelle die Entwicklung von Wolfswelpen: Sie bleiben bis zur 8. Lebenswoche in oder nahe der Wurfhöhle und spielen dort mit den Geschwistern. Erst in der 8.–10. Woche zieht das Rudel mit ihnen zum Rendezvous-Platz mit Spielflächen und Rückzugsorten. Mit 3 Monaten beginnen sie, dessen Umgebung zu erkunden, verlassen den Platz aber erst mit 6–8 Monaten, um das Rudel auf der Jagd zu begleiten — zunächst ohne selbst zu jagen. Erst ab 12 Monaten jagen sie aktiv mit, mit 22 Monaten sind sie ausgewachsen. Ein Wolf kann sich einen Kreuzbandriss oder einen Sehnenausriss nicht leisten, da dies in freier Wildbahn den sicheren Tod bedeuten würde — seine Faszien, Sehnen und Gelenkbänder müssen entsprechend vollständig ausgereift sein, bevor volle Belastung folgt.",
+      },
+      {
+        type: "text",
+        heading: "Ein Frühwarnzeichen: die Gelenkstellung im Stand",
+        text: "Wie weit die Faszienreifung beim individuellen Hund fortgeschritten ist, lässt sich an der Stellung von Carpal- und Zehengelenken ablesen: Ein in Hyperextension stehendes Carpalgelenk, hyperextendierte Zehengrundgelenke mit Tendenz zu Senkfuß sowie zu stark in Extension stehende Zehenendgelenke weisen auf ein noch nicht erstarktes Fasziennetz hin. In diesem Fall sollte der Hund nicht stark belastet, sondern zunächst kontrolliert mit überschwelligem Trainingsreiz alle drei Tage aufgebaut werden — Voraussetzung für jedes Training ist dabei stets die orthopädische, internistische und neurologische Gesundheit des Hundes.",
+      },
+      {
+        type: "text",
+        heading: "Die Periodisierung: sechs Wochen Aufbau, ein Deload, zwölf Wochen Plateau",
+        text: "Weil Muskelkraft deutlich schneller zunimmt als die Faszienreifung voranschreitet, drohen Trainingspläne, die sich allein am Muskelzuwachs orientieren, ein Ungleichgewicht zwischen Muskelkraft und Faszienstabilität zu erzeugen. Nach einem 6- bis 7-wöchigen Aufbautraining (mit der bereits beschriebenen, rund einwöchigen Lastreduktion zwischen der 3. und 4. Woche) sollte deshalb eine Plateauphase mit Erhaltungstraining von mindestens 12 Wochen folgen. In dieser Zeit wird die Leistung nicht weiter gesteigert, aber auch nicht reduziert — der Hund sollte keine gesteigerten sportlichen Aktivitäten (höhere Sprünge, längere Distanzen) ausüben, und auch die alltäglichen Spaziergänge sollten nicht länger werden. Diese Plateauphase gibt den Faszien die Zeit, die sie brauchen, um mit dem bereits erreichten Muskelzuwachs nachzuziehen.",
+      },
+      {
+        type: "text",
+        heading: "Zwei beobachtbare Überlastungszeichen",
+        text: "Ob das Fasziensystem trotz aller Vorsicht überfordert wird, lässt sich am Gangbild ablesen: Eine Überlastung der Carpal- und Zehengelenke unter Belastung weist auf eine Überforderung des Fasziensystems hin. Umgekehrt zeigt ein geschmeidiger, ausdauernder, federnder Gang eine gute myofasziale Koordination und einen intakten Katapulteffekt an (siehe `katapulteffekt-sehnenelastizitaet-energieeffizienter-gang`). Ein mühseliger Gang mit abgelaufenen Ballen, früher Erschöpfung und Bewegungsunlust weist dagegen auf ein verbrauchendes Übertraining hin — ein Warnsignal, das ernster zu nehmen ist als bloße Trainingsmüdigkeit.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "falsche Priorisierung", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 12 (Einleitung) und Kap. 12.2–12.3, S. 160–164 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(12).pdf). Die Wolfswelpen-Entwicklungsstaffelung, das Frühwarnzeichen der Carpal-/Zehengelenkstellung, die 6- bis 7-wöchige Aufbauphase mit anschließender 12-wöchiger Plateauphase sowie die beiden Gangbild-basierten Überlastungszeichen (überlastete Gelenke vs. federnder Gang; abgelaufene Ballen/Erschöpfung) sind im Original so beschrieben. Die Verknüpfung mit dem bestehenden Katapulteffekt-Eintrag ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "trainingsreizschwelle-progression-bodenstangen-koordinationstest",
+    category: "THERAPIE",
+    title: "Erst Umfang, dann Tempo: wie eine Trainingssteigerung aufgebaut wird",
+    teaser:
+      "Eine Bodenstange, die den Takt des Hundes unterbricht, verrät in Sekunden, wie gut seine myofasziale Koordination tatsächlich ist — ein einfacher Test, der gleichzeitig als Trainingsmittel funktioniert.",
+    sections: [
+      {
+        type: "text",
+        heading: "Drei Reizstärken, drei Wirkungen",
+        text: "Nicht jede Belastung führt zu einer Anpassung: Unterschwellige Reize bleiben ohne Effekt (die Komfortzone wird nicht verlassen). Ein überschwelliger, aber schwacher Reiz erhält lediglich das aktuelle Funktionsniveau. Erst ein überschwelliger, starker Reiz löst tatsächliche physiologische und anatomische Veränderungen aus — kann dabei aber auch schaden. Wie stark ein Reiz sein muss, um diese Wirkschwelle zu überschreiten, hängt vom individuellen Trainingszustand ab: Je untrainierter ein Hund ist, desto größer sind die Fortschritte bereits durch wenige, unspezifische Reize wie lange Schrittphasen oder kurze Trab- und später Galoppreprisen.",
+      },
+      {
+        type: "list",
+        heading: "Eine mögliche Progressionsleiter",
+        items: [
+          "Belastungssteigerung zunächst allein über den Trainingsumfang (längere Zeiträume in den drei Grundgangarten bei gleichbleibender Intensität), nicht über die Intensität selbst.",
+          "Dauermethode im Trab: Die Schwebephase und die diagonale Fußung liefern genug Impulse zur Sehnenkräftigung bei gleichzeitiger Gelenkschonung — hierfür sind mindestens 4 Monate Training jeden 2.–3. Tag nötig, bevor ein sichtbarer Erfolg zu erwarten ist.",
+          "Nach Erreichen dieser Stufe: 12-wöchiges extensives Intervalltraining im Wechsel zwischen aerober und anaerober Belastung (anaerobes Training stimuliert den Sympathikus und verstärkt dadurch die Faszienspannung), mit Tempo- und Richtungswechseln; in den Erholungsphasen soll sich der Tonus wieder regulieren.",
+          "Bodenstangentraining zur gezielten Schulung der myofaszialen Koordination (siehe unten) — zwischen Trab- und Galoppphasen einsetzbar.",
+          "Erst bei Hunden, die Start-, Explosiv-, Sprung-, Schnell- oder Ausdauerkraft benötigen: gezielte Galopparbeit (z. B. erste Agility-Hindernisse, Renngalopp) — der Galopp kräftigt durch vermehrtes Springen die Muskulatur, ist aber wegen der Einbeinstützen aus der Schwebephase gelenkverbrauchender als der Trab.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die Bodenstange als Trainingsmittel und Diagnoseinstrument zugleich",
+        text: "Schon eine einzelne Bodenstange unterbricht den Takt des Hundes und zwingt ihn zu aktiver muskulärer Anpassung. Wie schnell ein Hund nach dem Überwinden der Stange seinen ursprünglichen Takt wiederfindet, zeigt direkt seine myofasziale Koordinationsfähigkeit an — ein einfaches, jederzeit wiederholbares Beobachtungskriterium. Erst wenn sich der Hund unmittelbar nach der ersten Stange wieder einrhythmisiert, sollte eine zweite, später eine dritte oder vierte Stange ergänzt werden, um das Zusammenspiel zwischen Faszien und Muskeln weiter zu verfeinern.",
+      },
+      {
+        type: "text",
+        heading: "Eine Einschränkung für stabilitätsabhängige Disziplinen",
+        text: "Soll das Training vor allem Ausdauer, Schnell- und Explosivkraft fördern, sollte eine zu starke Dehnung des Fasziennetzes im Hals- und Rumpfbereich durch übermäßige Längsbiegung (z. B. beim Slalomlaufen) vermieden werden, um die für diese Disziplinen benötigte Stabilität nicht zu gefährden.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 12.3–12.4, S. 163f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(12).pdf). Das Schwellenkonzept (unterschwellig/schwach überschwellig/stark überschwellig), die Progressionsleiter von Umfang- zu Dauermethode- zu Intervall- zu Bodenstangen- zu Galopptraining samt Zeitangaben, die Bodenstangentechnik als Koordinationstraining und -test sowie die Slalom-/Stabilitäts-Einschränkung sind im Original so beschrieben.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "trab-landephase-serratus-ventralis-fascia-spinocostotransversalis-training",
+    category: "BIOMECHANIK",
+    title: "Warum ausgerechnet die Landung aus der Trab-Schwebephase den Rumpfträger kräftigt",
+    teaser:
+      "Jede Landung aus der Schwebephase im Trab belastet gezielt den M. serratus ventralis und die mit ihm verbundene Fascia spinocostotransversalis — und genau diese Belastung ist es, die den Brustkorb-Tragegurt stärkt und die Zehengelenke in der Stützbeinphase entlastet.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die Landung als gezielter Trainingsreiz",
+        text: "Beim Training in der Dauermethode im Trab geben Schwebephase und diagonale Fußung genug Impulse zur Kräftigung der Sehnen, schonen dabei aber gleichzeitig die Gelenke. Entscheidend ist dabei die Landung aus der Schwebephase: Sie belastet gezielt den M. serratus ventralis, den muskulösen Rumpfträger, der den Brustkorb zwischen den Schulterblättern trägt, sowie die mit ihm myofaszial verbundene Fascia spinocostotransversalis.",
+      },
+      {
+        type: "text",
+        heading: "Vom gestärkten Tragegurt zur entlasteten Zehe",
+        text: "Durch wiederholtes, gleichmäßiges Training dieser Landung werden M. serratus ventralis und Fascia spinocostotransversalis gleichmäßig gestärkt. Dadurch können sie mehr Körpergewicht übernehmen — mit der direkten Folge, dass die Belastung der Zehengelenke in der nachfolgenden Stützbeinphase abgemildert wird. Dieser Zusammenhang ergänzt die bereits an anderer Stelle beschriebene Rolle der Fascia spinocostotransversalis als Teil des muskulösen Tragegurts aus M. serratus ventralis und Mm. pectorales, der den Brustkorb trägt und Bewegungen elastisch und stoßbrechend abfängt: Eine gezielt trainierte Landephase ist ein konkreter Hebel, um genau diesen Tragegurt zu kräftigen, statt ihn als gegeben hinzunehmen.",
+      },
+      {
+        type: "text",
+        heading: "Praktische Einordnung",
+        text: "Dieser Mechanismus liefert eine biomechanische Begründung dafür, warum regelmäßiges, kontrolliertes Trabtraining mit seiner charakteristischen Schwebephase gezielt zur Entlastung überlasteter Zehengrundgelenke beitragen kann — nicht nur als allgemeines Ausdauertraining, sondern als spezifischer Reiz auf eine bestimmte myofasziale Kette. Das passt zu der bei Lagerhunden mit geringer Fascia-spinocostotransversalis-Spannung bereits beschriebenen gegenteiligen Konsequenz (erhöhter Druck auf die Zehen, Senk-/Spreizfußneigung): Wo zu wenig Spannung zu Problemen führt, kann gezieltes Training in die andere Richtung wirken.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund übersehen", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 12.4, S. 164 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(12).pdf). Der Trainingsreiz der Landung aus der Trab-Schwebephase, die gezielte Kräftigung von M. serratus ventralis und Fascia spinocostotransversalis sowie die daraus folgende Entlastung der Zehengelenke in der Stützbeinphase sind im Original so beschrieben. Die Verknüpfung mit dem bestehenden Hohmann-Eintrag zur Bogensehnenbrücke/zum muskulösen Tragegurt sowie mit der Fascia-spinocostotransversalis-Erwähnung im Kraftform-Eintrag (beide dieselbe Bibliothek, andere Quellen) ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

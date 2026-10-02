@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 339 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 94
-  Untersuchung, 110 Pathologie, 89 Biomechanik, 46 Therapie — genaue
+- Wissensbibliothek: 344 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 94
+  Untersuchung, 110 Pathologie, 90 Biomechanik, 50 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -1232,6 +1232,43 @@ kein Überblick verloren geht.
   gesucht und nicht gefunden wurden — eingearbeitet als Verschärfung des
   bereits bestehenden Hárrer-Eintrags zu Meningen/Dura-Verbindungen
   (`meningen-membranoeses-system-dura-verbindungen`), statt dupliziert.
+  Danach das letzte Kapitel gelesen: Teil 7 Anhang, Kap. 12
+  „Faszientraining beim Hund" (S. 160–164, vollständig, Chunk f(12).pdf)
+  — **wie in der Vorschau erwartet das ergiebigste Kapitel des gesamten
+  Buches, 5 neue Einträge.** Anders als die vorangehenden,
+  technik-/theorielastigen Kapitel ist dies ein durchgehend konkretes,
+  unstrittiges Trainingswissenschafts-Kapitel ohne jede craniosacrale
+  oder Organmotilitäts-Spekulation. Der detaillierte, gewebespezifische
+  Regenerationszeitplan nach überschwelliger Belastung (90 Minuten bis 10
+  Tage, mit der daraus folgenden Begründung, warum tägliches Training
+  kontraproduktiv ist)
+  (`regenerationszeitplan-nach-ueberschwelliger-belastung`); die vier
+  Anpassungsphasen des Trainings samt der zentralen Asymmetrie zwischen
+  einjähriger Faszienstabilität und nur zehntägigem Muskelabbau — mit der
+  daraus folgenden Rehabilitationskonsequenz, dass ein bereits faszial
+  ausgereifter Hund nach Immobilisation risikoarm per Schwimmen
+  muskulär wiederaufgebaut werden kann
+  (`vier-anpassungsphasen-training-faszien-muskel-asymmetrie`); die
+  Trainingsperiodisierung (6–7 Wochen Aufbau, 12 Wochen Plateauphase)
+  samt dem Wolfswelpen-Reifungsmodell als natürlichem Vorbild und den
+  beiden gangbildbasierten Überlastungszeichen
+  (`sechs-wochen-periodisierung-deload-plateauphase-ueberlastungszeichen`);
+  die Progressionsleiter von Trainingsumfang über Dauermethode und
+  Intervalltraining bis zum Bodenstangentraining, das gleichzeitig als
+  myofaszialer Koordinationstest dient
+  (`trainingsreizschwelle-progression-bodenstangen-koordinationstest`);
+  sowie die biomechanische Begründung, warum ausgerechnet die Landung aus
+  der Trab-Schwebephase den M.-serratus-ventralis-/Fascia-
+  spinocostotransversalis-Tragegurt kräftigt und dadurch die
+  Zehengelenke entlastet, verknüpft mit dem bestehenden Hohmann-Eintrag
+  zur Bogensehnenbrücke
+  (`trab-landephase-serratus-ventralis-fascia-spinocostotransversalis-training`).
+  **Mit Kap. 12 und dem anschließenden reinen Literaturverzeichnis (Kap.
+  13) ist Welter-Böller/Welter/John, Faszientherapie beim Hund, damit
+  vollständig ausgewertet — alle 7 Teile/12 Kapitel gelesen, mit
+  insgesamt 37 neuen Wissenseinträgen aus dieser Quelle plus mehreren
+  Ergänzungen bestehender Einträge (Degenerative Myelopathie,
+  Myofibroblasten, Motrizität/Mobilität, Meningen/Dura-Verbindungen).**
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1723,11 +1760,19 @@ Status:
   Negativbefund, ergänzt in den bestehenden Eintrag
   `meningen-membranoeses-system-dura-verbindungen` statt als eigener
   Eintrag dupliziert.
-- [ ] Kap. 12 „Faszientraining beim Hund" (S. 160–164): Trainingsprinzipien,
-  ein 6-Wochen-Beispielprogramm mit vier Adaptationsphasen, Frage nach
-  effektivem Training, Entwicklung von Faszienspannung — noch ungelesen,
-  voraussichtlich hoher praktischer Lehrwert (konkretes, anwendungsnahes
-  Trainingskapitel, gut vereinbar mit Denkgangs Praxisfokus).
+- [x] Kap. 12 „Faszientraining beim Hund" (S. 160–164) **vollständig
+  gelesen und ausgewertet (Chunk f(12).pdf) — 5 neue Einträge, das
+  ergiebigste Einzelkapitel des gesamten Buches.** Die Vorab-Erwartung
+  „hoher praktischer Lehrwert" bestätigt sich vollständig: Trainingsreiz-
+  Regenerationszeitplan, die vier Adaptationsphasen samt Faszien-/Muskel-
+  Asymmetrie, die 6+12-Wochen-Periodisierung mit Wolfswelpen-
+  Reifungsmodell, die Trainingsprogressionsleiter samt
+  Bodenstangen-Koordinationstest sowie die Serratus-ventralis-/Fascia-
+  spinocostotransversalis-Trab-Biomechanik — siehe Stand oben für alle
+  fünf neuen Einträge. Kap. 13 (Literaturverzeichnis) ist reine
+  Quellenliste, kein Extraktionsziel. **Damit ist Welter-Böller/Welter/
+  John, Faszientherapie beim Hund, als Quelle vollständig ausgewertet:
+  37 neue Einträge aus Kap. 2–12.**
 
 ### PATHOLOGIE/BIOMECHANIK/UNTERSUCHUNG — Kasper/Zohmann, Ganzheitliche Schmerztherapie für Hund und Katze (ISBN 978-3-8304-9288-7, Sonntag/Thieme, 2. Aufl. 2011)
 
