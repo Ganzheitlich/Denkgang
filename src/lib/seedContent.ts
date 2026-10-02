@@ -14992,6 +14992,89 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "richtungs-lagebezeichnungen-tierkoerper-kranial-kaudal-dorsal-palmar",
+    category: "ANATOMIE",
+    title: "Warum „oben“ am Hund keine anatomische Aussage ist",
+    teaser:
+      "Ein Punkt, der im Stand „oben“ liegt, liegt in Seitenlage plötzlich „seitlich“ — deshalb beschreibt die Veterinäranatomie Lage und Richtung nie relativ zur Körperhaltung, sondern mit einem festen, positionsunabhängigen Begriffssystem.",
+    sections: [
+      {
+        type: "text",
+        heading: "Das Problem mit oben, unten, vorne, hinten",
+        text: "Alltagsbegriffe wie oben, unten, vorn oder hinten beschreiben die Lage eines Körperpunkts relativ zur aktuellen Haltung des Tieres. Das funktioniert nur so lange, wie sich die Haltung nicht ändert: Ein im Stand „oben“ gelegener Punkt liegt in Seitenlage seitlich, in Rückenlage unten. Für eine eindeutige, von der Körperposition unabhängige Verständigung braucht es deshalb feste Bezugsebenen und -richtungen, die unabhängig davon gelten, ob der Hund steht, sitzt oder auf dem Rücken liegt.",
+      },
+      {
+        type: "table",
+        heading: "Die drei Grundachsen (gelten für den gesamten Rumpf, Hals und z. T. den Kopf)",
+        columns: ["Achse", "Begriffspaar", "Bedeutung"],
+        rows: [
+          ["Bezug zur Medianebene", "medial ↔ lateral", "zur Körpermitte hin ↔ seitlich davon weg"],
+          ["Bezug zum Rücken", "dorsal ↔ ventral", "rückenwärts ↔ bauchwärts"],
+          ["Bezug zu Kopf/Schwanz", "kranial ↔ kaudal", "kopfwärts ↔ schwanzwärts"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Sonderbegriffe für Kopf, Hals und Oberfläche/Tiefe",
+        text: "Am Kopf selbst wird kranial/kaudal durch eigene Begriffe ersetzt: oral (mundwärts) ↔ aboral (vom Mund weg), nasal oder rostral (nasenwärts) und frontal (stirnwärts) ↔ okzipital (hinterhauptswärts). Am Hals heißt die Seite zum Nacken hin nuchal. Unabhängig von Körperregion gilt außerdem profund (tief gelegen) ↔ superfiziell (oberflächlich gelegen), sowie für paarige Strukturen schlicht dexter (rechts) und sinister (links).",
+      },
+      {
+        type: "text",
+        heading: "An der Gliedmaße wechselt das System unterhalb von Karpus/Tarsus",
+        text: "An den Gliedmaßen gilt zusätzlich proximal (rumpfnah) ↔ distal (rumpffern) — diese beiden Begriffe durchziehen die gesamte Gliedmaße vom Rumpf bis zur Zehenspitze. Kranial/kaudal gelten dagegen nur am rumpfnahen Gliedmaßenabschnitt bis zum Karpus bzw. Tarsus. Distal davon — an Mittelfuß/Mittelhand und Zehen — werden sie durch ein eigenes Begriffspaar abgelöst: dorsal bezeichnet dort die Streckseite (Hand- bzw. Fußrücken-seitig), palmar die Beugeseite der Vordergliedmaße (Richtung Handfläche) und plantar die Beugeseite der Hintergliedmaße (Richtung Fußsohle). Für die Zehen kommt noch axial (zur Zehenachse hin) ↔ abaxial (von ihr weg) hinzu.",
+      },
+      {
+        type: "text",
+        heading: "Warum das für die Praxis zählt",
+        text: "Diese Begriffsverschiebung unterhalb von Karpus und Tarsus ist eine häufige Verwechslungsquelle: „Dorsal“ bedeutet am Rumpf „rückenwärts“, am Pfotenrücken dagegen „von der Sohle weg, zur Streckseite hin“ — zwei verschiedene Bezugssysteme mit demselben Wort. Wer das nicht auseinanderhält, liest einen Befund wie „mediale Instabilität“ oder eine Röntgenprojektionsbezeichnung wie „dorsopalmar“ leicht falsch. Die feste, positionsunabhängige Terminologie ist damit keine akademische Spielerei, sondern die Voraussetzung dafür, Anamnese, Befund und Bildgebung überhaupt eindeutig austauschen zu können.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert gegen Originaltext: Salomon, Franz-Viktor (Kapitelautor It. Fließtext) et al., Anatomie für die Tiermedizin, Georg Thieme Verlag, Kap. 1 „Allgemeine Anatomie der Haussäugetiere“, Abschnitt 1.4.3 „Lage- und Richtungsbezeichnungen am Tierkörper“ mit Tab. 1.1, S. 28–30 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks 183590104_002_001_003.pdf und 183590104_002_001_004.pdf). Hinweis zur Quellenangabe: Das im Chunk eingeblendete Wasserzeichen nennt eine abweichende Titel-/ISBN-Kombination („Krankheiten der Katze“, ISBN 978-3-13-242675-7), die ersichtlich zu einem anderen Werk im selben Thieme-VetCenter-Lizenzpaket gehört; diese ISBN wird deshalb nicht für das vorliegende Werk übernommen, Auflage und korrekte ISBN von „Anatomie für die Tiermedizin“ sind NICHT VERIFIZIERT. Das Begriffssystem (Grundachsen, Kopf-/Hals-Sonderbegriffe, der Wechsel von kranial/kaudal zu dorsal/palmar/plantar unterhalb von Karpus/Tarsus, axial/abaxial) ist im Original so beschrieben. Die Zuspitzung auf die Verwechslungsgefahr und die Verknüpfung mit Befund-/Röntgenbefundung ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "peritoneum-aszites-peritonitis-adhaesionen-schmerzasymmetrie",
+    category: "PATHOLOGIE",
+    title: "Warum eine Bauchfellentzündung erst spät richtig wehtut",
+    teaser:
+      "Das Bauchfell auf den Organen ist fast schmerzunempfindlich, das wandständige Bauchfell dagegen hochsensibel — eine bis heute nicht restlos erklärte Asymmetrie, die erklärt, warum sich eine beginnende Peritonitis zunächst kaum bemerkbar macht, bis sie plötzlich zum Notfall wird.",
+    sections: [
+      {
+        type: "text",
+        heading: "Zwei Blätter, zwei völlig unterschiedliche Schmerzempfindlichkeiten",
+        text: "Das Bauchfell (Peritoneum) kleidet als Wandblatt (Peritoneum parietale) die Bauch- und Beckenhöhlenwände aus und überzieht als Organblatt (Peritoneum viscerale) die Baucheingeweide. Das parietale Blatt ist sehr schmerzempfindlich und wird über Spinalnerven sowie den N. phrenicus innerviert — Reizungen hier (z. B. durch eine generalisierte Bauchfellentzündung oder direkte Bauchwandpathologie) erzeugen den scharfen, gut lokalisierbaren Schmerz mit reflektorischer Bauchdeckenspannung. Das viszerale Blatt dagegen ist kaum schmerzempfindlich, obwohl es über N. phrenicus und Eingeweidenerven ebenfalls innerviert ist. Warum diese Asymmetrie so ausgeprägt ist, ist bis heute nicht hinreichend geklärt.",
+      },
+      {
+        type: "text",
+        heading: "Die klinische Konsequenz: diffus und spät vs. scharf und sofort",
+        text: "Aus dieser Asymmetrie folgt ein praktisch wichtiges Muster: Ein Geschehen, das zunächst nur die Organoberfläche betrifft (z. B. eine beginnende Organentzündung), kann lange diffus, schwach oder gar nicht schmerzhaft wirken. Erst wenn die Entzündung auf das wandständige Blatt übergreift — bei einer generalisierten Peritonitis der Regelfall —, entsteht der charakteristische, gut lokalisierbare und abwehrspannungsauslösende Bauchschmerz. Ein unauffälliger Bauchbefund schließt eine beginnende intraabdominale Pathologie also nicht sicher aus.",
+      },
+      {
+        type: "text",
+        heading: "Aszites: wenn die Resorptionskapazität des Bauchfells überschritten wird",
+        text: "Das Peritoneum resorbiert kontinuierlich interstitielle Flüssigkeit zurück in den Kreislauf. Steigt der venöse Blutdruck an — etwa infolge einer Herzinsuffizienz —, nimmt die aus den Kapillaren filtrierte Flüssigkeitsmenge so stark zu, dass die Rückresorptionskapazität des Bauchfells überschritten wird. Die abtropfende Flüssigkeit sammelt sich in der Bauchhöhle an (Aszites, Bauchwassersucht) — bei ausgeprägten Fällen mehrere Liter. Ein aufgetriebenes Abdomen ist damit nicht automatisch Fettleibigkeit oder ein geblähter Magen, sondern kann auch Ausdruck einer kardialen Grunderkrankung sein.",
+      },
+      {
+        type: "text",
+        heading: "Aufsteigende Infektion: eine anatomische Besonderheit nur bei weiblichen Tieren",
+        text: "Beim männlichen Tier ist die Peritonealhöhle gegen die Außenwelt vollständig abgeschlossen. Bei weiblichen Tieren besteht dagegen über die bauchhöhlenseitigen Öffnungen der Eileiter eine direkte Verbindung zum Genitaltrakt — und damit ein anatomischer Weg, über den aus der Gebärmutter aufsteigende Infektionen (z. B. im Rahmen einer Pyometra) zu einer Bauchfellentzündung führen können. Diese Verbindung existiert beim männlichen Tier schlicht nicht.",
+      },
+      {
+        type: "text",
+        heading: "Adhäsionen: wie aus Kontakt Verwachsung wird",
+        text: "Werden zwei Bauchfellabschnitte über längere Zeit fest aneinandergepresst — etwa durch eine lokale Entzündung oder postoperativ —, geht das Mesothel an den Kontaktstellen zugrunde, und die bindegewebigen Unterschichten beider seröser Blätter verschmelzen miteinander. So entstehen Adhäsionen, die später bindegewebig organisiert werden und zu echten Verwachsungen führen, z. B. zwischen Darmschlingen oder zwischen Darmschlingen und der Bauchwand. Die daraus resultierende Bewegungseinschränkung kann schmerzhaft sein und im Einzelfall eine operative Lösung der Verwachsung erfordern. Dieser zellulär-mechanistische Weg (Mesothelzerstörung durch Druck → bindegewebige Fusion) ist eine spezifischere Ergänzung zu der bereits an anderer Stelle beschriebenen allgemeinen Drei-Wege-Systematik des Mobilitätsverlusts von Organen (Adhäsion/Verklebung/Verwachsung, Ptose, Viszerospasmus).",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert gegen Originaltext: Salomon, Franz-Viktor (Kapitelautor It. Fließtext) et al., Anatomie für die Tiermedizin, Georg Thieme Verlag, Kap. 1 „Allgemeine Anatomie der Haussäugetiere“, Abschnitt 1.5.3 „Bauchfell“ mit den „Klinische Aspekte zum Peritoneum“-Kästen, S. 33f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk 183590104_002_001_005.pdf). Hinweis zur Quellenangabe: Das im Chunk eingeblendete Wasserzeichen nennt eine abweichende Titel-/ISBN-Kombination („Krankheiten der Katze“, ISBN 978-3-13-242675-7), die ersichtlich zu einem anderen Werk im selben Thieme-VetCenter-Lizenzpaket gehört; diese ISBN wird deshalb nicht für das vorliegende Werk übernommen, Auflage und korrekte ISBN von „Anatomie für die Tiermedizin“ sind NICHT VERIFIZIERT. Die Schmerzasymmetrie zwischen parietalem und viszeralem Peritoneum (inkl. der Aussage, dass sie bis heute nicht hinreichend erklärt ist), der Aszites-Mechanismus über venösen Rückstau, die auf weibliche Tiere beschränkte aufsteigende Infektionsroute über die Eileiteröffnungen sowie der Adhäsionsmechanismus (Mesothelzerstörung durch Druck, bindegewebige Fusion, operative Lösung) sind im Original so beschrieben. Die Zuspitzung auf die klinische Konsequenz (diffuser vs. scharfer Schmerz) sowie die Verknüpfung mit der bestehenden Adhäsion/Ptose/Viszerospasmus-Systematik (andere Quelle, Welter-Böller/Welter/John) ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

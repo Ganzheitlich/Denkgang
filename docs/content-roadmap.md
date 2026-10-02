@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 344 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 94
-  Untersuchung, 110 Pathologie, 90 Biomechanik, 50 Therapie — genaue
+- Wissensbibliothek: 346 Einträge (11 Anatomie-Spiegelungen, 10 Grundlagen, 94
+  Untersuchung, 111 Pathologie, 90 Biomechanik, 50 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -1269,6 +1269,51 @@ kein Überblick verloren geht.
   insgesamt 37 neuen Wissenseinträgen aus dieser Quelle plus mehreren
   Ergänzungen bestehender Einträge (Degenerative Myelopathie,
   Myofibroblasten, Motrizität/Mobilität, Meningen/Dura-Verbindungen).**
+  Nächste Quellenwahl: Aus Vanessas Drive-Bibliothek standen zwei
+  unangetastete, fachlich einschlägige Kandidaten zur Wahl — Waibl/
+  Mayrhofer/Matis/Köstlin/Wilkens, Atlas der Röntgenanatomie des Hundes
+  (Thieme/Enke, 3. Aufl. 2012), und Salomon/Geyer/Gille (Hrsg.), Anatomie
+  für die Tiermedizin (Thieme). Der Röntgenanatomie-Atlas wurde nach
+  Sichtung von Einführung, Beckengliedmaße und Thorax **verworfen**: Er
+  besteht durchgehend aus Lagerungsanleitungen (Ziel/Zentralstrahl/
+  Beachte) plus reinen Struktur-Label-Legenden zu Röntgenbildern, die dem
+  Text nicht beiliegen — es gibt keinen erklärenden Fließtext, der sich im
+  Sinne von MASTER-PROMPT §22/Abschnitt „eigene Erklärung" synthetisieren
+  ließe, und die beiden einzigen potenziell anschlussfähigen Konzepte
+  (Fabellae als Prädilektionsstelle, Wachstumsfugenschluss als
+  Trainingsgrenze) sind in der Bibliothek bereits ausführlich abgedeckt.
+  Zudem enthält der Thorax-Teil veraltete, laut Buch-Einführung selbst
+  durch Sonographie/Endoskopie abgelöste Verfahren (Bronchographie,
+  Angiokardiographie mit Kontrastmittel). Stattdessen wurde mit Salomon
+  et al., Anatomie für die Tiermedizin, begonnen — ein Standardwerk mit
+  echtem Lehrtext, allerdings sehr umfangreich (vergleichende Anatomie der
+  Haussäugetiere, nicht hundespezifisch, mehrere hundert granulare
+  Drive-Chunks) und wird deshalb über mehrere Sessions hinweg
+  kapitelweise bearbeitet, mit Fokus auf hundespezifisch markierte Stellen
+  und auf Inhalte, die unabhängig von der Tierart als Grundlage für
+  klinisches Denken taugen. Aus Kap. 1 „Allgemeine Anatomie der
+  Haussäugetiere" zwei neue Einträge: das vollständige
+  Richtungs-/Lagebezeichnungssystem (Grundachsen kranial/kaudal,
+  dorsal/ventral, medial/lateral, dazu die Sonderbegriffe für Kopf/Hals
+  sowie der Begriffswechsel zu dorsal/palmar/plantar/axial unterhalb von
+  Karpus/Tarsus) als eigenständige Nachschlage-Grundlage
+  (`richtungs-lagebezeichnungen-tierkoerper-kranial-kaudal-dorsal-palmar`),
+  sowie ein Peritoneum-Eintrag zur klinisch auffälligen
+  Schmerzasymmetrie zwischen parietalem (hochsensibel) und viszeralem
+  (kaum schmerzempfindlich) Bauchfell — bis heute laut Quelle nicht
+  vollständig erklärt —, ergänzt um Aszites-Mechanismus (venöser
+  Rückstau überschreitet die Resorptionskapazität), die nur bei
+  weiblichen Tieren bestehende aufsteigende Infektionsroute über die
+  Eileiteröffnungen sowie den zellulären Adhäsionsmechanismus
+  (Mesothelzerstörung durch Druck → bindegewebige Fusion), verknüpft mit
+  der bestehenden Adhäsion/Ptose/Viszerospasmus-Systematik aus
+  Welter-Böller/Welter/John
+  (`peritoneum-aszites-peritonitis-adhaesionen-schmerzasymmetrie`). Die
+  genaue Titel-/ISBN-Angabe von „Anatomie für die Tiermedizin" ist dabei
+  bewusst als NICHT VERIFIZIERT gekennzeichnet, da das im Drive-Chunk
+  eingeblendete Wasserzeichen eine erkennbar falsche, zu einem anderen
+  Werk im selben Thieme-VetCenter-Paket gehörende ISBN nennt
+  („Krankheiten der Katze").
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -4032,6 +4077,65 @@ gelesenen Quellen:
       tastbarer Landmarken), keine Ursprung/Ansatz/Funktion-Angaben; eher als
       Ergänzung für `palpationHint`/Bildbriefe geeignet, nicht als alleinige
       Quelle für ein vollständiges Anatomie-Item
+
+### VERWORFEN — Waibl/Mayrhofer/Matis/Köstlin/Wilkens, Atlas der Röntgenanatomie des Hundes (Thieme/Enke, 3. Aufl. 2012)
+
+- [x] Einführung, Beckengliedmaße, Thorax gesichtet (29.09.2026/02.10.2026) —
+      **als Extraktionsquelle verworfen.** Das Buch besteht pro Röntgenbild aus
+      einem festen Dreischritt (Ziel/Zentralstrahl/Beachte) plus einer reinen
+      Struktur-Label-Legende (Knochen-/Organname + Nummer), die sich auf ein
+      Röntgenbild bezieht, das der extrahierte Text selbst nicht enthält. Es
+      gibt keinen erklärenden Fließtext im Sinne von MASTER-PROMPT §22, der
+      sich eigenständig synthetisieren ließe — anders als bei jeder bisher
+      verwendeten Quelle ist hier nichts zu „erklären", nur aufzuzählen. Die
+      Einführung selbst ist reine Belichtungs-/Strahlenschutztechnik für
+      Röntgenpersonal (kV/mAs-Tabellen), nicht für eine Physiotherapie-
+      Zielgruppe relevant. Die beiden einzigen Konzepte mit Anschlusswert
+      (Fabellae als Tendopathie-Prädilektionsstelle; Wachstumsfugenschluss als
+      Trainingsgrenze/Fraktur-Verwechslungsgefahr) sind in der Bibliothek
+      bereits ausführlich eigenständig abgedeckt (u. a.
+      `wachstumsfugenschluss-als-trainingsgrenze-welpe-junghund-alter-hund`,
+      IOCH- und Distractio-cubiti-Einträge). Der Thorax-Teil enthält zudem
+      laut Buch-eigener Einführung durch Sonographie/Endoskopie abgelöste
+      Verfahren (Bronchographie, Angiokardiographie mit Kontrastmittel) ohne
+      heutigen Praxisbezug. Die übrigen Kapitel (Kopf, Wirbelsäule,
+      Schultergliedmaße, Abdomen) folgen erkennbar demselben Schema und
+      wurden deshalb nicht mehr einzeln gesichtet. Bleibt als mögliche
+      Zukunftsnutzung: Bildbrief-Referenz für anatomisch korrekte
+      Röntgenbild-Beschriftung, falls Denkgang einmal eigene Röntgenbild-
+      Lernmodule bekommt — aktuell kein Bestandteil des Produkts.
+
+### ANATOMIE/PATHOLOGIE — Salomon/Geyer/Gille (Hrsg.), Anatomie für die Tiermedizin (Thieme)
+
+- [x] Kap. 1 „Allgemeine Anatomie der Haussäugetiere", Abschnitte 1.1–1.5
+      (Stoffgebiet der Anatomie, Organsysteme im Überblick, anatomische
+      Nomenklatur, topografische Gliederung/Richtungsbezeichnungen,
+      Körperhöhlen) gelesen (02.10.2026). Daraus 2 neue Einträge: das
+      vollständige Richtungs-/Lagebezeichnungssystem
+      (`richtungs-lagebezeichnungen-tierkoerper-kranial-kaudal-dorsal-palmar`)
+      sowie Peritoneum-Klinik (Schmerzasymmetrie parietal/viszeral, Aszites,
+      aufsteigende Infektion bei weiblichen Tieren, Adhäsionsmechanismus;
+      `peritoneum-aszites-peritonitis-adhaesionen-schmerzasymmetrie`). Nicht
+      extrahiert: die reinen Organsystem-Überblicksabsätze (1.2, bereits
+      andernorts detaillierter abgedeckt), die vollständige Nomenklatur-/
+      Aussprache-Regelwerk-Tiefe (1.3, zu basal für die Zielgruppe) sowie die
+      granulare Körperregionen-Terminologie (1.4.1–1.4.2, reine
+      Namensliste ohne Argumentationswert über die bereits extrahierten
+      Richtungsbegriffe hinaus). **Wichtige Einschränkung:** Das Werk ist
+      vergleichende Anatomie der Haussäugetiere, nicht hundespezifisch — nur
+      explizit als hundebezogen markierte oder artunabhängig gültige Aussagen
+      werden übernommen. Sehr umfangreich (mehrere hundert granulare
+      Drive-Chunks), wird deshalb über mehrere Sessions kapitelweise
+      weitergelesen. **ISBN/Auflage nicht verifizierbar:** Das Wasserzeichen
+      in den Drive-Chunks nennt durchgängig eine erkennbar falsche
+      Titel-/ISBN-Kombination eines anderen Werks aus demselben Thieme-
+      VetCenter-Lizenzpaket („Krankheiten der Katze", ISBN
+      978-3-13-242675-7); diese wird nicht übernommen, sourceStatus markiert
+      ISBN/Auflage entsprechend als NICHT VERIFIZIERT.
+- [ ] Kap. 2 „Bewegungsapparat" (Knochen, Gelenke, Muskeln allgemein) — als
+      Nächstes zu lesen; erste Zeilen (2.1 Allgemeine Vorbemerkungen, 2.2
+      Binde- und Stützgewebe Übersicht) bereits gesichtet, noch nicht
+      extrahiert
 
 ## Arbeitsweise für künftige Sessions
 
