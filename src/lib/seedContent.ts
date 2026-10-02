@@ -14576,6 +14576,131 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "bauchhoehle-vier-quadranten-organtopografie",
+    category: "UNTERSUCHUNG",
+    title: "Die vier Bauchquadranten: eine Landkarte für die Lokalisation abdominaler Befunde",
+    teaser:
+      "Ein tastbarer Widerstand im rechten Oberbauch bedeutet etwas anderes als derselbe Befund im linken Unterbauch — die Vierteilung des Abdomens am Nabel liefert dafür die anatomische Landkarte.",
+    sections: [
+      {
+        type: "text",
+        heading: "Die Einteilung",
+        text: "Der Bauchnabel bildet das Zentrum einer gedachten vertikalen und horizontalen Linie, die die Bauchhöhle in vier Quadranten gliedert: rechter Oberbauch, linker Oberbauch, rechter Unterbauch und linker Unterbauch. Diese Einteilung ist rein topografisch und unabhängig von der tatsächlichen Organgröße oder -form gedacht — sie dient als Orientierungsraster, nicht als anatomische Grenze.",
+      },
+      {
+        type: "table",
+        heading: "Welche Organe in welchem Quadranten liegen",
+        columns: ["Quadrant", "Organe (schwerpunktmäßig)"],
+        rows: [
+          [
+            "Rechter Oberbauch",
+            "Leber, Duodenum descendens, Zäkum, Colon ascendens und transversum, teilweise Pankreas, rechte Niere, Gekrösewurzel",
+          ],
+          [
+            "Linker Oberbauch",
+            "Leber, Magen, Milz, Colon descendens, linke Niere, teilweise Pankreas",
+          ],
+          [
+            "Rechter Unterbauch",
+            "Duodenum ascendens, Jejunum, Ileum, Zäkum, Colon ascendens",
+          ],
+          [
+            "Linker Unterbauch",
+            "Jejunum, Colon descendens, Ileum",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Drei Schichten von ventral nach dorsal",
+        text: "Zusätzlich zur Quadranteneinteilung lässt sich die Bauchhöhle gedanklich in eine ventrale, mittlere und dorsale Schicht gliedern (keine standardisierten anatomischen Fachbegriffe, aber didaktisch hilfreich). Ventral liegen nach Entfernung des Großen Netzes vor allem die Jejunalschlingen, die zunächst die Sicht auf die mittlere Schicht verdecken. Entfernt man gedanklich das Jejunum, erscheint die mittlere Schicht mit Duodenalschleife, Zäkum, Pankreas, Milz, Colonschleife und der sich zwischen die Duodenalschleife schiebenden Gekrösewurzel. Die dorsale Schicht wird vor allem von den retroperitoneal liegenden Nieren und den Ovarien gebildet.",
+      },
+      {
+        type: "text",
+        heading: "Nutzen für die klinische Lokalisation",
+        text: "Diese doppelte Gliederung — in vier Quadranten und drei Tiefenschichten — liefert ein anatomisches Raster, um einen palpatorischen oder bildgebenden Befund (Schwellung, Schmerzreaktion, tastbare Resistenz) plausiblen Organen zuzuordnen, bevor eine weiterführende Diagnostik erfolgt. Ein Befund im rechten Oberbauch lenkt den Verdacht beispielsweise eher auf Leber oder rechte Niere, ein Befund im linken Unterbauch eher auf Jejunum oder Colon descendens.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 8.2.2, S. 118–122 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(8).pdf, unter Verweis im Original auf König HE/Liebich H-G., Anatomie der Haustiere, 8. Aufl., Thieme 2024, für die zugehörigen Abbildungen). Die Vier-Quadranten-Einteilung samt Organzuordnung sowie die ventrale/mittlere/dorsale Schichtgliederung der Bauchhöhlenorgane sind im Original so beschrieben. Die klinische Nutzenformulierung (Lokalisation eines Befundes über die Quadranten-/Schichtzuordnung) ist eigene Synthese von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "koerperhoehlen-dreischichtige-faszienauskleidung-kontinuitaet",
+    category: "BIOMECHANIK",
+    title: "Eine durchgehende Hülle: die dreischichtige Faszienauskleidung von Brust-, Bauch- und Beckenhöhle",
+    teaser:
+      "Fascia endothoracica, Fascia transversalis und Fascia pelvis sind keine drei getrennten Strukturen, sondern ein und dieselbe oberflächliche Auskleidungsschicht, die sich ohne Unterbrechung durch alle drei Körperhöhlen zieht.",
+    sections: [
+      {
+        type: "text",
+        heading: "Dasselbe Bauprinzip in allen drei Körperhöhlen",
+        text: "Brust-, Bauch- und Beckenhöhle sind jeweils nach demselben Dreischicht-Prinzip ausgekleidet: eine oberflächliche Schicht, die die Körperhöhle als Ganzes nach außen abgrenzt, eine mittlere Schicht (das wandständige, parietale Blatt der Serosa), und eine tiefe Schicht, die den einzelnen Organen als unmittelbarer Überzug direkt aufliegt (das organständige, viszerale Blatt derselben Serosa).",
+      },
+      {
+        type: "table",
+        heading: "Die drei Schichten in den drei Körperhöhlen",
+        columns: ["Körperhöhle", "Oberflächliche Schicht", "Mittlere Schicht (parietal)", "Tiefe Schicht (viszeral)"],
+        rows: [
+          ["Brusthöhle", "Fascia endothoracica", "Pleura parietalis", "Pleura visceralis"],
+          ["Bauchhöhle", "Fascia transversalis", "Peritoneum parietale", "Peritoneum viscerale"],
+          ["Beckenhöhle", "Fascia pelvis", "Peritoneum parietale (nur peritonealer Anteil)", "Peritoneum viscerale"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Eine durchgehende Struktur statt dreier getrennter Faszien",
+        text: "Die oberflächlichen Schichten der drei Körperhöhlen sind keine voneinander unabhängigen Strukturen: Die Fascia endothoracica liegt dem Zwerchfell innig an und setzt sich als Fascia transversalis in der Bauchhöhle fort; diese wiederum geht nach kaudal nahtlos in die Fascia pelvis des Beckens über. Im Bereich der inneren Lendenmuskulatur (M. quadratus lumborum, M. iliopsoas, M. psoas minor) trägt dieselbe Faszie zusätzlich den Namen Fascia iliaca. Dieselbe Hülle zieht sich also ohne Unterbrechung von der vorderen Thoraxapertur bis zum Beckenboden durch den gesamten Körper.",
+      },
+      {
+        type: "text",
+        heading: "Die drei Bauchfellbuchten im Becken",
+        text: "Im Becken schlägt das Bauchfell im kaudalen Bereich bildlich gesprochen um und bildet drei blind endende Ausbuchtungen (Bauchfellbuchten), die durch die Lage und das Gekröse der Harn- und Geschlechtsorgane entstehen. Dadurch unterscheidet man in der Beckenhöhle einen peritonealen Anteil (endet mit den Bauchfellbuchten) und einen weiter kaudal anschließenden retroperitonealen Anteil, der erst mit dem Diaphragma pelvis endet — eine anatomische Unterscheidung, die erklärt, warum nicht alle Beckenorgane gleichermaßen vom Bauchfell überzogen sind.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund übersehen", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 8.3–8.3.3, S. 122–124 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(8).pdf). Das Dreischicht-Prinzip der fazialen Auskleidung aller drei Körperhöhlen, die Kontinuität von Fascia endothoracica über Fascia transversalis zu Fascia pelvis (inkl. der Fascia-iliaca-Bezeichnung im Bereich der inneren Lendenmuskulatur) sowie die drei Bauchfellbuchten mit der peritoneal/retroperitoneal-Unterscheidung im Becken sind im Original so beschrieben. Nicht übernommen: die im Original erwähnte, beim Menschen beschriebene direkte Anheftung der Fascia endothoracica an Rippen/Wirbelkörper sowie das Diaphragma cervicothoracale — die Quelle selbst weist ausdrücklich darauf hin, dass diese Verhältnisse beim Hund noch nicht im Detail beschrieben sind und nur vermutet werden kann, dass sie übertragbar sind; diese Unsicherheit wird hier nicht geglättet, sondern durch Weglassen der unsicheren Angabe gehandhabt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "viszerales-gelenk-serosa-mesenterium-gleitflaechen",
+    category: "BIOMECHANIK",
+    title: "Das „viszerale Gelenk“: wenn Organe wie Gelenkpartner gleiten",
+    teaser:
+      "Ein Gelenk braucht per Definition zwei Knochen — die osteopathische Betrachtung überträgt dasselbe Prinzip auf Organe: glatte Gleitflächen aus Serosa, gehalten von Mesenterien und Bändern, lassen benachbarte Organe gegeneinander gleiten statt zu reiben.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eine erweiterte Gelenk-Definition",
+        text: "Ein Gelenk ist anatomisch als bewegliche Verbindung zwischen zwei oder mehreren Knochen definiert. Aus osteopathischer Sicht lässt sich dieses Prinzip erweitern: Auch Organe stehen über verschiedene fasziale Strukturen in einer Art gelenkiger Verbindung zueinander — dem sogenannten viszeralen Gelenk. Diese Betrachtungsweise ist eine didaktische Erweiterung des Gelenkbegriffs, keine etablierte anatomische Gelenkklassifikation; sie stützt sich aber auf vollständig reguläre, unstrittige Anatomie (Serosa, Mesenterium), nicht auf unabhängig nicht überprüfbare Wahrnehmungskonzepte.",
+      },
+      {
+        type: "text",
+        heading: "Gleitflächen: die Serosae",
+        text: "Die Gleitflächen des viszeralen Gelenks werden von den Serosae gebildet — dünnen, glatten, von einem feinen Flüssigkeitsfilm überzogenen Membranen (Pleura in der Brusthöhle, Peritoneum in der Bauch-/Beckenhöhle). Jede Serosa hat ein wandständiges, parietales Blatt und ein organständiges, viszerales Blatt; beide bilden zusammen eine Verschiebeschicht, die ein reibungsfreies Gleiten der Organe gegeneinander sowie gegenüber der Körperwand ermöglicht.",
+      },
+      {
+        type: "text",
+        heading: "Bindende Elemente: Mesenterium und Bänder",
+        text: "Als bindende, haltgebende Elemente des viszeralen Gelenks fungieren unter anderem Mesenterien, Plicae, Ligamenta, der synoviale Film und der intrakavitäre Druck. Das Mesenterium ist dabei die verbindende Struktur zwischen dem Wandüberzug (Peritoneum parietale) und dem Organüberzug (Peritoneum viscerale) eines Organs — entwicklungsgeschichtlich entsteht es dadurch, dass ursprünglich wandständig gelagerte Organe sich im Laufe der Embryonalentwicklung in die Bauchhöhle absenken und dabei ihren Serosaüberzug gewissermaßen hinter sich herziehen. Das Mesenterium ist damit strukturell eine Doppellamelle des Peritoneums.",
+      },
+      {
+        type: "text",
+        heading: "Die Konsequenz für die therapeutische Betrachtung",
+        text: "Durch diese Betrachtungsweise stehen Organe nicht mehr isoliert da, sondern bilden funktionelle, gelenkige Verbindungen miteinander, mit dem Zwerchfell und mit verschiedenen Skelettanteilen. Die Quelle weist dabei selbst ausdrücklich darauf hin, dass der Wissensstand zu diesen faszialen Zusammenhängen beim Hund im Vergleich zum Menschen noch gering ist und sich weitgehend auf die Annahme stützt, humanmedizinische Erkenntnisse seien auf den Hund übertragbar — eine Einschränkung, die hier bewusst mit referiert wird, statt sie als gesicherten caninen Befund darzustellen.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Faktenwissen", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 9.1–9.1.1, S. 124f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk f(9).pdf, unter Verweis im Original auf die Faszien-Definition des ersten internationalen Fascia Research Congress 2007 in Boston sowie auf König HE/Liebich H-G., Anatomie der Haustiere, 8. Aufl., Thieme 2024). Die Definition des viszeralen Gelenks, seine Bestandteile (Gleitflächen über Serosae, bindende Elemente über Mesenterien/Ligamenta/synovialen Film/intrakavitären Druck), die Mesenterium-Entwicklung sowie der ausdrückliche Hinweis der Quelle auf den geringen Wissensstand beim Hund sind im Original so beschrieben. Die Einordnung als didaktische Erweiterung statt etablierte Gelenkklassifikation ist eigene, vorsichtige Formulierung von Denkgang.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

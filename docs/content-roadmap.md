@@ -62,8 +62,8 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 332 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 92
-  Untersuchung, 109 Pathologie, 86 Biomechanik, 45 Therapie — genaue
+- Wissensbibliothek: 335 Einträge (10 Anatomie-Spiegelungen, 10 Grundlagen, 93
+  Untersuchung, 109 Pathologie, 88 Biomechanik, 45 Therapie — genaue
   Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
   berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -1117,7 +1117,34 @@ kein Überblick verloren geht.
   gehandhabt, statt widersprüchliche Fakten nebeneinander stehen zu
   lassen. 7.3.4 (Fascia femoralis medialis) sowie 7.3.7 (Fascia
   plantaris/dorsalis pedis) lieferten keinen über Bestehendes
-  hinausgehenden Mehrwert.
+  hinausgehenden Mehrwert. Danach Teil 5 „Das viszerale System" begonnen:
+  Chunk f(8).pdf gelesen (Kap. 8 „Anatomie der Faszien im Bereich der
+  Viszera", S. 118–124, vollständig) — entgegen der eigenen Erwartung
+  („vermutlich im selben disputierten Organtheorie-Profil wie das
+  bereits ausgeschlossene Kap. 8 bei Könneker/Reiter") überwiegend
+  solide, unstrittige, auf König/Liebich (Standardlehrbuch) gestützte
+  Körperhöhlenanatomie ohne craniosacrale oder Organmotilitäts-
+  Spekulation — **3 neue Einträge**: die Vier-Quadranten-Gliederung des
+  Abdomens mit Organzuordnung als praktisches Lokalisationsraster für
+  palpatorische/bildgebende Befunde
+  (`bauchhoehle-vier-quadranten-organtopografie`); das durchgehende
+  Dreischicht-Prinzip der faszialen Auskleidung aller drei Körperhöhlen
+  (Fascia endothoracica–transversalis–pelvis als eine kontinuierliche
+  Struktur, nicht drei getrennte)
+  (`koerperhoehlen-dreischichtige-faszienauskleidung-kontinuitaet`); und,
+  aus dem unmittelbar anschließenden Kap. 9.1, das Konzept des
+  „viszeralen Gelenks" (Organe als über Serosa-Gleitflächen und
+  Mesenterien/Bänder verbundene Gelenkpartner) — hier bewusst als
+  didaktische Erweiterung des Gelenkbegriffs eingeordnet statt als
+  etablierte Gelenkklassifikation, da die Quelle selbst den geringen
+  Wissensstand beim Hund (im Vergleich zum Menschen) ausdrücklich einräumt
+  (`viszerales-gelenk-serosa-mesenterium-gleitflaechen`). Diese drei
+  Einträge stützen sich auf reguläre, unstrittige Anatomie (Serosa,
+  Mesenterium, Peritoneum) statt auf die später in Kap. 9–10 zu
+  erwartende Organmotilitäts-/Listening-Theorie — die ursprüngliche
+  Vorab-Einschätzung erweist sich damit für Kap. 8 als zu pessimistisch,
+  was zeigt, dass eine Buchkapitel-Einordnung nach Titel allein kein
+  Ersatz für die tatsächliche Lektüre ist.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1560,11 +1587,27 @@ Status:
   dichter Überschneidung mit Hárrer/Koch-Fischer finden sich bei
   sorgfältiger Prüfung immer wieder einzelne, klar abgrenzbare,
   eigenständig wertvolle Fakten.
-- [ ] Kap. 8–10 „Das viszerale System" (S. 118–153): Organfaszien,
-  „viszerales Gelenk", viszerale Restriktionen, Organtopografie — noch
-  ungelesen, nach Titel/Konzept erwartbar im selben disputierten
-  Organtheorie-Profil wie das bereits ausgeschlossene Kap. 8 bei
-  Könneker/Reiter.
+- [~] Kap. 8–10 „Das viszerale System" (S. 118–153): Kap. 8 „Anatomie der
+  Faszien im Bereich der Viszera" (S. 118–124) **vollständig gelesen und
+  ausgewertet (Chunk f(8).pdf) — 2 neue Einträge**, siehe Stand oben.
+  Entgegen der eigenen Vorab-Einschätzung keine disputierte
+  Organtheorie, sondern solide, auf König/Liebich gestützte
+  Körperhöhlenanatomie (Quadranten, Schichtgliederung, durchgehende
+  Fascia-endothoracica-/transversalis-/pelvis-Kontinuität). Zusätzlich
+  bereits 9.1 „Das viszerale Gelenk" (S. 124f., ebenfalls Chunk f(8).pdf,
+  da die Kapitelgrenze mitten im Chunk lag) gelesen — **1 weiterer neuer
+  Eintrag**, ebenfalls überwiegend reguläre Anatomie (Serosa, Mesenterium)
+  mit einer bewusst vorsichtig eingeordneten osteopathischen
+  Erweiterungs-Metapher. Noch offen: der Rest von Kap. 9 „Die Organe im
+  Gesamtsystem der Faszien" (9.2 ff., ab S. 125, Chunk f(9).pdf — dort
+  ist nach erster Durchsicht der Organmotilitäts-/-mobilitätstheorie zu
+  erwarten, ähnlich dem bereits bei Könneker/Reiter ausgeschlossenen
+  Profil) sowie Kap. 10 „Typische Restriktionen im Bereich der Viszera"
+  (S. 134–153, Chunk f(10).pdf — dort laut erster Durchsicht explizit
+  Unwinding-/Stacking-/Inhibitions-Techniken sowie ein A.-T.-Still-Zitat
+  gegen jede manuelle Druck-/Zug-/Stichtechnik am Abdomen, d. h.
+  überwiegend dieselbe disputierte Eigenwahrnehmungs-Kategorie wie
+  bereits mehrfach ausgeschlossen).
 - [ ] Kap. 11 „Das craniosacrale System" (S. 156–159): noch ungelesen, nach
   Titel/Konzept erwartbar am strittigsten, analog zum bereits
   zurückgestellten Kap. 9 bei Könneker/Reiter.
