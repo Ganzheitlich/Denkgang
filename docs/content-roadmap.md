@@ -1219,6 +1219,19 @@ kein Überblick verloren geht.
   veterinärinternistischen Anatomie ohne unmittelbaren Bezug zu Denkgangs
   physiotherapeutischem Fokus und ist zudem über weite Strecken reine
   Strukturbeschreibung ohne eigenständige klinische Schlussfolgerung.
+  Danach Teil 6 „Das craniosacrale System" (Kap. 11, S. 156–159, Chunk
+  f(11).pdf) vollständig gelesen — wie erwartet die strittigste
+  Einzelquelle des Buches, deckungsgleich mit der bereits bei
+  Könneker/Reiter (Kap. 9) ausgeschlossenen craniosacralen Theorie
+  (Indikationen bis hin zu „Verhaltensauffälligkeiten", Ear-Pull-/Clear-
+  the-Confusion-Techniken). Keine neue Extraktion, aber ein wertvoller
+  Negativbefund: Die Quelle bestätigt explizit, dass mehrere beim
+  Menschen beschriebene Dura-Verbindungsstrukturen (Soulie-Fasern,
+  Hofmann-Bänder, Verbindung zu Mm. rectus capitis dorsalis minor/
+  obliquus capitis caudalis und zum Lig. nuchae) beim Hund gezielt
+  gesucht und nicht gefunden wurden — eingearbeitet als Verschärfung des
+  bereits bestehenden Hárrer-Eintrags zu Meningen/Dura-Verbindungen
+  (`meningen-membranoeses-system-dura-verbindungen`), statt dupliziert.
 - Anatomie-Sektion: 33 Items. Die ursprünglichen 29 haben vollständige
   Ursprung-/Ansatz-/Innervations-Angaben (siehe Anatomie-Lückenschluss
   oben); die 4 neuen (semimembranosus, gastrocnemius, extensoren-/
@@ -1688,9 +1701,28 @@ Status:
   bereits Teil 4 (Kap. 5–7): hoher Anteil an Technik/Disputiertem, aber
   bei konsequenter Prüfung immer wieder einzelne, klar abgrenzbare
   Fakten von eigenständigem Wert.
-- [ ] Kap. 11 „Das craniosacrale System" (S. 156–159): noch ungelesen, nach
-  Titel/Konzept erwartbar am strittigsten, analog zum bereits
-  zurückgestellten Kap. 9 bei Könneker/Reiter.
+- [x] Kap. 11 „Das craniosacrale System" (S. 156–159) **vollständig
+  gelesen (Chunk f(11).pdf) — wie erwartet die strittigste Einzelquelle,
+  bestätigt die Vorab-Einschätzung vollständig.** 11.1/11.2 (Intra-/
+  Extracraniales Fasziensystem) beschreiben dieselben Meningen (Pia
+  mater, Arachnoidea, Dura mater, Falx cerebri, Tentorium) und
+  Fixationspunkte, die bereits ausführlich aus Hárrer (Kap. 17.1.6)
+  extrahiert sind — keine neue Extraktion nötig, da Duplikat. Die
+  „Indikationen"-Listen (Hydrocephalus, Hypophysenfunktionsstörung,
+  „Verhaltensauffälligkeiten" wie Nervosität/Apathie/Lernschwierigkeiten
+  als angebliche Folge von Kopfform-bedingtem Tentorium-Zug) sowie die
+  Behandlungsvorschläge (Ear Pull, Clear the Confusion, Duratraktion)
+  bewusst nicht übernommen — dieselbe disputierte craniosacrale Theorie
+  wie bei Könneker/Reiter Kap. 9. Ein einziger werthaltiger Fund: Die
+  Quelle bestätigt explizit, dass mehrere beim Menschen beschriebene
+  Dura-Verbindungsstrukturen (Soulie-Fasern, Hofmann-Bänder, die
+  Verbindung zu Mm. rectus capitis dorsalis minor/obliquus capitis
+  caudalis und zum Lig. nuchae) beim Hund gezielt gesucht und nicht
+  gefunden wurden — eine Verschärfung des bereits im bestehenden
+  Hárrer-Eintrag dokumentierten „nicht bestätigt" zu einem expliziten
+  Negativbefund, ergänzt in den bestehenden Eintrag
+  `meningen-membranoeses-system-dura-verbindungen` statt als eigener
+  Eintrag dupliziert.
 - [ ] Kap. 12 „Faszientraining beim Hund" (S. 160–164): Trainingsprinzipien,
   ein 6-Wochen-Beispielprogramm mit vier Adaptationsphasen, Frage nach
   effektivem Training, Entwicklung von Faszienspannung — noch ungelesen,
