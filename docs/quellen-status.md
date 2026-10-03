@@ -56,6 +56,26 @@ Besonders relevant für künftige Kategorien:
 - **Pathologie**: VetCenter-Reihe (Hunde-/Katzenkrankheiten kompakt), Pathophysiologie des
   Bewegungsapparates
 
+## Zweite Prüfrunde (Stand 03.10.2026)
+
+Nach Fertigstellung der Salomon/Geyer/Gille-Wissenseinträge (siehe `content-roadmap.md`)
+Stichproben-Verifikation offener `NICHT VERIFIZIERT`-Stellen gegen diese neue Referenz versucht:
+
+| Anspruch | Ergebnis |
+|---|---|
+| Lig. capitis femoris (huefte/Luna + gleichnamiger Wissenseintrag) — Existenz als Strukturbestandteil der Art. coxae | ✅ **Verifiziert**: Salomon et al., Kap. 2.7.10 „Knochenverbindungen der Beckengliedmaße", Übersichtsliste „Art. coxae" nennt „Lig. capitis ossis femoris" explizit neben Labrum acetabulare und Lig. transversum acetabuli. sourceStatus in beiden betroffenen Einträgen entsprechend aktualisiert. ⚠️ Konkrete Funktion (Führung/Stabilisierung) und der klinische Bezug zu Hüftdysplasie bleiben weiterhin NICHT aus dieser Quelle belegt — nur die Existenz/Einordnung ist jetzt verifiziert. |
+| M. supraspinatus — Ansatz Tuberculum majus humeri | ❌ Nicht erreichbar. Die `fullText`-Suche in der Salomon-Bibliothek liefert für Treffer in großen Chunk-Dateien nur die ersten ~190.000 Zeichen der jeweiligen Datei als „Snippet" zurück — **kein kontextuelles Fenster um den Suchbegriff**, sondern eine feste Anfangstruncation. Die Regionalmuskelatlas-Passage zu M. supraspinatus liegt vermutlich weit dahinter. Bleibt offen. |
+| M. deltoideus — Innervation N. axillaris | ❌ Aus demselben technischen Grund nicht erreichbar. Bleibt offen. |
+| M. quadriceps femoris — Ursprung/Ansatz/Funktion (Hohmann b11.pdf) | ❌ Erneut versucht (03.10.2026) über `fullText`-Suche mit Snippet-Verbosity MAX_ALLOWED — bestätigt nur erneut die bereits bekannte Grenze: Snippet bricht vor der Zielpassage ab (189.547 von vermutlich weit mehr Zeichen), unabhängig vom exakten Suchbegriff. `download_file_content` weiterhin an der 10-MB-Grenze gescheitert (Datei: 15 MB). Bleibt offen wie in Punkt 2 unten beschrieben — Workaround nur durch eine von Vanessa vorab gesplittete Datei denkbar. |
+
+**Technische Erkenntnis:** Die `contentSnippet`-Rückgabe von `search_files` ist kein Kontextfenster um
+den Treffer, sondern eine feste Anfangstruncation der Datei (bestätigt durch identische Snippet-Länge
+189.547 Zeichen bei unterschiedlichsten Suchbegriffen). Gezielte Faktenprüfung gelingt mit dieser Methode
+nur, wenn die gesuchte Textstelle früh in einer (Teil-)Datei liegt — z. B. in einer Übersichts-/Stichwortliste
+wie bei Lig. capitis femoris. Für Fakten tief in einem langen Fließtext-Kapitel bleibt nur `read_file_content`
+der ganzen Datei (bei kleinen Dateien praktikabel) oder der `download_file_content`+`pdftotext`-Workaround
+(bei Dateien bis ca. 7 MB Rohgröße).
+
 ## Nächste Schritte
 
 1. ~~Rocky Kap. 13 (Ellenbogenregion) + Welter-Böller prüfen.~~ ✅ Erledigt (s. o.).
