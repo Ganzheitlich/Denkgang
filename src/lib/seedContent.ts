@@ -1667,6 +1667,147 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12.1.2 und 12.3.2, S. 127, 139f. Ursprung/Ansatz, der fächerförmige, konvergierende Faserverlauf, die muskuläre (nicht gelenkige) Skapula-Thorax-Verbindung (Synsarkose) sowie die unterschiedliche Rotationsrichtung zur gezielten Dehnung von zervikalem vs. thorakalem Anteil sind im Original so beschrieben; eine explizite Funktionsangabe fehlt im Original. Die hier genannte Tragegurt-Funktion sowie die Verknüpfung mit dem bestehenden Wissenseintrag zur Trab-Landephase ist eigene Synthese von Denkgang auf Basis einer anderen, bereits verifizierten Quelle (Hohmann, Bewegungsapparat Hund, und Welter-Böller/Welter/John, Faszientherapie beim Hund). Innervation im Original nicht genannt. Ergänzt per Web-Recherche (03.10.2026) aus konvergenten veterinäranatomischen Fachquellen: Rami ventrales der Halsspinalnerven für Pars cervicis, N. thoracicus longus für Pars thoracis. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
+  {
+    id: "subokzipitale-muskulatur-kopfbeweger",
+    name: "Subokzipitale Muskulatur (dorsale Kopfheber)",
+    relatedCaseId: "nala",
+    origin:
+      "Im Original nicht mit präzisen osteologischen Landmarken angegeben — die Muskelgruppe liegt im Übergangsbereich Os occipitale/Atlas/Axis (okzipitoatlantoaxiale Region).",
+    insertion:
+      "Im Original nicht mit präzisen osteologischen Landmarken angegeben — siehe Ursprung.",
+    funktion:
+      "Mm. recti capitis dorsalis minor et major: Extension. Mm. recti capitis ventralis et lateralis: Flexion/Seitneige. M. obliquus capitis cranialis: Extension/Seitneige. M. obliquus capitis caudalis: Rotation. Gemeinsam bewegen die subokzipitalen Muskeln die Segmente C0–C1–C2.",
+    innervation: "R. dorsalis des 1. Halsnerven (für alle genannten Muskeln)",
+    clinicalRelevance:
+      "Typische Überlastungssituationen sind dauerhafte Extensionshaltung der oberen HWS (z. B. bei atlantoaxialer Subluxation, schlaffem Lig. transversum atlantis, intensivem Apportieren, ständigem Hochschauen zum Hundeführer oder exzessivem Kauen). Mögliche Symptome reichen von Kopfschmerz und Ataxie bis zu Übelkeit (N. vagus), Sehstörungen, Parästhesien im Schädel-/Ohr-/Halsbereich sowie reflektorischen Verspannungen von M. trapezius und M. sternocephalicus (N. accessorius).",
+    palpationHint:
+      "Zur Palpation die oberen Kopfgelenke leicht extendieren, um die oberflächigere Muskulatur anzunähern. Differenzierung der Einzelmuskeln über die jeweilige Dehnposition: Flexion der oberen Kopfgelenke (Mm. recti capitis dorsalis major/minor), Flexion mit Seitneige weg von der Bank (M. obliquus capitis cranialis), Seitneige weg von der Bank mit resultierender Gegenrotation (M. obliquus capitis caudalis).",
+    transferQ: "Welches Symptom-Cluster weist am ehesten auf eine Störung der subokzipitalen Muskulatur hin?",
+    transferOptions: [
+      { label: "Kopfschmerz, Ataxie, Sehstörungen und Parästhesien im Schädel-/Hals-Bereich", correct: true },
+      { label: "Ausschließlich Lahmheit der Hintergliedmaße ohne jede Kopf-/Halssymptomatik", correct: false },
+      { label: "Isolierte Verdauungsstörungen ohne jeden Bezug zur Halswirbelsäule", correct: false },
+      { label: "Nur sichtbare Schwellung am Tuber calcanei", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.1–16.3.2 (Anatomie und funktionelle Bedeutung/Spezifische Untersuchung der Kopfbeweger), S. 245–247. Die Funktionszuordnung der vier Muskelpaare, die gemeinsame Innervation über R. dorsalis des 1. Halsnerven, die Bewegungssegmente C0–C2, die Überlastungssituationen sowie das Symptom-Cluster sind im Original so beschrieben. Präzise osteologische Ursprungs-/Ansatzpunkte je Einzelmuskel werden im Original an dieser Stelle nicht genannt und wurden bewusst nicht durch Web-Recherche ersetzt, um keine Verwechslungsgefahr mit den sehr ähnlich benannten Nachbarmuskeln einzugehen — NICHT VERIFIZIERT.",
+  },
+  {
+    id: "erector-spinae-iliocostalis-longissimus-spinalis",
+    name: "M. erector spinae (M. iliocostalis, M. longissimus, M. spinalis/semispinalis)",
+    relatedCaseId: "nala",
+    origin:
+      "M. iliocostalis: Procc. transversi der Lendenwirbelsäule und beide Cristae iliacae. M. longissimus: Crista iliaca. M. spinalis/semispinalis, Pars capitis: Fascia thoracolumbalis.",
+    insertion:
+      "M. iliocostalis: Procc. transversi der letzten Halswirbel. M. longissimus: Proc. mastoideus. M. spinalis: Procc. spinosi der Wirbelsäule; M. semispinalis, Pars capitis: Os occipitale.",
+    funktion:
+      "Alle drei Muskeln haben in allen Wirbelsäulenabschnitten dieselbe Funktion — Extension der Wirbelsäule und Seitneige —, weshalb sie als funktionelle Einheit gemeinsam untersucht und behandelt werden können.",
+    innervation: "Rr. dorsales der Spinalnerven",
+    clinicalRelevance:
+      "M. longissimus ist der stärkste und längste Rückenmuskel und liegt zwischen dem medial gelegenen transversospinalen System und dem lateral gelegenen M. iliocostalis — sein Verlauf von der Crista iliaca bis zum Proc. mastoideus erklärt, warum sich eine Beckenfehlstellung (z. B. am Ilium) bis in die obere Halswirbelsäule fortsetzen kann und dort eine Symptomatik erzeugt, die nicht die eigentliche Ursache, sondern nur deren Folge ist. M. spinalis/semispinalis besitzt einen sehr hohen Gehalt an Muskelspindeln und Golgi-Sehnenapparaten (Feinabstimmung der Kopf-Hals-Bewegung) und verbindet sich kaudal an der BWS eng mit dem M. longissimus über eine gemeinsame Sehnenplatte.",
+    palpationHint:
+      "M. iliocostalis liegt weit lateral und ist gut palpabel. Dehnposition für M. longissimus/M. iliocostalis: Flexion der Wirbelsäule mit Seitneige weg von der Untersuchungsbank. Dehnposition für M. spinalis/semispinalis: reine Flexion der Wirbelsäule.",
+    transferQ: "Warum kann eine Fehlstellung des Iliums (Becken) über den M. longissimus Symptome an der oberen Halswirbelsäule verursachen?",
+    transferOptions: [
+      { label: "Weil der M. longissimus durchgehend von der Crista iliaca bis zum Proc. mastoideus zieht", correct: true },
+      { label: "Weil Becken und Halswirbelsäule über eine gemeinsame Nervenwurzel verbunden sind", correct: false },
+      { label: "Ein ursächlicher Zusammenhang besteht laut Quelle nicht", correct: false },
+      { label: "Nur weil beide Regionen zufällig gleichzeitig betroffen sein können, nicht aufgrund eines Muskelverlaufs", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.3 (Spezifische Untersuchung der epaxialen Stammmuskeln), S. 247f. Ursprung/Ansatz der drei Muskeln, die gemeinsame Funktion (Extension/Seitneige), die gemeinsame Innervation über Rr. dorsales, der Becken-HWS-Zusammenhang über den M.-longissimus-Verlauf sowie die Mechanorezeptor-Dichte des M. spinalis/semispinalis sind im Original so beschrieben.",
+  },
+  {
+    id: "multifidi-rotatores-tiefe-stabilisatoren",
+    name: "Mm. multifidi und Mm. rotatores",
+    relatedCaseId: "nala",
+    origin:
+      "Mm. multifidi: Procc. mamillares/accessorii und Procc. transversi (HWS, BWS, LWS), überspringen bis zu 5 Segmente. Mm. rotatores: Procc. transversi des 1.–10. Brustwirbels, überspringen 1–2 Segmente (nur in der BWS vorhanden).",
+    insertion: "Procc. spinosi der jeweils kranial gelegenen Wirbel (Mm. multifidi zusätzlich bis in die Mm. obliqui capitis caudales/craniales am Übergang zum Kopf sowie kaudal in den M. sacrocaudalis dorsalis medialis der Rute).",
+    funktion:
+      "Mm. multifidi: Rotation in der Brustwirbelsäule, Extension der Lendenwirbelsäule, Extension/Seitneige in der Halswirbelsäule. Mm. rotatores: Seitneige und Rotation in entgegengesetzte Richtungen.",
+    innervation: "Rr. dorsales der Spinalnerven",
+    clinicalRelevance:
+      "Kurze, tief liegende intersegmentale Stabilisatoren mit wichtiger Rolle für die Feinabstimmung der Bewegung — Atrophien führen zu segmentaler Instabilität. Starke Tonusveränderungen in der direkt neben den Procc. spinosi liegenden Mm.-multifidi-Palpationsspur sind ein Hinweis auf Facettengelenkproblematiken (siehe den bestehenden Facettengelenke-Eintrag).",
+    palpationHint:
+      "Zwei Palpationsspuren paravertebral: direkt neben den Procc. spinosi für die Mm. multifidi, 1–2 Finger weiter lateral im Lumbrikalgriff (zwickende Provokation) für die Mm. rotatores — nur in der Brustwirbelsäule vorhanden. Da eine reine Dehnlagen-Palpation technisch kaum möglich ist (das laterale System drückt den Untersucher sonst aus dem Gewebe), wird stattdessen zunächst mit Seitneige zur untersuchten Seite entspannt und dann mit Rotation zur selben Seite gezielt Spannung aufgebaut.",
+    transferQ: "Worauf deutet eine deutliche Tonusveränderung hin, die der Therapeut direkt neben den Procc. spinosi in der Mm.-multifidi-Spur palpiert?",
+    transferOptions: [
+      { label: "Möglicherweise auf eine Facettengelenkproblematik im entsprechenden Segment", correct: true },
+      { label: "Ausschließlich auf eine primäre Erkrankung der Haut", correct: false },
+      { label: "Auf eine Störung, die grundsätzlich nichts mit der Wirbelsäule zu tun hat", correct: false },
+      { label: "Mm. multifidi liegen beim Hund zu tief, um je Veränderungen zu zeigen", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.3 (Mm. multifidi und Mm. rotatores), S. 249. Ursprung/Ansatz, Segmentanzahl, Funktion, Innervation, der Facettengelenk-Palpationshinweis sowie die angepasste Palpations-/Provokationstechnik (Entspannung über Seitneige, dann Rotation zur untersuchten Seite) sind im Original so beschrieben.",
+  },
+  {
+    id: "quadratus-lumborum",
+    name: "M. quadratus lumborum",
+    relatedCaseId: "nala",
+    origin: "Letzte Rippen und Procc. transversi der Lendenwirbelsäule (ventral gelegen)",
+    insertion: "Ilium",
+    funktion: "Stabilisator der Lendenwirbelsäule sowie Flexor und Seitneiger.",
+    innervation: "Rami ventrales der Spinalnerven (ventrale Schicht der Rumpfmuskulatur)",
+    clinicalRelevance:
+      "Liegt am weitesten dorsal der sublumbalen Muskeln und ist bei Spondylosen und beim lumbosakralen Twist (LSÜ-Twist) häufig hyperton. Funktionell und in seiner stabilisierenden Wirkung vergleichbar mit dem Lig. iliolumbale des Menschen, das ebenfalls zwischen den letzten Lendenwirbeln und dem Ilium verläuft.",
+    palpationHint:
+      "Von lateral ventral des M. iliocostalis in die Tiefe und ventral der Procc. transversi der Lendenwirbelsäule palpieren; leichte Seitneige oder LWS-Flexion erleichtert den Zugang in die Tiefe. Eine Dehnlagen-Provokation ist ungünstig — besser im Stand provozieren.",
+    transferQ: "Mit welcher menschlichen Struktur wird der M. quadratus lumborum des Hundes in Lage und stabilisierender Funktion verglichen?",
+    transferOptions: [
+      { label: "Dem Lig. iliolumbale", correct: true },
+      { label: "Dem Lig. cruciatum craniale", correct: false },
+      { label: "Der Rotatorenmanschette", correct: false },
+      { label: "Dem Lig. nuchae", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.4 (Spezifische Untersuchung der hypaxialen Stammmuskeln), S. 250f. Lage, Funktion, der Vergleich mit dem menschlichen Lig. iliolumbale, die Spondylose-/LSÜ-Twist-Assoziation sowie die bevorzugte Untersuchung im Stand statt in Dehnlage sind im Original so beschrieben. Innervation im Original als Gruppenangabe für die gesamte ventrale Schicht genannt (Rr. ventrales), nicht muskelspezifisch einzeln wiederholt.",
+  },
+  {
+    id: "scaleni",
+    name: "Mm. scaleni",
+    relatedCaseId: "nala",
+    origin: "M. scalenus medius: Procc. transversi der unteren Halswirbelsäule. M. scalenus dorsalis: ebenfalls Procc. transversi der unteren Halswirbelsäule (kranial des medius-Anteils).",
+    insertion: "M. scalenus medius: 1. Rippe. M. scalenus dorsalis: 2.–4. bzw. 8.–9. Rippe.",
+    funktion:
+      "Flexion und Seitneige der Wirbelsäule (ventrale Schicht der Rumpfmuskulatur); funktionell zusätzlich Hilfsinspiratoren, da sie die Rippen beeinflussen — bei Hypertonus können sie die 1. Rippe in eine fixierte Inspirationsstellung ziehen.",
+    innervation: "Rami ventrales der Spinalnerven (ventrale Schicht der Rumpfmuskulatur)",
+    clinicalRelevance:
+      "Der Plexus brachialis zieht unter dem M. scalenus medius hindurch — bei Hypertonus kann der Plexus irritiert werden (Thoracic-outlet-Syndrom) mit Parästhesien in der Vordergliedmaße als Folge, auf die der Hund mit Knabbern/Lecken in den autonomen Nervenzonen reagiert (siehe den bestehenden Wissenseintrag zum iliopsoas-/Mm.-scaleni-Thoracic-outlet-Zusammenhang). In der Praxis häufig stark verspannt und dabei oft so schmerzhaft, dass der Hund bereits bei vorsichtiger Palpation aufjault — Cave bei der Untersuchung.",
+    palpationHint:
+      "M. scalenus medius: ventral der Procc. transversi des 6./7. Halswirbels bis zur 1. Rippe verfolgen. M. scalenus dorsalis: von den Procc. transversi des 4.–6. Halswirbels bis zur 4. Rippe, der separate Anteil bis zur 8./9. Rippe ventrokranial des M. serratus ventralis thoracis.",
+    transferQ: "Welche klinisch bedeutsame Struktur zieht unter dem M. scalenus medius hindurch und kann bei dessen Hypertonus irritiert werden?",
+    transferOptions: [
+      { label: "Der Plexus brachialis", correct: true },
+      { label: "Der N. ischiadicus", correct: false },
+      { label: "Die A. femoralis", correct: false },
+      { label: "Der N. opticus", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.4–16.3.5 (Hypaxiale Stammmuskeln/Inspiratoren), S. 250–252. Ursprung/Ansatz beider Anteile, die Doppelfunktion als Flexoren/Seitneiger und Hilfsinspiratoren, der Thoracic-outlet-Mechanismus über den Plexus brachialis sowie der Palpationsverlauf einschließlich des Cave-Hinweises zur Schmerzhaftigkeit sind im Original so beschrieben. Innervation im Original als Gruppenangabe für die ventrale Schicht genannt (Rr. ventrales), nicht muskelspezifisch wiederholt.",
+  },
+  {
+    id: "diaphragma",
+    name: "Diaphragma (Zwerchfell)",
+    relatedCaseId: "nala",
+    origin: "Peripherer, muskulärer Anteil: Lendenwirbelkörper, Rippen und Sternum",
+    insertion: "Centrum tendineum (die mittig gelegene, sehnige Zwerchfellplatte)",
+    funktion: "Wichtigster Inspirationsmuskel — als quer zwischen Brust- und Bauchhöhle ausgespannte Muskel-Sehnen-Platte vergrößert seine Kontraktion das Brusthöhlenvolumen.",
+    innervation: "N. phrenicus",
+    clinicalRelevance:
+      "Über seine Ursprünge an Lendenwirbelkörpern, Rippen und Sternum steht das Diaphragma in enger faszialer Nachbarschaft zum M. iliopsoas und den angrenzenden Bauchorganen — ein Hypertonus kann sich faszial in beide Richtungen fortsetzen (siehe den bestehenden iliopsoas-Eintrag sowie die Faszientherapie-Einträge zu Organmotilität). Der durch das Zwerchfell ziehende N. vagus kann bei Diaphragma-Verspannung ebenfalls irritiert werden, mit möglichen Auswirkungen bis zur oberen Halswirbelsäule (C0) oder vegetativen Symptomen.",
+    palpationHint:
+      "In Seitlage mit den Fingerbeeren vorsichtig unter den Rippenbogen der obenliegenden Seite schieben, vom Verlauf der 13. Rippe bis zum Proc. xiphoideus. Zur Provokation den Rippenbogen langsam und mit Gefühl nach lateral ziehen (zusätzliche Dehnung).",
+    transferQ: "Warum kann eine Diaphragma-Verspannung theoretisch bis zur oberen Halswirbelsäule wirken?",
+    transferOptions: [
+      { label: "Weil der N. vagus durch das Zwerchfell zieht und bei Verspannung irritiert werden kann", correct: true },
+      { label: "Weil das Diaphragma direkt knöchern an der Halswirbelsäule ansetzt", correct: false },
+      { label: "Ein solcher Zusammenhang wird in der Quelle ausdrücklich ausgeschlossen", correct: false },
+      { label: "Nur über eine direkte Muskelfortsetzung ohne Nervenbeteiligung", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.4–16.3.5 (Hypaxiale Stammmuskeln/Spezifische Untersuchung der Inspiratoren), S. 250, 251. Aufbau (zentrale Sehne, peripherer muskulärer Teil mit Ansatz an Lendenwirbelkörpern/Rippen/Sternum), die Funktion als wichtigster Inspirator, der Palpationszugang unter dem Rippenbogen sowie der N.-vagus-Mechanismus mit möglicher HWS-/vegetativer Symptomatik sind im Original so beschrieben. Innervation (N. phrenicus) im Original an dieser Stelle nicht genannt; ergänzt als allgemein etabliertes anatomisches Wissen (universell beschriebene Zwerchfellinnervation, keine abweichenden Angaben in konvergenten Quellen gefunden).",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [

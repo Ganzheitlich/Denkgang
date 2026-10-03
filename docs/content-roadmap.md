@@ -1384,7 +1384,24 @@ kein Überblick verloren geht.
   Quelle). M. serratus ventralis: Tragegurt-Funktion explizit mit dem
   bestehenden Trab-Landephase-Wissenseintrag verknüpft (andere, bereits
   verifizierte Quellen: Hohmann, Welter-Böller/Welter/John). Alle 8 Items
-  via Playwright verifiziert (8/8 Review-Seiten, 0 Fehler).
+  via Playwright verifiziert (8/8 Review-Seiten, 0 Fehler). Direkt im
+  Anschluss (ebenfalls 03.10.2026) aus Hárrer Kap. 16.3 „Muskulatur" (Die
+  Wirbelsäule, S. 245–253) 6 weitere neue Items zur Rumpf-/Nackenmuskulatur
+  (41 → 47): Subokzipitale Muskulatur/dorsale Kopfheber, M. erector spinae
+  (Iliocostalis/Longissimus/Spinalis-Semispinalis), Mm. multifidi/
+  Mm. rotatores, M. quadratus lumborum, Mm. scaleni (mit Thoracic-outlet-
+  Mechanismus, cross-referenziert mit dem bestehenden Wissenseintrag) und
+  Diaphragma. Bewusst nicht dupliziert: M. iliopsoas und M. serratus
+  ventralis thoracis (Hárrer verweist hier selbst auf die bereits
+  bestehenden Einträge). Bewusst ausgelassen: M. longus capitis/colli/
+  M. splenius (OCR-Spaltenvertauschung im Drive-Chunk macht die
+  ventral/dorsal-Zuordnung nicht zweifelsfrei rekonstruierbar), die sehr
+  kurzen Mm. interspinales/intertransversarii sowie M. serratus dorsalis,
+  die Mm. intercostales und M. retractor costae (laut Quelle selbst nicht
+  eigenständig untersuchbar); die Bauchmuskulatur (M. transversus
+  abdominis u. a.) bleibt offen, da der gelesene Chunk genau dort abbricht.
+  Details siehe Hárrer-Backlog unten. Alle 6 Items via Playwright
+  verifiziert (6/6 Review-Seiten, 0 Fehler).
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
   aktiv mit einer zweiten Quelle abgeglichen (siehe Toe-in/Toe-out-Fund
@@ -4137,12 +4154,36 @@ gelesenen Quellen:
       M. brachiocephalicus, M. latissimus dorsi, M. pectoralis superficialis,
       M. pectoralis profundus, M. rhomboideus, M. serratus ventralis — 8 neue
       Anatomie-Items (33 → 41). Details siehe „Stand" oben.
-- [ ] Rumpf-/Nackenmuskulatur aus Hárrer Kap. 16.3 „Muskulatur" (Die
-      Wirbelsäule, S. 245–253, ma(16).pdf, bereits lokal vorliegend): Kopfbeweger
-      (16.3.2), epaxiale Stammmuskeln (16.3.3, z. B. M. longissimus,
-      M. iliocostalis), hypaxiale Stammmuskeln (16.3.4, Bauchwandmuskulatur),
-      Inspiratoren (16.3.5) und Exspiratoren (16.3.6) — als Nächstes zu lesen,
-      komplettiert die Anatomie-Sektion um die Rumpf-/Halsregion
+- [x] Rumpf-/Nackenmuskulatur aus Hárrer Kap. 16.3 „Muskulatur" gelesen
+      (03.10.2026, S. 245–253, ma(16).pdf). Daraus 6 neue Anatomie-Items
+      (41 → 47): Subokzipitale Muskulatur/dorsale Kopfheber (16.3.1–16.3.2,
+      vier Muskelpaare um C0–C2), M. erector spinae
+      (Iliocostalis/Longissimus/Spinalis-Semispinalis als funktionelle
+      Einheit, 16.3.3, inkl. Becken-HWS-Fortleitungslogik über den
+      M.-longissimus-Verlauf), Mm. multifidi/Mm. rotatores (tiefe
+      intersegmentale Stabilisatoren, 16.3.3, inkl. Facettengelenk-
+      Palpationshinweis), M. quadratus lumborum (16.3.4, Spondylose-/
+      LSÜ-Twist-Assoziation), Mm. scaleni (16.3.4–16.3.5, Thoracic-outlet-
+      Mechanismus über den Plexus brachialis — cross-referenziert mit dem
+      bestehenden Wissenseintrag zum Thoracic-outlet-Syndrom), Diaphragma
+      (16.3.4–16.3.5, wichtigster Inspirator, N.-vagus-Fortleitungs-
+      mechanismus bis zur HWS). M. iliopsoas und M. serratus ventralis
+      thoracis bewusst nicht dupliziert — Hárrer verweist hier selbst auf
+      die bereits bestehenden Einträge (Hüfte- bzw. Schultergürtel-Kapitel).
+      Bewusst NICHT extrahiert: M. longus capitis/M. longus colli/
+      M. splenius (an dieser Stelle durch OCR-Spaltenvertauschung im
+      Drive-Chunk partiell widersprüchlich lesbar — ventral/dorsal-
+      Zuordnung nicht zweifelsfrei rekonstruierbar, lieber ausgelassen als
+      ein Risiko einer Fehlzuordnung einzugehen), Mm. interspinales/
+      intertransversarii (sehr kurze Einzelmuskeln ohne eigenständig
+      sinnvoll testbare Funktion laut Quelle selbst), M. serratus dorsalis
+      cranialis/caudalis, Mm. intercostales externi/interni,
+      M. retractor costae (Quelle selbst: „Eine eigenständige spezifische
+      Muskeluntersuchung ist nicht möglich") sowie die Bauchmuskulatur
+      (M. transversus abdominis u. a. — Text bricht an dieser Stelle im
+      gelesenen Chunk ab, vollständige Beschreibung nicht erreicht;
+      bleibt für eine Folgesession offen). Alle 6 Items via Playwright
+      verifiziert (6/6 Review-Seiten, 0 Fehler).
 - [ ] Weitere Muskeln aus Hárrer (Regionen-Kapitel wie Kap. 12 sind für
       Ursprung/Ansatz/Funktion ergiebiger als Hohmanns Landmarken-Atlas Kap. 7,
       der nur beschriftete Abbildungen ohne Fließtext-Details liefert) —
