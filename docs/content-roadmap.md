@@ -1356,6 +1356,35 @@ kein Überblick verloren geht.
   gekennzeichneten Web-Ergänzungen für die im Original fehlende
   Innervation — keine offenen "Im Quellentext nicht genannt"-Kernfelder
   mehr.
+- **Anatomie-Sektion auf 41 Items erweitert (03.10.2026) — Schultergürtelmuskulatur
+  ergänzt.** Lücke erkannt: Die komplette Vorder-/Hintergliedmaße war bereits
+  abgedeckt, aber die Schultergürtelmuskulatur (oberflächliche und tiefe
+  Schicht nach Hárrer Kap. 12.1.4) fehlte komplett, obwohl mehrere
+  Wissenseinträge (Bogensehnenbrücke/Tragegurt, Trab-Landephase) bereits
+  intensiv auf M. serratus ventralis Bezug nehmen. Aus Hárrer Kap. 12.3.1/
+  12.3.2 (S. 134–141, bereits vollständig lokal vorliegende Quelle, keine
+  neue Drive-Recherche nötig) 8 neue Items: M. trapezius, M. omotransversarius,
+  M. brachiocephalicus, M. latissimus dorsi, M. pectoralis superficialis,
+  M. pectoralis profundus, M. rhomboideus, M. serratus ventralis. Ursprung/
+  Ansatz wurden aus dem im Original beschriebenen Palpationsverlauf abgeleitet
+  (Hárrer gibt hier keine separaten "Ursprung:"/"Ansatz:"-Zeilen, sondern
+  beschreibt den Muskel entlang seines Faserverlaufs); wo auch die Funktion im
+  Original fehlt, wurde sie aus der beschriebenen Dehnposition abgeleitet
+  (Umkehrschluss: Dehnrichtung → Kontraktionsrichtung) und als eigene
+  Schlussfolgerung von Denkgang gekennzeichnet, nicht als Harrer-Zitat.
+  Innervation durchgängig per Web-Recherche ergänzt (dieselbe disclosed
+  WICHTIGE-EINSCHRÄNKUNG-Kennzeichnung wie bei allen bisherigen
+  Hárrer-Items) — bei M. omotransversarius widersprachen sich die
+  gefundenen Quellen selbst (N. accessorius vs. Rami ventrales der
+  Halsspinalnerven) und wurden deshalb bewusst als NICHT VERIFIZIERT belassen
+  statt eine der beiden Angaben zu wählen. M. latissimus dorsi: Ansatz im
+  Original nur vage als „Medialseite des Humerus" angegeben, hier auf
+  Crista tuberculi minoris humeri präzisiert in Übereinstimmung mit dem
+  bereits bestehenden M.-teres-major-Eintrag (gemeinsame Endsehne, dieselbe
+  Quelle). M. serratus ventralis: Tragegurt-Funktion explizit mit dem
+  bestehenden Trab-Landephase-Wissenseintrag verknüpft (andere, bereits
+  verifizierte Quellen: Hohmann, Welter-Böller/Welter/John). Alle 8 Items
+  via Playwright verifiziert (8/8 Review-Seiten, 0 Fehler).
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
   aktiv mit einer zweiten Quelle abgeglichen (siehe Toe-in/Toe-out-Fund
@@ -4103,6 +4132,17 @@ gelesenen Quellen:
 - [ ] Ligamentum capitis femoris (Hüfte — bereits in Luna/Fällen erwähnt, aber
       „NICHT VERIFIZIERT" markiert; eigene Anatomie-Seite könnte das mit einer
       dedizierten Quelle nachholen)
+- [x] Schultergürtelmuskulatur aus Hárrer Kap. 12.1.4/12.3.1–12.3.2, S. 127,
+      134–141 (03.10.2026): M. trapezius, M. omotransversarius,
+      M. brachiocephalicus, M. latissimus dorsi, M. pectoralis superficialis,
+      M. pectoralis profundus, M. rhomboideus, M. serratus ventralis — 8 neue
+      Anatomie-Items (33 → 41). Details siehe „Stand" oben.
+- [ ] Rumpf-/Nackenmuskulatur aus Hárrer Kap. 16.3 „Muskulatur" (Die
+      Wirbelsäule, S. 245–253, ma(16).pdf, bereits lokal vorliegend): Kopfbeweger
+      (16.3.2), epaxiale Stammmuskeln (16.3.3, z. B. M. longissimus,
+      M. iliocostalis), hypaxiale Stammmuskeln (16.3.4, Bauchwandmuskulatur),
+      Inspiratoren (16.3.5) und Exspiratoren (16.3.6) — als Nächstes zu lesen,
+      komplettiert die Anatomie-Sektion um die Rumpf-/Halsregion
 - [ ] Weitere Muskeln aus Hárrer (Regionen-Kapitel wie Kap. 12 sind für
       Ursprung/Ansatz/Funktion ergiebiger als Hohmanns Landmarken-Atlas Kap. 7,
       der nur beschriftete Abbildungen ohne Fließtext-Details liefert) —

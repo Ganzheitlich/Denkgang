@@ -1487,6 +1487,186 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 9.3.2–9.3.3 (Spezifische Untersuchung der Zehenflexoren und Sprunggelenksextensoren), S. 97–99. Ursprung, Ansatz, Funktion, der Typ-I-Faseranteil des M. flexor digitorum superficialis sowie die Sonderstellung des schwachen M. tibialis caudalis sind im Original so beschrieben. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (27.09.2026) aus konvergenten veterinäranatomischen Fachquellen: die Innervation über den N. tibialis, analog zur bereits verifizierten Innervation des M. gastrocnemius (kaudale Muskelgruppe). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
+  {
+    id: "trapezius",
+    name: "M. trapezius",
+    relatedCaseId: "rocky",
+    origin: "Dorsale mediane Raphe/Procc. spinosi der Halswirbelsäule (Pars cervicalis) und der Brustwirbelsäule (Pars thoracica)",
+    insertion: "Spina scapulae — Pars cervicalis an den oberen zwei Dritteln, Pars thoracica am oberen Drittel",
+    funktion: "Bei beidseitiger Kontraktion Dorsalzug der Skapula sowie kraniale Bewegung der Vordergliedmaße durch Rotation der Skapula.",
+    innervation: "N. accessorius (Ramus dorsalis) — sowohl für Pars cervicalis als auch Pars thoracica",
+    clinicalRelevance:
+      "Dünner, oberflächlich direkt unter der Haut liegender Muskel und damit gut palpabel — anders als der darunterliegende M. rhomboideus, der festeren Palpationsdruck erfordert.",
+    palpationHint:
+      "Faserverlauf palpieren: Pars cervicalis von der HWS kaudoventral an die oberen zwei Drittel der Spina scapulae, Pars thoracica von der BWS kranioventral an das obere Drittel der Spina.",
+    transferQ: "Wie unterscheidet der Therapeut bei der Palpation den M. trapezius vom direkt darunterliegenden M. rhomboideus?",
+    transferOptions: [
+      { label: "Durch festeren/tieferen Palpationsdruck, da der M. rhomboideus unter dem M. trapezius liegt", correct: true },
+      { label: "Gar nicht — beide Muskeln liegen auf exakt derselben Palpationsebene", correct: false },
+      { label: "Nur durch eine zusätzliche Außenrotation des Schultergelenks", correct: false },
+      { label: "Der M. rhomboideus ist beim Hund nicht vorhanden", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12.1.4 und 12.3.1 (Schultergürtelmuskulatur/Spezifische Untersuchung der oberflächlichen Schultergürtelmuskulatur), S. 127, 134. Ursprung/Ansatz (abgeleitet aus dem im Original beschriebenen Palpationsverlauf von HWS/BWS zur Spina scapulae), die Funktion sowie die oberflächliche, gut palpable Lage sind im Original so beschrieben. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (03.10.2026) aus konvergenten veterinäranatomischen Fachquellen: N. accessorius (Ramus dorsalis) für beide Anteile. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
+  {
+    id: "omotransversarius",
+    name: "M. omotransversarius",
+    relatedCaseId: "rocky",
+    origin: "Ala atlantis (Atlas)",
+    insertion: "Akromion/Processus hamatus der Spina scapulae",
+    funktion:
+      "Abgeleitet aus der im Original beschriebenen Dehnposition (Rückführen der Vordergliedmaße mit longitudinalem Zug nach distal): Protraktion (Vorführen) der Vordergliedmaße sowie Lateralflexion des Halses zur gleichen Seite. Im Original nicht als eigene Funktionsangabe formuliert.",
+    innervation:
+      "Uneinheitlich angegeben — konvergente Quellen nennen sowohl den N. accessorius als auch Rami ventrales der Halsspinalnerven. NICHT VERIFIZIERT, welche Angabe für den Hund zutrifft.",
+    clinicalRelevance:
+      "Nur 2–4 mm dick und bei größeren Hunden bis 4 cm breit; wird fast vollständig vom M. brachiocephalicus (Pars cleidocephalica) überlagert und ist nur an einem kleinen Stück nahe seinem Ansatz an der Spina scapulae direkt palpierbar.",
+    palpationHint: "Vom Atlas lateral am Hals nach kaudoventral Richtung Akromion palpieren — direkt greifbar nur knapp vor dem Ansatz an der Spina scapulae.",
+    transferQ: "Der M. omotransversarius wird fast vollständig vom M. brachiocephalicus überlagert. Wo lässt er sich dennoch direkt palpieren?",
+    transferOptions: [
+      { label: "An einem kleinen freien Stück nahe seinem Ansatz an der Spina scapulae/am Akromion", correct: true },
+      { label: "Nirgends — er ist beim Hund grundsätzlich nicht palpabel", correct: false },
+      { label: "Ausschließlich am Ursprung direkt am Atlas", correct: false },
+      { label: "Nur bei maximal flektiertem Ellenbogengelenk", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12.1.4 und 12.3.1, S. 127, 135. Ursprung/Ansatz, die geringe Muskeldicke sowie die fast vollständige Überlagerung durch den M. brachiocephalicus mit der einen palpablen Ausnahme am Ansatz sind im Original so beschrieben; eine explizite Funktionsangabe fehlt im Original, die hier genannte Ableitung aus der beschriebenen Dehnposition ist eigene Schlussfolgerung von Denkgang. Innervation im Original nicht genannt; die per Web-Recherche (03.10.2026) gefundenen Quellen widersprechen sich hier selbst (N. accessorius vs. Rami ventrales der Halsspinalnerven) — deshalb bewusst als NICHT VERIFIZIERT statt als Faktenangabe übernommen. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Recherche stammt aus Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
+  {
+    id: "brachiocephalicus",
+    name: "M. brachiocephalicus",
+    relatedCaseId: "rocky",
+    origin: "Processus mastoideus und dorsale Raphe der Halswirbelsäule (M.-cleidocephalicus-Anteil, mit Pars mastoidea und Pars cervicalis)",
+    insertion: "Klavicularstreifen, von dort weiter zur Crista humeri (M.-cleidobrachialis-Anteil)",
+    funktion:
+      "Abgeleitet aus der im Original beschriebenen Dehnposition (Flexion im Schultergelenk bei fixierter Halswirbelsäule): Protraktion/Vorführen der Vordergliedmaße. Im Original nicht als eigene Funktionsangabe formuliert.",
+    innervation:
+      "M.-cleidocephalicus-Anteil: Ramus externus des N. accessorius. M.-cleidobrachialis-Anteil: muskuläre Äste des N. axillaris.",
+    clinicalRelevance:
+      "Begrenzt gemeinsam mit dem M. sternocephalicus die Drosselrinne (Sulcus jugularis), in der die V. jugularis externa verläuft — klinisch relevant als Orientierungslandmarke für die Blutentnahme. Entspricht in seinem M.-cleidobrachialis-Anteil funktionell der Pars clavicularis des M. deltoideus beim Menschen.",
+    palpationHint:
+      "Vom Proc. mastoideus und der dorsalen Raphe der HWS lateral der Halswirbelsäule nach kaudoventral bis zum bindegewebigen Klavicularstreifen und weiter zur Crista humeri palpieren.",
+    transferQ: "Welche klinisch relevante Struktur verläuft in der vom M. brachiocephalicus mitgebildeten Drosselrinne (Sulcus jugularis)?",
+    transferOptions: [
+      { label: "Die V. jugularis externa", correct: true },
+      { label: "Der N. ischiadicus", correct: false },
+      { label: "Die A. femoralis", correct: false },
+      { label: "Der Ductus thoracicus", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12.3.1, S. 136. Die Dreiteilung (Pars mastoidea, Pars cervicalis des M. cleidocephalicus, M. cleidobrachialis), Ursprung/Ansatz, die Begrenzung der Drosselrinne sowie der Vergleich mit der menschlichen Pars clavicularis des M. deltoideus sind im Original so beschrieben; eine explizite Funktionsangabe fehlt, die hier genannte Ableitung aus der beschriebenen Dehnposition ist eigene Schlussfolgerung von Denkgang. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (03.10.2026) aus konvergenten veterinäranatomischen Fachquellen: N. accessorius (Ramus externus) für den cleidocephalen, N. axillaris für den cleidobrachialen Anteil. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
+  {
+    id: "latissimus-dorsi",
+    name: "M. latissimus dorsi",
+    relatedCaseId: "rocky",
+    origin: "Fascia thoracolumbalis",
+    insertion: "Crista tuberculi minoris humeri — gemeinsame Endsehne mit M. teres major (siehe dort)",
+    funktion: "Flexion des Schultergelenks, zieht die Vordergliedmaße nach kaudal — Antagonist des M. brachiocephalicus.",
+    innervation: "N. thoracodorsalis",
+    clinicalRelevance:
+      "Teilt sich die Endsehne mit dem bereits verifizierten M. teres major — beide Muskeln verlaufen und wirken gleichsinnig, weshalb eine Problematik oft beide gemeinsam betrifft. Sein kranialer Rand wird vom M. trapezius, Pars thoracica, überdeckt.",
+    palpationHint: "Von der Fascia thoracolumbalis über die Rippen bis zur Medialseite des Humerus (Crista tuberculi minoris) palpieren.",
+    transferQ: "M. latissimus dorsi gilt als funktioneller Antagonist welches anderen Schultergürtelmuskels?",
+    transferOptions: [
+      { label: "Des M. brachiocephalicus", correct: true },
+      { label: "Des M. trapezius", correct: false },
+      { label: "Des M. omotransversarius", correct: false },
+      { label: "Des M. pectoralis profundus", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12.3.1, S. 136f. Ursprung (Fascia thoracolumbalis), die Antagonisten-Funktion zum M. brachiocephalicus sowie die Überdeckung durch M. trapezius, Pars thoracica, sind im Original so beschrieben. Der Ansatz wird im Original nur allgemein als „Medialseite des Humerus“ angegeben; hier präzisiert auf Crista tuberculi minoris humeri in Übereinstimmung mit dem bereits verifizierten M.-teres-major-Eintrag (dieselbe Quelle, dieselbe gemeinsame Endsehne). Innervation im Original nicht genannt. Ergänzt per Web-Recherche (03.10.2026) aus konvergenten veterinäranatomischen Fachquellen: N. thoracodorsalis. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
+  {
+    id: "pectoralis-superficialis",
+    name: "M. pectoralis superficialis",
+    relatedCaseId: "rocky",
+    origin: "Manubrium sterni",
+    insertion: "Crista humeri",
+    funktion:
+      "Adduktion der Vordergliedmaße; je nach Anteil Vor- oder Rückführer der Gliedmaße — Pars descendens als Flexor, Pars transversa als Extensor des Schultergelenks (abgeleitet aus den im Original beschriebenen Dehnpositionen der beiden Anteile).",
+    innervation: "Nn. pectorales craniales",
+    clinicalRelevance:
+      "Oberflächlich gelegener Brustmuskel aus zwei Anteilen (Pars descendens, Pars transversa), die sich im Längentest durch entgegengesetzte Schultergelenkstellungen (Flexion vs. Extension, jeweils mit Abduktion) unterscheiden lassen.",
+    palpationHint: "Vom Manubrium sterni zur Crista humeri palpieren; Therapeut dorsal des Hundes auf Höhe der Scapulae positioniert.",
+    transferQ: "Wie unterscheidet der Längentest zwischen Pars descendens und Pars transversa des M. pectoralis superficialis?",
+    transferOptions: [
+      { label: "Pars descendens wird durch Abduktion mit Flexion gedehnt, Pars transversa durch Abduktion mit Extension", correct: true },
+      { label: "Beide Anteile werden durch exakt dieselbe Bewegung gedehnt", correct: false },
+      { label: "Nur durch unterschiedlich starken Palpationsdruck, nicht durch Gelenkstellung", correct: false },
+      { label: "Durch Flexion bzw. Extension des Ellenbogengelenks, nicht der Schulter", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12.3.1, S. 137f. Ursprung, Ansatz, Funktion (Adduktion, Vor-/Rückführer je nach Anteil) sowie die unterschiedlichen Dehnpositionen für Pars descendens (Abduktion/Flexion) und Pars transversa (Abduktion/Extension) sind im Original so beschrieben. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (03.10.2026) aus konvergenten veterinäranatomischen Fachquellen: Nn. pectorales craniales. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
+  {
+    id: "pectoralis-profundus",
+    name: "M. pectoralis profundus",
+    relatedCaseId: "rocky",
+    origin: "Sternum/Processus xiphoideus",
+    insertion: "Medialseite des Humerus",
+    funktion:
+      "Abgeleitet aus der im Original beschriebenen Dehnposition (Abduktion und Extension der Vordergliedmaße): Adduktion und Retraktion (Rückführung) der Vordergliedmaße. Im Original nicht als eigene Funktionsangabe formuliert.",
+    innervation: "Nn. pectorales caudales",
+    clinicalRelevance:
+      "Konvergierender Faserverlauf vom Sternum/Xyphoid nach kraniolateral zur Medialseite des Humerus — tiefer gelegen als der M. pectoralis superficialis, mit dem er bei Problemen der Adduktoren-/Retraktorengruppe differenzialdiagnostisch abgegrenzt werden muss.",
+    palpationHint: "Vom Sternum/Xyphoid im konvergierenden Faserverlauf nach kraniolateral zur Medialseite des Humerus palpieren.",
+    transferQ: "Welche Dehnposition bringt den M. pectoralis profundus gezielt in Längentest-Spannung?",
+    transferOptions: [
+      { label: "Abduktion und Extension der Vordergliedmaße", correct: true },
+      { label: "Adduktion und Flexion der Vordergliedmaße", correct: false },
+      { label: "Ausschließlich Innenrotation des Karpalgelenks", correct: false },
+      { label: "Flexion des Ellenbogengelenks ohne Schulterbeteiligung", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12.3.1, S. 141. Ursprung (Sternum/Xyphoid), Ansatz (Medialseite des Humerus) und die Dehnposition (Abduktion/Extension) sind im Original so beschrieben; eine explizite Funktionsangabe fehlt, die hier genannte Ableitung aus der Dehnposition ist eigene Schlussfolgerung von Denkgang. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (03.10.2026) aus konvergenten veterinäranatomischen Fachquellen: Nn. pectorales caudales. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
+  {
+    id: "rhomboideus",
+    name: "M. rhomboideus",
+    relatedCaseId: "rocky",
+    origin: "Dorsomediane Raphe sowie Procc. spinosi der Hals- und Brustwirbelsäule",
+    insertion: "Margo dorsalis der Scapula",
+    funktion:
+      "Abgeleitet aus der im Original beschriebenen Dehnposition (Dorsalrotation der Skapula auf dem Thorax): Ventralrotation bzw. Heranziehen der Skapula zur Wirbelsäule. Im Original nicht als eigene Funktionsangabe formuliert.",
+    innervation: "Rami ventrales der Hals- und Brustspinalnerven",
+    clinicalRelevance:
+      "Liegt unter dem M. trapezius und muss daher mit etwas mehr Palpationsdruck untersucht werden als dieser. Bildet gemeinsam mit M. serratus ventralis die tiefe Schicht der Schultergürtelmuskulatur.",
+    palpationHint:
+      "Von der dorsomedianen Raphe der HWS entlang der Procc. spinosi von HWS und BWS bis zum Margo dorsalis der Scapula palpieren — unter dem M. trapezius, daher etwas tiefer/fester drücken.",
+    transferQ: "Warum muss der M. rhomboideus mit mehr Palpationsdruck untersucht werden als der M. trapezius?",
+    transferOptions: [
+      { label: "Weil er vom M. trapezius bedeckt wird und somit tiefer liegt", correct: true },
+      { label: "Weil er grundsätzlich unempfindlicher gegen Druck ist", correct: false },
+      { label: "Weil er beim Hund kräftiger ausgebildet ist als beim Menschen", correct: false },
+      { label: "Palpationsdruck spielt bei diesem Muskel keine Rolle", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12.1.4 und 12.3.2, S. 127, 138f. Ursprung/Ansatz (abgeleitet aus dem im Original beschriebenen Palpationsverlauf), die Dehnposition (Dorsalrotation der Skapula) sowie die Überdeckung durch den M. trapezius mit der Konsequenz für den Palpationsdruck sind im Original so beschrieben; eine explizite Funktionsangabe fehlt, die hier genannte Ableitung aus der Dehnposition ist eigene Schlussfolgerung von Denkgang. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (03.10.2026) aus konvergenten veterinäranatomischen Fachquellen: Rami ventrales der Hals-/Brustspinalnerven (im Unterschied zum N.-accessorius-innervierten M. trapezius). WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
+  {
+    id: "serratus-ventralis",
+    name: "M. serratus ventralis",
+    relatedCaseId: "rocky",
+    origin: "Pars cervicis: Querfortsätze der Halswirbel. Pars thoracis: 1.–10. Rippe",
+    insertion: "Facies serrata scapulae (Medialseite der Scapula), konvergierend aus beiden Anteilen",
+    funktion:
+      "Trägt als wesentlicher Teil des muskulösen „Tragegurts“ den Rumpf zwischen den Schulterblättern, da die Skapula beim Hund nicht gelenkig, sondern rein muskulär mit dem Thorax verbunden ist (skapulothorakales Gleitlager/Synsarkose) — siehe den bestehenden Wissenseintrag zur Landung aus der Trab-Schwebephase, der diese Tragefunktion biomechanisch vertieft.",
+    innervation: "Pars cervicis: Rami ventrales der Halsspinalnerven. Pars thoracis: N. thoracicus longus.",
+    clinicalRelevance:
+      "Bildet gemeinsam mit dem M. subscapularis die muskuläre (nicht gelenkige) Verbindung der Skapula zum Thorax. Der zervikale Anteil wird vom M. trapezius überlagert, der thorakale vom M. latissimus dorsi — beide Anteile lassen sich über die Rotationsrichtung der Skapula im Längentest gezielt differenzieren.",
+    palpationHint:
+      "Fächerförmiger Muskel: Ursprünge an den Halswirbel-Querfortsätzen bis zum Kranialrand der Skapula, und vom Kaudalrand der Skapula bis zur 10. Rippe — der konvergierende Faserverlauf zieht jeweils proximal zur Facies serrata scapulae.",
+    transferQ: "Um gezielt den zervikalen Anteil des M. serratus ventralis in Dehnposition zu bringen, muss die Skapula bei gleichzeitiger dorsaler Translation zusätzlich wohin rotiert werden?",
+    transferOptions: [
+      { label: "Kaudal", correct: true },
+      { label: "Kranial", correct: false },
+      { label: "Die Rotationsrichtung spielt keine Rolle", correct: false },
+      { label: "Nach medial, in Richtung Thorax", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 12.1.2 und 12.3.2, S. 127, 139f. Ursprung/Ansatz, der fächerförmige, konvergierende Faserverlauf, die muskuläre (nicht gelenkige) Skapula-Thorax-Verbindung (Synsarkose) sowie die unterschiedliche Rotationsrichtung zur gezielten Dehnung von zervikalem vs. thorakalem Anteil sind im Original so beschrieben; eine explizite Funktionsangabe fehlt im Original. Die hier genannte Tragegurt-Funktion sowie die Verknüpfung mit dem bestehenden Wissenseintrag zur Trab-Landephase ist eigene Synthese von Denkgang auf Basis einer anderen, bereits verifizierten Quelle (Hohmann, Bewegungsapparat Hund, und Welter-Böller/Welter/John, Faszientherapie beim Hund). Innervation im Original nicht genannt. Ergänzt per Web-Recherche (03.10.2026) aus konvergenten veterinäranatomischen Fachquellen: Rami ventrales der Halsspinalnerven für Pars cervicis, N. thoracicus longus für Pars thoracis. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
