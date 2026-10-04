@@ -1902,6 +1902,139 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.6 (Spezifische Untersuchung der Exspiratoren), S. 253. Ursprung (Os pubis), Ansatz (Proc. xiphoideus), der Längszugtest sowie die Exspirator-Funktion sind im Original so beschrieben. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (04.10.2026) aus konvergenten veterinäranatomischen Fachquellen: segmentale Äste der kaudalen Nn. intercostales. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
+  {
+    id: "processus-anconaeus",
+    name: "Processus anconaeus (Ulna)",
+    kind: "KNOCHEN",
+    relatedCaseId: "rocky",
+    origin:
+      "Proximales Ende der Ulna, Teil der Incisura trochlearis — bildet zusammen mit dem Proc. coronoideus medialis die Gelenkfläche zur Trochlea humeri. Verschmilzt normalerweise zwischen der 16. und 20. Lebenswoche über einen eigenen sekundären Ossifikationskern knöchern mit der Ulna.",
+    insertion: "Von lateral erst bei maximaler Flexion des Ellbogengelenks tastbar.",
+    funktion:
+      "Bleibt die knöcherne Verschmelzung mit der Ulna aus, spricht man vom Isolierten Processus anconaeus (IPA) — einer von vier Unterformen der Ellbogengelenkdysplasie, v. a. beim Deutschen Schäferhund sowie bei American/Belgian Shepherd, Weimaraner, Mastiff, Bassett, Bernhardiner, Mastino und Deutscher Dogge. Im Stand steht der Ellbogen bei IPA charakteristischerweise eher abduziert (Unterschied zur eher adduzierten Stellung bei FPC/OCD).",
+    clinicalRelevance:
+      "Ein massiver Gelenkerguss im lateralen Kompartiment spricht für einen losgelösten Processus anconaeus oder eine Fraktur des Epicondylus lateralis (Salter-Harris-Typ-4). Unbehandelt führt ein IPA zu sekundärer Arthrose; eine sichere Diagnose erfordert Röntgen in mindestens zwei Ebenen.",
+    palpationHint:
+      "Longitudinaler Zug des Unterarms nach distal bei fixiertem Humerus komprimiert den Processus anconaeus gegen die Trochlea humeri und kann ihn gezielt provozieren.",
+    transferQ: "Was deutet ein massiver Gelenkerguss im lateralen Ellbogenkompartiment am ehesten an?",
+    transferOptions: [
+      { label: "Einen losgelösten Processus anconaeus oder eine Fraktur des Epicondylus lateralis", correct: true },
+      { label: "Eine harmlose, klinisch bedeutungslose Normvariante", correct: false },
+      { label: "Eine reine Hautverletzung ohne jede Gelenkbeteiligung", correct: false },
+      { label: "Eine Erkrankung, die beim Hund grundsätzlich nicht vorkommt", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel/Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.3.3–6.3.4, S. 142–148 (Tastbefund bei maximaler Flexion, Erguss-Zeichen); Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13.2.1, S. 167f. (Provokation durch longitudinalen Zug); VetCenter (Thieme), Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Ellbogengelenkdysplasie beim Hund” (vetcenter.thieme.de, eBook cs_8469468, Autor/Auflage/ISBN der Printausgabe nicht separat verifiziert) — Fusionszeitfenster (16.–20. Lebenswoche), Rasseprädispositionen und der Standhaltungs-Unterschied IPA/FPC sind im Original so beschrieben. Dieses Item war zuvor bewusst zurückgestellt (Schema-Mismatch: AnatomyItem war auf Muskeln zugeschnitten) — jetzt als eigener `KNOCHEN`-Kind nachgeholt. Ergänzt und verknüpft die bestehenden Wissenseinträge `ellbogengelenkdysplasie` und `unterarm-ellbogen-liegender-hund-untersuchung`, ohne deren Inhalt zu duplizieren.",
+    bildUrl: "/cases/rocky-01.png",
+  },
+  {
+    id: "processus-coronoideus-medialis",
+    name: "Processus coronoideus medialis (Ulna)",
+    kind: "KNOCHEN",
+    relatedCaseId: "rocky",
+    origin:
+      "Medialer Anteil der Incisura trochlearis der Ulna, Teil der Gelenkfläche zur Trochlea humeri; diese Gelenkfläche steht gegenüber der Longitudinalachse des Unterarms um ca. 45° gekippt.",
+    insertion: "Direkt medial am Ellbogengelenk tastbar — ein Finger wird unmittelbar auf den Processus coronoideus medialis gelegt.",
+    funktion:
+      "Rotationskräfte aus der Pro-/Supination des Unterarms wirken quer auf diese Stelle und komprimieren sie gegen die Trochlea humeri — eine mechanische Überlastungsstelle. Fragmentiert der Processus (meist durch Gelenkinkongruenz zwischen Radius und Ulna), spricht man vom Fragmentierten Processus coronoideus medialis (FPC), der häufigsten Unterform der Ellbogengelenkdysplasie — v. a. bei Rottweiler, Golden/Labrador Retriever, Berner Sennenhund, Deutschem Schäferhund, Boxer, American Staffordshire Terrier und Neufundländer, oft gemeinsam mit einer Osteochondrose des medialen Humeruscondylus (zusammen als mediales Kompartimentsyndrom bezeichnet). Im Stand steht der Ellbogen bei FPC charakteristischerweise eher adduziert.",
+    clinicalRelevance:
+      "Weil auch die Ansatzsehne des M. biceps brachii (über den kräftigeren Schenkel des M. brachialis) in der Nähe dieser Stelle an der Ulna ansetzt, kann eine reine Ansatzreizung des M. biceps brachii den Processus coronoideus medialis ebenfalls schmerzhaft werden lassen — eine wichtige Differentialdiagnose, bevor ein Druckschmerz hier vorschnell als rein artikuläres Problem (z. B. FPC) gewertet wird.",
+    palpationHint:
+      "Druck auf den Processus coronoideus medialis bei gleichzeitiger Flexion und Supination des Ellbogens; alternativ Innenrotation von Radius/Ulna bei gestrecktem Ellbogen, wodurch das mediale Coronoid bei intaktem medialem Seitenband in direkten Kontakt mit dem Humeruscondylus gerät.",
+    transferQ: "Warum kann ein Druckschmerz am Processus coronoideus medialis nicht automatisch als Gelenkproblem (z. B. FPC) gewertet werden?",
+    transferOptions: [
+      {
+        label: "Weil auch eine Ansatzreizung des M. biceps brachii über die Sehnennähe zu dieser Stelle dort Schmerzen auslösen kann",
+        correct: true,
+      },
+      { label: "Weil der Processus coronoideus medialis beim Hund gar nicht existiert", correct: false },
+      { label: "Weil Druckschmerz an dieser Stelle immer normal und bedeutungslos ist", correct: false },
+      { label: "Weil nur eine Fraktur, nie eine Weichteilursache, dort Schmerzen auslösen kann", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13.1.1 und 13.2.1, S. 165, 167f. (Überlastungsmechanismus, Biceps-brachii-Verbindung, Provokationstechnik); Koch/Fischer, Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.3.4, S. 142–148 (Innenrotationstest); VetCenter (Thieme), Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Ellbogengelenkdysplasie beim Hund” (vetcenter.thieme.de, eBook cs_8469468, Autor/Auflage/ISBN der Printausgabe nicht separat verifiziert) — FPC-Rasseprädispositionen und der Standhaltungs-Unterschied sind im Original so beschrieben. Dieses Item war zuvor bewusst zurückgestellt (Schema-Mismatch) — jetzt als eigener `KNOCHEN`-Kind nachgeholt. Ergänzt und verknüpft die bestehenden Wissenseinträge `processus-coronoideus-medialis-ueberlastung-provokation`, `ellbogengelenkdysplasie` und `unterarm-ellbogen-liegender-hund-untersuchung`, ohne deren Inhalt zu duplizieren.",
+    bildUrl: "/cases/rocky-01.png",
+  },
+  {
+    id: "n-ischiadicus",
+    name: "N. ischiadicus",
+    kind: "NERV",
+    relatedCaseId: "luna",
+    origin: "L6–S2 (v. a. über den Truncus lumbosacralis aus L6/L7, vereint sich mit der Wurzel S2)",
+    insertion:
+      "Verläuft mediodorsal des Iliumschaftes, verlässt durch die Incisura ischiadica major die Beckenhöhle Richtung M. gluteus profundus, zieht zwischen M. gluteus profundus und M. gluteus medius mit dem M. piriformis zum Trochanter major, den er kaudalseitig umrundet, und verläuft dann zwischen Trochanter major und Tuber ischiadicum weiter nach distal. Etwas proximal des lateralen M.-gastrocnemius-Kopfes teilt er sich in N. tibialis und N. peroneus communis (N. fibularis).",
+    funktion:
+      "Motorisch (direkt): Mm. gemelli, M. quadratus femoris, M. obturatorius internus sowie weitere Äste an die Hamstrings. Über seine Endäste N. tibialis/N. peroneus communis versorgt er motorisch die gesamte Unterschenkel- und Fußmuskulatur.",
+    innervation:
+      "Sensibel: Hüftgelenkskapsel (direkte Äste); über die Endäste zusätzlich die Haut von Unterschenkel und Fuß.",
+    clinicalRelevance:
+      "Der längste und kräftigste periphere Nerv des Hundes. Anders als beim Menschen ist ein Piriformis-Syndrom beim Hund nicht möglich: Der N. ischiadicus verläuft hier zwischen Muskelschichten, die bei Überlastung eher abschwächen statt — wie beim Menschen — hyperton zu werden und ein Entrapment zu verursachen. Eine 1:1-Übertragung dieser beim Menschen bekannten Differentialdiagnose auf den Hund wäre ein Anatomieverwechslungs-Fehler.",
+    palpationHint:
+      "Zwischen Trochanter major und Tuber ischiadicum; kurz vor der Bifurkation in N. tibialis/N. peroneus auf ca. halber Femurstrecke lateralseitig, etwas proximal des lateralen Gastrocnemiuskopfes.",
+    transferQ: "Warum ist ein Piriformis-Syndrom, wie man es aus der Humanphysiotherapie kennt, beim Hund nicht möglich?",
+    transferOptions: [
+      {
+        label: "Weil der N. ischiadicus hier zwischen Muskelschichten verläuft, die bei Überlastung eher abschwächen statt hyperton zu werden",
+        correct: true,
+      },
+      { label: "Weil der Hund keinen M. piriformis besitzt", correct: false },
+      { label: "Weil der N. ischiadicus beim Hund gar nicht in der Nähe des Beckens verläuft", correct: false },
+      { label: "Weil Entrapment-Syndrome bei Hunden grundsätzlich nicht vorkommen", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17.5.3 (Druckpunktpalpation, N. ischiadicus), S. 288f. Nervenverlauf, Aufzweigung, Versorgungsgebiete, die explizite Verneinung eines caninen Piriformis-Syndroms sowie die Palpationspunkte sind im Original so beschrieben. Spiegelt den bereits bestehenden Wissenseintrag `n-ischiadicus-verlauf-kein-piriformis-syndrom` als eigenständiges, strukturiertes Anatomie-Item (erstes `NERV`-Kind-Item).",
+  },
+  {
+    id: "n-radialis",
+    name: "N. radialis",
+    kind: "NERV",
+    relatedCaseId: "rocky",
+    origin: "C7–Th2",
+    insertion:
+      "Zieht kaudal der A. axillaris zwischen den Trizepsköpfen nach distal, über den Sulcus nervi radialis des Humerus zwischen Tuberositas deltoidea und Crista supracondylaris lateralis auf die Lateralseite — dort meist direkt über die Crista supracondylaris lateralis liegend, ungeschützt von Muskelgewebe und dem Knochen direkt aufliegend.",
+    funktion:
+      "Motorisch am Oberarm: M. tensor fasciae antebrachii, M. triceps brachii, M. anconeus. Über den Ramus profundus (motorischer Endast): Extensoren des Unterarms und der Zehen, M. brachioradialis (falls vorhanden), M. supinator.",
+    innervation: "Sensibel über den Ramus superficialis: radiale Dorsalseite der Vorderpfote (außer 5. Strahl), Lateralseite des Unterarms bis zum Ellenbogen.",
+    clinicalRelevance:
+      "Kräftigster und wichtigster Nerv der Vordergliedmaße. An der Crista supracondylaris lateralis besonders anfällig für direktes Trauma, da dort ungeschützt dem Knochen aufliegend; auch Hartspann des M. triceps brachii kann ihn auf seinem Weg durch die Trizepsmuskulatur irritieren. Bei Läsion überwiegt der Tonus der Flexoren, Ellenbogen/Carpus werden in Flexionsstellung gezogen (Kusshandstellung) — das Tier kann nicht auftreten, im Gangbild zeigt sich ggf. Zehenschleifen.",
+    palpationHint:
+      "Zwischen Tuberositas deltoidea und Crista supracondylaris lateralis (in der Septe zwischen Caput longum und Caput laterale des M. triceps oder direkt auf der Crista); zwischen M. extensor carpi radialis und M. extensor digitorum communis; medial auf Höhe des Proc. styloideus radii.",
+    transferQ: "Welches Bild zeigt eine Läsion des motorischen Astes (Ramus profundus) des N. radialis am ehesten?",
+    transferOptions: [
+      { label: "Streckerschwäche in Ellenbogen/Carpus/Zehen mit überwiegendem Flexorentonus (Kusshandstellung)", correct: true },
+      { label: "Eine isolierte Sensibilitätsstörung ohne jede motorische Auswirkung", correct: false },
+      { label: "Eine reine Geruchsveränderung an der Pfote", correct: false },
+      { label: "Eine ausschließlich die Hintergliedmaße betreffende Lähmung", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17.5.3 (Druckpunktpalpation, N. radialis), S. 292f. Verlauf, Versorgungsgebiete, kritische Stelle an der Crista supracondylaris lateralis, das klinische Bild bei Läsion sowie die Palpationspunkte sind im Original so beschrieben. Spiegelt Teile des bereits bestehenden Wissenseintrags `vordergliedmasse-nerven-radialis-medianus-ulnaris-verlauf` als eigenständiges, strukturiertes Anatomie-Item.",
+  },
+  {
+    id: "n-femoralis",
+    name: "N. femoralis",
+    kind: "NERV",
+    relatedCaseId: "luna",
+    origin: "L4–6",
+    insertion:
+      "Zieht mittig im M. iliopsoas nach kaudal, verlässt die Bauchhöhle gemeinsam mit den Femoralgefäßen über die Lacuna musculorum/vasorum und tritt proximal am M. quadriceps zwischen M. rectus femoris und M. vastus medialis ein.",
+    funktion: "Motorisch: M. iliopsoas, M. quadratus lumborum, M. quadriceps femoris, M. sartorius, M. pectineus.",
+    innervation: "Sensibel über den eigenen Ast N. saphenus: Medialseite der Hintergliedmaße, Tarsus und Metatarsus.",
+    clinicalRelevance:
+      "In der Praxis häufiger eine mechanische Irritation durch einen verspannten M. iliopsoas als eine echte strukturelle Läsion — der Nerv wird dabei mechanosensitiv verändert, schmerzt und kann Parästhesien verursachen, ohne dass es zu Lähmungen kommt. Eine echte Femoralisläsion zeigt sich funktionell daran, dass der Hund weder auftreten noch das Bein nach vorne führen kann; das Kniegelenk wird durch die fehlende M.-quadriceps-Stabilisation instabil, was sich ungünstig auf das vordere Kreuzband auswirken kann.",
+    palpationHint: "Kranial des M. pectineus in der Leiste, lateral des Pulses der A. femoralis (Merkhilfe IVAN: von innen Vene – Arterie – Nerv).",
+    transferQ: "Warum kann ein verspannter M. iliopsoas Symptome verursachen, die einer N.-femoralis-Läsion ähneln, ohne dass eine echte Lähmung vorliegt?",
+    transferOptions: [
+      {
+        label: "Weil der Nerv mittig durch den M. iliopsoas zieht und durch dessen Hypertonus mechanisch irritiert werden kann, ohne strukturell geschädigt zu sein",
+        correct: true,
+      },
+      { label: "Weil der N. femoralis beim Hund gar nicht durch den M. iliopsoas verläuft", correct: false },
+      { label: "Weil Muskelverspannungen grundsätzlich keinen Einfluss auf Nerven haben", correct: false },
+      { label: "Weil eine echte Nervenläsion beim Hund immer symptomlos verläuft", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17.5.3 (Druckpunktpalpation, N. femoralis), S. 291f. Verlauf, Versorgungsgebiete, die mechanische Iliopsoas-Irritation als Praxisrealität vs. echte Läsion sowie der Palpationspunkt sind im Original so beschrieben. Spiegelt Teile des bereits bestehenden Wissenseintrags `hintergliedmasse-nerven-femoralis-saphenus-obturatorius` als eigenständiges, strukturiertes Anatomie-Item.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -2662,7 +2795,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: VetCenter (Thieme), Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Ellbogengelenkdysplasie beim Hund\" mit den Unterkapiteln zu IPA, FPC und OCD der Trochlea humeri (vetcenter.thieme.de, eBook cs_8469468). Definition, die vier Einzelerkrankungen, Rasseprädispositionen, der Standhaltungs-Unterschied (FPC/OCD adduziert vs. IPA abduziert) und das diagnostische Vorgehen sind im Original so beschrieben. Ergänzt den bereits verifizierten Befund aus Hárrer Kap. 13 (siehe Fall „Rocky\"), der Ellenbogendysplasie nur als real existierende Diagnose bestätigt hatte, ohne auf die Unterformen einzugehen. Hinweis: Diese Kapitel-Datei stammt direkt von der VetCenter-Onlineplattform ohne eigenes Titelblatt — Autor/Auflage/ISBN der Printausgabe von „Hundekrankheiten kompakt\" wurden nicht separat verifiziert.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["processus-anconaeus", "processus-coronoideus-medialis"],
   },
   {
     id: "gelenktypen-klassifikation",
@@ -4514,7 +4647,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.3.3–6.3.4 (Radius/Ulna, Ellbogengelenk am liegenden Hund), S. 142–148. Alle beschriebenen Tests und Befund-DD-Zuordnungen sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["supinator", "brachioradialis", "pronator-teres"],
+    relatedAnatomyIds: ["supinator", "brachioradialis", "pronator-teres", "processus-anconaeus", "processus-coronoideus-medialis"],
   },
   {
     id: "oberarm-schulter-liegender-hund-untersuchung",
@@ -7540,7 +7673,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 13.1.2 (Muskulatur Art. cubiti), S. 165f. Muskelfunktionen, Fasertyp-Angaben und Ansatzverhältnisse sind im Original so beschrieben.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: ["biceps", "brachialis", "anconeus"],
+    relatedAnatomyIds: ["biceps", "brachialis", "anconeus", "processus-coronoideus-medialis"],
   },
   {
     id: "processus-coronoideus-medialis-ueberlastung-provokation",
@@ -7564,7 +7697,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 13.1.1 und 13.2.1 (Art. cubiti — Anatomie und spezifische Provokation), S. 165, 167f. Überlastungsmechanismus, die Biceps-brachii-Verbindung und die Provokationstechniken sind im Original so beschrieben.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: ["biceps", "brachialis"],
+    relatedAnatomyIds: ["biceps", "brachialis", "processus-coronoideus-medialis", "processus-anconaeus"],
   },
   {
     id: "schultergelenk-skapulothorakales-gleitlager-anatomie",
@@ -7937,7 +8070,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.5.3 (Druckpunktpalpation, N. ischiadicus), S. 288f. Der Nervenverlauf, die Aufzweigung, die explizite Verneinung eines caninen Piriformis-Syndroms sowie die Palpationspunkte sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["n-ischiadicus"],
   },
   {
     id: "hintergliedmasse-nerven-femoralis-saphenus-obturatorius",
@@ -7981,7 +8114,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.5.3 (Druckpunktpalpation, N. femoralis/N. saphenus/N. obturatorius), S. 291f. Verlauf, Versorgungsgebiete, Palpationspunkte sowie das klinische Bild bei N.-obturatorius-Schädigung sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["n-femoralis"],
   },
   {
     id: "vordergliedmasse-nerven-radialis-medianus-ulnaris-verlauf",
@@ -8022,7 +8155,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.5.3 (Druckpunktpalpation, N. radialis/N. medianus/N. ulnaris), S. 292–295. Verlauf, Versorgungsgebiete und die Denervations-Begründung (unter Bezug auf Staszyk und Gasse 1999 sowie Böttcher und Grevel 2008) sind im Original so beschrieben.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: ["supinator", "pronator-teres"],
+    relatedAnatomyIds: ["supinator", "pronator-teres", "n-radialis"],
   },
   {
     id: "karpaltunnelsyndrom-hund-hypothese",

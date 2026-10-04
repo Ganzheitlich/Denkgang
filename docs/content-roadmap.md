@@ -54,6 +54,33 @@ kein Überblick verloren geht.
   öffentlichen Anatomie-Flow für je ein Beispiel pro neu genutztem Kind
   (`GELENK`: huefte, `SONSTIGE`: discus, `MUSKEL`: biceps als
   Regressions-Check) — 0 Fehler.
+- **Erster Content-Batch für die neuen Kinds (04.10.2026, direkt im
+  Anschluss an die Kind-Erweiterung):** 5 neue Anatomie-Items (51 → 56),
+  alle aus bereits verifizierten Quellen, ohne neue Recherche — gezielt aus
+  Material gewählt, das entweder im Backlog als „Schema-Mismatch,
+  zurückgestellt" markiert war oder bereits 1:1 als Wissensbibliothek-Text
+  vorlag und jetzt zusätzlich strukturiert gespiegelt wird (analog zum
+  Muskel-Pattern, z. B. `quadriceps`). `KNOCHEN` (2, löst den seit
+  23.09.2026 offenen Backlog-Punkt): `processus-anconaeus` und
+  `processus-coronoideus-medialis` (Hárrer Kap. 13.1.1/13.2.1 +
+  Koch/Fischer Kap. 6.3.3–6.3.4 + VetCenter Ellbogengelenkdysplasie) — mit
+  Tastbefund/Provokationstechnik, IPA-/FPC-Rasseprädisposition und dem
+  Standhaltungs-Unterschied (IPA abduziert vs. FPC/OCD adduziert).
+  `NERV` (3, erste Items dieses Kinds überhaupt): `n-ischiadicus`,
+  `n-radialis`, `n-femoralis` (alle Hárrer Kap. 17.5.3, S. 288–292) —
+  spiegeln strukturiert Teile der bereits bestehenden Wissenseinträge
+  `n-ischiadicus-verlauf-kein-piriformis-syndrom`,
+  `vordergliedmasse-nerven-radialis-medianus-ulnaris-verlauf` und
+  `hintergliedmasse-nerven-femoralis-saphenus-obturatorius`. Alle 5 neuen
+  Items sowie die 5 dadurch aktualisierten bestehenden Wissenseinträge
+  (gegenseitige `relatedAnatomyIds`-Verknüpfung) via Playwright verifiziert
+  (5/5 Review-Seiten, 0 Fehler), `tsc`/`eslint` clean, `next build`
+  erfolgreich, Reseed bestätigt (56 Anatomie-Items). Noch offen für
+  künftige Sessions: `n-medianus`/`n-ulnaris`/`n-saphenus`/`n-obturatorius`
+  (Quellenmaterial bereits vorhanden, nur noch nicht als eigene Items
+  gespiegelt), ein erstes `BAND`-Item (noch kein Beispiel dieses Kinds),
+  sowie perspektivisch Knochen/Gelenke jenseits der bereits ins alte Schema
+  gezwängten drei Fälle (facettengelenke/huefte/discus).
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte
