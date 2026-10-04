@@ -15528,6 +15528,93 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "grenzstrang-sympathikus-organsegmente-rueckschluss",
+    category: "ANATOMIE",
+    title: "Der Grenzstrang: warum wiederkehrende LWS-Blockaden auf den Darm hinweisen können",
+    teaser:
+      "Der sympathische Grenzstrang zieht strickleiterartig neben der Wirbelsäule entlang und versorgt von dort aus innere Organe segmental mit — wer weiß, welches Segment welches Organ bedient, kann aus hartnäckigen Blockaden Rückschlüsse auf die Eingeweide ziehen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Aufbau des Grenzstrangs",
+        text: "Der Truncus sympathicus ist paarig angelegt, verläuft strickleiterartig ventral an der Wirbelsäule von C8 bis L4 (im Bereich der Rippenköpfchen) und entspringt mit seinen Ursprungskernen im Seitenhorn des Rückenmarks. Die efferente Faser verlässt das Rückenmark über das Vorderhorn, zieht über den Ramus communicans albus zum Grenzstrang und über den Ramus communicans griseus zurück zum Spinalnerv, der sich dort in einen Ramus dorsalis und ventralis aufteilt (vaso-, sudo- und pilomotorische Wirkung im jeweiligen Versorgungsgebiet).",
+      },
+      {
+        type: "text",
+        heading: "Der kraniale Grenzstrang: drei Ganglien mit unterschiedlicher Aufgabe",
+        text: "Im Hals-Bereich ist der Grenzstrang anders aufgebaut als in der BWS: Er besteht pro Seite aus drei durch Rami interganglionares verbundenen Ganglien. Das Ganglion cervicale craniale (das größte, am weitesten kranial gelegene) wird aus C8–Th3 mit präganglionären Fasern versorgt, die hier auf postganglionäre Fasern umgeschaltet werden. Das Ganglion cervicale mediale liegt auf Höhe des Thoraxeingangs; beide Ganglien erhalten keinen direkten Rückenmarkszufluss und haben deshalb keine eigene segmentale Gliederung. Das Ganglion stellatum — der Zusammenschluss der ersten drei Brustgrenzstrangganglien mit dem Ganglion cervicale caudale — liegt paarig im zervikothorakalen Übergang auf Höhe des 1. Interkostalraums und enthält präganglionäre Fasern aus C8–Th7.",
+      },
+      {
+        type: "list",
+        heading: "Drei sympathische Abgänge vom Ganglion stellatum",
+        items: [
+          "Zum Ganglion cervicale medium und weiter als Truncus vagosympathicus über das Ganglion cervicale craniale zum Kopf (versorgt die Kopforgane; der Truncus vagosympathicus enthält zusätzlich den N. vagus, der die Bauchorgane innerviert)",
+          "Als N. vertebralis gemeinsam mit A./V. vertebralis durch den Canalis transversarius zum Kopf, mit sympathischen Abzweigungen an die Halsnerven auf dem Weg",
+          "Als Rami communicantes grisei zum Plexus brachialis und zu den Nn. intercostales 1–4",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Nn. splanchnici: der Weg zu den Bauchorganen",
+        text: "Aus dem Grenzstrang im thorakolumbalen Übergang entspringen die Nn. splanchnici. Der N. splanchnicus major (Th6–11) und der N. splanchnicus minor (Th12–L2) treten beide zwischen M. psoas minor und Zwerchfellpfeiler durch das Diaphragma — eine mögliche Engstelle (Entrapment) sowohl durch das Diaphragma selbst als auch durch einen verspannten M. psoas minor, mit möglichen Folgen wie gestörten Organfunktionen oder immer wiederkehrenden Facettengelenkblockaden an den Nervenaustrittsstellen. Beide Nn. splanchnici ziehen zum Ganglion coeliacum und von dort direkt zu Magen/Leber/Niere oder über das Ganglion mesentericum craniale bzw. caudale zu Darm und Blase. Der N. splanchnicus lumbalis (L2–4) zieht ebenfalls zu den Ganglia mesenterica und von dort weiter zu Darm und Blase. Ab L4 gibt es paravertebral keine Grenzstrangganglien mehr, sympathische Fasern laufen aber auf den Blutgefäßen weiter bis unter das Sakrum zur Rute, wo ventral der Rute das letzte, unpaare Ganglion impar liegt (präganglionäre Fasern aus L1–4).",
+      },
+      {
+        type: "text",
+        heading: "Bedeutung für die Physiotherapie",
+        text: "Hat ein Hund immer wieder rezidivierende Wirbelsäulenblockaden, z. B. in der oberen LWS, kann das ein Hinweis auf ein rein mechanisches Problem sein (funktioneller wie anatomischer Übergang in dieser Region) — es kann aber ebenso ein Hinweis sein, dass der Darm eine Störung hat, da er sympathisch aus den Segmenten der kranialen LWS versorgt wird. Wer weiß, welches Segment welches Organ versorgt, kann aus dem Befund Rückschlüsse auf das zugehörige Organ ziehen und gezielt weiter untersuchen. Zudem können gestörte Organe an ihren Aufhängungspunkten Spannungszustände weiterleiten, die zu Blockaden an diesen Aufhängungspunkten führen oder an benachbarte Organe weitergegeben werden — mit entsprechenden Segmentveränderungen dort. Praktisch bedeutsam ist zudem die Segmentalreflektorik für die postoperative Behandlung: Nach einer Kreuzband-OP kann der Therapeut die Hintergliedmaße bereits am 1. Tag post-OP über paravertebrale Techniken an der hinteren BWS positiv beeinflussen, ohne die operierte Gliedmaße selbst anzufassen.",
+      },
+      {
+        type: "text",
+        heading: "Parasympathikus: Gegenspieler mit anderem Ursprung",
+        text: "Der Parasympathikus (kraniosakrales Nervensystem) entspringt dem 3., 7., 9. und 10. Hirnnerv sowie dem sakralen Rückenmark (S2–4); die Umschaltung von prä- auf postganglionäre Fasern erfolgt — anders als beim Sympathikus — erst nahe am oder im Erfolgsorgan. Der N. vagus zieht mit parasympathischen Fasern im Truncus vagosympathicus nach kaudal, trennt sich am Ganglion cervicale medium vom Sympathikus, begleitet die Trachea zum zervikothorakalen Übergang und über die Herzbasis, versorgt Herz/Lunge/Speiseröhre/Magen/Dünndarm/proximale Colonhälfte/Leber/Gallenblase/Pankreas und zieht bis zum Hiatus oesophageus durch das Diaphragma. Verspannt das Diaphragma (ängstliche, stark hechelnde Hunde; Atemprobleme; Husten; Organveränderungen), kann der N. vagus beim Durchtritt gereizt werden. Der sakrale Anteil (Nn. pelvini, Ventralwurzeln S2–4) versorgt Colon descendens, Rectum, Harnblase und Geschlechtsorgane.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.1.1 (Die Nervensysteme, Sympathikus/Parasympathikus), S. 269–272. Der Grenzstrangaufbau, die drei Halsganglien mit den drei Abgängen vom Ganglion stellatum, der Verlauf der Nn. splanchnici inkl. Diaphragma-Engstelle, das Ganglion impar, die physiotherapeutische Rückschluss-Logik (rezidivierende LWS-Blockade als möglicher Organhinweis) inkl. des Kreuzband-OP-Beispiels sowie der Parasympathikus-Verlauf sind im Original so beschrieben. Das Horner-Syndrom (ebenfalls Teil desselben Kapitelabschnitts) ist bereits im bestehenden Eintrag `horner-syndrom-plexus-brachialis-laesionshoehe` abgedeckt und wird hier bewusst nicht dupliziert.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["diaphragma"],
+  },
+  {
+    id: "spinalnerv-segmentaufbau-kibbler-hautfalte-beispiel",
+    category: "UNTERSUCHUNG",
+    title: "Vom Spinalnerv zur Kibbler-Falte: ein konkreter Untersuchungsgang Segment für Segment",
+    teaser:
+      "Eine verquollene Hautfalte an einem bestimmten Wirbelsäulensegment ist kein Zufallsbefund — sie öffnet eine ganze Kette aus Dermatom, Myotom und Gelenk, die der Therapeut gezielt der Reihe nach abarbeiten kann.",
+    sections: [
+      {
+        type: "text",
+        heading: "Aufbau des Spinalnervs",
+        text: "Der periphere Spinalnerv ist gemischt: Sensorische (afferente) Fasern leiten Impulse aus Haut, Muskeln und Sinnesorganen über die Radix dorsalis ins Hinterhorn, motorische (efferente) Fasern leiten Impulse vom motorischen Vorderhorn über die Radix ventralis in die Peripherie zur Skelettmuskulatur. Im Seitenhorn entspringen zusätzlich vegetative efferente Fasern, die über die Radix anterior zum Spinalnerv und von dort über den Grenzstrang zurücklaufen. Vor dem Foramen intervertebrale vereinigen sich die Radices dorsalis und ventralis zum Spinalnerv, der durch das Foramen zieht und sich danach in einen Ramus dorsalis (versorgt Haut paravertebral und die Rückenmuskulatur) und einen Ramus ventralis (versorgt Extremitäten und bauchseitige Körperhälfte) aufteilt. Noch innerhalb des Foramen intervertebrale gibt der Spinalnerv den sensiblen Ramus meningeus (N. von Luschka, N. recurrens, N. sinuvertebralis) ab, der zurück in den Wirbelkanal zieht und Dura, Lig. longitudinale dorsale, die Gefäße des Wirbelkanals und die Bandscheibe innerviert — über ihn läuft auch die Schmerzleitung bei Bandscheibenvorfällen. Das periphere Nervensystem beginnt erst außerhalb des Foramen intervertebrale.",
+      },
+      {
+        type: "text",
+        heading: "Der metamere Aufbau als diagnostisches Werkzeug: die Kibbler-Hautfalte",
+        text: "Weil der Hund nach dem Prinzip der Metamerie segmental aufgebaut ist (jedes Wirbelsäulensegment hat sein zugehöriges Dermatom, Myotom und Sklerotom), kann der Therapeut aus einer schlecht abhebbaren, verquollenen oder verbackenen Kibbler-Hautfalte an einer bestimmten Segmenthöhe gezielt auf das zugehörige Wirbelsäulensegment schließen und die dort zugehörigen Nerven, Muskeln, Organe oder Gelenke weiter untersuchen.",
+      },
+      {
+        type: "text",
+        heading: "Konkretes Beispiel aus der Quelle: Segment C5",
+        text: "Hat ein Hund am Segment C5 eine feste Kibbler-Hautfalte, gehören dazu ein bestimmtes Dermatom (liegt über dem M. deltoideus), ein bestimmtes Myotom (M. cleidobrachialis) und ein zugehöriges Gelenk (Akromion) — alle drei werden vom Therapeuten untersucht. Sind sie unauffällig, kann als nächster Schritt die nervale Struktur selbst untersucht werden, die das zugehörige Gelenk innerviert: Das Schultergelenk wird vom N. axillaris innerviert. Der Therapeut kann nun eine Druckpalpation am Nerv durchführen (schmerzhaft?) und zusätzlich den Nervenaustritt aus dem Foramen intervertebrale C5/6 auf der betroffenen Seite kontrollieren.",
+      },
+      {
+        type: "text",
+        heading: "Zweites Beispiel: die sympathische Längsaufteilung der Extremitäten",
+        text: "Die Vordergliedmaße wird aus den Segmenten T2–7 sympathisch versorgt, die Hintergliedmaße aus T8–L4. Hat ein Hund also am Dermatom L4/5 (kraniolateral am Oberschenkel) eine verquollene Kibbler-Falte, kann sich der Therapeut gezielt das Segment L4/5 ansehen sowie die von dort sympathisch versorgten Organe (Darm, Blase, Prostata), den N. cutaneus femoralis lateralis (autonome Zone) oder den Austrittsbereich des N. femoralis (L4–6) an der Wirbelsäule — je nach Befund wird dann entweder die skelettale Einschränkung oder die gestörte Nervengleitfähigkeit behandelt.",
+      },
+      {
+        type: "text",
+        heading: "Klinische Konsequenz",
+        text: "Dieser Untersuchungsgang macht eine Kibbler-Hautfalte zu einem Einstiegspunkt, nicht zu einem Endbefund: Ein auffälliger Tastbefund an einer Segmenthöhe öffnet eine geordnete Kette aus Dermatom → Myotom → Gelenk → Nerv (bzw. → Organ, je nach Lage), die systematisch Punkt für Punkt durchgegangen wird, statt vorschnell einer einzelnen Struktur die Schuld zu geben.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Differentialdiagnostik unvollständig", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.1.3 (Spinalnerv), S. 272f. Der Spinalnerv-Aufbau (Radix dorsalis/ventralis, Ramus meningeus/N. von Luschka), das C5-Beispiel (Dermatom M. deltoideus, Myotom M. cleidobrachialis, Gelenk Akromion, N. axillaris) sowie die sympathische T2–7/T8–L4-Aufteilung von Vorder-/Hintergliedmaße mit dem L4/5-Beispiel sind im Original so beschrieben. Ergänzt gezielt den bestehenden, allgemeineren Eintrag `segmentalreflektorischer-komplex-dermatom-myotom-sklerotom-viszerotom` (andere Quelle: Kasper/Zohmann) um dieses konkrete, caninen-spezifische Hárrer-Fallbeispiel samt praktischem Untersuchungsgang — bewusst nicht dupliziert, sondern als eigenständiger, anwendungsnäherer Eintrag angelegt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["discus"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

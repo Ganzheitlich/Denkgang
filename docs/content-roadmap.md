@@ -62,10 +62,9 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 347 Einträge (11 Anatomie-Spiegelungen, 10 Grundlagen, 94
-  Untersuchung, 111 Pathologie, 91 Biomechanik, 50 Therapie — genaue
-  Aufteilung kann leicht abweichen, da manche Einträge mehrere Kategorien
-  berühren). Koch/Fischer, Lahmheitsuntersuchung beim Hund
+- Wissensbibliothek: 349 Einträge (genaue Kategorien-Aufteilung kann leicht
+  abweichen, da manche Einträge mehrere Kategorien berühren). Koch/Fischer,
+  Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
   Einträge seit dem 21.09.). Danach 49 weitere neue Einträge aus Hárrer,
   Manuelle Therapie beim Hund — **damit ist Hárrer, Manuelle Therapie beim
@@ -1428,7 +1427,46 @@ kein Überblick verloren geht.
   bewusst ausgelassen (Quelle: keine eigenständig testbare Funktion) —
   **damit ist Hárrer Kap. 16.3 „Muskulatur" vollständig ausgewertet.**
   Alle 5 betroffenen Review-Seiten via Playwright verifiziert (5/5, 0
-  Fehler).
+  Fehler). Danach Hárrer Kap. 17 „Neurotension" (S. 269–298) vollständig
+  gelesen (04.10.2026) — eine Bestandsprüfung ergab, dass dieses Kapitel in
+  einer früheren Session bereits sehr dicht ausgewertet worden war (u. a.
+  `nervenwurzeln-bindegewebeschichten-nervenspannung`,
+  `nervenblutversorgung-ischaemie-zeitfenster`,
+  `meningen-membranoeses-system-dura-verbindungen`,
+  `n-ischiadicus-verlauf-kein-piriformis-syndrom`,
+  `hintergliedmasse-nerven-femoralis-saphenus-obturatorius`,
+  `vordergliedmasse-nerven-radialis-medianus-ulnaris-verlauf`,
+  `nervenkompression-druck-dehnungsschwellen`,
+  `neurotensionsbehandlung-wirkprinzip-kontraindikationen`,
+  `horner-syndrom-plexus-brachialis-laesionshoehe`) — inklusive der
+  bewussten, im jeweiligen `sourceStatus` dokumentierten Entscheidung, die
+  konkreten Behandlungstechniken (Duramobilisation/Slumptest-ASTE,
+  die einzelnen Nerven-Neurotensionstests mit Griff/Ausführung sowie die
+  drei Nervenmobilisationstechniken Annäherung/Längszug/Querverschiebung)
+  NICHT zu übernehmen, da es sich um praktische Handgriffe für ausgebildete
+  Therapeut:innen handelt, nicht um Nachschlage-Wissen für die
+  Wissensbibliothek — diese Entscheidung wird hiermit bestätigt und gilt
+  fort. Zwei echte Lücken blieben: 2 neue Einträge schließen sie
+  (349 Einträge gesamt): `grenzstrang-sympathikus-organsegmente-
+  rueckschluss` (Kap. 17.1.1 — Aufbau des Grenzstrangs mit den drei
+  Halsganglien, die drei sympathischen Abgänge vom Ganglion stellatum, Nn.
+  splanchnici major/minor mit Diaphragma-Engstelle, Ganglion impar, die
+  physiotherapeutische Rückschluss-Logik von rezidivierenden
+  LWS-Blockaden auf Organprobleme inkl. Kreuzband-OP-Beispiel, sowie der
+  Parasympathikus-Verlauf über den N. vagus) und
+  `spinalnerv-segmentaufbau-kibbler-hautfalte-beispiel` (Kap. 17.1.3 —
+  Spinalnerv-Aufbau inkl. Ramus meningeus/N. von Luschka, sowie Hárrers
+  konkretes klinisches Beispiel: Kibbler-Hautfalte am Segment C5 öffnet
+  die Kette Dermatom/M. deltoideus → Myotom/M. cleidobrachialis → Gelenk/
+  Akromion → Nerv/N. axillaris, plus die sympathische T2–7/T8–L4-
+  Aufteilung von Vorder-/Hintergliedmaße am L4/5-Beispiel). Beide gezielt
+  gegen bereits bestehende, verwandte Einträge abgegrenzt (Horner-Syndrom
+  bzw. der allgemeinere segmentalreflektorische Komplex aus Kasper/
+  Zohmann), um Dopplung zu vermeiden. **Damit ist Hárrer, Manuelle
+  Therapie beim Hund (ISBN 978-3-13-245429-3), jetzt auch in Kap. 17
+  vollständig ausgewertet — das gesamte Buch (Kap. 6–17) ist fachlich
+  dicht erschöpft.** Beide Review-Seiten via Playwright verifiziert (2/2,
+  0 Fehler).
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
   aktiv mit einer zweiten Quelle abgeglichen (siehe Toe-in/Toe-out-Fund
@@ -2721,36 +2759,66 @@ siehe oben], Krankengymnastik, Massage).
 - [ ] Kap. 16 (Wirbelsäule) — teilweise für Quellenprüfung von facettengelenke
       gelesen, aber nicht systematisch nach weiteren Pathologie-Themen
       durchsucht (z. B. Spondylose, IVDD, Cauda-equina)
-- [~] **Kap. 17.1 jetzt ausgewertet (28.09.2026, per lokaler PDF-Extraktion
-      neu geholt — ma(17).pdf, 3,1 MB, `read_file_content` kappte bei
-      106.325 Zeichen, lokale `pdftotext`-Extraktion lieferte vollständige
-      157.905 Zeichen).** Ein Punkt aus dem allgemein eher
-      humanmedizin-nahen Grundlagenteil erwies sich als genuin wertvoll
-      und dog-spezifisch klinisch relevant: die Segmentüberlappung von
-      Plexus brachialis (C6–Th2) und zervikalen Sympathikusfasern
-      (C8–Th7) erklärt, warum ein Horner-Syndrom bevorzugt bei tiefen/
-      kaudalen Plexus-brachialis-Läsionen auftritt. Als
-      `horner-syndrom-plexus-brachialis-laesionshoehe` (UNTERSUCHUNG)
+- [x] **Kap. 17 jetzt vollständig ausgewertet (28.09.2026 Kap. 17.1–17.5.2,
+      04.10.2026 Rest).** 28.09.2026 (per lokaler PDF-Extraktion neu geholt
+      — ma(17).pdf, 3,1 MB, `read_file_content` kappte bei 106.325 Zeichen,
+      lokale `pdftotext`-Extraktion lieferte vollständige 157.905 Zeichen):
+      Ein Punkt aus dem allgemein eher humanmedizin-nahen Grundlagenteil
+      erwies sich als genuin wertvoll und dog-spezifisch klinisch relevant:
+      die Segmentüberlappung von Plexus brachialis (C6–Th2) und zervikalen
+      Sympathikusfasern (C8–Th7) erklärt, warum ein Horner-Syndrom
+      bevorzugt bei tiefen/kaudalen Plexus-brachialis-Läsionen auftritt.
+      Als `horner-syndrom-plexus-brachialis-laesionshoehe` (UNTERSUCHUNG)
       umgesetzt — ergänzt den bestehenden Kopfnerven/Horner-Syndrom-
       Eintrag (Koch/Fischer) um dieses Lokalisationskriterium sowie
       `plexusschaden-vordergliedmasse` um die Horner-Komponente,
       inklusive der klinisch wichtigen Warnung, dass Horner-Syndrom je
       nach Ursache (Trauma vs. Mittelohrentzündung) entgegengesetzte
-      Therapieentscheidungen verlangt. Bewusst NICHT übernommen: die
-      übrige, sehr humanmedizin-nahe Grenzstrang-/Parasympathikus-
-      Detailanatomie (Ganglienkette, Nn.-splanchnici-Verlauf im Detail)
-      ohne erkennbaren zusätzlichen Denkgang-Mehrwert über den
-      Horner-Punkt hinaus.
-      17.2–17.2.4 (Bewegung/Dehnung/Kompression, Ursachen und Symptome
-      mechanosensitiver Nerven — als `nervenkompression-druck-dehnungsschwellen`
-      umgesetzt) sowie 17.3/17.4/17.5.1/17.5.2 (Wirkprinzip, Kontraindikationen,
+      Therapieentscheidungen verlangt. Die übrige Grenzstrang-/
+      Parasympathikus-Detailanatomie war damals noch als „ohne
+      erkennbaren zusätzlichen Denkgang-Mehrwert über den Horner-Punkt
+      hinaus" zurückgestellt worden — **diese Einschätzung wurde am
+      04.10.2026 revidiert**, nachdem sich beim vollständigen Durchlesen
+      zeigte, dass Hárrer selbst daraus eine genuin klinische
+      Rückschluss-Logik ableitet (rezidivierende LWS-Blockaden als
+      möglicher Hinweis auf eine Darmstörung, da beide aus denselben
+      Segmenten sympathisch versorgt werden), die über den reinen
+      Horner-Punkt klar hinausgeht. Neuer Eintrag:
+      `grenzstrang-sympathikus-organsegmente-rueckschluss` (ANATOMIE):
+      Grenzstrangaufbau mit den drei Halsganglien, die drei sympathischen
+      Abgänge vom Ganglion stellatum, Nn. splanchnici major/minor mit
+      Diaphragma-Engstelle, Ganglion impar, die LWS-Organ-
+      Rückschlusslogik inkl. des Kreuzband-OP-Beispiels (paravertebrale
+      Technik an der hinteren BWS wirkt schon 1 Tag post-OP auf die
+      Hintergliedmaße) sowie der Parasympathikus-Verlauf über den
+      N. vagus. 17.2–17.2.4 (Bewegung/Dehnung/Kompression, Ursachen und
+      Symptome mechanosensitiver Nerven — als
+      `nervenkompression-druck-dehnungsschwellen` umgesetzt) sowie
+      17.3/17.4/17.5.1/17.5.2 (Wirkprinzip, Kontraindikationen,
       Nervenleitung, Mechanosensitivitäts-Untersuchung — als
       `neurotensionsbehandlung-wirkprinzip-kontraindikationen` umgesetzt, S.
-      279–281). Noch offen: der Rest von 17.5 (S. 282–296) mit den konkreten
-      Behandlungstechniken (Duramobilisation etc.) — bewusst NICHT als
-      Wissensbibliothek-Content vorgesehen (praktische Handgriffe für
-      ausgebildete Therapeut:innen, kein Nachschlage-Wissen), außer Vanessa
-      möchte das anders.
+      279–281) waren bereits abgedeckt. Neu am 04.10.2026 außerdem: Kap.
+      17.1.3 (Spinalnerv, S. 272f.) als
+      `spinalnerv-segmentaufbau-kibbler-hautfalte-beispiel` (UNTERSUCHUNG)
+      — Spinalnerv-Aufbau inkl. Ramus meningeus/N. von Luschka sowie
+      Hárrers konkretes klinisches Fallbeispiel (Kibbler-Hautfalte am
+      Segment C5 öffnet die Kette Dermatom/M. deltoideus → Myotom/
+      M. cleidobrachialis → Gelenk/Akromion → Nerv/N. axillaris) plus die
+      sympathische T2–7/T8–L4-Aufteilung von Vorder-/Hintergliedmaße am
+      L4/5-Beispiel; gezielt gegen den bereits bestehenden, allgemeineren
+      Eintrag `segmentalreflektorischer-komplex-dermatom-myotom-
+      sklerotom-viszerotom` (andere Quelle: Kasper/Zohmann) abgegrenzt,
+      um Dopplung zu vermeiden. **Endgültig bewusst NICHT als
+      Wissensbibliothek-Content übernommen** (Entscheidung bestätigt):
+      der gesamte Rest von 17.5 (S. 282–296) mit den konkreten
+      Behandlungstechniken (Duramobilisation/Slumptest-ASTE, die
+      einzelnen Nerven-Neurotensionstests mit Griff/Ausführung, die drei
+      Nervenmobilisationstechniken Annäherung/Längszug/Querverschiebung)
+      — praktische Handgriffe für ausgebildete Therapeut:innen, kein
+      Nachschlage-Wissen, außer Vanessa möchte das anders. **Damit ist
+      Hárrer, Manuelle Therapie beim Hund, jetzt vollständig ausgewertet
+      (Kap. 6–17).** Beide neuen Einträge via Playwright verifiziert
+      (2/2 Seiten, 0 Fehler).
       **Wichtiger Fund:** Kap. 17 (S. 279) widerspricht Kap. 14 (S. 179) in der
       Zuordnung „Toe-in/Toe-out" ↔ M. supinator — derselbe Muskel-Nerv-Bezug
       (M. supinator → N. radialis) wird einmal der Toe-in-, einmal der
