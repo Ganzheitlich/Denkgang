@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 349 Einträge (genaue Kategorien-Aufteilung kann leicht
+- Wissensbibliothek: 350 Einträge (genaue Kategorien-Aufteilung kann leicht
   abweichen, da manche Einträge mehrere Kategorien berühren). Koch/Fischer,
   Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -608,7 +608,17 @@ kein Überblick verloren geht.
   ist Kap. 4 „Untersuchungsgang" dieser Quelle inhaltlich vollständig
   ausgewertet** (23 neue Einträge aus Kap. 2–4 in dieser Session), mit
   Ausnahme bewusst zurückgestellter kleinerer Restthemen (siehe
-  Backlog-Eintrag zu dieser Quelle für die vollständige Liste). Kap. 5–8
+  Backlog-Eintrag zu dieser Quelle für die vollständige Liste). Eines
+  dieser zurückgestellten Restthemen — 4.1.1 „Rasse und Verwendungszweck"
+  — wurde am 04.10.2026 nachgeholt: ein neuer Eintrag
+  `rasse-verwendungszweck-praedisposition-ueberforderung` (PATHOLOGIE,
+  350 Wissenseinträge gesamt) zum Über-/Unterforderungskonzept, zur
+  Kritik an unkritischen Rassetabellen (HD-Vorröntgen-Verzerrung) sowie
+  zum Schonungsparadox in der Wachstumsphase (trainierte Dackel neigen
+  eher zu Bandscheibenproblemen als unterforderte, adipöse) inklusive der
+  Kappenhüfte-Kritik — **damit ist jetzt auch Kap. 4.1 „Nationale
+  (Signalement)" dieser Quelle vollständig ausgewertet** (4.1.1–4.1.4
+  komplett). Verifiziert via Playwright (1/1 Seite, 0 Fehler). Kap. 5–8
   wurden danach stichprobenartig gesichtet (mehrere Chunks aus Kap. 5
   „Methoden der Schmerztherapie" sowie der Anfang von Kap. 7 „Schmerztherapie
   bei bestimmten Indikationen"/Kap. 8) und bewusst NICHT vollständig
@@ -2063,10 +2073,17 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
     `geschlechtsspezifische-segmentpraedispositionen-signalement`.
   - [x] 4.1.3–4.1.4 Alter, Größe und Gewicht (S. 53–54, 117–118): daraus
     `alter-gewicht-schmerzregulation-signalement`.
-  - [ ] 4.1.1 Rasse und Verwendungszweck (S. 49–53): rassespezifische
-    Prädisposition als eigener diagnostischer Filter, „Kappenhüfte" bei
-    Dackeln/chondrodystrophen Rassen, Über-/Unterforderungs-Problematik —
-    noch nicht umgesetzt, kleinerer Ergänzungskandidat.
+  - [x] 4.1.1 Rasse und Verwendungszweck (04.10.2026, S. 51–52, Chunk
+    g(19).pdf): daraus `rasse-verwendungszweck-praedisposition-ueberforderung`
+    — das Über-/Unterforderungskonzept, die Kritik an unkritischen
+    Rassetabellen (HD-Vorröntgen-Verzerrung, länderspezifische
+    Zuchtziel-Unterschiede), das Schonungsparadox in der Wachstumsphase
+    (trainierte Dackel neigen eher zu Bandscheibenproblemen als
+    unterforderte, adipöse), sowie die Kappenhüfte-Kritik (derselbe
+    HD-Befund, kein eigenständiges Phänomen). **Damit ist Kap. 4.1
+    „Nationale (Signalement)" dieser Quelle vollständig ausgewertet**
+    (4.1.1–4.1.4 alle umgesetzt). Verifiziert via Playwright (1/1 Seite,
+    0 Fehler).
   - [ ] 4.2 Vorbericht/Anamnese (S. 54–56): Eingangsanamnese-Fragenkatalog,
     Verlaufsanamnese — teilweise Überschneidung mit bereits vorhandenen
     Anamnese-Inhalten aus anderen Quellen zu prüfen, bevor Eintrag entsteht.

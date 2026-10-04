@@ -15615,6 +15615,45 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["discus"],
   },
+  {
+    id: "rasse-verwendungszweck-praedisposition-ueberforderung",
+    category: "PATHOLOGIE",
+    title: "Rasseprädisposition ist kein Freibrief — und „Kappenhüfte” nur ein anderer Name für Hüftdysplasie",
+    teaser:
+      "Dass Dackel chondrodystrophe Wirbelsäulen haben, ist bekannt — weniger bekannt ist, dass gut trainierte Dackel eher Bandscheibenprobleme bekommen als unterforderte, übergewichtige. Rasse allein erklärt selten das ganze Bild.",
+    sections: [
+      {
+        type: "text",
+        heading: "Rasse und Verwendungszweck gehören zusammen betrachtet",
+        text: "Rasse und Verwendungszweck sollten nicht getrennt bewertet werden: Entscheidend ist, ob die vom Hund abverlangte Leistung zu seiner tatsächlichen Leistungsfähigkeit passt — ob eine adäquate Anforderung vorliegt oder eine Über- bzw. Unterforderung (Beispiele aus der Quelle: Radfahren mit einem Dackel, ein Husky als reiner Wohnungshund). Über- wie Unterforderung wirken sich direkt auf Kondition und Konstitution des Tieres aus, aus der sich wiederum seine Leistungsbereitschaft ableitet.",
+      },
+      {
+        type: "text",
+        heading: "Warum eine einfache Rassetabelle in die Irre führt",
+        text: "Eine Tabelle mit rassespezifischen Prädispositionen wirkt auf den ersten Blick hilfreich, ist aber aus zwei Gründen mit Vorsicht zu genießen: Erstens gibt es keine wirklich zielführende Statistik, die die tatsächlichen Verhältnisse abbildet — am Beispiel der HD-Statistik zeigt sich das besonders deutlich, da viele beim „Vorröntgen“ HD-positive Tiere gar nicht erst zum offiziellen Hauptröntgen kommen und so nie in die Statistik einfließen (Positivauswahl-Verzerrung). Zweitens bestehen trotz zunehmender Internationalisierung der Zucht weiterhin deutliche länderspezifische Unterschiede in den Prädispositionen, erklärbar durch unterschiedliche Zuchtziele sowie unterschiedliche Dichte und Qualität der vorgeschriebenen Untersuchungen.",
+      },
+      {
+        type: "text",
+        heading: "Das Schonungsparadox in der Wachstumsphase",
+        text: "Übermäßige, von vielen Züchtern empfohlene Schonung in der Wachstumsphase führt — im Sinne einer Unterforderung — zu geringen formativen Reizen in der Verknöcherungsphase der Gelenke, zu geringen Reizen für das reguläre Längen-/Dickenwachstum der Röhrenknochen sowie zu einem schlechteren Muskelstatus. Dieser schlechtere Muskelstatus verstärkt wiederum die individuelle Ausprägung bereits angeborener orthopädischer Probleme — etwa die Laxität bei dysplastischen Hüftgelenken. Konkretes Beispiel aus der Quelle: Gut trainierte Dackel neigen eher zu Bandscheibenproblemen als unterforderte, adipöse Artgenossen — reine Schonung ist also kein verlässlicher Schutz, sondern kann die zugrunde liegende Problematik sogar verschärfen.",
+      },
+      {
+        type: "text",
+        heading: "„Rassespezifisch” und „physiologisch” nicht gleichsetzen — das Kappenhüfte-Beispiel",
+        text: "Die Quelle warnt ausdrücklich davor, echte rassespezifische Erkrankungen unkritisch als eigenständige, gewissermaßen normale Phänomene zu behandeln. Beispiel: Die spezielle Ausprägung der Hüftdysplasie beim Dackel und anderen chondrodystrophen Rassen erhält mit dem Begriff „Kappenhüfte” einen eigenen Terminus — dieser lenkt nach Einschätzung der Autoren eigentlich vom eigentlichen Thema ab und sollte nicht weiter in die orthopädischen pathogenetischen Überlegungen einfließen, da es sich letztlich um dieselbe HD-Pathologie handelt, nur in einer rassetypischen Ausprägung. Andere echte rassespezifische Probleme ohne zwingende Folgeproblematik sind demgegenüber die Dackel-Wirbelsäule selbst, die HD des Schäferhundes, Herzprobleme des Cavalier King Charles Spaniel oder Geburtsprobleme der Französischen Bulldogge — bei den meisten zuchtbedingten Problemen zieht aber eine Vielzahl von Folgeproblemen logisch nach, deren ungefährer Zeitrahmen sich oft gut abschätzen lässt, da ein angeborenes Manko sich nicht „wegregulieren” lässt.",
+      },
+      {
+        type: "text",
+        heading: "Klinische Konsequenz",
+        text: "Rassespezifische Grundprobleme gehören in Diagnostik und Behandlungsplan — nur so wird der Anspruch auf eine kausale statt rein symptomatische Therapie eingelöst. Entscheidend ist dabei die Unterscheidung zwischen genuin rassespezifischer Primärpathologie (die eine eigene Diagnostik verdient) und bloßer rassetypischer Ausprägung derselben Pathologie (die keinen eigenen gedanklichen Sonderweg braucht, nur weil sie einen eigenen Namen trägt) — eine Verwechslung der beiden Kategorien führt entweder zu übersehener oder zu künstlich verkomplizierter Differentialdiagnostik.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "falsche Priorisierung", "Faktenwissen", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.1.1 (Rasse und Verwendungszweck), S. 51–52 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk g(19).pdf). Das Über-/Unterforderungskonzept, die Kritik an unkritischen Rassetabellen (inkl. HD-Vorröntgen-Verzerrung), das Schonungsparadox mit dem Dackel-Beispiel, die Kappenhüfte-Kritik sowie die übrigen genannten Rassebeispiele (Schäferhund, Cavalier King Charles, Französische Bulldogge) sind im Original so beschrieben. Ergänzt gezielt die bestehenden Einträge `geschlechtsspezifische-segmentpraedispositionen-signalement` und `alter-gewicht-schmerzregulation-signalement` (dieselbe Quelle, Kap. 4.1.2–4.1.4) um die bisher fehlende erste Signalement-Dimension (4.1.1) — damit ist Kap. 4.1 „Nationale (Signalement)“ dieser Quelle vollständig ausgewertet.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
