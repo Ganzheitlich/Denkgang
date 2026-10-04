@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 351 Einträge (genaue Kategorien-Aufteilung kann leicht
+- Wissensbibliothek: 352 Einträge (genaue Kategorien-Aufteilung kann leicht
   abweichen, da manche Einträge mehrere Kategorien berühren). Koch/Fischer,
   Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -634,7 +634,23 @@ kein Überblick verloren geht.
   Anatomiekonzept, hier als konkrete Funktionsprüfung). **Damit ist Kap.
   4.5.7 „Funktionsprüfungen" dieser Quelle vollständig ausgewertet**
   (4.5.7.1 und 4.5.7.2 komplett). Verifiziert via Playwright (1/1 Seite,
-  0 Fehler). Kap. 5–8
+  0 Fehler). Danach ein weiterer neuer Eintrag aus Kap. 4.2 (352
+  Wissenseinträge gesamt): `anamnese-fragetechnik-verlaufskontrolle-
+  interpretationslogik` (UNTERSUCHUNG) — das „Sonstiges?"-Prinzip (Besitzer
+  brauchen Zeit, sich auf die Fragetiefe einzustellen, wichtige Fakten
+  fallen oft erst am Gesprächsende wieder ein), eine Tabelle konkreter
+  Frage-Schlussfolgerungs-Paare (z. B. Jahreszeiten-Symptomverstärkung →
+  Arthrose vs. Herz-/Kreislaufbelastung, vermehrter Trab →
+  Schwungunterstützungsbedarf), sowie die Verlaufsanamnese-Mahnung, bei
+  pauschalen Besitzeraussagen („geht besser/schlechter") detailliert
+  nachzufragen statt sie unhinterfragt zu übernehmen — inkl. des Beispiels,
+  dass ein unverändertes Gangbild einen vom Besitzer wahrgenommenen
+  Therapieerfolg nicht ausschließt. Bewusst gegen den bestehenden,
+  strukturell orientierten Eintrag `anamnese-struktur-vier-kategorien-
+  adspektion-ruhepositionen` (andere Quelle: Könneker/Reiter) abgegrenzt —
+  unterschiedliche Ebenen (Kategorien-Checkliste vs. konkrete
+  Fragetechnik), bewusst nicht dupliziert. Verifiziert via Playwright
+  (1/1 Seite, 0 Fehler). Kap. 5–8
   wurden danach stichprobenartig gesichtet (mehrere Chunks aus Kap. 5
   „Methoden der Schmerztherapie" sowie der Anfang von Kap. 7 „Schmerztherapie
   bei bestimmten Indikationen"/Kap. 8) und bewusst NICHT vollständig
@@ -2100,9 +2116,16 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
     „Nationale (Signalement)" dieser Quelle vollständig ausgewertet**
     (4.1.1–4.1.4 alle umgesetzt). Verifiziert via Playwright (1/1 Seite,
     0 Fehler).
-  - [ ] 4.2 Vorbericht/Anamnese (S. 54–56): Eingangsanamnese-Fragenkatalog,
-    Verlaufsanamnese — teilweise Überschneidung mit bereits vorhandenen
-    Anamnese-Inhalten aus anderen Quellen zu prüfen, bevor Eintrag entsteht.
+  - [x] 4.2 Vorbericht/Anamnese (04.10.2026, S. 54–57, Chunk g(20).pdf): daraus
+    `anamnese-fragetechnik-verlaufskontrolle-interpretationslogik` — das
+    „Sonstiges?"-Prinzip, konkrete Frage-Schlussfolgerungs-Paare sowie die
+    Verlaufsanamnese-Mahnung (pauschale Besitzeraussagen nicht unhinterfragt
+    übernehmen). Gegen den bestehenden, strukturell orientierten Eintrag
+    `anamnese-struktur-vier-kategorien-adspektion-ruhepositionen` (andere
+    Quelle: Könneker/Reiter) abgegrenzt — unterschiedliche Ebenen, bewusst
+    nicht dupliziert. Der abgebildete Anamnesebogen (Abb. 4.1) bewusst nicht
+    übernommen (reines Formularbeispiel). Verifiziert via Playwright
+    (1/1 Seite, 0 Fehler).
   - [x] 4.3.2.2 Gangarten — Schritt/Trab (S. 61–63): daraus
     `schritt-trab-knorpelernaehrung-synoviapumpe-biomechanik`.
   - [ ] 4.3 Gangbildanalyse, Rest (S. 57–74): Lahmheit-vs.-Bewegungsstörung-

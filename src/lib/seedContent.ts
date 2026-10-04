@@ -15698,6 +15698,59 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: ["biceps", "triceps-brachii", "infraspinatus", "trapezius"],
   },
+  {
+    id: "anamnese-fragetechnik-verlaufskontrolle-interpretationslogik",
+    category: "UNTERSUCHUNG",
+    title: "„Sonstiges?” — die unscheinbarste Anamnesefrage mit dem größten Ertrag",
+    teaser:
+      "Besitzer brauchen Zeit, um sich auf die Tiefe der Fragen einzustellen — viele wichtige Fakten fallen ihnen erst am Ende des Gesprächs wieder ein. Wer die letzte, offene Frage weglässt, verliert genau diese Fakten.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ziel der Anamnese: eine Lebenskrankheitsgeschichte",
+        text: "In den Vorbericht fließen sowohl die Ergebnisse des ausführlichen Besitzergesprächs als auch Vorbericht und Befunde eines zuweisenden Tierarztes ein. Ziel ist es, eine Lebenskrankheitsgeschichte des Patienten zu entwickeln, um manifeste Erkrankungen, pathogene Faktoren und mögliche verdächtige Störfelder zu erkennen — nicht nur die aktuell geschilderte Beschwerde isoliert zu erfassen.",
+      },
+      {
+        type: "text",
+        heading: "Warum auch banal wirkende Äußerungen aufgenommen werden sollten",
+        text: "Es sollten alle Äußerungen des Besitzers aufgenommen werden, auch wenn sie anfangs noch so banal oder unbedeutend erscheinen — eine aufgefrischte Erinnerung an z. B. eine kleine, längst vergessene Verletzung (Narbe) kann eine später notwendige Störfeldsuche erheblich erleichtern. Besitzer müssen sich dabei erst auf die Art und Tiefe der Fragen einstellen: Immer wieder kommen wichtige Fakten erst am Schluss des Gesprächs ins Bewusstsein zurück („Wenn Sie mich so fragen, fällt mir ein, dass …“). Die abschließende, bewusst offene Frage „Sonstiges?” trägt dieser Erfahrung Rechnung — sie gibt dem Besitzer noch einmal gezielt die Chance, das bereits Erhobene zu überdenken und zu ergänzen, statt das Gespräch beim ersten vollständig wirkenden Antwortkatalog zu beenden.",
+      },
+      {
+        type: "table",
+        heading: "Konkrete Fragen und ihre diagnostische Schlussfolgerung (Auswahl)",
+        columns: ["Frage", "Mögliche Schlussfolgerung"],
+        rows: [
+          ["Wie lange besteht das Leiden?", "Akut / chronifiziert (1–3 Monate) / chronisch (ab ca. 3 Monaten)"],
+          ["Erstmals oder rezidivierend?", "Klärt, in welchem Zustand überhaupt erste Beschwerden diesbezüglich aufgetreten sind"],
+          ["Intermittierend oder dauernd?", "Hinweis auf saisonale Faktoren bzw. ein primäres oder sekundäres Problem"],
+          ["Veränderung der Symptome in den Jahreszeiten?", "Winterverstärkung (Arthrosen? Tendomyosen?) vs. Sommerverstärkung (zusätzliche Herz-/Kreislaufbelastung?)"],
+          ["Probleme stärker oder schwächer bei Belastung?", "Hinweis, ob eher im aktiven oder im passiven Bewegungsapparat zu suchen ist"],
+          ["Einschränkung in speziellen Gangarten? Vermehrter Trab?", "Braucht mehr Schwungunterstützung; vermehrt langsamer Galopp („Schweinsgalopp“) deutet auf einen fortgeschrittenen Fall mit eher schweren Knorpelschäden hin"],
+          ["Andere bekannte orthopädische Probleme (Stufensteigen, Aufstehen, Niederlegen, Autosprung, Ballspiel, Zusatzbewegungen)?", "Spezifische Besitzerbeobachtungen aus dem Alltag, die später auch zur Abschätzung des Therapieerfolgs dienen"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Weitere gezielte Symptomabfragen",
+        text: "Ergänzend wird gezielt nach weiteren möglichen Schmerzsymptomen gefragt: Appetit- und Trinkverhalten (verminderter Appetit/Inappetenz und/oder vermehrtes Trinken), vertiefte Atmung/Keuchen/Stöhnen, Lautäußerungen (Jaulen, Stöhnen, Winseln, Quieken), Verhaltensauffälligkeiten (Übererregung, Aggression, Mattigkeit, Somnolenz, Teilnahmslosigkeit, vermehrtes Putzen/Belecken/Benagen einzelner Körperstellen) sowie das Erscheinungsbild (mattes/struppiges/fettiges Fell als Zeichen vermindertem Putzverhaltens, müder Blick). Zusätzlich wird systematisch nach bereits erhobenen Befunden und daraus gezogenen Schlussfolgerungen sowie nach bisherigen Behandlungen, deren Erfolg und dessen Dauer gefragt — wobei ein Misserfolg einer bestimmten Methode (z. B. Akupunktur) bei einem Vorbehandler nicht automatisch zum Ausschluss dieser Methode aus den eigenen Therapiemöglichkeiten führen sollte, da auch Anwendungsfehler oder andere Einflussfaktoren infrage kommen.",
+      },
+      {
+        type: "text",
+        heading: "Verlaufsanamnese: pauschale Aussagen nicht einfach glauben",
+        text: "Bei jedem Folgebesuch wird eine Verlaufs- bzw. Zwischenanamnese erhoben, die sich auf Veränderungen des Patienten und die Primäranamnese bezieht — sie ist genauso wichtig wie die Erstanamnese, da der subjektive Besitzereindruck schließlich der Grund für den Tierarztbesuch war. Pauschale Äußerungen wie „Es geht ihm viel besser!“, „Es geht ihm schlechter als beim letzten Mal!“ oder „Gleichbleibend!“ sollten nicht unhinterfragt stehen gelassen, sondern im Detail gegenüber der Erstvorstellung nachgefragt werden. Dabei kommt es durchaus öfter vor, dass sich ein orthopädischer Patient bei der tierärztlichen Gangbildkontrolle nicht sichtbar besser bewegt, der Besitzer aber von echten Fortschritten in Leistungswillen, Kondition oder anderen für ihn relevanten Lebensäußerungen berichtet — ein Normalbefund in der Gangbildanalyse schließt einen wahrgenommenen Therapieerfolg also nicht aus, und beide Informationsquellen sollten unabhängig gewichtet werden.",
+      },
+      {
+        type: "text",
+        heading: "Die Anamnese bleibt Mittel zum Zweck",
+        text: "So wichtig die Anamnese für die Differenzialdiagnostik auch ist — aus ihr dürfen keinesfalls voreilige Schlüsse gezogen werden. Der Untersucher bleibt, wie im gesamten Untersuchungsgang, der Objektivität verpflichtet: Anamnestische Besitzerbeobachtungen geben oft schon die Richtung der weiteren Befunderhebung vor, ersetzen diese aber nicht.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Überkonfidenz"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.2 (Vorbericht/Anamnese, mit Unterabschnitten 4.2.1 Eingangsanamnese und 4.2.2 Verlaufs-/Zwischenanamnese), S. 54–57 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk g(20).pdf). Das Lebenskrankheitsgeschichte-Ziel, das „Sonstiges?“-Prinzip samt Begründung, die konkreten Frage-Schlussfolgerungs-Paare, die weiteren Symptomabfragen (inkl. des Hinweises zum Vorbehandlungs-Misserfolg), die Verlaufsanamnese-Logik samt dem Gangbildkontrolle-vs.-Besitzereindruck-Beispiel sowie die Objektivitätsmahnung sind im Original so beschrieben. Bewusst nicht dupliziert mit dem bestehenden Eintrag `anamnese-struktur-vier-kategorien-adspektion-ruhepositionen` (andere Quelle: Könneker/Reiter): Jener Eintrag beschreibt die vier übergeordneten Anamnese-Kategorien als Struktur-Checkliste, dieser Eintrag die konkrete Fragetechnik und Frage-Interpretation-Logik innerhalb eines Anamnesegesprächs — unterschiedliche, einander ergänzende Ebenen. Bewusst NICHT übernommen: der abgebildete Anamnesebogen (Abb. 4.1, reines Formularbeispiel ohne eigenständigen Lehrinhalt).",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {
