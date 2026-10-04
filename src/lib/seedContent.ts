@@ -15654,6 +15654,50 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "vorderextremitaet-funktionspruefung-bizepsursprungssehnen-ueberdehnungstest",
+    category: "UNTERSUCHUNG",
+    title: "Der verräterische Ellenbogen: wenn Streckung dort möglich ist, wo sie es nicht sein sollte",
+    teaser:
+      "Wird die Vorderextremität maximal nach hinten angehoben, dürfte sich der Ellenbogen eigentlich nicht mehr weiter strecken lassen — lässt er sich doch noch strecken, ist das ein konkretes Zeichen für eine irreversible Überdehnung der Bizepsursprungssehne.",
+    sections: [
+      {
+        type: "text",
+        heading: "Vom Groben zum Detail",
+        text: "Gelenkfunktionsprüfungen sind besonders dann wichtig, wenn das Gangbild keine eindeutigen Hinweise geliefert hat. Die Untersuchung beginnt allgemein mit Beugung und Streckung ganzer Extremitäten und wird im Verlauf zunehmend detaillierter — erst danach folgen die differenzierteren Einzeltests.",
+      },
+      {
+        type: "text",
+        heading: "Der Streckungstest und seine Fehlerquelle",
+        text: "Der Untersucher erfasst das Bein in Höhe der Metakarpalknochen mit einer Hand, während die andere Hand den Halsansatz fixiert. Diese Fixierung ist kein Nebenschauplatz: Wird sie vernachlässigt, kann der Zug an der Extremität den Hals mit nach vorn ziehen — die Provokation wird dadurch teilweise verhindert, was zu falsch negativen Ergebnissen oder einer Verschleierung des Befundes führt. Der steigende Zug wirkt sich vor allem auf die Trapezius-Infraspinatus-Trizeps-Kette aus — exakt die bereits bekannte kaudale Muskelfunktionskette der Vordergliedmaße (M. latissimus dorsi → M. trapezius pars thoracalis → M. infraspinatus → M. deltoideus → M. triceps brachii). Gleichzeitig wird auch das Schultergelenk selbst provoziert, und zwar durch Erzeugung eines kleinen intraartikulären Unterdrucks.",
+      },
+      {
+        type: "text",
+        heading: "Schulter von Ellenbogen trennen",
+        text: "Um zwischen Schmerzhaftigkeit in der Schulterregion und im gestreckten Ellenbogengelenk zu differenzieren, wird dieselbe Zugprobe wiederholt — diesmal mit Erfassen der Extremität proximal des Ellenbogengelenks statt am Metakarpus. So lässt sich eingrenzen, welches der beiden Gelenke tatsächlich für die Schmerzreaktion verantwortlich ist.",
+      },
+      {
+        type: "text",
+        heading: "Das scharfe Zeichen: der Bizepsursprungssehnen-Überdehnungstest",
+        text: "Zur gezielten Prüfung der kranialen Schulterregion steht der Untersucher seitlich des Patienten und hebt die Extremität nach hinten maximal an. In dieser Endposition dürfte der Ellenbogen eigentlich nicht mehr weiter streckbar sein — die Anatomie (Verlauf der langen Bizepsursprungssehne über das gebeugte Schultergelenk, s. Sulcus intertubercularis) begrenzt die Streckung an diesem Punkt physiologisch. Lässt sich der Ellenbogen in dieser Position trotzdem noch weiter strecken, spricht das für eine irreversible Überdehnung der Bizepsursprungssehne — ein konkretes anatomisches Zeichen, keine bloße Schmerzreaktion.",
+      },
+      {
+        type: "text",
+        heading: "Beugungstest und wichtige Einschränkungen",
+        text: "Im Anschluss beugt der Untersucher, ausgehend vom bereits gebeugten Karpalgelenk, überblicksmäßig alle Gelenke gleichzeitig, um Einschränkungen und Schmerzhaftigkeiten grob zu erfassen. Bei der isolierten Prüfung einzelner Gelenke im Liegen ist aber Vorsicht geboten: Es muss wirklich nur jeweils ein Gelenk bewegt werden. Das ist besonders am Schultergelenk schwierig, weil das Schulterblatt während Beugung und Streckung zusätzlich fixiert werden muss, damit die Bewegung nicht über das Schulterblatt kompensiert wird. Eine wirklich singuläre Beugung des Sprunggelenks ist wegen der engen Verbindung über Fersenbeinkappe, Achillessehne und M. gastrocnemius zum Kniegelenk ohnehin nur bedingt möglich — jede Sprunggelenkbeugung bewegt das Kniegelenk teilweise mit.",
+      },
+      {
+        type: "text",
+        heading: "Routinemäßiger Abschluss",
+        text: "Bevor der Patient wieder aufsteht, werden der Einfachheit halber noch die Stabilität des Kniegelenks (Schubladentest) und der Patella mitgeprüft — ein praktischer Hinweis zur effizienten Untersuchungsreihenfolge im Liegen.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.7.1 (Funktionsprüfungen, Vorderextremitäten), S. 107f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk g(23).pdf). Der Streckungstest mit Halsfixierung, die Trapezius-Infraspinatus-Trizeps-Kette, die Schulter-/Ellenbogen-Differenzierung durch proximales Umgreifen, der Bizepsursprungssehnen-Überdehnungstest, der Beugungstest sowie die Einschränkungen bei Schulter- und Sprunggelenk sind im Original so beschrieben. Die Trapezius-Infraspinatus-Trizeps-Kette ist explizit dieselbe kaudale Muskelkette wie im bestehenden Eintrag `muskelfunktionsketten-kasper-zohmann-diagnostisches-werkzeug` (gleiche Quelle) beschrieben — dort als anatomisches Konzept, hier als konkrete Funktionsprüfung, bewusst als eigenständiger, anwendungsnäherer Eintrag angelegt statt dupliziert. Schließt den letzten offenen Punkt aus Kap. 4.5.7 (Funktionsprüfungen) dieser Quelle — Kap. 4.5.7.2 (Sakroiliakalgelenk) war bereits als `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe` umgesetzt.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["biceps", "triceps-brachii", "infraspinatus", "trapezius"],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

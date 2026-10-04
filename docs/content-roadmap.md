@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 350 Einträge (genaue Kategorien-Aufteilung kann leicht
+- Wissensbibliothek: 351 Einträge (genaue Kategorien-Aufteilung kann leicht
   abweichen, da manche Einträge mehrere Kategorien berühren). Koch/Fischer,
   Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -618,7 +618,23 @@ kein Überblick verloren geht.
   eher zu Bandscheibenproblemen als unterforderte, adipöse) inklusive der
   Kappenhüfte-Kritik — **damit ist jetzt auch Kap. 4.1 „Nationale
   (Signalement)" dieser Quelle vollständig ausgewertet** (4.1.1–4.1.4
-  komplett). Verifiziert via Playwright (1/1 Seite, 0 Fehler). Kap. 5–8
+  komplett). Verifiziert via Playwright (1/1 Seite, 0 Fehler). Danach ein
+  letzter neuer Eintrag aus Kap. 4.5.7.1 (351 Wissenseinträge gesamt):
+  `vorderextremitaet-funktionspruefung-bizepsursprungssehnen-
+  ueberdehnungstest` (UNTERSUCHUNG) — der Streckungstest mit
+  Halsfixierung (Fehlerquelle: ohne Fixierung falsch-negativ), die
+  Schulter-/Ellenbogen-Differenzierung durch proximales Umgreifen, und
+  vor allem der scharfe Bizepsursprungssehnen-Überdehnungstest (Ellenbogen
+  bei maximal nach hinten angehobener Extremität dürfte nicht mehr
+  streckbar sein — ist er es doch, spricht das für eine irreversible
+  Sehnenüberdehnung), plus die Beugungstest-Einschränkungen bei Schulter-
+  und Sprunggelenk. Explizit mit dem bestehenden Eintrag
+  `muskelfunktionsketten-kasper-zohmann-diagnostisches-werkzeug`
+  verknüpft (dieselbe Trapezius-Infraspinatus-Trizeps-Kette, dort als
+  Anatomiekonzept, hier als konkrete Funktionsprüfung). **Damit ist Kap.
+  4.5.7 „Funktionsprüfungen" dieser Quelle vollständig ausgewertet**
+  (4.5.7.1 und 4.5.7.2 komplett). Verifiziert via Playwright (1/1 Seite,
+  0 Fehler). Kap. 5–8
   wurden danach stichprobenartig gesichtet (mehrere Chunks aus Kap. 5
   „Methoden der Schmerztherapie" sowie der Anfang von Kap. 7 „Schmerztherapie
   bei bestimmten Indikationen"/Kap. 8) und bewusst NICHT vollständig
@@ -2108,12 +2124,17 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
   - [x] 4.5.6 Untersuchung der distalen Extremitäten (S. 104–107):
     Zehenarthrosen und rassetypische Sesambeinfrakturen (Rottweiler) —
     daraus `zehenarthrosen-sesambeinfrakturen-uebersehene-schmerzquellen`.
-  - [~] 4.5.7 Funktionsprüfungen (S. 107–112): Die SIG-Anatomie und
-    Zohmann'sche Gelenkfunktionsprüfung sind umgesetzt (siehe
-    `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe`). Noch offen:
-    Vordergliedmaßen-Streckung/-Beugung inkl. Bizepsursprungssehnen-
-    Überdehnungstest (4.5.7.1, S. 107–108) — kleinerer, eigenständiger
-    Ergänzungskandidat.
+  - [x] 4.5.7 Funktionsprüfungen (S. 107–112), vollständig. Die SIG-Anatomie
+    und Zohmann'sche Gelenkfunktionsprüfung waren bereits umgesetzt (siehe
+    `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe`). Am 04.10.2026
+    ergänzt: 4.5.7.1 (S. 107f., Chunk g(23).pdf) als
+    `vorderextremitaet-funktionspruefung-bizepsursprungssehnen-
+    ueberdehnungstest` — der Streckungstest mit Halsfixierung, die
+    Schulter-/Ellenbogen-Differenzierung, der Bizepsursprungssehnen-
+    Überdehnungstest sowie die Beugungstest-Einschränkungen bei Schulter-
+    und Sprunggelenk; explizit mit `muskelfunktionsketten-kasper-zohmann-
+    diagnostisches-werkzeug` (dieselbe Trapezius-Infraspinatus-Trizeps-
+    Kette) verknüpft. Verifiziert via Playwright (1/1 Seite, 0 Fehler).
   - [x] 4.6 Die Untersuchung der Katze (S. 112–114): daraus
     `katzenspezifische-schmerzdiagnostik-verdeckte-symptomatik`.
   - [ ] 4.7 Bildgebende Diagnostik (S. 114–116): CT-/MRI-/Arthroskopie-
