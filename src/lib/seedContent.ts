@@ -15751,6 +15751,53 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
+  {
+    id: "lahmheit-bewegungsstoerung-begriffsklaerung-gangbildanalyse",
+    category: "UNTERSUCHUNG",
+    title: "Lahmheit ist nicht Bewegungsstörung — eine Unterscheidung, die die klassische Definition übersieht",
+    teaser:
+      "Die klassische Veterinärorthopädie trennt Lahmheit von Bewegungsstörung nur danach, wie viele Beine betroffen sind — eine Sackgasse, die eine qualitative Unterscheidung ganz übersieht: Umverteilt sich das Gewicht, oder verändert sich nur der Bewegungsablauf?",
+    sections: [
+      {
+        type: "text",
+        heading: "Die klassische Definition führt in eine Sackgasse",
+        text: "Die klassische Veterinärorthopädie unterscheidet Lahmheit und Bewegungsstörung nur quantitativ: Lahmheit bezieht sich auf eine einzelne Extremität, Bewegungsstörung auf das vordere oder gleichseitige Beinpaar. Diese rein zahlenbezogene Abgrenzung differenziert nicht in qualitativer Hinsicht — sie beantwortet nicht, worin sich die beiden Phänomene inhaltlich tatsächlich unterscheiden.",
+      },
+      {
+        type: "list",
+        heading: "Die qualitative Unterscheidung",
+        items: [
+          "Lahmheit: Verlust der gleichmäßigen Belastung der vier Extremitäten — es erfolgt eine sichtbare Gewichtsumverteilung während der Bewegung.",
+          "Bewegungsstörung: tritt bei orthograder (gleichmäßiger) Belastung im Bewegungsablauf einer Extremität auf — z. B. wird die Extremität schaufelnd vorgeführt, oder es hat sich eine Zusatzbewegung im Sprunggelenk aus mechanischer oder schmerzhafter Ursache eingestellt. Die Gewichtsverteilung selbst bleibt dabei unauffällig.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum diese Unterscheidung in der Praxis zählt",
+        text: "Eine Lahmheit zeigt dem Untersucher primär eine Schmerz- bzw. Entlastungsreaktion über die Gewichtsverteilung an; eine Bewegungsstörung dagegen kann rein mechanisch bedingt sein (etwa eine fixierte Gelenkeinschränkung), ohne dass überhaupt eine aktive Schmerzvermeidung vorliegt — oder umgekehrt schmerzbedingt sein, ohne dass sich das Gewicht sichtbar verlagert. Wer beide Phänomene unter dem gemeinsamen Oberbegriff „Lahmheitsgrad“ zusammenfasst, verwischt diesen Unterschied und kann eine rein mechanische Bewegungseinschränkung fälschlich als reine Schmerzlahmheit einordnen oder umgekehrt.",
+      },
+      {
+        type: "text",
+        heading: "Die Rolle der Gangbildanalyse im Untersuchungsgang",
+        text: "Die Gangbildanalyse (GA) steht im Zentrum der orthopädischen Untersuchung des Hundes und verschafft Überblick über die Schmerzsituation während der Bewegung bzw. über schmerzreduzierende oder -vermeidende Schonbewegungen — wobei bewegungsbeeinträchtigende Schmerzsituationen sowohl primär orthopädischen Ursprungs sein können als auch, bei entsprechender Chronizität und Heftigkeit, sekundäre Folge internistischer Erkrankungen sein können. Gesucht wird systematisch nach reproduzierbaren Schon-/Schutzhaltungen (Entlastungshaltungen und -bewegungen), vikariierenden Ausgleichsbewegungen, Bewegungsstörungen und Lahmheiten — und versucht, Zusammenhänge zwischen diesen Veränderungen herzustellen. Die GA hat dabei ausschließlich befundenden Charakter und lässt im Sinne eines Ausschlussverfahrens nur eine differenzialdiagnostische Einengung zu — sie liefert selbst keine abschließende Diagnose.",
+      },
+      {
+        type: "text",
+        heading: "Warum die Gangbildanalyse vor der Palpation steht",
+        text: "Im Untersuchungsgang wird die GA bewusst vor den Palpationen durchgeführt: Die Manipulation am Bewegungsapparat könnte das Gangbild sonst verfälschen. Man könnte einwenden, dass diese Reihenfolge der Objektivität und Unvoreingenommenheit des Untersuchers bei der anschließenden Palpation entgegensteht — tatsächlich unterstützt die Bewegungsbeurteilung die Palpation aber qualitativ und dient zusätzlich zur Kontrolle des Therapieerfolgs im Verlauf. Die Katze ist einer systematischen Gangbildbeurteilung dabei nur sehr eingeschränkt zugänglich: Freies Laufen in der Ordination gibt zwar Hinweise auf die lahmende(n) Extremität(en) oder die Haltung der Wirbelsäule, teils lässt sich auch das Sprungverhalten (hinauf wie hinunter) beobachten — ein systematisches GA-Protokoll wie beim Hund ist aber kaum durchführbar.",
+      },
+      {
+        type: "text",
+        heading: "Ein junges diagnostisches Verfahren beim Hund",
+        text: "Die Gangbildanalyse wurde bislang nur für Pferd und Rind sowie, mit Einschränkungen, für den Hunderennsport routinemäßig gelehrt und durchgeführt — als strukturiertes diagnostisches Verfahren für den Begleithund ist sie vergleichsweise jung.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "Befund überbewertet", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.3 (Gangbildanalyse/Adspektion in der Bewegung, Einleitung), S. 57f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk g(20).pdf). Die Kritik an der rein quantitativen klassischen Definition, die qualitative Lahmheit-/Bewegungsstörung-Unterscheidung, die vier gesuchten Veränderungskategorien, der befundende (nicht diagnostische) Charakter der GA, die Begründung für die GA-vor-Palpation-Reihenfolge, die eingeschränkte Anwendbarkeit bei der Katze sowie der Hinweis auf die junge Geschichte der GA beim Hund sind im Original so beschrieben. Bewusst NICHT übernommen (Vorsicht vor möglicher Dopplung/Verfälschung durch Spaltenverschränkung in der Quelldatei, siehe Backlog-Eintrag): die Detailabschnitte zum LSÜ-Twist-Mechanismus und zum Kopfnicken-Mechanismus (Abb. 4.3/4.4) sowie die als stark spaltenverschränkt geflaggten Gangbildbefund-Tabellen (Tab. 4.2–4.4) — diese bleiben für eine künftige, besonders sorgfältige Einzelprüfung offen. Bewusst abgegrenzt vom bestehenden Eintrag `schmerzreise-hd-knie-sig-lsue-kaskade` (dieselbe Quelle): Jener Eintrag beschreibt einen konkreten biomechanischen Kompensationsmechanismus (HD → Knie → SIG → LWS), dieser Eintrag die vorgelagerte begriffliche und methodische Grundlage der Gangbildanalyse selbst — unterschiedliche Ebenen, bewusst nicht dupliziert.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
 ];
 
 export async function seedContent(prisma: PrismaClient) {

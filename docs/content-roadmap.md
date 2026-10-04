@@ -62,7 +62,7 @@ kein Überblick verloren geht.
 
 ## Stand (29.09.2026)
 
-- Wissensbibliothek: 352 Einträge (genaue Kategorien-Aufteilung kann leicht
+- Wissensbibliothek: 353 Einträge (genaue Kategorien-Aufteilung kann leicht
   abweichen, da manche Einträge mehrere Kategorien berühren). Koch/Fischer,
   Lahmheitsuntersuchung beim Hund
   (ISBN 978-3-13-242101-1), ist vollständig durchgearbeitet (Kap. 1–9, 54
@@ -650,7 +650,23 @@ kein Überblick verloren geht.
   adspektion-ruhepositionen` (andere Quelle: Könneker/Reiter) abgegrenzt —
   unterschiedliche Ebenen (Kategorien-Checkliste vs. konkrete
   Fragetechnik), bewusst nicht dupliziert. Verifiziert via Playwright
-  (1/1 Seite, 0 Fehler). Kap. 5–8
+  (1/1 Seite, 0 Fehler). Danach ein weiterer neuer Eintrag aus der
+  Einleitung von Kap. 4.3 (353 Wissenseinträge gesamt):
+  `lahmheit-bewegungsstoerung-begriffsklaerung-gangbildanalyse`
+  (UNTERSUCHUNG) — die Kritik an der rein quantitativen klassischen
+  Lahmheit-/Bewegungsstörung-Definition („wie viele Beine") zugunsten
+  einer qualitativen Unterscheidung (Gewichtsumverteilung vs. veränderter
+  Bewegungsablauf bei unauffälliger Gewichtsverteilung), die vier von der
+  Gangbildanalyse gesuchten Veränderungskategorien, ihr rein befundender
+  (nicht diagnostischer) Charakter sowie die Begründung, warum sie im
+  Untersuchungsgang bewusst vor der Palpation steht. Bewusst NICHT
+  übernommen: die Detailabschnitte zum LSÜ-Twist-/Kopfnicken-Mechanismus
+  und die als spaltenverschränkt geflaggten Gangbildbefund-Tabellen (Tab.
+  4.2–4.4) — bleiben für eine künftige, sorgfältige Einzelprüfung offen.
+  Bewusst gegen den bestehenden Eintrag `schmerzreise-hd-knie-sig-lsue-
+  kaskade` (dieselbe Quelle) abgegrenzt — unterschiedliche Ebenen
+  (biomechanischer Mechanismus vs. begriffliche/methodische Grundlage).
+  Verifiziert via Playwright (1/1 Seite, 0 Fehler). Kap. 5–8
   wurden danach stichprobenartig gesichtet (mehrere Chunks aus Kap. 5
   „Methoden der Schmerztherapie" sowie der Anfang von Kap. 7 „Schmerztherapie
   bei bestimmten Indikationen"/Kap. 8) und bewusst NICHT vollständig
@@ -2128,13 +2144,16 @@ erneut aus denselben Chunks extrahieren) und Satz für Satz gelesen.
     (1/1 Seite, 0 Fehler).
   - [x] 4.3.2.2 Gangarten — Schritt/Trab (S. 61–63): daraus
     `schritt-trab-knorpelernaehrung-synoviapumpe-biomechanik`.
-  - [ ] 4.3 Gangbildanalyse, Rest (S. 57–74): Lahmheit-vs.-Bewegungsstörung-
-    Definition, LSÜ-Twist-Mechanismus und Kopfnicken-Mechanismus im Detail
-    (Abb. 4.3/4.4 — Vorsicht: thematisch nah am bestehenden Eintrag
-    `schmerzreise-hd-knie-sig-lsue-kaskade`, vor Eintragserstellung genau
-    prüfen, ob die Gangbild-Erkennungsperspektive hier wirklich genug
-    Mehrwert bietet oder eher als kurze Ergänzung jenes Eintrags passt),
-    Passgang, Asymmetrie-Ursachenkatalog, Krallenschleifen-
+  - [x] 4.3 Gangbildanalyse, Einleitung/Lahmheit-vs.-Bewegungsstörung-Definition
+    (04.10.2026, S. 57f., Chunk g(20).pdf): daraus
+    `lahmheit-bewegungsstoerung-begriffsklaerung-gangbildanalyse` — geprüft
+    gegen `schmerzreise-hd-knie-sig-lsue-kaskade` und bewusst nicht
+    dupliziert (unterschiedliche Ebenen: begriffliche/methodische Grundlage
+    vs. konkreter biomechanischer Mechanismus). Verifiziert via Playwright
+    (1/1 Seite, 0 Fehler).
+  - [ ] 4.3 Gangbildanalyse, Rest (S. 58–74): LSÜ-Twist-Mechanismus und
+    Kopfnicken-Mechanismus im Detail (Abb. 4.3/4.4), Passgang,
+    Asymmetrie-Ursachenkatalog, Krallenschleifen-
     Differenzialdiagnose (orthopädisch vs. neurologisch), Tab. 4.2–4.4
     Gangbildbefund-Tabellen (vom Subagenten als stark spaltenverschränkt
     geflaggt, Bedeutung/Bemerkungen-Spalten zusammengefasst) — vorsichtig
