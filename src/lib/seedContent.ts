@@ -44,14 +44,17 @@ type CaseSeed = {
   befundbildUrl?: string;
 };
 
+type AnatomyKindSeed = "MUSKEL" | "KNOCHEN" | "GELENK" | "BAND" | "NERV" | "SONSTIGE";
+
 type AnatomySeed = {
   id: string;
   name: string;
+  kind?: AnatomyKindSeed; // Default: MUSKEL (siehe seedContent-Funktion)
   relatedCaseId?: string;
-  origin: string;
-  insertion: string;
-  funktion: string;
-  innervation: string;
+  origin?: string;
+  insertion?: string;
+  funktion?: string;
+  innervation?: string;
   clinicalRelevance: string;
   palpationHint: string;
   transferQ: string;
@@ -777,9 +780,9 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "facettengelenke",
     name: "Facettengelenke, lumbosakraler Übergang",
+    kind: "GELENK",
     relatedCaseId: "nala",
     origin: "Verbindungen zwischen den Wirbelbögen benachbarter Lendenwirbel",
-    insertion: "—",
     funktion: "Führung und Begrenzung der Wirbelsäulenbewegung, v. a. Rotation, Flexion/Extension",
     innervation: "Rr. dorsales der Spinalnerven",
     clinicalRelevance:
@@ -803,10 +806,9 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "huefte",
     name: "Articulatio coxae — Kapsel-Band-Apparat",
+    kind: "GELENK",
     relatedCaseId: "luna",
-    origin: "—",
-    insertion: "—",
-    funktion: "Ligamentum capitis femoris und Gelenkkapsel sichern die Kongruenz von Femurkopf und Hüftpfanne",
+    insertion: "Ligamentum capitis femoris und Gelenkkapsel sichern die Kongruenz von Femurkopf und Hüftpfanne",
     innervation: "Äste des N. femoralis und N. ischiadicus versorgen die Gelenkkapsel",
     clinicalRelevance:
       "Bei Hüftdysplasie liegt eine Laxität dieses Kapsel-Band-Apparats vor, die sich im Wachstumsalter durch Gangbildveränderungen zeigt, oft bevor radiologisch sichtbare Veränderungen entstehen.",
@@ -825,9 +827,8 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "discus",
     name: "Discus intervertebralis (Bandscheibe)",
+    kind: "SONSTIGE",
     relatedCaseId: "baer",
-    origin: "—",
-    insertion: "—",
     funktion:
       "Stoßdämpfung und Beweglichkeit zwischen benachbarten Wirbelkörpern durch den elastischen Nucleus pulposus und den umgebenden Anulus fibrosus.",
     innervation: "Sensible Versorgung des äußeren Anulus fibrosus über den N. sinuvertebralis.",
@@ -15887,11 +15888,12 @@ export async function seedContent(prisma: PrismaClient) {
       where: { slug: a.id },
       update: {
         name: a.name,
+        kind: a.kind ?? "MUSKEL",
         relatedCaseId: a.relatedCaseId ? caseIdBySlug.get(a.relatedCaseId) : null,
-        origin: a.origin,
-        insertion: a.insertion,
-        funktion: a.funktion,
-        innervation: a.innervation,
+        origin: a.origin ?? null,
+        insertion: a.insertion ?? null,
+        funktion: a.funktion ?? null,
+        innervation: a.innervation ?? null,
         clinicalRelevance: a.clinicalRelevance,
         palpationHint: a.palpationHint,
         transferQ: a.transferQ,
@@ -15901,6 +15903,7 @@ export async function seedContent(prisma: PrismaClient) {
       create: {
         slug: a.id,
         name: a.name,
+        kind: a.kind ?? "MUSKEL",
         status: "DRAFT",
         relatedCaseId: a.relatedCaseId ? caseIdBySlug.get(a.relatedCaseId) : undefined,
         origin: a.origin,

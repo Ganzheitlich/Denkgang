@@ -8,7 +8,7 @@ type ChatMessage = { role: "user" | "assistant"; content: string };
 
 const STARTER: ChatMessage = {
   role: "user",
-  content: "Ich bin bereit, lass uns mit diesem Muskel starten.",
+  content: "Ich bin bereit, lass uns mit dieser Struktur starten.",
 };
 
 export function AnatomyTutorChat({

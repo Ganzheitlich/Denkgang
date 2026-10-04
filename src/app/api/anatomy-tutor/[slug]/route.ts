@@ -5,8 +5,8 @@ import { buildAnatomyTutorSystemPrompt } from "@/lib/anatomyTutorPrompt";
 
 /**
  * Serverseitiger Anthropic-Proxy fuer den Anatomie-Tutor (mehrstufiger Dialog):
- * der Key bleibt hier, die Muskel-Fakten kommen ausschliesslich aus der DB
- * (getAnatomyForTutor, nur APPROVED) und werden dem Modell als alleinige
+ * der Key bleibt hier, die Fakten zur Struktur kommen ausschliesslich aus der
+ * DB (getAnatomyForTutor, nur APPROVED) und werden dem Modell als alleinige
  * Wissensgrundlage vorgegeben.
  */
 
@@ -39,7 +39,7 @@ export async function POST(request: Request, { params }: RouteContext<"/api/anat
     .map((m) => ({ role: m.role, content: m.content.slice(0, MAX_MESSAGE_LENGTH) }));
 
   if (messages.length === 0) {
-    messages.push({ role: "user", content: "Ich bin bereit, lass uns mit diesem Muskel starten." });
+    messages.push({ role: "user", content: "Ich bin bereit, lass uns mit dieser Struktur starten." });
   }
   if (messages[messages.length - 1].role !== "user") {
     return NextResponse.json({ error: "Ungültiger Nachrichtenverlauf." }, { status: 400 });

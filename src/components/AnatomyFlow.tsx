@@ -5,15 +5,18 @@ import Link from "next/link";
 import Image from "next/image";
 import { checkTransferChoice, submitAnatomyAttempt } from "@/app/anatomy/[slug]/actions";
 import { KnowledgeCta } from "@/components/KnowledgeCta";
+import { ANATOMY_KIND_LABELS, fieldLabelsFor } from "@/lib/anatomyKind";
+import type { AnatomyKind } from "@/generated/prisma/enums";
 
 type ClientAnatomy = {
   id: string;
   name: string;
+  kind: AnatomyKind;
   bildUrl: string | null;
-  origin: string;
-  insertion: string;
-  funktion: string;
-  innervation: string;
+  origin: string | null;
+  insertion: string | null;
+  funktion: string | null;
+  innervation: string | null;
   clinicalRelevance: string;
   palpationHint: string;
   transferQ: string;
@@ -44,13 +47,21 @@ export function AnatomyFlow({ anatomyData: a }: { anatomyData: ClientAnatomy }) 
     await submitAnatomyAttempt(a.id, choice);
   }
 
+  const labels = fieldLabelsFor(a.kind);
+  const fields: { label: string; value: string | null }[] = [
+    { label: labels.origin, value: a.origin },
+    { label: labels.insertion, value: a.insertion },
+    { label: labels.funktion, value: a.funktion },
+    { label: labels.innervation, value: a.innervation },
+  ].filter((f) => f.value);
+
   return (
     <>
       <div className="top-nav">
         <Link href="/dashboard" className="back-link">
           ← Zur Übersicht
         </Link>
-        <span className="tag">Anatomie</span>
+        <span className="tag">{ANATOMY_KIND_LABELS[a.kind]}</span>
       </div>
       <div className="case-title">{a.name}</div>
 
@@ -66,23 +77,18 @@ export function AnatomyFlow({ anatomyData: a }: { anatomyData: ClientAnatomy }) 
         </div>
       )}
 
-      <div className="step-block">
-        <div className="step-label">Ursprung → Ansatz → Funktion</div>
-        <div className="card">
-          <div>
-            <strong>Ursprung:</strong> {a.origin}
-          </div>
-          <div style={{ marginTop: 6 }}>
-            <strong>Ansatz:</strong> {a.insertion}
-          </div>
-          <div style={{ marginTop: 6 }}>
-            <strong>Funktion:</strong> {a.funktion}
-          </div>
-          <div style={{ marginTop: 6 }}>
-            <strong>Innervation:</strong> {a.innervation}
+      {fields.length > 0 && (
+        <div className="step-block">
+          <div className="step-label">{labels.stepLabel}</div>
+          <div className="card">
+            {fields.map((f, i) => (
+              <div key={f.label} style={i > 0 ? { marginTop: 6 } : undefined}>
+                <strong>{f.label}:</strong> {f.value}
+              </div>
+            ))}
           </div>
         </div>
-      </div>
+      )}
 
       {step === 0 && (
         <div className="btn-row">

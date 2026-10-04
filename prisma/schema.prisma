@@ -125,17 +125,35 @@ model CaseRetrievalOption {
 
 // ---------- Anatomie ----------
 
+// Deckt per `kind` nicht nur Muskeln ab, sondern auch Knochen, Gelenke,
+// Bänder, Nerven und sonstige Strukturen (z. B. Bandscheibe). Die vier
+// "Muskel-Felder" (origin/insertion/funktion/innervation) werden je nach
+// Kind mit anderer Bedeutung belegt und in der UI entsprechend beschriftet
+// (siehe src/lib/anatomyKind.ts) statt pro Kind eigene Spalten anzulegen —
+// z. B. bei NERV: origin = Ursprungssegmente, insertion = Verlauf,
+// funktion = motorische Versorgung, innervation = sensible Versorgung.
+// Bei KNOCHEN sind manche Felder nicht sinnvoll belegbar und bleiben leer.
+enum AnatomyKind {
+  MUSKEL
+  KNOCHEN
+  GELENK
+  BAND
+  NERV
+  SONSTIGE
+}
+
 model AnatomyItem {
   id                String        @id @default(cuid())
   slug              String        @unique
   name              String
+  kind              AnatomyKind   @default(MUSKEL)
   status            ContentStatus @default(DRAFT)
   relatedCaseId     String?
   relatedCase       Case?         @relation(fields: [relatedCaseId], references: [id])
-  origin            String        @db.Text
-  insertion         String        @db.Text
-  funktion          String        @db.Text
-  innervation       String        @db.Text
+  origin            String?       @db.Text
+  insertion         String?       @db.Text
+  funktion          String?       @db.Text
+  innervation       String?       @db.Text
   clinicalRelevance String        @db.Text
   palpationHint     String        @db.Text
   transferQ         String        @db.Text

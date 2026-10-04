@@ -140,6 +140,7 @@ export async function getAnatomyForTutor(slug: string) {
       id: true,
       slug: true,
       name: true,
+      kind: true,
       bildUrl: true,
       origin: true,
       insertion: true,

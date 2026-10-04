@@ -1,0 +1,9 @@
+-- CreateEnum
+CREATE TYPE "AnatomyKind" AS ENUM ('MUSKEL', 'KNOCHEN', 'GELENK', 'BAND', 'NERV', 'SONSTIGE');
+
+-- AlterTable
+ALTER TABLE "AnatomyItem" ADD COLUMN     "kind" "AnatomyKind" NOT NULL DEFAULT 'MUSKEL',
+ALTER COLUMN "origin" DROP NOT NULL,
+ALTER COLUMN "insertion" DROP NOT NULL,
+ALTER COLUMN "funktion" DROP NOT NULL,
+ALTER COLUMN "innervation" DROP NOT NULL;

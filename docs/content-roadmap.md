@@ -13,6 +13,47 @@ kein Überblick verloren geht.
 
 ## Technische Grundlage
 
+- **AnatomyItem-Kind-Erweiterung (04.10.2026).** Auf Vanessas Nachfrage
+  ("Wieviele Muskeln hat so ein Hund? Wirklich alle abgedeckt? Knochen hätte
+  ich gerne auch noch dabei, ebenso Nerven, Bänder usw") wurde das bisher
+  reine Muskel-Datenmodell erweitert: `AnatomyItem` hat jetzt ein `kind`-Feld
+  (`AnatomyKind`-Enum: `MUSKEL`/`KNOCHEN`/`GELENK`/`BAND`/`NERV`/`SONSTIGE`,
+  Default `MUSKEL` für Abwärtskompatibilität). Die vier bisherigen
+  "Muskel-Felder" (`origin`/`insertion`/`funktion`/`innervation`) bleiben als
+  Spalten bestehen (keine Schema-Zersplitterung in 6 verschiedene Tabellen),
+  sind jetzt aber **nullable** und tragen je nach `kind` eine andere
+  fachliche Bedeutung — die Beschriftung in der UI kommt zentral aus
+  `src/lib/anatomyKind.ts` (`ANATOMY_FIELD_LABELS`), z. B. bei `NERV`:
+  `origin` = Ursprungssegmente, `insertion` = Verlauf, `funktion` =
+  motorische Versorgung, `innervation` = sensible Versorgung; bei `KNOCHEN`:
+  `origin` = Lage, `insertion` = tastbare Landmarken, `funktion` =
+  Besonderheiten, `innervation` = Periost-/Gefäßversorgung. Leere Felder
+  werden in der UI (`AnatomyFlow.tsx`, `review/anatomy/[id]/page.tsx`)
+  automatisch ausgeblendet statt als "—"-Platzhalter angezeigt. Migration
+  `20261004184915_anatomy_item_kind` ist rein additiv (neue Spalte mit
+  Default, vier Spalten von `NOT NULL` auf nullable) — kein Datenverlust,
+  keine Breaking Changes für bestehende 51 Muskel-Items. Der sokratische
+  Anatomie-Tutor-Prompt (`anatomyTutorPrompt.ts`) wurde ebenfalls
+  kind-bewusst gemacht (nutzt dieselben Feld-Labels, Herleitungsfragen
+  passen sich sinngemäß an Muskel/Gelenk/Nerv/Knochen an).
+  **Scope-Entscheidung (bestätigt mit Vanessa):** Weiterhin klinisch
+  kuratiert, nicht anatomisch vollständig — es werden auch für die neuen
+  Kinds nur Strukturen mit echtem physiotherapeutisch-diagnostischem Wert
+  aus verifizierten Quellen aufgenommen, kein Selbstzweck-Vollständigkeits-
+  ziel Richtung der ca. 700 Skelettmuskeln/hunderter Knochen eines Hundes.
+  Im selben Zug wurden drei bestehende, bisher ins Muskel-Schema
+  gezwängte Items korrekt reklassifiziert (keine inhaltliche Änderung an
+  bereits verifizierten Fakten, nur Kind + Feld-Zuordnung): `facettengelenke`
+  und `huefte` → `GELENK` (die inhaltlich bereits vorhandene
+  Kapsel-Band-Information bei `huefte` von `funktion` nach `insertion`
+  verschoben, da dort unter `GELENK` korrekt als "Kapsel-Band-Apparat"
+  beschriftet), `discus` → `SONSTIGE` (Bandscheibe ist kein Gelenk). Alle
+  drei zeigen jetzt keine "—"-Platzhalter mehr. Verifiziert: `tsc`/`eslint`
+  clean, `next build` erfolgreich, Reseed bestätigt (weiterhin 51
+  Anatomie-Items, keine Zähländerung), Playwright gegen Review-Seite und
+  öffentlichen Anatomie-Flow für je ein Beispiel pro neu genutztem Kind
+  (`GELENK`: huefte, `SONSTIGE`: discus, `MUSKEL`: biceps als
+  Regressions-Check) — 0 Fehler.
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte

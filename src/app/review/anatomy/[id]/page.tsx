@@ -4,6 +4,7 @@ import Image from "next/image";
 import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
 import { setContentStatus } from "@/app/review/actions";
+import { ANATOMY_KIND_LABELS, fieldLabelsFor } from "@/lib/anatomyKind";
 
 export default async function AnatomyReviewPreviewPage({ params }: { params: Promise<{ id: string }> }) {
   await requireReviewerSession();
@@ -15,6 +16,14 @@ export default async function AnatomyReviewPreviewPage({ params }: { params: Pro
   });
   if (!a) notFound();
 
+  const labels = fieldLabelsFor(a.kind);
+  const fields: { label: string; value: string | null }[] = [
+    { label: labels.origin, value: a.origin },
+    { label: labels.insertion, value: a.insertion },
+    { label: labels.funktion, value: a.funktion },
+    { label: labels.innervation, value: a.innervation },
+  ].filter((f) => f.value);
+
   return (
     <div className="app">
       <div className="top-nav">
@@ -24,6 +33,9 @@ export default async function AnatomyReviewPreviewPage({ params }: { params: Pro
         <span className={`tag ${a.status === "APPROVED" ? "" : "due"}`}>{a.status}</span>
       </div>
       <div className="case-title">{a.name}</div>
+      <div style={{ marginTop: -8, marginBottom: 8, color: "var(--ink-soft)", fontSize: 13.5 }}>
+        {ANATOMY_KIND_LABELS[a.kind]}
+      </div>
 
       {a.bildUrl && (
         <div className="case-image-wrap">
@@ -31,23 +43,18 @@ export default async function AnatomyReviewPreviewPage({ params }: { params: Pro
         </div>
       )}
 
-      <div className="step-block">
-        <div className="step-label">Ursprung → Ansatz → Funktion</div>
-        <div className="card">
-          <div>
-            <strong>Ursprung:</strong> {a.origin}
-          </div>
-          <div style={{ marginTop: 6 }}>
-            <strong>Ansatz:</strong> {a.insertion}
-          </div>
-          <div style={{ marginTop: 6 }}>
-            <strong>Funktion:</strong> {a.funktion}
-          </div>
-          <div style={{ marginTop: 6 }}>
-            <strong>Innervation:</strong> {a.innervation}
+      {fields.length > 0 && (
+        <div className="step-block">
+          <div className="step-label">{labels.stepLabel}</div>
+          <div className="card">
+            {fields.map((f, i) => (
+              <div key={f.label} style={i > 0 ? { marginTop: 6 } : undefined}>
+                <strong>{f.label}:</strong> {f.value}
+              </div>
+            ))}
           </div>
         </div>
-      </div>
+      )}
 
       <div className="step-block">
         <div className="step-label">Klinische Bedeutung & Palpation</div>
