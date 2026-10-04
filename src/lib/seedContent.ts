@@ -1694,19 +1694,19 @@ const ANATOMY: AnatomySeed[] = [
   },
   {
     id: "erector-spinae-iliocostalis-longissimus-spinalis",
-    name: "M. erector spinae (M. iliocostalis, M. longissimus, M. spinalis/semispinalis)",
+    name: "M. erector spinae (M. iliocostalis, M. longissimus, M. spinalis/semispinalis, Mm. intertransversarii)",
     relatedCaseId: "nala",
     origin:
-      "M. iliocostalis: Procc. transversi der Lendenwirbelsäule und beide Cristae iliacae. M. longissimus: Crista iliaca. M. spinalis/semispinalis, Pars capitis: Fascia thoracolumbalis.",
+      "M. iliocostalis: Procc. transversi der Lendenwirbelsäule und beide Cristae iliacae. M. longissimus: Crista iliaca. M. spinalis/semispinalis, Pars capitis: Fascia thoracolumbalis. Mm. intertransversarii: medial gelegen zwischen Procc. articulares/mamillares und den Procc. transversi von HWS, BWS und LWS, am kräftigsten im Halsbereich ausgebildet.",
     insertion:
-      "M. iliocostalis: Procc. transversi der letzten Halswirbel. M. longissimus: Proc. mastoideus. M. spinalis: Procc. spinosi der Wirbelsäule; M. semispinalis, Pars capitis: Os occipitale.",
+      "M. iliocostalis: Procc. transversi der letzten Halswirbel. M. longissimus: Proc. mastoideus. M. spinalis: Procc. spinosi der Wirbelsäule; M. semispinalis, Pars capitis: Os occipitale. Mm. intertransversarii: jeweils zum benachbarten Procc. transversus.",
     funktion:
-      "Alle drei Muskeln haben in allen Wirbelsäulenabschnitten dieselbe Funktion — Extension der Wirbelsäule und Seitneige —, weshalb sie als funktionelle Einheit gemeinsam untersucht und behandelt werden können.",
-    innervation: "Rr. dorsales der Spinalnerven",
+      "M. iliocostalis, M. longissimus und M. spinalis/semispinalis haben in allen Wirbelsäulenabschnitten dieselbe Funktion — Extension der Wirbelsäule und Seitneige —, weshalb sie als funktionelle Einheit gemeinsam untersucht und behandelt werden können. Die Mm. intertransversarii haben davon abweichend als alleinige Funktion die reine Lateralflexion (Seitneige).",
+    innervation: "Rr. dorsales der Spinalnerven (für alle vier Muskeln/Muskelgruppen)",
     clinicalRelevance:
       "M. longissimus ist der stärkste und längste Rückenmuskel und liegt zwischen dem medial gelegenen transversospinalen System und dem lateral gelegenen M. iliocostalis — sein Verlauf von der Crista iliaca bis zum Proc. mastoideus erklärt, warum sich eine Beckenfehlstellung (z. B. am Ilium) bis in die obere Halswirbelsäule fortsetzen kann und dort eine Symptomatik erzeugt, die nicht die eigentliche Ursache, sondern nur deren Folge ist. M. spinalis/semispinalis besitzt einen sehr hohen Gehalt an Muskelspindeln und Golgi-Sehnenapparaten (Feinabstimmung der Kopf-Hals-Bewegung) und verbindet sich kaudal an der BWS eng mit dem M. longissimus über eine gemeinsame Sehnenplatte.",
     palpationHint:
-      "M. iliocostalis liegt weit lateral und ist gut palpabel. Dehnposition für M. longissimus/M. iliocostalis: Flexion der Wirbelsäule mit Seitneige weg von der Untersuchungsbank. Dehnposition für M. spinalis/semispinalis: reine Flexion der Wirbelsäule.",
+      "M. iliocostalis liegt weit lateral und ist gut palpabel. Dehnposition für M. longissimus/M. iliocostalis: Flexion der Wirbelsäule mit Seitneige weg von der Untersuchungsbank. Dehnposition für M. spinalis/semispinalis: reine Flexion der Wirbelsäule. Dehnposition für die Mm. intertransversarii: reine Lateralflexion weg von der zu untersuchenden Seite.",
     transferQ: "Warum kann eine Fehlstellung des Iliums (Becken) über den M. longissimus Symptome an der oberen Halswirbelsäule verursachen?",
     transferOptions: [
       { label: "Weil der M. longissimus durchgehend von der Crista iliaca bis zum Proc. mastoideus zieht", correct: true },
@@ -1715,7 +1715,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Nur weil beide Regionen zufällig gleichzeitig betroffen sein können, nicht aufgrund eines Muskelverlaufs", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.3 (Spezifische Untersuchung der epaxialen Stammmuskeln), S. 247f. Ursprung/Ansatz der drei Muskeln, die gemeinsame Funktion (Extension/Seitneige), die gemeinsame Innervation über Rr. dorsales, der Becken-HWS-Zusammenhang über den M.-longissimus-Verlauf sowie die Mechanorezeptor-Dichte des M. spinalis/semispinalis sind im Original so beschrieben.",
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.3 (Spezifische Untersuchung der epaxialen Stammmuskeln), S. 247f. Ursprung/Ansatz der drei Hauptmuskeln, deren gemeinsame Funktion (Extension/Seitneige), die gemeinsame Innervation über Rr. dorsales, der Becken-HWS-Zusammenhang über den M.-longissimus-Verlauf sowie die Mechanorezeptor-Dichte des M. spinalis/semispinalis sind im Original so beschrieben. Ergänzt am 04.10.2026 um die Mm. intertransversarii (Lage, reine Seitneige-Funktion, abweichende Dehnposition), die im selben Palpations-/Schmerzprovokationsabschnitt behandelt werden und laut Kap. 16.3.1-Übersicht ebenfalls der Gruppe „Autochthone Rückenmuskeln, Dorsalseite“ mit Rr.-dorsales-Innervation angehören — im Original so beschrieben.",
   },
   {
     id: "multifidi-rotatores-tiefe-stabilisatoren",
@@ -1807,6 +1807,99 @@ const ANATOMY: AnatomySeed[] = [
     ],
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.4–16.3.5 (Hypaxiale Stammmuskeln/Spezifische Untersuchung der Inspiratoren), S. 250, 251. Aufbau (zentrale Sehne, peripherer muskulärer Teil mit Ansatz an Lendenwirbelkörpern/Rippen/Sternum), die Funktion als wichtigster Inspirator, der Palpationszugang unter dem Rippenbogen sowie der N.-vagus-Mechanismus mit möglicher HWS-/vegetativer Symptomatik sind im Original so beschrieben. Innervation (N. phrenicus) im Original an dieser Stelle nicht genannt; ergänzt als allgemein etabliertes anatomisches Wissen (universell beschriebene Zwerchfellinnervation, keine abweichenden Angaben in konvergenten Quellen gefunden).",
+  },
+  {
+    id: "splenius",
+    name: "M. splenius",
+    relatedCaseId: "nala",
+    origin: "Fascia thoracolumbalis",
+    insertion:
+      "Squama occipitalis und Procc. transversi der Halswirbelsäule — der Faserverlauf zieht dabei über die Procc. spinosi der kranialen Brustwirbelsäule und das Lig. nuchae.",
+    funktion:
+      "Extension und Seitneige der Wirbelsäule — gehört funktionell zur Gruppe der Extensoren/Seitneiger und wird gemeinsam mit M. erector spinae, M. spinalis/semispinalis und den Mm. intertransversarii behandelt (siehe dort).",
+    innervation: "Rr. dorsales der Spinalnerven",
+    clinicalRelevance:
+      "Liegt seitlich am Hals, wird vom M. brachiocephalicus und M. trapezius bedeckt und überlagert seinerseits die epaxiale Muskulatur. Da er von der Fascia thoracolumbalis bis zum Kopf zieht, kann er — analog zum M. longissimus — Spannungszustände aus dem thorakolumbalen Übergang bis in den Kopf-/Halsbereich weiterleiten.",
+    palpationHint:
+      "Dorsal der Halswirbelsäule zwischen Lig. nuchae und den Procc. spinosi des 1./2. Brustwirbels bis hin zur Squama occipitalis palpieren. Dehnposition zur Provokation: reine Flexion der Halswirbelsäule bis in die kraniale Brustwirbelsäule.",
+    transferQ: "Worüber kann der M. splenius Spannungszustände aus dem thorakolumbalen Übergang bis in den Kopf-/Halsbereich weiterleiten?",
+    transferOptions: [
+      { label: "Über seinen durchgehenden Ursprung an der Fascia thoracolumbalis bis zum Ansatz am Kopf", correct: true },
+      { label: "Über eine direkte Knochenverbindung zwischen Becken und Schädel", correct: false },
+      { label: "Der M. splenius hat laut Quelle keinerlei Verbindung zur Fascia thoracolumbalis", correct: false },
+      { label: "Nur über den N. vagus, nicht über seinen Faserverlauf", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.3 und 16.3.8 (Spezifische Untersuchung der epaxialen Stammmuskeln/Behandlung der Extensoren und Seitneiger), S. 247, 259f. Ursprung/Ansatz, die Lage (bedeckt von M. brachiocephalicus/M. trapezius, überlagert selbst die epaxiale Muskulatur), die Zuordnung zur Extensoren-/Seitneiger-Gruppe mit gemeinsamer Rr.-dorsales-Innervation sowie die Fortleitungslogik „hinten nach vorne“ sind im Original so beschrieben. Eine frühere, an anderer Stelle des Kapitels stark verkürzt wiedergegebene Formulierung hatte den M. splenius fälschlich in die Nähe der ventralen, Flexion/Seitneige-Gruppe gerückt; die hier verwendete Zuordnung stützt sich auf die eindeutige Kapitelüberschrift 16.3.8 „Behandlung der Extensoren und Seitneiger (M. erector spinae, M. spinalis et semispinalis, M. splenius, Mm. intertransversarii)“ und ist damit zweifelsfrei.",
+  },
+  {
+    id: "longus-capitis-longus-colli",
+    name: "M. longus capitis / M. longus colli",
+    relatedCaseId: "nala",
+    origin:
+      "Procc. transversi der (unteren) Halswirbelsäule, ventral gelegen (genaue Einzelabgrenzung zwischen M. longus capitis und M. longus colli im Original nicht eindeutig getrennt beschrieben).",
+    insertion:
+      "Im Original nicht mit präzisen osteologischen Landmarken angegeben — behandelt/palpiert wird der Muskel ventral der Halswirbelsäulen-Querfortsätze auf seinem Weg kopfwärts.",
+    funktion: "Flexion und Seitneige der Wirbelsäule (ventrale Schicht der Rumpfmuskulatur).",
+    innervation: "Rami ventrales der Spinalnerven (ventrale Schicht der Rumpfmuskulatur)",
+    clinicalRelevance:
+      "Zählt zu den „weiteren Kopfbewegern“ der ventralen Schicht und bildet damit das funktionelle Gegenstück zu den dorsalen Extensoren/Seitneigern (M. erector spinae, M. splenius). Dehnposition zur Provokation: Extension der Halswirbelsäule.",
+    palpationHint: "Mit beiden Daumenbeeren ventral der Procc. transversi der Halswirbelsäule palpieren, Daumenspitzen berühren sich parallel zur Wirbelsäule.",
+    transferQ: "Welche Funktion haben M. longus capitis und M. longus colli als Teil der ventralen Schicht der Rumpfmuskulatur?",
+    transferOptions: [
+      { label: "Flexion und Seitneige der Wirbelsäule", correct: true },
+      { label: "Ausschließlich Extension der Wirbelsäule", correct: false },
+      { label: "Reine Rotation ohne jede Flexionskomponente", correct: false },
+      { label: "Sie haben keinerlei Einfluss auf die Halswirbelsäule", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.3 und 16.3.7 (Spezifische Untersuchung der Kopfbeweger/Behandlung von M. longus capitis, M. splenius capitis), S. 246f., 256–258. Die Zugehörigkeit zur ventralen, Rr.-ventrales-innervierten Schicht mit Flexions-/Seitneige-Funktion sowie die ventrale Palpationslage an den Procc. transversi der HWS sind im Original so beschrieben. ACHTUNG: Der Drive-Chunk verwendet im Behandlungsabschnitt und in einer Bildunterschrift uneinheitlich sowohl „M. longus capitis“ als auch „M. longus colli“ für denselben behandelten Muskel, ohne beide Namen eindeutig als zwei getrennte Muskeln mit je eigenem Ursprung/Ansatz abzugrenzen — diese Unschärfe wird hier bewusst offengelegt statt durch eine erfundene Trennung geglättet. Präzise osteologische Ursprungs-/Ansatzpunkte NICHT VERIFIZIERT.",
+  },
+  {
+    id: "bauchmuskeln-schraege-quere-anteile",
+    name: "Bauchmuskeln: M. obliquus externus/internus abdominis, M. transversus abdominis",
+    relatedCaseId: "nala",
+    origin: "Fascia thoracolumbalis und untere Rippen",
+    insertion: "Linea alba, Tuber coxae und Lig. inguinale",
+    funktion:
+      "Seitliche/schräge und quere Bauchwandmuskulatur; da die Bauchmuskulatur insgesamt als Exspirator fungiert, unterstützen diese drei Muskeln aktiv die Ausatmung.",
+    innervation: "Kaudale Nn. intercostales sowie N. iliohypogastricus und N. ilioinguinalis",
+    clinicalRelevance:
+      "Die drei Muskeln lassen sich bei der Palpation nicht sicher einzeln voneinander abgrenzen — anders als an den Extremitätenmuskeln fehlt hier eine widerlagernde Struktur, und eine schmerzhafte Organ- oder Lendenmuskelproblematik kann die Bauchmuskulatur reflektorisch an-/gegenspannen lassen. Die Untersuchung liefert deshalb nur einen groben Eindruck von Abschwächung oder Hyper-/Hypotonus, keine exakte Lokalisation einzelner Triggerpunkte oder Hartspannstränge.",
+    palpationHint:
+      "Eine Hand liegt flächig auf Fascia thoracolumbalis/unteren Rippen, die andere flächig zwischen Linea alba und Tuber coxae/Lig. inguinale. Dehnposition zur Provokation: unteren Rippenbogen lateral-kranial ziehen, während die Bauchmuskeln kaudal auf Höhe der Leiste gehalten werden.",
+    transferQ: "Warum kann der Therapeut bei der Palpation der schrägen/queren Bauchmuskulatur keine Konsistenzveränderung exakt einem der drei Muskeln zuordnen?",
+    transferOptions: [
+      { label: "Weil eine widerlagernde Struktur fehlt und sich die drei Muskeln nicht sicher einzeln abgrenzen lassen", correct: true },
+      { label: "Weil diese Muskeln beim Hund gar nicht existieren", correct: false },
+      { label: "Weil die Bauchmuskulatur grundsätzlich schmerzunempfindlich ist", correct: false },
+      { label: "Weil nur eine Person gleichzeitig am Hund arbeiten darf", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.4/16.3.6 (Hypaxiale Stammmuskeln/Spezifische Untersuchung der Exspiratoren), S. 253f. Lage/Testaufbau, die Exspirator-Funktion, die explizit genannte Unmöglichkeit der exakten Einzelabgrenzung sowie die reflektorische Gegenspannung bei Organ-/Lendenmuskelschmerz sind im Original so beschrieben. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (04.10.2026) aus konvergenten veterinäranatomischen Fachquellen: kaudale Nn. intercostales sowie N. iliohypogastricus/N. ilioinguinalis für M. obliquus internus und M. transversus abdominis. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
+  },
+  {
+    id: "rectus-abdominis",
+    name: "M. rectus abdominis",
+    relatedCaseId: "nala",
+    origin: "Os pubis",
+    insertion: "Proc. xiphoideus",
+    funktion:
+      "Längs verlaufender Bauchmuskel; wirkt als Exspirator mit, indem er bei Kontraktion Os pubis und Proc. xiphoideus einander annähert.",
+    innervation: "Segmentale Äste der kaudalen Nn. intercostales (6–7 parallel zum M. transversus verlaufende Äste)",
+    clinicalRelevance:
+      "Im Gegensatz zu den schrägen/queren Bauchmuskeln lässt sich der M. rectus abdominis durch einen klar definierten Längszugtest (Proc. xiphoideus gegen Os pubis) gezielter auf Bewegungsqualität und -quantität prüfen.",
+    palpationHint:
+      "Eine Hand flächig auf dem Proc. xiphoideus, die andere flächig auf dem Os pubis; unter leichtem Fellvorschub beide Hände voneinander entfernen (Längszug) und Bewegungsqualität/-quantität im Seitenvergleich beurteilen.",
+    transferQ: "Wie wird der M. rectus abdominis im Unterschied zu den schrägen/queren Bauchmuskeln gezielt getestet?",
+    transferOptions: [
+      { label: "Durch einen Längszugtest zwischen Proc. xiphoideus und Os pubis", correct: true },
+      { label: "Durch denselben Gruppen-Test wie die schrägen/queren Bauchmuskeln, ohne Unterschied", correct: false },
+      { label: "Ausschließlich über eine Röntgenaufnahme", correct: false },
+      { label: "Der M. rectus abdominis lässt sich beim Hund überhaupt nicht testen", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 16.3.6 (Spezifische Untersuchung der Exspiratoren), S. 253. Ursprung (Os pubis), Ansatz (Proc. xiphoideus), der Längszugtest sowie die Exspirator-Funktion sind im Original so beschrieben. Innervation im Original nicht genannt. Ergänzt per Web-Recherche (04.10.2026) aus konvergenten veterinäranatomischen Fachquellen: segmentale Äste der kaudalen Nn. intercostales. WICHTIGE EINSCHRÄNKUNG: WebFetch war in dieser Arbeitsumgebung technisch blockiert; die Ergänzung stammt aus konvergenten Websuche-Zusammenfassungen, nicht aus eigener Volltextprüfung eines Standardwerks.",
   },
 ];
 

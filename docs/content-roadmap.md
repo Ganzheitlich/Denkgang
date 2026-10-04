@@ -1401,7 +1401,34 @@ kein Überblick verloren geht.
   eigenständig untersuchbar); die Bauchmuskulatur (M. transversus
   abdominis u. a.) bleibt offen, da der gelesene Chunk genau dort abbricht.
   Details siehe Hárrer-Backlog unten. Alle 6 Items via Playwright
-  verifiziert (6/6 Review-Seiten, 0 Fehler).
+  verifiziert (6/6 Review-Seiten, 0 Fehler). Direkt im Anschluss
+  (04.10.2026) Hárrer Kap. 16.3 weitergelesen und damit die zuvor offen
+  gelassene Unschärfe zu M. longus capitis/M. longus colli/M. splenius
+  aufgelöst: Kapitelüberschrift 16.3.8 „Behandlung der Extensoren und
+  Seitneiger (M. erector spinae, M. spinalis et semispinalis,
+  M. splenius, Mm. intertransversarii)" stellt eindeutig klar, dass
+  M. splenius zur dorsalen Extensoren-/Seitneiger-Gruppe (Rr. dorsales)
+  gehört, M. longus capitis/colli dagegen zur ventralen Flexoren-Gruppe
+  (Rr. ventrales). 4 weitere neue Items (47 → 51): **M. splenius**
+  (eigenes Item), **M. longus capitis/M. longus colli** (ein
+  gemeinsames Item — die Quelle nennt im Behandlungsabschnitt beide
+  Namen uneinheitlich für denselben Muskel ohne getrennte Ursprung-/
+  Ansatzpunkte, diese Unschärfe wird im `sourceStatus` offen benannt),
+  ein gemeinsames Item für die schräge/quere Bauchmuskulatur
+  (M. obliquus externus/internus abdominis + M. transversus abdominis —
+  laut Quelle palpatorisch nicht einzeln abgrenzbar) sowie ein eigenes
+  Item für **M. rectus abdominis** (gezielt längs testbar). Zusätzlich
+  wurde das bestehende Item `erector-spinae-iliocostalis-longissimus-
+  spinalis` um die **Mm. intertransversarii** erweitert (reine
+  Seitneige-Funktion, dieselbe Rr.-dorsales-Gruppe) — die frühere
+  Auslassung als „ohne testbare Funktion" hielt einer genaueren Lesung
+  nicht stand. Innervation bei allen 4 neuen Items per Web-Recherche
+  ergänzt (disclosed). M. serratus dorsalis cranialis/caudalis, Mm.
+  intercostales externi/interni, M. retractor costae bleiben weiterhin
+  bewusst ausgelassen (Quelle: keine eigenständig testbare Funktion) —
+  **damit ist Hárrer Kap. 16.3 „Muskulatur" vollständig ausgewertet.**
+  Alle 5 betroffenen Review-Seiten via Playwright verifiziert (5/5, 0
+  Fehler).
 - **Quellen-Diversifizierung (22.09.2026):** Auf Vanessas Wunsch wird ab jetzt
   nicht mehr nur aus Hárrer geschöpft. Bei Unklarheiten/Widersprüchen wird
   aktiv mit einer zweiten Quelle abgeglichen (siehe Toe-in/Toe-out-Fund
@@ -4184,6 +4211,39 @@ gelesenen Quellen:
       gelesenen Chunk ab, vollständige Beschreibung nicht erreicht;
       bleibt für eine Folgesession offen). Alle 6 Items via Playwright
       verifiziert (6/6 Review-Seiten, 0 Fehler).
+- [x] Rumpf-/Nackenmuskulatur Teil 2 aus Hárrer Kap. 16.3, weiter gelesen
+      (04.10.2026, ma(16).pdf): Die bei der ersten Lesung offen gelassene
+      Unschärfe zu M. longus capitis/M. longus colli/M. splenius konnte
+      durch die eindeutige Kapitelüberschrift 16.3.8 „Behandlung der
+      Extensoren und Seitneiger (M. erector spinae, M. spinalis et
+      semispinalis, M. splenius, Mm. intertransversarii)" aufgelöst werden
+      — M. splenius gehört damit zweifelsfrei zur dorsalen
+      Extensoren-/Seitneiger-Gruppe (Rr. dorsales), M. longus
+      capitis/colli zur ventralen Flexoren-Gruppe (Rr. ventrales). Neu:
+      **M. splenius** (eigenes Item), **M. longus capitis/M. longus
+      colli** (ein gemeinsames Item — die Quelle verwendet beide Namen im
+      Behandlungsabschnitt uneinheitlich für denselben Muskel, ohne
+      getrennte Ursprung-/Ansatzpunkte; diese Unschärfe wird im
+      `sourceStatus` offengelegt statt künstlich geglättet). Außerdem
+      wurde das bestehende Item `erector-spinae-iliocostalis-
+      longissimus-spinalis` um die **Mm. intertransversarii** erweitert
+      (reine Seitneige-Funktion, dieselbe Rr.-dorsales-Gruppe laut
+      16.3.1-Übersicht — die frühere Auslassung als „ohne testbare
+      Funktion" war bei genauerem Lesen nicht haltbar, da die Quelle sie
+      eigens mit Dehnposition und Lage beschreibt). Die Bauchmuskulatur
+      (Kap. 16.3.6, S. 253) wurde diesmal vollständig gelesen: **zwei
+      neue Items** — ein gemeinsames Item für M. obliquus
+      externus/internus abdominis + M. transversus abdominis (laut
+      Quelle selbst palpatorisch nicht einzeln abgrenzbar) sowie ein
+      eigenes Item für **M. rectus abdominis** (gezielt längs testbar,
+      Proc. xiphoideus gegen Os pubis). Innervation war für alle 4 neuen
+      Items im Original nicht genannt und wurde per Web-Recherche
+      ergänzt (mit offen ausgewiesener WebFetch-Einschränkung im
+      `sourceStatus`). M. serratus dorsalis cranialis/caudalis, Mm.
+      intercostales externi/interni, M. retractor costae bleiben
+      bewusst ausgelassen (Quelle: keine eigenständig testbare Funktion).
+      4 neue Anatomie-Items (47 → 51) plus 1 Edit, via Playwright
+      verifiziert (5/5 Review-Seiten, 0 Fehler).
 - [ ] Weitere Muskeln aus Hárrer (Regionen-Kapitel wie Kap. 12 sind für
       Ursprung/Ansatz/Funktion ergiebiger als Hohmanns Landmarken-Atlas Kap. 7,
       der nur beschriftete Abbildungen ohne Fließtext-Details liefert) —
