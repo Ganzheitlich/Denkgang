@@ -821,7 +821,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Eine normale Gelenkvariante ohne klinische Bedeutung", correct: false },
     ],
     sourceStatus:
-      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion), S. 43–48 — der Ortolani-Test (longitudinaler Druck zum Femur, Subluxation nach dorsal, Reposition mit hörbarem Klick bei Abduktion) ist dort exakt bestätigt. „Hüftdysplasie\" wird in diesem Kapitel nicht erwähnt — dieser Teil der Aussage bleibt etabliertes veterinärmedizinisches Wissen, NICHT VERIFIZIERT gegen diese spezifische Quelle. Nachträglich aufgewertet (03.10.2026): Die Existenz und anatomische Einordnung des „Ligamentum capitis femoris\" (korrekt: Lig. capitis ossis femoris) als Bestandteil der Art. coxae — neben Labrum acetabulare und Lig. transversum acetabuli — ist jetzt direkt verifiziert: Salomon, Franz-Viktor et al., Anatomie für die Tiermedizin, Georg Thieme Verlag (Auflage/ISBN NICHT VERIFIZIERT, siehe Hinweis bei den Salomon-Wissenseinträgen), Kap. 2.7.10 „Knochenverbindungen der Beckengliedmaße”, Übersichtsliste „Art. coxae” (per Google-Drive-Volltextsuche, Chunk 183590104_002_002_008.pdf). Die konkrete Funktion des Bandes (Führung/Stabilisierung des Hüftgelenkkopfs) sowie sein klinischer Zusammenhang mit Hüftdysplasie sind damit weiterhin nicht aus dieser Quelle belegt, nur seine Existenz und Zugehörigkeit zur Art. coxae.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion), S. 43–48 — der Ortolani-Test (longitudinaler Druck zum Femur, Subluxation nach dorsal, Reposition mit hörbarem Klick bei Abduktion) ist dort exakt bestätigt. „Hüftdysplasie” wird in diesem Kapitel nicht erwähnt — dieser Teil der Aussage bleibt etabliertes veterinärmedizinisches Wissen, NICHT VERIFIZIERT gegen diese spezifische Quelle. Nachträglich aufgewertet (03.10.2026, weiter aufgewertet 05.10.2026): Das Ligamentum capitis ossis femoris ist jetzt als eigenes `BAND`-Anatomie-Item (`lig-capitis-femoris`) mit direkt aus Salomon et al. (Kap. 2.7.3, S. 124f.) verifizierter Lage (zwischen Fossa acetabuli und Fovea capitis ossis femoris) und Funktion (mechanische Führung sowie Leitstruktur für die femurkopfversorgende Arterie, inkl. des klinischen Hinweises zur Femurkopfnekrose bei Ruptur) erfasst — Details dort, hier bewusst nicht dupliziert. Der klinische Zusammenhang speziell mit Hüftdysplasie bleibt weiterhin NICHT aus dieser Quelle belegt.",
     bildUrl: "/cases/huefte-01.png",
   },
   {
@@ -2035,6 +2035,134 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17.5.3 (Druckpunktpalpation, N. femoralis), S. 291f. Verlauf, Versorgungsgebiete, die mechanische Iliopsoas-Irritation als Praxisrealität vs. echte Läsion sowie der Palpationspunkt sind im Original so beschrieben. Spiegelt Teile des bereits bestehenden Wissenseintrags `hintergliedmasse-nerven-femoralis-saphenus-obturatorius` als eigenständiges, strukturiertes Anatomie-Item.",
   },
+  {
+    id: "n-medianus",
+    name: "N. medianus",
+    kind: "NERV",
+    relatedCaseId: "rocky",
+    origin: "C8–Th2",
+    insertion:
+      "Zieht gemeinsam mit dem N. ulnaris zum Schultergelenk, dann medial am Humerus mit A./V. brachialis nach distal, verschwindet in der Ellenbogenbeuge medial des M. biceps brachii in der Tiefe, unterkreuzt den M. pronator teres (seine Engstelle) und zieht zwischen oberflächlichem und tiefem Zehenflexor zum Carpus.",
+    funktion:
+      "Motorisch: Mm. pronatores teres et quadratus, M. flexor carpi radialis, Caput radiale des M. flexor digitorum profundus, M. flexor digitorum superficialis (Ausnahme, da kaudal gelegen). Das Caput humerale des tiefen Zehenbeugers hat eine Doppelinnervation von N. medianus und N. ulnaris.",
+    innervation: "Sensibel: Medialseite der Vorderpfote (Os metacarpale I, mediale Hälfte II, Digiti I und medial II).",
+    clinicalRelevance:
+      "Engstelle am M. pronator teres — bei dessen Hypertonie kann der Nerv mechanisch irritiert werden. Zusammen mit dem N. ulnaris, der ebenfalls palmar über den Carpus verläuft, ist er bei Sprüngen mit voller Karpalextension (bis zum Ballenkontakt) besonderer mechanischer Belastung ausgesetzt — die Grundlage der (ausdrücklich unbewiesenen) Hypothese eines caninen Karpaltunnelsyndroms.",
+    palpationHint:
+      "Am Ellenbogen, medial der Bizepssehne auf der Beugeseite; am Karpalgelenk auf der Flexorenseite, medial des Os carpi accessorium (Höhe der proximalen Handwurzelreihe).",
+    transferQ: "Welche Struktur stellt für den N. medianus eine typische Engstelle dar?",
+    transferOptions: [
+      { label: "Der M. pronator teres, den der Nerv auf seinem Weg zum Carpus unterkreuzt", correct: true },
+      { label: "Der M. triceps brachii, durch den der Nerv hindurchzieht", correct: false },
+      { label: "Das Schultergelenk selbst, wo der Nerv eingeklemmt wird", correct: false },
+      { label: "Der N. medianus hat keine bekannte Engstelle", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17.5.3 (Druckpunktpalpation, N. medianus), S. 293f. Verlauf, Versorgungsgebiete, die Pronator-teres-Engstelle sowie die Palpationspunkte sind im Original so beschrieben. Spiegelt Teile des bereits bestehenden Wissenseintrags `vordergliedmasse-nerven-radialis-medianus-ulnaris-verlauf` als eigenständiges, strukturiertes Anatomie-Item. Verknüpft mit `karpaltunnelsyndrom-hund-hypothese` (dieselbe Quelle, ausdrücklich als unbewiesene Hypothese markiert).",
+  },
+  {
+    id: "n-ulnaris",
+    name: "N. ulnaris",
+    kind: "NERV",
+    relatedCaseId: "rocky",
+    origin: "C8–Th2",
+    insertion:
+      "Zieht zunächst gemeinsam mit dem N. medianus medial am Humerus nach distal, gibt in Höhe des distalen ersten Humerusdrittels den gut palpablen N. cutaneus antebrachii caudalis ab (überquert den medialen Epicondylus humeri), zieht dann unter dem M. flexor carpi ulnaris caput ulnare weiter zum Carpus und teilt sich oberhalb des Carpus in einen Ramus dorsalis und einen Ramus palmaris.",
+    funktion:
+      "Motorisch: M. flexor carpi ulnaris, Caput ulnare des M. flexor digitorum profundus (das Caput humerale hat eine Doppelinnervation von N. medianus und N. ulnaris).",
+    innervation: "Sensibel: kaudomedial/kaudolateral am Unterarm; über Ramus dorsalis/palmaris zusätzlich an Carpus und Pfote.",
+    clinicalRelevance:
+      "Typische Engstelle am Os carpi accessorium (osteofibröser Kanal, überbrückt durch das Retinaculum flexorum — eine Analogie zur Loge de Guyon beim Menschen): Bei Extension des Karpalgelenks kann es zur Dehnung des Nervs in diesem Bereich kommen; Blockaden des Os carpi accessorium (häufiger bei Sporthunden) können ihn zusätzlich irritieren. Symptomatisch zeigen sich Parästhesien an der Pfote mit Knabbern.",
+    palpationHint:
+      "Medial am Ellenbogengelenk kurz vor dem Sulcus ulnaris; lateral am Carpus in Höhe der proximalen Handwurzelreihe; medial am Os carpi accessorium.",
+    transferQ: "Warum kann eine Blockade des Os carpi accessorium Symptome verursachen, die wie eine N.-ulnaris-Reizung aussehen?",
+    transferOptions: [
+      {
+        label: "Weil der N. ulnaris direkt am Os carpi accessorium in einem osteofibrösen Kanal verläuft, der bei Blockaden mechanisch beeinträchtigt werden kann",
+        correct: true,
+      },
+      { label: "Weil der N. ulnaris gar nicht in der Nähe des Carpus verläuft", correct: false },
+      { label: "Weil Knochenblockaden grundsätzlich keinen Einfluss auf Nerven haben können", correct: false },
+      { label: "Weil das Os carpi accessorium beim Hund keine reale Struktur ist", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17.5.3 (Druckpunktpalpation, N. ulnaris), S. 293f. Verlauf, Versorgungsgebiete, die Engstelle am Os carpi accessorium (inkl. der Loge-de-Guyon-Analogie) sowie die Palpationspunkte sind im Original so beschrieben. Spiegelt Teile des bereits bestehenden Wissenseintrags `vordergliedmasse-nerven-radialis-medianus-ulnaris-verlauf` als eigenständiges, strukturiertes Anatomie-Item. Direkt verknüpft mit dem bestehenden Wissenseintrag `os-carpi-accessorium-nervus-ulnaris-differenzierung` (dieselbe Quelle, Kap. 15.2.1), der dieselbe Engstelle aus der diagnostischen Differenzierungsperspektive beschreibt.",
+  },
+  {
+    id: "n-saphenus",
+    name: "N. saphenus",
+    kind: "NERV",
+    relatedCaseId: "luna",
+    origin: "Astabspaltung vom N. femoralis (L4–6) bereits in der Leiste — kein eigenständiges Spinalnervensegment.",
+    insertion:
+      "Zieht medial zwischen M. sartorius und M. gracilis Richtung Kniegelenk, gibt sensible Fasern an Femoropatellargelenk und mediale Kniegelenkkapsel (Art. tibiofemorale) ab, überkreuzt das Kniegelenk zusammen mit V./A. saphena medial und zieht weiter nach distal um den medialen Malleolus herum zu den Digiti I+II.",
+    funktion: "Keine motorische Versorgung — rein sensibler Ast des N. femoralis.",
+    innervation: "Sensibel: Haut der Medialseite von Unterschenkel, Tarsus und Metatarsus; sensible Fasern an Femoropatellargelenk und mediale Kniegelenkkapsel.",
+    clinicalRelevance:
+      "Da der N. femoralis auch den sensiblen N. cutaneus femoralis lateralis abgibt (laterale Oberschenkelhaut), sollte speziell der N. saphenus überprüft werden, wenn der Patient im autonomen Ausbreitungsgebiet eines Nervs knabbert oder leckt (Hinweis auf Parästhesien).",
+    palpationHint: "Medial am Oberschenkel zwischen M. sartorius und den Adduktoren; ventrokranial des medialen Malleolus.",
+    transferQ: "Was unterscheidet den N. saphenus grundlegend von den meisten anderen peripheren Nerven der Hintergliedmaße?",
+    transferOptions: [
+      { label: "Er hat keine eigene motorische Versorgung, sondern ist rein sensibel", correct: true },
+      { label: "Er entspringt als einziger Nerv direkt aus dem Rückenmark ohne Plexus-Beteiligung", correct: false },
+      { label: "Er versorgt als einziger Nerv die Hinterpfote motorisch vollständig", correct: false },
+      { label: "Er hat kein definiertes Versorgungsgebiet an der Haut", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17.5.3 (Druckpunktpalpation, N. saphenus), S. 291f. Verlauf, die fehlende motorische Komponente, Versorgungsgebiete sowie die Palpationspunkte sind im Original so beschrieben. Spiegelt Teile des bereits bestehenden Wissenseintrags `hintergliedmasse-nerven-femoralis-saphenus-obturatorius` als eigenständiges, strukturiertes Anatomie-Item.",
+  },
+  {
+    id: "n-obturatorius",
+    name: "N. obturatorius",
+    kind: "NERV",
+    relatedCaseId: "luna",
+    origin: "L5–S1",
+    insertion:
+      "Zieht mit der A. obturatoria an der Darmbeinsäule entlang durch den M. levator ani zum Foramen obturatum und weiter durch das Foramen obturatum auf der medialen Oberschenkelseite oberflächig nach distal; endet medial am Kniegelenk.",
+    funktion: "Motorisch: Adduktoren des Oberschenkels.",
+    clinicalRelevance:
+      "Bei einer Schädigung (z. B. durch Ausrutschen und Wegspreizen) überwiegt die muskuläre Spannung der Antagonisten (Abduktoren): Der Hund steht mit dem Hinterbein je nach Schweregrad etwas abgespreizt, im Stand besteht Rutschgefahr, und im Gangbild führt er die Hintergliedmaße möglicherweise in einem leichten Halbkreis nach vorne, statt sie medial unter dem Körper zu halten — ein Bild, das leicht als Hüft- oder Kniegelenksproblem fehlinterpretiert werden kann, wenn der N. obturatorius nicht als Differentialdiagnose in Betracht gezogen wird.",
+    palpationHint: "In der Leiste zwischen M. pectineus und M. gracilis, oberflächig gelegen.",
+    transferQ: "Welches Gangbild deutet am ehesten auf eine N.-obturatorius-Schädigung statt auf ein primäres Hüft- oder Kniegelenksproblem hin?",
+    transferOptions: [
+      {
+        label: "Die Hintergliedmaße wird im Halbkreis nach vorne geführt, statt medial unter dem Körper gehalten zu werden",
+        correct: true,
+      },
+      { label: "Eine gleichmäßige, symmetrische Belastung aller vier Extremitäten", correct: false },
+      { label: "Ein ausschließlich an der Vordergliedmaße sichtbares Schonverhalten", correct: false },
+      { label: "Ein Gangbild, das sich durch nichts von einem gesunden Hund unterscheidet", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17.5.3 (Druckpunktpalpation, N. obturatorius), S. 292. Verlauf, motorische Versorgung, das klinische Gangbild bei Schädigung sowie der Palpationspunkt sind im Original so beschrieben. Innervation/sensibles Versorgungsgebiet im Original nicht genannt — bewusst nicht ergänzt, um keine unbelegte Angabe zu erfinden. Spiegelt Teile des bereits bestehenden Wissenseintrags `hintergliedmasse-nerven-femoralis-saphenus-obturatorius` als eigenständiges, strukturiertes Anatomie-Item.",
+  },
+  {
+    id: "lig-capitis-femoris",
+    name: "Ligamentum capitis ossis femoris",
+    kind: "BAND",
+    relatedCaseId: "luna",
+    origin: "Fossa acetabuli",
+    insertion: "Fovea capitis ossis femoris",
+    funktion:
+      "Mechanische Funktion: trägt zur Führung/Sicherung des Femurkopfes in der Hüftgelenkpfanne bei. Dient zugleich als Leitstruktur für die Arterie, die den Femurkopf mit Blut versorgt.",
+    clinicalRelevance:
+      "Bei Zerreißen des Bandes kann es — insbesondere bei noch nicht ausgewachsenen Individuen — zu einer Nekrose des Femurkopfes kommen, da mit dem Band auch die versorgende Arterie reißt.",
+    palpationHint:
+      "Nicht direkt palpierbar, da intraartikulär gelegen; indirekt über Laxitätsprüfungen des Hüftgelenks (z. B. Ortolani-Test) einschätzbar.",
+    transferQ: "Warum kann eine Ruptur des Lig. capitis ossis femoris besonders bei jungen Hunden zu einer Femurkopfnekrose führen?",
+    transferOptions: [
+      {
+        label: "Weil das Band zugleich als Leitstruktur für die den Femurkopf versorgende Arterie dient — reißt es, wird auch die Blutversorgung unterbrochen",
+        correct: true,
+      },
+      { label: "Weil das Band selbst Knochengewebe enthält, das bei Ruptur abstirbt", correct: false },
+      { label: "Weil eine Bandruptur automatisch eine Infektion des Gelenks auslöst", correct: false },
+      { label: "Weil junge Hunde grundsätzlich kein Lig. capitis femoris besitzen", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Salomon, Franz-Viktor et al., Anatomie für die Tiermedizin, Georg Thieme Verlag (Auflage/ISBN NICHT VERIFIZIERT, siehe Hinweis bei den übrigen Salomon-Wissenseinträgen), Kap. 2.7.3 (Intraartikuläre Strukturen), S. 124f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk 183590104_002_002_007.pdf). Die Lage zwischen Fossa acetabuli und Fovea capitis ossis femoris, die mechanische Funktion, die Rolle als arterielle Leitstruktur sowie der klinische Hinweis zur Femurkopfnekrose bei Ruptur (insbesondere bei unreifen Individuen) sind im Original so beschrieben. Damit wird die zuvor beim Anatomie-Item `huefte` dokumentierte Einschränkung teilweise aufgelöst (dort war zuvor nur Existenz/Zugehörigkeit zur Art. coxae verifiziert, nicht die konkrete Funktion) — jetzt sind Lage und mechanische Funktion direkt aus derselben Quelle bestätigt. Innervation im Original nicht genannt, bewusst nicht ergänzt. NICHT VERIFIZIERT bleibt: ob die hier beschriebene vergleichend-anatomische Allgemeinaussage (kein Spezies-Icon im gelesenen Abschnitt vermerkt) artspezifische Einschränkungen beim Hund hat, sowie der spezifische klinische Zusammenhang mit Hüftdysplasie (anders als die genannte Femurkopfnekrose-Klinik, die direkt belegt ist).",
+    bildUrl: "/cases/huefte-01.png",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -2232,9 +2360,9 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
-      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion), S. 43–48 — der Ortolani-Test (longitudinaler Druck zum Femur, Subluxation nach dorsal, Reposition mit hörbarem Klick bei Abduktion) ist dort exakt bestätigt. „Hüftdysplasie\" wird in diesem Kapitel nicht erwähnt — dieser Teil der Aussage bleibt etabliertes veterinärmedizinisches Wissen, NICHT VERIFIZIERT gegen diese spezifische Quelle. Nachträglich aufgewertet (03.10.2026): Die Existenz und anatomische Einordnung des „Ligamentum capitis femoris\" (korrekt: Lig. capitis ossis femoris) als Bestandteil der Art. coxae — neben Labrum acetabulare und Lig. transversum acetabuli — ist jetzt direkt verifiziert: Salomon, Franz-Viktor et al., Anatomie für die Tiermedizin, Georg Thieme Verlag (Auflage/ISBN NICHT VERIFIZIERT, siehe Hinweis bei den Salomon-Wissenseinträgen), Kap. 2.7.10 „Knochenverbindungen der Beckengliedmaße”, Übersichtsliste „Art. coxae” (per Google-Drive-Volltextsuche, Chunk 183590104_002_002_008.pdf). Die konkrete Funktion des Bandes (Führung/Stabilisierung des Hüftgelenkkopfs) sowie sein klinischer Zusammenhang mit Hüftdysplasie sind damit weiterhin nicht aus dieser Quelle belegt, nur seine Existenz und Zugehörigkeit zur Art. coxae.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion), S. 43–48 — der Ortolani-Test (longitudinaler Druck zum Femur, Subluxation nach dorsal, Reposition mit hörbarem Klick bei Abduktion) ist dort exakt bestätigt. „Hüftdysplasie” wird in diesem Kapitel nicht erwähnt — dieser Teil der Aussage bleibt etabliertes veterinärmedizinisches Wissen, NICHT VERIFIZIERT gegen diese spezifische Quelle. Nachträglich aufgewertet (03.10.2026, weiter aufgewertet 05.10.2026): Das Ligamentum capitis ossis femoris ist jetzt als eigenes `BAND`-Anatomie-Item (`lig-capitis-femoris`) mit direkt aus Salomon et al. (Kap. 2.7.3, S. 124f.) verifizierter Lage (zwischen Fossa acetabuli und Fovea capitis ossis femoris) und Funktion (mechanische Führung sowie Leitstruktur für die femurkopfversorgende Arterie, inkl. des klinischen Hinweises zur Femurkopfnekrose bei Ruptur) erfasst — Details dort, hier bewusst nicht dupliziert. Der klinische Zusammenhang speziell mit Hüftdysplasie bleibt weiterhin NICHT aus dieser Quelle belegt.",
     relatedCaseIds: ["luna"],
-    relatedAnatomyIds: ["huefte"],
+    relatedAnatomyIds: ["huefte", "lig-capitis-femoris"],
   },
   {
     id: "discus",

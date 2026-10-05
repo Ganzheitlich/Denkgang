@@ -81,6 +81,45 @@ kein Überblick verloren geht.
   gespiegelt), ein erstes `BAND`-Item (noch kein Beispiel dieses Kinds),
   sowie perspektivisch Knochen/Gelenke jenseits der bereits ins alte Schema
   gezwängten drei Fälle (facettengelenke/huefte/discus).
+- **Zweiter Content-Batch für die neuen Kinds (05.10.2026):** Die am Ende
+  des ersten Batches offen gelassenen Punkte direkt nachgeholt. 5 weitere
+  neue Anatomie-Items (56 → 61). `NERV` (4, alle aus Hárrer Kap. 17.5.3):
+  `n-medianus` (S. 293f., Pronator-teres-Engstelle, verknüpft mit
+  `karpaltunnelsyndrom-hund-hypothese`), `n-ulnaris` (S. 293f.,
+  Os-carpi-accessorium-Engstelle mit Loge-de-Guyon-Analogie, direkt
+  verknüpft mit dem bestehenden Eintrag
+  `os-carpi-accessorium-nervus-ulnaris-differenzierung`), `n-saphenus`
+  (S. 291f., rein sensibler Ast des N. femoralis — explizit als „keine
+  motorische Versorgung" ausgewiesen statt das Feld kommentarlos
+  leerzulassen) und `n-obturatorius` (S. 292, Adduktoren-Lähmungsbild mit
+  Halbkreis-Gangbild als Hüft-/Knie-Differentialdiagnose). Damit sind jetzt
+  alle 7 in Hárrer Kap. 17.5.3 einzeln behandelten Nerven als `NERV`-Items
+  erfasst. `BAND` (1, erstes Item dieses Kinds): `lig-capitis-femoris`
+  (Ligamentum capitis ossis femoris) — dafür gezielt nachrecherchiert
+  (nicht nur die zuvor per Volltextsuche gefundene Existenz-Bestätigung):
+  Chunk `183590104_002_002_007.pdf` (Salomon et al., Kap. 2.7.3
+  „Intraartikuläre Strukturen", S. 124f.) direkt gelesen und daraus Lage
+  (zwischen Fossa acetabuli und Fovea capitis ossis femoris), mechanische
+  Funktion sowie ein genuin neuer, klinisch relevanter Fakt gewonnen: Das
+  Band dient als Leitstruktur für die den Femurkopf versorgende Arterie —
+  bei Ruptur (v. a. bei unreifen Tieren) kann es deshalb zu einer
+  Femurkopfnekrose kommen. Löst damit die beim Item `huefte` seit
+  03.10.2026 dokumentierte Einschränkung teilweise auf (sourceStatus dort
+  sowie beim mirrorenden Wissenseintrag `huefte`/„Der Ortolani-Test..."
+  entsprechend aktualisiert und auf das neue Item verwiesen, Inhalt
+  bewusst nicht dupliziert) — der spezifische Zusammenhang mit
+  Hüftdysplasie bleibt weiterhin nicht aus dieser Quelle belegt, nur die
+  Femurkopfnekrose-Klinik ist jetzt direkt bestätigt. Alle 5 neuen Items
+  plus die aktualisierten `huefte`-Einträge (Anatomie-Item + Wissenseintrag)
+  via Playwright verifiziert (6/6 Seiten, 0 Fehler), `tsc`/`eslint` clean,
+  `next build` erfolgreich, Reseed bestätigt (61 Anatomie-Items). Noch
+  offen für künftige Sessions: weitere `BAND`-Items (Ligg. collateralia an
+  Karpus/Tarsus/Zehen, Kreuzbänder als eigene Items statt nur in
+  Wissenstexten erwähnt), `KNOCHEN`-Items jenseits der Ellbogenfortsätze
+  (z. B. Tuber calcanei, markante Landmarken aus Hohmann Kap. 7 — dort
+  aber nur beschriftete Abbildungen ohne Fließtext, siehe bestehender
+  Backlog-Hinweis), sowie GELENK-Items für weitere Hauptgelenke (Knie,
+  Schulter, Ellbogen, Karpus, Tarsus selbst, nicht nur ihre Muskulatur).
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte
