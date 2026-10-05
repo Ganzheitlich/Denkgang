@@ -120,6 +120,39 @@ kein Überblick verloren geht.
   aber nur beschriftete Abbildungen ohne Fließtext, siehe bestehender
   Backlog-Hinweis), sowie GELENK-Items für weitere Hauptgelenke (Knie,
   Schulter, Ellbogen, Karpus, Tarsus selbst, nicht nur ihre Muskulatur).
+- **Dritter Content-Batch — Kniegelenk komplett (05.10.2026):** Das Knie
+  direkt als erstes Hauptgelenk vollständig ausgebaut, gestützt auf bereits
+  sehr dichten vorhandenen BIOMECHANIK-/PATHOLOGIE-Content zum Thema
+  Kreuzband (`kniegelenk-baender-kapselmuster`, `kreuzbandriss-
+  krankheitsbild`, `kreuzbandriss-biomechanik-und-therapie`,
+  `kniegelenk-menisken-patella-biomechanik`,
+  `kniegelenk-manuelle-untersuchung-bewegungspalpation`,
+  `knie-liegender-hund-spezialtests`, `kreuzband-meniskus-tests`). 4 neue
+  Anatomie-Items (61 → 65). `BAND` (3): `lig-cruciatum-craniale` und
+  `lig-cruciatum-caudale` (Hárrer Kap. 8.1, S. 81f. + Koch/Fischer Kap.
+  8.3.4, S. 199–202) — mit der caninen Besonderheit, dass der vordere
+  Kreuzbandriss fast immer ein chronisch-degenerativer Prozess ist
+  („cranial tibial thrust" durch den M. quadriceps bei jedem Schritt),
+  während ein isolierter hinterer Kreuzbandriss selten und meist
+  traumatisch ist — beide klinisch über das Endgefühl des Schubladentests
+  unterscheidbar; `ligg-collateralia-genus` (gruppiert, Hárrer Kap. 8.1 +
+  Koch/Fischer Kap. 6.2.4, S. 120–127) mit dem Seitenbandtest und der
+  Befund-Seiten-Zuordnung. Bei allen drei Bändern ehrlich ausgewiesen:
+  präzise osteologische Ursprungs-/Ansatzpunkte sind im Quellentext nicht
+  einzeln benannt (nur intraartikuläre Lage bzw. grober Verlauf) — bewusst
+  nicht erfunden. `GELENK` (1): `art-femorotibialis` (Kniegelenk selbst,
+  Hárrer Kap. 8.1 + 8.2.1, S. 80–84) mit Kapselmuster (Extension > Flexion
+  > Rotation), Endgefühl und dem „Knick"/„Klaffen"-Bewegungspalpations-
+  Tastbefund. Alle 4 neuen Items sowie 7 dadurch aktualisierte bestehende
+  Wissenseinträge (gegenseitige `relatedAnatomyIds`-Verknüpfung) via
+  Playwright verifiziert (4/4 neue Review-Seiten, 0 Fehler), `tsc`/`eslint`
+  clean, `next build` erfolgreich, Reseed bestätigt (65 Anatomie-Items,
+  Kind-Verteilung: 48 Muskel, 7 Nerv, 4 Band, 3 Gelenk, 2 Knochen, 1
+  Sonstige). **Damit ist das Kniegelenk — Muskulatur, Bänder, Gelenk
+  selbst, Menisken/Patella-Mechanik, Untersuchungstechnik — als erstes
+  Hauptgelenk vollständig und kind-übergreifend abgedeckt.** Noch offen:
+  dasselbe Muster für Hüfte (Gelenk-Item existiert schon, Bänder/Labrum
+  fehlen noch als eigene Items), Schulter, Ellbogen, Karpus, Tarsus.
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte

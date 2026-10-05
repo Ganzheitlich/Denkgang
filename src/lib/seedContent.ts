@@ -2163,6 +2163,108 @@ const ANATOMY: AnatomySeed[] = [
       "Verifiziert: Salomon, Franz-Viktor et al., Anatomie für die Tiermedizin, Georg Thieme Verlag (Auflage/ISBN NICHT VERIFIZIERT, siehe Hinweis bei den übrigen Salomon-Wissenseinträgen), Kap. 2.7.3 (Intraartikuläre Strukturen), S. 124f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk 183590104_002_002_007.pdf). Die Lage zwischen Fossa acetabuli und Fovea capitis ossis femoris, die mechanische Funktion, die Rolle als arterielle Leitstruktur sowie der klinische Hinweis zur Femurkopfnekrose bei Ruptur (insbesondere bei unreifen Individuen) sind im Original so beschrieben. Damit wird die zuvor beim Anatomie-Item `huefte` dokumentierte Einschränkung teilweise aufgelöst (dort war zuvor nur Existenz/Zugehörigkeit zur Art. coxae verifiziert, nicht die konkrete Funktion) — jetzt sind Lage und mechanische Funktion direkt aus derselben Quelle bestätigt. Innervation im Original nicht genannt, bewusst nicht ergänzt. NICHT VERIFIZIERT bleibt: ob die hier beschriebene vergleichend-anatomische Allgemeinaussage (kein Spezies-Icon im gelesenen Abschnitt vermerkt) artspezifische Einschränkungen beim Hund hat, sowie der spezifische klinische Zusammenhang mit Hüftdysplasie (anders als die genannte Femurkopfnekrose-Klinik, die direkt belegt ist).",
     bildUrl: "/cases/huefte-01.png",
   },
+  {
+    id: "lig-cruciatum-craniale",
+    name: "Ligamentum cruciatum craniale (vorderes Kreuzband)",
+    kind: "BAND",
+    relatedCaseId: "bruno",
+    origin:
+      "Liegt intraartikulär innerhalb der Gelenkkapsel der Art. femorotibialis, zwischen Femur und Tibia gespannt — die genauen osteologischen Ursprungs-/Ansatzpunkte werden im Quellentext nicht einzeln benannt.",
+    funktion:
+      "Begrenzt gemeinsam mit dem Lig. cruciatum caudale in jeder Gelenkstellung die kraniale und kaudale Schublade der Tibia sowie — weil sich beide Kreuzbänder bei dieser Bewegung umeinanderwickeln — die Innenrotation des Kniegelenks.",
+    clinicalRelevance:
+      "Beim Hund in den allermeisten Fällen keine akute Unfallverletzung, sondern Endstadium eines chronisch-degenerativen Prozesses: Der M. quadriceps femoris erzeugt bei jedem Schritt neben der Gelenkkompression eine nach kranial gerichtete Scherkraft auf die Tibia (cranial tibial thrust), die dauerhaft am Band zieht — verstärkt durch Körpergewicht, eine steile Hinterhandstellung, Aktivität, eine schmale proximale Tibia und ein steiles Tibiaplateau. Unter dieser Dauerbelastung entsteht zunächst ein Teilriss, später ein Totalriss; häufig ist danach auch das kontralaterale Knie betroffen. Ein isolierter hinterer Kreuzbandriss ist dagegen selten und meist traumatisch bedingt.",
+    palpationHint:
+      "Nicht direkt palpierbar, da intraartikulär gelegen. Indirekt über den Schubladentest prüfbar: Bei vorderem Kreuzbandriss ist das Bewegungsende der kranialen Tibiaverschiebung weich (nur durch die Gelenkkapsel begrenzt), bei intaktem vorderem Kreuzband (z. B. bei isoliertem hinterem Kreuzbandriss) dagegen hart und abrupt.",
+    transferQ: "Warum spricht ein eher weicher Bewegungsstopp beim Schubladentest für einen vorderen statt einen hinteren Kreuzbandriss?",
+    transferOptions: [
+      {
+        label: "Weil bei gerissenem vorderem Kreuzband nur noch die Gelenkkapsel die kraniale Tibiaverschiebung begrenzt, was ein weicheres Endgefühl ergibt",
+        correct: true,
+      },
+      { label: "Weil ein weicher Stopp immer auf ein völlig gesundes Kniegelenk hindeutet", correct: false },
+      { label: "Weil das vordere Kreuzband beim Hund keine stabilisierende Funktion hat", correct: false },
+      { label: "Weil der Schubladentest grundsätzlich keine Aussage zum Kreuzband zulässt", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.1 (Anatomie Art. femorotibialis, Ligamente), S. 81f. (Bandfunktion, intraartikuläre Lage); Koch, Daniel/Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.4, S. 199–202 (cranial tibial thrust, Degenerationsprozess, Schubladentest-Endgefühl-Differenzierung). Beide Aspekte sind im jeweiligen Original so beschrieben. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `kniegelenk-baender-kapselmuster`, `kreuzbandriss-krankheitsbild`, `kreuzbandriss-biomechanik-und-therapie` sowie die Schubladentest-Beschreibung in `kreuzband-meniskus-tests` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Präzise osteologische Ursprungs-/Ansatzpunkte NICHT VERIFIZIERT (im Quellentext nicht benannt).",
+  },
+  {
+    id: "lig-cruciatum-caudale",
+    name: "Ligamentum cruciatum caudale (hinteres Kreuzband)",
+    kind: "BAND",
+    relatedCaseId: "bruno",
+    origin:
+      "Liegt intraartikulär innerhalb der Gelenkkapsel der Art. femorotibialis, zwischen Femur und Tibia gespannt — die genauen osteologischen Ursprungs-/Ansatzpunkte werden im Quellentext nicht einzeln benannt.",
+    funktion:
+      "Nach der Quelle funktioneller Hauptstabilisator der beiden Kreuzbänder; unterstützt den (hier exzentrisch arbeitenden) M. popliteus, mit dessen lateralem Meniskus es verbunden ist. Begrenzt gemeinsam mit dem Lig. cruciatum craniale in jeder Gelenkstellung die kraniale und kaudale Schublade sowie die Innenrotation.",
+    clinicalRelevance:
+      "Eine isolierte Ruptur ist beim Hund extrem selten und meist traumatisch bedingt — anders als die weit häufigere, chronisch-degenerative Ruptur des vorderen Kreuzbandes. Differenzierung über den Schubladentest: Begrenzt ein noch intaktes vorderes Kreuzband die kraniale Tibiaverschiebung weiterhin hart und abrupt, spricht das für einen isolierten hinteren Kreuzbandriss.",
+    palpationHint: "Nicht direkt palpierbar, da intraartikulär gelegen; indirekte Beurteilung über den Schubladentest und sein Endgefühl.",
+    transferQ: "Was deutet im Schubladentest am ehesten auf einen isolierten hinteren statt einen vorderen Kreuzbandriss hin?",
+    transferOptions: [
+      {
+        label: "Ein harter, abrupter Bewegungsstopp, da das noch intakte vordere Kreuzband die Verschiebung weiterhin hart begrenzt",
+        correct: true,
+      },
+      { label: "Ein weicher, kaum spürbarer Bewegungsstopp", correct: false },
+      { label: "Ein komplettes Fehlen jeglicher Tibiaverschiebung", correct: false },
+      { label: "Eine Schwellung ausschließlich am Sprunggelenk", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.1, S. 81f. (Bandfunktion inkl. der M.-popliteus-/lateraler-Meniskus-Verbindung, explizit als „Hauptstabilisator” bezeichnet); Koch/Fischer, Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.4, S. 199–202 (Seltenheit der isolierten Ruptur, Schubladentest-Differenzierung). Beide Aspekte sind im jeweiligen Original so beschrieben. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `kniegelenk-baender-kapselmuster` und `kreuzbandriss-biomechanik-und-therapie` als eigenständiges, strukturiertes Anatomie-Item. Präzise osteologische Ursprungs-/Ansatzpunkte NICHT VERIFIZIERT (im Quellentext nicht benannt).",
+  },
+  {
+    id: "ligg-collateralia-genus",
+    name: "Ligg. collateralia genus (mediales und laterales Seitenband)",
+    kind: "BAND",
+    relatedCaseId: "bruno",
+    origin:
+      "Osteologische Ursprungspunkte im Quellentext nicht einzeln benannt. Lig. collaterale mediale strahlt in den medialen Meniskus und die Gelenkkapsel ein; Lig. collaterale laterale zieht zum Caput fibulae, mit Ansatz weiter kaudal als das mediale Band.",
+    funktion:
+      "Lig. collaterale mediale: deutlich dicker und länger als das laterale Band, strahlt in medialen Meniskus und Kapsel ein. Lig. collaterale laterale: hemmt durch seinen weiter kaudal gelegenen Ansatz die Außenrotation. Beide Bänder sind in Extension gespannt — dann ist nur wenig Lateralbewegung möglich.",
+    clinicalRelevance:
+      "Mediale Hypermobilität bei gestrecktem Kniegelenk spricht für einen medialen Seitenbandriss (Ausriss meist am Femur; bei kleinen Hunden kann auch ein kranialer Kreuzbandriss eine erhöhte mediale Instabilität verursachen), laterale Hypermobilität für einen lateralen Seitenbandriss oder eine Fibulakopffraktur. Weil der mediale Meniskus fest mit Kapsel und medialem Kollateralband verbunden ist (anders als der unverwachsene, deutlich beweglichere laterale Meniskus), betreffen Meniskusschäden bevorzugt das mediale kaudale Meniskushorn.",
+    palpationHint:
+      "Seitenbandtest bei gestrecktem Kniegelenk: Die Tibia wird gegenüber dem Femur abduziert, adduziert und rotiert; physiologisch sind 5–10° Gelenkbeweglichkeit möglich.",
+    transferQ: "Welcher Befund spricht am ehesten für einen medialen statt einen lateralen Seitenbandriss am gestreckten Kniegelenk?",
+    transferOptions: [
+      { label: "Eine erhöhte mediale Aufklappbarkeit (Hypermobilität) bei Abduktionsstress", correct: true },
+      { label: "Eine erhöhte laterale Aufklappbarkeit bei Adduktionsstress", correct: false },
+      { label: "Ein vollständig unbewegliches Kniegelenk", correct: false },
+      { label: "Eine isolierte Schwellung am Tarsus", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.1, S. 81f. (Bandanatomie/-funktion, Meniskus-Band-Verbindung); Koch, Daniel/Fischer, Martin S., Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.2.4, S. 120–127 (Seitenbandtest mit Befund-DD-Zuordnung). Beide Aspekte sind im jeweiligen Original so beschrieben. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `kniegelenk-baender-kapselmuster`, `kniegelenk-menisken-patella-biomechanik` und `knie-liegender-hund-spezialtests` als eigenständiges, strukturiertes Anatomie-Item. Präzise osteologische Ursprungspunkte NICHT VERIFIZIERT (im Quellentext nicht benannt).",
+  },
+  {
+    id: "art-femorotibialis",
+    name: "Articulatio femorotibialis (Kniegelenk)",
+    kind: "GELENK",
+    relatedCaseId: "bruno",
+    origin:
+      "Femur (Femurkondylen) und Tibia (Tibiaplateau). Der laterale Femurkondylus ist stärker ausgebildet und steht etwas abgespreizt zur vertikalen Belastungsachse, der mediale Kondylus verläuft parallel dazu — dadurch legt der laterale Kondylus bei Flexion/Extension einen doppelt so langen Bewegungsweg zurück wie der mediale.",
+    insertion:
+      "Ligg. cruciata cranialis et caudalis (intraartikulär), Lig. collaterale mediale (strahlt in medialen Meniskus/Kapsel ein) und laterale (zieht zum Caput fibulae), Coronary Ligaments (Ligg. meniscotibialia, Meniskusbefestigung an der Tibia). Die Menisken (Meniscus medialis/lateralis) gleichen die Inkongruenz zwischen Femurkondylen und Tibiaplateau aus.",
+    funktion:
+      "Kapselmuster: Extension > Flexion > Rotation. Endgefühl: Flexion weich-elastisch, Rotation und Extension jeweils fest-elastisch. Bei Flexion erfolgt eine Innenrotation, bei Extension eine Außenrotation der Tibia.",
+    clinicalRelevance:
+      "Ein eigenes Kapselmuster der Art. femoropatellaris existiert nicht: Einschränkungen der Patella-Gleitfähigkeit laufen stets zusammen mit einer Einschränkung der Art. femorotibialis, da die Patella über Ligamente mit dem Femur verbunden ist — eine isolierte Patellofemoral-Ursache kann sich deshalb nur als Flexionseinschränkung zeigen, nie als isolierte Extensionseinschränkung.",
+    palpationHint:
+      "Daumen und Zeigefinger liegen von kranial rechts und links neben dem Lig. patellae im Gelenkspalt, während das Kniegelenk bewegt wird: Bei Extension gleitet das Tibiaplateau nach kranial (tastbar als „Knick”), bei Flexion nach kaudal (tastbar als „Klaffen”). Bei Innenrotation wandert das mediale Tibiaplateau nach kaudal und das laterale nach kranial, bei Außenrotation umgekehrt.",
+    transferQ: "Warum kann eine isolierte Flexionseinschränkung im Kniegelenk patellofemoral bedingt sein, eine isolierte Extensionseinschränkung aber nicht?",
+    transferOptions: [
+      {
+        label: "Weil die Art. femoropatellaris kein eigenes Kapselmuster hat und Einschränkungen immer gemeinsam mit der Art. femorotibialis auftreten, deren Kapselmuster mit Extension beginnt",
+        correct: true,
+      },
+      { label: "Weil die Patella bei Extension grundsätzlich keine Rolle spielt", correct: false },
+      { label: "Weil das Kniegelenk bei Flexion vollständig unbeweglich wird", correct: false },
+      { label: "Weil Extensionseinschränkungen beim Hund generell nicht vorkommen", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.1 (Anatomie Art. genus/femoropatellaris/femorotibialis), S. 80–82 (Gelenkaufbau, Bandapparat, Kapselmuster) sowie Kap. 8.2.1 (Spezifische Untersuchung), S. 83f. (Bewegungspalpation mit „Knick”-/„Klaffen”-Tastbefund). Alle genannten Fakten sind im Original so beschrieben. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `kniegelenk-menisken-patella-biomechanik`, `kniegelenk-baender-kapselmuster` und `kniegelenk-manuelle-untersuchung-bewegungspalpation` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Innervation der Gelenkkapsel im Original nicht genannt, bewusst nicht ergänzt.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -3478,7 +3580,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8 (Knieregion), S. 85–87. Lachmann-Test, Tibiakompressionstest, Apley-Test, McMurray-Test sowie die Band-/Kapselprovokation über Varus-/Valgusstress sind im Original mit Ausführung und Indikation so beschrieben, einschließlich des expliziten Hinweises, dass Apley- und McMurray-Test ohne Schmerzangabe des Patienten keine Aussage über die betroffene Meniskusseite erlauben.",
     relatedCaseIds: ["bruno"],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["lig-cruciatum-craniale", "lig-cruciatum-caudale", "ligg-collateralia-genus"],
   },
   {
     id: "tibiofibulargelenke",
@@ -3669,7 +3771,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert per Web-Recherche (22.09.2026), konvergent aus mehreren unabhängigen, etablierten veterinärmedizinischen Fachquellen: peer-reviewte Übersichtsarbeiten über PubMed/PMC (u. a. eine systematische Übersicht mit Metaanalyse zu TPLO/TTA sowie ein Scoping Review zur Ätiopathogenese der caninen Kreuzbanderkrankung), ergänzt durch die Fachportale ACVS (American College of Veterinary Surgeons) und VCA Animal Hospitals. WICHTIGE EINSCHRÄNKUNG: Der direkte Volltextzugriff (WebFetch) auf diese Quellen war in dieser Arbeitsumgebung technisch blockiert (Netzwerk-Egress-Beschränkung); die hier verwendeten Aussagen stammen aus den von der Websuche gelieferten, mehrfach konvergenten Kernaussagen dieser Artikel, nicht aus eigener Volltextprüfung jedes einzelnen Papers. Konkrete Prozentzahlen zu Erfolgsraten (85–95 % gute/exzellente Ergebnisse, ~93 % Funktionsrückkehr nach einem Jahr in einer 2013er-Studie) stammen teilweise aus sekundären Zusammenfassungen (u. a. veterinärmedizinische Fachblogs, die sich ihrerseits auf Studien berufen) und sind daher als Größenordnung, nicht als exakt geprüfte Einzelzahl zu verstehen. Der Zusammenhang zwischen steiler Tibiaplateauneigung und Kreuzbandriss wird in der Literatur selbst als nicht abschließend geklärt beschrieben — das ist hier bewusst mit übernommen, nicht geglättet.",
     relatedCaseIds: ["bruno"],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["lig-cruciatum-craniale"],
   },
   {
     id: "tonische-phasische-muskulatur-dysbalance",
@@ -4673,7 +4775,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.2.4 (Kniegelenk am liegenden Hund), S. 120–127, inkl. der dort zitierten Originalquelle [91] Koch DA, Grundmann S, Savoldelli D et al., Die Diagnostik der Patellaluxation des Kleintieres, Schw Arch Tierheilk 1998; 371–374, für die PL-0–4-Klassifikation. Alle beschriebenen Tests, Winkelangaben, die PL-Tabelle und Befund-DD-Zuordnungen sind im Original so beschrieben. Die Einordnung gegenüber der Putnam-Skala sowie der Terminologie-Hinweis zu Schubladen-/Lachmann-Test und den Meniskustests sind eigene, transparent gekennzeichnete Einordnungen zur Abgrenzung von bereits vorhandenem Hárrer-Content.",
     relatedCaseIds: ["bruno"],
-    relatedAnatomyIds: ["quadriceps"],
+    relatedAnatomyIds: ["quadriceps", "ligg-collateralia-genus", "art-femorotibialis"],
   },
   {
     id: "huefte-liegender-hund-spezialtests",
@@ -5693,7 +5795,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.4 (Kreuzbandriss), S. 199–202. Ätiologie, Biomechanik und Therapieoptionen sind im Original so beschrieben. Ergänzt die bereits vorhandene, webbasierte Übersicht `kreuzbandriss-krankheitsbild` um die buchbasierte biomechanische Herleitung und konkrete Operationsverfahren.",
     relatedCaseIds: ["bruno"],
-    relatedAnatomyIds: ["quadriceps"],
+    relatedAnatomyIds: ["quadriceps", "lig-cruciatum-craniale", "lig-cruciatum-caudale"],
   },
   {
     id: "patellaluxation-grad-und-therapieoptionen",
@@ -6697,7 +6799,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.1 (Anatomie Art. genus, Art. femoropatellaris, Art. femorotibialis), S. 80–82. Gelenkmechanik, Meniskusfunktion und Patella-Tracking sind im Original so beschrieben. Ergänzt die bereits vorhandenen, aus Kap. 8 dieser Quelle stammenden Anatomie-Items zur Kniemuskulatur (`biceps-femoris`, `semitendinosus`, `gracilis`, `sartorius`, `tensor-fasciae-latae`, `quadriceps`) um die zugehörige Gelenkbiomechanik.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["quadriceps", "biceps-femoris", "semitendinosus"],
+    relatedAnatomyIds: ["quadriceps", "biceps-femoris", "semitendinosus", "art-femorotibialis"],
   },
   {
     id: "kniegelenk-baender-kapselmuster",
@@ -6731,7 +6833,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.1 (Anatomie Art. femorotibialis, Ligamente), S. 81f. Bandanatomie, Funktion und Kapselmuster sind im Original so beschrieben. Ergänzt `kniegelenk-menisken-patella-biomechanik` (Gelenkmechanik/Menisken/Patella aus demselben Kapitel) sowie den bestehenden Eintrag zu den klinischen Kreuzband-/Meniskustests um die normale Bandbiomechanik.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["quadriceps"],
+    relatedAnatomyIds: ["quadriceps", "lig-cruciatum-craniale", "lig-cruciatum-caudale", "ligg-collateralia-genus"],
   },
   {
     id: "kniegelenk-manuelle-untersuchung-bewegungspalpation",
@@ -6784,7 +6886,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.2.1 (Spezifische Untersuchung der Gelenke Art. femorotibialis und Art. femoropatellaris), S. 82f. und S. 87. Griffe, Befundinterpretation, Flexionslimit-Differenzierung und Pes-anserinus-Provokation sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["gracilis", "sartorius", "semitendinosus"],
+    relatedAnatomyIds: ["gracilis", "sartorius", "semitendinosus", "art-femorotibialis"],
   },
   {
     id: "kniegelenk-manuelle-therapie-mobilisation-patella",
