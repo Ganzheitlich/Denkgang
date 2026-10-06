@@ -153,6 +153,52 @@ kein Überblick verloren geht.
   Hauptgelenk vollständig und kind-übergreifend abgedeckt.** Noch offen:
   dasselbe Muster für Hüfte (Gelenk-Item existiert schon, Bänder/Labrum
   fehlen noch als eigene Items), Schulter, Ellbogen, Karpus, Tarsus.
+- **Vierter Content-Batch — Hüftgelenk-Bänder vervollständigen
+  (06.10.2026):** Dieselbe Google-Drive-Chunk-Quelle (Salomon et al.,
+  `183590104_002_002_007.pdf`), aus der bereits `lig-capitis-femoris`
+  stammt, enthält im selben Abschnitt (Kap. 2.7.10, „Gelenkbänder des
+  Hüftgelenkes", explizit für den Hund „Hd.") eine vollständige
+  Drei-Bänder-Aufzählung: Lig. transversum acetabuli, Lig. capitis ossis
+  femoris, Lig. accessorium ossis femoris (letzteres dort ausdrücklich
+  „nur beim Pferd" — bewusst NICHT für den Hund übernommen, um keine
+  art-fremde Struktur fälschlich zuzuordnen). 2 neue Anatomie-Items
+  (65 → 67). `BAND` (1): `lig-transversum-acetabuli` — Fortsetzung des
+  Labrum acetabulare, überbrückt die Incisura acetabuli und schließt den
+  Pfannenrand zu einem vollständigen Ring. `SONSTIGE` (1, erstes Item
+  dieses Kinds): `labrum-acetabulare` — bewusst nicht als `BAND`
+  eingeordnet, da es sich fachlich um eine faserknorpelige Gelenklippe
+  handelt (Pfannenvergrößerung/-vertiefung, Belastbarkeit,
+  Anpassungsfähigkeit, Stoßdämpfung, fließender Übergang in den
+  Gelenkknorpel der Facies lunata), nicht um ein klassisches Band
+  zwischen zwei Knochen — Ursprungsfeld deshalb bewusst leer gelassen
+  statt mit einem erfundenen osteologischen Punkt befüllt.
+  **Selbstkorrektur an bestehendem Content (MASTER-PROMPT §22):** Beim
+  erneuten Lesen derselben Quelle für diesen Batch fiel auf, dass Kap.
+  2.7.10 dieselbe Struktur (Lig. capitis ossis femoris) detaillierter und
+  dog-spezifischer beschreibt als die ursprünglich für dieses Item
+  zitierte Stelle (Kap. 2.7.3) — insbesondere kennzeichnet Kap. 2.7.10
+  die Bedeutung der im Band verlaufenden Gefäße für die Femurkopf-
+  ernährung ausdrücklich als „umstritten" (geringe Penetration ins
+  Knochengewebe v. a. bei Jungtieren), während die zuvor zitierte Stelle
+  diesen Zusammenhang unrelativiert als Nekroserisiko bei Ruptur
+  dargestellt hatte. Das bestehende Item `lig-capitis-femoris` wurde
+  entsprechend überarbeitet (Funktion, klinische Relevanz, Transferfrage
+  und Quellenangabe) — inkl. der neuen Maßangabe (ca. 15×5 mm bei großen
+  Hunderassen, Band reicht nicht für Luxationsschutz). Die identische
+  Formulierung im mirrorenden `huefte`-Anatomie-Item und im
+  `huefte`-Wissenseintrag („Der Ortolani-Test...") wurde parallel
+  aktualisiert, um nicht an zwei von drei Stellen eine inzwischen selbst
+  relativierte Aussage stehen zu lassen. Alle 2 neuen Items sowie das
+  aktualisierte `lig-capitis-femoris` via Playwright verifiziert (3/3
+  Seiten, 0 Fehler), `tsc`/`eslint` clean, `next build` erfolgreich,
+  Reseed bestätigt (67 Anatomie-Items, Kind-Verteilung: 48 Muskel, 7
+  Nerv, 5 Band, 3 Gelenk, 2 Knochen, 2 Sonstige). **Damit ist auch die
+  Hüfte — Muskulatur, Gelenk, Bänder, Labrum — als zweites Hauptgelenk
+  kind-übergreifend abgedeckt.** Noch offen: Schulter (Gelenk-Item und
+  Bänder fehlen noch komplett), Ellbogen (nur die zwei Processus-Items
+  als `KNOCHEN` vorhanden, kein `art-cubiti`-Gelenk-Item und keine
+  Seitenbänder), Karpus, Tarsus (beide bisher nur über Muskulatur
+  abgedeckt, keine eigenen Gelenk-/Banditems).
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte

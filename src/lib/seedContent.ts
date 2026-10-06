@@ -821,7 +821,7 @@ const ANATOMY: AnatomySeed[] = [
       { label: "Eine normale Gelenkvariante ohne klinische Bedeutung", correct: false },
     ],
     sourceStatus:
-      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion), S. 43–48 — der Ortolani-Test (longitudinaler Druck zum Femur, Subluxation nach dorsal, Reposition mit hörbarem Klick bei Abduktion) ist dort exakt bestätigt. „Hüftdysplasie” wird in diesem Kapitel nicht erwähnt — dieser Teil der Aussage bleibt etabliertes veterinärmedizinisches Wissen, NICHT VERIFIZIERT gegen diese spezifische Quelle. Nachträglich aufgewertet (03.10.2026, weiter aufgewertet 05.10.2026): Das Ligamentum capitis ossis femoris ist jetzt als eigenes `BAND`-Anatomie-Item (`lig-capitis-femoris`) mit direkt aus Salomon et al. (Kap. 2.7.3, S. 124f.) verifizierter Lage (zwischen Fossa acetabuli und Fovea capitis ossis femoris) und Funktion (mechanische Führung sowie Leitstruktur für die femurkopfversorgende Arterie, inkl. des klinischen Hinweises zur Femurkopfnekrose bei Ruptur) erfasst — Details dort, hier bewusst nicht dupliziert. Der klinische Zusammenhang speziell mit Hüftdysplasie bleibt weiterhin NICHT aus dieser Quelle belegt.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion), S. 43–48 — der Ortolani-Test (longitudinaler Druck zum Femur, Subluxation nach dorsal, Reposition mit hörbarem Klick bei Abduktion) ist dort exakt bestätigt. „Hüftdysplasie” wird in diesem Kapitel nicht erwähnt — dieser Teil der Aussage bleibt etabliertes veterinärmedizinisches Wissen, NICHT VERIFIZIERT gegen diese spezifische Quelle. Nachträglich aufgewertet (03.10.2026, weiter aufgewertet 05./06.10.2026): Das Ligamentum capitis ossis femoris ist jetzt als eigenes `BAND`-Anatomie-Item (`lig-capitis-femoris`) mit direkt aus Salomon et al. (Kap. 2.7.3 und, dog-spezifischer, Kap. 2.7.10) verifizierter Lage, Maßangabe (ca. 15×5 mm bei großen Hunderassen) und Funktion erfasst — inkl. der dort selbst als umstritten gekennzeichneten Bedeutung der im Band verlaufenden Gefäße für die Femurkopfernährung (eine zuvor in diesem Eintrag plakativer dargestellte Nekrose-Kausalkette wurde entsprechend relativiert). Details dort, hier bewusst nicht dupliziert. Der klinische Zusammenhang speziell mit Hüftdysplasie bleibt weiterhin NICHT aus dieser Quelle belegt.",
     bildUrl: "/cases/huefte-01.png",
   },
   {
@@ -2144,24 +2144,73 @@ const ANATOMY: AnatomySeed[] = [
     origin: "Fossa acetabuli",
     insertion: "Fovea capitis ossis femoris",
     funktion:
-      "Mechanische Funktion: trägt zur Führung/Sicherung des Femurkopfes in der Hüftgelenkpfanne bei. Dient zugleich als Leitstruktur für die Arterie, die den Femurkopf mit Blut versorgt.",
+      "Mechanische Funktion: trägt zur Führung/Sicherung des Femurkopfes in der Hüftgelenkpfanne bei. Beim Hund (explizit als eine der Spezies genannt, bei denen dies zutrifft) führt das Band zusätzlich Blutgefäße — deren Bedeutung für die Ernährung des Femurkopfes ist in der Quelle aber ausdrücklich als umstritten gekennzeichnet, da sie insbesondere bei Jungtieren kaum in die Knochensubstanz eindringen.",
     clinicalRelevance:
-      "Bei Zerreißen des Bandes kann es — insbesondere bei noch nicht ausgewachsenen Individuen — zu einer Nekrose des Femurkopfes kommen, da mit dem Band auch die versorgende Arterie reißt.",
+      "Bei großen Hunderassen ist das Band etwa 15 mm lang und 5 mm breit — seine Länge reicht in aller Regel nicht aus, um eine Femurkopfluxation unbeschadet zu überstehen, so dass es bei einer Hüftluxation typischerweise mitreißt. Die früher in diesem Eintrag genannte Nekrosegefahr bei Ruptur (über den Verlust der im Band verlaufenden Gefäße) ist laut derselben Quelle an anderer Stelle selbst als umstritten markiert — siehe Funktion.",
     palpationHint:
       "Nicht direkt palpierbar, da intraartikulär gelegen; indirekt über Laxitätsprüfungen des Hüftgelenks (z. B. Ortolani-Test) einschätzbar.",
-    transferQ: "Warum kann eine Ruptur des Lig. capitis ossis femoris besonders bei jungen Hunden zu einer Femurkopfnekrose führen?",
+    transferQ: "Was ist über die im Lig. capitis ossis femoris verlaufenden Blutgefäße beim Hund tatsächlich bekannt?",
     transferOptions: [
       {
-        label: "Weil das Band zugleich als Leitstruktur für die den Femurkopf versorgende Arterie dient — reißt es, wird auch die Blutversorgung unterbrochen",
+        label: "Sie sind vorhanden, ihre Bedeutung für die Ernährung des Femurkopfes ist aber in der Fachliteratur selbst umstritten",
         correct: true,
       },
-      { label: "Weil das Band selbst Knochengewebe enthält, das bei Ruptur abstirbt", correct: false },
-      { label: "Weil eine Bandruptur automatisch eine Infektion des Gelenks auslöst", correct: false },
-      { label: "Weil junge Hunde grundsätzlich kein Lig. capitis femoris besitzen", correct: false },
+      { label: "Sie sind beim Hund als einziger Haustierart komplett unbekannt/nicht vorhanden", correct: false },
+      { label: "Ihre Bedeutung für die Femurkopfernährung ist zweifelsfrei und unumstritten geklärt", correct: false },
+      { label: "Es handelt sich um Lymphgefäße, nicht um Blutgefäße", correct: false },
     ],
     sourceStatus:
-      "Verifiziert: Salomon, Franz-Viktor et al., Anatomie für die Tiermedizin, Georg Thieme Verlag (Auflage/ISBN NICHT VERIFIZIERT, siehe Hinweis bei den übrigen Salomon-Wissenseinträgen), Kap. 2.7.3 (Intraartikuläre Strukturen), S. 124f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk 183590104_002_002_007.pdf). Die Lage zwischen Fossa acetabuli und Fovea capitis ossis femoris, die mechanische Funktion, die Rolle als arterielle Leitstruktur sowie der klinische Hinweis zur Femurkopfnekrose bei Ruptur (insbesondere bei unreifen Individuen) sind im Original so beschrieben. Damit wird die zuvor beim Anatomie-Item `huefte` dokumentierte Einschränkung teilweise aufgelöst (dort war zuvor nur Existenz/Zugehörigkeit zur Art. coxae verifiziert, nicht die konkrete Funktion) — jetzt sind Lage und mechanische Funktion direkt aus derselben Quelle bestätigt. Innervation im Original nicht genannt, bewusst nicht ergänzt. NICHT VERIFIZIERT bleibt: ob die hier beschriebene vergleichend-anatomische Allgemeinaussage (kein Spezies-Icon im gelesenen Abschnitt vermerkt) artspezifische Einschränkungen beim Hund hat, sowie der spezifische klinische Zusammenhang mit Hüftdysplasie (anders als die genannte Femurkopfnekrose-Klinik, die direkt belegt ist).",
+      "Verifiziert: Salomon, Franz-Viktor et al., Anatomie für die Tiermedizin, Georg Thieme Verlag (Auflage/ISBN NICHT VERIFIZIERT, siehe Hinweis bei den übrigen Salomon-Wissenseinträgen), Kap. 2.7.3 (Intraartikuläre Strukturen), S. 124f. sowie Kap. 2.7.10 (Knochenverbindungen der Beckengliedmaße, „Gelenkbänder des Hüftgelenkes“/„Hüftgelenk“), S. 144f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk 183590104_002_002_007.pdf). Die Lage zwischen Fossa acetabuli und Fovea capitis ossis femoris sowie die mechanische Führungsfunktion sind im Original so beschrieben. Aktualisiert (06.10.2026): Kap. 2.7.10 liefert dieselbe Struktur detaillierter und artspezifischer als Kap. 2.7.3 — explizit bestätigt für den Hund (\"Hd.\"): das Band führt Blutgefäße, deren Bedeutung für die Femurkopfernährung aber ausdrücklich als umstritten gekennzeichnet wird (geringe Penetration ins Knochengewebe v. a. bei Jungtieren), sowie die Maßangabe (ca. 15×5 mm bei großen Hunderassen) und die fehlende Luxationsschutzfunktion durch unzureichende Bandlänge. Die zuvor in diesem Eintrag plakativ dargestellte Femurkopfnekrose-Klinik (aus Kap. 2.7.3, dort ohne die Umstritten-Einschränkung formuliert) wurde entsprechend relativiert, um nicht eine in derselben Quelle an anderer Stelle selbst bestrittene Kausalkette als gesicherte Tatsache darzustellen (MASTER-PROMPT §22). Das in derselben Passage erwähnte Lig. accessorium ossis femoris ist dort explizit als „nur beim Pferd“ vorkommend markiert und wurde deshalb bewusst NICHT für den Hund übernommen. Innervation im Original nicht genannt, bewusst nicht ergänzt. Der spezifische klinische Zusammenhang mit Hüftdysplasie bleibt weiterhin NICHT aus dieser Quelle belegt.",
     bildUrl: "/cases/huefte-01.png",
+  },
+  {
+    id: "lig-transversum-acetabuli",
+    name: "Ligamentum transversum acetabuli",
+    kind: "BAND",
+    relatedCaseId: "luna",
+    origin: "Fortsetzung des Labrum acetabulare",
+    insertion: "Überbrückt die Incisura acetabuli (Unterbrechung des knöchernen Pfannenrandes am ventralen Azetabulumrand).",
+    funktion:
+      "Schließt gemeinsam mit dem Labrum acetabulare den Pfannenrand zu einem vollständigen Ring, sodass der Femurkopf über den gesamten Umfang der Hüftgelenkpfanne gefasst und geführt wird.",
+    clinicalRelevance:
+      "Als Teil des Pfannenrand-Komplexes (zusammen mit dem Labrum acetabulare) relevant für die Beurteilung der Hüftgelenkskongruenz — eine inkongruente oder flache Pfanne (z. B. bei Hüftdysplasie) verändert die mechanische Beanspruchung dieses gesamten Randbereichs, auch wenn das Band selbst in der ausgewerteten Quelle nicht im Kontext der Hüftdysplasie beschrieben wird.",
+    palpationHint: "Nicht palpierbar, da intraartikulär und vom Gelenk umschlossen.",
+    transferQ: "Welche Funktion erfüllt das Lig. transversum acetabuli im Zusammenspiel mit dem Labrum acetabulare?",
+    transferOptions: [
+      {
+        label: "Es überbrückt die Incisura acetabuli und schließt so den Pfannenrand zu einem vollständigen Ring",
+        correct: true,
+      },
+      { label: "Es ersetzt das Lig. capitis ossis femoris vollständig", correct: false },
+      { label: "Es verbindet Femur und Tibia direkt", correct: false },
+      { label: "Es hat ausschließlich eine Blutversorgungsfunktion ohne mechanische Rolle", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Salomon, Franz-Viktor et al., Anatomie für die Tiermedizin, Georg Thieme Verlag (Auflage/ISBN NICHT VERIFIZIERT, siehe Hinweis bei den übrigen Salomon-Wissenseinträgen), Kap. 2.7.10 (Knochenverbindungen der Beckengliedmaße, „Gelenkbänder des Hüftgelenkes“), S. 144f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk 183590104_002_002_007.pdf), dort explizit für den Hund („Hd.“) aufgeführt als eines von drei Gelenkbändern des Hüftgelenks (neben Lig. capitis ossis femoris und dem nur beim Pferd vorkommenden Lig. accessorium ossis femoris). Die Beschreibung als Fortsetzung des Labrum acetabulare, die Überbrückung der Incisura acetabuli und die Ring-Schlussfunktion sind im Original so beschrieben. Ursprung/Ansatz im klassischen osteologischen Sinn nicht sinnvoll anwendbar (Weichteilstruktur, die eine Lücke überbrückt) — Felder entsprechend als Kontinuität des Labrum beschrieben statt erfunden. Innervation im Original nicht genannt, bewusst nicht ergänzt.",
+  },
+  {
+    id: "labrum-acetabulare",
+    name: "Labrum acetabulare (Gelenklippe der Hüftgelenkpfanne)",
+    kind: "SONSTIGE",
+    relatedCaseId: "luna",
+    insertion: "Umläuft den Rand des Azetabulums und setzt an der Facies lunata (dem halbmondförmigen, hyalinknorpelig überzogenen Gelenkflächenanteil der Pfanne) an; geht peripher in die Gelenkkapsel über.",
+    funktion:
+      "Faserknorpelige Gelenklippe, die die Hüftgelenkpfanne vergrößert und vertieft und dadurch die Kongruenz zwischen Pfanne und Femurkopf verbessert. Erhöht die Belastbarkeit und Anpassungsfähigkeit des Pfannenrandes und wirkt stoßdämpfend; geht am Übergang zum Gelenkknorpel der Facies lunata fließend in diesen über und ist mit der Gelenkkapsel verwachsen.",
+    clinicalRelevance:
+      "Als faserknorpeliger, nicht rein ligamentärer Pfannenrand-Verstärker mitentscheidend für die Passform zwischen Femurkopf und Pfanne — bei einer flachen oder dysplastischen Hüftgelenkpfanne verändert sich die mechanische Belastung des Labrums mit, auch wenn dieser Zusammenhang in der ausgewerteten Quelle nicht explizit im Kontext der Hüftdysplasie beschrieben wird.",
+    palpationHint: "Nicht palpierbar, da intraartikulär gelegen und vom Gelenk umschlossen.",
+    transferQ: "Warum ist das Labrum acetabulare keine eigene Kategorie „Band“, sondern wird separat als Struktur eingeordnet?",
+    transferOptions: [
+      {
+        label: "Weil es sich um eine faserknorpelige Gelenklippe handelt, die in den Gelenkknorpel übergeht, statt um ein klassisches Band zwischen zwei Knochen",
+        correct: true,
+      },
+      { label: "Weil es keine mechanische Funktion am Hüftgelenk hat", correct: false },
+      { label: "Weil es nicht am Azetabulum liegt, sondern am Femur", correct: false },
+      { label: "Weil es ausschließlich beim Pferd vorkommt", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Salomon, Franz-Viktor et al., Anatomie für die Tiermedizin, Georg Thieme Verlag (Auflage/ISBN NICHT VERIFIZIERT, siehe Hinweis bei den übrigen Salomon-Wissenseinträgen), Kap. 2.7.3 (Intraartikuläre Strukturen) S. 124f. sowie Kap. 2.7.10 (Knochenverbindungen der Beckengliedmaße) S. 144f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk 183590104_002_002_007.pdf). Die faserknorpelige Natur, die Pfannenvergrößerung/-vertiefung, die Funktionen (Belastbarkeit, Anpassungsfähigkeit, Stoßdämpfung) sowie der Übergang in den Gelenkknorpel der Facies lunata bzw. die Verwachsung mit der Gelenkkapsel sind im Original so beschrieben. Als `SONSTIGE` statt `BAND` eingeordnet, da es sich fachlich um Faserknorpel und nicht um ein klassisches Ligament handelt — Ursprungsfeld entsprechend nicht mit einem erfundenen osteologischen Ursprungspunkt befüllt, sondern leer gelassen. Innervation im Original nicht genannt, bewusst nicht ergänzt.",
   },
   {
     id: "lig-cruciatum-craniale",
@@ -2462,9 +2511,9 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
-      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion), S. 43–48 — der Ortolani-Test (longitudinaler Druck zum Femur, Subluxation nach dorsal, Reposition mit hörbarem Klick bei Abduktion) ist dort exakt bestätigt. „Hüftdysplasie” wird in diesem Kapitel nicht erwähnt — dieser Teil der Aussage bleibt etabliertes veterinärmedizinisches Wissen, NICHT VERIFIZIERT gegen diese spezifische Quelle. Nachträglich aufgewertet (03.10.2026, weiter aufgewertet 05.10.2026): Das Ligamentum capitis ossis femoris ist jetzt als eigenes `BAND`-Anatomie-Item (`lig-capitis-femoris`) mit direkt aus Salomon et al. (Kap. 2.7.3, S. 124f.) verifizierter Lage (zwischen Fossa acetabuli und Fovea capitis ossis femoris) und Funktion (mechanische Führung sowie Leitstruktur für die femurkopfversorgende Arterie, inkl. des klinischen Hinweises zur Femurkopfnekrose bei Ruptur) erfasst — Details dort, hier bewusst nicht dupliziert. Der klinische Zusammenhang speziell mit Hüftdysplasie bleibt weiterhin NICHT aus dieser Quelle belegt.",
+      "Teilverifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 7 (Hüftregion), S. 43–48 — der Ortolani-Test (longitudinaler Druck zum Femur, Subluxation nach dorsal, Reposition mit hörbarem Klick bei Abduktion) ist dort exakt bestätigt. „Hüftdysplasie” wird in diesem Kapitel nicht erwähnt — dieser Teil der Aussage bleibt etabliertes veterinärmedizinisches Wissen, NICHT VERIFIZIERT gegen diese spezifische Quelle. Nachträglich aufgewertet (03.10.2026, weiter aufgewertet 05./06.10.2026): Das Ligamentum capitis ossis femoris ist jetzt als eigenes `BAND`-Anatomie-Item (`lig-capitis-femoris`) mit direkt aus Salomon et al. (Kap. 2.7.3 und, dog-spezifischer, Kap. 2.7.10) verifizierter Lage, Maßangabe (ca. 15×5 mm bei großen Hunderassen) und Funktion erfasst — inkl. der dort selbst als umstritten gekennzeichneten Bedeutung der im Band verlaufenden Gefäße für die Femurkopfernährung (eine zuvor in diesem Eintrag plakativer dargestellte Nekrose-Kausalkette wurde entsprechend relativiert). Details dort, hier bewusst nicht dupliziert. Der klinische Zusammenhang speziell mit Hüftdysplasie bleibt weiterhin NICHT aus dieser Quelle belegt.",
     relatedCaseIds: ["luna"],
-    relatedAnatomyIds: ["huefte", "lig-capitis-femoris"],
+    relatedAnatomyIds: ["huefte", "lig-capitis-femoris", "lig-transversum-acetabuli", "labrum-acetabulare"],
   },
   {
     id: "discus",
