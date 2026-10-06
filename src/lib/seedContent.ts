@@ -2314,6 +2314,88 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 8.1 (Anatomie Art. genus/femoropatellaris/femorotibialis), S. 80–82 (Gelenkaufbau, Bandapparat, Kapselmuster) sowie Kap. 8.2.1 (Spezifische Untersuchung), S. 83f. (Bewegungspalpation mit „Knick”-/„Klaffen”-Tastbefund). Alle genannten Fakten sind im Original so beschrieben. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `kniegelenk-menisken-patella-biomechanik`, `kniegelenk-baender-kapselmuster` und `kniegelenk-manuelle-untersuchung-bewegungspalpation` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Innervation der Gelenkkapsel im Original nicht genannt, bewusst nicht ergänzt.",
   },
+  {
+    id: "skapula",
+    name: "Skapula (Schulterblatt)",
+    kind: "KNOCHEN",
+    relatedCaseId: "rocky",
+    origin:
+      "Dreieckiger, platter Knochen des Schultergürtels; liegt dem Thorax lateral auf. Beim Hund nicht gelenkig, sondern rein muskulär (v. a. M. subscapularis, M. serratus ventralis) mit dem Thorax verbunden — skapulothorakales Gleitlager (Synsarkose) statt echtem Gelenk.",
+    insertion:
+      "Drei Ränder: Margo cranialis (mit der Incisura scapulae für den N. suprascapularis), Margo dorsalis (zur Wirbelsäule), Margo caudalis (zu den Rippen). Der ventrale Angulus trägt die Cavitas glenoidalis; kranial davon liegt das Tuberculum supraglenoidale (Ursprung M. biceps brachii), kaudal das Tuberculum infraglenoidale (Ursprung M. triceps brachii caput longum). Die Spina scapulae teilt die Skapula in Fossa supraspinata und Fossa infraspinata (Ursprünge der gleichnamigen Muskeln) und verbreitert sich distal zum Akromion. Medial liegt die Facies subscapularis mit der Fossa subscapularis (Ursprung M. subscapularis) sowie die Facies serrata für den Ansatz des M. serratus ventralis.",
+    funktion:
+      "Die Klavikula ist beim Hund weitgehend degeneriert (ggf. nur ein ca. 1 cm langes Knöchelchen, auf Röntgenbildern meist nicht sichtbar). Die Bewegungsachse der Skapula liegt am dorsalen Skapularand und wandert während der Bewegung mit: bei Schulterextension nach kaudoventral, bei Schulterflexion nach dorsokranial. Die Skapulawinkelung beeinflusst das Gangbild direkt: Steht die Skapula steil (z. B. Foxterrier), hat die Vordergliedmaße nur eine kurze Reichweite und das Tier zeigt einen Stechtrab — rasseanatomisch physiologisch, nicht pathologisch. Steht die Skapula flach (z. B. Border Collie), hat die Vordergliedmaße eine längere Reichweite und das Tier zeigt einen raumgreifenden Trab.",
+    clinicalRelevance:
+      "Weil die Skapula nicht gelenkig, sondern rein muskulär mit dem Thorax verbunden ist, gilt bei ihrer Untersuchung nicht die Konvex-Konkav-Regel der Gelenklehre — stattdessen wird die Translation der Skapula auf dem Thorax untersucht. Steht die Skapula zu steil, wirken deutlich größere Kompressionskräfte auf die Knorpelflächen der Gelenke der Vordergliedmaße, und das Tier muss mehr über seine Muskulatur abfangen, was zu Tonuserhöhungen im Schultergürtelbereich führen kann (Täter-Opfer-Prinzip, siehe Wissenseintrag `vordergliedmasse-gewichtsverteilung-taeter-opfer-prinzip`).",
+    palpationHint:
+      "Margo dorsalis, Spina scapulae und Akromion sind oberflächlich gut tastbar. Tuberculum supraglenoidale und -infraglenoidale am ventralen Angulus beidseits der Cavitas glenoidalis palpierbar. Die medial gelegene Facies subscapularis liegt dem Thorax an und ist nur eingeschränkt zugänglich.",
+    transferQ: "Warum gilt bei der Untersuchung der Skapula nicht die Konvex-Konkav-Regel der Gelenklehre?",
+    transferOptions: [
+      {
+        label: "Weil die Skapula beim Hund nicht gelenkig, sondern rein muskulär (Synsarkose) mit dem Thorax verbunden ist",
+        correct: true,
+      },
+      { label: "Weil die Skapula beim Hund keine Bewegungsachse besitzt", correct: false },
+      { label: "Weil die Klavikula beim Hund die gesamte Schulterbewegung übernimmt", correct: false },
+      { label: "Weil die Skapula fest mit dem Humerus verwachsen ist", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 12.1.1–12.1.2 (Skapula, Skapulothorakales Gleitlager), S. 127f. Landmarken, Synsarkose-Konzept und Bewegungsachse sind im Original so beschrieben. Die Skapulawinkelungs-/Gangbild-Zusammenhänge stammen aus Kap. 10 (Vordergliedmaßen-Gewichtsverteilung), ebenfalls Hárrer. Spiegelt und strukturiert Teile der bereits bestehenden Wissenseinträge `schultergelenk-skapulothorakales-gleitlager-anatomie` und `vordergliedmasse-gewichtsverteilung-taeter-opfer-prinzip` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Periost-/Gefäßversorgung im Original nicht genannt, bewusst nicht ergänzt.",
+  },
+  {
+    id: "art-humeri",
+    name: "Articulatio humeri (Schultergelenk)",
+    kind: "GELENK",
+    relatedCaseId: "rocky",
+    origin:
+      "Humeruskopf (konvex) und Cavitas glenoidalis der Skapula. Anatomisch ein Kugelgelenk — die Gelenkpfanne ist jedoch flach und bietet knöchern wenig Halt.",
+    insertion:
+      "Ein Labrum glenoidale vergrößert die flache Pfanne; die Gelenkkapsel ist straff. Das Gelenk wird hauptsächlich muskulär geführt: M. subscapularis als innerer (medialer), M. infraspinatus als äußerer (lateraler) Kapselverstärker, M. biceps brachii als kranialer Stabilisator, dazu die Ligg. glenohumeralia mediale et laterale (eigenes Anatomie-Item `ligg-glenohumeralia`).",
+    funktion:
+      "Funktioniert trotz der Kugelgelenk-Bauform wie ein Scharniergelenk: Flexion (50–58°) und Extension (160–165°) sind die Hauptbewegungen, dazu passiv Ab-/Adduktion (55–65°) und Innen-/Außenrotation (35°/45°). Kapselmuster: Extension – Flexion. Endgefühl: fest-elastisch in Extension, Ab-/Adduktion und Rotation; weich-elastisch in Flexion.",
+    clinicalRelevance:
+      "Da die Pfanne knöchern wenig Halt bietet und das Gelenk überwiegend muskulär geführt wird, führen Probleme der stabilisierenden Muskulatur (v. a. M. biceps brachii) sehr häufig gleichzeitig zu Schulterproblemen — und umgekehrt. Bei konvex-konkaver Inkongruenz (Dysplasie) oder medialer Bandlaxizität besteht ein erhöhtes Luxationsrisiko: Kongenitale Luxationen werden mit medialer Bandlaxizität und einer Deformation des Glenoids erklärt, traumatische Luxationen erfolgen meist nach lateral.",
+    palpationHint:
+      "Nicht direkt palpierbar (tief gelegenes Gelenk); Stabilität wird indirekt über den Bizepstest sowie mediales/laterales Gapping geprüft (siehe Wissenseintrag `bizepstest-schultergelenk-stabilitaetstests`).",
+    transferQ: "Warum funktioniert das Schultergelenk des Hundes trotz seiner anatomischen Kugelgelenk-Form im Alltag wie ein Scharniergelenk?",
+    transferOptions: [
+      {
+        label: "Weil Flexion und Extension die dominanten Bewegungen sind und das Gelenk überwiegend muskulär statt knöchern geführt wird",
+        correct: true,
+      },
+      { label: "Weil die Gelenkpfanne den Humeruskopf knöchern vollständig umschließt", correct: false },
+      { label: "Weil am Schultergelenk keine Muskeln ansetzen", correct: false },
+      { label: "Weil Rotation im Schultergelenk anatomisch unmöglich ist", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 12.1.3 (Schultergelenk), S. 127f. (Gelenkaufbau, ROM, Kapselmuster, Endgefühle, muskuläre Stabilisatoren) sowie Kap. 12.2.1 (Spezifische Untersuchung), S. 130–132 (Bizepstest, Stabilitätstests). Die Luxations-Ätiologie (mediale Bandlaxizität bei kongenitaler, laterale Richtung bei traumatischer Luxation) ergänzt aus: Koch, Daniel; Fischer, Martin S., Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.6, S. 228f. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `schultergelenk-skapulothorakales-gleitlager-anatomie`, `bizepstest-schultergelenk-stabilitaetstests` und `schultergelenkluxation-hund` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Innervation der Gelenkkapsel im Original nicht genannt, bewusst nicht ergänzt.",
+  },
+  {
+    id: "ligg-glenohumeralia",
+    name: "Ligg. glenohumeralia mediale et laterale",
+    kind: "BAND",
+    relatedCaseId: "rocky",
+    origin:
+      "Verstärken als Teil des straffen Kapsel-Band-Apparats der Art. humeri jeweils den medialen bzw. lateralen Gelenkanteil — die genauen osteologischen Ursprungs-/Ansatzpunkte werden im Quellentext nicht einzeln benannt.",
+    funktion:
+      "Mediales Ligament: stabilisiert gemeinsam mit dem M. subscapularis (zusätzliche muskuläre Verstärkung) die Medialseite des Schultergelenks. Laterales Ligament: stabilisiert gemeinsam mit dem M. infraspinatus die Lateralseite. Teil des Kapsel-Band-Apparats, der die flache, knöchern wenig haltgebende Cavitas glenoidalis absichert.",
+    clinicalRelevance:
+      "Eine mediale Bandlaxizität gilt als Mitursache kongenitaler Schulterluxationen (zusammen mit einer Deformation des Glenoids). Geprüft werden beide Ligamente über mediales bzw. laterales Gapping: Werden beim Joint play der Art. humeri signifikant vergrößerte Bewegungsausschläge festgestellt, wird das Gelenk mit einem schnellen Impuls medial bzw. lateral aufgeklappt. Findet sich zu viel Spiel nach medial, muss der therapeutische Fokus auf Stabilisation liegen, nicht auf Mobilisation.",
+    palpationHint:
+      "Nicht direkt palpierbar, da Teil der straffen Gelenkkapsel; indirekt über mediales/laterales Gapping einschätzbar (siehe Wissenseintrag `bizepstest-schultergelenk-stabilitaetstests`).",
+    transferQ: "Warum wird beim medialen Gapping des Schultergelenks zusätzlich der M. subscapularis mitberücksichtigt?",
+    transferOptions: [
+      {
+        label: "Weil der M. subscapularis das mediale Ligament/die mediale Kapselseite zusätzlich muskulär stabilisiert",
+        correct: true,
+      },
+      { label: "Weil der M. subscapularis anstelle des Ligaments allein für die Stabilität zuständig ist", correct: false },
+      { label: "Weil das mediale Ligament beim Hund gar nicht existiert", correct: false },
+      { label: "Weil Gapping-Tests grundsätzlich nur Muskeln, nie Bänder prüfen", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 12.1.3 (Schultergelenk, Erwähnung der Ligg. glenohumeralia mediale et laterale als Teil des Kapsel-Band-Apparats), S. 127f. sowie Kap. 12.2.1 (mediales/laterales Gapping, Muskel-Stabilisator-Zuordnung), S. 130–132. Die kongenitale-Luxation-Bandlaxizitäts-Verknüpfung ergänzt aus: Koch, Daniel; Fischer, Martin S., Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.6, S. 228f. Präzise osteologische Ursprungs-/Ansatzpunkte beider Ligamente werden in keiner der beiden Quellen einzeln benannt — bewusst nicht erfunden. Spiegelt Teile des bereits bestehenden Wissenseintrags `bizepstest-schultergelenk-stabilitaetstests` als eigenständiges, strukturiertes Anatomie-Item.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -6279,7 +6361,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.6 (Instabilität des Schultergelenks), S. 228f. Ätiologie, Klinik und Therapie sind im Original so beschrieben. Kap. 8.4.7 (Osteochondrose des Schultergelenks) verweist im Original nur auf die bereits an anderer Stelle behandelten allgemeinen Osteochondrose-Informationen; Kap. 8 endet danach mit dem Literaturverzeichnis (8.5).",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: ["biceps"],
+    relatedAnatomyIds: ["biceps", "art-humeri", "ligg-glenohumeralia"],
   },
   {
     id: "lahmheit-laehmung-abgrenzung",
@@ -8010,7 +8092,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 12.1.1–12.1.3 (Skapula, Skapulothorakales Gleitlager, Schultergelenk), S. 127f. Skapula-Anatomie, Synsarkose-Konzept, Schultergelenk-ROM/Kapselmuster/Stabilisatoren und die Biceps-Korrelation sind im Original so beschrieben.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: ["biceps", "supraspinatus", "infraspinatus", "subscapularis"],
+    relatedAnatomyIds: ["biceps", "supraspinatus", "infraspinatus", "subscapularis", "skapula", "art-humeri", "ligg-glenohumeralia"],
   },
   {
     id: "bizepstest-schultergelenk-stabilitaetstests",
@@ -8039,7 +8121,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 12.2.1 (Spezifische Untersuchung der Gelenke — Stabilitätstests, Bizepstest), S. 130–132. Testdurchführung, Aussagen und die Muskel-Stabilisator-Zuordnung sind im Original so beschrieben.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: ["biceps", "subscapularis", "infraspinatus"],
+    relatedAnatomyIds: ["biceps", "subscapularis", "infraspinatus", "art-humeri", "ligg-glenohumeralia"],
   },
   {
     id: "schultergelenkmuskulatur-flexoren-extensoren-differenzierung",
@@ -8085,7 +8167,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 12.1.4–12.1.5 und 12.3.1–12.3.4 (Schultergürtel-/Schultergelenkmuskulatur, spezifische Untersuchung), S. 127f., 134–144. Muskelgruppen, der Flexor-/Extensor-Wechselmechanismus, die Differenzierungslogik und die Supraspinatus-Kontraktur sind im Original so beschrieben.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: ["supraspinatus", "infraspinatus", "subscapularis", "coracobrachialis", "deltoideus", "teres-major", "teres-minor"],
+    relatedAnatomyIds: ["supraspinatus", "infraspinatus", "subscapularis", "coracobrachialis", "deltoideus", "teres-major", "teres-minor", "art-humeri"],
   },
   {
     id: "vordergliedmasse-gewichtsverteilung-taeter-opfer-prinzip",
@@ -8119,7 +8201,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 11 „Die Vordergliedmaßen“ (Einleitung), S. 126. Gewichtsverteilung, Rassenbeispiele, Täter-Opfer-Prinzip, Skapulawinkelung/Gangbild-Zusammenhang und das Schwerelot-Konzept sind im Original so beschrieben.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: ["biceps"],
+    relatedAnatomyIds: ["biceps", "skapula"],
   },
   {
     id: "mtp-pip-dip-gelenktypen-zehengang",

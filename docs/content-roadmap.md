@@ -199,6 +199,46 @@ kein Überblick verloren geht.
   als `KNOCHEN` vorhanden, kein `art-cubiti`-Gelenk-Item und keine
   Seitenbänder), Karpus, Tarsus (beide bisher nur über Muskulatur
   abgedeckt, keine eigenen Gelenk-/Banditems).
+- **Fünfter Content-Batch — Schultergelenk komplett (06.10.2026):** Dritte
+  vollständig kind-übergreifend abgedeckte Hauptgelenkregion, diesmal ohne
+  neue Quellenrecherche: Die Wissensbibliothek enthielt bereits vier dicht
+  verifizierte Hárrer-Einträge zur Schulter
+  (`schultergelenk-skapulothorakales-gleitlager-anatomie`,
+  `bizepstest-schultergelenk-stabilitaetstests`,
+  `schultergelenkmuskulatur-flexoren-extensoren-differenzierung`,
+  `vordergliedmasse-gewichtsverteilung-taeter-opfer-prinzip`, Kap. 12.1.1–
+  12.1.5/12.2.1/12.3.1–12.3.4 sowie Kap. 11, S. 126–144) und einen
+  Koch/Fischer-Eintrag zur Luxation (`schultergelenkluxation-hund`, Kap.
+  8.4.6, S. 228f.) — diese bereits geprüften Fakten wurden als strukturierte
+  Anatomie-Items neu aufbereitet statt dupliziert. 3 neue Items (67 → 70).
+  `KNOCHEN` (1, drittes Item dieses Kinds): `skapula` — alle Landmarken
+  (Margo cranialis/dorsalis/caudalis, Tuberculum supraglenoidale/
+  infraglenoidale, Fossa supraspinata/infraspinata, Akromion, Fossa
+  subscapularis, Facies serrata) sowie das Synsarkose-Konzept
+  (skapulothorakales Gleitlager statt echtem Gelenk — deshalb gilt hier
+  nicht die Konvex-Konkav-Regel der Gelenklehre). `GELENK` (1, viertes
+  Item dieses Kinds): `art-humeri` — anatomisch ein Kugelgelenk, das
+  funktionell wie ein Scharniergelenk behandelt wird (ROM, Kapselmuster,
+  Endgefühle alle direkt aus Hárrer), inkl. der Luxations-Ätiologie
+  (mediale Bandlaxizität bei kongenitaler, laterale Richtung bei
+  traumatischer Luxation) aus Koch/Fischer ergänzt. `BAND` (1, sechstes
+  Item dieses Kinds): `ligg-glenohumeralia` — mediales und laterales
+  Ligament mit ehrlich ausgewiesener Einschränkung (präzise osteologische
+  Ursprungs-/Ansatzpunkte in keiner der beiden Quellen einzeln benannt),
+  inkl. der muskulären Doppelstabilisierung (M. subscapularis medial, M.
+  infraspinatus lateral) und der mediales/laterales-Gapping-Testlogik. Alle
+  3 neuen Items sowie 4 dadurch aktualisierte bestehende Wissenseinträge
+  (gegenseitige `relatedAnatomyIds`-Verknüpfung) via Playwright verifiziert
+  (3/3 neue Review-Seiten, 0 Fehler), `tsc`/`eslint` clean, `next build`
+  erfolgreich, Reseed bestätigt (70 Anatomie-Items, Kind-Verteilung: 48
+  Muskel, 7 Nerv, 6 Band, 4 Gelenk, 3 Knochen, 2 Sonstige). **Damit ist auch
+  die Schulter — Schultergürtelmuskulatur, Skapula, Gelenk selbst, Bänder —
+  als drittes Hauptgelenk kind-übergreifend abgedeckt.** Noch offen:
+  Ellbogen (nur die zwei Processus-Items als `KNOCHEN` vorhanden, kein
+  `art-cubiti`-Gelenk-Item und keine Seitenbänder — Quellenmaterial dafür
+  vermutlich ebenfalls schon in der Wissensbibliothek vorhanden, analog zu
+  diesem Batch zu prüfen), Karpus, Tarsus (beide bisher nur über
+  Muskulatur abgedeckt, keine eigenen Gelenk-/Banditems).
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte
