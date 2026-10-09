@@ -2633,6 +2633,88 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.3.1–5.3.2 (stehender Hund, Achsabweichung/Spontanruptur alter Hunde/Collies), S. 83–88, sowie Kap. 6.2.1–6.2.2 (liegender Hund, Seitenbandtest mit Winkelangaben und Rotationsprüfung), S. 111–117. Alle genannten Befund-Zuordnungen und Testdurchführungen sind im Original so beschrieben. Präzise osteologische Ursprungs-/Ansatzpunkte werden im Original nicht einzeln benannt — bewusst nicht erfunden. Spiegelt Teile der bereits bestehenden Wissenseinträge `zehen-mittelfuss-sprunggelenk-untersuchung` und `zehen-tarsus-sprunggelenk-liegender-hund-untersuchung` als eigenständiges, strukturiertes Anatomie-Item.",
   },
+  {
+    id: "atlas-axis",
+    name: "Atlas und Axis (C1 und C2)",
+    kind: "KNOCHEN",
+    relatedCaseId: "filou",
+    origin:
+      "Atlas (C1): ringförmiger erster Halswirbel ohne echten Wirbelkörper, funktionell der „Träger des Kopfes“. Axis (C2): trägt den Dens axis (Zahnfortsatz) mit konvexer Facies articularis anterior, der mit der konkaven Fovea dentis des Atlas artikuliert.",
+    insertion:
+      "Die Atlasflügel (Procc. laterales) sind beim Hund immer tastbar. Der Dens axis selbst ist nicht direkt palpierbar, da intraspinal/tief gelegen.",
+    funktion:
+      "Rotation und Seitneige sind in der oberen HWS entgegengesetzt gekoppelt: Eine Kopfrotation nach links führt automatisch zu einer leichten Seitneige des Okziputs nach rechts, weil dies die Bänder rechts entspannt und so das größtmögliche Bewegungsausmaß ermöglicht. Die Gelenkkapsel von C0 (Artt. atlantooccipitales) ist sehr groß und grenzt an das Foramen jugulare, durch das N. vagus, N. accessorius, N. glossopharyngeus und die V. jugularis ziehen.",
+    clinicalRelevance:
+      "Ist der Atlas verschoben, kann die dadurch gereizte, verdickte Gelenkkapsel das Foramen jugulare beeinträchtigen — mit möglicher Folge eines verspannten M. trapezius/M. sternocephalicus (N. accessorius), vegetativer Symptomatik/Unwohlsein (N. vagus), Schluckbeschwerden (N. glossopharyngeus) oder intrakranieller Stase (V. jugularis); lokale Behandlung der Symptomregion bleibt dabei wirkungslos, nur die Atlas-Mobilisation hilft. Bei prädisponierten Kleinrassen (Chihuahua, Pekinese, Zwergpudel) bleibt der Dens axis häufig hypoplastisch, bricht, oder sein Epiphysenschluss verläuft unvollständig — Grundlage der atlantoaxialen Subluxation (siehe `lig-transversum-atlantis`).",
+    palpationHint:
+      "Atlasflügel beidseits lateral am Hals tastbar — wichtiger Orientierungspunkt der oberen HWS-Untersuchung.",
+    transferQ: "Warum kann eine Atlas-Fehlstellung Schluckbeschwerden auslösen, obwohl am Hals selbst keine Schwellung sichtbar ist?",
+    transferOptions: [
+      {
+        label: "Weil die vergrößerte, gereizte Gelenkkapsel von C0 ans Foramen jugulare grenzt, durch das u. a. der N. glossopharyngeus zieht",
+        correct: true,
+      },
+      { label: "Weil der Atlas direkt mit der Speiseröhre verwachsen ist", correct: false },
+      { label: "Weil Schluckbeschwerden nie eine Ursache in der Halswirbelsäule haben können", correct: false },
+      { label: "Weil der Axis die Trachea mechanisch verengt", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1 (Obere HWS-Region — Anatomie, funktionelle Bedeutung, Segment C1/Dens axis), S. 204–206. VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Atlantoaxiale Subluxation beim Hund (Densanomalie-Ätiologie, Rasseprädisposition). Alle genannten Fakten sind im Original so beschrieben. Spiegelt und verknüpft Teile der bereits bestehenden Wissenseinträge `obere-hws-funktionelle-anatomie-atlas-foramen-jugulare`, `obere-hws-instabilitaet-dens-warnsignale` und `atlantoaxiale-subluxation-densentwicklung-diagnostisches-zeichen` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Periost-/Gefäßversorgung im Original nicht genannt, bewusst nicht ergänzt.",
+  },
+  {
+    id: "artt-craniocervicales",
+    name: "Artt. atlantooccipitales et atlantoaxiales (obere Kopfgelenke)",
+    kind: "GELENK",
+    relatedCaseId: "filou",
+    origin:
+      "Os occipitale, Atlas (C1) und Axis (C2). Die obere HWS besteht insgesamt aus 6 Gelenken, funktionell aber vor allem aus zwei Segmenten: C0 (Artt. atlantooccipitales) und C1 (Artt. atlantoaxiales).",
+    insertion:
+      "Eigenes Anatomie-Item `lig-transversum-atlantis` sichert den Dens axis am vorderen Atlasbogen. Die große Gelenkkapsel von C0 grenzt unmittelbar an das Foramen jugulare.",
+    funktion:
+      "C0 (Artt. atlantooccipitales): Ellipsoidgelenk für Flexion/Extension und Seitneige. C1 (Artt. atlantoaxiales): bikonvexes Zapfengelenk, in dem die Hälfte der gesamten HWS-Rotation stattfindet. Rotation und Seitneige sind entgegengesetzt gekoppelt (gekoppelte Bewegung, siehe `atlas-axis`).",
+    clinicalRelevance:
+      "Verweigert der Hund in der Untersuchung partout jede Flexion der oberen Kopfgelenke, oder treten dabei Symptome auf, ist das ein Warnsignal: mögliche Ursachen sind eine atlantoaxiale Subluxation, eine Densanomalie, eine Densfraktur oder eine Ruptur der Ligg. alaria — in diesen Fällen ist eine weitere manualtherapeutische Untersuchung der oberen HWS nicht angezeigt, der Hund muss zur weiterführenden Untersuchung in eine Klinik überwiesen werden.",
+    palpationHint:
+      "Nicht direkt palpierbar, da tief gelegen; indirekt über die Position der Atlasflügel sowie über vorsichtige Bewegungsprüfung (Flexion/Extension/Rotation/Seitneige) einschätzbar.",
+    transferQ: "Warum führt eine Kopfrotation nach links physiologisch automatisch zu einer leichten Seitneige des Okziputs nach rechts?",
+    transferOptions: [
+      {
+        label: "Weil dies die Bänder auf der rechten Seite entspannt und so das größtmögliche Bewegungsausmaß ermöglicht",
+        correct: true,
+      },
+      { label: "Weil die Artt. atlantooccipitales keine Seitneige zulassen", correct: false },
+      { label: "Weil Rotation und Seitneige beim Hund immer in dieselbe Richtung gekoppelt sind", correct: false },
+      { label: "Weil der Axis bei Rotation vollständig blockiert", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1 (Obere HWS-Region — Anatomie und funktionelle Bedeutung, Segment C1/Dens axis), S. 204–206. Gelenkanatomie, gekoppelte Bewegung und die Überweisungskriterien sind im Original so beschrieben. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `obere-hws-funktionelle-anatomie-atlas-foramen-jugulare` und `obere-hws-instabilitaet-dens-warnsignale` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Kapselmuster und Endgefühl im Original nicht genannt, bewusst nicht ergänzt.",
+  },
+  {
+    id: "lig-transversum-atlantis",
+    name: "Ligamentum transversum atlantis",
+    kind: "BAND",
+    relatedCaseId: "filou",
+    origin:
+      "Hält den Dens axis am vorderen Atlasbogen — die genauen osteologischen Ansatzpunkte werden im Quellentext nicht einzeln benannt.",
+    funktion:
+      "Sicherungsmechanismus bei Kopfflexion: Bei Flexion entfernt sich der vordere Atlasbogen vom Dens axis. Hält das Lig. transversum den Dens dabei nicht fest, würde dieser in Richtung Medulla oblongata fallen können.",
+    clinicalRelevance:
+      "Ein insuffizientes Band verursacht bei Kopfflexion Übelkeit, Erbrechen und Panik (verschwinden sofort wieder, sobald der Axis ventral gleitet). Ursachen einer Insuffizienz: Trauma mit Ligamentruptur, lange Kortisongabe (weicht Muskeln/Sehnen auf), entzündliche Erkrankungen von Rachen/Nase/Ohren — oder, bei prädisponierten Kleinrassen (Chihuahua, Pekinese, Zwergpudel), eine entwicklungsbedingte Densanomalie/-hypoplasie kombiniert mit gelockerten dorsalen (und mitunter ventralen) Bandverbindungen zwischen Atlas und Axis (atlantoaxiale Subluxation). Diagnosesicherung über eine kontrollierte Flexionsaufnahme am anästhesierten Patienten: Der Dornfortsatz des Axis weicht dabei auf das 2- bis 3-Fache des normalen Abstands vom dorsalen Atlasbogen zurück. Bei Verdacht ist jede Manipulation der Halswirbelsäule (auch eine Jugularvenenpunktion) mit größter Vorsicht durchzuführen — vollständige C1–C2-Luxation kann tödlich enden.",
+    palpationHint:
+      "Nicht direkt palpierbar. Eine Flexionsprüfung der oberen HWS darf bei Verdacht auf Instabilität nicht erzwungen werden: Verweigert der Hund diese Bewegung oder treten dabei Symptome auf, ist das ein Überweisungskriterium, keine fortzusetzende Untersuchungstechnik.",
+    transferQ: "Was kann passieren, wenn das Lig. transversum atlantis bei Kopfflexion insuffizient ist?",
+    transferOptions: [
+      {
+        label: "Der Dens axis kann sich der Medulla oblongata gefährlich annähern, mit möglicher Übelkeit, Erbrechen und Panik als Symptomen",
+        correct: true,
+      },
+      { label: "Es hat grundsätzlich keine klinische Bedeutung", correct: false },
+      { label: "Es führt ausschließlich zu Hautveränderungen am Hals", correct: false },
+      { label: "Es betrifft ausschließlich die Beweglichkeit der Hintergliedmaßen", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1 (Obere HWS-Region — Segment C1, Dens axis), S. 205f. (Sicherungsmechanismus, Insuffizienz-Ursachen, Überweisungskriterien). VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Atlantoaxiale Subluxation beim Hund (entwicklungsbedingte Ätiologie, Rasseprädisposition, Altersstatistik, 2–3-faches-Abstandszeichen). Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (chirurgische Stabilisierung als einzige erfolgversprechende Therapieoption, postoperative Vorsicht bei Physiotherapie). Alle genannten Fakten sind im Original so beschrieben. Präzise osteologische Ansatzpunkte werden in keiner Quelle einzeln benannt — bewusst nicht erfunden. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `obere-hws-instabilitaet-dens-warnsignale` und `atlantoaxiale-subluxation-densentwicklung-diagnostisches-zeichen` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -7795,7 +7877,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1 (Obere HWS-Region — Anatomie und funktionelle Bedeutung), S. 204f. Gelenkanatomie, gekoppelte Bewegung und die Atlas-Foramen-jugulare-Verbindung sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["rueckenmark"],
+    relatedAnatomyIds: ["rueckenmark", "atlas-axis", "artt-craniocervicales"],
   },
   {
     id: "obere-hws-instabilitaet-dens-warnsignale",
@@ -7828,7 +7910,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1 (Obere HWS-Region — Segment C1, Dens axis), S. 205f. Sicherungsmechanismus, Ursachen der Instabilität und die Überweisungskriterien sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["rueckenmark"],
+    relatedAnatomyIds: ["rueckenmark", "lig-transversum-atlantis", "atlas-axis"],
   },
   {
     id: "untere-hws-funktionelle-anatomie-differentialdiagnosen",
@@ -11181,7 +11263,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Atlantoaxiale Subluxation beim Hund. Die entwicklungsbedingte Ätiologie (Densanomalie plus Bandinstabilität), die Rasseprädisposition, die Altersstatistik, das klinische Spektrum, die Differentialdiagnosen sowie die diagnostische Flexionsaufnahme mit dem 2- bis 3-fachen Abstandszeichen sind in der Quelle so beschrieben. Ergänzt den bestehenden Eintrag `obere-hws-instabilitaet-dens-warnsignale` (Hárrer, manualtherapeutische Warnsignale) um die entwicklungsbedingte Ätiologie und die klinisch-radiologische Diagnosesicherung. Ergänzt (29.09.2026) um das therapeutische Vorgehen (chirurgische Stabilisierung als einzige erfolgversprechende Option, postoperative Nachsorge, vorsichtige Physiotherapie) aus Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Atlanto-axiale Subluxation“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984).",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["rueckenmark"],
+    relatedAnatomyIds: ["rueckenmark", "atlas-axis", "lig-transversum-atlantis"],
   },
   {
     id: "wobbler-syndrom-zwei-phaenotypen-dynamische-kompression",

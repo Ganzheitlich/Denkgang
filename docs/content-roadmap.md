@@ -373,6 +373,56 @@ kein Überblick verloren geht.
   bestehenden 79-Item-Bestands gegen die Originalquellen (MASTER-PROMPT
   §21), oder — nach Rücksprache mit Vanessa — ein erneuter Fokus auf die
   Wissensbibliothek, die seit dem 03.10.2026 pausiert ist.
+- **Neunter Content-Batch — Obere Halswirbelsäule/Kopfgelenke (C0–C2)
+  (09.10.2026):** Erster Schritt in Richtung Wirbelsäulen-Anatomie,
+  erneut ohne neue Quellenrecherche: Die Wissensbibliothek enthielt
+  bereits außergewöhnlich dichtes, verifiziertes Material speziell zur
+  klinisch besonders wichtigen Region C0–C2 (Chihuahua/Pekinese/
+  Zwergpudel-Risikozone für atlantoaxiale Subluxation) aus Hárrer Kap.
+  16.2.1 (`obere-hws-funktionelle-anatomie-atlas-foramen-jugulare`,
+  `obere-hws-instabilitaet-dens-warnsignale`, S. 204–206), VetCenter
+  (`atlantoaxiale-subluxation-densentwicklung-diagnostisches-zeichen`)
+  und Alexander, Physikalische Therapie für Kleintiere Kap. 13 — diese
+  Fakten wurden als drei neue strukturierte Items aufbereitet statt
+  dupliziert. 3 neue Items (79 → 82). `KNOCHEN` (1, siebtes Item dieses
+  Kinds): `atlas-axis` — Atlas (C1, ringförmig, „Träger des Kopfes“,
+  Atlasflügel immer tastbar) und Axis (C2, mit Dens axis) kombiniert in
+  einem Item (analog zu `radius-ulna`/`calcaneus-talus`), inkl. der
+  klinisch zentralen Foramen-jugulare-Nachbarschaft der C0-Gelenkkapsel
+  (N. vagus/accessorius/glossopharyngeus, V. jugularis) und der
+  Densanomalie-Prädisposition kleiner Rassen. `GELENK` (1, achtes Item
+  dieses Kinds): `artt-craniocervicales` — C0 (Ellipsoidgelenk) und C1
+  (bikonvexes Zapfengelenk, Hälfte der gesamten HWS-Rotation) mit der
+  gegenläufig gekoppelten Rotations-/Seitneige-Bewegung; ehrlich
+  ausgewiesen, dass Kapselmuster/Endgefühl im Original nicht genannt
+  werden. `BAND` (1, zehntes Item dieses Kinds):
+  `lig-transversum-atlantis` — der Sicherungsmechanismus gegen ein
+  Abrutschen des Dens axis Richtung Medulla oblongata bei Kopfflexion,
+  mit vollständiger Insuffizienz-Ätiologie (traumatisch, iatrogen durch
+  Kortison, entzündlich, oder entwicklungsbedingt bei Kleinrassen) und
+  dem diagnostischen 2–3-fachen-Abstandszeichen. Bei allen drei Items
+  `relatedCaseId: "filou"` gesetzt (bereits der Fall des bestehenden
+  `rueckenmark`-Items, thematisch konsistent für Neuro-/Wirbelsäulen-
+  Content), aber bewusst kein `bildUrl` (kein vorhandenes Bild passt).
+  Alle 3 neuen Items sowie 3 dadurch aktualisierte bestehende
+  Wissenseinträge (gegenseitige `relatedAnatomyIds`-Verknüpfung, jeweils
+  ergänzt neben dem bereits vorhandenen `rueckenmark`-Verweis) via
+  Playwright verifiziert (3/3 neue Review-Seiten, 0 Fehler), `tsc`/
+  `eslint` clean, `next build` erfolgreich, Reseed bestätigt (82
+  Anatomie-Items, Kind-Verteilung: 48 Muskel, 7 Nerv, 10 Band, 8 Gelenk,
+  7 Knochen, 2 Sonstige). **Hinweis für künftige Sessions:** Das
+  bestehende `rueckenmark`-Item hat weiterhin keinen expliziten `kind`
+  gesetzt (läuft über den `MUSKEL`-Default) und referenziert noch kein
+  einziges der jetzt sechs Hauptgelenk- bzw. Wirbel-Items zurück — eine
+  Reklassifizierung zu `SONSTIGE` (analog zur Reklassifizierung von
+  `facettengelenke`/`huefte`/`discus` am 03.10.2026) wäre im Rahmen der
+  ohnehin geplanten Qualitätsprüfung sinnvoll. Noch offen: der Rest der
+  Halswirbelsäule (C3–C7, „untere HWS“ — Eintrag
+  `untere-hws-funktionelle-anatomie-differentialdiagnosen` existiert
+  bereits als Quelle), Brust-/Lendenwirbelsäule (allgemeiner Wirbel-
+  Bauplan, Procc. spinosi/transversi/articulares als eigenes KNOCHEN-
+  Item — aktuell nur in Muskel-Ursprungsangaben erwähnt, nie als
+  eigenständige Struktur), Becken (Os ilium/ischii/pubis), Schädel.
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte
