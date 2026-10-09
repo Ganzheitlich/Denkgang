@@ -851,9 +851,8 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "rueckenmark",
     name: "Rückenmark und Propriozeption der Hintergliedmaßen",
+    kind: "SONSTIGE",
     relatedCaseId: "filou",
-    origin: "—",
-    insertion: "—",
     funktion:
       "Leitung motorischer und sensibler Signale zwischen Gehirn und Hintergliedmaßen; die Propriozeption (Eigenwahrnehmung der Gliedmaßenposition) ist ein empfindlicher, früher Indikator für die Funktion des Rückenmarks.",
     innervation: "Teil des zentralen Nervensystems — keine periphere Innervation im eigentlichen Sinne.",
@@ -2714,6 +2713,58 @@ const ANATOMY: AnatomySeed[] = [
     ],
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1 (Obere HWS-Region — Segment C1, Dens axis), S. 205f. (Sicherungsmechanismus, Insuffizienz-Ursachen, Überweisungskriterien). VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Atlantoaxiale Subluxation beim Hund (entwicklungsbedingte Ätiologie, Rasseprädisposition, Altersstatistik, 2–3-faches-Abstandszeichen). Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (chirurgische Stabilisierung als einzige erfolgversprechende Therapieoption, postoperative Vorsicht bei Physiotherapie). Alle genannten Fakten sind im Original so beschrieben. Präzise osteologische Ansatzpunkte werden in keiner Quelle einzeln benannt — bewusst nicht erfunden. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `obere-hws-instabilitaet-dens-warnsignale` und `atlantoaxiale-subluxation-densentwicklung-diagnostisches-zeichen` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert.",
+  },
+  {
+    id: "facettengelenke-hws",
+    name: "Facettengelenke der unteren Halswirbelsäule (C3–C7)",
+    kind: "GELENK",
+    relatedCaseId: "filou",
+    origin:
+      "Wirbelbögen der Halswirbel C3 bis C7 — im Unterschied zu den oberen Kopfgelenken C0/C1 (eigenes Anatomie-Item `artt-craniocervicales`).",
+    insertion:
+      "Die Procc. spinosi dieser Segmente sind flach, kurz und durch die Mm. interspinales nicht direkt palpierbar.",
+    funktion:
+      "Rotation und Seitneige sind in Extension/Flexion gleichsinnig gekoppelt (z. B. Rechtsrotation → Rechtsseitneige, größtmögliches Bewegungsausmaß) — in der Neutralstellung dagegen entgegengesetzt gekoppelt. Das ist eine andere Kopplungslogik als an der oberen HWS, wo Rotation und Seitneige durchgehend entgegengesetzt gekoppelt sind (siehe `artt-craniocervicales`). Konvergenzgleiten (Facettenschluss) findet bei Extension auf der Seite der Lateralflexion statt, Divergenzgleiten (Facettenöffnung) bei Flexion auf der Gegenseite.",
+    clinicalRelevance:
+      "Die Dermatome der unteren HWS verlaufen supraskapulär — vermehrtes Kratzen in dieser Region kann deshalb ein Hinweis auf ein Problem der unteren HWS sein statt auf reinen Juckreiz. Hunde mit Problemen der unteren HWS bewegen den Kopf oft nicht normal, tragen ihn tief oder steif, winseln bei Bewegungsaufforderung, und belasten evtl. eine Vordergliedmaße nicht, weil sich die beim Auftreten entstehende Kompression bis in die HWS überträgt.",
+    palpationHint:
+      "Zur Orientierung dienen die Querfortsätze: C2/C3 liegen etwa auf halber Halshöhe; C6 wird bei flektiertem Kopf auf halber Höhe des Margo cranialis scapulae nach kraniomedial ertastet und ist durch seine ausgeprägte Crista ventralis besonders gut palpabel; C7 liegt kaudal von C6, etwas dorsal, und ist deutlich schwieriger zu finden.",
+    transferQ: "Warum kann vermehrtes Kratzen an der Schulter auf ein Problem der unteren Halswirbelsäule hindeuten statt auf reinen Juckreiz?",
+    transferOptions: [
+      { label: "Weil die Dermatome der unteren HWS supraskapulär verlaufen", correct: true },
+      { label: "Weil die untere HWS direkt an die Haut der Schulter angewachsen ist", correct: false },
+      { label: "Weil Kratzen niemals eine neurologische Ursache haben kann", correct: false },
+      { label: "Weil die Dermatome der unteren HWS ausschließlich am Kopf liegen", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.2 (Untere HWS-Region — Anatomie und funktionelle Bedeutung), S. 210f. Palpationslandmarken, gekoppelte Bewegungen, Dermatom-Hinweis und Symptome sind im Original so beschrieben. Spiegelt und verknüpft den bereits bestehenden Wissenseintrag `untere-hws-funktionelle-anatomie-differentialdiagnosen` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Kapselmuster und Endgefühl im Original nicht genannt, bewusst nicht ergänzt.",
+  },
+  {
+    id: "facettengelenke-bws",
+    name: "Facettengelenke der Brustwirbelsäule (Th1–Th13)",
+    kind: "GELENK",
+    relatedCaseId: "filou",
+    origin: "Wirbelbögen der Brustwirbel Th1 bis Th13.",
+    insertion:
+      "Jede Rippe (außer Th1 und Th13) hat mit zwei Wirbelkörpern und der dazwischenliegenden Bandscheibe (eigenes Anatomie-Item `discus`) Kontakt — dem gleichzähligen und dem kranial davon liegenden Wirbel. Rippen sind dadurch direkt in die segmentale Beweglichkeit eingebunden.",
+    funktion:
+      "Die Gelenkflächen stehen in der kranialen BWS (ähnlich der HWS) eher horizontal (mehr Rotation, wenig Seitneige) und nähern sich in der kaudalen BWS der LWS an (fast vertikal, mehr Flexion/Extension). Der 10. Brustwirbel nimmt eine Sonderstellung ein: Seine kranialen Facetten sind frontal, die kaudalen sagittal ausgerichtet — kleine Hunderassen haben hier mit 63 % Häufigkeit eine uni- oder bilaterale Facettenaplasie. Wie an der unteren HWS gilt: größtes Bewegungsausmaß bei Flexion/Extension, wenn Seitneige und Rotation gleichsinnig gekoppelt sind; in der Neutralstellung sind sie entgegengesetzt gekoppelt.",
+    clinicalRelevance:
+      "Im Übergang zwischen Th10 und L1 ändern sich gleichzeitig die Wirbelsäulenkrümmung (von Lordose zu Kyphose) und die Facettenausrichtung — diese Kombination erzeugt eine erhebliche mechanische Mehrbelastung und macht die kaudale BWS zur häufigsten Lokalisation für Spondylosen und Bandscheibenprobleme. BWS-Dysfunktionen zeigen sich u. a. als eingeschränkte Beweglichkeit (BWS, Vordergliedmaße, evtl. HWS/LWS), Schmerz bei Seitneige/Extension, übertriebene kyphotische/lordotische Haltung, Sprungunlust, flachere Atmung und vegetative Zeichen. Ursachen reichen von somatischen Dysfunktionen und Bandscheibenproblemen bis zu Organproblemen (Darm, Prostata, Bauchspeicheldrüse) oder einem verspannten Diaphragma.",
+    palpationHint:
+      "Springingtest: bilateraler Schnäuzgriff über den Proc. spinosus des kranialen Wirbels nach ventral/etwas kaudal erzeugt eine Kompression in den kaudalen Facetten und eine Separation der Procc. articulares craniales — ein Muskelzucken spricht für eine Gelenkdysfunktion, ein Einknicken der Knie für ein akutes Bandscheibenproblem. Zur Segmentlokalisation dient der Rosett-Test (rotatorischer Impuls am kranialen Proc. spinosus gegen den fixierten kaudalen). Zur Differenzierung Rippe vs. Bandscheibe (zwischen Th3 und Th10): mediale Translation einer fixierten Rippe gegen die kranial benachbarte.",
+    transferQ: "Warum ist der Übergang zwischen Th10 und L1 mechanisch besonders anfällig für Spondylose?",
+    transferOptions: [
+      {
+        label: "Weil sich dort gleichzeitig die Wirbelsäulenkrümmung (Lordose zu Kyphose) und die Facettenausrichtung (frontal zu sagittal) ändern",
+        correct: true,
+      },
+      { label: "Weil dort gar keine Facettengelenke vorhanden sind", correct: false },
+      { label: "Weil die Bandscheiben dort dicker sind als überall sonst in der Wirbelsäule", correct: false },
+      { label: "Weil dieser Übergang beim Hund keiner mechanischen Belastung ausgesetzt ist", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.3 (Brustwirbelsäule — Anatomie und funktionelle Bedeutung), S. 214–216, sowie Kap. 16.2.3–16.2.4 (Provokation der BWS, Differenzialdiagnostik Rippe/Bandscheibe/Facettengelenk), S. 218–222. Facettengeometrie, Übergangsmechanik, Symptomliste sowie Springingtest/Rosett-Test/mediale Translation sind im Original so beschrieben. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `bws-funktionelle-anatomie-facettengeometrie` und `bws-springingtest-rosett-test-differenzierung` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Kapselmuster und Endgefühl im Original nicht genannt, bewusst nicht ergänzt.",
   },
 ];
 
@@ -7953,7 +8004,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.2 (Untere HWS-Region — Anatomie und funktionelle Bedeutung), S. 210f. Palpationslandmarken, gekoppelte Bewegungen, Dermatom-Hinweis, Symptome und Ursachenliste sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["rueckenmark"],
+    relatedAnatomyIds: ["rueckenmark", "facettengelenke-hws"],
   },
   {
     id: "bws-funktionelle-anatomie-facettengeometrie",
@@ -7995,7 +8046,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.3 (Brustwirbelsäule — Anatomie und funktionelle Bedeutung), S. 214–216. Facettengeometrie, Übergangsmechanik, Symptom- und Ursachenliste sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["discus", "iliopsoas"],
+    relatedAnatomyIds: ["discus", "iliopsoas", "facettengelenke-bws"],
   },
   {
     id: "bws-springingtest-rosett-test-differenzierung",
@@ -8029,7 +8080,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.3 und 16.2.4 (Provokation der BWS, Differenzialdiagnostik Rippe/Bandscheibe/Facettengelenk), S. 218–222. Springingtest, Rosett-Test und die mediale Translation als Rippen-/Bandscheiben-DD sind im Original so beschrieben, inklusive der Warnzeichen-Unterscheidung Muskelzucken vs. Einknicken.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["discus"],
+    relatedAnatomyIds: ["discus", "facettengelenke-bws"],
   },
   {
     id: "rippen-anatomie-1-rippe-stellungsdiagnose",

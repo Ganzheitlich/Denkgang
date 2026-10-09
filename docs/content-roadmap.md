@@ -423,6 +423,47 @@ kein Überblick verloren geht.
   Bauplan, Procc. spinosi/transversi/articulares als eigenes KNOCHEN-
   Item — aktuell nur in Muskel-Ursprungsangaben erwähnt, nie als
   eigenständige Struktur), Becken (Os ilium/ischii/pubis), Schädel.
+- **Zehnter Content-Batch — Facettengelenke HWS/BWS plus
+  Rückenmark-Reklassifizierung (09.10.2026):** Direkte Fortsetzung des
+  neunten Batches in Richtung Wirbelsäule, erneut ohne neue
+  Quellenrecherche. **Korrektur zuerst:** Das bestehende `rueckenmark`-
+  Item (im letzten Batch als offener Punkt vermerkt) hatte noch keinen
+  expliziten `kind`-Wert und lief über den `MUSKEL`-Default, zusätzlich
+  mit zwei „—“-Platzhaltern bei `origin`/`insertion` — derselbe
+  Schema-Mismatch, der am 03.10.2026 bereits bei `facettengelenke`/
+  `huefte`/`discus` behoben wurde. Jetzt auf `kind: SONSTIGE`
+  umgestellt, Platzhalter entfernt (Felder bewusst leer gelassen statt
+  erfunden). Nach dem Reseed per Playwright bestätigt: Das Item bleibt
+  weiterhin `APPROVED` (Vanessas vorherige Freigabe geht durch den
+  bestehenden Update-ohne-Status-Reset-Mechanismus, siehe Eintrag vom
+  21.09.2026, nicht verloren) und rendert jetzt korrekt mit dem
+  „Struktur“-Badge und „Aufbau → Funktion“-Feldern statt leerer
+  Ursprung/Ansatz-Zeilen. 2 neue Items (82 → 84). `GELENK` (2, neuntes/
+  zehntes Item dieses Kinds): `facettengelenke-hws` (C3–C7, Hárrer Kap.
+  16.2.2, S. 210f.) — Palpationslandmarken (v. a. C6 über seine
+  ausgeprägte Crista ventralis), die andere Kopplungslogik als an der
+  oberen HWS (gleichsinnig in Flexion/Extension statt durchgehend
+  entgegengesetzt, siehe `artt-craniocervicales`) sowie der klinisch
+  nützliche Dermatom-Hinweis (supraskapuläres Kratzen als mögliches
+  HWS-Zeichen statt Juckreiz); `facettengelenke-bws` (Th1–Th13, Hárrer
+  Kap. 16.2.3–16.2.4, S. 214–222) — die Facettengeometrie-Wende am 10.
+  Brustwirbel (63 % Facettenaplasie bei Kleinrassen), die Th10/L1-
+  Übergangsmechanik als Spondylose-Risikozone sowie die vollständige
+  Provokationstechnik-Trias (Springingtest, Rosett-Test, mediale
+  Rippentranslation zur Rippe/Bandscheibe-DD). Beide Items ergänzen die
+  bereits bestehende `facettengelenke` (lumbosakraler Übergang) sauber
+  um die kranialeren Wirbelsäulenabschnitte, ohne deren Inhalt zu
+  überschneiden. Alle 2 neuen Items sowie 3 dadurch aktualisierte
+  bestehende Wissenseinträge (gegenseitige `relatedAnatomyIds`-
+  Verknüpfung) via Playwright verifiziert (3/3 Review-Seiten inkl.
+  Rückenmark-Recheck, 0 Fehler), `tsc`/`eslint` clean, `next build`
+  erfolgreich, Reseed bestätigt (84 Anatomie-Items, Kind-Verteilung: 47
+  Muskel, 7 Nerv, 10 Band, 10 Gelenk, 7 Knochen, 3 Sonstige). Noch
+  offen: allgemeiner Wirbel-Bauplan als eigenes KNOCHEN-Item (Procc.
+  spinosi/transversi/articulares, Wirbelkörper/-bogen — aktuell nur in
+  Muskel-Ursprungsangaben erwähnt), Lendenwirbelsäule als eigene
+  GELENK-Region (nur der lumbosakrale Übergang ist bereits erfasst),
+  Becken (Os ilium/ischii/pubis), Schädel.
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte
