@@ -324,6 +324,55 @@ kein Überblick verloren geht.
   abgedeckt — ein guter Zeitpunkt, um den „Noch offen"-Fokus auf weitere
   KNOCHEN-Landmarken (Wirbelsäule, Becken, Schädel) oder eine erneute
   Qualitätsprüfung des bestehenden Bestands zu verlagern.
+- **Achter Content-Batch — Sprunggelenk komplett, alle sechs Hauptgelenke
+  abgeschlossen (09.10.2026):** Sechste und letzte vollständig
+  kind-übergreifend abgedeckte Hauptgelenkregion, wie bei den letzten
+  Batches ohne neue Quellenrecherche: Die Wissensbibliothek enthielt
+  bereits dichtes, verifiziertes Material aus Hárrer
+  (`sprunggelenk-zehen-funktionelle-anatomie-hyperaesthesien`, Kap. 10.1,
+  S. 112) und aus Koch/Fischer
+  (`zehen-mittelfuss-sprunggelenk-untersuchung`, Kap. 5.3.1–5.3.2, S.
+  83–88; `zehen-tarsus-sprunggelenk-liegender-hund-untersuchung`, Kap.
+  6.2.1–6.2.2, S. 111–117; `tarsus-erkrankungen-hund`, Kap. 8.3.3, S.
+  195–199) — diese Fakten wurden als drei neue strukturierte Items
+  aufbereitet statt dupliziert. 3 neue Items (76 → 79). `KNOCHEN` (1,
+  sechstes Item dieses Kinds): `calcaneus-talus` — kombiniert beide
+  zentralen Tarsalknochen in einem Item (analog zu `radius-ulna`): die
+  20°-Lateralstellung des Talus gegenüber der Tibiaachse (erklärt die
+  physiologische Außenrotation der Pfote bei Flexion) sowie das Tuber
+  calcanei als Fersensehnenstrang-Ansatz mit der kompletten
+  Differentialdiagnostik bei Tischplattenkontakt. `GELENK` (1, siebtes
+  Item dieses Kinds): `art-tarsi` — vier Gelenketagen, von denen nur die
+  Art. tarsocruralis wirklich beweglich ist (funktionelle Begründung:
+  sonst würde Schub aus der Hinterhand verpuffen), inkl. der
+  Terminologie-Brücke Hárrer („Art. tarsocruralis“) ↔ Koch/Fischer
+  („Art. talocruralis“) für dieselbe Etage; ehrlich ausgewiesen, dass
+  Kapselmuster/Endgefühl in den ausgewerteten Quellenausschnitten fehlen
+  (wie beim Ellbogen). `BAND` (1, neuntes Item dieses Kinds): `ligg-tarsi`
+  — mediales/laterales Kollateralband inkl. des isoliert testbaren kurzen
+  kaudalen Anteils des lateralen Bandes sowie der kurzen intertarsalen
+  Bänder mit ihrer altersbedingten Spontanruptur-Prädisposition (Collies).
+  Bei allen drei neuen Items bewusst kein `relatedCaseId`/`bildUrl`
+  gesetzt — keiner der acht Fälle behandelt den Tarsus unmittelbar, und
+  ein erzwungener Fall-/Bildbezug hätte nur suggeriert, es gäbe einen
+  passenden Fall, den es nicht gibt (beide Felder sind laut `AnatomySeed`-
+  Typ optional, siehe Eintrag vom 21.09.2026). Alle 3 neuen Items sowie 4
+  dadurch aktualisierte bestehende Wissenseinträge (gegenseitige
+  `relatedAnatomyIds`-Verknüpfung) via Playwright verifiziert (3/3 neue
+  Review-Seiten, 0 Fehler — inkl. korrekter Darstellung ganz ohne Bild),
+  `tsc`/`eslint` clean, `next build` erfolgreich, Reseed bestätigt (79
+  Anatomie-Items, Kind-Verteilung: 48 Muskel, 7 Nerv, 9 Band, 7 Gelenk, 6
+  Knochen, 2 Sonstige). **Damit sind jetzt alle sechs Hauptgelenke (Knie,
+  Hüfte, Schulter, Ellbogen, Karpus, Tarsus) — jeweils mit Muskulatur,
+  mindestens einem KNOCHEN-Landmarken-Item, dem Gelenk selbst und seinen
+  Bändern — kind-übergreifend abgedeckt.** Noch offen für künftige
+  Sessions: weitere KNOCHEN-Landmarken außerhalb der sechs Hauptgelenke
+  (Wirbelsäule/Wirbelkörper-Typen, Becken, Schädel — bisher nur einzelne
+  Aspekte wie `facettengelenke` oder `discus` erfasst, kein eigenes
+  Wirbel-KNOCHEN-Item), eine systematische Qualitätsprüfung des
+  bestehenden 79-Item-Bestands gegen die Originalquellen (MASTER-PROMPT
+  §21), oder — nach Rücksprache mit Vanessa — ein erneuter Fokus auf die
+  Wissensbibliothek, die seit dem 03.10.2026 pausiert ist.
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte

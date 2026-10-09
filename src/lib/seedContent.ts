@@ -2557,6 +2557,82 @@ const ANATOMY: AnatomySeed[] = [
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.4.1–5.4.2 (Karpalgelenk-Palpation, Winkelangaben), S. 98–101, sowie Kap. 8.4.2 (Hyperextensionstrauma Carpus), S. 219–221. VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitte „Luxation des Karpalgelenks beim Hund“/„Hyperextension des Karpalgelenks beim Hund“ (plantigrades Gangbild, betroffene Strukturen). Alle genannten Bandgruppen, Klinik- und Therapiezuordnungen sind im Original so beschrieben. Präzise osteologische Ursprungs-/Ansatzpunkte der einzelnen Bänder werden in keiner der Quellen einzeln benannt — bewusst nicht erfunden. Spiegelt Teile der bereits bestehenden Wissenseinträge `zehen-karpus-vordergliedmasse-untersuchung`, `hyperextensionstrauma-carpus` und `karpalgelenk-luxation-hyperextension-hund` als eigenständiges, strukturiertes Anatomie-Item.",
     bildUrl: "/cases/rocky-01.png",
   },
+  {
+    id: "calcaneus-talus",
+    name: "Calcaneus und Talus (Fersenbein und Sprungbein)",
+    kind: "KNOCHEN",
+    origin:
+      "Zwei der Tarsalknochen des Sprunggelenks. Der Talus bildet mit seiner Trochlea die Hauptgelenkfläche der Art. tarsocruralis (einzige wirklich bewegliche Etage des Sprunggelenks) und steht gegenüber der Tibiaachse ca. 20° nach lateral gedreht — deshalb zeigt die Pfote bei Flexion physiologisch leicht nach außen. Der Calcaneus liegt plantar/lateral des Talus.",
+    insertion:
+      "Tuber calcanei: Ansatzpunkt des Tendo calcaneus communis (Fersensehnenstrang) sowie Sitz der Fersenkappe (Ansatzsehne des M. flexor digitorum superficialis). Das Sprunggelenk selbst ist sichelförmig kranial, distal und kaudal der beiden Malleoli (medialis/lateralis von Tibia/Fibula) tastbar, im physiologischen Zustand nur als schmaler Saum.",
+    funktion:
+      "Alle Gelenketagen außer der Art. tarsocruralis sind straff und wenig beweglich — wichtig für einen effizienten Schub aus der Hinterhand: Bei hoher Beweglichkeit der einzelnen Etagen würde viel Schub verpuffen.",
+    clinicalRelevance:
+      "Berührt der Calcaneus beim stehenden Hund die Tischplatte, spricht das für einen Riss des Fersensehnenstrangs, einen Ausriss des M. gastrocnemius am Femur oder eine Calcaneusfraktur. Eine ventrale Konturstörung am Calcaneus spricht für eine pathologische Fraktur. Eine Hypermobilität der Fersenkappe auf dem Calcaneus spricht für deren Luxation (v. a. nach lateral, typisch beim Sheltie). Eine Osteochondrose betrifft häufig gerade den Talusrollkamm (Trochlea tali).",
+    palpationHint:
+      "Der Fersensehnenstrang wird von seinem Ansatz am Calcaneus nach proximal auf Konturstörungen/abgerissene Stümpfe abgetastet; sein distaler Sitz und seine Spannung werden am stehenden Hund geprüft. Sanfter Daumendruck auf die Fersenkappe prüft deren Hypermobilität.",
+    transferQ: "Was bedeutet es, wenn der Calcaneus beim stehenden Hund die Tischplatte berührt?",
+    transferOptions: [
+      {
+        label: "Es spricht für einen Riss des Fersensehnenstrangs, einen Ausriss des M. gastrocnemius am Femur oder eine Calcaneusfraktur",
+        correct: true,
+      },
+      { label: "Es ist ein normaler, unbedeutender Befund bei jedem gesunden Hund", correct: false },
+      { label: "Es spricht ausschließlich für eine Allergie", correct: false },
+      { label: "Es deutet auf ein Problem am Karpalgelenk der Vordergliedmaße hin", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 10.1 (Sprunggelenk und Zehen — Anatomie), S. 112 (Talus-20°-Stellung, Gelenketagen-Beweglichkeit). Koch/Fischer, Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.3.1–5.3.2 (stehender Hund), S. 83–88, sowie Kap. 6.2.1–6.2.2 (liegender Hund), S. 111–117 (Tuber-calcanei-Palpation, Fersensehnenstrang-Prüfung, Calcaneusfraktur-Zeichen, Fersenkappen-Luxation). Alle genannten Fakten sind im Original so beschrieben. Spiegelt und verknüpft Teile der bereits bestehenden Wissenseinträge `zehen-mittelfuss-sprunggelenk-untersuchung`, `zehen-tarsus-sprunggelenk-liegender-hund-untersuchung` und `sprunggelenk-zehen-funktionelle-anatomie-hyperaesthesien` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Periost-/Gefäßversorgung im Original nicht genannt, bewusst nicht ergänzt.",
+  },
+  {
+    id: "art-tarsi",
+    name: "Articulatio tarsi (Sprunggelenk/Tarsalgelenk)",
+    kind: "GELENK",
+    origin:
+      "Distale Tibia/Fibula, Talus, Calcaneus, übrige Tarsalknochen sowie die proximalen Anteile des Metatarsus. Zusammengesetztes Gelenk aus vier Gelenketagen: Art. tarsocruralis (Hárrer-Terminologie; bei Koch/Fischer als Art. talocruralis bezeichnet — dieselbe Etage), proximale Intertarsalgelenke, distale Intertarsalgelenke und Artt. tarsometatarseae.",
+    insertion:
+      "Eigenes Anatomie-Item `ligg-tarsi` (mediales/laterales Kollateralband, kurze intertarsale Bänder). Die tarsometatarsalen und intertarsalen Gelenke sind straff und praktisch starr, produzieren deshalb auch bei Verletzungen kaum zusätzliche Synovia und sind nicht als Schwellung ertastbar.",
+    funktion:
+      "Nur die Art. tarsocruralis ist wirklich gut beweglich (Flexion/Extension) — alle anderen Etagen bleiben straff und kaum beweglich. Seitenbänder physiologisch: bei gestrecktem Gelenk ca. 5–8° Ab-/Adduktion, bei gebeugtem Gelenk ca. 8–12°; zusätzliche Rotationsbewegungen bei flektiertem Gelenk prüfen die kurzen Bandanteile.",
+    clinicalRelevance:
+      "Füllung, Wärme und/oder Schmerzhaftigkeit sprechen für Talusfraktur, Osteochondrose, Polyarthritis, Seitenbandruptur oder Malleolusfraktur. Eine Achsabweichung nach medial oder lateral deutet auf eine Seitenbandruptur oder eine Fehlstellung der Tibia hin. Hypermobilität bei Abduktion/Adduktion spricht für Seitenbandruptur oder Luxation, bei Flexion/Extension für eine gelenknahe Fraktur oder Luxation; Hypomobilität für posttraumatische Arthrose, Osteochondrose des Talusrollkamms oder Neoplasie.",
+    palpationHint:
+      "Distal der beiden Malleoli sichelförmig kranial, distal und kaudal tastbar; im physiologischen Zustand nur als schmaler Saum spürbar.",
+    transferQ: "Warum ist von den vier Gelenketagen des Sprunggelenks nur die Art. tarsocruralis wirklich gut beweglich?",
+    transferOptions: [
+      {
+        label: "Weil hohe Beweglichkeit in allen Etagen den Kraftschub aus der Hinterhand verpuffen lassen würde",
+        correct: true,
+      },
+      { label: "Weil die übrigen Etagen beim Hund gar nicht existieren", correct: false },
+      { label: "Weil nur die Art. tarsocruralis über Bänder verfügt", correct: false },
+      { label: "Weil Beweglichkeit in den übrigen Etagen krankhaft wäre, auch beim Welpen", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 10.1 (Sprunggelenk und Zehen — Anatomie), S. 112 (Gelenkfunktion, Talus-Stellung). Koch/Fischer, Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.3.1–5.3.2, S. 83–88, sowie Kap. 6.2.1–6.2.2, S. 111–117 (vier Gelenketagen, Palpation, Seitenbandwinkel, Befund-DD-Zuordnungen). Kapselmuster und Endgefühl werden in den ausgewerteten Quellenausschnitten für dieses Gelenk — wie beim Ellbogen, anders als bei Knie/Hüfte/Schulter/Karpus — nicht explizit genannt; bewusst nicht erfunden. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `zehen-mittelfuss-sprunggelenk-untersuchung`, `zehen-tarsus-sprunggelenk-liegender-hund-untersuchung` und `sprunggelenk-zehen-funktionelle-anatomie-hyperaesthesien` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Innervation der Gelenkkapsel im Original nicht genannt, bewusst nicht ergänzt.",
+  },
+  {
+    id: "ligg-tarsi",
+    name: "Bänder des Sprunggelenks (Ligg. tarsi)",
+    kind: "BAND",
+    origin:
+      "Mediales und laterales Kollateralband (das laterale mit einem gesondert testbaren kurzen kaudalen Anteil) sowie kurze intertarsale Bänder zwischen den straffen Gelenketagen — die genauen osteologischen Ursprungs-/Ansatzpunkte werden im Quellentext nicht einzeln benannt.",
+    funktion:
+      "Begrenzen die Ab-/Adduktion des Sprunggelenks (physiologisch ca. 5–8° bei gestrecktem, ca. 8–12° bei gebeugtem Gelenk) und stabilisieren gemeinsam mit der straffen Kapsel die wenig beweglichen Intertarsal-/Tarsometatarsalgelenke.",
+    clinicalRelevance:
+      "Hypermobilität bei Ab-/Adduktion spricht für eine Seitenbandruptur oder Luxation; eine bei Rotationsbewegung im gebeugten Gelenk auftretende Instabilität spricht spezifisch für eine Ruptur des kurzen kaudalen Anteils des lateralen Kollateralbandes. Eine Spontanruptur der kurzen intertarsalen Bänder (v. a. bei alten Hunden, Collies oder ähnlichen Rassen) zeigt sich als plantare Konturstörung ohne akutes Trauma.",
+    palpationHint:
+      "Seitenbänder werden bei gestrecktem und bei gebeugtem Gelenk geprüft; bei flektiertem Gelenk zusätzlich Rotationsbewegungen zur gezielten Prüfung der kurzen Bandanteile.",
+    transferQ: "Welcher Befund spricht spezifisch für eine Ruptur des kurzen kaudalen Anteils des lateralen Kollateralbandes am Sprunggelenk?",
+    transferOptions: [
+      { label: "Eine bei Rotationsbewegung im gebeugten Gelenk auftretende Instabilität", correct: true },
+      { label: "Eine Hypermobilität ausschließlich bei voller Extension", correct: false },
+      { label: "Eine Schwellung ausschließlich am Tuber calcanei", correct: false },
+      { label: "Eine völlig unauffällige, schmerzfreie Beweglichkeit in alle Richtungen", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.3.1–5.3.2 (stehender Hund, Achsabweichung/Spontanruptur alter Hunde/Collies), S. 83–88, sowie Kap. 6.2.1–6.2.2 (liegender Hund, Seitenbandtest mit Winkelangaben und Rotationsprüfung), S. 111–117. Alle genannten Befund-Zuordnungen und Testdurchführungen sind im Original so beschrieben. Präzise osteologische Ursprungs-/Ansatzpunkte werden im Original nicht einzeln benannt — bewusst nicht erfunden. Spiegelt Teile der bereits bestehenden Wissenseinträge `zehen-mittelfuss-sprunggelenk-untersuchung` und `zehen-tarsus-sprunggelenk-liegender-hund-untersuchung` als eigenständiges, strukturiertes Anatomie-Item.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -4662,7 +4738,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5 (Untersuchung des stehenden Hundes), Abschnitte 5.2 (Spezifische Bemerkung) und 5.3.1–5.3.2 (Zehen/Metatarsus/Tarsalknochen, Sprunggelenk), S. 83–88. Alle beschriebenen Tests, Befunde/DD-Zuordnungen sowie die anatomische Klarstellung zum Fersensehnenstrang (keine Achillessehne, fehlender M. soleus, Zusammensetzung aus Mm. gastrocnemii/M. biceps femoris/M. semitendinosus/M. gracilis) sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["calcaneus-talus", "art-tarsi", "ligg-tarsi"],
   },
   {
     id: "unterschenkel-knie-stehender-hund-untersuchung",
@@ -4970,7 +5046,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.2.1–6.2.2 (Zehen/Metatarsus/Tarsalknochen, Sprunggelenk am liegenden Hund), S. 111–117. Alle beschriebenen Tests, Winkelangaben und Befund-DD-Zuordnungen sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["calcaneus-talus", "art-tarsi", "ligg-tarsi"],
   },
   {
     id: "unterschenkel-femur-liegender-hund-untersuchung",
@@ -6053,7 +6129,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.3 (Instabilität des Tarsus, Spontanfraktur Calcaneus, Riss des Fersensehnenstranges, Fersenkappenluxation), S. 195–199. Ätiologie, Klinik und Therapieprinzipien sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["calcaneus-talus", "ligg-tarsi"],
   },
   {
     id: "kreuzbandriss-biomechanik-und-therapie",
@@ -8137,7 +8213,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 10.1 (Sprunggelenk und Zehen — Anatomie), S. 112. Gelenkfunktion, Zehenanatomie und die Nervenversorgungs-/Hyperästhesie-Liste sind im Original so beschrieben. Die detaillierten Bewegungspalpations-/Joint-play-Techniken für die einzelnen Tarsal-/Zehengelenke (Kap. 10.2) sind aus Umfangsgründen nicht einzeln übernommen — sie folgen demselben Fixations-/Gleit-Prinzip wie die bereits erfassten Gelenktechniken anderer Regionen.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["art-tarsi", "calcaneus-talus"],
   },
   {
     id: "ellenbogenmuskulatur-flexoren-extensoren-fasertyp",
