@@ -508,6 +508,43 @@ kein Überblick verloren geht.
   (Material zu Pumpenschwengel-/Eimerhenkelbewegung und 1.-Rippe-
   Stellungsdiagnose bereits in der Wissensbibliothek vorhanden, siehe
   `rippen-anatomie-1-rippe-stellungsdiagnose`).
+- **Zwölfter Content-Batch — Rippen und Rippengelenke (09.10.2026):**
+  Letzter Batch dieser Session, erneut ohne neue Quellenrecherche: Der
+  bereits erwähnte Wissenseintrag `rippen-anatomie-1-rippe-
+  stellungsdiagnose` (Hárrer Kap. 16.2.4, S. 220–228) enthielt genug
+  Substanz für zwei neue strukturierte Items statt nur für einen
+  Cross-Link. 2 neue Items (87 → 89). `KNOCHEN` (1, neuntes Item dieses
+  Kinds): `rippen` — Rippenklassifikation (9 Tragerippen, 3
+  Atmungsrippen, 1 frei endende Fleischrippe), die Rippen-Wirbel-
+  Bandscheiben-Kopplung (jede Rippe außer Th1/Th13 hat Kontakt zu zwei
+  Wirbelkörpern und der dazwischenliegenden Bandscheibe) sowie der
+  Sympathikus-Zusammenhang (Grenzstrang ventral der Rippenköpfchen).
+  `GELENK` (1, zwölftes Item dieses Kinds): `artt-costales` — die zwei
+  unterschiedlichen Bewegungsmuster (Pumpenschwengelbewegung der
+  Tragerippen 1–9 um eine zur Frontalebene geneigte Achse vs.
+  Eimerhenkelbewegung der Rippen 10–13 um eine zur Sagittalebene
+  geneigte Achse) sowie die vollständige Stellungsdiagnostik-Methodik
+  für die 1. und die 2.–13. Rippe. Ehrlich ausgewiesen: Kapsel-Band-
+  Apparat, Kapselmuster und Endgefühl werden im ausgewerteten
+  Quellenausschnitt nicht genannt — bewusst nicht erfunden. Beide Items
+  ohne `relatedCaseId` (kein bestehender Fall behandelt die Rippen
+  direkt), analog zur Begründung beim Tarsus-Batch. Beide neuen Items
+  sowie der dadurch aktualisierte bestehende Wissenseintrag via
+  Playwright verifiziert (2/2 neue Review-Seiten, 0 Fehler), `tsc`/
+  `eslint` clean, `next build` erfolgreich, Reseed bestätigt (89
+  Anatomie-Items, Kind-Verteilung: 47 Muskel, 7 Nerv, 11 Band, 12
+  Gelenk, 9 Knochen, 3 Sonstige). **Zwölf Content-Batches in dieser
+  Session:** sechs Hauptgelenke (Knie, Hüfte, Schulter, Ellbogen,
+  Karpus, Tarsus) komplett, dazu obere/untere HWS, BWS, Becken/ISG und
+  Rippen — die Anatomie-Sektion ist damit von 51 auf 89 Items (+75 %)
+  gewachsen, ausschließlich durch Restrukturierung bereits verifizierter
+  Wissensbibliothek-Fakten, ohne neue externe Quellenrecherche. Noch
+  offen für künftige Sessions: allgemeiner Wirbel-Bauplan als eigenes
+  KNOCHEN-Item, Lendenwirbelsäule als eigene GELENK-Region, Sternum,
+  Schädel/Kiefergelenk, sowie — ggf. nach Rücksprache mit Vanessa — eine
+  systematische Qualitätsprüfung des nun 89 Items umfassenden Bestands
+  gegen die Originalquellen (MASTER-PROMPT §21) oder ein erneuter Fokus
+  auf die seit dem 03.10.2026 pausierte Wissensbibliothek.
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte

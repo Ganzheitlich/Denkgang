@@ -2851,6 +2851,57 @@ const ANATOMY: AnatomySeed[] = [
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg.), Ganzheitliche Schmerztherapie für Hund und Katze (ISBN 978-3-8304-9288-7), Sonntag Verlag/Thieme, 2. Auflage 2011, Kap. 4.5.7.2, S. 108–112 (unter Berufung im Original auf Budras 2000 und Nickel et al. 1992) — Bandanatomie (Pars brevis/longa, interossea), der Cross-Spezies-Vergleich zum Lig. sacrotuberale latum und die B26/B28-Palpationspunkte. Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7, S. 236–240 (Stabilisierungsfunktion, Iliumläsion-Befund, ⅗-Regel). Alle genannten Fakten sind im Original so beschrieben. Spiegelt und verknüpft Teile der bereits bestehenden Wissenseinträge `iliosakralgelenk-sakrum-ilium-laesion-beinlaenge`, `iliosakralgelenk-manuelle-untersuchung-provokationstests` und `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Präzise osteologische Ursprungs-/Ansatzpunkte des Lig. sacrotuberale jenseits der genannten Landmarken werden im Original nicht weiter detailliert.",
     bildUrl: "/cases/huefte-01.png",
   },
+  {
+    id: "rippen",
+    name: "Rippen (Costae)",
+    kind: "KNOCHEN",
+    origin:
+      "13 Rippenpaare. Die ersten 9 Rippen (Tragerippen) sind gelenkig mit dem Sternum verbunden; die 10.–12. Rippe (Atmungsrippen) enden frei im Rippenbogen, die 13. Rippe (Fleischrippe) endet frei in der Muskulatur. Jede Rippe (außer Th1 und Th13) hat mit zwei Wirbelkörpern und der dazwischenliegenden Bandscheibe Kontakt — dem gleichzähligen und dem kranial davon liegenden Wirbel.",
+    insertion:
+      "Die 1. Rippe wird ausgehend von C6 (über dessen ausgeprägte Crista ventralis gut auffindbar) senkrecht nach kaudal palpiert. Die ersten 3 Rippen liegen unter der Skapula und werden bei abduzierter Vordergliedmaße in der Achsel palpiert; die 4. Rippe liegt direkt kaudal der Skapula. Die Rippenwinkel der 2.–13. Rippe werden mit dem Thenar auf der kontralateralen Thoraxseite abgefahren.",
+    funktion:
+      "Die Querfortsätze der Brustwirbel stehen kranial weiter zentral, kaudal weiter dorsal — dieser Unterschied erklärt, warum sich kraniale und kaudale Rippen um unterschiedlich geneigte Achsen bewegen (siehe eigenes Anatomie-Item `artt-costales`).",
+    clinicalRelevance:
+      "Weil jede Rippe mit zwei Wirbelkörpern und der dazwischenliegenden Bandscheibe Kontakt hat, treten Rippendysfunktionen meist gemeinsam mit Dysfunktionen des zugehörigen Brustwirbelkörpers auf — Bandscheibe und Rippe können sich gegenseitig beeinflussen. Eine Dysfunktion der Rippen kann zudem den Sympathikotonus erhöhen, da der sympathische Grenzstrang ventral der Rippenköpfchen liegt. Prädisponiert für Rippengelenk-Dysfunktionen sind kleine Hunde, die auf die Couch springen, Sporthunde, Hunde mit Stress/Atemwegserkrankungen und spielende Hunde.",
+    palpationHint:
+      "1. Rippe: von C6 senkrecht nach kaudal. 2.–13. Rippe: Thenar entlang der Rippenwinkel auf der kontralateralen Thoraxseite, von kranial nach kaudal (Inspirationsrippen) bzw. kaudal nach kranial (Exspirationsrippen).",
+    transferQ: "Warum kann eine Dysfunktion der Rippen den Sympathikotonus erhöhen?",
+    transferOptions: [
+      { label: "Weil der sympathische Grenzstrang ventral der Rippenköpfchen liegt", correct: true },
+      { label: "Weil Rippen direkt mit dem Herzen verwachsen sind", correct: false },
+      { label: "Weil der Sympathikus ausschließlich im Becken verläuft", correct: false },
+      { label: "Weil Rippen keinerlei Verbindung zur Wirbelsäule haben", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.4 (Rippen — Anatomie und Stellungsdiagnose), S. 220–228. Rippenklassifikation, Rippen-Bandscheiben-Kopplung, Sympathikus-Zusammenhang und Palpationslandmarken sind im Original so beschrieben. Spiegelt und verknüpft den bereits bestehenden Wissenseintrag `rippen-anatomie-1-rippe-stellungsdiagnose` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Periost-/Gefäßversorgung im Original nicht genannt, bewusst nicht ergänzt.",
+  },
+  {
+    id: "artt-costales",
+    name: "Rippengelenke (Artt. costovertebrales, costotransversariae, costosternales)",
+    kind: "GELENK",
+    origin:
+      "Rippenköpfchen mit den Brustwirbelkörpern (Art. costovertebralis) bzw. mit den Procc. transversi (Art. costotransversaria); Rippenknorpel mit dem Sternum (Art. costosternalis) bei den ersten 9 Rippen.",
+    insertion:
+      "Kapsel-Band-Apparat im ausgewerteten Quellenausschnitt nicht einzeln benannt — bewusst nicht erfunden.",
+    funktion:
+      "Zwei unterschiedliche Bewegungsmuster: Die ersten 9 Rippen (Tragerippen) führen eine Pumpenschwengelbewegung um eine ca. 35° zur Frontalebene geneigte Achse aus — das erweitert beim Einatmen den sagittalen Thoraxdurchmesser. Die 10.–12. Rippe (Atmungsrippen) und die frei endende 13. Rippe (Fleischrippe) führen dagegen eine Eimerhenkelbewegung um eine ca. 35° zur Sagittalebene geneigte Achse aus, die den lateralen Thoraxdurchmesser erweitert.",
+    clinicalRelevance:
+      "Weil kraniale und kaudale Rippen um unterschiedlich geneigte Achsen rotieren, muss eine Rippe entsprechend ihrer Position unterschiedlich mobilisiert werden — wird die 1. Rippe wie die 8. behandelt, erfolgt die Mobilisation in die falsche Richtung. Stellungsdiagnose der 1. Rippe: Im Seitenvergleich wird ihre Höhe beurteilt; bei Seitneige der HWS weg von der zu testenden Seite wird geprüft, ob die 1. Rippe mit nach kranial gleitet (gleitet sie mit: Inspirationsblockade; gleitet sie nicht mit: Exspirationsblockade). Steht die 1. Rippe z. B. rechts hoch, steht Th1 in Linksrotation.",
+    palpationHint:
+      "Stellungsdiagnose der 2.–13. Rippe: Thenar entlang der Rippenwinkel von kranial nach kaudal (Inspirationsrippen, fühlbare Stufenbildung) bzw. von kaudal nach kranial (Exspirationsrippen).",
+    transferQ: "Warum würde eine für die 8. Rippe entwickelte Mobilisationstechnik bei der 1. Rippe in die falsche Richtung wirken?",
+    transferOptions: [
+      {
+        label: "Weil kraniale und kaudale Rippen sich um unterschiedlich geneigte Bewegungsachsen bewegen (Pumpenschwengel- vs. Eimerhenkelbewegung)",
+        correct: true,
+      },
+      { label: "Weil nur die 1. Rippe überhaupt beweglich ist", correct: false },
+      { label: "Weil alle Rippen exakt dieselbe Bewegungsachse haben und die Unterscheidung bedeutungslos ist", correct: false },
+      { label: "Weil die 8. Rippe gar nicht gelenkig mit der Wirbelsäule verbunden ist", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.4 (Rippen — Anatomie und Stellungsdiagnose), S. 220–228. Die beiden Bewegungsmuster mit ihren Achsorientierungen sowie die vollständige Stellungsdiagnostik-Methodik sind im Original so beschrieben. Spiegelt und verknüpft den bereits bestehenden Wissenseintrag `rippen-anatomie-1-rippe-stellungsdiagnose` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Kapsel-Band-Apparat, Kapselmuster, Endgefühl und Innervation der Gelenkkapsel werden im Original nicht genannt, bewusst nicht erfunden.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -8209,7 +8260,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.4 (Rippen — Anatomie und Stellungsdiagnose), S. 220–228. Bewegungsachsen, Rippen-Bandscheiben-Kopplung und die Stellungsdiagnostik-Methoden sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["discus"],
+    relatedAnatomyIds: ["discus", "rippen", "artt-costales"],
   },
   {
     id: "sympathikus-manuelle-therapie-wirkmechanismus",
