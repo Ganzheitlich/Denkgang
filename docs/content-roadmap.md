@@ -464,6 +464,50 @@ kein Überblick verloren geht.
   Muskel-Ursprungsangaben erwähnt), Lendenwirbelsäule als eigene
   GELENK-Region (nur der lumbosakrale Übergang ist bereits erfasst),
   Becken (Os ilium/ischii/pubis), Schädel.
+- **Elfter Content-Batch — Becken und Iliosakralgelenk (09.10.2026):**
+  Fortsetzung in Richtung Beckenregion, erneut ohne neue
+  Quellenrecherche: Die Wissensbibliothek enthielt bereits außerordentlich
+  dichtes, aus zwei unabhängigen Quellen verifiziertes Material zum ISG
+  — Hárrer Kap. 16.2.7 (`iliosakralgelenk-anatomie-symptome-ursachen`,
+  `iliosakralgelenk-sakrum-ilium-laesion-beinlaenge`,
+  `iliosakralgelenk-manuelle-untersuchung-provokationstests`, S. 236–240)
+  und Kasper/Zohmann, Ganzheitliche Schmerztherapie für Hund und Katze,
+  Kap. 4.5.7.2 (`sakroiliakalgelenk-anatomie-blockierung-zohmann-probe`,
+  S. 108–112, unter Berufung auf Budras 2000/Nickel et al. 1992) — plus
+  die Koch/Fischer-Palpationstechnik aus
+  `oberschenkel-huefte-stehender-hund-untersuchung`. Diese Fakten wurden
+  als drei neue strukturierte Items aufbereitet statt dupliziert. 3 neue
+  Items (84 → 87). `KNOCHEN` (1, achtes Item dieses Kinds): `becken` —
+  Os ilium/ischii/pubis als Os coxae, alle Landmarken (Tuber sacrale,
+  Tuber coxae, Spina iliaca dorsalis/ventralis cranialis, Tuber
+  ischiadicum, Crista iliaca), die Dreieck-Palpationstechnik
+  (Tuber ischiadicum/Trochanter major/Crista iliaca) zur
+  Luxationserkennung sowie die funktioneller-vs-anatomischer-
+  Beinlängenunterschied-Differenzierung. `GELENK` (1, elftes Item dieses
+  Kinds): `art-sacroiliaca` — nach Budras (2000) eine Sonderform der
+  Articulatio plana als Amphiarthrose, die Stoßdämpfungs-/
+  Kraftübertragungsfunktion, sowie die vollständige ⅗-Regel-Diagnostik
+  (fünf Provokationskriterien) plus die SIG-Probe nach Zohmann als
+  zweites, unabhängiges Testverfahren. `BAND` (1, elftes Item dieses
+  Kinds): `ligg-sacroiliaca` — Ligg. sacroiliaca dorsalia (Pars brevis/
+  longa)/ventralia/interossea sowie das Lig. sacrotuberale, mit einem
+  besonders lehrreichen Cross-Spezies-Transferfakt: Der Hund besitzt nur
+  das dünne Lig. sacrotuberale statt des kräftigen Lig. sacrotuberale
+  latum der Huftiere, der Katze fehlt dieses Band sogar vollständig
+  (erklärt deren höhere Beckenfraktur-Rate) — ein Beispiel dafür, wie
+  ein anatomischer Artvergleich unmittelbar klinische Relevanz für die
+  Stabilitäts-/Verletzungsanfälligkeit beim Hund bekommt. Alle 3 neuen
+  Items sowie 5 dadurch aktualisierte bestehende Wissenseinträge
+  (gegenseitige `relatedAnatomyIds`-Verknüpfung) via Playwright
+  verifiziert (3/3 neue Review-Seiten, 0 Fehler), `tsc`/`eslint` clean,
+  `next build` erfolgreich, Reseed bestätigt (87 Anatomie-Items,
+  Kind-Verteilung: 47 Muskel, 7 Nerv, 11 Band, 11 Gelenk, 8 Knochen, 3
+  Sonstige). Noch offen: allgemeiner Wirbel-Bauplan als eigenes
+  KNOCHEN-Item, Lendenwirbelsäule als eigene GELENK-Region (nur der
+  lumbosakrale Übergang ist bereits erfasst), Schädel, Rippen/Thorax
+  (Material zu Pumpenschwengel-/Eimerhenkelbewegung und 1.-Rippe-
+  Stellungsdiagnose bereits in der Wissensbibliothek vorhanden, siehe
+  `rippen-anatomie-1-rippe-stellungsdiagnose`).
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte

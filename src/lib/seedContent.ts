@@ -2766,6 +2766,91 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.3 (Brustwirbelsäule — Anatomie und funktionelle Bedeutung), S. 214–216, sowie Kap. 16.2.3–16.2.4 (Provokation der BWS, Differenzialdiagnostik Rippe/Bandscheibe/Facettengelenk), S. 218–222. Facettengeometrie, Übergangsmechanik, Symptomliste sowie Springingtest/Rosett-Test/mediale Translation sind im Original so beschrieben. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `bws-funktionelle-anatomie-facettengeometrie` und `bws-springingtest-rosett-test-differenzierung` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Kapselmuster und Endgefühl im Original nicht genannt, bewusst nicht ergänzt.",
   },
+  {
+    id: "becken",
+    name: "Becken (Os coxae: Ilium, Ischium, Pubis)",
+    kind: "KNOCHEN",
+    relatedCaseId: "luna",
+    origin:
+      "Das Becken (Os coxae) entsteht aus der Verschmelzung von Os ilium, Os ischii und Os pubis und bildet gemeinsam mit dem Os sacrum den Beckenring. Die Beckensymphyse verknöchert beim Hund etwa ab dem 2. Lebensjahr.",
+    insertion:
+      "Tuber sacrale, Tuber coxae (Spina iliaca ventralis cranialis) und Spina iliaca dorsalis cranialis am Ilium; Tuber ischiadicum (Sitzbeinhöcker) am Ischium. Tuber ischiadicum, Trochanter major (Femur) und Crista iliaca bilden im Seitenvergleich physiologisch gleichgeformte Dreiecke — eine Standard-Palpationstechnik. Die Facies auricularis ossis ilii bildet gemeinsam mit der Facies auricularis ossis sacri die Gelenkfläche des Iliosakralgelenks (eigenes Anatomie-Item `art-sacroiliaca`).",
+    funktion:
+      "Anders als bei Huftieren ist der Beckenring beim Hund nur minimal verspannt: Es fehlt ein kräftig ausgebildetes Lig. sacrotuberale latum, der Hund besitzt nur das vergleichsweise dünne Lig. sacrotuberale (eigenes Anatomie-Item `ligg-sacroiliaca`) — der Katze fehlt sogar dieses Band vollständig, ein Grund für deren häufigere Beckenfrakturen.",
+    clinicalRelevance:
+      "Steht der Trochanter major nicht in physiologischer Position zum Dreieck Tuber ischiadicum/Crista iliaca oder ist er nicht palpierbar, spricht das für eine Hüftgelenkluxation. Zur Unterscheidung von funktionellem und anatomischem Beinlängenunterschied werden Crista iliaca, Spina iliaca dorsalis cranialis, Tuber coxae, L6/L7 und Trochanter major herangezogen: Beim funktionellen Unterschied (Beckenverwringung durch eine Iliumläsion) steht die Spina iliaca dorsalis cranialis tiefer, während die Spina iliaca ventralis cranialis höher steht; beim anatomischen Unterschied stehen alle drei Landmarken derselben Seite gemeinsam höher — nur der funktionelle Unterschied ist manualtherapeutisch über Wirbelsäule/Becken beeinflussbar.",
+    palpationHint:
+      "Tuber sacrale, Tuber coxae, Spina iliaca dorsalis cranialis, Tuber ischiadicum und Crista iliaca sind direkt tastbar; Beurteilung erfolgt im Seitenvergleich auf Höhenunterschiede und Symmetrie, typischerweise mit drei Fingern am Dreieck Tuber ischiadicum/Trochanter major/Crista iliaca.",
+    transferQ: "Warum kommt es beim Hund im Vergleich zu Huftieren vergleichsweise leicht zu Verkippungen/Verwringungen von Becken und Kreuzbein gegeneinander?",
+    transferOptions: [
+      {
+        label: "Weil dem Hund ein kräftig ausgebildetes Lig. sacrotuberale latum fehlt und der Beckenring dadurch nur minimal verspannt ist",
+        correct: true,
+      },
+      { label: "Weil der Hund keine Beckensymphyse besitzt", correct: false },
+      { label: "Weil das Becken des Hundes aus nur einem einzigen, ungeteilten Knochen besteht", correct: false },
+      { label: "Weil Hunde grundsätzlich kein Iliosakralgelenk haben", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk), S. 236–240 (Landmarken, Beinlängen-Differenzierung). Koch, Daniel; Fischer, Martin S., Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.3.5–5.3.6, S. 93–96 (Dreieck-Palpationstechnik). Kasper, Markus/Zohmann, Andreas (Hrsg.), Ganzheitliche Schmerztherapie für Hund und Katze (ISBN 978-3-8304-9288-7), Sonntag Verlag/Thieme, 2. Auflage 2011, Kap. 4.5.7.2, S. 108–112 (unter Berufung im Original auf Budras 2000 und Nickel et al. 1992) — der Vergleich zu Huftieren/Katzen (fehlendes bzw. schwächeres Lig. sacrotuberale latum). Alle genannten Fakten sind im Original so beschrieben. Spiegelt und verknüpft Teile der bereits bestehenden Wissenseinträge `iliosakralgelenk-sakrum-ilium-laesion-beinlaenge`, `oberschenkel-huefte-stehender-hund-untersuchung` und `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Periost-/Gefäßversorgung im Original nicht genannt, bewusst nicht ergänzt.",
+    bildUrl: "/cases/huefte-01.png",
+  },
+  {
+    id: "art-sacroiliaca",
+    name: "Articulatio sacroiliaca (Iliosakralgelenk, ISG)",
+    kind: "GELENK",
+    relatedCaseId: "luna",
+    origin:
+      "Facies auricularis ossis sacri und Facies auricularis ossis ilii. Nach Budras (2000) eine Sonderform einer Articulatio plana als Amphiarthrose: kurze Gelenkbänder, höckerige Gelenkoberfläche, geringer Bewegungsspielraum.",
+    insertion:
+      "Eigenes Anatomie-Item `ligg-sacroiliaca` (Ligg. sacroiliaca dorsalia/ventralia/interossea, Lig. sacrotuberale) — da das ISG kaum eigene Muskulatur zur Stabilisation besitzt, übernehmen diese Bänder sowie die Fascia thoracolumbalis die Stabilisierungsaufgabe.",
+    funktion:
+      "Physiologisch nur wenig Bewegung, was für die Kraftübertragung von der Hintergliedmaße nach kranial in die LWS auch nötig ist: Wäre das ISG gut beweglich, würde der Schub aus der Hinterhand hier verpuffen. Geht die Stoßdämpfungsfunktion verloren, werden Impulse aus der Hintergliedmaße über das Sakrum ungepuffert nach kranial übertragen — die Bandscheiben werden dadurch stärker belastet. Weil die Gelenkflächen des Sakrums beinahe sagittal stehen, ist das Gelenk anfällig für Scherkräfte.",
+    clinicalRelevance:
+      "Sehr straffe, schmerzrezeptorenreiche Gelenkkapsel — minimale Entzündungsreize können hier schon massive Einschränkungen auslösen. Eine ISG-Dysfunktion zeigt sich keineswegs nur als Rückenschmerz: möglich sind Gangbildveränderung, Lastumverteilung, scheinbare Beinlängenunterschiede, Blasen-/Darm-Problematik (über Tonuserhöhung an der Fossa ischiorectalis mit möglicher N.-pudendus-Kompression) sowie deutlich reduziertes Rutenschwingen. Da kein Goldstandard-Test existiert, gilt die ⅗-Regel: Erst wenn mindestens 3 von 5 Provokationstests positiv sind (dorsale Ligg. sacroiliaca schmerzhaft? M. piriformis schmerzhaft? Tonus des Lig. sacrotuberale im Seitenvergleich verändert? Becken asymmetrisch? Tubera ischiadica auf gleicher Höhe?), gilt ein ISG-Problem als wahrscheinlich.",
+    palpationHint:
+      "Lateralverschiebung (Daumen im ISG-Gelenkspalt, Gewichtsverlagerung im Seitenvergleich), Vorlaufphänomen (Daumen auf beiden Spinae iliacae craniales dorsales während Wirbelsäulenflexion) und Federtest/Joint Play (translatorisches Gleiten des Iliums gegen das fixierte Sakrum). Alternativ die SIG-Probe nach Zohmann: wippende Bewegung von kraniolateroventral nach kaudomediodorsal am fixierten SIG.",
+    transferQ: "Warum gilt für die Diagnose einer ISG-Dysfunktion die ⅗-Regel statt eines einzelnen Tests?",
+    transferOptions: [
+      {
+        label: "Weil kein Goldstandard-Test für das ISG existiert und ein einzelner positiver Befund nicht als Beweis ausreicht",
+        correct: true,
+      },
+      { label: "Weil das ISG beim Hund grundsätzlich nicht untersuchbar ist", correct: false },
+      { label: "Weil fünf positive Tests immer noch kein ISG-Problem beweisen", correct: false },
+      { label: "Weil die Regel nur bei Katzen, nicht bei Hunden gilt", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Anatomie, Symptome, Differenzialdiagnose und spezifische Untersuchung), S. 236–240 (inkl. der ⅗-Regel nach Fortin et al., im Original zitiert). Kasper, Markus/Zohmann, Andreas (Hrsg.), Ganzheitliche Schmerztherapie für Hund und Katze (ISBN 978-3-8304-9288-7), Sonntag Verlag/Thieme, 2. Auflage 2011, Kap. 4.5.7.2, S. 108–112 (Budras-2000-Klassifikation als Articulatio plana/Amphiarthrose, SIG-Probe nach Zohmann). Alle genannten Fakten sind im Original so beschrieben. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `iliosakralgelenk-anatomie-symptome-ursachen`, `iliosakralgelenk-manuelle-untersuchung-provokationstests` und `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Innervation der Gelenkkapsel im Original nicht genannt, bewusst nicht ergänzt.",
+    bildUrl: "/cases/huefte-01.png",
+  },
+  {
+    id: "ligg-sacroiliaca",
+    name: "Ligg. sacroiliaca et Lig. sacrotuberale",
+    kind: "BAND",
+    relatedCaseId: "luna",
+    origin:
+      "Ligg. sacroiliaca dorsalia (kraniale Pars brevis zwischen Tuber sacrale und den Processus mamillares, Pars longa zwischen Tuber sacrale und der Pars lateralis des Os sacrum) und Ligg. sacroiliaca ventralia überspannen die Gelenkflächen des ISG. Ligg. sacroiliaca interossea verlaufen zwischen der Tuberositas iliaca und der Dorsalfläche der Ala ossis sacri als Aufhängebänder des Kreuzbeins. Das Lig. sacrotuberale zieht von den Processus transversi des S3 und dem ersten Schwanzwirbel zu den Tubera ischiadica.",
+    funktion:
+      "Da das ISG kaum eigene Muskulatur zur Stabilisation besitzt, übernehmen diese Bänder gemeinsam mit der Fascia thoracolumbalis die Stabilisierung des Beckenrings und federn den Bewegungsimpuls der Hintergliedmaßen auf den Rumpf ab.",
+    clinicalRelevance:
+      "Der Hund besitzt im Vergleich zu Huftieren nur das relativ dünne Lig. sacrotuberale statt eines kräftig ausgebildeten Lig. sacrotuberale latum — der Katze fehlt dieses Band sogar vollständig, ein Grund für deren häufigere Beckenfrakturen. Diese schwache Verspannung macht das ISG beim Hund anfällig für Verkippungen/Verwringungen bei seitlich einwirkenden Traumen oder Rumpfdrehungen. Bei einer Iliumläsion (dorsale Rotationsfehlstellung) zeigt sich eine erhöhte Spannung des Lig. sacrotuberale der betroffenen Seite. Im Rahmen der ⅗-Regel zur ISG-Diagnostik werden die dorsalen Ligg. sacroiliaca sowie der Tonus des Lig. sacrotuberale im Seitenvergleich gezielt auf Schmerzhaftigkeit bzw. Veränderung geprüft.",
+    palpationHint:
+      "Digitale Schmerzpalpation über tastbaren Vertiefungen knapp kranial bzw. kaudal des Tuber sacrale ossis ilii; Tonusvergleich des Lig. sacrotuberale im Seitenvergleich als Teil der ⅗-Regel.",
+    transferQ: "Was unterscheidet das Lig. sacrotuberale des Hundes von dem der Huftiere, und welche Konsequenz hat das?",
+    transferOptions: [
+      {
+        label: "Es ist deutlich dünner als das Lig. sacrotuberale latum der Huftiere, wodurch der Beckenring des Hundes weniger stabil verspannt ist",
+        correct: true,
+      },
+      { label: "Es ist beim Hund kräftiger ausgebildet als bei Huftieren", correct: false },
+      { label: "Es fehlt beim Hund vollständig, genau wie bei der Katze", correct: false },
+      { label: "Es hat beim Hund keinerlei stabilisierende Funktion", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg.), Ganzheitliche Schmerztherapie für Hund und Katze (ISBN 978-3-8304-9288-7), Sonntag Verlag/Thieme, 2. Auflage 2011, Kap. 4.5.7.2, S. 108–112 (unter Berufung im Original auf Budras 2000 und Nickel et al. 1992) — Bandanatomie (Pars brevis/longa, interossea), der Cross-Spezies-Vergleich zum Lig. sacrotuberale latum und die B26/B28-Palpationspunkte. Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7, S. 236–240 (Stabilisierungsfunktion, Iliumläsion-Befund, ⅗-Regel). Alle genannten Fakten sind im Original so beschrieben. Spiegelt und verknüpft Teile der bereits bestehenden Wissenseinträge `iliosakralgelenk-sakrum-ilium-laesion-beinlaenge`, `iliosakralgelenk-manuelle-untersuchung-provokationstests` und `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Präzise osteologische Ursprungs-/Ansatzpunkte des Lig. sacrotuberale jenseits der genannten Landmarken werden im Original nicht weiter detailliert.",
+    bildUrl: "/cases/huefte-01.png",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -4944,7 +5029,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5, Abschnitte 5.3.5–5.3.6 (Oberschenkelregion, Hüftregion), S. 93–96. Alle beschriebenen Tests und Befunde/DD-Zuordnungen sind im Original so beschrieben.",
     relatedCaseIds: ["luna"],
-    relatedAnatomyIds: ["iliopsoas", "huefte", "quadriceps", "biceps-femoris", "semitendinosus"],
+    relatedAnatomyIds: ["iliopsoas", "huefte", "quadriceps", "biceps-femoris", "semitendinosus", "becken"],
   },
   {
     id: "hintergliedmasse-differenzialdiagnosen-kompass",
@@ -7725,7 +7810,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Anatomie und funktionelle Bedeutung), S. 236–238. Anatomie, Symptomliste und Ursachen sind im Original so beschrieben. Löst das in `hueftgelenk-anatomie-rom-endgefuehl` und `lahmheit-laehmung-abgrenzung` angekündigte Cross-Reference „Differenzialdiagnostik siehe Kap. LWS/ISG“ ein.",
     relatedCaseIds: ["luna"],
-    relatedAnatomyIds: ["huefte", "rueckenmark"],
+    relatedAnatomyIds: ["huefte", "rueckenmark", "art-sacroiliaca", "ligg-sacroiliaca"],
   },
   {
     id: "iliosakralgelenk-sakrum-ilium-laesion-beinlaenge",
@@ -7761,7 +7846,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Differenzierung von Läsionen und Beinlängenunterschieden), S. 237f. Läsionsmechanismen, Befundtabelle und Beinlängen-Differenzierung sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["huefte"],
+    relatedAnatomyIds: ["huefte", "becken", "ligg-sacroiliaca"],
   },
   {
     id: "iliosakralgelenk-manuelle-untersuchung-provokationstests",
@@ -7801,7 +7886,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Differenzialdiagnose und spezifische Untersuchung), S. 238–240. Provokationstests, die ⅗-Regel (nach Fortin et al., im Original zitiert) sowie Bewegungspalpation und Joint Play sind im Original so beschrieben.",
     relatedCaseIds: ["luna"],
-    relatedAnatomyIds: ["huefte"],
+    relatedAnatomyIds: ["huefte", "art-sacroiliaca", "ligg-sacroiliaca"],
   },
   {
     id: "autochthone-rueckenmuskulatur-funktionelle-anatomie",
@@ -14015,7 +14100,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.7.2 (Sakroiliakalgelenk), S. 108–112 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf, unter Berufung im Original auf Budras 2000 und Nickel et al. 1992). Die SIG-Bandanatomie, der Vergleich zu Huftieren und das Fehlen des Lig. sacrotuberale latum, die Erklärung der häufigeren Beckenfrakturen bei Katzen, der Blockierungsmechanismus (traumatisch und sekundär-gynäko-/andropathisch, Zohmann 1993), die Diagnostik-Landmarken (B26/B28) sowie die SIG-Probe nach Zohmann (Tilscher u. Eder 1986, Zohmann u. Kasper 1994) sind im Original so beschrieben. Der bestehende Eintrag zur Gelenktyp-Klassifikation (Hohmann) nennt das SIG nur beiläufig als Beispiel einer Amphiarthrose, ohne auf Anatomie, Pathologie oder Untersuchungstechnik einzugehen — bewusst nicht dupliziert, sondern erstmals eigenständig ausgeführt.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["art-sacroiliaca", "ligg-sacroiliaca", "becken"],
   },
   {
     id: "hd-fruehdiagnostik-koeppel-os-coxae-quartum",
