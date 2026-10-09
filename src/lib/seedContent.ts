@@ -2475,6 +2475,88 @@ const ANATOMY: AnatomySeed[] = [
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.3.4 (Seitenbandtest), S. 142–148. Testdurchführung, Befund-Zuordnungen (mediale/laterale Seitenbandruptur, Ellbogenluxation) sowie die Rotationsbegrenzungslogik bei gebeugtem Ellbogen sind im Original so beschrieben. Präzise osteologische Ursprungs-/Ansatzpunkte werden im Original nicht einzeln benannt — bewusst nicht erfunden. Spiegelt Teile des bereits bestehenden Wissenseintrags `unterarm-ellbogen-liegender-hund-untersuchung` als eigenständiges, strukturiertes Anatomie-Item.",
     bildUrl: "/cases/rocky-01.png",
   },
+  {
+    id: "os-carpi-accessorium",
+    name: "Os carpi accessorium",
+    kind: "KNOCHEN",
+    relatedCaseId: "rocky",
+    origin:
+      "Eigenständiger Karpalknochen, eingelagert in die gemeinsame Endsehne der Mm. flexor et extensor carpi ulnaris; artikuliert mit dem Os carpi ulnare (Art. ossis carpi accessorii, dritte Gelenketage des Karpalgelenks) und ist zusätzlich ligamentär nach medial an der Handwurzel fixiert.",
+    insertion:
+      "Am kaudalen lateralen Rand des Carpus gut tastbar; wird beim Umfassen beider Carpi auf Höhe der Ossa carpi accessoria zur Standsymmetrieprüfung genutzt.",
+    funktion:
+      "Dient als sesambeinartige Umlenkrolle für die Flexor-/Extensor-carpi-ulnaris-Sehne und stabilisiert dadurch das Karpalgelenk auf der lateralen Seite. Unter der medialen ligamentären Fixierung verläuft ein Ast des N. ulnaris — anatomisch analog zur Loge de Guyon beim Menschen.",
+    clinicalRelevance:
+      "Krepitation oder Dislokation spricht für eine Fraktur des Os carpi accessorium oder einen Band-/Sehnenriss der karpalen Flexoren. Weil der N.-ulnaris-Ast direkt unter der medialen Bandfixierung verläuft, kann eine mechanosensitive Nervenreizung dort eine Gelenkprovokation vortäuschen (falsch-positive „Blockade“) — eine wichtige arthrogen/neurogen-Differenzierung, bevor vorschnell ein Gelenkproblem diagnostiziert wird.",
+    palpationHint:
+      "Beide Carpi werden auf Höhe der Ossa carpi accessoria umfasst und mit gleicher Kraft nach kranial gezogen (Standsymmetrieprüfung); zusätzlich wird die Position des Os carpi accessorium am kaudalen lateralen Rand vergleichend palpiert.",
+    transferQ: "Warum kann eine positive Gelenkprovokation am Os carpi accessorium diagnostisch täuschen?",
+    transferOptions: [
+      {
+        label: "Weil ein darunter verlaufender Ast des N. ulnaris mechanosensitiv gereizt sein kann, ohne dass ein echtes Gelenkproblem vorliegt",
+        correct: true,
+      },
+      { label: "Weil das Os carpi accessorium beim Hund gar nicht existiert", correct: false },
+      { label: "Weil Gelenkprovokationen grundsätzlich immer falsch positiv ausfallen", correct: false },
+      { label: "Weil dort der N. radialis statt des N. ulnaris verläuft", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 15 (Karpalgelenk, Gelenketagen), S. 192 sowie Kap. 15.2.1 (Spezifische Provokation Art. ossis carpi accessorii, Loge-de-Guyon-Analogie), S. 194. Koch/Fischer, Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.4.1–5.4.2 (Standsymmetrieprüfung, Palpation), S. 98–101. Lage, Funktion als Sehnenumlenkpunkt, die Nervenanalogie und die Palpationstechniken sind im Original so beschrieben. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `os-carpi-accessorium-nervus-ulnaris-differenzierung` und `zehen-karpus-vordergliedmasse-untersuchung` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Periost-/Gefäßversorgung im Original nicht genannt, bewusst nicht ergänzt.",
+    bildUrl: "/cases/rocky-01.png",
+  },
+  {
+    id: "art-carpi",
+    name: "Articulatio carpi (Karpalgelenk)",
+    kind: "GELENK",
+    relatedCaseId: "rocky",
+    origin:
+      "Distaler Radius/Ulna, zwei Reihen von Karpalknochen (proximal: Os carpi radiale, Os carpi ulnare, Os carpi accessorium; distal: Ossa carpalia I–IV) sowie die proximalen Anteile des Metacarpus. Zusammengesetztes Gelenk aus drei Gelenketagen.",
+    insertion:
+      "Eigenes Anatomie-Item `ligg-carpi` (Kollateralbänder, kurze palmare Bänder, gerade/schräge radiokarpale Bänder, interkarpale Bänder, palmarer Faserknorpel). Die weite Kapsel der Art. antebrachiocarpea umschließt auch das distale Radioulnargelenk.",
+    funktion:
+      "Drei Gelenketagen: Art. antebrachiocarpea (Scharniergelenk/Ellipsoid, mit 90° die am stärksten beteiligte Etage; konvex: Os carpi radiale/Os carpi ulnare/Os carpi accessorium, konkav: Radius/Ulna), Art. mediocarpea (Scharniergelenk, ca. 45° Bewegungsumfang; konvex: Ossa carpalia I–IV, konkav: Os carpi ulnare/Os carpi radiale) und Art. ossis carpi accessorii (eingelagert in die Sehne der Mm. flexor et extensor carpi ulnaris, Stabilisationsfunktion). Hauptbewegung ist die Flexion (20–35°) und Extension (bis 200°), dazu Ab- (10–20°) und Adduktion (5–15°). Alle Endgefühle sind fest-elastisch, Kapselmuster: Flexion–Extension.",
+    clinicalRelevance:
+      "Der physiologische Hyperextensionswinkel beträgt etwa 25° ± 10°, die physiologische Valgusstellung bis 15°. Füllung, Wärme und/oder Schmerzhaftigkeit sprechen für Polyarthritis, eine Seitenbandruptur, eine Gelenkfraktur oder eine Neoplasie des distalen Radius. Wegen der physiologischen leichten Valgusstellung werden mediale Bandstrukturen stärker belastet als laterale — ein Hyperextensionstrauma ist deshalb gelegentlich mit einem medialen Seitenbandriss vergesellschaftet.",
+    palpationHint:
+      "Der kraniale Anteil der Art. antebrachiocarpea ist zwischen den beiden Processus styloidei palpierbar; im physiologischen Zustand hat das Gelenk kaum Füllung.",
+    transferQ: "Warum ist ein Hyperextensionstrauma des Karpalgelenks gelegentlich mit einem medialen statt einem lateralen Seitenbandriss vergesellschaftet?",
+    transferOptions: [
+      {
+        label: "Weil die physiologische leichte Valgusstellung des Carpus die medialen Bandstrukturen stärker belastet als die lateralen",
+        correct: true,
+      },
+      { label: "Weil es am Karpalgelenk gar kein laterales Seitenband gibt", correct: false },
+      { label: "Weil mediale Bänder beim Hund grundsätzlich schwächer sind als laterale, unabhängig von der Gelenkstellung", correct: false },
+      { label: "Weil ein Hyperextensionstrauma ausschließlich das Ellbogengelenk betrifft", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 15 (Karpalgelenk und Zehen), S. 192 (Gelenketagen, ROM, Kapselmuster, Endgefühl). Koch/Fischer, Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.4.1–5.4.2 (Palpation, Winkelangaben), S. 98–101, sowie Kap. 8.4.2 (Hyperextensionstrauma, Valgusstellungs-Mechanismus), S. 219–221. Alle genannten Fakten sind im Original so beschrieben. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `karpalgelenk-gelenketagen`, `zehen-karpus-vordergliedmasse-untersuchung` und `hyperextensionstrauma-carpus` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Innervation der Gelenkkapsel im Original nicht genannt, bewusst nicht ergänzt.",
+    bildUrl: "/cases/rocky-01.png",
+  },
+  {
+    id: "ligg-carpi",
+    name: "Bänder des Karpalgelenks (Ligg. carpi)",
+    kind: "BAND",
+    relatedCaseId: "rocky",
+    origin:
+      "Mehrere Bandgruppen: kurze palmare Bänder und Sehnenplatten zwischen den Karpalknochen (wichtigste Stützstruktur gegen Hyperextension), gerade und schräge radiokarpale Bänder, interkarpale Bänder sowie mediale und laterale Kollateralbänder — die genauen osteologischen Ursprungs-/Ansatzpunkte werden im Quellentext nicht einzeln benannt.",
+    funktion:
+      "Die palmaren Bänder und der palmare Faserknorpel verhindern gemeinsam mit den Sehnenplatten eine Hyperextension des Karpalgelenks. Die Kollateralbänder begrenzen Ab-/Adduktion; wegen der physiologischen leichten Valgusstellung des Carpus werden die medialen Kollateralbänder dabei stärker belastet als die lateralen.",
+    clinicalRelevance:
+      "Eine Valgusfehlstellung deutet auf eine mediale Seitenbandruptur oder einen Radius curvus hin. Rupturen der geraden/schrägen radiokarpalen Bänder können primär genäht werden; interkarpale Instabilitäten benötigen dagegen meist eine partielle Arthrodese, ausgedehnte Bandrupturen mit Beteiligung der Art. antebrachiocarpea oder starke Karpalgelenkarthrose eine Panarthrodese. Bricht die palmare Stützstruktur zusammen (Ruptur der palmaren Bänder/des Faserknorpels), tritt der Hund nicht mehr auf den Zehen, sondern flach mit dem ganzen Karpus auf — ein plantigrader „bärentatziger“ Gang.",
+    palpationHint:
+      "Abduktions-/Adduktionsprüfung zur Beurteilung der Kollateralbänder; Extension des Carpus bei gleichzeitig gestrecktem Ellbogen prüft die Hyperextensionsgrenze (physiologisch nicht über 25° ± 10°, pathologisch ab mehr als 10–15° zusätzlicher Extension).",
+    transferQ: "Welcher Befund spricht am ehesten für eine Verletzung der palmaren Bandstrukturen des Karpalgelenks statt einer reinen Seitenbandruptur?",
+    transferOptions: [
+      { label: "Ein plantigrader, „bärentatziger“ Gang mit Hyperextension des Carpus beim Auffußen", correct: true },
+      { label: "Eine isolierte Valgusfehlstellung ohne jede Hyperextension", correct: false },
+      { label: "Eine völlig unauffällige, schmerzfreie Beweglichkeit in alle Richtungen", correct: false },
+      { label: "Ausschließlich ein lateral verlagerter Radiuskopf", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.4.1–5.4.2 (Karpalgelenk-Palpation, Winkelangaben), S. 98–101, sowie Kap. 8.4.2 (Hyperextensionstrauma Carpus), S. 219–221. VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitte „Luxation des Karpalgelenks beim Hund“/„Hyperextension des Karpalgelenks beim Hund“ (plantigrades Gangbild, betroffene Strukturen). Alle genannten Bandgruppen, Klinik- und Therapiezuordnungen sind im Original so beschrieben. Präzise osteologische Ursprungs-/Ansatzpunkte der einzelnen Bänder werden in keiner der Quellen einzeln benannt — bewusst nicht erfunden. Spiegelt Teile der bereits bestehenden Wissenseinträge `zehen-karpus-vordergliedmasse-untersuchung`, `hyperextensionstrauma-carpus` und `karpalgelenk-luxation-hyperextension-hund` als eigenständiges, strukturiertes Anatomie-Item.",
+    bildUrl: "/cases/rocky-01.png",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -3691,7 +3773,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 15 (Karpalgelenk und Zehen), S. 192. Die drei Gelenketagen mit ihren Gelenktypen, Bewegungsausmaßen und Gelenkflächen, die Metacarpus-Anatomie (inkl. der besonderen Belastung von Strahl III/IV) sowie die klinische Bedeutung der palmaren Sesambeinchen sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["art-carpi", "os-carpi-accessorium"],
   },
   {
     id: "zehen-beknabbern-differentialdiagnosen",
@@ -4718,7 +4800,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 5.4.1–5.4.2 (Zehen/Metacarpus/Karpalknochen, Karpalgelenk), S. 98–101. Alle beschriebenen Tests, Befund-DD-Zuordnungen sowie die Karpaltunnel-Anatomie und die Winkelangaben sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["art-carpi", "ligg-carpi", "os-carpi-accessorium"],
   },
   {
     id: "unterarm-ellbogen-vordergliedmasse-untersuchung",
@@ -6309,7 +6391,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.2 (Hyperextensionstrauma Carpus), S. 219–221. Ätiologie, Klinik und Therapie sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["ligg-carpi", "art-carpi"],
   },
   {
     id: "tendovaginitis-abductor-pollicis-longus",
@@ -8350,7 +8432,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 15.2.1 (Spezifische Provokation Art. ossis carpi accessorii), S. 194. Die anatomische Lage des N.-ulnaris-Astes, die Loge-de-Guyon-Analogie und die geforderte arthrogen/neurogen-Differenzierung sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["os-carpi-accessorium", "n-ulnaris", "art-carpi"],
   },
   {
     id: "nervenwurzeln-bindegewebeschichten-nervenspannung",
@@ -11881,7 +11963,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitte „Luxation des Karpalgelenks beim Hund“ und „Hyperextension des Karpalgelenks beim Hund“. Verletzungsmechanismen, Klassifikation der Luxationsformen, das plantigrade Gangbild, die Rasseprädisposition (Shelties/Collies) bei der chronisch-degenerativen Hyperextension, Diagnostik (inkl. Stressaufnahmen) und das vierstufige Therapieschema mit Prognose sind in der Quelle so beschrieben. Betrifft das Karpalgelenk (Vordergliedmaße) und ist damit ein eigenständiges Krankheitsbild gegenüber dem bestehenden Eintrag `tarsus-erkrankungen-hund` (Hintergliedmaße/Sprunggelenk, Koch/Fischer) — nicht zu verwechseln, auch wenn beide zum selben plantigraden Gangbild führen können. Die als Differentialdiagnose genannte Tendopathie des M. abductor pollicis longus ist bereits über den bestehenden Eintrag `tendovaginitis-abductor-pollicis-longus` abgedeckt und wurde hier nicht dupliziert.",
     relatedCaseIds: [],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["ligg-carpi", "art-carpi"],
   },
   {
     id: "femurkopfluxation-kaudodorsal-zeitfenster-begleitverletzungen",

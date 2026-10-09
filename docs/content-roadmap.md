@@ -280,6 +280,50 @@ kein Überblick verloren geht.
   Material (Karpus/Tarsus-Untersuchungstechniken), analog zu diesem und dem
   letzten Batch zunächst dort zu prüfen, bevor neue Quellenrecherche nötig
   wird.
+- **Siebter Content-Batch — Karpalgelenk komplett (09.10.2026):** Fünfte
+  vollständig kind-übergreifend abgedeckte Hauptgelenkregion, erneut ohne
+  neue Quellenrecherche: Die Wissensbibliothek enthielt bereits dichtes,
+  verifiziertes Material aus Hárrer (`karpalgelenk-gelenketagen`, Kap. 15,
+  S. 192; `os-carpi-accessorium-nervus-ulnaris-differenzierung`, Kap.
+  15.2.1, S. 194) und aus Koch/Fischer
+  (`zehen-karpus-vordergliedmasse-untersuchung`, Kap. 5.4.1–5.4.2, S.
+  98–101; `hyperextensionstrauma-carpus`, Kap. 8.4.2, S. 219–221) sowie
+  VetCenter (`karpalgelenk-luxation-hyperextension-hund`) — diese Fakten
+  wurden als drei neue strukturierte Items aufbereitet statt dupliziert.
+  3 neue Items (73 → 76). `KNOCHEN` (1, fünftes Item dieses Kinds):
+  `os-carpi-accessorium` — Lage als Umlenkrolle für die Flexor-/
+  Extensor-carpi-ulnaris-Sehne, dritte Gelenketage des Karpalgelenks
+  (Art. ossis carpi accessorii) sowie die diagnostisch wichtige
+  Loge-de-Guyon-Analogie (N.-ulnaris-Ast unter der medialen Bandfixierung
+  kann eine Gelenkprovokation vortäuschen). `GELENK` (1, sechstes Item
+  dieses Kinds): `art-carpi` — drei Gelenketagen (Art. antebrachiocarpea,
+  Art. mediocarpea, Art. ossis carpi accessorii) mit explizitem
+  Kapselmuster (Flexion–Extension) und Endgefühl (fest-elastisch,
+  anders als beim Ellbogen diesmal direkt aus der Quelle), ROM-Werten
+  sowie den klinisch konkreten Winkelangaben (Hyperextension 25° ± 10°,
+  Valgusstellung bis 15°). `BAND` (1, achtes Item dieses Kinds):
+  `ligg-carpi` — alle Bandgruppen gebündelt (palmare Bänder/Sehnenplatten,
+  gerade/schräge radiokarpale Bänder, interkarpale Bänder,
+  Kollateralbänder) mit dem Valgusstellungs-Belastungsmechanismus (mediale
+  stärker belastet als laterale) und der vollständigen Therapie-
+  Differenzierung nach betroffener Bandgruppe. Alle 3 neuen Items sowie 5
+  dadurch aktualisierte bestehende Wissenseinträge (gegenseitige
+  `relatedAnatomyIds`-Verknüpfung) via Playwright verifiziert (3/3 neue
+  Review-Seiten, 0 Fehler), `tsc`/`eslint` clean (diesmal im ersten
+  Durchlauf ohne Quote-Tippfehler), `next build` erfolgreich, Reseed
+  bestätigt (76 Anatomie-Items, Kind-Verteilung: 48 Muskel, 7 Nerv, 8
+  Band, 6 Gelenk, 5 Knochen, 2 Sonstige). **Damit ist auch der Karpus —
+  Muskulatur, Os carpi accessorium, Gelenk selbst, Bänder — als fünftes
+  Hauptgelenk kind-übergreifend abgedeckt.** Noch offen: Tarsus
+  (Sprunggelenk, bisher nur über Muskulatur abgedeckt) — die
+  Wissensbibliothek enthält dafür bereits den Eintrag
+  `tarsus-erkrankungen-hund` (Koch/Fischer) sowie vermutlich weiteres
+  Material zu Tarsusuntersuchung/-biomechanik, analog zu diesem Batch
+  zunächst dort zu prüfen. Nach dem Tarsus wären alle sechs Hauptgelenke
+  (Knie, Hüfte, Schulter, Ellbogen, Karpus, Tarsus) kind-übergreifend
+  abgedeckt — ein guter Zeitpunkt, um den „Noch offen"-Fokus auf weitere
+  KNOCHEN-Landmarken (Wirbelsäule, Becken, Schädel) oder eine erneute
+  Qualitätsprüfung des bestehenden Bestands zu verlagern.
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte
