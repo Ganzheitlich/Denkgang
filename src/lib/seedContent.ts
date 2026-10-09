@@ -2396,6 +2396,85 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 12.1.3 (Schultergelenk, Erwähnung der Ligg. glenohumeralia mediale et laterale als Teil des Kapsel-Band-Apparats), S. 127f. sowie Kap. 12.2.1 (mediales/laterales Gapping, Muskel-Stabilisator-Zuordnung), S. 130–132. Die kongenitale-Luxation-Bandlaxizitäts-Verknüpfung ergänzt aus: Koch, Daniel; Fischer, Martin S., Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.6, S. 228f. Präzise osteologische Ursprungs-/Ansatzpunkte beider Ligamente werden in keiner der beiden Quellen einzeln benannt — bewusst nicht erfunden. Spiegelt Teile des bereits bestehenden Wissenseintrags `bizepstest-schultergelenk-stabilitaetstests` als eigenständiges, strukturiertes Anatomie-Item.",
   },
+  {
+    id: "radius-ulna",
+    name: "Radius und Ulna (Unterarmknochen)",
+    kind: "KNOCHEN",
+    relatedCaseId: "rocky",
+    origin:
+      "Radius und Ulna bilden gemeinsam den Unterarm (Antebrachium) zwischen Ellbogen- und Karpalgelenk; sie sind proximal (Art. radioulnaris proximalis, Teil des Ellbogengelenks) und distal gelenkig/bandhaft miteinander verbunden, sodass Rotationsbewegungen (Pro-/Supination) zwischen ihnen möglich sind.",
+    insertion:
+      "Radius: mediodistal als Styloid sowie proximal am lateralen Radiuskopf tastbar. Ulna: distolateral als Styloid sowie proximal als Olecranon tastbar.",
+    funktion:
+      "Rotationsbewegungen am Antebrachium (Pro-/Supination) prüfen die relative Beweglichkeit von Radius und Ulna zueinander. Eine Valgusstellung mit Exorotation und konvexer Radiuskurvatur spricht für einen Radius curvus nach verfrühtem distalem Fugenschluss.",
+    clinicalRelevance:
+      "Die Lokalisation von Druckschmerz am Unterarm grenzt die Differentialdiagnosen deutlich ein: im distalen Drittel spricht er für Osteosarkom, hypertrophe Osteodystrophie oder retinierte Knorpelzapfen; in der Diaphyse für Panosteitis, eine Wachstumsstörung oder hypertrophe Osteopathie; im proximalen Drittel für Panosteitis oder Ellbogengelenkdysplasie.",
+    palpationHint:
+      "Radius und Ulna werden entlang ihres gesamten Verlaufs auf Druckschmerz und Krepitation geprüft; Rotationsbewegungen am Antebrachium testen zusätzlich ihre relative Beweglichkeit zueinander.",
+    transferQ: "Ein Hund zeigt Druckschmerz ausschließlich im proximalen Drittel von Radius/Ulna. Welche Differentialdiagnosen passen am besten?",
+    transferOptions: [
+      { label: "Panosteitis oder Ellbogengelenkdysplasie", correct: true },
+      { label: "Ausschließlich ein Osteosarkom", correct: false },
+      { label: "Ausschließlich retinierte Knorpelzapfen", correct: false },
+      { label: "Dieser Befund hat keinerlei diagnostische Bedeutung", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.3.3 (Radius und Ulna), S. 142–148. Landmarken, Palpationsvorgehen und die drittel-abhängige Differentialdiagnosen-Zuordnung sind im Original so beschrieben. Spiegelt Teile des bereits bestehenden Wissenseintrags `unterarm-ellbogen-liegender-hund-untersuchung` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Periost-/Gefäßversorgung im Original nicht genannt, bewusst nicht ergänzt.",
+    bildUrl: "/cases/rocky-01.png",
+  },
+  {
+    id: "art-cubiti",
+    name: "Articulatio cubiti (Ellbogengelenk)",
+    kind: "GELENK",
+    relatedCaseId: "rocky",
+    origin:
+      "Humerus, Radius und Ulna. Anatomisch einfach aufgebaut, funktionell aber ein zusammengesetztes Gelenk aus drei Teilgelenken: Art. humeroulnaris (zweiachsiges Sattelgelenk, sehr kongruente Gelenkflächen mit wenig Roll-, aber viel Gleitbewegung), Art. humeroradialis (dreiachsiges Kugelgelenk) und Art. radioulnaris proximalis (gehört anatomisch zum Ellbogen, funktionell aber zum Unterarm).",
+    insertion:
+      "Ligg. collateralia mediale et laterale (eigenes Anatomie-Item `ligg-collateralia-cubiti`) begrenzen v. a. die Ab-/Adduktion sowie die Außen-/Innenrotation. Eine gemeinsame Gelenkkapsel umschließt alle drei Teilgelenke.",
+    funktion:
+      "Flexion/Extension und Ab-/Adduktion in der Art. humeroulnaris; Flexion/Extension in der Art. humeroradialis, dazu bewegt sich das Radiusköpfchen bei Pro-/Supination mit. Physiologisch passiv ca. 30–36° Flexion und ca. 160–166° Extension, dazu ca. 20° passive Pronation und ca. 50° passive Supination. Obwohl das Gelenk insgesamt eine Beweglichkeit von rund 135° besitzt, nutzen Hunde während normaler Fortbewegung tatsächlich nur etwa 20° davon (im Original als „Jena-Studie” sekundärzitiert, ohne vollständige bibliografische Angabe).",
+    clinicalRelevance:
+      "Weil das Ellbogengelenk aus drei eng gekoppelten Teilgelenken besteht, kann eine Störung in einem Teilgelenk (z. B. eine Gelenkinkongruenz zwischen Radius und Ulna) die beiden anderen Teilgelenke mitbelasten. Zwei der drei häufigsten Ellbogendysplasie-Formen (fragmentierter Proc. coronoideus medialis, Osteochondrose des medialen Humeruscondylus) liegen im medialen Kompartiment der Art. humeroulnaris und werden zusammen als mediales Kompartimentsyndrom bezeichnet.",
+    palpationHint:
+      "Das Gelenk wird in volle Extension und Flexion verbracht, während die andere Hand Veränderungen am und im Gelenk registriert; Schmerz ist bei maximaler Extension meist intensiver auszulösen als bei Flexion.",
+    transferQ: "Warum kann eine Gelenkinkongruenz zwischen Radius und Ulna gleich mehrere Ellbogendysplasie-Formen begünstigen?",
+    transferOptions: [
+      {
+        label: "Weil das Ellbogengelenk funktionell aus drei eng gekoppelten Teilgelenken besteht, die sich gegenseitig in ihrer Bewegung beeinflussen",
+        correct: true,
+      },
+      { label: "Weil Radius und Ulna beim Hund gar nicht miteinander artikulieren", correct: false },
+      { label: "Weil das Ellbogengelenk nur aus einem einzigen, isolierten Gelenk besteht", correct: false },
+      { label: "Weil Gelenkinkongruenz ausschließlich das Kniegelenk betrifft", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 13 (Ellenbogenregion, Einleitung), S. 165 (Teilgelenke, ROM, Jena-Studie-Sekundärzitat) sowie Kap. 13.2.1, S. 167f. (Bewegungspalpation). Koch/Fischer, Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.3.3–6.3.4, S. 142–148 (Extension-/Flexionsprüfung, mediales Kompartimentsyndrom). Kapselmuster und Endgefühl werden in den ausgewerteten Quellenausschnitten für dieses Gelenk — anders als bei Knie/Hüfte/Schulter — nicht explizit genannt; bewusst nicht erfunden. Spiegelt und verknüpft die bereits bestehenden Wissenseinträge `ellenbogengelenk-teilgelenke`, `unterarm-ellbogen-liegender-hund-untersuchung` und `ellbogengelenkdysplasie` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Innervation der Gelenkkapsel im Original nicht genannt, bewusst nicht ergänzt.",
+    bildUrl: "/cases/rocky-01.png",
+  },
+  {
+    id: "ligg-collateralia-cubiti",
+    name: "Ligg. collateralia cubiti (mediale et laterale)",
+    kind: "BAND",
+    relatedCaseId: "rocky",
+    origin:
+      "Verstärken als Kollateralbänder beidseits die Art. humeroradialis bzw. das gesamte Ellbogengelenk — die genauen osteologischen Ursprungs-/Ansatzpunkte werden im Quellentext nicht einzeln benannt.",
+    funktion:
+      "Begrenzen die Ab-/Adduktion des gestreckten Ellbogengelenks (physiologisch nicht über ca. 10°). Bei gebeugtem Ellbogen kreuzen sich Radius und Ulna, sodass die Außenrotation durch das mediale, die Innenrotation durch das laterale Seitenband begrenzt wird.",
+    clinicalRelevance:
+      "In den meisten Fällen ist das mediale Seitenband betroffen (am häufigsten rupturiert). Erhöhte Außenrotation bei gebeugtem bzw. eine Valgusstellung bei gestrecktem Ellbogen sprechen für eine mediale Seitenbandruptur; erhöhte Innenrotation bzw. Varusstellung für die seltener auftretende laterale Seitenbandruptur. Ein nach lateral verlagerter, tastbarer Radiuskopf mit reduziertem Bewegungsumfang und Krepitation spricht für eine Ellbogenluxation nach lateral. Bei intaktem medialem Seitenband kommt das mediale Coronoid bei Innenrotation von Radius/Ulna (gestreckter Ellbogen) in direkten Kontakt mit dem Humeruscondylus — eine Provokationstechnik, die ein insuffizientes Band verfälschen kann.",
+    palpationHint:
+      "Seitenbandtest: Prüfung bei gestrecktem Ellbogen (Ab-/Adduktion) sowie bei gebeugtem Ellbogen (Außen-/Innenrotation).",
+    transferQ: "Welcher Befund spricht am ehesten für eine mediale Seitenbandruptur des Ellbogengelenks?",
+    transferOptions: [
+      { label: "Erhöhte Außenrotation bei gebeugtem bzw. Valgusstellung bei gestrecktem Ellbogen", correct: true },
+      { label: "Erhöhte Innenrotation bei gebeugtem bzw. Varusstellung bei gestrecktem Ellbogen", correct: false },
+      { label: "Ein nach lateral verlagerter, tastbarer Radiuskopf mit Krepitation", correct: false },
+      { label: "Schmerzfreie, vollkommen symmetrische Beweglichkeit in alle Richtungen", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.3.4 (Seitenbandtest), S. 142–148. Testdurchführung, Befund-Zuordnungen (mediale/laterale Seitenbandruptur, Ellbogenluxation) sowie die Rotationsbegrenzungslogik bei gebeugtem Ellbogen sind im Original so beschrieben. Präzise osteologische Ursprungs-/Ansatzpunkte werden im Original nicht einzeln benannt — bewusst nicht erfunden. Spiegelt Teile des bereits bestehenden Wissenseintrags `unterarm-ellbogen-liegender-hund-untersuchung` als eigenständiges, strukturiertes Anatomie-Item.",
+    bildUrl: "/cases/rocky-01.png",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -3156,7 +3235,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: VetCenter (Thieme), Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Ellbogengelenkdysplasie beim Hund\" mit den Unterkapiteln zu IPA, FPC und OCD der Trochlea humeri (vetcenter.thieme.de, eBook cs_8469468). Definition, die vier Einzelerkrankungen, Rasseprädispositionen, der Standhaltungs-Unterschied (FPC/OCD adduziert vs. IPA abduziert) und das diagnostische Vorgehen sind im Original so beschrieben. Ergänzt den bereits verifizierten Befund aus Hárrer Kap. 13 (siehe Fall „Rocky\"), der Ellenbogendysplasie nur als real existierende Diagnose bestätigt hatte, ohne auf die Unterformen einzugehen. Hinweis: Diese Kapitel-Datei stammt direkt von der VetCenter-Onlineplattform ohne eigenes Titelblatt — Autor/Auflage/ISBN der Printausgabe von „Hundekrankheiten kompakt\" wurden nicht separat verifiziert.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: ["processus-anconaeus", "processus-coronoideus-medialis"],
+    relatedAnatomyIds: ["processus-anconaeus", "processus-coronoideus-medialis", "art-cubiti", "ligg-collateralia-cubiti"],
   },
   {
     id: "gelenktypen-klassifikation",
@@ -3459,7 +3538,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 13 (Ellenbogenregion), S. 165. Die drei Teilgelenke, ihre Gelenktypen/Bewegungen, die genannten ROM-Werte sowie die Überlastungskette (Hintergliedmaßen-Problem → Gewichtsverlagerung nach vorn → Schultergürtel-Verspannung → Skapulaeinschränkung → Schulter-/Ellenbogen-Überlastung) sind im Original so beschrieben. Die „Jena-Studie“ wird im Original nur namentlich zitiert, ohne vollständige bibliografische Angabe — als Sekundärzitat übernommen, nicht eigenständig verifiziert.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: ["biceps"],
+    relatedAnatomyIds: ["biceps", "art-cubiti", "ligg-collateralia-cubiti"],
   },
   {
     id: "toe-in-toe-out-nervenkompression",
@@ -5008,7 +5087,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.3.3–6.3.4 (Radius/Ulna, Ellbogengelenk am liegenden Hund), S. 142–148. Alle beschriebenen Tests und Befund-DD-Zuordnungen sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["supinator", "brachioradialis", "pronator-teres", "processus-anconaeus", "processus-coronoideus-medialis"],
+    relatedAnatomyIds: ["supinator", "brachioradialis", "pronator-teres", "processus-anconaeus", "processus-coronoideus-medialis", "radius-ulna", "art-cubiti", "ligg-collateralia-cubiti"],
   },
   {
     id: "oberarm-schulter-liegender-hund-untersuchung",
@@ -6298,7 +6377,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.4 (Ellbogendysplasie), S. 222–226. Pathogenese-Hypothesen, Klinik, Diagnostik und Therapieoptionen sind im Original so beschrieben. Ergänzt den bereits vorhandenen Eintrag `ellbogengelenkdysplasie` (VetCenter) um Pathogenese-Mechanismen, Genetik und die vollständige Therapiepalette; die Terminologie „UAP“ (diese Quelle) und „IPA“ (VetCenter) bezeichnen dieselbe Erkrankung, siehe Hinweis im Text.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: [],
+    relatedAnatomyIds: ["processus-anconaeus", "processus-coronoideus-medialis", "art-cubiti"],
   },
   {
     id: "bizepssehnenentzuendung-therapieoptionen",
@@ -8058,7 +8137,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 13.1.1 und 13.2.1 (Art. cubiti — Anatomie und spezifische Provokation), S. 165, 167f. Überlastungsmechanismus, die Biceps-brachii-Verbindung und die Provokationstechniken sind im Original so beschrieben.",
     relatedCaseIds: ["rocky"],
-    relatedAnatomyIds: ["biceps", "brachialis", "processus-coronoideus-medialis", "processus-anconaeus"],
+    relatedAnatomyIds: ["biceps", "brachialis", "processus-coronoideus-medialis", "processus-anconaeus", "art-cubiti"],
   },
   {
     id: "schultergelenk-skapulothorakales-gleitlager-anatomie",

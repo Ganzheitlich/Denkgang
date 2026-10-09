@@ -239,6 +239,47 @@ kein Überblick verloren geht.
   vermutlich ebenfalls schon in der Wissensbibliothek vorhanden, analog zu
   diesem Batch zu prüfen), Karpus, Tarsus (beide bisher nur über
   Muskulatur abgedeckt, keine eigenen Gelenk-/Banditems).
+- **Sechster Content-Batch — Ellbogengelenk komplett (09.10.2026):** Vierte
+  vollständig kind-übergreifend abgedeckte Hauptgelenkregion, wie beim
+  Schulter-Batch ohne neue Quellenrecherche: Die Wissensbibliothek enthielt
+  bereits dichtes, verifiziertes Material aus Hárrer
+  (`ellenbogengelenk-teilgelenke`, Kap. 13 Einleitung, S. 165;
+  `processus-coronoideus-medialis-ueberlastung-provokation`, Kap. 13.1.1/
+  13.2.1, S. 165/167f.) und aus Koch/Fischer
+  (`unterarm-ellbogen-liegender-hund-untersuchung`, Kap. 6.3.3–6.3.4, S.
+  142–148) sowie den zwei bereits bestehenden `KNOCHEN`-Items
+  (`processus-anconaeus`, `processus-coronoideus-medialis`) — diese Fakten
+  wurden als drei neue strukturierte Items aufbereitet statt dupliziert.
+  3 neue Items (70 → 73). `KNOCHEN` (1, viertes Item dieses Kinds):
+  `radius-ulna` — Landmarken (Styloid-Fortsätze, Radiuskopf, Olecranon)
+  sowie die klinisch sehr konkrete Drittel-abhängige Differentialdiagnosen-
+  Zuordnung von Druckschmerz (distal: Osteosarkom/hypertrophe
+  Osteodystrophie/retinierte Knorpelzapfen; Diaphyse: Panosteitis/
+  Wachstumsstörung/hypertrophe Osteopathie; proximal: Panosteitis/
+  Ellbogengelenkdysplasie). `GELENK` (1, fünftes Item dieses Kinds):
+  `art-cubiti` — funktionell drei eng gekoppelte Teilgelenke (Art.
+  humeroulnaris, Art. humeroradialis, Art. radioulnaris proximalis) mit
+  ROM-Werten; ehrlich ausgewiesen, dass die ausgewerteten Quellenausschnitte
+  anders als bei Knie/Hüfte/Schulter kein explizites Kapselmuster/Endgefühl
+  für dieses Gelenk nennen — bewusst nicht erfunden. `BAND` (1, siebtes Item
+  dieses Kinds): `ligg-collateralia-cubiti` — mediales und laterales
+  Seitenband mit der Rotationsbegrenzungslogik bei gebeugtem Ellbogen
+  (Kreuzung von Radius/Ulna) und der vollständigen Seitenbandruptur-/
+  Luxations-Differentialdiagnostik aus dem Seitenbandtest. Alle 3 neuen
+  Items sowie 5 dadurch aktualisierte bestehende Wissenseinträge
+  (gegenseitige `relatedAnatomyIds`-Verknüpfung) via Playwright verifiziert
+  (3/3 neue Review-Seiten, 0 Fehler), `tsc`/`eslint` clean (ein
+  straight-quote-Tippfehler in der Jena-Studie-Erwähnung wie gewohnt vor dem
+  Commit behoben), `next build` erfolgreich, Reseed bestätigt (73
+  Anatomie-Items, Kind-Verteilung: 48 Muskel, 7 Nerv, 7 Band, 5 Gelenk, 4
+  Knochen, 2 Sonstige). **Damit ist auch der Ellbogen — Muskulatur,
+  Unterarmknochen, Gelenk selbst, Seitenbänder — als viertes Hauptgelenk
+  kind-übergreifend abgedeckt.** Noch offen: Karpus, Tarsus (beide bisher
+  nur über Muskulatur abgedeckt, keine eigenen Gelenk-/Banditems) — die
+  Wissensbibliothek enthält dafür vermutlich ebenfalls bereits verifiziertes
+  Material (Karpus/Tarsus-Untersuchungstechniken), analog zu diesem und dem
+  letzten Batch zunächst dort zu prüfen, bevor neue Quellenrecherche nötig
+  wird.
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte
