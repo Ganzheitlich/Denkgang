@@ -2902,6 +2902,34 @@ const ANATOMY: AnatomySeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.4 (Rippen — Anatomie und Stellungsdiagnose), S. 220–228. Die beiden Bewegungsmuster mit ihren Achsorientierungen sowie die vollständige Stellungsdiagnostik-Methodik sind im Original so beschrieben. Spiegelt und verknüpft den bereits bestehenden Wissenseintrag `rippen-anatomie-1-rippe-stellungsdiagnose` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Kapsel-Band-Apparat, Kapselmuster, Endgefühl und Innervation der Gelenkkapsel werden im Original nicht genannt, bewusst nicht erfunden.",
   },
+  {
+    id: "facettengelenke-lws",
+    name: "Facettengelenke der Lendenwirbelsäule (L1–L7)",
+    kind: "GELENK",
+    relatedCaseId: "filou",
+    origin:
+      "Wirbelbögen der Lendenwirbel L1 bis L7. L7 nimmt eine Sonderstellung ein, da sein kaudaler Gelenkpartner das Sakrum ist, dessen Gelenkfläche fast frontal steht — zu unterscheiden vom lumbosakralen Übergang selbst (eigenes Anatomie-Item `facettengelenke`).",
+    insertion:
+      "Die Procc. accessorii, die die Seitneige limitieren, sind nur bis L4 ausgebildet — L4 ist damit eine Übergangszone mit erhöhtem Problempotenzial (Benninger et al. 2004 fanden hier deutlich mehr Seitneige als in den kaudaleren Wirbeln).",
+    funktion:
+      "Die Gelenkflächen stehen sagittal, wodurch Flexion/Extension die Hauptbewegung sind; die Beweglichkeit der Wirbelkörper nimmt nach kaudal ab. Größtes Bewegungsausmaß bei Extension/Flexion mit gleichseitiger Seitneige und Rotation (gekoppelt); in der Neutralstellung dagegen Seitneige mit entgegengesetzter Rotation gekoppelt — dieselbe grundlegende Kopplungslogik wie an der unteren HWS und der BWS (siehe `facettengelenke-hws`, `facettengelenke-bws`).",
+    clinicalRelevance:
+      "Vier Facettenformen kommen beim Hund vor: gerade stehende, bogenförmige, runde (häufiger bei dicken Hunden, sehr extensionsfreudigen Border Collies, Hunden ohne segmentale Stabilität und Hündinnen mit vielen Würfen) und asymmetrische Facettengelenke (verursachen Beschwerden, da sich die Bewegungsachse verlagert und Bandscheibe, Weichteile und Gelenke stärker belastet werden). Der Deutsche Schäferhund hat strukturell eine deutlich höhere Rate asymmetrischer (42 % vs. 31 % bei anderen Rassen) und gerade gestellter (47 % vs. 16 %) Facettengelenke auf Höhe L5–7 — eine mechanisch ineffiziente Geometrie, die Osteophyten und Stenosen begünstigen kann. Bei einem LWS-Gelenkproblem verschiebt sich die Bewegungsachse aus der physiologisch innerhalb der Bandscheibe liegenden Position heraus (Hypomobilität auf einer, Hypermobilität auf der Gegenseite des Bewegungssegments) — das belastet die Bandscheibe vermehrt und kann mit erklären, warum Hunde mit langem Rücken und kurzen Beinen für Bandscheibenprobleme prädisponiert sind.",
+    palpationHint:
+      "Risikofaktoren für eine fehlende segmentale Stabilisation anamnestisch mitbedenken: hormonelle Einflüsse (Läufigkeit), allgemeiner Spannungsverlust am Rumpf, längere Immobilisation (Käfigruhe), höheres Alter (abnehmende Muskelmasse), rassebedingt schwaches Bindegewebe.",
+    transferQ: "Warum gilt L4 beim Hund als besondere Übergangszone mit erhöhtem Problempotenzial?",
+    transferOptions: [
+      {
+        label: "Weil die seitneige-limitierenden Procc. accessorii nur bis L4 ausgebildet sind, wodurch dort deutlich mehr Seitneige möglich ist als kaudal davon",
+        correct: true,
+      },
+      { label: "Weil L4 der einzige Lendenwirbel ohne Facettengelenke ist", correct: false },
+      { label: "Weil L4 direkt mit dem Becken artikuliert", correct: false },
+      { label: "Weil L4 beim Hund embryonal doppelt angelegt ist", correct: false },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.6 (Lendenwirbelsäule — Anatomie und funktionelle Bedeutung), S. 231–233, unter Bezug auf Benninger et al. 2004 und 2006. Facettengeometrie-Typen, L4-Übergangszone, Schäferhund-Zahlen und der Instabilitäts-Bandscheiben-Mechanismus sind im Original so beschrieben. Spiegelt und verknüpft den bereits bestehenden Wissenseintrag `lws-facettengeometrie-instabilitaet-bandscheibe` als eigenständiges, strukturiertes Anatomie-Item — Details dort, hier bewusst nicht dupliziert. Kapsel-Band-Apparat, Kapselmuster und Endgefühl im Original nicht genannt, bewusst nicht ergänzt.",
+  },
 ];
 
 const MEDIALIBRARY: MediaSeed[] = [
@@ -8346,7 +8374,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.6 (Lendenwirbelsäule — Anatomie und funktionelle Bedeutung), S. 231–233, unter Bezug auf Benninger et al. 2004 und 2006. Facettengeometrie-Typen, Schäferhund-Zahlen und der Instabilitäts-Bandscheiben-Mechanismus sind im Original so beschrieben.",
     relatedCaseIds: [],
-    relatedAnatomyIds: ["discus"],
+    relatedAnatomyIds: ["discus", "facettengelenke-lws"],
   },
   {
     id: "hypaxiale-muskulatur-iliopsoas-diaphragma-thoracic-outlet",

@@ -545,6 +545,34 @@ kein Überblick verloren geht.
   systematische Qualitätsprüfung des nun 89 Items umfassenden Bestands
   gegen die Originalquellen (MASTER-PROMPT §21) oder ein erneuter Fokus
   auf die seit dem 03.10.2026 pausierte Wissensbibliothek.
+- **Dreizehnter Content-Batch — Facettengelenke der Lendenwirbelsäule
+  (11.10.2026):** Schließt die im elften Batch offen gelassene
+  LWS-Lücke, erneut ohne neue Quellenrecherche: Der bereits bestehende
+  Wissenseintrag `lws-facettengeometrie-instabilitaet-bandscheibe`
+  (Hárrer Kap. 16.2.6, S. 231–233, unter Bezug auf Benninger et al. 2004
+  und 2006) enthielt genug eigenständige Substanz für ein weiteres
+  strukturiertes Item. 1 neues Item (90 statt 89 — der Rückenmark-
+  Reklassifizierungs-Batch änderte die Gesamtzahl nicht, das 89. Item
+  war `artt-costales`). `GELENK` (1, dreizehntes Item dieses Kinds):
+  `facettengelenke-lws` — L1–L7 mit L4 als funktionell nachgewiesener
+  Übergangszone (Procc. accessorii nur bis L4 ausgebildet, dadurch dort
+  signifikant mehr Seitneige), derselben Rotations-/Seitneige-
+  Kopplungslogik wie an HWS/BWS, den vier Facettenformen sowie den
+  rassespezifischen Schäferhund-Zahlen (42 % asymmetrische, 47 % gerade
+  gestellte Facetten auf L5–7, gegenüber 31 %/16 % bei anderen Rassen)
+  und dem Instabilität-zu-Bandscheibenüberlastung-Mechanismus. Damit
+  sind jetzt alle vier Wirbelsäulenabschnitte (obere HWS/Kopfgelenke,
+  untere HWS, BWS, LWS) sowie der lumbosakrale Übergang und das ISG als
+  eigene GELENK-Items erfasst. Verifiziert via Playwright (1/1 neue
+  Review-Seite, 0 Fehler), `tsc`/`eslint` clean, `next build`
+  erfolgreich, Reseed bestätigt (90 Anatomie-Items, Kind-Verteilung: 47
+  Muskel, 7 Nerv, 11 Band, 13 Gelenk, 9 Knochen, 3 Sonstige). Noch
+  offen: allgemeiner Wirbel-Bauplan als eigenes KNOCHEN-Item (Procc.
+  spinosi/transversi/articulares, Wirbelkörper/-bogen als generische
+  Struktur statt nur implizit in den einzelnen Regions-Items), Sternum,
+  Schädel/Kiefergelenk, sowie weiterhin die Alternative einer
+  systematischen Qualitätsprüfung des Bestands (MASTER-PROMPT §21) oder
+  ein Rückkehr zur seit dem 03.10.2026 pausierten Wissensbibliothek.
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte
