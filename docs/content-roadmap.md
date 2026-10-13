@@ -3504,9 +3504,51 @@ siehe oben], Krankengymnastik, Massage).
       mechanistisch auf: Short-Radius- vs. Short-Ulna-Syndrom als zwei
       Varianten je nachdem, welche der beiden Wachstumsfugen zu früh
       schließt, mit ihren jeweils entgegengesetzten Deformitäten.
-- [ ] Kap. 16 (Wirbelsäule) — teilweise für Quellenprüfung von facettengelenke
-      gelesen, aber nicht systematisch nach weiteren Pathologie-Themen
-      durchsucht (z. B. Spondylose, IVDD, Cauda-equina)
+- [x] **Kap. 16 (Wirbelsäule) jetzt vollständig gegengeprüft (13.10.2026).**
+      Komplette Kapitel-Datei (ma(16).pdf, 4,4 MB) per `download_file_content`
+      + lokaler `pdftotext`-Extraktion abgerufen (353.913 Zeichen, keine
+      Kappung) und systematisch nach den vermuteten offenen
+      Pathologie-Themen durchsucht (Spondylose, Bandscheibe, Cauda equina,
+      Myelopathie, Spondylarthrose, Diskushernie, Hansen). **Befund:**
+      Cauda-equina/Myelopathie/Diskushernie/Hansen-Klassifikation kommen in
+      dieser Kapitel-Datei gar nicht vor (diese Themen stammen aus der
+      separaten, bereits vollständig ausgewerteten Quelle VetCenter
+      „Wirbelsäulenerkrankungen“). Die 6 Spondylose-Fundstellen sowie die
+      region-spezifischen Ursachen-/Symptomlisten für obere/untere HWS, BWS
+      und LWS (Kap. 16.1.2, 16.2.1–16.2.3, 16.2.6) sind bereits **vollständig**
+      in den bestehenden Einträgen
+      `wirbelsaeulendysfunktionen-ursachen-mobilisationsprinzipien`,
+      `untere-hws-funktionelle-anatomie-differentialdiagnosen`,
+      `bws-funktionelle-anatomie-facettengeometrie` und
+      `lws-facettengeometrie-instabilitaet-bandscheibe` abgebildet — ebenso
+      ist der komplette Sympathikus-Wirkmechanismus (Kap. 16.2.5, inkl.
+      Grenzstrang/Ramus communicans/pathologische Cross-Links/Myofibroblasten)
+      bereits 1:1 im bestehenden Eintrag
+      `sympathikus-manuelle-therapie-wirkmechanismus` erfasst, und die
+      ISG-Ursachen-/Symptomliste (Kap. 16.2.7) im bestehenden Eintrag
+      `iliosakralgelenk-anatomie-symptome-ursachen`. **Ein echter, bisher
+      übersehener Fund:** Kap. 16.2.8 „Vertebrae caudales (Rute)“ enthält
+      eine eigenständige, bisher nicht erfasste **Joint-Play-Untersuchungs-
+      technik für die Rute** — neuer Eintrag
+      `rutenuntersuchung-joint-play-technik-schwanzwirbel` (UNTERSUCHUNG):
+      nur die ersten vier Schwanzwirbel haben noch echte (sagittale)
+      Facettengelenke, weiter kaudal reduzieren sich die Wirbel zu
+      konischen Knochenzapfen ohne gelenkige Verbindung — die
+      Untersuchungstechnik (ASTE/Pinzettengriff/Gleiten vs. Traktion) muss
+      deshalb ab dem 5. Wirbel grundlegend wechseln. Ergänzt die
+      bestehenden, rein auf sichtbare Adspektionsbefunde fokussierten
+      Rute-Einträge (`adspektion-wirbelsaeule-rute-taktgeber-warnsignal`,
+      `rutenhaltung-sichelrute-ringelrute-faszienspannungsindikator`,
+      `haengende-rute-water-tail-differentialdiagnosen`) um die aktive
+      Palpationstechnik — bewusst nicht dupliziert. 1 neuer Wissenseintrag
+      (356 → 357), tsc/eslint sauber, Build grün, via Playwright
+      verifiziert (1/1 Seite, 0 Fehler). **Damit ist Hárrer Kap. 16
+      (Wirbelsäule) jetzt nachweislich vollständig ausgewertet** — die
+      ursprüngliche Vermutung unentdeckter Pathologie-Themen war falsch,
+      aber die systematische Gegenprüfung hat trotzdem einen echten,
+      kleinen Fund gebracht (Analog zum Vorgehen bei Kiefergelenk/Sternum
+      am 11.10.2026: lieber ehrlich gegenprüfen als eine Vermutung
+      unverifiziert im Backlog stehen lassen).
 - [x] **Kap. 17 jetzt vollständig ausgewertet (28.09.2026 Kap. 17.1–17.5.2,
       04.10.2026 Rest).** 28.09.2026 (per lokaler PDF-Extraktion neu geholt
       — ma(17).pdf, 3,1 MB, `read_file_content` kappte bei 106.325 Zeichen,

@@ -15028,6 +15028,45 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedAnatomyIds: [],
   },
   {
+    id: "rutenuntersuchung-joint-play-technik-schwanzwirbel",
+    category: "UNTERSUCHUNG",
+    title: "Joint Play an der Rute: nur die ersten vier Wirbel haben echte Facettengelenke",
+    teaser:
+      "Ab dem 5. Schwanzwirbel gibt es keine gelenkige Verbindung mehr zwischen den Wirbelkörpern — die Untersuchungstechnik muss sich deshalb mitten in der Rute grundlegend ändern.",
+    sections: [
+      {
+        type: "text",
+        heading: "Warum nur die ersten vier Wirbel ein echtes Joint Play erlauben",
+        text: "Die ersten vier Schwanzwirbel besitzen im Gegensatz zu den übrigen noch sagittal ausgebildete Facettengelenke. Weiter kaudal reduzieren sich die Wirbel zu konischen Knochenzapfen, die Fortsätze verlieren sich zunehmend, und die Wirbelbögen werden inkomplett (der Wirbelkanal ist dort dorsal offen). Ein echtes Joint play im eigentlichen Sinn ist deshalb nur in den ersten vier Wirbeln möglich, da nur hier überhaupt Facettengelenke existieren — und selbst dort hängt es von Hund zu Hund ab, wie gut sich diese noch innerhalb des Körpers liegenden Wirbel überhaupt greifen lassen.",
+      },
+      {
+        type: "text",
+        heading: "Passive Beweglichkeit vor der gezielten Untersuchung prüfen",
+        text: "Vor der eigentlichen Joint-Play-Prüfung wird die passive Beweglichkeit der gesamten Rute überprüft — mit unterschiedlichem Bewegungsumfang je nach Segment: Wirbel 1–4 werden in Flexion und Extension geprüft, ab dem 5. Wirbelkörper wird der Rest der Rute zusätzlich in Seitneige und Rotation getestet.",
+      },
+      {
+        type: "list",
+        heading: "ASTE, Griff und Ausführung",
+        items: [
+          "ASTE: Der Hund liegt in Seitlage, Sternallage, sitzt oder steht — Hauptsache, er hält still. Der Therapeut steht neben der Rute.",
+          "Griff: Im Pinzettengriff fixiert eine Hand den kranialen Wirbel des zu untersuchenden Segments, die andere Hand greift ebenso im Pinzettengriff den kaudalen Wirbelkörper — Daumen auf der Dorsalseite, Zeigefinger auf der Kaudalseite der Rute.",
+          "Ausführung Segment 1–4 (echte Facettengelenke vorhanden): Bei fixiertem kranialem Wirbel wird der kaudale Wirbel entweder a) mit Gleitstufe 2 Richtung ventral geglitten, oder b) senkrecht zum Wirbelkörper mit Traktionsstufe 2 traktioniert.",
+          "Ausführung ab dem 5. Wirbel (keine gelenkige Verbindung mehr): Bei fixiertem kranialem Wirbel wird der kaudale Wirbel stattdessen nach medial/lateral, dorsal/ventral sowie in Rotation geglitten — so lässt sich die gesamte restliche Rute auf Beweglichkeit hin untersuchen, obwohl dort keine echten Gelenke mehr vorliegen.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Behandlung: dieselbe Technik, nur intensiver",
+        text: "Die Behandlung folgt derselben Technik wie das Joint play, lediglich die Intensität wird gesteigert — Traktions- und Gleitstufe erhöhen sich von 2 auf 3.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Anatomieverwechslung", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.8 (Vertebrae caudales/Rute — Anatomie und funktionelle Bedeutung, Spezifische Untersuchung der Rute), S. 245f. Die anatomische Begründung (Facettengelenke nur in den ersten vier Schwanzwirbeln), die ASTE/Griff/Ausführung-Beschreibung sowie die Intensitätssteigerung bei der Behandlung sind im Original so beschrieben. Ergänzt die bereits bestehenden Rute-Einträge `adspektion-wirbelsaeule-rute-taktgeber-warnsignal`, `rutenhaltung-sichelrute-ringelrute-faszienspannungsindikator` und `haengende-rute-water-tail-differentialdiagnosen` (dort: sichtbare Haltungs-/Bewegungsauffälligkeiten bei der Adspektion aus anderen Quellen; hier: die konkrete manuelle Palpationstechnik zur aktiven Untersuchung der Rutenbeweglichkeit) — bewusst nicht dupliziert. Keine Überschneidung mit dem bestehenden Eintrag `joint-play-technik-traktionsstufen-wirbelsaeulen-limitation` (Könneker/Reiter, andere Quelle): Jener beschreibt den allgemeinen Joint-Play-Ablauf und die Traktionsstufen-Definition, dieser Eintrag die rutenspezifische Besonderheit, dass die Technik selbst ab dem 5. Wirbel wegen der fehlenden Gelenkverbindung wechseln muss.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: ["rueckenmark"],
+  },
+  {
     id: "anamnese-struktur-vier-kategorien-adspektion-ruhepositionen",
     category: "UNTERSUCHUNG",
     title: "Vier Anamnese-Kategorien und drei Ruhepositionen: eine vollständigere Checkliste",
