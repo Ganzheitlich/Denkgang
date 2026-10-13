@@ -14511,6 +14511,45 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedAnatomyIds: [],
   },
   {
+    id: "geriatrische-bewegungsprophylaxe-warnzeichen-belastungssteigerung",
+    category: "THERAPIE",
+    title: "Bewegung als Prophylaxe im Alter: Warnzeichen statt starrer Regeln",
+    teaser:
+      "Verbindliche Bewegungsvorgaben für alte Hunde gibt es nicht — wohl aber klare Körpersignale, bei denen sofort unterbrochen werden muss, und eine einfache Regel gegen den Trainingsabbruch.",
+    sections: [
+      {
+        type: "text",
+        heading: "Rassebedingte Trägheit beginnt schon beim Welpen",
+        text: "Ältere Hunde haben, wie ältere Menschen, oft ein vermindertes Bewegungsbedürfnis — besonders ausgeprägt bei großen, schweren Rassen (z. B. Bernhardiner, Neufundländer), die bereits als jüngere Tiere geringere Bewegungsaktivität zeigen. Dieser bisweilen ausgeprägten Trägheit muss schon beim Welpen vorgebeugt werden, indem regelmäßig Ausgang durchgeführt wird — was auch dem Halter selbst zugutekommt.",
+      },
+      {
+        type: "text",
+        heading: "Keine pauschale Vorgabe, sondern individuelle Orientierung am Hund",
+        text: "Für alle Rassen verbindliche Bewegungsanweisungen lassen sich nicht geben. Die Abforderung von Bewegung und Leistung hängt von der individuellen Leistungsfähigkeit, der Rasse, der Körpergröße sowie von eventuell vorliegenden Krankheiten und deren Art ab. Wird erst im höheren Alter mit gezielter Leistungsanforderung begonnen, soll dies vorsichtig geschehen — keine anstrengenden Berg- oder Radtouren bei dafür nicht vorbereiteten Individuen. Am besten orientiert man sich am Verhalten des Hundes selbst.",
+      },
+      {
+        type: "list",
+        heading: "Warnzeichen, bei denen die Belastung sofort unterbrochen werden muss",
+        items: [
+          "Atemfrequenzsteigerung (außer dem physiologischen Hecheln)",
+          "Atmen mit abgestellten Ellbogen",
+          "Der Hund lässt sich nachziehen statt selbst zu laufen",
+          "Der Hund macht insgesamt einen ermüdeten Eindruck",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Steigerungslogik und die Keine-Pause-Regel",
+        text: "Der Besitzer sollte zusätzlich beobachten, wie lange der Hund zur Beruhigung nach Belastung braucht — diese Erholungszeit ist ein zweiter Orientierungspunkt neben den akuten Warnzeichen. Die Leistung kann, Gesundheit vorausgesetzt, von Tag zu Tag um wenige Minuten gesteigert werden. Tage- oder wochenlange Unterbrechungen der Leistungsanforderung sind dabei möglichst zu vermeiden — andernfalls muss das Training von vorn begonnen werden, statt auf dem zuletzt erreichten Niveau fortzufahren.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "falsche Priorisierung", "Untersuchung falsch gewählt"],
+    sourceStatus:
+      "Verifiziert: Kraft, Wilfried, „Krankheitsprophylaxe“. In: Kraft, Wilfried (Hrsg.), Geriatrie bei Hund und Katze, 2. Auflage, Parey Verlag, Stuttgart, 2003 (vollständig per Direktextraktion aus vetcenter.thieme.de ausgewertet, doi:10.1055/b-0042-189924). Die rassebedingte Trägheitsprädisposition, das Fehlen pauschaler Bewegungsvorgaben, die vier Warnzeichen, die Erholungszeit-Beobachtung sowie die Tag-für-Tag-Steigerung mit der Regel gegen längere Trainingsunterbrechungen sind im Original so beschrieben (Abschnitt „Bewegung“ innerhalb des Kapitels). Ergänzt den bereits bestehenden Eintrag `physiotherapie-geriatrischer-patient-altersveraenderungen-fahrplan` (dieselbe Quelle, anderes Kapitel) um die konkrete Bewegungsprophylaxe-Ebene, die dort nicht behandelt wird — bewusst nicht dupliziert. Auch inhaltlich klar abgegrenzt vom bestehenden Eintrag `trainingsalter-welpen-junghunde-alte-hunde` (Mai, Physiotherapie und Bewegungstraining für Hunde): jener behandelt rassenübergreifende Agility-/Parcours-Anpassungen für bereits sportlich geführte alte Hunde, dieser Eintrag die allgemeinere, prophylaktische Bewegungssteuerung einschließlich der körperlichen Warnzeichen — unterschiedliche Quellen, unterschiedlicher Fokus.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
     id: "somatische-dysfunktion-art-kriterienraster",
     category: "UNTERSUCHUNG",
     title: "Was macht einen tastbaren Befund zu einem relevanten Befund? Das A.R.T.-Kriterienraster",

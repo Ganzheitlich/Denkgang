@@ -2174,14 +2174,47 @@ benannte PDF-Dateien (kein Chunk-Schema). Vollständige Dateiliste (Stand
 
 - [x] „Massage als Metaphylaxe beim geriatrischen Patienten“ (Alexander):
   daraus `physiotherapie-geriatrischer-patient-altersveraenderungen-fahrplan`.
-- [ ] „Einführung“, „Allgemeines“ — noch nicht gesichtet; am ehesten
-  Kandidaten für grundlegende geriatrische Konzepte mit Querbezug zu
-  Physiotherapie, vor Extraktion kurz gegenprüfen.
-- [ ] „Grundsätze der Therapie von Krankheiten...“ (Dateiname abgeschnitten,
-  vollständigen Titel beim Öffnen prüfen) — potenziell physiotherapie-
-  relevant, Titel deutet auf allgemeine Therapieprinzipien hin.
-- [ ] „Krankheitsprophylaxe“ — potenziell relevant für präventive
-  Trainings-/Bewegungsinhalte, kurz prüfen.
+- [x] **„Allgemeines" vollständig gelesen (11.10.2026) — bewusst nicht
+  extrahiert.** Durchgehend internistische Geriatrie-Symptomatologie
+  (Hyperthermie/Fieber-Definitionen und -Therapie inkl. Dosierungstabellen,
+  Adipositas-Pathomechanismen und Diätvorgaben, allgemeine
+  Schmerztopografie nach Körperregion mit Analgetika-Dosierungstabellen).
+  Der einzige Bewegungsapparat-Bezug ist ein einzelner Nebensatz
+  („Bewegungsapparat: Belastung der Wirbelsäule [Diskusprolaps] und
+  Gelenke [Degeneration, Bänderriß]" als Adipositas-Folgeerscheinung) —
+  inhaltlich bereits durch den bestehenden, deutlich ausführlicheren
+  Eintrag aus Zentek (Übergewicht als Risikofaktor) abgedeckt, nicht
+  eigenständig extraktionswürdig. Entspricht demselben Befund wie bei
+  Nervensystem/Zirkulationsapparat weiter oben.
+- [x] **„Grundsätze der Therapie von Krankheiten im Alter" vollständig
+  gelesen (11.10.2026) — bewusst nicht extrahiert.** Reine
+  Pharmakokinetik/Pharmakologie (Resorption/Biotransformation/
+  Ausscheidung von Arzneimitteln im Alter, Dosierungsanpassungsregeln,
+  Geriatrika-Wirkstofftabelle inkl. des Fazits, dass Geriatrika beim
+  Hund nach aktuellem Kenntnisstand „nur als teure Placebos" gelten
+  können) — durchgehend außerhalb von Denkgangs physiotherapeutischem
+  Fokus (MASTER-PROMPT §15), analog zur Handhabung anderer
+  pharmakologischer/internistischer Kapitel.
+- [x] **„Krankheitsprophylaxe" vollständig gelesen (11.10.2026) — 1 neuer
+  Eintrag.** Überwiegend Vorsorgeuntersuchungs-Intervalle,
+  Anamnese-/Untersuchungs-Checklisten, Laborprogramm und Impfplan (alle
+  internistisch, nicht extrahiert) — aber ein eigenständiger Abschnitt
+  „Bewegung" mit genuin physiotherapierelevantem Gehalt: die
+  rassebedingte Trägheitsprädisposition großer/schwerer Rassen (die
+  Prophylaxe schon ab dem Welpenalter erfordert), das Fehlen
+  pauschaler Bewegungsvorgaben zugunsten individueller Verhaltens-
+  beobachtung, vier konkrete Abbruch-Warnzeichen sowie die Tag-für-Tag-
+  Steigerungslogik mit der Regel gegen längere Trainingsunterbrechungen.
+  Daraus 1 neuer Eintrag:
+  `geriatrische-bewegungsprophylaxe-warnzeichen-belastungssteigerung`.
+  Bewusst klar abgegrenzt vom bestehenden Eintrag
+  `trainingsalter-welpen-junghunde-alte-hunde` (Mai — dort geht es um
+  Agility-/Parcours-Anpassungen für bereits sportlich geführte alte
+  Hunde, hier um die allgemeinere prophylaktische Bewegungssteuerung
+  mit körperlichen Warnzeichen) sowie vom bestehenden
+  `physiotherapie-geriatrischer-patient-altersveraenderungen-fahrplan`
+  (dieselbe Kraft-Quelle, aber anderes Kapitel/Autorin, Fokus Massage
+  statt Bewegungsprophylaxe).
 - [ ] „Anästhesie beim alten Patienten“ — eher anästhesiologisch/internistisch,
   niedrige Priorität für Denkgangs Physiotherapie-Fokus.
 - [ ] „Ernährung alter Hunde und Katzen“ — ernährungsmedizinisch, niedrige
