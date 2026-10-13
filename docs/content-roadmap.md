@@ -3079,9 +3079,43 @@ Digitale Kapitelansicht ohne Seitenzahlen — Zitation nach Abschnittsüberschri
       (feline Aortenthrombose/Kippfenstersyndrom, Coonhound-Paralyse,
       diabetische Polyneuropathie) — katzen- bzw. seltenheitsspezifisch,
       passen eher in eine spätere gezielte Ergänzung als in Grundlagen-Einträge.
-- [ ] Rest dieser Kapitel-Datei (Literaturverzeichnis zeigt u. a. Abschnitte zu
-      Polyneuropathien, Klinischer Pathophysiologie, Canine Rehabilitation)
-      noch nicht systematisch gesichtet.
+- [x] **Rest dieser Kapitel-Datei vollständig gelesen (13.10.2026).** Die
+      Korrektur von oben betraf nur eine falsche Lesart: „Polyneuropathien“,
+      „Klinische Pathophysiologie“ und „Canine Rehabilitation“ sind keine
+      ungelesenen Kapitelabschnitte, sondern lediglich Buchtitel im
+      nummerierten Literaturverzeichnis [15], [19], [20] (Ludin/Tackmann;
+      Siegenthaler; Steiss) — es gibt keinen entsprechenden Fließtext in
+      dieser Datei. Der tatsächlich noch ungelesene Fließtext (zwischen dem
+      bereits verwerteten Achsenabweichungs-/Arthrose-Abschnitt und dem
+      bereits verwerteten „Nervensystem“-Kapitel) behandelt die
+      **biochemischen/entzündlichen Ursachen des Gelenkschadens** — eine im
+      Original ausdrücklich von den vier mechanischen Hauptursachen
+      abgegrenzte zweite Kategorie, bisher nicht in der Bibliothek
+      abgedeckt. 2 neue Einträge: `arthritis-differentialdiagnosen-
+      infektioes-autoimmun-sonstige` (PATHOLOGIE: Borreliose/Lyme-Arthritis
+      als wichtigste infektiöse Gelenkerkrankung des Hundes mit Zytologie/
+      PCR-Nachweis, weitere seltene infektiöse Arthritiden, Kollagenosen/
+      SLE/rheumatoider Formenkreis, sonstige Ursachen wie Hämarthros/Tumor/
+      Dalmatiner-Harnsäure/iatrogen, sowie das Komorbiditätsprinzip anhand
+      des bereits an anderer Stelle referenzierten „Patellaluxation UND
+      Borreliose zugleich“-Beispiels) und `systematische-lahmheitsdiagnostik-
+      klinik-vor-technik` (UNTERSUCHUNG: feste Untersuchungsreihenfolge
+      Klinik-vor-Technik inkl. des praktisch wichtigen Hinweises, dass
+      Besitzerangaben zur betroffenen Seite/Gliedmaße in jedem Fall selbst
+      zu überprüfen sind, die Grenze der Röntgendiagnostik bei Knorpel-
+      beurteilung mit HD-/OCD-Beispielen, Gelenkpunktionstechnik inkl.
+      Heparin/EDTA-Problematik, sowie Arthroskopie). Rückverweise ergänzt in
+      `patellaluxation-krankheitsbild` (Läuse-und-Flöhe-Abschnitt) und
+      `legg-perthes-erkrankung` (Differentialdiagnosen-Abschnitt). Keine
+      Dopplung mit den bestehenden OCD-/Legg-Perthes-Einträgen (dort:
+      Wachstumsstörungen als mechanische Ursache; hier: entzündliche/
+      infektiöse/autoimmune Ursachen als eigene Kategorie) oder mit den
+      Synovia-Biomechanik-Einträgen (dort: Funktion der Synovia bei
+      Bewegung; hier: diagnostische Gewinnung und Untersuchung der
+      Synovia). **Damit ist die Kapitel-Datei „Pathophysiologie des
+      Bewegungsapparates“ jetzt vollständig ausgewertet**, tsc/eslint
+      sauber, Reseed 356 Wissenseinträge (354 → 356), Build grün, via
+      Playwright verifiziert (2/2 Review-Seiten, 0 Fehler).
 
 #### Kapitel „Schmerz und Nozizeption" (H.-U. Kulpa)
 

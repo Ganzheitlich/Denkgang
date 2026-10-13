@@ -4636,7 +4636,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       {
         type: "text",
         heading: "Differentialdiagnostische Falle: „Läuse und Flöhe zugleich\"",
-        text: "Ein Hund kann mehrere orthopädische bzw. internistische Probleme gleichzeitig haben — eine gefundene Patellaluxation schließt eine zweite, unabhängige Ursache der Lahmheit nicht aus (im Quellenbeispiel wird explizit die Kombination aus Patellaluxation und Borreliose genannt). Eine Diagnose zu früh als \"erklärt\" zu betrachten, sobald ein plausibler Befund gefunden ist, ist ein klassischer Denkfehler.",
+        text: "Ein Hund kann mehrere orthopädische bzw. internistische Probleme gleichzeitig haben — eine gefundene Patellaluxation schließt eine zweite, unabhängige Ursache der Lahmheit nicht aus (im Quellenbeispiel wird explizit die Kombination aus Patellaluxation und Borreliose genannt, siehe `arthritis-differentialdiagnosen-infektioes-autoimmun-sonstige`). Eine Diagnose zu früh als \"erklärt\" zu betrachten, sobald ein plausibler Befund gefunden ist, ist ein klassischer Denkfehler.",
       },
       {
         type: "text",
@@ -6580,7 +6580,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
       {
         type: "text",
         heading: "Klinik und Diagnostik",
-        text: "Erste Lahmheitsanzeichen zeigen sich bei 4–10 Monate alten Tieren, meist als moderate Lahmheit (2/4) ohne weitere Verschlechterung nach der akuten Phase. Im Untersuchungsgang fallen Muskelhypotrophie und Schmerz bei Manipulation auf, besonders bei Streckung des Hüftgelenks; Krepitus ist selten auslösbar. Wichtige Differentialdiagnosen sind Hüftgelenkdysplasie, Neoplasie, Arthrose nach verheilter Femurkopffraktur und Patellaluxation. Radiologisch zeigt sich ein unregelmäßig geformter Femurkopf mit lytischen Defekten, Abflachung und degenerativen Umbauten an Femurkopf, Acetabulum und Femurhals — bei unklaren Fällen mit nur leichten Veränderungen lohnt sich eine Verlaufskontrolle nach 4–6 Wochen. Meist liegt nur ein einseitiges Geschehen vor.",
+        text: "Erste Lahmheitsanzeichen zeigen sich bei 4–10 Monate alten Tieren, meist als moderate Lahmheit (2/4) ohne weitere Verschlechterung nach der akuten Phase. Im Untersuchungsgang fallen Muskelhypotrophie und Schmerz bei Manipulation auf, besonders bei Streckung des Hüftgelenks; Krepitus ist selten auslösbar. Wichtige Differentialdiagnosen sind Hüftgelenkdysplasie, Neoplasie, Arthrose nach verheilter Femurkopffraktur und Patellaluxation — bei unklarem radiologischem Befund gehören außerdem die selteneren infektiösen/autoimmunen Gelenkursachen in die Überlegung (siehe `arthritis-differentialdiagnosen-infektioes-autoimmun-sonstige`). Radiologisch zeigt sich ein unregelmäßig geformter Femurkopf mit lytischen Defekten, Abflachung und degenerativen Umbauten an Femurkopf, Acetabulum und Femurhals — bei unklaren Fällen mit nur leichten Veränderungen lohnt sich eine Verlaufskontrolle nach 4–6 Wochen. Meist liegt nur ein einseitiges Geschehen vor.",
       },
       {
         type: "text",
@@ -14546,6 +14546,95 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "falsche Priorisierung", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Kraft, Wilfried, „Krankheitsprophylaxe“. In: Kraft, Wilfried (Hrsg.), Geriatrie bei Hund und Katze, 2. Auflage, Parey Verlag, Stuttgart, 2003 (vollständig per Direktextraktion aus vetcenter.thieme.de ausgewertet, doi:10.1055/b-0042-189924). Die rassebedingte Trägheitsprädisposition, das Fehlen pauschaler Bewegungsvorgaben, die vier Warnzeichen, die Erholungszeit-Beobachtung sowie die Tag-für-Tag-Steigerung mit der Regel gegen längere Trainingsunterbrechungen sind im Original so beschrieben (Abschnitt „Bewegung“ innerhalb des Kapitels). Ergänzt den bereits bestehenden Eintrag `physiotherapie-geriatrischer-patient-altersveraenderungen-fahrplan` (dieselbe Quelle, anderes Kapitel) um die konkrete Bewegungsprophylaxe-Ebene, die dort nicht behandelt wird — bewusst nicht dupliziert. Auch inhaltlich klar abgegrenzt vom bestehenden Eintrag `trainingsalter-welpen-junghunde-alte-hunde` (Mai, Physiotherapie und Bewegungstraining für Hunde): jener behandelt rassenübergreifende Agility-/Parcours-Anpassungen für bereits sportlich geführte alte Hunde, dieser Eintrag die allgemeinere, prophylaktische Bewegungssteuerung einschließlich der körperlichen Warnzeichen — unterschiedliche Quellen, unterschiedlicher Fokus.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "arthritis-differentialdiagnosen-infektioes-autoimmun-sonstige",
+    category: "PATHOLOGIE",
+    title: "Nicht jeder Gelenkschmerz ist eine Arthrose: infektiöse, autoimmune und seltene Ursachen",
+    teaser:
+      "Ein Hund kann „Läuse und Flöhe“ zugleich haben: eine Patellaluxation UND eine Borreliose. Wer bei Gelenkschmerz automatisch an Arthrose denkt, übersieht eine ganze Gruppe behandelbarer Differentialdiagnosen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Borreliose: die wichtigste infektiöse Gelenkerkrankung des Hundes",
+        text: "Eine der Ausprägungen der Borreliose (Lyme-Borreliose) des Hundes ist eine Mono- bis Polyarthritis. Besonders betroffen sind junge Hündinnen großer Rassen, speziell Golden Retriever. Die Tiere gehen akut lahm, klinisch sind besonders häufig die Kniegelenke betroffen. Röntgenologische Veränderungen sind zunächst nicht vorhanden. Die Gelenke zeigen leicht hämorrhagische Ergüsse mit hohem Fibringehalt; zytologisch finden sich überwiegend mononukleäre Zellen, aber auch neutrophile Granulozyten. In den üblichen bakteriologischen Kulturen können keine Keime nachgewiesen werden — neben einer speziellen Kultur ist die PCR die geeignete Nachweismethode. Sind mehrere Gelenke betroffen, lassen sich nicht in allen Punktaten Borrelien nachweisen. Bei Katzen konnten bislang keine Symptome mit einer Borrelieninfektion verknüpft werden. Therapeutisch braucht eine Borreliose eine lange, intensive Antibiose (v. a. Tetracycline oder Cephalosporine der 3. Generation).",
+      },
+      {
+        type: "text",
+        heading: "Weitere infektiöse Arthritiden",
+        text: "Jenseits der Borreliose sind Arthritiden bei Hund und Katze auch bei anderen Infektionen beschrieben, allerdings nur in sehr seltenen Fällen: bakteriell (z. B. Monarthritis nach lokaler Verletzung oder septischer Operation, Oligo- bis Polyarthritis u. a. bei Mykoplasmen- oder Rickettsien-Infektionen), aber auch im Zuge von Virus- oder Pilzinfektionen — bekannte Beispiele sind die Fohlenlähme nach Nabelinfektion und die Polyarthritis beim Rotlauf des Schweines.",
+      },
+      {
+        type: "text",
+        heading: "Autoaggressive Erkrankungen: Kollagenosen und der rheumatoide Formenkreis",
+        text: "„Kollagenose“ ist der Oberbegriff für Erkrankungen, bei denen körpereigenes Kollagen angegriffen wird (u. a. rheumatoide Arthritis, Dermatomyositis, systemischer Lupus erythematosus, Periarteriitis) — erworbene oder angeborene autoimmune Prozesse sind beteiligt. In der Tiermedizin wird nur in Einzelfällen berichtet, eine systematische kausale Aufarbeitung größerer Patientenzahlen fehlt weitgehend. Beim systemischen Lupus erythematosus (SLE) werden viele Autoantikörper gegen eigene Organe gebildet, diagnostisch wesentlich sind antinukleäre Antikörper (ANA) sowie Antikörper gegen nukleäre Doppelstrang-DNA (Nachweis gelingt aber nicht in allen Fällen); neben der Polyarthritis sind Dermatitiden sowie Veränderungen von Nieren, Leber und Blutbild für die Diagnose wesentlich. Der Oberbegriff „Rheuma“ wird verwendet, wenn keine eigentliche Ursache nachweisbar ist — Arthritiden des rheumatoiden Formenkreises werden u. a. in erosive und nicht-erosive Formen unterteilt oder solche, die andere Erkrankungen begleiten (chronische Infekte, Darmveränderungen, Hepatopathien ohne nachweisbaren Zusammenhang). Das Zellbild der Synovia zeigt alle Übergänge von steril-eitrig bis rein lymphozytär-plasmazellulär; ein Erregernachweis gelingt in keinem Fall.",
+      },
+      {
+        type: "list",
+        heading: "Sonstige Ursachen von Gelenkerguss/-schmerz ohne primäre Arthrose",
+        items: [
+          "Blutungen ins Gelenk, z. B. bei Trauma oder Hämophilie A (traumatischer Kapselriss verändert die Synovia und setzt Mediatoren frei → Mangelernährung der Chondrozyten, Qualitätsabnahme der Matrix)",
+          "Tumoröse Ergüsse als Primärtumor (z. B. Synovialzellsarkom, siehe `knochentumoren-gelenktumoren-hund`) oder nach Metastasierung — verändern die Synovia und je nach Lokalisation zusätzlich subchondralen Knochen, Knorpelqualität und/oder Gelenkkongruenz",
+          "Harnsäurekristalle (bislang nur beim Dalmatiner zu erwarten, auch dort nicht nachgewiesen)",
+          "Intraartikuläre Injektionen (z. B. Kortikoide) als iatrogene Ursache",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Die klinische Konsequenz: Komorbidität statt vorzeitiger Erklärung",
+        text: "Ein Hund kann mehrere Probleme gleichzeitig haben — eine gefundene Diagnose schließt eine zweite, unabhängige Ursache nicht aus. Ein Hund, der wegen eines scheinbaren Kreuzbandrisses überwiesen wird, kann stattdessen oder zusätzlich eine Quadricepskontraktur oder eine lympho-plasmazelluläre Arthritis haben; ein Patient kann sowohl eine Patellaluxation als auch eine Borreliose haben. Jede Therapie, die die tatsächliche Ursache nicht erkennt und beseitigt, ist zum Scheitern verurteilt — deshalb muss vor jeder (insbesondere chirurgischen) Festlegung eine saubere Diagnostik stehen, die diese Differentialdiagnosen mit einbezieht, statt die erste plausible Erklärung als vollständig zu akzeptieren.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: Alexander, Cécile-Simone/Baatz, G./Jaggy, A./Kathmann, I., „Pathophysiologie des Bewegungsapparates“. In: Alexander, Cécile-Simone (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003 (vollständig per Direktextraktion aus vetcenter.thieme.de ausgewertet, doi:10.1055/b-0042-189973). Die Borreliose-Arthritis, die weiteren seltenen infektiösen Arthritiden, die Kollagenosen/SLE/rheumatoider Formenkreis sowie die sonstigen Ursachen (Hämarthros, Tumor, Dalmatiner-Harnsäure, iatrogen) sowie das Komorbiditäts-Prinzip samt Kreuzbandriss-/Patellaluxation-Beispiel sind im Original so beschrieben (Abschnitt „Pathologischer Knorpel – Physiologische Last“ bzw. „Diagnostik/Therapie“ desselben Kapitels). Diese Quelle wurde für dieses Kapitel bereits für `patellaluxation-krankheitsbild` (Achsenabweichung) und die beiden Arthrose-Einträge `arthrose-pathogenese-circulus-vitiosus`/`arthrose-mechanische-hauptursachen` genutzt — dieser Eintrag deckt den bisher ausgelassenen Abschnitt zu den biochemischen/entzündlichen Ursachen des Gelenkschadens ab, der im Original ausdrücklich von den vier mechanischen Hauptursachen abgegrenzt wird. Bewusst nicht übernommen: die Einzelfall-Beispiele zu OCD/Legg-Calvé-Perthes als Wachstumsstörungen, da beide bereits in `knochenfunktionen-kraftuebertragung-humerus-tibia-ocd`, der Schulter-OCD sowie `legg-perthes-erkrankung` ausführlicher und mit aktuelleren Quellen behandelt werden.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "systematische-lahmheitsdiagnostik-klinik-vor-technik",
+    category: "UNTERSUCHUNG",
+    title: "Erst die Klinik, dann die Technik: der systematische Weg zur Lahmheitsdiagnose",
+    teaser:
+      "Besitzer verwechseln rechts und links häufiger als man denkt — und ein Röntgenbild zeigt Knochen, nicht Knorpel. Eine saubere Lahmheitsdiagnostik folgt deshalb einer festen Reihenfolge, bevor überhaupt Technik zum Einsatz kommt.",
+    sections: [
+      {
+        type: "list",
+        heading: "Die Reihenfolge der klinischen Untersuchung",
+        items: [
+          "Freie Bewegung im Raum beobachten: Schonhaltungen oder Schwierigkeiten beim Ablegen/Aufstehen zeigen sich hier oft schon deutlich",
+          "Vorführen an der Leine im Freien, in kontrolliertem Tempo",
+          "Die Angabe des Besitzers, welche Gliedmaße betroffen sei, in jedem Fall selbst überprüfen — rechts/links wird häufig verwechselt, und eine Lahmheit wird oft fälschlich der Vorder- statt der Hinterhand (oder umgekehrt) zugeordnet",
+          "Palpation der Gelenke auf Umfang, Struktur der umgebenden Gewebe und Füllungsgrad, inklusive neurologischer Befunde (besonders bei schleichendem oder rezidivierendem Verlauf)",
+          "Möglichst alle (mindestens alle großen Extremitäts-)Gelenke in die Untersuchung einbeziehen, nicht nur das vermutlich betroffene",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Ein wichtiges Warnzeichen: unauffällige Beuge-/Streckproben",
+        text: "Liefern die üblichen Beuge- und Streckproben keine der Lahmheit entsprechenden eindeutigen Befunde, liegt häufig eine systemische Erkrankung vor — nicht eine besonders schwer zu findende lokale. Erst nach dieser gründlichen klinischen Untersuchung folgen technische Untersuchungen: in erster Linie Röntgen und Laborwerte, danach gegebenenfalls Punktion/Zytologie oder Arthroskopie; Arthrographie, Ultraschall, Szintigraphie, CT oder MRT sind seltener verfügbar, aber mitunter sinnvoll bis notwendig.",
+      },
+      {
+        type: "text",
+        heading: "Die Grenze der Röntgendiagnostik: Knochen ja, Knorpel nein",
+        text: "Röntgen ist die gebräuchlichste bildgebende Untersuchung, liefert aber ausgerechnet keine Information zum Zustand des hyalinen Knorpels selbst, sondern nur zum angrenzenden Knochen — einziger indirekter Hinweis auf die Knorpelqualität ist die Breite des Gelenkspalts. Nicht jeder schmerzhafte Gelenkprozess führt deshalb zu röntgenologischen Veränderungen: Auch eine schwere Hüftgelenkdysplasie muss bei einem jungen Tier nicht unbedingt knöchern nachweisbar sein. Für die HD gibt es wenigstens etablierte Beurteilungsschemata für die Kongruenz; bei einer OCD führt die mangelhafte röntgenologische Darstellbarkeit des Knorpels dagegen zu echten diagnostischen Problemen — wird sie nicht exakt tangential getroffen und hat sie den subchondralen Knochen noch nicht eindeutig verändert, bleibt sie unerkannt. Erst mit der Zeit entstehen genug Osteophyten/Knochenveränderungen für eine sichere Identifikation — dann ist aber meist nur noch ein Stillstand, keine Heilung der Arthroseentwicklung mehr möglich. Bei jungen Hunden chondrodystropher Rassen ist die züchterisch gewünschte, klinisch noch tolerierte Fehlstellung röntgenologisch zudem nicht von einer beginnenden schmerzhaften Arthrose durch Inkongruenz/Achsenabweichung zu unterscheiden.",
+      },
+      {
+        type: "text",
+        heading: "Gelenkpunktion: Technik und eine wichtige Fehlerquelle",
+        text: "Gelenkpunktionen sind meist nur am sedierten Tier möglich und gelingen umso leichter, je ausgeprägter ein Erguss ist; aseptische Kautelen und möglichst dünne, scharfe Nadeln sind Pflicht. Ist die Synovia normal und enthält nur Muzin, ist die Probenverarbeitung unproblematisch — enthält sie dagegen Gerinnungsfaktoren, gerinnt sie, und weder Ausstrich noch Muzin-Bestimmung noch Zellzählung sind dann noch möglich. Da der Fibrinogengehalt vorher meist nicht bekannt ist, empfiehlt es sich, die Spritze vor der Aspiration mit Heparin oder EDTA auszuspülen (alternativ: wiederholte Punktion mit und ohne Heparin, oder sofortige Teil-Überführung in eine heparinisierte Spritze) — in der Praxis durch die oft geringen Punktatmengen erschwert. Der hohe Eiweißgehalt der Synovia färbt sich außerdem bei üblichen Zellfärbungen mit, sodass Zellen oft nur mit Mühe oder über andere Färbeverfahren identifizierbar sind.",
+      },
+      {
+        type: "text",
+        heading: "Arthroskopie: wenig traumatisch, aber aufwendig",
+        text: "Die Arthroskopie führt ein starres dünnes Endoskop ins Gelenk ein und erlaubt — je nach anatomischer Situation — eine mehr oder weniger vollständige optische Beurteilung der Gelenkfläche, ohne das Gelenk wie bei der Arthrotomie chirurgisch vollständig zu eröffnen. Sie verbessert die Diagnose einiger Gelenkerkrankungen deutlich (z. B. OCD im Schultergelenk, fragmentierter Processus coronoideus des Ellbogens), bei anderen Gelenken ist der Informationsgewinn gegenüber anderen Methoden geringer. Proben von Synoviazotten oder Knorpel lassen sich ebenfalls arthroskopisch entnehmen, die makroskopische Beurteilung der Gelenkflächen erlaubt zudem Rückschlüsse auf die Arthrose-/Arthritis-Prognose; manche Gelenkoperationen sind inzwischen ebenfalls arthroskopisch möglich. Die Methode verlangt allerdings umfangreiches, teures Equipment und Übung.",
+      },
+    ],
+    errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "falsche Priorisierung"],
+    sourceStatus:
+      "Verifiziert: Alexander, Cécile-Simone/Baatz, G./Jaggy, A./Kathmann, I., „Pathophysiologie des Bewegungsapparates“. In: Alexander, Cécile-Simone (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003 (vollständig per Direktextraktion aus vetcenter.thieme.de ausgewertet, doi:10.1055/b-0042-189973). Die Untersuchungsreihenfolge inklusive des Seitenverwechslungs-Hinweises, die Röntgen-Limitation (Knochen statt Knorpel, Gelenkspaltbreite als indirekter Hinweis, OCD-/HD-Beispiele), die Gelenkpunktionstechnik samt Heparin/EDTA-Problematik sowie die Einordnung der Arthroskopie sind im Original so beschrieben (Abschnitt „Diagnostik“ desselben Kapitels wie `arthritis-differentialdiagnosen-infektioes-autoimmun-sonstige`). Keine Überschneidung mit den bestehenden Synovia-Biomechanik-Einträgen `synovia-gelenkbaender-passive-bewegungssteuerung` und `schritt-trab-knorpelernaehrung-synoviapumpe-biomechanik` (dort: Funktion der Synovia bei Bewegung: hier: diagnostische Gewinnung und Untersuchung der Synovia).",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },
