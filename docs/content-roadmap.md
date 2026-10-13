@@ -573,6 +573,47 @@ kein Überblick verloren geht.
   Schädel/Kiefergelenk, sowie weiterhin die Alternative einer
   systematischen Qualitätsprüfung des Bestands (MASTER-PROMPT §21) oder
   ein Rückkehr zur seit dem 03.10.2026 pausierten Wissensbibliothek.
+- **Kiefergelenk/Sternum geprüft und zurückgestellt (11.10.2026):**
+  Gezielte Google-Drive-Suche nach einer dedizierten Kiefergelenk- bzw.
+  Sternum-Knochen-/Gelenksektion (Salomon et al., Kap. 2 Bewegungsapparat)
+  ergab: Beide Strukturen kommen in diesem Werk nur beiläufig als
+  Ursprungs-/Ansatzangabe innerhalb von Muskelbeschreibungen vor (z. B.
+  „zieht die Mandibula im Kiefergelenk", „entspringt an den
+  Sternebrae"), nicht als eigene, strukturierte Knochenverbindungs-
+  Sektion wie beim bereits erfolgreich ausgewerteten Beckengliedmaßen-
+  Kapitel (Chunk `183590104_002_002_008.pdf`, Quelle für die Hüftband-
+  Batches). Eine saubere, MASTER-PROMPT-§22-konforme Befüllung dieser
+  beiden Items würde echte neue Kapitel-Recherche erfordern (vermutlich
+  im „Knochenverbindungen des Kopfes"-Abschnitt, bisher nicht lokalisiert)
+  — das widerspricht der bereits am 02.10.2026 dokumentierten Entscheidung
+  (siehe Kap.-2.3-ff.-Fazit weiter unten), dieses sehr umfangreiche
+  Mehrspezies-Werk nicht weiter kapitelweise durchzuarbeiten. Bewusst
+  zurückgestellt statt
+  mit dünner Quellenlage erzwungen. Bei Bedarf: gezielte Fortsetzung der
+  Chunk-Suche (Stichwort „Knochenverbindungen des Kopfes") oder eine
+  andere, dog-spezifische Quelle (Hárrer behandelt Kiefergelenk/Sternum
+  nicht als eigenes Kapitel, nur am Rande bei der Kaumuskulatur).
+- **Strukturelle Qualitätsprüfung des 90-Item-Bestands (11.10.2026):**
+  Da keine neue Content-Quelle griffbereit war, stattdessen eine
+  automatisierte Konsistenzprüfung des gesamten Anatomie-/Wissens-/
+  Fall-Bestands durchgeführt (SQL-Abfragen gegen die frisch geseedete
+  DB plus ein Python-Abgleich aller Backtick-Cross-Referenzen in
+  `seedContent.ts` gegen reale Slugs). Ergebnis durchweg sauber: keine
+  verbliebenen „—"-Platzhalter in `origin`/`insertion`/`funktion`/
+  `innervation` irgendeines Anatomie-Items; kein `MUSKEL`-Item mit
+  fehlendem Kernfeld (die Lückenschluss-Regel vom 23.09.2026 hält für
+  alle 47 Muskel-Items); keine doppelten Slugs in `AnatomyItem`,
+  `KnowledgeEntry` oder `Case`; alle 115 im Fließtext per Backtick
+  referenzierten IDs (z. B. „siehe `lig-capitis-femoris`") lösen zu
+  einem real existierenden Slug auf — keine einzige tote Referenz. Die
+  verbliebenen „NICHT VERIFIZIERT"/„Quelle erforderlich"-Markierungen
+  betreffen ausschließlich ehrlich als DRAFT gekennzeichnete Items
+  (erwartungsgemäß) plus vier bereits von Vanessa als APPROVED
+  freigegebene Items (`huefte`, `discus`, `facettengelenke`,
+  `rueckenmark`), deren Teil-Einschränkung sie bei der Freigabe
+  offenbar bewusst in Kauf genommen hat — kein Fehler, sondern
+  dokumentierte Transparenz. `tsc`/`eslint` liefen zur Bestätigung
+  zusätzlich sauber durch. Keine Code-Änderung nötig gewesen.
 - `AnatomyItem.relatedCaseId` ist jetzt optional (Schema war es schon immer,
   `AnatomySeed`-Typ wurde am 21.09.2026 angepasst). Anatomie-Items können ab sofort
   unabhängig von einem passenden Fall angelegt werden — nötig, um auf hunderte
