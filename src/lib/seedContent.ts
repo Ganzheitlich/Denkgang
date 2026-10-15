@@ -14639,6 +14639,45 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     relatedAnatomyIds: [],
   },
   {
+    id: "kraniosakraler-rhythmus-herkunft-wissenschaftlicher-status",
+    category: "BIOMECHANIK",
+    title: "Der kraniosakrale Rhythmus: Herkunft eines Konzepts, das die Bibliothek mehrfach ausschließt",
+    teaser:
+      "An mehreren Stellen dieser Bibliothek wird eine Technik bewusst nicht übernommen, weil sie einen „nicht unabhängig bestätigten kraniosakralen Rhythmus“ voraussetzt. Doch was genau ist damit gemeint — und was sagt die Quelle selbst über dessen wissenschaftlichen Status?",
+    sections: [
+      {
+        type: "text",
+        heading: "Herkunft: Sutherland und „The Cranial Bowl“",
+        text: "Die kraniosakrale Osteopathie geht auf William Garner Sutherland (1873–1954) zurück, einen Schüler des Osteopathie-Begründers Andrew Taylor Still. Ausgangspunkt seiner Theorie war der Anblick eines auseinandergesprengten Schädels mit seinen Schädelnähten (Suturen) in einer Anatomiesammlung — er verglich deren Form mit Fischkiemen und vermutete deshalb einen „Atmungsmechanismus“. Sutherland untersuchte daraufhin Schädel seiner Patienten und meinte, unter seinen Händen tatsächlich Bewegungen zu erspüren, obwohl die anatomischen Lehrbücher seiner Zeit die Schädelnähte nach Wachstumsabschluss als starr verbunden beschrieben. 1939 veröffentlichte er sein Konzept im Buch „The Cranial Bowl“. Nach Europa gelangte die kraniosakrale Osteopathie 1964 über seinen Schüler Harold Ives Magoun sowie Viola Frymann und Thomas Schooley an der British School of Osteopathy.",
+      },
+      {
+        type: "text",
+        heading: "Die Kernbehauptung",
+        text: "Die Theorie postuliert einen eigenständigen, am ganzen Körper spürbaren „kraniosakralen Rhythmus“, der nicht mit Atem- oder Pulsrhythmus identisch sei: Kranium (Schädel) und Sakrum (Kreuzbein) als die beiden „Pole“ des Systems sollen sich synchron bewegen, angetrieben von einem sogenannten „primären respiratorischen Mechanismus“ (PRM). Spürbar sein soll dieser Rhythmus am Schädel als Zusammenziehen/Ausdehnen, am Sakrum als Nutation/Gegennutation und an Rumpf/Extremitäten als Außen-/Innenrotation. Ziel der kraniosakralen Therapie ist laut Quelle die Wiederherstellung eines an allen Körperteilen fühlbaren Rhythmus und der physiologischen Beweglichkeit der dafür nötigen Knochen und Gelenke (vor allem Schädelknochen, ISG, Wirbelsäule).",
+      },
+      {
+        type: "text",
+        heading: "Der wissenschaftliche Status — in den Worten der Quelle selbst",
+        text: "Die Quelle benennt die Unsicherheit ausdrücklich: Der eigentliche Antriebsmotor des kraniosakralen Rhythmus sei „bis heute wissenschaftlich nicht eindeutig geklärt“. Es gebe lediglich verschiedene Erklärungsversuche, von denen die Hering-Traube-Meyer-Welle (über Blutgefäße ins Gehirn geleitete Druckoszillationen) die größte — aber weiterhin unzureichende — Evidenz besitze. Wörtlich schließt die Quelle: Es gebe „nach wie vor [...] noch nicht genügend gute Forschungsergebnisse, sodass man ihn als noch nicht geklärtes Palpationsphänomen bezeichnen muss“. Diese Selbsteinschätzung der Quelle deckt sich mit der an mehreren Stellen dieser Bibliothek bereits getroffenen Einordnung, wonach der kraniosakrale Rhythmus „nicht unabhängig bestätigt“ ist.",
+      },
+      {
+        type: "text",
+        heading: "Der eine konkrete Tierversuchsbefund — und seine Grenzen",
+        text: "Die Quelle zitiert eine Studie von Heisey und Adams, die nach Injektion von 0,2 ml Flüssigkeit in einen Seitenventrikel anästhesierter erwachsener Katzen eine Bewegung der Sutura sagittalis nachwies. Daraus lässt sich ableiten, dass Schädelnähte auch nach Abschluss des Wachstums eine gewisse Restbeweglichkeit behalten — plausibel, da Suturen auch beim erwachsenen Tier nicht vollständig zu homogenem Knochen verschmelzen. Dieser Befund belegt aber nicht den eigentlich behaupteten, eigenständigen, rhythmischen und am ganzen Körper synchron tastbaren kraniosakralen Mechanismus, geschweige denn dessen klinische Bedeutung — Nahtbeweglichkeit unter experimenteller Flüssigkeitsinjektion ist etwas anderes als der postulierte, von Atmung und Puls unabhängige Ganzkörper-Rhythmus der kraniosakralen Theorie.",
+      },
+      {
+        type: "text",
+        heading: "Warum dieser Eintrag trotzdem Teil der Bibliothek ist",
+        text: "Der Begriff taucht in der Fachliteratur auf und wird deshalb auch in dieser Bibliothek an mehreren Stellen referenziert, wenn erklärt wird, warum eine bestimmte Technik bewusst nicht übernommen wurde (u. a. bei der globalen Rhythmusdifferenzierung in `zehner-test-hund-globale-spannungsuntersuchung` sowie bei Stillpunkt/Release-Techniken in `faszie-sinnesorgan-mechanorezeptoren-perforanten-trias` und `faszien-piezoelektrizitaet-fluessigkristalle-signalweiterleitung`). Fachlich korrektes Arbeiten bedeutet nicht, einen in der Praxis kursierenden Begriff zu ignorieren, sondern ihn einordnen zu können: Woher kommt das Konzept, was genau wird behauptet, und was davon ist tatsächlich belegt? Für die klinische Praxis gilt: Der kraniosakrale Rhythmus wird hier als osteopathisches Theoriekonzept referiert, nicht als gesicherte Physiologie gelehrt.",
+      },
+    ],
+    errorTags: ["Überkonfidenz", "Befund überbewertet", "Faktenwissen"],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 9.1/9.1.1, S. 163f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(30).pdf). Sutherland-Historie, Kernbehauptung des PRM-Modells, die wörtliche Selbsteinschätzung der Quelle zum ungeklärten Antriebsmechanismus sowie die zitierte Heisey/Adams-Studie (Kraniosaknaht-Beweglichkeit bei der Katze nach Ventrikel-Injektion) sind im Original so beschrieben; die Studie selbst wurde von Denkgang nicht in der Primärliteratur nachgeprüft, sondern wie zitiert übernommen (mit entsprechendem Vorbehalt). Die einordnende Trennung zwischen dem experimentellen Nahtbeweglichkeits-Befund und der weitergehenden Rhythmus-Theorie sowie die abschließende Bewertung als nicht gesicherte Physiologie sind eigene fachliche Einschätzung von Denkgang, konsistent mit der Handhabung vergleichbarer Konzepte an anderer Stelle dieser Quelle (Motilität, A.R.T.-Kriterienraster) sowie bei TCM-Inhalten (Mai). Technikdetails aus Kap. 9 (konkrete Palpations-/Behandlungstechniken wie Stillpoint, SSB/SSO, Entspannungstechniken) wurden bewusst NICHT übernommen — sie setzen die hier als unbestätigt eingeordnete Rhythmuswahrnehmung als gegeben voraus und hätten ohne diese kritische Einordnung unkritisch als Handlungsanleitung missverstanden werden können. Kap. 10 „Von der Technik zur Kunst“ (rein philosophisch-zusammenfassend) bleibt aus demselben Grund wie der restliche Anhang weiterhin unextrahiert.",
+    relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
     id: "somatische-dysfunktion-art-kriterienraster",
     category: "UNTERSUCHUNG",
     title: "Was macht einen tastbaren Befund zu einem relevanten Befund? Das A.R.T.-Kriterienraster",
@@ -14792,7 +14831,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["falsche Priorisierung", "Untersuchung falsch gewählt", "Befund übersehen"],
     sourceStatus:
-      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 4.2–4.5, S. 26–28 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(11).pdf). Das Sanduhrprinzip der Befunderhebung, das Prinzip vom Allgemeinen zum Spezifischen, die Begründung für die am wenigsten berührungsintensive Technik zuerst sowie die Notwendigkeit einer über den Behandlungsort hinausgehenden Kontrolluntersuchung (inkl. des Beispiels der früh wiedererwachten Lebensfreude vor sichtbarer Beschwerdebesserung) sind im Original so beschrieben. Bewusst nicht in diesen Eintrag übernommen: der in Kap. 4.6.1–4.6.3 desselben Abschnitts beschriebene Schritt der globalen Rhythmusdifferenzierung zwischen myofaszialem und kraniosakralem System (zur Entscheidung, welches System zuerst behandelt wird) — dieser Schritt setzt die Wahrnehmbarkeit eines eigenständigen kraniosakralen Rhythmus voraus, der nicht unabhängig bestätigt ist (vgl. Einordnung bei `somatische-dysfunktion-art-kriterienraster`), und wurde daher nicht als eigenständige Untersuchungstechnik in diesen Eintrag übernommen.",
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 4.2–4.5, S. 26–28 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(11).pdf). Das Sanduhrprinzip der Befunderhebung, das Prinzip vom Allgemeinen zum Spezifischen, die Begründung für die am wenigsten berührungsintensive Technik zuerst sowie die Notwendigkeit einer über den Behandlungsort hinausgehenden Kontrolluntersuchung (inkl. des Beispiels der früh wiedererwachten Lebensfreude vor sichtbarer Beschwerdebesserung) sind im Original so beschrieben. Bewusst nicht in diesen Eintrag übernommen: der in Kap. 4.6.1–4.6.3 desselben Abschnitts beschriebene Schritt der globalen Rhythmusdifferenzierung zwischen myofaszialem und kraniosakralem System (zur Entscheidung, welches System zuerst behandelt wird) — dieser Schritt setzt die Wahrnehmbarkeit eines eigenständigen kraniosakralen Rhythmus voraus, der nicht unabhängig bestätigt ist (vgl. Einordnung bei `somatische-dysfunktion-art-kriterienraster` sowie die ausführliche Herkunfts-/Evidenzeinordnung in `kraniosakraler-rhythmus-herkunft-wissenschaftlicher-status`), und wurde daher nicht als eigenständige Untersuchungstechnik in diesen Eintrag übernommen.",
     relatedCaseIds: [],
     relatedAnatomyIds: [],
   },

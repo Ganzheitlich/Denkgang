@@ -2457,16 +2457,30 @@ Kapitel.
   restlichen Kapitels (S. 125–147, 158–162: Organtopografie, viszerales
   Faszienskelett, Organverbindung über embryonalen Ursprung) wurde auf
   Basis dieses Befunds nicht mehr für nötig gehalten.
-- [ ] Kap. 9 „Kraniosakrale Techniken" (S. 163–223): primär respiratorischer
-  Mechanismus, kraniosakraler Rhythmus, Stillpunkt, SSB/SSO-Technik. Die
-  Grundannahme eines bei erwachsenen Säugetieren mit verknöcherten
-  Schädelnähten weiterhin beweglichen/rhythmischen Schädels ist
-  wissenschaftlich umstritten und nicht unabhängig bestätigt — deutlich
-  strittiger als die übrigen Kapitel dieser Quelle. Falls überhaupt
-  extrahiert, nur mit explizit gekennzeichnetem Theoriemodell-Status
-  („nach osteopathischer Lehre", nicht als gesicherte Anatomie/Physiologie)
-  und nur dort, wo ein eigenständiger klinisch-didaktischer Mehrwert für
-  Denkgangs Physiotherapie-Fokus erkennbar ist — eher niedrige Priorität.
+- [x] **Kap. 9.1/9.1.1 „Grundlagen der kraniosakralen Osteopathie" ausgewertet
+  (15.10.2026), S. 163f. (Chunk o(30).pdf).** Statt der konkreten
+  Palpations-/Behandlungstechniken (Stillpunkt, SSB/SSO — bewusst weiterhin
+  NICHT übernommen, siehe unten) wurde das Einleitungs-/Grundlagenkapitel
+  extrahiert, das genau die Herkunft und den wissenschaftlichen Status des
+  Konzepts beschreibt, auf das die Bibliothek an mehreren Stellen bereits
+  verweist, ohne es je erklärt zu haben. Neuer Eintrag
+  `kraniosakraler-rhythmus-herkunft-wissenschaftlicher-status`
+  (BIOMECHANIK): Sutherland-Historie („The Cranial Bowl", 1939), die
+  PRM-Kernbehauptung (synchrone Kranium-/Sakrum-Bewegung), sowie — zentral —
+  die **wörtliche Selbsteinschätzung der Quelle**, der Antriebsmotor des
+  Rhythmus sei „bis heute wissenschaftlich nicht eindeutig geklärt" und
+  müsse als „noch nicht geklärtes Palpationsphänomen" bezeichnet werden.
+  Zusätzlich der einzige zitierte Tierversuchsbefund (Heisey/Adams: Sutura-
+  sagittalis-Bewegung bei anästhesierten Katzen nach Ventrikel-Injektion)
+  mit expliziter Abgrenzung, dass dieser Befund Nahtbeweglichkeit zeigt,
+  nicht aber den behaupteten eigenständigen Ganzkörper-Rhythmus. Rückverweise
+  in drei bestehende Einträge ergänzt (`zehner-test-hund-globale-
+  spannungsuntersuchung`, sowie Nennung in den bereits bestehenden
+  Stillpunkt-Ausschlussbegründungen). Die konkreten Techniken aus Kap. 9
+  selbst (S. 165ff.) bleiben weiterhin bewusst nicht extrahiert — sie setzen
+  die hier kritisch eingeordnete Rhythmuswahrnehmung als gegeben voraus.
+  1 neuer Wissenseintrag (357 → 358), tsc/eslint sauber, Build grün, via
+  Playwright verifiziert (1/1 Seite, 0 Fehler).
 - [ ] Kap. 10 „Von der Technik zur Kunst" (S. 224–227): ganzheitliche
   Denkweise, eher philosophisch/zusammenfassend — niedrige Priorität.
 - [ ] Anhang (Abkürzungen, Lage-/Richtungsbezeichnungen, Glossar, Literatur,
@@ -5102,15 +5116,28 @@ gelesenen Quellen:
       bewusst ausgelassen (Quelle: keine eigenständig testbare Funktion).
       4 neue Anatomie-Items (47 → 51) plus 1 Edit, via Playwright
       verifiziert (5/5 Review-Seiten, 0 Fehler).
-- [ ] Weitere Muskeln aus Hárrer (Regionen-Kapitel wie Kap. 12 sind für
-      Ursprung/Ansatz/Funktion ergiebiger als Hohmanns Landmarken-Atlas Kap. 7,
-      der nur beschriftete Abbildungen ohne Fließtext-Details liefert) —
-      systematisch Region für Region weiterlesen
-- [ ] Knochen- und Gelenkpunkte aus Hohmann Kap. 7 „Markante Knochenpunkte und
-      tastbare Muskeln" (b9.pdf) — enthält nur beschriftete Abbildungen (Liste
-      tastbarer Landmarken), keine Ursprung/Ansatz/Funktion-Angaben; eher als
-      Ergänzung für `palpationHint`/Bildbriefe geeignet, nicht als alleinige
-      Quelle für ein vollständiges Anatomie-Item
+- [ ] Weitere Muskeln aus Hárrer — **Hinweis (15.10.2026):** Dieser Punkt ist
+      vermutlich bereits erledigt/veraltet. Mehrere spätere Roadmap-Einträge
+      bestätigen unabhängig voneinander, dass Hárrer Kap. 6–17 vollständig
+      durchgearbeitet wurde (u. a. „damit sind Hárrer Kap. 6–13 vollständig
+      ausgewertet", „damit ist Hárrer im Kern (Kap. 6–17) durchgearbeitet",
+      sowie die am 13.10.2026 bestätigte vollständige Gegenprüfung von
+      Kap. 16). Vor einem erneuten Leseversuch zuerst grep gegen
+      `src/lib/seedContent.ts` nach bereits vorhandenen Muskel-Items aus der
+      jeweils ins Auge gefassten Region, nicht blind neu lesen.
+- [x] **Knochen- und Gelenkpunkte aus Hohmann Kap. 7 „Markante Knochenpunkte
+      und tastbare Muskeln" (b9.pdf) erneut geprüft (15.10.2026) — Befund
+      bestätigt.** Direktabruf der Datei zeigt: reine Abbildungslegenden
+      (Frontal-/Kaudal-/Lateral-/Dorsal-/Ventralansicht, Kopf, Vorder-/
+      Hintergliedmaße) ohne jeden erklärenden Fließtext — nur Label-Listen
+      wie „Tuberositas deltoidea", „Fossa poplitea" ohne Kontext. Keine
+      „eigene Erklärung" im Sinne von MASTER-PROMPT §10 lässt sich daraus
+      synthetisieren, ohne klinische Bedeutung zu erfinden, die die Quelle
+      nicht hergibt — bewusst **nicht** als Wissenseintrag oder
+      Anatomie-Item-Quelle verwendet. Bleibt wie ursprünglich vermerkt nur
+      als stichwortartige `palpationHint`-Ergänzung einzelner, bereits
+      bestehender Anatomie-Items denkbar, falls im Einzelfall ein
+      Landmarken-Name fehlt — kein eigenständiges Extraktionsziel mehr.
 
 ### VERWORFEN — Waibl/Mayrhofer/Matis/Köstlin/Wilkens, Atlas der Röntgenanatomie des Hundes (Thieme/Enke, 3. Aufl. 2012)
 
