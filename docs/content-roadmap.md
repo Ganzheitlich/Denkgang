@@ -5648,6 +5648,84 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Cross-Referenz-Audit 0 offene Verweise (171 Backtick-Referenzen),
       Production-Build grün, Playwright-Stichprobe (molly, rocco, wanda)
       gegen die Review-Seite — 0 Konsolen-/Seitenfehler.
+- [x] Fälle 36–45 (Batch 3 des ~100-Fälle-Ausbaus, 17.10.2026): Dritte
+      Zehnergruppe, weiterhin ausschließlich aus Koch/Fischer
+      (Lahmheitsuntersuchung beim Hund), VetCenter (Hundekrankheiten
+      kompakt) und Hárrer (Manuelle Therapie beim Hund) kombiniert.
+      Schwerpunkt: postoperative/infektiöse Komplikationen, periphere
+      Nerven-vs-Gelenk-Diagnostikfallen und Schließung des seit Batch 1
+      offenen HWS/BWS/LWS-Facettengelenke-Backlogpunkts:
+      - **`cooper`** (Australian Shepherd, 2 J.) — Avulsion der Sehne des
+        M. extensor digitorum longus als iatrogene Komplikation nach
+        Kreuzband-OP (Hyperflexion der Zehen bei stabilem Kniegelenk).
+        Quelle: `weitere-knieerkrankungen-hund`.
+      - **`otto`** (Riesenschnauzer, 5 J.) — Osteomyelitis nach
+        Fraktur-OP, mit der klinisch zentralen Schwierigkeit, sie von
+        einem normalen verzögerten Heilungsverlauf zu unterscheiden.
+        Quelle: `osteomyelitis-hund`.
+      - **`finn`** (Irish Setter, 4 J.) — Diskospondylitis, blutgetragen
+        von einer abgeklungenen Zahnfleischentzündung ausgehend, mit dem
+        Lernziel, dass ein frisches Röntgenbild die Erkrankung noch nicht
+        zeigen muss. Quelle:
+        `diskospondylitis-hund-infektionsherd-anderswo-roentgen-verzoegerung`.
+      - **`zoe`** (Magyar Vizsla, 4 J.) und **`toni`** (Appenzeller
+        Sennenhund, 5 J.) — zwei Nerv-vs-Struktur-Diagnostikfallen: Zoe
+        zeigt, dass eine positive Gelenkprovokation am Os carpi
+        accessorium auch neurogen (N.-ulnaris-Ast, Loge-de-Guyon-Analogie)
+        statt arthrogen bedingt sein kann; Toni zeigt, warum ein beim
+        Menschen bekanntes „Piriformis-Syndrom" wegen des abweichenden
+        N.-ischiadicus-Verlaufs nicht unkritisch auf den Hund übertragen
+        werden darf. Quellen:
+        `os-carpi-accessorium-nervus-ulnaris-differenzierung`,
+        `n-ischiadicus-verlauf-kein-piriformis-syndrom`.
+      - **`milo`** (Flat Coated Retriever, 5 J.) — Tendovaginitis des
+        M. abductor pollicis longus, radiologisch von einer Neoplasie des
+        distalen Radius abzugrenzen. Quelle:
+        `tendovaginitis-abductor-pollicis-longus`.
+      - **`caesar`** (Beauceron, 9 J.) — hypertrophe Osteopathie
+        (Marie-Bamberger-Syndrom) als Alarmsignal für einen verdeckten
+        Lungentumor, statt die Gliedmaßenschwellung isoliert zu behandeln.
+        Quelle: `hypertrophe-osteopathie-marie-bamberger`.
+      - **`paula`** (Großer Münsterländer, 6 J.) — Dreier-Differenzierung
+        bei Zehenbeknabbern (Allergie/Arthrose/Nervenreizung), strukturell
+        wie Balthasars Panostitis-Dreier. Quelle:
+        `zehen-beknabbern-differentialdiagnosen`.
+      - **`caruso`** (Großpudel, 11 J.) — idiopathisches geriatrisches
+        Vestibulärsyndrom, abgegrenzt von Otitis media/interna und einer
+        zentralen Hirnstammläsion. Quelle:
+        `neurologische-erkrankungen-gehirn-vestibulaer-hirnstamm`
+        (Vestibulärapparat-/Hirnstamm-Tabellen).
+      - **`max`** (Deutscher Schäferhund, 6 J.) — chronischer, diffuser
+        LWS-Schmerz durch rassetypisch ungünstige Facettengelenkgeometrie
+        (42 % der Schäferhunde betroffen) statt eines lokalisierbaren
+        Bandscheibenvorfalls; schließt den seit Batch 1 offenen
+        Backlogpunkt „HWS/BWS/LWS-Facettengelenke als primäre
+        Falldiagnose". Quelle: `lws-facettengeometrie-instabilitaet-bandscheibe`.
+
+      `relatedCaseIds` ergänzt bei `weitere-knieerkrankungen-hund`
+      (→ `cooper`), `osteomyelitis-hund` (→ `otto`),
+      `diskospondylitis-hund-infektionsherd-anderswo-roentgen-verzoegerung`
+      (→ `finn`), `os-carpi-accessorium-nervus-ulnaris-differenzierung`
+      (→ `zoe`), `n-ischiadicus-verlauf-kein-piriformis-syndrom` (→ `toni`),
+      `tendovaginitis-abductor-pollicis-longus` (→ `milo`),
+      `hypertrophe-osteopathie-marie-bamberger` (→ `caesar`),
+      `zehen-beknabbern-differentialdiagnosen` (→ `paula`),
+      `neurologische-erkrankungen-gehirn-vestibulaer-hirnstamm`
+      (→ `caruso`), `lws-facettengeometrie-instabilitaet-bandscheibe`
+      (→ `max`). Keine neuen `AnatomyItem.relatedCaseId`-Verknüpfungen
+      (keines der zehn Themen hatte ein noch unbelegtes Anatomie-Item).
+      Bewusst NICHT für einen eigenen Fall verwendet:
+      `karpaltunnelsyndrom-hund-hypothese` (von der Autorin selbst
+      ausdrücklich als unbewiesene Hypothese markiert, nicht als belegter
+      Befund — als Fallgrundlage mit einer "richtigen" Antwort ungeeignet,
+      ohne die Unsicherheit zu verfälschen; bleibt reines
+      Wissensbibliothek-Material). Keine neue Primärrecherche nötig, alle
+      zehn Fälle kombinieren ausschließlich bereits verifizierte Fakten aus
+      bestehenden Wissenseinträgen zu neuen klinischen Szenarien.
+      Verifiziert: eslint sauber, tsc sauber, Reseed 45 Fälle (35 → 45),
+      Cross-Referenz-Audit 0 offene Verweise (177 Backtick-Referenzen),
+      Production-Build grün, Playwright-Stichprobe (zoe, toni, caruso)
+      gegen die Review-Seite — 0 Konsolen-/Seitenfehler.
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — bewusst zurückgestellt, siehe Begründung oben
@@ -5655,33 +5733,31 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       mit offen ausgewiesener Unsicherheit statt als sichere Diagnose),
       Tarsus-Gelenk/-Bänder selbst (`art-tarsi`, `ligg-tarsi` — Muskeln/
       Knochen dieser Region sind über Balu/Moritz jetzt abgedeckt,
-      Gelenk/Bänder noch nicht als primäre Diagnose), HWS/BWS/LWS-
-      Facettengelenke als eigenständige, primäre Falldiagnose
-      (`facettengelenke-hws`/`-bws`/`-lws` — anatomisch umfassend
-      dokumentiert und über `rueckenmark`/Filou/Gustav/Zeus indirekt
-      verknüpft, aber noch kein Fall mit einer reinen Facettenblockade als
-      Hauptdiagnose). PATHOLOGIE-Kategorie ist jetzt zu einem großen Teil
-      ausgeschöpft (74 → 64 Einträge ohne Fall-Link nach Batch 1,
-      weitere 10 nach Batch 2 verlinkt); noch offene PATHOLOGIE-Kandidaten
-      für künftige Batches u. a.: weitere Knieerkrankungen, Diskospondylitis,
-      Osteomyelitis, hypertrophe Osteopathie (Marie-Bamberger),
-      Hyperextensionstrauma Schulter/Hyperextensionstrauma Carpus (ggf.
-      als Vorderlauf-Pendant zu Lumpis Karpalgelenk-Fall, falls eine
-      hinreichend unterschiedliche Präsentation gefunden wird),
-      Tendovaginitis M. abductor pollicis longus, Metaplasie Beugesehnen
-      (MEHB), Kopftrauma, Wirbelfraktur/-luxation, sowie diverse
-      Nerven-/Schmerzphysiologie-Themen (UMN/OMN-Läsionslokalisation,
-      Seddon-Klassifikation als eigener Fall, Karpaltunnelsyndrom-Hypothese
-      u. a.). UNTERSUCHUNG- (72 ohne Fall-Link), THERAPIE- (41) und
-      BIOMECHANIK-Kategorien (75) noch nicht systematisch nach Fall-Lücken
-      durchsucht — lohnend u. a. für Untersuchungstechnik-fokussierte Fälle
-      („welche Untersuchung unterscheidet X von Y") und Biomechanik-
-      Grundlagenfälle. 35 Fälle insgesamt jetzt (Stand 17.10.2026, gegenüber
-      8 zu Sessionbeginn — mehr als vervierfacht), Zielmarke Vanessas liegt
-      bei ca. 100 — rund 65 weitere Fälle in kommenden Batches geplant, mit
-      fortgesetztem Fokus auf echte Varianz (unterschiedliche Diagnosen,
-      Regionen, Fallstrukturen, Fehlerkategorien) statt bloßer Wiederholung
-      ähnlicher Fälle.
+      Gelenk/Bänder noch nicht als primäre Diagnose). HWS/BWS-
+      Facettengelenke als eigenständige, primäre Falldiagnose bleiben offen
+      (`facettengelenke-hws`/`-bws` — LWS-Facettengelenke sind über Max
+      jetzt abgedeckt). PATHOLOGIE-Kategorie ist jetzt weitgehend
+      ausgeschöpft; verbleibende PATHOLOGIE-Kandidaten u. a.: Metaplasie
+      Beugesehnen (MEHB), Distractio cubiti/Radius curvus/Carpus valgus,
+      Karpalgelenk-Hyperextensionstrauma als zweiter, deutlich anders
+      gelagerter Fall (akutes Trauma statt Lumpis chronischer Degeneration
+      — ggf. möglich, wurde in Batch 2 bewusst zurückgestellt), Kopftrauma,
+      Wirbelfraktur/-luxation, sowie diverse Nerven-/Schmerzphysiologie-
+      Grundlagenthemen (UMN/OMN-Läsionslokalisation, Mono-/Polyneuropathie-
+      Lokalisation, Seddon-Klassifikation — eher als Hintergrundwissen für
+      künftige Neuro-Fälle geeignet denn als eigenständige Fälle, da zu
+      abstrakt/taxonomisch für ein einzelnes klinisches Szenario mit einer
+      eindeutig richtigen Antwort). UNTERSUCHUNG- (72 ohne Fall-Link),
+      THERAPIE- (41) und BIOMECHANIK-Kategorien (75) weiterhin nicht
+      systematisch nach Fall-Lücken durchsucht — lohnend u. a. für
+      Untersuchungstechnik-fokussierte Fälle („welche Untersuchung
+      unterscheidet X von Y") und Biomechanik-Grundlagenfälle. 45 Fälle
+      insgesamt jetzt (Stand 17.10.2026, gegenüber 8 zu Sessionbeginn — mehr
+      als verfünffacht), Zielmarke Vanessas liegt bei ca. 100 — rund 55
+      weitere Fälle in kommenden Batches geplant, mit fortgesetztem Fokus
+      auf echte Varianz (unterschiedliche Diagnosen, Regionen,
+      Fallstrukturen, Fehlerkategorien) statt bloßer Wiederholung ähnlicher
+      Fälle.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→

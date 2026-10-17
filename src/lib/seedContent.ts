@@ -2550,6 +2550,636 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.2 (siehe Wissenseintrag `degenerative-lumbosakrale-stenose-cauda-equina`), S. 230–232. Ätiologie, Klinik, die Pseudohyperreflexie samt Mechanismus, Bildgebung und Therapie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "cooper",
+    topic: "Orthopädie · Knie (postoperative Komplikation)",
+    species: "Australian Shepherd, Rüde, 2 J.",
+    title: "Cooper — Zehen bleiben nach Kreuzband-OP überstreckt",
+    learningObjective:
+      "Die iatrogene oder traumatische Avulsion der Sehne des M. extensor digitorum longus als eigenständige postoperative Komplikation erkennen, statt sie vorschnell dem eigentlichen Kreuzbandproblem zuzuschreiben.",
+    anamnese:
+      "Cooper hatte vor vier Wochen eine Operation wegen eines Kreuzbandrisses. Seit der OP fällt den Besitzern auf, dass die Zehen des operierten Beins beim Laufen ungewöhnlich überstreckt wirken und sich nicht mehr normal nach oben beugen.",
+    beobachtung:
+      "Cooper zeigt eine deutliche Hyperflexion der Zehen des operierten Hinterbeins beim Vorschwingen, mit moderater Lahmheit; das Kniegelenk selbst wirkt stabil.",
+    diagramLabel: "Dauerhafte Hyperflexion der Zehen des operierten Hinterbeins seit Kreuzband-OP, Kniegelenk stabil",
+    palpation:
+      "Das Kniegelenk ist leicht gefüllt und bei Palpation dolent, zeigt aber keine Schublade und keine Instabilität. Entlang des lateralen Femurcondylus ist eine umschriebene Schwellung tastbar, die Zehenbeugung lässt sich passiv nur eingeschränkt auslösen.",
+    hypothesisQ: "Was erklärt Coopers Befund am besten?",
+    hypothesisOptions: [
+      { label: "Avulsion der Sehne des M. extensor digitorum longus im Rahmen der Kreuzband-OP", correct: true },
+      {
+        label: "Ein Rezidiv der ursprünglichen Kreuzbandinstabilität",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Das Kniegelenk zeigt bei Cooper keine Schublade und keine Instabilität — das spricht gegen ein Rezidiv der Kreuzbandproblematik und für eine separate, davon unabhängige Komplikation im selben Operationsgebiet.",
+      },
+      {
+        label: "Eine normale, vorübergehende postoperative Schonhaltung ohne eigenständige Ursache",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die dauerhafte Hyperflexion der Zehen mit tastbarer umschriebener Schwellung am lateralen Femurcondylus ist ein eigenständiger, lokalisierbarer Befund — eine reine Schonhaltung würde sich nicht als spezifische Zehenfehlstellung zeigen.",
+      },
+      {
+        label: "Eine Osteochondrose des Kniegelenks",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Osteochondrose beträfe junge, wachsende Hunde vor Abschluss des Längenwachstums und würde sich nicht als isolierte Zehenhyperflexion unmittelbar nach einer Kreuzband-Operation zeigen.",
+      },
+    ],
+    expertNote:
+      "Die Sehne des M. extensor digitorum longus entspringt der Fossa extensoria des lateralen Femurcondylus und kann bei der Eröffnung des Kniegelenks von lateral — etwa im Rahmen einer Kreuzband- oder Patella-Operation — versehentlich verletzt oder durchtrennt werden (iatrogen); bei jungen Hunden entstehen Abrisse auch rein traumatisch, meist mit einem kleinen mitausgerissenen Stück des Femurcondylus. Klinisch zeigt sich eine Hyperflexion der Zehen mit moderater Lahmheit bei stabilem, aber gefülltem und dolentem Kniegelenk — genau das Bild bei Cooper. Unbehandelt bleibt die Hyperflexion der Zehen dauerhaft bestehen, teils durch Physiotherapie kompensierbar; meist wird die Sehne aber am Femur oder, bei chronischem Verlauf mit starker Sehnenverkürzung, an der proximalen Tibia refixiert.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine EDL-Avulsion und für ein echtes Kreuzbandrezidiv sprechen?",
+    weakeningOptions: [
+      { label: "Eine deutlich positive Schublade bei der Kniegelenksuntersuchung", correct: true },
+      { label: "Dauerhafte Hyperflexion der Zehen des operierten Beins", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine umschriebene Schwellung entlang des lateralen Femurcondylus", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein stabiles, aber gefülltes und dolentes Kniegelenk", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum kann die Sehne des M. extensor digitorum longus gerade bei Kreuzband- oder Patella-Operationen gefährdet sein?",
+    retrievalOptions: [
+      {
+        label: "Weil sie an der Fossa extensoria des lateralen Femurcondylus entspringt und bei unvorsichtiger lateraler Eröffnung des Kniegelenks verletzt werden kann",
+        correct: true,
+      },
+      { label: "Weil sie direkt im Verlauf des Kreuzbandes selbst liegt", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Weil sie am medialen statt lateralen Femurcondylus entspringt", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Ein Zusammenhang zwischen dieser Sehne und Kniegelenksoperationen besteht nicht", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.6 (siehe Wissenseintrag `weitere-knieerkrankungen-hund`), S. 206–208. Anatomie, Mechanismus (inkl. iatrogener Verletzung bei Kreuzband-/Patella-Operationen), Klinik und Therapie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "otto",
+    topic: "Orthopädie · Knocheninfektion (postoperativ)",
+    species: "Riesenschnauzer, Rüde, 5 J.",
+    title: "Otto — Wunde heilt nach Fraktur-OP nicht richtig ab",
+    learningObjective:
+      "Eine beginnende Osteomyelitis von einem normalen, leicht verzögerten postoperativen Heilungsverlauf unterscheiden und verstehen, warum eine Knochenkultur statt eines Fistelabstrichs für die Erregerbestimmung nötig ist.",
+    anamnese:
+      "Otto hatte vor fünf Wochen eine operativ versorgte Unterschenkelfraktur. Die Wunde sah zunächst unauffällig aus, seit einer Woche ist die Operationsstelle aber wieder deutlich geschwollen und warm, und Otto belastet das Bein kaum noch.",
+    beobachtung:
+      "Otto entlastet das operierte Bein deutlich, die Region um die Operationsstelle ist sichtbar geschwollen; Otto wirkt insgesamt matt und frisst weniger als sonst.",
+    diagramLabel: "Erneut geschwollene, warme Operationsstelle fünf Wochen nach Frakturversorgung, zunehmende Entlastung des Beins",
+    palpation:
+      "Die Operationsregion ist deutlich überwärmt und bei Palpation stark dolent; ein kleiner, feuchter Punkt an der alten Hautnaht deutet auf einen beginnenden Fistelkanal hin.",
+    hypothesisQ: "Was erklärt Ottos Befund am besten?",
+    hypothesisOptions: [
+      { label: "Osteomyelitis nach der Operation", correct: true },
+      {
+        label: "Ein normaler, lediglich etwas verzögerter postoperativer Heilungsverlauf",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Eine zunehmende statt abklingende Schwellung, Überwärmung und ein neu auftretender feuchter Punkt an der Naht fünf Wochen nach der OP sind untypisch für einen normalen Heilungsverlauf — gerade weil sich eine beginnende Osteomyelitis von einem leicht verzögerten Heilungsverlauf oft kaum unterscheiden lässt, muss bei solchen Warnzeichen aktiv weiter abgeklärt werden, statt abzuwarten.",
+      },
+      {
+        label: "Eine rein oberflächliche Hautinfektion ohne Knochenbeteiligung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die Kombination aus deutlicher Schmerzhaftigkeit, zunehmender Entlastung des Beins und reduziertem Allgemeinbefinden spricht für eine tiefer liegende, den Knochen betreffende Infektion und nicht nur für eine oberflächliche Wundinfektion.",
+      },
+      {
+        label: "Eine erneute Fraktur an derselben Stelle",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Es gibt kein neues Trauma in der Vorgeschichte; das schleichende Wiederauftreten von Schwellung und Schmerz mit beginnender Fistelbildung passt besser zu einer Infektion als zu einer erneuten Fraktur.",
+      },
+    ],
+    expertNote:
+      "Die meisten Knocheninfektionen sind bakteriell, mit typischen Eintrittspforten über offene Frakturen, Knochensequester oder iatrogene Wundinfektionen nach chirurgischen Eingriffen. Nach vorausgegangenen orthopädischen Eingriffen lässt sich eine beginnende Osteomyelitis kaum von einem normalen, leicht verzögerten Heilungsverlauf unterscheiden — Fistelkanäle zeigen sich erst im chronischen Verlauf und schließen sich unter Antibiose, um nach deren Absetzen erneut aufzubrechen, wie sich bei Otto andeutet. Eine akute Osteomyelitis zeigt im Röntgenbild proliferative periostale Reaktionen, Osteolyse der Kompakta und diffuse Weichteilschwellung. Für eine sichere Erregerbestimmung muss eine Knochenkultur entnommen werden — Fistelkanal-Abstriche sind nicht diagnostisch verwertbar —, idealerweise nach mindestens 48 Stunden ohne vorherige Antibiotikagabe. Lokal begrenzte Fälle ohne Beeinträchtigung des Allgemeinbefindens können antibiotisch behandelt werden; ausgedehntere Fälle benötigen zusätzlich ein chirurgisches Debridement mit Entfernung nekrotischer Knochenstücke und ggf. Implantatentfernung.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für einen normalen postoperativen Heilungsverlauf statt für eine Osteomyelitis sprechen?",
+    weakeningOptions: [
+      {
+        label:
+          "Abnehmende statt zunehmende Schwellung und Überwärmung, normales Allgemeinbefinden, zunehmende statt abnehmende Belastung des Beins",
+        correct: true,
+      },
+      { label: "Eine zunehmend geschwollene, warme Operationsstelle fünf Wochen nach der OP", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein feuchter Punkt an der alten Hautnaht", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Reduziertes Allgemeinbefinden mit vermindertem Appetit", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum ist ein Fistelkanal-Abstrich für die Erregerbestimmung bei Osteomyelitis nicht diagnostisch verwertbar?",
+    retrievalOptions: [
+      {
+        label: "Weil für eine sichere Erregerbestimmung eine Knochenkultur nötig ist — ein Abstrich erfasst nicht zuverlässig die tatsächlichen Erreger im infizierten Knochen",
+        correct: true,
+      },
+      { label: "Weil Fistelkanäle grundsätzlich steril und ohne jeden diagnostischen Wert sind", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil ein Abstrich genauso aussagekräftig ist wie eine Knochenkultur", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil bei Osteomyelitis grundsätzlich keine Erregerbestimmung nötig ist", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.6 (siehe Wissenseintrag `osteomyelitis-hund`), S. 190–192. Ätiologie, Klinik (inkl. der schweren Abgrenzbarkeit vom normalen postoperativen Heilungsverlauf), Diagnostik (Knochenkultur statt Fistelabstrich) und Therapieprinzip sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "finn",
+    topic: "Neurologie · Wirbelsäuleninfektion (Diskospondylitis)",
+    species: "Irish Setter, Rüde, 4 J.",
+    title: "Finn — Rückenschmerz und Fieberschübe, Ursache zunächst unklar",
+    learningObjective:
+      "Die Diskospondylitis als meist blutgetragene Infektion mit oft weit entfernt liegendem Primärherd erkennen und verstehen, warum ein frisches Röntgenbild die Erkrankung noch nicht zeigen muss.",
+    anamnese:
+      "Finn hatte vor zwei Wochen eine Zahnfleischentzündung, die mittlerweile abgeklungen ist. Seit einigen Tagen zeigt er wiederkehrende Fieberschübe, frisst schlechter und bewegt sich deutlich widerwilliger.",
+    beobachtung:
+      "Finn bewegt sich insgesamt vorsichtig und mit deutlicher Bewegungsunlust; sein Allgemeinbefinden wirkt reduziert, mit wiederkehrend erhöhter Temperatur.",
+    diagramLabel: "Wiederkehrende Fieberschübe, Inappetenz und deutliche Bewegungsunlust, Vorgeschichte mit abgeklungener Zahnfleischentzündung",
+    palpation:
+      "Die Druckpalpation der mittleren Brustwirbelsäule ist hochgradig lokal schmerzhaft; der übrige Bewegungsapparat zeigt keine auffälligen Befunde. Ein frisches Röntgenbild der Wirbelsäule, das vor zwei Tagen angefertigt wurde, war unauffällig.",
+    hypothesisQ: "Was erklärt Finns Befund am besten?",
+    hypothesisOptions: [
+      { label: "Diskospondylitis, vermutlich blutgetragen ausgehend von der vorangegangenen Zahnfleischentzündung", correct: true },
+      {
+        label: "Eine primäre Erkrankung der Wirbelsäule ohne Zusammenhang mit der Zahnfleischentzündung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Die Ursache einer Diskospondylitis liegt in aller Regel nicht in der Wirbelsäule selbst — Hunde mit vorangegangenen Periodontinfektionen sind besonders gefährdet, weil Bakterien über den Blutweg aus einem ganz anderen Infektionsherd in die Bandscheibenregion gelangen können.",
+      },
+      {
+        label: "Ausschluss einer relevanten Wirbelsäulenerkrankung, da das aktuelle Röntgenbild unauffällig war",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Charakteristische röntgenologische Veränderungen bei Diskospondylitis werden frühestens 10 bis 14 Tage nach der Infektion sichtbar — ein aktuell unauffälliges Röntgenbild schließt die Erkrankung bei entsprechendem klinischem Verdacht deshalb nicht aus; CT und MRT erkennen die Veränderungen deutlich früher.",
+      },
+      {
+        label: "Eine unspezifische virale Allgemeinerkrankung ohne lokalisierbare Ursache",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die hochgradig lokalisierte Schmerzhaftigkeit bei Druckpalpation der mittleren Brustwirbelsäule zeigt einen konkret lokalisierbaren Befund, der gegen eine rein unspezifische, nicht lokalisierbare Allgemeinerkrankung spricht.",
+      },
+    ],
+    expertNote:
+      "Diskospondylitis bezeichnet eine meist chronisch verlaufende Entzündung von Bandscheibe, angrenzenden Wirbelendplatten und Wirbelkörpern. Die Ursache liegt in aller Regel nicht in der Wirbelsäule selbst: Am häufigsten gelangen Bakterien über den Blutweg aus einem ganz anderen Infektionsherd in die Bandscheibenregion — Hunde mit bestehenden Harnapparat-, Periodont-, Herzklappen- oder Hautinfektionen sind besonders gefährdet, wie bei Finn mit seiner vorangegangenen Zahnfleischentzündung. Junge bis mittelaltrige Rüden großer Rassen sind bevorzugt betroffen, mit Prädilektionsstellen an kaudaler Halswirbelsäule, mittlerer Brustwirbelsäule sowie thorakolumbalem und lumbosakralem Übergang. Diskospondylitis beginnt oft subklinisch und kann sich jederzeit akut zuspitzen: hochgradige, lokal begrenzte Schmerzhaftigkeit, Fieberschübe, Inappetenz und deutliche Bewegungsunlust. Ein frisch infizierter Hund kann röntgenologisch noch vollkommen unauffällig sein — charakteristische Veränderungen werden frühestens 10 bis 14 Tage nach der Infektion sichtbar. Die endgültige Diagnose stützt sich zusätzlich auf wiederholte Blutkulturen und bakteriologische Harnuntersuchungen.",
+    weakeningQ: "Welcher zusätzliche Befund würde am ehesten gegen eine Diskospondylitis und für eine rein degenerative Wirbelsäulenerkrankung (Spondylosis deformans) sprechen?",
+    weakeningOptions: [
+      {
+        label:
+          "Unauffälliges Allgemeinbefinden ohne Fieber über einen langen Zeitraum, mit im Verlauf nachweisbarer Osteophytenbildung aber ohne Lyse der Wirbelendplatten",
+        correct: true,
+      },
+      { label: "Wiederkehrende Fieberschübe und deutliche Inappetenz", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Hochgradig lokal begrenzte Schmerzhaftigkeit bei Druckpalpation der Wirbelsäule", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine vorangegangene Infektion außerhalb der Wirbelsäule in der Anamnese", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum kann ein Röntgenbild der Wirbelsäule bei frisch beginnender Diskospondylitis noch unauffällig sein?",
+    retrievalOptions: [
+      {
+        label: "Weil charakteristische röntgenologische Veränderungen wie Osteolyse der Endplatten erst 10 bis 14 Tage nach der Infektion sichtbar werden",
+        correct: true,
+      },
+      { label: "Weil Diskospondylitis grundsätzlich nie im Röntgenbild sichtbar wird", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Röntgenaufnahmen der Wirbelsäule technisch erst nach mehreren Wochen möglich sind", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil ein unauffälliges Röntgenbild eine Diskospondylitis grundsätzlich ausschließt", correct: false, errorCategory: "Unterkonfidenz" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Diskospondylitis (siehe Wissenseintrag `diskospondylitis-hund-infektionsherd-anderswo-roentgen-verzoegerung`). Ätiologie (inkl. der typischen, oft weit entfernten Infektionsherde), Klinik, das verzögerte röntgenologische Zeitfenster sowie die weitere Diagnostik sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "zoe",
+    topic: "Orthopädie · Karpus (Nerv-vs-Gelenk-Differenzierung)",
+    species: "Magyar Vizsla, Hündin, 4 J.",
+    title: "Zoe — Karpusschmerz bei der Agility-Hündin, aber keine echte Gelenkblockade",
+    learningObjective:
+      "Erkennen, dass eine positive Gelenkprovokation am Os carpi accessorium nicht automatisch ein echtes Gelenkproblem bedeutet, sondern auch durch eine Reizung des darunterliegenden N.-ulnaris-Astes entstehen kann.",
+    anamnese:
+      "Zoe, eine aktive Agility-Hündin, zeigt seit einigen Wochen eine Zurückhaltung bei engen Wendungen und eine leichte Lahmheit nach intensivem Training. Die Besitzer berichten zudem gelegentliches Knabbern an der Pfote desselben Beins.",
+    beobachtung:
+      "Zoe zeigt eine leichte, belastungsabhängige Lahmheit mit spürbarem Meiden enger Wendungen beim Training; in Ruhe ist das Gangbild unauffällig.",
+    diagramLabel: "Belastungsabhängige, leichte Lahmheit mit Meiden enger Wendungen, gelegentliches Pfotenknabbern desselben Beins",
+    palpation:
+      "Die spezifische Provokation des Os carpi accessorium löst eine deutliche Schmerzreaktion aus. Bei gezielter Palpation entlang des N.-ulnaris-Astes an dieser Stelle reagiert Zoe zusätzlich mit Hyperästhesie; eine Gelenkfüllung oder Instabilität ist nicht nachweisbar.",
+    hypothesisQ: "Was erklärt Zoes Befund am besten?",
+    hypothesisOptions: [
+      {
+        label: "Mechanosensitive Reizung des N.-ulnaris-Astes unter der Bandfixierung des Os carpi accessorium, nicht ein echtes Gelenkproblem",
+        correct: true,
+      },
+      {
+        label: "Eine echte Blockade des Art. ossis carpi accessorii als rein arthrogenes Geschehen",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine positive spezifische Gelenkprovokation kann bei mechanosensitiv verändertem N. ulnaris genau an dieser Stelle positiv ausfallen, ohne dass ein echtes Gelenkproblem vorliegt — die fehlende Gelenkfüllung und die zusätzliche Hyperästhesie bei Nervenpalpation sprechen gegen ein rein arthrogenes Geschehen.",
+        differentiationDistractors: [
+          "Eine positive Gelenkprovokation beweist immer ein echtes Gelenkproblem.",
+          "Nervenreizungen können am Karpus grundsätzlich nicht wie ein Gelenkbefund aussehen.",
+        ],
+      },
+      {
+        label: "Eine Tendovaginitis des M. abductor pollicis longus",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Differentialdiagnose betrifft eine andere Struktur medial am distalen Radius mit einer tastbaren derben Schwellung — bei Zoe fehlt eine solche Schwellung, und der Befund liegt konkret im Bereich des Os carpi accessorium mit zusätzlicher Nervenhyperästhesie.",
+      },
+      {
+        label: "Eine rein verhaltensbedingte Zurückhaltung beim Training ohne körperliche Ursache",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die reproduzierbare Schmerzreaktion bei Provokation des Os carpi accessorium und die Hyperästhesie bei Nervenpalpation sind konkrete körperliche Befunde, die eine rein verhaltensbedingte Erklärung unwahrscheinlich machen.",
+      },
+    ],
+    expertNote:
+      "Das Os carpi accessorium ist in die Sehne der Mm. flexor et extensor carpi ulnaris eingelagert und artikuliert mit dem Os carpi ulnare; es ist zusätzlich ligamentär nach medial an der Handwurzel fixiert. Unter dieser ligamentären Struktur verläuft ein Ast des N. ulnaris — eine anatomische Situation, die der Loge de Guyon beim Menschen entspricht. Ist der N. ulnaris in diesem Bereich mechanosensitiv verändert, kann die spezifische Provokation des Os carpi accessorium positiv ausfallen, ohne dass tatsächlich ein Gelenkproblem vorliegt. Dieses Bild — eine vermeintliche „Blockade” des Os carpi accessorium — kommt gerade bei Sporthunden wie Zoe häufig vor. Der Therapeut muss deshalb aktiv differenzieren, ob die Schmerzreaktion arthrogen oder neurogen bedingt ist, statt die positive Gelenkprovokation unkritisch als Diagnose zu übernehmen.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für ein echtes, arthrogenes Gelenkproblem und gegen eine rein neurogene Ursache sprechen?",
+    weakeningOptions: [
+      { label: "Eine tastbare Gelenkfüllung und Instabilität im Art. ossis carpi accessorii, ohne Hyperästhesie bei Nervenpalpation", correct: true },
+      { label: "Positive spezifische Provokation des Os carpi accessorium bei fehlender Gelenkfüllung", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Hyperästhesie bei Palpation entlang des N.-ulnaris-Astes", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Gelegentliches Knabbern an der Pfote desselben Beins", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welcher menschlichen anatomischen Situation entspricht der Verlauf des N.-ulnaris-Astes unter der ligamentären Fixierung des Os carpi accessorium?",
+    retrievalOptions: [
+      { label: "Der Loge de Guyon", correct: true },
+      { label: "Dem Karpaltunnel", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Dem Sulcus nervi ulnaris am Ellbogen", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Es gibt keine vergleichbare Situation beim Menschen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 15.2.1 (siehe Wissenseintrag `os-carpi-accessorium-nervus-ulnaris-differenzierung`), S. 194. Die anatomische Lage, die Loge-de-Guyon-Analogie, die diagnostische Falle und die geforderte arthrogen/neurogen-Differenzierung sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "toni",
+    topic: "Orthopädie · Becken/Oberschenkel (Nervenverlauf)",
+    species: "Appenzeller Sennenhund, Rüde, 5 J.",
+    title: "Toni — Gesäßschmerz, den der Besitzer als „Piriformis-Syndrom” googelte",
+    learningObjective:
+      "Verstehen, dass eine beim Menschen bekannte Differentialdiagnose (Piriformis-Syndrom) nicht unkritisch auf den Hund übertragen werden darf, weil der N. ischiadicus dort anatomisch anders verläuft.",
+    anamnese:
+      "Toni zeigt seit zwei Wochen eine leichte Lahmheit hinten rechts mit Schmerzempfindlichkeit im Gesäßbereich. Der Besitzer hat im Internet recherchiert und vermutet aufgrund eigener Erfahrung ein „Piriformis-Syndrom”.",
+    beobachtung:
+      "Toni zeigt eine leichte Lahmheit hinten rechts mit vorsichtigem Aufstehen; auf Druck im Bereich zwischen Trochanter major und Tuber ischiadicum reagiert er empfindlich.",
+    diagramLabel: "Leichte Lahmheit hinten rechts mit Schmerzempfindlichkeit zwischen Trochanter major und Tuber ischiadicum",
+    palpation:
+      "Druckschmerz ist sowohl zwischen Trochanter major und Tuber ischiadicum als auch etwas proximal des lateralen Gastrocnemiuskopfes auslösbar — beides klassische Druckpalpationspunkte entlang des Verlaufs des N. ischiadicus. Das Hüftgelenk selbst zeigt keinen Schmerz bei Streckung oder Abduktion.",
+    hypothesisQ: "Wie ist Tonis Befund fachlich korrekt einzuordnen?",
+    hypothesisOptions: [
+      {
+        label: "Eine Reizung des N. ischiadicus entlang seines charakteristischen Verlaufs — ein Piriformis-Syndrom wie beim Menschen gibt es beim Hund anatomisch nicht",
+        correct: true,
+      },
+      {
+        label: "Ein echtes Piriformis-Syndrom wie beim Menschen, durch einen hyperton gewordenen M. piriformis verursacht",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Beim Hund verläuft der N. ischiadicus zwischen Muskelschichten, die bei Überlastung eher abschwächen statt wie beim Menschen hyperton zu werden und ein Entrapment zu verursachen — eine 1:1-Übertragung der humanmedizinischen Diagnose auf den Hund ist ein Anatomieverwechslungs-Fehler.",
+        differentiationDistractors: [
+          "Was beim Menschen funktioniert, lässt sich immer 1:1 auf den Hund übertragen.",
+          "Druckschmerz im Gesäßbereich beweist automatisch ein Piriformis-Syndrom.",
+        ],
+      },
+      {
+        label: "Eine Hüftgelenkdysplasie mit sekundärer Schmerzausstrahlung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Das Hüftgelenk selbst ist bei Streckung und Abduktion schmerzfrei — der Befund konzentriert sich stattdessen konkret auf die bekannten Druckpalpationspunkte entlang des N.-ischiadicus-Verlaufs, was eher für eine Nervenreizung als für ein primäres Hüftgelenkproblem spricht.",
+      },
+      {
+        label: "Eine isolierte Zerrung der Hamstring-Muskulatur ohne Nervenbeteiligung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die Schmerzpunkte liegen genau an den für den N.-ischiadicus-Verlauf beschriebenen Druckpalpationsstellen, nicht diffus im gesamten Hamstring-Muskelbauch, was eher für eine Nervenreizung als für eine rein muskuläre Zerrung spricht.",
+      },
+    ],
+    expertNote:
+      "Die Nervenwurzeln L6–S2 bilden über den Truncus lumbosacralis den wichtigsten Anteil des N. ischiadicus. Der Nerv verlässt die Beckenhöhle durch die Incisura ischiadica major, zieht zwischen M. gluteus profundus und M. gluteus medius mit dem M. piriformis zum Trochanter major, den er kaudalseitig umrundet, und verläuft dann zwischen Trochanter major und Tuber ischiadicum in fettreichem, gut durchblutetem Bindegewebe unter der Glutealmuskulatur — hier können sich Entzündungen schnell ausbreiten. Ein Piriformis-Syndrom, wie man es aus der Humanphysiotherapie kennt, ist beim Hund anatomisch nicht möglich: Der N. ischiadicus verläuft hier zwischen Muskelschichten, die bei Überlastung eher abschwächen, statt hyperton zu werden und ein Entrapment zu verursachen. Die wichtigsten Druckpalpationspunkte liegen zwischen Trochanter major und Tuber ischiadicum sowie etwas proximal des lateralen Gastrocnemiuskopfes, kurz vor der Aufzweigung in N. tibialis und N. peroneus communis — genau diese beiden Punkte sind bei Toni positiv.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für eine primäre Hüftgelenkerkrankung statt für eine Reizung des N. ischiadicus sprechen?",
+    weakeningOptions: [
+      {
+        label: "Deutlicher Schmerz bei Streckung und Abduktion des Hüftgelenks selbst, mit Krepitation, aber unauffälligem Druckbefund entlang des Nervenverlaufs",
+        correct: true,
+      },
+      { label: "Druckschmerz zwischen Trochanter major und Tuber ischiadicum", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Druckschmerz proximal des lateralen Gastrocnemiuskopfes", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein bei Streckung und Abduktion schmerzfreies Hüftgelenk", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum ist ein Piriformis-Syndrom, wie es beim Menschen bekannt ist, beim Hund anatomisch nicht möglich?",
+    retrievalOptions: [
+      {
+        label: "Weil der N. ischiadicus beim Hund zwischen Muskelschichten verläuft, die bei Überlastung eher abschwächen statt hyperton zu werden und den Nerv einzuklemmen",
+        correct: true,
+      },
+      { label: "Weil der Hund gar keinen M. piriformis besitzt", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Weil der N. ischiadicus beim Hund überhaupt nicht in der Nähe des M. piriformis verläuft", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Ein Piriformis-Syndrom ist beim Hund genauso häufig wie beim Menschen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.5.3 (siehe Wissenseintrag `n-ischiadicus-verlauf-kein-piriformis-syndrom`), S. 288f. Der Nervenverlauf, die Aufzweigung, die explizite Verneinung eines caninen Piriformis-Syndroms sowie die Druckpalpationspunkte sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "milo",
+    topic: "Orthopädie · Karpus (Sehnenscheidenentzündung)",
+    species: "Flat Coated Retriever, Rüde, 5 J.",
+    title: "Milo — feste Schwellung medial am Carpus, kaum schmerzhaft",
+    learningObjective:
+      "Die Tendovaginitis des M. abductor pollicis longus von einer Neoplasie des distalen Radius abgrenzen, obwohl beide eine ähnliche Schwellung erzeugen können.",
+    anamnese:
+      "Milo zeigt seit einigen Monaten eine milde, zunächst kaum bemerkte Lahmheit vorne links, die sich vor allem nach intensiver Bewegung und kurzer Ruhephase zeigt. Den Besitzern ist zudem eine feste Schwellung medial am Handgelenk aufgefallen, über die sie sich Sorgen machen.",
+    beobachtung: "Milo zeigt eine milde Lahmheit vorne links; medial am distalen Radius ist eine derbe, fast runde Schwellung sichtbar.",
+    diagramLabel: "Milde, belastungsabhängige Lahmheit vorne links mit derber, runder Schwellung medial am distalen Radius",
+    palpation:
+      "Die Schwellung medial am distalen Radius ist fest und bei einfachem Druck kaum schmerzhaft, löst aber bei Beugung und Abduktion des Carpus eine deutliche Schmerzreaktion mit zunehmend eingeschränkter Flexion aus.",
+    hypothesisQ: "Was erklärt Milos Befund am besten?",
+    hypothesisOptions: [
+      { label: "Tendovaginitis des M. abductor pollicis longus", correct: true },
+      {
+        label: "Eine Neoplasie des distalen Radius",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese wichtigste Differentialdiagnose muss radiologisch aktiv ausgeschlossen werden — im Unterschied zur Neoplasie zeigt die Tendovaginitis aber typischerweise keine lytischen Zonen, sondern homogen dichte, auf den medialen/distalen Radius begrenzte Proliferationen; der spezifische Schmerz bei Beugung und Abduktion des Carpus statt bei einfachem Druck passt ebenfalls eher zur Tendovaginitis.",
+        differentiationDistractors: [
+          "Jede feste Schwellung am Knochen ist automatisch ein Tumorverdacht.",
+          "Eine kaum schmerzhafte Schwellung schließt eine ernste Erkrankung grundsätzlich aus.",
+        ],
+      },
+      {
+        label: "Eine Karpal-Hyperextension",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine Hyperextension würde sich primär als überstreckbares, plantigrad belastetes Gelenk zeigen — bei Milo liegt dagegen eine feste, umschriebene Schwellung mit spezifischem Bewegungsschmerz bei Beugung/Abduktion vor, ohne Hinweis auf eine Gelenküberstreckbarkeit.",
+      },
+      {
+        label: "Eine harmlose, folgenlose Weichteilschwellung ohne weiteren Abklärungsbedarf",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Eine derbe, zunehmende Schwellung mit begleitender, belastungsabhängiger Lahmheit und spezifischem Bewegungsschmerz ist kein folgenloser Zufallsbefund und muss radiologisch abgeklärt werden, allein schon um eine Neoplasie sicher auszuschließen.",
+      },
+    ],
+    expertNote:
+      "Der M. abductor pollicis longus entspringt lateral am proximalen Radius, seine Endsehne verläuft in einer eigenen Sehnenscheide, kreuzt am distalen Radius den M. extensor carpi radialis und inseriert an der Basis des ersten Metacarpus — sie hat also eine gelenkstabilisierende Funktion. Vermutet wird — analog zur menschlichen de-Quervain-Erkrankung — eine Überbeanspruchung, die eine chronische Entzündung mit zunehmender Einengung der Sehne in ihrer Scheide auslöst; bei chronischem Verlauf verdickt sich die Sehnenscheide und kann teilweise verknöchern. Betroffen sind meist große, über 2 Jahre alte Hunde wie Milo, mit anfangs sehr milder Lahmheit, die sich vor allem nach intensiver Bewegung zeigt. Radiologisch zeigen sich in fast allen Fällen Knochenzubildungen medial und dorsal am distalen Radius, aber ohne lytische Zonen — anders als bei der wichtigsten Differentialdiagnose, einer Neoplasie des distalen Radius. Milde, akute Fälle reagieren gut auf Ruhigstellung und Antiphlogistika; bei anhaltender Lahmheit folgt eine Depotsteroid-Injektion in die Sehnenscheide, bei starken Proliferationen oder Therapieversagen eine chirurgische Versorgung — von einer Durchtrennung der Sehne selbst wird wegen ihrer Seitenbandfunktion abgeraten.",
+    weakeningQ: "Welcher radiologische Befund würde eher für eine Neoplasie des distalen Radius statt für eine Tendovaginitis sprechen?",
+    weakeningOptions: [
+      { label: "Lytische Zonen im Knochen statt homogen dichter, auf den medialen/distalen Radius begrenzter Proliferationen", correct: true },
+      { label: "Homogen dichte Knochenzubildungen medial und dorsal am distalen Radius", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein weitgehend unauffälliges Radiokarpalgelenk", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine auf den medialen/distalen Radius begrenzte Veränderung", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum wird bei der chirurgischen Therapie der Tendovaginitis des M. abductor pollicis longus von einer Durchtrennung der Sehne selbst abgeraten?",
+    retrievalOptions: [
+      {
+        label: "Weil die Sehne eine gelenkstabilisierende Funktion als Seitenband hat und ihre Durchtrennung die Karpusstabilität gefährden würde",
+        correct: true,
+      },
+      { label: "Weil eine Durchtrennung technisch grundsätzlich nicht möglich ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die Sehne für die Blutversorgung des gesamten Carpus zuständig ist", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Eine Durchtrennung der Sehne ist bei dieser Erkrankung die Standardtherapie", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.3 (siehe Wissenseintrag `tendovaginitis-abductor-pollicis-longus`), S. 221f. Anatomie, Klinik, die radiologische Abgrenzung zur Neoplasie und die dreistufige Therapie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "caesar",
+    topic: "Orthopädie · Multiple Gliedmaßen (Paraneoplastisches Syndrom)",
+    species: "Beauceron, Rüde, 9 J.",
+    title: "Caesar — schmerzhafte Schwellungen an allen vier Pfoten",
+    learningObjective:
+      "Die hypertrophe Osteopathie als Alarmsignal für eine zugrunde liegende Raumforderung in Thorax oder Abdomen erkennen, statt die Gliedmaßenschwellung isoliert zu behandeln.",
+    anamnese:
+      "Caesar zeigt seit einigen Wochen zunehmende, schmerzhafte Schwellungen an allen vier distalen Gliedmaßen und bewegt sich zunehmend ungern. Ein auslösendes Ereignis ist den Besitzern nicht aufgefallen; Caesar hustet gelegentlich.",
+    beobachtung: "Caesar zeigt palpierbare, ödematöse Schwellungen an allen vier distalen Gliedmaßen und eine milde, generalisierte Lahmheit.",
+    diagramLabel: "Schmerzhafte, ödematöse Schwellungen an allen vier distalen Gliedmaßen, milde generalisierte Lahmheit, gelegentlicher Husten",
+    palpation:
+      "Die Schwellungen entlang der Metacarpi/Metatarsi und distalen Röhrenknochen sind dolent und ödematös, symmetrisch an allen vier Gliedmaßen; die Gelenke selbst sind dabei unauffällig.",
+    hypothesisQ: "Was muss bei Caesars Befund als Erstes aktiv gesucht werden?",
+    hypothesisOptions: [
+      { label: "Eine große Raumforderung (meist Tumor) in Thorax oder Abdomen als Ursache einer hypertrophen Osteopathie", correct: true },
+      {
+        label: "Eine Polyarthritis mit zufälliger Betonung der distalen Gliedmaßen",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Bei der hypertrophen Osteopathie liegen die Veränderungen charakteristischerweise entlang der Röhrenknochen selbst, nicht an den Gelenken — bei Caesar sind die Gelenke dabei unauffällig, was gegen eine primäre Gelenkentzündung und für die perlschnurartigen periostalen Veränderungen der hypertrophen Osteopathie spricht.",
+      },
+      {
+        label: "Eine rein lokale Weichteilentzündung aller vier Gliedmaßen ohne systemische Ursache",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Eine symmetrische Beteiligung aller vier distalen Gliedmaßen zusammen mit gelegentlichem Husten ist ein wichtiges Warnsignal für eine zugrunde liegende systemische Ursache — die hypertrophe Osteopathie geht nahezu immer einer großen Raumforderung in Thorax oder Abdomen voraus und sollte nicht als isoliertes, lokales Gliedmaßenproblem behandelt werden.",
+      },
+      {
+        label: "Eine altersbedingte, generalisierte Arthrose ohne weiteren Abklärungsbedarf",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Ödematöse, dolente Schwellungen entlang der Röhrenknochen bei unauffälligen Gelenken passen nicht zum Bild einer generalisierten Arthrose und erfordern gezielt die Suche nach einer zugrunde liegenden Primärerkrankung.",
+      },
+    ],
+    expertNote:
+      "Der hypertrophen Osteopathie geht immer eine große Raumforderung voraus — meist ein Tumor oder Abszess im Thorax oder Abdomen, bei Caesar angesichts des Hustens am ehesten ein Lungentumor. Man vermutet, dass neurovaskuläre Reflexe im Zusammenhang mit dieser Grunderkrankung periphere Shunts, dadurch lokale Knochenhypoxie und schließlich eine reaktive Knochenneubildung auslösen. Die dabei entstehenden perlschnurartigen periostalen Veränderungen finden sich nur an den Röhrenknochen, nicht an den Gelenken selbst, und können sich bei erfolgreicher Behandlung der Grunderkrankung zurückbilden. Palpierbare, dolente und ödematöse Schwellungen beginnen typischerweise an den distalen Vordergliedmaßen, im weiteren Verlauf kommt eine milde Lahmheit hinzu. Zur Diagnosesicherung gehört zwingend die Suche nach dem Primärproblem in Thorax oder Abdomen — da es sich dabei meist um einen Lungentumor handelt, ist die Prognose trotz der grundsätzlich regressiven Knochenveränderungen insgesamt als ungünstig einzustufen.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine hypertrophe Osteopathie und für eine Polyarthritis sprechen?",
+    weakeningOptions: [
+      { label: "Geschwollene, warme und dolente Gelenke selbst statt der Röhrenknochen, bei unauffälligen Metacarpi/Metatarsi", correct: true },
+      { label: "Symmetrische, ödematöse Schwellungen entlang der Röhrenknochen aller vier Gliedmaßen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Unauffällige Gelenke bei deutlich dolenten Metacarpi/Metatarsi", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Gelegentlicher Husten in der Vorgeschichte", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum ist die Prognose der hypertrophen Osteopathie trotz grundsätzlich regressiver Knochenveränderungen meist ungünstig?",
+    retrievalOptions: [
+      { label: "Weil die zugrunde liegende Raumforderung meist ein Lungentumor ist, dessen Prognose die Gesamtprognose bestimmt", correct: true },
+      { label: "Weil sich die Knochenveränderungen selbst nie zurückbilden können", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die hypertrophe Osteopathie unabhängig von jeder Grunderkrankung ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die Erkrankung ausschließlich bei jungen Hunden mit angeborenen Fehlbildungen auftritt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.9 (siehe Wissenseintrag `hypertrophe-osteopathie-marie-bamberger`), S. 194f. Mechanismus, Klinik und Diagnostik (inkl. der zwingenden Suche nach der Primärerkrankung) sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "paula",
+    topic: "Orthopädie · Zehen (Beknabbern, Differentialdiagnostik)",
+    species: "Großer Münsterländer, Hündin, 6 J.",
+    title: "Paula — beknabbert ständig dieselbe Pfote",
+    learningObjective:
+      "Bei beknabberten Zehen nicht vorschnell auf Allergie zu schließen, sondern Arthrose und Nervenreizung als gleichwertige Differentialdiagnosen mitzudenken.",
+    anamnese:
+      "Paula beknabbert seit mehreren Wochen immer wieder dieselbe Vorderpfote; eine dagegen verschriebene Allergiebehandlung hat bislang keine Besserung gebracht.",
+    beobachtung:
+      "Paula zeigt wiederholtes Lecken und Beknabbern der dritten und vierten Zehe der rechten Vorderpfote; eine sichtbare Rötung oder ein Leckekzem sind nur gering ausgeprägt.",
+    diagramLabel: "Wiederholtes Beknabbern der dritten und vierten Zehe rechts vorne, keine Besserung unter Allergiebehandlung",
+    palpation:
+      "Druck auf die Zehengrundgelenke der dritten und vierten Zehe löst keine deutliche Schmerzreaktion aus. Entlang des Unterarms, im Verlauf der dort liegenden Area nervina, reagiert Paula dagegen mit auffälliger Hyperästhesie.",
+    hypothesisQ: "Welche Ursache passt am besten zu Paulas Befund?",
+    hypothesisOptions: [
+      { label: "Hyperästhesie durch Nervenreizung im Verlauf der versorgenden Nerven von Pfote und Unterarm", correct: true },
+      {
+        label: "Eine allergische Reaktion, die lediglich noch nicht ausreichend behandelt wurde",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Die bisherige Allergiebehandlung hat keine Besserung gebracht, und die Hautveränderungen sind nur gering ausgeprägt — stattdessen zeigt sich eine deutliche Hyperästhesie entlang des Nervenverlaufs am Unterarm, was eher für eine neurogene als für eine allergische Ursache spricht.",
+      },
+      {
+        label: "Eine Arthrose der dritten und vierten Zehengrundgelenke",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Druck auf die Zehengrundgelenke selbst löst bei Paula keine deutliche Schmerzreaktion aus — das spricht gegen eine primär dort sitzende Arthrose und für eine andere, weiter proximal liegende Ursache.",
+      },
+      {
+        label: "Reines Verhaltensproblem ohne körperliche Ursache",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die reproduzierbare Hyperästhesie bei Palpation entlang des Nervenverlaufs ist ein konkreter körperlicher Befund, der eine rein verhaltensbedingte Erklärung unwahrscheinlich macht.",
+      },
+    ],
+    expertNote:
+      "Umfangsvermehrungen, Verdickungen, Rötungen oder Leckekzeme an den Zehen sowie das Beknabbern der Zehen oder Zehenzwischenräume lassen sich nicht vorschnell auf eine einzelne Ursache zurückführen. Drei Ursachen können dasselbe Bild erzeugen: allergische Reaktionen, Arthrosen — insbesondere an den stärker belasteten Zehen III und IV, die wie am Metacarpus auch die Hauptlast tragen — sowie Hyperästhesien durch Nervenreizung. Die Area nervina von N. radialis, N. medianus, N. musculocutaneus und N. ulnaris liegen an Pfote und Unterarm; ein gereizter Nerv erzeugt ein unangenehmes Kribbeln, auf das der Hund mit Lecken oder Knabbern reagiert. Diese dritte Möglichkeit wird leicht übersehen, weil beknabberte Zehen zunächst nach Haut- oder Gelenkproblem aussehen — ein Grund mehr, bei Zehenproblemen auch die Statik der gesamten Gliedmaße mitzudenken, statt nur lokal an der Pfote zu untersuchen.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für eine Arthrose der Zehengrundgelenke statt für eine Nervenreizung sprechen?",
+    weakeningOptions: [
+      {
+        label: "Deutlicher Schmerz bei direktem Druck auf die Zehengrundgelenke, mit Krepitation, aber unauffälligem Befund entlang des Nervenverlaufs am Unterarm",
+        correct: true,
+      },
+      { label: "Hyperästhesie bei Palpation entlang des Unterarms", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Keine Besserung unter einer Allergiebehandlung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Nur gering ausgeprägte Hautveränderungen an der beknabberten Pfote", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum tragen gerade die Zehen III und IV ein erhöhtes Risiko für eine arthrosebedingte Zehenproblematik?",
+    retrievalOptions: [
+      { label: "Weil sie wie am Metacarpus auch die Hauptlast der Gliedmaße tragen", correct: true },
+      { label: "Weil sie anatomisch am weitesten von der Belastungsachse entfernt liegen", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Weil nur diese beiden Zehen überhaupt ein Zehengrundgelenk besitzen", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Ein Zusammenhang zwischen Belastung und Arthroserisiko einzelner Zehen besteht nicht", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 15 (siehe Wissenseintrag `zehen-beknabbern-differentialdiagnosen`), S. 193. Die drei genannten Ursachen (Allergie, Arthrose, Hyperästhesie durch Nervenreizung) und die betroffenen Nervenareale sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "caruso",
+    topic: "Neurologie · Vestibulärapparat (Geriatrie)",
+    species: "Großpudel, Rüde, 11 J.",
+    title: "Caruso — plötzlicher Kopfschiefstand über Nacht",
+    learningObjective:
+      "Das idiopathische geriatrische Vestibulärsyndrom anhand seines charakteristischen Fehlens weiterer Ausfälle von einer Otitis media/interna und einer zentralen (Hirnstamm-)Läsion unterscheiden.",
+    anamnese:
+      "Caruso zeigte heute Morgen einen plötzlich aufgetretenen Kopfschiefstand; die Besitzer berichten, er sei gestern Abend noch völlig unauffällig gewesen.",
+    beobachtung:
+      "Caruso hält den Kopf deutlich schief, taumelt beim Gehen zur Seite und zeigt einen horizontalen Nystagmus; er ist dabei wach und ansprechbar.",
+    diagramLabel: "Akut aufgetretener Kopfschiefstand mit Taumeln und horizontalem Nystagmus, Hund wach und ansprechbar",
+    palpation:
+      "Die Ohren zeigen bei der Untersuchung keine Rötung, Sekretion oder Schmerzhaftigkeit. Eine Gesichtslähmung oder eine hängende Lidspalte (Horner-Syndrom) sind nicht feststellbar; die Haltungs- und Stellreaktionen der Gliedmaßen sind unauffällig.",
+    hypothesisQ: "Was erklärt Carusos Befund am besten?",
+    hypothesisOptions: [
+      { label: "Idiopathisches geriatrisches Vestibulärsyndrom", correct: true },
+      {
+        label: "Otitis media/interna",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine Otitis media/interna zeigt typischerweise Schmerzen im Ohrbereich sowie oft eine Fazialislähmung oder ein Horner-Syndrom — bei Caruso sind die Ohren unauffällig, und beide Begleitzeichen fehlen, was eher für das idiopathische geriatrische Vestibulärsyndrom spricht.",
+      },
+      {
+        label: "Eine zentrale Läsion im Hirnstamm",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine Hirnstammläsion würde sich typischerweise mit weiteren Kopfnervenausfällen, verändertem Bewusstsein oder seitenbetonten Haltungs-/Stellreaktionsdefiziten zeigen — Caruso ist wach, ansprechbar und zeigt keine dieser zusätzlichen Ausfälle.",
+      },
+      {
+        label: "Ein Hirninfarkt mit Kreiswandern und Sehstörungen",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Ein Hirninfarkt ist dem Großhirn zugeordnet und würde sich eher mit Anfällen, Kreiswandern oder Sehstörungen zeigen als mit dem für Caruso typischen vestibulären Bild aus Kopfschiefstand, Taumeln und Nystagmus ohne weitere Ausfälle.",
+      },
+    ],
+    expertNote:
+      "Das idiopathische geriatrische Vestibulärsyndrom betrifft Hunde über 9 Jahre und verursacht akute, leicht- bis schwergradige periphere Vestibulärdefizite — jedoch ausdrücklich ohne Horner-Syndrom und ohne Fazialislähmung, anders als bei der Otitis media/interna, die zusätzlich Schmerzen im Ohrbereich sowie typischerweise genau diese beiden Begleitzeichen zeigt. Eine Läsion im Hirnstamm dagegen geht deutlich weiter: Apathie bis Koma, spastische Parese aller Gliedmaßen, seitenbetonte Defizite bei Haltungs- und Stellreaktionen sowie weitere Kopfnervenausfälle (z. B. Schielen, Anisokorie, Unterkieferlähmung). Caruso zeigt keines dieser zusätzlichen Zeichen — nur das reine vestibuläre Bild. Die Abgrenzung dieser vier Lokalisationen (Großhirn, Kleinhirn, Vestibulärapparat, Hirnstamm) gelingt über die Kopfnervenprüfung und das charakteristische Gangbild.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen ein idiopathisches geriatrisches Vestibulärsyndrom und für eine Otitis media/interna sprechen?",
+    weakeningOptions: [
+      { label: "Schmerzen im Ohrbereich zusammen mit einer Fazialislähmung oder einem Horner-Syndrom", correct: true },
+      { label: "Akuter Kopfschiefstand mit Taumeln und horizontalem Nystagmus", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Unauffällige Ohren ohne Rötung oder Sekretion", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein wacher, ansprechbarer Hund ohne weitere Ausfälle", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche beiden Begleitzeichen fehlen beim idiopathischen geriatrischen Vestibulärsyndrom definitionsgemäß, treten aber bei der Otitis media/interna häufig auf?",
+    retrievalOptions: [
+      { label: "Horner-Syndrom und Fazialislähmung", correct: true },
+      { label: "Nystagmus und Kopfschiefstand", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Taumeln und Gleichgewichtsverlust", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Anfälle und Bewusstseinsverlust", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.10.2, Tab. 7.3 (siehe Wissenseintrag `neurologische-erkrankungen-gehirn-vestibulaer-hirnstamm`), S. 176f. Die Lokalisationstabellen für Vestibulärapparat und Hirnstamm samt den jeweils typischen Befunden sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "max",
+    topic: "Orthopädie · Lendenwirbelsäule (Facettengelenke)",
+    species: "Deutscher Schäferhund, Rüde, 6 J.",
+    title: "Max — chronischer, diffuser Rückenschmerz ohne erkennbare Ursache",
+    learningObjective:
+      "Verstehen, wie eine ungünstige Facettengelenkgeometrie der Lendenwirbelsäule beim Deutschen Schäferhund die Bandscheibe mechanisch überlastet und chronischen Rückenschmerz begünstigt, ohne dass eine einzelne, klar lokalisierbare Struktur dafür verantwortlich ist.",
+    anamnese:
+      "Max zeigt seit mehreren Monaten einen chronischen, eher diffusen Rückenschmerz im Bereich der Lendenwirbelsäule, besonders nach Belastung und in kalter Witterung. Eine klare Verletzung in der Vorgeschichte ist nicht bekannt.",
+    beobachtung: "Max bewegt sich im Bereich der Lendenwirbelsäule insgesamt steifer als früher, mit reduzierter Seitneige beim Gehen in Kurven.",
+    diagramLabel: "Chronischer, diffuser Rückenschmerz der Lendenwirbelsäule mit reduzierter Seitneige, kein erinnerliches Trauma",
+    palpation:
+      "Die Druckpalpation der Lendenwirbelsäule zeigt einen diffusen, nicht klar auf ein einzelnes Segment begrenzten Schmerz zwischen L5 und L7. Eine tastbare Instabilität oder ein akuter, scharf lokalisierter Punktschmerz fehlen.",
+    hypothesisQ: "Was erklärt Max' Befund am besten?",
+    hypothesisOptions: [
+      {
+        label: "Chronische mechanische Überlastung durch eine ungünstige, beim Deutschen Schäferhund gehäuft vorkommende Facettengelenkgeometrie der Lendenwirbelsäule",
+        correct: true,
+      },
+      {
+        label: "Ein akuter, lokalisierter lumbosakraler Bandscheibenvorfall",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Ein akuter Bandscheibenvorfall würde sich eher mit einem scharf lokalisierten Punktschmerz und ggf. neurologischen Ausfällen zeigen — bei Max liegt dagegen ein diffuser, chronischer Schmerz über mehrere Segmente vor, ohne klare Lokalisation oder neurologisches Defizit.",
+      },
+      {
+        label: "Eine Hüftgelenkdysplasie mit Schmerzausstrahlung in den Rücken",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Der Schmerz liegt konkret im Bereich der Druckpalpation der Lendenwirbelsäule zwischen L5 und L7, nicht an den Hüftgelenken selbst — eine Hüftgelenkdysplasie würde sich primär dort und nicht als diffuser Rückenschmerz zeigen.",
+      },
+      {
+        label: "Eine altersbedingte, unspezifische Steifheit ohne eigenständige strukturelle Ursache",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Ein sechsjähriger Deutscher Schäferhund ist kein geriatrischer Patient; die beim Deutschen Schäferhund deutlich gehäufte, strukturell ungünstige Facettengeometrie bietet eine konkretere Erklärung als eine unspezifische, rein altersbedingte Steifheit.",
+      },
+    ],
+    expertNote:
+      "42 % der Deutschen Schäferhunde haben asymmetrisch stehende Facettengelenke auf Höhe L5–7 (gegenüber 31 % bei anderen Rassen), bei 47 % ist die Facettenform dort sogar gerade statt physiologisch gebogen gestellt (gegenüber 16 % bei anderen Rassen). Diese ineffiziente Facettengeometrie kann Ursache mechanischer Probleme sein und zu Osteophyten an den Facetten und in der Folge zu Stenosen führen. Da die Bewegungsachsen der Lendenwirbelsäule physiologisch innerhalb der Bandscheibe liegen, sind Zug- und Druckkräfte auf die Bandscheibe beim gesunden Tier unproblematisch. Bei einem Facettengelenkproblem entsteht jedoch auf einer Seite des Bewegungssegments eine Hypomobilität, auf der Gegenseite eine Hypermobilität — die Bewegungsachse verschiebt sich dadurch aus der Bandscheibe heraus, was diese vermehrt belastet und diffusen Schmerz verursachen kann, wie bei Max. L4 ist dabei eine besondere Übergangszone, da die die Seitneige limitierenden Procc. accessorii nur bis dorthin ausgebildet sind; L7 hat durch die fast frontal stehende Gelenkfläche des Sakrums als Gelenkpartner ebenfalls eine Sonderstellung.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für einen akuten, lokalisierten Bandscheibenvorfall statt für eine chronische Facettengelenkproblematik sprechen?",
+    weakeningOptions: [
+      { label: "Plötzlich aufgetretener, scharf auf ein einzelnes Segment begrenzter Schmerz mit neurologischen Ausfällen", correct: true },
+      { label: "Diffuser, über mehrere Segmente verteilter chronischer Schmerz", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Reduzierte Seitneige beim Gehen in Kurven", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Fehlen einer tastbaren Instabilität oder eines akuten Punktschmerzes", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Wie wirkt sich eine asymmetrische Facettengelenkstellung mechanisch auf die Bandscheibe aus?",
+    retrievalOptions: [
+      {
+        label: "Sie verschiebt die Bewegungsachse des Segments aus der Bandscheibe heraus, wodurch diese durch Hypo- bzw. Hypermobilität auf beiden Seiten vermehrt belastet wird",
+        correct: true,
+      },
+      { label: "Sie hat keinerlei Einfluss auf die Belastung der Bandscheibe", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Sie entlastet die Bandscheibe grundsätzlich, da sie die Beweglichkeit insgesamt einschränkt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Sie betrifft ausschließlich die Gelenkkapsel, nie die Bandscheibe selbst", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.6 (siehe Wissenseintrag `lws-facettengeometrie-instabilitaet-bandscheibe`), S. 231–233, unter Bezug auf Benninger et al. 2004 und 2006. Facettengeometrie-Typen, Schäferhund-Zahlen und der Instabilitäts-Bandscheiben-Mechanismus sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -6034,7 +6664,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 15 (Karpalgelenk und Zehen), S. 193. Die drei genannten Ursachen (Allergie, Arthrose, Hyperästhesie durch Nervenreizung) und die betroffenen Nervenareale sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["paula"],
     relatedAnatomyIds: [],
   },
   {
@@ -7887,7 +8517,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.10.2, Tab. 7.1–7.4 (Übersicht wichtiger Erkrankungen des Nervensystems: Cerebrum, Kleinhirn, Vestibulärapparat, Hirnstamm), S. 176–177. Diagnosen, Befunde und Häufigkeitsangaben (+/++) sind im Original so aufgeführt.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["caruso"],
     relatedAnatomyIds: [],
   },
   {
@@ -8195,7 +8825,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.6 (Osteomyelitis), S. 190–192. Ätiologie, Klinik, Diagnostik und Therapieprinzip sind im Original so beschrieben; konkrete Medikamenten-Dosierungen wurden bewusst nicht übernommen.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["otto"],
     relatedAnatomyIds: [],
   },
   {
@@ -8248,7 +8878,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.9 (Hypertrophe Osteopathie), S. 194f. Mechanismus, Klinik und Diagnostik sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["caesar"],
     relatedAnatomyIds: [],
   },
   {
@@ -8390,7 +9020,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.6 (Andere Knieerkrankungen: Avulsion des M. extensor digitorum longus, Osgood-Schlatter-Erkrankung), S. 206–208. Ätiologie, Klinik und Therapie sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["cooper"],
     relatedAnatomyIds: ["quadriceps"],
   },
   {
@@ -8654,7 +9284,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet", "Anatomieverwechslung"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.3 (Tendovaginitis des M. abductor pollicis longus), S. 221f. Anatomie, Klinik, Diagnostik und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Untersuchungs-Eintrag zum Finkelstein-analogen Test dieses Muskels (`zehen-karpus-liegender-hund-untersuchung`) um das vollständige Krankheitsbild.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["milo"],
     relatedAnatomyIds: [],
   },
   {
@@ -10230,7 +10860,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Befund übersehen", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.6 (Lendenwirbelsäule — Anatomie und funktionelle Bedeutung), S. 231–233, unter Bezug auf Benninger et al. 2004 und 2006. Facettengeometrie-Typen, Schäferhund-Zahlen und der Instabilitäts-Bandscheiben-Mechanismus sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["max"],
     relatedAnatomyIds: ["discus", "facettengelenke-lws"],
   },
   {
@@ -10661,7 +11291,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["vorschnelle Diagnose", "Differentialdiagnostik unvollständig", "Befund überbewertet"],
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 15.2.1 (Spezifische Provokation Art. ossis carpi accessorii), S. 194. Die anatomische Lage des N.-ulnaris-Astes, die Loge-de-Guyon-Analogie und die geforderte arthrogen/neurogen-Differenzierung sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["zoe"],
     relatedAnatomyIds: ["os-carpi-accessorium", "n-ulnaris", "art-carpi"],
   },
   {
@@ -10821,7 +11451,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.5.3 (Druckpunktpalpation, N. ischiadicus), S. 288f. Der Nervenverlauf, die Aufzweigung, die explizite Verneinung eines caninen Piriformis-Syndroms sowie die Palpationspunkte sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["toni"],
     relatedAnatomyIds: ["n-ischiadicus"],
   },
   {
@@ -13431,7 +14061,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Diskospondylitis, Osteomyelitis der Wirbelkörper (Spondylitis) beim Hund. Die hämatogene Infektionsroute mit den genannten Erregern und Prädispositionsfaktoren (Harnapparat-/Periodont-/Herzklappen-/Hautinfektionen), der klinische Verlauf, die Differentialdiagnosen, die zeitliche Verzögerung der Röntgenbefunde gegenüber CT/MRT sowie die prognostischen Faktoren (inkl. der schlechten Aspergillus-Prognose) sind in der Quelle so beschrieben. Medikamentöse Dosierungsdetails (Antibiotika-Auswahl, Behandlungsdauer) bewusst nicht übernommen (außerhalb des physiotherapeutischen Nachschlage-Scopes). Mit diesem Eintrag ist die Quelldatei (43 von 43 Webseiten) vollständig ausgewertet.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["finn"],
     relatedAnatomyIds: ["rueckenmark", "discus"],
   },
   {
