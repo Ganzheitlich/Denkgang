@@ -1012,6 +1012,83 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk), S. 236–240 — siehe bereits bestehende Wissenseinträge `iliosakralgelenk-anatomie-symptome-ursachen`, `iliosakralgelenk-sakrum-ilium-laesion-beinlaenge` und `iliosakralgelenk-manuelle-untersuchung-provokationstests`, derselbe Quellenabschnitt. Der Iliumläsions-Mechanismus (Hürdensprung mit Hängenbleiben), die Ilium-dorsal-Befundtabelle (Tuber ischiadicum tiefer → Bein erscheint länger, erhöhte Lig.-sacrotuberale-Spannung), die funktionelle-vs-anatomische Beinlängenunterschied-Differenzierung, das Vorlaufphänomen sowie die ⅗-Regel mit ihren fünf Kriterien sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten aus allen drei Einträgen zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte des Hundes sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "paco",
+    topic: "Neurologie · Obere Halswirbelsäule (Notfall-Erkennung)",
+    species: "Chihuahua, Rüde, 8 Mon.",
+    title: "Paco — steifer Nacken nach einem Sprung von der Couch",
+    learningObjective:
+      "Die Warnsignale einer möglichen Instabilität der oberen Halswirbelsäule erkennen und wissen, warum hier sofort überwiesen statt manualtherapeutisch weiteruntersucht wird.",
+    anamnese:
+      "Paco ist gestern von der Couch gesprungen. Seit dem Abend hält er den Kopf auffällig steif und tief, die Besitzer berichten von gelegentlichem Würgen.",
+    beobachtung:
+      "Paco hält den Kopf in einer steifen, leicht abgesenkten Haltung und bewegt sich insgesamt vorsichtig; beim Hochheben reagiert er mit deutlichem Unwohlsein.",
+    diagramLabel: "Kopfhaltung: steif, tief gehalten, Bewegung insgesamt vorsichtig/schonend",
+    palpation:
+      "Paco verweigert bei der Untersuchung jede Flexion der oberen Kopfgelenke; bei einem vorsichtigen Versuch reagiert er mit Würgen und deutlicher Abwehr. Weitere Tests am Kopf/Hals werden daraufhin nicht fortgesetzt.",
+    hypothesisQ: "Was ist jetzt der richtige nächste Schritt?",
+    hypothesisOptions: [
+      {
+        label: "Sofortige tierärztliche/radiologische Abklärung, keine weitere manualtherapeutische Untersuchung der oberen HWS",
+        correct: true,
+      },
+      {
+        label: "Vorsichtige manuelle Mobilisation der oberen Kopfgelenke zur Lösung der Verspannung",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine komplette Flexionsverweigerung mit Würgereaktion ist ein Warnsignal für eine mögliche Instabilität (z. B. atlantoaxiale Subluxation) — jede zusätzliche Manipulation kann hier lebensgefährlich sein, statt zu helfen.",
+        differentiationDistractors: [
+          "Kleine Hunde wie Chihuahuas vertragen Mobilisationstechniken grundsätzlich besser als große Rassen.",
+          "Eine steife Kopfhaltung spricht meist für eine einfache muskuläre Verspannung, die sich durch Mobilisation lösen lässt.",
+        ],
+      },
+      {
+        label: "Abwarten und den Verlauf über die nächsten Tage beobachten",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Solange eine Instabilität der oberen HWS im Raum steht, kann bereits geringer zusätzlicher Kraftaufwand — auch durch alltägliche Bewegungen — zur vollständigen Luxation und zum Tod führen. Abwarten ist hier kein sicherer Weg.",
+        differentiationDistractors: [
+          "Da Paco noch laufen und sich bewegen kann, ist akutes Handeln nicht nötig.",
+          "Chihuahuas neigen grundsätzlich zu vorübergehenden Nackenverspannungen, die von selbst wieder abklingen.",
+        ],
+      },
+      {
+        label: "Direkt mit Wärmeanwendung und sanfter Massage der Nackenmuskulatur beginnen",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Wärme und Massage behandeln eine muskuläre Verspannung, sprechen aber nicht das eigentliche Risiko an — bei Verdacht auf Instabilität muss zuerst jede Gefährdung durch weitere Handhabung ausgeschlossen werden, auch scheinbar sanfte.",
+        differentiationDistractors: [
+          "Massage ist grundsätzlich risikofrei und kann bei jeder Nackensymptomatik angewendet werden.",
+          "Das Würgen spricht für eine Rachenreizung, die mit Wärme behandelt werden sollte.",
+        ],
+      },
+    ],
+    expertNote:
+      "Eine komplette Verweigerung der Flexion der oberen Kopfgelenke, kombiniert mit Würgen/Unwohlsein bei Kopfbewegung, ist ein klassisches Warnsignal für eine Instabilität der oberen Halswirbelsäule — bei prädisponierten Kleinrassen wie Chihuahua, Pekinese und Zwergpudel kommt dafür vor allem die atlantoaxiale Subluxation infrage: Der Dens axis bleibt bei dieser Rassegruppe oft hypoplastisch oder sein Epiphysenschluss verläuft unvollständig, kombiniert mit gelockerten Bandverbindungen zwischen Atlas und Axis reicht dann oft schon ein für andere Hunde harmloses Trauma (wie ein Sprung von der Couch), um die Instabilität symptomatisch werden zu lassen — bei über der Hälfte der betroffenen Patienten bereits im ersten Lebensjahr. Entscheidend: Solange dieser Verdacht im Raum steht, ist jede weitere Manipulation der Halswirbelsäule ein Notfallrisiko — schon geringer zusätzlicher Kraftaufwand kann zur vollständigen Luxation und zum Tod führen. Die Diagnosesicherung (kontrollierte Flexionsaufnahme am anästhesierten Patienten) und die Therapie (meist chirurgische Stabilisierung) gehören ausschließlich in die Klinik.",
+    weakeningQ:
+      "Welcher Befund würde eher für ein weniger dringliches Vorgehen sprechen (also gegen eine instabilitätsbedingte Notfallsituation)?",
+    weakeningOptions: [
+      {
+        label: "Vollständige, schmerzfreie Flexion der oberen Kopfgelenke ohne jede Abwehrreaktion",
+        correct: true,
+      },
+      { label: "Komplette Verweigerung der Kopfflexion", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Würgereaktion bei vorsichtigem Flexionsversuch", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Steife, tief gehaltene Kopfhaltung", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Welche drei Kleinrassen gelten als besonders prädisponiert für eine atlantoaxiale Subluxation?",
+    retrievalOptions: [
+      { label: "Chihuahua, Pekinese, Zwergpudel", correct: true },
+      { label: "Deutscher Schäferhund, Rottweiler, Berner Sennenhund", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Labrador Retriever, Golden Retriever, Neufundländer", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Keine Rasse ist dafür besonders prädisponiert", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Atlantoaxiale Subluxation beim Hund — siehe bereits bestehender Wissenseintrag `atlantoaxiale-subluxation-densentwicklung-diagnostisches-zeichen`, derselbe Quellenabschnitt. Die Rasseprädisposition (Chihuahua/Pekinese/Zwergpudel), die entwicklungsbedingte Densanomalie-Ätiologie, die Altersstatistik (über 50 % im ersten Lebensjahr) sowie das Notfallrisiko bei weiterer Manipulation sind im Original so beschrieben. Ergänzt durch Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1, S. 205f. — siehe bereits bestehender Wissenseintrag `obere-hws-instabilitaet-dens-warnsignale`, derselbe Quellenabschnitt: das konkrete Warnsignal „komplette Flexionsverweigerung” sowie die Überweisungskriterien sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten aus beiden Einträgen zu einem neuen klinischen Szenario, als bewusster Kontrastfall zu `filou` (dieselbe Lernzielkategorie „Notfall erkennen statt behandeln”, aber andere Region und anderer Mechanismus: obere HWS/Densinstabilität statt Rückenmark/Bandscheibenvorfall). Keine neue Primärrecherche nötig. Name, Alter und Vorgeschichte des Hundes sind freie didaktische Fallkonstruktion von Denkgang, die Rasse (Chihuahua) ist durch die Quelle vorgegeben. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -8438,8 +8515,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Befund übersehen", "falsche Priorisierung", "Untersuchung falsch gewählt"],
     sourceStatus:
-      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1 (Obere HWS-Region — Segment C1, Dens axis), S. 205f. Sicherungsmechanismus, Ursachen der Instabilität und die Überweisungskriterien sind im Original so beschrieben.",
-    relatedCaseIds: [],
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1 (Obere HWS-Region — Segment C1, Dens axis), S. 205f. Sicherungsmechanismus, Ursachen der Instabilität und die Überweisungskriterien sind im Original so beschrieben. Bildet die fachliche Grundlage für das Warnsignal im neuen Fall `paco`.",
+    relatedCaseIds: ["paco"],
     relatedAnatomyIds: ["rueckenmark", "lig-transversum-atlantis", "atlas-axis"],
   },
   {
@@ -11791,8 +11868,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen"],
     sourceStatus:
-      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Atlantoaxiale Subluxation beim Hund. Die entwicklungsbedingte Ätiologie (Densanomalie plus Bandinstabilität), die Rasseprädisposition, die Altersstatistik, das klinische Spektrum, die Differentialdiagnosen sowie die diagnostische Flexionsaufnahme mit dem 2- bis 3-fachen Abstandszeichen sind in der Quelle so beschrieben. Ergänzt den bestehenden Eintrag `obere-hws-instabilitaet-dens-warnsignale` (Hárrer, manualtherapeutische Warnsignale) um die entwicklungsbedingte Ätiologie und die klinisch-radiologische Diagnosesicherung. Ergänzt (29.09.2026) um das therapeutische Vorgehen (chirurgische Stabilisierung als einzige erfolgversprechende Option, postoperative Nachsorge, vorsichtige Physiotherapie) aus Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Atlanto-axiale Subluxation“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984).",
-    relatedCaseIds: [],
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Atlantoaxiale Subluxation beim Hund. Die entwicklungsbedingte Ätiologie (Densanomalie plus Bandinstabilität), die Rasseprädisposition, die Altersstatistik, das klinische Spektrum, die Differentialdiagnosen sowie die diagnostische Flexionsaufnahme mit dem 2- bis 3-fachen Abstandszeichen sind in der Quelle so beschrieben. Ergänzt den bestehenden Eintrag `obere-hws-instabilitaet-dens-warnsignale` (Hárrer, manualtherapeutische Warnsignale) um die entwicklungsbedingte Ätiologie und die klinisch-radiologische Diagnosesicherung. Ergänzt (29.09.2026) um das therapeutische Vorgehen (chirurgische Stabilisierung als einzige erfolgversprechende Option, postoperative Nachsorge, vorsichtige Physiotherapie) aus Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Atlanto-axiale Subluxation“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984). Bildet die fachliche Grundlage (Rasseprädisposition, Ätiologie, Notfallrisiko) für den neuen Fall `paco`.",
+    relatedCaseIds: ["paco"],
     relatedAnatomyIds: ["rueckenmark", "atlas-axis", "lig-transversum-atlantis"],
   },
   {

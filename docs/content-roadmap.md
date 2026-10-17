@@ -5421,6 +5421,26 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       (11 → 12), Cross-Referenz-Audit 0 offene Verweise (153
       Backtick-Referenzen), Build grün, via Playwright gegen die
       Review-Seite verifiziert (0 Fehler).
+- [x] **Fall „Paco" — Verdacht auf atlantoaxiale Subluxation (17.10.2026).**
+      Bewusster Kontrastfall zu `filou` (dieselbe Lernzielkategorie „Notfall
+      erkennen statt behandeln", aber andere Region/anderer Mechanismus:
+      obere HWS/Densinstabilität statt Rückenmark/Bandscheibenvorfall).
+      Neuer Fall `paco` (Chihuahua, Rüde, 8 Mon., Sprung von der Couch,
+      steifer tiefer Kopf, Würgen): Die korrekte Antwort ist keine
+      Diagnose, sondern eine Handlungsentscheidung — sofortige tierärztliche
+      Abklärung statt weiterer manualtherapeutischer Untersuchung, da eine
+      komplette Flexionsverweigerung mit Würgereaktion das im Original so
+      beschriebene Warnsignal für eine mögliche Instabilität der oberen HWS
+      ist. Drei Distraktoren (Mobilisation, Abwarten, Wärme/Massage) zeigen
+      je einen anderen Denkfehler (vorschnelle Diagnose, falsche
+      Priorisierung, falsch gewählte Untersuchung). `relatedCaseIds` bei
+      `obere-hws-instabilitaet-dens-warnsignale` und
+      `atlantoaxiale-subluxation-densentwicklung-diagnostisches-zeichen` um
+      `paco` ergänzt (beide zuvor mit keinem Fall verknüpft). Keine neue
+      Primärrecherche nötig. Verifiziert: tsc/eslint sauber, Reseed 13
+      Fälle (12 → 13), Cross-Referenz-Audit 0 offene Verweise (155
+      Backtick-Referenzen), Build grün, via Playwright gegen die
+      Review-Seite verifiziert (0 Fehler).
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — noch ohne Fall, auch wenn der Ellbogen als
@@ -5430,12 +5450,14 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       `artt-costales`), Tarsus-Gelenk/-Bänder selbst (`art-tarsi`,
       `ligg-tarsi` — Muskeln/Knochen dieser Region sind über Balu jetzt
       abgedeckt, Gelenk/Bänder noch nicht), HWS/BWS/LWS-Facettengelenke
-      (`facettengelenke-hws`/`-bws`/`-lws` — anatomisch umfassend
-      dokumentiert, aber bisher mit keinem Fall verknüpft). 12 Fälle
-      insgesamt jetzt (Stand 17.10.2026), gegenüber 90 Anatomie-Items und
-      358 Wissenseinträgen weiterhin die kleinste Content-Kategorie —
-      weiter priorisieren, bevor zu Anatomie/Wissensbibliothek
-      zurückgekehrt wird.
+      als eigenständige, primäre Falldiagnose (`facettengelenke-hws`/
+      `-bws`/`-lws` — anatomisch umfassend dokumentiert und über
+      `rueckenmark`/Filou indirekt verknüpft, aber noch kein Fall mit
+      einer reinen Facettenblockade als Hauptdiagnose). 13 Fälle insgesamt
+      jetzt (Stand 17.10.2026), gegenüber 90 Anatomie-Items und 358
+      Wissenseinträgen weiterhin die kleinste Content-Kategorie — weiter
+      priorisieren, bevor zu Anatomie/Wissensbibliothek zurückgekehrt
+      wird.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→
