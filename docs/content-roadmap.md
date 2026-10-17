@@ -5920,6 +5920,65 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Cross-Referenz-Audit 0 offene Verweise, Production-Build grün,
       Playwright-Stichprobe (argos, trudi, fiete) gegen die Review-Seite —
       0 Konsolen-/Seitenfehler.
+- [x] Fälle 76–85 (Batch 7 des ~100-Fälle-Ausbaus, 17.10.2026): Siebte
+      Zehnergruppe — erstmals mit Schwerpunkt auf neurologischer
+      Lokalisationsdiagnostik (4 von 10 Fällen) kombiniert mit Untersuchungs-
+      technik- und Therapieentscheidungs-Fällen, weiterhin ausschließlich aus
+      Koch/Fischer (Lahmheitsuntersuchung beim Hund), Alexander (Physikalische
+      Therapie für Kleintiere), Kasper/Zohmann (Ganzheitliche Schmerz-
+      therapie), Mai (Physiotherapie und Bewegungstraining für Hunde) und
+      VetCenter (Hundekrankheiten kompakt) kombiniert:
+      - **`fiona`** (Malteser, 6 J.) — Horner-Syndrom-Muster (Ptosis, Miosis,
+        Enophthalmus, Nickhautvorfall); Lernziel: das Muster zeigt sicher die
+        betroffene Bahn, aber nicht den genauen Läsionsort. Quelle:
+        `kopfnervenpruefung-hund`.
+      - **`jack`** (Mischling, 2 J.) — Seddon-Klassifikation nach
+        Bissverletzung; unmittelbar posttraumatisch lässt sich klinisch noch
+        nicht zwischen Neurapraxie, Axonotmesis und Neuronotmesis
+        unterscheiden. Quelle: `seddon-klassifikation-nervenverletzungen`.
+      - **`lupo`** (Deutsch-Schäferhund-Mischling, 7 J.) — UMN-/OMN-
+        Unterscheidung anhand der Reflexlage bei akuter Hintergliedmaßen-
+        Parese, inkl. der gegenläufigen deutschen Abkürzungslogik als
+        eigener Fallstrick. Quelle: `umn-omn-laesionslokalisation`.
+      - **`cleo`** (Beagle, 6 J.) — Body Conditioning Score statt reiner
+        Kilogrammzahl zur Gewichtsbeurteilung bei beginnender Arthrose;
+        nicht-diagnostischer Screening-/Kommunikationsfall. Quelle:
+        `body-conditioning-score-bcs`.
+      - **`pino`** (Pudel-Mischling, 4 J.) — Trizepstrigger (DÜ09) als
+        eigenständig fortbestehende Ursache für verkürzten Raumgriff, obwohl
+        sich die ursprüngliche Bizeps-/Schulterpathologie bereits gebessert
+        hat. Quelle: `triggerpunktuntersuchung-kasper-zohmann-vordergliedmasse`.
+      - **`juno`** (Collie-Mischling, 3 J.) — Rollstuhl als korrektes
+        Hilfsmittel bei Beckenfraktur mit Belastungsverbot, gegen Schiene/
+        Schlinge/Boots als Fehlgriffe abgegrenzt. Quelle:
+        `rehabilitations-hilfsmittel-uebersicht-schlingen-schienen-rollstuhl`.
+      - **`rufus`** (Dobermann, 5 J.) — Dehnen vs. Stretching: Dehnen ist bei
+        akuter postoperativer Entzündung kontraindiziert und darf nie an
+        Besitzer delegiert werden, Stretching dagegen schon. Quelle:
+        `dehnen-versus-stretching-risikoprofile-technik`.
+      - **`resi`** (Deutscher Schäferhund, 6 J.) — DLSS mit foraminaler
+        Nervenwurzelkompression als orthopädisch täuschend echte
+        Differentialdiagnose zum Kreuzbandriss, inkl. Automutilation an der
+        Rutenbasis als Warnzeichen. Quelle:
+        `dlss-cauda-equina-kreuzband-verwechslungsgefahr-automutilation`.
+      - **`elsa`** (Berner Sennenhund, 5 J.) — anhaltend starke Schonung fünf
+        Wochen nach TPLO trotz chirurgisch stabilem Gelenk als Anlass zur
+        Rücküberweisung, nicht automatisch Gewohnheit. Quelle:
+        `postoperative-rehabilitation-parameter-abschlusskriterien`.
+      - **`bert`** (Labrador-Mischling, 8 J.) — gleichbleibender ROM-
+        Summenwert verschleiert mögliche Richtungsverschiebung zwischen
+        Extension und Flexion; plus Messvarianz-Grenze der manuellen
+        Goniometrie. Quelle: `goniometrie-rom-messung-grenzen`.
+
+      `relatedCaseIds` ergänzt bei allen zehn referenzierten
+      Wissenseinträgen. Keine neuen `AnatomyItem.relatedCaseId`-
+      Verknüpfungen in diesem Batch. Keine neue Primärrecherche nötig, alle
+      zehn Fälle kombinieren ausschließlich bereits verifizierte Fakten aus
+      bestehenden Wissenseinträgen zu neuen klinischen Szenarien.
+      Verifiziert: eslint sauber, tsc sauber, Reseed 85 Fälle (75 → 85),
+      Cross-Referenz-Audit 0 offene Verweise, Production-Build grün,
+      Playwright-Stichprobe (fiona, resi, bert) gegen die Review-Seite —
+      0 Konsolen-/Seitenfehler.
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — bewusst zurückgestellt, siehe Begründung oben
@@ -5931,21 +5990,24 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Facettengelenke als eigenständige, primäre Falldiagnose bleiben offen
       (`facettengelenke-hws`/`-bws` — LWS-Facettengelenke sind über Max
       jetzt abgedeckt). PATHOLOGIE-Kategorie mit konkreten, fallfähigen
-      Einzeldiagnosen ist nach sechs Batches praktisch ausgeschöpft (44 ohne
+      Einzeldiagnosen ist nach sieben Batches praktisch ausgeschöpft (41 ohne
       Fall-Link, überwiegend abstrakte Schmerzphysiologie-/
-      Faszientheorie-Grundlagen ohne einzelnes klinisches Korrelat).
-      Schwerpunkt für kommende Batches liegt auf UNTERSUCHUNG (62 ohne
-      Fall-Link — Kandidaten u. a. Zervikofazialisreflex/Slap-Test,
-      Triggerpunktuntersuchung Vorder-/Hintergliedmaße, Goniometrie/ROM-
-      Messgrenzen, Body Conditioning Score, Zehner-Test, Joint-Play-Technik
-      Rute), THERAPIE (31 ohne Fall-Link, nach Batch 6 bereits deutlich
-      reduziert) und BIOMECHANIK (75 ohne Fall-Link, nahezu unberührt —
-      eher als Hintergrundwissen geeignet, da meist grundlagenorientiert
-      statt krankheitsspezifisch, einzelne konkrete Kandidaten wie
+      Faszientheorie-Grundlagen ohne einzelnes klinisches Korrelat, einzelne
+      Kandidaten wie Mono-/Polyneuropathie-Lokalisation oder Subokzipital-
+      muskulatur-Kopfschmerz aber noch fallfähig). Schwerpunkt für kommende
+      Batches liegt auf UNTERSUCHUNG (58 ohne Fall-Link — Kandidaten u. a.
+      Kniegelenk-Bewegungspalpation/Joint-Play, Kopfnerven-Folgefälle,
+      Zehner-Test, Joint-Play-Technik Rute, liegender-Hund-Untersuchungs-
+      prinzipien, Anamnese-Strukturkategorien), THERAPIE (28 ohne Fall-Link,
+      nach Batch 7 weiter reduziert — Kandidaten u. a. Aufwärmen/Abkühlen,
+      Nutraceuticals-Wirknachweis, RITA bei schlaffer Parese, Bindegewebs-
+      massage nach Dicke) und BIOMECHANIK (75 ohne Fall-Link, nahezu
+      unberührt — eher als Hintergrundwissen geeignet, da meist grundlagen-
+      orientiert statt krankheitsspezifisch, einzelne konkrete Kandidaten wie
       Katapulteffekt/Sehnenelastizität oder Knorpelernährungs-Pumpmechanismus
-      aber fallfähig). 75 Fälle insgesamt jetzt (Stand 17.10.2026, gegenüber
-      8 zu Sessionbeginn — fast verzehnfacht), Zielmarke Vanessas liegt bei
-      ca. 100 — rund 25 weitere Fälle in kommenden Batches geplant, mit
+      aber fallfähig). 85 Fälle insgesamt jetzt (Stand 17.10.2026, gegenüber
+      8 zu Sessionbeginn — mehr als verzehnfacht), Zielmarke Vanessas liegt
+      bei ca. 100 — rund 15 weitere Fälle in kommenden Batches geplant, mit
       fortgesetztem Fokus auf echte Varianz (unterschiedliche Diagnosen,
       Regionen, Fallstrukturen, Fehlerkategorien) statt bloßer Wiederholung
       ähnlicher Fälle.

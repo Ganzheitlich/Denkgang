@@ -5062,6 +5062,647 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Alexander, C.-S., „Physiotechnik — Elektrotherapie”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 12 (siehe Wissenseintrag `tens-traebert-reizstrom-schmerztherapie-mechanismus`). Der TENS-Mechanismus, die Träbert-Parameter samt γ-Faser-Wirkung und der Gewöhnungseffekt mit konkreten Behandlungsintervallen sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "fiona",
+    topic: "Untersuchung · Kopfnerven (Horner-Syndrom-Muster)",
+    species: "Malteser, Hündin, 6 J.",
+    title: "Fiona — hängendes Augenlid, aber wo liegt die Ursache?",
+    learningObjective:
+      "Erkennen, dass die Kombination Ptosis/Miosis/Enophthalmus/Nickhautvorfall sicher ein Horner-Syndrom (Schädigung der sympathischen Augenversorgung) anzeigt, aber allein nicht verrät, wo genau entlang der Bahn (Hypothalamus, Nervenwurzeln T1–T3, Mittelohr) die Läsion liegt.",
+    anamnese:
+      "Fiona zeigt seit zwei Tagen ein hängendes linkes oberes Augenlid. Die Besitzer dachten zunächst an eine Verletzung, konnten aber keine Wunde finden. Fiona wirkt ansonsten munter und zeigt keine erkennbaren Schmerzen.",
+    beobachtung:
+      "Am linken Auge zeigt sich eine deutliche Ptosis, eine im Seitenvergleich kleinere Pupille (Miosis), ein eingesunken wirkender Augapfel (Enophthalmus) und ein Vorfall des dritten Augenlids. Rechtes Auge unauffällig.",
+    diagramLabel: "Ptosis, Miosis, Enophthalmus und Nickhautvorfall links seit zwei Tagen, Tier ansonsten unauffällig",
+    palpation:
+      "Die übrige Kopfnervenprüfung (Palpebralreflex, Drohreflex, Kiefertonus, Zungenmotorik, Schluckreflex, Gesichtsmimik, Augenbewegung) fällt beidseits unauffällig aus — das Befundmuster beschränkt sich auf die vier genannten Auffälligkeiten am linken Auge.",
+    hypothesisQ: "Was verrät die Kombination aus Ptosis, Miosis, Enophthalmus und Nickhautvorfall bei Fiona am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine Schädigung der sympathischen Versorgung des Auges (Horner-Syndrom) — die genaue Lokalisation (z. B. Hypothalamus, Nervenwurzeln T1–T3 oder Mittelohr) lässt sich aus dem Muster allein jedoch nicht ableiten und erfordert weitere Abklärung",
+        correct: true,
+      },
+      {
+        label: "Eine isolierte Lähmung des N. oculomotorius (3. Kopfnerv)",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Eine Lähmung des 3. Kopfnervs würde sich als ventrolateraler Strabismus, Ptosis und Mydriasis (erweiterte, nicht verengte Pupille) zeigen — Fionas Befund mit Miosis statt Mydriasis passt dazu nicht, sondern eindeutig zum Horner-Syndrom-Muster.",
+      },
+      {
+        label: "Eine Lähmung des N. trochlearis (4. Kopfnerv)",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Eine Trochlearislähmung würde sich als Rotation des Augapfels zeigen, nicht als die bei Fiona vorliegende Kombination aus Ptosis, Miosis, Enophthalmus und Nickhautvorfall.",
+      },
+      {
+        label: "Ein eindeutiger Beweis für eine Hypothalamusläsion, da dies die schwerwiegendste mögliche Ursache ist",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Das Horner-Syndrom-Muster allein erlaubt keine sichere Unterscheidung zwischen Hypothalamusläsion, Trauma der Nervenwurzeln T1–T3 und Mittelohrläsion — eine vorschnelle Festlegung auf die schwerwiegendste Möglichkeit ist durch den Befund nicht gedeckt.",
+      },
+    ],
+    expertNote:
+      "Ptosis, Miosis, Enophthalmus und Vorfall des dritten Augenlids treten gemeinsam als Horner-Syndrom auf und sprechen für eine Schädigung der sympathischen Versorgung des Auges. Mögliche Lokalisationen sind eine Hypothalamusläsion, ein Trauma an den Nervenwurzeln T1–T3 oder eine Mittelohrläsion — die genaue Ursache lässt sich aus dem Muster allein nicht ableiten, sondern nur die betroffene Bahn. Die Kopfnervenprüfung insgesamt ist deshalb so aussagekräftig, weil mit Ausnahme der ersten beiden Kopfnerven die Kernzentren in Mittelhirn, Pons und Medulla oblongata liegen — bei Hirnstammläsionen kann es zu einem oder mehreren Kopfnervenausfällen gleichzeitig kommen. Die Prüfung findet am besten auf dem Untersuchungstisch statt; bei verängstigten Hunden sollte sie wiederholt werden, da vor allem der Drohreflex sonst falsch interpretiert wird.",
+    weakeningQ: "Welche Aussage über die weitere Abklärung von Fionas Horner-Syndrom ist korrekt?",
+    weakeningOptions: [
+      {
+        label:
+          "Da Ptosis, Miosis, Enophthalmus und Nickhautvorfall nur die betroffene Bahn, nicht aber den genauen Läsionsort anzeigen, ist eine gezielte weitere Untersuchung nötig, um zwischen Hypothalamus, Nervenwurzeln T1–T3 und Mittelohr zu unterscheiden",
+        correct: true,
+      },
+      { label: "Das Muster allein genügt, um die Läsion sicher im Mittelohr zu verorten", correct: false, errorCategory: "Überkonfidenz" },
+      { label: "Da alle vier Anzeichen zusammen auftreten, kann eine weitere Abklärung entfallen", correct: false, errorCategory: "Überkonfidenz" },
+      { label: "Horner-Syndrom ist ausschließlich bei Katzen beschrieben und bei Fiona daher auszuschließen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    retrievalQ: "Welche vier Anzeichen bilden gemeinsam das Horner-Syndrom?",
+    retrievalOptions: [
+      { label: "Ptosis, Miosis, Enophthalmus und Vorfall des dritten Augenlids", correct: true },
+      { label: "Mydriasis, Ptosis und ventrolateraler Strabismus", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Nystagmus, Kopfschiefhaltung und Ataxie", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Exophthalmus, Mydriasis und Strabismus medialis", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.8 (Kopfnerven), S. 168–173 (siehe Wissenseintrag `kopfnervenpruefung-hund`). Die Kopfnerventests, das Strabismus-Lokalisationsschema und das Horner-Syndrom-Muster samt seiner drei möglichen Lokalisationen sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "jack",
+    topic: "Pathologie · Nervenverletzung (Seddon-Klassifikation)",
+    species: "Mischling, Rüde, 2 J.",
+    title: "Jack — tiefe Bissverletzung am Oberschenkel, wie ist die Prognose?",
+    learningObjective:
+      "Verstehen, dass sich unmittelbar nach einem Nerventrauma klinisch noch nicht zuverlässig zwischen Neurapraxie, Axonotmesis und Neuronotmesis nach Seddon unterscheiden lässt — und dass davon Erholungszeiten zwischen Tagen und Jahren abhängen.",
+    anamnese:
+      "Jack wurde vor zwei Tagen von einem anderen Hund gebissen und erlitt eine tiefe Weichteilwunde an der Rückseite des Oberschenkels. Seitdem zeigt er eine Schwäche der betroffenen Hintergliedmaße.",
+    beobachtung:
+      "Jack belastet die betroffene Hintergliedmaße nur eingeschränkt, mit erkennbarer motorischer Schwäche im Versorgungsgebiet des N. ischiadicus. Die Wunde selbst ist bereits tierärztlich versorgt und sauber.",
+    diagramLabel: "Motorische Schwäche der Hintergliedmaße zwei Tage nach tiefer Bissverletzung am Oberschenkel",
+    palpation:
+      "Die Wundregion ist druckempfindlich, ein eindeutiger Durchtrennungsbefund des Nervs lässt sich rein klinisch nicht feststellen. Ausmaß und Art der Nervenschädigung sind anhand der Untersuchung allein nicht sicher bestimmbar.",
+    hypothesisQ: "Was lässt sich zwei Tage nach Jacks Bissverletzung über seine Prognose nach der Seddon-Klassifikation sicher sagen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Noch nichts Sicheres — ob eine günstige Neurapraxie, eine Axonotmesis mit monate- bis jahrelanger Regeneration oder eine prognostisch ungünstige Neuronotmesis vorliegt, lässt sich klinisch unmittelbar nach dem Trauma nicht zuverlässig unterscheiden; der weitere Verlauf (ggf. mit chirurgischer Exploration) entscheidet",
+        correct: true,
+      },
+      {
+        label: "Da die Wunde tief ist, handelt es sich sicher um eine Neuronotmesis mit schlechter Prognose",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Die Wundtiefe allein erlaubt keine sichere Zuordnung zum Schädigungsgrad — eine Neuronotmesis (totale Durchtrennung inklusive Perineurium) ist nur eine von drei Möglichkeiten und lässt sich klinisch nicht allein aus der äußeren Wundtiefe ableiten.",
+      },
+      {
+        label: "Da der Hund überhaupt noch eine Restfunktion zeigt, handelt es sich sicher um eine harmlose Neurapraxie",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Auch bei Axonotmesis oder partieller Neuronotmesis können Restfunktionen erhalten bleiben — das Vorhandensein einer Restfunktion schließt die schwereren Schädigungsgrade nicht aus.",
+      },
+      {
+        label: "Die genaue Klassifikation ist für die Therapieplanung irrelevant, da ohnehin immer gleich behandelt wird",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Die drei Schädigungsgrade unterscheiden sich deutlich in der empfohlenen Vorgehensweise — von spontaner Erholung über überwiegend konservative Therapie mit ggf. chirurgischer Exploration bis zur notwendigen chirurgischen Intervention bei Neuronotmesis.",
+      },
+    ],
+    expertNote:
+      "Periphere Nervenläsionen werden nach Seddon in drei Schädigungsgrade eingeteilt: Neurapraxie (vorübergehender Leitungsblock ohne strukturelle Schädigung, Erholung in Tagen bis Wochen), Axonotmesis (Axon durchtrennt, Perineurium intakt, Waller-Degeneration des distalen Endes, Regeneration mit 1–3 mm/Tag über Monate bis Jahre) und Neuronotmesis (totale Durchtrennung inklusive Perineurium, prognostisch schlecht ohne chirurgische Intervention). Nach einer Axondurchtrennung degeneriert der distale Stumpf vollständig, der proximale nur über wenige Millimeter; nach etwa einer Woche beginnt die Regeneration über ein von Schwann-Zellen gebildetes Führungsrohr. Der Erfolg hängt vom Abstand zwischen Verletzungsort und Zielmuskel, vom Abstand der Nervenstümpfe und vom Ausmaß der Narbenbildung (Neurombildung) ab.",
+    weakeningQ: "Welcher Verlauf würde am ehesten für eine Axonotmesis statt für eine Neurapraxie bei Jack sprechen?",
+    weakeningOptions: [
+      { label: "Ausbleibende Funktionserholung über die ersten Wochen hinweg, mit langsamer, über Monate verlaufender Verbesserung", correct: true },
+      { label: "Vollständige Erholung der Funktion bereits nach wenigen Tagen bis Wochen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein reflexartiges Zurückziehen der Pfote unmittelbar nach dem Biss", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine auffällig rasche Abheilung der Hautverletzung selbst", correct: false, errorCategory: "Differentialdiagnostik unvollständig" },
+    ],
+    retrievalQ: "Welche drei Schädigungsgrade unterscheidet die Seddon-Klassifikation peripherer Nervenläsionen?",
+    retrievalOptions: [
+      { label: "Neurapraxie, Axonotmesis, Neuronotmesis", correct: true },
+      { label: "Kontusion, Distorsion, Luxation", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Mononeuropathie, Polyneuropathie, Radikulopathie", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Neurapraxie, Myelopathie, Neuronitis", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Nervensystem\" (A. Jaggy/I. Kathmann), Unterabschnitt „Spinalnervenschädigung durch Trauma\" (siehe Wissenseintrag `seddon-klassifikation-nervenverletzungen`). Die Seddon-Klassifikation mit allen drei Schädigungsgraden, deren struktureller Definition und Prognose sowie der Regenerationsmechanismus sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "lupo",
+    topic: "Pathologie · Neurologische Lokalisation (UMN/OMN-Unterscheidung)",
+    species: "Deutsch-Schäferhund-Mischling, Rüde, 7 J.",
+    title: "Lupo — plötzliche Hintergliedmaßen-Schwäche, welches System ist betroffen?",
+    learningObjective:
+      "Anhand der Reflexlage zwischen einer Läsion des unteren (Reflexbogen selbst) und des oberen (absteigende Bahnen) motorischen Neuronensystems unterscheiden — und dabei die im Quellentext gegensätzliche deutsche UMN/OMN-Abkürzungslogik nicht mit der international gebräuchlichen verwechseln.",
+    anamnese:
+      "Lupo zeigte heute Morgen plötzlich eine Schwäche beider Hintergliedmaßen, nachdem er von der Couch gesprungen war. Zuvor war er klinisch unauffällig.",
+    beobachtung:
+      "Lupo zeigt eine schlaffe Parese beider Hintergliedmaßen mit reduziertem Muskeltonus. Die Vordergliedmaßen sind unauffällig, Lupo ist bei vollem Bewusstsein und wirkt nicht schmerzhaft.",
+    diagramLabel: "Akute schlaffe Parese beider Hintergliedmaßen nach Sprung von der Couch, reduzierter Muskeltonus",
+    palpation:
+      "Der Patellarreflex ist beidseits deutlich reduziert bis fehlend (Hyporeflexie bis Areflexie). Kein Klonus auslösbar. Die Kopfnervenprüfung ist unauffällig.",
+    hypothesisQ: "Welches motorische System ist bei Lupo anhand des reduzierten Patellarreflexes und der schlaffen Tonuslage am ehesten betroffen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Das untere motorische Neuronensystem (im Quellentext als „UMN\" bezeichnet, international als „LMN\"/lower motor neuron) — der Reflexbogen selbst ist unterbrochen, was zur Hyporeflexie bis Areflexie führt",
+        correct: true,
+      },
+      {
+        label: "Das obere motorische Neuronensystem (im Quellentext „OMN\"), da jede Lähmung grundsätzlich von dort ausgeht",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Eine Läsion des oberen Systems würde typischerweise zu Hyperreflexie führen, da der hemmende Einfluss auf die Vorderhornzellen wegfällt — Lupos reduzierte Reflexe sprechen eindeutig für das untere System, nicht für jede Lähmung grundsätzlich für das obere.",
+      },
+      {
+        label: "Da im Quellentext „UMN\" verwendet wird, muss international ebenfalls das obere motorische Neuron gemeint sein",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Genau das ist die Verwechslungsgefahr: Im hier verwendeten Quellentext steht „UMN\" für unteres motorisches Neuron — mit der international gebräuchlichen Abkürzung „UMN\" (upper motor neuron) ist das NICHT identisch, sondern gegensätzlich belegt.",
+      },
+      {
+        label: "Reflexveränderungen lassen grundsätzlich keine Rückschlüsse auf die Läsionshöhe zu",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Anhand der spinalen Reflexe lässt sich gezielt unterscheiden, ob eine Läsion im zentralen oder peripheren Nervensystem liegt (erstes Lokalisations-Postulat) — Reflexe sind damit ein zentrales, nicht ein unbrauchbares diagnostisches Werkzeug.",
+      },
+    ],
+    expertNote:
+      "Das untere System (α-Motoneurone, Nervenwurzeln, periphere Nerven, neuromuskuläre Endplatten, Muskeln) zeigt bei Läsion Hyporeflexie bis Areflexie, weil der Reflexbogen selbst unterbrochen ist — Beispiele sind eine Diskushernie auf Höhe einer Lumbalschwellung, ein Neurofibrom einer Nervenwurzel oder Myasthenia gravis. Das obere System (absteigende Bahnen vom motorischen Großhirnkortex über den Hirnstamm bis zum Rückenmark) zeigt bei Läsion typischerweise Hyperreflexie, evtl. mit Klonus — die Reflexe können bei Läsionen dieses Systems aber auch normal sein; Beispiele sind degenerative Myelopathie und granulomatöse Meningoenzephalitis. Wichtig: Im hier ausgewerteten Quellentext bezeichnet „UMN\" das untere System und „OMN\" das obere — eine mit der international gebräuchlichen Abkürzung „UMN\" (upper motor neuron) gegensätzliche, verwechslungsträchtige Logik.",
+    weakeningQ: "Welcher Befund würde eher für eine Läsion des oberen motorischen Neuronensystems (international: UMN) statt des unteren sprechen?",
+    weakeningOptions: [
+      { label: "Gesteigerte Reflexe (Hyperreflexie), evtl. mit Klonus, bei weiterhin vorhandener, aber enthemmter Reflexantwort", correct: true },
+      { label: "Vollständig fehlende Reflexe bei schlaffem Tonus", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Eine Schädigung direkt an der neuromuskulären Endplatte", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Eine Polyneuropathie bei Hypothyreose", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    retrievalQ: "Was ist Klonus, und mit welchem System wird er vor allem in Verbindung gebracht?",
+    retrievalOptions: [
+      {
+        label:
+          "Eine repetitive Kontraktion und Relaxation eines Muskels als Antwort auf einen einzigen Reizstimulus — vor allem bei chronischer Schädigung der absteigenden, hemmenden Bahnen (oberes System) beobachtet",
+        correct: true,
+      },
+      { label: "Ein einmaliges, kurzes Muskelzucken, typisch für eine frische Läsion des unteren Systems", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ein Sammelbegriff für jede Form von Muskelzittern unabhängig vom Reizstimulus", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ein ausschließlich bei Katzen beobachtetes Phänomen ohne Bedeutung beim Hund", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Nervensystem\" (A. Jaggy/I. Kathmann), Unterabschnitt „Unteres motorisches Neuron (UMN) und oberes motorisches Neuron (OMN)\" (siehe Wissenseintrag `umn-omn-laesionslokalisation`). Die Gegenüberstellung beider Systeme samt Beispielkrankheiten, die Klonus-Definition sowie der Hinweis zur abweichenden deutschen UMN/OMN-Abkürzungslogik sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "cleo",
+    topic: "Untersuchung · Gewichtsbeurteilung (Body Conditioning Score)",
+    species: "Beagle, Hündin, 6 J.",
+    title: "Cleo — ist das Gewicht für ihre beginnende Arthrose ein Problem?",
+    learningObjective:
+      "Verstehen, dass das gesunde Gewicht eines Hundes nicht sinnvoll in Kilogramm, sondern über den 5-stufigen Body Conditioning Score (BCS) beurteilt wird — und dass Gewichtsreduktion allein ein wirksamer therapeutischer Hebel bei Arthrose ist.",
+    anamnese:
+      "Cleo wird wegen einer leichten, beginnenden Arthrose physiotherapeutisch begleitet. Die Besitzer fragen, ob Cleos aktuelles Gewicht von 14 kg für einen Beagle problematisch ist, haben aber keinen Vergleichswert außer dem Rasse-Durchschnittsgewicht.",
+    beobachtung:
+      "Cleo bewegt sich insgesamt noch gut, zeigt aber eine leicht steife Aufstehbewegung. Von oben betrachtet ist keine deutliche Taille erkennbar, der Rücken wirkt breit.",
+    diagramLabel: "Leichte, beginnende Arthrose; unklare Gewichtseinschätzung anhand reiner Kilogrammzahl ohne Kontext",
+    palpation:
+      "Die Rippen sind erst bei festerem Druck unter einer spürbaren Fettschicht zu ertasten, über Rücken und Schwanzbasis finden sich leichte Fettdepots.",
+    hypothesisQ: "Wie lässt sich am zuverlässigsten feststellen, ob Cleos Gewicht für ihren Bewegungsapparat problematisch ist?",
+    hypothesisOptions: [
+      {
+        label:
+          "Durch den Body Conditioning Score (BCS) — eine 5-stufige Beurteilung der Erscheinung (Rippen, Taille, Fettdepots), unabhängig von der reinen Kilogrammzahl, da das optimale Gewicht individuell von Größe, Muskelmasse und Trainingszustand abhängt",
+        correct: true,
+      },
+      {
+        label: "Allein durch den Vergleich von Cleos aktuellem Gewicht mit dem Rasse-Durchschnittsgewicht für Beagle",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Das optimale Körpergewicht hängt von zu vielen individuellen Faktoren ab, um es sinnvoll als starre Rassezahl in Kilogramm vorzugeben — der BCS beurteilt stattdessen die tatsächliche individuelle Erscheinung.",
+      },
+      {
+        label: "Gewicht spielt für die Arthrosetherapie ohnehin eine untergeordnete Rolle gegenüber der eigentlichen Physiotherapie",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "In Studien an arthrotischen Hunden, bei denen ausschließlich das Körpergewicht reduziert und ein leichtes aktives Bewegungstraining durchgeführt wurde, verbesserten sich Beweglichkeit und Leistungsbereitschaft aller Hunde signifikant — Gewichtsreduktion ist damit selbst schon ein wirksamer therapeutischer Hebel.",
+      },
+      {
+        label: "Eine einmalige BCS-Erhebung genügt, eine Reevaluierung ist nicht nötig",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Eine Reevaluierung des BCS im Abstand von 1–2 Wochen wird empfohlen, um den Verlauf einer Gewichtsreduktion nachvollziehen zu können.",
+      },
+    ],
+    expertNote:
+      "Der Body Conditioning Score (BCS, Fa. Iams) beschreibt die Erscheinung des Hundes in 5 Graden: 1 (dünn, Rippen/Dornfortsätze/Beckenknochen deutlich sichtbar), 2 (untergewichtig, Rippen leicht palpierbar, deutliche Taille), 3 (ideal, Rippen spürbar aber nicht sichtbar, deutliche Taille), 4 (übergewichtig, Rippen nur schwer spürbar, Taille kaum erkennbar), 5 (fett, Rippen nicht mehr palpierbar, keine Taille). Ein Befund wird z. B. so dokumentiert: „14 kg, BCS 4, Gewichtsabnahme empfohlen\".",
+    weakeningQ: "Welcher Palpationsbefund würde für einen BCS von 4 (übergewichtig) statt BCS 3 (ideal) bei Cleo sprechen?",
+    weakeningOptions: [
+      { label: "Rippen nur schwer unter einer Fettschicht spürbar, Fettdepots über Rücken und Schwanzbasis, Taille kaum erkennbar", correct: true },
+      { label: "Rippen spürbar, aber nicht sichtbar, deutliche Taille von oben und von der Seite", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Rippen sichtbar und leicht zu palpieren, Beckenknochen treten hervor, deutliche Taille", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Rippen, Dornfortsätze und Beckenknochen auch aus der Entfernung deutlich sichtbar", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Wie wird ein BCS-Befund laut Quelle korrekt dokumentiert?",
+    retrievalOptions: [
+      { label: "Gewicht in kg, BCS-Grad und ggf. Handlungsempfehlung, z. B. „27 kg, BCS 4, Gewichtsabnahme empfohlen\"", correct: true },
+      { label: "Ausschließlich das Gewicht in Kilogramm, ohne weitere Angabe", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine rein verbale Einschätzung wie „normalgewichtig\" ohne Grad oder Zahl", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Der BCS-Grad allein, ohne Angabe des tatsächlichen Körpergewichts", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.7 (Gewichtskontrolle), S. 75f. (siehe Wissenseintrag `body-conditioning-score-bcs`). Die fünf BCS-Grade mit ihren Merkmalen, die Studienangabe zur Wirksamkeit von Gewichtsreduktion sowie das Dokumentationsbeispiel sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "pino",
+    topic: "Untersuchung · Triggerpunkte Vordergliedmaße (Trizepskontraktur)",
+    species: "Pudel-Mischling, Rüde, 4 J.",
+    title: "Pino — Schulter und Bizeps gebessert, aber der Schritt bleibt kurz",
+    learningObjective:
+      "Erkennen, dass der M. triceps brachii als Gegenspieler von Bizeps und Supraspinatus durch reflektorische Nichtentspannung eine eigenständige, fortbestehende Kontraktur entwickeln kann, die den Bewegungsraum weiter einschränkt, selbst nachdem sich die ursprüngliche Schulter-/Bizepspathologie bereits gebessert hat.",
+    anamnese:
+      "Pino wurde wegen einer schmerzhaften Bizepssehnenproblematik an der rechten Vordergliedmaße physiotherapeutisch behandelt. Schultergelenk und Bizepsbefund haben sich unter der Therapie deutlich gebessert, der Besitzer berichtet aber, dass Pino beim Laufen weiterhin auffällig kurz ausgreift.",
+    beobachtung:
+      "Pino zeigt im Gangbild eine spürbar verkürzte Schrittlänge (Raumgriff) der rechten Vordergliedmaße in der Vorschwingphase, obwohl Schultergelenk und proximaler Bizepsbereich bei der Untersuchung kaum noch druckempfindlich sind.",
+    diagramLabel: "Verkürzter Raumgriff rechts vorn trotz gebesserter Schulter-/Bizepsbefunde unter laufender Therapie",
+    palpation:
+      "Deutliche Druckempfindlichkeit in der Grube zwischen Pars scapularis und Pars acromialis des M. deltoideus (Trizepstrigger); der proximale Bizepstrigger und der mediale/laterale Ellenbogenbereich sind dagegen kaum noch schmerzhaft.",
+    hypothesisQ: "Warum bleibt Pinos Schrittlänge der Vordergliedmaße eingeschränkt, obwohl sich Schultergelenk und Bizepsbefund unter Therapie bereits deutlich gebessert haben?",
+    hypothesisOptions: [
+      {
+        label:
+          "Der M. triceps brachii hat als Gegenspieler von Bizeps und Supraspinatus während der ursprünglichen Problematik reflektorisch mitangespannt und kann sich selbstständig gemacht haben — diese Kontraktur begrenzt den Bewegungsraum jetzt eigenständig weiter, auch nachdem sich die ursprüngliche Bizepsfunktion bereits gebessert hat",
+        correct: true,
+      },
+      {
+        label: "Ein sicheres Zeichen für ein Therapieversagen am Bizeps/Schultergelenk, das weiter dort behandelt werden muss",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Die Befunde an Schultergelenk und Bizeps sind bereits gebessert — der neu im Fokus stehende Trizepstrigger zeigt, dass die eigentliche Ursache des kurzen Schritts inzwischen woanders liegt, nicht dass die ursprüngliche Therapie versagt hat.",
+      },
+      {
+        label: "Ein Rückfall der ursprünglichen Schulterpathologie",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Der Palpationsbefund spricht gegen einen Rückfall am Schultergelenk/Bizeps selbst (dort kaum noch druckempfindlich) und für eine eigenständige Trizepskontraktur als neue, davon unabhängige Ursache.",
+      },
+      {
+        label: "Normale Variationsbreite im Gangbild ohne klinische Bedeutung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Der reproduzierbare Druckschmerz am Trizepstrigger (DÜ09) ist ein konkreter klinischer Befund, der die verkürzte Schrittlänge erklärt — kein bloßer Zufallsbefund ohne Bedeutung.",
+      },
+    ],
+    expertNote:
+      "Der Trizepstrigger (DÜ09) liegt in einer Grube zwischen Pars scapularis und Pars acromialis des M. deltoideus und zeigt Kontrakturen der Trizepsgruppe an: Weil der Trizeps als funktioneller Gegenspieler von Bizeps und Supraspinatus bei deren Problemen reflektorisch mitanspannt („Nichtentspannung\" in der Vorschwingphase), trägt er zu einer schrittverkürzenden Schonbewegung bei — und diese Kontraktur kann bestehen bleiben und den Bewegungsraum weiter einschränken, selbst nachdem sich die ursprüngliche Bizepsfunktion bereits gebessert hat. Der proximale Bizepstrigger liegt medial des Tuberculum majus, distal des Lig. transversum; der Supraspinatustrigger an der Umschlagstelle des Muskels über die Incisura scapulae, als Teil der Muskelkette M. trapezius pars cervicalis → M. supraspinatus → M. biceps brachii → M. pronator teres.",
+    weakeningQ: "Welcher Palpationsbefund bestätigt die Trizepskontraktur als Ursache bei Pino am deutlichsten?",
+    weakeningOptions: [
+      { label: "Schmerzhafte Verspannung am Trizepstrigger (DÜ09) in der Grube zwischen Pars scapularis und Pars acromialis des M. deltoideus", correct: true },
+      { label: "Druckschmerz am medialen Ellenbogentriggerpunkt (Processus coronoideus medialis)", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Druckschmerz am proximalen Bizepstrigger medial des Tuberculum majus", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Druckschmerz am Supraspinatustrigger über der Incisura scapulae", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    retrievalQ: "Welche Rolle spielt der M. triceps brachii als Gegenspieler von Bizeps und Supraspinatus in der Vorschwingphase des Schritts?",
+    retrievalOptions: [
+      {
+        label: "Er kann durch reflektorische Nichtentspannung (Tonuserhöhung) eine losgelassene Bewegung verhindern und zu einer schrittverkürzenden Schonbewegung beitragen",
+        correct: true,
+      },
+      { label: "Er hat als reiner Strecker keinerlei funktionellen Bezug zu Bizeps oder Supraspinatus", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Er entspannt sich bei Bizeps-/Supraspinatusproblemen automatisch vollständig mit, ohne eigene Kontraktur zu entwickeln", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Seine Funktion betrifft ausschließlich die Hintergliedmaße, nicht die Vordergliedmaße", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, Kap. 4.5.4 (Triggerpunktuntersuchung, Ellenbogen- und Schulter-Trigger), S. 90–101 (siehe Wissenseintrag `triggerpunktuntersuchung-kasper-zohmann-vordergliedmasse`). Der Trizepstrigger (DÜ09) samt Gegenspieler-Mechanismus, der proximale Bizepstrigger und der Supraspinatustrigger mit Muskelkette sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "juno",
+    topic: "Therapie · Hilfsmittelwahl (Rollstuhl bei Beckenfraktur)",
+    species: "Collie-Mischling, Hündin, 3 J.",
+    title: "Juno — Beckenfraktur mit Belastungsverbot, welches Hilfsmittel jetzt?",
+    learningObjective:
+      "Das passende Mobilitätshilfsmittel anhand der konkreten Indikation auswählen: Ein Rollstuhl ermöglicht frühe Mobilität ohne Belastung der Hintergliedmaßen und ist bei Beckenfraktur mit Belastungsverbot ausdrücklich indiziert, während Schiene, Schlinge oder Boots das eigentliche Problem nicht lösen.",
+    anamnese:
+      "Juno wurde vor drei Tagen bei einem Autounfall verletzt und hat eine stabil versorgte Beckenfraktur. Der behandelnde Tierarzt hat ein sechswöchiges Belastungsverbot für die Hintergliedmaßen verordnet. Juno ist neurologisch unauffällig.",
+    beobachtung:
+      "Juno ist wach, interessiert und versucht trotz des Belastungsverbots immer wieder aufzustehen und sich zu bewegen — ein Verhalten, das die Besitzer nur schwer kontrollieren können.",
+    diagramLabel: "Stabil versorgte Beckenfraktur, sechswöchiges Belastungsverbot der Hintergliedmaßen, neurologisch unauffällig",
+    palpation:
+      "Die Beckenregion ist nach wie vor druckempfindlich, entsprechend der noch frischen Fraktur. Hintergliedmaßen selbst zeigen keine eigenständige Gelenk- oder Muskelproblematik.",
+    hypothesisQ: "Welches Hilfsmittel ist für Juno während der sechswöchigen Belastungsverbots-Phase am besten geeignet, um frühe Mobilität zu ermöglichen, ohne die Hintergliedmaßen zu belasten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Ein Rollstuhl — explizit indiziert bei Beckenfraktur mit Belastungsverbot, ermöglicht frühe Mobilität und zeitweise Unabhängigkeit vom Besitzer, ohne die Hintergliedmaßen zu belasten",
+        correct: true,
+      },
+      {
+        label: "Eine Schiene zur Fixierung der Hintergliedmaßen",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Schienen dienen der Fixation instabiler Gelenke/Extremitäten bei Frakturen oder Nervenläsionen der Gliedmaßen selbst — Junos Problem ist jedoch das Belastungsverbot infolge der Beckenfraktur, nicht eine Instabilität der Hintergliedmaßengelenke.",
+      },
+      {
+        label: "Eine Gehschlinge, mit der die Besitzer Juno beim Laufen auf allen vier Beinen stützen",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Eine Schlinge ermöglicht Teilbelastung der Gelenke — genau das widerspricht dem bestehenden vollständigen Belastungsverbot der Hintergliedmaßen.",
+      },
+      {
+        label: "Boots zum Schutz der Pfoten vor Aufscheuern",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Boots sind für andere Indikationen gedacht (Zehenschleifer, Schutz vor Gelände/Streusalz, Wundlecken) und lösen Junos eigentliches Problem — das Belastungsverbot — nicht.",
+      },
+    ],
+    expertNote:
+      "Ein Rollstuhl ist für alle nicht mehr lauffähigen oder nicht belastbaren Hunde geeignet (Lähmungen, Beckenfraktur mit Belastungsverbot, instabiler lumbosakraler Übergang, hochgradige HD u. v. a.) und ermöglicht frühe Mobilität und zeitweise Unabhängigkeit vom Besitzer. Anforderungen: leicht, große luftgefüllte geländegängige Reifen, kippsicher, druckfrei. Anfangs sind nur kurze Übungszeiten (5 × 2 Minuten) vorgesehen; bei schlaff gelähmten Hinterextremitäten müssen diese hochgebunden werden, um wund geschliffene Fußrücken zu vermeiden. Bei der Hilfsmittelauswahl muss neben der medizinischen Indikation auch die alltagspraktische Handhabbarkeit für den Besitzer berücksichtigt werden — nicht jeder Besitzer kann sich gut bücken oder einen großen Hund ohne Hilfsmittel heben.",
+    weakeningQ: "Wie sollten Junos erste Rollstuhl-Übungseinheiten laut Quelle dosiert werden?",
+    weakeningOptions: [
+      { label: "Anfangs nur kurze Übungszeiten, z. B. 5 × 2 Minuten", correct: true },
+      { label: "Von Beginn an uneingeschränkt lange, um die Eingewöhnung zu beschleunigen", correct: false, errorCategory: "Überkonfidenz" },
+      { label: "Einmal täglich ein langer, durchgehender Spaziergang im Rollstuhl", correct: false, errorCategory: "Überkonfidenz" },
+      { label: "Nur alle paar Tage eine einzelne, dafür sehr lange Einheit", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    retrievalQ: "Welche praktische Randbedingung muss bei der Hilfsmittelauswahl neben der rein medizinischen Indikation immer mitbedacht werden?",
+    retrievalOptions: [
+      { label: "Die Handhabbarkeit für den Besitzer — z. B. ob er sich ausreichend bücken oder das Tier stützen/heben kann", correct: true },
+      { label: "Ausschließlich die Farbe und Optik des Hilfsmittels", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Nur der Anschaffungspreis, unabhängig von der tatsächlichen Eignung", correct: false, errorCategory: "falsche Priorisierung" },
+      { label: "Praktische Randbedingungen spielen bei der Hilfsmittelauswahl keine Rolle", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.6.1–5.6.7 (Schlingen, Schienen, Boots, Gelenkschoner, Rollstuhl, Rampen, Inkontinenzbetten), S. 135–138 (siehe Wissenseintrag `rehabilitations-hilfsmittel-uebersicht-schlingen-schienen-rollstuhl`). Die sieben Hilfsmittelklassen mit ihren Indikationen und Anforderungen sowie der Hinweis zu den alltagspraktischen Randbedingungen sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "rufus",
+    topic: "Therapie · Dehnen vs. Stretching (Kontraindikation postoperativ)",
+    species: "Dobermann, Rüde, 5 J.",
+    title: "Rufus — frisch operiertes Knie, sollen die Besitzer selbst dehnen?",
+    learningObjective:
+      "Zwischen Dehnen (ausschließlich durch den Therapeuten, kontraindiziert bei akuter Entzündung) und Stretching (patientenhaltertauglich, aber nur innerhalb der bestehenden Bewegungsgrenze) unterscheiden — und erkennen, dass beide Begriffe fachlich nicht austauschbar sind.",
+    anamnese:
+      "Rufus wurde vor drei Tagen am Knie operiert. Die Besitzer haben online eine Anleitung gefunden, wie sie zu Hause selbst mit dem Knie „dehnen\" können, um einer Bewegungseinschränkung vorzubeugen, und fragen, ob sie direkt damit beginnen sollen.",
+    beobachtung:
+      "Das operierte Kniegelenk zeigt noch eine deutliche Schwellung und sichtbare Entzündungszeichen; Rufus hält die Gliedmaße in Ruhe überwiegend entlastet.",
+    diagramLabel: "Drei Tage postoperativ, deutliche Schwellung und Entzündungszeichen am operierten Kniegelenk",
+    palpation:
+      "Das Gelenk ist warm, gefüllt und druckempfindlich — eindeutige Zeichen einer noch akuten, frischen postoperativen Entzündungsreaktion.",
+    hypothesisQ: "Sollten Rufus' Besitzer wie online beschrieben selbst mit dem Knie „dehnen\", um einer Bewegungseinschränkung vorzubeugen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nein — Dehnen (bewusstes Überschreiten des vorhandenen Bewegungsausmaßes) gehört ausschließlich in die Hand des erfahrenen Therapeuten und ist bei der noch bestehenden akuten Entzündung/Schwellung des frisch operierten Gelenks ohnehin eine absolute Kontraindikation",
+        correct: true,
+      },
+      {
+        label: "Ja, sofern die Besitzer sich strikt an eine schriftliche Anleitung halten",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Dehnen darf unabhängig von einer noch so genauen Anleitung keinesfalls dem Tierhalter übergeben werden — es gehört ausdrücklich ausschließlich in die Hand des erfahrenen Therapeuten.",
+      },
+      {
+        label: "Ja, weil Dehnen und Stretching dasselbe sind und Stretching für Besitzer geeignet ist",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Dehnen und Stretching sind fachlich grundverschieden: Dehnen bewegt bewusst über das bestehende Bewegungsausmaß hinaus (nur durch Therapeuten), Stretching hält lediglich endgradig bis zur bestehenden Grenze (patientenhaltertauglich) — beide Begriffe sind nicht austauschbar.",
+      },
+      {
+        label: "Ja, da eine frühzeitige Dehnung Kontrakturen am sichersten verhindert",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Vor jeder Dehnungsbehandlung muss zunächst das Gleitverhalten des Gelenks geprüft werden, und Fraktur, lokale Entzündung, Infektion, Hämatom und Ödem sind absolute Kontraindikationen — die bei Rufus aktuell bestehende Entzündung/Schwellung schließt eine Dehnung derzeit grundsätzlich aus.",
+      },
+    ],
+    expertNote:
+      "Dehnen wird zur Kontrakturbeseitigung eingesetzt und bewegt das Gelenk bewusst über das bestehende Bewegungsausmaß hinaus; es gehört ausschließlich in die Hand des erfahrenen Therapeuten. Absolute Kontraindikationen sind Fraktur, lokale Entzündung, Infektion, Hämatom und Ödem. Statische Dehnung (6–30 Sekunden gehalten) ist Standard, föderndes/ballistisches Dehnen ist wegen Mikrotraumatisierungsgefahr zu vermeiden. Stretching bedeutet dagegen kein Bewegen über das vorhandene Bewegungsausmaß hinaus, sondern lediglich ein endgradiges Halten bis zur bestehenden Grenze (bis 20 Sekunden) — dadurch eignet es sich, anders als Dehnen, auch zur Anwendung durch den Tierhalter selbst, insbesondere prophylaktisch bei sportlich geführten Hunden.",
+    weakeningQ: "Welche Übung wäre für Rufus' Besitzer zu Hause grundsätzlich geeignet, sobald die akute Entzündung abgeklungen ist?",
+    weakeningOptions: [
+      {
+        label: "Stretching — ein endgradiges Halten bis zur bestehenden Bewegungsgrenze, ohne diese zu überschreiten, eignet sich im Gegensatz zum Dehnen auch zur Anwendung durch den Tierhalter",
+        correct: true,
+      },
+      { label: "Föderndes, ballistisches Dehnen, da es am schnellsten wirkt", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Weiterhin Dehnen über das bestehende Bewegungsausmaß hinaus, nur mit größerer Vorsicht", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+      { label: "Sofortiges, intensives Lauftraining ohne vorherige Mobilisation", correct: false, errorCategory: "falsche Priorisierung" },
+    ],
+    retrievalQ: "Welche absoluten Kontraindikationen gelten für die therapeutische Dehnungsbehandlung?",
+    retrievalOptions: [
+      { label: "Fraktur, lokale Entzündung, Infektion, Hämatom und Ödem", correct: true },
+      { label: "Ausschließlich hohes Alter des Patienten", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Dehnen hat außer allgemeiner Unruhe des Patienten keine echten Kontraindikationen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Nur eine bestehende Lahmheit, unabhängig von deren Ursache", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken\". In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 11, Abschnitte „Dehnen\" und „Stretching\" (siehe Wissenseintrag `dehnen-versus-stretching-risikoprofile-technik`). Die Definition und das Sicherheitsprofil des Dehnens samt Kontraindikationen sowie die klare Abgrenzung zum patientenhaltertauglichen Stretching sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "resi",
+    topic: "Pathologie · Differentialdiagnostik (DLSS vs. Kreuzbandriss)",
+    species: "Deutscher Schäferhund, Hündin, 6 J.",
+    title: "Resi — Hintergliedmaßen-Lahmheit mit Oberschenkelatrophie, wirklich das Kreuzband?",
+    learningObjective:
+      "Erkennen, dass eine foraminale Nervenwurzelkompression bei lumbosakraler Instabilität/Stenose (Cauda-equina-Kompressions-Syndrom) ein orthopädisch täuschend echtes Lahmheitsbild erzeugen kann — und dass Automutilation an Rute/Perineum ein wichtiger Hinweis auf die neurogene statt rein orthopädische Ursache ist.",
+    anamnese:
+      "Resi zeigt seit mehreren Monaten eine langsam zunehmende Lahmheit einer Hintergliedmaße mit Belastungsschmerz. Zusätzlich beknabbert und beleckt sie seit einigen Wochen auffällig häufig ihre Rutenbasis.",
+    beobachtung:
+      "Resi zeigt eine deutliche Atrophie der Oberschenkelmuskulatur der betroffenen Seite sowie Schmerzen beim Aufstehen und Treppensteigen. An der Rutenbasis finden sich durch das Belecken bedingte, oberflächliche Hautveränderungen.",
+    diagramLabel: "Hintergliedmaßen-Lahmheit mit Oberschenkelatrophie seit Monaten, zusätzlich Belecken/Beknabbern der Rutenbasis",
+    palpation:
+      "Hyperalgesie im Lumbosakralbereich sowie Schmerzen bei Dorsoflexion der Rute. Der Kniegelenksbefund selbst (Schublade, Tibiakompressionstest) ist unauffällig.",
+    hypothesisQ: "Was erklärt Resis Hintergliedmaßen-Lahmheit mit Oberschenkelatrophie und Belastungsschmerz am ehesten, unter Einbeziehung des Beleckens an der Rutenbasis?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine lumbosakrale Instabilität/Stenose mit vorwiegend foraminaler Nervenwurzelkompression (Cauda-equina-Kompressions-Syndrom) — dieses Bild kann orthopädisch täuschend echt wirken und zusätzlich zu Automutilation wie dem Belecken der Rutenbasis führen",
+        correct: true,
+      },
+      {
+        label: "Ein Kreuzbandriss, da Belastungsschmerz und Oberschenkelatrophie typisch dafür sind",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Resis unauffälliger Kniegelenksbefund (Schublade, Tibiakompressionstest) sowie die zusätzliche Hyperalgesie im Lumbosakralbereich, der Schmerz bei Rutendorsoflexion und das Belecken der Rutenbasis sprechen gegen eine rein orthopädische Kniegelenkserkrankung und für eine foraminale Nervenwurzelkompression, die orthopädisch täuschend echt wirken kann.",
+      },
+      {
+        label: "Ein reines Verhaltensproblem (übermäßiges Lecken aus Langeweile), unabhängig von der Lahmheit",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "In ausgeprägten Fällen einer lumbosakralen Nervenwurzelkompression können Missempfindungen so weit gehen, dass der Hund Rute oder Perineum durch Belecken selbst verletzt — ein Symptom, das ohne die zugrunde liegende Nervenwurzelreizung leicht als isoliertes Verhaltensproblem fehlgedeutet würde.",
+      },
+      {
+        label: "Eine Coxarthrose, da Hüftprobleme ebenfalls zu Oberschenkelatrophie führen können",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Coxarthrose gehört zwar zu den auszuschließenden Differentialdiagnosen, erklärt aber weder die Hyperalgesie im Lumbosakralbereich noch den Schmerz bei Rutendorsoflexion noch das Belecken der Rutenbasis — das Gesamtbild passt besser zur foraminalen Nervenwurzelkompression.",
+      },
+    ],
+    expertNote:
+      "Betrifft die Nervenwurzelkompression bei der lumbosakralen Instabilität/Stenose vor allem den Bereich der Foramina intervertebralia statt den zentralen Wirbelkanal, kann das Lahmheitsbild einem orthopädischen Problem der Hintergliedmaße täuschend ähnlich sehen — N. ischiadicus, N. pudendus, Nn. pelvini und Nn. caudales erzeugen dann Paresen und belastungsabhängige Schmerzen. Coxarthrose, andere Kniegelenkserkrankungen und Prostataerkrankungen gehören ebenso zu den auszuschließenden Differentialdiagnosen wie weiter kranial liegende Rückenmark-/Wirbelsäulenläsionen, degenerative Myelopathie, Diskospondylitis und Wirbelsäulentumoren. Die Beschwerden entwickeln sich mitunter über Monate: Hyperalgesie im Lumbosakralbereich, Schmerzen beim Aufstehen/Springen/Treppensteigen und bei Dorsoflexion der Rute — in ausgeprägten Fällen bis zur Automutilation von Rute, Perineum oder Präputialbereich.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine einfache orthopädische Ursache und für eine neurogene Beteiligung bei Resi sprechen?",
+    weakeningOptions: [
+      { label: "Schmerzen bei Dorsoflexion der Rute und Hyperalgesie im Lumbosakralbereich", correct: true },
+      { label: "Ein eindeutig positiver vorderer Schubladentest am Kniegelenk", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine deutliche Gelenkfüllung ausschließlich am Kniegelenk", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine Krepitation bei Beugung und Streckung des Kniegelenks", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum kann ein unauffälliges Röntgenbild oder eine unauffällige Myelographie eine Cauda-equina-Kompression durch Foraminostenose bei Resi nicht sicher ausschließen?",
+    retrievalOptions: [
+      {
+        label:
+          "Röntgen zeigt Instabilität/knöcherne Veränderungen, aber nicht das Ausmaß der Nervenkompression, und ähnliche Veränderungen kommen auch bei beschwerdefreien Hunden vor; die Myelographie versagt zusätzlich, wenn die Kompression rein lateral im Foramen liegt",
+        correct: true,
+      },
+      { label: "Weil Röntgen und Myelographie beim Hund grundsätzlich nicht anwendbar sind", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Röntgenbilder bei Wirbelsäulenerkrankungen generell keinerlei diagnostischen Wert haben", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil ausschließlich eine Blutuntersuchung die Diagnose sichern kann", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Instabilität im Lumbosakralbereich, Stenose des Lumbosakralkanals, Cauda-equina-Kompressions-Syndrom (siehe Wissenseintrag `dlss-cauda-equina-kreuzband-verwechslungsgefahr-automutilation`). Die orthopädische Verwechslungsgefahr bei foraminaler Nervenwurzelkompression, die Automutilation als mögliches Symptom sowie die Grenzen von Röntgen- und Myelographie-Diagnostik sind in der Quelle so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "elsa",
+    topic: "Therapie · Postoperative Rehabilitation (Rücküberweisungskriterium)",
+    species: "Berner Sennenhund, Hündin, 5 J.",
+    title: "Elsa — fünf Wochen nach TPLO immer noch kaum Belastung, was jetzt?",
+    learningObjective:
+      "Erkennen, dass eine auffällig starke, anhaltende Schonung nach einer Operation nicht automatisch Gewohnheit bedeutet, sondern Anlass für eine Rücküberweisung zum Chirurgen sein sollte — statt die Physiotherapie unverändert fortzusetzen oder abzuwarten.",
+    anamnese:
+      "Elsa wurde vor fünf Wochen mittels TPLO operiert und wird seitdem physiotherapeutisch begleitet. Der Chirurg hat beim letzten Kontrolltermin ein stabiles Gelenk ohne Komplikationen beschrieben. Elsa belastet die operierte Hintergliedmaße trotz laufender Therapie weiterhin auffällig wenig.",
+    beobachtung:
+      "Elsa zeigt im Stand und beim Laufen eine deutliche, über das für diesen Zeitpunkt übliche Maß hinausgehende Schonung der operierten Gliedmaße, obwohl das Gelenk laut chirurgischem Befund stabil ist.",
+    diagramLabel: "Fünf Wochen postoperativ, auffällig starke Schonung trotz chirurgisch bestätigt stabilem Gelenk",
+    palpation:
+      "Das Gelenk selbst ist bei der Untersuchung nicht mehr entzündet und wirkt stabil; dennoch zeigt Elsa bei Belastungsversuchen eine deutliche Abwehr.",
+    hypothesisQ: "Wie sollte mit Elsas anhaltender, auffällig starker Schonung der operierten Gliedmaße nach fünf Wochen Physiotherapie am besten umgegangen werden?",
+    hypothesisOptions: [
+      {
+        label:
+          "Rückfrage/Rücküberweisung zum Chirurgen — eine auffällig starke Schonung kann auch bedeuten, dass tatsächlich noch Schmerzen bestehen, z. B. weil die Schmerztherapie nicht ausreicht, und nicht automatisch nur Gewohnheit sein",
+        correct: true,
+      },
+      {
+        label: "Die Physiotherapie einfach intensivieren, da Schonung nach einer OP ohnehin normal ist und mit der Zeit von selbst verschwindet",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Schont ein Tier auffällig stark, lohnt sich die Rückfrage nach der Schmerztherapie mit dem Chirurgen — manchmal schont ein Hund nicht aus Gewohnheit, sondern weil es tatsächlich noch wehtut; das Problem einfach mit mehr Therapie zu überdecken, würde diese Möglichkeit übersehen.",
+      },
+      {
+        label: "Sofortiger Abbruch jeglicher Rehabilitation, da offensichtlich ein chirurgischer Fehler vorliegt",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Der Chirurg hat ein stabiles Gelenk ohne Komplikationen beschrieben — ein chirurgischer Fehler ist damit nicht belegt; die angemessene Reaktion ist die Rückfrage beim Chirurgen, nicht der vorschnelle Rehabilitationsabbruch.",
+      },
+      {
+        label: "Abwarten ohne weitere Maßnahmen, bis sich die Situation von selbst normalisiert",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Bei auffällig starker, anhaltender Schonung ist eine aktive Rückfrage beim Chirurgen empfohlen — passives Abwarten würde eine mögliche unzureichende Schmerztherapie unnötig verlängern.",
+      },
+    ],
+    expertNote:
+      "Im Idealfall ist der Chirurg in die Rehabilitation eingebunden und wird regelmäßig über den Fortschritt informiert. Bei Stellungsfehlern, abnormen Gangbildern oder verlängerter Nichtbelastung der operierten Extremität sollte eine Rücküberweisung zum Chirurgen erfolgen. Die Rehabilitation gilt als abgeschlossen, wenn: das Gelenk keine Entzündungssymptome mehr zeigt, die volle Beweglichkeit wieder gegeben ist, beide Extremitäten symmetrisch bemuskelt sind, die Operationswunde vollständig abgeheilt ist, und das Gelenk stabil sowie die Funktion der Extremität vollständig wiederhergestellt ist. Fünf Parameter bestimmen den individuellen Rehabilitationsplan: Operationsmethode, betroffene Gewebe, präoperativer Zustand, Alter des Hundes, sowie ob die Reha in der Praxis oder zu Hause stattfindet.",
+    weakeningQ: "Welches der fünf Abschlusskriterien einer erfolgreichen Rehabilitation ist bei Elsa fünf Wochen postoperativ eindeutig noch nicht erfüllt?",
+    weakeningOptions: [
+      { label: "Die vollständige Funktion der Extremität ist wiederhergestellt — Elsa belastet die operierte Gliedmaße weiterhin auffällig wenig", correct: true },
+      { label: "Das Gelenk zeigt keine Entzündungssymptome mehr — laut chirurgischem Befund bereits erfüllt", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Die Operationswunde ist vollständig abgeheilt — nach fünf Wochen bereits zu erwarten", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Das Gelenk ist stabil — laut chirurgischem Befund bereits bestätigt", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche fünf Parameter bestimmen laut Quelle maßgeblich den individuellen Rehabilitationsplan nach einer Operation?",
+    retrievalOptions: [
+      {
+        label: "Operationsmethode, betroffene Gewebe, präoperativer Zustand des Hundes, Alter des Hundes, sowie ob die Reha in der Praxis oder zu Hause stattfindet",
+        correct: true,
+      },
+      { label: "Ausschließlich das Körpergewicht des Hundes vor der Operation", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ausschließlich die Dauer der Narkose während der Operation", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ausschließlich die Erfahrung des behandelnden Physiotherapeuten", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.2.1 (Postoperative Rehabilitation), S. 79 (siehe Wissenseintrag `postoperative-rehabilitation-parameter-abschlusskriterien`). Die fünf Entscheidungsparameter, die Chirurg-Therapeut-Zusammenarbeit inkl. Rücküberweisungskriterien sowie die fünf Abschlusskriterien der Rehabilitation sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "bert",
+    topic: "Untersuchung · Goniometrie (ROM-Dokumentation)",
+    species: "Labrador-Mischling, Rüde, 8 J.",
+    title: "Bert — derselbe ROM-Wert bei der Kontrolle, heißt das keine Besserung?",
+    learningObjective:
+      "Verstehen, dass ein einzelner ROM-Summenwert verschleiert, in welche Richtung (Extension oder Flexion) sich die Gelenkbeweglichkeit verändert hat — und die Messvarianz der manuellen Goniometrie (bis zu 11 %) bei der Interpretation einzelner Werte mitberücksichtigen.",
+    anamnese:
+      "Bert wird nach einer konservativ behandelten Knieverletzung physiotherapeutisch begleitet. Beim Erstbefund wurde die Beweglichkeit des Kniegelenks als einzelner ROM-Wert von 90° dokumentiert. Nach zwei Wochen Therapie wird erneut gemessen.",
+    beobachtung:
+      "Die Kontrollmessung ergibt erneut einen ROM-Summenwert von 90° — auf den ersten Blick scheint sich nichts verändert zu haben.",
+    diagramLabel: "ROM-Summenwert beim Erst- und Kontrolltermin jeweils 90°, bisher nur als einzelner Wert dokumentiert",
+    palpation:
+      "Eine getrennte Nachmessung von Extension und Flexion wurde bisher nicht durchgeführt; der bestehende Summenwert allein lässt keine Aussage über die Bewegungsrichtung zu.",
+    hypothesisQ: "Berts ROM wurde beim Erst- und Kontrolltermin jeweils als einzelner Wert mit 90° dokumentiert — was lässt sich daraus über den Therapieverlauf ableiten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nichts Eindeutiges — ein einzelner ROM-Summenwert verschleiert, in welche Richtung (Extension oder Flexion) sich die Beweglichkeit verändert hat; erst eine getrennte Dokumentation von Extension und Flexion würde zeigen, ob sich tatsächlich etwas verbessert oder verschlechtert hat",
+        correct: true,
+      },
+      {
+        label: "Eindeutig keine Verbesserung, da sich der Summenwert nicht verändert hat",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Ein gleichbleibender Summenwert kann trotzdem eine Verschiebung zwischen Extension und Flexion verdecken — ein reiner ROM-Summenwert verschleiert, in welche Richtung die Gelenkbeweglichkeit eingeschränkt ist.",
+      },
+      {
+        label: "Die Messung ist grundsätzlich unbrauchbar und sollte komplett eingestellt werden",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Trotz ihrer Messvarianz bleibt die ROM ein wichtiger Parameter, um eine Verbesserung im Therapieverlauf zu belegen — die Lösung ist eine aussagekräftigere, getrennte Dokumentation, nicht der Verzicht auf die Messung.",
+      },
+      {
+        label: "Da Goniometrie ohnehin höchst exakt ist, kann die Messung als objektiver Beweis für eine stabile Situation gewertet werden",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Die manuelle Goniometrie hat eine erhebliche Messvarianz von bis zu 11 % zwischen verschiedenen Untersuchern — ein einzelner Wert ist bestenfalls eine Schätzung, kein objektiver Beweis für eine stabile Situation.",
+      },
+    ],
+    expertNote:
+      "Das Bewegungsausmaß kann als einzelner ROM-Wert (z. B. „90°\") oder getrennt als Extension/Flexion (z. B. „Extension: 160°, Flexion: 40°\") dokumentiert werden. Die getrennte Angabe ist deutlich aussagekräftiger, da sie bereits verrät, in welche Richtung die Gelenkbeweglichkeit eingeschränkt ist. Die manuelle Goniometrie hat eine erhebliche Messvarianz: Ergebnisse verschiedener Untersucher können um bis zu 11 % voneinander abweichen — Vergleiche mit CT-Aufnahmen zeigen, dass sie bestenfalls eine Schätzung des tatsächlichen Bewegungsausmaßes ist. Die Varianz lässt sich verringern, indem immer derselbe Untersucher misst, mehrfach ausmisst und den Mittelwert bildet. Trotzdem bleibt die ROM bei stark eingeschränkter Beweglichkeit ein wichtiger Parameter, um eine Verbesserung im Therapieverlauf zu belegen — eine Reevaluierung nach 2 Wochen Therapie wird empfohlen.",
+    weakeningQ: "Wie lässt sich die bekannte Messvarianz der manuellen Goniometrie (bis zu 11 %) am wirksamsten verringern?",
+    weakeningOptions: [
+      { label: "Indem immer derselbe Untersucher misst, mehrfach ausmisst und den Mittelwert bildet", correct: true },
+      { label: "Indem bei jeder Kontrolle ein anderer Untersucher misst, um Verzerrungen auszugleichen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Indem grundsätzlich nur eine einzige, schnelle Messung pro Termin durchgeführt wird", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Die Messvarianz lässt sich prinzipiell nicht verringern", correct: false, errorCategory: "Unterkonfidenz" },
+    ],
+    retrievalQ: "Wie sollte das Bewegungsausmaß eines Gelenks dokumentiert werden, um maximal aussagekräftig zu sein?",
+    retrievalOptions: [
+      { label: "Getrennt als Extension- und Flexionswert (z. B. „Extension: 160°, Flexion: 40°\"), nicht als einzelner Summenwert", correct: true },
+      { label: "Immer nur als einzelner ROM-Summenwert, da dieser am einfachsten zu vergleichen ist", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Rein verbal als „gut beweglich\" oder „eingeschränkt beweglich\" ohne Gradangabe", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Nur als prozentualer Vergleich zur gesunden Gegenseite, ohne Gradangabe", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.8 (Goniometrie – Range of Motion), S. 75–77 (siehe Wissenseintrag `goniometrie-rom-messung-grenzen`). Die Messmethodik, die beiden Dokumentationsarten mit ihrer unterschiedlichen Aussagekraft sowie die Angabe zur Messvarianz (bis 11 %) sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -9276,7 +9917,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Faktenwissen", "Befund überbewertet"],
     sourceStatus:
       "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Nervensystem\" (A. Jaggy/I. Kathmann), Unterabschnitt „Unteres motorisches Neuron (UMN) und oberes motorisches Neuron (OMN)\". Die Lokalisations-Postulate, die Definitionen und Beispielkrankheiten beider Systeme sowie die Klonus-Definition sind im Original so beschrieben. Der Hinweis zur international abweichenden UMN/LMN-Abkürzungskonvention ist eine eigene, sachlich begründete Ergänzung zur Fehlervermeidung — im Original selbst nicht thematisiert. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["lupo"],
     relatedAnatomyIds: [],
   },
   {
@@ -9359,7 +10000,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Faktenwissen", "Befund überbewertet", "falsche Priorisierung", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Nervensystem\" (A. Jaggy/I. Kathmann), Unterabschnitt „Spinalnervenschädigung durch Trauma\". Die Seddon-Klassifikation mit allen drei Schädigungsgraden, deren struktureller Definition und Prognose sowie der Regenerationsmechanismus (Waller-Degeneration, retrograde Degeneration, Schwann-Zell-Führungsrohr, Neurombildung) sind im Original so beschrieben. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["jack"],
     relatedAnatomyIds: [],
   },
   {
@@ -10233,7 +10874,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 7.8 (Kopfnerven), S. 168–173. Alle Tests, Nervenzuordnungen und Befunde sind im Original so beschrieben, mit einer transparent gekennzeichneten Ausnahme: die Kopfnervenangabe des Drohreflexes wurde wegen eines wahrscheinlichen Texterfassungsfehlers anhand der eindeutigen Fließtextbeschreibung korrigiert übernommen (siehe eigener Abschnitt).",
-    relatedCaseIds: [],
+    relatedCaseIds: ["fiona"],
     relatedAnatomyIds: [],
   },
   {
@@ -13598,7 +14239,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["falsche Priorisierung", "Befund übersehen", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.7 (Gewichtskontrolle), S. 75f. Die fünf BCS-Grade mit ihren Merkmalen, die Studienangabe zur Wirksamkeit von Gewichtsreduktion sowie das Dokumentationsbeispiel sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["cleo"],
     relatedAnatomyIds: [],
   },
   {
@@ -13627,7 +14268,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund überbewertet", "Faktenwissen", "Überkonfidenz"],
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.8 (Goniometrie – Range of Motion), S. 75–77. Die Messmethodik, die beiden Dokumentationsarten mit ihrer unterschiedlichen Aussagekraft sowie die Angabe zur Messvarianz (bis 11 %) sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["bert"],
     relatedAnatomyIds: [],
   },
   {
@@ -13719,7 +14360,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["falsche Priorisierung", "Befund übersehen", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.2.1 (Postoperative Rehabilitation), S. 79. Die fünf Entscheidungsparameter, die Chirurg-Therapeut-Zusammenarbeit inkl. Rücküberweisungskriterien sowie die fünf Abschlusskriterien der Rehabilitation sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["elsa"],
     relatedAnatomyIds: [],
   },
   {
@@ -14592,7 +15233,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "falsche Priorisierung"],
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.6.1–5.6.7 (Schlingen, Schienen, Boots, Gelenkschoner, Rollstuhl, Rampen, Inkontinenzbetten), S. 135–138. Alle sieben Hilfsmittelklassen mit ihren Indikationen und Anforderungen sowie der Hinweis zu den alltagspraktischen Randbedingungen sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["juno"],
     relatedAnatomyIds: [],
   },
   {
@@ -15909,7 +16550,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Instabilität im Lumbosakralbereich, Stenose des Lumbosakralkanals, Cauda-equina-Kompressions-Syndrom. Die orthopädische Verwechslungsgefahr bei foraminaler Nervenwurzelkompression, der ischämische Verstärkungsmechanismus, die Automutilation als mögliches Symptom sowie die Grenzen von Röntgen- und Myelographie-Diagnostik sind in der Quelle so beschrieben. Ergänzt den bestehenden, ausführlichen Eintrag zur DLSS (Koch/Fischer, Klinik/Reflexbefunde/Therapie) um Differentialdiagnostik-Fallstricke und Bildgebungsgrenzen, ohne dessen Inhalte zu wiederholen. Verweist auf den bestehenden Eintrag zur allgemeinen Sekundärschädigungskaskade statt den Ischämie-Mechanismus erneut herzuleiten.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["resi"],
     relatedAnatomyIds: ["rueckenmark"],
   },
   {
@@ -17507,7 +18148,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Untersuchung falsch gewählt", "Befund überbewertet", "falsche Priorisierung"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S., „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 11 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189982), Abschnitte „Dehnen“ und „Stretching“. Die Definition und das Sicherheitsprofil des Dehnens (nur durch Therapeuten, statisch vs. ballistisch, Ablaufprotokoll, Erfolgs-Zeitverlauf, Kontraindikationen), die beiden Aktive-Inhibition-Mechanismen (postisometrische Relaxation, Antagonistenhemmung) sowie die klare Abgrenzung zum patientenhalter-tauglichen Stretching sind im Original so beschrieben. Cross-referenziert den bestehenden Eintrag `monosynaptische-polysynaptische-reflexe-sherrington-gesetze` (reziproke Hemmung als allgemeines Prinzip) — bewusst nicht dupliziert, sondern als therapeutische Anwendung ergänzt.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["rufus"],
     relatedAnatomyIds: [],
   },
   {
@@ -18474,7 +19115,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, Kap. 4.5.4 (Triggerpunktuntersuchung, Ellenbogen- und Schulter-Trigger), S. 90–101 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Der mediale und laterale Ellenbogentrigger, die Einordnung des Processus coronoideus medialis als Anheftungsstelle, DI11/DI10, die Charakterisierung der Schulter als „Weichgelenk“, der proximale Bizepstrigger, der Trizepstrigger (DÜ09) und der Supraspinatustrigger samt Muskelkette sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher dieses Triggerpunkt-System für die Vordergliedmaße ab — eigenständig, nicht duplizierend; ergänzt den Schwester-Eintrag zu den Hintergliedmaßen-Triggern derselben Quelle.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["pino"],
     relatedAnatomyIds: ["biceps", "triceps-brachii", "supraspinatus", "infraspinatus", "subscapularis", "brachialis"],
   },
   {
