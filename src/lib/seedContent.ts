@@ -6344,6 +6344,334 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.1 (Abgrenzung zwischen Lahmheit und Lähmung), S. 230 (siehe Wissenseintrag `lahmheit-laehmung-abgrenzung`). Die Differentialdiagnosenlisten und die Bildgebungsempfehlung sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "mick",
+    topic: "Untersuchung · Wirbelsäulenadspektion (Kyphose als Kompensationszeichen)",
+    species: "Dobermann, Rüde, 6 J.",
+    title: "Mick — deutlich aufgekrümmter Rücken, ist das die Wirbelsäule?",
+    learningObjective:
+      "Erkennen, dass eine Kyphose beim Hund oft kein eigenständiger Wirbelsäulenbefund, sondern ein Kompensationszeichen für eine schmerzhafte Gliedmaße ist — und dass eine Gliedmaßenursache zuerst ausgeschlossen werden muss, bevor eine primäre Wirbelsäulenerkrankung in Betracht gezogen wird.",
+    anamnese:
+      "Mick zeigt seit einigen Tagen einen auffällig aufgekrümmten Rücken, sowohl im Stand als auch in der Bewegung. Die Besitzer vermuten ein Wirbelsäulenproblem.",
+    beobachtung:
+      "Mick zeigt eine deutliche Kyphose (konvexe Aufkrümmung nach dorsal) im Stand und beim Laufen. Beim genaueren Beobachten des Gangbilds fällt zusätzlich eine leichte Schonung einer Hintergliedmaße auf.",
+    diagramLabel: "Deutlich aufgekrümmter Rücken (Kyphose) seit einigen Tagen, zusätzlich leichte Schonung einer Hintergliedmaße erkennbar",
+    palpation:
+      "Die Wirbelsäule selbst zeigt bei der Prüfung in den drei Bewegungsebenen keine eindeutige, schmerzhafte Bewegungseinschränkung; die betroffene Hintergliedmaße ist dagegen bei gezielter Untersuchung deutlich druckempfindlich.",
+    hypothesisQ: "Mick zeigt einen deutlich aufgekrümmten Rücken im Stand und in der Bewegung — ist damit automatisch von einer eigenständigen Wirbelsäulenerkrankung auszugehen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nein — eine Kyphose ist beim Hund oft gar kein eigenständiger Wirbelsäulenbefund, sondern ein Kompensationszeichen für eine schmerzhafte Gliedmaße; erst wenn eine sorgfältige Lahmheitsuntersuchung keine plausible Gliedmaßenursache liefert, rückt eine eigenständige Wirbelsäulenursache in den Vordergrund",
+        correct: true,
+      },
+      {
+        label: "Ja, eine Kyphose beweist immer eine primäre Wirbelkörper-Fehlbildung",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Ein aufgekrümmter Rücken ist bei Hund (und Rind) oft gar kein eigenständiger Wirbelsäulenbefund, sondern ein deutlicher Hinweis auf eine Lahmheit — eine primäre Wirbelkörper-Fehlbildung ist erst dann wahrscheinlich, wenn die Gliedmaßenursache ausgeschlossen wurde.",
+      },
+      {
+        label: "Die drei Verbiegungstypen (Lordose, Kyphose, Skoliose) sagen nichts über die mögliche Ursache aus und sind daher ohne diagnostischen Wert",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Der jeweilige Verbiegungstyp lenkt den differentialdiagnostischen Blick in eine bestimmte Richtung — bei der Kyphose insbesondere auf eine mögliche kompensatorische Lahmheitsursache, kein beliebiger, bedeutungsloser Befund.",
+      },
+      {
+        label: "Da der Rücken sichtbar betroffen ist, kann die Untersuchung der Gliedmaßen in diesem Fall entfallen",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Wer bei einem Hund mit gekrümmtem Rücken direkt die Wirbelsäule in den Fokus nimmt, ohne zuvor die Gliedmaßen auszuschließen, läuft Gefahr, die eigentliche Ursache zu übersehen.",
+      },
+    ],
+    expertNote:
+      "Verbiegt sich die Wirbelsäule sichtbar aus ihrem geraden Verlauf, wird nach der Richtung unterschieden: Lordose (ventral durchgebogen), Kyphose (konvex nach dorsal aufgekrümmt) und Skoliose (seitlich verbogen, typischerweise mit Versteifung im betroffenen Abschnitt). Besonders die Kyphose ist eine Falle für vorschnelle Diagnosen, da sie oft ein Kompensationszeichen für eine schmerzhafte Gliedmaße ist. Zur Abgrenzung wird die Wirbelsäulenbeweglichkeit in drei Ebenen geprüft: für die HWS per motivierendem Futterreiz (Lateroflexion, Ventroflexion, Dorsoflexion), für BWS/LWS per Druck auf die lange Rückenmuskulatur (Lateroflexion) bzw. plötzlichem Druck auf beide Kruppenseiten (Dorsoflexion). Wegen der Nachbarschaft von Rückenmark und Segmentalnerven ersetzt die orthopädische Prüfung nie die neurologische Untersuchung.",
+    weakeningQ: "Wie wird die Wirbelsäulenbeweglichkeit in der Brust-/Lendenwirbelsäule geprüft, um eine primäre Beteiligung von einem reinen Kompensationsbefund abzugrenzen?",
+    weakeningOptions: [
+      {
+        label:
+          "Lateroflexion durch gleichmäßigen, kontinuierlichen Druck auf die lange Rückenmuskulatur links und rechts; Dorsoflexion durch plötzlichen, gleichzeitigen Druck mit beiden Händen auf beide Kruppenseiten von hinten",
+        correct: true,
+      },
+      { label: "Ausschließlich durch die für die Halswirbelsäule vorgesehene Futterreiz-Technik", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+      { label: "Durch rein passives Durchbewegen ohne jeden gezielten Druckreiz", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+      { label: "Ausschließlich durch Röntgenaufnahmen, ohne jede manuelle Prüfung", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+    ],
+    retrievalQ: "Warum ersetzt die orthopädische Prüfung der Wirbelsäule nie die neurologische Untersuchung?",
+    retrievalOptions: [
+      {
+        label: "Wegen der unmittelbaren Nachbarschaft von Rückenmark und den dort ein-/austretenden Segmentalnerven treten bei Wirbelsäulenerkrankungen häufig gleichzeitig orthopädische und neurologische Symptome auf",
+        correct: true,
+      },
+      { label: "Weil die orthopädische Prüfung grundsätzlich unzuverlässiger ist als die neurologische Untersuchung", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil bei Wirbelsäulenerkrankungen neurologische Symptome praktisch nie vorkommen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil beide Untersuchungen exakt dieselben Informationen liefern und sich daher ergänzungslos ersetzen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 6.10 „Untersuchung der Wirbelsäule\" (Kapitelautoren Kofler/Lischer/Rheinfeld/Kramer/Pees), S. 226–228 (siehe Wissenseintrag `wirbelsaeule-krummer-ruecken-lahmheitshinweis`). Die drei Verbiegungstypen mit der Kyphose als Lahmheitshinweis, das Prüfschema in drei Bewegungsebenen sowie der Hinweis auf die notwendige Kombination von orthopädischer und neurologischer Untersuchung sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "ida",
+    topic: "Therapie · Nahrungsergänzung (Nutraceuticals-Wirknachweis)",
+    species: "Golden-Retriever-Mischling, Hündin, 10 J.",
+    title: "Ida — sollen Chondroprotektiva die bisherige Physiotherapie ersetzen?",
+    learningObjective:
+      "Verstehen, dass die Wirkung vieler Nutraceuticals/Chondroprotektiva laut Quelle ausdrücklich nicht durchgängig eindeutig erwiesen ist — und dass sie deshalb keinen gesicherten Ersatz für eine bestehende, wirksame Bewegungstherapie darstellen.",
+    anamnese:
+      "Ida wird seit Längerem wegen einer chronischen Arthrose physiotherapeutisch begleitet. Die Besitzer haben online von Chondroprotektiva (Glykosaminoglykan, Chondroitinsulfat, MSM) gelesen und möchten die bisherige Physiotherapie und Bewegungstherapie komplett durch diese Nahrungsergänzungsmittel ersetzen.",
+    beobachtung:
+      "Ida zeigt unter der laufenden Physiotherapie ein stabiles, kontrolliertes Arthrosebild mit guter Beweglichkeit für ihr Alter.",
+    diagramLabel: "Stabile chronische Arthrose unter laufender Physiotherapie; Besitzer planen vollständigen Ersatz durch Nutraceuticals",
+    palpation:
+      "Der Gelenkbefund entspricht dem bereits dokumentierten, unter Therapie stabilen Arthrosebild ohne akute Verschlechterung.",
+    hypothesisQ: "Sollten Idas Besitzer wie geplant ausschließlich auf Nutraceuticals setzen und die bisherige Physiotherapie/Bewegungstherapie absetzen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nein — die Wirkung vieler dieser Präparate ist laut Quelle ausdrücklich „nicht immer eindeutig erwiesen“, und selbst die als Beleg angeführte Humanstudie zu Glykosaminoglykan belegte keine sichere Langzeiteinnahme; Nutraceuticals sollten nicht als alleiniger Ersatz für eine bestehende, wirksame Bewegungstherapie verstanden werden",
+        correct: true,
+      },
+      {
+        label: "Ja, da die Wirkung von Chondroprotektiva eindeutig wissenschaftlich bewiesen ist",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Die Quelle weist ausdrücklich darauf hin, dass die Wirkung vieler dieser Präparate nicht immer eindeutig erwiesen ist — eine pauschale Behauptung eindeutiger Beweise ist durch die Quelle nicht gedeckt.",
+      },
+      {
+        label: "Ja, da Nutraceuticals keinerlei Arzneimittelgesetz unterliegen und deshalb immer unbedenklich sind",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Dass ein Mittel nicht dem Arzneimittelgesetz unterliegt, sagt nichts über seine Wirksamkeit oder generelle Unbedenklichkeit aus — beides sind unabhängige Fragen.",
+      },
+      {
+        label: "Nein, weil Nutraceuticals grundsätzlich wirkungslos und daher komplett überflüssig sind",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Die Quelle behauptet keine generelle Wirkungslosigkeit, sondern räumt eine unsichere, nicht durchgängig eindeutig erwiesene Wirkung ein — ein wichtiger Unterschied zur pauschalen Behauptung völliger Wirkungslosigkeit.",
+      },
+    ],
+    expertNote:
+      "Nutraceuticals (Nutrition + pharmaceutical) sind Futterzusatzstoffe, die wie Medizin wirken sollen, aber nicht dem Arzneimittelgesetz unterliegen. Chondroprotektiva (Glykosaminoglykan, Chondroitinpolysulfat/-sulfat, Hyaluronsäure, MSM, Omega-3-Fettsäuren) sollen u. a. in die Knorpelmatrix eingebaut werden, knorpelbildende Zellen anregen, Abbauprozesse verlangsamen und die Schmiermittelfunktion der Synovia erhöhen. Die Quelle weist ausdrücklich darauf hin, dass die Wirkung vieler Präparate „nicht immer eindeutig erwiesen“ ist und viele kommerzielle Produkte zu geringe Dosen enthalten. Für Glykosaminoglykan wird eine 3-jährige Humanstudie am Knie als Beleg angeführt (Verlangsamung der Osteoarthritis-Zeichen, wirksame Schmerzunterdrückung), die sichere Langzeiteinnahme wurde dabei aber nicht belegt.",
+    weakeningQ: "Welche Einschränkung nennt die Quelle ausdrücklich zur kommerziellen Verfügbarkeit vieler Nutraceutical-Präparate?",
+    weakeningOptions: [
+      { label: "Viele kommerzielle Produkte enthalten zu geringe Dosen der Wirkstoffe", correct: true },
+      { label: "Kommerzielle Produkte enthalten grundsätzlich überdosierte, gesundheitsgefährdende Wirkstoffmengen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Kommerzielle Produkte sind inhaltlich vollständig standardisiert und untereinander identisch", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Die Quelle äußert keinerlei Einschränkung zur kommerziellen Verfügbarkeit", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welcher postulierte Wirkmechanismus wird der Hyaluronsäure laut Quelle zugeschrieben?",
+    retrievalOptions: [
+      { label: "Höchste Wasserbindungsfähigkeit, polstert Gelenkknorpel mit Wasser auf, vermehrte Wasserbindung der Synovia", correct: true },
+      { label: "Liefert essenziellen Schwefel für die Bildung von Bändern, Sehnen, Knorpel und Bindegewebe", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Wirkt entzündungshemmend und soll der Bildung von Mikrothromben vorbeugen", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Ist Baustein der Grundsubstanz, da osteoarthritische Chondrozyten sie nicht mehr selbst produzieren können", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    sourceStatus:
+      "Teilverifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.3.8 (Nahrungsergänzungsmittel/Nutraceuticals), S. 69f. (siehe Wissenseintrag `nutraceuticals-chondroprotektiva-ueberblick`). Definition, die genannten Substanzen mit Verabreichungsart und postuliertem Wirkmechanismus sowie der ausdrückliche Vorbehalt der Autorin zur unsicheren Wirksamkeit sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "vito",
+    topic: "Untersuchung · Liegender Hund (Vollständigkeitsprinzip)",
+    species: "Mischling, Rüde, 5 J.",
+    title: "Vito — eindeutige Lahmheit rechts hinten, reicht die Untersuchung dieses einen Beins?",
+    learningObjective:
+      "Verstehen, warum am liegenden Hund trotz bereits bekannter betroffener Region immer alle vier Gliedmaßen untersucht werden — die betroffene zuletzt —, da nur der Seitenvergleich geringe Abweichungen erkennbar macht und mehr als eine Gliedmaße betroffen sein kann.",
+    anamnese:
+      "Vito zeigt bei der Ganganalyse eine deutliche Lahmheit der rechten Hintergliedmaße. Die Untersuchung des stehenden Hundes bestätigt den Befund an diesem Bein eindeutig.",
+    beobachtung:
+      "Vito entlastet die rechte Hintergliedmaße deutlich sichtbar. Beim genaueren Hinsehen wirkt auch die linke Hintergliedmaße nicht völlig unauffällig, was bei der ersten Einschätzung leicht übersehen werden könnte.",
+    diagramLabel: "Eindeutige Lahmheit rechts hinten bei Gang- und Standanalyse, linke Hintergliedmaße auf den ersten Blick unauffällig",
+    palpation:
+      "Noch keine vollständige Untersuchung am liegenden Hund durchgeführt — bisher wurde ausschließlich die auffällige rechte Hintergliedmaße genauer betrachtet.",
+    hypothesisQ: "Vitos rechtes Hinterbein zeigt bereits bei der Ganganalyse eine deutliche Lahmheit — sollte die Untersuchung des liegenden Hundes sich direkt auf dieses Bein konzentrieren und die übrigen Gliedmaßen auslassen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nein — obwohl die betroffene Region meist schon bekannt ist, werden dennoch alle Gliedmaßen untersucht, die betroffene zuletzt; nur im Seitenvergleich lassen sich geringe Abweichungen erkennen, und mehr als eine Gliedmaße kann betroffen sein (z. B. bei Panosteitis, Polyarthritis, Dysplasieformen oder Kreuzbandrissen)",
+        correct: true,
+      },
+      {
+        label: "Ja, eine vollständige Untersuchung aller vier Gliedmaßen ist bei eindeutigem Befund reine Zeitverschwendung",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Das Ziel dieser Untersuchungsstufe ist das Stellen einer klinischen Diagnose — die vollständige Untersuchung aller Gliedmaßen ist dafür nötig, da sie geringe Abweichungen im Seitenvergleich erst erkennbar macht und eine mögliche zusätzliche Beteiligung anderer Gliedmaßen aufdeckt.",
+      },
+      {
+        label: "Ja, da eine beidseitige oder mehrgliedrige Beteiligung bei Hunden praktisch nie vorkommt",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Panosteitis, Polyarthritis, die meisten Dysplasieformen und Kreuzbandrisse betreffen ausdrücklich häufig mehr als eine Gliedmaße oder Körperregion gleichzeitig — eine beidseitige Beteiligung ist damit keineswegs ausgeschlossen.",
+      },
+      {
+        label: "Nein, aber die Reihenfolge, in der die vier Gliedmaßen untersucht werden, spielt dabei keine Rolle",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die betroffene Gliedmaße wird gezielt zuletzt untersucht — diese Reihenfolge ist Teil des Untersuchungsprinzips, nicht beliebig, da sie den unvoreingenommenen Seitenvergleich erleichtert.",
+      },
+    ],
+    expertNote:
+      "Der Hund wird in Seitenlage verbracht, eine Hilfsperson fixiert die beiden auf dem Tisch liegenden Gliedmaßen proximal des Carpus und des Tarsus, kontrolliert ggf. über den eigenen Ellbogen Kopfbewegungen — der Hund soll dabei weiterhin Abwehr-/Schmerzreaktionen zeigen können. Das Ziel ist das Stellen einer klinischen Diagnose. Obwohl die betroffene Region meist schon bekannt ist, werden dennoch alle Gliedmaßen untersucht, die betroffene zuletzt — so lassen sich geringe Abweichungen erst im Seitenvergleich erkennen, und mehr als eine Gliedmaße kann betroffen sein. Am liegenden Hund erfasste Befundkategorien: Konturstörungen/Schwellung, Wärme und/oder Schmerz, Hypomobilität, Hypermobilität, Krepitation, Luxationen, Instabilität.",
+    weakeningQ: "Welche Befundkategorien werden am liegenden Hund laut Quelle systematisch erfasst?",
+    weakeningOptions: [
+      { label: "Konturstörungen/Schwellung, Wärme und/oder Schmerz, Hypomobilität, Hypermobilität, Krepitation, Luxationen, Instabilität", correct: true },
+      { label: "Ausschließlich Schmerz und Schwellung, alle übrigen Kategorien sind nicht Teil dieser Untersuchungsstufe", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ausschließlich die Muskelmasse im direkten Seitenvergleich", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ausschließlich das Vorhandensein von Krepitation, alle übrigen Kategorien sind Teil einer späteren Untersuchungsstufe", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Wie wird der liegende Hund für die Untersuchung korrekt vorbereitet?",
+    retrievalOptions: [
+      {
+        label:
+          "In Seitenlage, eine Hilfsperson fixiert die beiden auf dem Tisch liegenden Gliedmaßen proximal des Carpus und Tarsus und kontrolliert ggf. über den eigenen Ellbogen Kopfbewegungen, während der Hund weiterhin Abwehr-/Schmerzreaktionen zeigen können soll",
+        correct: true,
+      },
+      { label: "In Rückenlage mit vollständiger Fixierung aller vier Gliedmaßen gleichzeitig durch zwei Hilfspersonen", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+      { label: "Im Stand, ohne jede Hilfsperson, ausschließlich durch verbale Kommandos geführt", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+      { label: "In Seitenlage mit vollständiger Sedierung, damit keinerlei Abwehrreaktion mehr möglich ist", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.1 (Spezifische Bemerkung zur Untersuchung des liegenden Hundes), S. 110 (siehe Wissenseintrag `liegender-hund-untersuchungsprinzipien`). Der Untersuchungsaufbau, die Begründung für die Untersuchung aller vier Gliedmaßen sowie die Liste der Befundkategorien sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "bonnie",
+    topic: "Pathologie · Subokzipitale Muskulatur (Schwindel/Übelkeit)",
+    species: "Border Collie, Hündin, 4 J.",
+    title: "Bonnie — Schwindel und Erbrechen nach intensivem Apportieren",
+    learningObjective:
+      "Erkennen, dass eine Überlastung der subokzipitalen Muskulatur durch dauerhafte Extensionshaltung der oberen HWS (Apportieren, Hochschauen zum Halter) über vagale/vestibuläre Mitbeteiligung zu Schwindel und Übelkeit führen kann — und dass eine sorgfältige Differenzierung zu einer echten neurologischen/vestibulären Erkrankung vor rein manualtherapeutischer Behandlung nötig ist.",
+    anamnese:
+      "Bonnie ist ein intensiver Apportierhund und schaut beim Spielen ständig zu ihrem Halter hoch. Nach besonders intensiven Spieleinheiten zeigt sie gelegentlich Schwindelsymptome und erbricht.",
+    beobachtung:
+      "Nach intensivem Apportieren wirkt Bonnie kurzzeitig unsicher in der Bewegung (Ataxie) und erbricht gelegentlich. Zwischen den Spieleinheiten ist sie unauffällig.",
+    diagramLabel: "Gelegentlicher Schwindel und Erbrechen nach intensivem Apportieren, ständiges Hochschauen zum Halter beim Spiel",
+    palpation:
+      "Die oberen Kopfgelenke werden leicht in Extension gestellt, um die oberflächliche subokzipitale Muskulatur anzunähern; dabei zeigt sich eine deutliche Druckempfindlichkeit in diesem Bereich.",
+    hypothesisQ: "Was könnte Bonnies gelegentlichen Schwindel und Erbrechen nach intensivem Apportieren und ständigem Hochschauen zum Halter erklären?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine Überlastung der subokzipitalen Muskulatur — sie kann über den N. vagus Übelkeit sowie über die Nähe zu vestibulären Strukturen Schwindel auslösen, begünstigt durch dauerhafte Extensionshaltung der oberen HWS beim Hochschauen und Apportieren",
+        correct: true,
+      },
+      {
+        label: "Schwindel und Erbrechen bei Hunden haben nie eine muskuläre Ursache und sprechen daher automatisch für eine primäre Magen-Darm-Erkrankung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Zu den möglichen Symptomen einer subokzipitalen Überlastung gehören ausdrücklich Schwindel (Ataxie) und Übelkeit über den N. vagus — eine rein gastrointestinale Ursache ist dadurch nicht automatisch die einzig mögliche Erklärung.",
+      },
+      {
+        label: "Da die Symptome bei einem jungen, aktiven Hund auftreten, sind sie automatisch harmlos und erfordern keine weitere Abklärung",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Wegen der teils vagalen/vestibulären Symptomatik ist eine sorgfältige Differenzierung zwischen rein muskulärer Ursache und tatsächlicher neurologischer/vestibulärer Erkrankung wichtig — unabhängig vom Alter des Patienten, nicht automatisch unbedeutend.",
+      },
+      {
+        label: "Die Symptome müssen zwingend ausschließlich vestibulär bedingt sein, eine muskuläre Mitbeteiligung ist dabei grundsätzlich auszuschließen",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Gerade die Notwendigkeit, zwischen rein muskulärer Ursache und tatsächlicher neurologischer/vestibulärer Erkrankung sorgfältig zu differenzieren, zeigt, dass beides infrage kommt — eine muskuläre Mitbeteiligung von vornherein auszuschließen, ist nicht gerechtfertigt.",
+      },
+    ],
+    expertNote:
+      "Alle subokzipitalen Muskeln werden vom R. dorsalis des 1. Halsnerven innerviert und bewegen die Segmente C0–C1–C2: Mm. recti capitis dorsalis minor et major (Extension), Mm. recti capitis ventralis et lateralis (Flexion/Seitneige), M. obliquus capitis cranialis (Extensor/Seitneiger) und M. obliquus capitis caudalis (Dreher). Überlastungsauslöser sind u. a. dauerhafte Extensionshaltung der oberen HWS (z. B. bei atlantoaxialer Subluxation oder schlaffem Lig. transversum atlantis), viel/schweres Apportieren, ständiges Hochschauen zum Halter oder exzessives Kauen. Mögliche Symptome: Kopfschmerz, Schwindel (Ataxie), eingeschränkte Bewegung, Übelkeit (über den N. vagus), Sehstörungen, Parästhesien sowie sekundäre Verspannungen von M. trapezius/M. sternocephalicus.",
+    weakeningQ: "Warum ist bei Bonnie vor einer rein manualtherapeutischen Behandlung der subokzipitalen Muskulatur Vorsicht geboten?",
+    weakeningOptions: [
+      {
+        label: "Wegen der teils vagalen/vestibulären Symptomatik (Schwindel, Übelkeit, Sehstörungen) ist eine sorgfältige Differenzierung zwischen rein muskulärer Ursache und tatsächlicher neurologischer/vestibulärer Erkrankung wichtig, bevor behandelt wird",
+        correct: true,
+      },
+      { label: "Weil eine manualtherapeutische Behandlung der subokzipitalen Muskulatur grundsätzlich wirkungslos ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Schwindel bei Hunden grundsätzlich nie behandlungsbedürftig ist", correct: false, errorCategory: "Unterkonfidenz" },
+      { label: "Weil subokzipitale Muskulatur beim Hund anatomisch gar nicht existiert", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    retrievalQ: "Welche Muskeln gehören zur subokzipitalen Muskulatur und welche Bewegungen führen sie aus?",
+    retrievalOptions: [
+      {
+        label:
+          "Mm. recti capitis dorsalis minor et major (Extension), Mm. recti capitis ventralis et lateralis (Flexion/Seitneige), M. obliquus capitis cranialis (Extensor/Seitneiger) und M. obliquus capitis caudalis (Dreher)",
+        correct: true,
+      },
+      { label: "Ausschließlich der M. trapezius und der M. sternocephalicus", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "M. biceps brachii und M. triceps brachii", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "M. rectus femoris und M. sartorius", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.3.2 (Spezifische Untersuchung der Kopfbeweger, subokzipitale Muskulatur), S. 246f. (siehe Wissenseintrag `subokzipitale-muskulatur-kopfschmerz-schwindel`). Funktion, Überlastungsauslöser und Symptomliste sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "kuno",
+    topic: "Therapie · Bindegewebsmassage (Kontraindikation akuter Infekt)",
+    species: "Mops, Rüde, 7 J.",
+    title: "Kuno — chronische Bronchitis, aber gerade jetzt zusätzlich ein akuter fieberhafter Infekt",
+    learningObjective:
+      "Verstehen, dass eine akute Erkrankung eines inneren Organs eine ausdrückliche Kontraindikation für die Bindegewebsmassage ist, selbst wenn die zugrunde liegende chronische Erkrankung (hier: chronische Bronchitis) eine grundsätzlich passende Indikation darstellt.",
+    anamnese:
+      "Kuno hat eine bekannte chronische Bronchitis und wird deshalb auf eine Bindegewebsmassage als ergänzende Behandlung vorgestellt. Seit zwei Tagen besteht zusätzlich ein akuter fieberhafter Atemwegsinfekt.",
+    beobachtung:
+      "Kuno wirkt aktuell matt, hat erhöhte Atemfrequenz und Fieber — ein deutlich akuteres Bild als sein sonst stabiles chronisches Bronchitis-Grundbild.",
+    diagramLabel: "Bekannte chronische Bronchitis, zusätzlich seit zwei Tagen akuter fieberhafter Atemwegsinfekt",
+    palpation:
+      "Am Rücken lassen sich im zugehörigen Segment tastbare Bindegewebszonen (Quellung) feststellen, passend zur chronischen Bronchitis — der aktuelle Allgemeinzustand ist jedoch durch den akuten Infekt deutlich reduziert.",
+    hypothesisQ: "Kuno hat eine chronische Bronchitis und würde von einer Bindegewebsmassage grundsätzlich profitieren — sollte sie jetzt, während eines akuten fieberhaften Infekts, durchgeführt werden?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nein — akute Erkrankungszustände innerer Organe sind eine ausdrückliche Kontraindikation für die Bindegewebsmassage, unabhängig davon, dass die chronische Grunderkrankung selbst eine passende Indikation wäre",
+        correct: true,
+      },
+      {
+        label: "Ja, da chronische Bronchitis eine klare Indikation für die Bindegewebsmassage ist",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die chronische Grunderkrankung ist zwar grundsätzlich eine Indikation — der aktuell bestehende akute fieberhafte Infekt ist aber eine eigenständige, ausdrückliche Kontraindikation, die unabhängig von der Grunderkrankung zu beachten ist.",
+      },
+      {
+        label: "Ja, solange mit kurzen statt langen Fingerkuppenzügen gearbeitet wird",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Die Wahl der Grifftechnik (lange vs. kurze Fingerkuppenzüge) ändert nichts an der Kontraindikation durch den akuten Erkrankungszustand — diese betrifft die Behandlung insgesamt, nicht nur eine bestimmte Technikvariante.",
+      },
+      {
+        label: "Nein, weil Bindegewebsmassage bei Hauterkrankungen grundsätzlich nicht angewendet werden darf",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Hauterkrankungen sind zwar ebenfalls eine Kontraindikation, bei Kuno aber nicht das relevante Problem — entscheidend ist hier der aktuell bestehende akute fieberhafte Infekt als eigene Kontraindikation.",
+      },
+    ],
+    expertNote:
+      "Die Bindegewebsmassage nach Dicke/Schliack/Wolff beruht auf dem Zusammenhang zwischen Funktionsstörungen eines inneren Organs und segmental zugeordneten Spannungszonen im Bindegewebe des Rückens (kutiviszerale Reflexe). Indikationen sind funktionelle Störungen innerer Organe: chronische Bronchitis, Asthma bronchiale, Lungenemphysem, Fettleber, nervöser Reizmagen, Gastritis, Colon irritabile, Zystitis. Kontraindikationen sind Hauterkrankungen, Blutungsneigung, akute Erkrankungszustände innerer Organe sowie alle allgemeinen Massage-Kontraindikationen. Die Wirkung beruht überwiegend auf kutiviszeralen Reflexen sowie Histamin-/Katecholaminausschüttung, tritt frühestens 1–2 Stunden nach der Behandlung ein; mögliche Nebenwirkungen sind Müdigkeit, Heißhunger, Übelkeit, ein Schneidegefühl beim Zug, Pruritus, Atemnot und Blasendruck — ein deutlich stärkeres Nebenwirkungsprofil als die klassische Massage.",
+    weakeningQ: "Wann sollte Bindegewebsmassage bei Kuno stattdessen in Betracht gezogen werden?",
+    weakeningOptions: [
+      { label: "Erst wenn der akute Infekt abgeklungen ist und die chronische Bronchitis als funktionelle Organstörung im Vordergrund steht", correct: true },
+      { label: "Sofort, unabhängig vom aktuellen Allgemeinzustand, da die chronische Indikation Vorrang hat", correct: false, errorCategory: "Überkonfidenz" },
+      { label: "Nie, da Kuno aufgrund der chronischen Bronchitis grundsätzlich von der Behandlung ausgeschlossen ist", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Nur während des akuten Fiebers, da die Wirkung dann am stärksten ausfällt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    retrievalQ: "Worauf beruht die Wirkung der Bindegewebsmassage überwiegend, und wann tritt sie ein?",
+    retrievalOptions: [
+      { label: "Überwiegend auf kutiviszeralen Reflexen sowie Histamin-/Katecholaminausschüttung; die erwünschte Wirkung tritt frühestens ein bis zwei Stunden nach der Behandlung ein", correct: true },
+      { label: "Überwiegend auf direkter mechanischer Beeinflussung der inneren Organe selbst, mit sofortigem Wirkungseintritt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Überwiegend auf thermischer Wirkung, vergleichbar mit einer Wärmeanwendung", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Die Wirkung ist wissenschaftlich vollständig ungeklärt und beruht auf keinem bekannten Mechanismus", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Massage\". In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 7, Abschnitt „Bindegewebsmassage\" (siehe Wissenseintrag `bindegewebsmassage-dicke-schliack-wolff-reflexzonentherapie`). Die Entstehungsgeschichte, das Bindegewebszonen-Konzept, der Behandlungsaufbau nach Dicke/Schliack/Wolff sowie Wirkungen/Nebenwirkungen/Indikationen/Kontraindikationen sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -10954,7 +11282,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["vorschnelle Diagnose", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 6.1 (Spezifische Bemerkung zur Untersuchung des liegenden Hundes), S. 110. Der Untersuchungsaufbau, die Begründung für die Untersuchung aller vier Gliedmaßen sowie die Liste der Befundkategorien sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["vito"],
     relatedAnatomyIds: [],
   },
   {
@@ -13713,7 +14041,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.3.2 (Spezifische Untersuchung der Kopfbeweger, subokzipitale Muskulatur), S. 246f. Funktion, Überlastungsauslöser und Symptomliste sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["bonnie"],
     relatedAnatomyIds: ["rueckenmark"],
   },
   {
@@ -15709,7 +16037,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Faktenwissen", "Überkonfidenz", "falsche Priorisierung"],
     sourceStatus:
       "Teilverifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.3.8 (Nahrungsergänzungsmittel/Nutraceuticals), S. 69f. Definition, die genannten Substanzen mit Verabreichungsart und postuliertem Wirkmechanismus sowie der ausdrückliche Vorbehalt der Autorin zur unsicheren Wirksamkeit sind im Original so beschrieben. Konkrete mg/kg-Dosierungsangaben aus dem Original wurden bewusst nicht übernommen, da sie ärztliche/tierärztliche Verordnungsdetails betreffen und außerhalb des Nachschlage-Charakters der Wissensbibliothek liegen.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["ida"],
     relatedAnatomyIds: [],
   },
   {
@@ -17293,7 +17621,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund überbewertet", "Differentialdiagnostik unvollständig", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 6.10 „Untersuchung der Wirbelsäule“ (Kapitelautoren Kofler/Lischer/Rheinfeld/Kramer/Pees), S. 226–228. Die drei Verbiegungstypen (Lordose/Kyphose/Skoliose) mit der Kyphose als Lahmheitshinweis, das Prüfschema in drei Bewegungsebenen (inkl. Futterreiz-Technik für die Halswirbelsäule) sowie der Hinweis auf die notwendige Kombination von orthopädischer und neurologischer Untersuchung sind im Original so beschrieben. Die im selben Abschnitt behandelte Iliosakralgelenk-Palpation wurde bewusst nicht mit übernommen, da sie in `iliosakralgelenk-anatomie-symptome-ursachen` und den zugehörigen Einträgen (Hárrer, Kap. 16.2.7) bereits erheblich detaillierter abgedeckt ist. Diese Textstelle liegt außerhalb der bei diesem Buch dokumentierten Spalten-Verschachtelungs-Fehlerzone.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["mick"],
     relatedAnatomyIds: ["facettengelenke"],
   },
   {
@@ -18898,7 +19226,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Faktenwissen", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S., „Massage“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 7 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189978), Abschnitt „Bindegewebsmassage“. Die Entstehungsgeschichte (Dicke 1929, Kohlrausch-Bestätigung 1938), das Bindegewebszonen-Konzept mit den drei Verschiebeschichten, die Befundungstechniken, der Behandlungsaufbau nach Dicke/Schliack/Wolff und die Weiterentwicklung nach Teirich-Leube sowie Wirkungen/Nebenwirkungen/Indikationen/Kontraindikationen sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher ein reflextherapeutisches Bindegewebs-Verfahren zur Beeinflussung innerer Organe ab — bestehende Erwähnung von „kutiviszeralen Reflexbögen“ im Sensibilisierungs-Eintrag bleibt beiläufig, ohne diese konkrete Technik zu behandeln.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["kuno"],
     relatedAnatomyIds: [],
   },
   {

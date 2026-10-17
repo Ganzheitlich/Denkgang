@@ -6034,35 +6034,59 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Cross-Referenz-Audit 0 offene Verweise, Production-Build grün,
       Playwright-Stichprobe (sam, luzie, ferdi) gegen die Review-Seite —
       0 Konsolen-/Seitenfehler.
-- [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
-      rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
-      `pronator-quadratus` — bewusst zurückgestellt, siehe Begründung oben
-      zum Toe-in/Toe-out-Quellenwiderspruch; falls doch verwendet, dann nur
-      mit offen ausgewiesener Unsicherheit statt als sichere Diagnose),
-      Tarsus-Gelenk/-Bänder selbst (`art-tarsi`, `ligg-tarsi` — Muskeln/
-      Knochen dieser Region sind über Balu/Moritz jetzt abgedeckt,
-      Gelenk/Bänder noch nicht als primäre Diagnose). HWS/BWS-
-      Facettengelenke als eigenständige, primäre Falldiagnose bleiben offen
-      (`facettengelenke-hws`/`-bws` — LWS-Facettengelenke sind über Max
-      jetzt abgedeckt). PATHOLOGIE-Kategorie mit konkreten, fallfähigen
-      Einzeldiagnosen ist nach acht Batches praktisch ausgeschöpft (38 ohne
-      Fall-Link, überwiegend abstrakte Schmerzphysiologie-/
-      Faszientheorie-Grundlagen ohne einzelnes klinisches Korrelat).
-      Schwerpunkt für den letzten geplanten Batch liegt auf UNTERSUCHUNG
-      (53 ohne Fall-Link — Kandidaten u. a. Kniegelenk-Bewegungspalpation/
-      Joint-Play, Zehner-Test, Joint-Play-Technik Rute, liegender-Hund-
-      Untersuchungsprinzipien, Anamnese-Strukturkategorien,
-      wirbelsaeule-krummer-ruecken-lahmheitshinweis) sowie THERAPIE (26
-      ohne Fall-Link — Kandidaten u. a. Nutraceuticals-Wirknachweis,
-      Bindegewebsmassage nach Dicke, Tuina-Grifftechniken, geriatrische
-      Bewegungsprophylaxe). BIOMECHANIK bleibt mit 75 ohne Fall-Link
-      nahezu unberührt und eher als Hintergrundwissen vorgesehen. 95 Fälle
-      insgesamt jetzt (Stand 17.10.2026, gegenüber 8 zu Sessionbeginn —
-      fast verzwölffacht), Zielmarke Vanessas liegt bei ca. 100 — noch ca.
-      5 Fälle für einen abschließenden, kleineren Batch 9 geplant, mit
-      fortgesetztem Fokus auf echte Varianz (unterschiedliche Diagnosen,
-      Regionen, Fallstrukturen, Fehlerkategorien) statt bloßer Wiederholung
-      ähnlicher Fälle.
+- [x] Fälle 96–100 (Batch 9 des ~100-Fälle-Ausbaus, 17.10.2026):
+      Abschließende Fünfergruppe — erreicht die von Vanessa gesetzte
+      Zielmarke von ca. 100 Fällen genau. Weiterhin ausschließlich aus
+      Baumgartner/Wittek/Khol (Klinische Propädeutik), Mai (Physiotherapie
+      und Bewegungstraining für Hunde), Koch/Fischer (Lahmheitsuntersuchung
+      beim Hund), Hárrer (Manuelle Therapie beim Hund) und Alexander
+      (Physikalische Therapie für Kleintiere) kombiniert:
+      - **`mick`** (Dobermann, 6 J.) — Kyphose als Kompensationszeichen
+        statt eigenständiger Wirbelsäulenbefund; Gliedmaßenursache muss
+        zuerst ausgeschlossen werden. Quelle:
+        `wirbelsaeule-krummer-ruecken-lahmheitshinweis`.
+      - **`ida`** (Golden-Retriever-Mischling, 10 J.) — Nutraceuticals/
+        Chondroprotektiva sollen laufende Physiotherapie komplett
+        ersetzen; Wirknachweis laut Quelle ausdrücklich nicht durchgängig
+        eindeutig erwiesen. Quelle: `nutraceuticals-chondroprotektiva-ueberblick`.
+      - **`vito`** (Mischling, 5 J.) — Vollständigkeitsprinzip der
+        Untersuchung des liegenden Hundes: alle vier Gliedmaßen trotz
+        bereits bekannter betroffener Region. Quelle:
+        `liegender-hund-untersuchungsprinzipien`.
+      - **`bonnie`** (Border Collie, 4 J.) — subokzipitale Muskulatur-
+        Überlastung durch Apportieren/Hochschauen als mögliche Ursache
+        von Schwindel und Erbrechen, Differenzierung zu echter
+        vestibulärer Erkrankung nötig. Quelle:
+        `subokzipitale-muskulatur-kopfschmerz-schwindel`.
+      - **`kuno`** (Mops, 7 J.) — Bindegewebsmassage bei chronischer
+        Bronchitis grundsätzlich indiziert, aber bei akutem fieberhaftem
+        Infekt aktuell kontraindiziert. Quelle:
+        `bindegewebsmassage-dicke-schliack-wolff-reflexzonentherapie`.
+
+      `relatedCaseIds` ergänzt bei allen fünf referenzierten
+      Wissenseinträgen. Keine neuen `AnatomyItem.relatedCaseId`-
+      Verknüpfungen in diesem Batch. Keine neue Primärrecherche nötig,
+      alle fünf Fälle kombinieren ausschließlich bereits verifizierte
+      Fakten aus bestehenden Wissenseinträgen zu neuen klinischen
+      Szenarien. Verifiziert: eslint sauber, tsc sauber, Reseed 100 Fälle
+      (95 → 100), Cross-Referenz-Audit 0 offene Verweise, Production-Build
+      grün, Playwright-Stichprobe (mick, vito, kuno) gegen die
+      Review-Seite — 0 Konsolen-/Seitenfehler.
+
+      **Zielmarke erreicht: 100 Fälle (Stand 17.10.2026, gegenüber 8 zu
+      Sessionbeginn des ~100-Fälle-Ausbaus — mehr als verzwölffacht).**
+      Durchgängig echte strukturelle Varianz über alle neun Batches:
+      mehrere strukturell unterschiedliche HD-Fälle (akute Notaufnahme,
+      spät erkannte chronische Form, „Kappenhüfte"-Umdeutungsfalle,
+      klassische juvenile Laxität, proaktives Welpenscreening,
+      Operationsmethoden-Vergleich als Therapieentscheidung),
+      Kontraindikations-/Handlungsentscheidungsfälle, reine
+      Untersuchungstechnik-Fälle, Differentialdiagnostik-Fallen,
+      „erkenne das Harmlose"-Gegenstücke zu den vielen Warnsignal-Fällen,
+      sowie Fälle zu Prognose-Staging nach Trauma. Weitere Fälle über das
+      erreichte Ziel hinaus nur auf ausdrücklichen Wunsch Vanessas, mit
+      demselben Rechercheverzicht (ausschließlich bereits verifizierte
+      Wissenseinträge) und derselben vollständigen Verifikationspipeline.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→
