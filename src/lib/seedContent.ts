@@ -1162,6 +1162,83 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.4 (Rippen — Anatomie und Stellungsdiagnose), S. 220–228 — siehe bereits bestehender Wissenseintrag `rippen-anatomie-1-rippe-stellungsdiagnose`, derselbe Quellenabschnitt. Die Rippen-Bandscheiben-Kopplung, die Stellungsdiagnostik (Stufenbildung am Rippenwinkel als Zeichen einer Inspirationsrippe), die Prädispositionsliste (kleine, aufs Sofa springende Hunde; Sporthunde) sowie der Sympathikotonus-Zusammenhang sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte des Hundes sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "lotte",
+    topic: "Orthopädie · Knie/Patella (Kleinrasse)",
+    species: "Zwergspitz, Hündin, 2 J.",
+    title: "Lotte — gelegentlicher Hüpfschritt hinten links",
+    learningObjective:
+      "Den Putnam-Schweregrad einer Patellaluxation korrekt anhand des Befunds einordnen und verstehen, warum sich die Therapieentscheidung nicht allein am Grad orientieren sollte.",
+    anamnese:
+      "Lotte zeigt seit einigen Monaten gelegentlich einen kurzen „Hüpfschritt“ hinten links — sie hält das Bein für ein, zwei Schritte angehoben und läuft dann normal weiter. Dazwischen wirkt sie völlig unauffällig.",
+    beobachtung:
+      "Beim Gehen springt Lotte hinten links gelegentlich kurz auf drei Beinen, das betroffene Bein wird dabei nach kranial angehoben; zwischen den Episoden ist das Gangbild unauffällig.",
+    diagramLabel: "Intermittierendes Hüpfen hinten links: Bein kurz angehoben, danach normale Belastung",
+    palpation:
+      "Die Patella hinten links lässt sich bei Kniebeugung manuell nach medial luxieren und bleibt dort luxiert, bis die aktive Streckung oder eine manuelle Reposition erfolgt. Femur und Tibia zeigen keine akute Schwellung oder Überwärmung.",
+    hypothesisQ: "Welcher Putnam-Schweregrad passt zu diesem Befund?",
+    hypothesisOptions: [
+      { label: "Grad II", correct: true },
+      {
+        label: "Grad I",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Bei Grad I springt die Patella beim Loslassen von selbst wieder in die Normalposition zurück — hier bleibt sie dagegen luxiert, bis aktiv gestreckt oder manuell reponiert wird.",
+        differentiationDistractors: [
+          "Lottes Symptome sind nur intermittierend, das passt am besten zum mildesten Grad.",
+          "Da Lotte zwischen den Episoden unauffällig läuft, kann es sich nur um den niedrigsten Schweregrad handeln.",
+        ],
+      },
+      {
+        label: "Grad III",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Bei Grad III ist die Patella dauerhaft luxiert und springt nach Reposition spontan wieder heraus — Lottes Patella steht dagegen zwischen den Episoden in Normalposition und luxiert gezielt bei Kniebeugung bzw. Manipulation.",
+        differentiationDistractors: [
+          "Eine Luxation nach medial ist immer mindestens Grad III.",
+          "Kleine Rassen haben grundsätzlich schwerere Luxationsgrade als große.",
+        ],
+      },
+      {
+        label: "Grad IV",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Bei Grad IV ist die Patella dauerhaft luxiert und lässt sich nicht mehr reponieren — bei Lotte lässt sie sich dagegen durch Streckung oder manuelle Reposition wieder in die Normalposition zurückbringen.",
+        differentiationDistractors: [
+          "Ein intermittierendes Hüpfen spricht für den am stärksten ausgeprägten Schweregrad.",
+          "Wenn eine Luxation überhaupt palpierbar ist, handelt es sich automatisch um den schwersten Grad.",
+        ],
+      },
+    ],
+    expertNote:
+      "Die Korrelation zwischen Luxationsgrad und tatsächlicher klinischer Symptomatik ist insgesamt nicht stark — Grad-I-Fälle sind meist symptomlos, aber auch bei Grad II variiert das Ausmaß der Beschwerden. Eine Therapieentscheidung sollte sich deshalb nicht allein am geröntgten oder palpierten Grad orientieren, sondern am tatsächlichen klinischen Bild: Bei milder, kaum störender Symptomatik wird häufig konservativ begleitet, bei deutlicher oder fortschreitender Symptomatik eher chirurgisch korrigiert (z. B. Versetzen der Tuberositas tibiae, Trochleaplastik, bei zugrunde liegendem Femurvarus eine korrigierende Femurosteotomie). Wichtig für die Differentialdiagnostik: Eine gefundene Patellaluxation schließt eine zweite, unabhängige Ursache der Lahmheit nicht aus — ein Hund kann „Läuse und Flöhe zugleich“ haben.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für einen anderen Schweregrad sprechen (also gegen Grad II)?",
+    weakeningOptions: [
+      {
+        label: "Die Patella springt beim Loslassen von selbst sofort wieder in die Normalposition zurück",
+        correct: true,
+      },
+      { label: "Die Patella luxiert bei Kniebeugung nach medial", correct: false, errorCategory: "Befund überbewertet" },
+      {
+        label: "Die Patella bleibt luxiert, bis aktiv gestreckt oder manuell reponiert wird",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+      },
+      { label: "Zwischen den Episoden ist das Gangbild unauffällig", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Welche Deformitäten liegen einer medialen Patellaluxation typischerweise zugrunde?",
+    retrievalOptions: [
+      { label: "Femurvarus, Außentorsion des Femurs und Hypoplasie der Trochlea-Rinne", correct: true },
+      { label: "Coxa valga und vermehrte Antetorsion des Femurhalses", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Eine isolierte Schwäche der Bizepssehne", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Mediale Patellaluxationen haben nie eine zugrunde liegende Deformität", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert per Kombination aus Buch- und Web-Quelle — siehe bereits bestehender Wissenseintrag `patellaluxation-krankheitsbild`, derselbe Quellenabschnitt (Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\", aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme, Abschnitt „Achsenabweichung\"; Putnam-Klassifikation/Deformitäten/Prävalenz/Therapie per konvergenter Websuche-Synthese aus ACVS, Merck Veterinary Manual, OFA u. a., mit derselben bereits dokumentierten Einschränkung zur fehlenden eigenen Volltextprüfung). Die Putnam-Gradtabelle, die medial-vs-lateral-Deformitäten-Zuordnung, die schwache Grad-Symptom-Korrelation sowie die Therapieentscheidung nach klinischem Bild statt nach Grad sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte der Hündin sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -1808,6 +1885,7 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "sartorius",
     name: "M. sartorius",
+    relatedCaseId: "lotte",
     origin:
       "Zweigeteilt: Pars cranialis von der Spina iliaca ventrocranialis, Pars caudalis von der Crista iliaca zwischen den beiden kranialen Darmbeinstacheln",
     insertion: "Pars cranialis: Patella und mediale Kniefaszie nahe der Patella; Pars caudalis: kranialer Tibiarand",
@@ -1829,6 +1907,7 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "tensor-fasciae-latae",
     name: "M. tensor fasciae latae",
+    relatedCaseId: "lotte",
     origin: "Tuber coxae",
     insertion:
       "Fascia lata, die weiter zur Patella und zum Lig. patellae zieht (entspricht dem Tractus iliotibialis zur Lateralseite des Knies)",
@@ -5113,8 +5192,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
     sourceStatus:
-      "Verifiziert per Kombination aus Buch- und Web-Quelle (22.09.2026). Buchquelle: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme) — Abschnitt „Achsenabweichung\": das Konzept der angeboren/genetisch fixierten Achsenabweichung mit Patellaluxation als Beispiel, die schematische Zugrichtung der Quadrizepsmuskulatur bei medialer Luxation sowie der Differentialdiagnose-Hinweis (\"Patellaluxation und Borreliose gleichzeitig\") sind im Original so beschrieben. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl. Web-Quelle (Grading, Prävalenz, Deformitäten, Therapie): konvergente Websuche-Zusammenfassungen aus mehreren etablierten veterinärmedizinischen Fachquellen (ACVS, Merck Veterinary Manual, OFA, peer-reviewte Arbeiten via PubMed/PMC, vettimes, Today's Veterinary Practice) zur Putnam-Klassifikation (1968), medialer vs. lateraler Luxation und deren Deformitäten sowie Prävalenz/Therapie. WICHTIGE EINSCHRÄNKUNG: Direkter Volltextzugriff (WebFetch) war in dieser Arbeitsumgebung technisch blockiert — die Web-Aussagen stammen aus Websuche-Synthesen, nicht aus eigener Volltextprüfung. Die Prävalenzangabe (~7 % der Welpen) stammt aus einer sekundären Quelle und ist als Größenordnung, nicht als exakt geprüfte Zahl zu verstehen.",
-    relatedCaseIds: [],
+      "Verifiziert per Kombination aus Buch- und Web-Quelle (22.09.2026). Buchquelle: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme) — Abschnitt „Achsenabweichung\": das Konzept der angeboren/genetisch fixierten Achsenabweichung mit Patellaluxation als Beispiel, die schematische Zugrichtung der Quadrizepsmuskulatur bei medialer Luxation sowie der Differentialdiagnose-Hinweis (\"Patellaluxation und Borreliose gleichzeitig\") sind im Original so beschrieben. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl. Web-Quelle (Grading, Prävalenz, Deformitäten, Therapie): konvergente Websuche-Zusammenfassungen aus mehreren etablierten veterinärmedizinischen Fachquellen (ACVS, Merck Veterinary Manual, OFA, peer-reviewte Arbeiten via PubMed/PMC, vettimes, Today's Veterinary Practice) zur Putnam-Klassifikation (1968), medialer vs. lateraler Luxation und deren Deformitäten sowie Prävalenz/Therapie. WICHTIGE EINSCHRÄNKUNG: Direkter Volltextzugriff (WebFetch) war in dieser Arbeitsumgebung technisch blockiert — die Web-Aussagen stammen aus Websuche-Synthesen, nicht aus eigener Volltextprüfung. Die Prävalenzangabe (~7 % der Welpen) stammt aus einer sekundären Quelle und ist als Größenordnung, nicht als exakt geprüfte Zahl zu verstehen. Bildet die fachliche Grundlage für den neuen Fall `lotte`.",
+    relatedCaseIds: ["lotte"],
     relatedAnatomyIds: ["quadriceps"],
   },
   {

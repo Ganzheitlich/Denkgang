@@ -5467,23 +5467,46 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       sauber, Reseed 14 Fälle (13 → 14), Cross-Referenz-Audit 0 offene
       Verweise (155 Backtick-Referenzen), Build grün, via Playwright gegen
       die Review-Seite verifiziert (0 Fehler).
+- [x] **Fall „Lotte" — Patellaluxation Grad II (17.10.2026).** Schließt
+      `sartorius` und `tensor-fasciae-latae` als letzte beiden fall-losen
+      Oberschenkelmuskeln ab — und schließt eine überraschend große Lücke:
+      Patellaluxation ist eine der häufigsten orthopädischen Diagnosen beim
+      Hund, war aber trotz zweier ausführlicher, bereits bestehender
+      Wissenseinträge (`patellaluxation-krankheitsbild`,
+      `patellaluxation-grad-und-therapieoptionen`) noch nie die primäre,
+      korrekte Diagnose eines Falls (bei `bruno` nur Kontext zur
+      eigentlichen Diagnose Kreuzbandriss). Neuer Fall `lotte` (Zwergspitz,
+      Hündin, 2 J., intermittierendes Hüpfen hinten links): Statt vier
+      verschiedener Krankheitsbilder als Antwortoptionen nutzt dieser Fall
+      bewusst eine andere Struktur — die vier Putnam-Schweregrade
+      derselben Diagnose als Optionen, mit Grad II als korrekter Antwort
+      (Palpationsbefund exakt aus der Grad-II-Definition übernommen). Die
+      `expertNote` übernimmt die im Original explizit betonte schwache
+      Grad-Symptom-Korrelation samt der Warnung, Therapieentscheidungen
+      nicht allein am Grad festzumachen. `relatedCaseIds` bei
+      `patellaluxation-krankheitsbild` um `lotte` ergänzt (zuvor mit
+      keinem Fall verknüpft); `relatedCaseId` bei `sartorius` und
+      `tensor-fasciae-latae` auf `lotte` gesetzt. Keine neue
+      Primärrecherche nötig. Verifiziert: tsc/eslint sauber, Reseed 15
+      Fälle (14 → 15), Cross-Referenz-Audit 0 offene Verweise (156
+      Backtick-Referenzen), Build grün, via Playwright gegen die
+      Review-Seite verifiziert (0 Fehler).
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — bewusst zurückgestellt, siehe Begründung oben
       zum Toe-in/Toe-out-Quellenwiderspruch; falls doch verwendet, dann nur
       mit offen ausgewiesener Unsicherheit statt als sichere Diagnose),
-      `sartorius` und `tensor-fasciae-latae` (einzige noch verbliebene
-      Fall-lose Oberschenkelmuskeln), Tarsus-Gelenk/-Bänder selbst
-      (`art-tarsi`, `ligg-tarsi` — Muskeln/Knochen dieser Region sind über
-      Balu jetzt abgedeckt, Gelenk/Bänder noch nicht), HWS/BWS/LWS-
-      Facettengelenke als eigenständige, primäre Falldiagnose
-      (`facettengelenke-hws`/`-bws`/`-lws` — anatomisch umfassend
-      dokumentiert und über `rueckenmark`/Filou indirekt verknüpft, aber
-      noch kein Fall mit einer reinen Facettenblockade als Hauptdiagnose).
-      14 Fälle insgesamt jetzt (Stand 17.10.2026, gegenüber 8 zu
-      Sessionbeginn), gegenüber 90 Anatomie-Items und 358 Wissenseinträgen
-      weiterhin die kleinste Content-Kategorie — weiter priorisieren, bevor
-      zu Anatomie/Wissensbibliothek zurückgekehrt wird.
+      Tarsus-Gelenk/-Bänder selbst (`art-tarsi`, `ligg-tarsi` — Muskeln/
+      Knochen dieser Region sind über Balu jetzt abgedeckt, Gelenk/Bänder
+      noch nicht), HWS/BWS/LWS-Facettengelenke als eigenständige, primäre
+      Falldiagnose (`facettengelenke-hws`/`-bws`/`-lws` — anatomisch
+      umfassend dokumentiert und über `rueckenmark`/Filou indirekt
+      verknüpft, aber noch kein Fall mit einer reinen Facettenblockade als
+      Hauptdiagnose). 15 Fälle insgesamt jetzt (Stand 17.10.2026, gegenüber
+      8 zu Sessionbeginn — fast eine Verdopplung), gegenüber 90
+      Anatomie-Items und 358 Wissenseinträgen weiterhin die kleinste
+      Content-Kategorie, aber die Lücke schließt sich spürbar — weiter
+      priorisieren, bevor zu Anatomie/Wissensbibliothek zurückgekehrt wird.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→
