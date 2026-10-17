@@ -789,6 +789,76 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.3 (Instabilität des Tarsus, Spontanfraktur Calcaneus, Riss des Fersensehnenstranges, Fersenkappenluxation), S. 195–199 — liefert die vier explizit gegeneinander abgegrenzten Differentialdiagnosen, aus denen die hypothesisOptions dieses Falls gebildet sind (siehe bereits bestehender Wissenseintrag `tarsus-erkrankungen-hund`, derselbe Quellenabschnitt). Ergänzt durch Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 9.3.3 (M. gastrocnemius, Teilriss-/Komplettriss-Unterscheidung samt Sprunggelenksstellung), S. 99f., sowie Kap. 10.1 (Calcaneus-Tischplatten-Zeichen), S. 112 — siehe die bereits bestehenden, strukturierten Anatomie-Items `musculus-gastrocnemius-anatomie` und `calcaneus-talus`, deren `clinicalRelevance`-Felder genau diese Fakten enthalten. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten aus beiden Quellen zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Die konkrete Vorgeschichte (Sprung über einen Zaun), Name, Rasse und Alter des Hundes sind freie didaktische Fallkonstruktion von Denkgang, nicht aus der Quelle übernommen. Noch kein Bildmaterial vorhanden — Bildbrief für ein Einstiegsbild siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "rex",
+    topic: "Orthopädie · Ellbogen (Wachstumsalter)",
+    species: "Deutscher Schäferhund, Rüde, 5 Mon.",
+    title: "Rex — Vorderbeinlahmheit beim Junghund",
+    learningObjective:
+      "Die vier Ellbogendysplasie-Formen anhand der Standhaltung grob unterscheiden können — und erkennen, dass eine sichere Formbestimmung Bildgebung statt reiner Adspektion braucht.",
+    anamnese:
+      "Rex hinkt seit etwa zwei Wochen zunehmend vorne rechts, vor allem nach dem Aufstehen und nach dem Spielen mit anderen Hunden. Kein erinnerliches Trauma. Die Besitzer füttern ihn nach einem Wachstumsplan für großwüchsige Rassen.",
+    beobachtung:
+      "Im Stand hält Rex den rechten Ellbogen auffällig nach außen gedreht (abduziert), während die Pfote dabei eher nach innen zeigt. Die Schrittlänge vorne rechts ist leicht verkürzt.",
+    diagramLabel: "Ellbogenstellung im Stand: rechts deutlich abduziert im Seitenvergleich zu links",
+    palpation:
+      "Schmerzreaktion bei voller Streckung des rechten Ellbogengelenks, keine Krepitation, keine Schwellung über der Bizepssehne. Normaler Bewegungsumfang in Flexion.",
+    hypothesisQ: "Welche Ellbogendysplasie-Form passt am besten zum Befund?",
+    hypothesisOptions: [
+      { label: "Isolierter Processus anconaeus (IPA)", correct: true },
+      {
+        label: "Fragmentierter Processus coronoideus medialis (FPC)",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "FPC geht typischerweise mit einer adduzierten statt der hier beobachteten abduzierten Ellbogenstellung einher.",
+        differentiationDistractors: [
+          "FPC ist die insgesamt häufigste Ellbogendysplasie-Form, deshalb ist sie automatisch am wahrscheinlichsten.",
+          "Der Deutsche Schäferhund ist auch für FPC prädisponiert — das allein entscheidet schon die Diagnose.",
+        ],
+      },
+      {
+        label: "Osteochondrosis dissecans der Trochlea humeri (OCD)",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "OCD geht ebenfalls mit einer adduzierten statt der beobachteten abduzierten Ellbogenstellung einher.",
+        differentiationDistractors: [
+          "OCD tritt häufig gemeinsam mit FPC auf, daher muss es diese Form sein.",
+          "Das Alter von 5 Monaten passt nur zu OCD, nicht zu den anderen Formen.",
+        ],
+      },
+      {
+        label: "Bizepssehnen-Tendinopathie",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Der Schmerz tritt hier bei voller Streckung des gesamten Ellbogengelenks auf, nicht lokal über der Bizepssehne — bei einer Tendinopathie wäre genau dieser lokale Druckschmerz das entscheidende Kriterium (vgl. Fall Rocky).",
+        differentiationDistractors: [
+          "Jede Lahmheit der Vordergliedmaße beim jungen Hund spricht zuerst für eine Sehnenproblematik.",
+          "Rex ist noch sehr jung — eine Tendinopathie ist bei jungen Hunden grundsätzlich wahrscheinlicher als eine Gelenkerkrankung.",
+        ],
+      },
+    ],
+    expertNote:
+      "Die abduzierte Ellbogenstellung ist ein nützlicher erster Hinweis auf IPA statt auf die klinisch sehr ähnlich auftretenden Formen FPC und OCD (beide eher adduziert) — aber nur ein Hinweis, keine gesicherte Diagnose. Welche der vier Ellbogendysplasie-Formen tatsächlich vorliegt, lässt sich klinisch oft nicht sicher unterscheiden: Eine endgültige Diagnose braucht Röntgen in mindestens zwei Ebenen, bei Verdacht auf FPC häufig zusätzlich eine Computertomografie, da das Fragment im Röntgenbild leicht übersehen wird.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für FPC oder OCD statt für IPA sprechen?",
+    weakeningOptions: [
+      { label: "Eine adduzierte statt abduzierte Ellbogenstellung im Stand", correct: true },
+      { label: "Beginn der Symptome ab dem 4. Lebensmonat", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Schmerzreaktion bei voller Streckung des Ellbogens", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Fehlende Trauma-Anamnese", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "In welchem Zeitfenster verschmilzt der Processus anconaeus normalerweise mit der Ulna?",
+    retrievalOptions: [
+      { label: "Zwischen der 16. und 20. Lebenswoche", correct: true },
+      { label: "Erst nach dem 2. Lebensjahr", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Noch vor der Geburt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Er verschmilzt beim Hund grundsätzlich nie mit der Ulna", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter (Thieme), Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Ellbogengelenkdysplasie beim Hund\" (vetcenter.thieme.de, eBook cs_8469468) — siehe bereits bestehender Wissenseintrag `ellbogengelenkdysplasie`, derselbe Quellenabschnitt. Die vier Unterformen, Rasseprädispositionen, das Zeitfenster der Processus-anconaeus-Fusion (16.–20. Lebenswoche) sowie der Standhaltungs-Unterschied (FPC/OCD adduziert vs. IPA abduziert) sind im Original so beschrieben und zusätzlich strukturiert in den bereits bestehenden Anatomie-Items `processus-anconaeus` und `processus-coronoideus-medialis` hinterlegt (dort inkl. Fusionszeitfenster und Standhaltungs-Fakt im Original-Wortlaut). Der Hinweis, dass eine sichere Formunterscheidung Röntgen/CT braucht, ist ebenfalls im Original so beschrieben. Die Bizepssehnen-Abgrenzung nutzt zusätzlich den bereits verifizierten Fall `rocky` (Hárrer Kap. 12, Welter-Böller Kap. 6) als Kontrastfall. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte des Hundes sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -3776,8 +3846,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Faktenwissen"],
     sourceStatus:
-      "Verifiziert: VetCenter (Thieme), Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Ellbogengelenkdysplasie beim Hund\" mit den Unterkapiteln zu IPA, FPC und OCD der Trochlea humeri (vetcenter.thieme.de, eBook cs_8469468). Definition, die vier Einzelerkrankungen, Rasseprädispositionen, der Standhaltungs-Unterschied (FPC/OCD adduziert vs. IPA abduziert) und das diagnostische Vorgehen sind im Original so beschrieben. Ergänzt den bereits verifizierten Befund aus Hárrer Kap. 13 (siehe Fall „Rocky\"), der Ellenbogendysplasie nur als real existierende Diagnose bestätigt hatte, ohne auf die Unterformen einzugehen. Hinweis: Diese Kapitel-Datei stammt direkt von der VetCenter-Onlineplattform ohne eigenes Titelblatt — Autor/Auflage/ISBN der Printausgabe von „Hundekrankheiten kompakt\" wurden nicht separat verifiziert.",
-    relatedCaseIds: ["rocky"],
+      "Verifiziert: VetCenter (Thieme), Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Ellbogengelenkdysplasie beim Hund\" mit den Unterkapiteln zu IPA, FPC und OCD der Trochlea humeri (vetcenter.thieme.de, eBook cs_8469468). Definition, die vier Einzelerkrankungen, Rasseprädispositionen, der Standhaltungs-Unterschied (FPC/OCD adduziert vs. IPA abduziert) und das diagnostische Vorgehen sind im Original so beschrieben. Ergänzt den bereits verifizierten Befund aus Hárrer Kap. 13 (siehe Fall „Rocky\"), der Ellenbogendysplasie nur als real existierende Diagnose bestätigt hatte, ohne auf die Unterformen einzugehen. Hinweis: Diese Kapitel-Datei stammt direkt von der VetCenter-Onlineplattform ohne eigenes Titelblatt — Autor/Auflage/ISBN der Printausgabe von „Hundekrankheiten kompakt\" wurden nicht separat verifiziert. Bildet außerdem die fachliche Grundlage für den neuen Fall `rex`, dessen hypothesisOptions genau die hier beschriebenen vier Unterformen gegeneinander abgrenzen.",
+    relatedCaseIds: ["rocky", "rex"],
     relatedAnatomyIds: ["processus-anconaeus", "processus-coronoideus-medialis", "art-cubiti", "ligg-collateralia-cubiti"],
   },
   {

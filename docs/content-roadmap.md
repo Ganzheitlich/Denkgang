@@ -5352,16 +5352,42 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Fall-Flow liefert korrekt einen 404, da der Fall wie alles in dieser
       Bibliothek noch DRAFT ist — Content-Governance-Gate funktioniert wie
       vorgesehen).
-- [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Ellbogen
-      (Unterarmrotatoren `supinator`/`brachioradialis`/`pronator-teres`/
-      `pronator-quadratus` ohne Fall, obwohl `art-cubiti` selbst keinen
-      Fall hat), hintere Oberschenkelmuskulatur (`biceps-femoris`,
-      `semitendinosus`, `gracilis`, `sartorius`, `tensor-fasciae-latae`,
-      `semimembranosus` — alle ohne Fall), Rippen/Rippengelenke
-      (`rippen`, `artt-costales`). Guter nächster Kandidat: ein Fall zur
-      Ellbogendysplasie (IPA/FPC/OCD-Differenzierung, bereits ausführlich
-      verifiziert in `ellbogendysplasie-vier-formen-eine-diagnose` o. ä.)
-      für einen jungen, großwüchsigen Hund.
+- [x] **Fall „Rex" — Ellbogengelenkdysplasie (17.10.2026).** **Korrektur
+      vorab:** Die eigene Einschätzung im vorherigen Eintrag war an zwei
+      Stellen ungenau — `art-cubiti`/`radius-ulna`/`ligg-collateralia-cubiti`
+      hatten bereits `relatedCaseId: "rocky"` (Ellbogendysplasie taucht dort
+      nur als Distraktor auf, nicht als korrekte Diagnose); und die im
+      allerersten Status-Update an Vanessa als „noch offen" gemeldeten
+      Anatomie-Items zu Processus anconaeus/coronoideus medialis existieren
+      bereits (`processus-anconaeus`, `processus-coronoideus-medialis`,
+      beide `KNOCHEN`-Kind, aus einer früheren Session nachgeholt — das
+      Schema-Mismatch-Problem wurde also schon gelöst). Neuer Fall `rex`
+      (Deutscher Schäferhund, Rüde, 5 Mon., Vorderbeinlahmheit): Die vier
+      hypothesisOptions bilden — gestützt auf den bestehenden
+      Standhaltungs-Fakt (IPA abduziert, FPC/OCD adduziert) aus
+      `ellbogengelenkdysplasie`, `processus-anconaeus` und
+      `processus-coronoideus-medialis` — IPA als korrekte Diagnose gegenüber
+      FPC, OCD und (als Kontrastfall zu Rocky) einer Bizepssehnen-
+      Tendinopathie ab. `expertNote` macht transparent, dass die
+      Standhaltung nur ein erster Hinweis ist und eine sichere
+      Formunterscheidung Röntgen/CT braucht (im Original so beschrieben,
+      nicht beschönigt). `relatedCaseIds` bei `ellbogengelenkdysplasie` um
+      `rex` ergänzt (Rocky bleibt als Distraktor-Fall verknüpft). Keine neue
+      Primärrecherche nötig. Verifiziert: tsc/eslint sauber, Reseed 10 Fälle
+      (9 → 10), Cross-Referenz-Audit 0 offene Verweise (149
+      Backtick-Referenzen), Build grün, via Playwright gegen die
+      Review-Seite verifiziert (0 Fehler).
+- [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
+      rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
+      `pronator-quadratus` — noch ohne Fall, auch wenn der Ellbogen als
+      Gelenk über Rocky/Rex jetzt zweifach abgedeckt ist), hintere
+      Oberschenkelmuskulatur (`biceps-femoris`, `semitendinosus`,
+      `gracilis`, `sartorius`, `tensor-fasciae-latae`, `semimembranosus` —
+      alle sechs weiterhin ohne Fall, größte zusammenhängende Lücke),
+      Rippen/Rippengelenke (`rippen`, `artt-costales`). Guter nächster
+      Kandidat: ein Fall zur Hamstring-Problematik (z. B. Hamstringfibrose,
+      bereits verifiziert aus Koch/Fischer Kap. 8.3.7) für einen älteren
+      Hund — würde die größte verbliebene Fall-lose Muskelgruppe abdecken.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→
