@@ -5398,6 +5398,29 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       sauber, Reseed 11 Fälle (10 → 11), Cross-Referenz-Audit 0 offene
       Verweise (152 Backtick-Referenzen), Build grün, via Playwright gegen
       die Review-Seite verifiziert (0 Fehler).
+- [x] **Fall „Nero" — ISG-Iliumläsion (17.10.2026).** Erster Fall mit einer
+      ISG-Dysfunktion als primärer, korrekter Diagnose (die drei
+      bestehenden ISG-Wissenseinträge waren vorher nur mit `luna`
+      verknüpft, wo ISG lediglich Kontext zur eigentlichen Diagnose
+      Hüftdysplasie liefert). Neuer Fall `nero` (Border Collie, Rüde,
+      4 J., Hürdensprung mit Hängenbleiben am Zaun): Die korrekte Diagnose
+      (ISG-Iliumläsion rechts, Ilium dorsal) wird über das positive
+      Vorlaufphänomen und den funktionellen (nicht anatomischen)
+      Beinlängenunterschied von Hüftgelenkdysplasie (negativer
+      Ortolani-Test als Hauptargument), Kreuzbandriss (Anatomieverwechslung
+      Becken/Knie) und einem rein anatomischen Beinlängenunterschied
+      abgegrenzt — alle drei Distraktoren nutzen Fakten aus denselben drei
+      bestehenden ISG-Einträgen. `relatedCaseIds` bei allen drei
+      ISG-Einträgen um `nero` ergänzt (bei `iliosakralgelenk-sakrum-ilium-
+      laesion-beinlaenge`, zuvor mit keinem Fall verknüpft, als einzigem
+      Fall gesetzt). Ein Syntaxfehler (gerader statt kurviger
+      Anführungszeichen bei „Goldstandard-Test") wurde beim ersten
+      eslint-Lauf gefunden und korrigiert — Erinnerung an das wiederkehrende
+      Muster aus früheren Batches. Keine neue Primärrecherche nötig.
+      Verifiziert: tsc/eslint sauber (nach Quote-Fix), Reseed 12 Fälle
+      (11 → 12), Cross-Referenz-Audit 0 offene Verweise (153
+      Backtick-Referenzen), Build grün, via Playwright gegen die
+      Review-Seite verifiziert (0 Fehler).
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — noch ohne Fall, auch wenn der Ellbogen als
@@ -5406,12 +5429,13 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Oberschenkelmuskeln), Rippen/Rippengelenke (`rippen`,
       `artt-costales`), Tarsus-Gelenk/-Bänder selbst (`art-tarsi`,
       `ligg-tarsi` — Muskeln/Knochen dieser Region sind über Balu jetzt
-      abgedeckt, Gelenk/Bänder noch nicht). Guter nächster Kandidat: ein
-      Fall zur ISG-Dysfunktion (bereits ausführlich verifiziert in
-      `iliosakralgelenk-anatomie-symptome-ursachen` und den beiden
-      weiteren ISG-Einträgen) — die ISG-Anatomie-Items selbst sind zwar
-      schon mit `luna` verknüpft, aber kein Fall hat bisher eine
-      ISG-Dysfunktion als primäre, korrekte Diagnose.
+      abgedeckt, Gelenk/Bänder noch nicht), HWS/BWS/LWS-Facettengelenke
+      (`facettengelenke-hws`/`-bws`/`-lws` — anatomisch umfassend
+      dokumentiert, aber bisher mit keinem Fall verknüpft). 12 Fälle
+      insgesamt jetzt (Stand 17.10.2026), gegenüber 90 Anatomie-Items und
+      358 Wissenseinträgen weiterhin die kleinste Content-Kategorie —
+      weiter priorisieren, bevor zu Anatomie/Wissensbibliothek
+      zurückgekehrt wird.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→

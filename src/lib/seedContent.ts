@@ -941,6 +941,77 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.7 (Hamstringfibrose), S. 207–209 — siehe bereits bestehender Wissenseintrag `hamstringfibrose-deutscher-schaeferhund`, derselbe Quellenabschnitt. Betroffene Muskeln, Rasse, das pathognomonische Gangbild, der Palpationsbefund und die reservierte Prognose samt Begründung (Bindegewebe wächst nach Entfernung wieder nach) sind im Original so beschrieben. Die Fasertyp-Differenzierung (Typ-I bei Semimembranosus/Semitendinosus, Typ-II beim M. biceps femoris) stammt aus dem ebenfalls bereits bestehenden Wissenseintrag `hueftextensoren-hamstrings-fasertyp-differenzierung` (Hárrer Kap. 7.3.3, S. 55f.), derselbe Quellenabschnitt. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten aus beiden Quellen zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Alter und Vorgeschichte der Hündin sind freie didaktische Fallkonstruktion von Denkgang, die Rasse (Deutscher Schäferhund) ist durch die Quelle vorgegeben (die Erkrankung tritt praktisch ausschließlich bei dieser Rasse auf). Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "nero",
+    topic: "Orthopädie · Becken/Iliosakralgelenk",
+    species: "Border Collie, Rüde, 4 J.",
+    title: "Nero — steifer Rücken nach einem Hürdensprung",
+    learningObjective:
+      "Eine ISG-Iliumläsion anhand des Vorlaufphänomens und des funktionellen (statt anatomischen) Beinlängenunterschieds von einer Hüftgelenkdysplasie abgrenzen können.",
+    anamnese:
+      "Nero ist ein aktiver Agility-Hund. Vor zehn Tagen ist er beim Training über eine Hürde gesprungen und kurz am Gartenzaun hängengeblieben. Seitdem wirkt er im Rücken steifer und springt ungern noch ins Auto.",
+    beobachtung:
+      "Im Stand wirkt das rechte Hinterbein geringfügig länger als das linke; die Rute hängt tiefer als gewöhnlich und schwingt beim Laufen deutlich weniger.",
+    diagramLabel: "Beinlängeneindruck im Stand: rechtes Hinterbein wirkt länger, Rutenschwingen reduziert",
+    palpation:
+      "Vorlaufphänomen positiv rechts (Spina iliaca cranialis dorsalis läuft bei Wirbelsäulenflexion vorzeitig mit); Ortolani-Test beidseits negativ, volle, schmerzfreie Hüftbeweglichkeit beidseits. Hypertone Rückenmuskulatur rechts paravertebral.",
+    hypothesisQ: "Welche Ursache erklärt den Befund am besten?",
+    hypothesisOptions: [
+      { label: "ISG-Dysfunktion (Iliumläsion rechts) nach dem Hängenbleiben am Zaun", correct: true },
+      {
+        label: "Hüftgelenkdysplasie",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Der Ortolani-Test ist beidseits negativ bei voller, schmerzfreier Hüftbeweglichkeit — das spricht gegen eine Hüftgelenkdysplasie, bei der genau dieser Test typischerweise positiv ausfällt.",
+        differentiationDistractors: [
+          "Ein scheinbarer Beinlängenunterschied spricht grundsätzlich für eine Hüftgelenkerkrankung.",
+          "Der Border Collie ist für Hüftdysplasie prädisponiert, also liegt sie nahe.",
+        ],
+      },
+      {
+        label: "Kreuzbandriss rechts",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Ein Kreuzbandriss würde sich im Kniegelenk selbst zeigen (z. B. Schubladentest/Tibiakompressionstest), nicht als positives Vorlaufphänomen am Becken mit reduziertem Rutenschwingen.",
+        differentiationDistractors: [
+          "Jede Vorgeschichte mit Hängenbleiben beim Sprung spricht zuerst für einen Bandriss im Knie.",
+          "Ein verändertes Gangbild hinten ist am häufigsten durch das Kniegelenk verursacht.",
+        ],
+      },
+      {
+        label: "Reiner anatomischer (angeborener) Beinlängenunterschied",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Bei einem echten anatomischen Beinlängenunterschied stehen Spina iliaca dorsalis cranialis, Tuber coxae und Trochanter major derselben Seite gemeinsam höher oder tiefer — hier zeigt sich stattdessen das für eine funktionelle Verwringung typische gegensätzliche Muster.",
+        differentiationDistractors: [
+          "Ein akut aufgetretener Beinlängenunterschied ist immer anatomisch bedingt.",
+          "Nero ist schon vier Jahre alt — ein angeborener Unterschied wäre längst aufgefallen, kann also jetzt nicht mehr die Ursache sein.",
+        ],
+      },
+    ],
+    expertNote:
+      "Das Zusammenspiel aus Trauma mit Verwringungsmechanismus (Hängenbleiben beim Sprung), positivem Vorlaufphänomen, scheinbar verlängertem Bein und reduziertem Rutenschwingen ist typisch für eine Iliumläsion des ISG — hier mit dorsal stehendem Ilium rechts (Tuber ischiadicum tiefer, Bein erscheint länger, erhöhte Spannung des Lig. sacrotuberale). Wichtig für die Praxis: Ein einzelner positiver Test reicht laut der ⅗-Regel nicht als Beweis — erst wenn mindestens drei von fünf Provokationskriterien (schmerzhafte Ligg. sacroiliaca dorsalia, schmerzhafter M. piriformis, veränderter Tonus des Lig. sacrotuberale im Seitenvergleich, asymmetrisches Becken, ungleiche Höhe der Tubera ischiadica) erfüllt sind, gilt ein ISG-Problem als wahrscheinlich — ein „Goldstandard-Test” existiert für das ISG nicht.",
+    weakeningQ: "Welcher zusätzliche Befund würde diese Hypothese eher schwächen?",
+    weakeningOptions: [
+      { label: "Negatives Vorlaufphänomen beidseits bei symmetrischem Becken", correct: true },
+      { label: "Scheinbar verlängertes rechtes Hinterbein", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Reduziertes Rutenschwingen", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Hypertone Rückenmuskulatur rechts paravertebral", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ:
+      "Wie viele der fünf ISG-Provokationskriterien müssen laut der validierten ⅗-Regel mindestens positiv sein, bevor ein ISG-Problem als wahrscheinlich gilt?",
+    retrievalOptions: [
+      { label: "Mindestens drei von fünf", correct: true },
+      { label: "Ein einzelner positiver Test genügt bereits", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Alle fünf Kriterien müssen zwingend positiv sein", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Es gibt keine solche Regel, jeder Test zählt unabhängig gleich viel", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk), S. 236–240 — siehe bereits bestehende Wissenseinträge `iliosakralgelenk-anatomie-symptome-ursachen`, `iliosakralgelenk-sakrum-ilium-laesion-beinlaenge` und `iliosakralgelenk-manuelle-untersuchung-provokationstests`, derselbe Quellenabschnitt. Der Iliumläsions-Mechanismus (Hürdensprung mit Hängenbleiben), die Ilium-dorsal-Befundtabelle (Tuber ischiadicum tiefer → Bein erscheint länger, erhöhte Lig.-sacrotuberale-Spannung), die funktionelle-vs-anatomische Beinlängenunterschied-Differenzierung, das Vorlaufphänomen sowie die ⅗-Regel mit ihren fünf Kriterien sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten aus allen drei Einträgen zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte des Hundes sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -8131,8 +8202,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Untersuchung falsch gewählt"],
     sourceStatus:
-      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Anatomie und funktionelle Bedeutung), S. 236–238. Anatomie, Symptomliste und Ursachen sind im Original so beschrieben. Löst das in `hueftgelenk-anatomie-rom-endgefuehl` und `lahmheit-laehmung-abgrenzung` angekündigte Cross-Reference „Differenzialdiagnostik siehe Kap. LWS/ISG“ ein.",
-    relatedCaseIds: ["luna"],
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Anatomie und funktionelle Bedeutung), S. 236–238. Anatomie, Symptomliste und Ursachen sind im Original so beschrieben. Löst das in `hueftgelenk-anatomie-rom-endgefuehl` und `lahmheit-laehmung-abgrenzung` angekündigte Cross-Reference „Differenzialdiagnostik siehe Kap. LWS/ISG“ ein. Bildet außerdem Teil der fachlichen Grundlage für den neuen Fall `nero`, dessen korrekte Diagnose eine ISG-Iliumläsion ist.",
+    relatedCaseIds: ["luna", "nero"],
     relatedAnatomyIds: ["huefte", "rueckenmark", "art-sacroiliaca", "ligg-sacroiliaca"],
   },
   {
@@ -8167,8 +8238,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet", "Anatomieverwechslung"],
     sourceStatus:
-      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Differenzierung von Läsionen und Beinlängenunterschieden), S. 237f. Läsionsmechanismen, Befundtabelle und Beinlängen-Differenzierung sind im Original so beschrieben.",
-    relatedCaseIds: [],
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Differenzierung von Läsionen und Beinlängenunterschieden), S. 237f. Läsionsmechanismen, Befundtabelle und Beinlängen-Differenzierung sind im Original so beschrieben. Bildet die fachliche Grundlage für den Ilium-dorsal-Befund im neuen Fall `nero`.",
+    relatedCaseIds: ["nero"],
     relatedAnatomyIds: ["huefte", "becken", "ligg-sacroiliaca"],
   },
   {
@@ -8207,8 +8278,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Untersuchung falsch gewählt", "Befund überbewertet", "vorschnelle Diagnose"],
     sourceStatus:
-      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Differenzialdiagnose und spezifische Untersuchung), S. 238–240. Provokationstests, die ⅗-Regel (nach Fortin et al., im Original zitiert) sowie Bewegungspalpation und Joint Play sind im Original so beschrieben.",
-    relatedCaseIds: ["luna"],
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.7 (Iliosakralgelenk — Differenzialdiagnose und spezifische Untersuchung), S. 238–240. Provokationstests, die ⅗-Regel (nach Fortin et al., im Original zitiert) sowie Bewegungspalpation und Joint Play sind im Original so beschrieben. Die ⅗-Regel und das Vorlaufphänomen bilden die fachliche Grundlage für den retrievalQ bzw. den Palpationsbefund im neuen Fall `nero`.",
+    relatedCaseIds: ["luna", "nero"],
     relatedAnatomyIds: ["huefte", "art-sacroiliaca", "ligg-sacroiliaca"],
   },
   {
