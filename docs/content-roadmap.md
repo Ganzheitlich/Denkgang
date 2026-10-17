@@ -5796,6 +5796,69 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       (185 Backtick-Referenzen), Production-Build grün, Playwright-
       Stichprobe (balto, senta, ginger) gegen die Review-Seite — 0
       Konsolen-/Seitenfehler.
+- [x] Fälle 56–65 (Batch 5 des ~100-Fälle-Ausbaus, 17.10.2026): Fünfte
+      Zehnergruppe — erstmals mit Schwerpunkt auf der UNTERSUCHUNG-Kategorie
+      (6 von 10 Fällen), weiterhin ausschließlich aus Hohmann (Bewegungs-
+      apparat Hund), Kasper/Zohmann (Ganzheitliche Schmerztherapie), Hárrer
+      (Manuelle Therapie beim Hund) und Mai (Physiotherapie und Bewegungs-
+      training für Hunde) kombiniert:
+      - **`buddy`** (Labrador Retriever, 3 J.) — „Water Tail" nach
+        intensivem Schwimmen; strukturell bewusst als „erkenne das
+        Harmlose, teste nicht zu viel"-Gegenstück zu den vielen
+        „übersieh nichts Ernstes"-Fällen angelegt. Quelle:
+        `haengende-rute-water-tail-differentialdiagnosen`.
+      - **`mila`** (Epagneul Breton, 4 J.) — SIG-Blockierung, zyklus-
+        korreliert; Lernziel: die höher stehende Kruppenseite ist nicht
+        automatisch die betroffene Seite. Quelle:
+        `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe`.
+      - **`hector`** (Cane Corso, 5 J.) — regelmäßiges vs. unregelmäßiges
+        Lahmheitsmuster als Hinweis auf orthopädische vs. neurologische
+        Ursache (Central-Pattern-Generator-Konzept). Quelle:
+        `lahmheitsgrad-mai-differenzierungsmerkmale`.
+      - **`kira`** (Rhodesian Ridgeback, 18 Wochen) — HD-Frühdiagnostik
+        nach Köppel am Os coxae quartum; fünfter, wieder strukturell
+        anderer HD-Fall (proaktives Screening eines klinisch unauffälligen
+        Welpen statt symptomatischer Vorstellung). Quelle:
+        `hd-fruehdiagnostik-koeppel-os-coxae-quartum`.
+      - **`mimi`** (Zwergpudel, 5 J.) und **`daisy`** (Bearded Collie, 3 J.)
+        — zwei Untersuchungstechnik-Fallstricke: Mimi zeigt, dass eine
+        verdickte Hautfalte über dem Kreuzbein eine physiologische
+        Verquellungszone statt ein pathologischer Befund sein kann;
+        Daisy zeigt, dass ein positiver Druckpunkt im „Nierensegment"
+        auch durch die Läufigkeit sensibilisiert sein kann, statt eine
+        Organerkrankung zu beweisen. Quellen:
+        `kiblersche-hautfaltenpalpation-technik-vier-kriterien`,
+        `druckpunktpalpation-kothbauer-technik-organzuordnung`.
+      - **`mao`** (Pekinese, 6 J.) — BWS-Springingtest: Einknicken statt
+        Muskelzucken als rote Flagge für ein akutes Bandscheibenproblem.
+        Quelle: `bws-springingtest-rosett-test-differenzierung`.
+      - **`keera`** (Australian Kelpie, 4 J.) — verspannte Hüftadduktoren
+        als Ursache einer funktionellen Glutealinsuffizienz; isoliertes
+        Glutealtraining bleibt wirkungslos, solange die Adduktoren nicht
+        zuerst behandelt werden. Quelle:
+        `hueftadduktoren-untersuchung-und-glutealinsuffizienz`.
+      - **`winston`** (Chow Chow, 7 J.) — Beknabbern der Hinterpfote durch
+        Nervenhyperästhesie bei einem Rückenpatienten; Pendant zu Paulas
+        Vordergliedmaßen-Fall (Batch 3) für die Hintergliedmaße. Quelle:
+        `sprunggelenk-zehen-funktionelle-anatomie-hyperaesthesien`.
+      - **`grete`** (Entlebucher Sennenhund, 10 J.) — Wahl der richtigen
+        Schmerzskala (Hielm-Bjorkman statt Mathews) für das Heim-
+        Monitoring einer chronischen Arthrose durch die Besitzer. Quelle:
+        `schmerzskalen-mathews-hielm-bjorkman`.
+
+      `relatedCaseIds` ergänzt bei allen zehn referenzierten
+      Wissenseinträgen. Keine neuen `AnatomyItem.relatedCaseId`-
+      Verknüpfungen (SIG-Items bereits durch Luna belegt). Bewusst NICHT
+      als eigener Fall verwendet: `arthrose-risikofaktoren-teufelskreis-
+      schonung` (zu inhaltsnah an Findus' bereits bestehendem Fall
+      „Ernährung × Bewegungsapparat", hätte zu Redundanz statt Varianz
+      geführt). Keine neue Primärrecherche nötig, alle zehn Fälle
+      kombinieren ausschließlich bereits verifizierte Fakten aus
+      bestehenden Wissenseinträgen zu neuen klinischen Szenarien.
+      Verifiziert: eslint sauber, tsc sauber, Reseed 65 Fälle (55 → 65),
+      Cross-Referenz-Audit 0 offene Verweise (190 Backtick-Referenzen),
+      Production-Build grün, Playwright-Stichprobe (mila, mao, grete)
+      gegen die Review-Seite — 0 Konsolen-/Seitenfehler.
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — bewusst zurückgestellt, siehe Begründung oben
@@ -5807,26 +5870,25 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Facettengelenke als eigenständige, primäre Falldiagnose bleiben offen
       (`facettengelenke-hws`/`-bws` — LWS-Facettengelenke sind über Max
       jetzt abgedeckt). PATHOLOGIE-Kategorie mit konkreten, fallfähigen
-      Einzeldiagnosen ist nach vier Batches weitgehend ausgeschöpft — die
-      meisten verbleibenden PATHOLOGIE-Einträge sind entweder bewusst
-      zurückgestellt (s. o.) oder eher abstrakte Schmerzphysiologie-/
-      Faszientheorie-Grundlagen ohne einzelnes klinisches Korrelat.
-      Schwerpunkt für die nächsten Batches verschiebt sich deshalb auf
-      UNTERSUCHUNG- (72 ohne Fall-Link, davon jetzt 2 verwendet: Horner-
-      Syndrom-Lokalisation, Pannikulusreflex — weitere Kandidaten u. a.
-      Zervikofazialisreflex/Slap-Test, Schmerzskalen/Lahmheitsgrade als
-      Grading-Struktur wie bei Lotte, Kibler'sche Hautfalte/Druckpunkt-
-      palpation-Techniken), THERAPIE- (41 ohne Fall-Link — Kandidaten u. a.
+      Einzeldiagnosen ist nach fünf Batches praktisch ausgeschöpft — die
+      verbleibenden PATHOLOGIE-Einträge sind überwiegend abstrakte
+      Schmerzphysiologie-/Faszientheorie-Grundlagen ohne einzelnes
+      klinisches Korrelat. Schwerpunkt für kommende Batches liegt auf
+      UNTERSUCHUNG (70 ohne Fall-Link nach Batch 5, davon 6 bereits
+      verwendet — weitere Kandidaten u. a. Zervikofazialisreflex/Slap-Test,
+      Triggerpunktuntersuchung Vorder-/Hintergliedmaße, Goniometrie/ROM-
+      Messgrenzen, Body Conditioning Score, Zehner-Test, Joint-Play-Technik
+      Rute), THERAPIE (41 ohne Fall-Link — Kandidaten u. a. weitere
       Kontraindikations-Fälle wie bei Rocco: Elektrostimulation bei
-      Muskelatrophie, Hochfrequenztherapie bei Metallimplantat) und
-      BIOMECHANIK-Kategorien (75 ohne Fall-Link — eher als Hintergrundwissen
-      geeignet, da meist grundlagenorientiert statt krankheitsspezifisch).
-      55 Fälle insgesamt jetzt (Stand 17.10.2026, gegenüber 8 zu
-      Sessionbeginn — mehr als versechsfacht), Zielmarke Vanessas liegt bei
-      ca. 100 — rund 45 weitere Fälle in kommenden Batches geplant, mit
-      fortgesetztem Fokus auf echte Varianz (unterschiedliche Diagnosen,
-      Regionen, Fallstrukturen, Fehlerkategorien) statt bloßer Wiederholung
-      ähnlicher Fälle.
+      Muskelatrophie, Hochfrequenztherapie bei Metallimplantat,
+      Unterwasserlaufband-Kontraindikationen) und BIOMECHANIK (75 ohne
+      Fall-Link — eher als Hintergrundwissen geeignet, da meist
+      grundlagenorientiert statt krankheitsspezifisch). 65 Fälle insgesamt
+      jetzt (Stand 17.10.2026, gegenüber 8 zu Sessionbeginn — mehr als
+      verachtfacht), Zielmarke Vanessas liegt bei ca. 100 — rund 35 weitere
+      Fälle in kommenden Batches geplant, mit fortgesetztem Fokus auf echte
+      Varianz (unterschiedliche Diagnosen, Regionen, Fallstrukturen,
+      Fehlerkategorien) statt bloßer Wiederholung ähnlicher Fälle.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→

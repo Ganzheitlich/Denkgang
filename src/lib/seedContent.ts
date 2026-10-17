@@ -3809,6 +3809,628 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.6 (siehe Wissenseintrag `zehenarthrosen-sesambeinfrakturen-uebersehene-schmerzquellen`), S. 104–107. Die Beschreibung der Zehenarthrose als häufig übersehene Ursache „therapieresistenter” Probleme, die Konturpalpationstechnik und das vollständige Untersuchungsprinzip der distalen Extremität sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "buddy",
+    topic: "Orthopädie · Rute (akute Differentialdiagnose)",
+    species: "Labrador Retriever, Rüde, 3 J.",
+    title: "Buddy — nach langem Schwimmen hängt die Rute plötzlich schlaff",
+    learningObjective:
+      "Den „Water Tail” als harmlose, selbstlimitierende Ursache einer akut hängenden Rute erkennen und von ernsthaften neurologischen und internistischen Differentialdiagnosen abgrenzen.",
+    anamnese:
+      "Buddy war heute mehrere Stunden intensiv im See schwimmen. Seit dem Nachhausekommen hängt seine Rute schlaff herab und er kann nicht mehr wedeln; er wirkt dabei schmerzhaft, wenn die Rutenbasis angefasst wird.",
+    beobachtung:
+      "Die Rute hängt schlaff von der Rutenwurzel ab, mit leichter Schwellung im Ansatzbereich; Buddy bewegt sich ansonsten völlig unauffällig und zeigt keine Gangstörung.",
+    diagramLabel: "Akut schlaff hängende Rute nach stundenlangem Schwimmen, Schmerz an der Rutenbasis, kein weiteres Symptom",
+    palpation:
+      "Die Rutenbasis ist bei Palpation deutlich schmerzhaft, die Muskulatur dort leicht verdickt. Gangbild, Reflexe und Tiefensensibilität der Hintergliedmaßen sind vollständig unauffällig; keine Schleifspuren an den Zehen.",
+    hypothesisQ: "Was erklärt Buddys Befund am besten?",
+    hypothesisOptions: [
+      { label: "„Water Tail” (Wasserschwanz) — Muskelkater der Rutenmuskulatur nach intensiver Schwimmbelastung", correct: true },
+      {
+        label: "Ein akuter Bandscheibenvorfall mit Beteiligung der Cauda equina",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Ein Bandscheibenvorfall würde zusätzliche neurologische Ausfälle zeigen (Schleifspuren, Reflexveränderungen an den Hintergliedmaßen) — bei Buddy sind Gangbild, Reflexe und Tiefensensibilität vollständig unauffällig, nur die Rute selbst ist betroffen, passend zum zeitlich und mechanisch eindeutig erklärbaren Water Tail.",
+      },
+      {
+        label: "Eine Rutenfraktur",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Differentialdiagnose muss zwar bedacht werden, passt aber schlechter zum diffusen Schmerz an der Rutenbasis ohne lokalisierbare Knochenstufe oder Krepitation sowie zum eindeutig erklärenden Schwimm-Auslöser.",
+      },
+      {
+        label: "Eine hochgradige Prostatitis mit Ausstrahlung in die Rute",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine Prostatitis würde zusätzliche internistische Symptome erwarten lassen und tritt nicht in diesem eindeutigen zeitlichen Zusammenhang mit intensiver Schwimmbelastung auf — der klare Auslöser und das isolierte Rutensymptom sprechen deutlich für den Water Tail.",
+      },
+    ],
+    expertNote:
+      "Bei einer hängenden, nicht mehr wedelnden Rute ist die erste entscheidende Frage: seit wann? Eine akute hängende Rute hat ein grundlegend anderes Ursachenspektrum als eine chronische. Der „Water Tail” (Wasserschwanz) ist dabei die häufigste harmlose Ursache bei akutem Beginn — ein Muskelkater durch den intensiven Einsatz der Rute als „5. Gliedmaße” beim Schwimmen, der besonders den Labrador betrifft, wie bei Buddy. Andere akute Ursachen wie akuter Bandscheibenvorfall, Faserknorpelembolie, akute Analdrüsenentzündung, Rutenfraktur oder hochgradige Prostatitis zeigen dagegen typischerweise zusätzliche neurologische Ausfallerscheinungen oder weitere internistische Symptome, die bei einem reinen Water Tail fehlen. Dieselbe verweigerte Bewegung — hier das Wedeln — kann also je nach Zeitverlauf, Begleitbefunden und betroffener Rasse auf ein harmloses, selbstlimitierendes Ereignis oder eine ernsthafte Erkrankung hinweisen; eine sorgfältige Anamnese und gezielte neurologische Zusatzuntersuchung sind deshalb unerlässlich, bevor eine Diagnose priorisiert wird.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen einen Water Tail und für eine ernsthafte neurologische Ursache sprechen?",
+    weakeningOptions: [
+      { label: "Schleifspuren an den Zehen der Hintergliedmaße und beidseits auslösbare Schublade an den Kniegelenken", correct: true },
+      { label: "Schmerzhaftigkeit bei Palpation der Rutenbasis", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein klarer zeitlicher Zusammenhang mit intensiver Schwimmbelastung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Vollständig unauffälliges Gangbild der Hintergliedmaßen", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche Begleitbefunde sprechen eher für eine chronische statt eine akute Ursache einer hängenden Rute?",
+    retrievalOptions: [
+      {
+        label: "Ein herabgesetzter statt akut schmerzhafter Rutentonus, oft begleitet von Schleifspuren an den Zehen und beidseits auslösbarer Schublade an den Kniegelenken",
+        correct: true,
+      },
+      { label: "Ein klarer Auslöser wie intensive Schwimmbelastung unmittelbar vor Symptombeginn", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Eine isolierte, akute Schmerzhaftigkeit nur an der Rutenbasis ohne weitere Befunde", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Zeitverlauf spielt für die Differentialdiagnose einer hängenden Rute keine Rolle", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 10.2 (siehe Wissenseintrag `haengende-rute-water-tail-differentialdiagnosen`), S. 453. Die akuten und chronischen Ursachen der hängenden Rute (inkl. Water Tail beim Labrador und der Cauda-equina-typischen Begleitbefunde) sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "mila",
+    topic: "Orthopädie · Iliosakralgelenk (Blockierung)",
+    species: "Epagneul Breton, Hündin, 4 J.",
+    title: "Mila — Hangbeinlahmheit, die zyklusabhängig schwankt",
+    learningObjective:
+      "Erkennen, dass eine SIG-Blockierung sekundär zu einem gynäkologischen Geschehen entstehen kann und dass die höher gestellte Kruppenseite nicht automatisch die betroffene Seite ist.",
+    anamnese:
+      "Mila, eine intakte Hündin, zeigt seit einigen Wochen eine wiederkehrende Hangbeinlahmheit der rechten Hinterhand, die den Besitzern zufolge im zeitlichen Zusammenhang mit ihrem Zyklus stärker und schwächer wird.",
+    beobachtung: "Von hinten betrachtet fällt eine Kruppen-Asymmetrie auf: die linke Kruppenseite steht deutlich höher als die rechte.",
+    diagramLabel: "Zyklusabhängig schwankende Hangbeinlahmheit rechts hinten, linke Kruppenseite im Stand höher als rechte",
+    palpation:
+      "Digitale Schmerzpalpation zeigt eine deutliche Dolenz über den tastbaren Vertiefungen knapp kranial bzw. kaudal des Tuber sacrale ossis ilii auf der RECHTEN Seite — also der tiefer, nicht der höher stehenden Seite. Der Höhenvergleich von Tubera coxae und Tubera ossis ischii bestätigt die Asymmetrie.",
+    hypothesisQ: "Welche Seite ist bei Mila am ehesten die eigentlich blockierte Seite, und was könnte die Blockierung begünstigt haben?",
+    hypothesisOptions: [
+      {
+        label:
+          "Die rechte (tiefer stehende) Seite ist blockiert; die höher stehende linke Seite täuscht durch reflektorisch kontrahierte Myotom-Muskulatur. Der zyklische Zusammenhang spricht für eine sekundäre, gynäkopathisch mitbedingte Blockierung",
+        correct: true,
+      },
+      {
+        label: "Die linke (höher stehende) Seite ist zwangsläufig die blockierte Seite, weil sie sichtbar aus der Reihe steht",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Die Höherstellung einer Kruppenseite kann gerade durch die reflektorisch kontrahierte (verkürzte) Myotom-Muskulatur der tatsächlich betroffenen Seite entstehen — die eigentliche Diagnose ergibt sich erst aus der Synthese von Adspektion, digitaler Schmerzpalpation und Höhenvergleich, nicht aus der Adspektion allein. Bei Mila liegt die Dolenz konkret rechts, nicht links.",
+        differentiationDistractors: [
+          "Die sichtbar höher stehende Seite ist immer die kranke Seite.",
+          "Eine Kruppen-Asymmetrie lässt sich allein durch Betrachtung von hinten eindeutig der betroffenen Seite zuordnen.",
+        ],
+      },
+      {
+        label: "Der zyklische Zusammenhang ist Zufall und für die Diagnose irrelevant",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine SIG-Blockierung kann sekundär ausgehend von einem gynäkopathischen Geschehen entstehen, mit aus der Humanmedizin bekannten zykluskorrelierten Blockierungen — der zeitliche Zusammenhang bei Mila ist deshalb ein relevanter diagnostischer Hinweis, kein Zufall.",
+      },
+      {
+        label: "Eine Hüftgelenkdysplasie mit zufällig zyklusabhängiger Symptomatik",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "HD-Symptome korrelieren nicht mit dem Zyklus und würden sich zudem primär am Hüftgelenk selbst zeigen, nicht als Kruppen-Asymmetrie mit Dolenz über den SIG-nahen Vertiefungen.",
+      },
+    ],
+    expertNote:
+      "Das Sakroiliakalgelenk (SIG) ist beim Hund anfälliger für Verkippungen (Blockierungen) als bei Huftieren, weil ihm das kräftige Lig. sacrotuberale latum fehlt — der Hund besitzt nur das relativ dünne Lig. sacrotuberale. Neben traumatischer Genese kann eine SIG-Blockierung auch sekundär entstehen, ausgehend von einem gynäkopathischen oder andropathischen Geschehen — aus der Humanmedizin sind z. B. zykluskorrelierte SIG-Blockierungen bekannt (Zohmann 1993), passend zu Milas Vorgeschichte. Unabhängig vom Ursprung reagiert im Segment immer die gesamte Einheit mit: Viszerotom (Beckenorgane), Sklerotom (Beckengürtel), Myotom (Gluteal-/Kruppenmuskulatur) und Dermatom. Bei stärkerer Blockierung fällt eine Kruppen-Asymmetrie auf — dabei ist entscheidend zu beachten, dass nicht zwangsläufig die höher gestellte Seite die betroffene ist: Die Höherstellung kann gerade durch reflektorisch kontrahierte Myotom-Muskulatur der betroffenen Seite entstehen. Die eigentliche Diagnose ergibt sich erst aus der Synthese von Adspektion, digitaler Schmerzpalpation und dem Höhenvergleich der Tubera coxae/ossis ischii. Praktische Konsequenz: Bei einer Hangbeinlahmheit darf nicht nur das ipsilaterale SIG beurteilt werden — auch der Urogenitaltrakt muss mitberücksichtigt werden.",
+    weakeningQ: "Welcher zusätzliche Befund würde die Annahme stützen, dass die linke (höher stehende) Seite tatsächlich die primär betroffene ist?",
+    weakeningOptions: [
+      { label: "Deutliche Dolenz über den SIG-nahen Vertiefungen konkret auf der linken statt der rechten Seite", correct: true },
+      { label: "Eine höher stehende linke Kruppenseite im Stand", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Ein zeitlicher Zusammenhang der Symptomatik mit dem Zyklus", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine wiederkehrende Hangbeinlahmheit rechts hinten", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welcher anatomische Unterschied macht das Sakroiliakalgelenk des Hundes anfälliger für Blockierungen als das von Huftieren?",
+    retrievalOptions: [
+      { label: "Dem Hund fehlt das kräftige Lig. sacrotuberale latum der Huftiere; er besitzt nur das relativ dünne Lig. sacrotuberale", correct: true },
+      { label: "Der Hund hat zusätzliche, bei Huftieren fehlende Gelenkflächen im SIG", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Beim Hund ist das SIG ein echtes, frei bewegliches Kugelgelenk, bei Huftieren eine straffe Amphiarthrose", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Es gibt anatomisch keinen relevanten Unterschied zwischen Hund und Huftieren am SIG", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.7.2 (siehe Wissenseintrag `sakroiliakalgelenk-anatomie-blockierung-zohmann-probe`), S. 108–112, unter Berufung im Original auf Budras 2000 und Zohmann 1993. Die SIG-Bandanatomie, der Vergleich zu Huftieren, der Blockierungsmechanismus (traumatisch und sekundär-gynäko-/andropathisch) sowie die Diagnostik-Landmarken sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "hector",
+    topic: "Orthopädie/Neurologie · Gangbildanalyse (Lahmheitsmuster)",
+    species: "Cane Corso, Rüde, 5 J.",
+    title: "Hector — hinkt, aber nicht bei jedem Schritt gleich",
+    learningObjective:
+      "Anhand der Regelmäßigkeit eines Lahmheitsmusters unterscheiden, ob eher ein orthopädisches oder ein neurologisches Problem vorliegt.",
+    anamnese:
+      "Hector zeigt seit zwei Wochen eine Auffälligkeit beim Gehen hinten links; den Besitzern fällt auf, dass es nicht bei jedem Schritt gleich aussieht — mal wirkt er unauffällig, mal stolpert er kurz.",
+    beobachtung:
+      "Beim Schritt zeigt Hector keine bei jedem Tritt gleichbleibende Lahmheit; die Auffälligkeit tritt unregelmäßig auf, etwa alle 4–6 Schritte, verstärkt bei Tempowechseln.",
+    diagramLabel: "Unregelmäßig auftretende Gangstörung hinten links, etwa alle 4–6 Schritte, verstärkt bei Tempowechsel",
+    palpation:
+      "Beide Hintergliedmaßen zeigen bei der orthopädischen Untersuchung (Gelenke, Muskulatur) keine Schmerzreaktion und keine Bewegungseinschränkung. Beim Antraben und abruptem Wechsel zurück zum Schritt wird die unregelmäßige Taktstörung deutlicher sichtbar.",
+    hypothesisQ: "Was deutet Hectors Gangbildmuster am ehesten an?",
+    hypothesisOptions: [
+      { label: "Ein eher neurologisches statt orthopädisches Problem", correct: true },
+      {
+        label: "Ein klassisches orthopädisches Problem, weil jede Lahmheit grundsätzlich orthopädisch ist",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Ein bei jedem Schritt gleich auftretendes Muster spricht für ein orthopädisches Problem — Hectors Störung tritt dagegen in unregelmäßigen Abständen auf (alle 4–6 Schritte, verstärkt bei Tempowechsel), was eher für ein neurologisches Problem spricht, bei dem die Bewegungssteuerung nicht mehr rein automatisiert vom Central-Pattern-Generator abläuft.",
+      },
+      {
+        label: "Eine beginnende Arthrose, weil sich die Lahmheit vermutlich einläuft",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Ein Sich-Einlaufen (Besserung mit Bewegung) spräche tatsächlich für Arthrose — bei Hector handelt es sich aber nicht um eine kontinuierliche Besserung, sondern um ein unregelmäßiges, episodisches Muster, das von der orthopädischen Untersuchung selbst nicht bestätigt wird (keine Schmerzreaktion, keine Bewegungseinschränkung).",
+      },
+      {
+        label: "Ein reines Verhaltensproblem ohne körperliche Relevanz",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Ein reproduzierbares, bei Tempowechsel verstärktes Taktmuster ist ein konkretes, objektivierbares Gangbildzeichen und kein bloßes Verhaltensproblem — es verdient eine gezielte neurologische statt eine rein orthopädische Abklärung.",
+      },
+    ],
+    expertNote:
+      "Lahmt der Hund bei jedem Schritt gleich, spricht das für ein orthopädisches Problem. Läuft er sich ein (die Lahmheit bessert sich mit der Bewegung), spricht das für arthrotische Veränderungen. Treten Auffälligkeiten dagegen in unregelmäßigen Abständen auf (z. B. nach 3 oder 5 Schritten, nur bei Tempowechseln) wie bei Hector, spricht das für ein neurologisches Problem. Der Grund: Diese unregelmäßigen Bewegungsabläufe werden nicht vom Central-Pattern-Generator im Rückenmark gesteuert (der die stereotype, rhythmische Schrittfolge automatisiert), sondern laufen unter Hirnbeteiligung ab — entsprechend sind sie störanfälliger und weniger gleichmäßig. Bei Verdacht auf eine ZNS-Erkrankung hilft antraben lassen, nach 2–3 Trabtritten wieder zum Schritt zurückzukehren und gleich wieder antraben zu lassen, um diese Unregelmäßigkeit sichtbar zu machen — genau dieses Manöver bestätigte bei Hector die unregelmäßige Störung.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für ein orthopädisches statt für ein neurologisches Problem sprechen?",
+    weakeningOptions: [
+      { label: "Eine bei jedem einzelnen Schritt gleichbleibende Lahmheit, die sich mit zunehmender Bewegung bessert (Einlaufen)", correct: true },
+      { label: "Eine unregelmäßig, etwa alle 4–6 Schritte auftretende Gangstörung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine Verstärkung der Auffälligkeit bei Tempowechseln", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Unauffällige orthopädische Untersuchung beider Hintergliedmaßen", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum sind unregelmäßige Bewegungsstörungen (z. B. nur alle paar Schritte) eher neurologisch statt orthopädisch bedingt?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil die stereotype, rhythmische Schrittfolge normalerweise vom Central-Pattern-Generator im Rückenmark automatisiert gesteuert wird — läuft die Steuerung dagegen unter Hirnbeteiligung ab, wird sie störanfälliger und weniger gleichmäßig",
+        correct: true,
+      },
+      { label: "Weil orthopädische Probleme per Definition immer bei jedem Schritt exakt gleich stark ausgeprägt sind", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil der Central-Pattern-Generator ausschließlich neurologische Erkrankungen erzeugt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ein Zusammenhang zwischen Regelmäßigkeit des Musters und der Lokalisation des Problems besteht nicht", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.2 (siehe Wissenseintrag `lahmheitsgrad-mai-differenzierungsmerkmale`), S. 72f. Die Lahmheitsgrad-Einteilung, die Regelmäßigkeits-Differenzierung samt Central-Pattern-Generator-Erklärung sowie das Antrab-Manöver zur Sichtbarmachung sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "kira",
+    topic: "Orthopädie · Hüfte (Frühdiagnostik beim Welpen)",
+    species: "Rhodesian Ridgeback, Hündin, 18 Wochen",
+    title: "Kira — unauffälliger Welpe, aber Röntgenkontrolle wegen Rassedisposition",
+    learningObjective:
+      "Die Köppel-Methode zur HD-Frühdiagnostik anhand des Os coxae quartum verstehen und erkennen, warum sie schon deutlich vor den klassischen radiologischen Kriterien aussagekräftig ist.",
+    anamnese:
+      "Kira zeigt im Alltag keinerlei Auffälligkeiten — kein verändertes Gangbild, keine Schmerzzeichen. Wegen der Rasseprädisposition und eines HD-belasteten Wurfgeschwisters lassen die Züchter sie im Alter von 18 Wochen vorsorglich röntgen.",
+    beobachtung: "Kira bewegt sich klinisch vollkommen unauffällig, spielt und tobt wie ihre Wurfgeschwister ohne erkennbare Einschränkung.",
+    diagramLabel: "Klinisch unauffälliger Welpe, Röntgenkontrolle im Alter von 18 Wochen aus Vorsorgegründen",
+    palpation:
+      "Beide Hüftgelenke zeigen keine Schmerzreaktion bei Streckung oder Abduktion, kein auslösbares Ortolani-Zeichen. Das Röntgenbild zeigt am rechten Azetabulum eine s-förmige Kontur des Pfannendaches.",
+    hypothesisQ: "Was bedeutet der röntgenologische Befund am rechten Azetabulum trotz fehlender klinischer Auffälligkeit?",
+    hypothesisOptions: [
+      { label: "Eine Aplasie des Os coxae quartum — ein Hinweis auf eine sich entwickelnde Hüftdysplasie, obwohl Kira klinisch noch völlig unauffällig ist", correct: true },
+      {
+        label: "Ein unbedeutender Zufallsbefund ohne jede Konsequenz, solange keine klinischen Symptome vorliegen",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Gerade der Witz der Köppel-Methode ist es, Entwicklungsstörungen des Pfannendachkerns zu erkennen, lange bevor klassische Kriterien oder klinische Symptome aussagekräftig werden — eine s-förmige Kontur des Pfannendaches bei einer Aplasie des Os coxae quartum ist deshalb kein belangloser Zufallsbefund, sondern ein früher, ernstzunehmender Hinweis.",
+      },
+      {
+        label: "Ein Normalbefund, da das Os coxae quartum in diesem Alter ohnehin noch gar nicht beurteilbar ist",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Das Os coxae quartum ist ab der 14. Woche histologisch, ab der 16. Woche radiologisch nachweisbar — mit 18 Wochen liegt Kira genau im Beurteilungsfenster der Köppel-Methode zwischen der 14. und 20. Lebenswoche.",
+      },
+      {
+        label: "Eine bereits manifeste, schwere Coxarthrose",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Die Köppel-Methode setzt gerade NICHT am fertigen Schaden (Coxarthrose) an, sondern an den frühen Verknöcherungskriterien des Pfannendachkerns, lange bevor sich eine Coxarthrose überhaupt entwickeln könnte — der Befund bei Kira ist ein früher Risikohinweis, keine bereits manifeste Arthrose.",
+      },
+    ],
+    expertNote:
+      "Die klassischen radiologischen Kriterien zur HD-Diagnose haben gerade bei leichten HD-Formen eine relativ geringe Aussagekraft. Köppel (1991) setzt deshalb an den Entwicklungs- bzw. Verknöcherungskriterien des Os coxae quartum (OCQ) und des Ligamentum capitis femoris an. Der T-förmige Pfannendachkern liegt zwischen Os ilium und Os ischii im kraniolateralen Azetabulumteil, ist ab der 14. Woche histologisch, ab der 16. Woche radiologisch nachweisbar, und verschmilzt unter physiologischen Bedingungen bis zur 20. Lebenswoche mit den übrigen Azetabulumteilen. Entwicklungsstörungen reichen von Aplasie (vollständiges Fehlen, zeigt sich als s-förmige Kontur des Pfannendaches — wie bei Kira) über Hypoplasie bis zur Persistenz. Eine ungestörte Pfannendachverknöcherung ohne Instabilitätsmerkmale lässt dagegen mit hoher Sicherheit eine HD-Freiheit erwarten; die Treffsicherheit der Methode liegt bei rund 90 % (abgesehen von einer „blinden Phase” nach dem 5. Lebensmonat). Bei unklarem Befund wird ein Kontrollröntgen mit 5 Monaten empfohlen.",
+    weakeningQ: "Welcher Befund hätte bei Kira eher für eine HD-Freiheit gesprochen?",
+    weakeningOptions: [
+      { label: "Eine ungestörte, regelrechte Pfannendachverknöcherung ohne Instabilitätsmerkmale (keine Lateralisation, Subluxation oder Gelenkspalterweiterung)", correct: true },
+      { label: "Eine s-förmige Kontur des Pfannendaches im Röntgenbild", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine Rasseprädisposition und ein HD-belastetes Wurfgeschwister", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein Alter von 18 Wochen zum Zeitpunkt der Röntgenaufnahme", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "In welchem Zeitfenster erlaubt die Köppel-Methode ihre höchste Prognosesicherheit für die Entwicklung einer Hüftdysplasie?",
+    retrievalOptions: [
+      { label: "Zwischen der 14. und 20. Lebenswoche", correct: true },
+      { label: "Erst nach Abschluss des Wachstums, etwa ab dem 2. Lebensjahr", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Nur unmittelbar nach der Geburt, in den ersten zwei Lebenswochen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Die Köppel-Methode ist zeitlich nicht eingeschränkt und in jedem Alter gleich aussagekräftig", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.8.4 (siehe Wissenseintrag `hd-fruehdiagnostik-koeppel-os-coxae-quartum`), S. 118–122, unter Berufung im Original auf Köppel 1991. Das Os coxae quartum als Schalterknochen, die Befundmuster, die Treffsicherheit sowie das Beurteilungsfenster sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "mimi",
+    topic: "Untersuchung · Hautfaltenpalpation (Technikfalle)",
+    species: "Zwergpudel, Hündin, 5 J.",
+    title: "Mimi — auffällige Hautfalte über dem Kreuzbein, aber ist das pathologisch?",
+    learningObjective:
+      "Die physiologischen Verquellungszonen der Kibler'schen Hautfaltenpalpation kennen, um eine normale anatomische Gegebenheit nicht fälschlich als segmentale Störung zu werten.",
+    anamnese:
+      "Mimi wird zur allgemeinen Vorsorgeuntersuchung vorgestellt, ohne konkrete Beschwerden. Bei der routinemäßigen Hautfaltenpalpation fällt dem untersuchenden Therapeuten eine verdickte, schwer abhebbare Hautfalte über dem Kreuzbein auf.",
+    beobachtung: "Mimi zeigt im Gangbild keinerlei Auffälligkeiten, kein Schmerzverhalten, keine Bewegungseinschränkung.",
+    diagramLabel: "Klinisch unauffälliger Gang, isolierter Palpationsbefund: verdickte Hautfalte über dem Kreuzbein",
+    palpation:
+      "Die Hautfaltenpalpation nach Kibler zeigt eine mäßig verdickte, mäßig abhebbare Falte über dem Os sacrum (Verquellungsgrad +). Segmentweise weiter kranial, insbesondere über der mittleren Lendenwirbelsäule, ist die Hautfalte dagegen unauffällig dünn und gut abhebbar. Druckpunktpalpation im Bereich des lumbosakralen Übergangs ist schmerzfrei.",
+    hypothesisQ: "Wie ist der Befund über dem Kreuzbein bei Mimi am treffendsten einzuordnen?",
+    hypothesisOptions: [
+      { label: "Am ehesten eine physiologische Verquellungszone, kein eigenständiger pathologischer Befund", correct: true },
+      {
+        label: "Ein sicherer Hinweis auf eine segmentale Störung im lumbosakralen Übergang",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Die Haut über dem Becken und lumbosakralen Übergang weist eine normale, physiologische Verdickung auf — wer diese physiologischen Verquellungszonen nicht kennt, wertet eine normale anatomische Gegebenheit fälschlich als segmentale Störung. Die unauffällige Druckpunktpalpation und das fehlende klinische Symptom stützen diese Einordnung zusätzlich.",
+      },
+      {
+        label: "Ein eindeutiger Beweis für eine Erkrankung des Kreuzbeins selbst, unabhängig von weiteren Befunden",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Eine einzelne Hautfalte allein beweist keine Organ- oder Strukturpathologie — entscheidend ist laut der zugrunde liegenden Technik nicht der Befund der Einzelfalte, sondern die Veränderung der Qualität von Segment zu Segment im Vergleich.",
+      },
+      {
+        label: "Ein Normalbefund, der komplett ignoriert werden kann, auch wenn er sich stark von den Nachbarsegmenten unterscheiden würde",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Eine physiologische Verquellungszone ist zwar meist unbedenklich, aber eine Hautfalte, die sich deutlich von den unmittelbar benachbarten Segmenten unterscheidet (statt dem erwarteten physiologischen Muster zu folgen), sollte trotzdem nicht reflexhaft ignoriert, sondern im Gesamtkontext weiter eingeordnet werden.",
+      },
+    ],
+    expertNote:
+      "Die Hautfaltenpalpation nach Kibler untersucht die annähernd gürtelförmig angelegten Dermatome, beginnend über dem Os sacrum bis zum Okziput. Entscheidend ist dabei nicht der Befund der Einzelfalte, sondern die Veränderung der Qualität von Segment zu Segment. Beurteilt wird nach vier Kriterien: Turgor, Verschieblichkeit, Abhebbarkeit und Links-Rechts-Unterschied, graduiert von + bis ++++. Um falsch positive Befunde zu vermeiden, muss bekannt sein, dass die Haut über dem Becken und lumbosakralen Übergang sowie von der Thoraxmitte bis zum zervikothorakalen Übergang eine normale, physiologische Verdickung aufweist — genau die Region, in der Mimis Befund liegt. Wer diese physiologischen Verquellungszonen nicht kennt, wertet eine normale anatomische Gegebenheit fälschlich als segmentale Störung. Vor der Untersuchung muss sich der Untersucher zudem am individuellen Hauttyp des Tieres „eichen” — Westhighland White Terrier haben eine sehr rigide Haut, während Kleinpudel wie Mimi eine sehr dünne, weiche Haut haben, was die Beurteilung zusätzlich beeinflusst.",
+    weakeningQ: "Welcher zusätzliche Befund würde den Verdacht auf eine echte segmentale Störung bei Mimi stützen, statt auf eine physiologische Verquellungszone?",
+    weakeningOptions: [
+      { label: "Eine deutliche Schmerzreaktion bei Druckpunktpalpation im lumbosakralen Übergang zusätzlich zur verdickten Hautfalte", correct: true },
+      { label: "Eine verdickte, schwer abhebbare Hautfalte genau über dem Os sacrum", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Unauffällige Hautfalten in den benachbarten Segmenten der mittleren Lendenwirbelsäule", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein unauffälliges Gangbild ohne Schmerzverhalten", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum muss sich der Untersucher vor der Kibler'schen Hautfaltenpalpation am individuellen Hauttyp des Tieres „eichen”?",
+    retrievalOptions: [
+      {
+        label: "Weil rassebedingte Hautunterschiede (z. B. sehr rigide Haut beim Westhighland White Terrier vs. sehr dünne, weiche Haut beim Kleinpudel) sonst leicht mit einem pathologischen Befund verwechselt werden",
+        correct: true,
+      },
+      { label: "Weil die Technik bei kurzhaarigen Rassen grundsätzlich nicht anwendbar ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil der Hauttyp keinen Einfluss auf die Palpation hat und dieser Schritt rein formal ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil nur so die genaue Körpertemperatur des Tieres bestimmt werden kann", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.2 (siehe Wissenseintrag `kiblersche-hautfaltenpalpation-technik-vier-kriterien`), S. 76–78. Die Technik, die vier Beurteilungskriterien und die physiologischen Verquellungszonen als Fallstrick sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "daisy",
+    topic: "Untersuchung · Segmentale Druckpunktpalpation (Fehlinterpretationsfalle)",
+    species: "Bearded Collie, Hündin, 3 J.",
+    title: "Daisy — Druckpunkt im „Nierensegment” positiv, aber harmlos?",
+    learningObjective:
+      "Verstehen, dass ein positiver Druckpunkt nach Kothbauer kein direkter Organbeweis ist, sondern auch durch physiologische Zustände wie den Läufigkeitszyklus sensibilisiert werden kann.",
+    anamnese:
+      "Daisy ist eine intakte Hündin, die sich seit zwei Tagen in der Läufigkeit befindet. Bei einer Routineuntersuchung wegen einer leichten Lahmheit vorne fällt dem Therapeuten ein auffällig positiver Druckpunkt im Bereich BL23 (Nierensegment) auf.",
+    beobachtung: "Daisy zeigt eine milde Lahmheit vorne rechts; ansonsten wirkt sie munter, frisst normal und zeigt keine Anzeichen von Krankheit.",
+    diagramLabel: "Milde Lahmheit vorne rechts bei einer Hündin am zweiten Tag der Läufigkeit, zusätzlich positiver Druckpunkt im Nierensegment",
+    palpation:
+      "Die dorsale Druckpunktpalpation zeigt eine deutliche Schmerzreaktion (Grad ++) am Punkt BL23, dem Nierensegment zugeordnet. Die übrigen Druckpunkte entlang der paramedianen Kette sind unauffällig. Es gibt keine weiteren Anzeichen einer Nierenerkrankung (normales Trinkverhalten, keine Veränderung des Urins).",
+    hypothesisQ: "Was ist die wahrscheinlichste Erklärung für den positiven Druckpunkt im Nierensegment bei Daisy?",
+    hypothesisOptions: [
+      { label: "Eine physiologische Sensibilisierung des Segments durch den aktuellen Läufigkeitszyklus, kein Hinweis auf eine Nierenerkrankung", correct: true },
+      {
+        label: "Ein sicherer Beweis für eine beginnende Nierenerkrankung, die sofort weiter abgeklärt werden muss",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Ein positiver Druckpunkt beweist nicht direkt die quantitative Belastung des zugehörigen Organs — Zyklusgeschehen und Trächtigkeitsstadium erhöhen bekanntermaßen die Empfindlichkeit der Ovar-/Uterussegmente, und bei Daisy fehlen jegliche weiteren klinischen Hinweise auf eine Nierenerkrankung.",
+        differentiationDistractors: [
+          "Ein positiver Druckpunkt beweist immer eine Erkrankung des zugeordneten Organs.",
+          "Physiologische Zustände wie der Zyklus können segmentale Druckpunkte nicht beeinflussen.",
+        ],
+      },
+      {
+        label: "Ein Messfehler, da die Druckpunktpalpation grundsätzlich unzuverlässig ist",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Die Druckpunktpalpation nach Kothbauer wirkt als etabliertes Frühwarnsystem — sie liefert verwertbare Befunde, verlangt aber eine korrekte Einordnung des Befundes unter Berücksichtigung physiologischer Einflussfaktoren wie des Zyklus, statt grundsätzlich an der Methode zu zweifeln.",
+      },
+      {
+        label: "Eine Ausstrahlung der Vorderbeinlahmheit auf das Nierensegment",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Das Nierensegment (BL23) liegt anatomisch im Bereich der kaudalen Lendenwirbelsäule, nicht im Segmentbereich der Vordergliedmaße — ein direkter Ausstrahlungszusammenhang zur Vorderbeinlahmheit ist anatomisch nicht plausibel; der zeitliche Zusammenhang mit der Läufigkeit ist die naheliegendere Erklärung.",
+      },
+    ],
+    expertNote:
+      "Die dorsale Druckpunktpalpation nach Kothbauer prüft Myo- und Sklerotom an paramedian tastbaren Vertiefungen auf Höhe der kleinen Wirbelgelenke — dieselben Vertiefungen, die die traditionelle chinesische Medizin als Shu-Punkte am Blasenmeridian bezeichnet (z. B. BL23 für die Nieren). Die segmentale Palpation wirkt als Frühwarnsystem in Bezug auf das Viszerotom — sie liefert oft einen positiven Befund, bevor eindeutige klinische Symptome auftreten. Ein positiver Punkt beweist aber nicht direkt die quantitative Belastung des zugehörigen Organs; nur bei entsprechender klinischer Symptomatik und Zusatzuntersuchung lässt sich die Organentsprechung bestätigen. Mehrere physiologische Zustände können dieselben Punkte ohne jede Pathologie sensibilisieren: Zyklusgeschehen und Trächtigkeitsstadium erhöhen die Empfindlichkeit der Ovar-/Uterussegmente — relevant für Daisy während ihrer Läufigkeit —, kurz zurückliegende Nahrungsaufnahme die des Magensegments. Auch eine Hypersensibilität des Lebersegments bedeutet nicht zwingend eine Hepatopathie, da jeder chronische pathologische Prozess, auch ein rein orthopädischer, die Leber segmental mitreagieren lassen kann.",
+    weakeningQ: "Welcher zusätzliche Befund würde den Verdacht auf eine tatsächliche Nierenerkrankung bei Daisy erhärten, statt auf eine rein zyklusbedingte Sensibilisierung?",
+    weakeningOptions: [
+      { label: "Zusätzliche klinische Symptome wie vermehrtes Trinken, verändertes Urinverhalten oder auffällige Blutwerte für die Nierenfunktion", correct: true },
+      { label: "Ein positiver Druckpunkt genau am zweiten Tag der Läufigkeit", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Normales Trinkverhalten und unauffälliger Urin", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Unauffällige übrige Druckpunkte entlang der paramedianen Kette", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche physiologischen Zustände können Druckpunkte nach Kothbauer sensibilisieren, ohne dass eine Erkrankung des zugeordneten Organs vorliegt?",
+    retrievalOptions: [
+      { label: "Zyklusgeschehen und Trächtigkeitsstadium (Ovar-/Uterussegmente) sowie kurz zurückliegende Nahrungsaufnahme (Magensegment)", correct: true },
+      { label: "Ausschließlich das Alter des Tieres, kein anderer physiologischer Faktor", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Physiologische Zustände haben grundsätzlich keinen Einfluss auf die Druckpunkte", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ausschließlich die Rasse des Tieres", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.3 (siehe Wissenseintrag `druckpunktpalpation-kothbauer-technik-organzuordnung`), S. 78–82. Die Druckpunkt-Organ-Zuordnung, das Frühwarnsystem-Konzept und die physiologischen Sensibilisierungsfaktoren (inkl. Zyklusgeschehen) sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "mao",
+    topic: "Neurologie/Orthopädie · Brustwirbelsäule (akute Provokation)",
+    species: "Pekinese, Rüde, 6 J.",
+    title: "Mao — geht bei der Rückenuntersuchung plötzlich in die Knie",
+    learningObjective:
+      "Beim Springingtest der Brustwirbelsäule zwischen einem Muskelzucken (Gelenkdysfunktion) und einem Einknicken (akutes Bandscheibenproblem) unterscheiden können.",
+    anamnese:
+      "Mao zeigt seit zwei Tagen einen aufgekrümmten Rücken und bewegt sich vorsichtig; die Besitzer bemerkten zudem eine deutliche Schmerzäußerung beim Hochheben.",
+    beobachtung: "Mao bewegt sich steif, mit aufgekrümmtem Rücken und reduzierter Aktivität; er vermeidet Sprünge vollständig.",
+    diagramLabel: "Aufgekrümmter Rücken seit zwei Tagen, deutliche Schmerzäußerung beim Hochheben, Sprünge werden vermieden",
+    palpation:
+      "Beim Springingtest in der mittleren Brustwirbelsäule geht Mao bei der Provokation deutlich in die Knie, statt nur mit einem lokalen Muskelzucken zu reagieren. Die mediale Translation der entsprechenden Rippen beidseits löst eine starke Schmerzreaktion mit totaler Muskelabwehrspannung aus.",
+    hypothesisQ: "Was zeigt Maos Reaktion beim Springingtest am ehesten an?",
+    hypothesisOptions: [
+      { label: "Ein akutes Bandscheibenproblem mit deutlichem Schmerz — nicht nur eine einfache Gelenkdysfunktion", correct: true },
+      {
+        label: "Eine einfache, unkomplizierte Facettengelenkdysfunktion",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Ein Muskelzucken bei der Provokation wäre der Hinweis auf eine reine Gelenkdysfunktion — Mao geht dagegen deutlich in die Knie, was als Rote Flagge für ein Bandscheibenproblem mit akutem Schmerz gilt, ein klinisch bedeutsamer Unterschied zur einfachen Gelenkdysfunktion.",
+        differentiationDistractors: [
+          "Jede Reaktion beim Springingtest bedeutet dasselbe, egal ob Muskelzucken oder Einknicken.",
+          "Ein Einknicken ist nur ein Zeichen allgemeiner Schreckhaftigkeit ohne diagnostische Bedeutung.",
+        ],
+      },
+      {
+        label: "Ein reines Rippenproblem ohne Bandscheibenbeteiligung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Ein isoliertes Rippenproblem würde bei gleichzeitiger beidseitiger Translation derselben Rippenhöhe nicht zu einer derart starken Schmerzreaktion mit totaler Muskelabwehrspannung führen — dieses Muster spricht stärker für eine Bandscheibenbeteiligung als für ein rein knöchernes Rippenproblem.",
+      },
+      {
+        label: "Eine normale, physiologische Reaktion ohne jeden Krankheitswert",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst: "Das Einknicken bei der Provokation ist explizit als Rote Flagge für ein akutes Bandscheibenproblem definiert und damit kein physiologischer Normalbefund.",
+      },
+    ],
+    expertNote:
+      "Beim Springingtest von kranial drückt eine Hand im Schnäuzgriff bilateral über den Proc. spinosus des kranialen Wirbels nach ventral/kaudal, während die andere Hand an der Bauchmuskulatur ein Anspannen bei Schmerz fühlt — dabei entsteht eine Kompression in den kaudalen Facetten. Ein Muskelzucken bei dieser Provokation ist ein Hinweis auf eine Gelenkdysfunktion. Geht der Hund dagegen in die Knie wie Mao, ist das ein Hinweis auf ein Bandscheibenproblem mit akutem Schmerz — ein klinisch bedeutsamer Unterschied für die weitere Abklärung. Zwischen Th3 und Th10 hilft zusätzlich die mediale Translation zur Rippen-vs-Bandscheiben-Differenzierung: Werden beide gleichzähligen Rippen beidseits gleichzeitig nach medial transliert, komprimiert das die Rippen gegen den Wirbelkörper, ohne Facetten oder Muskeln zu provozieren. Bei Bandscheibenproblemen zeigt der Hund dabei typischerweise eine totale Muskelabwehrspannung mit fehlendem Endgefühl, und häufig sind beide Rippen extrem schmerzhaft — deutlich mehr als bei einem isolierten Rippen- oder Facettenproblem, genau wie bei Mao.",
+    weakeningQ: "Welcher Befund beim Springingtest würde eher für eine einfache Gelenkdysfunktion statt für ein akutes Bandscheibenproblem sprechen?",
+    weakeningOptions: [
+      { label: "Ein lokales Muskelzucken bei der Provokation, ohne dass der Hund dabei in die Knie geht", correct: true },
+      { label: "Deutliches Einknicken (In-die-Knie-Gehen) bei der Provokation", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Starke Schmerzreaktion mit totaler Muskelabwehrspannung bei der medialen Rippentranslation", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein aufgekrümmter Rücken mit vollständiger Sprungvermeidung", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Wie wird bei der medialen Translation zwischen einem reinen Rippenproblem und einer Bandscheibenbeteiligung unterschieden?",
+    retrievalOptions: [
+      {
+        label:
+          "Werden beide gleichzähligen Rippen beidseits gleichzeitig nach medial transliert, komprimiert das die Rippen gegen den Wirbelkörper ohne Facetten-/Muskelprovokation — eine dabei auftretende totale Muskelabwehrspannung mit fehlendem Endgefühl spricht für Bandscheibenbeteiligung",
+        correct: true,
+      },
+      { label: "Eine Bandscheibenbeteiligung lässt sich mit der medialen Translation grundsätzlich nicht von einem Rippenproblem unterscheiden", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Nur ein einseitiges Translieren einer einzelnen Rippe erlaubt diese Unterscheidung", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Die mediale Translation prüft ausschließlich die Facettengelenke, niemals die Rippen oder die Bandscheibe", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.3 und 16.2.4 (siehe Wissenseintrag `bws-springingtest-rosett-test-differenzierung`), S. 218–222. Springingtest, die Warnzeichen-Unterscheidung Muskelzucken vs. Einknicken sowie die mediale Translation zur Rippen-/Bandscheiben-Differenzierung sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "keera",
+    topic: "Orthopädie · Hüfte (Muskelketten-Fehlbehandlung)",
+    species: "Australian Kelpie, Hündin, 4 J.",
+    title: "Keera — Glutealtraining ohne Erfolg",
+    learningObjective:
+      "Erkennen, dass eine funktionelle Glutealinsuffizienz durch verspannte Hüftadduktoren verursacht sein kann und dass isoliertes Krafttraining der Glutealmuskulatur in diesem Fall wirkungslos bleibt.",
+    anamnese:
+      "Keera, eine Hütehund-Sporthündin, wird seit Wochen gezielt mit Kräftigungsübungen für die Glutealmuskulatur trainiert, weil diese schwach und wenig aktiv wirkt. Eine Besserung ist trotz konsequenten Trainings nicht eingetreten.",
+    beobachtung:
+      "Keera zeigt eine leicht adduzierte Haltung der rechten Hintergliedmaße im Stand; die Glutealmuskulatur wirkt im Seitenvergleich schlaffer und weniger kontraktionsfähig.",
+    diagramLabel: "Adduzierte Haltung der rechten Hintergliedmaße, schwache Glutealkontraktion trotz wochenlangem gezieltem Krafttraining",
+    palpation:
+      "Der M. pectineus ist als prominenter, verspannter Strang medial am Femur tastbar, direkt kaudal der A. femoralis. M. adductor und M. gracilis zeigen ebenfalls einen deutlich erhöhten Muskeltonus. Der Femurkopf lässt sich im Seitenvergleich rechts leicht lateralisiert ertasten.",
+    hypothesisQ: "Warum bleibt das gezielte Glutealtraining bei Keera wirkungslos, und was sollte stattdessen zuerst behandelt werden?",
+    hypothesisOptions: [
+      {
+        label:
+          "Die verspannten Hüftadduktoren ziehen den Femurkopf lateral und überdehnen dadurch die Glutealmuskulatur funktionell insuffizient — die Adduktorenspannung muss zuerst adressiert werden, bevor Glutealkrafttraining wirken kann",
+        correct: true,
+      },
+      {
+        label: "Die Glutealmuskulatur ist primär atrophiert und braucht lediglich intensiveres, länger fortgesetztes Training",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Hüftadduktoren neigen mehr zu Verspannung als zu Atrophie, und genau diese Verspannung verursacht über die Lateralisation des Femurkopfes die Glutealinsuffizienz — ein isoliertes, noch intensiveres Glutealtraining bei insuffizienter Vordehnung bleibt wirkungslos, solange die eigentliche Ursache (die Adduktorenspannung) unbehandelt bleibt.",
+        differentiationDistractors: [
+          "Schwache Muskulatur braucht immer nur mehr und härteres Training.",
+          "Wenn ein Muskel schwach wirkt, liegt das Problem immer in genau diesem Muskel selbst.",
+        ],
+      },
+      {
+        label: "Eine Hüftgelenkdysplasie als alleinige, unveränderliche Erklärung ohne Behandlungsoption",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Auch wenn eine leichte Lateralisation des Femurkopfes vorliegt, ist die muskuläre Komponente (verspannte Adduktoren) hier gezielt behandelbar — die Situation ist nicht als unveränderliche, rein strukturelle Erkrankung ohne Therapieoption einzustufen.",
+      },
+      {
+        label: "Ein reines Trainingsfehler-Problem ohne körperliche Ursache, das sich von selbst normalisiert",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Der tastbar erhöhte Tonus der drei Adduktoren und die Lateralisation des Femurkopfes sind konkrete, strukturell fassbare Befunde — keine bloße Trainingsfrage, die sich von selbst löst.",
+      },
+    ],
+    expertNote:
+      "Die Hüftadduktoren (M. pectineus, M. adductor, M. gracilis) neigen mehr zu Verspannungen als zu Atrophie. Durch die erhöhte Spannung wird das Femur im Hüftgelenk deutlich adduziert, wodurch der Femurkopf in der Gelenkpfanne lateral gleitet. Über die Adduktionsstellung der Hintergliedmaße und die Lateralisation des Femurkopfes wird die Glutealmuskulatur überdehnt und funktionell insuffizient: Die Z-Scheiben der Sarkomere werden so weit auseinandergezogen, dass die Myosinköpfchen bei Kontraktion nicht mehr ansetzen können und der Muskel nicht mehr wirksam kontrahieren kann — genau das erklärt, warum Keeras Glutealtraining bislang erfolglos blieb. Der M. pectineus springt medial am Femur als prominenter, ca. zeigefingerdicker Strang hervor, direkt kaudal der A. femoralis zu palpieren; der M. adductor liegt zwischen M. pectineus und M. gracilis; der M. gracilis wird als breiter Muskel kranial des M. semitendinosus palpiert. Da hypertone Adduktoren über die Lateralisation des Femurkopfes indirekt die Glutealmuskulatur schwächen, sollte eine Hüftbehandlung bei verspannten Adduktoren nicht isoliert auf die Glutealmuskulatur zielen, sondern die Adduktorenspannung zuerst adressieren.",
+    weakeningQ: "Welcher Befund würde eher für eine primäre, rein strukturelle Glutealatrophie statt für eine adduktorenbedingte funktionelle Insuffizienz sprechen?",
+    weakeningOptions: [
+      { label: "Unauffälliger Tonus aller drei Hüftadduktoren bei deutlich reduziertem Muskelvolumen und fehlender Lateralisation des Femurkopfes", correct: true },
+      { label: "Ein als prominenter, verspannter Strang tastbarer M. pectineus", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine adduzierte Haltung der betroffenen Hintergliedmaße im Stand", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein im Seitenvergleich leicht lateralisiert tastbarer Femurkopf", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum kann eine überdehnte Glutealmuskulatur bei Kontraktion nicht mehr wirksam Kraft entwickeln?",
+    retrievalOptions: [
+      {
+        label: "Weil die Z-Scheiben der Sarkomere so weit auseinandergezogen werden, dass die Myosinköpfchen bei Kontraktion nicht mehr an den Aktinfilamenten ansetzen können",
+        correct: true,
+      },
+      { label: "Weil überdehnte Muskulatur grundsätzlich mehr statt weniger Kraft entwickelt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die Nervenversorgung bei Überdehnung automatisch unterbrochen wird", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Ein Zusammenhang zwischen Muskeldehnung und Kontraktionsfähigkeit besteht nicht", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.3.2 (siehe Wissenseintrag `hueftadduktoren-untersuchung-und-glutealinsuffizienz`), S. 53f. Mechanismus, Palpationswege und die Sarkomer-/Z-Scheiben-Erklärung sowie die klinische Konsequenz für die Behandlungsreihenfolge sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "winston",
+    topic: "Orthopädie · Hinterpfote (Nervenhyperästhesie bei Rückenproblem)",
+    species: "Chow Chow, Rüde, 7 J.",
+    title: "Winston — beknabbert die Hinterpfote, hat aber auch Rückenprobleme",
+    learningObjective:
+      "Erkennen, dass Beknabbern der Hinterpfote bei einem Rückenpatienten eine neurologische statt dermatologische Ursache haben kann, bedingt durch Hyperästhesien im Versorgungsgebiet der Unterschenkelnerven.",
+    anamnese:
+      "Winston hat eine bekannte, seit Längerem bestehende Rückenproblematik im lumbalen Bereich. Seit einigen Wochen beknabbert er zusätzlich wiederholt seine linke Hinterpfote; eine dermatologische Behandlung hat bislang keine Besserung gebracht.",
+    beobachtung:
+      "Winston zeigt wiederholtes Lecken und Beknabbern der linken Hinterpfote sowie des distalen Unterschenkels; sichtbare Hautveränderungen sind nur gering ausgeprägt. Das Rückenprofil zeigt die bekannte, leicht reduzierte Beweglichkeit der Lendenwirbelsäule.",
+    diagramLabel: "Wiederholtes Beknabbern der linken Hinterpfote und des distalen Unterschenkels bei bekanntem lumbalem Rückenproblem",
+    palpation:
+      "Die Gelenke des Sprunggelenks und der Zehen zeigen bei Beugung, Streckung und Rotation keine Schmerzreaktion. Entlang des Versorgungsgebiets von N. peroneus und N. saphenus am Unterschenkel reagiert Winston dagegen mit deutlicher Hyperästhesie bei leichter Berührung.",
+    hypothesisQ: "Was erklärt Winstons Beknabbern der Hinterpfote am ehesten?",
+    hypothesisOptions: [
+      { label: "Eine Hyperästhesie im Versorgungsgebiet peripherer Nerven des Unterschenkels, vermutlich im Zusammenhang mit seiner bestehenden Rückenproblematik", correct: true },
+      {
+        label: "Eine klassische allergische Hautreaktion, die lediglich noch nicht ausreichend dermatologisch behandelt wurde",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Die bisherige dermatologische Behandlung hat keine Besserung gebracht, sichtbare Hautveränderungen sind nur gering ausgeprägt, und Sprunggelenk/Zehen sind bei der Gelenkuntersuchung schmerzfrei — stattdessen zeigt sich eine deutliche Hyperästhesie entlang des Nervenverlaufs, was eher für eine neurogene als für eine allergische Ursache spricht, besonders häufig bei Rückenpatienten zu beobachten.",
+      },
+      {
+        label: "Eine Arthrose des Sprunggelenks oder der Zehengelenke",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die Gelenke selbst sind bei Beugung, Streckung und Rotation schmerzfrei — der Befund liegt stattdessen entlang des Nervenverlaufs am Unterschenkel, was gegen eine primäre Gelenkursache spricht.",
+      },
+      {
+        label: "Reines Verhaltensproblem ohne Zusammenhang mit der Rückenerkrankung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Die reproduzierbare Hyperästhesie bei Nervenpalpation und der zeitliche/klinische Zusammenhang mit der bestehenden Rückenproblematik sprechen für einen echten, nachvollziehbaren Zusammenhang statt für ein isoliertes Verhaltensproblem.",
+      },
+    ],
+    expertNote:
+      "Neben Polyarthritis, arthrogenen Veränderungen und allergischen Reaktionen können Hunde im Bereich von Sprunggelenk und Zehen auch Hyperästhesien entwickeln. Die Area nervina von N. peroneus, N. tibialis, N. saphenus, Nn. cutanei surae caudalis et lateralis sowie des N. cutaneus femoralis lateralis liegen an Pfote und Unterschenkel. Solche Hyperästhesien führen zu einem unangenehmen Kribbeln, worauf der Hund mit Lecken oder Knabbern reagiert — besonders häufig bei Rückenpatienten zu beobachten, wie bei Winston mit seiner bestehenden lumbalen Problematik. Bevor ein Beknabbern vorschnell dermatologisch eingeordnet wird, lohnt sich also die Überlegung, ob ein peripherer Nerv aus dieser Liste betroffen sein könnte. Da die zehenbeeinflussende Muskulatur ihren Muskelbauch am Unterschenkel hat, erfolgt ihre Untersuchung und Behandlung dort, während am Sprunggelenk und den Zehen selbst die vielen kleinen Gelenke im Fokus der manuellen Untersuchung stehen.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für eine Arthrose der Sprunggelenks-/Zehengelenke statt für eine Nervenhyperästhesie sprechen?",
+    weakeningOptions: [
+      { label: "Deutlicher Schmerz bei Beugung, Streckung und Rotation der betroffenen Gelenke, mit Krepitation, aber unauffälligem Befund entlang des Nervenverlaufs", correct: true },
+      { label: "Hyperästhesie entlang des Versorgungsgebiets von N. peroneus und N. saphenus", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine bestehende lumbale Rückenproblematik in der Vorgeschichte", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ausbleibende Besserung unter bisheriger dermatologischer Behandlung", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche peripheren Nerven versorgen die Region von Sprunggelenk und Zehen und können bei Hyperästhesie zu Beknabbern führen?",
+    retrievalOptions: [
+      { label: "N. peroneus, N. tibialis, N. saphenus, Nn. cutanei surae caudalis et lateralis sowie N. cutaneus femoralis lateralis", correct: true },
+      { label: "Ausschließlich der N. ischiadicus direkt, ohne weitere Aufzweigung", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "N. radialis und N. medianus, dieselben Nerven wie an der Vordergliedmaße", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Die Region von Sprunggelenk und Zehen wird von keinem peripheren Hautnerv versorgt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 10.1 (siehe Wissenseintrag `sprunggelenk-zehen-funktionelle-anatomie-hyperaesthesien`), S. 112. Gelenkfunktion, Zehenanatomie und die Nervenversorgungs-/Hyperästhesie-Liste samt dem Hinweis auf gehäuftes Auftreten bei Rückenpatienten sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "grete",
+    topic: "Untersuchung · Schmerzskalen (Heimmonitoring chronischer Schmerz)",
+    species: "Entlebucher Sennenhund, Hündin, 10 J.",
+    title: "Grete — chronische Arthrose, wie überwachen die Besitzer den Verlauf zu Hause?",
+    learningObjective:
+      "Verstehen, warum für die Verlaufsüberwachung einer chronischen Arthrose durch die Besitzer zu Hause die Hielm-Bjorkman-Skala besser geeignet ist als die für Therapeuten konzipierte Mathews-Skala.",
+    anamnese:
+      "Grete leidet seit über einem Jahr an einer diagnostizierten, mehrgelenkigen Arthrose und wird physiotherapeutisch begleitet. Die Besitzer möchten zwischen den Terminen selbst einschätzen können, ob sich Schmerz und Beweglichkeit verändern.",
+    beobachtung:
+      "Grete zeigt in der Praxis das für ihre Arthrose bekannte, insgesamt stabile Beschwerdebild; die Besitzer berichten aber von Tag-zu-Tag-Schwankungen zu Hause, die sie bisher nicht systematisch erfassen.",
+    diagramLabel: "Bekannte, stabile Arthrose-Symptomatik in der Praxis, von den Besitzern berichtete, bisher nicht systematisch erfasste Tagesschwankungen zu Hause",
+    palpation:
+      "Die Gelenkbefunde entsprechen dem bereits dokumentierten chronischen Arthrosebild ohne akute Verschlechterung; eine Verlaufsbeurteilung erfordert deshalb primär ein geeignetes Instrument für die Zeit zwischen den Terminen, nicht eine erneute Einzelbefunderhebung.",
+    hypothesisQ: "Welches Instrument ist am besten geeignet, damit Gretes Besitzer den Verlauf zwischen den Terminen zuverlässig zu Hause einschätzen können?",
+    hypothesisOptions: [
+      { label: "Die Hielm-Bjorkman-Osteoarthritis-Skala — speziell für Hundehalter chronisch kranker Tiere zur einfachen Selbsteinschätzung zu Hause konzipiert", correct: true },
+      {
+        label: "Die Mathews-Skala, da sie mit elf Stadien die detaillierteste verfügbare Einteilung ist",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Die Mathews-Skala ist für Therapeuten gemacht, die einen Hund umfassend und detailliert beschreiben wollen (inkl. Puls-/Atemfrequenz) — für eine einfache Selbsteinschätzung durch Laien zu Hause ist sie zu komplex und nicht für diesen Zweck konzipiert; die Hielm-Bjorkman-Skala ist für genau diese Zielgruppe entwickelt worden.",
+        differentiationDistractors: [
+          "Mehr Stadien bedeuten automatisch ein besseres Instrument für jeden Zweck.",
+          "Es gibt nur eine einzige, für alle Situationen gleichermaßen geeignete Schmerzskala.",
+        ],
+      },
+      {
+        label: "Gar kein standardisiertes Instrument, da Schmerzeinschätzung ohnehin zu subjektiv ist, um sie sinnvoll zu dokumentieren",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Die routinemäßige Verwendung einer passenden Schmerzskala ist gerade die Voraussetzung für eine seriöse Auseinandersetzung mit dem tierischen Schmerzempfinden — die Vorstellung, Schmerzeinschätzung sei zu subjektiv für ein systematisches Vorgehen, gilt als überholt.",
+      },
+      {
+        label: "Ein beliebiger Wechsel zwischen beiden Skalen, je nachdem wer gerade Zeit hat",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Die Beurteilung sollte immer von derselben Person vorgenommen werden, da sich Personen stark darin unterscheiden, wie viel Schmerz sie als „normal“ einstufen — ein beliebiger Wechsel zwischen Skalen oder Beurteilern würde die Vergleichbarkeit der Verlaufsdaten zunichtemachen.",
+      },
+    ],
+    expertNote:
+      "Die routinemäßige Verwendung einer für den jeweiligen Zweck passenden Schmerzskala ist die Voraussetzung für eine seriöse Auseinandersetzung mit dem tierischen Schmerzempfinden — die Vorstellung „Schmerz schützt und bewahrt vor Belastung“ gilt als überholt. Es existieren zwei etablierte, aber für unterschiedliche Zwecke konzipierte Skalen: Die Mathews-Skala richtet sich an Therapeuten und bietet eine umfassende, detaillierte Beschreibung des Patienten mit 11 Stadien von „kein Schmerz“ bis „unerträglicher, lebensbedrohender Schmerz“, unter Berücksichtigung von Spiel-/Schlafverhalten, Appetit, Verhalten beim Anfassen sowie Puls-/Atemfrequenz. Die Hielm-Bjorkman-Osteoarthritis-Skala richtet sich dagegen an Hundehalter chronisch kranker Tiere zur einfachen Selbsteinschätzung zu Hause — elf einfache Sätze zu Schmerzempfinden und Beweglichkeit, deren Punktsumme den Grad von Schmerz und Bewegungseinschränkung anzeigt. Für Gretes Besitzer, die zwischen den Terminen selbst den Verlauf einschätzen sollen, ist deshalb die Hielm-Bjorkman-Skala das richtige Instrument. Gerade bei älteren, stoischen Hunden wie Grete sind oft nur sehr kleine Verhaltensänderungen der einzige Hinweis auf Schmerz (veränderte Atemfrequenz, Zusammenkneifen der Augenlider, Lecken über das Maul, Rückzug, nachlassende Spiellust) — diese subtilen Veränderungen werden leicht fälschlich dem Alter statt dem Schmerz zugeschrieben, weshalb ein strukturiertes Instrument gerade hier besonders wertvoll ist. Die Beurteilung sollte dabei immer von derselben Person vorgenommen werden, da sich Beurteiler stark darin unterscheiden, wie viel Schmerz sie als „normal“ einstufen.",
+    weakeningQ: "In welcher Situation wäre die Mathews-Skala statt der Hielm-Bjorkman-Skala das richtige Instrument?",
+    weakeningOptions: [
+      { label: "Wenn ein Therapeut in der Praxis eine umfassende, detaillierte Beschreibung des aktuellen Patientenzustands inklusive Puls-/Atemfrequenz benötigt", correct: true },
+      { label: "Wenn die Besitzer zu Hause zwischen den Terminen eine einfache Selbsteinschätzung vornehmen sollen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Wenn eine chronische Arthrose über längere Zeit von Laien beobachtet werden soll", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Wenn möglichst wenig Fachwissen für die Anwendung des Instruments vorausgesetzt werden soll", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum sollte die Schmerzbeurteilung eines Patienten über die Zeit immer von derselben Person vorgenommen werden?",
+    retrievalOptions: [
+      {
+        label: "Weil sich verschiedene Personen stark darin unterscheiden, wie viel Schmerz sie als „normal” einstufen, was die Vergleichbarkeit der Verlaufsdaten sonst verfälschen würde",
+        correct: true,
+      },
+      { label: "Weil nur eine einzige Person gesetzlich befugt ist, Schmerzskalen beim Tier anzuwenden", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Schmerzskalen beim Hund grundsätzlich nicht zwischen verschiedenen Beobachtern übertragbar sind", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Der Beurteiler spielt für die Zuverlässigkeit der Einschätzung keine Rolle", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.5–5.1.6 (siehe Wissenseintrag `schmerzskalen-mathews-hielm-bjorkman`), S. 73–75. Beide Skalen mit ihrem jeweiligen Aufbau und Einsatzzweck sowie die Liste subtiler Schmerzzeichen beim stoischen bzw. älteren Hund sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -10484,7 +11106,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund überbewertet", "falsche Priorisierung", "Anatomieverwechslung"],
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.3.2 (Spezifische Untersuchung Hüftadduktoren), S. 53f. Mechanismus, Palpationswege und die Sarkomer-/Z-Scheiben-Erklärung sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["keera"],
     relatedAnatomyIds: ["huefte", "gracilis"],
   },
   {
@@ -11359,7 +11981,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.3 und 16.2.4 (Provokation der BWS, Differenzialdiagnostik Rippe/Bandscheibe/Facettengelenk), S. 218–222. Springingtest, Rosett-Test und die mediale Translation als Rippen-/Bandscheiben-DD sind im Original so beschrieben, inklusive der Warnzeichen-Unterscheidung Muskelzucken vs. Einknicken.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["mao"],
     relatedAnatomyIds: ["discus", "facettengelenke-bws"],
   },
   {
@@ -11625,7 +12247,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Anatomieverwechslung"],
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 10.1 (Sprunggelenk und Zehen — Anatomie), S. 112. Gelenkfunktion, Zehenanatomie und die Nervenversorgungs-/Hyperästhesie-Liste sind im Original so beschrieben. Die detaillierten Bewegungspalpations-/Joint-play-Techniken für die einzelnen Tarsal-/Zehengelenke (Kap. 10.2) sind aus Umfangsgründen nicht einzeln übernommen — sie folgen demselben Fixations-/Gleit-Prinzip wie die bereits erfassten Gelenktechniken anderer Regionen.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["winston"],
     relatedAnatomyIds: ["art-tarsi", "calcaneus-talus"],
   },
   {
@@ -12268,7 +12890,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.2 (Bestimmung der Lahmheit), S. 72f. Die Lahmheitsgrad-Einteilung, die Regelmäßigkeits-Differenzierung samt Central-Pattern-Generator-Erklärung sowie die Beobachtungskriterien (Fußung, Bügeln, Schmerzäußerung, Bewegungsunlust) sind im Original so beschrieben. Der Hinweis auf die Nicht-Identität mit der Brunnberg-Skala ist eine eigene, zum Vermeiden von Verwechslungen hinzugefügte Einordnung.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["hector"],
     relatedAnatomyIds: [],
   },
   {
@@ -12309,7 +12931,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "Unterkonfidenz", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.5–5.1.6 (Ausdrucksverhalten, Schmerzskala), S. 73–75. Beide Skalen mit ihrem jeweiligen Aufbau und Einsatzzweck sowie die Liste der subtilen Schmerzzeichen sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["grete"],
     relatedAnatomyIds: [],
   },
   {
@@ -14320,7 +14942,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["vorschnelle Diagnose", "Differentialdiagnostik unvollständig", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: Hohmann, Bewegungsapparat Hund (ISBN 978-3-13-245265-7), Thieme 2025, Kap. 10.2 (Praktische Beispiele — Rute), S. 453. Die akuten und chronischen Ursachen der hängenden Rute (inkl. „Water Tail“ beim Labrador und der Cauda-equina-typischen Begleitbefunde) sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["buddy"],
     relatedAnatomyIds: [],
   },
   {
@@ -17105,7 +17727,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund überbewertet", "Anatomieverwechslung", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.2 (Hautfaltenpalpation nach Kibler), S. 76–78 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Die Technik, die vier Beurteilungskriterien, die physiologischen Verquellungszonen, die Verquellungsgrade sowie die kaudale Dermatomverschiebung samt Tonsillarfalten-Palpation sind im Original so beschrieben. Ergänzt gezielt die bestehenden Erwähnungen der Kibler'schen Hautfalte in mehreren Einträgen dieser Session (u. a. `segmentalreflektorischer-komplex-dermatom-myotom-sklerotom-viszerotom`), die den Begriff und seine historische Herkunft nennen, aber nicht die konkrete Untersuchungstechnik beschreiben — bewusst nicht dupliziert, sondern um die praktische Anwendung ergänzt.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["mimi"],
     relatedAnatomyIds: [],
   },
   {
@@ -17153,7 +17775,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund überbewertet", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.3 (Druckpunktpalpation nach Kothbauer), S. 78–82 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Die Tab. 4.5 (Bezugssystem/Druckpunkt), die Technikbeschreibung, das Frühwarnsystem-Konzept mit seinen physiologischen Störfaktoren (Zyklus, Trächtigkeit, Nahrungsaufnahme), das Kreisverkehr-Prinzip sowie die Schwanztraktion und die GB41-Nadelung sind im Original so beschrieben. Ergänzt die bestehende beiläufige Erwähnung der Kothbauer-Palpation im Eintrag `geriatrischer-schmerzpatient-funktions-struktur-aktualitaetsanalyse` (dieselbe Quelle) um die konkrete Technik und Punktzuordnung.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["daisy"],
     relatedAnatomyIds: [],
   },
   {
@@ -17294,7 +17916,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Befund übersehen", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.7.2 (Sakroiliakalgelenk), S. 108–112 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf, unter Berufung im Original auf Budras 2000 und Nickel et al. 1992). Die SIG-Bandanatomie, der Vergleich zu Huftieren und das Fehlen des Lig. sacrotuberale latum, die Erklärung der häufigeren Beckenfrakturen bei Katzen, der Blockierungsmechanismus (traumatisch und sekundär-gynäko-/andropathisch, Zohmann 1993), die Diagnostik-Landmarken (B26/B28) sowie die SIG-Probe nach Zohmann (Tilscher u. Eder 1986, Zohmann u. Kasper 1994) sind im Original so beschrieben. Der bestehende Eintrag zur Gelenktyp-Klassifikation (Hohmann) nennt das SIG nur beiläufig als Beispiel einer Amphiarthrose, ohne auf Anatomie, Pathologie oder Untersuchungstechnik einzugehen — bewusst nicht dupliziert, sondern erstmals eigenständig ausgeführt.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["mila"],
     relatedAnatomyIds: ["art-sacroiliaca", "ligg-sacroiliaca", "becken"],
   },
   {
@@ -17350,7 +17972,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["vorschnelle Diagnose", "Befund übersehen", "Anatomieverwechslung"],
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.8.4 (Frühdiagnostik, radiologische Frühdiagnostik nach Köppel), S. 118–122 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf, unter Berufung im Original auf Köppel 1991 sowie die Bestätigung durch Mahler und Havet, Nizza, 1999). Das Os coxae quartum als Schalterknochen mit seinem zeitlichen Verknöcherungsfenster, die drei Befundmuster (Aplasie/Hypoplasie/Persistenz), die Unterscheidung von primär ossärer und primär ligamentärer Dysplasie, die rund 90-prozentige Treffsicherheit samt „blinder Phase“ und das spätere Valgusstellungs-Kriterium sind im Original so beschrieben. Ergänzt gezielt den bestehenden Eintrag `hueftgelenkdysplasie-und-coxarthrose` (Koch/Fischer), der Genetik, Rasseprädisposition und die Coxarthrose-Entwicklung ab Röntgenkriterien wie dem Norberg-Winkel behandelt, aber diese sehr frühe (14.–20. Lebenswoche), vom klassischen Röntgenbild unabhängige Diagnosemethode nicht kennt — bewusst nicht dupliziert, sondern um ein zeitlich vorgelagertes, eigenständiges Diagnoseverfahren ergänzt. Der Ortolani-Test selbst (in dieser Quelle mit zwei altersabhängigen Protokollen: 8.–9. Lebenswoche in Seitenlage, 4.–8. Lebensmonat in Rückenlage) ist bereits mehrfach aus Hárrer abgedeckt und wurde hier bewusst nicht erneut dargestellt.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["kira"],
     relatedAnatomyIds: ["huefte"],
   },
   {
