@@ -1089,6 +1089,79 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Atlantoaxiale Subluxation beim Hund — siehe bereits bestehender Wissenseintrag `atlantoaxiale-subluxation-densentwicklung-diagnostisches-zeichen`, derselbe Quellenabschnitt. Die Rasseprädisposition (Chihuahua/Pekinese/Zwergpudel), die entwicklungsbedingte Densanomalie-Ätiologie, die Altersstatistik (über 50 % im ersten Lebensjahr) sowie das Notfallrisiko bei weiterer Manipulation sind im Original so beschrieben. Ergänzt durch Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.1, S. 205f. — siehe bereits bestehender Wissenseintrag `obere-hws-instabilitaet-dens-warnsignale`, derselbe Quellenabschnitt: das konkrete Warnsignal „komplette Flexionsverweigerung” sowie die Überweisungskriterien sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten aus beiden Einträgen zu einem neuen klinischen Szenario, als bewusster Kontrastfall zu `filou` (dieselbe Lernzielkategorie „Notfall erkennen statt behandeln”, aber andere Region und anderer Mechanismus: obere HWS/Densinstabilität statt Rückenmark/Bandscheibenvorfall). Keine neue Primärrecherche nötig. Name, Alter und Vorgeschichte des Hundes sind freie didaktische Fallkonstruktion von Denkgang, die Rasse (Chihuahua) ist durch die Quelle vorgegeben. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "mio",
+    topic: "Orthopädie · Rippen/Brustwirbelsäule",
+    species: "Jack Russell Terrier, Rüde, 6 J.",
+    title: "Mio — zögerlicher beim Flyball-Training",
+    learningObjective:
+      "Eine Rippengelenk-Dysfunktion anhand der spezifischen Stufenbildung am Rippenwinkel von einem Bandscheibenproblem, einer Atemwegserkrankung und einer reinen Muskelzerrung unterscheiden können.",
+    anamnese:
+      "Mio spielt leidenschaftlich gerne Flyball und springt zu Hause ständig aufs Sofa und wieder herunter. Seit ein paar Tagen wirkt er beim Training zögerlicher und vermeidet es, sich beim Spielen stark zu drehen.",
+    beobachtung:
+      "Mio atmet insgesamt etwas flacher als sonst und zeigt beim Abtasten des Brustkorbs eine lokale Ausweichreaktion rechts, ohne Husten oder Nasenausfluss.",
+    diagramLabel: "Lokale Schonhaltung im Bereich der rechten mittleren Rippen beim Berühren",
+    palpation:
+      "Mit dem Thenar von kranial nach kaudal entlang der Rippenwinkel rechts palpiert, zeigt sich auf Höhe einer mittleren Rippe eine fühlbare Stufenbildung im Seitenvergleich; die zugehörige Brustwirbelregion ist ebenfalls leicht schmerzhaft.",
+    hypothesisQ: "Welche Ursache erklärt den Befund am besten?",
+    hypothesisOptions: [
+      { label: "Rippengelenk-Dysfunktion (Inspirationsrippe) rechts", correct: true },
+      {
+        label: "Thorakolumbaler Bandscheibenvorfall",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Die Stufenbildung liegt gezielt am Rippenwinkel im Brustkorb, nicht paravertebral im thorakolumbalen Übergang — der Befund passt anatomisch nicht zu dieser Region.",
+        differentiationDistractors: [
+          "Rücken- und Brustkorbschmerzen sind grundsätzlich kaum voneinander zu unterscheiden.",
+          "Ein Bandscheibenvorfall ist bei aktiven Hunden immer die wahrscheinlichste Ursache für eine Schonhaltung.",
+        ],
+      },
+      {
+        label: "Beginnende Atemwegserkrankung (z. B. Bronchitis)",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Es fehlen Husten, Nasenausfluss oder ein auskultatorischer Befund — stattdessen zeigt sich ein gezielter, tastbarer Strukturbefund genau am Rippenwinkel.",
+        differentiationDistractors: [
+          "Flachere Atmung spricht immer zuerst für ein internistisches Problem der Atemwege.",
+          "Sporthunde bekommen besonders häufig Atemwegserkrankungen, das passt gut.",
+        ],
+      },
+      {
+        label: "Interkostalmuskelzerrung ohne Gelenkbeteiligung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Eine reine Muskelzerrung würde keine fühlbare Stufenbildung am Rippenwinkel selbst verursachen — dieser spezifische Tastbefund spricht für eine Positionsänderung der Rippe, nicht für ein rein muskuläres Problem.",
+        differentiationDistractors: [
+          "Beim aktiven Sporthund ist eine Muskelzerrung grundsätzlich wahrscheinlicher als ein Gelenkproblem.",
+          "Eine Stufenbildung lässt sich genauso gut durch eine Muskelverspannung erklären wie durch ein Rippenproblem.",
+        ],
+      },
+    ],
+    expertNote:
+      "Rippendysfunktionen treten meist gemeinsam mit Dysfunktionen des zugehörigen Brustwirbelkörpers auf, da jede Rippe (außer Th1 und Th13) mit zwei Wirbelkörpern und der dazwischenliegenden Bandscheibe Kontakt hat — Bandscheibe und Rippe können sich deshalb gegenseitig beeinflussen, was den begleitenden BWS-Schmerz erklärt. Die fühlbare Stufenbildung bei der Palpation von kranial nach kaudal entlang des Rippenwinkels ist das spezifische Zeichen für eine in Inspiration stehende Rippe. Prädisponiert sind u. a. kleine Hunde, die häufig aufs Sofa springen, sowie Sporthunde — beides trifft auf Mio zu. Wichtig für die Praxis: Eine Dysfunktion der Rippen kann zusätzlich den Sympathikotonus erhöhen, da der sympathische Grenzstrang ventral der Rippenköpfchen liegt.",
+    weakeningQ: "Welcher zusätzliche Befund würde diese Hypothese eher schwächen?",
+    weakeningOptions: [
+      { label: "Unauffällige, symmetrische Rippenwinkel beidseits ohne Stufenbildung", correct: true },
+      { label: "Fühlbare Stufenbildung am Rippenwinkel rechts", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Lokale Ausweichreaktion beim Abtasten des Brustkorbs", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Leicht schmerzhafte zugehörige Brustwirbelregion", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum hängen Rippendysfunktionen und Bandscheibenprobleme der Brustwirbelsäule häufig zusammen?",
+    retrievalOptions: [
+      {
+        label: "Weil jede Rippe (außer Th1 und Th13) mit zwei Wirbelkörpern und der dazwischenliegenden Bandscheibe Kontakt hat",
+        correct: true,
+      },
+      { label: "Weil Rippen und Bandscheiben beim Hund direkt muskulär miteinander verbunden sind", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Weil Rippen gar keinen Kontakt zu den Wirbelkörpern haben", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Es gibt keinen physiologischen Zusammenhang zwischen beiden Strukturen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.4 (Rippen — Anatomie und Stellungsdiagnose), S. 220–228 — siehe bereits bestehender Wissenseintrag `rippen-anatomie-1-rippe-stellungsdiagnose`, derselbe Quellenabschnitt. Die Rippen-Bandscheiben-Kopplung, die Stellungsdiagnostik (Stufenbildung am Rippenwinkel als Zeichen einer Inspirationsrippe), die Prädispositionsliste (kleine, aufs Sofa springende Hunde; Sporthunde) sowie der Sympathikotonus-Zusammenhang sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte des Hundes sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -3247,6 +3320,7 @@ const ANATOMY: AnatomySeed[] = [
     id: "rippen",
     name: "Rippen (Costae)",
     kind: "KNOCHEN",
+    relatedCaseId: "mio",
     origin:
       "13 Rippenpaare. Die ersten 9 Rippen (Tragerippen) sind gelenkig mit dem Sternum verbunden; die 10.–12. Rippe (Atmungsrippen) enden frei im Rippenbogen, die 13. Rippe (Fleischrippe) endet frei in der Muskulatur. Jede Rippe (außer Th1 und Th13) hat mit zwei Wirbelkörpern und der dazwischenliegenden Bandscheibe Kontakt — dem gleichzähligen und dem kranial davon liegenden Wirbel.",
     insertion:
@@ -3271,6 +3345,7 @@ const ANATOMY: AnatomySeed[] = [
     id: "artt-costales",
     name: "Rippengelenke (Artt. costovertebrales, costotransversariae, costosternales)",
     kind: "GELENK",
+    relatedCaseId: "mio",
     origin:
       "Rippenköpfchen mit den Brustwirbelkörpern (Art. costovertebralis) bzw. mit den Procc. transversi (Art. costotransversaria); Rippenknorpel mit dem Sternum (Art. costosternalis) bei den ersten 9 Rippen.",
     insertion:
@@ -8678,8 +8753,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Befund übersehen"],
     sourceStatus:
-      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.4 (Rippen — Anatomie und Stellungsdiagnose), S. 220–228. Bewegungsachsen, Rippen-Bandscheiben-Kopplung und die Stellungsdiagnostik-Methoden sind im Original so beschrieben.",
-    relatedCaseIds: [],
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.4 (Rippen — Anatomie und Stellungsdiagnose), S. 220–228. Bewegungsachsen, Rippen-Bandscheiben-Kopplung und die Stellungsdiagnostik-Methoden sind im Original so beschrieben. Bildet die fachliche Grundlage für den neuen Fall `mio`.",
+    relatedCaseIds: ["mio"],
     relatedAnatomyIds: ["discus", "rippen", "artt-costales"],
   },
   {
