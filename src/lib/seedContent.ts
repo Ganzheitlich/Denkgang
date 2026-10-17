@@ -859,6 +859,88 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: VetCenter (Thieme), Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Ellbogengelenkdysplasie beim Hund\" (vetcenter.thieme.de, eBook cs_8469468) — siehe bereits bestehender Wissenseintrag `ellbogengelenkdysplasie`, derselbe Quellenabschnitt. Die vier Unterformen, Rasseprädispositionen, das Zeitfenster der Processus-anconaeus-Fusion (16.–20. Lebenswoche) sowie der Standhaltungs-Unterschied (FPC/OCD adduziert vs. IPA abduziert) sind im Original so beschrieben und zusätzlich strukturiert in den bereits bestehenden Anatomie-Items `processus-anconaeus` und `processus-coronoideus-medialis` hinterlegt (dort inkl. Fusionszeitfenster und Standhaltungs-Fakt im Original-Wortlaut). Der Hinweis, dass eine sichere Formunterscheidung Röntgen/CT braucht, ist ebenfalls im Original so beschrieben. Die Bizepssehnen-Abgrenzung nutzt zusätzlich den bereits verifizierten Fall `rocky` (Hárrer Kap. 12, Welter-Böller Kap. 6) als Kontrastfall. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte des Hundes sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "greta",
+    topic: "Orthopädie · Hinterhand/Oberschenkel (Hamstrings)",
+    species: "Deutscher Schäferhund, Hündin, 3 J.",
+    title: "Greta — zunehmend kurzer, auswärts drehender Schritt hinten",
+    learningObjective:
+      "Eine Hamstringfibrose anhand des pathognomonischen Gangbilds und der derben Palpation von einer reversiblen Muskelverspannung oder einer isolierten Atrophie unterscheiden können.",
+    anamnese:
+      "Greta war früher sehr sportlich (Agility) und hatte wiederholt kleinere Zerrungen am Hinterbein. Seit einigen Monaten wird ihr Schritt hinten zunehmend kürzer, die Besitzer bemerken eine ungewöhnliche Beinbewegung beim Vorführen.",
+    beobachtung:
+      "Beim Vorführen der Hintergliedmaße wird das Knie nach innen und der Tarsus nach außen gezogen; der Schritt ist beidseits auffällig verkürzt, die Oberschenkelmuskulatur wirkt insgesamt vermindert.",
+    diagramLabel: "Vorschwingphase hinten: Knie nach medial, Tarsus nach lateral abweichend (beidseits)",
+    palpation:
+      "Die kaudomediale Oberschenkelmuskulatur fühlt sich beidseits derb, höckrig und schmerzhaft an; die Streckung der Hintergliedmaße ist eingeschränkt.",
+    hypothesisQ: "Welche Diagnose erklärt den Befund am besten?",
+    hypothesisOptions: [
+      { label: "Hamstringfibrose (M. gracilis/M. semitendinosus)", correct: true },
+      {
+        label: "Vorübergehende muskuläre Verspannung (Hypertonie) der Hamstrings",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine reine Verspannung fühlt sich weich bis allenfalls strangartig an, nicht derb und höckrig — und würde sich nicht als festes, beidseitig gleiches Gangbildmuster über Monate hinweg manifestieren.",
+        differentiationDistractors: [
+          "Greta war früher sehr sportlich — das spricht eher für eine einfache Überlastung als für eine seltene Erkrankung.",
+          "Eine Verspannung erklärt einen verkürzten Schritt genauso gut wie eine Fibrose.",
+        ],
+      },
+      {
+        label: "Isolierte Atrophie des M. biceps femoris",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Der M. biceps femoris atrophiert eher (Typ-II-Fasern), verspannt aber nicht zu derbem, höckrigem Gewebe wie M. gracilis/M. semitendinosus (Typ-I-Fasern) — eine reine Atrophie würde zudem keine eingeschränkte Streckung durch derbes Gewebe verursachen.",
+        differentiationDistractors: [
+          "Alle drei Hamstring-Muskeln verhalten sich bei Überlastung immer identisch.",
+          "Eine Atrophie ist bei aktiven Hunden häufiger als eine Fibrose, also wahrscheinlicher.",
+        ],
+      },
+      {
+        label: "Hüftgelenkdysplasie mit sekundärer Schonhaltung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine Hüftgelenkdysplasie würde sich primär im Hüftgelenk selbst zeigen, nicht als derbe, höckrige Veränderung direkt in der Oberschenkelmuskulatur — Röntgenbilder dienen bei Verdacht auf Hamstringfibrose gerade dem Ausschluss von Hüft-/Rückenproblemen als Ursache.",
+        differentiationDistractors: [
+          "Der Deutsche Schäferhund ist für HD besonders prädisponiert, also liegt HD nahe.",
+          "Eine Schonhaltung nach HD kann exakt dasselbe Gangbild wie eine Hamstringfibrose erzeugen.",
+        ],
+      },
+    ],
+    expertNote:
+      "Das Zusammenspiel aus pathognomonischem Gangbild (Knie nach innen, Tarsus nach außen in der Vorschwingphase), derber, höckriger Palpation und Rassezugehörigkeit (praktisch ausschließlich Deutscher Schäferhund) ist für die Hamstringfibrose kennzeichnend. Wichtig für die Beratung: Die Prognose ist reserviert — weder Medikamente noch die komplette chirurgische Entfernung der fibrosierten Muskelstränge bringen mehr als vorübergehende Erleichterung, da das hemmende Bindegewebe selbst nach vollständiger Muskelentfernung wieder nachwächst. Physiotherapie mit dem Ziel, die verbliebenen kontraktilen Muskelstränge möglichst lange zu erhalten, ist die einzige Maßnahme mit nachgewiesenem Nutzen.",
+    weakeningQ: "Welcher zusätzliche Befund würde diese Hypothese eher schwächen?",
+    weakeningOptions: [
+      {
+        label: "Weiche, nicht-derbe Muskulatur, die sich nach wenigen Tagen Ruhe vollständig normalisiert",
+        correct: true,
+      },
+      { label: "Derbe, höckrige kaudomediale Oberschenkelmuskulatur", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Eingeschränkte Streckung der Hintergliedmaße", correct: false, errorCategory: "Befund überbewertet" },
+      {
+        label: "Charakteristisches Gangbild mit Knie nach innen, Tarsus nach außen",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+      },
+    ],
+    retrievalQ:
+      "Warum neigen M. semimembranosus und M. semitendinosus eher zu Verspannung/Hypertonie, der M. biceps femoris dagegen eher zu Atrophie?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil Semimembranosus/Semitendinosus überwiegend Typ-I-Fasern (Haltearbeit) besitzen, der M. biceps femoris dagegen mehr Typ-II-Fasern",
+        correct: true,
+      },
+      { label: "Weil nur der M. biceps femoris überhaupt vom N. ischiadicus innerviert wird", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Weil Semimembranosus und Semitendinosus beim Hund gar keine Muskelfasern besitzen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Der Unterschied ist reiner Zufall ohne physiologische Erklärung", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.7 (Hamstringfibrose), S. 207–209 — siehe bereits bestehender Wissenseintrag `hamstringfibrose-deutscher-schaeferhund`, derselbe Quellenabschnitt. Betroffene Muskeln, Rasse, das pathognomonische Gangbild, der Palpationsbefund und die reservierte Prognose samt Begründung (Bindegewebe wächst nach Entfernung wieder nach) sind im Original so beschrieben. Die Fasertyp-Differenzierung (Typ-I bei Semimembranosus/Semitendinosus, Typ-II beim M. biceps femoris) stammt aus dem ebenfalls bereits bestehenden Wissenseintrag `hueftextensoren-hamstrings-fasertyp-differenzierung` (Hárrer Kap. 7.3.3, S. 55f.), derselbe Quellenabschnitt. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten aus beiden Quellen zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Alter und Vorgeschichte der Hündin sind freie didaktische Fallkonstruktion von Denkgang, die Rasse (Deutscher Schäferhund) ist durch die Quelle vorgegeben (die Erkrankung tritt praktisch ausschließlich bei dieser Rasse auf). Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -1434,6 +1516,7 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "biceps-femoris",
     name: "M. biceps femoris",
+    relatedCaseId: "greta",
     origin: "Tuber ischiadicum (Sitzbeinhöcker, lateraler Rand) sowie kaudoventrale Anteile des Lig. sacrotuberale (Lage: Hintergliedmaße, oberflächlich kaudal des M. vastus lateralis)",
     insertion:
       "Zweigeteilt: Pars cranialis strahlt in die Fascia lata/Patellaregion ein, Pars caudalis zieht zur Tuberositas tibiae/Crista tibiae und über die Fersenbeinsehne selbstständig zum Tuber calcanei (Fersensehnenstrang)",
@@ -1459,6 +1542,7 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "semitendinosus",
     name: "M. semitendinosus",
+    relatedCaseId: "greta",
     origin: "Tuber ischiadicum (lateraler Rand), zwischen M. biceps femoris und M. semimembranosus",
     insertion:
       "Medialfläche der Tibia kranial der Flexorenmuskulatur sowie gemeinsam mit dem M. biceps femoris am Tuber calcanei (Fersensehnenstrang)",
@@ -1481,6 +1565,7 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "gracilis",
     name: "M. gracilis",
+    relatedCaseId: "greta",
     origin: "Symphysis pelvina (Beckensymphyse) über die Sehnenplatte (Tendo symphysialis)",
     insertion:
       "Kranialer Tibiarand sowie gemeinsam mit dem M. semitendinosus am Tuber calcanei (Fersensehnenstrang)",
@@ -1544,6 +1629,7 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "semimembranosus",
     name: "M. semimembranosus",
+    relatedCaseId: "greta",
     origin: "Tuber ischiadicum, mit zwei annähernd gleichwertigen Muskelbäuchen (Pars cranialis und Pars caudalis)",
     insertion:
       "Pars cranialis endet an der Ursprungsaponeurose des M. gastrocnemius sowie mit ihr am distalen Femur; die Sehne der Pars caudalis verläuft unter dem medialen Kollateralband des Kniegelenks hindurch und setzt am Condylus medialis tibiae an",
@@ -6719,8 +6805,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund überbewertet"],
     sourceStatus:
-      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.7 (Hamstringfibrose), S. 207–209. Ätiologie, Klinik und Therapieprinzip sind im Original so beschrieben.",
-    relatedCaseIds: [],
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.7 (Hamstringfibrose), S. 207–209. Ätiologie, Klinik und Therapieprinzip sind im Original so beschrieben. Bildet die fachliche Grundlage für den neuen Fall `greta`.",
+    relatedCaseIds: ["greta"],
     relatedAnatomyIds: ["semitendinosus", "gracilis"],
   },
   {
@@ -7554,8 +7640,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Anatomieverwechslung", "Befund überbewertet", "Befund übersehen"],
     sourceStatus:
-      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.3.3 (Spezifische Untersuchung Hüftextensoren/Hamstrings), S. 55f. Fasertyp-Zuordnung, Palpationswege und Differenzierungstests sind im Original so beschrieben.",
-    relatedCaseIds: [],
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.3.3 (Spezifische Untersuchung Hüftextensoren/Hamstrings), S. 55f. Fasertyp-Zuordnung, Palpationswege und Differenzierungstests sind im Original so beschrieben. Die Fasertyp-Differenzierung bildet die fachliche Grundlage für den Distraktor „Isolierte Atrophie des M. biceps femoris“ im neuen Fall `greta`.",
+    relatedCaseIds: ["greta"],
     relatedAnatomyIds: ["biceps-femoris", "semitendinosus", "semimembranosus", "gracilis"],
   },
   {

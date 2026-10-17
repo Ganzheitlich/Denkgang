@@ -5377,17 +5377,41 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       (9 → 10), Cross-Referenz-Audit 0 offene Verweise (149
       Backtick-Referenzen), Build grün, via Playwright gegen die
       Review-Seite verifiziert (0 Fehler).
+- [x] **Fall „Greta" — Hamstringfibrose (17.10.2026).** Deckt vier der sechs
+      bis dahin Fall-losen Oberschenkelmuskeln ab (`biceps-femoris`,
+      `semitendinosus`, `gracilis`, `semimembranosus`) — die größte
+      zusammenhängende Lücke aus dem vorherigen Eintrag. Neuer Fall `greta`
+      (Deutscher Schäferhund, Hündin, 3 J., ehemals sportlich, zunehmend
+      kurzer Schritt hinten mit charakteristischem Gangbild): Korrekte
+      Diagnose Hamstringfibrose (M. gracilis/M. semitendinosus) gegen drei
+      Distraktoren — reversible Verspannung (Differenzierung über
+      derb/höckrig vs. weich), isolierte Atrophie des M. biceps femoris
+      (Differenzierung über die bereits verifizierte Typ-I-/Typ-II-
+      Fasertyp-Logik aus `hueftextensoren-hamstrings-fasertyp-
+      differenzierung`) und HD mit Schonhaltung. Die `expertNote`
+      übernimmt bewusst die ernüchternde, im Original so beschriebene
+      Prognose (keine Heilung möglich, auch nicht durch vollständige
+      chirurgische Muskelentfernung) — keine beschönigte Darstellung.
+      `relatedCaseIds` bei `hamstringfibrose-deutscher-schaeferhund` und
+      `hueftextensoren-hamstrings-fasertyp-differenzierung` um `greta`
+      ergänzt. Keine neue Primärrecherche nötig. Verifiziert: tsc/eslint
+      sauber, Reseed 11 Fälle (10 → 11), Cross-Referenz-Audit 0 offene
+      Verweise (152 Backtick-Referenzen), Build grün, via Playwright gegen
+      die Review-Seite verifiziert (0 Fehler).
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — noch ohne Fall, auch wenn der Ellbogen als
-      Gelenk über Rocky/Rex jetzt zweifach abgedeckt ist), hintere
-      Oberschenkelmuskulatur (`biceps-femoris`, `semitendinosus`,
-      `gracilis`, `sartorius`, `tensor-fasciae-latae`, `semimembranosus` —
-      alle sechs weiterhin ohne Fall, größte zusammenhängende Lücke),
-      Rippen/Rippengelenke (`rippen`, `artt-costales`). Guter nächster
-      Kandidat: ein Fall zur Hamstring-Problematik (z. B. Hamstringfibrose,
-      bereits verifiziert aus Koch/Fischer Kap. 8.3.7) für einen älteren
-      Hund — würde die größte verbliebene Fall-lose Muskelgruppe abdecken.
+      Gelenk über Rocky/Rex jetzt zweifach abgedeckt ist), `sartorius` und
+      `tensor-fasciae-latae` (einzige noch verbliebene Fall-lose
+      Oberschenkelmuskeln), Rippen/Rippengelenke (`rippen`,
+      `artt-costales`), Tarsus-Gelenk/-Bänder selbst (`art-tarsi`,
+      `ligg-tarsi` — Muskeln/Knochen dieser Region sind über Balu jetzt
+      abgedeckt, Gelenk/Bänder noch nicht). Guter nächster Kandidat: ein
+      Fall zur ISG-Dysfunktion (bereits ausführlich verifiziert in
+      `iliosakralgelenk-anatomie-symptome-ursachen` und den beiden
+      weiteren ISG-Einträgen) — die ISG-Anatomie-Items selbst sind zwar
+      schon mit `luna` verknüpft, aber kein Fall hat bisher eine
+      ISG-Dysfunktion als primäre, korrekte Diagnose.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→
