@@ -5979,6 +5979,61 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Cross-Referenz-Audit 0 offene Verweise, Production-Build grün,
       Playwright-Stichprobe (fiona, resi, bert) gegen die Review-Seite —
       0 Konsolen-/Seitenfehler.
+- [x] Fälle 86–95 (Batch 8 des ~100-Fälle-Ausbaus, 17.10.2026): Achte
+      Zehnergruppe — Schwerpunkt auf Wirbelsäulentrauma-/Rückenmark-
+      Staging- und Differentialdiagnostik-Fällen (4 von 10), ergänzt um
+      Untersuchungstechnik- und Präventionsfälle, weiterhin ausschließlich
+      aus VetCenter (Hundekrankheiten kompakt), Alexander (Physikalische
+      Therapie für Kleintiere), Koch/Fischer (Lahmheitsuntersuchung beim
+      Hund), Hárrer (Manuelle Therapie beim Hund), Mai (Physiotherapie und
+      Bewegungstraining für Hunde) sowie Baumgartner/Wittek/Khol
+      (Klinische Propädeutik) kombiniert:
+      - **`nemo`** (Border-Collie-Mischling, 9 J.) — Mono- vs.
+        Polyneuropathie anhand der Ausbreitung von Hinter- auf
+        Vordergliedmaßen. Quelle: `mono-polyneuropathie-lokalisation`.
+      - **`sam`** (Mischling, 4 J.) — Rückenmarkkompressions-Staging: die
+        charakteristische Ausfallreihenfolge (Propriozeption zuerst,
+        Tiefenschmerz zuletzt) richtig einordnen. Quelle:
+        `rueckenmarkkompression-lokalisation-omn-umn-ausfallreihenfolge`.
+      - **`tilly`** (Deutsche Dogge, 6 J.) — Rückenmarkkompressions-
+        Differentialdiagnostik jenseits des Bandscheibenvorfalls (Fieber/
+        Hautinfektion als Hinweis auf infektiöse Ursache). Quelle:
+        `rueckenmarkkompression-differentialdiagnosen-nicht-nur-bandscheibe`.
+      - **`hanno`** (Jack Russell Terrier, 3 J.) — Acht-Stunden-
+        Tiefenschmerz-Prognosegrenze nach Wirbelsäulentrauma; unmittelbar
+        erloschener Tiefenschmerz bedeutet „vorsichtig“, nicht „ungünstig“.
+        Quelle: `wirbelsaeulentrauma-8-stunden-tiefenschmerz-prognosegrenze`.
+      - **`luzie`** (Whippet, 2 J.) — Fraktur-Kardinalsymptome und die
+        Fissur als Frakturform, die definitionsgemäß keines der drei
+        Zeichen zeigt. Quelle: `fraktur-kardinalsymptome-diagnostische-grenzen`.
+      - **`pepe`** (Beagle, 5 J.) — Hüftflexoren-Differenzierung: M. rectus
+        femoris anhand der Gelenkkombination (Hüftextension + Kniebeugung)
+        von Iliopsoas/TFL/Sartorius unterscheiden. Quelle:
+        `hueftflexoren-untersuchung-differenzierung`.
+      - **`wilma`** (Border Collie, 4 J.) — Muskelzerrung durch fehlendes
+        Aufwärmen vor dem Agility-Training; Präventionsfall statt
+        Diagnosefall. Quelle: `aufwaermen-abkuehlen-hund`.
+      - **`dax`** (Dackel, 6 J.) — RITA bei schlaffer Parese: Reizhäufigkeit
+        auf drei bis fünf Auslösungen begrenzt, mehr Wiederholungen
+        steigern den Effekt nicht proportional. Quelle:
+        `rita-reflexinduziertes-training-alexander-fremdreflexe`.
+      - **`cora`** (Australian Shepherd, 5 J.) — die Rute als „Taktgeber“
+        bei der Adspektion als eigenständiges LWS-Warnsignal, nicht
+        Zufallsbefund. Quelle: `adspektion-wirbelsaeule-rute-taktgeber-warnsignal`.
+      - **`ferdi`** (Golden Retriever, 9 J.) — Lahmheit-vs.-Lähmung-
+        Fallstrick an der Vordergliedmaße (Plexus brachialis/HWS vs.
+        Schulter-/Ellbogenarthrose), Pendant zur Becken-/Cauda-equina-
+        Falle. Quelle: `lahmheit-laehmung-abgrenzung`.
+
+      `relatedCaseIds` ergänzt bei allen zehn referenzierten
+      Wissenseinträgen. Keine neuen `AnatomyItem.relatedCaseId`-
+      Verknüpfungen in diesem Batch. Keine neue Primärrecherche nötig, alle
+      zehn Fälle kombinieren ausschließlich bereits verifizierte Fakten aus
+      bestehenden Wissenseinträgen zu neuen klinischen Szenarien.
+      Verifiziert: eslint sauber, tsc sauber, Reseed 95 Fälle (85 → 95),
+      Cross-Referenz-Audit 0 offene Verweise, Production-Build grün,
+      Playwright-Stichprobe (sam, luzie, ferdi) gegen die Review-Seite —
+      0 Konsolen-/Seitenfehler.
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — bewusst zurückgestellt, siehe Begründung oben
@@ -5990,24 +6045,21 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Facettengelenke als eigenständige, primäre Falldiagnose bleiben offen
       (`facettengelenke-hws`/`-bws` — LWS-Facettengelenke sind über Max
       jetzt abgedeckt). PATHOLOGIE-Kategorie mit konkreten, fallfähigen
-      Einzeldiagnosen ist nach sieben Batches praktisch ausgeschöpft (41 ohne
+      Einzeldiagnosen ist nach acht Batches praktisch ausgeschöpft (38 ohne
       Fall-Link, überwiegend abstrakte Schmerzphysiologie-/
-      Faszientheorie-Grundlagen ohne einzelnes klinisches Korrelat, einzelne
-      Kandidaten wie Mono-/Polyneuropathie-Lokalisation oder Subokzipital-
-      muskulatur-Kopfschmerz aber noch fallfähig). Schwerpunkt für kommende
-      Batches liegt auf UNTERSUCHUNG (58 ohne Fall-Link — Kandidaten u. a.
-      Kniegelenk-Bewegungspalpation/Joint-Play, Kopfnerven-Folgefälle,
-      Zehner-Test, Joint-Play-Technik Rute, liegender-Hund-Untersuchungs-
-      prinzipien, Anamnese-Strukturkategorien), THERAPIE (28 ohne Fall-Link,
-      nach Batch 7 weiter reduziert — Kandidaten u. a. Aufwärmen/Abkühlen,
-      Nutraceuticals-Wirknachweis, RITA bei schlaffer Parese, Bindegewebs-
-      massage nach Dicke) und BIOMECHANIK (75 ohne Fall-Link, nahezu
-      unberührt — eher als Hintergrundwissen geeignet, da meist grundlagen-
-      orientiert statt krankheitsspezifisch, einzelne konkrete Kandidaten wie
-      Katapulteffekt/Sehnenelastizität oder Knorpelernährungs-Pumpmechanismus
-      aber fallfähig). 85 Fälle insgesamt jetzt (Stand 17.10.2026, gegenüber
-      8 zu Sessionbeginn — mehr als verzehnfacht), Zielmarke Vanessas liegt
-      bei ca. 100 — rund 15 weitere Fälle in kommenden Batches geplant, mit
+      Faszientheorie-Grundlagen ohne einzelnes klinisches Korrelat).
+      Schwerpunkt für den letzten geplanten Batch liegt auf UNTERSUCHUNG
+      (53 ohne Fall-Link — Kandidaten u. a. Kniegelenk-Bewegungspalpation/
+      Joint-Play, Zehner-Test, Joint-Play-Technik Rute, liegender-Hund-
+      Untersuchungsprinzipien, Anamnese-Strukturkategorien,
+      wirbelsaeule-krummer-ruecken-lahmheitshinweis) sowie THERAPIE (26
+      ohne Fall-Link — Kandidaten u. a. Nutraceuticals-Wirknachweis,
+      Bindegewebsmassage nach Dicke, Tuina-Grifftechniken, geriatrische
+      Bewegungsprophylaxe). BIOMECHANIK bleibt mit 75 ohne Fall-Link
+      nahezu unberührt und eher als Hintergrundwissen vorgesehen. 95 Fälle
+      insgesamt jetzt (Stand 17.10.2026, gegenüber 8 zu Sessionbeginn —
+      fast verzwölffacht), Zielmarke Vanessas liegt bei ca. 100 — noch ca.
+      5 Fälle für einen abschließenden, kleineren Batch 9 geplant, mit
       fortgesetztem Fokus auf echte Varianz (unterschiedliche Diagnosen,
       Regionen, Fallstrukturen, Fehlerkategorien) statt bloßer Wiederholung
       ähnlicher Fälle.

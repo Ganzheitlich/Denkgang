@@ -5703,6 +5703,647 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.8 (Goniometrie – Range of Motion), S. 75–77 (siehe Wissenseintrag `goniometrie-rom-messung-grenzen`). Die Messmethodik, die beiden Dokumentationsarten mit ihrer unterschiedlichen Aussagekraft sowie die Angabe zur Messvarianz (bis 11 %) sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "nemo",
+    topic: "Pathologie · Neurologische Lokalisation (Mono- vs. Polyneuropathie)",
+    species: "Border-Collie-Mischling, Rüde, 9 J.",
+    title: "Nemo — erst die Hintergliedmaßen schwach, jetzt auch die Vorderbeine",
+    learningObjective:
+      "Erkennen, dass eine Ausbreitung der Ausfälle von den Hintergliedmaßen über die Vordergliedmaßen bis zu den Kopfnerven charakteristisch für eine Polyneuropathie ist, während eine Mononeuropathie auf einen einzelnen peripheren Spinalnerv oder Kopfnerv beschränkt bleibt.",
+    anamnese:
+      "Nemo zeigte vor etwa drei Wochen eine zunehmende Schwäche der Hintergliedmaßen. In der letzten Woche berichten die Besitzer zusätzlich von einer leichten Schwäche auch an den Vordergliedmaßen.",
+    beobachtung:
+      "Nemo zeigt eine symmetrische Schwäche aller vier Gliedmaßen, deutlicher an den Hintergliedmaßen als an den Vordergliedmaßen. Die Kopfnervenprüfung ist bisher unauffällig.",
+    diagramLabel: "Zuerst symmetrische Hintergliedmaßen-Schwäche vor drei Wochen, jetzt zusätzlich leichte Vordergliedmaßen-Schwäche",
+    palpation:
+      "Keine lokal begrenzte Schmerzhaftigkeit oder neurogene Reizzeichen an einem einzelnen Nervenverlauf feststellbar; die Ausfälle betreffen diffus mehrere spinale Nerven beidseits.",
+    hypothesisQ: "Was spricht bei Nemo für eine Polyneuropathie statt für eine Mononeuropathie (z. B. eine isolierte Radialislähmung)?",
+    hypothesisOptions: [
+      {
+        label:
+          "Die Ausfälle begannen zuerst in den Hintergliedmaßen und breiten sich jetzt auch auf die Vordergliedmaßen aus — charakteristisch für viele Polyneuropathien, während eine Mononeuropathie auf einen einzelnen peripheren Spinalnerv oder Kopfnerv beschränkt bleibt",
+        correct: true,
+      },
+      {
+        label: "Das Vorliegen von Schmerz allein genügt, um zwischen Mono- und Polyneuropathie zu unterscheiden",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Nicht das Vorliegen von Schmerz, sondern das Verteilungsmuster der Ausfälle (ein einzelner Nerv vs. mehrere spinale Nerven und/oder Kopfnerven) ist das entscheidende Unterscheidungskriterium.",
+      },
+      {
+        label: "Eine Polyneuropathie betrifft definitionsgemäß ausschließlich die Kopfnerven",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Polyneuropathien betreffen mehrere spinale Nerven und/oder auch Kopfnerven — eine Beschränkung ausschließlich auf Kopfnerven ist durch die Definition nicht gedeckt.",
+      },
+      {
+        label: "Ohne Elektrodiagnostik lässt sich grundsätzlich nicht zwischen Mono- und Polyneuropathie unterscheiden",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Die Lokalisation einer peripheren Nervenläsion gelingt häufig bereits durch eine genaue klinisch-neurologische Untersuchung mit hoher Genauigkeit — Elektrodiagnostik ist die naheliegende erste Zusatzuntersuchung nur bei klinisch unsicherer Lokalisation, nicht grundsätzlich erforderlich.",
+      },
+    ],
+    expertNote:
+      "Mononeuropathien sind Läsionen eines einzelnen peripheren Spinalnervs (z. B. eine Radialislähmung) oder eines einzelnen Kopfnervs. Polyneuropathien betreffen mehrere spinale Nerven und/oder Kopfnerven; charakteristisch ist, dass die Ausfälle häufig zuerst in den Hintergliedmaßen beginnen und sich später auf Vordergliedmaßen und Kopfnerven ausbreiten. Pathologische Prozesse betreffen entweder das Interstitium (Bindegewebe/Gefäße) oder die Nervenfaser selbst — mit zwei Schädigungsmustern: neuro-axonale Degeneration (Axon geschädigt) oder Demyelinisierung (nur Myelinscheide abgebaut, Axon zunächst erhalten, typischerweise mit verminderter Nervenleitgeschwindigkeit bis zum Leitungsblock). Am häufigsten kommen Mischformen vor.",
+    weakeningQ: "Welche zusätzliche diagnostische Maßnahme wäre bei Nemo sinnvoll, wenn die klinische Lokalisation unsicher bleibt?",
+    weakeningOptions: [
+      { label: "Elektrodiagnostik als naheliegende erste Zusatzuntersuchung, eine neuroradiologische Untersuchung erst in zweiter Linie", correct: true },
+      { label: "Direkt eine MRT-Untersuchung, ohne vorherige Elektrodiagnostik", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+      { label: "Ausschließlich ein Bluttest, ohne weitere neurologische Zusatzdiagnostik", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+      { label: "Keine weitere Diagnostik, da die klinische Untersuchung allein immer ausreicht", correct: false, errorCategory: "Überkonfidenz" },
+    ],
+    retrievalQ: "Wodurch unterscheiden sich neuro-axonale Degeneration und Demyelinisierung als Schädigungsmuster der Nervenfaser?",
+    retrievalOptions: [
+      {
+        label:
+          "Bei neuro-axonaler Degeneration wird das Axon selbst geschädigt, bei Demyelinisierung wird nur die Myelinscheide abgebaut, während das Axon zunächst erhalten bleibt — typischer Befund bei Demyelinisierung ist eine deutlich verminderte Nervenleitgeschwindigkeit",
+        correct: true,
+      },
+      { label: "Beide Begriffe bezeichnen denselben Vorgang und sind austauschbar", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Demyelinisierung betrifft ausschließlich das Interstitium, nicht die Nervenfaser selbst", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Neuro-axonale Degeneration ist stets vollständig reversibel, Demyelinisierung nie", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Nervensystem\" (A. Jaggy/I. Kathmann), Unterabschnitt „Lokalisation: Peripheres Nervensystem (PNS)\" (siehe Wissenseintrag `mono-polyneuropathie-lokalisation`). Die Mono-/Polyneuropathie-Definitionen samt Beispielen, die Unterscheidung Interstitium/Nervenfaser, die beiden Schädigungsmuster sowie das diagnostische Stufenschema sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "sam",
+    topic: "Untersuchung · Neurologische Staging (Rückenmarkkompression-Ausfallreihenfolge)",
+    species: "Mischling, Rüde, 4 J.",
+    title: "Sam — nach dem Unfall Propriozeption gestört, aber Tiefenschmerz erhalten",
+    learningObjective:
+      "Die charakteristische Ausfallreihenfolge bei zunehmender Rückenmarkkompression kennen (Propriozeption → Parese/Paralyse → Oberflächensensibilität → Tiefenschmerz) und daraus den Schweregrad einer frischen Rückenmarkkompression richtig einordnen.",
+    anamnese:
+      "Sam wurde vor wenigen Stunden bei einem Autounfall verletzt. Der Verdacht auf eine Rückenmarkkompression im thorakolumbalen Bereich besteht.",
+    beobachtung:
+      "Sam zeigt einen gestörten Lagesinn der Hintergliedmaßen (Propriozeptionsverlust) bei nur leichter motorischer Schwäche. Die Tiefenschmerzempfindung kaudal der vermuteten Läsion ist deutlich erhalten.",
+    diagramLabel: "Wenige Stunden nach Trauma: Propriozeption gestört, Tiefenschmerz kaudal der Läsion erhalten, nur leichte Parese",
+    palpation:
+      "Muskeltonus kaudal der Läsion noch weitgehend erhalten; spinale Reflexe auslösbar. Deutliche Schmerzreaktion bei Prüfung der Tiefenschmerzempfindung.",
+    hypothesisQ:
+      "Sam zeigt einen Verlust der Propriozeption bei noch erhaltener Tiefenschmerzempfindung und nur leichter motorischer Schwäche — was sagt diese Befundkombination über den Schweregrad der Rückenmarkkompression aus?",
+    hypothesisOptions: [
+      {
+        label:
+          "Es handelt sich um ein eher frühes/geringeres Stadium der Schädigung — die Propriozeption fällt zuerst aus, da die dafür zuständigen Bahnen am druckempfindlichsten sind, während der Verlust der Tiefenschmerzempfindung zuletzt und als schwerwiegendstes Zeichen eintritt",
+        correct: true,
+      },
+      {
+        label: "Da bereits ein Ausfall vorliegt, ist automatisch von einem totalen Querschnittsyndrom auszugehen",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Propriozeptionsverlust ist das erste, nicht das schwerste Zeichen in der Ausfallreihenfolge — ein totales Querschnittsyndrom würde zusätzlich motorische Ausfälle, erloschene Oberflächensensibilität und fehlende Tiefenschmerzempfindung bedeuten, die bei Sam gerade nicht vorliegen.",
+      },
+      {
+        label: "Die erhaltene Tiefenschmerzempfindung ist belanglos, solange die Propriozeption gestört ist",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die Tiefenschmerzempfindung ist im Gegenteil der prognostisch wichtigste Einzelbefund — ihr Erhalt spricht für ein geringeres Schädigungsausmaß und eine günstigere Prognose.",
+      },
+      {
+        label: "Die Ausfallreihenfolge ist zufällig und erlaubt keine Rückschlüsse auf den Schweregrad",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Die Ausfallreihenfolge ist im Gegenteil charakteristisch und systematisch — sie ist eine der wichtigsten Grundlagen, um den Schweregrad einer Rückenmarkkompression klinisch einzuschätzen.",
+      },
+    ],
+    expertNote:
+      "Mit zunehmender Traumatisierung fallen die Nervenbahnen in charakteristischer Reihenfolge aus: zuerst die Propriozeption (druckempfindlichste Bahnen), dann Parese/Paralyse der Willkürmotorik, dann die Oberflächensensibilität, zuletzt und am schwerwiegendsten die Tiefenschmerzempfindung. Die Lokalisation stützt sich zusätzlich auf Muskeltonus, Haltungs-/Stellreaktionen, spinale Reflexe sowie Harn-/Kotabsatzverhalten: Eine Schädigung des oberen Motoneurons zeigt eine spastische Lähmung kaudal der Kompression, eine Schädigung des unteren Motoneurons eine schlaffe Lähmung. Bei Läsionen kranial des 5. Lendenwirbels fehlt zunächst die willkürliche Blasenkontrolle, mit möglichem reflektorischem Ausgleich nach 7–10 Tagen.",
+    weakeningQ: "Welcher zusätzliche Befund würde bei Sam für eine Läsion des oberen statt des unteren Motoneurons sprechen?",
+    weakeningOptions: [
+      { label: "Eine spastische Lähmung kaudal der Kompression, statt einer schlaffen Lähmung", correct: true },
+      { label: "Eine schlaffe Lähmung kaudal der Kompression", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Ein vollständiges Erlöschen sämtlicher spinaler Reflexe als einziges aussagekräftiges Zeichen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Keine Aussage möglich, da der Muskeltonus keine Rückschlüsse auf die Lokalisation zulässt", correct: false, errorCategory: "Unterkonfidenz" },
+    ],
+    retrievalQ: "In welcher Reihenfolge fallen die Nervenbahnen bei zunehmender Rückenmarkkompression typischerweise aus?",
+    retrievalOptions: [
+      { label: "Propriozeption zuerst, dann Parese/Paralyse der Willkürmotorik, dann Oberflächensensibilität, zuletzt die Tiefenschmerzempfindung", correct: true },
+      { label: "Tiefenschmerzempfindung zuerst, Propriozeption zuletzt", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Oberflächensensibilität zuerst, dann sofort die Tiefenschmerzempfindung, Propriozeption bleibt unbeeinflusst", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Alle vier Qualitäten fallen bei jeder Rückenmarkkompression immer gleichzeitig aus", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitte Symptome und Lokalisationsbestimmung (siehe Wissenseintrag `rueckenmarkkompression-lokalisation-omn-umn-ausfallreihenfolge`). Die vier Schweregrade, die charakteristische Ausfallreihenfolge sowie die OMN-/UMN-Unterscheidung inkl. der zeitlich begrenzten Blasenfunktionsstörung sind in der Quelle so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "tilly",
+    topic: "Pathologie · Differentialdiagnostik (Rückenmarkkompression jenseits der Bandscheibe)",
+    species: "Deutsche Dogge, Hündin, 6 J.",
+    title: "Tilly — Hintergliedmaßen-Schwäche, aber auch Fieber und eine kürzliche Hautinfektion",
+    learningObjective:
+      "Verstehen, dass eine vermutete Rückenmarkkompression nicht vorschnell auf einen Bandscheibenvorfall zurückgeführt werden darf, bevor nichtkompressive und infektiöse/autoimmune Differentialdiagnosen aktiv ausgeschlossen wurden.",
+    anamnese:
+      "Tilly zeigt seit einigen Tagen eine zunehmende Schwäche der Hintergliedmaßen. Zusätzlich hatten die Besitzer vor zwei Wochen eine Hautinfektion bei Tilly bemerkt, und sie hat seit gestern Fieberschübe.",
+    beobachtung:
+      "Tilly zeigt eine Hintergliedmaßen-Schwäche mit Bewegungsunlust, zusätzlich wirkt sie matt und hat eine erhöhte Körpertemperatur. Der Rücken wird im betroffenen Bereich vorsichtig gehalten.",
+    diagramLabel: "Hintergliedmaßen-Schwäche seit Tagen, zusätzlich Fieberschübe und kürzliche Hautinfektion in der Vorgeschichte",
+    palpation:
+      "Lokal begrenzte Schmerzhaftigkeit im Lendenwirbelsäulenbereich, zusätzlich allgemein reduzierter Allgemeinzustand mit erhöhter Körpertemperatur.",
+    hypothesisQ: "Sollte bei Tilly ohne Weiteres von einem Bandscheibenvorfall als Ursache der Hintergliedmaßen-Schwäche ausgegangen werden?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nein — vor der endgültigen Diagnose müssen zunächst kompressive von nichtkompressiven Ursachen unterschieden werden; die Differentialdiagnosenliste reicht von Diskospondylitis über infektiöse Myelitiden bis Myasthenia gravis, und Tillys Fieber/Hautinfektion in der Vorgeschichte sprechen zusätzlich für eine aktive Suche nach einer infektiösen Ursache",
+        correct: true,
+      },
+      {
+        label: "Ja, da ein Bandscheibenvorfall die mit Abstand häufigste Ursache einer Hintergliedmaßen-Schwäche ist",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine vorschnelle Fixierung auf die häufigste Ursache kann eine adäquate Therapie verzögern — gerade Tillys zusätzliches Fieber und die kürzliche Hautinfektion sind Hinweise, die aktiv gegen diese Annahme sprechen und abgeklärt werden müssen.",
+      },
+      {
+        label: "Ja, sofern ein Leerröntgenbild unauffällig ist",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Leerröntgenbilder dienen primär dem Ausschluss bestimmter Differentialdiagnosen bei milden, konservativ behandelbaren Fällen — sie beweisen allein keinen Bandscheibenvorfall und ersetzen bei Verdacht auf eine infektiöse Ursache nicht die weitere Abklärung.",
+      },
+      {
+        label: "Nein, weitere Diagnostik ist grundsätzlich nicht notwendig, da die Prognose bei allen Ursachen ohnehin gleich bleibt",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Die verschiedenen Differentialdiagnosen (Diskospondylitis, infektiöse Myelitis, degenerative Myelopathie, Myasthenia gravis u. a.) unterscheiden sich fundamental in Therapie und Prognose — gerade deshalb ist eine gezielte Abklärung wichtig, nicht überflüssig.",
+      },
+    ],
+    expertNote:
+      "Bei Verdacht auf Rückenmarkkompression sind zwei Unterscheidungen entscheidend: erstens kompressive vs. nichtkompressive Läsionen, zweitens milde konservativ behandelbare vs. chirurgisch notfallmäßig zu behandelnde Fälle. Die Differentialdiagnosenliste umfasst u. a. Diskospondylitis (infektiöse Bandscheibenentzündung), Meningitis/granulomatöse Enzephalitis, infektiöse Myelitiden (Toxoplasmose, Neosporose, Staupe, Tollwut), fibrokartilaginäre Infarkte, degenerative Myelopathie, Polyneuropathien (z. B. Polyradikuloneuritis), ischämische Myopathie/Polymyositis sowie Myasthenia gravis. Bei milden Symptomen mit konservativem Plan dienen Leerröntgenbilder dem Ausschluss wichtiger Differentialdiagnosen; bei Verschlechterung oder stärkeren Symptomen ist eine unverzügliche Abklärung mittels Myelografie, CT oder MRT angezeigt.",
+    weakeningQ:
+      "Welches Vorgehen ist laut Quelle bei milden Kompressionssymptomen mit konservativem Therapieplan sinnvoll, um die wichtigsten Differentialdiagnosen auszuschließen?",
+    weakeningOptions: [
+      { label: "Leerröntgenbilder zum Ausschluss der wichtigsten Differentialdiagnosen", correct: true },
+      { label: "Direkt eine MRT-Untersuchung bei jedem milden Fall, unabhängig vom Verlauf", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+      { label: "Keine Bildgebung bei mildem Verlauf, da ohnehin konservativ behandelt wird", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ausschließlich ein Bluttest, ohne jede Form von Bildgebung", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+    ],
+    retrievalQ: "Welche Differentialdiagnosen müssen bei Verdacht auf Rückenmarkkompression laut Quelle mitbedacht werden?",
+    retrievalOptions: [
+      {
+        label: "U. a. Diskospondylitis, infektiöse Myelitiden, degenerative Myelopathie, Polyradikuloneuritis und Myasthenia gravis",
+        correct: true,
+      },
+      { label: "Ausschließlich der Bandscheibenvorfall als einzige relevante Differentialdiagnose", correct: false, errorCategory: "Differentialdiagnostik unvollständig" },
+      { label: "Ausschließlich orthopädische Erkrankungen der Hintergliedmaßen-Gelenke", correct: false, errorCategory: "Differentialdiagnostik unvollständig" },
+      { label: "Ausschließlich Tumorerkrankungen des Rückenmarks", correct: false, errorCategory: "Differentialdiagnostik unvollständig" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitte Differentialdiagnose und Diagnosesicherung (siehe Wissenseintrag `rueckenmarkkompression-differentialdiagnosen-nicht-nur-bandscheibe`). Die Differentialdiagnosen-Liste sowie die diagnostische Vorgehensweise (Leerröntgen vs. Schnittbildverfahren je nach Schweregrad) sind in der Quelle so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "hanno",
+    topic: "Untersuchung · Traumaprognose (Tiefenschmerz-Achtstundengrenze)",
+    species: "Jack Russell Terrier, Rüde, 3 J.",
+    title: "Hanno — nach dem Sturz kein Tiefenschmerz auslösbar, ist die Prognose jetzt schon klar?",
+    learningObjective:
+      "Verstehen, dass eine unmittelbar nach einem Wirbelsäulentrauma erloschene Tiefenschmerzreaktion die Prognose zunächst nur vorsichtig, nicht automatisch ungünstig macht — erst das Ausbleiben über mehr als 8 Stunden hinaus verschlechtert sie deutlich.",
+    anamnese:
+      "Hanno ist vor Kurzem aus großer Höhe gestürzt. Der Verdacht auf eine Rückenmarkbeteiligung im Bereich der Wirbelsäule besteht. Seit dem Sturz sind erst wenige Minuten vergangen.",
+    beobachtung:
+      "Unmittelbar nach dem Sturz ist bei Hanno keine Tiefenschmerzreaktion kaudal der vermuteten Läsion auslösbar. Das Röntgenbild zeigt keine eindeutige Wirbelverletzung.",
+    diagramLabel: "Unmittelbar posttraumatisch keine Tiefenschmerzreaktion auslösbar, Röntgenbild ohne eindeutigen Befund",
+    palpation:
+      "Keine Schmerzreaktion bei Prüfung der Tiefenschmerzempfindung kaudal der vermuteten Läsion; weitere neurologische Verlaufskontrolle ist in den kommenden Stunden vorgesehen.",
+    hypothesisQ:
+      "Unmittelbar nach Hannos Sturz ist keine Tiefenschmerzreaktion kaudal der vermuteten Läsion auslösbar — was bedeutet das für die Prognose?",
+    hypothesisOptions: [
+      {
+        label:
+          "Die Prognose ist zu diesem frühen Zeitpunkt noch vorsichtig, aber nicht zwingend ungünstig — erst wenn die Tiefenschmerzreaktion auch mehr als 8 Stunden nach dem Trauma weiterhin fehlt, verschlechtert sich die Prognose deutlich",
+        correct: true,
+      },
+      {
+        label: "Die Prognose ist bereits jetzt sicher ungünstig",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine unmittelbar nach dem Trauma erloschene Tiefenschmerzreaktion gilt laut Quelle als „vorsichtig\", nicht als „ungünstig\" — die ungünstige Einstufung gilt erst, wenn die Reaktion auch über 8 Stunden hinaus weiterhin fehlt.",
+      },
+      {
+        label: "Das Röntgenbild liefert die zuverlässigere Prognoseeinschätzung und sollte vorrangig herangezogen werden",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die Prognose richtet sich vor allem nach der neurologischen Eingangsuntersuchung, nicht in erster Linie nach dem Röntgenbild, das die Schwere der Schädigung gelegentlich unterschätzen kann.",
+      },
+      {
+        label: "Da Hanno noch jung ist, ist von einer automatisch günstigen Prognose auszugehen",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Die Prognose richtet sich nach dem konkreten neurologischen Befund (Muskeltonus, Tiefenschmerzreaktion und deren zeitlichem Verlauf), nicht nach dem Alter des Patienten allein.",
+      },
+    ],
+    expertNote:
+      "Die Prognose nach einem Wirbelsäulentrauma richtet sich vor allem nach der neurologischen Eingangsuntersuchung, insbesondere der Tiefenschmerzreaktion kaudal der Läsion — nicht in erster Linie nach dem Röntgenbild. Drei Zeitfenster/Befundkonstellationen: erhaltener Muskeltonus und/oder deutliche Tiefenschmerzreaktion = günstig bei rascher, adäquater Therapie; unmittelbar nach Trauma erloschene Reaktion = vorsichtig; Reaktion auch über 8 Stunden hinaus weiterhin abwesend = ungünstig. Die wiederholte Tiefenschmerzprüfung ist deshalb eine der wichtigsten Verlaufskontrollen der Akutphase.",
+    weakeningQ: "Welcher Befund würde bei Hanno am ehesten für eine günstige Prognose sprechen?",
+    weakeningOptions: [
+      { label: "Erhaltener Muskeltonus und/oder eine deutliche Tiefenschmerzreaktion kaudal der Läsion, sofern rasch und adäquat therapiert wird", correct: true },
+      { label: "Eine unmittelbar nach dem Trauma erloschene Tiefenschmerzreaktion, unabhängig vom weiteren Verlauf", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein über mehr als 8 Stunden hinweg weiterhin fehlender Tiefenschmerz", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein unauffälliges Röntgenbild allein, unabhängig vom neurologischen Befund", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche drei Zeitfenster/Befundkonstellationen unterscheidet die Quelle bei der prognostischen Einschätzung nach Wirbelsäulentrauma?",
+    retrievalOptions: [
+      {
+        label:
+          "Erhaltener Muskeltonus/Tiefenschmerz = günstig; unmittelbar erloschene Reaktion = vorsichtig; über 8 Stunden hinaus weiterhin abwesende Reaktion = ungünstig",
+        correct: true,
+      },
+      { label: "Nur zwei Stufen: Tiefenschmerz vorhanden oder nicht vorhanden, ohne Zeitbezug", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Die Prognose hängt ausschließlich vom Zeitpunkt des ersten Röntgenbilds ab", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Eine erloschene Tiefenschmerzreaktion ist immer, unabhängig vom Zeitverlauf, gleich zu bewerten", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Luxationen/Frakturen/Frakturluxationen — Prognose (siehe Wissenseintrag `wirbelsaeulentrauma-8-stunden-tiefenschmerz-prognosegrenze`). Die drei prognostischen Stufen sowie der Hinweis, dass das Röntgenbild gelegentlich täuschen kann, sind in der Quelle so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "luzie",
+    topic: "Untersuchung · Frakturdiagnostik (Kardinalsymptome und Fissur)",
+    species: "Whippet, Hündin, 2 J.",
+    title: "Luzie — plötzliche hochgradige Lahmheit, aber keines der klassischen Frakturzeichen",
+    learningObjective:
+      "Verstehen, dass das Fehlen aller drei Kardinalsymptome (Achsenbrechung, abnorme Beweglichkeit, Krepitation) eine Fraktur nicht sicher ausschließt — insbesondere bei einer Fissur, die definitionsgemäß keines der drei Zeichen zeigt.",
+    anamnese:
+      "Luzie ist vor Kurzem bei einem ungeschickten Sprung ungünstig aufgekommen. Seitdem zeigt sie eine plötzlich aufgetretene, hochgradige Lahmheit am Unterschenkel.",
+    beobachtung:
+      "Luzie belastet die betroffene Hintergliedmaße praktisch nicht und zeigt deutliche Schmerzäußerung bei Annäherung an das betroffene Bein.",
+    diagramLabel: "Plötzliche, hochgradige Lahmheit am Unterschenkel nach ungeschicktem Sprung",
+    palpation:
+      "Keine Achsenabweichung erkennbar, keine abnorme Beweglichkeit an einer physiologisch unbeweglichen Stelle feststellbar, keine Krepitation auslösbar — alle drei klassischen Kardinalsymptome fehlen.",
+    hypothesisQ: "Schließt das Fehlen aller drei Kardinalsymptome (Achsenbrechung, abnorme Beweglichkeit, Krepitation) bei Luzie eine Fraktur sicher aus?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nein — je nach Knochen, Lokalisation und Frakturform kann auch nur eines oder keines der drei Kardinalsymptome nachweisbar sein; insbesondere die Fissur (ein Haarriss ohne Fragmentverlagerung) zeigt definitionsgemäß keines der drei Zeichen",
+        correct: true,
+      },
+      {
+        label: "Ja, das Fehlen aller drei Kardinalsymptome schließt eine Fraktur sicher aus",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Ein fehlender Kardinalsymptom-Befund ist ein schwaches, aber kein beweisendes Ausschlusskriterium — Krepitation kann z. B. bei vollständig dislozierten Fragmenten, interponierten Weichteilen, kleinen Knochen oder straffer Einbettung ausbleiben, obwohl eine Fraktur vorliegt.",
+      },
+      {
+        label: "Nur wenn zusätzlich eine deutliche Schwellung sichtbar ist, kann überhaupt von einer Fraktur ausgegangen werden",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Eine sichtbare Schwellung ist kein in der Quelle genanntes Entscheidungskriterium für oder gegen eine Fraktur — maßgeblich ist bei unauffälligem Kardinalsymptom-Befund stattdessen die plötzlich aufgetretene, hochgradige Lahmheit selbst.",
+      },
+      {
+        label: "Die plötzlich aufgetretene, hochgradige Lahmheit ist bei unauffälligem Kardinalsymptom-Befund ohne weitere diagnostische Bedeutung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Genau dieser Symptomkombination kommt bei unauffälligem Kardinalsymptom-Befund die eigentliche differentialdiagnostische Bedeutung zu — sie begründet unabhängig vom Ausfall der drei Kardinalsymptome den Verdacht auf eine Fraktur oder Fissur.",
+      },
+    ],
+    expertNote:
+      "Die drei klassischen Kardinalsymptome einer Fraktur sind abnorme Achsenbrechung, abnorme Beweglichkeit an physiologisch unbeweglicher Stelle und Krepitation. Krepitation kann u. a. ausbleiben bei vollständig oder gar nicht dislozierten Fragmenten, interponierten Weichteilen, sehr kleinen Knochen oder straffer Einbettung in umgebendes Gewebe. Die Fissur — die leichteste Form einer unvollständigen Fraktur, ein Haarriss ohne Fragmentverlagerung — zeigt definitionsgemäß keines der drei Kardinalsymptome, fällt aber klinisch durch plötzlich aufgetretene, hochgradige Lahmheit und deutliche Schmerzhaftigkeit auf. Diese Symptomkombination begründet unabhängig vom Kardinalsymptom-Befund die Indikation zur Röntgenuntersuchung; die weitere Untersuchung muss dann besonders vorsichtig erfolgen.",
+    weakeningQ: "Welche Faktoren können laut Quelle dazu führen, dass Krepitation trotz bestehender Fraktur nicht auslösbar ist?",
+    weakeningOptions: [
+      { label: "Vollständig dislozierte oder gar nicht dislozierte Fragmente, interponierte Weichteile, sehr kleine Knochen, oder straffe Einbettung des Knochens ins umgebende Gewebe", correct: true },
+      { label: "Krepitation bleibt ausschließlich dann aus, wenn überhaupt keine Fraktur vorliegt", correct: false, errorCategory: "Überkonfidenz" },
+      { label: "Krepitation ist bei jeder Fraktur unabhängig von Lokalisation und Frakturform immer sicher auslösbar", correct: false, errorCategory: "Überkonfidenz" },
+      { label: "Nur das Alter des Patienten beeinflusst, ob Krepitation auslösbar ist", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    retrievalQ: "Was ist eine Fissur, und welche Kardinalsymptome zeigt sie?",
+    retrievalOptions: [
+      { label: "Die leichteste Form einer unvollständigen Fraktur, ein Haarriss ohne Fragmentverlagerung — definitionsgemäß fehlen alle drei Kardinalsymptome", correct: true },
+      { label: "Eine vollständige Fraktur mit starker Fragmentverlagerung und immer deutlicher Krepitation", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Eine Gelenkluxation ohne Beteiligung des Knochens selbst", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Ein Synonym für eine komplette Querfraktur mit Achsenabweichung", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 6.6.4 „Untersuchung von Knochen\" (Kapitelautoren Kofler/Lischer/Rheinfeld/Kramer/Pees), S. 203f. (siehe Wissenseintrag `fraktur-kardinalsymptome-diagnostische-grenzen`). Die drei Kardinalsymptome, die Faktoren für ausbleibende Krepitation, die Fissur-Definition sowie die daraus resultierende Handlungskonsequenz sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "pepe",
+    topic: "Untersuchung · Hüftflexoren-Differenzierung (M. rectus femoris)",
+    species: "Beagle, Rüde, 5 J.",
+    title: "Pepe — vermeidet Treppauf- und Treppablaufen gleichermaßen",
+    learningObjective:
+      "Den M. rectus femoris anhand der Gelenkkombination (Hüftextension UND Kniegelenksflexion eingeschränkt) von M. iliopsoas, M. tensor fasciae latae und M. sartorius unterscheiden — und erkennen, warum seine Ansatzreizung sowohl Treppauf- als auch Treppablaufen erschwert.",
+    anamnese:
+      "Pepe meidet seit einigen Wochen sowohl das Treppauf- als auch das Treppablaufen gleichermaßen, was den Besitzern aufgefallen ist, da er früher beides problemlos bewältigte.",
+    beobachtung:
+      "Pepe zeigt eine eingeschränkte Hüftextension, die auffällig mit einer gleichzeitigen Kniegelenksflexion einhergeht. Beim Versuch, ihn zur Treppe zu führen, weicht er aus.",
+    diagramLabel: "Vermeidung von Treppauf- UND Treppablaufen, Hüftextension mit gleichzeitiger Kniebeugung eingeschränkt",
+    palpation:
+      "Deutliche Schmerzreaktion bei Palpation entlang des M. rectus femoris vom Ursprung an der Spina iliaca ventralis caudalis bis zum Ansatz am Lig. patellae; die übrigen Hüftflexoren sind palpatorisch unauffällig.",
+    hypothesisQ:
+      "Welcher Hüftflexor ist bei Pepe anhand der eingeschränkten Hüftextension mit gleichzeitiger Kniegelenksflexion sowie der Vermeidung von sowohl Treppauf- als auch Treppablaufen am ehesten betroffen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Der M. rectus femoris — er zieht über Hüft- und Kniegelenk gleichzeitig, daher ist bei seiner Beteiligung die Hüftextension mit gleichzeitiger Kniebeugung eingeschränkt, und eine Ansatzreizung am Lig. patellae führt typischerweise dazu, dass sowohl Treppauf- (konzentrisch) als auch Treppablaufen (exzentrisch) vermieden wird",
+        correct: true,
+      },
+      {
+        label: "Der M. iliopsoas, da er der wichtigste Hüftflexor ist",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Der M. iliopsoas zieht nicht über das Kniegelenk — eine gleichzeitige Kniegelenksflexion bei eingeschränkter Hüftextension passt nicht zu seiner Anatomie, sondern spezifisch zum zweigelenkigen M. rectus femoris.",
+      },
+      {
+        label: "Der M. tensor fasciae latae, da zusätzlich die Hüftadduktion eingeschränkt ist",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Bei Pepe ist keine eingeschränkte Hüftadduktion beschrieben, sondern eine eingeschränkte Kniegelenksflexion — genau das spricht gegen den M. tensor fasciae latae und für den M. rectus femoris.",
+      },
+      {
+        label: "Der M. sartorius, da er oberflächlich am leichtesten zu palpieren ist",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Die leichte Palpierbarkeit ist kein Differenzierungskriterium laut Quelle — entscheidend ist die konkrete Gelenkkombination der Bewegungseinschränkung, die bei Pepe auf den M. rectus femoris hinweist.",
+      },
+    ],
+    expertNote:
+      "Ist der M. rectus femoris (statt M. iliopsoas) verantwortlich, ist die Hüftextension stärker eingeschränkt mit gleichzeitiger Kniegelenksflexion, da der Muskel über beide Gelenke zieht. Er liegt nicht oberflächlich (kranial vom M. sartorius, lateral vom M. tensor fasciae latae bzw. M. vastus lateralis bedeckt) und wird vom Ursprung an der Spina iliaca ventralis caudalis bis zum Lig. patellae palpiert. Er ist häufig von einer Ansatzreizung am Lig. patellae betroffen — betroffene Hunde laufen dann weder gerne treppab/bergab (exzentrische Belastung) noch treppauf/bergauf (konzentrische Belastung), da beides Schmerzen im Muskel verursacht. Ist stattdessen der M. tensor fasciae latae (statt M. sartorius) verantwortlich, ist zusätzlich die Hüftadduktion stärker eingeschränkt.",
+    weakeningQ: "Wie wird der M. rectus femoris korrekt palpiert, um den Befund bei Pepe zu bestätigen?",
+    weakeningOptions: [
+      { label: "Vom Ursprung an der Spina iliaca ventralis caudalis bis zum Lig. patellae, wobei der Muskel kranial vom M. sartorius und lateral vom M. tensor fasciae latae bedeckt liegt", correct: true },
+      { label: "In Hüftflexion/-außenrotation medialseitig am Ansatz, tief ventral der Procc. transversi der LWS", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Vom Tuber coxae bis zur Fascia lata, als oberflächlicher Strang", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Vom Tuber coxae/der Crista iliaca bis zur Medialseite der Tibia", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    retrievalQ: "Welches Differenzierungsmerkmal unterscheidet eine Problematik des M. tensor fasciae latae von einer des M. sartorius bei eingeschränkter Hüftextension?",
+    retrievalOptions: [
+      { label: "Ist der M. tensor fasciae latae betroffen, ist zusätzlich die Hüftadduktion stärker eingeschränkt", correct: true },
+      { label: "Ist der M. sartorius betroffen, ist zusätzlich die Kniegelenksflexion stärker eingeschränkt", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Beide Muskeln lassen sich anhand der Bewegungseinschränkung nicht unterscheiden", correct: false, errorCategory: "Unterkonfidenz" },
+      { label: "Nur die Palpationstiefe, nicht die Bewegungseinschränkung, unterscheidet beide Muskeln", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.3.1 (Spezifische Untersuchung Hüftflexoren), S. 50–53 (siehe Wissenseintrag `hueftflexoren-untersuchung-differenzierung`). Die Differenzierungslogik, die Palpationswege und die Schmerzprovokation sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "wilma",
+    topic: "Therapie · Prävention (Aufwärmen und Abkühlen)",
+    species: "Border Collie, Hündin, 4 J.",
+    title: "Wilma — Muskelzerrung direkt zu Trainingsbeginn ohne Aufwärmen",
+    learningObjective:
+      "Verstehen, warum ein fehlendes Aufwärmprogramm die Verletzungsgefahr durch Überdehnen oder Zerren von Muskulatur und Bandapparat deutlich erhöht — und welche Schritte ein wirksames Aufwärmen tatsächlich umfasst.",
+    anamnese:
+      "Wilma ist ein Agility-Hund. Die Besitzerin steigt regelmäßig direkt aus dem Auto und beginnt sofort mit dem vollen Trainingsparcours, ohne vorheriges Aufwärmen. Heute hat sich Wilma dabei eine Muskelzerrung zugezogen.",
+    beobachtung:
+      "Wilma zeigt eine plötzlich aufgetretene Lahmheit kurz nach Trainingsbeginn, mit Schmerzäußerung bei Belastung der betroffenen Gliedmaße.",
+    diagramLabel: "Akute Muskelzerrung kurz nach Trainingsbeginn, kein vorheriges Aufwärmen durchgeführt",
+    palpation:
+      "Druckschmerzhafte, leicht verhärtete Muskulatur im betroffenen Bereich, vereinbar mit einer akuten Zerrung.",
+    hypothesisQ: "Was hat am ehesten zu Wilmas Muskelzerrung beigetragen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Das Fehlen einer Aufwärmphase — ohne Aufwärmen ist die Muskulatur schlechter durchblutet, steifer und reagiert empfindlicher auf Überdehnung oder Zerrung als nach einer schrittweisen Vorbereitung",
+        correct: true,
+      },
+      {
+        label: "Agility-Training ist grundsätzlich zu intensiv für Hunde und sollte generell vermieden werden",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Die Quelle stellt nicht die Sportart selbst infrage, sondern die fehlende Vorbereitung darauf — ein angemessenes Aufwärmprogramm senkt die Verletzungsgefahr erheblich, ohne dass das Training selbst vermieden werden müsste.",
+      },
+      {
+        label: "Muskelzerrungen entstehen rein zufällig und lassen sich durch kein Verhalten des Besitzers beeinflussen",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Ein strukturiertes Aufwärmprogramm reduziert die Verletzungsgefahr durch Überdehnen oder Zerren nachweislich — das Verhalten des Besitzers (Aufwärmen oder nicht) hat damit direkten Einfluss auf das Verletzungsrisiko.",
+      },
+      {
+        label: "Ein einmaliges kurzes Strecken direkt nach dem Aussteigen allein reicht als vollständiges Aufwärmprogramm aus",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Das Strecken ist nur der erste Schritt eines mehrteiligen Ablaufs — Anwärm-Massage, eine eigentliche Aufwärmrunde (ca. 10 Minuten Schritt/Joggen mit Tempowechseln) sowie abschließende Dehnung gehören ebenfalls dazu.",
+      },
+    ],
+    expertNote:
+      "Aufwärmen bereitet den Organismus schrittweise auf die bevorstehende Anstrengung vor: Sauerstoffversorgung und Energiegewinnung der Muskulatur nehmen zu, die Muskulatur wird weich, Synovia wird gut verteilt und neu produziert. Praktischer Ablauf: den Hund sich erst strecken lassen, kurze Anwärm-Massage (großflächige Streichungen, Klopfmassage, zirkuläre Streichungen an den Beinen), dann eine eigentliche Aufwärmrunde (ca. 10 Minuten Schritt/leichtes Joggen, Tempowechsel und Wendungen), abschließend Gehorsamsübungen und Dehnung von Schulter-/Beckengliedmaßen. Hyperaktive Hunde brauchen eine längere ruhige Phase vorab, im Winter generell mindestens 10–15 Minuten im Schritt. Wichtig: Kühlt der Hund in einer Pause wieder ab, muss die gesamte Aufwärmphase von vorn beginnen.",
+    weakeningQ: "Was passiert, wenn Wilma während einer Trainingspause zwischendurch wieder abkühlt, bevor das Training fortgesetzt wird?",
+    weakeningOptions: [
+      { label: "Die gesamte Aufwärmphase muss von vorn beginnen", correct: true },
+      { label: "Das Training kann sofort auf vollem Niveau fortgesetzt werden, da bereits einmal aufgewärmt wurde", correct: false, errorCategory: "Überkonfidenz" },
+      { label: "Eine kurze erneute Streckung genügt, um den ursprünglichen Aufwärmzustand wiederherzustellen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Abkühlen in der Pause hat keinerlei Einfluss auf die weitere Trainingseinheit", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Wie sollte eine Trainingseinheit laut Quelle nach intensiver Bewegung abgeschlossen werden?",
+    retrievalOptions: [
+      {
+        label:
+          "Mit 5–10 Minuten ruhiger, lockerer Bewegung (zuerst langsames Joggen, dann eine Runde im Schritt), bevor der Hund ins Auto oder in die Box kommt — ein zu rascher Pulsabfall kann sonst zu einer Ansammlung des peripheren Blutvolumens führen",
+        correct: true,
+      },
+      { label: "Durch sofortiges Hinlegen des Hundes direkt nach der letzten Übung, ohne weitere Bewegung", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ein Abkühlen ist nach dem Training nicht notwendig, nur das Aufwärmen davor zählt", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Durch sofortiges Eintauchen in kaltes Wasser zur schnellstmöglichen Abkühlung", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 5. Auflage 2022, Kap. 4.3.5–4.3.6 (Aufwärmen, Abkühlen), S. 65–67 (siehe Wissenseintrag `aufwaermen-abkuehlen-hund`). Die physiologische Begründung, der beschriebene Ablauf, die Winterregel sowie die Abkühl-Empfehlung sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "dax",
+    topic: "Therapie · Reflextraining (RITA bei schlaffer Parese)",
+    species: "Dackel, Rüde, 6 J.",
+    title: "Dax — schlaffe Parese nach Bandscheibenvorfall, sollen die Reflexreize öfter ausgelöst werden?",
+    learningObjective:
+      "Verstehen, dass RITA (Reflexinduziertes Training nach Alexander) die Sensitivierung der Fremdreflexe gezielt nutzt, aber auf drei- bis fünfmalige Auslösung pro Anwendung begrenzt bleiben muss — eine häufigere Wiederholung steigert den Effekt nicht proportional, sondern erzeugt nur unnötigen Stress.",
+    anamnese:
+      "Dax hat nach einem Bandscheibenvorfall eine schlaffe Parese der Hintergliedmaßen entwickelt. Die Reflextätigkeit ist noch erhalten, die willkürliche Bewegung ist ausgefallen. RITA wird zur Simulation der Gehbewegung eingesetzt. Die Besitzer möchten die Flexorreflex-Auslösung deutlich häufiger als empfohlen wiederholen, um den Trainingseffekt zu beschleunigen.",
+    beobachtung:
+      "Dax zeigt eine schlaffe Parese der Hintergliedmaßen ohne Willkürbewegung, reagiert aber auf die Reizung der Zwischenzehenhaut mit einer auslösbaren Flexorreflex-Antwort.",
+    diagramLabel: "Schlaffe Hintergliedmaßen-Parese nach Bandscheibenvorfall, Reflextätigkeit noch erhalten",
+    palpation:
+      "Auslösbarer Flexorreflex bei Reizung der Zwischenzehenhaut sowie Extensorreflex bei Anregung der Pfotenballen-Tastorgane; Muskelmasse der Hintergliedmaßen noch weitgehend erhalten.",
+    hypothesisQ:
+      "Sollten Dax' Besitzer die Flexorreflex-Auslösung beim RITA deutlich häufiger als drei- bis fünfmal pro Anwendung wiederholen, um den Trainingseffekt zu beschleunigen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nein — die Technik sollte pro Anwendung nicht wesentlich häufiger als drei- bis fünfmal ausgelöst werden; die zugrunde liegende Reflexsensitivierung wird bereits nach drei- bis fünfmaliger rascher Auslösung messbar, eine beliebig häufigere Wiederholung würde nur unnötigen Stress erzeugen, ohne den Trainingseffekt proportional zu steigern",
+        correct: true,
+      },
+      {
+        label: "Ja, da mehr Wiederholungen automatisch zu einem proportional stärkeren Trainingseffekt führen",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Die Sensitivierung (verkürzte Reflexzeit, gesenkte Reflexschwelle) ist bereits nach drei- bis fünfmaliger rascher Auslösung messbar — eine weitere Steigerung der Wiederholungszahl steigert den Effekt nicht proportional weiter, sondern erzeugt nur zusätzlichen Stress.",
+      },
+      {
+        label: "Ja, solange Dax dabei keine erkennbare Schmerzreaktion zeigt",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Der Flexorreflex verläuft über die Schmerzbahnen — Tiere gewöhnen sich in der Regel an die Prozedur, das rechtfertigt aber keine beliebig häufige Wiederholung über die empfohlene Reizhäufigkeit hinaus.",
+      },
+      {
+        label: "RITA ist bei schlaffer Parese ohnehin wirkungslos, da die Willkürbewegung bereits ausgefallen ist",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "RITA erreicht gerade bei Patienten mit schlaffer Parese Muskelkontraktionen, solange die Reflextätigkeit selbst noch erhalten ist — auch dann, wenn die willkürliche Bewegung bereits ausgefallen ist.",
+      },
+    ],
+    expertNote:
+      "Bei RITA werden Flexorreflex (schmerzhafte Reizung der Zwischenzehenhaut) und Extensorreflex (Anregung der Pfotenballen-Tastorgane durch Reiben) im Wechsel ausgelöst, um eine simulierte Gehbewegung zu erzeugen — wirksam auch bei schlaffer Parese, solange die Reflextätigkeit erhalten ist. Beide sind polysynaptische Fremdreflexe und unterliegen den Sherrington-Gesetzen: Summation, Sensitivierung (verkürzte Reflexzeit, gesenkte Reflexschwelle) und Irradiation (zunehmender Reizerfolg bei steigender Intensität), messbar bereits nach drei- bis fünfmaliger rascher Auslösung. Ziel ist mindestens der Erhalt vorhandener Muskelmasse, im besten Fall die Förderung motorischen Lernens. Die Technik sollte pro Anwendung nicht wesentlich häufiger als drei- bis fünfmal ausgelöst werden.",
+    weakeningQ: "Welche physiologischen Effekte treten bei wiederholter RITA-Reflexauslösung laut den Sherrington-Gesetzen auf?",
+    weakeningOptions: [
+      { label: "Summation, Sensitivierung (verkürzte Reflexzeit, gesenkte Reflexschwelle) und Irradiation (zunehmender Reizerfolg bei steigender Intensität)", correct: true },
+      { label: "Eine vollständige Habituation, bei der der Reflex nach wenigen Wiederholungen komplett erlischt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Keinerlei messbare Veränderung, unabhängig von der Wiederholungszahl", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Eine Umwandlung des Fremdreflexes in einen monosynaptischen Eigenreflex", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    retrievalQ: "Wie wird bei RITA die simulierte Gehbewegung im Wechsel ausgelöst?",
+    retrievalOptions: [
+      { label: "Durch schmerzhafte Reizung der Zwischenzehenhaut (Flexorreflex) im Wechsel mit Anregung der Pfotenballen-Tastorgane durch Reiben (Extensorreflex)", correct: true },
+      { label: "Durch passives Durchbewegen aller Gliedmaßengelenke ohne jeden Reflexbezug", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+      { label: "Durch elektrische Stimulation der Muskulatur ohne Beteiligung von Hautreflexen", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Durch alleinige passive Belastung im Unterwasserlaufband", correct: false, errorCategory: "Untersuchung falsch gewählt" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken\". In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 11, Abschnitt „Reflexinduziertes Training nach Alexander (RITA)\" (siehe Wissenseintrag `rita-reflexinduziertes-training-alexander-fremdreflexe`). Das Verfahren, der Reflexmechanismus, die Sherrington-Gesetze sowie die Anwendungshinweise zur Reizhäufigkeit sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "cora",
+    topic: "Untersuchung · Adspektion (Rute als Taktgeber)",
+    species: "Australian Shepherd, Hündin, 5 J.",
+    title: "Cora — unauffälliges Gangbild, aber die Rute scheint den Takt vorzugeben",
+    learningObjective:
+      "Erkennen, dass eine Rute, die den Bewegungsrhythmus der Hinterhand mitzubestimmen scheint (statt nur passiv mitzuschwingen), ein konkretes Warnsignal für eine LWS-Problematik ist — Teil der gezielten Adspektionskriterien, kein Zufallsbefund.",
+    anamnese:
+      "Cora wird zur Routinekontrolle vorgestellt. Auf den ersten Blick wirkt ihr Gangbild unauffällig, den Besitzern ist aber aufgefallen, dass sich ihre Rute beim Laufen anders bewegt als früher.",
+    beobachtung:
+      "Bei genauer Adspektion scheint die Hinterhandbewegung dem Rutentakt zu folgen, statt dass die Rute nur passiv mitschwingt. Im Ansatzbereich wird die Rute zudem auffällig steif gehalten.",
+    diagramLabel: "Rute wirkt beim Gangbild als Taktgeber statt als passiv mitschwingender Körperteil, steife Haltung im Ansatzbereich",
+    palpation:
+      "Keine offensichtliche Schmerzreaktion bei grober Palpation der Hinterhand; die Auffälligkeit zeigt sich ausschließlich in der Bewegungsadspektion der Rute.",
+    hypothesisQ: "Was bedeutet es, wenn Coras Rute bei der Adspektion als „Taktgeber\" statt als passiv mitschwingender Körperteil wirkt?",
+    hypothesisOptions: [
+      {
+        label:
+          "Es ist ein konkretes Warnsignal für eine LWS-Problematik — kein Zufallsbefund am Rande der eigentlichen Untersuchung, sondern Teil der gezielten Adspektionskriterien der Wirbelsäule",
+        correct: true,
+      },
+      {
+        label: "Es handelt sich um eine belanglose Verhaltenseigenheit ohne diagnostischen Wert",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die Rute als Taktgeber ist explizit als gezieltes Warnsignal für LWS-Problematiken beschrieben — kein beliebiger Verhaltensaspekt, sondern ein diagnostisch relevanter Adspektionsbefund.",
+      },
+      {
+        label: "Das betrifft ausschließlich die Rute selbst, ohne Bezug zur übrigen Wirbelsäule",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Viele Problematiken der LWS lassen sich gezielt an der Rutenbewegung erkennen — die Rute wird hier als Indikator für ein Problem der Lendenwirbelsäule gewertet, nicht als isoliertes, eigenständiges Problem.",
+      },
+      {
+        label: "Nur eine Lateralflexion der Rute wäre relevant, die Taktgeber-Funktion selbst ist ohne Bedeutung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Beide Auffälligkeiten — die Taktgeber-Funktion und Haltungsauffälligkeiten wie Lateralflexion/Rotation — sind laut Quelle relevante Warnsignale, nicht nur eines davon.",
+      },
+    ],
+    expertNote:
+      "Viele Wirbelsäulenproblematiken lassen sich bereits bei genauer Betrachtung der Alltagsbewegungen (Aufstehen, Hinlegen, Gehen, Traben, Galoppieren) erkennen: Flüssigkeit des Bewegungsablaufs, vermiedene Bewegungen/Tempi, Bewegung von Wirbelsäule/Becken/SIG in Gesamtheit und Einzelabschnitten, Rutenbewegung/-haltung sowie das Haarkleid im Bereich der Wirbelsäule (Veränderungen der Hauttrophik oder „Stellung\" des Haarkleides zeigen sich häufig genau im Bereich des eigentlichen Problems). Verdächtig ist es, wenn die Rute als „Taktgeber\" der Hinterhandbewegung fungiert, statt nur passiv mitzuschwingen, oder vor allem im Ansatzbereich auffällig steif gehalten wird. Ergänzend sind Lateralflexion und/oder Rotation der Rute in eine bestimmte Richtung zu beachten.",
+    weakeningQ: "Welche weiteren Aspekte gehören laut Quelle zur gezielten Adspektion der Wirbelsäule bei den Alltagsbewegungen?",
+    weakeningOptions: [
+      { label: "Flüssigkeit des Bewegungsablaufs, vermiedene Bewegungen/Tempi, Bewegung von Wirbelsäule/Becken/SIG sowie das Haarkleid im Bereich der Wirbelsäule", correct: true },
+      { label: "Ausschließlich die Körpertemperatur des Hundes während der Bewegung", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ausschließlich die Fellfarbe, unabhängig von Struktur oder Trophik", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ausschließlich die Atemfrequenz während der Bewegung", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    retrievalQ: "Welche Haltungsauffälligkeiten der Rute sind laut Quelle zusätzlich zur Taktgeber-Funktion zu beachten?",
+    retrievalOptions: [
+      { label: "Lateralflexion und/oder Rotation der Rute in eine bestimmte Richtung sowie eine auffällig steife Haltung im Ansatzbereich", correct: true },
+      { label: "Ausschließlich eine vollständig schlaff herabhängende Rute ohne jede Eigenspannung", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ausschließlich die absolute Rutenlänge im Vergleich zur Rasse", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Haltungsauffälligkeiten der Rute haben laut Quelle keine eigenständige diagnostische Bedeutung", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.4.1, S. 109f. (siehe Wissenseintrag `adspektion-wirbelsaeule-rute-taktgeber-warnsignal`). Die Adspektionskriterien sowie die Einordnung der Rute als „Taktgeber\"-Warnsignal samt der Haltungsauffälligkeiten sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "ferdi",
+    topic: "Pathologie · Differentialdiagnostik (Lahmheit vs. Lähmung Vordergliedmaße)",
+    species: "Golden Retriever, Rüde, 9 J.",
+    title: "Ferdi — unklare Lahmheit der Vordergliedmaße, Schulter oder doch der Hals?",
+    learningObjective:
+      "Verstehen, dass im Bereich der tiefen Halswirbelsäule und des Plexus brachialis orthopädische und neurologische Strukturen so eng beieinanderliegen, dass derselbe Befund mehrere grundverschiedene Diagnosen erklären kann — eine voreilige Schlussfolgerung allein aus der Palpation ist daher riskant.",
+    anamnese:
+      "Ferdi zeigt seit mehreren Wochen eine unklare, schwankende Lahmheit der rechten Vordergliedmaße ohne eindeutigen Auslöser.",
+    beobachtung:
+      "Ferdi entlastet die rechte Vordergliedmaße zeitweise, zeigt aber kein eindeutig lokalisierbares Schonverhalten an einem einzelnen Gelenk.",
+    diagramLabel: "Schwankende, unklare Lahmheit der rechten Vordergliedmaße seit mehreren Wochen, kein eindeutiger Auslöser",
+    palpation:
+      "Schmerz bei tiefer Palpation im Bereich von Schulter und unterer Halswirbelsäule; die Befunde lassen sich nicht eindeutig einem einzelnen Gelenk oder Nerv zuordnen.",
+    hypothesisQ:
+      "Ferdis unklare Lahmheit der Vordergliedmaße könnte laut Quelle mehrere, grundverschiedene Ursachen haben — was ist der nächste sinnvolle Schritt, bevor eine Diagnose gestellt wird?",
+    hypothesisOptions: [
+      {
+        label:
+          "Weiterführende Bildgebung — konventionelles Röntgen bei Verdacht auf ein orthopädisches Leiden, bei Verdacht auf eine neurologische Ursache ist die MRT das Mittel der Wahl, da die relevanten Strukturen meist im Weichgewebe liegen; eine voreilige Schlussfolgerung allein aus Palpationsbefunden kann zu falscher Therapie führen",
+        correct: true,
+      },
+      {
+        label: "Eine Diagnose allein aus dem Palpationsbefund, da erfahrene Kliniker meist ohne Bildgebung auskommen",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Auch der erfahrene Kliniker kommt bei dieser diagnostisch tückischen Region meist nicht ohne weiterführende Bildgebung aus — eine voreilige Schlussfolgerung allein aus der Palpation kann zu falscher Therapie führen.",
+      },
+      {
+        label: "Da die Halswirbelsäule weit vom eigentlichen Lahmheitsort entfernt liegt, kann sie als Ursache von vornherein ausgeschlossen werden",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Im Bereich der tiefen Halswirbelsäule und des Plexus brachialis liegen orthopädische und neurologische Strukturen so eng beieinander, dass eine HWS-Ursache für eine Vordergliedmaßen-Lahmheit gerade nicht von vornherein ausgeschlossen werden darf.",
+      },
+      {
+        label: "Computertomografie als vorrangiges Mittel der Wahl bei Verdacht auf eine neurologische Ursache",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Bei Verdacht auf eine neurologische Ursache ist die MRT das Mittel der Wahl, da die meisten relevanten Strukturen im Weichgewebe liegen — die CT kommt erst in zweiter Linie zum Einsatz, da sie vor allem knöcherne Strukturen abbildet.",
+      },
+    ],
+    expertNote:
+      "Eine gründliche orthopädische/neurologische Untersuchung führt meist zu einer eindeutigen Zuordnung — zwei Regionen erschweren das aber gezielt: die kaudale Wirbelsäule mit Cauda equina/Becken, sowie die tiefe Halswirbelsäule mit dem Plexus brachialis an der Vordergliedmaße. Dort liegen orthopädische und neurologische Strukturen so eng beieinander, dass ein und derselbe Befund mehrere Diagnosen erklären kann. An der Vordergliedmaße können unklare Lahmheiten älterer Hunde ebenso gut Ellbogen-/Schulterarthrose oder Bizepstendinitis wie Muskeltraumata, eine Plexus-brachialis-Schädigung, ein Bandscheibenvorfall oder eine HWS-Instabilität sein. Konventionelles Röntgen bei orthopädischem Verdacht, MRT bei neurologischem Verdacht (Weichgewebe), CT erst in zweiter Linie (v. a. knöcherne Strukturen).",
+    weakeningQ: "Welche Differentialdiagnosen kommen bei Ferdis unklarer Lahmheit der Vordergliedmaße laut Quelle infrage?",
+    weakeningOptions: [
+      { label: "Ellbogen- oder Schulterarthrose, Bizepstendinitis, Muskeltraumata, eine Plexus-brachialis-Schädigung, ein Bandscheibenvorfall oder eine Instabilität der Halswirbelsäule", correct: true },
+      { label: "Ausschließlich eine Schulterarthrose, da sie bei älteren Hunden am häufigsten vorkommt", correct: false, errorCategory: "Differentialdiagnostik unvollständig" },
+      { label: "Ausschließlich Erkrankungen des Karpalgelenks", correct: false, errorCategory: "Differentialdiagnostik unvollständig" },
+      { label: "Ausschließlich Hauterkrankungen der betroffenen Gliedmaße", correct: false, errorCategory: "Differentialdiagnostik unvollständig" },
+    ],
+    retrievalQ: "Warum sind Becken-/Cauda-equina-Region und tiefe Halswirbelsäule/Plexus brachialis diagnostisch besonders tückisch?",
+    retrievalOptions: [
+      { label: "Weil orthopädische und neurologische Strukturen dort so eng beieinanderliegen, dass ein und derselbe Untersuchungsbefund mehrere völlig unterschiedliche Diagnosen erklären kann", correct: true },
+      { label: "Weil diese Regionen bei der klinischen Untersuchung grundsätzlich nicht zugänglich sind", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil dort nie neurologische Erkrankungen vorkommen, nur orthopädische", correct: false, errorCategory: "Differentialdiagnostik unvollständig" },
+      { label: "Weil dort ausschließlich altersunabhängige, angeborene Erkrankungen vorkommen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.1 (Abgrenzung zwischen Lahmheit und Lähmung), S. 230 (siehe Wissenseintrag `lahmheit-laehmung-abgrenzung`). Die Differentialdiagnosenlisten und die Bildgebungsempfehlung sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -8866,7 +9507,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Faktenwissen", "falsche Priorisierung"],
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 5. Auflage 2022, Kap. 4.3.5–4.3.6 (Aufwärmen, Abkühlen), S. 65–67. Physiologische Begründung, der beschriebene Ablauf (Strecken, Massage, Aufwärmrunde, Dehnung) sowie die Winterregel (10–15 Minuten) und die Abkühl-Empfehlung (5–10 Minuten) sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["wilma"],
     relatedAnatomyIds: [],
   },
   {
@@ -9950,7 +10591,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme), Abschnitt „Nervensystem\" (A. Jaggy/I. Kathmann), Unterabschnitt „Lokalisation: Peripheres Nervensystem (PNS)\". Die Mono-/Polyneuropathie-Definitionen samt Beispielen, die Unterscheidung Interstitium/Nervenfaser, die beiden Schädigungsmuster sowie das diagnostische Stufenschema sind im Original so beschrieben. Bewusst NICHT übernommen: die im Original anschließend besprochenen spezifischen Einzelkrankheiten (z. B. feline Aortenthrombose, Coonhound-Paralyse, diabetische Polyneuropathie) — diese sind entweder katzen- oder seltenheitsspezifisch und passen eher in eine spätere, gezielte Ergänzung als in diesen Grundlagen-Eintrag. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["nemo"],
     relatedAnatomyIds: [],
   },
   {
@@ -11948,7 +12589,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Anatomieverwechslung", "Befund überbewertet"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.1 (Abgrenzung zwischen Lahmheit und Lähmung), S. 230. Differentialdiagnosenlisten und Bildgebungsempfehlung sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["ferdi"],
     relatedAnatomyIds: ["iliopsoas", "huefte", "rueckenmark"],
   },
   {
@@ -12349,7 +12990,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 7.3.1 (Spezifische Untersuchung Hüftflexoren), S. 50–53. Differenzierungslogik, Palpationswege und Schmerzprovokation sind im Original so beschrieben. Die dort ebenfalls beschriebenen Dehnungs-/Massage-/Deep-friction-Behandlungstechniken je Muskel sind aus Umfangsgründen hier nicht übernommen (Fokus dieses Eintrags: Untersuchung/Differenzierung).",
-    relatedCaseIds: [],
+    relatedCaseIds: ["pepe"],
     relatedAnatomyIds: ["iliopsoas", "sartorius", "tensor-fasciae-latae", "quadriceps"],
   },
   {
@@ -16284,7 +16925,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "Anatomieverwechslung", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitte Symptome und Lokalisationsbestimmung. Die vier Schweregrade, die charakteristische Ausfallreihenfolge sowie die OMN-/UMN-Unterscheidung inkl. der zeitlich begrenzten Blasenfunktionsstörung sind in der Quelle so beschrieben. Ergänzt den bereits bestehenden Eintrag zum thorakolumbalen Bandscheibenvorfall (dort mit derselben Fünf-Grade-Skala, krankheitsspezifisch) um die allgemeine, krankheitsunabhängige Lokalisationslogik.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["sam"],
     relatedAnatomyIds: ["rueckenmark"],
   },
   {
@@ -16322,7 +16963,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitte Differentialdiagnose und Diagnosesicherung. Die Differentialdiagnosen-Liste sowie die diagnostische Vorgehensweise (Leerröntgen vs. Schnittbildverfahren je nach Schweregrad) sind in der Quelle so beschrieben. Ergänzt den bestehenden Übersichtseintrag `neurologische-erkrankungen-rueckenmark-periphere-nerven` um Differentialdiagnosen außerhalb des orthopädisch-neurologischen Kernspektrums (Infektionen, Autoimmunerkrankungen, neuromuskuläre Übertragungsstörung).",
-    relatedCaseIds: [],
+    relatedCaseIds: ["tilly"],
     relatedAnatomyIds: ["rueckenmark"],
   },
   {
@@ -16453,7 +17094,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "Unterkonfidenz", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Luxationen/Frakturen/Frakturluxationen — Prognose. Die drei prognostischen Stufen (erhaltene Reaktion, akut erloschen, über 8 Stunden erloschen) sowie der Hinweis, dass das Röntgenbild gelegentlich täuschen kann, sind in der Quelle so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["hanno"],
     relatedAnatomyIds: ["rueckenmark"],
   },
   {
@@ -16618,7 +17259,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "Überkonfidenz", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 6.6.4 „Untersuchung von Knochen“ (Kapitelautoren Kofler/Lischer/Rheinfeld/Kramer/Pees), S. 203f. Die drei Kardinalsymptome der Fraktur, die Faktoren für ausbleibende Krepitation, die Fissur-Definition sowie die daraus resultierende Handlungskonsequenz bei Frakturverdacht sind im Original so beschrieben. Diese Textstelle liegt außerhalb der bei diesem Buch dokumentierten Spalten-Verschachtelungs-Fehlerzone (keine Spezies-Icon-Unterbrechung im relevanten Absatz) und wurde satzweise gegen den unmittelbaren Kontext geprüft. Alle übrigen in Kap. 6 gesichteten Passagen zu Ortolani-/Schubladen-/Bizepssehnentest, Processus anconaeus/coronoideus medialis, Osteomyelitis und Muskelatrophie überschneiden sich inhaltlich mit bereits bestehenden, hundespezifischeren Einträgen aus Koch/Fischer und Hárrer und wurden daher bewusst nicht erneut übernommen.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["luzie"],
     relatedAnatomyIds: [],
   },
   {
@@ -18080,7 +18721,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Untersuchung falsch gewählt", "Faktenwissen", "Befund überbewertet"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S., „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 11 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189982), Abschnitt „Reflexinduziertes Training nach Alexander (RITA)“. Das Verfahren (von der Buchautorin selbst entwickelt), der Reflexmechanismus, die explizite Anwendung der Sherrington-Gesetze (Summation, Sensitivierung, Irradiation) sowie die Anwendungshinweise zur Reizhäufigkeit sind im Original so beschrieben. Baut direkt auf dem bestehenden Eintrag `monosynaptische-polysynaptische-reflexe-sherrington-gesetze` auf (dort die allgemeine Reflexphysiologie, hier die konkrete therapeutische Anwendung) — bewusst nicht dupliziert, sondern als Praxisbeispiel ergänzt.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["dax"],
     relatedAnatomyIds: [],
   },
   {
@@ -20235,7 +20876,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "Untersuchung falsch gewählt", "falsche Priorisierung"],
     sourceStatus:
       "Verifiziert: Könneker, Henrike/Reiter, Ute, Osteopathie in der Kleintierpraxis (ISBN 978-3-8304-9174-3), Sonntag Verlag/Georg Thieme Verlag KG, Stuttgart, 2010, Kap. 7.4.1, S. 109f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk o(26).pdf). Die Adspektionskriterien sowie die Einordnung der Rute als „Taktgeber“-Warnsignal samt der Haltungsauffälligkeiten sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["cora"],
     relatedAnatomyIds: [],
   },
   {
