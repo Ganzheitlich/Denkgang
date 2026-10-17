@@ -5267,6 +5267,119 @@ gelesenen Quellen:
       außerhalb des physiotherapeutischen Handlungsspielraums, den dieser
       Eintrag bereits mit Koch/Fischer abbildet.
 
+## Fälle (Content-Erweiterung ab 17.10.2026)
+
+**Befund (17.10.2026):** Auf Vanessas Nachfrage „ist bei der Anatomie alles
+fertig? Was ist mit Fallbeispielen?" wurde der Gesamtbestand geprüft. Ergebnis:
+Anatomie (90 Items) und Wissensbibliothek (358 Einträge) sind über die
+verfügbaren, sauberen Quellen praktisch ausgeschöpft — aber die **Fälle waren
+seit der ursprünglichen Prototyp-Migration unverändert bei 8** (Rocky, Nala,
+Bruno, Luna, Findus, Emma, Bär, Filou). Dieses Dokument war explizit nur für
+Anatomie/Wissensbibliothek zuständig (siehe Kopfzeile oben) — an den Fällen
+selbst wurde in keiner bisherigen Session gearbeitet. Mit Vanessa abgestimmt:
+neue Fälle haben jetzt Priorität vor weiterer Anatomie-/Wissensbibliothek-
+Vertiefung.
+
+**Methodik für neue Fälle:** Wie bei Anatomie/Wissensbibliothek werden auch
+Fälle bevorzugt aus bereits verifizierten, in der Wissensbibliothek
+vorhandenen `sourceStatus`-Fakten konstruiert, statt neu zu recherchieren —
+ein Fall ist im Kern eine didaktische Neuanordnung bereits geprüfter Fakten
+in Anamnese/Beobachtung/Palpation/Differentialdiagnose-Form. Bevorzugt werden
+Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
+`relatedCaseId` fehlt).
+
+- [x] **Fall „Balu" — Fersensehnenriss (17.10.2026).** Die Tarsus-/
+      Fersensehnenregion (`calcaneus-talus`, `art-tarsi`, `ligg-tarsi`,
+      `musculus-gastrocnemius-anatomie`, `flexoren-tarsus-zehen`,
+      `extensoren-tarsus-zehen`) hatte als einzige vollständige Gelenkregion
+      noch keinen einzigen verknüpften Fall. Neuer Fall `balu` (Dobermann,
+      5 J., Sprung über einen Zaun → plantigrader Gang): Die vier
+      hypothesisOptions bilden exakt die vier im bestehenden Wissenseintrag
+      `tarsus-erkrankungen-hund` (Koch/Fischer Kap. 8.3.3) explizit
+      gegeneinander abgegrenzten Differentialdiagnosen ab (kompletter
+      Fersensehnenriss als korrekte Antwort; Spontanfraktur des Calcaneus,
+      Fersenkappenluxation und Tarsusinstabilität als Distraktoren mit
+      jeweils stichhaltigem `arguesAgainst`). Die `expertNote` nutzt
+      zusätzlich die im bestehenden Anatomie-Item
+      `musculus-gastrocnemius-anatomie` bereits verifizierte Teilriss-
+      /Komplettriss-Unterscheidung (gebeugtes vs. plantigrades
+      Sprunggelenk). Keine neue Primärrecherche nötig — reine
+      Fallkonstruktion aus bereits geprüftem Material. `relatedCaseId`
+      ergänzt bei den drei direkt betroffenen Anatomie-Items
+      (`musculus-gastrocnemius-anatomie`, `flexoren-tarsus-zehen`,
+      `calcaneus-talus`); `relatedCaseIds` bei `tarsus-erkrankungen-hund`
+      ergänzt. Noch kein Bildmaterial — Bildbrief:
+
+      ```
+      BILDBRIEF
+      Asset-ID: BALU-01
+      Fall: Balu — plötzlich plantigrader Gang nach einem Sprung
+      Bildtyp: Einstiegsbild
+      Didaktischer Zweck: Der Lernende soll die auffällige Körperhaltung
+        (abgesenktes, durchgestrecktes Sprunggelenk hinten rechts im
+        Stand) erkennen, bevor die Diagnose genannt wird.
+      Tier: Hund, Dobermann, Rüde, ca. 5 Jahre
+      Position: Stand, beide Hintergliedmaßen im Seitenvergleich sichtbar
+      Perspektive: lateral, Hintergliedmaße im Fokus
+      Darzustellender Befund: Hinten rechts steht der Hund mit
+        abgesenktem/durchgestrecktem Sprunggelenk näher an der
+        Standfläche (plantigrader Stand); linke Hintergliedmaße zeigt
+        normale Zehenstellung. Kein sichtbares Trauma, kein Verband,
+        keine übertriebene Schwellung.
+      Anatomische Vorgaben: Korrekte Anatomie des Tarsus beim Hund,
+        realistischer Winkel der Hintergliedmaßen, Dobermann-Statur
+        korrekt proportioniert.
+      Marker: Keiner — der Unterschied soll rein über die Körperhaltung
+        erkennbar sein.
+      Nicht darstellen: Keine Beschriftung/Pfeile, keine OP-Wunde, kein
+        Blut, keine übertriebene Schwellung, keine sichtbare
+        Sehnenlücke (das ist ein Palpationsbefund, kein Adspektionsbefund
+        — ein Bild davon würde die Diagnose vorwegnehmen).
+      Fachliche Grundlage: Hárrer, Manuelle Therapie beim Hund, Kap. 9.3.3/
+        10.1 (plantigrade Sprunggelenksstellung bei komplettem
+        Fersensehnenriss); Koch/Fischer, Lahmheitsuntersuchung beim Hund,
+        Kap. 8.3.3.
+      Status: DRAFT
+      ```
+
+      Ein zweites Bild (Befundbild) ist hier bewusst NICHT vorgesehen —
+      der entscheidende Befund (Sehnenlücke) ist ein Palpations-, kein
+      Adspektionsbefund und würde als Bild entweder nichts zeigen oder die
+      Diagnose vorwegnehmen (MASTER-PROMPT §6). Verifiziert: tsc/eslint
+      sauber, Reseed 9 Fälle (8 → 9), Cross-Referenz-Audit 0 offene
+      Verweise (146 Backtick-Referenzen), Build grün, via Playwright
+      gegen die Review-Seite verifiziert (0 Fehler; der öffentliche
+      Fall-Flow liefert korrekt einen 404, da der Fall wie alles in dieser
+      Bibliothek noch DRAFT ist — Content-Governance-Gate funktioniert wie
+      vorgesehen).
+- [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Ellbogen
+      (Unterarmrotatoren `supinator`/`brachioradialis`/`pronator-teres`/
+      `pronator-quadratus` ohne Fall, obwohl `art-cubiti` selbst keinen
+      Fall hat), hintere Oberschenkelmuskulatur (`biceps-femoris`,
+      `semitendinosus`, `gracilis`, `sartorius`, `tensor-fasciae-latae`,
+      `semimembranosus` — alle ohne Fall), Rippen/Rippengelenke
+      (`rippen`, `artt-costales`). Guter nächster Kandidat: ein Fall zur
+      Ellbogendysplasie (IPA/FPC/OCD-Differenzierung, bereits ausführlich
+      verifiziert in `ellbogendysplasie-vier-formen-eine-diagnose` o. ä.)
+      für einen jungen, großwüchsigen Hund.
+- [ ] Technische Voraussetzung für jede neue Session in einem frischen
+      Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
+      `npm install`), Postgres-Rolle/DB fehlt (→
+      `sudo -u postgres psql -c "CREATE ROLE denkgang WITH LOGIN PASSWORD
+      'denkgang_dev' CREATEDB;"` und `CREATE DATABASE denkgang OWNER
+      denkgang;`), `.env` fehlt (→ `cp .env.example .env`, DATABASE_URL auf
+      `postgresql://denkgang:denkgang_dev@localhost:5432/denkgang?schema=public`
+      setzen, NEXTAUTH_SECRET setzen), Migrationen fehlen (→
+      `npx --no-install prisma migrate deploy && npx --no-install prisma
+      generate`), **und die User-Tabelle ist leer** — der Test-Login
+      `gruenebergvanessa@gmail.com`/`testpassword123` muss zuerst über
+      `/register` neu angelegt werden (wird dank `ADMIN_EMAILS` automatisch
+      ADMIN). Playwright-Login-Skripte sollten `waitForTimeout(2000)` statt
+      `waitForLoadState('networkidle')` nach dem Login-Submit verwenden —
+      der Dev-Server hält eine persistente HMR-Websocket-Verbindung offen,
+      wodurch `networkidle` nie erreicht wird und das Submit wie fehlgeschlagen
+      aussieht, obwohl es funktioniert hat.
+
 ## Arbeitsweise für künftige Sessions
 
 1. Ein Kästchen oben auswählen (oder ein neues Kapitel aus der in

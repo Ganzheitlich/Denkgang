@@ -704,6 +704,91 @@ const CASES: CaseSeed[] = [
     einstiegsbildUrl: "/cases/filou-01.png",
     befundbildUrl: "/cases/filou-02.png",
   },
+  {
+    id: "balu",
+    topic: "Orthopädie · Sprunggelenk/Fersensehne",
+    species: "Dobermann, 5 J.",
+    title: "Balu — plötzlich plantigrader Gang nach einem Sprung",
+    learningObjective:
+      "Den kompletten Fersensehnenriss von den drei wichtigsten Differentialdiagnosen des plantigraden Gangs (Calcaneus-Spontanfraktur, Tarsusinstabilität, Fersenkappenluxation) unterscheiden können.",
+    anamnese:
+      "Balu ist vor zwei Tagen beim Spielen über einen hohen Zaun gesprungen. Direkt danach begann er, hinten rechts auffällig zu laufen — seither wird es eher schlimmer statt besser.",
+    beobachtung:
+      "Balu steht und läuft hinten rechts mit durchgestrecktem, abgesenktem Sprunggelenk auf dem gesamten Mittelfuß auf (plantigrader Gang), statt wie normal nur auf den Zehen.",
+    diagramLabel: "Sprunggelenkwinkel hinten rechts im Stand stark vergrößert — der Calcaneus nähert sich der Standfläche",
+    palpation:
+      "Oberhalb des Tuber calcanei tastet der Untersucher eine Lücke mit zwei verdickten, schmerzhaften Sehnenstümpfen; das Sprunggelenk lässt sich passiv deutlich weiter beugen als auf der gesunden Seite.",
+    hypothesisQ: "Welche Ursache erklärt den Befund am besten?",
+    hypothesisOptions: [
+      { label: "Kompletter Riss des Fersensehnenstrangs (Tendo calcaneus communis)", correct: true },
+      {
+        label: "Spontanfraktur des Calcaneus",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Bei der Spontanfraktur bleibt der Fersensehnenstrang selbst intakt — es gibt dort keine tastbare Lücke mit Sehnenstümpfen, und typischerweise fehlt jede Traumaanamnese.",
+        differentiationDistractors: [
+          "Ein plantigrader Gang spricht grundsätzlich eher für eine Fraktur als für eine Sehnenverletzung.",
+          "Balu ist groß genug, dass eine Spontanfraktur genauso wahrscheinlich ist wie ein Sehnenriss.",
+        ],
+      },
+      {
+        label: "Fersenkappenluxation",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Eine Fersenkappenluxation kommt praktisch nur beim Sheltie vor und zeigt ein seitliches Wegrutschen der Kappe vom Calcaneus, nicht eine Lücke mit abgerissenen Sehnenstümpfen und vermehrter passiver Beugefähigkeit.",
+        differentiationDistractors: [
+          "Balu zeigt eine Lahmheit hinten — das passt zu jeder der vier Sprunggelenkserkrankungen gleichermaßen.",
+          "Die Rasse spielt bei dieser Diagnose keine Rolle, nur das Symptom zählt.",
+        ],
+      },
+      {
+        label: "Traumatische Instabilität der kleinen Tarsalknochen",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Eine Tarsusinstabilität zeigt sich als abnorme seitliche oder rotatorische Beweglichkeit der Tarsalknochen selbst, nicht als tastbare Sehnenlücke mit vermehrter Beugefähigkeit des gesamten Sprunggelenks.",
+        differentiationDistractors: [
+          "Auch die Tarsusinstabilität entsteht typischerweise durch ein Trauma — das passt zu Balus Vorgeschichte.",
+          "Ohne Röntgenbild lässt sich eine Tarsusinstabilität ohnehin nicht von einem Sehnenriss unterscheiden.",
+        ],
+      },
+    ],
+    expertNote:
+      "Die Kombination aus Trauma-Anamnese, tastbarer Lücke mit Sehnenstümpfen oberhalb des Tuber calcanei und vermehrter passiver Beugefähigkeit des Sprunggelenks ist typisch für einen kompletten Fersensehnenriss. Wichtig für die Praxis: Reißen alle drei den Tendo calcaneus communis bildenden Anteile (M. gastrocnemius, M. flexor digitorum superficialis, gemeinsame Endsehne von M. biceps femoris/M. gracilis/M. semitendinosus), steht das Sprunggelenk plantigrad wie bei Balu. Reißt dagegen nur die Gastrocnemius-Sehne allein, bleibt das Sprunggelenk stattdessen verstärkt gebeugt mit gekrümmten Zehen, weil der M. flexor digitorum superficialis das Gewicht dann noch trägt — ein wichtiges zusätzliches Unterscheidungsmerkmal zwischen Teil- und Komplettriss.",
+    weakeningQ: "Welcher zusätzliche Befund würde diese Hypothese eher schwächen?",
+    weakeningOptions: [
+      {
+        label: "Der Fersensehnenstrang lässt sich bei der Palpation durchgehend intakt bis zum Tuber calcanei verfolgen, ohne tastbare Lücke",
+        correct: true,
+      },
+      { label: "Plantigrader Gang hinten rechts", correct: false, errorCategory: "Befund überbewertet" },
+      {
+        label: "Tastbare Lücke mit Sehnenstümpfen oberhalb des Tuber calcanei",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+      },
+      {
+        label: "Vermehrte passive Beugefähigkeit des Sprunggelenks im Seitenvergleich",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+      },
+    ],
+    retrievalQ: "Aus welchen Anteilen setzt sich der Fersensehnenstrang (Tendo calcaneus communis) beim Hund zusammen?",
+    retrievalOptions: [
+      {
+        label:
+          "Sehne des M. gastrocnemius, Sehne des M. flexor digitorum superficialis (Fersenkappe) und die gemeinsame Endsehne von M. biceps femoris, M. gracilis und M. semitendinosus",
+        correct: true,
+      },
+      { label: "Nur die Sehne des M. gastrocnemius, wie beim Menschen", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "M. quadriceps femoris und M. sartorius", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "M. tibialis cranialis und M. extensor digitorum longus", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.3 (Instabilität des Tarsus, Spontanfraktur Calcaneus, Riss des Fersensehnenstranges, Fersenkappenluxation), S. 195–199 — liefert die vier explizit gegeneinander abgegrenzten Differentialdiagnosen, aus denen die hypothesisOptions dieses Falls gebildet sind (siehe bereits bestehender Wissenseintrag `tarsus-erkrankungen-hund`, derselbe Quellenabschnitt). Ergänzt durch Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 9.3.3 (M. gastrocnemius, Teilriss-/Komplettriss-Unterscheidung samt Sprunggelenksstellung), S. 99f., sowie Kap. 10.1 (Calcaneus-Tischplatten-Zeichen), S. 112 — siehe die bereits bestehenden, strukturierten Anatomie-Items `musculus-gastrocnemius-anatomie` und `calcaneus-talus`, deren `clinicalRelevance`-Felder genau diese Fakten enthalten. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten aus beiden Quellen zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Die konkrete Vorgeschichte (Sprung über einen Zaun), Name, Rasse und Alter des Hundes sind freie didaktische Fallkonstruktion von Denkgang, nicht aus der Quelle übernommen. Noch kein Bildmaterial vorhanden — Bildbrief für ein Einstiegsbild siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -1415,6 +1500,7 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "musculus-gastrocnemius-anatomie",
     name: "M. gastrocnemius",
+    relatedCaseId: "balu",
     origin:
       "Zweiköpfig: Caput laterale von der Tuberositas supracondylaris lateralis, Caput mediale von der Tuberositas supracondylaris medialis femoris — in beiden Ursprungssehnen je ein Sesambeinchen (Fabella) eingelagert",
     insertion: "Beide Köpfe vereinigen sich zu einer kräftigen gemeinsamen Sehne und inserieren über den Tendo calcaneus communis am Tuber calcanei",
@@ -1466,6 +1552,7 @@ const ANATOMY: AnatomySeed[] = [
   {
     id: "flexoren-tarsus-zehen",
     name: "Flexorengruppe des Unterschenkels (Tarsus/Zehen, ohne M. gastrocnemius)",
+    relatedCaseId: "balu",
     origin:
       "M. flexor digitorum superficialis von der Fossa supracondylaris ossis femoris und der Tuberositas supracondylaris lateralis (zwischen den Gastrocnemiusköpfen); M. flexor digitorum lateralis proximokaudal von Tibia und Fibula; M. flexor digitorum medialis vom Caput fibulae; M. tibialis caudalis proximal der Fibula",
     insertion:
@@ -2560,6 +2647,7 @@ const ANATOMY: AnatomySeed[] = [
     id: "calcaneus-talus",
     name: "Calcaneus und Talus (Fersenbein und Sprungbein)",
     kind: "KNOCHEN",
+    relatedCaseId: "balu",
     origin:
       "Zwei der Tarsalknochen des Sprunggelenks. Der Talus bildet mit seiner Trochlea die Hauptgelenkfläche der Art. tarsocruralis (einzige wirklich bewegliche Etage des Sprunggelenks) und steht gegenüber der Tibiaachse ca. 20° nach lateral gedreht — deshalb zeigt die Pfote bei Flexion physiologisch leicht nach außen. Der Calcaneus liegt plantar/lateral des Talus.",
     insertion:
@@ -6424,8 +6512,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund übersehen"],
     sourceStatus:
-      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.3 (Instabilität des Tarsus, Spontanfraktur Calcaneus, Riss des Fersensehnenstranges, Fersenkappenluxation), S. 195–199. Ätiologie, Klinik und Therapieprinzipien sind im Original so beschrieben.",
-    relatedCaseIds: [],
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.3 (Instabilität des Tarsus, Spontanfraktur Calcaneus, Riss des Fersensehnenstranges, Fersenkappenluxation), S. 195–199. Ätiologie, Klinik und Therapieprinzipien sind im Original so beschrieben. Bildet die fachliche Grundlage für den Fall `balu` (Fersensehnenriss nach Trauma), dessen vier Antwortoptionen genau die vier hier beschriebenen Differentialdiagnosen gegeneinander abgrenzen.",
+    relatedCaseIds: ["balu"],
     relatedAnatomyIds: ["calcaneus-talus", "ligg-tarsi"],
   },
   {
