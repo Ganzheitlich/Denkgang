@@ -4431,6 +4431,637 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.1.5–5.1.6 (siehe Wissenseintrag `schmerzskalen-mathews-hielm-bjorkman`), S. 73–75. Beide Skalen mit ihrem jeweiligen Aufbau und Einsatzzweck sowie die Liste subtiler Schmerzzeichen beim stoischen bzw. älteren Hund sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "argos",
+    topic: "Therapie · Elektrostimulation (Nervenlähmung)",
+    species: "Bordeaux Dogge, Rüde, 4 J.",
+    title: "Argos — schlaffe Lähmung nach Trauma, welcher Strom jetzt?",
+    learningObjective:
+      "Erkennen, warum der historisch für denervierte Muskulatur empfohlene Exponentialstrom heute als potenziell schädlich gilt, und verstehen, welches Elektrostimulationsverfahren bei innervierter versus total denervierter Muskulatur angezeigt ist.",
+    anamnese:
+      "Argos hat vor drei Wochen eine traumatische, vollständige Radialislähmung rechts erlitten. Der überweisende Tierarzt bestätigt eine komplette Denervierung der betroffenen Muskulatur. Die Besitzer möchten mit Elektrostimulation gezielt gegen die zunehmende Muskelatrophie vorgehen.",
+    beobachtung:
+      "Argos zeigt die für eine proximale Radialislähmung typische Unfähigkeit, das rechte Vorderbein zu belasten, mit sichtbar fortschreitender Atrophie der Streckmuskulatur.",
+    diagramLabel: "Fortschreitende Atrophie der Streckmuskulatur rechts vorne bei bestätigter kompletter Denervierung (Radialislähmung)",
+    palpation: "Die Streckmuskulatur des rechten Unterarms ist im Seitenvergleich deutlich an Volumen reduziert und zeigt keine willkürliche Kontraktion.",
+    hypothesisQ: "Welches elektrotherapeutische Vorgehen ist bei Argos' komplett denervierter Muskulatur angezeigt?",
+    hypothesisOptions: [
+      {
+        label:
+          "Kein Exponentialstrom — stattdessen abwarten auf Reinnervationszeichen bzw. alternative, nicht-elektrische Erhaltungsmaßnahmen, da der historisch empfohlene Exponentialstrom bei denervierter Muskulatur heute als potenziell schädlich gilt",
+        correct: true,
+      },
+      {
+        label: "Gezielter Einsatz des Exponentialstroms, da dieser speziell für denervierte Muskulatur entwickelt wurde",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Der Exponentialstrom wurde zwar historisch genau für diesen Zweck eingesetzt, findet aber inzwischen kaum mehr Anwendung: Er führt zu einer sehr schmerzhaften Hautirritation, und neuere Untersuchungen zeigten einen schädigenden Einfluss auf die Muskulatur selbst — vermehrte Faserdegeneration, verzögerte Reinnervation und eine vermutete Blockade der Bildung neuer neuromuskulärer Synapsen.",
+        differentiationDistractors: [
+          "Eine ältere Lehrbuchempfehlung ist automatisch noch aktuell gültig.",
+          "Je spezifischer eine Methode für ein Problem klingt, desto sicherer ist sie auch wirksam und unbedenklich.",
+        ],
+      },
+      {
+        label: "Niederfrequenter Rechteckstrom (10–60 Hz) wie bei innervierter Muskulatur, da dieser generell für jede Form der Atrophie geeignet ist",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Niederfrequente Rechteckströme zur Atrophieprophylaxe sind explizit für innervierte Muskulatur vorgesehen — bei total denervierter Muskulatur (wie bei Argos) ist dieses Verfahren kontraindiziert, da es dort nicht wirksam reizen kann.",
+      },
+      {
+        label: "Sofortige maximale Belastung der Extremität mit Gewichtsmanschette zur schnelleren Kräftigung",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Die Elektromechanotherapie mit Gewichtsmanschette ist eine Ergänzung zur niederfrequenten Elektrostimulation innervierter Muskulatur — bei komplett denervierter Muskulatur ohne jede willkürliche Kontraktion ist eine solche Belastungssteigerung nicht sinnvoll anwendbar und birgt zusätzliche Verletzungsgefahr.",
+      },
+    ],
+    expertNote:
+      "Rechteckströme im Bereich von 10–60 Hz können gezielt zur Atrophieprophylaxe und Rehabilitation innervierter Muskulatur eingesetzt werden; kontraindiziert ist dieses Verfahren bei total denervierter Muskulatur und bei Myositis. Für denervierte Muskulatur (schlaffe Paresen) wie bei Argos wurde historisch der Exponentialstrom eingesetzt — ein Dreiecksimpuls mit langsamem Anstieg und langer Impulsdauer, der selektiv nur die denervierte, nicht aber die innervierte Muskulatur reizen sollte, ohne dass ein Effekt auf das Axonwachstum selbst angenommen wurde. Diese Methode findet inzwischen kaum mehr Anwendung: Sie führt zu einer sehr schmerzhaften Hautirritation, und neuere Untersuchungen zeigten einen schädigenden statt schützenden Einfluss auf die Muskulatur — vermehrte Faserdegeneration, verzögerte Reinnervation und eine vermutete Blockade der Bildung neuer neuromuskulärer Synapsen. Der Exponentialstrom zeigt exemplarisch, dass eine physiologisch plausibel klingende Therapieidee sich in der Nachprüfung als kontraproduktiv herausstellen kann — eine ältere Lehrbuch- oder Traditionsempfehlung ist kein Ersatz für den aktuellen Wirksamkeits- und Sicherheitsnachweis.",
+    weakeningQ: "Welcher zusätzliche Befund würde den Einsatz von niederfrequentem Rechteckstrom (statt Verzicht auf Elektrostimulation) bei Argos rechtfertigen?",
+    weakeningOptions: [
+      { label: "Nachweisbare beginnende Reinnervation mit wieder vorhandener, wenn auch schwacher willkürlicher Muskelkontraktion", correct: true },
+      { label: "Eine bestätigte komplette Denervierung ohne jede willkürliche Kontraktion", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Fortschreitende Atrophie der betroffenen Muskulatur", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine traumatische Ursache der Radialislähmung vor drei Wochen", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Aus welchen zwei Hauptgründen wird der Exponentialstrom heute kaum mehr eingesetzt?",
+    retrievalOptions: [
+      {
+        label: "Er verursacht eine sehr schmerzhafte Hautirritation, und neuere Untersuchungen zeigten vermehrte Faserdegeneration sowie verzögerte Reinnervation statt des erhofften Schutzeffekts",
+        correct: true,
+      },
+      { label: "Er ist zu teuer in der Anschaffung und deshalb für die Praxis unwirtschaftlich", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Er wirkt ausschließlich auf innervierte, nie auf denervierte Muskulatur, weshalb er für seinen ursprünglichen Zweck untauglich war", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Er wurde durch ein identisches, nur umbenanntes Verfahren ersetzt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Physiotechnik — Elektrotherapie”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 12 (siehe Wissenseintrag `elektrostimulation-muskelatrophie-exponentialstrom-irrtum`). Die Typ-I-/Typ-II-faserspezifische Elektrostimulation sowie die historische Verwendung und explizite spätere Widerlegung des Exponentialstroms sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "nico",
+    topic: "Therapie · Hochfrequenztherapie (Kontraindikation Metallimplantat)",
+    species: "Whippet, Rüde, 5 J.",
+    title: "Nico — TPLO-Platte im Bein, Physiotherapeutin erwägt Tiefenwärme",
+    learningObjective:
+      "Erkennen, warum Hochfrequenztherapie (Diathermie) bei Patienten mit Metallimplantaten absolut kontraindiziert ist, im Unterschied zu anderen Elektrotherapieverfahren, bei denen Metallimplantate nur eine Kontraindikation unter mehreren darstellen.",
+    anamnese:
+      "Nico hatte vor sechs Wochen eine TPLO-Operation mit Plattenosteosynthese. Zur Verbesserung der Bindegewebsdehnbarkeit und Muskelrelaxation vor der Bewegungstherapie erwägt die behandelnde Physiotherapeutin den Einsatz von Kurzwellen-Diathermie direkt über der Operationsstelle.",
+    beobachtung: "Nico zeigt eine gute postoperative Erholung mit zunehmender Belastung des operierten Beins; die Wunde ist reizlos verheilt.",
+    diagramLabel: "Gute postoperative Erholung sechs Wochen nach TPLO mit Plattenosteosynthese, reizlose Wunde",
+    palpation: "Die Operationsregion ist reizlos, ohne Schwellung oder Überwärmung. Die Metallplatte ist nicht direkt tastbar, ihre Lage ist aus den OP-Unterlagen bekannt.",
+    hypothesisQ: "Ist der Einsatz von Kurzwellen-Diathermie über der TPLO-Platte bei Nico vertretbar?",
+    hypothesisOptions: [
+      {
+        label: "Nein — Metallimplantate sind eine absolute Kontraindikation für Hochfrequenztherapie wegen akuter Verbrennungsgefahr durch Streustrahlung, unabhängig vom sonstigen Heilungsverlauf",
+        correct: true,
+      },
+      {
+        label: "Ja, da die Wunde reizlos verheilt ist und keine akute Entzündung mehr vorliegt",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die Kontraindikation bei Metallimplantaten bezieht sich nicht auf den Entzündungsstatus der Wunde, sondern auf die physikalische Eigenschaft des Metalls, elektromagnetische Energie zu leiten und dadurch schwere lokale Verbrennungen durch Streustrahlung zu verursachen — dieses Risiko besteht unabhängig davon, wie gut die Wunde verheilt ist.",
+      },
+      {
+        label: "Ja, solange nur niedrige Intensitäten verwendet werden",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Metallimplantate, Endoprothesen und Herzschrittmacher gelten als absolute Kontraindikation ohne graduelle Ausnahme für niedrige Intensitäten — anders als bei TENS oder Galvanisation, wo Metallimplantate „nur” eine Kontraindikation unter mehreren sind, ist die Gefährdung bei Hochfrequenztherapie unmittelbar und nicht durch Dosisreduktion zu entschärfen.",
+      },
+      {
+        label: "Ja, aber nur mit Mikrowelle statt Kurzwelle, da Mikrowelle eine geringere Eindringtiefe hat",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Die Metallimplantat-Kontraindikation gilt für alle drei Hochfrequenzverfahren (Kurzwelle, Dezimeterwelle, Mikrowelle) gleichermaßen, da sie alle auf demselben Funktionsprinzip (elektromagnetische Erwärmung mit Metall als starkem Leiter) beruhen — eine geringere Eindringtiefe löst das Verbrennungsrisiko durch Streustrahlung am Implantat nicht.",
+      },
+    ],
+    expertNote:
+      "Elektromagnetische Wellen und Felder über 1 MHz erwärmen Gewebe durch Reibung der Ladungsträger (Diathermie) — wasserarme Gewebe wie Fett- und Knochengewebe erwärmen sich dabei etwa zehnmal stärker als wasserreiche Gewebe. Metall leitet elektromagnetische Energie in einem Ausmaß, das zu schweren lokalen Verbrennungen durch Streustrahlung führen kann. Metallimplantate, Endoprothesen und Herzschrittmacher sind deshalb eine absolute Kontraindikation; auch Halsbänder mit Metallteilen müssen vor der Behandlung abgenommen werden, und die Behandlung darf nicht auf einem Metalltisch stattfinden. Für die Praxis ist das ein zentraler Unterschied zu Verfahren wie TENS oder Galvanisation: Dort sind Metallimplantate „nur” eine Kontraindikation unter mehreren, bei der Hochfrequenztherapie ist die Gefährdung deutlich unmittelbarer (Verbrennung statt bloßer Wirkungslosigkeit) — besonders relevant bei einem häufigen postoperativen Patienten wie Nico mit TPLO-Platte. Diathermie selbst bewirkt bei geeigneten Patienten Muskelrelaxation, erhöhte Bindegewebsdehnbarkeit und eine lokale Beschleunigung metabolischer Prozesse, nutzbar z. B. bei Arthrosen oder postoperativ nach Gelenkoperationen — aber ausdrücklich nur ohne Metallimplantat.",
+    weakeningQ: "In welcher Situation wäre Hochfrequenztherapie bei einem postoperativen Gelenkpatienten grundsätzlich vertretbar?",
+    weakeningOptions: [
+      { label: "Bei einem Patienten nach einer Gelenkoperation ohne jegliches Metallimplantat im Behandlungsgebiet", correct: true },
+      { label: "Bei einem Patienten mit TPLO-Platte, solange die Wunde bereits reizlos verheilt ist", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Bei einem Patienten mit Metallimplantat, solange nur niedrige Intensitäten eingesetzt werden", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Bei jedem postoperativen Patienten unabhängig vom verwendeten Osteosynthesematerial", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    retrievalQ: "Warum ist die Metallimplantat-Kontraindikation bei der Hochfrequenztherapie gravierender als bei TENS oder Galvanisation?",
+    retrievalOptions: [
+      {
+        label: "Weil bei Hochfrequenztherapie ein reales Verbrennungsrisiko durch Streustrahlung am Metall besteht, während Metallimplantate bei TENS/Galvanisation die Behandlung lediglich wirkungslos machen, ohne akute Gefahr",
+        correct: true,
+      },
+      { label: "Es gibt keinen Unterschied, die Kontraindikation ist bei allen elektrotherapeutischen Verfahren identisch gravierend", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil TENS und Galvanisation bei Metallimplantaten besonders gut wirken, Hochfrequenztherapie dagegen gar nicht", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Hochfrequenztherapie grundsätzlich nur an Patienten ohne jede Voroperation angewendet werden darf", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Physiotechnik — Elektrotherapie”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 12 (siehe Wissenseintrag `hochfrequenztherapie-diathermie-metallimplantat-gefahr`). Das Diathermie-Wirkprinzip, die Metallimplantat-/Herzschrittmacher-Warnung sowie der Vergleich zu TENS/Galvanisation sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "rosie",
+    topic: "Therapie · Hydrotherapie (Kontraindikation Herzerkrankung)",
+    species: "Cavalier King Charles Spaniel, Hündin, 9 J.",
+    title: "Rosie — Mitralklappenerkrankung, Unterwasserlaufband geplant?",
+    learningObjective:
+      "Erkennen, dass eine bestehende Herz-Kreislauf-Erkrankung eine Kontraindikation für das Unterwasserlaufband darstellt, obwohl dieses sonst als State-of-the-Art-Bewegungstherapie gilt.",
+    anamnese:
+      "Rosie hat eine diagnostizierte, mittelgradige Mitralklappenerkrankung und soll wegen einer begleitenden Arthrose mit Unterwasserlaufband-Training beginnen, um Gelenke zu schonen und trotzdem Muskulatur aufzubauen.",
+    beobachtung: "Rosie zeigt eine milde, arthrosebedingte Lahmheit; zusätzlich fällt eine leicht erhöhte Ruheatemfrequenz auf, passend zur bekannten Herzerkrankung.",
+    diagramLabel: "Milde arthrosebedingte Lahmheit bei bekannter mittelgradiger Mitralklappenerkrankung, leicht erhöhte Ruheatemfrequenz",
+    palpation: "Die betroffenen Gelenke zeigen die für die Arthrose bekannten Befunde; kardiopulmonal fällt bei Auskultation ein bereits bekanntes Herzgeräusch auf.",
+    hypothesisQ: "Ist das Unterwasserlaufband für Rosie die richtige Wahl der Bewegungstherapie?",
+    hypothesisOptions: [
+      { label: "Nein — Herz-Kreislauf-erkrankte Hunde gehören zu den Kontraindikationen für das Unterwasserlaufband, weil sie sich im Wasser leicht überarbeiten", correct: true },
+      {
+        label: "Ja, da das Unterwasserlaufband durch den Auftrieb die Gelenke schont und damit für Arthrose-Patienten immer die beste Wahl ist",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Die gelenkschonende Wirkung durch den Auftrieb betrifft nur die orthopädische Seite — Herz-Kreislauf-erkrankte Hunde überarbeiten sich im Wasser aber leicht, was das Unterwasserlaufband bei Rosie trotz ihrer Arthrose zu einer ungeeigneten, potenziell gefährlichen Wahl macht. Die Arthrose-Indikation allein darf die kardiale Kontraindikation nicht überstimmen.",
+        differentiationDistractors: [
+          "Eine gute Indikation für ein Gelenkproblem hebt automatisch eine Kontraindikation für ein anderes Organsystem auf.",
+          "Wasser ist für jeden Patienten grundsätzlich schonender als Training an Land.",
+        ],
+      },
+      {
+        label: "Ja, solange die Übungsdauer entsprechend verkürzt wird",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Herz-Kreislauf-erkrankte Hunde sind als eigenständige Kontraindikation gelistet, nicht als Fall für eine reduzierte Dosierung — eine verkürzte Übungsdauer ändert nichts an der grundsätzlichen Überlastungsgefahr durch die hydrostatischen und kardiovaskulären Anforderungen des Wassers.",
+      },
+      {
+        label: "Ja, weil nur Hunde mit akuten Atembeschwerden vom Unterwasserlaufband ausgeschlossen werden müssen, nicht Hunde mit Herzerkrankung",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Atembeschwerden und Herz-Kreislauf-Erkrankung sind zwei getrennt gelistete Kontraindikationen für das Unterwasserlaufband — beide schließen den Einsatz unabhängig voneinander aus, nicht nur die eine oder die andere.",
+      },
+    ],
+    expertNote:
+      "Das Unterwasserlaufband gilt als State of the Art der Bewegungstherapie beim Hund: Es wird zur Gangbildkorrektur, zum Muskelaufbau, zur Förderung von Balance und Propriozeption sowie zum Abbau von überflüssigem Körpergewicht eingesetzt, mit frühzeitiger, gelenkschonender Beübung. Es gibt aber eine klare Liste von Kontraindikationen: Hunde, die im Wasser Panik bekommen; Hunde mit starken Atembeschwerden, die sich vom hydrostatischen Druck erdrückt fühlen; Herz-Kreislauf-erkrankte Hunde wie Rosie, die sich im Wasser leicht überarbeiten; Hunde mit offenen Wunden; sowie Hunde mit Durchfall. Frisch operierte Tiere sollen zudem wegen der Wundinfektionsgefahr erst nach dem Nähteziehen ins Wasser. Für Rosie bedeutet das: Trotz der an sich guten Eignung des Unterwasserlaufbands für Arthrose-Patienten muss wegen ihrer Herzerkrankung eine andere, kardiovaskulär weniger belastende Form der Bewegungstherapie gewählt werden.",
+    weakeningQ: "Welcher Befund würde den Einsatz des Unterwasserlaufbands bei einem Hund mit bekannter Herzerkrankung eher rechtfertigen?",
+    weakeningOptions: [
+      {
+        label: "Eine zwischenzeitlich erfolgte kardiologische Abklärung, die die Herzerkrankung als vollständig kompensiert und belastbar einstuft, mit ausdrücklicher tierärztlicher Freigabe für moderate Bewegungstherapie",
+        correct: true,
+      },
+      { label: "Eine begleitende Arthrose, die von einer gelenkschonenden Therapieform profitieren würde", correct: false, errorCategory: "falsche Priorisierung" },
+      { label: "Eine leicht erhöhte Ruheatemfrequenz passend zur bekannten Herzerkrankung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein bei der Auskultation feststellbares Herzgeräusch", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche fünf Patientengruppen gelten als Kontraindikation für das Unterwasserlaufband?",
+    retrievalOptions: [
+      { label: "Hunde mit Wasserpanik, starken Atembeschwerden, Herz-Kreislauf-Erkrankung, offenen Wunden oder Durchfall", correct: true },
+      { label: "Ausschließlich sehr junge und sehr alte Hunde, unabhängig vom sonstigen Gesundheitszustand", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ausschließlich übergewichtige Hunde, da sie im Wasser besonders schnell ermüden", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Es gibt keine echten Kontraindikationen, nur Dosierungsanpassungen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.5.24 (siehe Wissenseintrag `unterwasserlaufband-indikation-kontraindikation`), S. 126f. Indikationen, die vollständige Kontraindikationsliste (inkl. Herz-Kreislauf-Erkrankung) sowie die praktischen Hinweise sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "karl",
+    topic: "Therapie · Neurodynamik (Timing nach Wirbelsäulen-OP)",
+    species: "Zwergschnauzer, Rüde, 6 J.",
+    title: "Karl — Bandscheiben-OP vor sechs Wochen, jetzt erst Bewegungstherapie?",
+    learningObjective:
+      "Verstehen, warum eine Neurotensionsbehandlung nach einer Wirbelsäulenoperation so früh wie möglich beginnen sollte und welche Konsequenzen ein verspäteter Beginn hat.",
+    anamnese:
+      "Karl hatte vor sechs Wochen eine Bandscheibenoperation. Bislang wurde ausschließlich strikte Ruhigstellung ohne jede Bewegungstherapie durchgeführt; jetzt soll mit Neurotensionsbehandlung begonnen werden.",
+    beobachtung:
+      "Karl bewegt sich insgesamt steif und zeigt bei den ersten vorsichtigen Bewegungsversuchen eine deutliche Schmerzreaktion, die über das hinausgeht, was man bei diesem Heilungsstadium erwarten würde.",
+    diagramLabel: "Deutliche Schmerzreaktion bei ersten Bewegungsversuchen sechs Wochen nach Bandscheiben-OP, zuvor strikte Ruhigstellung ohne jede Bewegungstherapie",
+    palpation: "Das Gewebe im Operationsgebiet wirkt deutlich weniger gleitfähig als erwartet; passive Bewegungen lösen eine überproportionale Schmerz- und Abwehrreaktion aus.",
+    hypothesisQ: "Was erklärt die überraschend starke Schmerzreaktion bei Karls erster Bewegungstherapie, sechs Wochen nach der OP?",
+    hypothesisOptions: [
+      {
+        label:
+          "Durch den verspäteten Behandlungsbeginn haben sich bereits Cross-Links (Gewebequervernetzungen) gebildet, die jetzt erst mühsam aufgebrochen werden müssen — mit entsprechender Entzündung, Schmerz und vorübergehender Verschlechterung",
+        correct: true,
+      },
+      {
+        label: "Ein Zeichen, dass die Operation nicht erfolgreich war und erneut operiert werden muss",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Die überproportionale Schmerzreaktion bei spätem Behandlungsbeginn ist ein bekanntes, durch Cross-Link-Bildung erklärbares Phänomen und kein Hinweis auf ein Versagen der Operation selbst — sie tritt gerade deshalb auf, weil die Neurodynamik-Behandlung nicht früh genug begonnen wurde.",
+      },
+      {
+        label: "Ein normaler, bei jedem Behandlungsbeginn gleich stark zu erwartender Befund, unabhängig vom Zeitpunkt",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Eine Neurodynamik-Behandlung, die so früh wie möglich nach der OP beginnt, vermeidet diese ausgeprägte Reaktion gerade dadurch, dass sich noch keine Cross-Links gebildet haben — der Zeitpunkt des Behandlungsbeginns beeinflusst also direkt die Stärke der zu erwartenden Reaktion.",
+      },
+      {
+        label: "Ein Hinweis auf eine absolute Kontraindikation, die Neurotensionsbehandlung bei Karl grundsätzlich zu beenden",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Die zu erwartende, vorübergehende Verschlechterung beim verspäteten Aufbrechen der Cross-Links ist kein Grund, die Behandlung grundsätzlich zu beenden — sie ist eine bekannte, vorübergehende Begleiterscheinung des späten Beginns, keine echte Kontraindikation wie z. B. eine akute Rückenmarkläsion.",
+      },
+    ],
+    expertNote:
+      "Ein mechanisches Problem am Nerv zerstört zunächst Gewebe, wodurch eine Entzündung entsteht; Schmerz und der gleichzeitige Mangel an physiologischer Bewegung führen zu venöser Stase und in der Folge zu Ischämie — ein sich selbst verstärkender Kreislauf. Aktive und passive Bewegung um diese (hoffentlich reversible) Stase herum soll die normale Physiologie wiederherstellen, die intraneurale Mikrozirkulation fördern und den axonalen Transport auf das 2- bis 4-Fache beschleunigen. Eine Neurodynamik-Behandlung sollte deshalb so früh wie möglich nach einer Wirbelsäulen-OP beginnen. Ist die Proliferationsphase der Wundheilung erst abgeschlossen, wie bei Karl nach sechs Wochen strikter Ruhigstellung, haben sich bereits Cross-Links (Gewebequervernetzungen) gebildet, die der Therapeut bei späterem Behandlungsbeginn erst aufbrechen muss — das führt zunächst zu Entzündung, Schmerz und einer vorübergehenden Verschlechterung nach der Therapie. Rechtzeitige, adäquate Behandlung vermeidet das. Echte Kontraindikationen für die Neurotensionsbehandlung sind dagegen intraneurale Störungen, akute Rückenmarkläsionen, maligne Prozesse, Frakturen, frische Traumen sowie eine Verschlimmerung der Symptome durch die Behandlung selbst.",
+    weakeningQ: "Welcher Befund hätte bei Karl für eine echte, grundlegende Kontraindikation der Neurotensionsbehandlung gesprochen, statt für das erwartbare Cross-Link-Phänomen?",
+    weakeningOptions: [
+      { label: "Eine neu aufgetretene, akute Rückenmarkläsion oder eine Blutung im Spinalganglion", correct: true },
+      { label: "Eine überproportionale Schmerzreaktion bei den ersten Bewegungsversuchen nach sechs Wochen Ruhigstellung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Reduzierte Gewebegleitfähigkeit im Operationsgebiet", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein verspäteter Beginn der Bewegungstherapie nach der Operation", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum fördert Bewegung die Erholung eines mechanisch geschädigten Nervs, statt den Schaden zu vergrößern?",
+    retrievalOptions: [
+      {
+        label: "Weil die Muskelpumpe die intraneurale Mikrozirkulation und die Drainage des intraneuralen Ödems fördert und den axonalen Transport beschleunigt, wodurch die Ischämie im Nerv abnimmt",
+        correct: true,
+      },
+      { label: "Weil Bewegung den betroffenen Nerv vollständig betäubt und dadurch Schmerzfreiheit erzeugt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Bewegung hat keinen direkten Einfluss auf die Nervenheilung, sie dient nur der allgemeinen Fitness", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Bewegung die Entzündungsreaktion direkt und vollständig unterdrückt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17 (siehe Wissenseintrag `neurotensionsbehandlung-wirkprinzip-kontraindikationen`), S. 279–281. Das Ischämie-Modell, das Wirkprinzip der Behandlung sowie der Timing-Hinweis zu Cross-Links nach Wirbelsäulen-OP und die Kontraindikationsliste sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "stella",
+    topic: "Therapie · Bewegungstherapie (PNF-Terminologie)",
+    species: "Deutsch Drahthaar, Hündin, 3 J.",
+    title: "Stella — Vorführen der Vorderextremität trainieren, aber mit welcher Bewegungsrichtung?",
+    learningObjective:
+      "Erkennen, dass PNF-Bewegungsmuster nicht unreflektiert aus der Humanmedizin übernommen werden dürfen, weil der M. biceps brachii beim Hund funktionell entgegengesetzt zum Menschen definiert ist.",
+    anamnese:
+      "Stella soll nach einer Schulterverletzung gezielt mit PNF-Technik das Vorführen der rechten Vorderextremität trainieren. Ein neuer Praktikant orientiert sich dabei an einem humanmedizinischen PNF-Lehrbuch und möchte die dort beschriebene Flexionsbewegung des Schultergelenks trainieren.",
+    beobachtung: "Stella zeigt eine leicht eingeschränkte, aber insgesamt bereits gut fortgeschrittene Beweglichkeit beim Vorführen des rechten Vorderbeins.",
+    diagramLabel: "Leicht eingeschränktes, aber fortgeschrittenes Vorführen des rechten Vorderbeins nach Schulterverletzung",
+    palpation: "Das Schultergelenk zeigt eine endgradige Einschränkung bei Extension; die Muskulatur reagiert auf Dehnreiz mit tastbarer Kontraktion.",
+    hypothesisQ: "Ist die Trainingsanweisung des Praktikanten (Flexion des Schultergelenks beim Vorführen) für Stella korrekt?",
+    hypothesisOptions: [
+      {
+        label: "Nein — beim Hund ist das Vorführen der Vorderextremität eine Extension, nicht eine Flexion des Schultergelenks, da der M. biceps brachii beim Hund funktionell als Extensor des Schultergelenks wirkt",
+        correct: true,
+      },
+      {
+        label: "Ja, da sich die Bewegungsterminologie zwischen Mensch und Hund grundsätzlich nicht unterscheidet",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Das Vorführen der Vorderextremität ist beim Hund eine Extension des Schultergelenks, weil der M. biceps brachii beim Hund ein Extensor des Schultergelenks ist — beim Menschen gilt das Heben des Arms dagegen als Flexion, weil der M. biceps brachii dort als Flexor definiert ist. Eine wörtliche Übernahme der humanmedizinischen PNF-Pattern-Bezeichnung würde bei Stella exakt die gegenteilige Bewegung beschreiben.",
+        differentiationDistractors: [
+          "Dieselbe Muskelgruppe hat bei allen Spezies immer dieselbe Bewegungsfunktion.",
+          "Fachbegriffe aus einem Lehrbuch lassen sich immer wörtlich artübergreifend übertragen.",
+        ],
+      },
+      {
+        label: "Ja, solange der Therapeut den Widerstand entsprechend anpasst, unabhängig von der verwendeten Terminologie",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Eine falsch benannte Bewegungsrichtung führt nicht nur zu einem Begriffsproblem, sondern zum tatsächlichen Training der falschen Bewegungsrichtung — eine Anpassung des Widerstands allein korrigiert das nicht, wenn die zugrunde liegende Bewegungsrichtung selbst falsch benannt und damit falsch ausgeführt wird.",
+      },
+      {
+        label: "Die Frage ist irrelevant, da PNF-Technik beim Hund ohnehin nicht wirksam ist",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "PNF-Technik mit ihren Grundwerkzeugen Stretch, Widerstand und Approximation ist auch beim Hund wirksam einsetzbar — entscheidend ist lediglich, die Bewegungsmuster korrekt an die artspezifische Flexor-/Extensor-Definition anzupassen, statt sie unreflektiert vom Menschen zu übernehmen.",
+      },
+    ],
+    expertNote:
+      "Die PNF-Technik (Propriozeptive neuromuskuläre Fazilitation, entwickelt von Hermann Kabat) arbeitet mit diagonalen, dreidimensionalen Bewegungsmustern. Diese Pattern wurden ursprünglich für den Menschen definiert und lassen sich nicht einfach direkt auf den Hund übertragen: Das Vorführen der Vorderextremität ist beim Hund eine Extension des Schultergelenks, da der M. biceps brachii beim Hund ein Extensor des Schultergelenks ist — beim Menschen gilt das Heben des Arms dagegen als Flexion, weil der M. biceps brachii dort als Flexor definiert ist. Die PNF-Pattern der Vorderextremität müssen deshalb für die Veterinärmedizin umbenannt werden, sonst wird exakt die gegenteilige Bewegung beschrieben — wie es dem Praktikanten bei Stella fast passiert wäre. Die drei Grundwerkzeuge der Technik sind Stretch (regt die Muskulatur zur Kontraktion an), Widerstand (erhöht die Muskelspannung und fazilitiert über Irradiation benachbarte Synergisten) und Approximation (Komprimieren einer Extremität in gewichtstragender Position, fazilitiert die Belastung einer geschwächten Extremität). Diese Terminologiefalle ist ein konkretes Beispiel dafür, warum tiermedizinische Anatomie nicht einfach eine Übersetzung der Humananatomie ist.",
+    weakeningQ: "Welche Beobachtung würde bestätigen, dass die PNF-Übung bei Stella tatsächlich korrekt (als Extension) durchgeführt wurde?",
+    weakeningOptions: [
+      { label: "Das Vorführen der Extremität geht mit einer sichtbaren Streckung (Extension) im Schultergelenk einher, bei tastbarer Aktivität des M. biceps brachii als Extensor", correct: true },
+      { label: "Das Vorführen der Extremität geht mit einer sichtbaren Beugung (Flexion) im Schultergelenk einher", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Der Therapeut verwendet exakt dieselbe Bewegungsbezeichnung wie in einem humanmedizinischen PNF-Lehrbuch", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Die Übung wird mit maximalem Widerstand durchgeführt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    retrievalQ: "Warum muss der M. biceps brachii beim Hund funktionell anders eingeordnet werden als beim Menschen?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil er beim Hund als Extensor des Schultergelenks wirkt, während er beim Menschen als Flexor des Schultergelenks (bzw. Ellbogenflexor beim Armheben) definiert ist — dieselbe anatomische Struktur, aber entgegengesetzte Funktionsbezeichnung je nach Spezies",
+        correct: true,
+      },
+      { label: "Weil der Hund anatomisch gar keinen M. biceps brachii besitzt", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Weil der M. biceps brachii beim Hund nur am Ellbogengelenk, nie am Schultergelenk wirkt", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Es gibt keinen relevanten funktionellen Unterschied zwischen Hund und Mensch bei diesem Muskel", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 11 (siehe Wissenseintrag `pnf-technik-artspezifische-bewegungsmuster-terminologiefalle`), Abschnitt „PNF-Technik”. Die artspezifische Umbenennung der Vorderextremitäten-Pattern samt zugrunde liegender Bizeps-Funktionsumkehr sowie die drei PNF-Grundwerkzeuge sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "paul",
+    topic: "Therapie · Postoperative Rehabilitation (Zeitfenster)",
+    species: "Großer Schweizer Sennenhund, Rüde, 2 J.",
+    title: "Paul — einen Tag nach der OP schon kräftig massiert",
+    learningObjective:
+      "Verstehen, dass sich der Einsatz physikalischer Therapie am tatsächlichen Gewebeheilungsstadium orientieren muss, nicht an einem festen Kalenderdatum, und welche Technik in welcher Phase angemessen ist.",
+    anamnese:
+      "Paul wurde gestern an einem Vorderbein operiert. Ein unerfahrener Betreuer hat heute bereits mit kräftiger Massage der Operationsregion begonnen, weil er dachte, das fördere die Durchblutung und beschleunige die Heilung.",
+    beobachtung: "Die Operationsregion zeigt deutliche Entzündungszeichen (Schwellung, Überwärmung) und ist sichtbar schmerzhaft; Paul zieht das Bein bei Berührung zurück.",
+    diagramLabel: "Deutliche Entzündungszeichen einen Tag nach OP, verstärkte Schmerzreaktion nach kräftiger Massage am selben Tag",
+    palpation:
+      "Die Operationsregion ist warm, geschwollen und bei Berührung hochgradig schmerzhaft — deutlich ausgeprägter, als für den ersten postoperativen Tag ohne zusätzliche Manipulation zu erwarten wäre.",
+    hypothesisQ: "War die kräftige Massage am ersten postoperativen Tag bei Paul angemessen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nein — in der akuten, entzündlichen Phase (2–6 Tage) ist maximale Schutzphase angezeigt; selbst leichte Massage darf wegen der damit verbundenen Gewebsmobilisierung frühestens ab dem 2. Tag postoperativ eingesetzt werden, kräftige Massage am 1. Tag ist zu früh und zu intensiv",
+        correct: true,
+      },
+      {
+        label: "Ja, da Massage grundsätzlich die Durchblutung fördert und damit immer heilungsfördernd wirkt, unabhängig vom Zeitpunkt",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Der Einsatz physikalischer Therapie muss sich am aktuellen Gewebeheilungsstadium orientieren, nicht an der allgemeinen Vorstellung, Massage sei immer förderlich — in der akuten entzündlichen Phase unmittelbar nach der OP ist maximale Schutzphase mit Ruhigstellung und allenfalls vorsichtiger passiver Bewegung angezeigt, kräftige Massage am 1. Tag ist eindeutig zu früh.",
+      },
+      {
+        label: "Ja, solange die Massage nur kurz dauert",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Nicht die Dauer, sondern der Zeitpunkt und die Intensität sind hier das Problem — selbst eine kurze, aber kräftige Massage in der akuten, entzündlichen Phase am ersten postoperativen Tag widerspricht dem Prinzip der maximalen Schutzphase.",
+      },
+      {
+        label: "Nicht beurteilbar ohne genaue Kenntnis der Operationstechnik",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Unabhängig von der genauen Operationstechnik gilt das allgemeine Phasenraster der Gewebeheilung: Am ersten postoperativen Tag befindet sich praktisch jeder chirurgische Patient in der akuten, entzündlichen Phase, in der selbst leichte Massage frühestens ab Tag 2 vorgesehen ist.",
+      },
+    ],
+    expertNote:
+      "Der Einsatz physikalischer Therapie sollte sich grundsätzlich am aktuellen Gewebeheilungsstadium orientieren statt an einem starren Datum — auch wenn sich diesen Stadien grobe Zeitfenster zuordnen lassen. In der akuten Phase (2–6 Tage, Entzündungszeichen und Schmerz) gilt maximale Schutzphase: Ruhigstellung, Thermotherapie, allenfalls vorsichtige passive Bewegung — selbst leichte Massage darf wegen der damit verbundenen Gewebsmobilisierung frühestens ab dem 2. Tag postoperativ eingesetzt werden, Thermotherapie dagegen ist schon direkt nach der Operation möglich. In der subakuten Phase (ab 10.–21. Tag, Besserung von Entzündung und Schmerz) folgt die Phase der kontrollierten Bewegung mit isometrischen und aktiven Übungen. Erst in der chronischen Phase (ab 14.–21. Tag, kaum noch Entzündung) folgt die Funktionsrückkehr-Phase mit Narbenmobilisierung, Kräftigungs-, Ausdauer- und Dehnungsübungen. Paul befindet sich einen Tag nach der Operation eindeutig in der akuten Phase — die kräftige Massage war sowohl vom Zeitpunkt als auch von der Intensität her zu früh.",
+    weakeningQ: "Ab wann wäre eine leichte, vorsichtige Massage bei Paul grundsätzlich vertretbar gewesen?",
+    weakeningOptions: [
+      { label: "Frühestens ab dem 2. postoperativen Tag, und auch dann nur leicht statt kräftig", correct: true },
+      { label: "Bereits am Operationstag selbst, möglichst kräftig zur Durchblutungsförderung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Erst nach vollständigem Abschluss der chronischen Phase, also frühestens nach 21 Tagen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Zu jedem beliebigen Zeitpunkt, da der genaue Zeitpunkt keine Rolle spielt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    retrievalQ: "Welche physiotherapeutischen Maßnahmen sind in der akuten, entzündlichen Phase (2–6 Tage) nach einer Operation angezeigt?",
+    retrievalOptions: [
+      { label: "Ruhigstellung, Thermotherapie, allenfalls vorsichtige passive Bewegung — Massage frühestens ab Tag 2", correct: true },
+      { label: "Intensive Kräftigungs- und Ausdauerübungen gegen Widerstand", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Sofortige Narbenmobilisierung direkt am Operationstag", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Vollständige körperliche Aktivität ohne jede Einschränkung", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Indikationen — Kurativ, Schmerzpatient”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (siehe Wissenseintrag `gewebeheilungsphasen-rehabilitation-zeitfenster-technik`), Abschnitt „Prä- und postoperative Schmerztherapie”. Die drei Phasen mit ihren Zeitfenstern und Techniken sowie die 2-Tage-Regel für Massage sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "lady",
+    topic: "Therapie · Postoperative Reha (Hüftgelenkdysplasie)",
+    species: "Yorkshire Terrier, Hündin, 8 J.",
+    title: "Lady — läuft nach der Hüft-OP erstaunlich gut auf drei Beinen, zu gut?",
+    learningObjective:
+      "Verstehen, warum nach einer Oberschenkelkopfresektion gerade bei kleinen, leichten Hunden aktiv zur frühen Belastung der operierten Extremität motiviert werden muss, obwohl der Hund auch ohne Belastung gut zurechtkommt.",
+    anamnese:
+      "Lady hatte vor zwei Wochen eine Oberschenkelkopfresektion wegen fortgeschrittener Hüftgelenkarthrose. Sie bewegt sich im Alltag erstaunlich mühelos auf drei Beinen und zeigt kaum Interesse daran, das operierte Bein zu belasten.",
+    beobachtung: "Lady läuft flüssig und beschwerdefrei auf drei Beinen; das operierte Hinterbein wird dabei fast vollständig entlastet getragen.",
+    diagramLabel: "Mühelose Dreibeinigkeit zwei Wochen nach Oberschenkelkopfresektion, kaum Belastung des operierten Beins",
+    palpation: "Das operierte Hüftgelenk ist bei passiver Bewegung schmerzarm beweglich; die umgebende Muskulatur zeigt bereits eine durch die vorherige lange Schonung bedingte Atrophie.",
+    hypothesisQ: "Ist Ladys mühelose Dreibeinigkeit zwei Wochen nach der Oberschenkelkopfresektion ein gutes Zeichen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nein, zumindest nicht uneingeschränkt — gerade weil kleine, leichte Hunde ihre Dreibeinigkeit besonders mühelos kompensieren, fehlt ihnen der Leidensdruck zur frühen Belastung, die für die Stabilisierung der neuen, rein muskulär/bindegewebig gehaltenen Hängehüfte entscheidend ist. Das Training muss deshalb aktiv zur Belastung motivieren.",
+        correct: true,
+      },
+      {
+        label: "Ja, uneingeschränkt — je müheloser ein Hund auf drei Beinen läuft, desto besser ist das Operationsergebnis",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Bei der Oberschenkelkopfresektion entsteht ein scheinbares Paradox: Die mühelose Dreibeinigkeit kleiner, leichter Hunde wie Lady ist gerade keine gute Nachricht, weil ihnen der Leidensdruck fehlt, die frisch operierte Extremität zu belasten — obwohl genau diese frühe Belastung für den Trainingserfolg (rasche Kräftigung der Muskulatur, gute Gelenkbeweglichkeit der Hängehüfte) entscheidend ist.",
+      },
+      {
+        label: "Ja, weil eine schmerzfreie Dreibeinigkeit automatisch bedeutet, dass keine weitere Reha-Maßnahme mehr nötig ist",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Schmerzfreiheit beim Dreibein-Laufen ersetzt nicht die für die Stabilisierung der Hängehüfte nötige aktive Belastung — ohne gezieltes Training zur Belastungsmotivation bleibt die Muskulatur geschwächt und die neue Gelenksituation unzureichend stabilisiert.",
+      },
+      {
+        label: "Das Verhalten ist für die Prognose irrelevant, solange keine Schmerzen erkennbar sind",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Das Belastungsverhalten ist bei der Oberschenkelkopfresektion direkt entscheidend für den Reha-Erfolg — die rasche Fußung ist dringend erwünscht, um die neue Hängehüfte funktionell zu stabilisieren, unabhängig davon, ob der Hund dabei Schmerzen zeigt oder nicht.",
+      },
+    ],
+    expertNote:
+      "Die drei gängigen OP-Verfahren bei Hüftgelenkdysplasie folgen völlig unterschiedlichen Reha-Logiken. Bei der Beckenosteotomie (meist sehr große, schwere, aber auch sehr junge Tiere) ist wegen der biomechanischen Veränderung im Becken ein langsamer Wiederaufbau nötig, da Knochengewebe mindestens 6 Wochen bis zur stabilen Abheilung braucht. Bei der Totalendoprothese (meist gut fußende Hunde direkt nach der OP) besteht die Reha vor allem aus kontrollierter Arbeit, mit besonders wichtigem Propriozeptionstraining, da dem Tier durch das künstliche Gelenk viele Propriozeptoren fehlen. Bei der Oberschenkelkopfresektion (Hängehüfte) — wie bei Lady — sind die typischen Patienten meist ältere, kleinere, leichtere Hunde mit bereits ausgeprägter Muskelatrophie durch längere Schonung. Hier ist rasche Fußung dringend erwünscht, um die neue, rein muskulär/bindegewebig gehaltene Hängehüfte zu stabilisieren — erschwert dadurch, dass gerade kleine, leichte Hunde mühelos dreibeinig laufen und sich deshalb schwerer zur Belastung überreden lassen. Das Training muss deshalb aktiv zur Belastung motivieren, statt sich auf den natürlichen Bewegungsdrang des Hundes zu verlassen.",
+    weakeningQ: "Welches Patientenprofil würde eher zur Totalendoprothese als zur Oberschenkelkopfresektion passen?",
+    weakeningOptions: [
+      { label: "Ein großer, bereits unmittelbar nach der OP gut fußender Hund, bei dem Propriozeptionstraining im Vordergrund steht", correct: true },
+      { label: "Ein kleiner, leichter, älterer Hund mit bereits ausgeprägter Muskelatrophie durch längere Schonung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein Hund, der mühelos dreibeinig läuft und sich schwer zur Belastung überreden lässt", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein Hund, bei dem rasche Fußung zur Stabilisierung einer rein muskulär/bindegewebig gehaltenen Hüfte entscheidend ist", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum ist Propriozeptionstraining nach einer Totalendoprothese des Hüftgelenks besonders wichtig?",
+    retrievalOptions: [
+      { label: "Weil dem Tier durch das künstliche Gelenk viele der natürlichen Propriozeptoren fehlen", correct: true },
+      { label: "Weil eine Totalendoprothese grundsätzlich instabiler ist als ein natürliches Hüftgelenk", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Propriozeptionstraining bei allen drei OP-Verfahren gleich wichtig ist und keinen besonderen Stellenwert bei der Totalendoprothese hat", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil das künstliche Gelenk eine längere Knochenheilungszeit als die anderen Verfahren benötigt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.2.3 (siehe Wissenseintrag `hd-operationsmethoden-vergleich-reha`), S. 79f. Die drei Operationsverfahren mit ihren jeweiligen Patientenprofilen und Reha-Schwerpunkten sowie das Kompensations-Paradox bei der Oberschenkelkopfresektion sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "trudi",
+    topic: "Therapie · Viszerale Massage (Kontraindikationsprüfung)",
+    species: "Deutsche Bracke, Hündin, 11 J.",
+    title: "Trudi — seit Tagen kein Kotabsatz, Kolonmassage angedacht",
+    learningObjective:
+      "Erkennen, dass vor einer Kolonmassage bei Obstipation zunächst absolute Kontraindikationen wie ein Ileus ausgeschlossen werden müssen, statt die Technik vorschnell anzuwenden.",
+    anamnese:
+      "Trudi hat seit drei Tagen keinen Kot mehr abgesetzt, wirkt zunehmend unwohl, erbricht seit heute Morgen wiederholt und frisst nicht mehr. Die Besitzer fragen nach einer Kolonmassage, von der sie gelesen haben.",
+    beobachtung: "Trudi wirkt apathisch, mit sichtlich gespanntem, druckdolentem Abdomen; wiederholtes Erbrechen seit dem Morgen.",
+    diagramLabel: "Seit drei Tagen kein Kotabsatz, seit heute wiederholtes Erbrechen, gespanntes, druckdolentes Abdomen, Apathie",
+    palpation: "Das Abdomen ist diffus gespannt und bei Palpation deutlich schmerzhaft; eine genaue Abgrenzbarkeit einzelner Kolonpunkte ist wegen der Abwehrspannung kaum möglich.",
+    hypothesisQ: "Ist eine Kolonmassage nach Vogler bei Trudi jetzt die richtige erste Maßnahme?",
+    hypothesisOptions: [
+      {
+        label:
+          "Nein — die Kombination aus mehrtägiger Obstipation, wiederholtem Erbrechen und gespanntem, druckdolentem Abdomen muss zunächst tierärztlich auf einen Ileus oder eine andere absolute Kontraindikation abgeklärt werden, bevor überhaupt eine Kolonmassage erwogen wird",
+        correct: true,
+      },
+      {
+        label: "Ja, da Kolonmassage bei jeder Form von Obstipation die Mittel der ersten Wahl ist",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Ileus gehört zu den absoluten Kontraindikationen der Kolonmassage nach Vogler — Trudis Symptomkombination (mehrtägige Obstipation, Erbrechen, gespanntes, schmerzhaftes Abdomen) spricht für genau diese Möglichkeit und muss zuerst tierärztlich ausgeschlossen werden, bevor die Technik überhaupt infrage kommt.",
+        differentiationDistractors: [
+          "Eine Massagetechnik kann grundsätzlich nie schaden, auch wenn die genaue Ursache noch unklar ist.",
+          "Jede Form von Verstopfung profitiert gleichermaßen von derselben Behandlung.",
+        ],
+      },
+      {
+        label: "Ja, weil Kolonmassage nach Vogler besonders bei geriatrischen Patienten wie Trudi angezeigt ist, unabhängig vom Gesamtbild",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Auch wenn geriatrische Patienten grundsätzlich von der Kolonmassage profitieren können (altersbedingt verlängerte Darmpassagezeit), überstimmt das akute Gesamtbild mit Erbrechen und schmerzhaftem, gespanntem Abdomen diese allgemeine Eignung — absolute Kontraindikationen müssen immer zuerst geprüft werden.",
+      },
+      {
+        label: "Nein, weil Kolonmassage grundsätzlich bei keinem geriatrischen Hund angewendet werden sollte",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Kolonmassage ist explizit auch bei geriatrischen Patienten indiziert, deren Darmpassagezeit altersbedingt verlängert ist — das Problem bei Trudi ist nicht ihr Alter, sondern die aktuelle Symptomkombination, die zunächst eine absolute Kontraindikation ausschließen muss.",
+      },
+    ],
+    expertNote:
+      "Die Kolonmassage nach Vogler ist eine gezielte, analwärts gerichtete Druck- und Gleitbewegung an fünf anatomisch definierten Punkten entlang des Kolonverlaufs, die über viszero-viszerale Reflexe die Darmpassagezeit verkürzt — besonders relevant bei geriatrischen Patienten wie Trudi, deren Darmpassagezeit altersbedingt ohnehin verlängert ist. Die Indikationen umfassen atonische und spastische Obstipation, Reizkolon, Meteorismus sowie postoperative Zustände. Absolute Kontraindikationen sind aber Entzündungen im Abdominalbereich, Tumoren, Gravidität, Ileus und Colitis ulcerosa — genau diese Möglichkeiten (insbesondere ein Ileus) müssen bei Trudis Symptomkombination aus mehrtägiger Obstipation, Erbrechen und schmerzhaftem, gespanntem Abdomen zuerst tierärztlich ausgeschlossen werden. Relative Kontraindikationen sind Entzündungen der Bauchdecke, unsicheres Auffinden der Kolonpunkte und nicht kooperierende Patienten. Vor der eigentlichen Behandlung sollte zudem auf Blasenentleerung geachtet und ein Abstand von mindestens einer Stunde zur letzten Mahlzeit eingehalten werden.",
+    weakeningQ: "Welcher Befund würde Trudi nach tierärztlichem Ausschluss eines Ileus doch zu einer geeigneten Kandidatin für die Kolonmassage machen?",
+    weakeningOptions: [
+      {
+        label: "Eine tierärztlich bestätigte, unkomplizierte atonische Obstipation ohne mechanisches Passagehindernis, ohne Erbrechen und ohne akutes Abdomen",
+        correct: true,
+      },
+      { label: "Weiterhin bestehendes, wiederholtes Erbrechen und ein gespanntes, schmerzhaftes Abdomen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein hohes Alter als alleiniger Risikofaktor für verlängerte Darmpassagezeit", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine seit drei Tagen bestehende Obstipation ohne weitere Abklärung", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche fünf Punkte entlang des Kolonverlaufs werden bei der Kolonmassage nach Vogler gezielt massiert?",
+    retrievalOptions: [
+      { label: "Zäkalpunkt, Aszendenzpunkt, linearer Punkt, Deszendenzpunkt und Sigmapunkt", correct: true },
+      { label: "Ausschließlich ein einzelner, zentral auf dem Nabel liegender Punkt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Die Akupunkturpunkte des Blasenmeridians entlang der Wirbelsäule", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Fünf zufällig über das gesamte Abdomen verteilte Punkte ohne anatomischen Bezug zum Kolon", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Massage”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 7 (siehe Wissenseintrag `kolonmassage-vogler-obstipation-fuenf-kolonpunkte`). Die fünf Kolonpunkte, der viszero-viszerale Wirkmechanismus sowie die Indikationen/Kontraindikationen (inkl. Ileus als absolute Kontraindikation) sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "rico",
+    topic: "Therapie · Ausrüstung (Brustgeschirr-Passform)",
+    species: "Parson Russell Terrier, Rüde, 3 J.",
+    title: "Rico — neues Geschirr, seitdem Rückenprobleme",
+    learningObjective:
+      "Erkennen, dass ein zu eng oder schlecht sitzendes Brustgeschirr selbst zum Risikofaktor für Rückenschmerzen werden kann, obwohl es eigentlich vor Leinenruck-Schäden schützen soll.",
+    anamnese:
+      "Rico hat seit zwei Wochen ein neues, enger anliegendes Brustgeschirr. Seitdem zeigt er beim Anleinen und bei Spaziergängen zunehmend Anzeichen von Unwohlsein im Rückenbereich.",
+    beobachtung: "Rico bewegt sich beim Tragen des Geschirrs sichtlich vorsichtiger, mit einer leicht angespannten Rückenhaltung; ohne Geschirr wirkt sein Gangbild unauffälliger.",
+    diagramLabel: "Zunehmendes Unwohlsein im Rückenbereich seit Anschaffung eines neuen, enger anliegenden Brustgeschirrs vor zwei Wochen",
+    palpation:
+      "Die Druckpalpation der Rückenmuskulatur entlang des Geschirr-Rückenteils ist deutlich schmerzhaft. Beim angelegten Geschirr lässt sich zwischen Rückenteil und Wirbelsäule keine flache Hand mehr unterbringen; die Gurte verlaufen eng im Achselbereich.",
+    hypothesisQ: "Was erklärt Ricos zunehmende Rückenbeschwerden am ehesten?",
+    hypothesisOptions: [
+      { label: "Ein zu eng sitzendes Brustgeschirr als eigenständiger Risikofaktor für Rückenschmerzen", correct: true },
+      {
+        label: "Eine eigenständige, vom Geschirr unabhängige Wirbelsäulenerkrankung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Der enge zeitliche Zusammenhang mit der Anschaffung des neuen, enger anliegenden Geschirrs sowie der konkrete Palpationsbefund (keine flache Hand mehr zwischen Rückenteil und Wirbelsäule unterbringbar) sprechen deutlich für einen direkten Zusammenhang mit der Ausrüstung, statt für eine unabhängige Grunderkrankung.",
+      },
+      {
+        label: "Ein harmloser Gewöhnungseffekt an das neue Geschirr, der von selbst verschwindet",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Ein zu eng sitzendes Geschirr ist ein biomechanisch relevanter Risikofaktor, kein bloßer Gewöhnungseffekt — die Passform sollte aktiv korrigiert werden, statt auf eine Spontanbesserung zu warten, während das Geschirr weiterhin eng sitzt.",
+      },
+      {
+        label: "Eine normale Alterserscheinung, die mit dem Geschirr nichts zu tun hat",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Rico ist erst drei Jahre alt und damit kein geriatrischer Patient; der klare zeitliche Zusammenhang mit dem neuen Geschirr und der konkrete Palpationsbefund am Geschirr-Rückenteil sprechen gegen eine reine Alterserscheinung.",
+      },
+    ],
+    expertNote:
+      "Ein gut sitzendes Brustgeschirr muss mehreren Kriterien genügen, die nur in angelegtem Zustand prüfbar sind: Die Gurte dürfen nicht in die Achseln rutschen und dort die Bewegung behindern, die Rotation des Schulterblattes muss in beide Richtungen ungestört möglich sein, und zwischen dem Rückenteil des Geschirrs und der Wirbelsäule sollte eine flache Hand bequem Platz haben — sonst drohen Rückenschmerzen, wie bei Rico. Auch darf das Geschirr nicht zu eng am Hals sitzen, sonst entsteht Druck auf Brustbein und Luftröhre; breite Gurte verteilen den Druck besser als schmale. Ein gut sitzendes Brustgeschirr wird als Alternative zu Kettenwürger oder falsch angewendetem Halti empfohlen, weil die Hallgren-Studie einen deutlichen Zusammenhang zwischen Leinenruck-Erziehungsmethoden und Halswirbelsäulen-Schäden zeigt — ein zu enges oder schlecht sitzendes Geschirr kann aber selbst zum Risikofaktor für Rückenschmerzen werden. Die Passform ist damit kein reines Komfortmerkmal, sondern eine biomechanisch relevante Entscheidung.",
+    weakeningQ: "Welcher Befund würde eher für eine vom Geschirr unabhängige Wirbelsäulenerkrankung sprechen?",
+    weakeningOptions: [
+      {
+        label: "Fortbestehende, unveränderte Rückenschmerzen auch nach Korrektur der Geschirr-Passform und auch beim Gehen ganz ohne Geschirr über mehrere Wochen",
+        correct: true,
+      },
+      { label: "Ein enger zeitlicher Zusammenhang mit der Anschaffung des neuen Geschirrs", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Keine flache Hand mehr zwischen Rückenteil und Wirbelsäule unterbringbar", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Unauffälliges Gangbild ohne das Geschirr", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welches einfache Prüfkriterium zeigt an, ob ein Brustgeschirr am Rücken nicht zu eng sitzt?",
+    retrievalOptions: [
+      { label: "Zwischen dem Rückenteil des Geschirrs und der Wirbelsäule sollte im angelegten Zustand eine flache Hand bequem Platz haben", correct: true },
+      { label: "Das Geschirr sollte sich im angelegten Zustand mühelos über den Kopf abstreifen lassen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Die Gurte sollten möglichst eng in den Achseln anliegen, um größtmöglichen Halt zu geben", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ein gut sitzendes Geschirr lässt sich nur im nicht angelegten Zustand korrekt beurteilen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.3 (siehe Wissenseintrag `brustgeschirr-passform-kriterien`), S. 64. Die Passform-Kriterien sowie der Bezug zur Hallgren-Studie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "fiete",
+    topic: "Therapie · Elektrotherapie (Gewöhnungseffekt)",
+    species: "Hovawart, Rüde, 6 J.",
+    title: "Fiete — nach sechs Tagen Reizstrom plötzlich keine Besserung mehr",
+    learningObjective:
+      "Den Gewöhnungseffekt bei Ultrareizstrom nach Träbert erkennen und von einem echten Therapieversagen unterscheiden, um die Behandlung richtig zu pausieren statt sie vorschnell abzubrechen.",
+    anamnese:
+      "Fiete wird wegen muskulärer Verspannungen seit sechs Tagen täglich mit Ultrareizstrom nach Träbert behandelt. Die ersten Tage brachten eine spürbare Besserung, seit Tag 6 zeigt sich aber keine weitere Wirkung mehr.",
+    beobachtung: "Fiete zeigt am 6. Behandlungstag wieder dieselbe muskuläre Verspannung wie zu Beginn der Serie, nachdem er an den Tagen 3–5 deutlich entspannter wirkte.",
+    diagramLabel: "Spürbare Besserung ab Tag 3, aber Rückkehr der ursprünglichen Verspannung ab Tag 6 der täglichen Reizstrombehandlung",
+    palpation: "Die zuvor behandelte Muskulatur zeigt am 6. Tag wieder einen erhöhten Tonus, vergleichbar mit dem Ausgangsbefund vor Beginn der Serie.",
+    hypothesisQ: "Was erklärt das Ausbleiben der Wirkung bei Fiete ab dem 6. Behandlungstag am ehesten?",
+    hypothesisOptions: [
+      {
+        label: "Den erwartbaren Gewöhnungseffekt des Ultrareizstroms — die Behandlung sollte jetzt pausiert und nach einigen Tagen Pause in einer neuen Serie fortgesetzt werden, statt als gescheitert zu gelten",
+        correct: true,
+      },
+      {
+        label: "Ein eindeutiges Therapieversagen, das den sofortigen Wechsel zu einem völlig anderen Therapieverfahren erfordert",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Der Ultrareizstrom nach Träbert beruht wie TENS auf dem Verdeckungsprinzip und zeigt nach mehrmaliger Behandlung typischerweise einen Gewöhnungseffekt — der Ultrareizstrom sollte deshalb nur 4–6 Tage hintereinander angewendet werden, danach ist eine mehrtägige Pause sinnvoll. Wer diesen Gewöhnungseffekt nicht kennt, interpretiert die ausbleibende Wirkung nach Tag 6 oder 7 leicht fälschlich als Therapieversagen.",
+      },
+      {
+        label: "Eine neu aufgetretene, unabhängige Verspannung ohne Zusammenhang mit der bisherigen Behandlung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Der zeitliche Verlauf (Besserung an Tag 3–5, Rückkehr der ursprünglichen Verspannung genau am 6. Tag) passt viel eher zum bekannten Gewöhnungseffekt des Verfahrens als zu einer zufällig zeitgleich neu aufgetretenen, unabhängigen Verspannung.",
+      },
+      {
+        label: "Ein Zeichen, dass die Behandlungsintensität von Anfang an zu niedrig gewählt wurde",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Die anfängliche Besserung an den Tagen 3–5 zeigt, dass die gewählte Intensität durchaus wirksam war — das Nachlassen der Wirkung ab Tag 6 ist der erwartbare Gewöhnungseffekt, kein Hinweis auf eine von Anfang an falsch gewählte Intensität.",
+      },
+    ],
+    expertNote:
+      "TENS und der Ultrareizstrom nach Träbert setzen sehr schmale, steil an- und abflutende Rechteckstromimpulse ein, die über schnellleitende Aβ-Fasern zum Hinterhorn des Rückenmarks geleitet werden und dort über Interneurone die Weiterleitung der langsameren, dumpfen Schmerzsignale blockieren (Verdeckungsprinzip) — zusätzlich wurde eine Endorphinausschüttung nachgewiesen, die die Wirkung noch Stunden nach der Anwendung anhalten lässt. Der Ultrareizstrom nach Träbert wirkt zusätzlich über die γ-Fasern detonisierend und unterbindet den reflektorischen Hypertonus der Muskulatur — praktisch nutzbar bei muskulärer Verspannung wie bei Fiete, rheumatischen Schmerzen, Radikulopathien und Arthroseschmerzen. Beide auf dem Verdeckungsprinzip beruhenden Verfahren zeigen nach mehrmaliger Behandlung einen Gewöhnungseffekt: Der Ultrareizstrom sollte deshalb nur 4–6 Tage hintereinander (5–15 Minuten täglich) angewendet werden, danach ist eine mehrtägige Pause bis zur nächsten Serie sinnvoll — eine spürbare Besserung sollte sich bereits nach der dritten Behandlung zeigen. Wer diesen Gewöhnungseffekt nicht kennt, läuft Gefahr, eine ausbleibende Wirkung nach Tag 6 oder 7 fälschlich als Therapieversagen statt als erwartbaren Verdeckungsverlust zu interpretieren.",
+    weakeningQ: "Welcher Befund würde eher für ein echtes Therapieversagen statt für den erwartbaren Gewöhnungseffekt sprechen?",
+    weakeningOptions: [
+      { label: "Keinerlei Besserung während der gesamten ersten Behandlungstage (auch nicht an Tag 3–5), bei korrekt gewählten Behandlungsparametern", correct: true },
+      { label: "Spürbare Besserung an den Tagen 3–5, gefolgt von nachlassender Wirkung genau ab Tag 6", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine tägliche Behandlungsserie über sechs aufeinanderfolgende Tage", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Muskuläre Verspannung als ursprüngliche Behandlungsindikation", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Über welche Nervenfasern wirkt der Ultrareizstrom nach Träbert zusätzlich zum TENS-typischen Verdeckungsmechanismus detonisierend auf die Muskulatur?",
+    retrievalOptions: [
+      { label: "Über die γ-Fasern, indem er den reflektorischen Hypertonus der Muskulatur unterbindet", correct: true },
+      { label: "Über die Aβ-Fasern, auf genau demselben Weg wie das Verdeckungsprinzip selbst", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Der Ultrareizstrom nach Träbert hat keinerlei zusätzlichen Wirkmechanismus über das reine TENS-Prinzip hinaus", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Über direkte Beeinflussung des Gehirns, ohne Beteiligung des Rückenmarks", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S., „Physiotechnik — Elektrotherapie”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 12 (siehe Wissenseintrag `tens-traebert-reizstrom-schmerztherapie-mechanismus`). Der TENS-Mechanismus, die Träbert-Parameter samt γ-Faser-Wirkung und der Gewöhnungseffekt mit konkreten Behandlungsintervallen sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -8331,7 +8962,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Faktenwissen", "falsche Priorisierung", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 17 (Neurotension), S. 279–281 (Abschnitte 17.3 Wirkungsweise der Neurotensionsbehandlung, 17.4 Kontraindikation, 17.5.1 Nervenleitung, 17.5.2 Mechanosensitivität der peripheren Nerven). Das Ischämie-Modell, das Wirkprinzip der Behandlung (Muskelpumpe, axonaler Transport 2- bis 4-fach beschleunigt, verbesserte Gleitfähigkeit), der Timing-Hinweis zu Cross-Links nach Wirbelsäulen-OP, die Kontraindikationsliste sowie die beiden Untersuchungswege mit ihren Hinweiszeichen sind im Original so beschrieben. Bewusst NICHT übernommen: die konkreten Behandlungstechniken (z. B. Duramobilisation mit genauer ASTE/Griff/Ausführung) — diese sind praktische Handgriffe für ausgebildete Therapeut:innen, kein Nachschlage-Wissen für die Wissensbibliothek.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["karl"],
     relatedAnatomyIds: [],
   },
   {
@@ -13129,7 +13760,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Anatomieverwechslung"],
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.2.3 (Hüftgelenkdysplasie), S. 79f. Die drei Operationsverfahren mit ihren jeweiligen Patientenprofilen und Reha-Schwerpunkten sowie das Kompensations-Paradox bei der Oberschenkelkopfresektion sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["lady"],
     relatedAnatomyIds: [],
   },
   {
@@ -13688,7 +14319,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "falsche Priorisierung", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 4.3 (Hundesport), S. 64. Die Passform-Kriterien sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["rico"],
     relatedAnatomyIds: [],
   },
   {
@@ -13871,7 +14502,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "falsche Priorisierung"],
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.5.24 (Hydrotherapie — Unterwasserlaufband), S. 126f. Indikationen, die vollständige Kontraindikationsliste sowie die praktischen Hinweise (Wundheilung, Überwachung, Trainingsdauer, Waten als Alternative) sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["rosie"],
     relatedAnatomyIds: [],
   },
   {
@@ -16533,7 +17164,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Untersuchung falsch gewählt", "Befund überbewertet"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S., „Physiotechnik — Elektrotherapie“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 12, Abschnitte „Ultrareizstrom nach Träbert“ und „TENS“ (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189983). Der TENS-Mechanismus (Aβ-Faser-Weiterleitung, Interneuron-Blockade im Hinterhorn, Endorphinausschüttung), die Träbert-Parameter samt γ-Faser-Wirkung, der Gewöhnungseffekt mit konkreten Behandlungsintervallen sowie die Indikationen/Kontraindikationen sind im Original so beschrieben. Ergänzt gezielt die bestehende, nur beiläufige Erwähnung von Gate-Control-artigen Mechanismen im Tuina-Eintrag sowie von TENS im Eintrag zu peripherer/zentraler Sensibilisierung — bewusst nicht dupliziert, sondern um den konkreten elektrotherapeutischen Wirkmechanismus ergänzt.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["fiete"],
     relatedAnatomyIds: [],
   },
   {
@@ -16562,7 +17193,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Faktenwissen", "Untersuchung falsch gewählt", "falsche Priorisierung"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S., „Physiotechnik — Elektrotherapie“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 12, Abschnitte „Anwendungsempfehlungen für die Elektrostimulationstherapie mit Niederfrequenzstrom“ und „Exponentialstrom“ (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189983). Die Typ-I-/Typ-II-faserspezifische Elektrostimulation, die Elektromechanotherapie-Kombination sowie die historische Verwendung und explizite spätere Widerlegung des Exponentialstroms (Hautirritation, vermehrte Faserdegeneration, verzögerte Reinnervation, vermutete Blockade neuer neuromuskulärer Synapsen) sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher elektrotherapeutische Atrophieprophylaxe ab — thematisch anschlussfähig an den bestehenden Bruno-Fall (Quadrizepsatrophie nach TPLO), ohne diesen Fall selbst zu verändern.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["argos"],
     relatedAnatomyIds: ["quadriceps"],
   },
   {
@@ -16616,7 +17247,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Faktenwissen", "Untersuchung falsch gewählt", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S., „Physiotechnik — Elektrotherapie“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 12, Abschnitt „Hochfrequenztherapie“ (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189983). Das Diathermie-Wirkprinzip, die drei Frequenzbereiche mit ihrer jeweiligen Eindringtiefe/Gewebeselektivität, die explizite Metallimplantat-/Herzschrittmacher-Warnung samt 5-Meter-Sicherheitsabstand sowie Indikationen/weitere Kontraindikationen sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher Hochfrequenz-/Diathermie-Sicherheitsaspekte ab — besonders relevant in Kombination mit häufigen postoperativen Fällen mit Metallimplantaten (z. B. TPLO-Platte). Der im selben Kapitel behandelte Abschnitt zur Licht-/Chromotherapie wurde bewusst nicht in einen Eintrag umgesetzt, da er überwiegend humanmedizinische, chronobiologische Evidenz mit nur vager veterinärmedizinischer Übertragbarkeit referiert („mindestens mit dem letzten Punkt wird diese Therapieform auch für die Veterinärmedizin interessant“) — nicht mit der für Denkgang nötigen fachlichen Absicherung.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["nico"],
     relatedAnatomyIds: [],
   },
   {
@@ -16670,7 +17301,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Befund überbewertet"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S., „Indikationen — Kurativ, Schmerzpatient“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984), Abschnitt „Prä- und postoperative Schmerztherapie“, Tab. 13.4 und Tab. 13.5. Die drei Phasen mit ihren Zeitfenstern und Techniken, die 2-Tage-Regel für Massage sowie die unterschiedliche prä-/postoperative Zielsetzung sind im Original so beschrieben. Ergänzt gezielt den bestehenden Eintrag `belastungssteuerung-nach-verletzung` (Hohmann), der das WARUM kontrollierter Bewegung erklärt, um das konkrete WANN/WAS (Zeitfenster und Technikwahl je Phase) — bewusst nicht dupliziert.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["paul"],
     relatedAnatomyIds: [],
   },
   {
@@ -16842,7 +17473,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Untersuchung falsch gewählt", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S., „Krankengymnastik (Physiotherapie) — Ausgewählte Techniken“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 11 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189982), Abschnitt „PNF-Technik (Propriozeptive neuromuskuläre Fazilitation)“. Die Kabat-Entstehungsgeschichte, die artspezifische Umbenennung der Vorderextremitäten-Pattern (mit der zugrunde liegenden Bizeps-Funktionsumkehr), Stretch/Widerstand/Approximation als Grundwerkzeuge sowie die drei Zusatzprinzipien After discharge/Successive induction/Reciprocal inhibition sind im Original so beschrieben. Cross-referenziert den bestehenden Eintrag `monosynaptische-polysynaptische-reflexe-sherrington-gesetze` (dortige reziproke Hemmung wird hier als PNF-Werkzeug wiederaufgegriffen) — bewusst nicht dupliziert. Bewusst nicht übernommen: die vollständige PNF-Pattern-Tabelle mit allen Diagonalen für Vorder- und Hintergliedmaße sowie die Bobath-/Vojta-Verfahren (im Original selbst als „für die Veterinärmedizin nicht direkt übertragbar, es müsste eine angelehnte Technik entwickelt werden“ beschrieben — zu vage/unspezifisch für einen eigenen Praxis-Eintrag).",
-    relatedCaseIds: [],
+    relatedCaseIds: ["stella"],
     relatedAnatomyIds: [],
   },
   {
@@ -17024,7 +17655,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Untersuchung falsch gewählt", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S., „Massage“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 7 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189978), Abschnitt „Kolonmassage nach Vogler“. Die fünf Kolonpunkte, das Durchführungsprotokoll, der viszero-viszerale Wirkmechanismus sowie Indikationen/Kontraindikationen sind im Original so beschrieben. Direkt anschlussfähig an den bestehenden Eintrag `geriatrischer-hund-alterungsmechanismen-rassenabhaengige-lebenserwartung`, der die altersbedingt verlängerte Darmpassagezeit nennt, aber keine konkrete Gegenmaßnahme beschreibt — sowie an die im Indikationen-Kapitel (Geriatriepatient-Abschnitt) genannte, dort nur beiläufig erwähnte „Kolonmassage nach Vogler“, die hier erstmals inhaltlich ausgeführt wird.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["trudi"],
     relatedAnatomyIds: [],
   },
   {

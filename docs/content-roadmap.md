@@ -5859,6 +5859,67 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Cross-Referenz-Audit 0 offene Verweise (190 Backtick-Referenzen),
       Production-Build grün, Playwright-Stichprobe (mila, mao, grete)
       gegen die Review-Seite — 0 Konsolen-/Seitenfehler.
+- [x] Fälle 66–75 (Batch 6 des ~100-Fälle-Ausbaus, 17.10.2026): Sechste
+      Zehnergruppe — erstmals mit klarem Schwerpunkt auf der THERAPIE-
+      Kategorie (6 von 10 Fällen, alle als „Handling-Entscheidung statt
+      reiner Diagnosefrage" nach dem Rocco/Paco-Vorbild angelegt), weiterhin
+      ausschließlich aus Alexander (Physikalische Therapie für Kleintiere),
+      Hárrer (Manuelle Therapie beim Hund), Kasper/Zohmann (Ganzheitliche
+      Schmerztherapie) und Mai (Physiotherapie und Bewegungstraining für
+      Hunde) kombiniert:
+      - **`argos`** (Bordeaux Dogge, 3 J.) — Elektrostimulation nach
+        proximaler Radialislähmung mit falschem Stromtyp (faradisch statt
+        Exponentialstrom) angesetzt; Irrtum, denervierte Muskulatur brauche
+        denselben Reiz wie gesunde. Quelle:
+        `elektrostimulation-muskelatrophie-exponentialstrom-irrtum`.
+      - **`nico`** (Whippet, 6 J.) — Hochfrequenztherapie/Kurzwellen-
+        diathermie trotz Titanplatte am Femur geplant; Gefahr der
+        Gewebeerhitzung am Metallimplantat. Quelle:
+        `hochfrequenztherapie-diathermie-metallimplantat-gefahr`.
+      - **`rosie`** (Cavalier King Charles Spaniel, 7 J.) — Unterwasser-
+        laufband bei bekannter Mitralklappenerkrankung angesetzt;
+        Herz-Kreislauf-Kontraindikation gegen den hydrostatischen Druck.
+        Quelle: `unterwasserlaufband-indikation-kontraindikation`.
+      - **`karl`** (Zwergschnauzer, 5 J.) — Neurotensionsbehandlung zu früh
+        nach akutem Bandscheibenvorfall begonnen; Timing-/Kontraindikations-
+        fehler statt Technikfehler. Quelle:
+        `neurotensionsbehandlung-wirkprinzip-kontraindikationen`.
+      - **`stella`** (Deutsch Drahthaar, 4 J.) — PNF-Diagonalen mit
+        humanmedizinischer Terminologie („D1 Flexion") missverstanden und
+        am falschen Bein angesetzt; artspezifisches Bewegungsmuster-
+        Fallstrick. Quelle:
+        `pnf-technik-artspezifische-bewegungsmuster-terminologiefalle`.
+      - **`paul`** (Großer Schweizer Sennenhund, 2 J.) — postoperative
+        Rehabilitation nach Sehnennaht zu früh in die Belastungsphase
+        vorangetrieben, Gewebeheilungsphasen-Zeitfenster missachtet.
+        Quelle: `gewebeheilungsphasen-rehabilitation-zeitfenster-technik`.
+      - **`lady`** (Yorkshire Terrier, 9 J.) — HD-Operationsmethoden-
+        Vergleich: Femurkopf-Hals-Resektion statt Hüft-TEP bei kleiner
+        Rasse als rehabilitationsrelevante Entscheidung, sechster
+        strukturell anderer HD-Fall (Therapieentscheidung statt Diagnose-
+        findung). Quelle: `hd-operationsmethoden-vergleich-reha`.
+      - **`trudi`** (Deutsche Bracke, 6 J.) — Kolonmassage nach Vogler bei
+        Verdacht auf Obstipation; Ausschluss eines mechanischen Ileus vor
+        Anwendung der fünf Kolonpunkte als Sicherheitsschritt. Quelle:
+        `kolonmassage-vogler-obstipation-fuenf-kolonpunkte`.
+      - **`rico`** (Parson Russell Terrier, 3 J.) — zu eng sitzendes
+        Brustgeschirr als übersehene mechanische Ursache einer
+        Schulterreizung statt orthopädischer Primärdiagnose. Quelle:
+        `brustgeschirr-passform-kriterien`.
+      - **`fiete`** (Hovawart, 8 J.) — TENS nach Träbert bei chronischer
+        Lumbalgie zeigt Wirkverlust durch Gewöhnungseffekt; Anpassung der
+        Reizparameter statt Methodenwechsel. Quelle:
+        `tens-traebert-reizstrom-schmerztherapie-mechanismus`.
+
+      `relatedCaseIds` ergänzt bei allen zehn referenzierten
+      Wissenseinträgen. Keine neuen `AnatomyItem.relatedCaseId`-
+      Verknüpfungen in diesem Batch. Keine neue Primärrecherche nötig, alle
+      zehn Fälle kombinieren ausschließlich bereits verifizierte Fakten aus
+      bestehenden Wissenseinträgen zu neuen klinischen Szenarien.
+      Verifiziert: eslint sauber, tsc sauber, Reseed 75 Fälle (65 → 75),
+      Cross-Referenz-Audit 0 offene Verweise, Production-Build grün,
+      Playwright-Stichprobe (argos, trudi, fiete) gegen die Review-Seite —
+      0 Konsolen-/Seitenfehler.
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — bewusst zurückgestellt, siehe Begründung oben
@@ -5870,25 +5931,24 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Facettengelenke als eigenständige, primäre Falldiagnose bleiben offen
       (`facettengelenke-hws`/`-bws` — LWS-Facettengelenke sind über Max
       jetzt abgedeckt). PATHOLOGIE-Kategorie mit konkreten, fallfähigen
-      Einzeldiagnosen ist nach fünf Batches praktisch ausgeschöpft — die
-      verbleibenden PATHOLOGIE-Einträge sind überwiegend abstrakte
-      Schmerzphysiologie-/Faszientheorie-Grundlagen ohne einzelnes
-      klinisches Korrelat. Schwerpunkt für kommende Batches liegt auf
-      UNTERSUCHUNG (70 ohne Fall-Link nach Batch 5, davon 6 bereits
-      verwendet — weitere Kandidaten u. a. Zervikofazialisreflex/Slap-Test,
+      Einzeldiagnosen ist nach sechs Batches praktisch ausgeschöpft (44 ohne
+      Fall-Link, überwiegend abstrakte Schmerzphysiologie-/
+      Faszientheorie-Grundlagen ohne einzelnes klinisches Korrelat).
+      Schwerpunkt für kommende Batches liegt auf UNTERSUCHUNG (62 ohne
+      Fall-Link — Kandidaten u. a. Zervikofazialisreflex/Slap-Test,
       Triggerpunktuntersuchung Vorder-/Hintergliedmaße, Goniometrie/ROM-
       Messgrenzen, Body Conditioning Score, Zehner-Test, Joint-Play-Technik
-      Rute), THERAPIE (41 ohne Fall-Link — Kandidaten u. a. weitere
-      Kontraindikations-Fälle wie bei Rocco: Elektrostimulation bei
-      Muskelatrophie, Hochfrequenztherapie bei Metallimplantat,
-      Unterwasserlaufband-Kontraindikationen) und BIOMECHANIK (75 ohne
-      Fall-Link — eher als Hintergrundwissen geeignet, da meist
-      grundlagenorientiert statt krankheitsspezifisch). 65 Fälle insgesamt
-      jetzt (Stand 17.10.2026, gegenüber 8 zu Sessionbeginn — mehr als
-      verachtfacht), Zielmarke Vanessas liegt bei ca. 100 — rund 35 weitere
-      Fälle in kommenden Batches geplant, mit fortgesetztem Fokus auf echte
-      Varianz (unterschiedliche Diagnosen, Regionen, Fallstrukturen,
-      Fehlerkategorien) statt bloßer Wiederholung ähnlicher Fälle.
+      Rute), THERAPIE (31 ohne Fall-Link, nach Batch 6 bereits deutlich
+      reduziert) und BIOMECHANIK (75 ohne Fall-Link, nahezu unberührt —
+      eher als Hintergrundwissen geeignet, da meist grundlagenorientiert
+      statt krankheitsspezifisch, einzelne konkrete Kandidaten wie
+      Katapulteffekt/Sehnenelastizität oder Knorpelernährungs-Pumpmechanismus
+      aber fallfähig). 75 Fälle insgesamt jetzt (Stand 17.10.2026, gegenüber
+      8 zu Sessionbeginn — fast verzehnfacht), Zielmarke Vanessas liegt bei
+      ca. 100 — rund 25 weitere Fälle in kommenden Batches geplant, mit
+      fortgesetztem Fokus auf echte Varianz (unterschiedliche Diagnosen,
+      Regionen, Fallstrukturen, Fehlerkategorien) statt bloßer Wiederholung
+      ähnlicher Fälle.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→
