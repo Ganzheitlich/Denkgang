@@ -3180,6 +3180,635 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 16.2.6 (siehe Wissenseintrag `lws-facettengeometrie-instabilitaet-bandscheibe`), S. 231–233, unter Bezug auf Benninger et al. 2004 und 2006. Facettengeometrie-Typen, Schäferhund-Zahlen und der Instabilitäts-Bandscheiben-Mechanismus sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "fritz",
+    topic: "Orthopädie · Ellbogen/Unterarm (Wachstumsfugenstörung)",
+    species: "Basset Hound, Rüde, 5 Monate",
+    title: "Fritz — zunehmend nach außen gedrehte Vorderpfote",
+    learningObjective:
+      "Die Distractio cubiti (Short-Ulna-Syndrom) als Ursache einer zunehmenden Unterarm-/Vorderpfotenfehlstellung im Wachstum erkennen und von einem vorzeitigen Schluss der Radiusfuge unterscheiden.",
+    anamnese:
+      "Fritz' Besitzer bemerken seit einigen Wochen, dass sich seine rechte Vorderpfote zunehmend nach außen dreht und der Unterarm sich sichtbar verbiegt. Fritz zeigt dabei keine starken Schmerzen, wirkt aber zunehmend ungeschickter beim Laufen.",
+    beobachtung:
+      "Fritz zeigt eine zunehmende Verbiegung des rechten Unterarms nach kranial-medial sowie eine Auswärtsrotation der distalen Gliedmaße samt Pfote; die Gliedmaßenlänge wirkt im Seitenvergleich noch nahezu unverändert.",
+    diagramLabel: "Zunehmende Verbiegung des rechten Unterarms mit Auswärtsrotation der Pfote, kaum Schmerzäußerung",
+    palpation:
+      "Am Ellbogengelenk ist eine leichte Stufenbildung zwischen radialer und ulnarer Gelenkfläche tastbar; Bewegungsschmerz ist nur gering ausgeprägt. Das Karpalgelenk zeigt eine beginnende Auswärtsbiegung.",
+    hypothesisQ: "Was erklärt Fritz' Befund am besten?",
+    hypothesisOptions: [
+      { label: "Distractio cubiti durch vorzeitigen Schluss der distalen Ulnawachstumsfuge (Short-Ulna-Syndrom)", correct: true },
+      {
+        label: "Distractio cubiti durch vorzeitigen Schluss der distalen Radiuswachstumsfuge (Short-Radius-Syndrom)",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Ein vorzeitiger Schluss der distalen Radiusfuge würde zu einer Gliedmaßenverkürzung mit Varus- oder Valgusdeformation führen, nicht aber zur bei Fritz beobachteten Radius-curvus-Verbiegung mit Auswärtsrotation der Pfote — dieses Bild entsteht gerade durch die gegensätzliche Störung an der Ulnafuge.",
+      },
+      {
+        label: "Eine traumatisch bedingte, akute Fraktur des Unterarms",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Es gibt kein Trauma in der Vorgeschichte, und die Veränderung hat sich über Wochen schleichend entwickelt, nicht akut — das passt zu einer Wachstumsfugenstörung und nicht zu einer frischen Fraktur.",
+      },
+      {
+        label: "Eine Osteochondrose des Ellbogengelenks",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Osteochondrose würde sich primär mit Gelenkfüllung und Schmerz bei Innenrotation zeigen, nicht mit einer fortschreitenden Achsenverbiegung des gesamten Unterarms — das charakteristische Verbiegungsmuster bei Fritz passt eindeutig besser zur Distractio cubiti.",
+      },
+    ],
+    expertNote:
+      "Distractio cubiti (DC) entsteht durch ungleichmäßiges Wachstum von Radius und Ulna infolge eines vorzeitigen Schlusses einer der beiden Wachstumsfugen, wodurch sich eine Stufenbildung zwischen radialer und ulnarer Gelenkfläche im Ellbogen ergibt. Am häufigsten betroffen ist die distale Ulnaepiphysenfuge, insbesondere bei chondrodystrophen Rassen wie dem Basset Hound — hier führt die Wachstumsstörung zunächst zu einer Verbiegung des Radius nach kranial und dann nach medial (Radius curvus), später zu einer Auswärtsbiegung von Karpus und Metakarpus mit Außenrotation der distalen Gliedmaße (Carpus valgus), wie bei Fritz. Ein vorzeitiger Schluss der distalen Radiusfuge führt dagegen zu einer Gliedmaßenverkürzung mit Varus- oder Valgusdeformation, je nach Symmetrie des Fugenschlusses — ein ganz anderes Erscheinungsbild derselben Grundstörung. Die Therapie ist chirurgisch und verfolgt vier Ziele: Schmerzfreiheit, Beseitigung der Stellungsfehler, Erhaltung der Gliedmaßenlänge sowie Beseitigung der Gelenkinkongruenz. Ein möglichst frühzeitiger Eingriff — vor dem Auftreten schwerer sekundärer Gelenkveränderungen — wird empfohlen.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für ein Short-Radius- statt für ein Short-Ulna-Syndrom sprechen?",
+    weakeningOptions: [
+      {
+        label: "Eine deutliche Gliedmaßenverkürzung mit Varus- oder Valgusdeformation, aber ohne die für Radius curvus typische Verbiegung des Unterarms",
+        correct: true,
+      },
+      { label: "Verbiegung des Radius nach kranial und dann medial", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Auswärtsrotation der distalen Gliedmaße samt Pfote", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine tastbare Stufenbildung zwischen radialer und ulnarer Gelenkfläche", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche vier Ziele verfolgt die chirurgische Therapie der Distractio cubiti?",
+    retrievalOptions: [
+      { label: "Schmerzfreiheit, Beseitigung der Stellungsfehler, Erhaltung der Gliedmaßenlänge und Beseitigung der Gelenkinkongruenz", correct: true },
+      { label: "Ausschließlich die kosmetische Korrektur der äußeren Beinform", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Eine vollständige Versteifung des Ellbogengelenks als Dauerlösung", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ausschließlich die Verkürzung der gesunden Gegenseite zum Längenausgleich", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Distractio cubiti (DC) beim Hund” (siehe Wissenseintrag `distractio-cubiti-radius-curvus-carpus-valgus-hund`). Pathomechanismus, die Unterscheidung Short-Radius- vs. Short-Ulna-Syndrom, Rasseprädispositionen, Diagnostik und die vier Therapieziele sind in der Quelle so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "nelly",
+    topic: "Orthopädie · Ellbogen (Sehnenverknöcherung)",
+    species: "Airedale Terrier, Hündin, 8 Monate",
+    title: "Nelly — steife, staksige Vordergliedmaße ohne klaren Befund",
+    learningObjective:
+      "Die Metaplasie der Beugesehnen am medialen Epicondylus humeri (MEHB) als seltene, unspezifisch erscheinende Ursache einer steifen Vordergliedmaße erkennen und von einer Fraktur des Epicondylus medialis abgrenzen.",
+    anamnese:
+      "Nelly bewegt sich seit einigen Wochen mit einer steifen, etwas staksigen rechten Vordergliedmaße; die Lahmheit ist mal stärker, mal kaum bemerkbar. Ein Trauma ist den Besitzern nicht aufgefallen.",
+    beobachtung: "Nelly zeigt eine gering- bis mittelgradige, intermittierende Lahmheit vorne rechts mit insgesamt steifem Bewegungsmuster der Gliedmaße.",
+    diagramLabel: "Intermittierende, gering- bis mittelgradige Lahmheit vorne rechts mit steifer Gliedmaßenbewegung, kein Trauma",
+    palpation:
+      "Am medialen Ellbogengelenk ist eine umschriebene Verdickung tastbar, mit Schmerzhaftigkeit bei passiver Beugung/Streckung und bei Druck auf den medialen Gelenkabschnitt. Eine vermehrte Gelenkfüllung ist nicht nachweisbar.",
+    hypothesisQ: "Was erklärt Nellys Befund am besten?",
+    hypothesisOptions: [
+      { label: "Metaplasie der Beugesehnen am medialen Epicondylus humeri (MEHB)", correct: true },
+      {
+        label: "Eine frische Fraktur des Epicondylus medialis",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese wichtige Differentialdiagnose muss radiologisch abgegrenzt werden, passt aber schlechter zum Fehlen eines Traumas und zum über Wochen intermittierenden statt akuten Verlauf bei Nelly.",
+      },
+      {
+        label: "Eine vermehrte Gelenkfüllung infolge einer Osteochondrosis dissecans",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Bei Nelly fehlt eine vermehrte Gelenkfüllung — stattdessen liegt eine umschriebene Verdickung am medialen Gelenkabschnitt vor, was eher zur MEHB als zur typischerweise mit Gelenkerguss einhergehenden OCD passt.",
+      },
+      {
+        label: "Eine reine muskuläre Verspannung ohne strukturelle Ursache",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die tastbare umschriebene Verdickung mit reproduzierbarem Schmerz bei Beugung/Streckung und Druck ist ein konkreter struktureller Befund, der eine rein muskuläre Verspannung unwahrscheinlich macht.",
+      },
+    ],
+    expertNote:
+      "Bei der Metaplasie der am medialen Epicondylus humeri ansetzenden Beugesehnen (MEHB) wandelt sich vermutlich kollagenes Bindegewebe der Flexorsehnen in Knochengewebe um, teils mit Verwachsungen zu Gelenkkapsel und medialem Seitenband — Ätiologie und Pathogenese sind noch weitgehend ungeklärt. Betroffen sind vor allem mittelgroße bis große Rassen, darunter der Airedale Terrier, meist Junghunde unter einem Jahr wie Nelly, Hündinnen etwas häufiger als Rüden. Das klinische Bild ist unspezifisch: eine steife, staksige Bewegung mit meist nur gering- bis mittelgradiger, intermittierender oder permanenter Lahmheit; eine vermehrte Gelenkfüllung fehlt oft, dafür ist häufig eine Verdickung am medialen Ellbogengelenk selbst tastbar. Am besten sichtbar wird die Metaplasie im kraniokaudalen Röntgenstrahlengang als mineraldichte, oval- bis spindelförmige Struktur auf Höhe des Gelenkspalts. Therapeutisch wird die Metaplasie chirurgisch entfernt; nach vollständiger Entfernung ist die Prognose überwiegend gut mit nur seltenen Rezidiven.",
+    weakeningQ: "Welcher radiologische Befund würde eher für eine Fraktur des Epicondylus medialis statt für eine MEHB sprechen?",
+    weakeningOptions: [
+      {
+        label: "Ein akuter, scharf abgrenzbarer Knochenfragmentrand unmittelbar nach einem erinnerlichen Trauma, statt einer oval-spindelförmigen Struktur auf Höhe des Gelenkspalts",
+        correct: true,
+      },
+      { label: "Eine mineraldichte, oval- bis spindelförmige Struktur auf Höhe des Gelenkspalts", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine umschriebene Verdickung am medialen Ellbogengelenk ohne vermehrte Gelenkfüllung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein über Wochen intermittierender, nicht-traumatischer Verlauf", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche strukturelle Veränderung liegt der MEHB vermutlich zugrunde?",
+    retrievalOptions: [
+      { label: "Eine Umwandlung von kollagenem Bindegewebe der Flexorsehnen in Knochengewebe (Metaplasie)", correct: true },
+      { label: "Eine vollständige Ruptur der Beugesehnen ohne Gewebeumwandlung", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Eine reine Entzündung der Gelenkkapsel ohne Sehnenbeteiligung", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ein Abriss des gesamten medialen Seitenbands", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Metaplasie der am medialen Epicondylus humeri ansetzenden Beugesehnen (MEHB) beim Hund” (siehe Wissenseintrag `metaplasie-beugesehnen-medialer-epicondylus-mehb-hund`). Pathogenese-Hypothesen, Rasseprädispositionen, klinisches Bild, Diagnostik und Therapie sind in der Quelle so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "senta",
+    topic: "Neurologie · Thorakolumbale Bandscheibe (chronischer Verlauf)",
+    species: "Labrador Retriever, Hündin, 9 J.",
+    title: "Senta — seit Monaten langsam zunehmende Hinterhandschwäche",
+    learningObjective:
+      "Die Hansen-Typ-II-Diskusprotrusion (langsamer, altersbedingter Verlauf bei nicht-chondrodystrophen Rassen) von der explosionsartigen Hansen-Typ-I-Extrusion chondrodystropher Rassen unterscheiden.",
+    anamnese:
+      "Senta zeigt seit mehreren Monaten eine langsam zunehmende Schwäche der Hintergliedmaßen; ein plötzliches, akutes Ereignis gibt es in der Vorgeschichte nicht.",
+    beobachtung: "Senta zeigt eine langsam progrediente, milde bis mittelgradige Ataxie der Hintergliedmaßen mit gelegentlichem Schleifen der Zehenspitzen.",
+    diagramLabel: "Über mehrere Monate langsam zunehmende Ataxie der Hintergliedmaßen, kein akuter Beginn",
+    palpation:
+      "Die Druckpalpation der thorakolumbalen Wirbelsäule löst eine milde, diffuse Schmerzreaktion aus; die Tiefensensibilität der Hintergliedmaßen ist noch vollständig erhalten.",
+    hypothesisQ: "Was erklärt Sentas Befund am besten?",
+    hypothesisOptions: [
+      { label: "Hansen-Typ-II-Diskusprotrusion (fibroide Metaplasie, langsamer altersbedingter Verlauf)", correct: true },
+      {
+        label: "Hansen-Typ-I-Diskusextrusion (chondroide Metaplasie, explosionsartiger Durchbruch)",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Hansen-Typ-I betrifft vorwiegend chondrodystrophe Rassen und verläuft typischerweise akut bis explosionsartig schon im Alter von 4–6 Jahren — ein Labrador Retriever ist keine chondrodystrophe Rasse, und Sentas langsam über Monate fortschreitender Verlauf im Alter von 9 Jahren passt deutlich besser zum altersbedingten Typ-II-Mechanismus.",
+        differentiationDistractors: [
+          "Nur chondrodystrophe Rassen können überhaupt einen Bandscheibenvorfall bekommen.",
+          "Jede Hinterhandschwäche beim älteren Hund ist automatisch dieselbe Erkrankung wie beim Dackel.",
+        ],
+      },
+      {
+        label: "Degenerative Myelopathie",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "DM verläuft typischerweise vollständig schmerzlos — bei Senta löst die Druckpalpation der Wirbelsäule dagegen eine Schmerzreaktion aus, was eher für eine strukturelle Bandscheibenprotrusion als für die schmerzlose DM spricht.",
+      },
+      {
+        label: "Eine beidseitige Hüftgelenkarthrose ohne neurologische Beteiligung",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Eine Ataxie mit gelegentlichem Zehenschleifen ist ein neurologisches und kein rein orthopädisches Zeichen — eine Hüftarthrose würde sich primär als Gelenkschmerz, nicht als Ataxie zeigen.",
+      },
+    ],
+    expertNote:
+      "Die Klassifikation nach Hansen unterscheidet zwei Wege der Bandscheibendegeneration. Hansen-Typ-I betrifft vorwiegend chondrodystrophe Rassen: Eine chondroide Metaplasie des Nucleus pulposus beginnt teilweise schon in den ersten Lebensjahren, klinische Beschwerden treten meist im Alter von 4–6 Jahren als vollständiger Anulus-Einriss mit meist langsamer, seltener explosionsartiger Entleerung des Nukleusmaterials auf. Hansen-Typ-II betrifft dagegen alle Rassen im Zuge normaler Alterungsprozesse wie bei Senta: eine fibroide statt chondroide Metaplasie wandelt das Nukleusmaterial allmählich in Fasergewebe um, das eine wesentlich geringere Neigung zum Prolaps hat — Beschwerden treten seltener und erst im höheren Lebensalter (6–10 Jahre) auf, meist als Vorwölbung des Anulus fibrosus (Diskusprotrusion) statt als echter Durchbruch. Die häufigste Gesamtlokalisation von Bandscheibenvorfällen liegt zwischen Th10 und L6 (davon 70 % zwischen Th12 und L2) — ein Bereich, der auch bei der chronischen Typ-II-Protrusion betroffen sein kann.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für eine Hansen-Typ-I-Extrusion statt für die bei Senta vermutete Typ-II-Protrusion sprechen?",
+    weakeningOptions: [
+      {
+        label: "Ein plötzlicher, akuter Beginn innerhalb weniger Stunden bei einer chondrodystrophen Rasse im Alter von 4–6 Jahren",
+        correct: true,
+      },
+      { label: "Ein über Monate langsam progredienter Verlauf", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine milde, diffuse Schmerzreaktion bei Druckpalpation", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Vollständig erhaltene Tiefensensibilität", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Worin unterscheidet sich die Gewebeveränderung des Nucleus pulposus bei Hansen-Typ-I von der bei Hansen-Typ-II?",
+    retrievalOptions: [
+      {
+        label: "Typ I zeigt eine chondroide Metaplasie (Verknorpelung) mit hoher Prolapsneigung, Typ II eine fibroide Metaplasie (Umwandlung in Fasergewebe) mit geringerer Prolapsneigung",
+        correct: true,
+      },
+      { label: "Beide Typen zeigen exakt dieselbe Gewebeveränderung, nur in unterschiedlichem Alter", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Typ I betrifft ausschließlich den Anulus fibrosus, Typ II ausschließlich den Nucleus pulposus", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Typ II ist die schwerere, akutere Form, Typ I die mildere, chronische Form", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Diskopathie/Diskushernie/Diskusprolaps (siehe Wissenseintrag `hansen-klassifikation-diskopathie-lig-intercapitale-nervenwurzelzeichen`). Die Hansen-I/II-Klassifikation samt Altersangaben, Rasseprädisposition und Verlaufsunterschieden sowie die Lokalisationsangaben sind in der Quelle so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "felix",
+    topic: "Neurologie · Schädel-Hirn-Trauma",
+    species: "Mischling, Rüde, 4 J.",
+    title: "Felix — nach Autounfall zunächst stabil, dann plötzlich schläfrig",
+    learningObjective:
+      "Verstehen, warum nach einem Kopftrauma eine einmalige neurologische Untersuchung nicht ausreicht, weil sich intrakranielle Blutungen auch Stunden später erst manifestieren können.",
+    anamnese:
+      "Felix wurde vor sechs Stunden von einem Auto erfasst. Unmittelbar danach wirkte er benommen, aber ansprechbar und konnte stehen. Seit etwa einer Stunde wird er zunehmend schläfriger und reagiert langsamer auf Ansprache.",
+    beobachtung:
+      "Felix liegt vermehrt und reagiert nur noch verzögert auf äußere Reize; seine Pupillen wurden von den Besitzern als zunehmend unterschiedlich groß beschrieben.",
+    diagramLabel: "Zunehmende Schläfrigkeit und verzögerte Reaktion sechs Stunden nach Kopftrauma, zuvor stabiler Zwischenzustand",
+    palpation:
+      "Die Pupillen sind seitenungleich (Anisokorie), die Pupillenreaktion auf Licht ist verlangsamt. Eine äußere Kopfverletzung ist nicht sichtbar; der übrige Bewegungsapparat zeigt keine akuten Auffälligkeiten.",
+    hypothesisQ: "Was muss bei Felix' Verschlechterung jetzt vorrangig angenommen und abgeklärt werden?",
+    hypothesisOptions: [
+      { label: "Eine sich entwickelnde intrakranielle Blutung mit zunehmendem Druckanstieg", correct: true },
+      {
+        label: "Eine reine, vorübergehende Gehirnerschütterung (Commotio cerebri), die von selbst abklingt",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Eine Commotio cerebri verursacht eine vorübergehende, aber keine sich über Stunden zunehmend verschlechternde Bewusstseinslage — die zunehmende Schläfrigkeit und die sich entwickelnde Anisokorie sind typische Warnzeichen für einen fortschreitenden intrakraniellen Druckanstieg, der aktiv abgeklärt werden muss, statt auf eine Spontanbesserung zu warten.",
+      },
+      {
+        label: "Ein unabhängiges, neu aufgetretenes orthopädisches Problem",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Der übrige Bewegungsapparat zeigt keine akuten Auffälligkeiten — die Verschlechterung betrifft eindeutig Bewusstseinslage und Pupillen, also das zentrale Nervensystem, nicht den Bewegungsapparat.",
+      },
+      {
+        label: "Reine Erschöpfung nach dem Unfallschreck ohne medizinischen Abklärungsbedarf",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine zunehmende Schläfrigkeit mit sich entwickelnder Anisokorie nach einem Kopftrauma ist kein harmloses Erschöpfungszeichen, sondern ein klassisches Warnsignal für eine sich entwickelnde intrakranielle Komplikation, die sofortige Abklärung erfordert.",
+      },
+    ],
+    expertNote:
+      "Da das Gehirn nicht fest mit der Schädelkapsel verbunden ist, sondern in ihr „herumschwimmt”, kann ein Trauma nicht nur am Ort der Gewalteinwirkung (Coup), sondern auch an der gegenüberliegenden Stelle (Contrecoup) eine Schädigung des Gehirnparenchyms verursachen. Das größte Problem beim Kopftrauma sind starke intrakranielle Blutungen: Die Ansammlung von Blut in der starren Schädelkalotte führt zu intrakraniellem Druckanstieg und setzt damit einen Circulus vitiosus in Gang, der im schlimmsten Fall zu einer lebensbedrohlichen subtentoriellen Hernie führen kann. Neurologische Symptome treten meist unmittelbar nach dem Trauma auf, können aber auch erst Stunden oder Tage später erscheinen — ein Hinweis auf eine sich entwickelnde Blutung, wie bei Felix. Eine wiederholte neurologische Untersuchung in den ersten Stunden nach dem Unfall ist deshalb unerlässlich; die Pupillen sind dabei ein besonders wichtiger Indikator für einen intrakraniellen Druckanstieg. Therapeutisch gilt: Sekundärschäden durch Druckanstieg müssen vorgebeugt werden, wobei entsprechende Maßnahmen innerhalb weniger Stunden Wirkung zeigen sollten.",
+    weakeningQ: "Welcher Befund würde am ehesten für eine reine, folgenlose Commotio cerebri statt für eine sich entwickelnde intrakranielle Blutung sprechen?",
+    weakeningOptions: [
+      {
+        label: "Eine vorübergehende Bewusstlosigkeit unmittelbar nach dem Trauma, gefolgt von vollständiger und stabil bleibender Erholung ohne jede spätere Verschlechterung",
+        correct: true,
+      },
+      { label: "Zunehmende Schläfrigkeit mehrere Stunden nach dem Trauma", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Sich entwickelnde Anisokorie mit verlangsamter Pupillenreaktion", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein zunächst stabiler Zwischenzustand nach dem Unfall", correct: false, errorCategory: "Unterkonfidenz" },
+    ],
+    retrievalQ: "Warum ist nach einem Kopftrauma eine einmalige neurologische Untersuchung unmittelbar nach dem Ereignis nicht ausreichend?",
+    retrievalOptions: [
+      {
+        label: "Weil sich intrakranielle Blutungen erst Stunden oder Tage später manifestieren können und eine wiederholte Untersuchung nötig ist, um eine Progression rechtzeitig zu erfassen",
+        correct: true,
+      },
+      { label: "Weil die erste Untersuchung nach einem Trauma grundsätzlich unzuverlässige Ergebnisse liefert", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil sich Kopftraumata beim Hund immer sofort und vollständig mit dem Erstbefund zeigen", correct: false, errorCategory: "Unterkonfidenz" },
+      { label: "Weil eine wiederholte Untersuchung nur aus rechtlichen Dokumentationsgründen nötig ist", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Kopftrauma”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (siehe Wissenseintrag `kopftrauma-coup-contrecoup-verzoegerte-symptome`). Der Coup-Contrecoup-Mechanismus, die Gefahr des intrakraniellen Druckanstiegs, die Bedeutung wiederholter Untersuchungen und der Pupillen als Indikator sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "carlo",
+    topic: "Neurologie · Wirbelsäulentrauma (Prognoseeinschätzung)",
+    species: "Mittelschnauzer, Rüde, 5 J.",
+    title: "Carlo — Wirbelfraktur im Röntgenbild, aber nur milde Lähmungserscheinungen",
+    learningObjective:
+      "Verstehen, dass sich die Prognose nach einem Wirbelsäulentrauma in erster Linie nach dem neurologischen Status und erst in zweiter Linie nach dem radiologischen Befund richtet.",
+    anamnese:
+      "Carlo stürzte vor zwei Tagen von einer Treppe. Das Röntgenbild zeigt eine Fraktur eines Lendenwirbels ohne erkennbare Dislokation; die Besitzer sind alarmiert, weil ihnen gesagt wurde, er habe „einen gebrochenen Rücken”.",
+    beobachtung: "Carlo zeigt lediglich eine milde Paraparese der Hintergliedmaßen; er kann stehen und einige Schritte gehen, wenn auch unsicher.",
+    diagramLabel: "Milde Paraparese trotz radiologisch gesicherter Wirbelfraktur ohne Dislokation",
+    palpation:
+      "Die Tiefensensibilität ist an beiden Hintergliedmaßen vollständig erhalten; spinale Reflexe sind unauffällig bis leicht gesteigert. Die Palpation der Frakturregion ist mäßig schmerzhaft.",
+    hypothesisQ: "Wie ist Carlos Prognose am treffendsten einzuschätzen?",
+    hypothesisOptions: [
+      {
+        label: "Günstig — trotz formal vorliegender Fraktur ist der neurologische Status (milde Parese, erhaltene Tiefensensibilität) entscheidend für die Prognose, nicht allein der radiologische Befund",
+        correct: true,
+      },
+      {
+        label: "Grundsätzlich ungünstig, weil jede Wirbelfraktur automatisch eine schlechte Prognose bedeutet",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Die Prognose richtet sich in erster Linie nach dem neurologischen Status und erst in zweiter Linie nach dem radiologischen Befund — ein Tier mit nur milder Paraparese und einer Wirbelfraktur ohne Dislokation hat trotz formal vorliegender Fraktur eine günstige Prognose.",
+      },
+      {
+        label: "Nicht einschätzbar, da ohne MRT oder CT keinerlei Prognoseaussage möglich ist",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Auch ohne Schnittbildgebung lässt der aktuelle neurologische Befund (milde Parese, erhaltene Tiefensensibilität) bereits eine fundierte, vorsichtig optimistische Prognoseeinschätzung zu — Schnittbildgebung ergänzt die Beurteilung, ersetzt aber nicht die klinisch-neurologische Einschätzung als wichtigsten Prognosefaktor.",
+      },
+      {
+        label: "Infaust, da eine Wirbelfraktur ohne sofortige Operation immer zur vollständigen Lähmung führt",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Carlos aktueller, nur mild beeinträchtigter neurologischer Status widerspricht dieser pauschalen Annahme — die Therapieentscheidung (chirurgisch oder konservativ) richtet sich individuell nach neurologischem und radiologischem Befund, nicht nach einer automatischen Regel.",
+      },
+    ],
+    expertNote:
+      "Bei Hund und Katze sind im Zusammenhang mit schweren Traumata bevorzugt die Übergänge zwischen „beweglichen“ und „starren“ Abschnitten der Wirbelsäule von Frakturen, Luxationen und Subluxationen betroffen — hochzervikal, tiefzervikal, thorakolumbal und lumbosakral, weil sich an diesen Übergängen mechanische Kräfte konzentrieren. Die Prognose richtet sich in erster Linie nach dem neurologischen Status, erst in zweiter Linie nach dem radiologischen Befund: Ein paraplegischer Patient ohne Tiefensensibilität hat auch bei unauffälligem Röntgenbild eine schlechte Prognose, weil die fehlende Tiefensensibilität bereits eine hochgradige Rückenmarksläsion anzeigt. Umgekehrt hat ein Tier wie Carlo mit nur milder Paraparese und einer Wirbelfraktur ohne Dislokation eine günstige Prognose — obwohl formal eine Fraktur vorliegt. Morphologische Veränderungen des Rückenmarks selbst (Kontusion, Lazeration) sind nur mittels MRT oder CT darstellbar; die Therapie richtet sich nach neurologischem und radiologischem Befund gemeinsam.",
+    weakeningQ: "Welcher zusätzliche Befund würde Carlos Prognose deutlich verschlechtern, auch ohne Veränderung des radiologischen Befunds?",
+    weakeningOptions: [
+      { label: "Vollständiger Verlust der Tiefensensibilität an beiden Hintergliedmaßen", correct: true },
+      { label: "Milde Paraparese mit erhaltener Gehfähigkeit", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine Wirbelfraktur ohne erkennbare Dislokation im Röntgenbild", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Mäßige Schmerzhaftigkeit bei Palpation der Frakturregion", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum kann bei einem polytraumatisierten Patienten im Schockzustand das Fehlen von Schmerzäußerung bei der Palpation schwer zu interpretieren sein?",
+    retrievalOptions: [
+      {
+        label: "Weil das Fehlen der Schmerzäußerung sowohl auf eine hochgradige Rückenmarksläsion mit fehlender Tiefensensibilität als auch auf den Schockzustand selbst zurückgehen kann",
+        correct: true,
+      },
+      { label: "Weil Schock grundsätzlich keinen Einfluss auf die Schmerzwahrnehmung hat", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil fehlende Schmerzäußerung im Schock immer eine gute Prognose bedeutet", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Weil polytraumatisierte Patienten grundsätzlich nicht untersuchbar sind", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Wirbelfraktur, -luxation, -subluxation”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (siehe Wissenseintrag `wirbelfraktur-luxation-uebergangszonen-verletzungsklassifikation`). Die prädisponierten Übergangszonen, die Prognosebeispiele (neurologischer Status vor radiologischem Befund) sowie der Zusammenhang zwischen Schock und Schmerzbeurteilung sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "bella",
+    topic: "Neurologie · Periphere Nervenlähmung (iatrogen)",
+    species: "Mops, Hündin, 6 J.",
+    title: "Bella — Fuß nach Injektion plötzlich gelähmt",
+    learningObjective:
+      "Die Ischiadikuslähmung als mögliche iatrogene Komplikation intramuskulärer Injektionen in die kaudale Oberschenkelmuskulatur erkennen.",
+    anamnese:
+      "Bella erhielt vor drei Tagen eine intramuskuläre Injektion in die kaudale Oberschenkelmuskulatur. Seitdem schleift sie den Fuß desselben Beins beim Gehen nach und knickt beim Auftreten ein.",
+    beobachtung:
+      "Bella zeigt ein deutliches Nachschleifen des rechten Hinterfußes mit Überköten beim Gehen; am Fußrücken ist eine beginnende Hautabschürfung sichtbar.",
+    diagramLabel: "Nachschleifen und Überköten des rechten Hinterfußes mit beginnender Hautabschürfung am Fußrücken, drei Tage nach intramuskulärer Injektion",
+    palpation:
+      "Der Tarsus ist passiv in alle Richtungen frei beweglich, ohne mechanischen Widerstand. Alle Muskeln distal des Kniegelenks zeigen eine deutliche Parese; proximal des Knies ist die Funktion unauffällig.",
+    hypothesisQ: "Was erklärt Bellas Befund am besten?",
+    hypothesisOptions: [
+      { label: "Iatrogene Ischiadikuslähmung durch die intramuskuläre Injektion", correct: true },
+      {
+        label: "Eine reine Muskelverhärtung an der Injektionsstelle ohne Nervenbeteiligung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Das Nachschleifen des Fußes, das Überköten und die frei bewegliche Tarsus-Passivbeweglichkeit sind klassische Zeichen eines echten Nervenausfalls distal des Kniegelenks, nicht einer rein lokalen Muskelverhärtung ohne funktionelle Folgen.",
+      },
+      {
+        label: "Eine Hüftgelenkluxation infolge der Injektion",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Eine Hüftluxation würde sich als Gelenkinstabilität mit sichtbarer Beinverkürzung oder -fehlstellung zeigen, nicht als Parese sämtlicher Muskeln distal des Kniegelenks bei frei beweglichem Tarsus.",
+      },
+      {
+        label: "Ein unabhängiger, zufällig zeitgleich aufgetretener Bandscheibenvorfall",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Der enge zeitliche Zusammenhang mit der Injektion in genau der Region, in der der N. ischiadicus verläuft, macht eine iatrogene Nervenschädigung deutlich wahrscheinlicher als einen zufällig zeitgleichen, unabhängigen Bandscheibenvorfall.",
+      },
+    ],
+    expertNote:
+      "Die Ischiadikuslähmung tritt vor allem im Zusammenhang mit Ilium- und proximalen Femurfrakturen auf — kommt aber auch iatrogen vor, sowohl bei chirurgischen Eingriffen in dieser Region als auch bei intramuskulären Injektionen in den M. semitendinosus oder M. semimembranosus, wie bei Bella. Die neurologischen Ausfälle umfassen Parese bis Plegie aller Muskeln distal des Kniegelenks mit ständigem Überköten und Nachschleifen des Fußes samt Hautabschürfung am Fußrücken; der Tarsus ist dabei passiv in alle Richtungen frei beweglich. Diese iatrogene Gefahr ist ein konkreter, vermeidbarer Risikofaktor — die Injektionsstelle in der kaudalen Oberschenkelmuskulatur ist entsprechend mit Bedacht zu wählen. Die Elektrodiagnostik ist für die Prognoseabschätzung von großer Bedeutung, da sich klinisch ähnlich aussehende Läsionen (Neurapraxie versus Axonotmesis) in ihrer Erholungsfähigkeit stark unterscheiden.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine Ischiadikuslähmung und für ein rein orthopädisches Problem des Tarsalgelenks sprechen?",
+    weakeningOptions: [
+      {
+        label: "Ein mechanisch eingeschränkter, nicht frei beweglicher Tarsus mit tastbarer Instabilität, bei erhaltener Muskelfunktion proximal und distal des Kniegelenks",
+        correct: true,
+      },
+      { label: "Nachschleifen und Überköten des Fußes beim Gehen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein frei beweglicher Tarsus ohne mechanischen Widerstand", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Parese aller Muskeln distal des Kniegelenks bei unauffälliger Funktion proximal davon", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum unterscheidet die Elektrodiagnostik bei peripheren Nervenlähmungen zwischen Neurapraxie und Axonotmesis klinisch relevant?",
+    retrievalOptions: [
+      {
+        label: "Weil sich klinisch ähnlich aussehende Läsionen in ihrer Erholungsfähigkeit stark unterscheiden können, was die Prognoseabschätzung verändert",
+        correct: true,
+      },
+      { label: "Weil nur eine der beiden Formen überhaupt behandelbar ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil beide Formen klinisch und elektrodiagnostisch identisch sind und keine Unterscheidung nötig ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die Elektrodiagnostik ausschließlich zur Bestätigung der Diagnose, nie zur Prognose dient", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Spinalnerventrauma (Monoparese/Monoplegie)”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (siehe Wissenseintrag `periphere-nervenlaehmungen-radialis-supraskapularis-ischiadikus`). Das klinische Bild der Ischiadikuslähmung samt iatrogener Injektionsgefahr sowie die Bedeutung der Elektrodiagnostik sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "balto",
+    topic: "Neurologie · Plexus brachialis (vollständiger Wurzelabriss)",
+    species: "Siberian Husky, Rüde, 2 J.",
+    title: "Balto — schlaffes Bein, hängendes Augenlid, nach Sturz vom Anhänger",
+    learningObjective:
+      "Erkennen, dass die Kombination aus Horner-Syndrom und gleichzeitigen oberen Motoneuron-Symptomen der ipsilateralen Hintergliedmaße ein sicheres Zeichen für einen vollständigen Plexus-brachialis-Wurzelabriss ist, bei dem Physiotherapie keine sinnvolle Option mehr ist.",
+    anamnese:
+      "Balto stürzte vor einer Woche von einem fahrenden Hundeschlittenanhänger. Seitdem hängt sein rechtes Vorderbein vollständig schlaff herab; zusätzlich ist den Besitzern ein auffällig hängendes rechtes Augenlid aufgefallen.",
+    beobachtung:
+      "Das rechte Vorderbein hängt komplett schlaff herab und wird beim Gehen gar nicht belastet. Am rechten Auge zeigt sich eine hängende Lidspalte mit verengter Pupille; zusätzlich fällt eine leicht spastische, kaum koordinierte Bewegung der rechten Hintergliedmaße auf.",
+    diagramLabel: "Vollständig schlaffes rechtes Vorderbein, Horner-Syndrom rechtes Auge, zusätzlich spastische Bewegungsstörung der rechten Hintergliedmaße",
+    palpation:
+      "Am rechten Vorderbein ist über die gesamte Gliedmaße keine Schmerzreaktion auslösbar, alle Reflexe sind erloschen. Am rechten Auge sind Ptosis, Miosis und Enophthalmus eindeutig feststellbar. Die rechte Hintergliedmaße zeigt gesteigerte Reflexe bei erhaltener, aber unkoordinierter Beweglichkeit.",
+    hypothesisQ: "Wie ist Baltos Befund fachlich korrekt einzuordnen, und was bedeutet das für die weitere Behandlung?",
+    hypothesisOptions: [
+      {
+        label:
+          "Vollständiger Wurzelabriss (Avulsion) des Plexus brachialis — die Kombination aus Horner-Syndrom und oberen Motoneuron-Symptomen der ipsilateralen Hintergliedmaße zeigt eine infauste Prognose; Physiotherapie ist hier keine sinnvolle Option mehr, die Amputation bleibt die einzige verbleibende Therapie",
+        correct: true,
+      },
+      {
+        label: "Ein kaudaler, partieller Plexusabriss mit gutem Ansprechen auf intensive Physiotherapie",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Ein partieller Abriss würde sich nicht mit der hier vorliegenden Kombination aus komplett erloschenen Reflexen am gesamten Vorderbein UND gleichzeitigen oberen Motoneuron-Symptomen der ipsilateralen Hintergliedmaße zeigen — genau diese Kombination gilt als sicheres Avulsionszeichen mit infauster Prognose, bei dem Physiotherapie keine realistische Erholungschance mehr bietet.",
+      },
+      {
+        label: "Eine isolierte Mittelohrentzündung als Ursache des Horner-Syndroms, unabhängig vom Beinproblem",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Das Horner-Syndrom tritt hier zeitlich und örtlich eindeutig im Zusammenhang mit dem traumatischen Sturz und der gleichseitigen Plexusschädigung auf — eine unabhängige Mittelohrentzündung würde diesen engen Zusammenhang mit dem Trauma und der betroffenen Gliedmaße nicht erklären.",
+      },
+      {
+        label: "Ein reines Weichteiltrauma ohne Nervenbeteiligung, das mit Ruhe von selbst abheilt",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die vollständig erloschenen Reflexe, das Horner-Syndrom und die Hintergliedmaßen-Symptomatik sind eindeutige neurologische Ausfälle, die weit über ein reines, folgenlos abheilendes Weichteiltrauma hinausgehen.",
+      },
+    ],
+    expertNote:
+      "Der Plexus brachialis entspringt aus den Rückenmarksegmenten C6–Th2, die präganglionären sympathischen Fasern für das Horner-Syndrom (Ptosis, Miosis, Enophthalmus) dagegen aus den tiefer liegenden Segmenten C8–Th7 — beide überlappen sich nur in einem schmalen gemeinsamen Bereich (C8–Th2). Deshalb tritt ein Horner-Syndrom bevorzugt bei tiefen (kaudalen) Plexusläsionen auf. Die Kombination aus Horner-Syndrom und gleichzeitigen oberen Motoneuron-Symptomen in der ipsilateralen Hintergliedmaße ist dabei mehr als nur ein Lokalisationskriterium — sie gilt als sicheres Zeichen für einen vollständigen Wurzelabriss (Avulsion) des Plexus brachialis, wie bei Balto. In diesem Fall ist die Prognose infaust, und die Amputation der betroffenen Gliedmaße bleibt die einzige verbleibende Therapieoption. Diese Symptomkombination markiert damit die Grenze, ab der ein Physiotherapieprogramm keine sinnvolle Behandlungsoption mehr darstellt — anders als bei weniger schweren, partiellen Plexusschäden, bei denen Physiotherapie die Therapie der Wahl ist.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für einen partiellen statt für einen vollständigen Plexusabriss sprechen, mit entsprechend besserer Prognose?",
+    weakeningOptions: [
+      {
+        label: "Teilweise noch erhaltene Reflexe und Restbeweglichkeit am betroffenen Vorderbein, ohne Horner-Syndrom und ohne Symptome an der Hintergliedmaße",
+        correct: true,
+      },
+      { label: "Vollständig erloschene Reflexe über die gesamte Vordergliedmaße", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein zusätzliches Horner-Syndrom am betroffenen Auge", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Gesteigerte Reflexe an der ipsilateralen Hintergliedmaße", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum tritt ein Horner-Syndrom bevorzugt bei tiefen (kaudalen) statt bei hohen (kranialen) Plexus-brachialis-Läsionen auf?",
+    retrievalOptions: [
+      {
+        label: "Weil die sympathischen Fasern für das Horner-Syndrom aus Segmenten (C8–Th7) stammen, die sich mit dem Plexus brachialis (C6–Th2) nur in den kaudalsten Segmenten überschneiden",
+        correct: true,
+      },
+      { label: "Weil hohe Plexusläsionen grundsätzlich schwerer verlaufen als tiefe Läsionen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die sympathischen Fasern für das Horner-Syndrom aus exakt denselben Segmenten wie der gesamte Plexus brachialis stammen", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Ein Zusammenhang zwischen Läsionshöhe und Horner-Syndrom besteht nicht", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.1 (siehe Wissenseintrag `horner-syndrom-plexus-brachialis-laesionshoehe`), S. 270–272; ergänzt um die prognostische Zuspitzung aus Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Spinalnerventrauma”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (dieselbe bereits im Wissenseintrag dokumentierte Quelle). Der Segmentursprung, die Horner-Syndrom-Lokalisationslogik sowie die Avulsions-/Amputationsentscheidung bei Horner-Syndrom plus ipsilateralen OMN-Symptomen sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "timmy",
+    topic: "Neurologie · Untersuchungstechnik (Höhenlokalisation)",
+    species: "Malteser, Rüde, 6 J.",
+    title: "Timmy — Rückenschmerz, aber wo genau sitzt das Problem?",
+    learningObjective:
+      "Den Pannikulusreflex als Methode zur groben Höhenlokalisation einer thorakolumbalen Rückenmarksläsion einsetzen und verstehen, warum sein Reflexzentrum weit entfernt vom eigentlichen Reizort liegt.",
+    anamnese:
+      "Timmy zeigt seit zwei Tagen deutlichen Rückenschmerz und bewegt sich insgesamt sehr vorsichtig. Die Besitzer möchten wissen, wo genau entlang der Wirbelsäule das Problem liegt, bevor weitere Bildgebung geplant wird.",
+    beobachtung: "Timmy bewegt sich steif und vorsichtig, mit einem aufgekrümmten Rücken; ein eindeutig führendes Bein lässt sich nicht ausmachen.",
+    diagramLabel: "Deutlicher Rückenschmerz mit aufgekrümmtem Rücken, Lokalisation entlang der Wirbelsäule zunächst unklar",
+    palpation:
+      "Der Pannikulusreflex wird systematisch von der Kreuzregion nach kranial fortschreitend geprüft: Kaudal eines bestimmten Punktes in der mittleren Lendenwirbelsäule ist der Reflex nicht auslösbar, kranial davon ist er normal vorhanden. Die Druckpalpation der Wirbelsäule bestätigt an genau dieser Stelle eine deutliche Schmerzreaktion.",
+    hypothesisQ: "Was verrät der Ausfall des Pannikulusreflexes kaudal eines bestimmten Punktes über Timmys Problem?",
+    hypothesisOptions: [
+      {
+        label:
+          "Er grenzt die Rückenmarksläsion grob auf die Höhe ein, ab der der Reflex ausfällt — da der sensible Reiz erst bis zum festen Reflexzentrum zwischen C8 und Th1 aufsteigen muss, unterbricht eine Läsion auf diesem Weg den Reflex für alle kaudal davon liegenden Prüfpunkte",
+        correct: true,
+      },
+      {
+        label: "Er beweist zuverlässig eine Läsion genau am Reflexzentrum zwischen C8 und Th1, unabhängig davon, wo der Reflex ausfällt",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Der Reflex fällt für ALLE Prüfpunkte kaudal der eigentlichen Läsion aus, nicht nur am Reflexzentrum selbst — die Läsion liegt an der Stelle, ab der der Reflex kaudal nicht mehr auslösbar ist, nicht zwingend am Reflexzentrum C8/Th1 selbst.",
+      },
+      {
+        label: "Er hat für die Höhenlokalisation keine praktische Bedeutung und sollte nicht zur Eingrenzung verwendet werden",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Der Pannikulusreflex ist gerade wegen seines weiten Reflexbogens über ein festes kraniales Zentrum eine praktikable Methode zur groben Höhenlokalisation von Läsionen zwischen L4 und C8.",
+      },
+      {
+        label: "Er zeigt ausschließlich eine Hautproblematik an der Reizstelle, keine Rückenmarkbeteiligung",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Der Pannikulusreflex prüft einen vollständigen Reflexbogen über das Rückenmark bis zum Reflexzentrum C8/Th1 — ein Ausfall zeigt primär eine Unterbrechung dieses Rückenmarkwegs an, nicht ein lokales Hautproblem.",
+      },
+    ],
+    expertNote:
+      "Der Pannikulusreflex (Cutaneus-trunci-Reflex) prüft die Rumpfhautmuskulatur: Ein lokaler Hautreiz beidseits der Wirbelsäule löst reflektorisch eine Kontraktion des M. cutaneus trunci aus. Das Besondere an diesem Reflexbogen ist der Weg des sensiblen Schenkels: Der Reiz wird über die Spinalnerven ins Rückenmark geleitet und zieht dort in aufsteigenden Bahnen der weißen Substanz weiter nach kranial bis zu einem einzigen festen Reflexzentrum zwischen C8 und Th1, wo erst die Umschaltung auf die motorischen Fasern erfolgt. Weil der sensible Reiz von jedem Prüfpunkt erst bis zum festen Zentrum aufsteigen muss, unterbricht eine Rückenmarksläsion auf diesem Weg den Reflex für alle Prüfpunkte kaudal davon — Prüfpunkte kranial der Läsion bleiben unbeeinträchtigt. Prüft man den Reflex also systematisch von der Kreuzregion nach kranial fortschreitend, lässt sich aus der Stelle, ab der er plötzlich nicht mehr auslösbar ist, eine grobe Höhenlokalisation von Rückenmarksläsionen zwischen L4 und C8 ableiten — wie bei Timmy. Für Läsionen weiter kranial im Halsmark stehen ergänzend der Zervikofazialisreflex und der Slap-Test zur Verfügung.",
+    weakeningQ: "Welcher zusätzliche Befund würde das Ergebnis der Pannikulusreflex-Prüfung bei Timmy infrage stellen bzw. relativieren?",
+    weakeningOptions: [
+      { label: "Ein Pannikulusreflex, der an allen Prüfpunkten entlang der gesamten Wirbelsäule gleichmäßig unauffällig auslösbar ist", correct: true },
+      { label: "Ein Reflexausfall kaudal eines bestimmten Punktes in der mittleren Lendenwirbelsäule", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Übereinstimmung der Reflexausfallgrenze mit der Stelle maximaler Druckschmerzhaftigkeit", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein aufgekrümmter, insgesamt steifer Rücken", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche beiden ergänzenden Reflexe stehen für die Höhenlokalisation von Läsionen im Halsmark zur Verfügung, wenn der Pannikulusreflex an seine Grenzen stößt?",
+    retrievalOptions: [
+      { label: "Der Zervikofazialisreflex und der Slap-Test", correct: true },
+      { label: "Der Patellarreflex und der Flexorreflex", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Der Analreflex und der Perinealreflex", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Es gibt keine ergänzenden Reflexe für den Halsmarkbereich", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 7.8.7–7.8.9 (siehe Wissenseintrag `pannikulusreflex-hoehenlokalisation-rueckenmarklaesion`), S. 249f. Der Reflexbogen, die Methode der Höhenlokalisation sowie die ergänzenden Reflexe (Zervikofazialisreflex, Slap-Test) sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "fu",
+    topic: "Orthopädie · Multiple Gelenke (Rassespezifisches Fiebersyndrom)",
+    species: "Shar Pei, Rüde, 2 J.",
+    title: "Fu — wiederkehrende Fieberschübe mit geschwollenen Sprunggelenken",
+    learningObjective:
+      "Das Shar-Pei-Fieber-Syndrom als eigenständiges, rassespezifisches Krankheitsbild erkennen und das Risiko einer begleitenden Nieren-/Leberamyloidose im Blick behalten.",
+    anamnese:
+      "Fu zeigt seit einigen Monaten wiederkehrende Episoden mit Fieber, während derer er sichtlich unwohl wirkt und ungern läuft. Zwischen den Episoden erscheint er den Besitzern meist wieder unauffällig.",
+    beobachtung: "Während der aktuellen Episode wirkt Fu matt, hat erhöhte Temperatur und zeigt eine vorsichtige, steife Belastung beider Hintergliedmaßen.",
+    diagramLabel: "Wiederkehrende Fieberepisoden mit vorsichtiger, steifer Belastung beider Hintergliedmaßen, dazwischen weitgehend unauffällig",
+    palpation:
+      "Beide Tarsalgelenke sind während der Episode geschwollen, warm und bei Bewegung dolent; andere Gelenke sind weniger auffällig. Zwischen den Episoden sind die Tarsalgelenke nahezu unauffällig.",
+    hypothesisQ: "Was erklärt Fus wiederkehrendes Beschwerdebild am besten?",
+    hypothesisOptions: [
+      { label: "Shar-Pei-Fieber-Syndrom", correct: true },
+      {
+        label: "Eine klassische idiopathische Polyarthritis wie bei anderen Rassen",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Das rassespezifische, episodische Muster mit Fieberschüben und bevorzugter Beteiligung der Tarsalgelenke bei einem Shar Pei ist ein eigenständiges, familiär gehäuftes Krankheitsbild mit zusätzlichem Organrisiko — es sollte nicht pauschal wie eine gewöhnliche idiopathische Polyarthritis anderer Rassen eingeordnet werden, da sich daraus eine andere Überwachungsnotwendigkeit (Nieren-/Leberfunktion) ergibt.",
+      },
+      {
+        label: "Eine einmalige, episodische Impfreaktion ohne wiederkehrenden Krankheitswert",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Das wiederholte, episodische Auftreten über mehrere Monate hinweg passt nicht zu einer einmaligen Impfreaktion, sondern zu einem eigenständigen, rezidivierenden Krankheitsbild.",
+      },
+      {
+        label: "Eine Borreliose mit episodischer Gelenkbeteiligung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Differentialdiagnose muss zwar ausgeschlossen werden, erklärt aber nicht das für den Shar Pei typische, familiär gehäufte Muster mit bevorzugter Tarsalgelenkbeteiligung und dem zusätzlichen Amyloidose-Risiko.",
+      },
+    ],
+    expertNote:
+      "Das Shar-Pei-Fieber-Syndrom betrifft ausschließlich die Rasse Shar Pei und zeigt sich mit wiederkehrenden Fieberepisoden, bei denen meist die Tarsalgelenke betroffen sind. Es gehört in die größere Familie der immunvermittelten Gelenkerkrankungen, die alle auf einem ähnlichen Mechanismus beruhen (Immunkomplexablagerungen in den Gelenken mit lokaler Entzündungsreaktion), sich aber in Rasseprädisposition, Begleitbefunden und vor allem Prognose stark unterscheiden. Beim Shar-Pei-Fieber-Syndrom ist die Prognose vorsichtig zu stellen, weil ein erhebliches Risiko für eine begleitende Nieren- oder Leberamyloidose besteht — eine Ablagerung von Amyloidprotein in diesen Organen, die zu Organversagen führen kann. Die wiederkehrenden Fieberepisoden sollten deshalb nicht nur symptomatisch, sondern mit regelmäßiger Überwachung der Nieren- und Leberwerte begleitet werden, um eine beginnende Amyloidose frühzeitig zu erfassen.",
+    weakeningQ: "Welcher zusätzliche Befund würde bei Fu besonders dringlich auf eine beginnende Amyloidose hinweisen und eine engmaschige Kontrolle erfordern?",
+    weakeningOptions: [
+      { label: "Auffällige Werte für Nieren- oder Leberfunktion in einer Blutuntersuchung", correct: true },
+      { label: "Eine weitere, inhaltlich typische Fieberepisode mit Tarsalgelenkbeteiligung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein zwischen den Episoden weitgehend unauffälliges Allgemeinbefinden", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine Schwellung beider Tarsalgelenke während der aktuellen Episode", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welches zusätzliche Organrisiko muss bei einem Shar Pei mit Shar-Pei-Fieber-Syndrom langfristig im Blick behalten werden?",
+    retrievalOptions: [
+      { label: "Nieren- und Leberamyloidose", correct: true },
+      { label: "Eine isolierte Herzklappenerkrankung ohne Zusammenhang mit den Fieberschüben", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Es besteht kein zusätzliches Organrisiko über die Gelenke hinaus", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Eine isolierte Schilddrüsenunterfunktion", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Immunvermittelte Gelenkerkrankungen” (siehe Wissenseintrag `immunvermittelte-gelenkerkrankungen-subtypen-hund`), Subtyp „Shar-Pei-Fieber-Syndrom”. Rasseprädisposition, Fieber, bevorzugte Tarsalgelenkbeteiligung, Nieren-/Leberamyloidose-Risiko und die vorsichtige Prognose sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "ginger",
+    topic: "Orthopädie · Zehen (übersehene Schmerzquelle, Geriatrie)",
+    species: "Border Terrier, Hündin, 10 J.",
+    title: "Ginger — „therapieresistente” Lahmheit, die niemand an den Zehen vermutete",
+    learningObjective:
+      "Verstehen, warum eine vollständige orthopädische Untersuchung beim älteren Hund immer die Zehen und Sesambeine einschließen muss, weil Zehenarthrosen eine häufig übersehene Ursache „therapieresistenter” Lahmheit sind.",
+    anamnese:
+      "Ginger lahmt seit Monaten wiederkehrend vorne links; mehrere bisherige Behandlungsversuche an Schulter und Ellbogen haben keine dauerhafte Besserung gebracht. Die Besitzer sind entsprechend frustriert.",
+    beobachtung:
+      "Ginger zeigt eine milde, aber hartnäckige Lahmheit vorne links, die sich im Tagesverlauf verschlechtert; Schulter- und Ellbogengelenk wirken bei grober Betrachtung unauffällig.",
+    diagramLabel: "Hartnäckige, milde Lahmheit vorne links, bisherige Behandlungen an Schulter/Ellbogen ohne Erfolg",
+    palpation:
+      "Schulter- und Ellbogengelenk sind bei Beugung, Streckung und Rotation schmerzfrei. Erst bei gezielter Konturpalpation der einzelnen Zehen an der hochgehobenen Extremität zeigt sich eine deutliche, konturverändernde Auftreibung ab dem Zehengrundgelenk der vierten Zehe, mit Schmerzreaktion bei gezielter Druckpalpation.",
+    hypothesisQ: "Was erklärt Gingers bisher „therapieresistente” Lahmheit am ehesten?",
+    hypothesisOptions: [
+      { label: "Eine bislang übersehene Zehenarthrose", correct: true },
+      {
+        label: "Ein chronisches, auf bisherige Behandlungen nicht ansprechendes Schulterproblem",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Schulter- und Ellbogengelenk sind bei der gezielten Untersuchung vollständig schmerzfrei — der eigentliche Befund liegt deutlich weiter distal an der Zehe und wurde bislang schlicht nicht untersucht, nicht weil dort keine Erkrankung vorläge.",
+      },
+      {
+        label: "Eine reine Verhaltensauffälligkeit ohne körperliche Ursache, weil bisherige Behandlungen nicht angeschlagen haben",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Eine reproduzierbare, konturverändernde Auftreibung mit Schmerzreaktion bei Druckpalpation ist ein klarer körperlicher Befund — das Ausbleiben einer Besserung unter bisherigen Behandlungen lag daran, dass die tatsächliche Schmerzquelle schlicht nicht Teil der bisherigen Untersuchung war.",
+      },
+      {
+        label: "Eine Sesambeinfraktur als alleinige Erklärung",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Der Befund bei Ginger liegt konkret am Zehengrundgelenk selbst als konturverändernde Auftreibung, nicht an der für Sesambeinfrakturen typischen Stelle an der palmaren Fläche des Gelenks — beide Differentialdiagnosen sind bei der vollständigen Zehenuntersuchung zu prüfen, aber die Befundlage passt hier besser zur Zehenarthrose.",
+      },
+    ],
+    expertNote:
+      "Zehen- bzw. Zehengrundgelenke werden vor allem beim älteren Tier durch chronische Überlastung in Mitleidenschaft gezogen und reagieren mit heftigen, fast immer sehr schmerzhaften Arthrosen. Sie waren bislang häufig Ursache sogenannter therapieresistenter Probleme und blieben dabei oft unerkannt, obwohl sie sich schon als konturverändernde Auftreibungen ab dem Zehengrundgelenk und distal davon zeigen — genau das Muster bei Ginger. Die Palpation erfolgt als Konturpalpation an der hochgehobenen Extremität; die anschließenden Gelenkfunktionsprüfungen (Zehe für Zehe, Gelenk für Gelenk) sind nicht immer schon selbst schmerzhaft, die Druckpalpation gibt aber rasch Gewissheit. Eine vollständige orthopädische Untersuchung schließt deshalb immer die distalen Extremitäten mit ein: Palpation der einzelnen Ballen, Untersuchung aller Krallen und Krallenbetten, Beugung/Streckung/Rotationsprüfung der Zehen einzeln und gemeinsam sowie Palpation der Mittelhandknochen. Im Zuge der Zehenpalpation müssen zusätzlich die Sesambeinchen der Beugesehne geprüft werden — die der 2. und 5. Zehe sind im Stehen gut zugänglich, die der 3. und 4. Zehe werden dagegen vom Hauptballen überlagert und erfordern eine angehobene Pfote mit leichter Ballenverdrängung.",
+    weakeningQ: "Welcher Befund würde am ehesten bestätigen, dass die Zehenuntersuchung selbst Gingers bisheriges Diagnostik-Problem war?",
+    weakeningOptions: [
+      {
+        label: "Nach der manuellen Zehenuntersuchung läuft Ginger kurzzeitig deutlich schlechter, obwohl sich die zugrunde liegende Erkrankung dadurch nicht verschlechtert hat",
+        correct: true,
+      },
+      { label: "Schulter- und Ellbogengelenk sind bei Beugung, Streckung und Rotation vollständig schmerzfrei", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine konturverändernde Auftreibung ab dem Zehengrundgelenk der vierten Zehe", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Schmerzreaktion bei gezielter Druckpalpation der betroffenen Zehe", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum sind die Sesambeinchen der 3. und 4. Zehe bei der Untersuchung schwieriger zugänglich als die der 2. und 5. Zehe?",
+    retrievalOptions: [
+      {
+        label: "Weil sie im Stehen vom Hauptballen überlagert werden und deshalb eine angehobene Pfote mit leichter Ballenverdrängung erfordern",
+        correct: true,
+      },
+      { label: "Weil die 3. und 4. Zehe anatomisch gar keine Sesambeine besitzen", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Weil sie tiefer im Gewebe liegen als alle anderen Strukturen der Pfote", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Ein Zugänglichkeitsunterschied zwischen den Zehen besteht nicht", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.6 (siehe Wissenseintrag `zehenarthrosen-sesambeinfrakturen-uebersehene-schmerzquellen`), S. 104–107. Die Beschreibung der Zehenarthrose als häufig übersehene Ursache „therapieresistenter” Probleme, die Konturpalpationstechnik und das vollständige Untersuchungsprinzip der distalen Extremität sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -13838,7 +14467,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "vorschnelle Diagnose", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Diskopathie/Diskushernie/Diskusprolaps (Definition, Ätiologie/Pathogenese, Symptome). Die Hansen-I/II-Klassifikation mit Altersangaben, der Schutzmechanismus des Lig. intercapitale, die Lokalisationsprozentangaben sowie das Nervenwurzelzeichen sind in der Quelle so beschrieben. Ergänzt die bereits bestehenden Einträge zum thorakolumbalen und zervikalen Bandscheibenvorfall um die zugrunde liegende Klassifikation und den anatomischen Schutzmechanismus, ohne deren krankheitsspezifische Details (Grading, Therapie) zu wiederholen.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["senta"],
     relatedAnatomyIds: ["discus", "rueckenmark"],
   },
   {
@@ -14251,7 +14880,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "Differentialdiagnostik unvollständig", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Baumgartner, Christine; Wittek, Thomas; Khol, Johannes (Hrsg.), Klinische Propädeutik der Haus- und Heimtiere (ISBN 978-3-13-245774-4), Thieme, 10. Auflage 2026, Kap. 7.8.7–7.8.9 „Pannikulusreflex“, „Slap-Test“, „Zervikofazialisreflex“ (Kapitelautoren Pakozdy/Tipold), S. 249f. Der Reflexbogen des Pannikulusreflexes (Reflexzentrum C8–Th1), seine Nutzung zur Höhenlokalisation zwischen L4 und C8, sowie Durchführung und diagnostischer Wert von Slap-Test und Zervikofazialisreflex sind im Original so beschrieben. Diese Textstelle enthielt vereinzelte Wortdopplungen aus der Texterfassung (kein Spezies-Icon-Verschachtelungsfehler), die anhand von Wiederholungen im Fließtext eindeutig auflösbar waren.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["timmy"],
     relatedAnatomyIds: ["rueckenmark"],
   },
   {
@@ -14691,7 +15320,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Immunvermittelte Gelenkerkrankungen“. Die gemeinsame Pathogenese (Typ-III-/Typ-IV-Hypersensitivität), alle in der Tabelle genannten Subtypen mit Rasse-/Altersprädisposition, Zusatzbefunden und Prognose sind in der Quelle so beschrieben. Ergänzt den bestehenden Eintrag `polyarthritis-hund` (Koch/Fischer, Kap. 8.2.5), der die allgemeine Klassifikation und die idiopathische Polyarthritis als häufigste Form behandelt, um die granulare Differenzierung der einzelnen benannten Subtypen — bewusst nicht dupliziert. Die Abkürzung „IPA“ für diese Klassifikation wird bewusst vermieden bzw. explizit von der bereits in Denkgang etablierten Verwendung als „Isolierter Processus Anconaeus“ (Ellbogendysplasie) abgegrenzt, um Verwechslungen zu vermeiden.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["fu"],
     relatedAnatomyIds: [],
   },
   {
@@ -14754,7 +15383,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Metaplasie der am medialen Epicondylus humeri ansetzenden Beugesehnen (MEHB) beim Hund“. Definition/mögliche Pathogenesen, Rasseprädispositionen, das unspezifische klinische Bild, Diagnosesicherung und Differentialdiagnosen sowie Therapie und Prognose sind in der Quelle so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["nelly"],
     relatedAnatomyIds: [],
   },
   {
@@ -14783,7 +15412,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Faktenwissen", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Distractio cubiti (DC) beim Hund“. Pathomechanismus, die Unterscheidung Short-Radius- vs. Short-Ulna-Syndrom mit ihren jeweiligen Deformitäten (Radius curvus/Carpus valgus vs. Varus-/Valgusdeformation mit Gliedmaßenverkürzung), Rasseprädispositionen (chondrodystrophe Rassen), Diagnostik und die vier Therapieziele sind in der Quelle so beschrieben. Löst den in mehreren bestehenden Einträgen (u. a. zu Panostitis/hypertropher Osteodystrophie und zu Wachstumsstörungen großwüchsiger Rassen) nur als Endzustand erwähnten „Radius curvus“ erstmals mechanistisch auf und schließt damit den entsprechenden Backlog-Punkt aus dem Hárrer-Pathologie-Abschnitt.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["fritz"],
     relatedAnatomyIds: [],
   },
   {
@@ -14929,7 +15558,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Hárrer, Sabine, Manuelle Therapie beim Hund — Das Hárrer-Konzept (ISBN 978-3-13-245429-3), Thieme, 2025, Kap. 17.1 (Sympathikus — Anatomie), S. 270–272. Der Segmentursprung des Plexus brachialis (C6–Th2) und der zervikalen sympathischen Fasern (C8–Th7), die daraus resultierende Lokalisationslogik (Horner-Syndrom eher bei tiefer/kaudaler Plexusläsion) sowie die unterschiedlichen Therapieempfehlungen je nach Ursache (Trauma vs. Mittelohrentzündung) sind im Original so beschrieben. Ergänzt den bestehenden Eintrag zu Kopfnerven/Horner-Syndrom (Koch/Fischer, Kap. 7.8) um dieses zusätzliche Lokalisationskriterium sowie den bestehenden Eintrag `plexusschaden-vordergliedmasse` um die Horner-Syndrom-Komponente — bewusst nicht dupliziert. Ergänzt (29.09.2026) um die prognostische Zuspitzung aus Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Spinalnerventrauma“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984): Horner-Syndrom + ipsilaterale OMN-Symptome der Hintergliedmaße als sicheres Avulsions-Zeichen mit infauster Prognose und Amputation als einziger Therapieoption.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["balto"],
     relatedAnatomyIds: [],
   },
   {
@@ -15893,7 +16522,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Kopftrauma“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Der Coup-Contrecoup-Mechanismus, die Commotio-cerebri-Definition, die subtentorielle Hernie samt Spezies-Vergleich zur Humanmedizin, die Bedeutung wiederholter Untersuchungen und der Pupillen als ICP-Indikator sowie das physiotherapeutische Vorsichtsprinzip (sanfte Manipulation wegen Nachblutungsgefahr) und die mögliche Spätfolge posttraumatischer Epilepsie sind im Original so beschrieben. Kein bestehender Eintrag deckt bisher Kopf-/Hirntrauma ab — die bereits vollständig ausgewertete VetCenter-Quelle „Wirbelsäulenerkrankungen“ behandelt ausschließlich Wirbelsäule/Rückenmark, nicht das Gehirn.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["felix"],
     relatedAnatomyIds: [],
   },
   {
@@ -15927,7 +16556,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund überbewertet", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Wirbelfraktur, -luxation, -subluxation“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Die vier prädisponierten Übergangszonen, die Commotio-/Contusio-/Laceratio-medullae-spinalis-Klassifikation, die beiden konkreten Prognosebeispiele sowie das Rehabilitationsprotokoll sind im Original so beschrieben. Ergänzt gezielt die bereits bestehenden, diagnostisch/prognostisch fokussierten Einträge `spinaler-schock-motoneuron-maskierung-trauma-fruehbefund`, `roentgenbild-nach-wirbelsaeulentrauma-momentaufnahme-grenzen` und `wirbelsaeulentrauma-8-stunden-tiefenschmerz-prognosegrenze` (VetCenter) um die anatomischen Prädilektionsstellen, die Verletzungsklassifikation des Rückenmarks selbst sowie das Rehabilitationsprotokoll — bewusst nicht dupliziert, da diese Aspekte dort nicht behandelt werden.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["carlo"],
     relatedAnatomyIds: ["rueckenmark"],
   },
   {
@@ -15961,7 +16590,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Spinalnerventrauma (Monoparese/Monoplegie)“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Die drei klinischen Bilder (Radialis-, Supraskapularis-, Ischiadikuslähmung) mit ihren jeweiligen Verletzungsmechanismen und Ausfallmustern, inkl. der iatrogenen Injektionsgefahr beim Ischiadikus, sind im Original so beschrieben. Ergänzt gezielt die bestehenden Einträge `vordergliedmasse-nerven-radialis-medianus-ulnaris-verlauf` (anatomischer Nervenverlauf) und `plexusschaden-vordergliedmasse` (Plexus-brachialis-spezifisch) um die eigenständigen klinischen Bilder der Supraskapularis- und Ischiadikuslähmung sowie die iatrogene Injektionsgefahr — bewusst nicht dupliziert, da diese beiden Nervenläsionen dort nicht behandelt werden.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["bella"],
     relatedAnatomyIds: [],
   },
   {
@@ -16789,7 +17418,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Anatomieverwechslung"],
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.5.6 (Untersuchung der distalen Extremitäten, Sesambeinfrakturen, Zehenarthrosen), S. 104–107 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Der Sesambeinfraktur-Mechanismus beim Rottweiler samt Bezug zur rassetypischen Gewichtsverteilung (Tab. 4.8, an anderer Stelle bereits als `schmerzreise-vorderextremitaet-tlue-kompensation-kaskade` verwendet), die Zehenarthrose-Beschreibung sowie die vollständige Untersuchungstechnik der distalen Extremität samt Sesambein-Palpation sind im Original so beschrieben. Die im Original genannten Therapieempfehlungen (Neuraltherapie, Goldimplantation, physikalische Medizin) sind als solche des Buches wiedergegeben, nicht als eigenständige fachliche Bewertung dieser Wissensbibliothek.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["ginger"],
     relatedAnatomyIds: [],
   },
   {

@@ -5726,6 +5726,76 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Cross-Referenz-Audit 0 offene Verweise (177 Backtick-Referenzen),
       Production-Build grün, Playwright-Stichprobe (zoe, toni, caruso)
       gegen die Review-Seite — 0 Konsolen-/Seitenfehler.
+- [x] Fälle 46–55 (Batch 4 des ~100-Fälle-Ausbaus, 17.10.2026): Vierte
+      Zehnergruppe, weiterhin ausschließlich aus VetCenter (Hundekrankheiten
+      kompakt), Alexander/Jaggy/Kathmann (Physikalische Therapie für
+      Kleintiere), Hárrer (Manuelle Therapie beim Hund) und Baumgartner/
+      Wittek/Khol (Klinische Propädeutik) kombiniert. Schwerpunkt:
+      Wachstumsfugenstörungen am Unterarm, Trauma-/Prognoseeinschätzung und
+      zwei untersuchungstechnik-fokussierte Fälle (erste Fälle dieser Art
+      in der Bibliothek):
+      - **`fritz`** (Basset Hound, 5 Mon.) — Distractio cubiti
+        (Short-Ulna-Syndrom, Radius curvus/Carpus valgus), mit Short-Radius-
+        Syndrom als Gegenpol-Differential. Quelle:
+        `distractio-cubiti-radius-curvus-carpus-valgus-hund`.
+      - **`nelly`** (Airedale Terrier, 8 Mon.) — Metaplasie der Beugesehnen
+        am medialen Epicondylus (MEHB), abzugrenzen von einer Fraktur des
+        Epicondylus medialis. Quelle: `metaplasie-beugesehnen-medialer-epicondylus-mehb-hund`.
+      - **`senta`** (Labrador Retriever, 9 J.) — Hansen-Typ-II-
+        Diskusprotrusion (chronisch, altersbedingt, nicht-chondrodystrophe
+        Rasse), bewusst als Kontrastfall zu Filous akuter Hansen-Typ-I-
+        Extrusion beim Dackel angelegt. Quelle:
+        `hansen-klassifikation-diskopathie-lig-intercapitale-nervenwurzelzeichen`.
+      - **`felix`** (Mischling, 4 J.) — Kopftrauma mit Coup-Contrecoup-
+        Mechanismus und verzögert auftretender intrakranieller Blutung
+        nach scheinbar stabilem Zwischenzustand. Quelle:
+        `kopftrauma-coup-contrecoup-verzoegerte-symptome`.
+      - **`carlo`** (Mittelschnauzer, 5 J.) — Wirbelfraktur ohne Dislokation
+        mit nur milder Parese: Lernziel, dass die Prognose primär vom
+        neurologischen Status abhängt, nicht vom radiologischen Befund.
+        Quelle: `wirbelfraktur-luxation-uebergangszonen-verletzungsklassifikation`.
+      - **`bella`** (Mops, 6 J.) — iatrogene Ischiadikuslähmung nach
+        intramuskulärer Injektion in die kaudale Oberschenkelmuskulatur.
+        Quelle: `periphere-nervenlaehmungen-radialis-supraskapularis-ischiadikus`.
+      - **`balto`** (Siberian Husky, 2 J.) — vollständiger Plexus-brachialis-
+        Wurzelabriss: Horner-Syndrom + ipsilaterale OMN-Symptome der
+        Hintergliedmaße als sicheres Avulsionszeichen mit infauster
+        Prognose, Amputation statt Physiotherapie als einzige Option —
+        bewusst als schwererer Kontrastfall zu Charlies partiellem
+        Plexusschaden (Batch 2) angelegt. Quelle:
+        `horner-syndrom-plexus-brachialis-laesionshoehe`.
+      - **`timmy`** (Malteser, 6 J.) — Pannikulusreflex zur groben
+        Höhenlokalisation einer thorakolumbalen Rückenmarksläsion; erster
+        rein untersuchungstechnik-fokussierter Fall der Bibliothek. Quelle:
+        `pannikulusreflex-hoehenlokalisation-rueckenmarklaesion`.
+      - **`fu`** (Shar Pei, 2 J.) — Shar-Pei-Fieber-Syndrom mit Nieren-/
+        Leberamyloidose-Risiko, als rassespezifischer Kontrast zu Mathildas
+        idiopathischer Polyarthritis (Batch 2). Quelle:
+        `immunvermittelte-gelenkerkrankungen-subtypen-hund` (Tabellenzeile
+        Shar-Pei-Fieber-Syndrom).
+      - **`ginger`** (Border Terrier, 10 J.) — übersehene Zehenarthrose als
+        Ursache einer scheinbar „therapieresistenten” Lahmheit; Lernziel:
+        vollständige Untersuchung schließt immer die distalen Extremitäten
+        ein. Quelle: `zehenarthrosen-sesambeinfrakturen-uebersehene-schmerzquellen`.
+
+      `relatedCaseIds` ergänzt bei allen zehn referenzierten
+      Wissenseinträgen (siehe oben, je ein Fall pro Eintrag). Keine neuen
+      `AnatomyItem.relatedCaseId`-Verknüpfungen nötig. Bewusst NICHT
+      verwendet: `hyperextensionstrauma-carpus` (weiterhin zu
+      deckungsgleich mit Lumpis Fall, siehe Batch-2-Begründung),
+      `karpaltunnelsyndrom-hund-hypothese` (weiterhin als unbewiesene
+      Hypothese ausgewiesen, siehe Batch-3-Begründung), UMN/OMN- und
+      Mono-/Polyneuropathie-Lokalisationsschemata sowie die Seddon-
+      Klassifikation (zu abstrakt/taxonomisch für ein einzelnes
+      klinisches Szenario mit eindeutig richtiger Antwort — bleiben
+      Hintergrundwissen für künftige Neuro-Fälle). Keine neue
+      Primärrecherche nötig, alle zehn Fälle kombinieren ausschließlich
+      bereits verifizierte Fakten aus bestehenden Wissenseinträgen zu
+      neuen klinischen Szenarien. Verifiziert: eslint sauber, tsc sauber,
+      Reseed 55 Fälle (45 → 55), Cross-Referenz-Audit 0 offene Verweise
+      (185 Backtick-Referenzen), Production-Build grün, Playwright-
+      Stichprobe (balto, senta, ginger) gegen die Review-Seite — 0
+      Konsolen-/Seitenfehler.
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — bewusst zurückgestellt, siehe Begründung oben
@@ -5736,28 +5806,27 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Gelenk/Bänder noch nicht als primäre Diagnose). HWS/BWS-
       Facettengelenke als eigenständige, primäre Falldiagnose bleiben offen
       (`facettengelenke-hws`/`-bws` — LWS-Facettengelenke sind über Max
-      jetzt abgedeckt). PATHOLOGIE-Kategorie ist jetzt weitgehend
-      ausgeschöpft; verbleibende PATHOLOGIE-Kandidaten u. a.: Metaplasie
-      Beugesehnen (MEHB), Distractio cubiti/Radius curvus/Carpus valgus,
-      Karpalgelenk-Hyperextensionstrauma als zweiter, deutlich anders
-      gelagerter Fall (akutes Trauma statt Lumpis chronischer Degeneration
-      — ggf. möglich, wurde in Batch 2 bewusst zurückgestellt), Kopftrauma,
-      Wirbelfraktur/-luxation, sowie diverse Nerven-/Schmerzphysiologie-
-      Grundlagenthemen (UMN/OMN-Läsionslokalisation, Mono-/Polyneuropathie-
-      Lokalisation, Seddon-Klassifikation — eher als Hintergrundwissen für
-      künftige Neuro-Fälle geeignet denn als eigenständige Fälle, da zu
-      abstrakt/taxonomisch für ein einzelnes klinisches Szenario mit einer
-      eindeutig richtigen Antwort). UNTERSUCHUNG- (72 ohne Fall-Link),
-      THERAPIE- (41) und BIOMECHANIK-Kategorien (75) weiterhin nicht
-      systematisch nach Fall-Lücken durchsucht — lohnend u. a. für
-      Untersuchungstechnik-fokussierte Fälle („welche Untersuchung
-      unterscheidet X von Y") und Biomechanik-Grundlagenfälle. 45 Fälle
-      insgesamt jetzt (Stand 17.10.2026, gegenüber 8 zu Sessionbeginn — mehr
-      als verfünffacht), Zielmarke Vanessas liegt bei ca. 100 — rund 55
-      weitere Fälle in kommenden Batches geplant, mit fortgesetztem Fokus
-      auf echte Varianz (unterschiedliche Diagnosen, Regionen,
-      Fallstrukturen, Fehlerkategorien) statt bloßer Wiederholung ähnlicher
-      Fälle.
+      jetzt abgedeckt). PATHOLOGIE-Kategorie mit konkreten, fallfähigen
+      Einzeldiagnosen ist nach vier Batches weitgehend ausgeschöpft — die
+      meisten verbleibenden PATHOLOGIE-Einträge sind entweder bewusst
+      zurückgestellt (s. o.) oder eher abstrakte Schmerzphysiologie-/
+      Faszientheorie-Grundlagen ohne einzelnes klinisches Korrelat.
+      Schwerpunkt für die nächsten Batches verschiebt sich deshalb auf
+      UNTERSUCHUNG- (72 ohne Fall-Link, davon jetzt 2 verwendet: Horner-
+      Syndrom-Lokalisation, Pannikulusreflex — weitere Kandidaten u. a.
+      Zervikofazialisreflex/Slap-Test, Schmerzskalen/Lahmheitsgrade als
+      Grading-Struktur wie bei Lotte, Kibler'sche Hautfalte/Druckpunkt-
+      palpation-Techniken), THERAPIE- (41 ohne Fall-Link — Kandidaten u. a.
+      Kontraindikations-Fälle wie bei Rocco: Elektrostimulation bei
+      Muskelatrophie, Hochfrequenztherapie bei Metallimplantat) und
+      BIOMECHANIK-Kategorien (75 ohne Fall-Link — eher als Hintergrundwissen
+      geeignet, da meist grundlagenorientiert statt krankheitsspezifisch).
+      55 Fälle insgesamt jetzt (Stand 17.10.2026, gegenüber 8 zu
+      Sessionbeginn — mehr als versechsfacht), Zielmarke Vanessas liegt bei
+      ca. 100 — rund 45 weitere Fälle in kommenden Batches geplant, mit
+      fortgesetztem Fokus auf echte Varianz (unterschiedliche Diagnosen,
+      Regionen, Fallstrukturen, Fehlerkategorien) statt bloßer Wiederholung
+      ähnlicher Fälle.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→
