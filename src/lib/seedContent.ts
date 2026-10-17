@@ -1893,6 +1893,663 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Osteochondrosis dissecans im Schultergelenk beim Hund” (siehe Wissenseintrag `osteochondrosis-dissecans-schultergelenk-hund`). Pathogenese, betroffene Rassen, Klinik, Differentialdiagnosen, Diagnostik und altersabhängige Therapie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "molly",
+    topic: "Orthopädie · Hüfte (Femurkopfnekrose, Kleinrasse)",
+    species: "West Highland White Terrier, Hündin, 7 Monate",
+    title: "Molly — seit Wochen leicht lahm auf einem Hinterbein",
+    learningObjective:
+      "Die Legg-Perthes-Erkrankung als eigenständige Femurkopfnekrose kleiner Rassen von der Hüftgelenkdysplasie großer Rassen abgrenzen und verstehen, warum ausgerechnet kleine Hunde betroffen sind.",
+    anamnese:
+      "Molly lahmt seit etwa drei Wochen mäßig auf dem linken Hinterbein; die Lahmheit kam relativ plötzlich und hat sich seitdem kaum verändert. Ein Trauma ist den Besitzern nicht aufgefallen.",
+    beobachtung:
+      "Molly belastet das linke Hinterbein deutlich vorsichtiger als das rechte, mit sichtbar schmächtigerer Oberschenkelmuskulatur links; die Lahmheit wirkt insgesamt stabil, weder zunehmend noch sich bessernd.",
+    diagramLabel: "Stabile, mittelgradige Lahmheit links hinten seit drei Wochen, einseitige Muskelhypotrophie",
+    palpation:
+      "Das linke Hüftgelenk ist bei Streckung deutlich schmerzhaft, Krepitation ist nicht auslösbar. Das rechte Hüftgelenk ist unauffällig; ein Ortolani-Zeichen lässt sich beidseits nicht auslösen.",
+    hypothesisQ: "Welche Verdachtsdiagnose passt am besten zu Mollys Befund?",
+    hypothesisOptions: [
+      { label: "Legg-Perthes-Erkrankung (aseptische Femurkopfnekrose)", correct: true },
+      {
+        label: "Hüftgelenkdysplasie",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "HD ist bei kleinen Terrierrassen deutlich seltener als bei großen Rassen und zeigt sich meist beidseitig mit Laxität im Ortolani-Test — bei Molly ist dagegen nur eine Seite betroffen, ohne auslösbares Ortolani-Zeichen, was eher zur Legg-Perthes-Erkrankung passt, die praktisch meist einseitig verläuft.",
+        differentiationDistractors: [
+          "Jede Hüftlahmheit bei einem Junghund ist automatisch eine Hüftgelenkdysplasie.",
+          "Kleine Rassen können keine Hüftgelenkdysplasie bekommen.",
+        ],
+      },
+      {
+        label: "Eine verheilte Femurkopffraktur nach unbemerktem Trauma",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Es gibt keine Anamnese eines Traumas, und das schleichende, nicht traumatische Einsetzen der Lahmheit passt besser zu einem langsamen Infarktgeschehen als zu einer Fraktur.",
+      },
+      {
+        label: "Patellaluxation mit Ausstrahlung in die Hüfte",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Der Schmerz liegt bei der Palpation konkret im Hüftgelenk bei Streckung, nicht am Knie — eine Patellaluxation würde sich primär dort und nicht als Hüftstreckschmerz zeigen.",
+      },
+    ],
+    expertNote:
+      "Die Legg-Perthes-Erkrankung betrifft vor allem kleine Rassen wie West Highland White Terrier, Cairn Terrier, Pudel und Rehpinscher — ein wichtiger Unterschied zur Hüftgelenkdysplasie großer Rassen liegt in der Blutversorgung: Bei großen Hunden reicht die endosteale Blutversorgung des Femurkopfes bis in den subchondralen Bereich, bei kleinen Hunden wird die Epiphyse dagegen größtenteils aus dem gelenknahen Bereich durchblutet, was sie anfälliger für Hypovaskularisationsschäden macht. Die Erkrankung tritt meist einseitig auf, passend zur Theorie, dass die Gewichtsverlagerung auf die gesunde Gegenseite dort die Durchblutung verbessert. Erste Lahmheitsanzeichen zeigen sich typischerweise bei 4–10 Monate alten Tieren als moderate Lahmheit ohne weitere Verschlechterung nach der akuten Phase — genau das Bild, das Molly zeigt. Die chirurgische Standardlösung ist die Femurkopfresektion mit ausgezeichneter Prognose, gerade weil kleine Patienten das neu gebildete Bindegewebe gut zu einem stabilen Pseudogelenk umbauen können; eine frühe physiotherapeutische Begleitung ist dabei entscheidend für den Muskelaufbau.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine Legg-Perthes-Erkrankung und für eine Hüftgelenkdysplasie sprechen?",
+    weakeningOptions: [
+      { label: "Beidseitige Hüftbeteiligung mit auslösbarem Ortolani-Zeichen bei einer großwüchsigen Rasse", correct: true },
+      { label: "Einseitige, mäßige, stabile Lahmheit ohne Verschlechterung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Schmerzhaftigkeit des betroffenen Hüftgelenks bei Streckung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Reduzierte Oberschenkelmuskulatur auf der betroffenen Seite", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum sind gerade kleine Hunderassen für die Legg-Perthes-Erkrankung anfälliger als große Rassen?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil bei kleinen Hunden die Epiphyse des Femurkopfes größtenteils aus dem gelenknahen Bereich durchblutet wird, statt wie bei großen Hunden über eine bis subchondral reichende endosteale Blutversorgung",
+        correct: true,
+      },
+      { label: "Weil kleine Hunde grundsätzlich eine schwächere Hüftmuskulatur haben", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil kleine Hunde häufiger an Hüftgelenkdysplasie erkranken als große Hunde", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil der Femurkopf bei kleinen Hunden anatomisch keine Wachstumsfuge besitzt", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.8 (siehe Wissenseintrag `legg-perthes-erkrankung`), S. 208–210. Ätiologie (Durchblutungsunterschied kleiner vs. großer Rassen), Klinik, Diagnostik und Therapie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "hugo",
+    topic: "Neurologie · Degenerative Myelopathie (Geriatrie)",
+    species: "Deutscher Schäferhund, Rüde, 9 J.",
+    title: "Hugo — schleichende, schmerzlose Hinterhandschwäche",
+    learningObjective:
+      "Die degenerative Myelopathie anhand des typischen schmerzlosen, langsam progredienten Verlaufs erkennen und von der klinisch ähnlichen DLSS unterscheiden.",
+    anamnese:
+      "Hugo zeigt seit etwa sechs Monaten eine langsam zunehmende Schwäche der Hinterhand; den Besitzern ist zusätzlich aufgefallen, dass die mittleren Krallen seiner Hinterpfoten ungewöhnlich stark abgeschliffen sind.",
+    beobachtung:
+      "Hugo zeigt eine zunehmende Ataxie der Hintergliedmaßen mit gelegentlich gekreuzt stehenden Hinterbeinen; er wirkt dabei zu keinem Zeitpunkt schmerzhaft oder unwillig, sich bewegen zu lassen.",
+    diagramLabel: "Langsam progrediente, schmerzlose Ataxie der Hintergliedmaßen, abgeschliffene Mittelkrallen hinten",
+    palpation:
+      "Die Manipulation der Lendenwirbelsäule und beider Hüftgelenke löst keinerlei Schmerzreaktion aus. Der Patellarreflex ist beidseits normal bis leicht gesteigert, der Flexorreflex unauffällig; eine Druckdolenz der kaudalen Lendenwirbelsäule fehlt.",
+    hypothesisQ: "Was erklärt Hugos Befund am besten?",
+    hypothesisOptions: [
+      { label: "Degenerative Myelopathie (DM)", correct: true },
+      {
+        label: "Degenerative lumbosakrale Stenose (DLSS)",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "DLSS zeigt typischerweise Rückenschmerz bei Palpation der kaudalen Lendenwirbelsäule und Reflexbefunde des unteren Motoneurons (reduzierte Reflexe) — bei Hugo fehlt jeder Schmerz vollständig, und die Reflexe sind eher gesteigert statt reduziert, was für das obere Motoneuron und damit für DM spricht.",
+        differentiationDistractors: [
+          "Jede langsam fortschreitende Hinterhandschwäche beim älteren Schäferhund ist automatisch dieselbe Erkrankung.",
+          "Ohne Schmerzäußerung kann keine relevante Wirbelsäulenerkrankung vorliegen.",
+        ],
+      },
+      {
+        label: "Eine beidseitige, fortgeschrittene Hüftgelenkarthrose",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die Hüftgelenke sind bei der Palpation schmerzfrei und ohne Krepitation — eine fortgeschrittene Arthrose würde sich dagegen typischerweise mit Schmerz und Bewegungseinschränkung der Gelenke selbst zeigen, nicht mit gesteigerten Reflexen.",
+      },
+      {
+        label: "Eine akute Bandscheibenerkrankung mit Rückenmarkkompression",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Der schleichende Verlauf über Monate ohne jede Schmerzhaftigkeit passt nicht zu einer typischerweise akuteren, meist schmerzhaften Bandscheibenerkrankung.",
+      },
+    ],
+    expertNote:
+      "Die degenerative Myelopathie ist eine Axonerkrankung mit Nekrose in den lateralen und dorsalen Anteilen des thorakolumbalen Rückenmarks, verursacht durch eine Mutation des SOD1-Gens; Deutsche Schäferhunde sind übervertreten. Typisch ist ein langsamer, progressiver Verlauf mit Ataxie, Schwäche und Parese der Hintergliedmaßen, oft mit gekreuzt stehenden Hinterbeinen — Rückenschmerz fehlt dabei meist vollständig. Die Reflexe der Hinterhand sind normal bis gesteigert (oberes Motoneuron), anders als bei der DLSS mit ihren reduzierten Reflexen (unteres Motoneuron) und ihrem typischen Rückenschmerz. Ein frühes, nicht pathognomonisches Erstsymptom sind stark abgeschliffene Mittelkrallen der Hinterpfoten durch dezentes Zehenschleifen — bei Hugo bereits vorhanden. Da DM eine Ausschlussdiagnose ist, dienen Röntgen/MRT und eine Liquoruntersuchung dem Ausschluss der wichtigsten Differentialdiagnosen; eine medikamentöse Behandlung existiert nicht, intensive Physiotherapie kann die Gehfähigkeit aber um Monate verlängern.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen DM und für eine DLSS sprechen?",
+    weakeningOptions: [
+      {
+        label: "Deutliche Schmerzreaktion bei Druckpalpation der kaudalen Lendenwirbelsäule sowie reduzierte statt gesteigerte Reflexe der Hinterhand",
+        correct: true,
+      },
+      { label: "Langsam progrediente Ataxie der Hintergliedmaßen ohne Schmerzhaftigkeit", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Gesteigerter Patellarreflex beidseits", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Abgeschliffene Mittelkrallen der Hinterpfoten", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum ist die Unterscheidung zwischen DM und DLSS klinisch besonders wichtig, obwohl sich beide Erkrankungen ähnlich präsentieren können?",
+    retrievalOptions: [
+      {
+        label: "Weil die DLSS operativ dekomprimiert werden kann, die DM dagegen nicht — die Unterscheidung entscheidet also direkt über die Behandlungsoption",
+        correct: true,
+      },
+      { label: "Weil nur die DM überhaupt behandelbar ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil beide Erkrankungen identisch behandelt werden und die Unterscheidung praktisch keine Rolle spielt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil nur die DLSS bei Deutschen Schäferhunden vorkommt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.3 (siehe Wissenseintrag `degenerative-myelopathie-hund`), S. 232, inkl. der dort dokumentierten Abgrenzung zur DLSS; ergänzt um das als Erstsymptom beschriebene Abschleifen der Mittelkrallen aus Welter-Böller/Welter/John, Faszientherapie beim Hund, Thieme, 2. Auflage 2025 (dieselbe bereits im Wissenseintrag dokumentierte Quelle). Ätiologie, Klinik, Reflexbefunde und die DM-DLSS-Abgrenzung sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "enzo",
+    topic: "Neurologie · Rückenmarksinfarkt (perakut)",
+    species: "Weimaraner, Rüde, 3 J.",
+    title: "Enzo — beim Spielen plötzlich mit der Hinterhand eingeknickt",
+    learningObjective:
+      "Den fibrokartilaginösen Rückenmarksinfarkt anhand der fehlenden Schmerzhaftigkeit und der fehlenden logischen Ausfallskaskade von einer kompressiven Bandscheibenerkrankung unterscheiden.",
+    anamnese:
+      "Enzo brach beim ausgelassenen Spielen im Garten plötzlich mit der Hinterhand zusammen, ohne dass ein Sturz, Zusammenstoß oder sonstiges Trauma zu beobachten war. Seitdem, vor zwei Tagen, hat sich der Zustand kaum verändert.",
+    beobachtung:
+      "Enzo zeigt eine hochgradige, leicht asymmetrische Parese beider Hintergliedmaßen; er wirkt dabei insgesamt nicht schmerzhaft und lässt sich problemlos im gesamten Rumpf- und Rückenbereich anfassen.",
+    diagramLabel: "Perakut aufgetretene, asymmetrische Hinterhandparese ohne erkennbares Trauma, kein Schmerzverhalten",
+    palpation:
+      "Die Palpation der gesamten Wirbelsäule löst keine Schmerzreaktion aus. Die Tiefensensibilität beider Hintergliedmaßen ist trotz der hochgradigen motorischen Ausfälle erhalten; die spinalen Reflexe sind je nach betroffenem Segment unterschiedlich ausgeprägt verändert.",
+    hypothesisQ: "Was erklärt Enzos Befund am besten?",
+    hypothesisOptions: [
+      { label: "Rückenmarksinfarkt (fibrokartilaginöse Embolie)", correct: true },
+      {
+        label: "Ein thorakolumbaler Bandscheibenvorfall mit Kompression",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine kompressive Bandscheibenerkrankung verläuft typischerweise über eine logische Ausfallskaskade (Rückenschmerz → Ataxie → Lokomotionsstörung → Ausfall des Oberflächenschmerzes → Ausfall des Tiefenschmerzes) und ist meist schmerzhaft — bei Enzo fehlt der Rückenschmerz vollständig, die Tiefensensibilität ist trotz hochgradiger Parese erhalten, und das Bild trat perakut ohne diese Kaskade auf.",
+        differentiationDistractors: [
+          "Jede plötzlich aufgetretene Hinterhandlähmung ist automatisch ein Bandscheibenvorfall.",
+          "Schmerzfreiheit schließt eine schwere Rückenmarkerkrankung grundsätzlich aus.",
+        ],
+      },
+      {
+        label: "Ein traumatisches Geschehen, das den Besitzern lediglich entgangen ist",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Die Palpation der gesamten Wirbelsäule ist schmerzfrei, was bei einem relevanten Trauma mit entsprechender Rückenmarkschädigung untypisch wäre; das perakute, schmerzlose Bild beim Spielen passt besser zu einem Gefäßereignis.",
+      },
+      {
+        label: "Eine Hüftgelenkluxation beidseits",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Die neurologischen Ausfälle (Parese mit erhaltener Tiefensensibilität, veränderte Reflexe) sind eindeutig neurologischer und nicht orthopädischer Natur; eine Hüftluxation würde sich zudem als lokale Gelenkinstabilität zeigen, nicht als beidseitige Parese.",
+      },
+    ],
+    expertNote:
+      "Fibrokartilaginöses Material aus dem Nucleus pulposus kann über venöse Sinus der Wirbelkörper ins spinale Gefäßsystem abgeschwemmt werden und dort eine ischämische Infarzierung des Rückenmarkgewebes auslösen — betroffen sind vor allem mittelgroße bis große, jungadulte Hunde wie Enzo. Die Symptomatik ist meist perakut, oft während des Spielens und ohne beobachtetes Trauma, und ändert sich nach einer initialen Phase kaum noch. Anders als bei extramedullärer Kompression findet sich keine logische Ausfallskaskade — Rückenschmerz fehlt meist ganz. Weil fibrokartilaginöse Infarkte vor allem die graue Substanz schädigen, bleibt die Tiefensensibilität trotz schwerer motorischer Ausfälle oft erhalten — ein zusätzliches Unterscheidungskriterium zur kompressiven Läsion. Kortikosteroide sind nicht indiziert; wichtig sind Dekubitusprophylaxe, regelmäßige Urinabführung und intensive Physio-, Hydro- und Elektrotherapie. Die Prognose hängt stark von Lokalisation und Ausmaß ab.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen einen Rückenmarksinfarkt und für einen kompressiven Bandscheibenvorfall sprechen?",
+    weakeningOptions: [
+      {
+        label:
+          "Eine über Stunden fortschreitende Symptomatik mit deutlichem Rückenschmerz bei Palpation, gefolgt vom schrittweisen Ausfall von Oberflächen- und Tiefenschmerz",
+        correct: true,
+      },
+      { label: "Perakuter Beginn beim Spielen ohne beobachtetes Trauma", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Schmerzfreie Palpation der gesamten Wirbelsäule", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Erhaltene Tiefensensibilität trotz hochgradiger motorischer Ausfälle", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum bleibt beim fibrokartilaginösen Rückenmarksinfarkt die Tiefensensibilität häufig erhalten, obwohl die motorischen Ausfälle hochgradig sein können?",
+    retrievalOptions: [
+      {
+        label: "Weil der Infarkt in erster Linie die graue Substanz des Rückenmarks schädigt, während die für die Tiefensensibilität zuständigen Bahnen eher in der weißen Substanz verlaufen",
+        correct: true,
+      },
+      { label: "Weil Rückenmarksinfarkte grundsätzlich nur die Vordergliedmaßen betreffen", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Weil die Tiefensensibilität bei jeder Rückenmarkerkrankung immer als Letztes ausfällt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil ein Rückenmarksinfarkt die Nervenwurzeln außerhalb des Rückenmarks gar nicht erreicht", correct: false, errorCategory: "Anatomieverwechslung" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.4 (siehe Wissenseintrag `rueckenmarksinfarkt-fibrokartilaginoese-embolie`), S. 232f. Ätiologie, das Fehlen der logischen Ausfallskaskade, der Grau-Substanz-Mechanismus der erhaltenen Tiefensensibilität sowie Therapie und Prognose sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "ronja",
+    topic: "Neurologie · Periphere Polyneuropathie (aufsteigend)",
+    species: "Beagle, Hündin, 4 J.",
+    title: "Ronja — binnen zwei Tagen von hinten nach vorne schwächer geworden",
+    learningObjective:
+      "Die akute idiopathische Polyradikuloneuritis anhand ihres charakteristischen aufsteigenden Lähmungsmusters mit erhaltenem Schmerzempfinden erkennen.",
+    anamnese:
+      "Ronja zeigte vor zwei Tagen zunächst eine zunehmende Schwäche der Hinterhand; mittlerweile ist auch die Vorderhand spürbar schwächer geworden. Eine vorangegangene Impfung vor drei Wochen wird von den Besitzern erwähnt.",
+    beobachtung:
+      "Ronja zeigt eine fortschreitende Parese aller vier Gliedmaßen, deutlich stärker ausgeprägt hinten als vorne; sie reagiert auf Berührung und Manipulation aller Gliedmaßen mit deutlicher Schmerzäußerung.",
+    diagramLabel: "Binnen 48 Stunden von hinten nach vorne aufsteigende Parese, Schmerzempfinden an allen vier Gliedmaßen erhalten",
+    palpation:
+      "Die spinalen Reflexe sind an allen vier Gliedmaßen deutlich abgeschwächt bis kaum auslösbar. Bei Palpation der peripheren Nervenstämme reagiert Ronja mit Hyperästhesie; die Kopfnerven sind unauffällig, kein Schluck- oder Kauproblem.",
+    hypothesisQ: "Was erklärt Ronjas Befund am besten?",
+    hypothesisOptions: [
+      { label: "Akute idiopathische Polyradikuloneuritis", correct: true },
+      {
+        label: "Eine zervikale Rückenmarkkompression mit Beteiligung aller vier Gliedmaßen",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine zervikale Kompression würde eher gesteigerte oder zumindest erhaltene Reflexe an der Hinterhand zeigen (oberes Motoneuron) — bei Ronja sind die Reflexe dagegen an allen vier Gliedmaßen abgeschwächt, und das Muster begann eindeutig hinten und stieg dann nach vorne auf, passend zur Polyradikuloneuritis.",
+      },
+      {
+        label: "Eine Impfreaktion ohne neurologische Grunderkrankung, die von selbst abklingt",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die deutlichen, fortschreitenden neurologischen Ausfälle mit abgeschwächten Reflexen bei erhaltenem Schmerzempfinden sind ein eigenständiges, ernstzunehmendes klinisches Bild, das einer gezielten Diagnostik und supportiven Behandlung bedarf — eine vorangegangene Impfung gilt lediglich als einer von mehreren möglichen Auslösern, nicht als Erklärung, die weitere Abklärung erübrigt.",
+      },
+      {
+        label: "Degenerative Myelopathie mit ungewöhnlich schnellem Verlauf",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "DM verläuft typischerweise über Monate bis Jahre, nicht über 48 Stunden, und betrifft meist ältere, oft großwüchsige Rassen mit gesteigerten statt abgeschwächten Reflexen — das rasche, aufsteigende Muster bei Ronja passt nicht dazu.",
+      },
+    ],
+    expertNote:
+      "Die akute idiopathische Polyradikuloneuritis ist die häufigste Polyneuropathie beim Hund, vermutlich autoimmun bedingt (ähnlich dem humanen Guillain-Barré-Syndrom), mit banalen Infektionen oder Impfungen als möglichen Auslösern. Die Symptome setzen typischerweise akut zuerst in der Nachhand ein, mit progressiver Parese bis Plegie, die nach 24–48 Stunden auch die Vordergliedmaßen erfasst — genau das Muster, das Ronja zeigt. Klinisch auffällig ist eine deutliche Dissoziation: Die spinalen Reflexe sind sehr schwach bis abwesend, während die Schmerzempfindung dabei fast immer völlig intakt bleibt, teils sogar mit auslösbarer Hyperästhesie bei Nervenpalpation. Die Diagnose stützt sich auf Vorgeschichte, neurologische Untersuchung und Elektrodiagnostik (EMG mit positiven scharfen Wellen und Fibrillationspotentialen); eine spezifische Therapie existiert nicht, die Behandlung ist supportiv. Bei entsprechend aufwendiger Pflege ist die Prognose gut — die meisten Tiere erholen sich spontan, auch wenn Rückfälle möglich sind.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine Polyradikuloneuritis und für eine zervikale Rückenmarkkompression sprechen?",
+    weakeningOptions: [
+      {
+        label: "Gesteigerte statt abgeschwächte spinale Reflexe an der Hinterhand bei gleichzeitigem Beginn an allen vier Gliedmaßen statt aufsteigend von hinten",
+        correct: true,
+      },
+      { label: "Binnen 48 Stunden von hinten nach vorne aufsteigende Parese", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Abgeschwächte spinale Reflexe an allen vier Gliedmaßen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Erhaltenes, sogar gesteigertes Schmerzempfinden bei Nervenpalpation", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche klinische Dissoziation ist für die akute idiopathische Polyradikuloneuritis besonders charakteristisch?",
+    retrievalOptions: [
+      { label: "Stark abgeschwächte bis abwesende spinale Reflexe bei fast immer vollständig erhaltenem Schmerzempfinden", correct: true },
+      { label: "Vollständig erhaltene Reflexe bei komplett fehlendem Schmerzempfinden", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Schmerzempfinden und Reflexe fallen immer gemeinsam und gleich stark aus", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Die Erkrankung betrifft ausschließlich die Kopfnerven, nie die Gliedmaßen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Akute idiopathische Polyradikuloneuritis”, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (siehe Wissenseintrag `akute-idiopathische-polyradikuloneuritis-aufsteigende-laehmung`). Ätiologie, das aufsteigende Lähmungsmuster mit Reflex-Schmerz-Dissoziation, Diagnostik und Prognose sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "benno",
+    topic: "Orthopädie · Ellbogen (Wachstumsfugendefekt)",
+    species: "Cocker Spaniel, Rüde, 6 J.",
+    title: "Benno — nach einem harmlosen Sprung plötzlich hochgradig lahm",
+    learningObjective:
+      "Die inkomplette Ossifikation des Condylus humeri (IOCH) als Ursache für eine Humerusfraktur nach Bagatelltrauma erkennen und verstehen, warum das kontralaterale Ellbogengelenk immer mitgeröntgt werden muss.",
+    anamnese:
+      "Benno ist seit Jahren immer wieder leicht und wechselnd lahm am rechten Vorderbein, ohne dass dafür bisher eine Ursache gefunden wurde. Heute sprang er vom Sofa und ist seitdem akut hochgradig lahm auf demselben Bein.",
+    beobachtung:
+      "Benno entlastet das rechte Vorderbein vollständig und zeigt eine deutliche, schmerzhaft gehaltene Fehlstellung im Bereich des distalen Oberarms; eine Schwellung ist an dieser Stelle sichtbar.",
+    diagramLabel: "Akute, hochgradige Lahmheit rechts vorne nach Bagatelltrauma, sichtbare Schwellung am distalen Oberarm, Vorgeschichte mit jahrelanger milder, wechselnder Lahmheit",
+    palpation:
+      "Im Bereich des distalen Humerus rechts ist eine abnorme Beweglichkeit mit Krepitation tastbar, verbunden mit deutlicher Schmerzreaktion. Das linke Ellbogengelenk zeigt keine akute Veränderung, bei genauer Palpation aber eine leichte Verdickung im Gelenkbereich.",
+    hypothesisQ: "Was erklärt Bennos aktuellen Befund am besten — und was lag der jahrelangen milden Lahmheit vermutlich zugrunde?",
+    hypothesisOptions: [
+      { label: "Humerusfraktur bei inkompletter Ossifikation des Condylus humeri (IOCH), die als vorgezeichnete Bruchlinie wirkte", correct: true },
+      {
+        label: "Eine völlig unabhängige, neue Humerusfraktur ohne Zusammenhang mit der früheren Lahmheit",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine Fraktur nach einem derart geringfügigen Trauma wie einem Sprung vom Sofa ist bei einem gesunden Humerus untypisch — die jahrelange, chronisch-intermittierende Lahmheit passt zur IOCH, bei der die nicht verschmolzene Wachstumsfuge als vorgezeichnete Bruchlinie wirkt.",
+      },
+      {
+        label: "Ein fragmentierter Processus coronoideus medialis als alleinige Erklärung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Differentialdiagnose muss zwar bedacht werden und kann gemeinsam mit einer IOCH vorliegen, erklärt aber allein nicht die heutige Fraktur nach Bagatelltrauma — dafür passt die vorgezeichnete Bruchlinie durch eine nicht geschlossene Wachstumsfuge deutlich besser.",
+      },
+      {
+        label: "Eine akute Bänderzerrung des Ellbogens ohne Knochenbeteiligung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst: "Die tastbare abnorme Beweglichkeit mit Krepitation am distalen Humerus zeigt eine knöcherne Verletzung, keine reine Weichteilverletzung.",
+      },
+    ],
+    expertNote:
+      "Bei der inkompletten Ossifikation des Condylus humeri (IOCH) verschmilzt die distale interkondyläre Wachstumsfuge des Humerus nicht wie physiologisch im Alter von etwa sechs Wochen. Betroffen sind überwiegend mittelgroße Hunde, besonders Spanielrassen wie der Cocker Spaniel sowie der Deutsche Wachtelhund, häufig beidseitig. Das klinische Bild variiert stark: Meist zeigt sich eine chronisch-intermittierende, gering- bis mittelgradige Lahmheit mit unspezifischem Ellbogenschmerz — wie bei Benno über Jahre. Der gefährlichste Präsentationsweg ist eine akute Humerusfraktur nach einem Bagatelltrauma, weil die nicht verschmolzene Fuge als vorgezeichnete Bruchlinie wirkt. Genau deshalb gilt: Bei Diagnose einer IOCH sollte immer auch das kontralaterale Ellbogengelenk geröntgt werden, da die Erkrankung häufig beidseitig vorliegt, ohne dass die zweite Seite bereits Symptome zeigt — bei Benno passt die leichte Verdickung links genau in dieses Muster. Beweisend ist die Computertomografie; bei entsprechender Symptomatik erfolgt eine operative Versorgung mit einer transkondylären Zugschraube, bei Spaniel-Rassen auch prophylaktisch ohne aktuelle Symptome.",
+    weakeningQ:
+      "Welcher zusätzliche Befund würde eher gegen eine IOCH-bedingte Fraktur und für eine unabhängige, traumatische Fraktur eines zuvor gesunden Humerus sprechen?",
+    weakeningOptions: [
+      {
+        label: "Eine Fraktur nach einem schweren, hochenergetischen Trauma (z. B. Autounfall) bei einem Hund ohne jede vorangegangene Lahmheitsgeschichte",
+        correct: true,
+      },
+      { label: "Eine Fraktur nach einem harmlosen Sprung vom Sofa", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine jahrelange Vorgeschichte milder, wechselnder Lahmheit desselben Beins", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine leichte Verdickung auch im bisher unauffälligen linken Ellbogengelenk", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum sollte bei Diagnose einer IOCH immer auch das kontralaterale Ellbogengelenk geröntgt werden?",
+    retrievalOptions: [
+      { label: "Weil die IOCH häufig beidseitig vorliegt, oft ohne dass die zweite Seite bereits Symptome zeigt", correct: true },
+      { label: "Weil eine IOCH grundsätzlich nur auf der jeweils nicht betroffenen Seite nachweisbar ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil das kontralaterale Röntgenbild zur IOCH-Diagnose selbst notwendig ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Aus rein rechtlichen Dokumentationsgründen, ohne klinischen Nutzen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Inkomplette Ossifikation des Condylus humeri (IOCH) beim Hund” (siehe Wissenseintrag `inkomplette-ossifikation-condylus-humeri-hund`). Pathogenese, Rasseprädispositionen, die Bandbreite klinischer Präsentationen (inkl. der Fraktur nach Bagatelltrauma), die Empfehlung zur Röntgenkontrolle des kontralateralen Ellbogens sowie Diagnostik und Therapie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "lumpi",
+    topic: "Orthopädie · Karpus (chronische Degeneration)",
+    species: "Shetland Sheepdog, Hündin, 8 J.",
+    title: "Lumpi — läuft zunehmend flach auf der Handwurzel",
+    learningObjective:
+      "Die chronisch-degenerative Karpal-Hyperextension ohne vorausgegangenes Trauma erkennen und von der akuten, traumatischen Karpalluxation abgrenzen.",
+    anamnese:
+      "Lumpi läuft seit mehreren Monaten zunehmend auffällig auf den Vorderbeinen; ein konkretes Unfallereignis ist den Besitzern nicht erinnerlich. Die Veränderung hat sich langsam eingeschlichen.",
+    beobachtung:
+      "Lumpi tritt beidseits nicht mehr auf den Zehen, sondern zunehmend flach mit dem gesamten Karpus auf — ein vorsichtig belastender, plantigrader Gang.",
+    diagramLabel: "Langsam eingeschlichener, beidseitiger plantigrader (Bärentatzen-)Gang der Vorderbeine ohne erinnerliches Trauma",
+    palpation:
+      "Beide Karpalgelenke lassen sich manuell deutlich über das physiologische Maß hinaus überstrecken, ohne dass dabei eine eigentliche Luxation der Gelenkflächen vorliegt. Eine akute Schwellung oder Überwärmung fehlt.",
+    hypothesisQ: "Was erklärt Lumpis Befund am besten?",
+    hypothesisOptions: [
+      { label: "Chronisch-degenerative Hyperextension des Karpalgelenks", correct: true },
+      {
+        label: "Eine akute traumatische Karpalgelenkluxation",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Bei Lumpi fehlt jedes erinnerliche Trauma, und die Veränderung hat sich über Monate langsam eingeschlichen — eine Luxation entsteht dagegen klassischerweise akut durch ein hochenergetisches Trauma wie einen Sturz oder Autounfall.",
+        differentiationDistractors: [
+          "Ein plantigrader Gang bedeutet immer eine akute Luxation.",
+          "Shelties können grundsätzlich keine chronische Gelenkdegeneration entwickeln.",
+        ],
+      },
+      {
+        label: "Eine beidseitige Polyarthritis mit Gelenkschwellung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Eine akute Schwellung oder Überwärmung der Karpalgelenke fehlt bei Lumpi — eine Polyarthritis würde sich dagegen typischerweise mit warmen, geschwollenen, dolenten Gelenken zeigen.",
+      },
+      {
+        label: "Eine Tendovaginitis des M. abductor pollicis longus als alleinige Ursache",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Differentialdiagnose gehört zwar in die Überlegung, erklärt aber allein nicht die manuell nachweisbare Überstreckbarkeit beider Karpalgelenke — das Gesamtbild passt besser zu einer chronischen Degeneration der palmaren Stützstrukturen selbst.",
+      },
+    ],
+    expertNote:
+      "Sowohl die Luxation als auch die Hyperextension des Karpalgelenks führen zum selben plantigraden Gangbild, unterscheiden sich aber grundlegend in der Entstehung. Die Hyperextension betrifft die palmaren Strukturen (palmare Bänder, palmarer Faserknorpel), ohne dass eine eigentliche Luxation vorliegt — sie kann durch ein geringes Trauma bei vorgeschädigtem Gelenk entstehen, oder ganz ohne erkennbares Trauma als chronische Degeneration von Sehnen und Bändern mit allmählichem „Niederbrechen” des Gelenks, was vor allem bei Shelties und Collies wie Lumpi beschrieben ist. Weil die Instabilität auf Standardröntgenaufnahmen unauffällig bleiben kann, sind Stressaufnahmen notwendig, um Ausmaß und Lokalisation der Bandschädigung darzustellen. Bei ausgewachsenen Hunden bleibt die Instabilität meist dauerhaft bestehen; bei Verletzung der palmaren Bänder oder des palmaren Faserknorpels führt praktisch immer eine Arthrodese zum Ziel, mit anschließend sehr guter Prognose und voller Belastbarkeit.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine chronisch-degenerative Hyperextension und für eine akute traumatische Luxation sprechen?",
+    weakeningOptions: [
+      {
+        label: "Plötzlicher Beginn unmittelbar nach einem beobachteten Sturz oder Autounfall, mit akuter Schwellung und vollständiger Entlastung des betroffenen Beins",
+        correct: true,
+      },
+      { label: "Langsam über Monate eingeschlichener, beidseitiger plantigrader Gang", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Überstreckbarkeit beider Karpalgelenke ohne akute Schwellung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Fehlendes erinnerliches Unfallereignis in der Vorgeschichte", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum sind bei Verdacht auf eine Karpal-Hyperextension Stressaufnahmen notwendig, obwohl definitionsgemäß keine sichtbare Luxation vorliegt?",
+    retrievalOptions: [
+      {
+        label: "Weil die Instabilität der palmaren Strukturen auf Standardröntgenaufnahmen unauffällig bleiben kann und sich erst unter Belastung zeigt",
+        correct: true,
+      },
+      { label: "Weil Standardröntgenaufnahmen beim Karpalgelenk technisch grundsätzlich nicht möglich sind", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Stressaufnahmen die einzige Methode sind, mit der sich ein Trauma in der Vorgeschichte nachweisen lässt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil bei der Hyperextension immer eine zusätzliche Fraktur vorliegt, die nur unter Belastung sichtbar wird", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitte „Luxation des Karpalgelenks beim Hund” und „Hyperextension des Karpalgelenks beim Hund” (siehe Wissenseintrag `karpalgelenk-luxation-hyperextension-hund`). Verletzungsmechanismen, das plantigrade Gangbild, die Rasseprädisposition (Shelties/Collies) bei der chronisch-degenerativen Hyperextension, Diagnostik und Therapie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "rocco",
+    topic: "Orthopädie · Knie (Postoperative Kontraindikation)",
+    species: "Dalmatiner, Rüde, 7 Monate",
+    title: "Rocco — zunehmend steifes Knie nach Oberschenkelfraktur",
+    learningObjective:
+      "Erkennen, dass bei einer bereits eingetretenen Quadrizepskontraktur Dehnung und forcierte Mobilisation kontraindiziert sind, obwohl ein steifes Gelenk sonst meist genau danach verlangt.",
+    anamnese:
+      "Rocco hatte vor acht Wochen eine distale Femurfraktur, die operativ versorgt wurde. Seitdem lässt sich sein Knie zunehmend schlechter beugen; anfangs war noch eine fast normale Beugung möglich.",
+    beobachtung:
+      "Rocco zeigt ein Bein, das überwiegend in gestreckter Haltung gehalten wird; beim Gehen schwingt die gesamte Gliedmaße relativ steif nach vorne, ohne die übliche Beugung im Kniegelenk.",
+    diagramLabel: "Zunehmend in Streckstellung arretiertes Kniegelenk nach operativ versorgter distaler Femurfraktur vor acht Wochen",
+    palpation:
+      "Die aktive und passive Beugung des Kniegelenks ist auf etwa 20° eingeschränkt; der M. quadriceps femoris ist als harter, strangartiger Strukturbereich am distalen Oberschenkel tastbar. Eine Streckung ist dagegen uneingeschränkt möglich.",
+    hypothesisQ: "Welches Vorgehen ist bei Roccos Befund jetzt am wichtigsten?",
+    hypothesisOptions: [
+      { label: "Keine forcierte Dehnung oder Beugeübungen, sondern chirurgische Abklärung einer bereits eingetretenen Quadrizepskontraktur", correct: true },
+      {
+        label: "Intensive physiotherapeutische Dehnung und passive Beugeübungen zur Mobilisation des Kniegelenks",
+        correct: false,
+        errorCategory: "Untersuchung falsch gewählt",
+        arguesAgainst:
+          "Bei einer bereits eingetretenen Quadrizepskontraktur ist die Versteifung strukturell durch verwachsenes Bindegewebe bedingt, nicht mehr funktionell — forcierte Dehnung oder gewaltsames Beugen können hier erneute Muskelrisse oder sogar eine erneute Fraktur auslösen, statt zu helfen.",
+        differentiationDistractors: [
+          "Ein steifes Gelenk nach einer Operation braucht immer zuerst mehr Bewegung.",
+          "Dehnung kann bei einem Gelenk grundsätzlich nicht schaden.",
+        ],
+      },
+      {
+        label: "Abwarten, da sich die Beugefähigkeit von selbst wieder normalisieren wird",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Unbehandelt schreitet die Kontraktur typischerweise weiter fort bis zur vollständigen Arretierung des Gelenks in Streckstellung — ohne gezielte (in diesem Stadium chirurgische) Intervention ist keine Spontanbesserung zu erwarten.",
+      },
+      {
+        label: "Sofortige Amputation der betroffenen Gliedmaße",
+        correct: false,
+        errorCategory: "Überkonfidenz",
+        arguesAgainst:
+          "Eine Amputation ist nur die letzte Option bei Therapieversagen nach bereits erfolgter chirurgischer Lösung der Verwachsungen — zu diesem frühen Zeitpunkt ist zunächst die chirurgische Durchtrennung der Verwachsungen mit anschließender vorsichtiger Nachbehandlung die angezeigte Therapie.",
+      },
+    ],
+    expertNote:
+      "Die Quadrizepskontraktur entsteht typischerweise bei jungen Hunden nach distalen Femurfrakturen und ist eine bindegewebige Durchbauung des M. quadriceps femoris mit fortschreitender Verkürzung und Versteifung — begünstigt vor allem durch die Ruhigstellung des Kniegelenks in Streckstellung. Zunächst entstehen Verklebungen zwischen Muskel, Kallus und Gelenkkapsel; bleibt die frühzeitige Mobilisierung aus, kontrahiert der angeheftete Muskel zunehmend, bis das Gelenk im Endstadium vollständig arretiert ist. Entscheidend für Roccos Fall: Bei einer bereits eingetretenen Kontraktur bringen physiotherapeutische Übungen oder gewaltsames Beugen keinen Erfolg und können erneute Muskelrupturen oder eine erneute Fraktur auslösen — die Versteifung ist strukturell, nicht funktionell bedingt. Ist die Kontraktur bereits eingetreten, bleibt nur die chirurgische Behandlung (Durchtrennung der Verwachsungen, Resektion des fibrotischen Gewebes, ggf. Z-Plastik); erst danach, nach Ruhigstellung in Beugestellung, wird über zwei bis drei Monate durch mehrmals tägliche passive Bewegung mobilisiert — Bewegungstherapie ist dann wieder Teil der Lösung, nicht mehr das Risiko. Die Prognose bleibt vorsichtig, da erneute Verwachsungen drohen.",
+    weakeningQ: "Welcher Befund würde am ehesten dafürsprechen, dass vorsichtige physiotherapeutische Mobilisation statt chirurgischer Abklärung angezeigt ist?",
+    weakeningOptions: [
+      {
+        label:
+          "Ein Kniegelenk, das sich noch nahezu normal beugen lässt, mit nur minimaler, seit der Operation gleichbleibender Einschränkung und ohne tastbaren strangartigen Muskelbefund",
+        correct: true,
+      },
+      { label: "Eine Beugefähigkeit von nur noch etwa 20° mit tastbarem, hartem Muskelstrang", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine Vorgeschichte mit distaler Femurfraktur vor acht Wochen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine zunehmend in Streckstellung gehaltene Gliedmaße beim Gehen", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Was ist der wichtigste vorbeugende Faktor, um eine Quadrizepskontraktur nach einer Femurfraktur gar nicht erst entstehen zu lassen?",
+    retrievalOptions: [
+      {
+        label: "Eine technisch einwandfreie, atraumatische Osteosynthese mit früher Mobilisierung des Gelenks, statt langer Ruhigstellung in Streckstellung",
+        correct: true,
+      },
+      { label: "Eine möglichst lange Ruhigstellung des Kniegelenks in Streckstellung nach der Operation", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Sofortige intensive Dehnübungen unmittelbar nach der Operation, unabhängig vom Heilungsstadium", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Eine Quadrizepskontraktur lässt sich grundsätzlich nicht vorbeugen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Quadrizepskontraktur beim Hund” (siehe Wissenseintrag `quadrizepskontraktur-nach-femurfraktur-physiotherapie-kontraindiziert`). Pathogenese, die ausdrückliche Warnung vor physiotherapeutischen Dehnübungen bei bereits eingetretener Kontraktur, die chirurgische Therapie samt postoperativer Bewegungstherapie sowie Prognose sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "mathilda",
+    topic: "Orthopädie · Multiple Gelenke (Polyarthritis)",
+    species: "Cavalier King Charles Spaniel, Hündin, 5 J.",
+    title: "Mathilda — steifer Gang an mehreren Beinen gleichzeitig, mit Fieber",
+    learningObjective:
+      "Die idiopathische Polyarthritis als eigenständiges, multiple Gelenke betreffendes Krankheitsbild erkennen und von einer lokal-orthopädischen Erkrankung abgrenzen.",
+    anamnese:
+      "Mathilda läuft seit drei Tagen auffällig steif und zurückhaltend; die Besitzer haben zusätzlich erhöhte Temperatur bemerkt und berichten, dass sie insgesamt apathischer wirkt als sonst.",
+    beobachtung:
+      "Mathilda bewegt sich vorsichtig und steif an allen vier Beinen, mit einem auf unebenem Gelände deutlich schlechteren Gangbild; sie wirkt insgesamt matt.",
+    diagramLabel: "Steifer, vorsichtiger Gang an allen vier Gliedmaßen, verschlechtert auf unebenem Untergrund, erhöhte Körpertemperatur",
+    palpation:
+      "Mehrere distale Gelenke — beide Karpal- und beide Tarsalgelenke sowie mehrere Zehengelenke — sind geschwollen, überwärmt und bei Bewegung dolent; die proximaleren Gelenke (Ellbogen, Knie, Hüfte) sind demgegenüber deutlich weniger auffällig.",
+    hypothesisQ: "Was erklärt Mathildas Befund am besten?",
+    hypothesisOptions: [
+      { label: "Idiopathische Polyarthritis", correct: true },
+      {
+        label: "Eine beidseitige Patellaluxation mit sekundärer Schonhaltung an allen Beinen",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Eine Patellaluxation würde sich lokal am Kniegelenk zeigen, nicht als Schwellung, Überwärmung und Schmerz vor allem der distalen Gelenke (Karpus, Tarsus, Zehen) bei gleichzeitigem Fieber und Mattigkeit.",
+      },
+      {
+        label: "Eine rein orthopädisch-degenerative Erkrankung ohne systemische Beteiligung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Fieber und das für eine Polyarthritis typische Befallsmuster (zuerst distale Gelenke, proximalere Gelenke seltener betroffen) sprechen gegen ein rein degeneratives Geschehen — degenerative Arthrosen zeigen in diesem Alter und mit diesem Verteilungsmuster normalerweise kein Fieber.",
+      },
+      {
+        label: "Eine einzelne, isolierte Gelenkinfektion, die zufällig mehrere Gelenke gleichzeitig betrifft",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine isolierte septische Arthritis befällt meist nur ein einzelnes Gelenk; das hier vorliegende, symmetrische Muster mehrerer distaler Gelenke mit Fieber passt eher zu einer systemischen, immunvermittelten Polyarthritis — die genaue Form muss aber erst durch Gelenkpunktate und weitere Diagnostik geklärt werden.",
+      },
+    ],
+    expertNote:
+      "Die bei Weitem häufigste Polyarthritis-Form beim Hund ist die idiopathische Polyarthritis aus der immuninduzierten, nichterosiven Gruppe. Hunde werden meist vorgestellt, weil sie ungern und steif laufen; die Lahmheitsgrade variieren stark, häufig besteht Fieber. Typischerweise sind zuerst die distalen Gelenke (Zehen, Karpal-/Tarsalgelenke) geschwollen, warm und dolent, weiter proximale Gelenke sind seltener betroffen — das Gangbild verschlechtert sich charakteristischerweise auf unebenem Gelände, wie bei Mathilda. Die Diagnostik ist aufwendig: Röntgen zum Ausschluss eines primär degenerativen/traumatischen Geschehens, komplettes Blutbild, Gelenkpunktate mit zytologischer Untersuchung sowie serologische Tests auf Primärerreger. Ein zytologischer Befund einer eitrigen Synovitis ohne Bakteriennachweis bei negativen Infektions-/Primärerkrankungstests führt zur Diagnose immuninduzierte Polyarthritis. Therapeutisch werden Kortikosteroide eingesetzt; immuninduzierte Formen lassen sich oft gut kontrollieren, teils sogar mit späterem Absetzen der Medikation.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine Polyarthritis und für eine lokale, rein orthopädische Erkrankung sprechen?",
+    weakeningOptions: [
+      {
+        label: "Schwellung und Schmerz ausschließlich an einem einzelnen Gelenk, bei normaler Körpertemperatur und unauffälligem Allgemeinbefinden",
+        correct: true,
+      },
+      { label: "Fieber und ein insgesamt mattes Allgemeinbefinden", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Schwellung, Überwärmung und Schmerz vor allem der distalen Gelenke beidseits", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein auf unebenem Gelände deutlich schlechteres Gangbild", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welcher zytologische Befund führt bei entsprechend negativen Infektions- und Primärerkrankungstests zur Diagnose einer immuninduzierten Polyarthritis?",
+    retrievalOptions: [
+      { label: "Eine eitrige Synovitis im Gelenkpunktat ohne Bakteriennachweis", correct: true },
+      { label: "Ein vollständig unauffälliges Gelenkpunktat ohne jede Zellvermehrung", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ein direkter Bakteriennachweis im Gelenkpunktat", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ausschließlich ein erhöhter Kalziumspiegel im Blutbild", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.5 (siehe Wissenseintrag `polyarthritis-hund`), S. 188–190, inkl. Tab. 8.1. Klassifikation, Klinik, Diagnostik und Therapieprinzip sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "diesel",
+    topic: "Orthopädie · Zehe/Mittelfuß (Sesambein)",
+    species: "Boxer, Rüde, 4 J.",
+    title: "Diesel — milde Lahmheit nach intensivem Training",
+    learningObjective:
+      "Die Sesambeinfragmentierung als Ursache einer milden, belastungsabhängigen Zehenlahmheit erkennen und verstehen, warum gerade die Sesambeine II und VII am häufigsten betroffen sind.",
+    anamnese:
+      "Diesel zeigt seit einigen Wochen nach intensivem Lauftraining eine leichte Lahmheit vorne rechts, die sich nach Ruhe wieder bessert, bei erneuter Belastung aber zurückkehrt.",
+    beobachtung:
+      "Diesel belastet das rechte Vorderbein nach längerer Belastung sichtbar vorsichtiger, mit insgesamt mildem, kaum auffälligem Gangbild in Ruhe.",
+    diagramLabel: "Milde, belastungsabhängige Lahmheit rechts vorne, Besserung nach Ruhe",
+    palpation:
+      "Im Bereich des Zehengrundgelenks der zweiten Zehe rechts ist eine leichte Verdickung tastbar; die Überstreckung des Gelenks ist dolent, die Beugung endgradig eingeschränkt. Die übrigen Zehen und Gelenke sind unauffällig.",
+    hypothesisQ: "Was erklärt Diesels Befund am besten?",
+    hypothesisOptions: [
+      { label: "Sesambeinfragmentierung im Bereich des Zehengrundgelenks", correct: true },
+      {
+        label: "Eine harmlose, physiologische Zweiteilung des Sesambeins (bipartites Sesambein)",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Ein bipartites Sesambein ist ein radiologischer Zufallsbefund ohne eigene Schmerzhaftigkeit — Diesels tastbare Verdickung mit Schmerz bei Überstreckung und belastungsabhängiger Lahmheit spricht dagegen für eine echte, symptomatische Fragmentierung, die radiologisch von der harmlosen Variante abgegrenzt werden muss.",
+      },
+      {
+        label: "Eine allgemeine Überlastungsreaktion der gesamten Pfote ohne lokalisierbare Struktur",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die Palpation zeigt einen klar lokalisierbaren Befund genau am Zehengrundgelenk der zweiten Zehe — das spricht für eine konkrete lokale Struktur als Ursache, nicht für eine diffuse Überlastung.",
+      },
+      {
+        label: "Eine Polyarthritis mit zufälliger Betonung eines einzelnen Zehengelenks",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine Polyarthritis würde sich typischerweise mit Fieber und mehreren, meist symmetrisch verteilten Gelenken zeigen — bei Diesel ist dagegen nur ein einzelnes Zehengelenk betroffen, ohne systemische Krankheitszeichen.",
+      },
+    ],
+    expertNote:
+      "In jeder der vier Hauptzehen liegt ein Paar Sesambeine auf der palmaren Fläche des Zehengrundgelenks. Die Sehnen der Zehenbeuger verteilen sich bei der 3. und 4. Zehe gleichmäßig auf beide Sesambeine, bei der 2. und 5. Zehe dagegen fast ausschließlich auf die innen liegenden Sesambeine II und VII — sie tragen dadurch bei starker Belastung deutlich mehr Stress, was erklärt, warum ausgerechnet diese beiden am häufigsten fragmentieren, wie vermutlich bei Diesel. Die degenerative Sesambeinfragmentierung bei jungen großen Hunden wird auf kongenitale Ossifikationsstörungen zurückgeführt und tritt gehäuft bei Rottweilern, Boxern und Labrador Retrievern auf, mit rund 80 % deutlich häufiger an der Vorder- als an der Hintergliedmaße. Die Diagnose gelingt am zuverlässigsten mit einer Röntgenaufnahme im dorsopalmaren Strahlengang bei gespreizten Zehen; wichtig ist die Abgrenzung von der harmlosen, physiologischen Zweiteilung (bipartites Sesambein). Milde Fälle werden konservativ behandelt, ansonsten wird das Sesambein chirurgisch entfernt, was meist innerhalb von 6 Wochen zu einem lahmheitsfreien Gang führt.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine symptomatische Sesambeinfragmentierung und für ein harmloses bipartites Sesambein sprechen?",
+    weakeningOptions: [
+      {
+        label: "Ein radiologisch zweigeteiltes Sesambein als Zufallsbefund, ohne Schwellung, Schmerz bei Überstreckung oder belastungsabhängige Lahmheit",
+        correct: true,
+      },
+      { label: "Belastungsabhängige milde Lahmheit mit Besserung nach Ruhe", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Tastbare Verdickung am Zehengrundgelenk mit Schmerz bei Überstreckung", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eingeschränkte Beugung des betroffenen Zehengelenks", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum sind ausgerechnet die Sesambeine II und VII am häufigsten von einer Fragmentierung betroffen?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil sich bei der 2. und 5. Zehe die Zugkraft der Zehenbeugesehnen fast ausschließlich auf diese innen liegenden Sesambeine verteilt, statt sich wie bei der 3./4. Zehe gleichmäßig auf beide aufzuteilen",
+        correct: true,
+      },
+      {
+        label: "Weil diese beiden Sesambeine anatomisch am weitesten von der Belastungsachse entfernt liegen und deshalb kaum Kraft übertragen",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+      },
+      { label: "Weil nur diese beiden Sesambeine überhaupt eine Sehne tragen", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Der Unterschied zwischen den Sesambeinen ist rein zufällig und nicht biomechanisch erklärbar", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.1 (siehe Wissenseintrag `sesambeinfragmentierung-vordergliedmasse`), S. 219f. Ätiologie (inkl. der biomechanischen Erklärung für Sesambein II/VII), Klinik, Diagnostik und Therapie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "wanda",
+    topic: "Neurologie · Lumbosakrale Stenose (Cauda-equina-Syndrom)",
+    species: "Deutscher Schäferhund, Hündin, 8 J.",
+    title: "Wanda — schmerzhafte Rute, Mühe beim Treppensteigen",
+    learningObjective:
+      "Die degenerative lumbosakrale Stenose (DLSS) anhand von Rückenschmerz, Pseudohyperreflexie und dem typischen Befallsmuster erkennen und von der klinisch ähnlichen, aber schmerzlosen degenerativen Myelopathie abgrenzen.",
+    anamnese:
+      "Wanda hat zunehmend Mühe beim Treppensteigen und beim Aufstehen; seit einigen Wochen hält sie die Rute auffällig tief und lässt beim Weggehen gelegentlich einzelne Kotballen fallen.",
+    beobachtung:
+      "Wanda zeigt eine leichte Lahmheit und ein gelegentliches Zittern der Hintergliedmaßen beim Stehen, eine abfallende Rückenlinie sowie eine deutlich reduzierte Rutenbeweglichkeit.",
+    diagramLabel: "Monatelang entwickelte Aufstehschwierigkeiten, tief gehaltene Rute, gelegentlicher Kotabsatz in mehreren Portionen",
+    palpation:
+      "Die Druckpalpation der kaudalen Lendenwirbelsäule ist deutlich schmerzhaft, ebenso die Dorsoflexion der Rute und die Lordose der Lendenwirbelsäule. Der Patellarreflex ist beidseits leicht gesteigert, der Flexorreflex dagegen abgeschwächt; Analtonus und Perinealreflex sind noch unauffällig.",
+    hypothesisQ: "Was erklärt Wandas Befund am besten?",
+    hypothesisOptions: [
+      { label: "Degenerative lumbosakrale Stenose (DLSS) mit beginnendem Cauda-equina-Syndrom", correct: true },
+      {
+        label: "Degenerative Myelopathie (DM)",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "DM verläuft meist vollständig schmerzlos mit gesteigerten statt gemischten Reflexbefunden — bei Wanda ist die kaudale Lendenwirbelsäule dagegen deutlich schmerzhaft, und der abgeschwächte Flexorreflex spricht für eine Beteiligung des unteren Motoneurons, wie sie für die DLSS typisch ist.",
+      },
+      {
+        label: "Ein isoliertes, rein orthopädisches Hüftgelenkproblem",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Die Kombination aus Rutenschwäche, Kotabsatzproblemen und Schmerz speziell bei Dorsoflexion der Rute bzw. Lordose der Lendenwirbelsäule zeigt eine neurologische, lumbosakrale statt eine rein im Hüftgelenk liegende Ursache.",
+      },
+      {
+        label: "Der leicht gesteigerte Patellarreflex zeigt eindeutig eine reine Erkrankung des oberen Motoneurons",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Bei der DLSS kann der Patellarreflex durch den Wegfall der antagonistischen Wirkung des Ischiadicusmyotoms scheinbar gesteigert wirken (Pseudohyperreflexie), obwohl der Reflexbogen selbst nicht betroffen ist — dieser Befund allein darf deshalb nicht als sicheres Zeichen des oberen Motoneurons gewertet werden.",
+      },
+    ],
+    expertNote:
+      "Im Zentrum der DLSS steht die Degeneration und Protrusion der lumbosakralen Bandscheibe mit sekundärer Degeneration von Weichteilen und knöchernen Zubildungen, die zu einer statischen und dynamischen Kompression der Nervenwurzeln L6, L7 und der sakralen Nerven führt. Deutsche Schäferhunde und Hunde ab dem 7. Lebensjahr sind übervertreten. Typisch sind Aufstehschwierigkeiten, Mühe beim Treppensteigen, eine abfallende Rückenlinie, motorische Schwäche der Rute sowie Kotabsatz in mehreren Portionen; Dorsoflexion der Rute und Lordose der Lendenwirbelsäule sind schmerzhaft, ebenso die Druckpalpation der kaudalen Lendenwirbelsäule. Eine Besonderheit ist die Pseudohyperreflexie: Eine nicht selten leicht gesteigerte Patellarreflexantwort täuscht ein oberes Motoneuron vor, obwohl der Reflexbogen selbst nicht betroffen ist — Ursache ist der Wegfall der antagonistischen Wirkung des Ischiadicusmyotoms auf den Agonisten. Vollständige Lähmung der Hintergliedmaßen tritt bei DLSS anders als bei einigen anderen Rückenmarkerkrankungen nicht auf. Ohne Harn-/Kotinkontinenz kann konservativ behandelt werden (Gewichtsreduktion, Physiotherapie, Schmerzstillung); bei Therapieversagen oder Progression folgt die chirurgische Dekompression mit guter Prognose (Erfolgsrate 67–95 %).",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine DLSS und für eine degenerative Myelopathie sprechen?",
+    weakeningOptions: [
+      {
+        label: "Vollständige Schmerzfreiheit bei Palpation der gesamten Wirbelsäule und bei Dorsoflexion der Rute, bei gleichzeitig deutlich gesteigerten Reflexen",
+        correct: true,
+      },
+      { label: "Schmerzhafte Dorsoflexion der Rute und Druckpalpation der kaudalen Lendenwirbelsäule", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Abgeschwächter Flexorreflex bei leicht gesteigertem Patellarreflex", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Kotabsatz in mehreren Portionen und eine tief gehaltene Rute", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Was ist die Pseudohyperreflexie bei der DLSS, und wie entsteht sie?",
+    retrievalOptions: [
+      {
+        label:
+          "Eine scheinbar gesteigerte Patellarreflexantwort durch den Wegfall der antagonistischen Wirkung des geschädigten Ischiadicusmyotoms auf den Agonisten (Femoralismyotom), obwohl der Reflexbogen selbst intakt ist",
+        correct: true,
+      },
+      { label: "Eine tatsächliche, durch eine echte Schädigung des oberen Motoneurons verursachte Reflexsteigerung", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Ein reiner Messfehler ohne jede klinische Bedeutung", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Eine Reflexsteigerung, die ausschließlich am Flexorreflex auftritt, nie am Patellarreflex", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.2 (siehe Wissenseintrag `degenerative-lumbosakrale-stenose-cauda-equina`), S. 230–232. Ätiologie, Klinik, die Pseudohyperreflexie samt Mechanismus, Bildgebung und Therapie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -7509,7 +8166,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.5 (Polyarthritis), S. 188–190, inkl. Tab. 8.1 (Arthritis-Einteilung, zitiert nach [111]). Klassifikation, Klinik, Diagnostik und Therapieprinzip sind im Original so beschrieben; konkrete Medikamenten-Dosierungen wurden bewusst nicht übernommen.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["mathilda"],
     relatedAnatomyIds: [],
   },
   {
@@ -7791,7 +8448,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.8 (Legg-Perthes), S. 208–210. Ätiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["molly"],
     relatedAnatomyIds: ["huefte"],
   },
   {
@@ -7934,7 +8591,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Anatomieverwechslung"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.1 (Sesamoid-Erkrankung, Vordergliedmaße), S. 219f. Ätiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["diesel"],
     relatedAnatomyIds: [],
   },
   {
@@ -8181,7 +8838,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund überbewertet", "Anatomieverwechslung", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.2 (Degenerative lumbosakrale Stenose und Cauda equina-Syndrom), S. 230–232. Ätiologie, Klinik, Bildgebung und Therapie sind im Original so beschrieben. Ergänzt und vertieft den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.6, Kap. 7.10.2) um die volle klinische Tiefe aus Kapitel 9. Konkrete Medikamentendosierungen aus dem Original bewusst nicht übernommen (Zielgruppe Physiotherapeuten, keine Verschreibungsbefugnis).",
-    relatedCaseIds: [],
+    relatedCaseIds: ["wanda"],
     relatedAnatomyIds: ["rueckenmark", "discus"],
   },
   {
@@ -8220,7 +8877,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Faktenwissen", "Differentialdiagnostik unvollständig", "Befund überbewertet"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.3 (Degenerative Myelopathie), S. 232. Ätiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.5, Kap. 7.10.2) um die volle klinische Tiefe aus Kapitel 9. Ergänzt (29.09.2026) um das konkrete physiotherapeutische Vorgehen aus Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Degenerative Myelopathie“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984) — diese ältere Quelle nennt die Ursache noch als ungeklärt (vor Entdeckung der SOD1-Mutation 2009), was keinen Widerspruch, sondern lediglich einen durch das Publikationsdatum bedingten Wissensstand darstellt; das hier übernommene physiotherapeutische Vorgehen selbst steht nicht im Widerspruch zur oben verifizierten Quelle. Ergänzt (01.10.2026) um das als frühes, nicht pathognomonisches Erstsymptom beschriebene Abschleifen der Mittelkrallen der Hinterpfoten aus Welter-Böller, Barbara/Welter, Maximilian/John, Hedi, Faszientherapie beim Hund (ISBN 978-3-13-245372-2), Thieme, 2. Auflage 2025, Kap. 7.1.5, S. 86 (Chunk f(7).pdf) — im Original so beschrieben, kein Widerspruch zu den bereits verifizierten Angaben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["hugo"],
     relatedAnatomyIds: ["rueckenmark"],
   },
   {
@@ -8264,7 +8921,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.4 (Rückenmarksinfarkt), S. 232f. Ätiologie, Klinik, Bildgebung und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.5, Kap. 7.10.2, dort als „Fibrokartilaginäre Embolie / Rückenmarksinfarkt“) um die volle klinische Tiefe aus Kapitel 9. Ergänzt (29.09.2026) um den Grau-Substanz-Mechanismus der Tiefensensibilitäts-Erhaltung sowie ein konkretes physiotherapeutisches Rehabilitationsprotokoll nach Alexander, C.-S., „Indikationen — Neurologische Indikationen, Rückenmarksinfarkt“, in: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, doi:10.1055/b-0042-189984) — mit explizitem Hinweis auf zwei Widersprüche dieser älteren Quelle zur oben verifizierten (Altersprädisposition, Kortikosteroidnutzen), die NICHT übernommen wurden.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["enzo"],
     relatedAnatomyIds: ["rueckenmark"],
   },
   {
@@ -13438,7 +14095,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "Faktenwissen", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Inkomplette Ossifikation des Condylus humeri (IOCH) beim Hund“. Definition/Pathogenese, Rasseprädispositionen, die Bandbreite klinischer Präsentationen (inkl. der Fraktur nach Bagatelltrauma und der Empfehlung zur Röntgenkontrolle des kontralateralen Ellbogens), Diagnosesicherung (Strahlengang-Besonderheiten, CT als beweisend) sowie Therapie (Zugschraube, auch prophylaktisch) und Prognose sind in der Quelle so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["benno"],
     relatedAnatomyIds: [],
   },
   {
@@ -13535,7 +14192,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "Anatomieverwechslung"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitte „Luxation des Karpalgelenks beim Hund“ und „Hyperextension des Karpalgelenks beim Hund“. Verletzungsmechanismen, Klassifikation der Luxationsformen, das plantigrade Gangbild, die Rasseprädisposition (Shelties/Collies) bei der chronisch-degenerativen Hyperextension, Diagnostik (inkl. Stressaufnahmen) und das vierstufige Therapieschema mit Prognose sind in der Quelle so beschrieben. Betrifft das Karpalgelenk (Vordergliedmaße) und ist damit ein eigenständiges Krankheitsbild gegenüber dem bestehenden Eintrag `tarsus-erkrankungen-hund` (Hintergliedmaße/Sprunggelenk, Koch/Fischer) — nicht zu verwechseln, auch wenn beide zum selben plantigraden Gangbild führen können. Die als Differentialdiagnose genannte Tendopathie des M. abductor pollicis longus ist bereits über den bestehenden Eintrag `tendovaginitis-abductor-pollicis-longus` abgedeckt und wurde hier nicht dupliziert.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["lumpi"],
     relatedAnatomyIds: ["ligg-carpi", "art-carpi"],
   },
   {
@@ -13608,7 +14265,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Untersuchung falsch gewählt", "Befund übersehen", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Quadrizepskontraktur beim Hund“ (per lokaler PDF-Extraktion ausgewertet, S. 118–120 — letzter Abschnitt der Datei). Pathogenese (inkl. der Ruhigstellung in Streckstellung als Hauptrisikofaktor), Symptomverlauf, die ausdrückliche Warnung vor physiotherapeutischen Dehnübungen bei bereits eingetretener Kontraktur (Risiko erneuter Muskelrisse oder Frakturen), die chirurgische Therapie samt postoperativer Bewegungstherapie sowie die vorsichtige Prognose sind in der Quelle so beschrieben. Mit diesem Eintrag ist die Quelldatei „Erkrankungen des Bewegungsapparates“ (121 S.) vollständig ausgewertet — vollständige lokale Re-Extraktion per PDF-Download (280.920 Zeichen) bestätigt, dass Quadrizepskontraktur der letzte Abschnitt der Datei ist; die zuvor vermuteten Fraktur-/Tumor-/Wirbelsäulenabschnitte existieren in dieser Quelle nicht.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["rocco"],
     relatedAnatomyIds: ["quadriceps"],
   },
   {
@@ -14572,7 +15229,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund übersehen", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: Alexander, C.-S./A. Jaggy/I. Kathmann, „Indikationen — Neurologische Indikationen, Akute idiopathische Polyradikuloneuritis“. In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 13 (vollständig per lokaler Extraktion ausgewertet, vetcenter.thieme.de, doi:10.1055/b-0042-189984). Ätiologie/Pathogenese, das aufsteigende Lähmungsmuster mit der Reflex-Schmerz-Dissoziation, die EMG-Diagnostik, Prognose sowie das physiotherapeutische Rehabilitationsprotokoll (Frequenz/Dauer von Massage, Bewegung, Stützgestell) sind im Original so beschrieben. Bewusst NICHT übernommen: die im Original genannte Kortikosteroidgabe in den ersten 10 Tagen — diese ältere (2003), unspezifisch begründete Therapieempfehlung wird hier mangels unabhängiger neuerer Verifizierung nicht als Fakt wiedergegeben (dieselbe Vorsicht, die bereits beim Quellenkonflikt zum Rückenmarksinfarkt-Eintrag dieser Quelle angewendet wurde). Kein bestehender Eintrag deckt diese Erkrankung bisher inhaltlich ab — bisherige Erwähnungen (z. B. im Differentialdiagnosen-Eintrag zur Rückenmarkkompression) sind reine Namensnennungen ohne klinische Beschreibung.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["ronja"],
     relatedAnatomyIds: [],
   },
   {

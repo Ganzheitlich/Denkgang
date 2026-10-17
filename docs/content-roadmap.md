@@ -5574,6 +5574,80 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Wissens-/Anatomie-Slugs), Production-Build grün, Playwright-
       Stichprobe (theo, balthasar, jonas) gegen die Review-Seite — 0
       Konsolen-/Seitenfehler.
+- [x] Fälle 26–35 (Batch 2 des ~100-Fälle-Ausbaus, 17.10.2026): Zweite
+      Zehnergruppe, weiterhin ausschließlich aus Koch/Fischer
+      (Lahmheitsuntersuchung beim Hund) und VetCenter (Hundekrankheiten
+      kompakt) kombiniert, mit Fokus auf bisher ungenutzte Neurologie- und
+      Wachstums-/Trauma-Themen aus dem Batch-1-Backlog:
+      - **`molly`** (West Highland White Terrier, 7 Mon.) — Legg-Perthes-
+        Erkrankung (aseptische Femurkopfnekrose), vierter Hüft-Fall, aber
+        mechanistisch komplett anders als die drei HD-Fälle (Luna, Theo,
+        Frieda): Durchblutungsbesonderheit kleiner statt großer Rassen,
+        meist einseitig statt beidseitig. Quelle: `legg-perthes-erkrankung`.
+      - **`hugo`** (Deutscher Schäferhund, 9 J.) und **`wanda`** (Deutscher
+        Schäferhund, 8 J.) — bewusstes Kontrastpaar: degenerative
+        Myelopathie (schmerzlos, oberes Motoneuron, nicht operabel) vs.
+        DLSS/Cauda-equina-Syndrom (schmerzhaft, unteres Motoneuron mit
+        Pseudohyperreflexie-Falle, operativ dekomprimierbar) — exakt die
+        Abgrenzung, die beide Quelleneinträge selbst explizit herausstellen.
+        Quellen: `degenerative-myelopathie-hund`,
+        `degenerative-lumbosakrale-stenose-cauda-equina`.
+      - **`enzo`** (Weimaraner, 3 J.) — fibrokartilaginöser
+        Rückenmarksinfarkt (FCE): perakut, schmerzlos, keine logische
+        Ausfallskaskade, erhaltene Tiefensensibilität trotz hochgradiger
+        Parese — drittes neurologisches Kontrastbild neben Hugo/Wanda.
+        Quelle: `rueckenmarksinfarkt-fibrokartilaginoese-embolie`.
+      - **`ronja`** (Beagle, 4 J.) — akute idiopathische
+        Polyradikuloneuritis: aufsteigende Parese mit charakteristischer
+        Reflex-Schmerz-Dissoziation (Reflexe weg, Schmerz bleibt). Quelle:
+        `akute-idiopathische-polyradikuloneuritis-aufsteigende-laehmung`.
+      - **`benno`** (Cocker Spaniel, 6 J.) — inkomplette Ossifikation des
+        Condylus humeri (IOCH): jahrelange milde Lahmheit, dann
+        Humerusfraktur nach Bagatelltrauma, mit der klinisch wichtigen
+        Konsequenz, das kontralaterale Ellbogengelenk mitzuröntgen. Quelle:
+        `inkomplette-ossifikation-condylus-humeri-hund`.
+      - **`lumpi`** (Shetland Sheepdog, 8 J.) — chronisch-degenerative
+        Karpal-Hyperextension ohne Trauma (Sheltie/Collie-Prädisposition),
+        bewusst als Kontrast zur akuten traumatischen Karpalluxation
+        angelegt. Quelle: `karpalgelenk-luxation-hyperextension-hund`.
+      - **`rocco`** (Dalmatiner, 7 Mon.) — Quadrizepskontraktur nach
+        Femurfraktur: strukturell wie Paco (richtige Antwort ist eine
+        Handlungsentscheidung, nicht nur eine Diagnose) — hier explizit
+        die Kontraindikation von Dehnung/forcierter Mobilisation bei
+        bereits eingetretener Kontraktur. Quelle:
+        `quadrizepskontraktur-nach-femurfraktur-physiotherapie-kontraindiziert`.
+      - **`mathilda`** (Cavalier King Charles Spaniel, 5 J.) —
+        idiopathische Polyarthritis: multiple, vor allem distale Gelenke,
+        mit Fieber — erster Fall der Bibliothek mit primär multiplem statt
+        einzelnem Gelenkbefall. Quelle: `polyarthritis-hund`.
+      - **`diesel`** (Boxer, 4 J.) — Sesambeinfragmentierung (Zehengrund-
+        gelenk), mit der biomechanischen Erklärung, warum gerade die
+        Sesambeine II/VII betroffen sind. Quelle:
+        `sesambeinfragmentierung-vordergliedmasse`.
+
+      `relatedCaseIds` ergänzt bei `legg-perthes-erkrankung` (→ `molly`),
+      `degenerative-myelopathie-hund` (→ `hugo`),
+      `rueckenmarksinfarkt-fibrokartilaginoese-embolie` (→ `enzo`),
+      `akute-idiopathische-polyradikuloneuritis-aufsteigende-laehmung`
+      (→ `ronja`), `inkomplette-ossifikation-condylus-humeri-hund`
+      (→ `benno`), `karpalgelenk-luxation-hyperextension-hund` (→ `lumpi`),
+      `quadrizepskontraktur-nach-femurfraktur-physiotherapie-kontraindiziert`
+      (→ `rocco`), `polyarthritis-hund` (→ `mathilda`),
+      `sesambeinfragmentierung-vordergliedmasse` (→ `diesel`),
+      `degenerative-lumbosakrale-stenose-cauda-equina` (→ `wanda`). Keine
+      neuen `AnatomyItem.relatedCaseId`-Verknüpfungen nötig (keines der
+      zehn Themen hatte ein noch unbelegtes, eindeutig zuordenbares
+      Anatomie-Item). `hyperextensionstrauma-carpus` (Koch/Fischer) bewusst
+      NICHT für einen eigenen Fall verwendet, da inhaltlich zu deckungsgleich
+      mit dem für Lumpi genutzten VetCenter-Eintrag (beide: Karpus-
+      Hyperextension nach Sturz/Trauma) — hätte zu Redundanz statt Varianz
+      geführt. Keine neue Primärrecherche nötig, alle zehn Fälle
+      kombinieren ausschließlich bereits verifizierte Fakten aus
+      bestehenden Wissenseinträgen zu neuen klinischen Szenarien.
+      Verifiziert: eslint sauber, tsc sauber, Reseed 35 Fälle (25 → 35),
+      Cross-Referenz-Audit 0 offene Verweise (171 Backtick-Referenzen),
+      Production-Build grün, Playwright-Stichprobe (molly, rocco, wanda)
+      gegen die Review-Seite — 0 Konsolen-/Seitenfehler.
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — bewusst zurückgestellt, siehe Begründung oben
@@ -5586,25 +5660,28 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       (`facettengelenke-hws`/`-bws`/`-lws` — anatomisch umfassend
       dokumentiert und über `rueckenmark`/Filou/Gustav/Zeus indirekt
       verknüpft, aber noch kein Fall mit einer reinen Facettenblockade als
-      Hauptdiagnose). Weiteres, noch ungenutztes Quellenmaterial für
-      kommende Batches (UNTERSUCHUNG/THERAPIE/BIOMECHANIK-Kategorien noch
-      nicht systematisch nach Fall-Lücken durchsucht, nur PATHOLOGIE bisher):
-      Legg-Perthes, weitere Knieerkrankungen, Diskospondylitis,
-      Rückenmarkinfarkt/FCE, degenerative lumbosakrale Stenose, degenerative
-      Myelopathie, inkomplette Ossifikation Condylus humeri,
-      Quadrizepskontraktur, Karpalgelenk-Luxation, Metaplasie Beugesehnen
-      (MEHB), polyarthritis-hund, osteomyelitis-hund, hypertrophe
-      Osteopathie (Marie-Bamberger), Legg-Calvé-Perthes,
-      Sesambeinfragmentierung, Hyperextensionstrauma Carpus,
-      degenerative lumbosakrale Stenose/Cauda-equina-Kompression (eigener
-      Fall statt nur DD-Erwähnung bei Leo möglich),
-      akute idiopathische Polyradikuloneuritis, Kopftrauma,
-      Wirbelfraktur/-luxation. 25 Fälle insgesamt jetzt (Stand 17.10.2026,
-      gegenüber 8 zu Sessionbeginn — mehr als verdreifacht), Zielmarke
-      Vanessas liegt bei ca. 100 — rund 75 weitere Fälle in kommenden
-      Batches geplant, mit fortgesetztem Fokus auf echte Varianz (unter-
-      schiedliche Diagnosen, Regionen, Fallstrukturen, Fehlerkategorien)
-      statt bloßer Wiederholung ähnlicher Fälle.
+      Hauptdiagnose). PATHOLOGIE-Kategorie ist jetzt zu einem großen Teil
+      ausgeschöpft (74 → 64 Einträge ohne Fall-Link nach Batch 1,
+      weitere 10 nach Batch 2 verlinkt); noch offene PATHOLOGIE-Kandidaten
+      für künftige Batches u. a.: weitere Knieerkrankungen, Diskospondylitis,
+      Osteomyelitis, hypertrophe Osteopathie (Marie-Bamberger),
+      Hyperextensionstrauma Schulter/Hyperextensionstrauma Carpus (ggf.
+      als Vorderlauf-Pendant zu Lumpis Karpalgelenk-Fall, falls eine
+      hinreichend unterschiedliche Präsentation gefunden wird),
+      Tendovaginitis M. abductor pollicis longus, Metaplasie Beugesehnen
+      (MEHB), Kopftrauma, Wirbelfraktur/-luxation, sowie diverse
+      Nerven-/Schmerzphysiologie-Themen (UMN/OMN-Läsionslokalisation,
+      Seddon-Klassifikation als eigener Fall, Karpaltunnelsyndrom-Hypothese
+      u. a.). UNTERSUCHUNG- (72 ohne Fall-Link), THERAPIE- (41) und
+      BIOMECHANIK-Kategorien (75) noch nicht systematisch nach Fall-Lücken
+      durchsucht — lohnend u. a. für Untersuchungstechnik-fokussierte Fälle
+      („welche Untersuchung unterscheidet X von Y") und Biomechanik-
+      Grundlagenfälle. 35 Fälle insgesamt jetzt (Stand 17.10.2026, gegenüber
+      8 zu Sessionbeginn — mehr als vervierfacht), Zielmarke Vanessas liegt
+      bei ca. 100 — rund 65 weitere Fälle in kommenden Batches geplant, mit
+      fortgesetztem Fokus auf echte Varianz (unterschiedliche Diagnosen,
+      Regionen, Fallstrukturen, Fehlerkategorien) statt bloßer Wiederholung
+      ähnlicher Fälle.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→
