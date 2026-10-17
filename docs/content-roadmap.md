@@ -5491,22 +5491,120 @@ Regionen, deren Anatomie-Items noch mit keinem Fall verknüpft sind (Prüfung:
       Fälle (14 → 15), Cross-Referenz-Audit 0 offene Verweise (156
       Backtick-Referenzen), Build grün, via Playwright gegen die
       Review-Seite verifiziert (0 Fehler).
+- [x] Fälle 16–25 (Batch 1 des ~100-Fälle-Ausbaus, 17.10.2026): Vanessas
+      expliziter Auftrag war, auf ca. 100 Fälle auszubauen, mit echter
+      Varianz statt bloßer Wiederholung ("nicht jeder Fall ist gleich").
+      Batch 1 nutzt ausschließlich bereits verifiziertes Material aus
+      Koch/Fischer (Lahmheitsuntersuchung beim Hund) und VetCenter
+      (Hundekrankheiten kompakt) — 10 neue Fälle, bewusst strukturell und
+      inhaltlich divers:
+      - **`theo`** (Golden Retriever, 6 J.) — zweiter, strukturell anderer
+        HD-Fall: keine akute Vorstellung wie bei Luna, sondern seit der
+        Jugend unerkannte, über Jahre kompensierte HD, die erst jetzt als
+        Lahmheit auffällt (Engrammbildungs-/Schmerzvermeidungsmechanismus).
+        Quelle: `hd-engrammbildung-schmerzvermeidungsstrategie-junghund` +
+        `hueftgelenkdysplasie-und-coxarthrose`.
+      - **`frieda`** (Dackel, 14 Mon.) — dritter, wieder anderer HD-Fall:
+        "Kappenhüfte" beim chondrodystrophen Hund, mit explizitem
+        Lernziel, dass dies keine eigene Erkrankung, sondern dieselbe
+        HD-Pathologie ist, plus Schonungsparadox (übermäßige Schonung im
+        Wachstum verschärft die Problematik). Quelle:
+        `rasse-verwendungszweck-praedisposition-ueberforderung` +
+        `hueftgelenkdysplasie-und-coxarthrose`.
+      - **`moritz`** (Berner Sennenhund, 5 Mon.) — Osteochondrose im
+        Tarsalgelenk (Anlauflahmheit, steile Hintergliedmaßenstellung,
+        Gelenkfüllung), mit Panosteitis als Differential. Quelle:
+        `osteochondrose-hund`.
+      - **`balthasar`** (Bernhardiner, 7 Mon.) — Drei-Wege-Differenzierung
+        Panosteitis vs. hypertrophe Osteodystrophie vs. retinierte
+        Knorpelzapfen (strukturell wie Lotte: drei Varianten eines
+        Themas statt vier verschiedene Diagnosen). Quelle:
+        `panosteitis-hypertrophe-osteodystrophie-knorpelzapfen`.
+      - **`gustav`** (Französische Bulldogge, 6 J.) — zervikaler
+        Bandscheibenvorfall, mit dem Lernziel, dass eine zunächst stärker
+        betroffene Hinterhand nicht automatisch eine thorakolumbale
+        Ursache bedeutet. Quelle: `zervikaler-bandscheibenvorfall-hund`.
+      - **`charlie`** (Mischling, 3 J.) — Plexus-brachialis-Schaden
+        (kaudaler partieller Abriss) nach Autounfall, mit Horner-Syndrom
+        und Pannikulusreflexausfall als Unterscheidungsmerkmal zum
+        selteneren kranialen Abriss. Quelle:
+        `plexusschaden-vordergliedmasse`.
+      - **`zeus`** (Dobermann, 6 J.) — Wobbler-Syndrom, bewusst mit dem
+        beim Dobermann typischen Wirbelgleiten-Mechanismus (Kontrast zur
+        Deutschen-Dogge-Variante im Wissenseintrag) und dem Lernziel, dass
+        eine unauffällige Neutralröntgenaufnahme eine dynamische
+        Kompression nicht ausschließt. Quelle:
+        `wobbler-syndrom-zwei-phaenotypen-dynamische-kompression`.
+      - **`anton`** (Deutsch Kurzhaar, 5 J.) — Infraspinatuskontraktur nach
+        Jagdtrauma, mit der charakteristischen Gliedmaßenfehlhaltung und
+        Abgrenzung zur Luxatio antebrachii lateralis. Quelle:
+        `infraspinatuskontraktur-jagdhund-gliedmassenfehlhaltung`.
+      - **`leo`** (Rottweiler, 8 J.) — Osteosarkom am distalen Femur,
+        bewusst als "sieht aus wie ein Kreuzbandriss"-Fallfalle angelegt
+        (vorschnelle-Diagnose-Lernziel), mit Synovialzellsarkom als
+        weiterer Differential. Quelle: `knochentumoren-gelenktumoren-hund`.
+      - **`jonas`** (Neufundländer, 6 Mon.) — Osteochondrosis dissecans im
+        Schultergelenk, drittes Mitglied der OC/OCD-Fallfamilie neben Rex
+        (Ellbogen/IPA) und Moritz (Tarsus), mit Bizepssehnenscheide als
+        möglichem Ziel eines abgelösten Gelenkkörpers. Quelle:
+        `osteochondrosis-dissecans-schultergelenk-hund`.
+
+      `relatedCaseIds` ergänzt bei `hd-engrammbildung-schmerzvermeidungsstrategie-junghund`
+      (→ `theo`), `hueftgelenkdysplasie-und-coxarthrose` (→ `theo`, `frieda`,
+      zusätzlich zu bestehendem `luna`), `rasse-verwendungszweck-praedisposition-ueberforderung`
+      (→ `frieda`), `osteochondrose-hund` (→ `moritz`),
+      `panosteitis-hypertrophe-osteodystrophie-knorpelzapfen` (→ `balthasar`),
+      `zervikaler-bandscheibenvorfall-hund` (→ `gustav`),
+      `plexusschaden-vordergliedmasse` (→ `charlie`),
+      `wobbler-syndrom-zwei-phaenotypen-dynamische-kompression` (→ `zeus`),
+      `infraspinatuskontraktur-jagdhund-gliedmassenfehlhaltung` (→ `anton`),
+      `knochentumoren-gelenktumoren-hund` (→ `leo`),
+      `osteochondrosis-dissecans-schultergelenk-hund` (→ `jonas`). Keine
+      `AnatomyItem.relatedCaseId`-Verknüpfungen in diesem Batch, da alle
+      relevanten Items (huefte, becken, infraspinatus, supraspinatus,
+      deltoideus, art-humeri, calcaneus-talus, art-tarsi, ligg-tarsi,
+      discus, rueckenmark, n-radialis) bereits an einen früheren Fall
+      gebunden sind (Feld ist pro Item nur einfach belegbar) — Verlinkung
+      läuft hier ausschließlich über die `KnowledgeEntry.relatedCaseIds`-Arrays.
+      Keine neue Primärrecherche nötig, alle zehn Fälle kombinieren
+      ausschließlich bereits verifizierte Fakten aus bestehenden
+      Wissenseinträgen zu neuen klinischen Szenarien. Verifiziert:
+      eslint sauber, tsc sauber, Reseed 25 Fälle (15 → 25), Cross-Referenz-
+      Audit 0 offene Verweise (164 Backtick-Referenzen gegen Fall-/
+      Wissens-/Anatomie-Slugs), Production-Build grün, Playwright-
+      Stichprobe (theo, balthasar, jonas) gegen die Review-Seite — 0
+      Konsolen-/Seitenfehler.
 - [ ] Weitere Regionen ohne Fall identifizieren und priorisieren: Unterarm-
       rotatoren (`supinator`/`brachioradialis`/`pronator-teres`/
       `pronator-quadratus` — bewusst zurückgestellt, siehe Begründung oben
       zum Toe-in/Toe-out-Quellenwiderspruch; falls doch verwendet, dann nur
       mit offen ausgewiesener Unsicherheit statt als sichere Diagnose),
       Tarsus-Gelenk/-Bänder selbst (`art-tarsi`, `ligg-tarsi` — Muskeln/
-      Knochen dieser Region sind über Balu jetzt abgedeckt, Gelenk/Bänder
-      noch nicht), HWS/BWS/LWS-Facettengelenke als eigenständige, primäre
-      Falldiagnose (`facettengelenke-hws`/`-bws`/`-lws` — anatomisch
-      umfassend dokumentiert und über `rueckenmark`/Filou indirekt
+      Knochen dieser Region sind über Balu/Moritz jetzt abgedeckt,
+      Gelenk/Bänder noch nicht als primäre Diagnose), HWS/BWS/LWS-
+      Facettengelenke als eigenständige, primäre Falldiagnose
+      (`facettengelenke-hws`/`-bws`/`-lws` — anatomisch umfassend
+      dokumentiert und über `rueckenmark`/Filou/Gustav/Zeus indirekt
       verknüpft, aber noch kein Fall mit einer reinen Facettenblockade als
-      Hauptdiagnose). 15 Fälle insgesamt jetzt (Stand 17.10.2026, gegenüber
-      8 zu Sessionbeginn — fast eine Verdopplung), gegenüber 90
-      Anatomie-Items und 358 Wissenseinträgen weiterhin die kleinste
-      Content-Kategorie, aber die Lücke schließt sich spürbar — weiter
-      priorisieren, bevor zu Anatomie/Wissensbibliothek zurückgekehrt wird.
+      Hauptdiagnose). Weiteres, noch ungenutztes Quellenmaterial für
+      kommende Batches (UNTERSUCHUNG/THERAPIE/BIOMECHANIK-Kategorien noch
+      nicht systematisch nach Fall-Lücken durchsucht, nur PATHOLOGIE bisher):
+      Legg-Perthes, weitere Knieerkrankungen, Diskospondylitis,
+      Rückenmarkinfarkt/FCE, degenerative lumbosakrale Stenose, degenerative
+      Myelopathie, inkomplette Ossifikation Condylus humeri,
+      Quadrizepskontraktur, Karpalgelenk-Luxation, Metaplasie Beugesehnen
+      (MEHB), polyarthritis-hund, osteomyelitis-hund, hypertrophe
+      Osteopathie (Marie-Bamberger), Legg-Calvé-Perthes,
+      Sesambeinfragmentierung, Hyperextensionstrauma Carpus,
+      degenerative lumbosakrale Stenose/Cauda-equina-Kompression (eigener
+      Fall statt nur DD-Erwähnung bei Leo möglich),
+      akute idiopathische Polyradikuloneuritis, Kopftrauma,
+      Wirbelfraktur/-luxation. 25 Fälle insgesamt jetzt (Stand 17.10.2026,
+      gegenüber 8 zu Sessionbeginn — mehr als verdreifacht), Zielmarke
+      Vanessas liegt bei ca. 100 — rund 75 weitere Fälle in kommenden
+      Batches geplant, mit fortgesetztem Fokus auf echte Varianz (unter-
+      schiedliche Diagnosen, Regionen, Fallstrukturen, Fehlerkategorien)
+      statt bloßer Wiederholung ähnlicher Fälle.
 - [ ] Technische Voraussetzung für jede neue Session in einem frischen
       Container (17.10.2026 erstmals nötig): `node_modules` fehlt (→
       `npm install`), Postgres-Rolle/DB fehlt (→

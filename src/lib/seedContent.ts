@@ -1239,6 +1239,660 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert per Kombination aus Buch- und Web-Quelle — siehe bereits bestehender Wissenseintrag `patellaluxation-krankheitsbild`, derselbe Quellenabschnitt (Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\", aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme, Abschnitt „Achsenabweichung\"; Putnam-Klassifikation/Deformitäten/Prävalenz/Therapie per konvergenter Websuche-Synthese aus ACVS, Merck Veterinary Manual, OFA u. a., mit derselben bereits dokumentierten Einschränkung zur fehlenden eigenen Volltextprüfung). Die Putnam-Gradtabelle, die medial-vs-lateral-Deformitäten-Zuordnung, die schwache Grad-Symptom-Korrelation sowie die Therapieentscheidung nach klinischem Bild statt nach Grad sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte der Hündin sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "theo",
+    topic: "Orthopädie · Hüfte (lange unerkannt)",
+    species: "Golden Retriever, Rüde, 6 J.",
+    title: "Theo — seit Jahren „schon immer so”, jetzt zunehmend lahm",
+    learningObjective:
+      "Verstehen, dass ein seit der Jugend bestehendes, als „normal” abgetanes Bewegungsmuster eine lange unerkannte Hüftdysplasie verschleiern kann, und warum der Begriff „klinisch inapparente HD” irreführend ist.",
+    anamnese:
+      "Theos Besitzer berichten, er sei „schon immer ein bisschen eigen beim Laufen” gewesen — das habe sich nie wirklich verändert, bis er in den letzten Monaten nach Belastung zunehmend hinkt und beim Aufstehen zögert. Als Welpe sei er beim Toben mit gleichaltrigen Hunden öfter zurückgeblieben, was damals niemand weiter beachtet hat.",
+    beobachtung:
+      "Theo zeigt ein beidseits verkürztes, leicht schaukelndes Gangbild hinten, das sich unter Belastung verstärkt; beim Aufstehen aus dem Liegen stößt er sich mit beiden Hintergliedmaßen gleichzeitig ab, statt sie nacheinander unter den Rumpf zu bringen.",
+    diagramLabel: "Chronisches, beidseitiges Kompensationsgangbild hinten, keine akute Seitendifferenz",
+    palpation:
+      "Beide Hüftgelenke zeigen eine endgradig schmerzhafte Streckung und Abduktion sowie deutliche Krepitation bei Zirkumduktion. Die Oberschenkelmuskulatur ist im Vergleich zum Rumpf beidseits spürbar reduziert. Ein Ortolani-Zeichen lässt sich in diesem Alter durch bereits bestehende sekundäre Veränderungen nicht mehr sicher auslösen.",
+    hypothesisQ: "Was erklärt Theos Beschwerdebild am besten?",
+    hypothesisOptions: [
+      {
+        label: "Seit der Jugend bestehende Hüftdysplasie mit sekundärer Coxarthrose, die erst jetzt als Lahmheit sichtbar wird",
+        correct: true,
+      },
+      {
+        label: "Eine erst kürzlich, unabhängig von der früheren Auffälligkeit aufgetretene Erkrankung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Theo blieb schon als Welpe beim Toben zurück und zeigte nie ein unauffälliges Bewegungsmuster — die Vorgeschichte reicht bis in die Jugend zurück und passt nicht zu einem rein neu aufgetretenen Problem.",
+        differentiationDistractors: [
+          "Eine Verschlechterung in den letzten Monaten schließt eine lange bestehende Grunderkrankung aus.",
+          "Wenn niemand die Auffälligkeit als Welpe ernst genommen hat, kann sie auch nicht die eigentliche Ursache sein.",
+        ],
+      },
+      {
+        label: "Eine rein altersbedingte, unspezifische Steifheit ohne eigene Grunderkrankung",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Ein sechsjähriger Golden Retriever ist kein geriatrischer Patient; das beidseits symmetrische, seit Jahren bestehende Gangbild passt eher zu einer chronischen Gelenkproblematik als zu reinem altersbedingtem Verschleiß ohne Vorgeschichte.",
+      },
+      {
+        label: "Eine bislang „klinisch inapparente”, also folgenlose Hüftanlage, die jetzt zufällig zusätzlich erkrankt",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "Eine wirklich folgenlose Hüftdysplasie gibt es nicht — allein durch die Chronizität hat sie bei jedem Schritt Auswirkungen; was früher unauffällig wirkte, war nicht folgenlos, sondern unerkannt kompensiert.",
+      },
+    ],
+    expertNote:
+      "Dass Theo als Welpe beim Spielen zurückblieb, war retrospektiv das eigentliche Warnsignal: Junge Tiere mit einer angeborenen Gelenkproblematik entwickeln rasch eine höhere Schmerztoleranz für genau dieses Problem und ein unphysiologisches Bewegungsmuster, das für sie selbst zur Normalität wird — Besitzer und Tierarzt bewerten es dann ebenfalls als „das macht er schon immer so”. Weil der Bewegungsdrang beim Spielen mit Altersgenossen für eine orthograde Verknöcherung physiologisch notwendig ist, hätte ein Zurückbleiben beim gemeinsamen Toben schon damals Anlass für eine gezielte Untersuchung sein sollen, etwa eine HD-Frühdiagnose zwischen der 16. und 20. Lebenswoche. Erst wenn eine deutliche Seitendifferenz entsteht oder die Summe der Sekundärprobleme groß genug wird, wird die Schonhaltung für uns sichtbar — deshalb wird über die Hälfte solcher Patienten erst zwischen dem 4. und 7./8. Lebensjahr vorgestellt, wie bei Theo.",
+    weakeningQ:
+      "Welcher zusätzliche Befund würde eher gegen eine seit Jahren bestehende Hüftdysplasie und für eine rein akute, neu aufgetretene Ursache sprechen?",
+    weakeningOptions: [
+      {
+        label:
+          "Ein plötzlich aufgetretenes, hochgradiges, einseitiges Lahmen bei einem bis dahin in jeder Lebensphase völlig unauffälligen Hund ohne jede frühere Auffälligkeit",
+        correct: true,
+      },
+      { label: "Zögerliches, beidseitiges Aufstehen aus dem Liegen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Ein seit der Jugend bestehendes, nie ganz normales Gangbild", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Deutliche Krepitation und reduzierte Muskulatur beidseits", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ:
+      "Warum wird eine Hüftdysplasie bei vielen Hunden erst im 4. bis 8. Lebensjahr als Lahmheit erkannt, obwohl die Gelenkanlage angeboren ist?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil Schonhaltungen zu einer erhöhten individuellen Schmerztoleranz führen und meist erst eine deutliche Seitendifferenz oder ausreichend viele Sekundärprobleme die Schonhaltung als Lahmheit sichtbar machen",
+        correct: true,
+      },
+      { label: "Weil sich die Dysplasie als solche erst im Alter von vier Jahren überhaupt ausbildet", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die Schmerzen beim jungen Hund grundsätzlich stärker sind als beim älteren Hund", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Weil eine Röntgendiagnostik vor dem vierten Lebensjahr technisch nicht möglich ist", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg.), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2. Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 3.12.3–3.12.4 (siehe Wissenseintrag `hd-engrammbildung-schmerzvermeidungsstrategie-junghund`) sowie der bestehende Eintrag `hueftgelenkdysplasie-und-coxarthrose` (altersabhängiges klinisches Bild, Coxarthrose-Symptomatik). Der Engrammbildungs-Mechanismus, die Lateralisierungs-Schwelle, die Köppel'sche Frühdiagnose-Empfehlung sowie die Statistik zur späten Vorstellung (>50 % erst im 4.–8. Lebensjahr) sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "frieda",
+    topic: "Orthopädie · Hüfte (chondrodystrophe Rasse)",
+    species: "Dackel, Hündin, 14 Monate",
+    title: "Frieda — „sie wurde immer geschont”, jetzt staksiger Gang hinten",
+    learningObjective:
+      "Verstehen, dass die beim Dackel als „Kappenhüfte” bezeichnete Hüftveränderung keine eigenständige Erkrankung ist, sondern dieselbe Hüftdysplasie-Pathologie in rassetypischer Ausprägung — und erkennen, wie übermäßige Schonung in der Wachstumsphase die Problematik sogar verschärfen kann.",
+    anamnese:
+      "Friedas Besitzer haben sie seit dem Welpenalter bewusst sehr geschont — kaum Treppen, wenig freies Toben, viel Tragen —, weil ihnen gesagt wurde, Dackel bräuchten „wegen der Rasse” besonders viel Ruhe. Seit einigen Wochen fällt ein zunehmend staksiger, unsicherer Gang der Hinterhand auf, besonders nach dem Aufstehen.",
+    beobachtung:
+      "Frieda zeigt einen schmalspurigen, leicht watschelnden Gang hinten mit reduzierter Schubkraft; nach längerem Liegen wirkt sie beim Aufstehen deutlich unsicherer als danach im Gehen.",
+    diagramLabel: "Schmalspuriger, kraftloser Gang hinten bei insgesamt schwacher Oberschenkelmuskulatur",
+    palpation:
+      "Beide Hüftgelenke zeigen eine vermehrte passive Laxität bei endgradiger Abduktion, ohne akute Schmerzreaktion. Die Oberschenkel- und Gesäßmuskulatur ist beidseits auffallend schwach ausgeprägt im Verhältnis zum Körperbau; der übrige Bewegungsapparat ist unauffällig.",
+    hypothesisQ: "Wie ist Friedas Befund am treffendsten einzuordnen?",
+    hypothesisOptions: [
+      {
+        label:
+          "Hüftdysplasie mit verstärkender muskulärer Unterforderung — die dackeltypische Ausprägung wird auch „Kappenhüfte” genannt, ist aber dieselbe Grunderkrankung",
+        correct: true,
+      },
+      {
+        label: "„Kappenhüfte” als eigenständige, von der Hüftdysplasie unabhängige Dackel-Erkrankung",
+        correct: false,
+        errorCategory: "Faktenwissen",
+        arguesAgainst:
+          "„Kappenhüfte” ist nur ein rassetypischer Name für dieselbe Hüftdysplasie-Pathologie beim chondrodystrophen Hund — kein eigener Krankheitsmechanismus, der eine eigene Diagnostik bräuchte.",
+        differentiationDistractors: [
+          "Weil der Begriff einen eigenen Namen hat, muss auch eine eigene Erkrankung dahinterstecken.",
+          "Rassetypische Besonderheiten sind nie mit anderen, bekannten Erkrankungen identisch.",
+        ],
+      },
+      {
+        label: "Eine reine Trainingsrückstand-Schwäche ohne zugrunde liegende Gelenkproblematik, die sich durch mehr Bewegung von selbst normalisiert",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die passive Laxität der Hüftgelenke bei der Palpation zeigt eine strukturelle Gelenkproblematik — reine Trainingsrückstand-Schwäche würde sich nicht in einer vermehrten Gelenklaxität, sondern allein in reduzierter Muskelkraft ohne Laxitätsbefund äußern.",
+        differentiationDistractors: [
+          "Schwache Muskulatur erklärt automatisch jeden unsicheren Gang.",
+          "Junge Hunde mit wenig Bewegung haben nie eine zusätzliche Gelenkproblematik.",
+        ],
+      },
+      {
+        label: "Eine vorübergehende Wachstumsschmerzphase, die keine weitere Abklärung benötigt",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Eine beidseitige Gelenklaxität bei der Palpation ist kein Normalbefund des Wachstums und sollte gezielt (radiologisch) abgeklärt werden, statt abzuwarten — gerade weil angeborene Mankos sich nicht „wegregulieren” lassen.",
+      },
+    ],
+    expertNote:
+      "Die Quelle warnt ausdrücklich davor, echte rassespezifische Erkrankungen unkritisch als eigenständige Phänomene zu behandeln: „Kappenhüfte” lenkt als Begriff vom eigentlichen Thema ab, denn es handelt sich letztlich um dieselbe Hüftdysplasie-Pathologie, nur in einer rassetypischen Ausprägung beim chondrodystrophen Hund. Zusätzlich verschärft Friedas Vorgeschichte das Bild: Übermäßige, gut gemeinte Schonung in der Wachstumsphase führt zu geringen formativen Reizen für die Verknöcherung der Gelenke und zu einem schlechteren Muskelstatus — und ein schlechterer Muskelstatus verstärkt wiederum die individuelle Ausprägung einer bereits angeborenen Gelenklaxität. Reine Schonung ist damit kein verlässlicher Schutz, sondern kann die zugrunde liegende Problematik sogar verschärfen (vergleichbares Beispiel aus der Quelle: Gut trainierte Dackel neigen eher zu Bandscheibenproblemen als unterforderte, übergewichtige Artgenossen).",
+    weakeningQ: "Welcher Befund würde am ehesten gegen eine Hüftdysplasie und für eine rein muskuläre Unterforderung ohne Gelenkbeteiligung sprechen?",
+    weakeningOptions: [
+      { label: "Unauffällige, feste Führung beider Hüftgelenke bei der passiven Abduktion ohne jede Laxität", correct: true },
+      { label: "Schwache Oberschenkel- und Gesäßmuskulatur im Verhältnis zum Körperbau", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Unsicherer Gang unmittelbar nach dem Aufstehen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine Vorgeschichte mit überdurchschnittlich viel Schonung im Welpenalter", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum ist eine einfache rassespezifische Prädispositionstabelle allein mit Vorsicht zu verwenden?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil belastbare Statistiken oft fehlen (z. B. verzerrt die HD-Vorröntgen-Selektion die offiziellen Zahlen) und weil es trotz internationalisierter Zucht weiterhin deutliche länderspezifische Unterschiede gibt",
+        correct: true,
+      },
+      { label: "Weil Rasseprädispositionen in Wirklichkeit nie eine Rolle für die Diagnostik spielen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil jede Rasse weltweit identische Zuchtziele und Untersuchungsstandards hat", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Rassetabellen ausschließlich von Verhaltensmerkmalen und nie von orthopädischen Erkrankungen handeln", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg.), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2. Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.1.1 (siehe Wissenseintrag `rasse-verwendungszweck-praedisposition-ueberforderung`) sowie der bestehende Eintrag `hueftgelenkdysplasie-und-coxarthrose`. Das Schonungsparadox, die Kappenhüfte-Einordnung als rassetypische HD-Ausprägung (nicht als eigene Erkrankung) sowie die Kritik an unkritischen Rassetabellen sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "moritz",
+    topic: "Orthopädie · Sprunggelenk (Wachstumsalter)",
+    species: "Berner Sennenhund, Rüde, 5 Monate",
+    title: "Moritz — steifer Start, beidseitig geschwollene Sprunggelenke",
+    learningObjective:
+      "Die Osteochondrose als wachstumsbedingte Knorpelverknöcherungsstörung erkennen und verstehen, dass sich das klinische Bild stark danach unterscheidet, welches der vier Prädilektionsgelenke betroffen ist.",
+    anamnese:
+      "Moritz ist seit einigen Wochen besonders beim Loslaufen nach Ruhephasen hinten auffällig steif, läuft sich dann aber zusehends ein. Die Besitzer füttern ihn nach eigenen Angaben sehr energiereich, „damit er richtig groß wird”.",
+    beobachtung:
+      "Moritz steht mit auffallend steil aufgerichteten Hintergliedmaßen und zeigt eine Anlauflahmheit hinten, die sich nach den ersten Schritten deutlich bessert; beide Sprunggelenke wirken sichtbar verdickt.",
+    diagramLabel: "Anlauflahmheit hinten mit steiler Hintergliedmaßenstellung, Besserung nach Losgehen, beidseitige Sprunggelenksschwellung",
+    palpation:
+      "Beide Tarsalgelenke zeigen eine ausgeprägte Gelenkfüllung sowie Schmerzhaftigkeit bei passiver Beugung und Streckung, am deutlichsten medial am Talusrollkamm. Eine Muskelatrophie ist noch nicht nachweisbar; Hüft- und Ellbogengelenke sind palpatorisch unauffällig.",
+    hypothesisQ: "Welche Verdachtsdiagnose passt am besten zu Moritz' Befund?",
+    hypothesisOptions: [
+      { label: "Osteochondrose im Tarsalgelenk", correct: true },
+      {
+        label: "Panosteitis (wandernde Knochenschmerzhaftigkeit)",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Panosteitis zeigt typischerweise keine Gelenkfüllung, sondern Schmerzhaftigkeit direkt am Röhrenknochenschaft, bessert sich nicht durch Losgehen/Aufwärmen und wandert meist zwischen verschiedenen Beinen — bei Moritz liegt der Befund dagegen klar im Gelenk selbst (Gelenkfüllung, Talusrollkamm) und bessert sich nach dem Anlaufen.",
+        differentiationDistractors: [
+          "Jede wechselnde Junghundlahmheit ist automatisch Panosteitis.",
+          "Schwellung und Schmerz im Gelenkbereich sprechen immer für Panosteitis.",
+        ],
+      },
+      {
+        label: "Hüftgelenkdysplasie mit Ausstrahlung in das Sprunggelenk",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Die Hüftgelenke sind bei Moritz palpatorisch unauffällig, während die eigentliche Gelenkfüllung und Schmerzhaftigkeit konkret in den Tarsalgelenken liegt — eine Hüftproblematik würde sich nicht primär als Sprunggelenksschwellung zeigen.",
+      },
+      {
+        label: "Eine traumatische Distorsion beider Sprunggelenke gleichzeitig",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Es gibt in der Anamnese kein Trauma, und ein beidseitig gleichzeitiges Verletzungsereignis ist unwahrscheinlich; das wechselnde, schleichend begonnene Bild passt eher zu einer wachstumsbedingten Störung.",
+      },
+    ],
+    expertNote:
+      "Die Osteochondrose betrifft vor allem frohwüchsige, große, oft männliche Hunde im Alter von 4–7 Monaten, häufig beidseitig — mit vier typischen Lokalisationen (Schulter 74 %, Ellbogen 13 %, Tarsus 9 %, Knie 4 % aller Fälle) und sehr unterschiedlichem klinischem Bild je Gelenk: Am Tarsus wie bei Moritz zeigt sich eine deutliche Anlauflahmheit mit steil stehenden Hintergliedmaßen und ausgeprägter Gelenkfüllung, während die Schulter-OC meist nur diskret lahmt. Als vermutete, nicht einheitlich gesicherte Ursachen gelten rasches Wachstum, Ernährungsfehler (u. a. Kalzium-Überversorgung), Genetik, Übergewicht und starke Gelenkbeanspruchung — Moritz' sehr energiereiche Fütterung passt in dieses Risikoprofil. Die Einteilung erfolgt in vier Schweregrade; Schulter-OC hat insgesamt die beste, tarsale OC die schlechteste Prognose, und je jünger der Hund bei sichtbaren Läsionen behandelt wird, desto besser das Ergebnis.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine Osteochondrose und für eine Panosteitis sprechen?",
+    weakeningOptions: [
+      {
+        label: "Schmerzhaftigkeit bei direktem Druck auf die Schaftmitte der Röhrenknochen ohne Besserung durch Aufwärmen, wandernd zwischen verschiedenen Gliedmaßen",
+        correct: true,
+      },
+      { label: "Ausgeprägte Gelenkfüllung in beiden Tarsalgelenken", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Steil stehende Hintergliedmaßen mit Anlauflahmheit", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Alter von 5 Monaten bei einer frohwüchsigen, großen Rasse", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welches Gelenk ist bei der Osteochondrose des Hundes am häufigsten betroffen?",
+    retrievalOptions: [
+      { label: "Das Schultergelenk (rund 74 % der Fälle)", correct: true },
+      { label: "Das Tarsalgelenk (rund 74 % der Fälle)", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Das Ellbogengelenk (rund 74 % der Fälle)", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Das Kniegelenk (rund 74 % der Fälle)", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.1 (siehe Wissenseintrag `osteochondrose-hund`) sowie Kap. 8.2.2 (Panosteitis, siehe Wissenseintrag `panosteitis-hypertrophe-osteodystrophie-knorpelzapfen`) zur Abgrenzung. Lokalisationsverteilung, tarsusspezifische Klinik (Anlauflahmheit, steile Hintergliedmaßenstellung, Gelenkfüllung) sowie die Abgrenzungsmerkmale zur Panosteitis sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "balthasar",
+    topic: "Orthopädie · Wachstumserkrankungen (Röhrenknochen)",
+    species: "Bernhardiner, Rüde, 7 Monate",
+    title: "Balthasar — wandernde Lahmheit ohne Schwellung",
+    learningObjective:
+      "Panosteitis von hypertropher Osteodystrophie und retinierten Knorpelzapfen unterscheiden — drei Wachstumserkrankungen junger, großer Hunde mit sehr unterschiedlicher Prognose.",
+    anamnese:
+      "Balthasar zeigt seit zwei Wochen eine Lahmheit, die scheinbar von Bein zu Bein wandert — mal ist das linke, mal das rechte Vorderbein betroffen. Fieber oder Appetitlosigkeit sind den Besitzern nicht aufgefallen.",
+    beobachtung:
+      "Balthasar belastet wechselnd eines der Vorderbeine kaum, wirkt dabei aber sonst munter und ungestört; es ist keine sichtbare Schwellung an den Gliedmaßen erkennbar.",
+    diagramLabel: "Wechselnde, zwischen den Vorderbeinen wandernde Lahmheit ohne äußerlich sichtbare Schwellung",
+    palpation:
+      "Direkter Druck auf die Schaftmitte der Ulna beidseits löst eine deutliche Schmerzreaktion aus; die angrenzenden Gelenke zeigen weder vermehrte Füllung noch Bewegungsschmerz. Balthasar ist afebril, keine Anzeichen von Schwäche oder reduziertem Allgemeinbefinden.",
+    hypothesisQ: "Welche der drei ähnlichen Wachstumserkrankungen passt am besten zu Balthasars Befund?",
+    hypothesisOptions: [
+      { label: "Panosteitis", correct: true },
+      {
+        label: "Hypertrophe Osteodystrophie (Moeller-Barlow-Erkrankung)",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Die hypertrophe Osteodystrophie zeigt eine dolente, meist beidseitige Schwellung an den distalen Vordergliedmaßen, begleitet von Fieber, Anorexie und Schwäche — bei Balthasar fehlt jede Schwellung, und er ist afebril und munter.",
+        differentiationDistractors: [
+          "Jede Schmerzhaftigkeit an den Vordergliedmaßen eines Junghundes ist automatisch Moeller-Barlow.",
+          "Ohne Röntgenbild lässt sich keine der drei Erkrankungen überhaupt unterscheiden.",
+        ],
+      },
+      {
+        label: "Retinierte Knorpelzapfen",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Retinierte Knorpelzapfen betreffen die distale Ulnafuge mit milder, meist konstanter statt wandernder Lahmheit und führen über eine Wachstumsbremsung zum Radius-curvus-Phänomen — bei Balthasar liegt der Schmerz dagegen direkt im Schaft, wandert zwischen den Beinen, und es gibt keine Achsabweichung.",
+      },
+      {
+        label: "Eine beidseitig gleichzeitig aufgetretene traumatische Knochenverletzung",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Ein beidseitiges, zeitlich versetzt wanderndes Trauma ohne entsprechendes Ereignis in der Anamnese ist unwahrscheinlich; das Muster passt eher zu einer bekannten, selbstlimitierenden Wachstumserkrankung.",
+      },
+    ],
+    expertNote:
+      "Panosteitis betrifft praktisch ausschließlich juvenile, große Rassen (5–18 Monate, überwiegend männlich) und beginnt mit einem Fettzelluntergang am Foramen nutritium der Röhrenknochen — am häufigsten der Ulna (rund 42 % der Fälle), gefolgt von Radius, Humerus, Femur und Tibia. Typisch ist eine spontan beginnende, zwischen Tagen und 3–6 Wochen dauernde Lahmheit, die sich nicht durch Aufwärmen bessert und oft von Bein zu Bein wechselt; der Schmerz sitzt direkt am Knochenschaft, nicht im Gelenk. Panosteitis ist folgenlos selbstlimitierend (Abklingen nach 6–12 Wochen) und wird rein unterstützend behandelt (Schmerzmittel, reduzierte Fütterung, da Überfütterung als möglicher Faktor gilt). Entscheidend für die Abgrenzung zu den beiden anderen Formen: Sowohl hypertrophe Osteodystrophie als auch retinierte Knorpelzapfen können über eine gestörte distale Ulnafuge zu einer bleibenden Fehlstellung (Radius curvus) führen — Panosteitis dagegen nie.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen Panosteitis und für eine hypertrophe Osteodystrophie sprechen?",
+    weakeningOptions: [
+      { label: "Zusätzlich Fieber, Appetitlosigkeit und eine dolente, sichtbare Schwellung an den distalen Vordergliedmaßen", correct: true },
+      { label: "Schmerzhaftigkeit bei direktem Druck auf die Ulna-Schaftmitte", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine zwischen den Vorderbeinen wechselnde Lahmheit", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Munteres Allgemeinbefinden ohne Fieber", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Welche der drei Wachstumserkrankungen heilt grundsätzlich folgenlos aus, ohne das Risiko einer bleibenden Fehlstellung?",
+    retrievalOptions: [
+      { label: "Panosteitis", correct: true },
+      { label: "Hypertrophe Osteodystrophie", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Retinierte Knorpelzapfen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Alle drei Erkrankungen führen regelhaft zu einer Fehlstellung", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.2–8.2.4 (siehe Wissenseintrag `panosteitis-hypertrophe-osteodystrophie-knorpelzapfen`). Ätiologie, Lokalisation, Klinik und die abgrenzenden Merkmale aller drei Erkrankungen sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "gustav",
+    topic: "Neurologie · Halswirbelsäule (Bandscheibe)",
+    species: "Französische Bulldogge, Rüde, 6 J.",
+    title: "Gustav — steifer Gang mit tief gehaltenem Kopf",
+    learningObjective:
+      "Den zervikalen Bandscheibenvorfall als eigenständiges Krankheitsbild erkennen und verstehen, warum er nicht vorschnell als rein thorakolumbales Problem fehlgedeutet werden darf, auch wenn zunächst die Hinterhand betroffen wirkt.",
+    anamnese:
+      "Gustav hält seit einigen Tagen den Kopf auffällig tief und bewegt sich insgesamt steif; die Besitzer haben zuerst an ein Rückenproblem im hinteren Bereich gedacht, weil ihnen vor allem ein unsicherer Gang der Hinterbeine auffiel.",
+    beobachtung:
+      "Gustav zeigt einen steifen, vorsichtigen Gang mit tief gehaltenem Kopf und einer leichten Ataxie der Hintergliedmaßen; die Vordergliedmaßen wirken auf den ersten Blick noch unauffällig.",
+    diagramLabel: "Steifer Gang mit tief gehaltenem Kopf, Ataxie zunächst vor allem hinten sichtbar",
+    palpation:
+      "Die Manipulation der Halswirbelsäule, insbesondere Beugung und Lateralflexion, löst eine deutliche Schmerzreaktion aus. Bei genauerer Prüfung zeigen sich auch an den Vordergliedmaßen diskrete propriozeptive Defizite, die beim ersten Eindruck leicht übersehen werden.",
+    hypothesisQ: "Was erklärt Gustavs Befund am besten?",
+    hypothesisOptions: [
+      { label: "Zervikaler Bandscheibenvorfall", correct: true },
+      {
+        label: "Ein rein thorakolumbaler Bandscheibenvorfall, da die Hinterhand stärker betroffen wirkt als die Vorderhand",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Weil die kortikospinalen Bahnen zu den Hintergliedmaßen im Rückenmark exponierter liegen, können auch zervikale Bandscheibenvorfälle zunächst vor allem die Hinterhand betreffen, bevor Defizite an der Vorderhand deutlich werden — Gustavs zusätzlicher Halsbeugeschmerz und die diskreten Vorderhand-Defizite zeigen, dass das eigentliche Problem höher liegt.",
+        differentiationDistractors: [
+          "Eine stärker betroffene Hinterhand bedeutet immer eine Läsion im hinteren Rückenmarksabschnitt.",
+          "Wenn die Vorderbeine noch weitgehend normal aussehen, kann die Halswirbelsäule nicht die Ursache sein.",
+        ],
+      },
+      {
+        label: "Eine reine Muskelverspannung der Nackenmuskulatur ohne neurologische Beteiligung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die propriozeptiven Defizite an den Hintergliedmaßen (und diskret auch vorne) zeigen eine echte neurologische Beteiligung — eine reine Muskelverspannung würde keine Ataxie oder Propriozeptionsdefizite erklären.",
+      },
+      {
+        label: "Eine altersbedingte Spondylose ohne eigenständigen Krankheitswert",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Der akute, deutliche Halsbeugeschmerz zusammen mit neurologischen Ausfällen passt nicht zu einer meist symptomärmeren, chronisch-degenerativen Spondylose und sollte gezielt mittels Schnittbildverfahren abgeklärt werden.",
+      },
+    ],
+    expertNote:
+      "Rund 15 % aller Bandscheibenvorfälle des Hundes betreffen die Halswirbelsäule, mit Prädilektionsstellen zwischen C2/C3 bzw. C3/C4 bei kleinen Rassen (bei großen Rassen eher tiefzervikal C5–C7). Vorwiegend chondrodystrophe Rassen wie die Französische Bulldogge sind betroffen. Weil die zervikale Wirbelsäule dem Rückenmark mehr Platz lässt als weiter kaudal, fallen klinische Symptome oft erst bei größeren Vorfällen auf — typisch sind der steife Gang mit tief gehaltenem Kopf und ein sehr schmerzhafter Halsbeugeschmerz. Weil der weite Wirbelkanal mehr Schwellung erträgt, besteht insgesamt weniger zeitlicher Druck als beim thorakolumbalen Vorfall, entsprechend ist die Prognose nach ventraler Korpektomie mit über 90 % Erholungsrate sehr gut. Bei Halsbeugeschmerz ohne weitere neurologische Ausfälle gilt dieselbe konservative Therapie wie beim thorakolumbalen Bandscheibenvorfall; repetitive Schmerzen und Paresen sind Indikation für eine operative Dekompression.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen einen zervikalen und für einen rein thorakolumbalen Bandscheibenvorfall sprechen?",
+    weakeningOptions: [
+      {
+        label: "Deutliche neurologische Ausfälle ausschließlich an der Hinterhand bei völlig schmerzfreier, unauffälliger Manipulation der Halswirbelsäule",
+        correct: true,
+      },
+      { label: "Steifer Gang mit tief gehaltenem Kopf", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Schmerzreaktion bei Beugung und Lateralflexion der Halswirbelsäule", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Diskrete propriozeptive Defizite auch an den Vordergliedmaßen", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum ist die Prognose nach operativer Versorgung eines zervikalen Bandscheibenvorfalls im Mittel besser als beim thorakolumbalen Vorfall?",
+    retrievalOptions: [
+      {
+        label: "Weil der weitere zervikale Wirbelkanal dem Rückenmark mehr Platz und damit mehr Toleranz für Schwellung lässt, was den zeitlichen Druck verringert",
+        correct: true,
+      },
+      { label: "Weil zervikale Bandscheibenvorfälle grundsätzlich kleiner sind als thorakolumbale", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil am Hals grundsätzlich keine Operation notwendig ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil zervikale Bandscheibenvorfälle nie neurologische Ausfälle verursachen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.6 (siehe Wissenseintrag `zervikaler-bandscheibenvorfall-hund`), S. 234. Prädilektionsstellen, das Nach-kaudal-ausstrahlende Symptommuster, die Bildgebung sowie die vergleichsweise gute Prognose nach ventraler Korpektomie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "charlie",
+    topic: "Neurologie · Plexus brachialis (Trauma)",
+    species: "Mischling, 3 J.",
+    title: "Charlie — schlaff herabhängendes Vorderbein nach Autounfall",
+    learningObjective:
+      "Die drei klinisch unterscheidbaren Formen des Plexus-brachialis-Schadens erkennen und verstehen, warum Physiotherapie statt Nervennaht die Therapie der Wahl ist.",
+    anamnese:
+      "Charlie wurde vor drei Tagen von einem Auto erfasst. Seitdem hängt das rechte Vorderbein schlaff herab und wird beim Gehen nicht belastet, obwohl keine äußeren Wunden sichtbar sind.",
+    beobachtung:
+      "Das rechte Vorderbein hängt mit tief herabhängendem Ellbogen und gebeugtem Carpus schlaff herab; beim Gehen knickt die Gliedmaße unter Belastung sofort ein. Der Ellbogen ist adduziert und wirkt unter den Brustkorb verlagert.",
+    diagramLabel: "Schlaff herabhängendes rechtes Vorderbein mit tiefem Ellbogen und Carpus in Beugehaltung, Einknicken unter Belastung",
+    palpation:
+      "Die Haut distal des Ellbogens an der Innenseite des rechten Unterarms zeigt auf Nadelreiz keine Schmerzreaktion (Analgesie). Der ipsilaterale Pannikulusreflex rechts ist abgeschwächt bis nicht auslösbar; rechtsseitig fällt zusätzlich eine leicht verengte Pupille auf.",
+    hypothesisQ: "Welche Form des Plexus-brachialis-Schadens passt am besten zu Charlies Befund?",
+    hypothesisOptions: [
+      { label: "Kaudaler, partieller Abriss (N. radialis, N. medianus, N. ulnaris betroffen)", correct: true },
+      {
+        label: "Kranialer, partieller Abriss (N. suprascapularis, N. musculocutaneus betroffen)",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Beim kranialen Abriss zeigt sich eine abgeschwächte Ellbogenflexion mit Analgesie an der Innenseite des Oberarms — bei Charlie liegt die Analgesie dagegen distal des Ellbogens am Unterarm, zusammen mit Horner-Syndrom-Anzeichen, die zum kaudalen Abriss passen.",
+      },
+      {
+        label: "Eine isolierte Radialislähmung ohne weitere Nervenbeteiligung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Der zusätzlich ausgefallene Pannikulusreflex und die verengte Pupille zeigen eine Mitbeteiligung sympathischer Fasern, die über eine isolierte Radialislähmung hinausgeht — das Gesamtbild passt eher zu einer kombinierten Schädigung mehrerer Nerven des kaudalen Plexusanteils.",
+      },
+      {
+        label: "Ein seitlich dominierender zervikaler Bandscheibenvorfall",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Differentialdiagnose muss zwar bedacht werden, passt aber schlechter zum klaren traumatischen Ereignis unmittelbar vor Symptombeginn und zum typischen distalen Analgesiemuster eines Plexusschadens.",
+      },
+    ],
+    expertNote:
+      "Beim weitaus häufigeren kaudalen, partiellen Abriss des Plexus brachialis (N. radialis, N. medianus und N. ulnaris betroffen) hängt der Ellbogen tief herab, der Carpus steht in Beugehaltung, die Gliedmaße knickt unter Belastung ein, und die Analgesie liegt distal des Ellbogens an der Innenseite des Unterarms. Weil hier auch sympathische Fasern mitlaufen, fällt oft zusätzlich der ipsilaterale Pannikulusreflex aus, und in bis zu 50 % der Fälle tritt ein Horner-Syndrom auf — die Prognose ist hier deutlich schlechter als beim selteneren kranialen Abriss. Eine endgültige Prognose lässt sich trotzdem erst nach 2–6 Monaten stellen, weil Begleitschäden wie Hämatome oder eine bloße Neurapraxie entsprechend lange zur Erholung brauchen. Reposition, Naht und Funktionswiederherstellung durchtrennter Nerven gelingen praktisch nur im experimentellen Rahmen — bei verletzten Hunden wird deshalb in erster Linie auf Physiotherapie gesetzt, die die Nervenkonduktion verbessert, muskuläre Kompensationsmechanismen fördert und die Muskulatur bis zu einer möglichen Reinnervation erhält.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen den kaudalen und für den kranialen, partiellen Abriss sprechen?",
+    weakeningOptions: [
+      {
+        label: "Abgeschwächte Ellbogenflexion mit Analgesie an der Innenseite des Oberarms, bei unauffälligem Pannikulusreflex und unauffälliger Pupille",
+        correct: true,
+      },
+      { label: "Analgesie distal des Ellbogens an der Innenseite des Unterarms", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Abgeschwächter ipsilateraler Pannikulusreflex", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine leicht verengte Pupille auf der betroffenen Seite", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Warum wird bei einem Plexus-brachialis-Schaden in erster Linie auf Physiotherapie statt auf eine operative Nervenwiederherstellung gesetzt?",
+    retrievalOptions: [
+      {
+        label: "Weil Reposition, Naht und Funktionswiederherstellung durchtrennter Nerven praktisch nur im experimentellen Rahmen gelingen, während Physiotherapie Nervenkonduktion und muskuläre Kompensation fördert",
+        correct: true,
+      },
+      { label: "Weil eine Nervennaht beim Hund grundsätzlich verboten ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Plexusschäden sich immer innerhalb weniger Tage von selbst vollständig zurückbilden", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Physiotherapie die einzige Methode ist, mit der sich ein Plexusschaden überhaupt diagnostizieren lässt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.7 (siehe Wissenseintrag `plexusschaden-vordergliedmasse`), S. 234–236; ergänzt um die dort bereits dokumentierte Drei-Formen-Unterscheidung samt Nervenzuordnung, Analgesiezonen, Pannikulusreflex- und Horner-Syndrom-Häufigkeit (Hundekrankheiten kompakt, vetcenter.thieme.de). Mechanismus, klinische Unterscheidung der drei Formen, Diagnostik und die Physiotherapie-statt-Nervennaht-Therapieentscheidung sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "zeus",
+    topic: "Neurologie · Kaudale Halswirbelsäule (Wobbler-Syndrom)",
+    species: "Dobermann, Rüde, 6 J.",
+    title: "Zeus — zunehmend unsicherer Gang, zuerst nur hinten",
+    learningObjective:
+      "Das Wobbler-Syndrom mit seinen rassetypisch unterschiedlichen Entstehungsmechanismen erkennen und verstehen, warum eine unauffällige Neutralröntgenaufnahme eine dynamische Rückenmarkkompression nicht ausschließt.",
+    anamnese:
+      "Zeus zeigt seit einigen Monaten eine langsam zunehmende Unsicherheit der Hintergliedmaßen, die sich zuletzt verstärkt hat; seine Besitzer haben zunächst an ein reines Hüftproblem gedacht.",
+    beobachtung:
+      "Zeus zeigt eine geringgradige Ataxie der Hintergliedmaßen mit gelegentlicher Hypermetrie; der Kopf wird zunehmend tief gehalten. An den Vordergliedmaßen ist noch keine deutliche Schwäche sichtbar.",
+    diagramLabel: "Zunehmende Ataxie und Hypermetrie der Hintergliedmaßen, Kopf tief gehalten, Vorderhand noch unauffällig",
+    palpation:
+      "Die passive dorsale Überstreckung der Halswirbelsäule löst eine deutliche Schmerzreaktion aus; eine bereits angefertigte Standardröntgenaufnahme der Halswirbelsäule in Neutralstellung zeigte keine auffälligen Veränderungen.",
+    hypothesisQ: "Was erklärt Zeus' Beschwerdebild am besten?",
+    hypothesisOptions: [
+      { label: "Kaudale zervikale Spondylomyelopathie (Wobbler-Syndrom), beim Dobermann meist durch Wirbelgleiten und Bandscheibendegeneration", correct: true },
+      {
+        label: "Eine reine Hüftgelenkdysplasie mit sekundärer Hinterhandschwäche",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Der deutliche Schmerz bei dorsaler Überstreckung der Halswirbelsäule passt nicht zu einer rein in der Hüfte liegenden Ursache — das Wobbler-Syndrom breitet sich klassischerweise von hinten nach vorne aus und beginnt oft mit genau diesem Bild.",
+      },
+      {
+        label: "Ausschluss einer relevanten Erkrankung, da die Neutralröntgenaufnahme der Halswirbelsäule unauffällig war",
+        correct: false,
+        errorCategory: "Unterkonfidenz",
+        arguesAgainst:
+          "Ein Teil der Rückenmarkkompressionen beim Wobbler-Syndrom ist rein dynamisch und zeigt sich erst bei bestimmten Kopf-Hals-Stellungen — eine unauffällige Neutralaufnahme schließt die Erkrankung deshalb nicht aus; dafür braucht es gezielte Stressaufnahmen oder eine Myelographie bzw. Myelo-CT.",
+      },
+      {
+        label: "Eine Osteochondrose der Schulter mit Ausstrahlung in die Hinterhand",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Osteochondrose betrifft primär das jeweilige Gelenk selbst und würde keine Ataxie oder Hypermetrie der Hintergliedmaßen erklären; der Schmerz bei Halsüberstreckung spricht klar für eine zervikale, nicht gelenkbezogene Ursache.",
+      },
+    ],
+    expertNote:
+      "Das canine Wobbler-Syndrom bezeichnet eine Rückenmarkkompression im kaudalen Halswirbelbereich mit meist kombinierten Ursachen. Bei der Deutschen Dogge dominiert meist eine Deformation von Wirbelbogen oder -körper mit Malartikulation; beim Dobermann wie Zeus beruht die Instabilität dagegen überwiegend auf einem Wirbelgleiten (Spondylolisthesis), oft zusätzlich verstärkt durch Typ-II-Bandscheibenschäden. Initial zeigt sich meist eine geringgradige Ataxie der Hintergliedmaßen mit Propriozeptionsdefiziten und gelegentlicher Hypermetrie; im weiteren Verlauf breitet sich die Erkrankung nach vorne aus — Parese, Muskelatrophie und Manipulationsschmerz treten dann auch an den Vordergliedmaßen auf, vor allem bei passiver dorsaler Überstreckung der Halswirbelsäule. Weil ein Teil der Kompression rein dynamisch ist, werden zum Nachweis gezielt Stressaufnahmen in Überstreckung, Beugung und unter Längstraktion angefertigt, am aussagekräftigsten kombiniert mit einer Myelographie oder Myelo-CT.",
+    weakeningQ: "Welcher zusätzliche Befund würde am ehesten gegen ein Wobbler-Syndrom sprechen?",
+    weakeningOptions: [
+      { label: "Schmerzfreie, uneingeschränkte Beweglichkeit der Halswirbelsäule in allen Richtungen bei isoliertem Hüftbefund", correct: true },
+      { label: "Geringgradige Ataxie und Hypermetrie der Hintergliedmaßen", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Schmerzreaktion bei dorsaler Überstreckung der Halswirbelsäule", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine unauffällige Halswirbelsäulen-Röntgenaufnahme in Neutralstellung", correct: false, errorCategory: "Unterkonfidenz" },
+    ],
+    retrievalQ: "Worin unterscheidet sich der typische Entstehungsmechanismus des Wobbler-Syndroms zwischen Deutscher Dogge und Dobermann?",
+    retrievalOptions: [
+      {
+        label: "Bei der Deutschen Dogge dominiert meist eine Deformation von Wirbelbogen/-körper mit Malartikulation, beim Dobermann meist ein Wirbelgleiten mit Bandscheibendegeneration",
+        correct: true,
+      },
+      { label: "Beide Rassen haben exakt denselben Entstehungsmechanismus, nur unterschiedlich stark ausgeprägt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Bei der Deutschen Dogge ist immer die Bandscheibe die Ursache, beim Dobermann immer der Knochen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Der Unterschied betrifft nur das Alter beim Auftreten, nicht den Mechanismus", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Kompressionssyndrom der kaudalen Halswirbelsäule (siehe Wissenseintrag `wobbler-syndrom-zwei-phaenotypen-dynamische-kompression`). Die rassetypischen Entstehungsmechanismen, die Symptomprogression von hinten nach vorne sowie das Konzept der dynamischen, nur unter Stressaufnahme sichtbaren Kompression sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "anton",
+    topic: "Orthopädie · Schulter (Weichteilkontraktur)",
+    species: "Deutsch Kurzhaar, Rüde, 5 J.",
+    title: "Anton — seltsam nach außen gedrehtes Vorderbein nach der Jagd",
+    learningObjective:
+      "Die Infraspinatuskontraktur als eigenständiges, charakteristisches Gangbild erkennen und von der klinisch ähnlichen Luxatio antebrachii lateralis abgrenzen.",
+    anamnese:
+      "Anton kehrte vor sechs Wochen von einem Jagdeinsatz mit einer mittel- bis hochgradigen Lahmheit zurück, die sich innerhalb einiger Tage deutlich besserte. Seit etwa zwei Wochen fällt den Besitzern jedoch eine „eigenartige” Beinhaltung des rechten Vorderbeins auf.",
+    beobachtung:
+      "Beim Vorschwingen bewegt sich Antons rechtes Vorderbein in einem nach außen gerichteten Halbkreis; der Ellbogen ist adduziert und unter den Brustkorb verlagert, die distale Gliedmaße dagegen abduziert, die Pfote supiniert. Die Fußung erfolgt in Abduktionsstellung.",
+    diagramLabel: "Vorschwingen des rechten Vorderbeins in nach außen gerichtetem Halbkreis, Ellbogen adduziert unter dem Brustkorb, Pfote supiniert",
+    palpation:
+      "Die rechte Schulter ist fixiert in Streckstellung tastbar, der proximale Humerus wirkt um etwa 30° nach außen rotiert. Die Spina scapulae ist wegen zunehmender Muskelatrophie um die Schulter deutlich tastbar. Trotz der auffälligen Fehlstellung ist die Muskulatur selbst nicht schmerzhaft; Schmerz zeigt sich nur bei der passiven Manipulation des Schultergelenks.",
+    hypothesisQ: "Was erklärt Antons Befund am besten?",
+    hypothesisOptions: [
+      { label: "Kontraktur des M. infraspinatus nach Muskelfaserriss", correct: true },
+      {
+        label: "Luxatio antebrachii lateralis",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Differentialdiagnose erzeugt ein ganz ähnliches Gangbild und muss deshalb aktiv abgegrenzt werden — die typische Vorgeschichte (Jagdtrauma, zunächst Besserung, dann erst die charakteristische Fehlstellung) und die fixierte Schulterstreckung ohne Schmerzhaftigkeit der Muskulatur selbst passen aber besser zur Infraspinatuskontraktur; die endgültige Unterscheidung gelingt radiologisch.",
+      },
+      {
+        label: "Eine primäre, eigenständige Atrophie von M. supraspinatus und M. deltoideus",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Bei der Infraspinatuskontraktur atrophieren M. supraspinatus und M. deltoideus sekundär durch Inaktivität, weil die kontrakte Infraspinatussehne die Schulterbewegung blockiert — nicht durch eine eigene Erkrankung dieser Muskeln.",
+      },
+      {
+        label: "Eine akute, noch frische Muskelzerrung ohne bleibende Veränderung",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Die seit zwei Wochen bestehende, feste Fehlstellung mit tastbar fixierter Schulterstreckung passt nicht zu einer akuten, vorübergehenden Zerrung, sondern zu einer bereits eingetretenen narbigen Verkürzung.",
+      },
+    ],
+    expertNote:
+      "Der Infraspinatuskontraktur liegt vermutlich ein Muskelfaserriss nach einem Trauma zugrunde, der über ein Kompartmentsyndrom zur dauerhaften narbigen Verkürzung des Muskels führt — die genaue Ursache bleibt oft unbekannt. Typisch ist ein Vorbericht, der die eigentliche Verletzung verschleiert: Der Hund (meist ein mittelgroßer Jagdhund) kehrt mit einer sich zunächst bessernden Lahmheit zurück, bevor sich die charakteristische Gliedmaßenhaltung entwickelt. Die Diagnose stützt sich auf das typische Stand- und Gangbild, die fehlende Schulterbeweglichkeit sowie Röntgenaufnahmen, die je nach Krankheitsdauer eine sekundäre Arthropathia deformans, einen verengten Gelenkspalt oder knöcherne Zubildungen am Sehnenansatz zeigen können. Therapeutisch wird die Endsehne des M. infraspinatus quer zum Faserverlauf tenotomiert und das Schultergelenk anschließend mobilisiert; die Prognose ist bei korrekter Tenotomie günstig, langfristig ohne Stabilitätsverlust — die Atrophie des M. infraspinatus selbst bleibt jedoch bestehen, während sich M. supraspinatus und M. deltoideus wieder normalisieren, sobald die Bewegungseinschränkung behoben ist.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine Infraspinatuskontraktur und für eine Luxatio antebrachii lateralis sprechen?",
+    weakeningOptions: [
+      { label: "Eine tastbare laterale Instabilität des Ellbogengelenks selbst statt einer fixierten Schulterstreckung", correct: true },
+      { label: "Vorschwingen des Beins in einem nach außen gerichteten Halbkreis", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Fixierte Streckstellung der Schulter ohne Schmerzhaftigkeit der umgebenden Muskulatur", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Zunehmend deutlich tastbare Spina scapulae", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ:
+      "Warum atrophieren bei der Infraspinatuskontraktur im Verlauf auch M. supraspinatus und M. deltoideus, obwohl nur der M. infraspinatus eigentlich erkrankt ist?",
+    retrievalOptions: [
+      { label: "Weil die kontrakte Infraspinatussehne die Schulterbewegung blockiert und die beiden anderen Muskeln dadurch rein inaktivitätsbedingt atrophieren", correct: true },
+      { label: "Weil alle drei Muskeln von Anfang an gemeinsam vom selben Trauma betroffen sind", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Weil M. supraspinatus und M. deltoideus anatomisch Teil des M. infraspinatus sind", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Die Atrophie von M. supraspinatus und M. deltoideus hat nichts mit der Infraspinatuskontraktur zu tun", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Kontraktur des Musculus infraspinatus beim Hund” (siehe Wissenseintrag `infraspinatuskontraktur-jagdhund-gliedmassenfehlhaltung`). Pathogenese, typischer Vorbericht, Gangbild, Palpationsbefunde, Differentialdiagnose, Diagnosesicherung, Therapie und Prognose sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "leo",
+    topic: "Orthopädie · Knie (Tumor-Differenzierung)",
+    species: "Rottweiler, Rüde, 8 J.",
+    title: "Leo — fortschreitende Lahmheit, die wie ein Kreuzbandriss wirkt",
+    learningObjective:
+      "Erkennen, warum ein Osteosarkom am distalen Femur klinisch wie ein Kreuzbandriss aussehen kann, und verstehen, warum Bildgebung bei älteren, großen Hunden mit progredienter Lahmheit unverzichtbar ist.",
+    anamnese:
+      "Leo zeigt seit drei Wochen eine zunehmende Lahmheit des linken Hinterbeins, die trotz Schmerzmitteln nicht besser wird und sich auch nach dem Aufwärmen nicht bessert. Die Besitzer berichten zusätzlich von deutlichem Muskelschwund am betroffenen Bein.",
+    beobachtung:
+      "Leo belastet das linke Hinterbein zunehmend weniger, mit sichtbarem Muskelschwund am Oberschenkel; die Lahmheit nimmt trotz Schonung stetig zu, statt sich zu stabilisieren oder zu bessern.",
+    diagramLabel: "Progrediente, auf Schmerzmittel nicht ansprechende Lahmheit hinten links mit deutlichem Muskelschwund",
+    palpation:
+      "Das linke Kniegelenk ist diffus geschwollen und bei Extension sowie beim Schubladentest dolent, eine Krepitation ist dabei nicht tastbar. Eine knöcherne Umfangsvermehrung am distalen Femur ist bei genauer Palpation ebenfalls zu tasten.",
+    hypothesisQ: "Welche Verdachtsdiagnose muss bei Leo vor jeder vorschnellen Kreuzbandriss-Diagnose zwingend mitbedacht werden?",
+    hypothesisOptions: [
+      { label: "Osteosarkom am distalen Femur, ggf. mit sekundärem Kreuzbandriss", correct: true },
+      {
+        label: "Ein klassischer, rein traumatischer Kreuzbandriss ohne weitere Abklärung",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Die seit Wochen progrediente, auf Schmerzmittel nicht ansprechende Lahmheit ohne Besserung nach Aufwärmen sowie der starke Muskelschwund passen eher zu einem Tumorgeschehen als zu einem einmaligen Trauma — gerade bei einem großen, 8-jährigen Hund mit diesem Altersprofil sollte Bildgebung erfolgen, bevor eine Kreuzbandriss-Operation geplant wird.",
+        differentiationDistractors: [
+          "Ein geschwollenes, beim Schubladentest schmerzhaftes Knie ist immer ein Kreuzbandriss.",
+          "Tumoren am Knie sind beim Hund so selten, dass sie in der Praxis vernachlässigt werden können.",
+        ],
+      },
+      {
+        label: "Ein Synovialzellsarkom als häufigster Gelenktumor",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Ein Synovialzellsarkom ist zwar ebenfalls eine wichtige Differentialdiagnose bei einem geschwollenen Knie und muss mitbedacht werden, zeigt aber typischerweise die Destruktion beider am Gelenk beteiligten Knochen statt der monoossären Destruktion, die beim Osteosarkom am distalen Femur zu erwarten ist — die tastbare knöcherne Umfangsvermehrung an einer Knochenstelle passt hier besser zum Osteosarkom.",
+      },
+      {
+        label: "Eine fortgeschrittene Coxarthrose mit Ausstrahlung ins Kniegelenk",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Die konkrete diffuse Schwellung und knöcherne Umfangsvermehrung liegen direkt am Kniegelenk bzw. distalen Femur, nicht an der Hüfte — eine Coxarthrose würde sich nicht als lokale Kniegelenksschwellung mit tastbarer Knochenveränderung zeigen.",
+      },
+    ],
+    expertNote:
+      "Mit rund 80 % ist das Osteosarkom der häufigste Knochentumor des Hundes, betrifft meist ältere, große Hunde und bevorzugt die Prädilektionsstellen distaler Radius, proximaler Humerus, distales Femur und proximale Tibia. Typischer Patient: groß, 7–8 Jahre alt, mit progredienter, auf Schmerzmittel nicht ansprechender Lahmheit ohne Besserung nach Aufwärmen, oft mit starkem Muskelschwund. Tumoren am distalen Femur können mit einem Kreuzbandriss verwechselt werden, zumal ein Osteosarkom hier sogar sekundär einen echten Kreuzbandriss auslösen kann. Zum Diagnosezeitpunkt haben bereits rund 99 % der Hunde Lungenmikrometastasen, weshalb die Behandlung überwiegend palliativ ist (Amputation, ggf. mit Chemotherapie oder gliedmaßenerhaltender Tumorresektion). Erst Röntgenbilder (unregelmäßige Knochenauflösung und periostale Zubildung) und Biopsien liefern die entscheidende Unterscheidung — der rein orthopädische Untersuchungsgang allein reicht hier nicht aus.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen ein Osteosarkom und für einen reinen, unkomplizierten Kreuzbandriss sprechen?",
+    weakeningOptions: [
+      {
+        label: "Ein akut nach einem erinnerlichen Sprung aufgetretenes Lahmen mit tastbarer Schubladenbewegung, das sich unter Schmerzmitteln deutlich bessert, ohne Muskelschwund oder tastbare Knochenveränderung",
+        correct: true,
+      },
+      { label: "Progrediente Lahmheit ohne Ansprechen auf Schmerzmittel", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Deutlicher Muskelschwund am betroffenen Bein", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Eine tastbare knöcherne Umfangsvermehrung am distalen Femur", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Worin unterscheidet sich das radiologische Bild eines Osteosarkoms typischerweise von dem eines Synovialzellsarkoms am Kniegelenk?",
+    retrievalOptions: [
+      {
+        label: "Das Osteosarkom zeigt eine monoossäre (einen Knochen betreffende) Destruktion mit periostaler Zubildung, das Synovialzellsarkom dagegen im fortgeschrittenen Stadium eine Destruktion beider am Gelenk beteiligten Knochen",
+        correct: true,
+      },
+      { label: "Beide Tumoren zeigen im Röntgenbild exakt dasselbe Muster und sind radiologisch nicht zu unterscheiden", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Das Osteosarkom betrifft immer beide Knochen eines Gelenks, das Synovialzellsarkom nur einen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Nur das Synovialzellsarkom ist im Röntgenbild überhaupt sichtbar", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.7–8.2.8 (siehe Wissenseintrag `knochentumoren-gelenktumoren-hund`), S. 192–194. Prädilektionsstellen, typisches Patientenprofil, die Verwechslungsgefahr mit dem Kreuzbandriss, Metastasierungsrate und die radiologische Unterscheidung zum Synovialzellsarkom sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "jonas",
+    topic: "Orthopädie · Schulter (Wachstumsalter)",
+    species: "Neufundländer, Rüde, 6 Monate",
+    title: "Jonas — diskrete, aber beidseitige Vorderhandlahmheit im Wachstum",
+    learningObjective:
+      "Osteochondrosis dissecans im Schultergelenk erkennen und von Bizepssehnenerkrankungen, angeborener Schulterluxation und Panosteitis abgrenzen.",
+    anamnese:
+      "Jonas zeigt seit etwa vier Wochen eine diskrete, mal auf der einen, mal auf beiden Seiten vorhandene Vorderhandlahmheit, die nach Ruhephasen etwas ausgeprägter wirkt. Die Besitzer beschreiben ihn sonst als sehr verspielt und beidseitig fast gleich betroffen.",
+    beobachtung:
+      "Jonas zeigt eine insgesamt milde, schrittverkürzende Lahmheit der Vorderhand, die nach längerem Liegen als Steifheit auffällt; ein eindeutig führendes Bein lässt sich kaum ausmachen.",
+    diagramLabel: "Milde, beidseits nahezu gleich ausgeprägte Vorderhandlahmheit mit Steifheit nach dem Liegen",
+    palpation:
+      "Beide Schultergelenke zeigen eine vermehrte Gelenkfüllung und eine Schmerzreaktion bei passiver Innenrotation sowie Beugung und Streckung. Eine Muskelatrophie ist noch nicht nachweisbar; Ellbogen- und Karpalgelenke sind beidseits unauffällig.",
+    hypothesisQ: "Welche Verdachtsdiagnose passt am besten zu Jonas' Befund?",
+    hypothesisOptions: [
+      { label: "Osteochondrosis dissecans (OCD) im Schultergelenk", correct: true },
+      {
+        label: "Eine Bizepssehnen-Tendinopathie",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine Bizepssehnenerkrankung muss zwar differentialdiagnostisch mitbedacht werden, erklärt aber nicht die beidseitig nahezu gleich ausgeprägte Gelenkfüllung mit Schmerz bei Innenrotation, die für eine OCD im Caput humeri typisch ist — die endgültige Unterscheidung gelingt radiologisch.",
+      },
+      {
+        label: "Eine angeborene Schultergelenkluxation",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine angeborene Luxation würde sich meist durch eine tastbare Instabilität des Gelenks selbst zeigen, nicht primär durch eine vermehrte Gelenkfüllung mit Schmerz bei Innenrotation ohne Instabilität.",
+      },
+      {
+        label: "Panosteitis mit zufälliger Betonung der Vordergliedmaßen",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Panosteitis verursacht Schmerzhaftigkeit direkt am Röhrenknochenschaft, nicht primär eine Gelenkfüllung mit Schmerz bei Gelenkbewegung — Jonas' Befund liegt dagegen klar im Schultergelenk selbst.",
+      },
+    ],
+    expertNote:
+      "Osteochondrosis dissecans im Schultergelenk beruht auf einer im Wesentlichen erblich bedingten Störung der enchondralen Ossifikation des Gelenkknorpels, meist am Caput humeri. Betroffen sind vor allem junge, schnell wachsende mittelgroße bis große Hunde verschiedener Rassen, darunter der Neufundländer; Rüden sind häufiger betroffen als Hündinnen, ein beidseitiges Auftreten ist nicht selten. Die Lahmheit beginnt meist ab dem 5. Lebensmonat, mit unterschiedlichem Schweregrad, oft nach Ruhe oder Belastung deutlicher ausgeprägt und mitunter intermittierend — bei beidseitiger Erkrankung kann Steifheit nach dem Liegen sogar das einzige auffällige Symptom sein, wie bei Jonas. Häufig findet sich eine vermehrte Gelenkfüllung sowie Schmerzhaftigkeit bei passiver Beugung und Streckung; eine Muskelatrophie entsteht erst sekundär. Löst sich die anfängliche Knorpelschuppe vollständig ab, entsteht ein freier Gelenkkörper (Corpus liberum), der sich sogar in der Bizepssehnenscheide festsetzen und dort eine eigenständige Entzündung auslösen kann. Bei sehr jungen Hunden unter 6 Monaten wird zunächst konservativ behandelt (Ruhighaltung, ggf. Fütterungsumstellung); bei älteren Hunden mit persistierender Lahmheit erfolgt die operative Entfernung der Knorpelschuppe.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine OCD und für eine angeborene Schultergelenkluxation sprechen?",
+    weakeningOptions: [
+      { label: "Eine tastbare Instabilität des Schultergelenks mit spontaner Luxationstendenz, ohne vermehrte Gelenkfüllung", correct: true },
+      { label: "Vermehrte Gelenkfüllung mit Schmerz bei Innenrotation", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Beidseits nahezu gleich ausgeprägte, milde Lahmheit", correct: false, errorCategory: "Befund übersehen" },
+      { label: "Steifheit nach längerem Liegen als einziges auffälliges Symptom", correct: false, errorCategory: "Befund übersehen" },
+    ],
+    retrievalQ: "Wo in der Bizepssehnenregion kann sich ein bei Schulter-OCD abgelöster freier Gelenkkörper festsetzen und dort zusätzlich eine eigene Entzündung auslösen?",
+    retrievalOptions: [
+      { label: "In der Sehnenscheide des M. biceps brachii", correct: true },
+      { label: "Im Ursprung des M. supraspinatus", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Im Ansatz des M. deltoideus", correct: false, errorCategory: "Anatomieverwechslung" },
+      { label: "Ein abgelöster Gelenkkörper kann sich nirgends dauerhaft festsetzen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Osteochondrosis dissecans im Schultergelenk beim Hund” (siehe Wissenseintrag `osteochondrosis-dissecans-schultergelenk-hund`). Pathogenese, betroffene Rassen, Klinik, Differentialdiagnosen, Diagnostik und altersabhängige Therapie sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -6779,7 +7433,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.1 (Osteochondrose), S. 183–186. Ätiologie, Lokalisationsverteilung, Klinik und Therapie sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["moritz"],
     relatedAnatomyIds: [],
   },
   {
@@ -6813,7 +7467,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.2–8.2.4 (Panosteitis, Hypertrophe Osteodystrophie, Retinierte Knorpelzapfen), S. 186–189. Ätiologie, Klinik und Therapie sind im Original so beschrieben; konkrete Medikamenten-Dosierungen wurden bewusst nicht übernommen.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["balthasar"],
     relatedAnatomyIds: [],
   },
   {
@@ -6913,7 +7567,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "vorschnelle Diagnose", "Befund überbewertet"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.2.7–8.2.8 (Knochentumoren, Gelenktumoren), S. 192–194. Ätiologie, Klinik, Diagnostik und Prognoseangaben sind im Original so beschrieben.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["leo"],
     relatedAnatomyIds: [],
   },
   {
@@ -7198,7 +7852,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "falsche Priorisierung"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.9 (Hüftgelenkdysplasie und Coxarthrose), S. 209–216. Ätiologie, Genetik, Klinik, radiologische Zeichen und Therapieoptionen sind im Original so beschrieben.",
-    relatedCaseIds: ["luna"],
+    relatedCaseIds: ["luna", "theo", "frieda"],
     relatedAnatomyIds: ["huefte", "iliopsoas"],
   },
   {
@@ -7679,7 +8333,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.6 (Zervikaler Bandscheibenvorfall), S. 234. Ätiologie, Klinik, Bildgebung und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.6, Kap. 7.10.2) um die krankheitsspezifische klinische Tiefe aus Kapitel 9.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["gustav"],
     relatedAnatomyIds: ["discus", "rueckenmark"],
   },
   {
@@ -7728,7 +8382,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet", "falsche Priorisierung", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.7 (Plexusschaden an der Vordergliedmaße), S. 234–236. Klinik, Differentialdiagnosen, Diagnostik und Therapie sind im Original so beschrieben. Kap. 9 endet danach mit dem Literaturverzeichnis (9.8). Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.7, Kap. 7.10.2) sowie den Seddon-Klassifikations-Eintrag (VetCenter-Quelle) um die krankheitsspezifische klinische Tiefe aus Kapitel 9. Ergänzt am 02.10.2026 um die Drei-Formen-Unterscheidung (kranialer/kaudaler partieller Abriss, kompletter Abriss) samt Nervenzuordnung, Analgesiezonen, Pannikulusreflex- und Horner-Syndrom-Häufigkeit sowie differenzierter Prognose und 2–6-Monats-Prognosefenster: Hundekrankheiten kompakt, Kap. „Neurologische Erkrankungen” (Enke Verlag, 1. Auflage 2014, vetcenter.thieme.de), Abschnitt „Plexus-brachialis-Abriss beim Hund”, per Google-Drive-Volltextextraktion ausgewertet. Im Original so beschrieben; nicht übernommen wurden die rein chirurgischen Therapieoptionen (Bizepssehnentransposition, Karpalarthrodese, Neurotisation), da diese außerhalb des physiotherapeutischen Handlungsspielraums liegen, den dieser Eintrag mit Koch/Fischer bereits abbildet.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["charlie"],
     relatedAnatomyIds: [],
   },
   {
@@ -12052,7 +12706,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Wirbelsäulenerkrankungen (vetcenter.thieme.de), Abschnitt Kompressionssyndrom der kaudalen Halswirbelsäule (kaudale zervikale Spondylomyelopathie, canines Wobbler-Syndrom). Die zwei rassetypischen Entstehungsmechanismen (Deutsche Dogge vs. Dobermann), die Symptomprogression von hinten nach vorne mit dem Nervenwurzelzeichen, die Differentialdiagnosen bei Junghunden sowie das Konzept der dynamischen, nur unter Stressaufnahme sichtbaren Kompression sind in der Quelle so beschrieben. Ergänzt den bestehenden Übersichtseintrag `neurologische-erkrankungen-rueckenmark-periphere-nerven` (dort nur Kurzbefund) sowie den Hansen-Klassifikations-Eintrag (Nervenwurzelzeichen) um die krankheitsspezifische Tiefe.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["zeus"],
     relatedAnatomyIds: ["rueckenmark"],
   },
   {
@@ -12585,7 +13239,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Befund übersehen", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Kontraktur des Musculus infraspinatus beim Hund“. Pathogenese, typischer Vorbericht, die charakteristische Gliedmaßenfehlhaltung, Palpationsbefunde (inkl. sekundärer Inaktivitätsatrophie von M. supraspinatus und M. deltoideus), Differentialdiagnose, Diagnosesicherung, Therapie (Tenotomie) und Prognose sind in der Quelle so beschrieben. Erweitert die bisher nur einzeilige `clinicalRelevance`-Erwähnung im bestehenden Anatomie-Item `infraspinatus` (aus Hárrer, Kap. 12) um das vollständige Krankheitsbild.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["anton"],
     relatedAnatomyIds: ["infraspinatus"],
   },
   {
@@ -12619,7 +13273,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "Befund übersehen"],
     sourceStatus:
       "Verifiziert: VetCenter, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates (vetcenter.thieme.de), Abschnitt „Osteochondrosis dissecans im Schultergelenk beim Hund“. Definition/Pathogenese (inkl. Gelenkmaus-Entstehung und Bizepssehnenscheiden-Beteiligung), Rasseprädispositionen, Symptome, Differentialdiagnosen, Diagnosesicherung und die altersabhängige Therapie mit Prognose sind in der Quelle so beschrieben. Eigenständiges Krankheitsbild, nicht zu verwechseln mit der allgemeinen OC/OCD-Pathogenese aus Koch/Fischer bzw. Hohmann oder der OCD als Ellbogendysplasie-Differential — dieser Eintrag behandelt speziell die Schultergelenk-Manifestation.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["jonas"],
     relatedAnatomyIds: [],
   },
   {
@@ -14467,7 +15121,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["vorschnelle Diagnose", "Befund übersehen", "Unterkonfidenz"],
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 3.12.3–3.12.4 (Es gibt keine „klinisch inapparente HD“, Schmerzvermeidungsstrategie bei angeborenen Gelenkerkrankungen), S. 45–47 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(5)–g(18).pdf). Die Argumentation gegen den Begriff „klinisch inapparente HD“, die Giuliano-Knorpelqualitäts-Hypothese, der Engrammbildungs-Mechanismus, die Lateralisierungs-Schwelle für sichtbare Lahmheit, die Statistik zur späten Vorstellung (>50 % erst im 4.–8. Lebensjahr) sowie die Screening-Empfehlungen (Kibler'sche Hautfalte, Köppel'sches Frühdiagnose-Fenster 16.–20. Lebenswoche) sind im Original so beschrieben. Hinweis zur Extraktion: Ein inhaltlich weitgehend deckungsgleicher Absatz über junge Tiere/Übermotivation/soziale Isolation erschien im extrahierten Rohtext am Kapitelübergang 3.12.3/3.12.4 zweifach (vermutlich ein Spaltenreihenfolge-Artefakt der PDF-Extraktion) — hier nur einmal, nicht dupliziert wiedergegeben. Ergänzt den bestehenden Eintrag `schmerzreise-hd-knie-sig-lsue-kaskade` (dieselbe Quelle) um die Erklärung, warum die dort beschriebene Kaskade oft über Jahre unbemerkt bleibt.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["theo"],
     relatedAnatomyIds: ["huefte"],
   },
   {
@@ -17432,7 +18086,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "falsche Priorisierung", "Faktenwissen", "Befund überbewertet"],
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.1.1 (Rasse und Verwendungszweck), S. 51–52 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk g(19).pdf). Das Über-/Unterforderungskonzept, die Kritik an unkritischen Rassetabellen (inkl. HD-Vorröntgen-Verzerrung), das Schonungsparadox mit dem Dackel-Beispiel, die Kappenhüfte-Kritik sowie die übrigen genannten Rassebeispiele (Schäferhund, Cavalier King Charles, Französische Bulldogge) sind im Original so beschrieben. Ergänzt gezielt die bestehenden Einträge `geschlechtsspezifische-segmentpraedispositionen-signalement` und `alter-gewicht-schmerzregulation-signalement` (dieselbe Quelle, Kap. 4.1.2–4.1.4) um die bisher fehlende erste Signalement-Dimension (4.1.1) — damit ist Kap. 4.1 „Nationale (Signalement)“ dieser Quelle vollständig ausgewertet.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["frieda"],
     relatedAnatomyIds: [],
   },
   {
