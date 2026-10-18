@@ -30,3 +30,21 @@ export async function setContentStatus(kind: ContentKind, id: string, status: "D
   revalidatePath("/review");
   revalidatePath("/dashboard");
 }
+
+export async function bulkSetContentStatus(kind: ContentKind, ids: string[], status: "DRAFT" | "APPROVED") {
+  await requireReviewer();
+  if (ids.length === 0) return;
+
+  if (kind === "case") {
+    await prisma.case.updateMany({ where: { id: { in: ids } }, data: { status } });
+  } else if (kind === "anatomy") {
+    await prisma.anatomyItem.updateMany({ where: { id: { in: ids } }, data: { status } });
+  } else if (kind === "knowledge") {
+    await prisma.knowledgeEntry.updateMany({ where: { id: { in: ids } }, data: { status } });
+  } else {
+    await prisma.mediaAsset.updateMany({ where: { id: { in: ids } }, data: { status } });
+  }
+
+  revalidatePath("/review");
+  revalidatePath("/dashboard");
+}
