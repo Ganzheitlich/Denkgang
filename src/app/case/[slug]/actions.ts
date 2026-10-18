@@ -3,7 +3,7 @@
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { computeNextReviewDate, type Difficulty } from "@/lib/spacing";
-import { findKnowledgeForCase, type KnowledgeSuggestion } from "@/lib/knowledge";
+import { findKnowledgeForCase } from "@/lib/knowledge";
 import { redirect } from "next/navigation";
 
 async function requireUserId() {
@@ -81,15 +81,17 @@ export async function resolveCase(
   const weakeningCorrectLabel = c.weakeningOptions.find((o) => o.isCorrect)?.label ?? "";
   const weakeningCorrect = c.weakeningOptions[weakeningChoiceIndex]?.isCorrect ?? false;
 
-  let relatedKnowledge: KnowledgeSuggestion[] | null = null;
-  if (!primaryCorrect) {
-    const errorCategories: string[] = includedButNotPrimary
+  // Bei richtiger Antwort kein Fehlerkategorie-Fallback nötig — findKnowledgeForCase
+  // liefert dann ausschliesslich die direkt mit dem Fall verknuepften Eintraege
+  // (zum Vertiefen), ohne ueber Fehlerkategorien nach Ersatztreffern zu suchen.
+  const errorCategories: string[] = primaryCorrect
+    ? []
+    : includedButNotPrimary
       ? ["falsche Priorisierung"]
       : [primaryOption?.errorCategory, "Differentialdiagnostik unvollständig"].filter(
           (v): v is string => Boolean(v),
         );
-    relatedKnowledge = await findKnowledgeForCase(caseId, errorCategories);
-  }
+  const relatedKnowledge = await findKnowledgeForCase(caseId, errorCategories);
 
   return {
     primaryCorrect,

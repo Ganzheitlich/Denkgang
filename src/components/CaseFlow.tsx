@@ -547,7 +547,9 @@ export function CaseFlow({
               <div style={{ marginTop: 8 }}>{resolveData.expertNote}</div>
               <div className="source-note">{resolveData.sourceStatus}</div>
             </div>
-            {resolveData.relatedKnowledge && <KnowledgeCta suggestions={resolveData.relatedKnowledge} />}
+            {resolveData.relatedKnowledge && (
+              <KnowledgeCta suggestions={resolveData.relatedKnowledge} correct={resolveData.primaryCorrect} />
+            )}
             <div className="calib-note">{calibrationLine(resolveData.primaryCorrect)}</div>
             <div className="calib-note" style={{ marginTop: 8 }}>
               Zur Differentialfrage:{" "}

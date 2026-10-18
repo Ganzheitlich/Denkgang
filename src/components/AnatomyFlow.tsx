@@ -146,7 +146,7 @@ export function AnatomyFlow({ anatomyData: a }: { anatomyData: ClientAnatomy }) 
           </div>
           {result.relatedKnowledge && (
             <div style={{ marginBottom: 16 }}>
-              <KnowledgeCta suggestions={result.relatedKnowledge} />
+              <KnowledgeCta suggestions={result.relatedKnowledge} correct={result.correct} />
             </div>
           )}
           <div className="btn-row">

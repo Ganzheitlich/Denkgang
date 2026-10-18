@@ -19,10 +19,7 @@ export async function checkTransferChoice(anatomyId: string, index: number) {
   const correctIndex = a.transferOptions.findIndex((o) => o.isCorrect);
   const correct = a.transferOptions[index].isCorrect;
 
-  let relatedKnowledge: KnowledgeSuggestion[] | null = null;
-  if (!correct) {
-    relatedKnowledge = await findKnowledgeForAnatomy(anatomyId);
-  }
+  const relatedKnowledge: KnowledgeSuggestion[] = await findKnowledgeForAnatomy(anatomyId);
 
   return {
     correct,
