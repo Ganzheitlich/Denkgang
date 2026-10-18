@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { auth } from "@/auth";
 import { getAnatomyForTutor } from "@/lib/queries";
 import { buildAnatomyTutorSystemPrompt } from "@/lib/anatomyTutorPrompt";
+import { isRateLimited } from "@/lib/rateLimit";
 
 /**
  * Serverseitiger Anthropic-Proxy fuer den Anatomie-Tutor (mehrstufiger Dialog):
@@ -14,6 +15,8 @@ type ChatMessage = { role: "user" | "assistant"; content: string };
 
 const MAX_HISTORY = 40;
 const MAX_MESSAGE_LENGTH = 2000;
+const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000;
+const RATE_LIMIT_MAX_REQUESTS = 60;
 
 function isChatMessage(value: unknown): value is ChatMessage {
   if (!value || typeof value !== "object") return false;
@@ -25,6 +28,10 @@ export async function POST(request: Request, { params }: RouteContext<"/api/anat
   const session = await auth();
   if (!session?.user) {
     return NextResponse.json({ error: "Nicht angemeldet." }, { status: 401 });
+  }
+
+  if (isRateLimited(`anatomy-tutor:${session.user.id}`, RATE_LIMIT_WINDOW_MS, RATE_LIMIT_MAX_REQUESTS)) {
+    return NextResponse.json({ error: "Zu viele Anfragen. Bitte in ein paar Minuten erneut versuchen." }, { status: 429 });
   }
 
   const { slug } = await params;

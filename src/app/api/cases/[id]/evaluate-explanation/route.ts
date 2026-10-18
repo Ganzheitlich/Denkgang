@@ -1,20 +1,31 @@
 import { NextResponse } from "next/server";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
+import { isRateLimited } from "@/lib/rateLimit";
 
 /**
  * Serverseitiger Ersatz fuer den Client-Fetch im Prototyp: der Anthropic-Key
  * bleibt hier und wird nie an den Browser ausgeliefert.
  */
+
+const MAX_EXPLANATION_LENGTH = 2000;
+const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000;
+const RATE_LIMIT_MAX_REQUESTS = 30;
+
 export async function POST(request: Request, { params }: RouteContext<"/api/cases/[id]/evaluate-explanation">) {
   const session = await auth();
   if (!session?.user) {
     return NextResponse.json({ error: "Nicht angemeldet." }, { status: 401 });
   }
 
+  if (isRateLimited(`evaluate-explanation:${session.user.id}`, RATE_LIMIT_WINDOW_MS, RATE_LIMIT_MAX_REQUESTS)) {
+    return NextResponse.json({ error: "Zu viele Anfragen. Bitte in ein paar Minuten erneut versuchen." }, { status: 429 });
+  }
+
   const { id } = await params;
   const body = await request.json().catch(() => null);
-  const explanation = typeof body?.explanation === "string" ? body.explanation.trim() : "";
+  const explanation =
+    typeof body?.explanation === "string" ? body.explanation.trim().slice(0, MAX_EXPLANATION_LENGTH) : "";
   if (!explanation) {
     return NextResponse.json({ error: "Keine Begründung übermittelt." }, { status: 400 });
   }
