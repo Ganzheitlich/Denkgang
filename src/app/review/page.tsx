@@ -2,6 +2,7 @@ import Link from "next/link";
 import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
 import { KNOWLEDGE_CATEGORIES, KNOWLEDGE_CATEGORY_LABELS, isKnowledgeCategory } from "@/lib/knowledgeCategories";
+import { CASE_DIFFICULTY_LABELS } from "@/lib/caseDifficulty";
 import { ReviewList, type ReviewItem } from "@/components/ReviewList";
 import type { ContentStatus, KnowledgeCategory } from "@/generated/prisma/enums";
 
@@ -53,7 +54,7 @@ async function loadCases(where: { status?: ContentStatus; q?: string }, page: nu
     id: c.id,
     title: c.title,
     href: `/review/case/${c.id}`,
-    meta: c.topic,
+    meta: `${c.topic} · ${CASE_DIFFICULTY_LABELS[c.difficulty]}`,
     status: c.status,
     thumbUrl: c.einstiegsbildUrl,
   }));

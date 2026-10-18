@@ -45,34 +45,41 @@ enum ContentStatus {
   APPROVED
 }
 
+enum CaseDifficulty {
+  EINSTEIGER
+  FORTGESCHRITTEN
+  EXPERTE
+}
+
 // ---------- Fälle ----------
 
 model Case {
-  id                String        @id @default(cuid())
-  slug              String        @unique
+  id                String         @id @default(cuid())
+  slug              String         @unique
+  difficulty        CaseDifficulty @default(FORTGESCHRITTEN)
   topic             String
   species           String
   title             String
-  status            ContentStatus @default(DRAFT)
-  learningObjective String        @db.Text
-  anamnese          String        @db.Text
-  beobachtung       String        @db.Text
-  diagramLabel      String        @db.Text
-  palpation         String        @db.Text
-  hypothesisQ       String        @db.Text
-  expertNote        String        @db.Text
-  weakeningQ        String        @db.Text
-  retrievalQ        String        @db.Text
-  sourceStatus      String        @db.Text
-  einstiegsbildUrl  String?       @db.Text
-  befundbildUrl     String?       @db.Text
+  status            ContentStatus  @default(DRAFT)
+  learningObjective String         @db.Text
+  anamnese          String         @db.Text
+  beobachtung       String         @db.Text
+  diagramLabel      String         @db.Text
+  palpation         String         @db.Text
+  hypothesisQ       String         @db.Text
+  expertNote        String         @db.Text
+  weakeningQ        String         @db.Text
+  retrievalQ        String         @db.Text
+  sourceStatus      String         @db.Text
+  einstiegsbildUrl  String?        @db.Text
+  befundbildUrl     String?        @db.Text
 
-  createdById String?
-  createdBy   User?   @relation("CaseCreatedBy", fields: [createdById], references: [id])
+  createdById  String?
+  createdBy    User?   @relation("CaseCreatedBy", fields: [createdById], references: [id])
   reviewedById String?
-  reviewedBy   User?  @relation("CaseReviewedBy", fields: [reviewedById], references: [id])
+  reviewedBy   User?   @relation("CaseReviewedBy", fields: [reviewedById], references: [id])
 
-  createdAt DateTime @updatedAt @default(now())
+  createdAt DateTime @default(now()) @updatedAt
   updatedAt DateTime @updatedAt
 
   hypothesisOptions CaseHypothesisOption[]
@@ -86,39 +93,39 @@ model Case {
 }
 
 model CaseHypothesisOption {
-  id                          String   @id @default(cuid())
-  caseId                      String
-  case                        Case     @relation(fields: [caseId], references: [id], onDelete: Cascade)
-  sortOrder                   Int
-  label                       String   @db.Text
-  isCorrect                   Boolean
-  errorCategory               String?
-  arguesAgainst               String?  @db.Text
-  differentiationDistractors  String[]
+  id                         String   @id @default(cuid())
+  caseId                     String
+  case                       Case     @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  sortOrder                  Int
+  label                      String   @db.Text
+  isCorrect                  Boolean
+  errorCategory              String?
+  arguesAgainst              String?  @db.Text
+  differentiationDistractors String[]
 
   @@index([caseId])
 }
 
 model CaseWeakeningOption {
-  id             String  @id @default(cuid())
-  caseId         String
-  case           Case    @relation(fields: [caseId], references: [id], onDelete: Cascade)
-  sortOrder      Int
-  label          String  @db.Text
-  isCorrect      Boolean
-  errorCategory  String?
+  id            String  @id @default(cuid())
+  caseId        String
+  case          Case    @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  sortOrder     Int
+  label         String  @db.Text
+  isCorrect     Boolean
+  errorCategory String?
 
   @@index([caseId])
 }
 
 model CaseRetrievalOption {
-  id             String  @id @default(cuid())
-  caseId         String
-  case           Case    @relation(fields: [caseId], references: [id], onDelete: Cascade)
-  sortOrder      Int
-  label          String  @db.Text
-  isCorrect      Boolean
-  errorCategory  String?
+  id            String  @id @default(cuid())
+  caseId        String
+  case          Case    @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  sortOrder     Int
+  label         String  @db.Text
+  isCorrect     Boolean
+  errorCategory String?
 
   @@index([caseId])
 }
@@ -169,12 +176,12 @@ model AnatomyItem {
 }
 
 model AnatomyTransferOption {
-  id            String      @id @default(cuid())
-  anatomyId     String
-  anatomy       AnatomyItem @relation(fields: [anatomyId], references: [id], onDelete: Cascade)
-  sortOrder     Int
-  label         String      @db.Text
-  isCorrect     Boolean
+  id        String      @id @default(cuid())
+  anatomyId String
+  anatomy   AnatomyItem @relation(fields: [anatomyId], references: [id], onDelete: Cascade)
+  sortOrder Int
+  label     String      @db.Text
+  isCorrect Boolean
 
   @@index([anatomyId])
 }

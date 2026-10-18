@@ -20,6 +20,7 @@ export default async function CasePage({ params }: PageProps<"/case/[slug]">) {
         initialExamOrderStreak={user?.examOrderStreak ?? 0}
         caseData={{
           id: caseData.id,
+          difficulty: caseData.difficulty,
           topic: caseData.topic,
           species: caseData.species,
           title: caseData.title,

@@ -22,8 +22,11 @@ type SimpleOption = {
   errorCategory?: string;
 };
 
+type CaseDifficultySeed = "EINSTEIGER" | "FORTGESCHRITTEN" | "EXPERTE";
+
 type CaseSeed = {
   id: string;
+  difficulty: CaseDifficultySeed;
   topic: string;
   species: string;
   title: string;
@@ -94,6 +97,7 @@ type KnowledgeSeed = {
 const CASES: CaseSeed[] = [
   {
     id: "rocky",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Vordergliedmaße",
     species: "Hund, Labrador, 4 J.",
     title: "Rocky — unklares Hinken vorne rechts",
@@ -168,6 +172,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "nala",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Verhalten × Schmerz · Wirbelsäule",
     species: "Mischling, 6 J.",
     title: "Nala — zunehmend gereizt beim Anleinen",
@@ -244,6 +249,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "bruno",
+    difficulty: "EINSTEIGER",
     topic: "Rehabilitation · Knie postoperativ",
     species: "Border Collie, 3 J.",
     title: "Bruno — 6 Wochen nach TPLO-Operation",
@@ -323,6 +329,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "luna",
+    difficulty: "EINSTEIGER",
     topic: "Orthopädie · Hüfte (Wachstumsalter)",
     species: "Deutsche Dogge, 8 Monate",
     title: "Luna — auffälliges Gangbild bei einer jungen Dogge",
@@ -394,6 +401,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "findus",
+    difficulty: "EINSTEIGER",
     topic: "Ernährung × Bewegungsapparat",
     species: "Mischling, 7 J., übergewichtig",
     title: "Findus — schleichende Bewegungsunlust",
@@ -473,6 +481,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "emma",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Weichteilgewebe · Hüfte/Iliopsoas",
     species: "Border Collie, 5 J., Agility-Hund",
     title: "Emma — Zurückhaltung bei engen Wendungen",
@@ -549,6 +558,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "baer",
+    difficulty: "EINSTEIGER",
     topic: "Geriatrie · Wirbelsäule",
     species: "Deutscher Schäferhund, 9 J., normalgewichtig",
     title: "Bär — zunehmende Morgensteifheit",
@@ -627,6 +637,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "filou",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Neurologie · Notfall-Erkennung",
     species: "Dackel, 6 J.",
     title: "Filou — plötzliche Hinterhand-Schwäche",
@@ -706,6 +717,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "balu",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Sprunggelenk/Fersensehne",
     species: "Dobermann, 5 J.",
     title: "Balu — plötzlich plantigrader Gang nach einem Sprung",
@@ -791,6 +803,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "rex",
+    difficulty: "EINSTEIGER",
     topic: "Orthopädie · Ellbogen (Wachstumsalter)",
     species: "Deutscher Schäferhund, Rüde, 5 Mon.",
     title: "Rex — Vorderbeinlahmheit beim Junghund",
@@ -861,6 +874,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "greta",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Hinterhand/Oberschenkel (Hamstrings)",
     species: "Deutscher Schäferhund, Hündin, 3 J.",
     title: "Greta — zunehmend kurzer, auswärts drehender Schritt hinten",
@@ -943,6 +957,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "nero",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Becken/Iliosakralgelenk",
     species: "Border Collie, Rüde, 4 J.",
     title: "Nero — steifer Rücken nach einem Hürdensprung",
@@ -1014,6 +1029,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "paco",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Neurologie · Obere Halswirbelsäule (Notfall-Erkennung)",
     species: "Chihuahua, Rüde, 8 Mon.",
     title: "Paco — steifer Nacken nach einem Sprung von der Couch",
@@ -1091,6 +1107,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "mio",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Rippen/Brustwirbelsäule",
     species: "Jack Russell Terrier, Rüde, 6 J.",
     title: "Mio — zögerlicher beim Flyball-Training",
@@ -1164,6 +1181,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "lotte",
+    difficulty: "EINSTEIGER",
     topic: "Orthopädie · Knie/Patella (Kleinrasse)",
     species: "Zwergspitz, Hündin, 2 J.",
     title: "Lotte — gelegentlicher Hüpfschritt hinten links",
@@ -1241,6 +1259,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "theo",
+    difficulty: "EINSTEIGER",
     topic: "Orthopädie · Hüfte (lange unerkannt)",
     species: "Golden Retriever, Rüde, 6 J.",
     title: "Theo — seit Jahren „schon immer so”, jetzt zunehmend lahm",
@@ -1316,6 +1335,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "frieda",
+    difficulty: "EINSTEIGER",
     topic: "Orthopädie · Hüfte (chondrodystrophe Rasse)",
     species: "Dackel, Hündin, 14 Monate",
     title: "Frieda — „sie wurde immer geschont”, jetzt staksiger Gang hinten",
@@ -1390,6 +1410,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "moritz",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Sprunggelenk (Wachstumsalter)",
     species: "Berner Sennenhund, Rüde, 5 Monate",
     title: "Moritz — steifer Start, beidseitig geschwollene Sprunggelenke",
@@ -1455,6 +1476,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "balthasar",
+    difficulty: "EINSTEIGER",
     topic: "Orthopädie · Wachstumserkrankungen (Röhrenknochen)",
     species: "Bernhardiner, Rüde, 7 Monate",
     title: "Balthasar — wandernde Lahmheit ohne Schwellung",
@@ -1517,6 +1539,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "gustav",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Neurologie · Halswirbelsäule (Bandscheibe)",
     species: "Französische Bulldogge, Rüde, 6 J.",
     title: "Gustav — steifer Gang mit tief gehaltenem Kopf",
@@ -1585,6 +1608,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "charlie",
+    difficulty: "EXPERTE",
     topic: "Neurologie · Plexus brachialis (Trauma)",
     species: "Mischling, 3 J.",
     title: "Charlie — schlaff herabhängendes Vorderbein nach Autounfall",
@@ -1649,6 +1673,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "zeus",
+    difficulty: "EXPERTE",
     topic: "Neurologie · Kaudale Halswirbelsäule (Wobbler-Syndrom)",
     species: "Dobermann, Rüde, 6 J.",
     title: "Zeus — zunehmend unsicherer Gang, zuerst nur hinten",
@@ -1710,6 +1735,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "anton",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Schulter (Weichteilkontraktur)",
     species: "Deutsch Kurzhaar, Rüde, 5 J.",
     title: "Anton — seltsam nach außen gedrehtes Vorderbein nach der Jagd",
@@ -1769,6 +1795,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "leo",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Knie (Tumor-Differenzierung)",
     species: "Rottweiler, Rüde, 8 J.",
     title: "Leo — fortschreitende Lahmheit, die wie ein Kreuzbandriss wirkt",
@@ -1837,6 +1864,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "jonas",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Schulter (Wachstumsalter)",
     species: "Neufundländer, Rüde, 6 Monate",
     title: "Jonas — diskrete, aber beidseitige Vorderhandlahmheit im Wachstum",
@@ -1895,6 +1923,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "molly",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Hüfte (Femurkopfnekrose, Kleinrasse)",
     species: "West Highland White Terrier, Hündin, 7 Monate",
     title: "Molly — seit Wochen leicht lahm auf einem Hinterbein",
@@ -1961,6 +1990,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "hugo",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Neurologie · Degenerative Myelopathie (Geriatrie)",
     species: "Deutscher Schäferhund, Rüde, 9 J.",
     title: "Hugo — schleichende, schmerzlose Hinterhandschwäche",
@@ -2029,6 +2059,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "enzo",
+    difficulty: "EXPERTE",
     topic: "Neurologie · Rückenmarksinfarkt (perakut)",
     species: "Weimaraner, Rüde, 3 J.",
     title: "Enzo — beim Spielen plötzlich mit der Hinterhand eingeknickt",
@@ -2098,6 +2129,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "ronja",
+    difficulty: "EXPERTE",
     topic: "Neurologie · Periphere Polyneuropathie (aufsteigend)",
     species: "Beagle, Hündin, 4 J.",
     title: "Ronja — binnen zwei Tagen von hinten nach vorne schwächer geworden",
@@ -2159,6 +2191,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "benno",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Ellbogen (Wachstumsfugendefekt)",
     species: "Cocker Spaniel, Rüde, 6 J.",
     title: "Benno — nach einem harmlosen Sprung plötzlich hochgradig lahm",
@@ -2220,6 +2253,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "lumpi",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Karpus (chronische Degeneration)",
     species: "Shetland Sheepdog, Hündin, 8 J.",
     title: "Lumpi — läuft zunehmend flach auf der Handwurzel",
@@ -2288,6 +2322,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "rocco",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Knie (Postoperative Kontraindikation)",
     species: "Dalmatiner, Rüde, 7 Monate",
     title: "Rocco — zunehmend steifes Knie nach Oberschenkelfraktur",
@@ -2357,6 +2392,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "mathilda",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Multiple Gelenke (Polyarthritis)",
     species: "Cavalier King Charles Spaniel, Hündin, 5 J.",
     title: "Mathilda — steifer Gang an mehreren Beinen gleichzeitig, mit Fieber",
@@ -2418,6 +2454,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "diesel",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Zehe/Mittelfuß (Sesambein)",
     species: "Boxer, Rüde, 4 J.",
     title: "Diesel — milde Lahmheit nach intensivem Training",
@@ -2487,6 +2524,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "wanda",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Neurologie · Lumbosakrale Stenose (Cauda-equina-Syndrom)",
     species: "Deutscher Schäferhund, Hündin, 8 J.",
     title: "Wanda — schmerzhafte Rute, Mühe beim Treppensteigen",
@@ -2552,6 +2590,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "cooper",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Knie (postoperative Komplikation)",
     species: "Australian Shepherd, Rüde, 2 J.",
     title: "Cooper — Zehen bleiben nach Kreuzband-OP überstreckt",
@@ -2613,6 +2652,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "otto",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Knocheninfektion (postoperativ)",
     species: "Riesenschnauzer, Rüde, 5 J.",
     title: "Otto — Wunde heilt nach Fraktur-OP nicht richtig ab",
@@ -2678,6 +2718,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "finn",
+    difficulty: "EXPERTE",
     topic: "Neurologie · Wirbelsäuleninfektion (Diskospondylitis)",
     species: "Irish Setter, Rüde, 4 J.",
     title: "Finn — Rückenschmerz und Fieberschübe, Ursache zunächst unklar",
@@ -2743,6 +2784,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "zoe",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Karpus (Nerv-vs-Gelenk-Differenzierung)",
     species: "Magyar Vizsla, Hündin, 4 J.",
     title: "Zoe — Karpusschmerz bei der Agility-Hündin, aber keine echte Gelenkblockade",
@@ -2808,6 +2850,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "toni",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Becken/Oberschenkel (Nervenverlauf)",
     species: "Appenzeller Sennenhund, Rüde, 5 J.",
     title: "Toni — Gesäßschmerz, den der Besitzer als „Piriformis-Syndrom” googelte",
@@ -2879,6 +2922,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "milo",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Karpus (Sehnenscheidenentzündung)",
     species: "Flat Coated Retriever, Rüde, 5 J.",
     title: "Milo — feste Schwellung medial am Carpus, kaum schmerzhaft",
@@ -2943,6 +2987,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "caesar",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Multiple Gliedmaßen (Paraneoplastisches Syndrom)",
     species: "Beauceron, Rüde, 9 J.",
     title: "Caesar — schmerzhafte Schwellungen an allen vier Pfoten",
@@ -3000,6 +3045,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "paula",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Zehen (Beknabbern, Differentialdiagnostik)",
     species: "Großer Münsterländer, Hündin, 6 J.",
     title: "Paula — beknabbert ständig dieselbe Pfote",
@@ -3061,6 +3107,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "caruso",
+    difficulty: "EINSTEIGER",
     topic: "Neurologie · Vestibulärapparat (Geriatrie)",
     species: "Großpudel, Rüde, 11 J.",
     title: "Caruso — plötzlicher Kopfschiefstand über Nacht",
@@ -3119,6 +3166,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "max",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Lendenwirbelsäule (Facettengelenke)",
     species: "Deutscher Schäferhund, Rüde, 6 J.",
     title: "Max — chronischer, diffuser Rückenschmerz ohne erkennbare Ursache",
@@ -3182,6 +3230,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "fritz",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Ellbogen/Unterarm (Wachstumsfugenstörung)",
     species: "Basset Hound, Rüde, 5 Monate",
     title: "Fritz — zunehmend nach außen gedrehte Vorderpfote",
@@ -3243,6 +3292,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "nelly",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Ellbogen (Sehnenverknöcherung)",
     species: "Airedale Terrier, Hündin, 8 Monate",
     title: "Nelly — steife, staksige Vordergliedmaße ohne klaren Befund",
@@ -3303,6 +3353,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "senta",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Neurologie · Thorakolumbale Bandscheibe (chronischer Verlauf)",
     species: "Labrador Retriever, Hündin, 9 J.",
     title: "Senta — seit Monaten langsam zunehmende Hinterhandschwäche",
@@ -3370,6 +3421,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "felix",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Neurologie · Schädel-Hirn-Trauma",
     species: "Mischling, Rüde, 4 J.",
     title: "Felix — nach Autounfall zunächst stabil, dann plötzlich schläfrig",
@@ -3434,6 +3486,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "carlo",
+    difficulty: "EXPERTE",
     topic: "Neurologie · Wirbelsäulentrauma (Prognoseeinschätzung)",
     species: "Mittelschnauzer, Rüde, 5 J.",
     title: "Carlo — Wirbelfraktur im Röntgenbild, aber nur milde Lähmungserscheinungen",
@@ -3497,6 +3550,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "bella",
+    difficulty: "EXPERTE",
     topic: "Neurologie · Periphere Nervenlähmung (iatrogen)",
     species: "Mops, Hündin, 6 J.",
     title: "Bella — Fuß nach Injektion plötzlich gelähmt",
@@ -3561,6 +3615,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "balto",
+    difficulty: "EXPERTE",
     topic: "Neurologie · Plexus brachialis (vollständiger Wurzelabriss)",
     species: "Siberian Husky, Rüde, 2 J.",
     title: "Balto — schlaffes Bein, hängendes Augenlid, nach Sturz vom Anhänger",
@@ -3629,6 +3684,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "timmy",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Neurologie · Untersuchungstechnik (Höhenlokalisation)",
     species: "Malteser, Rüde, 6 J.",
     title: "Timmy — Rückenschmerz, aber wo genau sitzt das Problem?",
@@ -3690,6 +3746,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "fu",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Multiple Gelenke (Rassespezifisches Fiebersyndrom)",
     species: "Shar Pei, Rüde, 2 J.",
     title: "Fu — wiederkehrende Fieberschübe mit geschwollenen Sprunggelenken",
@@ -3747,6 +3804,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "ginger",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Zehen (übersehene Schmerzquelle, Geriatrie)",
     species: "Border Terrier, Hündin, 10 J.",
     title: "Ginger — „therapieresistente” Lahmheit, die niemand an den Zehen vermutete",
@@ -3811,6 +3869,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "buddy",
+    difficulty: "EINSTEIGER",
     topic: "Orthopädie · Rute (akute Differentialdiagnose)",
     species: "Labrador Retriever, Rüde, 3 J.",
     title: "Buddy — nach langem Schwimmen hängt die Rute plötzlich schlaff",
@@ -3872,6 +3931,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "mila",
+    difficulty: "EXPERTE",
     topic: "Orthopädie · Iliosakralgelenk (Blockierung)",
     species: "Epagneul Breton, Hündin, 4 J.",
     title: "Mila — Hangbeinlahmheit, die zyklusabhängig schwankt",
@@ -3937,6 +3997,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "hector",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie/Neurologie · Gangbildanalyse (Lahmheitsmuster)",
     species: "Cane Corso, Rüde, 5 J.",
     title: "Hector — hinkt, aber nicht bei jedem Schritt gleich",
@@ -3999,6 +4060,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "kira",
+    difficulty: "EINSTEIGER",
     topic: "Orthopädie · Hüfte (Frühdiagnostik beim Welpen)",
     species: "Rhodesian Ridgeback, Hündin, 18 Wochen",
     title: "Kira — unauffälliger Welpe, aber Röntgenkontrolle wegen Rassedisposition",
@@ -4056,6 +4118,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "mimi",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Untersuchung · Hautfaltenpalpation (Technikfalle)",
     species: "Zwergpudel, Hündin, 5 J.",
     title: "Mimi — auffällige Hautfalte über dem Kreuzbein, aber ist das pathologisch?",
@@ -4116,6 +4179,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "daisy",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Untersuchung · Segmentale Druckpunktpalpation (Fehlinterpretationsfalle)",
     species: "Bearded Collie, Hündin, 3 J.",
     title: "Daisy — Druckpunkt im „Nierensegment” positiv, aber harmlos?",
@@ -4177,6 +4241,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "mao",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Neurologie/Orthopädie · Brustwirbelsäule (akute Provokation)",
     species: "Pekinese, Rüde, 6 J.",
     title: "Mao — geht bei der Rückenuntersuchung plötzlich in die Knie",
@@ -4241,6 +4306,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "keera",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Hüfte (Muskelketten-Fehlbehandlung)",
     species: "Australian Kelpie, Hündin, 4 J.",
     title: "Keera — Glutealtraining ohne Erfolg",
@@ -4310,6 +4376,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "winston",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Orthopädie · Hinterpfote (Nervenhyperästhesie bei Rückenproblem)",
     species: "Chow Chow, Rüde, 7 J.",
     title: "Winston — beknabbert die Hinterpfote, hat aber auch Rückenprobleme",
@@ -4368,6 +4435,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "grete",
+    difficulty: "EINSTEIGER",
     topic: "Untersuchung · Schmerzskalen (Heimmonitoring chronischer Schmerz)",
     species: "Entlebucher Sennenhund, Hündin, 10 J.",
     title: "Grete — chronische Arthrose, wie überwachen die Besitzer den Verlauf zu Hause?",
@@ -4433,6 +4501,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "argos",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Therapie · Elektrostimulation (Nervenlähmung)",
     species: "Bordeaux Dogge, Rüde, 4 J.",
     title: "Argos — schlaffe Lähmung nach Trauma, welcher Strom jetzt?",
@@ -4501,6 +4570,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "nico",
+    difficulty: "EINSTEIGER",
     topic: "Therapie · Hochfrequenztherapie (Kontraindikation Metallimplantat)",
     species: "Whippet, Rüde, 5 J.",
     title: "Nico — TPLO-Platte im Bein, Physiotherapeutin erwägt Tiefenwärme",
@@ -4563,6 +4633,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "rosie",
+    difficulty: "EINSTEIGER",
     topic: "Therapie · Hydrotherapie (Kontraindikation Herzerkrankung)",
     species: "Cavalier King Charles Spaniel, Hündin, 9 J.",
     title: "Rosie — Mitralklappenerkrankung, Unterwasserlaufband geplant?",
@@ -4626,6 +4697,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "karl",
+    difficulty: "EINSTEIGER",
     topic: "Therapie · Neurodynamik (Timing nach Wirbelsäulen-OP)",
     species: "Zwergschnauzer, Rüde, 6 J.",
     title: "Karl — Bandscheiben-OP vor sechs Wochen, jetzt erst Bewegungstherapie?",
@@ -4690,6 +4762,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "stella",
+    difficulty: "EXPERTE",
     topic: "Therapie · Bewegungstherapie (PNF-Terminologie)",
     species: "Deutsch Drahthaar, Hündin, 3 J.",
     title: "Stella — Vorführen der Vorderextremität trainieren, aber mit welcher Bewegungsrichtung?",
@@ -4757,6 +4830,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "paul",
+    difficulty: "EINSTEIGER",
     topic: "Therapie · Postoperative Rehabilitation (Zeitfenster)",
     species: "Großer Schweizer Sennenhund, Rüde, 2 J.",
     title: "Paul — einen Tag nach der OP schon kräftig massiert",
@@ -4818,6 +4892,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "lady",
+    difficulty: "EINSTEIGER",
     topic: "Therapie · Postoperative Reha (Hüftgelenkdysplasie)",
     species: "Yorkshire Terrier, Hündin, 8 J.",
     title: "Lady — läuft nach der Hüft-OP erstaunlich gut auf drei Beinen, zu gut?",
@@ -4878,6 +4953,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "trudi",
+    difficulty: "EXPERTE",
     topic: "Therapie · Viszerale Massage (Kontraindikationsprüfung)",
     species: "Deutsche Bracke, Hündin, 11 J.",
     title: "Trudi — seit Tagen kein Kotabsatz, Kolonmassage angedacht",
@@ -4945,6 +5021,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "rico",
+    difficulty: "EINSTEIGER",
     topic: "Therapie · Ausrüstung (Brustgeschirr-Passform)",
     species: "Parson Russell Terrier, Rüde, 3 J.",
     title: "Rico — neues Geschirr, seitdem Rückenprobleme",
@@ -5005,6 +5082,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "fiete",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Therapie · Elektrotherapie (Gewöhnungseffekt)",
     species: "Hovawart, Rüde, 6 J.",
     title: "Fiete — nach sechs Tagen Reizstrom plötzlich keine Besserung mehr",
@@ -5064,6 +5142,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "fiona",
+    difficulty: "EXPERTE",
     topic: "Untersuchung · Kopfnerven (Horner-Syndrom-Muster)",
     species: "Malteser, Hündin, 6 J.",
     title: "Fiona — hängendes Augenlid, aber wo liegt die Ursache?",
@@ -5130,6 +5209,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "jack",
+    difficulty: "EXPERTE",
     topic: "Pathologie · Nervenverletzung (Seddon-Klassifikation)",
     species: "Mischling, Rüde, 2 J.",
     title: "Jack — tiefe Bissverletzung am Oberschenkel, wie ist die Prognose?",
@@ -5192,6 +5272,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "lupo",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Pathologie · Neurologische Lokalisation (UMN/OMN-Unterscheidung)",
     species: "Deutsch-Schäferhund-Mischling, Rüde, 7 J.",
     title: "Lupo — plötzliche Hintergliedmaßen-Schwäche, welches System ist betroffen?",
@@ -5258,6 +5339,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "cleo",
+    difficulty: "EINSTEIGER",
     topic: "Untersuchung · Gewichtsbeurteilung (Body Conditioning Score)",
     species: "Beagle, Hündin, 6 J.",
     title: "Cleo — ist das Gewicht für ihre beginnende Arthrose ein Problem?",
@@ -5320,6 +5402,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "pino",
+    difficulty: "EXPERTE",
     topic: "Untersuchung · Triggerpunkte Vordergliedmaße (Trizepskontraktur)",
     species: "Pudel-Mischling, Rüde, 4 J.",
     title: "Pino — Schulter und Bizeps gebessert, aber der Schritt bleibt kurz",
@@ -5385,6 +5468,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "juno",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Therapie · Hilfsmittelwahl (Rollstuhl bei Beckenfraktur)",
     species: "Collie-Mischling, Hündin, 3 J.",
     title: "Juno — Beckenfraktur mit Belastungsverbot, welches Hilfsmittel jetzt?",
@@ -5447,6 +5531,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "rufus",
+    difficulty: "EINSTEIGER",
     topic: "Therapie · Dehnen vs. Stretching (Kontraindikation postoperativ)",
     species: "Dobermann, Rüde, 5 J.",
     title: "Rufus — frisch operiertes Knie, sollen die Besitzer selbst dehnen?",
@@ -5512,6 +5597,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "resi",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Pathologie · Differentialdiagnostik (DLSS vs. Kreuzbandriss)",
     species: "Deutscher Schäferhund, Hündin, 6 J.",
     title: "Resi — Hintergliedmaßen-Lahmheit mit Oberschenkelatrophie, wirklich das Kreuzband?",
@@ -5578,6 +5664,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "elsa",
+    difficulty: "EINSTEIGER",
     topic: "Therapie · Postoperative Rehabilitation (Rücküberweisungskriterium)",
     species: "Berner Sennenhund, Hündin, 5 J.",
     title: "Elsa — fünf Wochen nach TPLO immer noch kaum Belastung, was jetzt?",
@@ -5643,6 +5730,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "bert",
+    difficulty: "EINSTEIGER",
     topic: "Untersuchung · Goniometrie (ROM-Dokumentation)",
     species: "Labrador-Mischling, Rüde, 8 J.",
     title: "Bert — derselbe ROM-Wert bei der Kontrolle, heißt das keine Besserung?",
@@ -5705,6 +5793,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "nemo",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Pathologie · Neurologische Lokalisation (Mono- vs. Polyneuropathie)",
     species: "Border-Collie-Mischling, Rüde, 9 J.",
     title: "Nemo — erst die Hintergliedmaßen schwach, jetzt auch die Vorderbeine",
@@ -5771,6 +5860,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "sam",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Untersuchung · Neurologische Staging (Rückenmarkkompression-Ausfallreihenfolge)",
     species: "Mischling, Rüde, 4 J.",
     title: "Sam — nach dem Unfall Propriozeption gestört, aber Tiefenschmerz erhalten",
@@ -5834,6 +5924,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "tilly",
+    difficulty: "EXPERTE",
     topic: "Pathologie · Differentialdiagnostik (Rückenmarkkompression jenseits der Bandscheibe)",
     species: "Deutsche Dogge, Hündin, 6 J.",
     title: "Tilly — Hintergliedmaßen-Schwäche, aber auch Fieber und eine kürzliche Hautinfektion",
@@ -5900,6 +5991,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "hanno",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Untersuchung · Traumaprognose (Tiefenschmerz-Achtstundengrenze)",
     species: "Jack Russell Terrier, Rüde, 3 J.",
     title: "Hanno — nach dem Sturz kein Tiefenschmerz auslösbar, ist die Prognose jetzt schon klar?",
@@ -5967,6 +6059,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "luzie",
+    difficulty: "EINSTEIGER",
     topic: "Untersuchung · Frakturdiagnostik (Kardinalsymptome und Fissur)",
     species: "Whippet, Hündin, 2 J.",
     title: "Luzie — plötzliche hochgradige Lahmheit, aber keines der klassischen Frakturzeichen",
@@ -6029,6 +6122,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "pepe",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Untersuchung · Hüftflexoren-Differenzierung (M. rectus femoris)",
     species: "Beagle, Rüde, 5 J.",
     title: "Pepe — vermeidet Treppauf- und Treppablaufen gleichermaßen",
@@ -6092,6 +6186,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "wilma",
+    difficulty: "EINSTEIGER",
     topic: "Therapie · Prävention (Aufwärmen und Abkühlen)",
     species: "Border Collie, Hündin, 4 J.",
     title: "Wilma — Muskelzerrung direkt zu Trainingsbeginn ohne Aufwärmen",
@@ -6158,6 +6253,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "dax",
+    difficulty: "EXPERTE",
     topic: "Therapie · Reflextraining (RITA bei schlaffer Parese)",
     species: "Dackel, Rüde, 6 J.",
     title: "Dax — schlaffe Parese nach Bandscheibenvorfall, sollen die Reflexreize öfter ausgelöst werden?",
@@ -6221,6 +6317,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "cora",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Untersuchung · Adspektion (Rute als Taktgeber)",
     species: "Australian Shepherd, Hündin, 5 J.",
     title: "Cora — unauffälliges Gangbild, aber die Rute scheint den Takt vorzugeben",
@@ -6283,6 +6380,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "ferdi",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Pathologie · Differentialdiagnostik (Lahmheit vs. Lähmung Vordergliedmaße)",
     species: "Golden Retriever, Rüde, 9 J.",
     title: "Ferdi — unklare Lahmheit der Vordergliedmaße, Schulter oder doch der Hals?",
@@ -6346,6 +6444,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "mick",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Untersuchung · Wirbelsäulenadspektion (Kyphose als Kompensationszeichen)",
     species: "Dobermann, Rüde, 6 J.",
     title: "Mick — deutlich aufgekrümmter Rücken, ist das die Wirbelsäule?",
@@ -6415,6 +6514,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "ida",
+    difficulty: "FORTGESCHRITTEN",
     topic: "Therapie · Nahrungsergänzung (Nutraceuticals-Wirknachweis)",
     species: "Golden-Retriever-Mischling, Hündin, 10 J.",
     title: "Ida — sollen Chondroprotektiva die bisherige Physiotherapie ersetzen?",
@@ -6477,6 +6577,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "vito",
+    difficulty: "EINSTEIGER",
     topic: "Untersuchung · Liegender Hund (Vollständigkeitsprinzip)",
     species: "Mischling, Rüde, 5 J.",
     title: "Vito — eindeutige Lahmheit rechts hinten, reicht die Untersuchung dieses einen Beins?",
@@ -6543,6 +6644,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "bonnie",
+    difficulty: "EXPERTE",
     topic: "Pathologie · Subokzipitale Muskulatur (Schwindel/Übelkeit)",
     species: "Border Collie, Hündin, 4 J.",
     title: "Bonnie — Schwindel und Erbrechen nach intensivem Apportieren",
@@ -6612,6 +6714,7 @@ const CASES: CaseSeed[] = [
   },
   {
     id: "kuno",
+    difficulty: "EINSTEIGER",
     topic: "Therapie · Bindegewebsmassage (Kontraindikation akuter Infekt)",
     species: "Mops, Rüde, 7 J.",
     title: "Kuno — chronische Bronchitis, aber gerade jetzt zusätzlich ein akuter fieberhafter Infekt",
@@ -23021,6 +23124,7 @@ export async function seedContent(prisma: PrismaClient) {
     const created = await prisma.case.upsert({
       where: { slug: c.id },
       update: {
+        difficulty: c.difficulty,
         topic: c.topic,
         species: c.species,
         title: c.title,
@@ -23039,6 +23143,7 @@ export async function seedContent(prisma: PrismaClient) {
       },
       create: {
         slug: c.id,
+        difficulty: c.difficulty,
         topic: c.topic,
         species: c.species,
         title: c.title,

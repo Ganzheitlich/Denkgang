@@ -3,6 +3,7 @@ import Image from "next/image";
 import { requireSession } from "@/lib/auth-helpers";
 import { getDashboardData } from "@/lib/queries";
 import { KNOWLEDGE_CATEGORY_LABELS } from "@/lib/knowledgeCategories";
+import { CASE_DIFFICULTY_LABELS } from "@/lib/caseDifficulty";
 import { LogoutButton } from "@/components/LogoutButton";
 
 const DISCLAIMER =
@@ -206,7 +207,9 @@ export default async function DashboardPage() {
           <Link key={c.id} href={`/case/${c.slug}`} className="queue-item">
             <div>
               <div className="qi-title">{c.title}</div>
-              <div className="qi-meta">{c.species}</div>
+              <div className="qi-meta">
+                {c.species} · {CASE_DIFFICULTY_LABELS[c.difficulty]}
+              </div>
             </div>
             <span className={`tag ${dueLabel !== "neu" ? "due" : ""}`}>{dueLabel}</span>
           </Link>

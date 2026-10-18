@@ -4,6 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { KnowledgeCta } from "@/components/KnowledgeCta";
+import { CASE_DIFFICULTY_LABELS } from "@/lib/caseDifficulty";
+import type { CaseDifficulty } from "@/generated/prisma/enums";
 import {
   buildDifferentiationPool,
   checkDifferentiationChoice,
@@ -20,6 +22,7 @@ type ClientOption = { label: string };
 
 type ClientCase = {
   id: string;
+  difficulty: CaseDifficulty;
   topic: string;
   species: string;
   title: string;
@@ -229,7 +232,7 @@ export function CaseFlow({
       </div>
       <div className="case-title">{c.title}</div>
       <div className="case-meta">
-        {c.species} · Lernziel: {c.learningObjective}
+        {c.species} · {CASE_DIFFICULTY_LABELS[c.difficulty]} · Lernziel: {c.learningObjective}
       </div>
       <div className="disclaimer">{DISCLAIMER}</div>
 

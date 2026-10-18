@@ -4,6 +4,7 @@ import Image from "next/image";
 import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
 import { setContentStatus } from "@/app/review/actions";
+import { CASE_DIFFICULTY_LABELS } from "@/lib/caseDifficulty";
 
 function OptionRow({
   label,
@@ -56,7 +57,7 @@ export default async function CaseReviewPreviewPage({ params }: { params: Promis
       </div>
       <div className="case-title">{c.title}</div>
       <div className="case-meta">
-        {c.topic} · {c.species}
+        {c.topic} · {c.species} · {CASE_DIFFICULTY_LABELS[c.difficulty]}
       </div>
       <div className="disclaimer">Lernziel: {c.learningObjective}</div>
 
