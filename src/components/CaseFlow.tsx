@@ -18,6 +18,18 @@ import type { Difficulty } from "@/lib/spacing";
 const DISCLAIMER =
   "Lernfall / Simulation zu Übungszwecken — kein Ersatz für tierärztliche oder tierphysiotherapeutische Diagnostik am realen Tier.";
 
+const TOTAL_FLOW_STAGES = 8;
+const STEP_STAGE_INDEX: Record<number, number> = {
+  0: 1, // Untersuchung
+  3: 2, // Hypothese & Konfidenz
+  4: 3, // Differenzierung
+  5: 4, // Differentialfrage
+  6: 5, // Begründung
+  7: 6, // Fachliche Einschätzung
+  8: 7, // Vertiefungsfrage
+  9: 8, // Abschluss
+};
+
 type ClientOption = { label: string };
 
 type ClientCase = {
@@ -235,6 +247,18 @@ export function CaseFlow({
         {c.species} · {CASE_DIFFICULTY_LABELS[c.difficulty]} · Lernziel: {c.learningObjective}
       </div>
       <div className="disclaimer">{DISCLAIMER}</div>
+
+      <div style={{ margin: "14px 0" }}>
+        <div className="skill-top">
+          <span>Schritt {STEP_STAGE_INDEX[step] ?? 1} von {TOTAL_FLOW_STAGES}</span>
+        </div>
+        <div className="skill-bar">
+          <div
+            className="skill-fill"
+            style={{ width: `${((STEP_STAGE_INDEX[step] ?? 1) / TOTAL_FLOW_STAGES) * 100}%` }}
+          />
+        </div>
+      </div>
 
       {c.einstiegsbildUrl && (
         <div className="case-image-wrap">
