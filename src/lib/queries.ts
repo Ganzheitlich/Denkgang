@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import { formatDueLabel } from "@/lib/spacing";
+import { knowledgeSectionsContainText, type KnowledgeBlock } from "@/lib/knowledgeBlocks";
 import type { KnowledgeCategory } from "@/generated/prisma/enums";
 
 export type SkillScore = { label: string; val: number | null };
@@ -219,14 +220,27 @@ export async function getAnatomyForTutor(slug: string) {
 }
 
 export async function getLibraryEntries(category?: KnowledgeCategory, q?: string) {
-  return prisma.knowledgeEntry.findMany({
+  const entries = await prisma.knowledgeEntry.findMany({
     where: {
       status: "APPROVED",
       ...(category ? { category } : {}),
-      ...(q ? { title: { contains: q, mode: "insensitive" as const } } : {}),
     },
     orderBy: [{ category: "asc" }, { title: "asc" }],
   });
+
+  const needle = q?.trim().toLowerCase();
+  if (!needle) return entries;
+
+  // Volltextsuche statt nur Titel: Prisma kann "contains" nicht generisch
+  // auf beliebig verschachteltes JSON (sections) anwenden, daher wird bei
+  // diesem Datenumfang (max. ein paar hundert Eintraege) in Anwendungscode
+  // gefiltert, nachdem Status/Kategorie bereits in der DB vorgefiltert sind.
+  return entries.filter(
+    (e) =>
+      e.title.toLowerCase().includes(needle) ||
+      e.teaser.toLowerCase().includes(needle) ||
+      knowledgeSectionsContainText(e.sections as KnowledgeBlock[], needle),
+  );
 }
 
 export async function getKnowledgeEntry(slug: string) {

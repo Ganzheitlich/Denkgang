@@ -31,7 +31,7 @@ export default async function LibraryPage(props: PageProps<"/library">) {
         <input
           type="text"
           name="q"
-          placeholder="Suche nach Titel …"
+          placeholder="Suche nach Titel oder Inhalt …"
           defaultValue={q}
           style={{ marginBottom: 10 }}
         />
