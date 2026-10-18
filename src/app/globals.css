@@ -44,6 +44,20 @@
   button:active:not(:disabled) {
     transform: scale(0.98);
   }
+
+  .loading-mark {
+    animation: pulse 1.4s ease-in-out infinite;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.85;
+  }
 }
 
 @keyframes rise {
@@ -210,7 +224,9 @@ h3 {
   color: var(--ochre);
 }
 
-button {
+button,
+a.btn-primary,
+a.btn-secondary {
   font-family: inherit;
   font-size: 14.5px;
   font-weight: 500;
@@ -218,6 +234,8 @@ button {
   border-radius: 6px;
   border: 1px solid transparent;
   padding: 11px 18px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .btn-primary {
