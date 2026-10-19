@@ -7209,6 +7209,166 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert per bereits vorhandenem Wissenseintrag `thorakolumbaler-bandscheibenvorfall-therapie` (Koch, Daniel; Fischer, Martin S., Lahmheitsuntersuchung beim Hund, Thieme, 2. Auflage 2019, Kap. 9.5, S. 233f.). Die Fünf-Grade-Skala, die Reflexbefunde, die prognostische Bedeutung des erhaltenen vs. erloschenen Tiefenschmerzes sowie Bildgebung und Therapieindikation sind im Original so beschrieben. Ergänzt den bereits bestehenden Fall `filou` (akute Notfall-Erkennung beim Dackel) um eine eigenständige Lektion zur Schweregrad-Einstufung bei bereits erkannter Dringlichkeit. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "timo",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Therapie · Postoperative Rehabilitation (Hüft-Totalendoprothese)",
+    species: "Berner Sennenhund, Rüde, 2 J.",
+    title: "Timo — zehn Tage nach Hüft-TEP, Physio soll das Gelenk schon mobilisieren",
+    learningObjective:
+      "Verstehen, dass eine Hüft-Totalendoprothese einer anderen Reha-Logik folgt als Beckenosteotomie oder Oberschenkelkopfresektion: gezielte Gelenkmobilisation erst nach 6 Wochen, dafür frühes Propriozeptionstraining wegen der fehlenden Propriozeptoren im künstlichen Gelenk.",
+    anamnese:
+      "Timo wurde vor zehn Tagen beidseits mit einer Hüftgelenk-Totalendoprothese versorgt und belastet die operierten Beine bereits gut. Die Besitzer möchten mit gezielter Gelenkmobilisation der Hüfte beginnen, um die Beweglichkeit frühzeitig zu fördern.",
+    beobachtung:
+      "Timo steht und läuft bereits erstaunlich sicher auf allen vier Beinen, mit noch leicht vorsichtigem, verkürztem Schritt. Auf instabilem Untergrund zeigt er deutliche Balance-Unsicherheit.",
+    diagramLabel: "Zehn Tage postoperativ, gute Grundbelastung beidseits, auffällige Balance-Unsicherheit auf instabilem Untergrund",
+    palpation:
+      "Beide Hüftgelenke sind reizfrei, die Wundheilung ist unauffällig. Keine Schmerzreaktion bei vorsichtiger Untersuchung der umliegenden Muskulatur.",
+    hypothesisQ: "Was ist zehn Tage nach einer Hüft-Totalendoprothese das richtige Vorgehen bzw. die wichtigste Priorität?",
+    hypothesisOptions: [
+      {
+        label:
+          "Noch keine gezielte Gelenkmobilisation der Hüfte — diese ist frühestens nach 6 Wochen erlaubt. Stattdessen steht kontrolliertes, propriozeptives Training im Vordergrund, weil dem Tier durch das künstliche Gelenk viele Propriozeptoren fehlen",
+        correct: true,
+      },
+      {
+        label: "Sofortiger Beginn mit gezielter Gelenkmobilisation der Hüfte, da Timo bereits gut belastet und schmerzfrei wirkt",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Gelenkmanipulationen der Hüfte sind nach einer Totalendoprothese frühestens nach 6 Wochen erlaubt. Eine gute Belastung zehn Tage postoperativ ändert daran nichts — die Freigabe richtet sich nach der Einheilung der Prothese, nicht nach dem subjektiven Belastungseindruck.",
+        differentiationDistractors: [
+          "Fehlende Schmerzreaktion bei der Untersuchung bedeutet, dass das Gelenk bereits voll belastbar ist.",
+          "Je früher mobilisiert wird, desto schneller kehrt die volle Beweglichkeit zurück.",
+        ],
+      },
+      {
+        label: "Da Timo bereits sicher läuft, ist kein weiteres gezieltes Training nötig — die normale Alltagsbewegung reicht aus",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Die auffällige Balance-Unsicherheit ist ein wichtiger Befund: Durch das künstliche Gelenk fehlen dem Tier viele Propriozeptoren, weshalb gezieltes Propriozeptionstraining nach einer Hüft-TEP besonders wichtig ist — reine Alltagsbewegung adressiert dieses Defizit nicht gezielt genug.",
+        differentiationDistractors: [
+          "Ein sicherer Gang im Stand bedeutet automatisch eine vollständig intakte Propriozeption.",
+          "Nach einer Hüft-TEP braucht es grundsätzlich kein gezieltes Training, nur Schonung.",
+        ],
+      },
+      {
+        label: "Beckenosteotomie-Nachsorgeprinzipien anwenden, da alle Hüftoperationsverfahren demselben Reha-Zeitplan folgen",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Die drei Hüftoperationsverfahren folgen unterschiedlichen Reha-Logiken: Die Beckenosteotomie braucht einen langsamen Wiederaufbau wegen der knöchernen Heilung, während bei der Totalendoprothese vor allem kontrollierte Arbeit und Propriozeptionstraining im Vordergrund stehen — ähnliche Zeiträume, aber unterschiedliche biologische Gründe, die man nicht gleichsetzen sollte.",
+        differentiationDistractors: [
+          "Ein einheitliches Reha-Protokoll für alle Hüftoperationen vereinfacht die Behandlung ohne Nachteile.",
+          "Das Operationsverfahren spielt für die Reha-Planung nur eine untergeordnete Rolle.",
+        ],
+      },
+    ],
+    expertNote:
+      "Die drei gängigen Operationsverfahren bei Hüftgelenkdysplasie folgen völlig unterschiedlichen Reha-Logiken. Beckenosteotomie: meist sehr große, schwere, aber auch sehr junge Tiere — langsamer Wiederaufbau wegen der biomechanischen Veränderung im Becken, da Knochengewebe mindestens 6 Wochen bis zur stabilen Abheilung braucht (freie Arbeit frühestens nach 6 Wochen, zunächst nur lockeres Leinentraben). Totalendoprothese: meist gut fußende Hunde direkt nach der OP — die Rehabilitation besteht vor allem aus kontrollierter Arbeit, Propriozeptionstraining ist besonders wichtig, da dem Tier durch das künstliche Gelenk viele Propriozeptoren fehlen, und Gelenkmanipulationen sind erst nach 6 Wochen erlaubt. Oberschenkelkopfresektion (Hängehüfte): meist ältere, kleinere, leichtere Hunde — hier ist rasche Fußung dringend erwünscht, um die neue, rein muskulär/bindegewebig gehaltene Hängehüfte zu stabilisieren, was dadurch erschwert wird, dass gerade kleine/leichte Hunde mühelos dreibeinig laufen und sich deshalb schwerer zur Belastung überreden lassen (vgl. Fall `lady`).",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für eine Beckenosteotomie als Hintergrund sprechen (statt für eine Totalendoprothese)?",
+    weakeningOptions: [
+      {
+        label: "Ein sehr junges, aber großes und schweres Tier, bei dem der Knochen noch mindestens 6 Wochen bis zur stabilen Abheilung braucht",
+        correct: true,
+      },
+      { label: "Deutlich reduzierte Propriozeption nach der OP", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Gute Belastung bereits kurz nach der OP", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Einsatz eines künstlichen Gelenkersatzes", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum ist Propriozeptionstraining nach einer Hüft-Totalendoprothese besonders wichtig?",
+    retrievalOptions: [
+      { label: "Weil dem Tier durch das künstliche Gelenk viele der ursprünglichen Propriozeptoren fehlen", correct: true },
+      { label: "Weil Propriozeptionstraining die Wundheilung direkt beschleunigt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil es in den ersten 6 Wochen die einzige erlaubte Trainingsform überhaupt ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil künstliche Gelenke grundsätzlich instabiler sind als natürliche Gelenke", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert per bereits vorhandenem Wissenseintrag `hd-operationsmethoden-vergleich-reha` (Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde, Thieme, 2022, Kap. 5.2.3, S. 79f.). Die drei Operationsverfahren mit ihren jeweiligen Patientenprofilen und Reha-Schwerpunkten (inkl. der 6-Wochen-Grenze für Gelenkmanipulation nach TEP und der Propriozeptions-Begründung) sind im Original so beschrieben. Ergänzt den bereits bestehenden Fall `lady` (Oberschenkelkopfresektion) um die TEP-spezifische Reha-Logik als eigenständige Lektion. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "nino",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Orthopädie · Schulter (Luxation, traumatisch)",
+    species: "Mischling, Rüde, 3 J.",
+    title: "Nino — nach einem Sturz plötzlich hochgradig lahm, Bein nach außen gedreht",
+    learningObjective:
+      "Eine traumatische mediale Schulterluxation anhand der Rotationsrichtung des Beins von einer lateralen Luxation, einer kongenitalen Luxation und einer Humerusfraktur unterscheiden können.",
+    anamnese:
+      "Nino ist beim Spielen im Park von einer kleinen Mauer gestürzt. Seitdem belastet er die rechte Vordergliedmaße nicht mehr und trägt sie in einer auffälligen Stellung.",
+    beobachtung: "Nino hält die rechte Vordergliedmaße in deutlicher Außenrotation und belastet sie überhaupt nicht.",
+    diagramLabel: "Nicht belastete rechte Vordergliedmaße in Außenrotation nach akutem Sturz",
+    palpation:
+      "Das Schultergelenk rechts zeigt eine veränderte Kontur; Tuberculum majus und Acromion stehen im Seitenvergleich in abnormer relativer Position zueinander. Die Beweglichkeit des Gelenks ist schmerzhaft eingeschränkt.",
+    hypothesisQ: "Was erklärt Ninos Befund am besten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine traumatische mediale Schulterluxation — die Außenrotation des Beins und die veränderte Position von Tuberculum majus und Acromion sprechen dafür, passend zum akuten Sturzereignis",
+        correct: true,
+      },
+      {
+        label: "Eine traumatische laterale Schulterluxation",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Bei einer lateralen Luxation wird das Bein typischerweise in Innenrotation getragen, nicht wie hier in Außenrotation — die Rotationsrichtung spricht gezielt für eine mediale statt laterale Luxation.",
+        differentiationDistractors: [
+          "Luxationsrichtung lässt sich allein aus der Nichtbelastung nicht ableiten, daher ist jede Richtung gleich wahrscheinlich.",
+          "Da laterale Luxationen insgesamt häufiger traumatisch bedingt sind, ist diese Richtung automatisch wahrscheinlicher.",
+        ],
+      },
+      {
+        label: "Eine angeborene (kongenitale) Schulterluxation",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Kongenitale Luxationen entwickeln sich schleichend und werden mit Bandlaxizität und Pfannendeformation erklärt, nicht durch ein plötzliches Sturzereignis bei einem zuvor unauffälligen, bereits 3-jährigen Hund — der akute Beginn nach Trauma spricht für eine traumatische statt angeborene Ursache.",
+        differentiationDistractors: [
+          "Schulterluxationen sind bei Mischlingshunden grundsätzlich angeboren.",
+          "Das Alter von 3 Jahren schließt eine traumatische Ursache aus.",
+        ],
+      },
+      {
+        label: "Eine Fraktur des Humerusschafts",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Eine Schaftfraktur würde sich eher durch Krepitation und abnorme Beweglichkeit im Schaftbereich selbst zeigen, nicht durch eine veränderte Position von Tuberculum majus und Acromion zueinander — dieser Befund spricht für eine Verlagerung im Gelenk selbst, nicht im Knochenschaft.",
+        differentiationDistractors: [
+          "Jede hochgradige, akute Lahmheit nach einem Sturz ist zuerst als Fraktur zu werten.",
+          "Eine veränderte Beinstellung kommt nur bei Frakturen vor, nicht bei Luxationen.",
+        ],
+      },
+    ],
+    expertNote:
+      "Schulterluxationen sind insgesamt selten. Kongenitale Luxationen werden mit einer medialen Bandlaxizität und einer Deformation der Gelenkpfanne (Glenoid) erklärt, traumatische Luxationen erfolgen dagegen meist nach lateral, seltener in andere Richtungen wie hier bei Nino nach medial. Bei lateraler Luxation wird das Bein in Innenrotation getragen, bei medialer Luxation in Außenrotation; die relativen Positionen von Tuberculum majus und Acromion verraten die Richtung. Da der Plexus brachialis direkt medial des Schulterblatts liegt, können variable periphere Nervenausfälle hinzukommen — das sollte zusätzlich geprüft werden. Röntgenaufnahmen im mediolateralen und anterioposterioren Strahlengang klären die Luxationsrichtung und decken Absprengfrakturen an Glenoid, Humeruskopf oder Acromion auf. Therapeutisch können akute mediale traumatische Luxationen ohne Knochenabsplitterung unter Narkose reponiert und anschließend etwa 10 Tage in einer Velpeau-Schlinge ruhiggestellt werden; bei akuten lateralen Luxationen folgt auf die Reposition stattdessen ein Spica-Schienenverband. Bei chronischem Verlauf erzielt eine Versetzung der Bizepssehne (nach medial bzw. lateral, je nach Luxationsrichtung) die besten Resultate.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für eine laterale statt eine mediale Luxation sprechen?",
+    weakeningOptions: [
+      { label: "Das Bein wird in Innenrotation statt Außenrotation getragen", correct: true },
+      { label: "Vollständige Nichtbelastung der Gliedmaße", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Schmerzhaft eingeschränkte Beweglichkeit des Gelenks", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Ein akutes Sturzereignis in der Vorgeschichte", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Wie wird eine akute mediale traumatische Schulterluxation ohne begleitende Knochenabsplitterung typischerweise therapiert?",
+    retrievalOptions: [
+      { label: "Reposition unter Narkose, anschließend etwa 10 Tage Ruhigstellung in einer Velpeau-Schlinge", correct: true },
+      {
+        label: "Sofortige operative Versteifung des Schultergelenks als Erstmaßnahme",
+        correct: false,
+        errorCategory: "Faktenwissen",
+      },
+      { label: "Ausschließlich Schmerzmittel, ohne Reposition", correct: false, errorCategory: "Faktenwissen" },
+      {
+        label: "Ein Spica-Schienenverband, unabhängig von der Luxationsrichtung",
+        correct: false,
+        errorCategory: "Faktenwissen",
+      },
+    ],
+    sourceStatus:
+      "Verifiziert per bereits vorhandenem Wissenseintrag `schultergelenkluxation-hund` (Koch, Daniel; Fischer, Martin S., Lahmheitsuntersuchung beim Hund, Thieme, 2. Auflage 2019, Kap. 8.4.6, S. 228f.). Ätiologie (kongenital vs. traumatisch), die Rotationsrichtungs-Zeichen, Diagnostik und Therapie nach Luxationsrichtung sind im Original so beschrieben. Schließt eine bisherige Lücke: Der bestehende Fall `rocky` nutzt denselben Wissenseintrag nur als Differentialdiagnose-Hintergrund (dort lautet die eigentliche Diagnose Bizepssehnen-Tendinopathie), ohne dass die Schulterluxation selbst je die Zieldiagnose eines Falls war. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -13410,7 +13570,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.4.6 (Instabilität des Schultergelenks), S. 228f. Ätiologie, Klinik und Therapie sind im Original so beschrieben. Kap. 8.4.7 (Osteochondrose des Schultergelenks) verweist im Original nur auf die bereits an anderer Stelle behandelten allgemeinen Osteochondrose-Informationen; Kap. 8 endet danach mit dem Literaturverzeichnis (8.5).",
-    relatedCaseIds: ["rocky"],
+    relatedCaseIds: ["rocky", "nino"],
     relatedAnatomyIds: ["biceps", "art-humeri", "ligg-glenohumeralia"],
   },
   {
@@ -15907,7 +16067,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Untersuchung falsch gewählt", "falsche Priorisierung", "Anatomieverwechslung"],
     sourceStatus:
       "Verifiziert: Mai, Sabine, Physiotherapie und Bewegungstraining für Hunde (ISBN 978-3-13-240099-3), Thieme, 2022, Kap. 5.2.3 (Hüftgelenkdysplasie), S. 79f. Die drei Operationsverfahren mit ihren jeweiligen Patientenprofilen und Reha-Schwerpunkten sowie das Kompensations-Paradox bei der Oberschenkelkopfresektion sind im Original so beschrieben.",
-    relatedCaseIds: ["lady"],
+    relatedCaseIds: ["lady", "timo"],
     relatedAnatomyIds: [],
   },
   {
