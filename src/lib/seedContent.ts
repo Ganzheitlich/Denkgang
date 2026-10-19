@@ -7054,6 +7054,161 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert per Kombination bereits vorhandener Wissenseinträge: `patellaluxation-krankheitsbild` (Putnam-Gradtabelle, Grad-Symptom-Korrelation, chronischer Knorpelabbau durch Folgeluxationen, DDx-Hinweis „Läuse und Flöhe zugleich“) sowie `patellaluxation-grad-und-therapieoptionen` (Koch/Fischer, Lahmheitsuntersuchung beim Hund, Thieme, 2. Auflage 2019, Kap. 8.3.5, S. 202–206 — Operationsprinzipien). Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "bosco",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Orthopädie · Ellbogen (Wachstumsalter, Grenzen der klinischen Diagnostik)",
+    species: "Labrador Retriever, Rüde, 6 Mon.",
+    title: "Bosco — Ellbogen im Stand nach innen gedreht, welche Form steckt dahinter?",
+    learningObjective:
+      "Verstehen, dass eine adduzierte Ellbogenstellung zwar einen isolierten Processus anconaeus (IPA) ausschließen hilft, aber FPC und Osteochondrosis dissecans (OCD) klinisch nicht zuverlässig voneinander unterscheidet — und dass genau diese Grenze der klinischen Untersuchung selbst eine wichtige, ehrliche Aussage ist, keine Wissenslücke, die man überspielen sollte.",
+    anamnese:
+      "Bosco hinkt seit rund drei Wochen zunehmend vorne links, besonders nach dem Aufstehen und nach dem Spielen mit anderen Hunden. Kein erinnerliches Trauma. Er wird nach einem Wachstumsplan für großwüchsige Rassen gefüttert.",
+    beobachtung:
+      "Im Stand hält Bosco den linken Ellbogen auffällig nach innen gedreht (adduziert); die Schrittlänge vorne links ist leicht verkürzt.",
+    diagramLabel: "Ellbogenstellung im Stand: links deutlich adduziert im Seitenvergleich zu rechts",
+    palpation:
+      "Schmerzreaktion bei voller Streckung des linken Ellbogengelenks, keine Krepitation, keine Schwellung über der Bizepssehne. Normaler Bewegungsumfang in Flexion.",
+    hypothesisQ: "Welche Aussage zur Verdachtsdiagnose passt am besten zu diesem Befund?",
+    hypothesisOptions: [
+      {
+        label:
+          "Die adduzierte Ellbogenstellung spricht eher für einen fragmentierten Processus coronoideus medialis (FPC) oder eine Osteochondrosis dissecans (OCD) als für einen isolierten Processus anconaeus (IPA) — eine sichere Unterscheidung zwischen FPC und OCD gelingt klinisch allein aber nicht zuverlässig und braucht Röntgen in mindestens zwei Ebenen, bei FPC-Verdacht oft zusätzlich eine Computertomografie",
+        correct: true,
+      },
+      {
+        label: "Es handelt sich eindeutig um einen fragmentierten Processus coronoideus medialis (FPC), da dieser von den vier Formen insgesamt am häufigsten ist",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "FPC ist zwar die häufigste Einzelform der Ellbogendysplasie, aber die adduzierte Stellung allein unterscheidet nicht zwischen FPC und OCD — beide zeigen dasselbe Stellungsmuster. Eine sichere Diagnose braucht Bildgebung, nicht nur eine Häufigkeitsabschätzung.",
+        differentiationDistractors: [
+          "Labrador Retriever sind für FPC prädisponiert — das allein entscheidet schon die Diagnose.",
+          "Bei eindeutiger Stellungsanomalie ist eine bildgebende Abklärung nicht mehr nötig.",
+        ],
+      },
+      {
+        label: "Es handelt sich um einen isolierten Processus anconaeus (IPA)",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "IPA geht typischerweise mit einer abduzierten statt der hier beobachteten adduzierten Ellbogenstellung einher — das Stellungsmuster spricht hier gerade gegen IPA.",
+        differentiationDistractors: [
+          "Jede Ellbogendysplasie beim jungen Hund ist in erster Linie ein IPA.",
+          "Das Fehlen einer Krepitation spricht speziell für IPA statt für FPC/OCD.",
+        ],
+      },
+      {
+        label: "Da keine Bildgebung vorliegt, lässt sich aus der Untersuchung überhaupt keine sinnvolle Eingrenzung treffen",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Auch ohne Bildgebung liefert die Ellbogenstellung eine sinnvolle Eingrenzung: Die adduzierte Haltung spricht gegen IPA und lenkt den Verdacht auf FPC/OCD — das ist wertvolle klinische Information, auch wenn die endgültige Unterscheidung von FPC und OCD selbst Bildgebung braucht.",
+        differentiationDistractors: [
+          "Ohne Röntgenbild ist eine klinische Untersuchung bei Ellbogendysplasie grundsätzlich wertlos.",
+          "Eine Verdachtsdiagnose sollte erst nach vollständiger Bildgebung überhaupt geäußert werden.",
+        ],
+      },
+    ],
+    expertNote:
+      "„Ellbogengelenkdysplasie“ ist kein einzelnes Krankheitsbild, sondern ein Sammelbegriff für vier entwicklungsbedingte Erkrankungen: isolierter Processus anconaeus (IPA), fragmentierter Processus coronoideus medialis (FPC), Osteochondrosis dissecans der Trochlea humeri (OCD) sowie eine Stufenbildung/Inkongruenz zwischen Radius und Ulna, die FPC bzw. IPA begünstigen kann. FPC und OCD treten zudem häufig gemeinsam auf. Ein nützlicher, aber eben nur orientierender erster Hinweis bereits bei der Adspektion: FPC und OCD gehen meist mit einer adduzierten Ellbogenstellung einher, IPA eher mit einer abduzierten. Welche der vier Formen tatsächlich vorliegt, lässt sich klinisch oft nicht sicher unterscheiden — eine endgültige Diagnose braucht Röntgen in mindestens zwei Ebenen, bei FPC-Verdacht häufig zusätzlich eine Computertomografie, weil das Fragment im Röntgenbild leicht übersehen wird. Unbehandelt führen alle vier Formen zu einer sekundären Arthrose; die Prognose hängt stark davon ab, wie früh Diagnose und Behandlung erfolgen. Vergleiche den Fall `rex`, bei dem die umgekehrte (abduzierte) Stellung den Verdacht auf IPA lenkt.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für einen isolierten Processus anconaeus (IPA) statt für FPC/OCD sprechen?",
+    weakeningOptions: [
+      { label: "Eine abduzierte statt adduzierte Ellbogenstellung im Stand", correct: true },
+      { label: "Symptombeginn ab etwa dem 4. Lebensmonat", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Schmerzreaktion bei voller Streckung des Ellbogens", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Fehlende Trauma-Anamnese", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ:
+      "Warum reicht die klinische Untersuchung allein oft nicht aus, um zwischen FPC und OCD der Trochlea humeri zu unterscheiden, selbst wenn eine Ellbogendysplasie insgesamt wahrscheinlich ist?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil beide Formen dasselbe Stellungsmuster (adduzierter Ellbogen) und ein ähnliches klinisches Bild zeigen — eine sichere Unterscheidung braucht Röntgen in mindestens zwei Ebenen, bei FPC-Verdacht oft zusätzlich eine CT, weil das Fragment im Röntgenbild leicht übersehen wird",
+        correct: true,
+      },
+      { label: "Weil FPC und OCD beim Hund grundsätzlich nie gemeinsam auftreten können", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil OCD ausschließlich bei weiblichen Hunden vorkommt, FPC ausschließlich bei männlichen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil eine Krepitation bei FPC immer vorhanden ist und bei OCD immer fehlt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert per bereits vorhandenem Wissenseintrag `ellbogengelenkdysplasie` (VetCenter/Thieme, Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Ellbogengelenkdysplasie beim Hund“ mit Unterkapiteln zu IPA, FPC und OCD der Trochlea humeri). Die vier Unterformen, deren häufiges gemeinsames Auftreten (FPC+OCD), der Standhaltungs-Unterschied sowie der explizite Hinweis, dass eine sichere Formunterscheidung Bildgebung statt reiner Adspektion braucht, sind im Original so beschrieben — hier bewusst als eigenständige Lektion um die Grenzen der klinischen Untersuchung herum aufgebaut, als Ergänzung zum bereits bestehenden Fall `rex` (dort IPA anhand der abduzierten Gegenstellung). Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "dante",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Neurologie · Thorakolumbale Bandscheibe (Schweregrad-Einstufung)",
+    species: "Französische Bulldogge, Rüde, 4 J.",
+    title: "Dante — kann die Hinterhand gar nicht mehr bewegen, reagiert aber noch auf Zehendruck",
+    learningObjective:
+      "Die fünf Schweregrade der extraduralen Rückenmarkkompression beim thorakolumbalen Bandscheibenvorfall korrekt zuordnen — insbesondere die prognostisch entscheidende Grenze zwischen erhaltenem und vollständig erloschenem Tiefenschmerz (Grad 4 vs. Grad 5).",
+    anamnese:
+      "Dante zeigt seit etwa zwölf Stunden eine akut aufgetretene, vollständige Lähmung der Hintergliedmaßen. Vor zwei Tagen hatte er bereits kurzzeitig Rückenschmerzen gezeigt, die sich mit Ruhe zunächst gebessert hatten.",
+    beobachtung:
+      "Dante kann die Hintergliedmaßen nicht mehr aktiv bewegen und liegt mit spastisch gestreckten Hinterbeinen; Stehen oder Laufen ist nicht möglich.",
+    diagramLabel: "Akuter, vollständiger Verlust der Hinterhandmotorik mit spastischer Beinhaltung, zwei Tage zuvor kurzzeitiger Rückenschmerz",
+    palpation:
+      "Beim Kneifen der Hautfalte an den Hinterpfoten zeigt Dante keinerlei Reaktion (kein Zurückziehen, kein Umwenden des Kopfes). Bei festem Druck auf die Zehenknochen reagiert er dagegen deutlich mit Kopfwendung und Lautäußerung. Patellarreflex und Blasensphinktertonus sind gesteigert.",
+    hypothesisQ: "Welcher Schweregrad der extraduralen Rückenmarkkompression passt zu diesem Befund?",
+    hypothesisOptions: [
+      {
+        label: "Grad 4 — Verlust der Motorik und des Oberflächenschmerzes, aber der Tiefenschmerz (Reaktion auf Zehendruck) ist noch erhalten",
+        correct: true,
+      },
+      {
+        label: "Grad 3 — reiner Verlust der Motorik der Hintergliedmaßen",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Grad 3 umfasst nur den Verlust der Motorik, nicht aber den fehlenden Oberflächenschmerz beim Kneifen der Haut. Bei Dante ist die Reaktion auf diesen Hautreiz aber bereits vollständig erloschen — das spricht für den nächsthöheren, schwereren Grad.",
+        differentiationDistractors: [
+          "Eine spastische Beinhaltung allein spricht schon für den mittleren der fünf Grade.",
+          "Solange überhaupt noch irgendeine Schmerzreaktion vorhanden ist, kann es sich nur um Grad 3 handeln.",
+        ],
+      },
+      {
+        label: "Grad 5 — vollständiger Verlust auch des Tiefenschmerzes",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Bei Grad 5 fehlt zusätzlich die Reaktion auf Druck auf die Zehenknochen selbst — bei Dante ist diese Reaktion (Kopfwendung, Lautäußerung) dagegen noch klar vorhanden. Diese Unterscheidung ist prognostisch entscheidend: Erhaltener Tiefenschmerz bedeutet eine deutlich bessere Operationsprognose als dessen vollständiger Verlust.",
+        differentiationDistractors: [
+          "Eine komplette Lähmung der Hintergliedmaßen bedeutet automatisch den schwersten Grad.",
+          "Gesteigerte Reflexe sprechen für den vollständigen Verlust jeder Schmerzwahrnehmung.",
+        ],
+      },
+      {
+        label: "Grad 2 — Propriozeptionsausfälle und Ataxie",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Grad 2 beschreibt einen Hund, der noch läuft, aber unsicher bzw. mit gestörter Propriozeption. Dante kann die Hintergliedmaßen dagegen überhaupt nicht mehr aktiv bewegen — das Bild ist deutlich schwerer als Grad 2.",
+        differentiationDistractors: [
+          "Ein vorangegangener Rückenschmerz vor zwei Tagen spricht für den milden, frühen Grad.",
+          "Eine Vorgeschichte mit zwischenzeitlicher Besserung passt am besten zum niedrigsten Schweregrad.",
+        ],
+      },
+    ],
+    expertNote:
+      "Der thorakolumbale Bandscheibenvorfall wird in fünf Schweregrade eingeteilt: 1. Rückenschmerzen, 2. Propriozeptionsausfälle und Ataxie, 3. Verlust der Motorik der Hintergliedmaßen mit spastisch gehaltenen Beinen, 4. zusätzlicher Verlust des Oberflächenschmerzes beim Kneifen der Haut, 5. zusätzlicher Verlust des Tiefenschmerzes bei Druck auf die Zehenknochen. Die Kompression des oberen Motoneurons bedingt dabei typischerweise gesteigerte Reflexe der Hintergliedmaße (Patellarreflex, Blasensphinktertonus), während die Reflexe der Vordergliedmaße normal bleiben. Diagnostikum der Wahl ist die Magnetresonanztomografie, in zweiter Linie die Computertomografie — konventionelles Röntgen hat nur limitierte Aussagekraft. Bei beginnendem Motorikverlust (wie bei Dante) ist die dekompressive Chirurgie indiziert; die Prognose hängt entscheidend davon ab, ob der Tiefenschmerz noch erhalten ist (Grad 4, hier der Fall) oder bereits erloschen (Grad 5) — Grad 4 hat eine deutlich bessere Operationsprognose als Grad 5.",
+    weakeningQ: "Welcher zusätzliche Befund würde für eine noch ungünstigere Prognose (Grad 5 statt Grad 4) sprechen?",
+    weakeningOptions: [
+      { label: "Keine Reaktion mehr auf festen Druck auf die Zehenknochen", correct: true },
+      { label: "Spastisch gestreckte Hinterbeine", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Gesteigerter Patellarreflex", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Fehlende Reaktion beim Kneifen der Hautfalte", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ:
+      "Welches bildgebende Verfahren gilt beim thorakolumbalen Bandscheibenvorfall als Diagnostikum der Wahl, insbesondere wenn eine Operation erwogen wird?",
+    retrievalOptions: [
+      { label: "Magnetresonanztomografie (MRT), in zweiter Linie Computertomografie (CT)", correct: true },
+      { label: "Konventionelles Röntgen allein reicht in der Regel aus", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Ultraschall der Wirbelsäule", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Eine Blutuntersuchung kann die Bildgebung vollständig ersetzen", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert per bereits vorhandenem Wissenseintrag `thorakolumbaler-bandscheibenvorfall-therapie` (Koch, Daniel; Fischer, Martin S., Lahmheitsuntersuchung beim Hund, Thieme, 2. Auflage 2019, Kap. 9.5, S. 233f.). Die Fünf-Grade-Skala, die Reflexbefunde, die prognostische Bedeutung des erhaltenen vs. erloschenen Tiefenschmerzes sowie Bildgebung und Therapieindikation sind im Original so beschrieben. Ergänzt den bereits bestehenden Fall `filou` (akute Notfall-Erkennung beim Dackel) um eine eigenständige Lektion zur Schweregrad-Einstufung bei bereits erkannter Dringlichkeit. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -10050,7 +10205,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: VetCenter (Thieme), Hundekrankheiten kompakt — Erkrankungen des Bewegungsapparates, Kapitel „Ellbogengelenkdysplasie beim Hund\" mit den Unterkapiteln zu IPA, FPC und OCD der Trochlea humeri (vetcenter.thieme.de, eBook cs_8469468). Definition, die vier Einzelerkrankungen, Rasseprädispositionen, der Standhaltungs-Unterschied (FPC/OCD adduziert vs. IPA abduziert) und das diagnostische Vorgehen sind im Original so beschrieben. Ergänzt den bereits verifizierten Befund aus Hárrer Kap. 13 (siehe Fall „Rocky\"), der Ellenbogendysplasie nur als real existierende Diagnose bestätigt hatte, ohne auf die Unterformen einzugehen. Hinweis: Diese Kapitel-Datei stammt direkt von der VetCenter-Onlineplattform ohne eigenes Titelblatt — Autor/Auflage/ISBN der Printausgabe von „Hundekrankheiten kompakt\" wurden nicht separat verifiziert. Bildet außerdem die fachliche Grundlage für den neuen Fall `rex`, dessen hypothesisOptions genau die hier beschriebenen vier Unterformen gegeneinander abgrenzen.",
-    relatedCaseIds: ["rocky", "rex"],
+    relatedCaseIds: ["rocky", "rex", "bosco"],
     relatedAnatomyIds: ["processus-anconaeus", "processus-coronoideus-medialis", "art-cubiti", "ligg-collateralia-cubiti"],
   },
   {
@@ -13465,7 +13620,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund überbewertet", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt", "vorschnelle Diagnose"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 9.5 (Thorakolumbaler Bandscheibenvorfall), S. 233f. Ätiologie, Gradierung, Reflexbefunde, Bildgebung und Therapie sind im Original so beschrieben. Ergänzt den bereits vorhandenen Übersichtseintrag zu Rückenmark/peripheren Nerven (Tab. 7.6, Kap. 7.10.2) sowie den Lokalisationsalgorithmus-Eintrag (Kap. 7.10.1, dort bereits mit der gleichen Fünf-Grade-Skala) um die krankheitsspezifische klinische Tiefe aus Kapitel 9.",
-    relatedCaseIds: ["filou"],
+    relatedCaseIds: ["filou", "dante"],
     relatedAnatomyIds: ["discus", "rueckenmark"],
   },
   {
