@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
-import { setContentStatus } from "@/app/review/actions";
+import { ContentStatusActions } from "@/components/ContentStatusActions";
 import { CASE_DIFFICULTY_LABELS } from "@/lib/caseDifficulty";
 
 function OptionRow({
@@ -145,15 +145,9 @@ export default async function CaseReviewPreviewPage({ params }: { params: Promis
         </div>
       </div>
 
-      <form
-        action={setContentStatus.bind(null, "case", c.id, c.status === "APPROVED" ? "DRAFT" : "APPROVED")}
-      >
-        <div className="btn-row">
-          <button type="submit" className="btn-primary">
-            {c.status === "APPROVED" ? "Zurück auf Entwurf" : "Freigeben"}
-          </button>
-        </div>
-      </form>
+      <div className="btn-row">
+        <ContentStatusActions kind="case" id={c.id} status={c.status} />
+      </div>
     </div>
   );
 }

@@ -3,7 +3,9 @@
 import { useState, useTransition } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { bulkSetContentStatus, setContentStatus } from "@/app/review/actions";
+import { bulkSetContentStatus } from "@/app/review/actions";
+import { ContentStatusActions } from "@/components/ContentStatusActions";
+import type { ContentStatus } from "@/generated/prisma/enums";
 
 export type ReviewItem = {
   id: string;
@@ -11,7 +13,7 @@ export type ReviewItem = {
   href?: string;
   meta?: string;
   detail?: string;
-  status: "DRAFT" | "REVIEW" | "APPROVED";
+  status: ContentStatus;
   thumbUrl?: string | null;
 };
 
@@ -34,7 +36,7 @@ export function ReviewList({ kind, items }: { kind: ContentKind; items: ReviewIt
     setSelected((prev) => (prev.size === items.length ? new Set() : new Set(items.map((i) => i.id))));
   }
 
-  function bulkApply(status: "DRAFT" | "APPROVED") {
+  function bulkApply(status: ContentStatus) {
     const ids = [...selected];
     if (ids.length === 0) return;
     startTransition(async () => {
@@ -88,18 +90,13 @@ export function ReviewList({ kind, items }: { kind: ContentKind; items: ReviewIt
                 </div>
                 <span className={`tag ${item.status === "APPROVED" ? "" : "due"}`}>{item.status}</span>
               </div>
-              <form
-                action={setContentStatus.bind(
-                  null,
-                  kind,
-                  item.id,
-                  item.status === "APPROVED" ? "DRAFT" : "APPROVED",
-                )}
-              >
-                <button type="submit" className="btn-secondary review-row-btn">
-                  {item.status === "APPROVED" ? "Zurück auf Entwurf" : "Freigeben"}
-                </button>
-              </form>
+              <ContentStatusActions
+                kind={kind}
+                id={item.id}
+                status={item.status}
+                primaryClassName="btn-secondary review-row-btn"
+                secondaryClassName="btn-secondary review-row-btn"
+              />
             </div>
           </div>
         ))}
@@ -114,6 +111,9 @@ export function ReviewList({ kind, items }: { kind: ContentKind; items: ReviewIt
         <div className="review-bulk-bar">
           <span className="review-bulk-count">{selected.size} ausgewählt</span>
           <div className="review-bulk-actions">
+            <button className="btn-secondary" disabled={pending} onClick={() => bulkApply("REVIEW")}>
+              Zur Review einreichen
+            </button>
             <button className="btn-secondary" disabled={pending} onClick={() => bulkApply("APPROVED")}>
               Freigeben
             </button>

@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
-import { setContentStatus } from "@/app/review/actions";
+import { ContentStatusActions } from "@/components/ContentStatusActions";
 import { KNOWLEDGE_CATEGORY_LABELS } from "@/lib/knowledgeCategories";
 import { KnowledgeBlockView } from "@/components/KnowledgeBlocks";
 import type { KnowledgeBlock } from "@/lib/knowledgeBlocks";
@@ -61,13 +61,9 @@ export default async function KnowledgeReviewPreviewPage({ params }: { params: P
         </div>
       )}
 
-      <form action={setContentStatus.bind(null, "knowledge", k.id, k.status === "APPROVED" ? "DRAFT" : "APPROVED")}>
-        <div className="btn-row">
-          <button type="submit" className="btn-primary">
-            {k.status === "APPROVED" ? "Zurück auf Entwurf" : "Freigeben"}
-          </button>
-        </div>
-      </form>
+      <div className="btn-row">
+        <ContentStatusActions kind="knowledge" id={k.id} status={k.status} />
+      </div>
     </div>
   );
 }

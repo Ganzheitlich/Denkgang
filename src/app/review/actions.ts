@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
+import type { ContentStatus } from "@/generated/prisma/enums";
 
 type ContentKind = "case" | "anatomy" | "media" | "knowledge";
 
@@ -14,7 +15,7 @@ async function requireReviewer() {
   }
 }
 
-export async function setContentStatus(kind: ContentKind, id: string, status: "DRAFT" | "APPROVED") {
+export async function setContentStatus(kind: ContentKind, id: string, status: ContentStatus) {
   await requireReviewer();
 
   if (kind === "case") {
@@ -31,7 +32,7 @@ export async function setContentStatus(kind: ContentKind, id: string, status: "D
   revalidatePath("/dashboard");
 }
 
-export async function bulkSetContentStatus(kind: ContentKind, ids: string[], status: "DRAFT" | "APPROVED") {
+export async function bulkSetContentStatus(kind: ContentKind, ids: string[], status: ContentStatus) {
   await requireReviewer();
   if (ids.length === 0) return;
 

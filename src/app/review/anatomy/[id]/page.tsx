@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
-import { setContentStatus } from "@/app/review/actions";
+import { ContentStatusActions } from "@/components/ContentStatusActions";
 import { ANATOMY_KIND_LABELS, fieldLabelsFor } from "@/lib/anatomyKind";
 
 export default async function AnatomyReviewPreviewPage({ params }: { params: Promise<{ id: string }> }) {
@@ -80,13 +80,9 @@ export default async function AnatomyReviewPreviewPage({ params }: { params: Pro
         </div>
       </div>
 
-      <form action={setContentStatus.bind(null, "anatomy", a.id, a.status === "APPROVED" ? "DRAFT" : "APPROVED")}>
-        <div className="btn-row">
-          <button type="submit" className="btn-primary">
-            {a.status === "APPROVED" ? "Zurück auf Entwurf" : "Freigeben"}
-          </button>
-        </div>
-      </form>
+      <div className="btn-row">
+        <ContentStatusActions kind="anatomy" id={a.id} status={a.status} />
+      </div>
     </div>
   );
 }
