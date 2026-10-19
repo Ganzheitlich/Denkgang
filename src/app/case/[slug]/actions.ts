@@ -4,6 +4,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { computeNextReviewDate, type Difficulty } from "@/lib/spacing";
 import { findKnowledgeForCase } from "@/lib/knowledge";
+import { scoreAttempt } from "@/lib/caseScoring";
 import { redirect } from "next/navigation";
 
 async function requireUserId() {
@@ -124,38 +125,14 @@ export async function submitCaseAttempt(input: SubmitInput) {
   const userId = await requireUserId();
   const c = await loadFullCase(input.caseId);
 
-  const correctIndex = c.hypothesisOptions.findIndex((o) => o.isCorrect);
-  const primaryOption = c.hypothesisOptions[input.hypothesisSelected[0]];
-  const primaryCorrect = input.hypothesisSelected[0] === correctIndex;
-  const includedButNotPrimary = !primaryCorrect && input.hypothesisSelected.includes(correctIndex);
-
   const weakOpt = c.weakeningOptions[input.weakeningChoiceIndex];
   const retrOpt = c.retrievalOptions[input.retrievalChoiceIndex];
 
-  let differentiationCorrect: boolean | null = null;
-  if (input.hypothesisSelected.length === 2) {
-    let altIndex = input.hypothesisSelected[1];
-    if (c.hypothesisOptions[altIndex]?.isCorrect) altIndex = input.hypothesisSelected[0];
-    const altOption = c.hypothesisOptions[altIndex];
-    differentiationCorrect = input.differentiationChoiceText === altOption.arguesAgainst;
-  }
-
-  const errorCategories: string[] = [];
-  if (includedButNotPrimary) {
-    errorCategories.push("falsche Priorisierung");
-  } else if (!primaryCorrect) {
-    if (primaryOption?.errorCategory) errorCategories.push(primaryOption.errorCategory);
-    errorCategories.push("Differentialdiagnostik unvollständig");
-  }
-  if (differentiationCorrect !== null && !differentiationCorrect) {
-    errorCategories.push("Differentialdiagnostik unvollständig");
-  }
-  if (!weakOpt.isCorrect && weakOpt.errorCategory) errorCategories.push(weakOpt.errorCategory);
-  if (!retrOpt.isCorrect && retrOpt.errorCategory) errorCategories.push(retrOpt.errorCategory);
-  if (primaryCorrect && input.confidence < 50) errorCategories.push("Unterkonfidenz");
-  if (!primaryCorrect && input.confidence >= 70) errorCategories.push("Überkonfidenz");
-  if (input.examPrematureImaging) errorCategories.push("falsche Priorisierung");
-  if (input.examOrder[0] === "palpation") errorCategories.push("falsche Priorisierung");
+  const {
+    primaryCorrect,
+    differentiationCorrect,
+    errorCategories,
+  } = scoreAttempt(c, input);
 
   const attemptNumber =
     (await prisma.caseAttempt.count({ where: { userId, caseId: input.caseId } })) + 1;
