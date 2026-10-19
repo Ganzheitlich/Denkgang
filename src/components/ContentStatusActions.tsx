@@ -20,11 +20,18 @@ export function ContentStatusActions({
 }) {
   if (status === "DRAFT") {
     return (
-      <form action={setContentStatus.bind(null, kind, id, "REVIEW")}>
-        <button type="submit" className={primaryClassName}>
-          Zur Review einreichen
-        </button>
-      </form>
+      <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+        <form action={setContentStatus.bind(null, kind, id, "REVIEW")}>
+          <button type="submit" className={primaryClassName}>
+            Zur Review einreichen
+          </button>
+        </form>
+        <form action={setContentStatus.bind(null, kind, id, "ARCHIVED")}>
+          <button type="submit" className={secondaryClassName}>
+            Archivieren
+          </button>
+        </form>
+      </div>
     );
   }
 
@@ -45,10 +52,27 @@ export function ContentStatusActions({
     );
   }
 
+  if (status === "APPROVED") {
+    return (
+      <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+        <form action={setContentStatus.bind(null, kind, id, "DRAFT")}>
+          <button type="submit" className={secondaryClassName}>
+            Zurück auf Entwurf
+          </button>
+        </form>
+        <form action={setContentStatus.bind(null, kind, id, "ARCHIVED")}>
+          <button type="submit" className={secondaryClassName}>
+            Archivieren
+          </button>
+        </form>
+      </div>
+    );
+  }
+
   return (
     <form action={setContentStatus.bind(null, kind, id, "DRAFT")}>
       <button type="submit" className={secondaryClassName}>
-        Zurück auf Entwurf
+        Wiederherstellen (auf Entwurf)
       </button>
     </form>
   );

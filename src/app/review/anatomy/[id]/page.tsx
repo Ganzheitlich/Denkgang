@@ -4,6 +4,7 @@ import Image from "next/image";
 import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
 import { ContentStatusActions } from "@/components/ContentStatusActions";
+import { statusTagClass } from "@/lib/contentStatus";
 import { ANATOMY_KIND_LABELS, fieldLabelsFor } from "@/lib/anatomyKind";
 
 export default async function AnatomyReviewPreviewPage({ params }: { params: Promise<{ id: string }> }) {
@@ -30,7 +31,7 @@ export default async function AnatomyReviewPreviewPage({ params }: { params: Pro
         <Link href="/review" className="back-link">
           ← Zur Review-Übersicht
         </Link>
-        <span className={`tag ${a.status === "APPROVED" ? "" : "due"}`}>{a.status}</span>
+        <span className={`tag ${statusTagClass(a.status)}`}>{a.status}</span>
       </div>
       <div className="case-title">{a.name}</div>
       <div style={{ marginTop: -8, marginBottom: 8, color: "var(--ink-soft)", fontSize: 13.5 }}>

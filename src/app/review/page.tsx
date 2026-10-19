@@ -25,6 +25,7 @@ const STATUS_FILTERS: { key: ContentStatus | "ALL"; label: string }[] = [
   { key: "DRAFT", label: "Entwurf" },
   { key: "REVIEW", label: "Review" },
   { key: "APPROVED", label: "Freigegeben" },
+  { key: "ARCHIVED", label: "Archiviert" },
 ];
 
 function isStatusFilter(value: string): value is ContentStatus | "ALL" {

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
 import { ContentStatusActions } from "@/components/ContentStatusActions";
+import { statusTagClass } from "@/lib/contentStatus";
 import { CASE_DIFFICULTY_LABELS } from "@/lib/caseDifficulty";
 
 function OptionRow({
@@ -53,7 +54,7 @@ export default async function CaseReviewPreviewPage({ params }: { params: Promis
         <Link href="/review" className="back-link">
           ← Zur Review-Übersicht
         </Link>
-        <span className={`tag ${c.status === "APPROVED" ? "" : "due"}`}>{c.status}</span>
+        <span className={`tag ${statusTagClass(c.status)}`}>{c.status}</span>
       </div>
       <div className="case-title">{c.title}</div>
       <div className="case-meta">

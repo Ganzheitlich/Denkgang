@@ -3,6 +3,7 @@ import Link from "next/link";
 import { requireReviewerSession } from "@/lib/auth-helpers";
 import { prisma } from "@/lib/prisma";
 import { ContentStatusActions } from "@/components/ContentStatusActions";
+import { statusTagClass } from "@/lib/contentStatus";
 import { KNOWLEDGE_CATEGORY_LABELS } from "@/lib/knowledgeCategories";
 import { KnowledgeBlockView } from "@/components/KnowledgeBlocks";
 import type { KnowledgeBlock } from "@/lib/knowledgeBlocks";
@@ -26,7 +27,7 @@ export default async function KnowledgeReviewPreviewPage({ params }: { params: P
         <Link href="/review" className="back-link">
           ← Zur Review-Übersicht
         </Link>
-        <span className={`tag ${k.status === "APPROVED" ? "" : "due"}`}>{k.status}</span>
+        <span className={`tag ${statusTagClass(k.status)}`}>{k.status}</span>
       </div>
       <div className="case-title">{k.title}</div>
       <div className="case-meta">

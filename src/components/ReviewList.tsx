@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { bulkSetContentStatus } from "@/app/review/actions";
 import { ContentStatusActions } from "@/components/ContentStatusActions";
+import { statusTagClass } from "@/lib/contentStatus";
 import type { ContentStatus } from "@/generated/prisma/enums";
 
 export type ReviewItem = {
@@ -88,7 +89,7 @@ export function ReviewList({ kind, items }: { kind: ContentKind; items: ReviewIt
                   {item.meta && <div className="qi-meta">{item.meta}</div>}
                   {item.detail && <div className="qi-meta">{item.detail}</div>}
                 </div>
-                <span className={`tag ${item.status === "APPROVED" ? "" : "due"}`}>{item.status}</span>
+                <span className={`tag ${statusTagClass(item.status)}`}>{item.status}</span>
               </div>
               <ContentStatusActions
                 kind={kind}
@@ -119,6 +120,9 @@ export function ReviewList({ kind, items }: { kind: ContentKind; items: ReviewIt
             </button>
             <button className="btn-secondary" disabled={pending} onClick={() => bulkApply("DRAFT")}>
               Zurück auf Entwurf
+            </button>
+            <button className="btn-secondary" disabled={pending} onClick={() => bulkApply("ARCHIVED")}>
+              Archivieren
             </button>
           </div>
         </div>

@@ -43,6 +43,7 @@ enum ContentStatus {
   DRAFT
   REVIEW
   APPROVED
+  ARCHIVED
 }
 
 enum CaseDifficulty {
