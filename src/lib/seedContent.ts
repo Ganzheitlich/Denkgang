@@ -7457,6 +7457,84 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert per bereits vorhandenem Anatomie-Item `musculus-gastrocnemius-anatomie` (Hárrer, Manuelle Therapie beim Hund, Thieme 2025, Kap. 9.3.3, S. 99f.), dessen `clinicalRelevance`-Feld die Teilriss-/Komplettriss-Unterscheidung samt jeweiliger Sprunggelenksstellung bereits enthält. Ursprung, Ansatz, Funktion und die klinische Unterscheidung sind im Original so beschrieben. Die vier Differentialdiagnosen des plantigraden Gangs (Komplettriss, Calcaneus-Spontanfraktur, Tarsusinstabilität, Fersenkappenluxation) stammen aus demselben Quellenabschnitt wie der bereits bestehende Fall `balu` (dort: kompletter Fersensehnenriss) — siehe `tarsus-erkrankungen-hund`. Dieser Fall ergänzt `balu` um die Teilriss-Variante als eigenständige, gegenteilige Lektion: nicht plantigrad, sondern verstärkt gebeugt. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "zara",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Orthopädie · Hüfte (Luxation, traumatisch)",
+    species: "Mischling, Hündin, 3 J.",
+    title: "Zara — nach einem Autounfall verkürztes, nach außen gedrehtes Hinterbein",
+    learningObjective:
+      "Eine traumatische kraniodorsale Hüftgelenkluxation anhand der Beinstellung und des Dreiecksbefunds von einer Hüftgelenkdysplasie, einer ventralen Luxation und einer Femurschaftfraktur unterscheiden können — und verstehen, warum die Abgrenzung zur HD entscheidend für die Therapiewahl ist.",
+    anamnese:
+      "Zara wurde vor wenigen Stunden von einem Auto erfasst. Sie belastet das rechte Hinterbein seitdem überhaupt nicht und wirkt schmerzhaft.",
+    beobachtung:
+      "Das rechte Hinterbein erscheint im Vergleich zur linken Seite verkürzt und wird in Außenrotation sowie Adduktion gehalten.",
+    diagramLabel: "Rechtes Hinterbein verkürzt, außenrotiert und adduziert nach akutem Verkehrsunfall",
+    palpation:
+      "Schwellung, Schmerz und Krepitation im Bereich der rechten Hüfte. Das Dreieck zwischen Trochanter major, Tuber sacrale und Tuber ischiadicum ist im Seitenvergleich deutlich verändert; der Abstand zwischen Tuber ischiadicum und Trochanter ist vergrößert. Ein in diese Grube gepresster Daumen wird bei Außenrotation des Femurs nicht herausgedrückt.",
+    hypothesisQ: "Was erklärt Zaras Befund am besten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine kraniodorsale Hüftgelenkluxation — das verkürzte, außenrotierte und adduzierte Bein, die veränderte Dreiecksbeziehung sowie der positive Daumentest sprechen dafür, passend zum akuten Unfallereignis",
+        correct: true,
+      },
+      {
+        label: "Eine Hüftgelenkdysplasie, die durch den Unfall nur sichtbar geworden ist",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine Hüftgelenkdysplasie entsteht langsam als primäre Gelenklockerheit ohne Trauma. Zaras Befund mit akutem Beginn nach einem Unfall, veränderter Dreiecksbeziehung und positivem Daumentest spricht dagegen für ein plötzliches, traumatisches Ereignis — eine entscheidende Unterscheidung, weil sich die Therapieprinzipien grundlegend unterscheiden.",
+        differentiationDistractors: [
+          "Jede Hüftauffälligkeit nach einem Unfall ist in Wahrheit eine schon vorher bestehende HD.",
+          "Das Alter von 3 Jahren spricht gegen eine traumatische Ursache und für eine chronische Gelenkerkrankung.",
+        ],
+      },
+      {
+        label: "Eine ventrale Hüftgelenkluxation",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Bei einer ventralen Luxation erscheint das Bein verlängert mit leichter Innenrotation und Adduktion — bei Zara ist es dagegen verkürzt und außenrotiert, was für die deutlich häufigere kraniodorsale statt die ventrale Luxationsrichtung spricht.",
+        differentiationDistractors: [
+          "Jede Hüftgelenkluxation nach einem Autounfall ist gleich wahrscheinlich in jede Richtung.",
+          "Eine Außenrotation des Beins spricht grundsätzlich für eine ventrale Luxation.",
+        ],
+      },
+      {
+        label: "Eine Fraktur des Femurschafts",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Die veränderte Position von Trochanter major, Tuber sacrale und Tuber ischiadicum zueinander sowie der positive Daumentest sprechen für eine Verlagerung im Gelenk selbst, nicht für einen Bruch im Knochenschaft — eine reine Schaftfraktur würde sich eher durch Krepitation und abnorme Beweglichkeit mitten im Schaft zeigen.",
+        differentiationDistractors: [
+          "Jede hochgradige Lahmheit nach einem Autounfall ist zuerst als Fraktur zu werten.",
+          "Eine veränderte Beinstellung kommt nur bei Frakturen vor, nicht bei Luxationen.",
+        ],
+      },
+    ],
+    expertNote:
+      "Die weitaus häufigste Ursache einer Hüftgelenkluxation ist ein Autounfall; auch Stürze aus großer Höhe, Bisse oder eine spontane Luxation bei vorbestehender Hüftgelenkdysplasie kommen vor. Kraniodorsale Luxationen sind mit rund 80 % die häufigsten — erklärbar durch ein beim Aufprall außenrotiertes Hinterbein und den starken Zug der Glutealmuskeln am Trochanter major, wobei Gelenkkapsel und Lig. capitis femoris reißen. Bei sehr jungen Hunden führt die Traumaenergie oft eher zu einer Avulsion des Lig. capitis femoris oder zu einer Epiphysiolyse. Therapeutisch ist eine unblutige (geschlossene) Reposition indiziert bei frischer Verletzung, intaktem Acetabulumrand, guter Gelenktiefe ohne Arthrosezeichen und ohne Gelenkfragmente, gefolgt von 10 Tagen Ruhigstellung in einer Ehmerschlinge. Eine offene Reposition ist nötig bei chronischem Verlauf, gescheiterter unblutiger Reposition oder vorhandenen Knochenfragmenten. Bei vorbestehender hochgradiger Dysplasie oder starker Coxarthrose kann bei Hunden unter 15–20 kg eine Femurkopfresektion, bei schwereren Hunden eine Hüftprothese die bessere Option sein (vgl. Fall `lady`). Vergleiche außerdem Fall `luna`, bei der dieselbe Körperregion betroffen ist, dort aber eine klassische, langsam entstandene Hüftgelenkdysplasie ohne Trauma vorliegt.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für eine ventrale statt eine kraniodorsale Luxation sprechen?",
+    weakeningOptions: [
+      { label: "Ein verlängertes statt verkürztes Bein mit leichter Innenrotation", correct: true },
+      { label: "Schwellung im Hüftbereich", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Schmerzreaktion bei Palpation", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Ein akutes Unfallereignis in der Vorgeschichte", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Unter welchen Voraussetzungen ist eine unblutige (geschlossene) Reposition bei einer frischen Hüftgelenkluxation indiziert?",
+    retrievalOptions: [
+      {
+        label: "Bei frischer Verletzung, intaktem Acetabulumrand, guter Gelenktiefe ohne Arthrosezeichen und ohne Gelenkfragmente",
+        correct: true,
+      },
+      { label: "Bei jeder Hüftgelenkluxation, unabhängig von Begleitverletzungen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Nur bei bereits chronischem Verlauf", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Nur wenn bereits Knochenfragmente im Gelenk vorhanden sind", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert per bereits vorhandenem Wissenseintrag `hueftgelenkluxation-hund` (Koch, Daniel; Fischer, Martin S., Lahmheitsuntersuchung beim Hund, Thieme, 2. Auflage 2019, Kap. 8.3.10, S. 216–218). Ätiologie, Luxationsrichtungen mit jeweiliger Beinstellung, der Daumentest, Diagnostik und Therapie sind im Original so beschrieben. Schließt eine bisherige Lücke: Der bestehende Fall `luna` nutzt denselben Wissenseintrag nur als Differentialdiagnose-Hintergrund (dort lautet die eigentliche Diagnose Hüftgelenkdysplasie), ohne dass die traumatische Luxation selbst je die Zieldiagnose eines Falls war. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -13445,7 +13523,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Differentialdiagnostik unvollständig", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.10 (Hüftgelenkluxation), S. 216–218. Ätiologie, Klinik und Therapie sind im Original so beschrieben.",
-    relatedCaseIds: ["luna"],
+    relatedCaseIds: ["luna", "zara"],
     relatedAnatomyIds: ["huefte"],
   },
   {
