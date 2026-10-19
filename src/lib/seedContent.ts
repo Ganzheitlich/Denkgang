@@ -7369,6 +7369,94 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert per bereits vorhandenem Wissenseintrag `schultergelenkluxation-hund` (Koch, Daniel; Fischer, Martin S., Lahmheitsuntersuchung beim Hund, Thieme, 2. Auflage 2019, Kap. 8.4.6, S. 228f.). Ätiologie (kongenital vs. traumatisch), die Rotationsrichtungs-Zeichen, Diagnostik und Therapie nach Luxationsrichtung sind im Original so beschrieben. Schließt eine bisherige Lücke: Der bestehende Fall `rocky` nutzt denselben Wissenseintrag nur als Differentialdiagnose-Hintergrund (dort lautet die eigentliche Diagnose Bizepssehnen-Tendinopathie), ohne dass die Schulterluxation selbst je die Zieldiagnose eines Falls war. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "falko",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Orthopädie · Sprunggelenk/Fersensehne (Teilriss)",
+    species: "Deutsch Kurzhaar, Rüde, 4 J.",
+    title: "Falko — Sprunggelenk im Stand ungewöhnlich stark gebeugt, Zehen gekrümmt",
+    learningObjective:
+      "Den Teilriss der Gastrocnemius-Sehne anhand der verstärkt gebeugten Sprunggelenksstellung mit gekrümmten Zehen vom kompletten Achillessehnenabriss (plantigrader Stand) unterscheiden können.",
+    anamnese:
+      "Falko ist vor einer Woche beim Jagdtraining über einen Graben gesprungen. Seitdem zeigt er eine zunehmende Lahmheit hinten links, die sich seither nicht gebessert hat.",
+    beobachtung:
+      "Falko steht hinten links mit auffällig verstärkt gebeugtem Sprunggelenk und deutlich gekrümmten Zehen; ein vollständiges Durchstrecken des Sprunggelenks beim Auffußen bleibt aus, der Mittelfuß berührt dabei aber nicht den Boden.",
+    diagramLabel: "Sprunggelenk hinten links im Stand verstärkt gebeugt, Zehen gekrümmt, kein Bodenkontakt des Mittelfußes",
+    palpation:
+      "Oberhalb des Tuber calcanei ist eine leichte Verdickung und Druckschmerzhaftigkeit entlang der Gastrocnemius-Sehne tastbar, aber keine durchgehende Lücke mit frei beweglichen Sehnenstümpfen. Das Sprunggelenk lässt sich passiv etwas weiter beugen als auf der gesunden Seite, aber deutlich weniger als bei einem kompletten Abriss.",
+    hypothesisQ: "Was erklärt Falkos Befund am besten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Ein Teilriss der Gastrocnemius-Sehne — das verstärkt gebeugte Sprunggelenk mit gekrümmten Zehen entsteht, weil der M. flexor digitorum superficialis das Gewicht übernimmt, während der übrige Tendo calcaneus communis noch teilweise intakt ist",
+        correct: true,
+      },
+      {
+        label: "Ein kompletter Abriss des Tendo calcaneus communis (komplette Achillessehnenruptur)",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Bei einem kompletten Abriss aller drei den Tendo calcaneus communis bildenden Sehnen steht das Sprunggelenk plantigrad — durchgestreckt, mit dem Mittelfuß nahe am Boden. Bei Falko steht es dagegen verstärkt gebeugt mit gekrümmten Zehen und ohne Bodenkontakt des Mittelfußes, was spezifisch für einen Teilriss spricht.",
+        differentiationDistractors: [
+          "Jede Sehnenverletzung am Sprunggelenk nach einem Sprungtrauma ist automatisch ein kompletter Abriss.",
+          "Eine tastbare Verdickung entlang der Sehne beweist bereits einen vollständigen Durchriss.",
+        ],
+      },
+      {
+        label: "Eine Spontanfraktur des Calcaneus",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Bei der Spontanfraktur bleibt der Fersensehnenstrang selbst intakt. Die hier tastbare Verdickung entlang der Sehne mit vermehrter, aber nicht vollständiger passiver Beugefähigkeit spricht für eine Sehnenschädigung, nicht für einen Knochenbruch.",
+        differentiationDistractors: [
+          "Eine veränderte Sprunggelenksstellung nach Trauma spricht immer zuerst für eine knöcherne Verletzung.",
+          "Die Rasse Deutsch Kurzhaar ist für Calcaneus-Spontanfrakturen besonders prädisponiert.",
+        ],
+      },
+      {
+        label: "Eine einfache Muskelzerrung, die mit Schonung von selbst folgenlos ausheilen wird",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Die tastbare Verdickung entlang der Sehne und die bereits messbar vermehrte passive Beugefähigkeit des Sprunggelenks sprechen für eine strukturelle Sehnenschädigung (Teilriss), die ohne gezielte Abklärung und Behandlung fortschreiten kann — nicht für eine folgenlos abheilende Zerrung.",
+        differentiationDistractors: [
+          "Eine Woche anhaltende Lahmheit ohne Besserung spricht trotzdem eher für eine harmlose Zerrung als für eine Sehnenschädigung.",
+          "Solange der Mittelfuß nicht am Boden aufliegt, besteht kein Grund zur weiteren Abklärung.",
+        ],
+      },
+    ],
+    expertNote:
+      "Reißt nur die Sehne des M. gastrocnemius (Teilriss), steht das Tarsalgelenk im Stand verstärkt gebeugt mit stark gekrümmten Zehen, da das Gewicht dann vom M. flexor digitorum superficialis mitgetragen wird. Reißen dagegen alle drei den Tendo calcaneus communis bildenden Sehnen (kompletter Achillessehnenabriss, vgl. Fall `balu`), steht das Tarsalgelenk plantigrad. Der M. gastrocnemius entspringt zweiköpfig von den Tuberositates supracondylares des Femurs (mit je einer Fabella in beiden Ursprungssehnen eingelagert) und inseriert über den gemeinsamen Tendo calcaneus communis am Tuber calcanei; er streckt das Sprunggelenk vor allem in der Stützbeinphase und wirkt dabei über das Sprungfeder-Prinzip. Ein besonderer Untersuchungsfokus gilt den Fabellae, da an der Ursprungssehne nicht selten eine Tendopathie auftritt. Weitere Differentialdiagnosen des plantigraden bzw. teilplantigraden Gangs sind die Calcaneus-Spontanfraktur, die Tarsusinstabilität und (praktisch nur beim Sheltie) die Fersenkappenluxation.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für einen kompletten statt einen partiellen Abriss sprechen?",
+    weakeningOptions: [
+      { label: "Plantigrader Stand mit durchgestrecktem Sprunggelenk statt verstärkter Beugung", correct: true },
+      { label: "Druckschmerzhaftigkeit entlang der Sehne", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Eine Vorgeschichte mit Sprungbelastung", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Gekrümmte Zehenstellung", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ:
+      "Warum übernimmt bei einem reinen Teilriss der Gastrocnemius-Sehne der M. flexor digitorum superficialis vorübergehend das Tragen des Körpergewichts mit?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil beim Teilriss nur die Gastrocnemius-Sehne betroffen ist, während die übrigen am Tendo calcaneus communis beteiligten Strukturen noch intakt sind und die Stützfunktion teilweise übernehmen",
+        correct: true,
+      },
+      {
+        label: "Weil der M. flexor digitorum superficialis beim Hund primär die Sprunggelenksstreckung übernimmt, nicht der M. gastrocnemius",
+        correct: false,
+        errorCategory: "Faktenwissen",
+      },
+      { label: "Weil ein Teilriss grundsätzlich alle Unterschenkelsehnen gleichzeitig betrifft", correct: false, errorCategory: "Faktenwissen" },
+      {
+        label: "Weil der Tendo calcaneus communis beim Hund aus nur einer einzigen Sehne besteht",
+        correct: false,
+        errorCategory: "Faktenwissen",
+      },
+    ],
+    sourceStatus:
+      "Verifiziert per bereits vorhandenem Anatomie-Item `musculus-gastrocnemius-anatomie` (Hárrer, Manuelle Therapie beim Hund, Thieme 2025, Kap. 9.3.3, S. 99f.), dessen `clinicalRelevance`-Feld die Teilriss-/Komplettriss-Unterscheidung samt jeweiliger Sprunggelenksstellung bereits enthält. Ursprung, Ansatz, Funktion und die klinische Unterscheidung sind im Original so beschrieben. Die vier Differentialdiagnosen des plantigraden Gangs (Komplettriss, Calcaneus-Spontanfraktur, Tarsusinstabilität, Fersenkappenluxation) stammen aus demselben Quellenabschnitt wie der bereits bestehende Fall `balu` (dort: kompletter Fersensehnenriss) — siehe `tarsus-erkrankungen-hund`. Dieser Fall ergänzt `balu` um die Teilriss-Variante als eigenständige, gegenteilige Lektion: nicht plantigrad, sondern verstärkt gebeugt. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -13100,8 +13188,8 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     ],
     errorTags: ["Differentialdiagnostik unvollständig", "Anatomieverwechslung", "Befund übersehen"],
     sourceStatus:
-      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.3 (Instabilität des Tarsus, Spontanfraktur Calcaneus, Riss des Fersensehnenstranges, Fersenkappenluxation), S. 195–199. Ätiologie, Klinik und Therapieprinzipien sind im Original so beschrieben. Bildet die fachliche Grundlage für den Fall `balu` (Fersensehnenriss nach Trauma), dessen vier Antwortoptionen genau die vier hier beschriebenen Differentialdiagnosen gegeneinander abgrenzen.",
-    relatedCaseIds: ["balu"],
+      "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.3 (Instabilität des Tarsus, Spontanfraktur Calcaneus, Riss des Fersensehnenstranges, Fersenkappenluxation), S. 195–199. Ätiologie, Klinik und Therapieprinzipien sind im Original so beschrieben. Bildet die fachliche Grundlage für den Fall `balu` (Fersensehnenriss nach Trauma), dessen vier Antwortoptionen genau die vier hier beschriebenen Differentialdiagnosen gegeneinander abgrenzen, sowie für den ergänzenden Fall `falko` (Teilriss-Variante).",
+    relatedCaseIds: ["balu", "falko"],
     relatedAnatomyIds: ["calcaneus-talus", "ligg-tarsi"],
   },
   {
