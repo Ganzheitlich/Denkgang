@@ -6775,6 +6775,285 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: Alexander, C.-S., „Massage\". In: Alexander, Cécile (Hrsg.), Physikalische Therapie für Kleintiere, 2. Auflage, Parey Verlag, Stuttgart, 2003, Kap. 7, Abschnitt „Bindegewebsmassage\" (siehe Wissenseintrag `bindegewebsmassage-dicke-schliack-wolff-reflexzonentherapie`). Die Entstehungsgeschichte, das Bindegewebszonen-Konzept, der Behandlungsaufbau nach Dicke/Schliack/Wolff sowie Wirkungen/Nebenwirkungen/Indikationen/Kontraindikationen sind im Original so beschrieben. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "arco",
+    difficulty: "EINSTEIGER",
+    topic: "Orthopädie · Knie (Kreuzbandriss, akuter Verdacht)",
+    species: "Labrador Retriever, Rüde, 7 J., übergewichtig",
+    title: "Arco — nach dem Spaziergang plötzlich hochgradig lahm",
+    learningObjective:
+      "Verstehen, dass ein scheinbar plötzlich aufgetretener Kreuzbandriss beim Hund meist keine frische Unfallverletzung ist, sondern der Endpunkt eines chronisch-degenerativen Prozesses — und den Tibiakompressionstest als zielführende Untersuchungstechnik von reiner Mutmaßung unterscheiden.",
+    anamnese:
+      "Arco ist seit Jahren übergewichtig und bewegt sich insgesamt wenig. Heute, beim gewohnten Spaziergang, ist er nach einem Sprung über einen kleinen Graben plötzlich hochgradig lahm geworden und belastet die rechte Hintergliedmaße seitdem kaum noch.",
+    beobachtung:
+      "Arco steht mit der rechten Hintergliedmaße nur angedeutet auf den Zehenspitzen auf und entlastet sie beim Gehen deutlich; im Sitzen hält er das rechte Hinterbein leicht nach außen abgewinkelt statt symmetrisch unter dem Rumpf.",
+    diagramLabel: "Akute hochgradige Lahmheit rechts hinten nach einem Sprung, deutliche Entlastung im Stand",
+    palpation:
+      "Das rechte Kniegelenk ist geringgradig geschwollen und warm. Bei maximaler Streckung des Knies und passiver Flexion des Sprunggelenks lässt sich die Tibia ohne eigenes Zutun des Untersuchers nach kranial verschieben. Bei Rotation des Gelenks ist ein leichtes Knirschen tastbar.",
+    hypothesisQ: "Was erklärt Arcos plötzliche hochgradige Lahmheit am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Ein (Teil-)Riss des vorderen Kreuzbandes — die vordere Verschiebung der Tibia ohne eigenes Zutun beim Tibiakompressionstest ist das zielführende Zeichen dafür; der scheinbar plötzliche Beginn passt trotzdem zu einem meist länger andauernden degenerativen Prozess, der unter der Alltagsbelastung schließlich versagt",
+        correct: true,
+      },
+      {
+        label: "Eine frische Fraktur durch den Sprung über den Graben, da die Lahmheit abrupt nach dieser Belastungssituation einsetzte",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine Fraktur würde typischerweise mit Krepitation durch instabile Knochenenden im Schaftbereich und meist deutlicherer, diffuser Schwellung einhergehen. Arcos Befund zeigt dagegen eine gelenkbezogene Instabilität (vordere Tibiaverschiebung im Tibiakompressionstest), die spezifisch für das Kniegelenk selbst spricht, nicht für einen Knochenbruch.",
+        differentiationDistractors: [
+          "Ein plötzlicher Bewegungsauslöser wie ein Sprung spricht praktisch immer für eine frische Verletzung des Knochens.",
+          "Eine hochgradige Lahmheit direkt nach Belastung ist nur durch eine Fraktur zu erklären.",
+        ],
+      },
+      {
+        label: "Eine Patellaluxation, da Kniegelenksbeschwerden beim Hund besonders häufig dadurch verursacht werden",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Eine Patellaluxation würde sich durch eine tastbar instabile oder verlagerte Kniescheibe zeigen, nicht durch eine vordere Verschiebbarkeit der Tibia. Der Tibiakompressionstest prüft gezielt das Kreuzband, nicht den Streckapparat — Arcos Befund passt eindeutig zum Kreuzband.",
+        differentiationDistractors: [
+          "Jede Kniegelenksinstabilität beim Hund lässt sich automatisch auf die Kniescheibe zurückführen.",
+          "Da Patellaluxation häufig ist, ist sie bei jedem Knieproblem die wahrscheinlichste Erklärung.",
+        ],
+      },
+      {
+        label: "Eine einfache Prellung/Zerrung nach dem Sprung, die mit etwas Schonung in den nächsten Tagen von selbst abklingen wird",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Eine reine Prellung oder Zerrung würde keine messbare vordere Instabilität der Tibia erzeugen. Das positive Tibiakompressionstest-Zeichen spricht gezielt für eine strukturelle Bandschädigung, die ohne Behandlung eher fortschreitet (Arthroseentwicklung, mögliche Meniskusschädigung) als von selbst abzuklingen.",
+        differentiationDistractors: [
+          "Eine hochgradige Lahmheit bei einem sonst gesunden Hund bildet sich fast immer von selbst zurück.",
+          "Solange keine offene Wunde sichtbar ist, braucht eine akute Lahmheit keine weitere Abklärung.",
+        ],
+      },
+    ],
+    expertNote:
+      "Ein Kreuzbandriss beim Hund ist in den meisten Fällen keine akute Unfallverletzung eines zuvor gesunden Bandes, sondern das Endstadium eines chronisch-degenerativen Prozesses: Der M. quadriceps femoris zieht bei jedem Schritt über seinen nach kranial gerichteten Kraftanteil (cranial tibial thrust) permanent am vorderen Kreuzband. Diese Dauerbelastung ist umso stärker, je schwerer und übergewichtiger der Hund ist — unter ihr erleidet das Band zunächst einen Teilriss, später den Totalriss, der dann scheinbar „plötzlich“ bei einer gewöhnlichen Alltagsbewegung wie einem Sprung manifest wird. Weitere Risikofaktoren sind mittleres bis höheres Alter, bestimmte Rassen (u. a. Rottweiler) und eine steile Tibiaplateauneigung. Der mediale Meniskus wird häufig gemeinsam mit dem Kreuzband geschädigt, weshalb bei jedem Kreuzbandverdacht auch gezielt auf Meniskuszeichen geprüft werden sollte. Bei Hunden über 5 kg wird in der Regel eine operative Versorgung empfohlen (z. B. TPLO oder TTA), da ein unbehandelter Riss rasch zu massiver Arthrose führt; eine Gewichtsreduktion ist unabhängig vom gewählten Therapieweg sinnvoll.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für eine frische Fraktur sprechen und gegen einen reinen Kreuzbandriss?",
+    weakeningOptions: [
+      {
+        label: "Tastbare Krepitation und abnorme Beweglichkeit im Bereich des Knochenschafts, nicht nur im Gelenk selbst",
+        correct: true,
+      },
+      {
+        label: "Eine positive vordere Verschiebbarkeit der Tibia im Tibiakompressionstest",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+      },
+      { label: "Eine geringgradige Schwellung des Kniegelenks", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Schmerzhaftigkeit bei Rotation des Kniegelenks", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ:
+      "Warum gilt der Tibiakompressionstest als besonders aussagekräftig im Vergleich zum klassischen vorderen Schubladentest (Lachmann-Test)?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil die vordere Verschiebung der Tibia dabei rein durch den muskulären Zug der Gastrocnemiusköpfe am Femur entsteht, nicht durch eine vom Untersucher selbst aufgebrachte Zugkraft — das macht ihn weniger anfällig für zu vorsichtiges oder zu kräftiges Ziehen",
+        correct: true,
+      },
+      { label: "Weil er ausschließlich bei kleinen Hunderassen anwendbar ist", correct: false, errorCategory: "Faktenwissen" },
+      {
+        label: "Weil er anders als der Lachmann-Test keinerlei Erfahrung des Untersuchers erfordert",
+        correct: false,
+        errorCategory: "Faktenwissen",
+      },
+      {
+        label: "Weil er zusätzlich zur Kreuzbandinstabilität eindeutig sichert, welcher Meniskus betroffen ist",
+        correct: false,
+        errorCategory: "Faktenwissen",
+      },
+    ],
+    sourceStatus:
+      "Verifiziert per Kombination bereits vorhandener Wissenseinträge: `kreuzband-meniskus-tests` (Hárrer, Manuelle Therapie beim Hund, Thieme 2025, Kap. 8, S. 85–87 — Lachmann-Test, Tibiakompressionstest), `kreuzbandriss-krankheitsbild` (webbasierte Übersicht zu Risikofaktoren, Partial-/Komplettruptur, Meniskusbeteiligung und Therapieoptionen) sowie `kreuzbandriss-biomechanik-und-therapie` (Koch/Fischer, Lahmheitsuntersuchung beim Hund, Thieme, 2. Auflage 2019, Kap. 8.3.4, S. 199–202 — cranial tibial thrust, Gewichtsschwelle für OP-Empfehlung). Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "birk",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Orthopädie · Knie (Kreuzbandriss, Teilriss)",
+    species: "Border Collie, Rüde, 4 J., aktiver Hütehund",
+    title: "Birk — zeitweise Hinken nach der Arbeit, dazwischen unauffällig",
+    learningObjective:
+      "Erkennen, dass eine geringgradige, aber eindeutige vordere Tibiainstabilität bei intermittierender, belastungsabhängiger Lahmheit für eine beginnende Kreuzband-Teilruptur sprechen kann — und dass diese ohne Behandlung typischerweise fortschreitet statt folgenlos abzuheilen.",
+    anamnese:
+      "Birk arbeitet regelmäßig als Hütehund und ist insgesamt austrainiert, nicht übergewichtig. Seit etwa drei Wochen hinkt er gelegentlich nach intensiver Arbeit auf der rechten Hintergliedmaße, erholt sich davon aber jeweils innerhalb weniger Stunden Ruhe wieder vollständig. Zwischen den Episoden wirkt er unauffällig.",
+    beobachtung:
+      "Nach Belastung zeigt Birk ein mildes, intermittierendes Hinken rechts hinten; nach Ruhephasen ist das Gangbild wieder weitgehend unauffällig. Eine deutliche Schwellung oder Überwärmung ist nicht erkennbar.",
+    diagramLabel: "Intermittierendes, belastungsabhängiges Hinken rechts hinten seit drei Wochen, kein akutes Trauma",
+    palpation:
+      "Bei maximaler Streckung des rechten Kniegelenks und passiver Flexion des Sprunggelenks lässt sich die Tibia geringgradig, aber eindeutig nach kranial verschieben — deutlich schwächer ausgeprägt als bei einer vollständigen Instabilität. Eine Gelenkfüllung ist nur minimal tastbar.",
+    hypothesisQ: "Was erklärt Birks seit drei Wochen bestehendes, belastungsabhängiges Hinken am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine beginnende (Teil-)Ruptur des vorderen Kreuzbandes — die geringgradige, aber eindeutige vordere Tibiaverschiebung im Tibiakompressionstest passt zu einer Instabilität, die zu diesem frühen Zeitpunkt noch nicht vollständig ausgeprägt ist",
+        correct: true,
+      },
+      {
+        label: "Eine einfache muskuläre Überlastung nach intensiver Arbeit, die mit etwas Schonung von selbst abklingen wird",
+        correct: false,
+        errorCategory: "falsche Priorisierung",
+        arguesAgainst:
+          "Eine reine muskuläre Überlastung würde keine tastbare vordere Instabilität der Tibia im Tibiakompressionstest erzeugen. Dieser positive Befund spricht für eine beginnende strukturelle Schädigung des Kreuzbandes, die ohne Behandlung typischerweise innerhalb von Wochen bis Monaten zur vollständigen Ruptur fortschreitet, statt von selbst auszuheilen.",
+        differentiationDistractors: [
+          "Vollständige Erholung innerhalb weniger Stunden spricht immer gegen eine strukturelle Bandschädigung.",
+          "Bei austrainierten, normalgewichtigen Hunden ist eine Kreuzbandproblematik praktisch ausgeschlossen.",
+        ],
+      },
+      {
+        label: "Eine Patellaluxation, da intermittierende Lahmheit dafür besonders typisch ist",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Intermittierende Lahmheit kommt zwar auch bei Patellaluxation vor, hier aber zeigt die Palpation spezifisch eine vordere Tibiaverschiebung im Tibiakompressionstest statt einer luxierbaren Kniescheibe — der Befund passt eindeutig zum Kreuzband, nicht zum Streckapparat.",
+        differentiationDistractors: [
+          "Intermittierende Lahmheit lässt sich ausschließlich durch eine Patellaluxation erklären.",
+          "Ein positiver Tibiakompressionstest kommt auch bei einer luxierenden Kniescheibe typischerweise vor.",
+        ],
+      },
+      {
+        label: "Ein bereits vollständiger Kreuzbandriss, da jede Instabilität im Tibiakompressionstest automatisch für einen Totalriss spricht",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Eine nur geringgradige, nicht vollständige vordere Verschiebbarkeit der Tibia spricht gerade gegen eine bereits vollständige Ruptur. Eine Teilruptur betrifft typischerweise zuerst das kraniomediale Bündel des Bandes, während das übrige Band die Instabilität noch teilweise begrenzt.",
+        differentiationDistractors: [
+          "Jeder positive Tibiakompressionstest bedeutet automatisch denselben Schweregrad der Instabilität.",
+          "Ein Totalriss und ein Teilriss lassen sich am Ausmaß der Lahmheit zuverlässig unterscheiden.",
+        ],
+      },
+    ],
+    expertNote:
+      "Eine Teilruptur des vorderen Kreuzbandes betrifft nahezu immer zuerst das kraniomediale Bündel des Bandes und schreitet typischerweise innerhalb von Wochen bis Monaten zur Komplettruptur fort. Eine rein konservative Behandlung mit entzündungshemmenden Medikamenten lindert zwar die Symptome, verhindert aber weder das Fortschreiten der Bandschädigung noch die Entwicklung einer Arthrose. Wichtig für die Praxis: Auch austrainierte, normalgewichtige Hunde entwickeln eine Kreuzbandproblematik — Übergewicht ist ein Risikofaktor unter mehreren (Rasse, Alter, Tibiaplateauneigung, ggf. Kastration), keine notwendige Voraussetzung. Gerade die frühe, noch milde Symptomatik einer Teilruptur wird leicht als harmlose Überlastung fehlgedeutet; eine sorgfältige Palpation inklusive Tibiakompressionstest ist hier besonders wichtig, weil eine frühzeitige Diagnose den Übergang zur Komplettruptur und zur fortschreitenden Arthrose verhindern oder zumindest verzögern kann.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für eine bereits vollständige statt eine beginnende (Teil-)Ruptur sprechen?",
+    weakeningOptions: [
+      {
+        label: "Eine deutliche, nicht nur geringgradige vordere Verschiebbarkeit der Tibia im Tibiakompressionstest",
+        correct: true,
+      },
+      { label: "Intermittierendes statt dauerhaftes Hinken", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Fehlende sichtbare Schwellung des Gelenks", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Vollständige Erholung nach wenigen Stunden Ruhe", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ:
+      "Was passiert typischerweise, wenn eine beginnende Teilruptur des Kreuzbandes nur mit entzündungshemmenden Medikamenten (rein konservativ) behandelt wird?",
+    retrievalOptions: [
+      {
+        label: "Die Symptome lassen zwar nach, die Bandschädigung schreitet aber in der Regel trotzdem fort, und eine Arthrose entwickelt sich weiterhin",
+        correct: true,
+      },
+      { label: "Das Band heilt unter Schmerzmitteln in den meisten Fällen vollständig aus", correct: false, errorCategory: "Faktenwissen" },
+      {
+        label: "Die Behandlung mit Schmerzmitteln stoppt die Bandschädigung zuverlässig, auch wenn die Symptome bestehen bleiben",
+        correct: false,
+        errorCategory: "Faktenwissen",
+      },
+      {
+        label: "Schmerzmittel sind bei einer Kreuzbandproblematik grundsätzlich wirkungslos",
+        correct: false,
+        errorCategory: "Faktenwissen",
+      },
+    ],
+    sourceStatus:
+      "Verifiziert per Kombination bereits vorhandener Wissenseinträge: `kreuzbandriss-krankheitsbild` (webbasierte Übersicht — Partialruptur des kraniomedialen Bündels, Progression zur Komplettruptur, Grenzen rein konservativer Behandlung, multifaktorielle Risikofaktoren) sowie `kreuzband-meniskus-tests` (Hárrer, Manuelle Therapie beim Hund, Thieme 2025, Kap. 8, S. 85–87 — Tibiakompressionstest). Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
+  {
+    id: "coco",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Orthopädie · Knie/Patella (Kleinrasse, fortgeschrittener Grad)",
+    species: "Papillon, Hündin, 5 J.",
+    title: "Coco — läuft seit Monaten dauerhaft mit gebeugtem Hinterbein",
+    learningObjective:
+      "Den Putnam-Schweregrad einer Patellaluxation korrekt von den benachbarten Graden II und IV abgrenzen — insbesondere den Unterschied zwischen „springt nach Reposition spontan wieder heraus“ (Grad III) und „lässt sich gar nicht mehr reponieren“ (Grad IV).",
+    anamnese:
+      "Coco läuft seit mehreren Monaten dauerhaft mit angehobenem bzw. gebeugtem linkem Hinterbein — anders als früher, wo das nur gelegentlich für ein paar Schritte vorkam. Ein normales Gangbild auf allen vier Beinen zeigt sie inzwischen kaum noch.",
+    beobachtung:
+      "Coco belastet die linke Hintergliedmaße im Stand und beim Gehen kaum; das Bein wird überwiegend in Beugehaltung getragen. Ein kurzzeitiges normales Durchtreten ist nur selten zu beobachten.",
+    diagramLabel: "Dauerhaft reduzierte Belastung links hinten mit Beugehaltung, nur selten kurzzeitig normaler Tritt",
+    palpation:
+      "Die Patella steht links medial des Sulcus femoris und lässt sich durch Fingerdruck des Untersuchers wieder in den Sulcus zurückbringen — springt aber, sobald der Druck nachlässt, spontan erneut heraus. Bei Bewegung des Gelenks ist eine Krepitation tastbar.",
+    hypothesisQ: "Welcher Putnam-Schweregrad passt zu diesem Befund?",
+    hypothesisOptions: [
+      {
+        label: "Grad III",
+        correct: true,
+      },
+      {
+        label: "Grad II",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Bei Grad II luxiert die Patella erst bei Kniebeugung oder manueller Manipulation und bleibt dann luxiert, bis aktiv gestreckt oder reponiert wird. Bei Coco dagegen steht die Patella bereits dauerhaft luxiert außerhalb des Sulcus, noch bevor überhaupt manipuliert wird.",
+        differentiationDistractors: [
+          "Eine überwiegend gebeugte Beinhaltung passt am ehesten zum mittleren der vier Schweregrade.",
+          "Solange sich die Patella überhaupt reponieren lässt, handelt es sich um den zweitniedrigsten Grad.",
+        ],
+      },
+      {
+        label: "Grad I",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Bei Grad I lässt sich die Patella nur manuell luxieren und springt beim Loslassen von selbst wieder in die Normalposition zurück. Bei Coco ist es umgekehrt: Sie steht dauerhaft luxiert und lässt sich nur durch Fingerdruck vorübergehend reponieren.",
+        differentiationDistractors: [
+          "Da Coco eine kleine Rasse ist, liegt automatisch der mildeste Schweregrad vor.",
+          "Eine über Monate bestehende Symptomatik spricht für den am wenigsten ausgeprägten Grad, weil sich der Körper daran gewöhnt hat.",
+        ],
+      },
+      {
+        label: "Grad IV",
+        correct: false,
+        errorCategory: "Befund überbewertet",
+        arguesAgainst:
+          "Bei Grad IV lässt sich die Patella gar nicht mehr in die physiologische Stellung zurückbringen. Bei Coco gelingt die Reposition durch Fingerdruck des Untersuchers durchaus — sie hält nur nicht von selbst, sondern luxiert nach Nachlassen des Drucks erneut.",
+        differentiationDistractors: [
+          "Eine dauerhaft gebeugte Beinhaltung über Monate spricht automatisch für den am stärksten ausgeprägten Grad.",
+          "Wenn die Patella außerhalb des Sulcus steht, ist sie per Definition nicht mehr reponierbar.",
+        ],
+      },
+    ],
+    expertNote:
+      "Die Korrelation zwischen Luxationsgrad und tatsächlicher klinischer Symptomatik ist insgesamt nicht stark — wichtiger als der isolierte Grad ist deshalb der tatsächliche klinische Verlauf. Bei Coco ist dieser Verlauf aussagekräftig: Folgeluxationen sind meist weniger schmerzhaft als die Erstluxation, nutzen aber über Monate bis Jahre den retropatellären und femoralen Gelenkknorpel ab, bis ein irreversibler Knorpelschaden mit abgeflachtem Sulcus femoris entsteht — die seit Monaten bestehende, nahezu dauerhafte Fehlstellung ist dafür ein Warnsignal. Operative Prinzipien zielen auf die Wiederherstellung der korrekten relativen Position von Patella und Femur, meist durch Versetzen des Tuberositas-tibiae-Ansatzes kombiniert mit einer Vertiefung des Sulcus femoris (Sulkoplastik) und Weichteilstraffung. Wichtig für die Differentialdiagnostik: Eine gefundene Patellaluxation schließt eine zweite, unabhängige Ursache der Lahmheit nicht aus.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen Grad III und für Grad IV sprechen?",
+    weakeningOptions: [
+      {
+        label: "Die Patella lässt sich auch mit gezieltem Fingerdruck des Untersuchers nicht mehr in den Sulcus zurückbringen",
+        correct: true,
+      },
+      { label: "Die Patella steht medial des Sulcus femoris", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Eine tastbare Krepitation im Gelenk", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Eine überwiegend gebeugte Beinhaltung", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ:
+      "Warum kann eine über Monate bestehende Grad-III-Luxation zu einem bleibenden Schaden führen, selbst wenn die Patella jederzeit manuell reponierbar bleibt?",
+    retrievalOptions: [
+      {
+        label:
+          "Wiederholte Luxationen nutzen über die Zeit den retropatellären und femoralen Gelenkknorpel ab, bis ein irreversibler Knorpelschaden mit abgeflachtem Sulcus femoris entsteht",
+        correct: true,
+      },
+      {
+        label: "Weil sich bei Grad III automatisch zusätzlich das Kreuzband mit verletzt",
+        correct: false,
+        errorCategory: "Faktenwissen",
+      },
+      {
+        label: "Weil Grad III grundsätzlich operationspflichtig ist, unabhängig vom klinischen Verlauf",
+        correct: false,
+        errorCategory: "Faktenwissen",
+      },
+      {
+        label: "Weil sich bei jeder Luxation automatisch eine Fraktur der Tuberositas tibiae entwickelt",
+        correct: false,
+        errorCategory: "Faktenwissen",
+      },
+    ],
+    sourceStatus:
+      "Verifiziert per Kombination bereits vorhandener Wissenseinträge: `patellaluxation-krankheitsbild` (Putnam-Gradtabelle, Grad-Symptom-Korrelation, chronischer Knorpelabbau durch Folgeluxationen, DDx-Hinweis „Läuse und Flöhe zugleich“) sowie `patellaluxation-grad-und-therapieoptionen` (Koch/Fischer, Lahmheitsuntersuchung beim Hund, Thieme, 2. Auflage 2019, Kap. 8.3.5, S. 202–206 — Operationsprinzipien). Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -10326,7 +10605,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet", "Faktenwissen"],
     sourceStatus:
       "Verifiziert: Hárrer, Manuelle Therapie beim Hund (ISBN 978-3-13-245429-3), Thieme 2025, Kap. 8 (Knieregion), S. 85–87. Lachmann-Test, Tibiakompressionstest, Apley-Test, McMurray-Test sowie die Band-/Kapselprovokation über Varus-/Valgusstress sind im Original mit Ausführung und Indikation so beschrieben, einschließlich des expliziten Hinweises, dass Apley- und McMurray-Test ohne Schmerzangabe des Patienten keine Aussage über die betroffene Meniskusseite erlauben.",
-    relatedCaseIds: ["bruno"],
+    relatedCaseIds: ["bruno", "arco", "birk"],
     relatedAnatomyIds: ["lig-cruciatum-craniale", "lig-cruciatum-caudale", "ligg-collateralia-genus"],
   },
   {
@@ -10517,7 +10796,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Faktenwissen", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
     sourceStatus:
       "Verifiziert per Web-Recherche (22.09.2026), konvergent aus mehreren unabhängigen, etablierten veterinärmedizinischen Fachquellen: peer-reviewte Übersichtsarbeiten über PubMed/PMC (u. a. eine systematische Übersicht mit Metaanalyse zu TPLO/TTA sowie ein Scoping Review zur Ätiopathogenese der caninen Kreuzbanderkrankung), ergänzt durch die Fachportale ACVS (American College of Veterinary Surgeons) und VCA Animal Hospitals. WICHTIGE EINSCHRÄNKUNG: Der direkte Volltextzugriff (WebFetch) auf diese Quellen war in dieser Arbeitsumgebung technisch blockiert (Netzwerk-Egress-Beschränkung); die hier verwendeten Aussagen stammen aus den von der Websuche gelieferten, mehrfach konvergenten Kernaussagen dieser Artikel, nicht aus eigener Volltextprüfung jedes einzelnen Papers. Konkrete Prozentzahlen zu Erfolgsraten (85–95 % gute/exzellente Ergebnisse, ~93 % Funktionsrückkehr nach einem Jahr in einer 2013er-Studie) stammen teilweise aus sekundären Zusammenfassungen (u. a. veterinärmedizinische Fachblogs, die sich ihrerseits auf Studien berufen) und sind daher als Größenordnung, nicht als exakt geprüfte Einzelzahl zu verstehen. Der Zusammenhang zwischen steiler Tibiaplateauneigung und Kreuzbandriss wird in der Literatur selbst als nicht abschließend geklärt beschrieben — das ist hier bewusst mit übernommen, nicht geglättet.",
-    relatedCaseIds: ["bruno"],
+    relatedCaseIds: ["bruno", "arco", "birk"],
     relatedAnatomyIds: ["lig-cruciatum-craniale"],
   },
   {
@@ -10729,7 +11008,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Anatomieverwechslung", "Befund überbewertet", "Differentialdiagnostik unvollständig", "falsche Priorisierung"],
     sourceStatus:
       "Verifiziert per Kombination aus Buch- und Web-Quelle (22.09.2026). Buchquelle: Alexander/Baatz/Jaggy/Kathmann, „Pathophysiologie des Bewegungsapparates\" (aus: Physikalische Therapie für Kleintiere, VetCenter/Thieme) — Abschnitt „Achsenabweichung\": das Konzept der angeboren/genetisch fixierten Achsenabweichung mit Patellaluxation als Beispiel, die schematische Zugrichtung der Quadrizepsmuskulatur bei medialer Luxation sowie der Differentialdiagnose-Hinweis (\"Patellaluxation und Borreliose gleichzeitig\") sind im Original so beschrieben. Diese digitale Quelle enthält keine Seitenzahlen (Kapitelansicht ohne Paginierung) — daher Zitat nach Abschnittsüberschrift statt Seitenzahl. Web-Quelle (Grading, Prävalenz, Deformitäten, Therapie): konvergente Websuche-Zusammenfassungen aus mehreren etablierten veterinärmedizinischen Fachquellen (ACVS, Merck Veterinary Manual, OFA, peer-reviewte Arbeiten via PubMed/PMC, vettimes, Today's Veterinary Practice) zur Putnam-Klassifikation (1968), medialer vs. lateraler Luxation und deren Deformitäten sowie Prävalenz/Therapie. WICHTIGE EINSCHRÄNKUNG: Direkter Volltextzugriff (WebFetch) war in dieser Arbeitsumgebung technisch blockiert — die Web-Aussagen stammen aus Websuche-Synthesen, nicht aus eigener Volltextprüfung. Die Prävalenzangabe (~7 % der Welpen) stammt aus einer sekundären Quelle und ist als Größenordnung, nicht als exakt geprüfte Zahl zu verstehen. Bildet die fachliche Grundlage für den neuen Fall `lotte`.",
-    relatedCaseIds: ["lotte"],
+    relatedCaseIds: ["lotte", "coco"],
     relatedAnatomyIds: ["quadriceps"],
   },
   {
@@ -12541,7 +12820,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Differentialdiagnostik unvollständig", "Faktenwissen", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.4 (Kreuzbandriss), S. 199–202. Ätiologie, Biomechanik und Therapieoptionen sind im Original so beschrieben. Ergänzt die bereits vorhandene, webbasierte Übersicht `kreuzbandriss-krankheitsbild` um die buchbasierte biomechanische Herleitung und konkrete Operationsverfahren.",
-    relatedCaseIds: ["bruno"],
+    relatedCaseIds: ["bruno", "arco"],
     relatedAnatomyIds: ["quadriceps", "lig-cruciatum-craniale", "lig-cruciatum-caudale"],
   },
   {
@@ -12591,7 +12870,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Untersuchung falsch gewählt", "Befund überbewertet", "Differentialdiagnostik unvollständig"],
     sourceStatus:
       "Verifiziert: Koch, Daniel; Fischer, Martin S. (unter Mitarbeit von Britta Dobenecker), Lahmheitsuntersuchung beim Hund (ISBN 978-3-13-242101-1), Thieme, 2. Auflage 2019, Kap. 8.3.5 (Patellaluxation), S. 202–206. Rasseprädispositionen, Gradeinteilung, Untersuchungsprinzip und Operationsverfahren sind im Original so beschrieben. Ergänzt die bereits vorhandene, webbasierte Übersicht `patellaluxation-krankheitsbild`.",
-    relatedCaseIds: ["bruno"],
+    relatedCaseIds: ["bruno", "coco"],
     relatedAnatomyIds: ["quadriceps"],
   },
   {
