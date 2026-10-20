@@ -35,6 +35,9 @@ export default async function DashboardPage() {
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <Link href="/cases" className="tag">
+            Fälle
+          </Link>
           <Link href="/library" className="tag">
             Wissen
           </Link>
@@ -217,7 +220,10 @@ export default async function DashboardPage() {
       </div>
       <p className="empty-note">
         Die Reihenfolge richtet sich nach dem Wiederholungstermin (Spacing). Fälle sind erst nach
-        Freigabe durch eine Reviewerin sichtbar.
+        Freigabe durch eine Reviewerin sichtbar. <Link href="/cases" style={{ color: "var(--petrol)" }}>
+          Ganze Fallübersicht durchsuchen
+        </Link>
+        .
       </p>
     </div>
   );

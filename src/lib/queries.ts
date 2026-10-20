@@ -175,6 +175,24 @@ export async function getLibraryEntries(category?: KnowledgeCategory, q?: string
   );
 }
 
+/**
+ * Alle freigegebenen Fälle für die browsbare Fallübersicht (im Unterschied
+ * zur persönlichen, nach Fälligkeit sortierten Warteschlange auf dem
+ * Dashboard). Themencluster-Filterung erfolgt in der Page-Komponente per
+ * clusterKeyFor, da der Cluster kein eigenes DB-Feld ist.
+ */
+export async function getBrowsableCases(q?: string) {
+  const needle = q?.trim();
+  return prisma.case.findMany({
+    where: {
+      status: "APPROVED",
+      ...(needle ? { title: { contains: needle, mode: "insensitive" as const } } : {}),
+    },
+    orderBy: [{ topic: "asc" }, { title: "asc" }],
+    select: { id: true, slug: true, title: true, species: true, topic: true, difficulty: true },
+  });
+}
+
 export async function getKnowledgeEntry(slug: string) {
   return prisma.knowledgeEntry.findFirst({
     where: { slug, status: "APPROVED" },
