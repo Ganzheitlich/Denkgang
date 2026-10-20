@@ -4,6 +4,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { computeNextReviewDate, type Difficulty } from "@/lib/spacing";
 import { findKnowledgeForCase } from "@/lib/knowledge";
+import { findSimilarCases } from "@/lib/similarCases";
 import { scoreAttempt } from "@/lib/caseScoring";
 import { redirect } from "next/navigation";
 
@@ -92,7 +93,10 @@ export async function resolveCase(
       : [primaryOption?.errorCategory, "Differentialdiagnostik unvollständig"].filter(
           (v): v is string => Boolean(v),
         );
-  const relatedKnowledge = await findKnowledgeForCase(caseId, errorCategories);
+  const [relatedKnowledge, relatedCases] = await Promise.all([
+    findKnowledgeForCase(caseId, errorCategories),
+    findSimilarCases(caseId, errorCategories),
+  ]);
 
   return {
     primaryCorrect,
@@ -103,6 +107,7 @@ export async function resolveCase(
     weakeningCorrectLabel,
     weakeningCorrect,
     relatedKnowledge,
+    relatedCases,
   };
 }
 

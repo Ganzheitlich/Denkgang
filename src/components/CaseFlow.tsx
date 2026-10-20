@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { KnowledgeCta } from "@/components/KnowledgeCta";
+import { SimilarCasesCta } from "@/components/SimilarCasesCta";
 import { CASE_DIFFICULTY_LABELS } from "@/lib/caseDifficulty";
 import type { CaseDifficulty } from "@/generated/prisma/enums";
 import {
@@ -64,6 +65,7 @@ type ResolveData = {
   weakeningCorrectLabel: string;
   weakeningCorrect: boolean;
   relatedKnowledge: KnowledgeSuggestion[] | null;
+  relatedCases: { slug: string; title: string }[] | null;
 };
 
 export function CaseFlow({
@@ -671,6 +673,7 @@ export function CaseFlow({
           <p className="empty-note">
             Deine Angabe entscheidet, wann dieser Fall zur Wiederholung wieder auftaucht (Spacing).
           </p>
+          {resolveData?.relatedCases && <SimilarCasesCta cases={resolveData.relatedCases} />}
         </div>
       )}
     </>
