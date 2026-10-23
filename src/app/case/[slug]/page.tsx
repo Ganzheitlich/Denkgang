@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { requireSession } from "@/lib/auth-helpers";
 import { getCaseForFlow } from "@/lib/queries";
 import { prisma } from "@/lib/prisma";
+import { clusterKeyFor } from "@/lib/interleave";
 import { CaseFlow } from "@/components/CaseFlow";
 
 export default async function CasePage({ params }: PageProps<"/case/[slug]">) {
@@ -9,15 +10,15 @@ export default async function CasePage({ params }: PageProps<"/case/[slug]">) {
   const [session, caseData] = await Promise.all([requireSession(), getCaseForFlow(slug)]);
   if (!caseData) notFound();
 
-  const user = await prisma.user.findUnique({
-    where: { id: session.user.id },
+  const mastery = await prisma.userTopicMastery.findUnique({
+    where: { userId_cluster: { userId: session.user.id, cluster: clusterKeyFor(caseData.topic) } },
     select: { examOrderStreak: true },
   });
 
   return (
     <div className="app">
       <CaseFlow
-        initialExamOrderStreak={user?.examOrderStreak ?? 0}
+        initialExamOrderStreak={mastery?.examOrderStreak ?? 0}
         caseData={{
           id: caseData.id,
           difficulty: caseData.difficulty,

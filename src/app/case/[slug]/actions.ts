@@ -6,6 +6,7 @@ import { computeNextReviewDate, type Difficulty } from "@/lib/spacing";
 import { findKnowledgeForCase } from "@/lib/knowledge";
 import { findSimilarCases } from "@/lib/similarCases";
 import { scoreAttempt } from "@/lib/caseScoring";
+import { clusterKeyFor } from "@/lib/interleave";
 import { redirect } from "next/navigation";
 
 async function requireUserId() {
@@ -176,9 +177,10 @@ export async function submitCaseAttempt(input: SubmitInput) {
         dueAt: computeNextReviewDate(primaryCorrect, input.confidence, input.difficulty),
       },
     }),
-    prisma.user.update({
-      where: { id: userId },
-      data: { examOrderStreak: input.examOrderStreakFinal },
+    prisma.userTopicMastery.upsert({
+      where: { userId_cluster: { userId, cluster: clusterKeyFor(c.topic) } },
+      update: { examOrderStreak: input.examOrderStreakFinal },
+      create: { userId, cluster: clusterKeyFor(c.topic), examOrderStreak: input.examOrderStreakFinal },
     }),
   ]);
 

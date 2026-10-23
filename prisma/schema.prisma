@@ -22,19 +22,35 @@ enum Role {
 }
 
 model User {
-  id              String   @id @default(cuid())
-  email           String   @unique
-  passwordHash    String
-  name            String?
-  role            Role     @default(STUDENT)
-  examOrderStreak Int      @default(0)
-  createdAt       DateTime @default(now())
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String?
+  role         Role     @default(STUDENT)
+  createdAt    DateTime @default(now())
 
   caseAttempts    CaseAttempt[]
   anatomyAttempts AnatomyAttempt[]
   caseSchedules   CaseSchedule[]
-  reviewedCases   Case[]           @relation("CaseReviewedBy")
-  createdCases    Case[]           @relation("CaseCreatedBy")
+  topicMastery    UserTopicMastery[]
+  reviewedCases   Case[]             @relation("CaseReviewedBy")
+  createdCases    Case[]             @relation("CaseCreatedBy")
+}
+
+/**
+ * Mastery-Skip fuer die Untersuchungsreihenfolge (erst beobachten, dann
+ * palpieren), pro Themencluster statt global — eine Faehigkeits-Serie in
+ * der Orthopaedie soll den Uebungsmodus in der Neurologie nicht
+ * automatisch mit ueberspringen. `cluster` entspricht clusterKeyFor(topic)
+ * (z. B. "Orthopädie", "Neurologie").
+ */
+model UserTopicMastery {
+  userId          String
+  user            User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cluster         String
+  examOrderStreak Int    @default(0)
+
+  @@id([userId, cluster])
 }
 
 // ---------- Content-Status ----------
