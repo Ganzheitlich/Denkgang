@@ -4,7 +4,7 @@ export type KnowledgeSuggestion = { slug: string; title: string };
 
 const MAX_SUGGESTIONS = 4;
 
-async function findKnowledgeByTags(tags: string[]): Promise<KnowledgeSuggestion[]> {
+export async function findKnowledgeByTags(tags: string[]): Promise<KnowledgeSuggestion[]> {
   if (tags.length === 0) return [];
   const tagged = await prisma.knowledgeEntry.findMany({
     where: { status: "APPROVED", errorTags: { hasSome: tags } },

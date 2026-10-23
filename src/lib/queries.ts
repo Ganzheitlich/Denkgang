@@ -1,11 +1,35 @@
 import { prisma } from "@/lib/prisma";
 import { formatDueLabel } from "@/lib/spacing";
 import { knowledgeSectionsContainText, type KnowledgeBlock } from "@/lib/knowledgeBlocks";
+import { findKnowledgeByTags } from "@/lib/knowledge";
 import { pct } from "@/lib/stats";
 import { interleaveByCluster } from "@/lib/interleave";
 import type { KnowledgeCategory } from "@/generated/prisma/enums";
 
 export type SkillScore = { label: string; val: number | null };
+
+/**
+ * Fälle, die dieselbe Fehlerkategorie in mindestens einer ihrer
+ * Antwortoptionen verwenden — für gezielte Übung statt reiner
+ * Fehlerkategorie-Anzeige. Schließt bereits bearbeitete Fälle aus, da die
+ * Wiederholungs-Warteschlange (Spacing) dafür bereits zuständig ist; dieser
+ * Vorschlag soll gezielt neue Übung einführen.
+ */
+async function findCasesForErrorCategory(category: string, excludeCaseIds: string[], limit = 3) {
+  return prisma.case.findMany({
+    where: {
+      status: "APPROVED",
+      id: { notIn: excludeCaseIds },
+      OR: [
+        { hypothesisOptions: { some: { errorCategory: category } } },
+        { weakeningOptions: { some: { errorCategory: category } } },
+        { retrievalOptions: { some: { errorCategory: category } } },
+      ],
+    },
+    select: { slug: true, title: true },
+    take: limit,
+  });
+}
 
 export async function getDashboardData(userId: string) {
   const [caseAttempts, anatomyAttempts, cases, anatomyItems, mediaAssets, schedules, libraryPreview, libraryCount] =
@@ -66,6 +90,30 @@ export async function getDashboardData(userId: string) {
   }
   const errorTags = [...errorTally.entries()].sort((a, b) => b[1] - a[1]);
 
+  // Aktiver Lernpfad statt reiner Fehlerkategorie-Anzeige: zur häufigsten
+  // Fehlerkategorie konkrete Fälle und Wissenseinträge vorschlagen. Bereits
+  // bearbeitete Fälle werden ausgeschlossen, da die Wiederholungs-
+  // Warteschlange dafür bereits sorgt — dieser Vorschlag soll gezielt neue
+  // Übung einführen statt bestehende zu duplizieren.
+  let focusedPractice: {
+    category: string;
+    count: number;
+    cases: { slug: string; title: string }[];
+    knowledge: { slug: string; title: string }[];
+  } | null = null;
+  const topError = errorTags[0];
+  if (topError) {
+    const [category, count] = topError;
+    const attemptedCaseIds = [...new Set(caseAttempts.map((a) => a.caseId))];
+    const [focusCases, focusKnowledge] = await Promise.all([
+      findCasesForErrorCategory(category, attemptedCaseIds),
+      findKnowledgeByTags([category]),
+    ]);
+    if (focusCases.length > 0 || focusKnowledge.length > 0) {
+      focusedPractice = { category, count, cases: focusCases, knowledge: focusKnowledge };
+    }
+  }
+
   const latestAnatomyAttempt = new Map<string, boolean>();
   for (const a of anatomyAttempts) {
     if (!latestAnatomyAttempt.has(a.anatomyId)) {
@@ -96,6 +144,7 @@ export async function getDashboardData(userId: string) {
     skills,
     insight,
     errorTags,
+    focusedPractice,
     anatomyItems: anatomyItems.map((a) => ({
       item: a,
       state: latestAnatomyAttempt.has(a.id)

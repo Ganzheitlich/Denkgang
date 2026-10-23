@@ -12,7 +12,7 @@ const DISCLAIMER =
 export default async function DashboardPage() {
   const session = await requireSession();
   const user = session.user;
-  const { skills, insight, errorTags, anatomyItems, mediaAssets, queue, libraryPreview, libraryCount } =
+  const { skills, insight, errorTags, focusedPractice, anatomyItems, mediaAssets, queue, libraryPreview, libraryCount } =
     await getDashboardData(user.id);
 
   return (
@@ -80,6 +80,36 @@ export default async function DashboardPage() {
           </div>
         )}
       </div>
+
+      {focusedPractice && (
+        <>
+          <h3 style={{ marginBottom: 10 }}>Gezielt üben</h3>
+          <div className="card">
+            <p style={{ marginTop: 0, marginBottom: 0 }}>
+              Häufigster Fehlertyp: <strong>{focusedPractice.category}</strong> ({focusedPractice.count}×)
+            </p>
+            {focusedPractice.cases.length > 0 && (
+              <div className="knowledge-cta-group">
+                <div className="knowledge-cta-group-label">Passende Fälle zum Üben:</div>
+                {focusedPractice.cases.map((c) => (
+                  <Link key={c.slug} href={`/case/${c.slug}`} className="knowledge-cta knowledge-cta-option">
+                    <span>{c.title}</span>
+                    <span aria-hidden="true">→</span>
+                  </Link>
+                ))}
+              </div>
+            )}
+            {focusedPractice.knowledge.map((k) => (
+              <Link key={k.slug} href={`/library/${k.slug}`} className="knowledge-cta">
+                <span>
+                  Hintergrundwissen: <strong>{k.title}</strong>
+                </span>
+                <span aria-hidden="true">→</span>
+              </Link>
+            ))}
+          </div>
+        </>
+      )}
 
       <h3 style={{ marginBottom: 10 }}>Anatomie-Wissen</h3>
       <div className="card" style={{ padding: "4px 18px" }}>
