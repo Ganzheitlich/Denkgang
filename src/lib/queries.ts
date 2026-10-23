@@ -186,11 +186,56 @@ export async function getBrowsableCases(q?: string) {
   return prisma.case.findMany({
     where: {
       status: "APPROVED",
-      ...(needle ? { title: { contains: needle, mode: "insensitive" as const } } : {}),
+      ...(needle
+        ? {
+            OR: [
+              { title: { contains: needle, mode: "insensitive" as const } },
+              { topic: { contains: needle, mode: "insensitive" as const } },
+            ],
+          }
+        : {}),
     },
     orderBy: [{ topic: "asc" }, { title: "asc" }],
     select: { id: true, slug: true, title: true, species: true, topic: true, difficulty: true },
   });
+}
+
+export async function getBrowsableAnatomy(q?: string) {
+  const needle = q?.trim();
+  return prisma.anatomyItem.findMany({
+    where: {
+      status: "APPROVED",
+      ...(needle ? { name: { contains: needle, mode: "insensitive" as const } } : {}),
+    },
+    orderBy: { name: "asc" },
+    select: { id: true, slug: true, name: true, kind: true },
+  });
+}
+
+const SEARCH_RESULT_LIMIT = 8;
+
+/**
+ * Kombinierte Suche über Fälle, Wissensbibliothek und Anatomie-Items für
+ * die Seite /search. Nutzt dieselben, bereits bestehenden Abfragen wie die
+ * jeweiligen eigenständigen Übersichtsseiten (/cases, /library) statt die
+ * Filterlogik zu duplizieren, begrenzt die Trefferliste pro Bereich aber
+ * auf wenige Treffer — für die vollständige Liste verweist die Seite auf
+ * die jeweilige eigenständige Übersicht.
+ */
+export async function searchAllContent(q: string) {
+  const [cases, knowledge, anatomy] = await Promise.all([
+    getBrowsableCases(q),
+    getLibraryEntries(undefined, q),
+    getBrowsableAnatomy(q),
+  ]);
+  return {
+    cases: cases.slice(0, SEARCH_RESULT_LIMIT),
+    casesTotal: cases.length,
+    knowledge: knowledge.slice(0, SEARCH_RESULT_LIMIT),
+    knowledgeTotal: knowledge.length,
+    anatomy: anatomy.slice(0, SEARCH_RESULT_LIMIT),
+    anatomyTotal: anatomy.length,
+  };
 }
 
 export async function getKnowledgeEntry(slug: string) {

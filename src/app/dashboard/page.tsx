@@ -35,6 +35,9 @@ export default async function DashboardPage() {
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <Link href="/search" className="tag">
+            Suche
+          </Link>
           <Link href="/cases" className="tag">
             Fälle
           </Link>
