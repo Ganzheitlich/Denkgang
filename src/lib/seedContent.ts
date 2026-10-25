@@ -7535,6 +7535,88 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert per bereits vorhandenem Wissenseintrag `hueftgelenkluxation-hund` (Koch, Daniel; Fischer, Martin S., Lahmheitsuntersuchung beim Hund, Thieme, 2. Auflage 2019, Kap. 8.3.10, S. 216–218). Ätiologie, Luxationsrichtungen mit jeweiliger Beinstellung, der Daumentest, Diagnostik und Therapie sind im Original so beschrieben. Schließt eine bisherige Lücke: Der bestehende Fall `luna` nutzt denselben Wissenseintrag nur als Differentialdiagnose-Hintergrund (dort lautet die eigentliche Diagnose Hüftgelenkdysplasie), ohne dass die traumatische Luxation selbst je die Zieldiagnose eines Falls war. Dieser Fall kombiniert ausschließlich bereits verifizierte Fakten zu einem neuen klinischen Szenario — keine neue Primärrecherche nötig. Name, Rasse, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden — Bildbrief siehe `docs/content-roadmap.md`.",
   },
+  {
+    id: "fibi",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Orthopädie · Gelenke (Osteochondrodysplasie, Scottish Fold)",
+    species: "Scottish Fold, Kätzin, 8 Monate",
+    title: "Fibi — seit Wochen zunehmend steif, kein erinnerlicher Unfall",
+    learningObjective:
+      "Erkennen, dass eine schleichend zunehmende, nicht-traumatische Steifheit bei einer prädisponierten Rasse (Scottish Fold) eher für eine erbliche Knorpelerkrankung als für eine Verletzung spricht — und die bei Hunden oft zutreffende Reflex-Annahme „plötzliche Lahmheit = Unfall\" bei der Katze gezielt hinterfragen, auch weil Katzen Gelenkbeschwerden tendenziell eher überspielen als deutlich zeigen.",
+    anamnese:
+      "Fibi ist eine 8 Monate alte Scottish-Fold-Kätzin. Seit etwa sechs Wochen wirkt sie zunehmend steif beim Aufstehen und springt immer seltener auf das Sofa oder die Fensterbank. Die Besitzerin erinnert sich an kein Sturz- oder Unfallereignis und hatte die Veränderung zunächst für „typisch ruhiges Katzenverhalten\" gehalten.",
+    beobachtung:
+      "Fibi bewegt sich insgesamt vorsichtig und mit verkürztem Schritt, besonders an den Hintergliedmaßen. Der Schwanzansatz wirkt auffällig verdickt und wird eher steif getragen statt frei beweglich.",
+    diagramLabel: "Schleichend progrediente Steifheit über sechs Wochen, kein Trauma erinnerlich, verdickter Schwanzansatz",
+    palpation:
+      "An beiden Karpal- und Tarsalgelenken sind symmetrisch knöcherne Verdickungen tastbar, der Bewegungsumfang ist dort deutlich eingeschränkt. Die Gelenke sind nicht überwärmt und beim vorsichtigen Durchbewegen nicht eindeutig schmerzhaft. Die Ohren sind rassetypisch nach vorne umgeknickt.",
+    hypothesisQ: "Was erklärt Fibis seit sechs Wochen zunehmende Steifheit am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine Osteochondrodysplasie — die rassetypische, autosomal-dominant vererbte Knorpelerkrankung der Scottish-Fold-Katze passt zu den symmetrischen knöchernen Zubildungen an Karpal- und Tarsalgelenken, dem verdickten Schwanzansatz und dem schleichenden, nicht-traumatischen Verlauf",
+        correct: true,
+      },
+      {
+        label: "Eine Verstauchung oder Prellung nach einem unbeobachteten Sturz, die mit etwas Schonung von selbst abheilen wird",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Ein einzelnes Sturzereignis würde kaum eine symmetrische Beteiligung beider Karpal- UND beider Tarsalgelenke erklären, die zudem über sechs Wochen zunehmend statt nach wenigen Tagen abklingend verläuft. Auch der zusätzlich verdickte Schwanzansatz passt nicht zu einer isolierten Gliedmaßenverletzung.",
+        differentiationDistractors: [
+          "Wenn kein Unfall erinnerlich ist, kann trotzdem meistens von einer kleinen, unbeobachteten Verletzung ausgegangen werden.",
+          "Steifheit nach Ruhephasen ist bei jedem Tier zunächst ein Zeichen für eine Zerrung.",
+        ],
+      },
+      {
+        label: "Ein alimentärer (ernährungsbedingter) Hyperparathyreoidismus durch unausgewogene Fütterung",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Stoffwechselerkrankung verursacht typischerweise eine generalisierte Osteoporose mit Gefahr pathologischer Frakturen, nicht lokal begrenzte periartikuläre Knochenzubildungen an genau den Gelenken plus einem verdickten Schwanzansatz. Eine genaue Fütterungsanamnese bliebe zwar sinnvoll, das beschriebene Befundmuster spricht aber gezielter für die rassetypische Knorpelerkrankung.",
+        differentiationDistractors: [
+          "Junge Katzen mit Bewegungsproblemen haben praktisch immer eine Fütterungsursache.",
+          "Ohne genaue Fütterungsanamnese lässt sich eine Stoffwechselursache nie ausschließen.",
+        ],
+      },
+      {
+        label: "Eine Hüftgelenkdysplasie, da Gelenkprobleme bei jungen Tieren meist von der Hüfte ausgehen",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Die Hüftgelenkdysplasie betrifft das Hüftgelenk selbst, nicht die distalen Gliedmaßengelenke. Fibis Befunde liegen aber gezielt an Karpal- und Tarsalgelenken sowie am Schwanzansatz — ein Verteilungsmuster, das nicht zur Hüfte, sondern zur Osteochondrodysplasie passt.",
+        differentiationDistractors: [
+          "Steifheit bei jungen Katzen geht praktisch immer von der Hüfte aus.",
+          "Gelenkbefunde an den Pfoten sind meist nur eine Folge einer eigentlichen Hüfterkrankung.",
+        ],
+      },
+    ],
+    expertNote:
+      "Die Osteochondrodysplasie der Scottish-Fold-Katze ist ein autosomal-dominant vererbter, generalisierter Knorpeldefekt: Dieselbe Genvariante, die die rassetypisch umgeknickten Ohren verursacht, stört die enchondrale Ossifikation im gesamten Skelett. Homozygote Tiere sind in der Regel früher und stärker betroffen, aber auch heterozygote Tiere können Skelettveränderungen entwickeln — deshalb wird unabhängig vom äußeren Schweregrad grundsätzlich kein Zuchteinsatz empfohlen. Typisch betroffen sind die distalen Gliedmaßen (v. a. Karpal- und Tarsalgelenke, bis hin zur Ankylosierung) sowie die kaudale Wirbelsäule/der Schwanzansatz; die Hintergliedmaßen sind meist stärker betroffen als die Vordergliedmaßen. Die Therapie ist ausschließlich palliativ (Schmerztherapie, Anpassung der Umgebung an die reduzierte Beweglichkeit, z. B. erleichterter Zugang zu Liegeplätzen und Katzentoilette); in ausgewählten Fällen kann eine Panarthrodese des Tarsus Schmerzfreiheit bringen. Fachlich-didaktisch wichtig: Anders als beim Hund, wo eine plötzlich wirkende Lahmheit oft tatsächlich traumatisch ist, überspielen Katzen Gelenkbeschwerden tendenziell eher, als sie deutlich zu zeigen — ein reflexhafter Trauma-Verdacht wie bei vielen Hundefällen greift hier zu kurz.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für ein akutes Trauma sprechen und gegen die Osteochondrodysplasie als alleinige Erklärung?",
+    weakeningOptions: [
+      {
+        label: "Ein plötzliches, einseitiges Hinken nach einem beobachteten Sturz, das isoliert nur eine Gliedmaße betrifft",
+        correct: true,
+      },
+      { label: "Die symmetrisch tastbaren knöchernen Verdickungen an beiden Tarsalgelenken", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Der verdickte, steif getragene Schwanzansatz", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die nach vorne umgeknickten Ohren", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum wird bei Scottish-Fold-Katzen unabhängig vom äußeren Erscheinungsbild grundsätzlich vom Zuchteinsatz abgeraten?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil die Osteochondrodysplasie autosomal-dominant vererbt wird und auch heterozygote Tiere, die äußerlich nur gering betroffen wirken können, Skelettveränderungen entwickeln und die Veranlagung weitergeben können",
+        correct: true,
+      },
+      { label: "Weil nur Kater, aber nie Kätzinnen die Erkrankung weitervererben können", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die Erkrankung ausschließlich durch Fütterungsfehler entsteht und daher nicht vererbt wird", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil nur homozygote Tiere Träger sind, heterozygote Tiere aber nie betroffen oder Überträger sind", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Osteochondrodysplasie der Scottish-Fold-Katzen\". Ätiologie (autosomal-dominant vererbter generalisierter Knorpeldefekt, Zusammenhang mit den umgeknickten Ohren, homo-/heterozygote Ausprägung, kein Zuchteinsatz empfohlen), Lokalisation (distale Gliedmaßen mit Ankylosierung der Karpal-/Tarsalgelenke, kaudale Wirbelsäule/Schwanz), die stärkere Betroffenheit der Hintergliedmaßen sowie die ausschließlich palliative Therapie (inkl. Panarthrodese des Tarsus in Einzelfällen) sind im Original so beschrieben. Der Hinweis, dass Katzen Gelenkschmerzen tendenziell überspielen, stammt aus demselben Kapitel (Abschnitte „Idiopathische Polyarthritis bei der Katze\": „Neigung von Katzen, Gelenkschmerzen zu überspielen\"; „Chronische progressive Polyarthritis bei der Katze\": „oft Belastung der Gliedmaßen ohne allzu offensichtliche Schmerzen möglich\") und wird hier als allgemeine Einordnung auf die Osteochondrodysplasie übertragen — diese Übertragung ist eine didaktische Verallgemeinerung von Denkgang, nicht wörtlich für die Osteochondrodysplasie selbst belegt. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -23873,6 +23955,41 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.3 (Gangbildanalyse/Adspektion in der Bewegung, Einleitung), S. 57f. (per Google-Drive-Chunk-Extraktion ausgewertet, Chunk g(20).pdf). Die Kritik an der rein quantitativen klassischen Definition, die qualitative Lahmheit-/Bewegungsstörung-Unterscheidung, die vier gesuchten Veränderungskategorien, der befundende (nicht diagnostische) Charakter der GA, die Begründung für die GA-vor-Palpation-Reihenfolge, die eingeschränkte Anwendbarkeit bei der Katze sowie der Hinweis auf die junge Geschichte der GA beim Hund sind im Original so beschrieben. Bewusst NICHT übernommen (Vorsicht vor möglicher Dopplung/Verfälschung durch Spaltenverschränkung in der Quelldatei, siehe Backlog-Eintrag): die Detailabschnitte zum LSÜ-Twist-Mechanismus und zum Kopfnicken-Mechanismus (Abb. 4.3/4.4) sowie die als stark spaltenverschränkt geflaggten Gangbildbefund-Tabellen (Tab. 4.2–4.4) — diese bleiben für eine künftige, besonders sorgfältige Einzelprüfung offen. Bewusst abgegrenzt vom bestehenden Eintrag `schmerzreise-hd-knie-sig-lsue-kaskade` (dieselbe Quelle): Jener Eintrag beschreibt einen konkreten biomechanischen Kompensationsmechanismus (HD → Knie → SIG → LWS), dieser Eintrag die vorgelagerte begriffliche und methodische Grundlage der Gangbildanalyse selbst — unterschiedliche Ebenen, bewusst nicht dupliziert.",
     relatedCaseIds: [],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "scottish-fold-osteochondrodysplasie",
+    category: "PATHOLOGIE",
+    title: "Osteochondrodysplasie der Scottish-Fold-Katze: wenn Steifheit kein Unfall ist",
+    teaser:
+      "Eine erblich bedingte Knorpelerkrankung, die bei dieser Rasse leicht mit einer alltäglichen Verstauchung verwechselt wird.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein Gendefekt, kein Trauma",
+        text: "Die Osteochondrodysplasie der Scottish-Fold-Katze ist ein autosomal-dominant vererbter, generalisierter Knorpeldefekt: Dieselbe Genvariante, die die rassetypisch umgeknickten Ohren verursacht, stört die enchondrale Ossifikation im gesamten Skelett. Homozygote Tiere sind in der Regel früher und stärker betroffen — aber auch heterozygote Tiere können Skelettveränderungen entwickeln. Deshalb wird unabhängig vom äußeren Schweregrad grundsätzlich kein Zuchteinsatz empfohlen.",
+      },
+      {
+        type: "table",
+        heading: "Befundmuster im Überblick",
+        columns: ["Lokalisation", "Typischer Befund"],
+        rows: [
+          ["Distale Gliedmaßen (v. a. Karpal-/Tarsalgelenke)", "knöcherne Zubildungen bis hin zur Ankylosierung"],
+          ["Kaudale Wirbelsäule/Schwanz", "verkürzte, verbreiterte Wirbel; proximal verdickter Schwanz"],
+          ["Verteilung", "Hintergliedmaßen meist stärker betroffen als Vordergliedmaßen"],
+          ["Verlauf", "progressiv, oft schon im Jungtieralter beginnend"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum das leicht übersehen wird",
+        text: "Kein Trauma-Ereignis ist als Auslöser nötig oder vorhanden, der Beginn ist schleichend statt abrupt. Katzen überspielen Gelenkbeschwerden zudem tendenziell eher, als sie deutlich zu zeigen — weshalb zunehmende Steifheit leicht als „typisches ruhiges Katzenverhalten\" fehlgedeutet wird statt als Krankheitszeichen erkannt zu werden. Die Therapie ist ausschließlich palliativ (Schmerztherapie, Anpassung der Umgebung an die reduzierte Beweglichkeit); in ausgewählten Fällen kann eine Panarthrodese des Tarsus Schmerzfreiheit bringen.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Osteochondrodysplasie der Scottish-Fold-Katzen\". Ätiologie (autosomal-dominant vererbter generalisierter Knorpeldefekt, Zusammenhang mit den umgeknickten Ohren, homo-/heterozygote Ausprägung, kein Zuchteinsatz), Lokalisation (distale Gliedmaßen mit Ankylosierung der Karpal-/Tarsalgelenke, kaudale Wirbelsäule/Schwanz), die stärkere Betroffenheit der Hintergliedmaßen sowie die ausschließlich palliative Therapie (inkl. Panarthrodese des Tarsus in Einzelfällen) sind im Original so beschrieben. Der Hinweis, dass Katzen Gelenkschmerzen tendenziell überspielen, stammt aus demselben Kapitel (Abschnitte „Idiopathische Polyarthritis bei der Katze\": „Neigung von Katzen, Gelenkschmerzen zu überspielen\"; „Chronische progressive Polyarthritis bei der Katze\": „oft Belastung der Gliedmaßen ohne allzu offensichtliche Schmerzen möglich\") und wird hier als allgemeine Einordnung auf die Osteochondrodysplasie übertragen — diese Übertragung ist eine didaktische Verallgemeinerung von Denkgang, nicht wörtlich für die Osteochondrodysplasie selbst belegt.",
+    relatedCaseIds: ["fibi"],
     relatedAnatomyIds: [],
   },
 ];
