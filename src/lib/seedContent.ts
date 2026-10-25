@@ -8026,6 +8026,251 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Renaler Hyperparathyreoidismus bei der Katze\". Vorkommen (Häufigkeit bei chronischer Niereninsuffizienz inkl. Studienzahl), Pathophysiologie (Hyperphosphatämie, verminderte Ca-Rückresorption, gestörte Kalzitriol-Synthese), Klinik (Knochenschmerz, Inaktivität, seltene pathologische Frakturen), Diagnostik (PTH-Erhöhung bei chronischer Niereninsuffizienz) sowie Therapie (Senkung des Phosphatspiegels über Futterumstellung und Phosphatbinder) sind im Original so beschrieben. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
   },
+  {
+    id: "tiger",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Neurologie · Rückenmark (Sakrokaudale Fraktur/Luxation)",
+    species: "Europäisch Kurzhaar, Kater, 3 Jahre, Freigänger",
+    title: "Tiger — seit heute schlaffer Schwanz, kommt nicht mehr richtig nach Hause gelaufen",
+    learningObjective:
+      "Einen „Schwanzabriss\" nach Trauma bei freilaufenden Katzen nicht als reine Schwanzverletzung unterschätzen — die vollständige Analgesie der Schwanz-Dermatome als Hinweis auf eine echte Nervenschädigung (Cauda equina/Plexus pelvinus) erkennen und gezielt nach begleitender Blasenfunktionsstörung suchen.",
+    anamnese:
+      "Tiger ist ein 3-jähriger freilaufender Kater. Er kam heute Vormittag deutlich verspätet und humpelnd nach Hause, der Schwanz hängt seitdem komplett schlaff herab. Die Besitzerin vermutet einen Autounfall oder dass der Schwanz irgendwo eingeklemmt wurde — beobachtet hat sie den Vorfall selbst nicht.",
+    beobachtung:
+      "Tigers Schwanz hängt vollständig schlaff und bewegungslos herab, ohne jede aktive Bewegung. Beim Versuch, auf die Katzentoilette zu gehen, presst er auffällig stark, ohne dass viel Urin abgesetzt wird.",
+    diagramLabel: "Akute schlaffe Schwanzlähmung nach unbeobachtetem Trauma bei einem Freigänger, auffälliger Harnabsatz mit starkem Pressen",
+    palpation:
+      "Der gesamte Schwanz zeigt eine vollständige Analgesie — auf Berührung und Zwicken entlang aller Dermatome erfolgt keinerlei Reaktion. Im Beckenbereich besteht eine hochgradige Schmerzempfindlichkeit bei Palpation. Die Harnblase ist deutlich gefüllt und prallelastisch tastbar.",
+    hypothesisQ: "Was erklärt Tigers schlaffe Schwanzlähmung mit gestörtem Harnabsatz am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine sakrokaudale Fraktur/Luxation mit Schädigung der Cauda equina bzw. des Plexus pelvinus — die vollständige Analgesie der Schwanz-Dermatome bei schlaffer Lähmung sowie der gestörte Harnabsatz (Harnretention durch erhöhten Blasensphinktertonus) passen zum klassischen „Schwanzabriss\" bei freilaufenden Katzen",
+        correct: true,
+      },
+      {
+        label: "Eine einfache Schwanzfraktur ohne Nervenbeteiligung, die mit Ruhigstellung von selbst heilen wird",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine vollständige Analgesie entlang aller Schwanz-Dermatome ist ein eindeutiges Zeichen einer Nervenschädigung, nicht nur einer Knochenverletzung. Eine reine Schwanzfraktur ohne Nervenbeteiligung würde die Schmerzempfindung nicht vollständig aufheben und keinen gestörten Harnabsatz verursachen.",
+        differentiationDistractors: [
+          "Ein hängender Schwanz nach einem Unfall ist fast immer nur eine einfache Fraktur ohne weitere Konsequenzen.",
+          "Solange keine offene Wunde sichtbar ist, braucht eine Schwanzverletzung keine weitere neurologische Abklärung.",
+        ],
+      },
+      {
+        label: "Eine reine Weichteilverletzung am Schwanzansatz ohne weitere Relevanz für Blase oder Hintergliedmaßen",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Diese Einordnung übersieht den auffälligen Harnabsatz mit starkem Pressen bei prallelastisch gefüllter Blase — ein klarer Hinweis auf eine Mitbeteiligung des Plexus pelvinus mit gestörter Blasenentleerung, die aktiv gemanagt werden muss (z. B. manuelle Blasenentleerung), nicht nur eine isolierte, folgenlose Weichteilverletzung.",
+        differentiationDistractors: [
+          "Der Harnabsatz eines Tieres ist für die Beurteilung einer Schwanzverletzung nicht relevant.",
+          "Starkes Pressen beim Wasserlassen ist bei gestressten Katzen nach einem Unfall normal und ohne diagnostische Bedeutung.",
+        ],
+      },
+      {
+        label: "Eine Ischiadikusparese infolge einer Beckenverletzung",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Eine Ischiadikusparese würde sich vor allem durch eine Parese der Beckengliedmaße mit fehlendem Flexorreflex zeigen, nicht primär durch eine komplette Analgesie des Schwanzes mit gestörtem Harnabsatz. Dieses spezifische Befundmuster spricht für eine Schädigung im Bereich der Cauda equina/des Plexus pelvinus, nicht für eine isolierte Ischiadikusschädigung.",
+        differentiationDistractors: [
+          "Jede Nervenschädigung im Beckenbereich der Katze betrifft automatisch den N. ischiadicus.",
+          "Schwanzlähmung und Beckengliedmaßen-Lähmung haben bei der Katze immer dieselbe Ursache.",
+        ],
+      },
+    ],
+    expertNote:
+      "Die sakrokaudale Fraktur/Luxation, umgangssprachlich „Schwanzabriss\", ist eine bei freilaufenden Katzen häufige Verletzung — typische Ursachen sind Autounfälle oder ein Einklemmen des Schwanzes (seltener Tierquälerei). Durch Fraktur oder Luxation von Os sacrum und proximalen Kokzygealwirbeln kommt es zur Schädigung des kaudalen Rückenmarks, der Nerven der Cauda equina und/oder des Plexus pelvinus — der Schweregrad der neurologischen Ausfälle korreliert dabei mit dem Ausmaß der Traktion an diesen Strukturen. Klinisch zeigt sich eine schlaffe Schwanzlähmung mit kompletter Analgesie der entsprechenden Dermatome, hochgradige Dolenz im Beckenbereich, teils Parese bis Paralyse der Hintergliedmaßen. Bei der Blasenfunktion muss zwischen zwei Mustern unterschieden werden: selten Urininkontinenz durch schlaffe Blasenlähmung (UMN-Schädigung), häufiger dagegen Harnretention mit teils massivem Tenesmus durch gesteigerten Tonus des Blasensphinkters — genau dieses zweite Muster zeigt Tiger. Therapeutisch steht neben der (kontrovers diskutierten) chirurgischen Stabilisierung vor allem das Blasenmanagement im Vordergrund: manuelle Blasenentleerung oder ein präpubischer Katheter, medikamentös Diazepam und Phenoxybenzamin zur Relaxation des Blasensphinkters. Die Prognose für Bewegungsstörungen ist meist gut, für die gestörte Miktion dagegen vorsichtig und abhängig vom konsequenten Blasenmanagement.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine Nervenschädigung sprechen und für eine isolierte, folgenlose Schwanzverletzung?",
+    weakeningOptions: [
+      {
+        label: "Eine Schwanzfraktur mit vollständig erhaltener Schmerzempfindung entlang aller Dermatome und normalem, unauffälligem Harnabsatz",
+        correct: true,
+      },
+      { label: "Die vollständige Analgesie entlang des gesamten Schwanzes", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die prallelastisch gefüllte Harnblase mit starkem Pressen beim Harnabsatz", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die hochgradige Schmerzempfindlichkeit bei Palpation im Beckenbereich", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum korreliert der Schweregrad von Tigers neurologischen Ausfällen mit dem Ausmaß der Traktion am Schwanz?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil mit stärkerer bzw. näher am Rückenmark gelegener Zugbelastung mehr Nervenwurzeln der Cauda equina bzw. des Plexus pelvinus geschädigt werden können, was gleichzeitig Schwanz-, Blasen- und ggf. Hintergliedmaßenfunktion beeinträchtigt",
+        correct: true,
+      },
+      { label: "Weil die Schmerzhaftigkeit allein über die Stärke der Zugbelastung entscheidet, unabhängig von betroffenen Nerven", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil ausschließlich die Dauer, nie die Stärke der Traktion für die Nervenschädigung entscheidend ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die Blasenfunktion unabhängig vom Ausmaß der Nervenschädigung immer gleich betroffen ist", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Sakrokaudale Fraktur/Luxation, „Schwanzabriss\" bei der Katze\". Vorkommen, Ätiologie, die Korrelation von Schweregrad und Traktion, Klinik (schlaffe Schwanzlähmung mit kompletter Analgesie, Dolenz, die beiden Blasenfunktionsstörungs-Muster), Diagnose sowie Therapie (Blasenmanagement, medikamentöse Sphinkterrelaxation, Prognose) sind im Original so beschrieben. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
+  {
+    id: "gismo",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Neurologie · Peripherer Nerv (Ischiadikusparese)",
+    species: "Europäisch Kurzhaar, Kätzin, 4 Jahre",
+    title: "Gismo — seit der Tierarztspritze letzte Woche lahm am Hinterbein",
+    learningObjective:
+      "Erkennen, dass eine Ischiadikusparese bei der Katze am häufigsten iatrogen durch intramuskuläre Injektionen entsteht — und diese Ursache bei entsprechender zeitlicher Anamnese aktiv erfragen, statt automatisch von einer Fraktur oder Gelenkerkrankung auszugehen.",
+    anamnese:
+      "Gismo erhielt vor einer Woche beim Tierarzt eine intramuskuläre Injektion in die linke Hinterhand. Seit diesem Tag belastet sie die linke Hintergliedmaße deutlich weniger und zieht sie beim Gehen nach.",
+    beobachtung:
+      "Gismo belastet die linke Hintergliedmaße nur teilweise und schleift die Pfote beim Gehen gelegentlich über den Boden, ohne dass eine äußere Verletzung sichtbar ist.",
+    diagramLabel: "Belastungsminderung der linken Hintergliedmaße seit einer intramuskulären Injektion vor einer Woche, kein sonstiges Trauma",
+    palpation:
+      "Die linke Hintergliedmaße zeigt eine Parese mit spontaner Korrekturreaktion sowie einen fehlenden Flexorreflex. Becken- und Oberschenkelregion sind bei Palpation nicht schmerzhaft, es besteht keine Krepitation.",
+    hypothesisQ: "Was erklärt Gismos Lahmheit am linken Hinterbein seit der Injektion am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine iatrogene Ischiadikusparese infolge der intramuskulären Injektion — der fehlende Flexorreflex bei spontaner Korrekturreaktion und das Fehlen von Schmerzhaftigkeit oder Krepitation im Becken-/Oberschenkelbereich passen zu einer Nervenschädigung statt zu einer knöchernen Verletzung, und intramuskuläre Injektionen sind die häufigste Ursache iatrogener Ischiadikusschäden",
+        correct: true,
+      },
+      {
+        label: "Eine Becken- oder Femurfraktur als Zufallsbefund, der zeitlich nur mit dem Tierarztbesuch zusammenfällt",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine Fraktur würde typischerweise mit deutlicher Schmerzhaftigkeit und Abwehrreaktion bei Palpation sowie ggf. Krepitation einhergehen — beides fehlt bei Gismo. Der fehlende Flexorreflex spricht gezielt für eine Nervenschädigung, und der enge zeitliche Zusammenhang mit der Injektion ist bei dieser Befundkonstellation kein Zufall, sondern ein wichtiger anamnestischer Hinweis.",
+        differentiationDistractors: [
+          "Der zeitliche Zusammenhang mit einem Tierarztbesuch ist für die Diagnosefindung meist unbedeutend.",
+          "Ohne sichtbare äußere Verletzung ist eine Fraktur trotzdem die wahrscheinlichste Erklärung für eine akute Lahmheit.",
+        ],
+      },
+      {
+        label: "Eine sakrokaudale Fraktur/Luxation mit Nervenschädigung wie nach einem Schwanztrauma",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Diese Verletzung würde primär den Schwanz (Analgesie, schlaffe Lähmung) sowie häufig die Blasenfunktion betreffen, nicht isoliert eine Hintergliedmaße nach einer Injektion ohne jegliches Schwanz- oder Beckentrauma. Gismos Befundmuster passt eindeutig zur peripheren Ischiadikusschädigung.",
+          differentiationDistractors: [
+          "Jede Nervenschädigung im Beckenbereich der Katze betrifft automatisch auch den Schwanz.",
+          "Ohne erkennbares Trauma kann eine sakrokaudale Verletzung trotzdem nicht ausgeschlossen werden.",
+        ],
+      },
+      {
+        label: "Eine fortschreitende Osteochondrodysplasie wie bei der Scottish-Fold-Katze",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese erbliche Erkrankung entwickelt sich schleichend über Wochen und betrifft typischerweise symmetrisch mehrere Gelenke, nicht eine isolierte, scharf zeitlich mit einer Injektion zusammenfallende einseitige Parese ohne tastbare Gelenkveränderungen.",
+        differentiationDistractors: [
+          "Plötzlich auftretende Lahmheit bei jungen bis mittelalten Katzen ist meist erblich bedingt.",
+          "Der zeitliche Bezug zu einem konkreten Ereignis spielt für die Diagnose keine Rolle, wenn die Katze insgesamt jung ist.",
+        ],
+      },
+    ],
+    expertNote:
+      "Ischiadikuslähmungen sind bei der Katze insgesamt relativ selten. Neben Begleitverletzungen nach Trauma (Becken-/Femurfraktur, sakroiliakale Luxation) und seltener Neoplasien sind iatrogene Verletzungen — vor allem durch Osteosynthesen im Beckenbereich oder intramuskuläre Injektionen — die häufigste Ätiologie. Klinisch zeigt sich eine Parese der betroffenen Beckengliedmaße mit spontaner Korrekturreaktion und fehlendem Flexorreflex; nach Beckenfraktur besteht zusätzlich oft extreme Schmerzhaftigkeit mit starken Abwehrreaktionen, was auf eine Nerveneinklemmung (z. B. durch eine lange, schräg verlaufende Darmbeinfraktur) hindeuten kann. Bei iatrogenen Nervenverletzungen wie bei Gismo steht die konservative Behandlung im Vordergrund — wenn möglich mit intensiver Physiotherapie. Bei Nervenausfällen durch Einklemmung/Kompression durch Knochenfragmente ist dagegen die operative Entlastung des Nervs angezeigt. Prognostisch gilt: Bei vollständigem Ischiadikusausfall mit Verlust des Oberflächen- und Tiefenschmerzempfindens in den entsprechenden Dermatomen ist die Prognose ad restitutionem schlecht, in allen anderen Fällen vorsichtig bis günstig.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für eine Becken- oder Femurfraktur sprechen und gegen eine isolierte Ischiadikusparese?",
+    weakeningOptions: [
+      {
+        label: "Deutliche Schmerzhaftigkeit und starke Abwehrreaktion bei Palpation von Becken oder Oberschenkel, ggf. mit tastbarer Krepitation",
+        correct: true,
+      },
+      { label: "Der fehlende Flexorreflex an der betroffenen Gliedmaße", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die spontane Korrekturreaktion trotz Parese", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Der enge zeitliche Zusammenhang mit der vorangegangenen Injektion", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum wird bei Gismos iatrogener Ischiadikusparese eine konservative Behandlung mit Physiotherapie empfohlen, während bei Nerveneinklemmung durch Knochenfragmente operativ vorgegangen wird?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil bei der iatrogenen Nervenverletzung keine mechanische Kompression durch Knochenfragmente vorliegt, die chirurgisch entlastet werden müsste — die Erholung des Nervs kann hier konservativ unterstützt werden",
+        correct: true,
+      },
+      { label: "Weil iatrogene Nervenverletzungen grundsätzlich schwerer sind als traumatische und deshalb schonender behandelt werden müssen", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil eine Operation bei der Katze am Ischiasnerv grundsätzlich nicht möglich ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Physiotherapie nur nach ärztlichen Behandlungsfehlern, nie nach Frakturen eingesetzt werden darf", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Ischiadikusparese/-paralyse bei der Katze\". Vorkommen, Ätiologie (inkl. iatrogene Verletzungen als häufigste Ursache), klinische Befunde (Parese, fehlender Flexorreflex, Schmerzhaftigkeit nach Beckenfraktur), Therapie (konservativ mit Physiotherapie vs. operative Entlastung bei Einklemmung) und Prognose sind im Original so beschrieben. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
+  {
+    id: "smokey",
+    difficulty: "EXPERTE",
+    topic: "Neurologie · Wirbelsäule (Diskusprolaps/-hernie)",
+    species: "Europäisch Kurzhaar, Kater, 7 Jahre, übergewichtig, reine Wohnungshaltung",
+    title: "Smokey — seit Wochen schleichend zurückhaltender beim Springen",
+    learningObjective:
+      "Bei der Katze einen Bandscheibenvorfall trotz seiner geringen Häufigkeit als mögliche Ursache einer schleichenden Sprungverweigerung in Betracht ziehen — und die initialen, leicht zu übersehenden Frühzeichen (Hyperästhesie, tiefe Schwanzhaltung, Sprungverweigerung) von reiner Altersträgheit unterscheiden.",
+    anamnese:
+      "Smokey ist ein 7 Jahre alter, übergewichtiger Kater in reiner Wohnungshaltung. Seit mehreren Wochen springt er zunehmend seltener auf Regale oder die Fensterbank und wirkt insgesamt vorsichtiger in seinen Bewegungen. Die Besitzerin hatte das zunächst auf sein Gewicht und sein Alter geschoben.",
+    beobachtung:
+      "Smokey bewegt sich im Alltag meist unauffällig, meidet aber Sprünge konsequent und trägt den Schwanz tendenziell tiefer als früher. Eine eindeutige Lahmheit ist nicht erkennbar.",
+    diagramLabel: "Schleichend zunehmende Sprungverweigerung über mehrere Wochen bei übergewichtigem Wohnungskater, tiefere Schwanzhaltung, keine eindeutige Lahmheit",
+    palpation:
+      "Entlang der kaudalen Lendenwirbelsäule lässt sich eine deutliche Hyperästhesie auslösen. Die Hintergliedmaßen zeigen noch keine eindeutige Parese, die Reflexe sind unauffällig.",
+    hypothesisQ: "Was erklärt Smokeys seit Wochen zunehmende Sprungverweigerung am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Ein beginnender Bandscheibenvorfall im Bereich der kaudalen Lendenwirbelsäule — die spinale Hyperästhesie, die tiefere Schwanzhaltung und die Sprungverweigerung sind typische Frühzeichen, bevor Paresen oder andere spätere Symptome auftreten; übergewichtige, mittelalte Wohnungskatzen sind das typische Risikoprofil",
+        correct: true,
+      },
+      {
+        label: "Reine altersbedingte Trägheit in Kombination mit dem Übergewicht, ohne eigenständigen Krankheitswert",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Die gezielt auslösbare Hyperästhesie entlang der kaudalen Lendenwirbelsäule ist ein eigenständiger, pathologischer Befund und kein normaler Alterungsbegleiter. Gerade weil Bandscheibenvorfälle bei der Katze selten sind, werden ihre frühen Zeichen leicht als „Alter\" fehlgedeutet — genau diese Verwechslung soll hier vermieden werden.",
+        differentiationDistractors: [
+          "Verminderte Sprungfreude bei älteren, übergewichtigen Katzen ist praktisch immer nur Trägheit ohne Krankheitswert.",
+          "Eine Hyperästhesie bei der Palpation der Wirbelsäule ist bei älteren Katzen ein normaler Befund.",
+        ],
+      },
+      {
+        label: "Eine Osteochondrodysplasie wie bei der Scottish-Fold-Katze",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Diese erbliche Erkrankung beginnt bereits im Jungtieralter mit Befunden an distalen Gliedmaßengelenken und am Schwanzansatz, nicht erstmals im Alter von 7 Jahren mit Hyperästhesie der Lendenwirbelsäule bei normal geformtem Schwanz und unauffälligen Ohren.",
+        differentiationDistractors: [
+          "Wirbelsäulenbefunde bei der Katze sind unabhängig vom Alter meist erblich bedingt.",
+          "Die Rasse ist für die Einordnung von Wirbelsäulenschmerzen bei der Katze nicht relevant.",
+        ],
+      },
+      {
+        label: "Eine Hypervitaminose A durch Fütterungsfehler",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Erkrankung geht typischerweise mit knöchernen Zubildungen vor allem an der Halswirbelsäule nach monate- bis jahrelanger Leber- oder Fischfütterung einher. Bei Smokey liegt weder eine entsprechende Fütterungsanamnese noch ein auf die Halswirbelsäule bezogener Befund vor — die Lokalisation an der kaudalen Lendenwirbelsäule passt stattdessen zum Bandscheibenvorfall.",
+        differentiationDistractors: [
+          "Jede Wirbelsäulenerkrankung der Katze lässt sich auf eine Fütterungsursache zurückführen.",
+          "Eine genaue Fütterungsanamnese ist für Wirbelsäulenbefunde bei der Katze meist verzichtbar.",
+        ],
+      },
+    ],
+    expertNote:
+      "Bandscheibenvorfälle sind bei der Katze deutlich seltener als beim Hund (nur rund 0,12 % aller neurologischen Pathologien), treten gehäuft bei übergewichtigen, mittelalten (ca. 7 Jahre) Wohnungskatzen auf und betreffen am häufigsten die kaudale Lendenwirbelsäule; zervikale Diskushernien sind zwar relativ häufig, bleiben aber meist klinisch asymptomatisch. Der klinische Verlauf ist oft protrahiert: Zu den initialen, leicht übersehbaren Symptomen zählen spinale Hyperästhesie, eine tiefere Schwanzhaltung und Sprungverweigerung — Paresen, Paralysen, Verstopfung oder Harninkontinenz treten erst später auf. Diagnostisch kommen Myelografie, CT oder MRT zum Einsatz. Therapeutisch steht bei chronischem Verlauf meist die konservative Behandlung im Vordergrund (Analgetika wie NSAID oder Gabapentin, ggf. Steroide, vor allem aber strikte Ruhighaltung); bei akutem Bandscheibenvorfall wird wie bei einem Rückenmarktrauma vorgegangen. Chirurgisch kommt meist eine Hemilaminektomie infrage. Die Prognose ist häufig günstig, hängt aber von Schweregrad der klinischen Zeichen und Lokalisation der Läsion ab.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen einen beginnenden Bandscheibenvorfall sprechen und für reine Trägheit ohne Krankheitswert?",
+    weakeningOptions: [
+      {
+        label: "Eine vollständig unauffällige Palpation der gesamten Wirbelsäule ohne jede auslösbare Hyperästhesie",
+        correct: true,
+      },
+      { label: "Die tiefere Schwanzhaltung als neu aufgetretenes Verhalten", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die konsequente Vermeidung von Sprüngen seit mehreren Wochen", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Das Vorliegen von Übergewicht bei einer Wohnungskatze mittleren Alters", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum ist strikte Ruhighaltung ein zentraler Bestandteil der konservativen Therapie bei Smokeys Verdacht auf Bandscheibenvorfall?",
+    retrievalOptions: [
+      {
+        label: "Weil übermäßige Bewegung die Bandscheibenschädigung und eine mögliche Rückenmarkreizung verschlimmern und den Übergang zu Paresen begünstigen kann",
+        correct: true,
+      },
+      { label: "Weil Ruhighaltung die Bandscheibe innerhalb weniger Tage vollständig regenerieren lässt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Bewegung die Wirkung von Analgetika bei der Katze grundsätzlich aufhebt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil nur durch strikte Ruhighaltung eine Operation in jedem Fall vermieden werden kann", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Diskusprolaps/-hernie bei der Katze\". Vorkommen (Häufigkeit im Vergleich zum Hund, Risikoprofil), Ätiologie/Lokalisation, Klinik (initiale vs. spätere Symptome), Diagnose und Therapie (konservativ vs. chirurgisch, Prognosefaktoren) sind im Original so beschrieben. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -24588,6 +24833,107 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Renaler Hyperparathyreoidismus bei der Katze\". Vorkommen, Pathophysiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben.",
     relatedCaseIds: ["keks"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "sakrokaudale-fraktur-luxation-katze",
+    category: "PATHOLOGIE",
+    title: "„Schwanzabriss\": wenn ein Trauma mehr als nur den Schwanz betrifft",
+    teaser:
+      "Bei freilaufenden Katzen eine der häufigsten Ursachen für eine akute Blasenfunktionsstörung — erkennbar an der kompletten Analgesie der Schwanz-Dermatome.",
+    sections: [
+      {
+        type: "text",
+        heading: "Mehr als eine Knochenverletzung",
+        text: "Die sakrokaudale Fraktur/Luxation, umgangssprachlich „Schwanzabriss\", ist bei freilaufenden Katzen häufig — typische Ursachen sind Autounfälle oder ein Einklemmen des Schwanzes. Durch Fraktur oder Luxation von Os sacrum und proximalen Kokzygealwirbeln werden das kaudale Rückenmark, die Nerven der Cauda equina und/oder der Plexus pelvinus geschädigt. Der Schweregrad der neurologischen Ausfälle korreliert dabei mit dem Ausmaß der Traktion an diesen Strukturen — je näher die Zugbelastung am Rückenmark, desto mehr Funktionen können gleichzeitig betroffen sein.",
+      },
+      {
+        type: "table",
+        heading: "Zwei Muster der Blasenfunktionsstörung",
+        columns: ["Muster", "Mechanismus", "Häufigkeit"],
+        rows: [
+          ["Urininkontinenz", "schlaffe Blasenlähmung (UMN-Schädigung)", "selten"],
+          ["Harnretention mit Tenesmus", "gesteigerter Tonus des Blasensphinkters", "häufiger"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum das Blasenmanagement im Vordergrund steht",
+        text: "Klinisch zeigt sich eine schlaffe Schwanzlähmung mit kompletter Analgesie der entsprechenden Dermatome und hochgradiger Dolenz im Beckenbereich. Die chirurgische Stabilisierung wird kontrovers diskutiert und verbessert funktionelle Ausfälle meist nicht — im Vordergrund steht deshalb das Blasenmanagement: manuelle Blasenentleerung oder ein präpubischer Katheter, medikamentös Diazepam und Phenoxybenzamin zur Relaxation des Blasensphinkters. Die Prognose für Bewegungsstörungen ist meist gut, für die gestörte Miktion dagegen vorsichtig und abhängig vom konsequenten, teils mehrwöchigen Blasenmanagement.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Befund übersehen", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Sakrokaudale Fraktur/Luxation, „Schwanzabriss\" bei der Katze\". Vorkommen, Ätiologie, die Korrelation von Schweregrad und Traktion, Klinik, die beiden Blasenfunktionsstörungs-Muster sowie Therapie/Prognose sind im Original so beschrieben.",
+    relatedCaseIds: ["tiger"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "ischiadikusparese-katze",
+    category: "PATHOLOGIE",
+    title: "Ischiadikusparese bei der Katze: die Spritze als häufigste Ursache",
+    teaser:
+      "Nicht jede Lahmheit nach einem Tierarztbesuch ist Zufall — intramuskuläre Injektionen sind die häufigste Ursache einer iatrogenen Ischiadikusschädigung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Trauma, Tumor oder iatrogen",
+        text: "Ischiadikuslähmungen sind bei der Katze insgesamt relativ selten. Neben Begleitverletzungen nach Trauma (Becken-/Femurfraktur, sakroiliakale Luxation) und seltener Neoplasien sind iatrogene Verletzungen — vor allem durch Osteosynthesen im Beckenbereich oder intramuskuläre Injektionen — die häufigste Ätiologie.",
+      },
+      {
+        type: "table",
+        heading: "Klinischer Befund im Überblick",
+        columns: ["Befund", "Bedeutung"],
+        rows: [
+          ["Parese mit spontaner Korrekturreaktion", "typisch für Ischiadikusschädigung"],
+          ["Fehlender Flexorreflex", "typisch für Ischiadikusschädigung"],
+          ["Extreme Schmerzhaftigkeit nach Beckenfraktur", "Hinweis auf Nerveneinklemmung durch Frakturfragmente"],
+          ["Vollständiger Verlust von Oberflächen-/Tiefenschmerz", "prognostisch ungünstig"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Konservativ mit Physiotherapie oder operativ?",
+        text: "Bei Nervenausfällen durch Einklemmung/Kompression durch Knochenfragmente steht die operative Entlastung des Nervs im Vordergrund. Bei iatrogenen Nervenverletzungen — der häufigsten Ursache — wird dagegen konservativ behandelt, wenn möglich mit intensiver Physiotherapie. Prognostisch gilt: Bei vollständigem Ischiadikusausfall mit Verlust des Oberflächen- und Tiefenschmerzempfindens in den entsprechenden Dermatomen ist die Prognose ad restitutionem schlecht, in allen anderen Fällen vorsichtig bis günstig.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Ischiadikusparese/-paralyse bei der Katze\". Vorkommen, Ätiologie (inkl. iatrogene Verletzungen als häufigste Ursache), klinische Befunde, Therapie (konservativ mit Physiotherapie vs. operative Entlastung) und Prognose sind im Original so beschrieben.",
+    relatedCaseIds: ["gismo"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "diskusprolaps-katze-vs-hund",
+    category: "PATHOLOGIE",
+    title: "Bandscheibenvorfall bei der Katze: selten, aber mit tückisch unauffälligen Frühzeichen",
+    teaser:
+      "Nur rund 0,12 % aller neurologischen Diagnosen bei der Katze — und gerade deshalb werden die ersten Anzeichen besonders oft übersehen.",
+    sections: [
+      {
+        type: "text",
+        heading: "Viel seltener als beim Hund",
+        text: "Bandscheibenvorfälle sind bei der Katze deutlich seltener als beim Hund und machen nur rund 0,12 % aller neurologischen Pathologien aus. Sie treten gehäuft bei übergewichtigen, mittelalten (ca. 7 Jahre) Wohnungskatzen auf, am häufigsten im Bereich der kaudalen Lendenwirbelsäule. Zervikale Diskushernien kommen zwar relativ häufig vor, bleiben aber meist klinisch asymptomatisch.",
+      },
+      {
+        type: "table",
+        heading: "Verlauf: früh vs. spät",
+        columns: ["Phase", "Typische Symptome"],
+        rows: [
+          ["Initial (leicht zu übersehen)", "spinale Hyperästhesie, tiefe Schwanzhaltung, Sprungverweigerung"],
+          ["Später", "Paresen oder Paralysen, Verstopfung, Harninkontinenz"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum die Seltenheit zur Falle wird",
+        text: "Gerade weil Bandscheibenvorfälle bei der Katze selten sind, werden ihre frühen Zeichen — Sprungverweigerung, veränderte Schwanzhaltung — leicht als normales Alterungs- oder Trägheitsverhalten fehlgedeutet, statt gezielt auf eine auslösbare Hyperästhesie der Wirbelsäule zu untersuchen. Therapeutisch steht bei chronischem Verlauf die konservative Behandlung im Vordergrund (Analgetika, ggf. Steroide, vor allem strikte Ruhighaltung); ein akuter Bandscheibenvorfall wird wie ein Rückenmarktrauma behandelt. Die Prognose ist häufig günstig, abhängig von Schweregrad und Lokalisation der Läsion.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Anatomieverwechslung", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Diskusprolaps/-hernie bei der Katze\". Vorkommen (Häufigkeit im Vergleich zum Hund, Risikoprofil), Lokalisation, Klinik (initiale vs. spätere Symptome) sowie Therapie/Prognose sind im Original so beschrieben.",
+    relatedCaseIds: ["smokey"],
     relatedAnatomyIds: [],
   },
 ];
