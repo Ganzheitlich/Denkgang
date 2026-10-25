@@ -8271,6 +8271,170 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Diskusprolaps/-hernie bei der Katze\". Vorkommen (Häufigkeit im Vergleich zum Hund, Risikoprofil), Ätiologie/Lokalisation, Klinik (initiale vs. spätere Symptome), Diagnose und Therapie (konservativ vs. chirurgisch, Prognosefaktoren) sind im Original so beschrieben. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
   },
+  {
+    id: "cosmo",
+    difficulty: "EXPERTE",
+    topic: "Neurologie · Rückenmark (Kippfenstersyndrom)",
+    species: "Europäisch Kurzhaar, Kater, 2 Jahre, Wohnungshaltung",
+    title: "Cosmo — im Kippfenster eingeklemmt gefunden, Hinterbeine lahmgelegt",
+    learningObjective:
+      "Das Kippfenstersyndrom als eigenständiges, bei Wohnungskatzen relevantes Verletzungsbild erkennen — und verstehen, warum dabei nicht nur die neurologischen Ausfälle, sondern auch eine mögliche Nierenschädigung durch ein Reperfusionssyndrom aktiv mitabgeklärt werden muss.",
+    anamnese:
+      "Cosmo wurde von der Besitzerin heute Nachmittag zwischen den beiden Flügeln eines gekippten Fensters eingeklemmt vorgefunden und sofort befreit — wie lange er dort hing, ist unklar. Seitdem kann er die Hinterbeine kaum noch bewegen.",
+    beobachtung:
+      "Cosmo kann die Hintergliedmaßen nicht mehr gezielt einsetzen und zieht sie beim Versuch, sich fortzubewegen, weitgehend hinter sich her. Im Flankenbereich, dort wo er eingeklemmt war, sind deutliche Druckstellen im Fell sichtbar.",
+    diagramLabel: "Akute hochgradige Schwäche der Hintergliedmaßen nach Einklemmung im Kippfenster, sichtbare Druckstellen im Flankenbereich",
+    palpation:
+      "Haltungs- und Stellreaktionen der Hintergliedmaßen sind deutlich vermindert, der Patellarreflex ist beidseits nicht auslösbar. An der ehemaligen Einklemmstelle besteht eine ausgeprägte Hyperästhesie.",
+    hypothesisQ: "Was erklärt Cosmos akute Hintergliedmaßen-Schwäche nach dem Fund im Kippfenster am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Ein Kippfenstersyndrom mit ischämischer Neuromyopathie — die Quetschung der zwischen Rippenbogen und Beckeneingang eingeklemmten Weichteile hat zu einer durchblutungsbedingten Nervenschädigung geführt, erkennbar an fehlendem Patellarreflex, verminderten Stellreaktionen und der Hyperästhesie genau an der Einklemmstelle",
+        correct: true,
+      },
+      {
+        label: "Eine reine Quetschverletzung der Weichteile ohne neurologische Beteiligung, die mit Schonung folgenlos abheilen wird",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Der fehlende Patellarreflex und die deutlich verminderten Haltungs-/Stellreaktionen sind eindeutige neurologische Ausfälle, keine reinen Weichteilbefunde. Zudem besteht beim Kippfenstersyndrom das Risiko einer begleitenden Nierenschädigung durch ein Reperfusionssyndrom — das darf bei der Beurteilung nicht übersehen werden.",
+        differentiationDistractors: [
+          "Sichtbare Druckstellen im Fell sind das einzig relevante Zeichen einer Einklemmungsverletzung.",
+          "Ohne offene Wunde besteht bei einer Einklemmung keine Gefahr für innere Organe.",
+        ],
+      },
+      {
+        label: "Eine sakrokaudale Fraktur/Luxation wie nach einem Schwanztrauma",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Diese Verletzung entsteht durch Zug am Schwanz mit Schädigung von Cauda equina/Plexus pelvinus und zeigt sich vor allem durch eine schlaffe Schwanzlähmung mit Analgesie. Cosmos Befund betrifft dagegen die Hintergliedmaßen nach Einklemmung im Rumpfbereich zwischen Rippenbogen und Becken — ein anderer Verletzungsmechanismus und eine andere betroffene Region.",
+        differentiationDistractors: [
+          "Jede Rumpf- oder Beckennahe Verletzung der Katze betrifft automatisch auch den Schwanz.",
+          "Die genaue Lokalisation der Einklemmung ist für die Einordnung der neurologischen Ausfälle nicht entscheidend.",
+        ],
+      },
+      {
+        label: "Eine fortschreitende Osteochondrodysplasie wie bei der Scottish-Fold-Katze",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Diese erbliche Erkrankung entwickelt sich schleichend über Wochen bis Monate bei prädisponierten Katzen, nicht akut im unmittelbaren zeitlichen Zusammenhang mit einem beobachteten Einklemmungsereignis. Der klare Vorbericht ist hier entscheidend für die richtige Einordnung.",
+        differentiationDistractors: [
+          "Ein konkretes Ereignis wie eine Einklemmung ist für die Diagnosefindung meist zweitrangig.",
+          "Akute Hintergliedmaßen-Schwäche bei jungen Katzen ist meist erblich bedingt, unabhängig vom Vorbericht.",
+        ],
+      },
+    ],
+    expertNote:
+      "Das Kippfenstersyndrom entsteht, wenn eine Katze beim Versuch, durch ein gekipptes Fenster zu gelangen, zwischen kaudalem Rippenbogen und Beckeneingang hängen bleibt. Die Quetschung der eingeklemmten Weichteile führt zu einer ischämischen Neuromyopathie; das Ausmaß des Schadens hängt von der Dauer des Einklemmens und der Heftigkeit der Befreiungsversuche ab — bis hin zu Frakturen der Lendenwirbelsäule. Klinisch zeigen sich akute Paraparese bis Paraplegie, herabgesetzte oder fehlende Haltungs- und Stellreaktionen, reduzierte spinale Reflexe (der Patellarreflex ist oft komplett erloschen) sowie spinale Hyperästhesie an der Einklemmstelle, teils begleitet von Schocksymptomatik. Die am meisten gefürchtete Komplikation ist eine ischämische oder direkt traumatische Nierenschädigung — deshalb gehören hämatologische und blutchemische Untersuchungen mit besonderem Augenmerk auf Nierenwerte und Kalium zur Diagnostik dazu, da massive metabolische Entgleisungen infolge eines Reperfusionssyndroms möglich sind. Außerdem muss eine zusätzliche Wirbelfraktur der Lendenwirbelsäule röntgenologisch ausgeschlossen werden. Die Akuttherapie entspricht der beim Rückenmarktrauma: Schockbehandlung, möglichst frühzeitige Steroidgabe nach der Befreiung, Flüssigkeitstherapie, Kontrolle der Harnproduktion, Analgesie — und später auch Physiotherapie. Die Prognose ist vorsichtig bis gut, abhängig vom Schweregrad der neurologischen und nephrologischen Defizite; es handelt sich in der Regel um ein einmaliges Geschehen, die Rekonvaleszenz dauert Wochen bis Monate.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen ein Kippfenstersyndrom sprechen und für eine andere Ursache der Hintergliedmaßen-Schwäche?",
+    weakeningOptions: [
+      {
+        label: "Ein schleichender Beginn der Symptomatik über mehrere Wochen, ohne jedes Einklemmungsereignis in der Vorgeschichte",
+        correct: true,
+      },
+      { label: "Der beidseits fehlende Patellarreflex", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die Hyperästhesie genau an der ehemaligen Einklemmstelle", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die sichtbaren Druckstellen im Fell am Flankenbereich", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum müssen bei Cosmo gezielt Nierenwerte und Kalium im Blut kontrolliert werden, obwohl die Verletzung zunächst orthopädisch-neurologisch wirkt?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil die ischämische Schädigung während der Einklemmung nach der Befreiung ein Reperfusionssyndrom mit massiven metabolischen Entgleisungen und Nierenschädigung auslösen kann, die unerkannt lebensbedrohlich werden kann",
+        correct: true,
+      },
+      { label: "Weil Nierenwerte bei jeder Katzenverletzung routinemäßig unabhängig vom Verletzungsmechanismus kontrolliert werden", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil ausschließlich die Hintergliedmaßen-Schwäche selbst die Nierenfunktion direkt beeinträchtigt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil erhöhte Kaliumwerte beim Kippfenstersyndrom ausschließlich auf eine Fehlernährung zurückzuführen sind", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Kippfenstersyndrom bei der Katze\". Vorkommen, Ätiologie/Mechanismus, Komplikationen (insbesondere Nierenschädigung/Reperfusionssyndrom), Klinik, Diagnostik (inkl. Ausschluss einer Wirbelfraktur, Nieren-/Kaliumwerte) sowie Therapie (analog Rückenmarktrauma, inkl. später Physiotherapie) und Prognose sind im Original so beschrieben. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
+  {
+    id: "emmi",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Neurologie · Vestibularapparat (Idiopathisches Vestibularsyndrom)",
+    species: "Europäisch Kurzhaar, Kätzin, 2 Jahre",
+    title: "Emmi — plötzlich schiefer Kopf und taumelnder Gang, sonst völlig unauffällig",
+    learningObjective:
+      "Ein akutes, einseitiges vestibuläres Syndrom bei einer jungen Katze trotz dramatisch wirkender Symptomatik als meist gutartiges, spontan ausheilendes Krankheitsbild einordnen können — im Gegensatz zu den meisten anderen Fällen, bei denen eine zugrunde liegende Erkrankung aktiv behandelt werden muss.",
+    anamnese:
+      "Emmi war gestern Abend noch völlig unauffällig. Heute Morgen fand die Besitzerin sie mit deutlich schiefgehaltenem Kopf vor, sie taumelt beim Laufen und fällt gelegentlich zur Seite. Erbrechen trat ebenfalls auf. Ein Trauma oder Giftkontakt ist nicht erinnerlich.",
+    beobachtung:
+      "Emmi hält den Kopf deutlich zu einer Seite geneigt und zeigt beim Laufen eine ausgeprägte Gangunsicherheit mit gelegentlichem Umfallen zur selben Seite. Ansonsten wirkt sie wach und ansprechbar.",
+    diagramLabel: "Akut aufgetretene einseitige Kopfschiefhaltung mit Gangunsicherheit über Nacht, kein Trauma, kein Gift erinnerlich",
+    palpation:
+      "Eine äußere Verletzung ist nicht tastbar, auch die Wirbelsäule zeigt keine Hyperästhesie oder Bewegungseinschränkung. Die Ohrmuscheln sind unauffällig, kein Hinweis auf eine lokale Entzündung.",
+    hypothesisQ: "Was erklärt Emmis akut aufgetretene Kopfschiefhaltung mit Gangunsicherheit am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Ein idiopathisches Vestibularsyndrom — die akute, unilaterale periphere vestibuläre Symptomatik bei einer jungen bis mittelalten Katze ohne tastbare strukturelle Auffälligkeiten entspricht dem typischen, meist spontan ausheilenden Bild dieser Ausschlussdiagnose",
+        correct: true,
+      },
+      {
+        label: "Ein Kippfenstersyndrom mit begleitender neurologischer Beteiligung",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Das Kippfenstersyndrom betrifft vor allem die Hintergliedmaßen nach einer Einklemmung im Rumpfbereich, nicht primär Kopf und Gleichgewicht. Emmis Symptomatik (Kopfschiefhaltung, Taumeln) ohne jedes Einklemmungsereignis passt nicht zu diesem Verletzungsmuster.",
+        differentiationDistractors: [
+          "Jede akute neurologische Symptomatik bei der Katze deutet auf eine Einklemmungsverletzung hin.",
+          "Gangunsicherheit und Hintergliedmaßenschwäche sind klinisch nicht zu unterscheiden.",
+        ],
+      },
+      {
+        label: "Eine Vergiftung, da ein plötzliches neurologisches Symptombild meist toxisch bedingt ist",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Ein Giftkontakt ist laut Anamnese nicht erinnerlich, und das sehr charakteristische, rein vestibuläre Befundmuster (Kopfschiefhaltung, Taumeln, wache Ansprechbarkeit) ohne weitere systemische Symptome passt eher zum typischen Bild des idiopathischen Vestibularsyndroms als zu einer unspezifischen Intoxikation.",
+        differentiationDistractors: [
+          "Jedes akute neurologische Symptom ohne erkennbare Ursache ist zuerst als Vergiftung zu werten.",
+          "Erbrechen bei akuten neurologischen Symptomen beweist immer eine toxische Ursache.",
+        ],
+      },
+      {
+        label: "Eine kongenitale Vestibularstörung, wie sie bei bestimmten Rassen bekannt ist",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Kongenitale Vestibularstörungen zeigen sich bereits im Alter von wenigen Wochen, nicht als akut aufgetretenes neues Symptom bei einer bislang unauffälligen 2-jährigen Katze. Der plötzliche, erst gestern Abend noch unauffällige Beginn spricht eindeutig gegen eine angeborene Ursache.",
+        differentiationDistractors: [
+          "Das Alter des Tieres ist für vestibuläre Störungen bei der Katze nicht relevant.",
+          "Ein plötzlicher Beginn schließt eine angeborene Ursache nicht grundsätzlich aus, wenn die Rasse passt.",
+        ],
+      },
+    ],
+    expertNote:
+      "Das idiopathische Vestibularsyndrom ist bei jungen bis mittelalten Katzen eine relativ häufige Ursache einer akuten peripheren vestibulären Dysfunktion unbekannter Ätiologie — meist unilateral, selten bilateral. Die Diagnose erfolgt als Ausschlussverfahren: Otoskopie, bildgebende Darstellung der Bulla tympanica, auditiv evozierte Hirnstammpotenziale und Liquoruntersuchung sind dabei allesamt unauffällig. Die Therapie ist rein unterstützend (z. B. Sedation mit Diazepam, Antiemetikum bei Übelkeit), eine spezifische Behandlung gibt es nicht. Die Prognose ist sehr gut: Eine spontane Erholung tritt meist innerhalb weniger Tage bis zu drei Wochen ein — allerdings kann eine leichte Kopfschiefhaltung dauerhaft bestehen bleiben. Fachlich-didaktisch wichtig: Anders als bei den meisten anderen in diesem Kapitel behandelten Erkrankungen braucht dieses dramatisch wirkende Bild keine aktive Behandlung der Grundursache — die diagnostische Aufgabe besteht hier vor allem darin, strukturelle Ursachen sicher auszuschließen, bevor man sich auf eine abwartende Haltung verlässt.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen ein idiopathisches Vestibularsyndrom sprechen und für eine strukturelle Ursache?",
+    weakeningOptions: [
+      {
+        label: "Auffällige Befunde bei Otoskopie oder in der Bildgebung der Bulla tympanica, z. B. Hinweise auf eine Mittelohrentzündung",
+        correct: true,
+      },
+      { label: "Die einseitige Kopfschiefhaltung", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die begleitende Gangunsicherheit mit gelegentlichem Umfallen", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Das zusätzlich aufgetretene Erbrechen", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum ist die Diagnose des idiopathischen Vestibularsyndroms eine Ausschlussdiagnose?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil die zugrunde liegende Ursache unbekannt ist und die Diagnose erst gestellt werden darf, wenn strukturelle Ursachen wie Mittelohrerkrankungen oder zentrale Prozesse durch unauffällige Befunde in Otoskopie, Bildgebung und Liquoruntersuchung ausgeschlossen wurden",
+        correct: true,
+      },
+      { label: "Weil keine der genannten Untersuchungen bei Vestibularstörungen der Katze technisch durchführbar ist", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil das idiopathische Vestibularsyndrom per Definition immer beidseitig auftritt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil eine Ausschlussdiagnose bedeutet, dass grundsätzlich keine Therapie erfolgen darf", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Idiopathisches Vestibularsyndrom bei der Katze\". Vorkommen, Klinik, Diagnostik (Ausschlussverfahren) sowie Therapie/Prognose sind im Original so beschrieben. Das dort zusätzlich genannte saisonale Auftreten im Nordosten der USA wurde bewusst nicht übernommen, da die Quelle selbst vermerkt, dass dieses Muster in Europa nicht zu beobachten ist. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -24934,6 +25098,76 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Diskusprolaps/-hernie bei der Katze\". Vorkommen (Häufigkeit im Vergleich zum Hund, Risikoprofil), Lokalisation, Klinik (initiale vs. spätere Symptome) sowie Therapie/Prognose sind im Original so beschrieben.",
     relatedCaseIds: ["smokey"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "kippfenstersyndrom-katze",
+    category: "PATHOLOGIE",
+    title: "Kippfenstersyndrom: eine typische Wohnungskatzen-Verletzung mit Nierenrisiko",
+    teaser:
+      "Eingeklemmt zwischen Rippenbogen und Becken — eine häufige, aber oft unterschätzte Ursache akuter Hintergliedmaßen-Lähmung mit versteckter Komplikation.",
+    sections: [
+      {
+        type: "text",
+        heading: "Vom Fenster zur Nervenschädigung",
+        text: "Das Kippfenstersyndrom entsteht, wenn eine Katze beim Versuch, durch ein gekipptes Fenster zu gelangen, zwischen kaudalem Rippenbogen und Beckeneingang hängen bleibt. Die Quetschung der eingeklemmten Weichteile führt zu einer ischämischen Neuromyopathie; das Ausmaß hängt von der Dauer des Einklemmens und der Heftigkeit der Befreiungsversuche ab — bis hin zu Frakturen der Lendenwirbelsäule.",
+      },
+      {
+        type: "table",
+        heading: "Befund und Komplikationen im Überblick",
+        columns: ["Bereich", "Typischer Befund"],
+        rows: [
+          ["Hintergliedmaßen", "akute Paraparese bis Paraplegie, Patellarreflex oft erloschen"],
+          ["Einklemmstelle", "spinale Hyperästhesie, sichtbare Weichteilschäden"],
+          ["Am meisten gefürchtete Komplikation", "ischämische oder traumatische Nierenschädigung"],
+          ["Weitere mögliche Komplikationen", "retroperitoneale Hämatome, Schäden an Blase/Darm"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum die Nierenwerte mitzählen",
+        text: "Nach der Befreiung sind massive metabolische Entgleisungen durch ein Reperfusionssyndrom möglich — deshalb gehören hämatologische und blutchemische Untersuchungen mit besonderem Augenmerk auf Nierenwerte und Kalium zur Diagnostik dazu, ebenso der röntgenologische Ausschluss einer zusätzlichen Wirbelfraktur. Die Akuttherapie entspricht der beim Rückenmarktrauma (Schockbehandlung, frühzeitige Steroidgabe, Flüssigkeitstherapie, Kontrolle der Harnproduktion, Analgesie) — später auch Physiotherapie. Die Prognose ist vorsichtig bis gut und abhängig vom Schweregrad der neurologischen und nephrologischen Defizite; die Rekonvaleszenz dauert Wochen bis Monate.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "Anatomieverwechslung", "vorschnelle Diagnose"],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Kippfenstersyndrom bei der Katze\". Vorkommen, Ätiologie/Mechanismus, Komplikationen, Klinik, Diagnostik und Therapie/Prognose sind im Original so beschrieben.",
+    relatedCaseIds: ["cosmo"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "idiopathisches-vestibularsyndrom-katze",
+    category: "PATHOLOGIE",
+    title: "Idiopathisches Vestibularsyndrom: dramatisch, aber meist harmlos",
+    teaser:
+      "Schiefer Kopf, taumelnder Gang, über Nacht aufgetreten — und trotzdem in den meisten Fällen eine reine Ausschlussdiagnose ohne eigentliche Behandlung.",
+    sections: [
+      {
+        type: "text",
+        heading: "Eine Ausschlussdiagnose",
+        text: "Das idiopathische Vestibularsyndrom ist bei jungen bis mittelalten Katzen eine relativ häufige Ursache einer akuten peripheren vestibulären Dysfunktion unbekannter Ätiologie — meist unilateral, selten bilateral. Die Diagnose erfolgt als Ausschlussverfahren: Otoskopie, bildgebende Darstellung der Bulla tympanica, auditiv evozierte Hirnstammpotenziale und Liquoruntersuchung sind dabei allesamt unauffällig.",
+      },
+      {
+        type: "table",
+        heading: "Diagnostik: alles unauffällig",
+        columns: ["Untersuchung", "Befund beim idiopathischen Vestibularsyndrom"],
+        rows: [
+          ["Otoskopie", "normal"],
+          ["Bildgebung der Bulla tympanica", "normal"],
+          ["Auditiv evozierte Hirnstammpotenziale", "normal"],
+          ["Liquoruntersuchung", "normal"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Dramatisches Bild, gute Prognose",
+        text: "Die Therapie ist rein unterstützend (z. B. Sedation bei Bedarf, Antiemetikum bei Übelkeit) — eine spezifische Behandlung der Ursache gibt es nicht, weil keine bekannt ist. Die Prognose ist sehr gut: Eine spontane Erholung tritt meist innerhalb weniger Tage bis zu drei Wochen ein, auch wenn eine leichte Kopfschiefhaltung dauerhaft bestehen bleiben kann. Anders als bei den meisten anderen neurologischen Erkrankungen der Katze liegt die eigentliche diagnostische Aufgabe hier darin, strukturelle Ursachen sicher auszuschließen — nicht darin, eine Grunderkrankung zu behandeln.",
+      },
+    ],
+    errorTags: ["Anatomieverwechslung", "vorschnelle Diagnose", "Differentialdiagnostik unvollständig"],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Idiopathisches Vestibularsyndrom bei der Katze\". Vorkommen, Klinik, Diagnostik (Ausschlussverfahren) sowie Therapie/Prognose sind im Original so beschrieben. Das dort zusätzlich genannte saisonale Auftreten im Nordosten der USA wurde bewusst nicht übernommen, da die Quelle selbst vermerkt, dass dieses Muster in Europa nicht zu beobachten ist.",
+    relatedCaseIds: ["emmi"],
     relatedAnatomyIds: [],
   },
 ];
