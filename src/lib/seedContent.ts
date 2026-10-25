@@ -7617,6 +7617,170 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Osteochondrodysplasie der Scottish-Fold-Katzen\". Ätiologie (autosomal-dominant vererbter generalisierter Knorpeldefekt, Zusammenhang mit den umgeknickten Ohren, homo-/heterozygote Ausprägung, kein Zuchteinsatz empfohlen), Lokalisation (distale Gliedmaßen mit Ankylosierung der Karpal-/Tarsalgelenke, kaudale Wirbelsäule/Schwanz), die stärkere Betroffenheit der Hintergliedmaßen sowie die ausschließlich palliative Therapie (inkl. Panarthrodese des Tarsus in Einzelfällen) sind im Original so beschrieben. Der Hinweis, dass Katzen Gelenkschmerzen tendenziell überspielen, stammt aus demselben Kapitel (Abschnitte „Idiopathische Polyarthritis bei der Katze\": „Neigung von Katzen, Gelenkschmerzen zu überspielen\"; „Chronische progressive Polyarthritis bei der Katze\": „oft Belastung der Gliedmaßen ohne allzu offensichtliche Schmerzen möglich\") und wird hier als allgemeine Einordnung auf die Osteochondrodysplasie übertragen — diese Übertragung ist eine didaktische Verallgemeinerung von Denkgang, nicht wörtlich für die Osteochondrodysplasie selbst belegt. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
   },
+  {
+    id: "momo",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Orthopädie · Knochen (Alimentärer Hyperparathyreoidismus)",
+    species: "Europäisch Kurzhaar, Kater, 5 Monate",
+    title: "Momo — plötzlich hochgradig lahm nach einem Sprung vom Sofa",
+    learningObjective:
+      "Erkennen, dass eine für eine Katze eigentlich triviale Sturzhöhe keine Fraktur verursachen sollte — und bei einem jungen Tier mit unausgewogener Fütterungsanamnese gezielt an eine generalisierte Skelettschwächung statt an eine isolierte frische Verletzung denken.",
+    anamnese:
+      "Momo ist ein Fundkätzchen, das die Besitzerin seit einigen Wochen eigenständig aufzieht. Sie füttert ihn überwiegend mit rohem Fleisch, da sie überzeugt ist, Katzen seien „reine Fleischfresser\" und bräuchten kein Fertigfutter. Seit gestern will Momo nach einem kleinen Sprung vom Sofa — einer für eine Katze eigentlich harmlosen Höhe — die rechte Vordergliedmaße kaum noch belasten.",
+    beobachtung:
+      "Momo bewegt sich insgesamt vorsichtig und angespannt, nicht nur an der betroffenen Gliedmaße. Er wirkt insgesamt kleiner und schlanker als für sein Alter erwartet.",
+    diagramLabel: "Akute hochgradige Lahmheit nach einem für eine Katze trivialen Sprung, seit Wochen überwiegend reine Fleischfütterung",
+    palpation:
+      "An der rechten Vordergliedmaße ist im mittleren Schaftbereich eine Instabilität mit leichtem Knirschen tastbar, vereinbar mit einer Fraktur. Zusätzlich fallen bei vorsichtiger Palpation auch an mehreren anderen Körperstellen auffällig weich wirkende, diffus berührungsempfindliche Knochen auf — nicht nur an der akut betroffenen Gliedmaße.",
+    hypothesisQ: "Was erklärt Momos akute hochgradige Lahmheit nach dem eigentlich harmlosen Sprung am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Ein alimentärer Hyperparathyreoidismus mit pathologischer Fraktur — die wochenlange, kalziumarme und phosphorreiche reine Fleischfütterung spricht für eine generalisierte Skelettschwächung, bei der schon ein für Katzen trivialer Sprung zum Bruch führen kann; dazu passen die diffus berührungsempfindlichen Knochen an mehreren Körperstellen, nicht nur an der akut betroffenen Gliedmaße",
+        correct: true,
+      },
+      {
+        label: "Eine einfache frische Fraktur durch den Sprung, wie sie bei jungen, aktiven Katzen gelegentlich vorkommt",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Ein Sprung vom Sofa ist für eine gesunde Katze eine triviale Belastung, die praktisch nie zu einer Fraktur führt. Dass zusätzlich auch andere Körperstellen diffus berührungsempfindlich sind, spricht gegen eine isolierte frische Verletzung und für eine zugrunde liegende generalisierte Skelettschwächung.",
+        differentiationDistractors: [
+          "Junge, aktive Katzen brechen sich bei Sprüngen gelegentlich ganz normal einen Knochen.",
+          "Ein klarer Auslöser wie ein Sprung erklärt eine Fraktur immer ausreichend, unabhängig von der Sprunghöhe.",
+        ],
+      },
+      {
+        label: "Eine Osteochondrodysplasie wie bei der Scottish-Fold-Katze",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese erbliche Knorpelerkrankung betrifft spezifisch Scottish-Fold-Katzen mit langsam progredienten periartikulären Veränderungen an bestimmten Gelenken, nicht eine akute Schaftfraktur bei einem Kätzchen anderer Rasse mit eindeutigem Fütterungsrisiko.",
+        differentiationDistractors: [
+          "Steifheit oder Frakturneigung bei jungen Katzen ist meist erblich bedingt.",
+          "Die Rasse spielt für die Einordnung von Skeletterkrankungen bei der Katze keine entscheidende Rolle.",
+        ],
+      },
+      {
+        label: "Ein renaler Hyperparathyreoidismus infolge chronischer Niereninsuffizienz",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Diese Form tritt typischerweise bei älteren Katzen mit chronischer Niereninsuffizienz auf. Momos Alter und die eindeutige Fütterungsanamnese sprechen gezielt für die alimentäre (ernährungsbedingte), nicht die renale Form des Hyperparathyreoidismus.",
+        differentiationDistractors: [
+          "Hyperparathyreoidismus bei der Katze hat praktisch immer eine Nierenursache.",
+          "Das Alter des Tieres spielt für die Unterscheidung der Hyperparathyreoidismus-Formen keine Rolle.",
+        ],
+      },
+    ],
+    expertNote:
+      "Eine chronische Fütterung mit kalziumarmen, phosphorreichen Diäten (reine Fleisch-, Fleisch-Gemüse- oder Fleisch-Reis-Diäten) senkt den Plasma-Kalziumspiegel. In der Folge steigt die PTH-Sekretion, was vermehrt Osteoklasten aktiviert, Kalzium aus dem Knochen mobilisiert und die renale Kalzium-Rückresorption fördert — mit der Zeit entsteht eine generalisierte Osteoporose. Bei jungen Tieren wird diese klinisch bereits nach Wochen relevant, bei älteren Katzen erst nach Monaten. Radiologisch zeigt sich eine generalisierte Osteopenie mit dünnen Kortizes und erweitertem Markraum; pathologische Frakturen treten gehäuft in den Metaphysen der langen Röhrenknochen auf, oft als wenig dislozierte „Faltfrakturen\". Die Therapie besteht in einer Futterumstellung auf hochwertiges kommerzielles Katzenfutter mit ausgewogenem Kalzium-Phosphat-Verhältnis — die PTH-Werte normalisieren sich dann rasch, die Remineralisierung des Skeletts dauert aber etwa 4–8 Wochen, währenddessen die Aktivität der Katze stark eingeschränkt werden sollte, um weitere pathologische Frakturen zu vermeiden. Bereits vorhandene Frakturen werden je nach Dislokationsgrad konservativ oder operativ versorgt; bei operativer Versorgung ist am osteoporotischen Knochen besondere Vorsicht geboten (feine Implantate, Vermeidung zusätzlicher iatrogener Frakturen). Die Prognose ist in der Regel sehr gut — außer bei Wirbelfrakturen mit resultierender Paraplegie.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für eine isolierte frische Verletzung sprechen und gegen einen alimentären Hyperparathyreoidismus als Grunderkrankung?",
+    weakeningOptions: [
+      {
+        label: "Schmerzfreie, normal feste Knochen an allen anderen Körperstellen außer der akut betroffenen Gliedmaße",
+        correct: true,
+      },
+      { label: "Die wochenlange, überwiegend aus rohem Fleisch bestehende Fütterung", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die diffus berührungsempfindlichen Knochen an mehreren Körperstellen", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die für eine Katze eigentlich triviale Sprunghöhe als Auslöser", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum sollte Momos Aktivität auch nach der Futterumstellung noch mehrere Wochen lang stark eingeschränkt werden?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil das Skelett trotz rasch normalisierter PTH-Werte noch über mehrere Wochen osteoporotisch und damit anfällig für weitere pathologische Frakturen bleibt, bis die Remineralisierung abgeschlossen ist",
+        correct: true,
+      },
+      { label: "Weil Bewegung die PTH-Normalisierung direkt verzögert", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die neue Diät erst nach mehreren Wochen überhaupt resorbiert werden kann", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Bewegungseinschränkung die bestehende Fraktur unabhängig vom Skelettzustand grundsätzlich schneller heilen lässt", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Alimentärer Hyperparathyreoidismus bei der Katze\". Ätiologie/Pathogenese (kalziumarme/phosphorreiche Diäten, u. a. reine Fleisch-, Fleisch-Gemüse-, Fleisch-Reis-Diäten; PTH-Anstieg, Osteoklastenaktivierung, zeitlicher Unterschied junge vs. ältere Tiere), Klinik (Bewegungsunlust, wechselnde/akute Lahmheiten, Frakturgefahr), Diagnostik (generalisierte Osteopenie, dünne Kortizes, erweiterter Markraum, Faltfrakturen in Metaphysen langer Röhrenknochen, PTH-Erhöhung), Differenzialdiagnose (Osteogenesis imperfecta) sowie Therapie (Futterumstellung, Remineralisierung über 4–8 Wochen, Aktivitätseinschränkung, vorsichtige Osteosynthese, sehr gute Prognose außer bei Wirbelfrakturen mit Paraplegie) sind im Original so beschrieben. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
+  {
+    id: "selma",
+    difficulty: "EXPERTE",
+    topic: "Orthopädie · Gelenke (Polyarthritis-Formen)",
+    species: "Europäisch Kurzhaar, Kätzin, 1,5 Jahre",
+    title: "Selma — seit zwei Wochen diskret steif, nur leichtes Fieber",
+    learningObjective:
+      "Die drei bei der Katze beschriebenen Polyarthritis-Formen anhand von Alter, Geschlecht, Fieberausprägung und Gelenkbefund sicher voneinander unterscheiden, statt sie unter „Gelenkentzündung bei der Katze\" zusammenzufassen.",
+    anamnese:
+      "Selma zeigt seit etwa zwei Wochen eine nur diskrete Steifheit, besonders nach Ruhephasen. Die Besitzerin hätte es fast übersehen und hielt es zunächst für normales Faulenzen. Ein Unfall oder Sturz ist nicht erinnerlich, Appetit und Verhalten sind ansonsten unauffällig.",
+    beobachtung:
+      "Selma bewegt sich überwiegend normal, zeigt aber nach dem Aufstehen eine leichte, rasch wieder verschwindende Steifheit vor allem der Pfotengelenke. Eine eindeutige Lahmheit ist nur bei genauem Hinsehen gelegentlich erkennbar.",
+    diagramLabel: "Diskrete, intermittierende Steifheit seit zwei Wochen bei junger Kätzin, nur mildes Fieber, kein Trauma",
+    palpation:
+      "An Karpal- und Tarsalgelenken beidseits ist eine geringgradige Gelenkfüllung tastbar, die Gelenke sind nicht überwärmt. Selma toleriert die vorsichtige Palpation gut, zeigt nur minimales Unbehagen. Die Körpertemperatur ist nur leicht erhöht.",
+    hypothesisQ: "Welche Form der felinen Polyarthritis erklärt Selmas Befund am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Die idiopathische Polyarthritis — eine milde, nichterosive Gelenkbeteiligung mit nur geringem Fieber bei einer jungen Kätzin passt zum typischen, meist selbstlimitierenden Verlauf dieser Form; dass die Besitzerin die Steifheit fast übersehen hätte, passt zudem zur bekannten Neigung von Katzen, Gelenkbeschwerden zu überspielen",
+        correct: true,
+      },
+      {
+        label: "Die periartikuläre osteoproliferative Arthritis (Reiter-Form)",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Form tritt praktisch nur bei jüngeren männlichen Katzen auf und geht mit hohem Fieber, deutlicher Bewegungsunlust sowie meist geschwollenen, geröteten und überwärmten Gelenken einher. Selmas mildes Fieber, das weibliche Geschlecht und die nicht überwärmten Gelenke passen nicht dazu.",
+        differentiationDistractors: [
+          "Bei jeder Polyarthritis der Katze ist unabhängig vom Geschlecht zuerst an die Reiter-Form zu denken.",
+          "Fieber ist bei Gelenkentzündungen der Katze grundsätzlich hochgradig ausgeprägt.",
+        ],
+      },
+      {
+        label: "Die chronisch-progressive (erosive) Polyarthritis",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Form betrifft typischerweise ältere männliche Katzen und zerstört im Verlauf die Gelenkflächen mit Subluxationen und Deformationen. Bei der jungen Selma mit erst zweiwöchiger, milder Symptomatik ist das nicht das wahrscheinlichste Bild.",
+        differentiationDistractors: [
+          "Jede über Wochen bestehende Gelenksteifheit der Katze deutet auf einen bereits erosiven, fortgeschrittenen Prozess hin.",
+          "Das Alter des Tieres ist für die Unterscheidung der Polyarthritis-Formen bei der Katze nicht entscheidend.",
+        ],
+      },
+      {
+        label: "Ein systemischer Lupus erythematodes (SLE)",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "SLE geht typischerweise mit deutlicheren systemischen Zeichen einher (z. B. chronische Hautverkrustungen v. a. im Gesicht, Verhaltensänderungen, häufig Nierenbeteiligung) als der bei Selma bisher isolierten, milden Gelenksteifheit. SLE gehört aber zu den Erkrankungen, nach denen bei idiopathischer Polyarthritis gezielt als möglicher Auslöser gesucht werden sollte.",
+        differentiationDistractors: [
+          "Jede Gelenkbeteiligung bei einer jungen Katze spricht zuerst für SLE.",
+          "Ohne begleitende Hautveränderungen kann ein SLE von vornherein ausgeschlossen werden.",
+        ],
+      },
+    ],
+    expertNote:
+      "Bei der Katze werden drei Polyarthritis-Formen unterschieden, die sich klar voneinander abgrenzen lassen: Die idiopathische (nichterosive) Polyarthritis tritt gelegentlich bei jüngeren weiblichen Katzen auf, mit minimalen Lahmheits-/Steifheitszeichen und allenfalls mildem Fieber; sie ist oft nach Wochen bis Monaten selbstlimitierend, Kortikosteroide können den Heilungsprozess beschleunigen. Da sie gehäuft sekundär im Rahmen prädisponierender Erkrankungen auftritt, gehört die gezielte Suche nach SLE oder FeLV-/FIV-Infektion zur Diagnostik. Die periartikuläre osteoproliferative Arthritis (Reiter-Form) betrifft dagegen nahezu ausschließlich jüngere männliche Katzen (1,5–4 J.) mit akuter Polyarthritis v. a. distaler Gliedmaßengelenke, hohem Fieber, Lymphadenopathie und deutlicher Bewegungsunlust; im Verlauf bilden sich progressive periartikuläre Knochengewebsneubildungen. Die chronisch-progressive (erosive) Polyarthritis wiederum betrifft v. a. ältere männliche Katzen, verläuft chronischer und bösartiger, mit Zerstörung der Gelenkflächen bis hin zu Subluxationen, Luxationen und Deformationen — Fieber fehlt hier oft. Alle drei Formen werden mit Kortikosteroiden, bei unzureichendem Ansprechen zusätzlich mit Cyclophosphamid behandelt; die Remission ist besonders bei den beiden chronischen Formen schwer zu erreichen und zu erhalten. Fachlich-didaktisch wichtig bleibt: Katzen überspielen Gelenkbeschwerden tendenziell eher, als sie deutlich zu zeigen — eine milde Symptomatik schließt eine behandlungsbedürftige Polyarthritis nicht aus.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen die idiopathische Polyarthritis und für die periartikuläre osteoproliferative Form sprechen?",
+    weakeningOptions: [
+      {
+        label: "Hohes Fieber sowie deutlich geschwollene, gerötete und überwärmte Gelenke bei einem jungen Kater",
+        correct: true,
+      },
+      { label: "Die nur geringgradige, beidseitige Gelenkfüllung an Karpal- und Tarsalgelenken", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Das nur leicht erhöhte Fieber", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die insgesamt gute Verträglichkeit der Gelenkpalpation", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum gehört die gezielte Suche nach SLE oder FeLV-/FIV-Infektion zur Diagnostik der idiopathischen Polyarthritis, obwohl die Form „idiopathisch\" heißt?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil die idiopathische Polyarthritis gehäuft sekundär im Rahmen solcher prädisponierender Erkrankungen auftritt und deren Erkennung Therapie und Prognose beeinflusst",
+        correct: true,
+      },
+      { label: "Weil „idiopathisch\" bedeutet, dass grundsätzlich immer eine Infektion als Ursache vorliegt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil ohne diesen Nachweis keine Kortikosteroidtherapie begonnen werden darf", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil SLE und FeLV/FIV bei der Katze ausschließlich Gelenkbeschwerden auslösen, nie andere Symptome", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitte „Idiopathische Polyarthritis bei der Katze\", „Chronische progressive Polyarthritis bei der Katze\" und „Systemischer Lupus erythematodes (SLE) bei der Katze\". Vorkommen/Alters- und Geschlechtsverteilung, Klinik, Diagnostik (inkl. Gelenkpunktion/Zytologie) und Therapie aller drei Polyarthritis-Formen sowie die SLE-Abgrenzung (Hautverkrustung, Verhaltensänderungen, Nierenbeteiligung) sind im Original so beschrieben. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -23990,6 +24154,90 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Osteochondrodysplasie der Scottish-Fold-Katzen\". Ätiologie (autosomal-dominant vererbter generalisierter Knorpeldefekt, Zusammenhang mit den umgeknickten Ohren, homo-/heterozygote Ausprägung, kein Zuchteinsatz), Lokalisation (distale Gliedmaßen mit Ankylosierung der Karpal-/Tarsalgelenke, kaudale Wirbelsäule/Schwanz), die stärkere Betroffenheit der Hintergliedmaßen sowie die ausschließlich palliative Therapie (inkl. Panarthrodese des Tarsus in Einzelfällen) sind im Original so beschrieben. Der Hinweis, dass Katzen Gelenkschmerzen tendenziell überspielen, stammt aus demselben Kapitel (Abschnitte „Idiopathische Polyarthritis bei der Katze\": „Neigung von Katzen, Gelenkschmerzen zu überspielen\"; „Chronische progressive Polyarthritis bei der Katze\": „oft Belastung der Gliedmaßen ohne allzu offensichtliche Schmerzen möglich\") und wird hier als allgemeine Einordnung auf die Osteochondrodysplasie übertragen — diese Übertragung ist eine didaktische Verallgemeinerung von Denkgang, nicht wörtlich für die Osteochondrodysplasie selbst belegt.",
     relatedCaseIds: ["fibi"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "alimentaerer-hyperparathyreoidismus-katze",
+    category: "PATHOLOGIE",
+    title: "Alimentärer Hyperparathyreoidismus: wenn die Fütterung zur Fraktur führt",
+    teaser:
+      "Reine Fleischfütterung ist bei der Katze keine Seltenheit — und kann ein junges Skelett so schwächen, dass ein harmloser Sprung zum Bruch wird.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wie die Fütterung den Knochen schwächt",
+        text: "Chronische Fütterung mit kalziumarmen, phosphorreichen Diäten — typischerweise reine Fleisch-, Fleisch-Gemüse- oder Fleisch-Reis-Diäten — senkt den Plasma-Kalziumspiegel. Der Körper reagiert mit erhöhter PTH-Sekretion: Osteoklasten werden aktiviert, Kalzium wird aus dem Knochen mobilisiert, die renale Kalzium-Rückresorption steigt. Mit der Zeit entsteht eine generalisierte Osteoporose. Bei jungen Tieren wird das bereits nach Wochen klinisch relevant, bei älteren Katzen erst nach Monaten.",
+      },
+      {
+        type: "table",
+        heading: "Befund im Überblick",
+        columns: ["Aspekt", "Typischer Befund"],
+        rows: [
+          ["Röntgen", "generalisierte Osteopenie, dünne Kortizes, erweiterter Markraum"],
+          ["Frakturmuster", "oft wenig dislozierte „Faltfrakturen\" in Metaphysen langer Röhrenknochen"],
+          ["Labor", "erhöhtes PTH im Blut"],
+          ["Differenzialdiagnose", "Osteogenesis imperfecta (vererbt, nicht fütterungsbedingt)"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Therapie: Futter umstellen, dann Geduld",
+        text: "Die Behandlung besteht in der Umstellung auf hochwertiges kommerzielles Katzenfutter mit ausgewogenem Kalzium-Phosphat-Verhältnis. Die PTH-Werte normalisieren sich dann rasch, die Remineralisierung des Skeletts dauert aber etwa 4–8 Wochen — in dieser Zeit muss die Aktivität der Katze stark eingeschränkt werden, da das Skelett bis zum Abschluss der Remineralisierung weiterhin frakturgefährdet bleibt. Die Prognose ist in der Regel sehr gut, mit Ausnahme von Wirbelfrakturen mit resultierender Paraplegie.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Differentialdiagnostik unvollständig", "Befund übersehen"],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Alimentärer Hyperparathyreoidismus bei der Katze\". Ätiologie/Pathogenese, Klinik, Diagnostik (Röntgenbefund, PTH-Erhöhung), Differenzialdiagnose (Osteogenesis imperfecta) sowie Therapie (Futterumstellung, Remineralisierungsdauer, Aktivitätseinschränkung, Prognose) sind im Original so beschrieben.",
+    relatedCaseIds: ["momo"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "feline-polyarthritis-formen-differenzierung",
+    category: "PATHOLOGIE",
+    title: "Drei Gesichter der felinen Polyarthritis — und wie man sie auseinanderhält",
+    teaser:
+      "Alter, Geschlecht und Fieberausprägung verraten bei der Katze mehr über die Polyarthritis-Form als der erste Gelenkbefund allein.",
+    sections: [
+      {
+        type: "table",
+        heading: "Die drei Formen im Vergleich",
+        columns: ["Form", "Typisches Tier", "Fieber/Verlauf", "Gelenkbefund"],
+        rows: [
+          [
+            "Idiopathische Polyarthritis",
+            "junge, weibliche Katzen",
+            "mild, oft selbstlimitierend nach Wochen/Monaten",
+            "nichterosiv, minimale Lahmheit/Steifheit",
+          ],
+          [
+            "Periartikuläre osteoproliferative Arthritis (Reiter-Form)",
+            "junge, männliche Katzen (1,5–4 J.)",
+            "hoch, mit Lymphadenopathie",
+            "akut geschwollen/gerötet/überwärmt, später periartikuläre Knochenneubildung",
+          ],
+          [
+            "Chronisch-progressive (erosive) Polyarthritis",
+            "ältere, männliche Katzen",
+            "oft fehlend, dafür chronisch-bösartiger Verlauf",
+            "Zerstörung der Gelenkflächen, Subluxationen/Deformationen",
+          ],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum „idiopathisch\" nicht „ohne Ursachensuche\" heißt",
+        text: "Die idiopathische Polyarthritis tritt gehäuft sekundär im Rahmen prädisponierender Erkrankungen auf — deshalb gehört die gezielte Suche nach systemischem Lupus erythematodes (SLE) oder FeLV-/FIV-Infektion auch bei dieser vermeintlich „ursachenlosen\" Form zur Diagnostik dazu. Die Diagnosesicherung erfolgt über Gelenkpunktion von Karpal- und Tarsalgelenken mit zytologischem Nachweis großer Mengen nichtdegenerativer neutrophiler Granulozyten.",
+      },
+      {
+        type: "text",
+        heading: "Die gemeinsame Falle",
+        text: "Katzen überspielen Gelenkbeschwerden tendenziell eher, als sie deutlich zu zeigen. Eine nur milde, leicht zu übersehende Symptomatik schließt deshalb keine der drei Formen aus — gerade die idiopathische Polyarthritis wird oft erst spät oder zufällig erkannt.",
+      },
+    ],
+    errorTags: ["Differentialdiagnostik unvollständig", "Befund überbewertet"],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitte „Idiopathische Polyarthritis bei der Katze\", „Chronische progressive Polyarthritis bei der Katze\" (inkl. Unterform periartikuläre osteoproliferative Arthritis) und „Systemischer Lupus erythematodes (SLE) bei der Katze\". Alters-/Geschlechtsverteilung, Fieber- und Verlaufsmuster, Gelenkbefunde, Diagnostik (Gelenkpunktion/Zytologie) sowie die SLE-Abgrenzung sind im Original so beschrieben.",
+    relatedCaseIds: ["selma"],
     relatedAnatomyIds: [],
   },
 ];
