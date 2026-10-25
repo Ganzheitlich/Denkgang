@@ -26,7 +26,7 @@ export default async function DashboardPage() {
               width={873}
               height={873}
               className="logo-img"
-              style={{ width: 30, height: 30 }}
+              style={{ width: 44, height: 44 }}
             />
             <div className="wordmark">Denkgang</div>
           </div>
