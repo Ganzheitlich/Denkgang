@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Denkgang – Offline</title>
+<style>
+  :root { color-scheme: light; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #edeee6;
+    color: #1e2a22;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+  .card { max-width: 360px; text-align: center; }
+  img { width: 56px; height: 56px; margin-bottom: 16px; }
+  h1 { font-size: 19px; margin: 0 0 10px; color: #123d37; }
+  p { font-size: 14.5px; line-height: 1.5; color: #4b564d; margin: 0; }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14.5px;
+    border: none;
+    border-radius: 8px;
+    background: #1d5c52;
+    color: #fff;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img src="/icons/icon-192.png" alt="" />
+    <h1>Keine Verbindung</h1>
+    <p>
+      Denkgang braucht aktuell eine Internetverbindung, um Fälle, Anatomie und
+      die Wissensbibliothek zu laden. Sobald du wieder online bist, geht's
+      hier weiter.
+    </p>
+    <button onclick="location.reload()">Erneut versuchen</button>
+  </div>
+</body>
+</html>
