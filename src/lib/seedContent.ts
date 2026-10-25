@@ -7781,6 +7781,251 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitte „Idiopathische Polyarthritis bei der Katze\", „Chronische progressive Polyarthritis bei der Katze\" und „Systemischer Lupus erythematodes (SLE) bei der Katze\". Vorkommen/Alters- und Geschlechtsverteilung, Klinik, Diagnostik (inkl. Gelenkpunktion/Zytologie) und Therapie aller drei Polyarthritis-Formen sowie die SLE-Abgrenzung (Hautverkrustung, Verhaltensänderungen, Nierenbeteiligung) sind im Original so beschrieben. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
   },
+  {
+    id: "kasimir",
+    difficulty: "EXPERTE",
+    topic: "Orthopädie · Knochen (Osteogenesis imperfecta)",
+    species: "Europäisch Kurzhaar, Kater, 10 Wochen",
+    title: "Kasimir — Grünholzfraktur bei ausgewogener Fütterung",
+    learningObjective:
+      "Erkennen, dass eine generalisierte Skelettschwächung bei korrekter, ausgewogener Fütterung nicht automatisch alimentär bedingt sein muss — und die Fütterungsanamnese gezielt als entscheidendes Unterscheidungsmerkmal zwischen Osteogenesis imperfecta und alimentärem Hyperparathyreoidismus nutzen.",
+    anamnese:
+      "Kasimir ist 10 Wochen alt und wird von Anfang an mit einem hochwertigen, speziell für Kitten abgestimmten Fertigfutter ernährt — die Besitzerin hat sich vorab ausführlich beraten lassen. Seit etwa zwei Wochen bewegt er sich zunehmend ungern, springt nicht mehr und hat sich beim Spielen mit seinem Geschwistertier offenbar eine Gliedmaße verletzt.",
+    beobachtung:
+      "Kasimir wirkt insgesamt zierlicher als seine Wurfgeschwister und bewegt sich vorsichtig, mit vermindertem Bewegungsdrang. Sprünge, selbst aus geringer Höhe, vermeidet er vollständig.",
+    diagramLabel: "Zierlich wirkender Kater mit verminderter Spring-/Bewegungsfreude seit zwei Wochen, altersgerechte Fertigfütterung seit Anfang an",
+    palpation:
+      "An einer Hintergliedmaße ist eine nur gering dislozierte Instabilität im Schaftbereich tastbar, vereinbar mit einer Grünholzfraktur. Insgesamt wirkt das Skelett an mehreren Stellen auffällig wenig stabil für das Alter, ohne dass dabei eine einzelne Region besonders druckschmerzhaft ist.",
+    hypothesisQ: "Was erklärt Kasimirs generalisiert wirkende Skelettschwäche mit Grünholzfraktur am ehesten, wenn die Fütterung bereits von Anfang an ausgewogen war?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine Osteogenesis imperfecta — die äußerst seltene, genetisch bedingte Kollagenstoffwechselstörung erklärt eine generalisierte Verminderung der Knochendichte mit Grünholzfrakturen bereits im frühen Jungtieralter, unabhängig von einer korrekten Fütterung",
+        correct: true,
+      },
+      {
+        label: "Ein alimentärer Hyperparathyreoidismus durch unausgewogene Fütterung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Genau dieser naheliegende Verdacht wird durch die Anamnese widerlegt: Kasimir wird seit Anfang an mit ausgewogenem, speziell abgestimmtem Kittenfutter ernährt. Eine generalisierte Skelettschwäche bei nachweislich korrekter Fütterung spricht gegen die alimentäre und für die genetische Ursache.",
+        differentiationDistractors: [
+          "Generalisierte Skelettschwäche bei jungen Katzen ist praktisch immer fütterungsbedingt, unabhängig von der tatsächlichen Diät.",
+          "Die Fütterungsanamnese muss bei Verdacht auf Knochenerkrankungen nicht genau geprüft werden, wenn das Futter aus der Zoohandlung stammt.",
+        ],
+      },
+      {
+        label: "Eine gewöhnliche Spielverletzung mit isolierter frischer Fraktur, die mit Ruhigstellung folgenlos verheilen wird",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine isolierte Spielverletzung würde nicht erklären, warum das Skelett insgesamt an mehreren Stellen auffällig wenig stabil wirkt und Kasimir bereits seit zwei Wochen vor der akuten Verletzung spring- und bewegungsunlustig war. Das spricht für eine vorbestehende generalisierte Skelettschwäche, nicht für ein isoliertes Unfallereignis.",
+        differentiationDistractors: [
+          "Wenn ein konkretes Spielereignis genannt wird, ist damit die Ursache der Fraktur immer ausreichend erklärt.",
+          "Verminderte Sprungfreude bei jungen Katzen ist meist nur vorübergehende Vorsicht nach einem Schreck.",
+        ],
+      },
+      {
+        label: "Eine Osteochondrodysplasie wie bei der Scottish-Fold-Katze",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Die Osteochondrodysplasie verursacht knöcherne Zubildungen und Ankylosierung an bestimmten Gelenken (v. a. Karpal-/Tarsalgelenke), nicht eine generalisiert verminderte Knochendichte mit Grünholzfrakturen. Kasimirs Befundmuster passt zum gegenteiligen Mechanismus — zu wenig statt zu viel Knochensubstanz.",
+        differentiationDistractors: [
+          "Jede generalisierte Skeletterkrankung junger Katzen lässt sich auf dieselbe rassetypische Knorpelerkrankung zurückführen.",
+          "Verminderte und vermehrte Knochendichte lassen sich klinisch kaum unterscheiden.",
+        ],
+      },
+    ],
+    expertNote:
+      "Osteogenesis imperfecta ist eine äußerst seltene, genetisch bedingte Störung des Kollagenmetabolismus — umgangssprachlich auch „Glasknochenkrankheit\" genannt — mit deutlich verminderter Knochendichte. Die Symptome treten im Alter von wenigen Wochen bis Monaten auf: Lahmheit vor allem der Hintergliedmaßen, Bewegungsunlust, Unvermögen zu springen und Knochenschmerzen. Durch die stark ausgeprägte Osteoporose kommt es häufig zu Grünholzfrakturen, in der Folge auch zu Verformungen und Verbiegungen der langen Röhrenknochen, des Beckens und der Wirbelsäule. Entscheidend für die Abgrenzung zum alimentären Hyperparathyreoidismus — dem wichtigsten Differenzial — ist die Fütterungsanamnese: Während der alimentäre Hyperparathyreoidismus durch eine kalziumarme/phosphorreiche Diät verursacht wird, tritt die Osteogenesis imperfecta auch bei einwandfreier Fütterung auf. Therapeutisch sind Vitamin- und Kalziumgaben hier wirkungslos; im Vordergrund steht die Vermeidung von Traumata bis zum Abschluss der Skelettreife. Die Knochendichte verbessert sich zwar mit zunehmender Reife, bereits entstandene Verformungen bleiben jedoch bestehen.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher für einen alimentären Hyperparathyreoidismus sprechen und gegen eine Osteogenesis imperfecta als Erklärung?",
+    weakeningOptions: [
+      {
+        label: "Eine mehrwöchige Fütterungsanamnese mit überwiegend rohem Fleisch ohne Mineralstoffausgleich",
+        correct: true,
+      },
+      { label: "Die generalisiert verminderte Skelettstabilität an mehreren Körperstellen", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die nur gering dislozierte Grünholzfraktur", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Das junge Alter von 10 Wochen", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum bleiben eine Vitamin- und Kalziumtherapie bei der Osteogenesis imperfecta erfolglos, obwohl sie beim alimentären Hyperparathyreoidismus wirksam sind?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil die Osteogenesis imperfecta durch einen genetischen Defekt im Kollagenstoffwechsel verursacht wird, nicht durch einen Mangel an Kalzium oder Vitaminen — eine Nahrungsergänzung kann den zugrunde liegenden Gendefekt nicht beheben",
+        correct: true,
+      },
+      { label: "Weil Katzen mit Osteogenesis imperfecta grundsätzlich keine Nahrungsergänzungsmittel aufnehmen können", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil bei dieser Erkrankung zu viel, nicht zu wenig Kalzium im Knochen vorliegt", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die Erkrankung ausschließlich die Wirbelsäule betrifft, auf die Vitamin-/Kalziumgaben keinen Einfluss haben", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Osteogenesis imperfecta bei der Katze\". Ätiologie/Pathogenese (seltene genetische Kollagenstoffwechselstörung, verminderte Knochendichte), Klinik (Auftreten im Alter weniger Wochen bis Monate, betroffene Region, Grünholzfrakturen, Verformungen), Therapie (Traumavermeidung, erfolglose Vitamin-/Ca-Therapie) und Prognose (Verbesserung der Knochendichte mit Reife, bestehenbleibende Verformungen) sind im Original so beschrieben; ebenso die explizite Nennung der Osteogenesis imperfecta als Differenzialdiagnose zum alimentären Hyperparathyreoidismus im dortigen Abschnitt. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
+  {
+    id: "olive",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Orthopädie · Wirbelsäule (Hypervitaminose A)",
+    species: "Europäisch Kurzhaar, Kätzin, 6 Jahre",
+    title: "Olive — zunehmend steifer Hals seit Monaten, tägliche Leberfütterung",
+    learningObjective:
+      "Erkennen, dass eine chronische, einseitige Fütterung mit roher Leber eine Hypervitaminose A mit knöchernen Zubildungen an der Halswirbelsäule verursachen kann — und eine sorgfältige Fütterungsanamnese als Schlüssel zur Diagnose nutzen, statt die Steifheit vorschnell altersbedingter Arthrose zuzuschreiben.",
+    anamnese:
+      "Olive ist 6 Jahre alt und bekommt seit über einem Jahr fast täglich rohe Leber als Hauptnahrungsbestandteil, weil sie diese der Besitzerin zufolge „über alles liebt\". Seit einigen Monaten bewegt sie den Kopf zunehmend eingeschränkt und wirkt insgesamt lethargischer als früher.",
+    beobachtung:
+      "Olive hält Kopf und Hals überwiegend in einer leicht abgesenkten, wenig beweglichen Haltung und vermeidet ausladende Kopfbewegungen. Sie wirkt insgesamt schlanker als beim letzten Besuch.",
+    diagramLabel: "Zunehmend eingeschränkte Halsbeweglichkeit seit Monaten, Lethargie, Abmagerung, seit über einem Jahr nahezu tägliche Leberfütterung",
+    palpation:
+      "Entlang der Halswirbelsäule ist eine deutliche Hypersensitivität sowie eine Bewegungseinschränkung tastbar. Auch an den proximalen Gliedmaßengelenken fällt eine leichte Steifheit auf. Die Gelenke selbst sind nicht überwärmt oder geschwollen.",
+    hypothesisQ: "Was erklärt Olives zunehmend steife Halswirbelsäule am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine Hypervitaminose A durch die chronische, nahezu tägliche Fütterung roher Leber — die typische Lokalisation an der Halswirbelsäule, die Hypersensitivität entlang der Wirbelsäule sowie Lethargie und Abmagerung passen zum bekannten Befundmuster dieser Fütterungsbedingten Stoffwechselstörung",
+        correct: true,
+      },
+      {
+        label: "Eine altersbedingte Spondylose/Arthrose der Halswirbelsäule, wie sie bei älteren Katzen regelmäßig vorkommt",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Eine rein altersbedingte Erklärung lässt die auffällige Fütterungsanamnese außer Acht: Monate- bis jahrelange, nahezu einseitige Leberfütterung ist ein spezifischer, bekannter Auslöser für knöcherne Wirbelsäulenveränderungen und sollte gezielt erfragt und berücksichtigt werden, bevor eine unspezifische Altersdiagnose gestellt wird.",
+        differentiationDistractors: [
+          "Bei älteren Katzen ist eine eingeschränkte Halsbeweglichkeit immer zuerst altersbedingt zu werten.",
+          "Die Fütterungsanamnese ist für Wirbelsäulenbefunde bei der Katze meist zu vernachlässigen.",
+        ],
+      },
+      {
+        label: "Eine Osteochondrodysplasie wie bei der Scottish-Fold-Katze",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese erbliche Erkrankung beginnt bereits im Jungtieralter und betrifft vorrangig die distalen Gliedmaßen sowie die kaudale Wirbelsäule, nicht primär die Halswirbelsäule einer bislang unauffälligen 6-jährigen Katze mit eindeutiger Fütterungsbesonderheit.",
+        differentiationDistractors: [
+          "Wirbelsäulenveränderungen bei der Katze sind unabhängig vom Alter meist erblich bedingt.",
+          "Die Rasse ist für die Einordnung von Wirbelsäulenbefunden bei der Katze nicht relevant.",
+        ],
+      },
+      {
+        label: "Ein alimentärer Hyperparathyreoidismus durch unausgewogene Fütterung",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Der alimentäre Hyperparathyreoidismus verursacht eine generalisierte Entkalkung des Skeletts mit Frakturneigung, keine lokal betonten Knochenzubildungen an der Halswirbelsäule. Olives Befundmuster (Zubildungen, nicht Entkalkung) und die spezifische Leberfütterung sprechen gezielt für die Hypervitaminose A.",
+        differentiationDistractors: [
+          "Jede fütterungsbedingte Knochenerkrankung der Katze läuft über denselben Mechanismus.",
+          "Knochenzubildungen und Knochenabbau lassen sich klinisch kaum unterscheiden.",
+        ],
+      },
+    ],
+    expertNote:
+      "Die Hypervitaminose A der Katze entsteht meist bei ausgewachsenen Tieren durch monate- bis jahrelange, einseitige Fütterung mit roher Leber oder Fisch, teils auch durch zusätzlich mit Vitamin-A-Tropfen angereichertes Futter. Die Überversorgung führt zu radiologisch sichtbaren Knochenzubildungen an Gelenkkapsel-, Sehnen- und Muskelansätzen, klassischerweise an den Wirbelgelenken und Intervertebralspalten der Wirbelsäule — vor allem der Halswirbelsäule — sowie an proximalen Gliedmaßengelenken. Klinisch zeigen sich Lahmheit, Steifheit der betroffenen Gelenke, Hypersensitivität entlang der Wirbelsäule, Lethargie und Abmagerung. Wichtig für die physiotherapeutische Einordnung: Durch die Knochenzubildungen im Bereich der Wirbelsäule kann es sekundär zur Kompression von Nervenwurzeln mit entsprechenden neurologischen Symptomen kommen — ein rein orthopädischer Blick auf die Steifheit würde diese mögliche neurologische Komponente übersehen. Diagnostisch entscheidend sind die Fütterungsanamnese, die klassische radiologische Präsentation sowie ein erhöhter Plasma-Vitamin-A-Spiegel. Therapeutisch steht die Umstellung auf eine Vitamin-A-freie Diät im Vordergrund, um ein Fortschreiten zu verhindern; bereits entstandene knöcherne Veränderungen bleiben jedoch bestehen, die Prognose ist bei schwerwiegend betroffenen Katzen ungünstig.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine Hypervitaminose A sprechen und für eine andere Ursache der Halssteifheit?",
+    weakeningOptions: [
+      {
+        label: "Eine lückenlos dokumentierte, ausschließlich ausgewogene kommerzielle Fütterung ohne jegliche Leber- oder Fischanteile",
+        correct: true,
+      },
+      { label: "Die Hypersensitivität entlang der gesamten Wirbelsäule", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die zusätzliche leichte Steifheit der proximalen Gliedmaßengelenke", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die begleitende Lethargie und Abmagerung", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum sollte bei Olive auch an mögliche neurologische Symptome gedacht werden, obwohl die Grunderkrankung orthopädisch erscheint?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil die knöchernen Zubildungen im Bereich der Wirbelsäule bei der Hypervitaminose A sekundär Nervenwurzeln komprimieren können, was zusätzliche neurologische Ausfälle verursacht",
+        correct: true,
+      },
+      { label: "Weil Hypervitaminose A ausschließlich das Nervensystem betrifft und die Gelenkbefunde nur zufällig sind", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil jede Wirbelsäulenerkrankung der Katze automatisch mit einer Rückenmarksentzündung einhergeht", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Vitamin A grundsätzlich giftig für das Nervengewebe ist, unabhängig von der Dosis", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Hypervitaminose A bei der Katze\". Ätiologie/Pathogenese (chronische Leber-/Fischfütterung, Vitamin-A-Anreicherung), Lokalisation (Wirbelgelenke/Intervertebralspalten v. a. der Halswirbelsäule, proximale Extremitätengelenke), Klinik (Lahmheit, Steifheit, Hypersensitivität, Lethargie, Abmagerung), die mögliche Kompression von Nervenwurzeln mit neurologischen Symptomen, Diagnostik (Fütterungsanamnese, Röntgen, Plasma-Vitamin-A-Spiegel) sowie Therapie/Prognose (Vitamin-A-freie Diät, bestehenbleibende Veränderungen, ungünstige Prognose bei schwerer Ausprägung) sind im Original so beschrieben. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
+  {
+    id: "keks",
+    difficulty: "EXPERTE",
+    topic: "Orthopädie · Knochen (Renaler Hyperparathyreoidismus)",
+    species: "Europäisch Kurzhaar, Kater, 14 Jahre",
+    title: "Keks — zunehmend bewegungsunlustig, trinkt seit Wochen auffällig viel",
+    learningObjective:
+      "Bei einer älteren Katze mit vagen Knochenschmerz-/Inaktivitätszeichen gezielt an eine renale statt eine alimentäre Ursache des Hyperparathyreoidismus denken — und begleitende Allgemeinsymptome (hier: vermehrtes Trinken) als wichtigen diagnostischen Hinweis auf die zugrunde liegende Nierenerkrankung nutzen.",
+    anamnese:
+      "Keks ist 14 Jahre alt und wird normal mit ausgewogenem Seniorenfutter ernährt. Seit einigen Wochen bewegt er sich merklich weniger, meidet das Springen auf erhöhte Liegeplätze und wirkt insgesamt träger. Der Besitzerin ist außerdem aufgefallen, dass er seit einiger Zeit deutlich mehr trinkt als früher.",
+    beobachtung:
+      "Keks bewegt sich insgesamt vorsichtig und mit reduziertem Bewegungsradius, meidet erhöhte Liegeplätze vollständig und zeigt keine eindeutige einseitige Lahmheit.",
+    diagramLabel: "Zunehmende Bewegungsunlust über Wochen bei einer 14-jährigen Katze, zusätzlich vermehrtes Trinken, ausgewogene Fütterung",
+    palpation:
+      "An mehreren Körperstellen ist eine diskrete, diffuse Schmerzreaktion bei Palpation der langen Röhrenknochen erkennbar, ohne eindeutig lokalisierbaren Fokus. Die Gelenke selbst sind unauffällig, nicht geschwollen oder überwärmt.",
+    hypothesisQ: "Was erklärt Keks' zunehmende Bewegungsunlust mit diffusem Knochenschmerz am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Ein renaler Hyperparathyreoidismus im Rahmen einer chronischen Niereninsuffizienz — das hohe Alter, das zusätzliche vermehrte Trinken als typisches Nierensymptom sowie der diffuse, nicht gelenkbezogene Knochenschmerz bei ausgewogener Fütterung passen zu dieser bei älteren Katzen mit Niereninsuffizienz relativ häufigen Komplikation",
+        correct: true,
+      },
+      {
+        label: "Ein alimentärer Hyperparathyreoidismus durch unausgewogene Fütterung",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Keks wird nachweislich mit ausgewogenem Seniorenfutter ernährt — die Fütterungsanamnese spricht gegen die alimentäre Form. Zusammen mit dem hohen Alter und dem vermehrten Trinken als zusätzlichem Hinweis auf eine Nierenerkrankung ist die renale Form die naheliegendere Erklärung.",
+        differentiationDistractors: [
+          "Hyperparathyreoidismus bei der Katze ist unabhängig vom Alter meist fütterungsbedingt.",
+          "Vermehrtes Trinken ist für die Einordnung von Knochenschmerzen bei der Katze nicht relevant.",
+        ],
+      },
+      {
+        label: "Eine gewöhnliche altersbedingte Arthrose mehrerer Gelenke",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Die Palpation zeigt einen diffusen Schmerz entlang der langen Röhrenknochen selbst, nicht an den Gelenken — Arthrose wäre dagegen gelenkbezogen mit tastbaren Gelenkveränderungen. Zudem lässt eine rein altersbedingte Erklärung das zusätzliche vermehrte Trinken unberücksichtigt, das gezielt weiter abgeklärt werden sollte.",
+        differentiationDistractors: [
+          "Bewegungsunlust bei einer 14-jährigen Katze ist praktisch immer durch Arthrose erklärt.",
+          "Vermehrtes Trinken bei älteren Katzen ist normal und für die Beurteilung von Bewegungsproblemen zu vernachlässigen.",
+        ],
+      },
+      {
+        label: "Eine Osteogenesis imperfecta",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Diese seltene genetische Erkrankung manifestiert sich bereits im Alter von wenigen Wochen bis Monaten, nicht erstmals bei einer 14 Jahre alten, bislang unauffälligen Katze. Das hohe Alter und die begleitenden Nierensymptome passen eindeutig besser zur renalen Form des Hyperparathyreoidismus.",
+        differentiationDistractors: [
+          "Das Alter des Tieres spielt für die Unterscheidung genetischer und erworbener Knochenerkrankungen keine Rolle.",
+          "Generalisierte Knochenschmerzen bei älteren Katzen sind meist angeboren bedingt.",
+        ],
+      },
+    ],
+    expertNote:
+      "Der renale Hyperparathyreoidismus tritt relativ häufig bei Katzen mit chronischer Niereninsuffizienz auf — in einer Studie zeigten rund 84 % der Katzen mit chronischer Niereninsuffizienz erhöhte Serum-PTH-Spiegel. Pathophysiologisch führt die verminderte renale Phosphatausscheidung zu einer Hyperphosphatämie, die Kalzium-Rückresorption nimmt ab und die Kalzitriol-Synthese ist gestört — in der Folge kann eine Osteoporose entstehen, die allerdings meist weniger stark ausgeprägt ist als beim alimentären Hyperparathyreoidismus und radiologisch nicht immer eindeutig nachweisbar ist. Klinisch zeigen sich Knochenschmerz und Inaktivität, selten pathologische Frakturen bei sehr fortgeschrittener Osteoporose. Diagnostisch entscheidend ist der Nachweis einer erhöhten PTH-Konzentration bei einer Katze mit bereits bekannter oder neu festgestellter chronischer Niereninsuffizienz. Therapeutisches Ziel ist die Senkung des PTH-Spiegels über eine Senkung des Blut-Phosphatspiegels — in erster Linie durch eine phosphatarme, proteinreduzierte Futterumstellung, ergänzt durch intestinale Phosphatbinder. Physiotherapeutisch wichtig: Die Grunderkrankung (chronische Niereninsuffizienz) bestimmt Belastbarkeit und Prognose mit, eine rein orthopädische Behandlung der Bewegungsunlust würde die eigentliche Ursache verfehlen.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen einen renalen und für einen alimentären Hyperparathyreoidismus sprechen?",
+    weakeningOptions: [
+      {
+        label: "Eine eindeutige Fütterungsanamnese mit über Monate überwiegend roher Fleischfütterung ohne Mineralstoffausgleich",
+        correct: true,
+      },
+      { label: "Das vermehrte Trinken", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Das hohe Alter von 14 Jahren", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Der diffuse, nicht gelenkbezogene Knochenschmerz", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Worauf zielt die Therapie des renalen Hyperparathyreoidismus in erster Linie ab?",
+    retrievalOptions: [
+      {
+        label: "Auf die Senkung des Blut-Phosphatspiegels durch Futterumstellung und ggf. intestinale Phosphatbinder, um darüber den PTH-Spiegel zu senken",
+        correct: true,
+      },
+      { label: "Auf eine hochdosierte Kalziumsupplementierung unabhängig vom Phosphatspiegel", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Auf eine ausschließlich chirurgische Entfernung der Nebenschilddrüsen in jedem Fall", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Auf eine reine Schmerztherapie ohne Beeinflussung der Stoffwechsellage", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Renaler Hyperparathyreoidismus bei der Katze\". Vorkommen (Häufigkeit bei chronischer Niereninsuffizienz inkl. Studienzahl), Pathophysiologie (Hyperphosphatämie, verminderte Ca-Rückresorption, gestörte Kalzitriol-Synthese), Klinik (Knochenschmerz, Inaktivität, seltene pathologische Frakturen), Diagnostik (PTH-Erhöhung bei chronischer Niereninsuffizienz) sowie Therapie (Senkung des Phosphatspiegels über Futterumstellung und Phosphatbinder) sind im Original so beschrieben. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -24238,6 +24483,111 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     sourceStatus:
       "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitte „Idiopathische Polyarthritis bei der Katze\", „Chronische progressive Polyarthritis bei der Katze\" (inkl. Unterform periartikuläre osteoproliferative Arthritis) und „Systemischer Lupus erythematodes (SLE) bei der Katze\". Alters-/Geschlechtsverteilung, Fieber- und Verlaufsmuster, Gelenkbefunde, Diagnostik (Gelenkpunktion/Zytologie) sowie die SLE-Abgrenzung sind im Original so beschrieben.",
     relatedCaseIds: ["selma"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "osteogenesis-imperfecta-katze",
+    category: "PATHOLOGIE",
+    title: "Osteogenesis imperfecta: die „Glasknochenkrankheit\" bei der Katze",
+    teaser:
+      "Eine äußerst seltene genetische Erkrankung, die sich fast wie der viel häufigere alimentäre Hyperparathyreoidismus präsentiert — mit einem entscheidenden Unterschied in der Fütterungsanamnese.",
+    sections: [
+      {
+        type: "text",
+        heading: "Ein Kollagendefekt, kein Mineralstoffmangel",
+        text: "Osteogenesis imperfecta ist eine äußerst seltene genetische Erkrankung mit gestörtem Kollagenmetabolismus, der zu deutlich verminderter Knochendichte führt. Die Symptome treten bereits im Alter von wenigen Wochen bis Monaten auf: Lahmheit vor allem der Hintergliedmaßen, Bewegungsunlust, Unvermögen zu springen und Knochenschmerzen. Durch die stark ausgeprägte Osteoporose kommt es häufig zu Grünholzfrakturen, in der Folge auch zu Verformungen von langen Röhrenknochen, Becken und Wirbelsäule.",
+      },
+      {
+        type: "table",
+        heading: "Osteogenesis imperfecta vs. alimentärer Hyperparathyreoidismus",
+        columns: ["Merkmal", "Osteogenesis imperfecta", "Alimentärer Hyperparathyreoidismus"],
+        rows: [
+          ["Ursache", "genetischer Kollagendefekt", "kalziumarme/phosphorreiche Fütterung"],
+          ["Fütterungsanamnese", "unauffällig, auch bei korrekter Fütterung", "typischerweise auffällig (reine Fleisch-/Fisch-/Reis-Diäten)"],
+          ["Therapie", "Vitamin-/Kalziumgaben wirkungslos", "Futterumstellung wirksam, PTH normalisiert sich"],
+          ["Verlauf", "Verformungen bleiben bestehen, Dichte bessert sich mit Reife", "Remineralisierung über 4–8 Wochen möglich"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum die Fütterungsanamnese entscheidet",
+        text: "Beide Erkrankungen können mit einer generalisierten Skelettschwäche und Grünholzfrakturen im Jungtieralter auftreten — die Quelle nennt die Osteogenesis imperfecta deshalb explizit als wichtigste Differenzialdiagnose zum alimentären Hyperparathyreoidismus. Der entscheidende Unterschied liegt nicht im Röntgenbild oder in der Klinik allein, sondern in der Fütterungsanamnese: Bei nachweislich ausgewogener Fütterung bleibt nur die genetische Ursache als Erklärung übrig.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitte „Osteogenesis imperfecta bei der Katze\" und „Alimentärer Hyperparathyreoidismus bei der Katze\" (dortige Nennung der Osteogenesis imperfecta als Differenzialdiagnose). Ätiologie, Klinik, Therapie und Prognose sowie die Abgrenzungsmerkmale sind im Original so beschrieben.",
+    relatedCaseIds: ["kasimir"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "hypervitaminose-a-katze",
+    category: "PATHOLOGIE",
+    title: "Hypervitaminose A: wenn die Lieblingsleber zum Problem wird",
+    teaser:
+      "Chronische Leber- oder Fischfütterung kann bei der Katze zu knöchernen Zubildungen an der Halswirbelsäule führen — mit möglicher neurologischer Komponente.",
+    sections: [
+      {
+        type: "text",
+        heading: "Von der Fütterung zur Wirbelsäule",
+        text: "Hypervitaminose A entsteht meist bei ausgewachsenen Katzen durch monate- bis jahrelange, einseitige Fütterung mit roher Leber oder Fisch, teils zusätzlich durch Vitamin-A-Tropfen. Die Überversorgung führt zu radiologisch sichtbaren Knochenzubildungen an Gelenkkapsel-, Sehnen- und Muskelansätzen — klassischerweise an den Wirbelgelenken und Intervertebralspalten der Wirbelsäule, vor allem der Halswirbelsäule, sowie an proximalen Gliedmaßengelenken.",
+      },
+      {
+        type: "table",
+        heading: "Befund im Überblick",
+        columns: ["Aspekt", "Typischer Befund"],
+        rows: [
+          ["Lokalisation", "v. a. Halswirbelsäule, auch proximale Extremitätengelenke"],
+          ["Klinik", "Lahmheit, Steifheit, Hypersensitivität entlang der Wirbelsäule, Lethargie, Abmagerung"],
+          ["Mögliche Komplikation", "Kompression von Nervenwurzeln mit neurologischen Ausfällen"],
+          ["Diagnostik", "Fütterungsanamnese, Röntgen, erhöhter Plasma-Vitamin-A-Spiegel"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Orthopädisch beginnt, neurologisch kann es werden",
+        text: "Therapeutisch steht die Umstellung auf eine Vitamin-A-freie Diät im Vordergrund, um ein Fortschreiten zu verhindern — bereits entstandene knöcherne Veränderungen bleiben allerdings bestehen, die Prognose ist bei schwerwiegend betroffenen Katzen ungünstig. Physiotherapeutisch wichtig: Eine zunächst rein orthopädisch wirkende Halssteifheit kann durch Nervenwurzelkompression eine neurologische Komponente entwickeln, die bei der Befunderhebung mitgedacht werden sollte.",
+      },
+    ],
+    errorTags: ["vorschnelle Diagnose", "Differentialdiagnostik unvollständig", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Hypervitaminose A bei der Katze\". Ätiologie, Lokalisation, Klinik, die mögliche Nervenwurzelkompression sowie Diagnostik/Therapie/Prognose sind im Original so beschrieben.",
+    relatedCaseIds: ["olive"],
+    relatedAnatomyIds: [],
+  },
+  {
+    id: "renaler-hyperparathyreoidismus-katze",
+    category: "PATHOLOGIE",
+    title: "Renaler Hyperparathyreoidismus: Knochenschmerz als Nierensymptom",
+    teaser:
+      "Bei älteren Katzen mit chronischer Niereninsuffizienz steckt hinter diffuser Bewegungsunlust häufiger eine gestörte Kalzium-Phosphat-Regulation, als man zunächst denkt.",
+    sections: [
+      {
+        type: "text",
+        heading: "Wie die Niere den Knochen schwächt",
+        text: "Bei Katzen mit chronischer Niereninsuffizienz ist der renale Hyperparathyreoidismus relativ häufig — in einer Studie zeigten rund 84 % der betroffenen Katzen erhöhte Serum-PTH-Spiegel. Die verminderte renale Phosphatausscheidung führt zu einer Hyperphosphatämie, die Kalzium-Rückresorption nimmt ab und die Kalzitriol-Synthese ist gestört. In der Folge kann eine Osteoporose entstehen — meist weniger ausgeprägt als beim alimentären Hyperparathyreoidismus und radiologisch nicht immer eindeutig nachweisbar.",
+      },
+      {
+        type: "table",
+        heading: "Renal vs. alimentär",
+        columns: ["Merkmal", "Renaler Hyperparathyreoidismus", "Alimentärer Hyperparathyreoidismus"],
+        rows: [
+          ["Typisches Tier", "ältere Katze mit chronischer Niereninsuffizienz", "junges Tier mit unausgewogener Fütterung"],
+          ["Begleitsymptome", "oft Polydipsie/Polyurie als Nierenzeichen", "meist keine renalen Begleitsymptome"],
+          ["Osteoporose-Ausprägung", "meist geringer, radiologisch nicht immer sichtbar", "deutlicher, Faltfrakturen in Metaphysen"],
+          ["Therapieansatz", "Phosphatsenkung (Futter, Phosphatbinder)", "Futterumstellung auf ausgewogenes Verhältnis"],
+        ],
+      },
+      {
+        type: "text",
+        heading: "Warum die Grunderkrankung mitzählt",
+        text: "Klinisch zeigen sich Knochenschmerz und Inaktivität, selten pathologische Frakturen bei sehr fortgeschrittener Osteoporose. Therapeutisches Ziel ist die Senkung des PTH-Spiegels über eine Senkung des Blut-Phosphatspiegels, vor allem durch Futterumstellung und ggf. intestinale Phosphatbinder. Physiotherapeutisch entscheidend: Die zugrunde liegende chronische Niereninsuffizienz bestimmt Belastbarkeit und Prognose mit — eine rein orthopädische Behandlung der Bewegungsunlust würde die eigentliche Ursache verfehlen.",
+      },
+    ],
+    errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Anatomieverwechslung"],
+    sourceStatus:
+      "Verifiziert: „Krankheiten des Bewegungsapparates\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Renaler Hyperparathyreoidismus bei der Katze\". Vorkommen, Pathophysiologie, Klinik, Diagnostik und Therapie sind im Original so beschrieben.",
+    relatedCaseIds: ["keks"],
     relatedAnatomyIds: [],
   },
 ];
