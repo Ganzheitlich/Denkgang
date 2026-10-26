@@ -8435,6 +8435,252 @@ const CASES: CaseSeed[] = [
     sourceStatus:
       "Verifiziert: „Krankheiten des Nervensystems\". In: Katzenkrankheiten kompakt, 1. Auflage, Stuttgart: Enke Verlag, 2015 (VetCenter, Thieme, vetcenter.thieme.de), Abschnitt „Idiopathisches Vestibularsyndrom bei der Katze\". Vorkommen, Klinik, Diagnostik (Ausschlussverfahren) sowie Therapie/Prognose sind im Original so beschrieben. Das dort zusätzlich genannte saisonale Auftreten im Nordosten der USA wurde bewusst nicht übernommen, da die Quelle selbst vermerkt, dass dieses Muster in Europa nicht zu beobachten ist. Name, Alter und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
   },
+  {
+    id: "lilly",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Orthopädie · Hüfte (Hüftgelenkdysplasie bei der Katze)",
+    species: "Perserkatze, Kätzin, 8 Jahre",
+    title: "Lilly — „schon immer ruhig gewesen\", jetzt noch träger",
+    learningObjective:
+      "Erkennen, dass bei als „lethargisch\" geltenden Rassen wie der Perserkatze eine zunehmende Bewegungsarmut vorschnell dem Temperament oder dem Alter zugeschrieben wird — und eine zugrunde liegende Hüftgelenkdysplasie aktiv durch gezielte Palpation ausschließen, statt sich auf den Rasseeindruck zu verlassen.",
+    anamnese:
+      "Lilly ist eine 8 Jahre alte Perserkätzin. Die Besitzerin beschreibt sie als „schon immer sehr ruhig und gemütlich\" — typisch für die Rasse, wie sie findet. In den letzten Monaten bewegt sich Lilly aber noch weniger als früher, springt kaum noch auf Möbel und hat etwas zugenommen. Eine eindeutige Lahmheit ist der Besitzerin nie aufgefallen.",
+    beobachtung:
+      "Lilly wirkt insgesamt träge und unternimmt von sich aus kaum Bewegung. Eine eindeutige Lahmheit zeigt sie beim gelegentlichen Gehen nicht, insgesamt wirkt ihr Gangbild aber vorsichtig und wenig raumgreifend.",
+    diagramLabel: "Zunehmende Bewegungsarmut über Monate bei einer als „typisch ruhig\" geltenden Perserkatze, keine eindeutige Lahmheit berichtet, leichte Gewichtszunahme",
+    palpation:
+      "Bei forcierter Streckung und Abduktion beider Hüftgelenke zeigt Lilly eine deutliche Schmerzreaktion, die Beweglichkeit ist beidseits eingeschränkt. Im Seitenvergleich ist die Oberschenkelmuskulatur insgesamt reduziert.",
+    hypothesisQ: "Was erklärt Lillys zunehmende Bewegungsarmut am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine Hüftgelenkdysplasie, die durch Lillys „persergerechtes\", ruhiges Temperament lange unerkannt blieb — die Schmerzreaktion bei forcierter Hüftstreckung/-abduktion und die beidseits eingeschränkte Beweglichkeit sprechen für eine echte Gelenkpathologie, nicht für reines Rasseverhalten",
+        correct: true,
+      },
+      {
+        label: "Reines rassetypisches Temperament und altersbedingte Ruhe ohne eigenen Krankheitswert",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Gerade bei als „lethargisch\" eingestuften Rassen wie der Perserkatze wird zunehmende Bewegungsarmut leicht als reines Temperament zugestanden, obwohl sich bei der Palpation eine eindeutige, beidseitige Schmerzreaktion der Hüftgelenke findet. Diese Schmerzreaktion ist ein eigenständiger pathologischer Befund, der nicht allein durch Rassezuschreibung erklärt werden darf.",
+        differentiationDistractors: [
+          "Bei ruhigen Rassen wie der Perserkatze ist verminderte Bewegung praktisch immer nur Temperament.",
+          "Ohne eine vom Besitzer bemerkte Lahmheit kann eine Gelenkerkrankung weitgehend ausgeschlossen werden.",
+        ],
+      },
+      {
+        label: "Eine Osteochondrodysplasie wie bei der Scottish-Fold-Katze",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Diese erbliche Erkrankung ist spezifisch mit der Scottish-Fold-Mutation verknüpft und betrifft vor allem distale Gliedmaßengelenke sowie den Schwanzansatz. Lilly ist eine Perserkatze ohne entsprechende Veranlagung, und der Befund konzentriert sich eindeutig auf die Hüftgelenke, nicht auf Karpal-/Tarsalgelenke oder den Schwanz.",
+        differentiationDistractors: [
+          "Jede generalisierte Bewegungsarmut bei der Katze lässt sich auf dieselbe rassetypische Knorpelerkrankung zurückführen.",
+          "Die genaue Rassezugehörigkeit ist für die Einordnung von Gelenkbefunden bei der Katze nicht relevant.",
+        ],
+      },
+      {
+        label: "Ein renaler Hyperparathyreoidismus im Rahmen einer beginnenden Niereninsuffizienz",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese Erkrankung würde eher einen diffusen, nicht gelenkbezogenen Knochenschmerz sowie typischerweise zusätzliche Nierenzeichen wie vermehrtes Trinken verursachen. Lillys Befund ist dagegen klar auf die Hüftgelenke selbst lokalisiert (Schmerzreaktion gezielt bei Hüftstreckung/-abduktion) — ohne entsprechende Begleitsymptome spricht das eher für die Gelenkerkrankung.",
+        differentiationDistractors: [
+          "Bewegungsarmut bei älteren Katzen ist unabhängig vom Palpationsbefund meist renal bedingt.",
+          "Eine gezielte Fütterungs- und Trinkanamnese ist für die Einordnung von Bewegungsarmut bei der Katze verzichtbar.",
+        ],
+      },
+    ],
+    expertNote:
+      "Katzenschmerz am Bewegungsapparat wird insgesamt seltener erkannt als beim Hund: Den wenigsten Katzen wird ein Schmerzgeschehen überhaupt zugetraut, gemeldet wird es meist erst, wenn die Katze etwas nicht mehr tut, was sie früher konnte. Weil Katzen sich ihre Ruhephasen selbst aussuchen, fällt vermehrtes Liegen kaum auf — besonders bei als „lethargisch\" eingestuften Rassen wie der Perserkatze wird zunehmende Trägheit einfach zugestanden, und die daraus resultierende Gewichtszunahme eher als Stoffwechselproblem gedeutet denn als Folge schmerzbedingt reduzierter Bewegung. Die Untersuchung der Katze muss diese „stille\" Symptomatik deshalb aktiv durch gezielte Palpation aufdecken: bei Lilly die Schmerzreaktion bei forcierter Streckung und Abduktion beider Hüftgelenke sowie die im Seitenvergleich reduzierte Oberschenkelmuskulatur als Hinweis auf eine schon länger bestehende, schmerzbedingte Minderbelastung. Eine Hüftgelenkdysplasie sollte deshalb bei entsprechend prädisponierten Rassen aktiv durch Palpation gesucht werden, statt sich auf den äußeren Rasseeindruck zu verlassen.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine Hüftgelenkdysplasie sprechen und für reines rassetypisches Verhalten ohne Krankheitswert?",
+    weakeningOptions: [
+      {
+        label: "Eine vollständig schmerzfreie, uneingeschränkte Beweglichkeit beider Hüftgelenke bei Streckung und Abduktion",
+        correct: true,
+      },
+      { label: "Die beidseits reduzierte Oberschenkelmuskulatur im Seitenvergleich", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die insgesamt vorsichtige, wenig raumgreifende Fortbewegung", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die leichte Gewichtszunahme der letzten Monate", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum wird eine schmerzbedingte Bewegungsarmut bei der Katze häufiger als beim Hund fälschlich als Stoffwechsel- oder Gewichtsproblem gedeutet?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil Katzen Schmerz am Bewegungsapparat seltener deutlich zeigen und sich ihre Ruhephasen selbst aussuchen können — die daraus resultierende Gewichtszunahme wird dann eher als eigenständiges Stoffwechselproblem interpretiert als die zugrunde liegende, schmerzbedingt reduzierte Bewegung erkannt",
+        correct: true,
+      },
+      { label: "Weil Katzen grundsätzlich unempfindlicher gegenüber Gelenkschmerzen sind als Hunde", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Gewichtszunahme bei der Katze nie mit dem Bewegungsapparat in Zusammenhang steht", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil Hüftgelenkdysplasie bei Katzen grundsätzlich schmerzfrei verläuft", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg.), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.1.3 und Kap. 4.6 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19), g(23)/g(24).pdf). Die Beobachtung, dass Perserkatzen mit hochgradigen Hüftdysplasien darunter wegen „persergerechten\" Verhaltens nicht sonderlich zu leiden scheinen, die Zuschreibung zunehmender Trägheit bei als lethargisch geltenden Rassen sowie die Fehldeutung der resultierenden Gewichtszunahme als Stoffwechselproblem sind im Original so beschrieben. Nutzt denselben Quellenabschnitt wie der bereits bestehende Wissenseintrag `katzenspezifische-schmerzdiagnostik-verdeckte-symptomatik`. Name und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
+  {
+    id: "romeo",
+    difficulty: "FORTGESCHRITTEN",
+    topic: "Orthopädie · Weichteile (Biss-/Kratzverletzung, verzögerte Vorstellung)",
+    species: "Europäisch Kurzhaar, Kater, 3 Jahre, Freigänger",
+    title: "Romeo — vor Tagen „verstört\" heimgekommen, jetzt frisst er nicht mehr und hinkt",
+    learningObjective:
+      "Bei einer verzögert auftretenden Lahmheit nach einem auffälligen Heimkehrverhalten gezielt an eine übersehene Biss- oder Kratzverletzung denken — und bei einer gefundenen Einbissstelle konsequent auch nach der gegenüberliegenden Gegenbissstelle suchen.",
+    anamnese:
+      "Romeo ist ein 3-jähriger freilaufender Kater. Vor drei Tagen kam er auffällig „verstört\" nach Hause und verkroch sich sofort unter dem Sofa — die Besitzerin dachte an einen Schreck und machte sich zunächst keine weiteren Gedanken. Seit heute frisst er nicht mehr und belastet die linke Vordergliedmaße deutlich weniger.",
+    beobachtung:
+      "Romeo wirkt insgesamt apathisch und zurückgezogen und belastet die linke Vordergliedmaße spürbar vorsichtiger als die rechte. Äußerlich auffällige, großflächige Wunden sind auf den ersten Blick nicht zu erkennen.",
+    diagramLabel: "Verzögert aufgetretene Lahmheit und Fressunlust, drei Tage nach auffällig „verstörter\" Heimkehr eines Freigängers",
+    palpation:
+      "An der linken Vordergliedmaße findet sich bei genauer Palpation eine kleine, punktförmige Einbissstelle mit umgebender Schwellung und deutlicher Schmerzhaftigkeit. Bei systematischer Suche am restlichen Körper lässt sich zusätzlich eine zweite, gegenüberliegende Einbissstelle am Rumpf tasten.",
+    hypothesisQ: "Was erklärt Romeos verzögert aufgetretene Lahmheit und Fressunlust am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine Biss-/Kratzverletzung, wahrscheinlich aus einem Revierkampf, mit beginnender lokaler Infektion — das „verstörte\" Heimkehrverhalten vor drei Tagen, die jetzt aufgetretene Lahmheit mit Fressunlust sowie die gefundene Ein- und Gegenbissstelle passen zusammen zu diesem bei Freigängern typischen, oft erst verzögert erkannten Verletzungsmuster",
+        correct: true,
+      },
+      {
+        label: "Eine einfache Überlastung oder Zerrung der Vordergliedmaße, die mit Schonung von selbst abklingen wird",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Diese Erklärung berücksichtigt weder das auffällige „verstörte\" Heimkehrverhalten vor drei Tagen noch die zusätzliche Fressunlust — beides passt nicht zu einer reinen Überlastung, sondern zu einer sich entwickelnden Infektion nach einer zunächst übersehenen Verletzung.",
+        differentiationDistractors: [
+          "Fressunlust und Lahmheit bei einer Katze stehen meist in keinem Zusammenhang miteinander.",
+          "Ein Verhaltensauffälligkeit beim Heimkommen vor mehreren Tagen ist für die aktuelle Symptomatik nicht mehr relevant.",
+        ],
+      },
+      {
+        label: "Die gefundene Einbissstelle an der Vordergliedmaße erklärt den Befund bereits vollständig, eine weitere Suche ist nicht nötig",
+        correct: false,
+        errorCategory: "Befund übersehen",
+        arguesAgainst:
+          "Bissverletzungen entstehen durch Ober- und Unterkiefer des beißenden Tieres typischerweise paarig als Ein- und Gegenbiss. Wird nur eine Stelle gefunden und behandelt, kann eine übersehene zweite Wunde unbemerkt eine Infektion unterhalten — die systematische Suche nach einer Gegenbissstelle gehört deshalb immer dazu.",
+        differentiationDistractors: [
+          "Bissverletzungen bei der Katze treten so gut wie immer nur an einer einzigen Stelle auf.",
+          "Eine bereits gefundene Wunde macht die weitere körperliche Untersuchung überflüssig.",
+        ],
+      },
+      {
+        label: "Eine iatrogene Ischiadikusparese wie nach einer tierärztlichen Injektion",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Für diese Ursache fehlt jeder Hinweis auf einen vorangegangenen Tierarztbesuch oder eine Injektion. Das auffällige Heimkehrverhalten eines Freigängers, die punktförmige Einbissstelle und die begleitende Fressunlust passen dagegen eindeutig zu einer Biss-/Kratzverletzung.",
+        differentiationDistractors: [
+          "Jede plötzliche Vordergliedmaßen-Lahmheit bei der Katze ist zuerst als Nervenschädigung durch eine Injektion zu werten.",
+          "Der zeitliche Zusammenhang mit der Heimkehr ist für die Diagnosefindung meist unbedeutend.",
+        ],
+      },
+    ],
+    expertNote:
+      "Biss- oder Kratzverletzungen kommen bei der Katze deutlich häufiger vor als beim Hund und werden oft nicht sofort erkannt: Besitzer berichten dabei typischerweise, dass die Katze schon vor ein paar Tagen auffällig „verstört\" nach Hause gekommen ist und sich sofort verkrochen hat — erst später hört sie auf zu fressen oder zeigt eine Bewegungseinschränkung bzw. Lahmheit, wenn sich an der zunächst übersehenen Wunde eine lokale Infektion entwickelt. Entscheidend für die körperliche Untersuchung: Wird eine Einbissstelle gefunden, muss immer auch gezielt nach der gegenüberliegenden Gegenbissstelle gesucht werden, da Bissverletzungen durch Ober- und Unterkiefer des beißenden Tieres typischerweise paarig entstehen. Eine unentdeckte zweite Wunde kann die Infektion unbemerkt weiter unterhalten, auch wenn die erste bereits behandelt wird.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine Biss-/Kratzverletzung sprechen und für eine andere Ursache der Lahmheit?",
+    weakeningOptions: [
+      {
+        label: "Eine vollständig unauffällige Haut- und Weichteilpalpation am gesamten Körper ohne jede punktförmige Läsion",
+        correct: true,
+      },
+      { label: "Das auffällig „verstörte\" Heimkehrverhalten vor drei Tagen", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die zusätzlich aufgetretene Fressunlust", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die Schwellung und Schmerzhaftigkeit um die gefundene Einbissstelle", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum sollte bei einer gefundenen Bissverletzung gezielt auch nach einer zweiten, gegenüberliegenden Einbissstelle gesucht werden?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil Bissverletzungen durch Ober- und Unterkiefer des beißenden Tieres typischerweise paarig als Ein- und Gegenbiss entstehen — wird nur eine Stelle gefunden und behandelt, kann die übersehene zweite Wunde unbemerkt eine Infektion unterhalten",
+        correct: true,
+      },
+      { label: "Weil Katzen grundsätzlich nur an paarigen Körperstellen gleichzeitig verletzt werden können", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil eine zweite Wunde die Diagnose unabhängig vom Infektionsrisiko lediglich bestätigt, aber keine eigene Behandlung erfordert", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil nur bei zwei gefundenen Wunden überhaupt eine Infektionsgefahr besteht", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg.), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.6 (Die Untersuchung der Katze), S. 112 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(23)/g(24).pdf). Das Muster „verstörte\" Heimkehr mit sofortigem Verkriechen, die erst später auftretende Fressunlust/Bewegungseinschränkung sowie der Merksatz, bei gefundenen Einbissen stets auch den Gegenbiss zu suchen, sind im Original so beschrieben. Nutzt denselben Quellenabschnitt wie der bereits bestehende Wissenseintrag `katzenspezifische-schmerzdiagnostik-verdeckte-symptomatik`. Name und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
+  {
+    id: "chica",
+    difficulty: "EXPERTE",
+    topic: "Orthopädie · Wirbelsäule (LSÜ-Schmerz, Obstipations-Fehldiagnose)",
+    species: "Europäisch Kurzhaar, Kätzin, 6 Jahre",
+    title: "Chica — seit Tagen „verstopft\", presst stark ohne Erfolg",
+    learningObjective:
+      "Erkennen, dass eine vermeintliche Verstopfung bei der Katze tatsächlich Folge eines schmerzhaft vermiedenen Haltungswechsels im Lumbosakralbereich sein kann — und verstehen, warum die alleinige Behandlung der Kotretention ohne begleitende Schmerztherapie zum Rezidiv führt.",
+    anamnese:
+      "Chica wird vorgestellt, weil sie seit mehreren Tagen kaum noch Kot absetzt und beim Katzenklo-Besuch auffällig stark presst, ohne dass viel dabei herauskommt. Die Besitzerin vermutet eine Verstopfung und hat bereits selbst versucht, mit mehr Trinkwasser und Nassfutter gegenzusteuern — ohne Erfolg.",
+    beobachtung:
+      "Chica sucht das Katzenklo auffällig häufig auf, nimmt dabei eine angespannte, leicht gekrümmte Haltung ein und presst deutlich, ohne nennenswerte Kotmengen abzusetzen. Ansonsten bewegt sie sich im Alltag weitgehend unauffällig.",
+    diagramLabel: "Seit Tagen bestehende Kotabsatzprobleme mit starkem, erfolglosem Pressen, angespannte Haltung beim Toilettengang, sonst unauffälliges Gangbild",
+    palpation:
+      "Der Lumbosakralübergang ist bei Palpation deutlich schmerzhaft, mit spürbarer Abwehrreaktion. Im Abdomen ist ein deutlich gefüllter, prall-derber Dickdarmabschnitt mit eingedicktem Kot tastbar. Der übrige Bewegungsapparat zeigt keine weiteren auffälligen Befunde.",
+    hypothesisQ: "Was erklärt Chicas seit Tagen bestehende Kotabsatzprobleme am ehesten?",
+    hypothesisOptions: [
+      {
+        label:
+          "Eine schmerzhafte Lumbosakralregion, die Chica dazu bringt, den für die Defäkation nötigen Haltungswechsel bewusst zu vermeiden — die eingedickte Kotretention ist die Folge dieses Vermeidungsverhaltens, nicht die eigentliche Grunderkrankung, worauf die deutliche Schmerzhaftigkeit bei der LSÜ-Palpation hinweist",
+        correct: true,
+      },
+      {
+        label: "Eine rein gastroenterologisch bedingte Verstopfung ohne jeden Bezug zum Bewegungsapparat, die allein durch mehr Flüssigkeit und ein Abführmittel behoben werden kann",
+        correct: false,
+        errorCategory: "vorschnelle Diagnose",
+        arguesAgainst:
+          "Die deutliche Schmerzhaftigkeit bei der LSÜ-Palpation ist ein eigenständiger orthopädischer Befund, den eine rein gastroenterologische Erklärung nicht berücksichtigt. Eine alleinige Behandlung der Kotretention ohne die zugrunde liegende Schmerzursache würde das Problem nicht nachhaltig lösen.",
+        differentiationDistractors: [
+          "Kotabsatzprobleme bei der Katze sind praktisch immer rein ernährungsbedingt.",
+          "Die Palpation der Wirbelsäule ist bei einem Vorbericht von Verstopfung nicht erforderlich.",
+        ],
+      },
+      {
+        label: "Eine sakrokaudale Fraktur/Luxation wie nach einem Schwanztrauma",
+        correct: false,
+        errorCategory: "Anatomieverwechslung",
+        arguesAgainst:
+          "Diese Verletzung würde sich durch eine schlaffe Schwanzlähmung mit kompletter Analgesie und meist durch ein erinnerliches Trauma zeigen. Bei Chica fehlen jegliche Hinweise auf eine Schwanzbeteiligung oder ein Unfallereignis — der Befund beschränkt sich auf eine schmerzhafte LSÜ-Palpation ohne neurologische Ausfälle.",
+        differentiationDistractors: [
+          "Jede Wirbelsäulen-nahe Schmerzhaftigkeit bei der Katze betrifft automatisch auch den Schwanz.",
+          "Ohne ein konkretes Traumaereignis kann eine sakrokaudale Verletzung trotzdem nicht ausgeschlossen werden.",
+        ],
+      },
+      {
+        label: "Eine Osteochondrodysplasie wie bei der Scottish-Fold-Katze",
+        correct: false,
+        errorCategory: "Differentialdiagnostik unvollständig",
+        arguesAgainst:
+          "Diese erbliche Erkrankung beginnt bereits im Jungtieralter mit Befunden an distalen Gliedmaßengelenken und am Schwanzansatz, nicht erstmals im Alter von 6 Jahren mit isolierter LSÜ-Schmerzhaftigkeit und Kotabsatzproblemen ohne jede Gelenkbeteiligung.",
+        differentiationDistractors: [
+          "Kotabsatzprobleme bei der Katze deuten unabhängig vom übrigen Befund meist auf eine erbliche Skeletterkrankung hin.",
+          "Das Alter des Tieres ist für die Einordnung von Wirbelsäulenschmerzen bei der Katze nicht relevant.",
+        ],
+      },
+    ],
+    expertNote:
+      "Schmerzen im Lumbosakralübergang (LSÜ) werden bei Katzen nicht selten mit dem Vorbericht „Kotabsatzbeschwerden\" vorgestellt: Die Katze vermeidet den für die Defäkation nötigen, LSÜ-belastenden Haltungswechsel durch bewusstes Zurückhalten des Kotes — innerhalb weniger Tage dickt dieser im Enddarm und Kolon so stark ein, dass selbst Kleinklistiere ihn nicht mehr lösen können und sich eine ernstzunehmende Ileussymptomatik aufbauen kann. Entscheidend für die Therapie: Nach dem Lösen der Kotballen muss neben der abführenden Behandlung immer auch eine segmentale Schmerztherapie der zugrunde liegenden LSÜ-Problematik erfolgen — sonst erscheinen die Patienten rasch mit einem Rezidiv, weil die eigentliche Ursache (die schmerzbedingte Vermeidung des Haltungswechsels) unbehandelt bleibt. Dieser Fall zeigt beispielhaft, wie ein scheinbar rein internistisches Symptom (Obstipation) tatsächlich orthopädisch bedingt sein kann — ein rein gastroenterologischer Blick auf die Kotabsatzprobleme würde die eigentliche Ursache verfehlen.",
+    weakeningQ: "Welcher zusätzliche Befund würde eher gegen eine schmerzbedingte LSÜ-Vermeidungshaltung sprechen und für eine rein gastroenterologische Ursache?",
+    weakeningOptions: [
+      {
+        label: "Eine vollständig schmerzfreie Palpation des gesamten Lumbosakralübergangs ohne jede Abwehrreaktion",
+        correct: true,
+      },
+      { label: "Der prall-derb gefüllte, eingedickte Dickdarmabschnitt bei der Abdomenpalpation", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Die angespannte, gekrümmte Haltung beim Toilettengang", correct: false, errorCategory: "Befund überbewertet" },
+      { label: "Das erfolglose, starke Pressen über mehrere Tage", correct: false, errorCategory: "Befund überbewertet" },
+    ],
+    retrievalQ: "Warum reicht bei Chica die alleinige abführende Behandlung der Kotballen nicht aus, um ein Rezidiv zu verhindern?",
+    retrievalOptions: [
+      {
+        label:
+          "Weil die zugrunde liegende Schmerzhaftigkeit im Lumbosakralübergang unbehandelt bliebe und erneut zur Vermeidung des für die Defäkation nötigen Haltungswechsels und damit zu erneuter Kotretention führen würde",
+        correct: true,
+      },
+      { label: "Weil Abführmittel bei der Katze grundsätzlich wirkungslos sind", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil die Kotballen sich nach dem Lösen immer von selbst sofort neu bilden, unabhängig von der Ursache", correct: false, errorCategory: "Faktenwissen" },
+      { label: "Weil eine Obstipation bei der Katze ausschließlich chirurgisch behandelt werden darf", correct: false, errorCategory: "Faktenwissen" },
+    ],
+    sourceStatus:
+      "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg.), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.6 (Die Untersuchung der Katze), S. 112–113 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(23)/g(24).pdf). Der Mechanismus der schmerzbedingten Haltungsvermeidung, die daraus resultierende Kotretention und Eindickung bis zur möglichen Ileussymptomatik sowie die Notwendigkeit begleitender segmentaler Schmerztherapie nach Lösen der Kotballen sind im Original so beschrieben. Nutzt denselben Quellenabschnitt wie der bereits bestehende Wissenseintrag `katzenspezifische-schmerzdiagnostik-verdeckte-symptomatik`. Name und Vorgeschichte sind freie didaktische Fallkonstruktion von Denkgang. Noch kein Bildmaterial vorhanden.",
+  },
 ];
 
 const ANATOMY: AnatomySeed[] = [
@@ -22015,7 +22261,7 @@ const KNOWLEDGE: KnowledgeSeed[] = [
     errorTags: ["Befund übersehen", "vorschnelle Diagnose", "Untersuchung falsch gewählt"],
     sourceStatus:
       "Verifiziert: Kasper, Markus/Zohmann, Andreas (Hrsg., unter Mitarbeit von Peter Knafl und Sabine Tacke), Ganzheitliche Schmerztherapie für Hund und Katze, Sonntag Verlag/Georg Thieme Verlag KG, 2., aktualisierte Auflage 2011, ISBN 978-3-8304-9288-7, Kap. 4.6 (Die Untersuchung der Katze), S. 112–114 (per Google-Drive-Chunk-Extraktion ausgewertet, Chunks g(19)–g(27).pdf). Die geschilderten Wahrnehmungs- und Meldeunterschiede zwischen Hunde- und Katzenbesitzern, der abweichende Untersuchungsablauf, der TLÜ als katzentypischer Locus minoris resistentiae (samt ausdrücklicher Kennzeichnung als noch unerforschtes Praxisphänomen durch die Autoren selbst) sowie die Obstipations- und Bissverletzungs-Fallstricke sind im Original so beschrieben. Ergänzt gezielt den bestehenden, tierartvergleichenden Eintrag `schmerzverhalten-erkennen-tierartunterschiede` (Kulpa/Alexander), der das akute Schmerzverhalten mehrerer Spezies knapp gegenüberstellt, um eine ausführliche, katzenspezifische Vertiefung samt konkreter Untersuchungsanpassung — bewusst nicht dupliziert, sondern als eigenständiger, deutlich detaillierterer Eintrag angelegt, der der bisher hundelastigen Wissensbibliothek eine echte Artspezifika-Lücke schließt.",
-    relatedCaseIds: [],
+    relatedCaseIds: ["lilly", "romeo", "chica"],
     relatedAnatomyIds: [],
   },
   {
