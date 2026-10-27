@@ -49,6 +49,9 @@ export default async function DashboardPage() {
               Review
             </Link>
           )}
+          <Link href="/account" className="tag">
+            Konto
+          </Link>
           <LogoutButton />
         </div>
       </div>
