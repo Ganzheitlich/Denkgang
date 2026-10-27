@@ -15,3 +15,9 @@ export function isRateLimited(key: string, windowMs: number, maxRequests: number
   requestLog.set(key, timestamps);
   return timestamps.length > maxRequests;
 }
+
+/** Erste IP aus x-forwarded-for; funktioniert sowohl mit Request.headers als auch next/headers(). */
+export function clientIpFromHeaders(headers: { get(name: string): string | null }): string {
+  const forwarded = headers.get("x-forwarded-for");
+  return forwarded?.split(",")[0]?.trim() || "unknown";
+}

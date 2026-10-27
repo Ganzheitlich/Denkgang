@@ -2,10 +2,15 @@
 
 import { z } from "zod";
 import bcrypt from "bcryptjs";
+import { headers } from "next/headers";
 import { AuthError } from "next-auth";
 import { prisma } from "@/lib/prisma";
 import { signIn } from "@/auth";
+import { isRateLimited, clientIpFromHeaders } from "@/lib/rateLimit";
 import type { Role } from "@/generated/prisma/enums";
+
+const REGISTER_RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000;
+const REGISTER_RATE_LIMIT_MAX_ATTEMPTS = 5;
 
 const registerSchema = z.object({
   email: z.string().email("Bitte eine gueltige E-Mail-Adresse angeben."),
@@ -35,6 +40,11 @@ export async function registerAction(
 
   if (!parsed.success) {
     return parsed.error.issues[0]?.message ?? "Ungueltige Eingabe.";
+  }
+
+  const ip = clientIpFromHeaders(await headers());
+  if (isRateLimited(`register:${ip}`, REGISTER_RATE_LIMIT_WINDOW_MS, REGISTER_RATE_LIMIT_MAX_ATTEMPTS)) {
+    return "Zu viele Registrierungen von dieser Verbindung. Bitte später erneut versuchen.";
   }
 
   const { email, password, name } = parsed.data;

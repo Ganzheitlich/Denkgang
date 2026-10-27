@@ -2,7 +2,7 @@ import { timingSafeEqual } from "crypto";
 import { NextResponse, after } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { seedContent } from "@/lib/seedContent";
-import { isRateLimited } from "@/lib/rateLimit";
+import { isRateLimited, clientIpFromHeaders } from "@/lib/rateLimit";
 
 /**
  * Geschuetzter Wartungs-Endpunkt: spielt den Prototyp-Content (DRAFT) idempotent
@@ -39,8 +39,7 @@ const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000;
 const RATE_LIMIT_MAX_REQUESTS = 10;
 
 function clientIp(request: Request): string {
-  const forwarded = request.headers.get("x-forwarded-for");
-  return forwarded?.split(",")[0]?.trim() || "unknown";
+  return clientIpFromHeaders(request.headers);
 }
 
 function isAuthorized(request: Request): boolean {

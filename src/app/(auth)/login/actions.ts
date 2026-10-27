@@ -1,7 +1,7 @@
 "use server";
 
 import { AuthError } from "next-auth";
-import { signIn } from "@/auth";
+import { signIn, TooManyAttemptsSignin } from "@/auth";
 
 export async function loginAction(
   _prevState: string | undefined,
@@ -14,6 +14,9 @@ export async function loginAction(
       redirectTo: "/dashboard",
     });
   } catch (error) {
+    if (error instanceof TooManyAttemptsSignin) {
+      return "Zu viele Anmeldeversuche. Bitte in ein paar Minuten erneut versuchen.";
+    }
     if (error instanceof AuthError) {
       switch (error.type) {
         case "CredentialsSignin":
