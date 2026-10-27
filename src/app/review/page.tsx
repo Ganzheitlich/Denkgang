@@ -231,6 +231,9 @@ export default async function ReviewPage(props: PageProps<"/review">) {
         <Link href="/dashboard" className="back-link">
           ← Zur Übersicht
         </Link>
+        <Link href="/review/demo-set" className="tag">
+          Demo-Set
+        </Link>
         <span className="tag">Review</span>
       </div>
       <div className="case-title">Inhalte prüfen</div>
