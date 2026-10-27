@@ -120,6 +120,56 @@ Abschnitt unten) — alle Variablen sind dort einheitlich zur Laufzeit verfügba
   Feature-Arbeit muss NICHT auf die fachliche Freigabe warten — Fälle können auf DRAFT bleiben,
   bis Vanessa selbst Zeit für die Prüfung findet.
 
+## Rechtliches, Datensicherung und Skalierung (Stand 27.10., Diskussion mit Vanessa)
+
+Ausgangspunkt: Vanessa hat einer möglichen Partnerin (studierte Juristin) ein Demo-Video gezeigt;
+diese fragte gezielt nach Rechtlichem. Daraufhin wurden drei Themenfelder durchgesprochen und ein
+Teil davon umgesetzt — Rest ist bewusst zurückgestellt, bis es zu echten (nicht nur internen)
+Nutzern kommt.
+
+### Rechtliches
+
+- **Impressum und Datenschutzerklärung fehlen noch.** Beide sind Pflicht, sobald mehr als eine
+  Handvoll bekannter Testpersonen Zugriff haben (Impressumspflicht nach § 5 DDG,
+  Datenschutzerklärung nach Art. 13 DSGVO). Blockiert aktuell auf eine Entscheidung von Vanessa:
+  wer rechtlich als Anbieterin auftritt (sie als Einzelperson/Gewerbe, oder eine gemeinsame
+  Rechtsform mit der Partnerin) — ohne diese Angabe würde die Seite nur mit Platzhaltern online
+  gehen, was schlechter ist als gar keine Seite.
+- **Konto-Löschfunktion ist umgesetzt** (`/account`, siehe `src/app/account/`) — erfüllt das
+  DSGVO-Betroffenenrecht auf Löschung (Art. 17). War vorher technisch nicht möglich.
+- **AVVs (Auftragsverarbeitungsverträge) mit Vercel und Neon** sind nicht abgeschlossen/dokumentiert.
+  Beide sind Auftragsverarbeiter (Vercel: Hosting, Neon: Datenbank) und bieten standardmäßig einen
+  DPA (Data Processing Agreement) an — muss Vanessa selbst im jeweiligen Dashboard abschließen,
+  kann ich von hier aus nicht erledigen (kein Zugriff auf ihre Accounts):
+  - Vercel: Dashboard → Settings → der eigene Account/Team → i. d. R. unter "Legal" oder im
+    Zuge des Plan-Upgrades (DPA ist z. T. erst ab bestimmten Plänen Teil des Vertrags — im
+    aktuellen Vercel-Dashboard prüfen, da sich das ändert).
+  - Neon: Dashboard → Organization Settings → "Legal"/"Compliance" bzw. direkten Support-Kontakt
+    für den DPA.
+- **Content-/Lizenzvertrag mit der Partnerin**: Entwurf erstellt (sie liefert nur Videos/Bilder,
+  keinen Vertrieb, keine operative Mitarbeit → Vergütung als Umsatzbeteiligung statt Festpreis,
+  kein Gesellschaftsrecht nötig). Vor Nutzung durch eine unabhängige dritte Person prüfen lassen,
+  da die Partnerin als Vertragspartei nicht gleichzeitig Vertragsverfasserin sein sollte.
+
+### Datensicherung
+
+Kein eigener Backup-Mechanismus über das hinaus, was Neon im Free-Tier automatisch macht. Das
+genaue Restore-Fenster (wie weit lässt sich zurückspringen) ist nicht dokumentiert — müsste im
+Neon-Dashboard unter "Backups"/"Restore" für den aktuellen Plan geprüft werden, nicht raten.
+Solange nur Testaccounts existieren, unkritisch. Sobald reale Nutzer:innen echten Lernfortschritt
+aufbauen, sollte das geprüft und ggf. durch ein Upgrade oder einen zusätzlichen Export-Mechanismus
+ergänzt werden.
+
+### Skalierung / laufende Kosten
+
+- Vercel Hobby und Neon Free sind für die aktuelle Nutzung (wenige Testaccounts) kostenlos.
+- **Wichtiger als die reinen Kosten:** Der Vercel-Hobby-Plan ist laut den aktuellen Nutzungs-
+  bedingungen nicht für kommerzielle Projekte vorgesehen (im Vercel-Dashboard/den jeweils
+  aktuellen Terms prüfen, da sich das ändern kann) — das ist vor einer echten Markteinführung
+  (zahlende Nutzer) ein Upgrade auf Vercel Pro wert, unabhängig vom tatsächlichen Traffic.
+- `ANTHROPIC_API_KEY` ist weiterhin bewusst nicht gesetzt (siehe oben) — verursacht also aktuell
+  keine laufenden Kosten.
+
 ## Admin-Seed-Endpunkt
 
 `GET /api/admin/seed?secret=<SEED_SECRET>` spielt den Prototyp-Content idempotent ein — kann bei
