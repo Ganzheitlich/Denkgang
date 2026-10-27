@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Source_Serif_4, IBM_Plex_Sans } from "next/font/google";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
+import { SiteFooter } from "@/components/SiteFooter";
 import "./globals.css";
 
 const sourceSerif = Source_Serif_4({
@@ -44,6 +45,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body>
         <ServiceWorkerRegister />
         {children}
+        <SiteFooter />
       </body>
     </html>
   );
