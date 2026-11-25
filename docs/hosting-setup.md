@@ -91,9 +91,31 @@ Unter Project Settings → Environment Variables, jeweils für "Production" (und
 | `ADMIN_EMAILS` | `gruenebergvanessa@gmail.com` |
 | `SEED_SECRET` | Ein selbst gewähltes langes Zufalls-Secret (schützt `/api/admin/seed`) |
 | `ANTHROPIC_API_KEY` | **Bewusst weiterhin nicht setzen** — siehe Abschnitt unten |
+| `RESEND_API_KEY` / `RESEND_FROM_EMAIL` | **Noch nicht gesetzt** — siehe Abschnitt "Passwort-vergessen" unten |
 
 Anders als bei Netlify gibt es bei Vercel keine "secret vs. normal"-Falle (siehe historischer
 Abschnitt unten) — alle Variablen sind dort einheitlich zur Laufzeit verfügbar.
+
+## Passwort-vergessen und E-Mail-Versand (noch nicht aktiv)
+
+Der komplette Ablauf (`/forgot-password`, `/reset-password/[token]`, Tokens mit 1 Stunde
+Gültigkeit) ist implementiert und läuft bereits vollständig durch — nur der tatsächliche
+E-Mail-Versand fehlt noch, weil dafür ein eigenes Konto bei einem E-Mail-Anbieter nötig ist
+(`src/lib/mail.ts`). Ohne `RESEND_API_KEY`/`RESEND_FROM_EMAIL` wird der Reset-Link stattdessen
+nur in die Server-Logs geschrieben — in der Praxis heißt das: Ein Nutzer, der "Passwort
+vergessen" anklickt, bekommt aktuell keine E-Mail und kommt nicht an den Link.
+
+Sobald ein E-Mail-Anbieter eingerichtet werden soll (z. B. [resend.com](https://resend.com),
+kostenloses Kontingent, keine Kreditkarte nötig für den Start):
+
+1. Bei Resend anmelden, eine Domain verifizieren (oder für erste Tests die von Resend
+   bereitgestellte Test-Absenderadresse nutzen).
+2. API-Key erstellen.
+3. In Vercel setzen: `RESEND_API_KEY` (der Key) und `RESEND_FROM_EMAIL` (die verifizierte
+   Absenderadresse, z. B. `Denkgang <noreply@denkgang...>`).
+
+Keine Code-Änderung nötig — die Funktion prüft beim Versand automatisch, ob beide Variablen
+gesetzt sind, und sendet dann wirklich statt nur zu loggen.
 
 ### 4. Nach dem ersten Deploy
 
