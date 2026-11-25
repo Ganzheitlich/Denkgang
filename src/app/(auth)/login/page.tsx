@@ -1,9 +1,16 @@
 "use client";
 
-import { useActionState } from "react";
+import { Suspense, useActionState } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { loginAction } from "./actions";
+
+function ResetSuccessNote() {
+  const searchParams = useSearchParams();
+  if (searchParams.get("reset") !== "success") return null;
+  return <p className="feedback">Passwort geändert — du kannst dich jetzt damit anmelden.</p>;
+}
 
 export default function LoginPage() {
   const [error, formAction, pending] = useActionState(loginAction, undefined);
@@ -22,6 +29,9 @@ export default function LoginPage() {
       </div>
       <div className="card">
         <h3 style={{ marginBottom: 14 }}>Anmelden</h3>
+        <Suspense fallback={null}>
+          <ResetSuccessNote />
+        </Suspense>
         <form action={formAction}>
           <div className="field">
             <label htmlFor="email">E-Mail</label>
@@ -44,6 +54,11 @@ export default function LoginPage() {
             </button>
           </div>
         </form>
+        <p style={{ marginTop: 14, marginBottom: 0 }}>
+          <Link href="/forgot-password" className="back-link">
+            Passwort vergessen?
+          </Link>
+        </p>
       </div>
       <p className="auth-switch">
         Noch kein Konto? <Link href="/register">Jetzt registrieren</Link>

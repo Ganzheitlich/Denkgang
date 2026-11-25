@@ -29,12 +29,32 @@ model User {
   role         Role     @default(STUDENT)
   createdAt    DateTime @default(now())
 
-  caseAttempts    CaseAttempt[]
-  anatomyAttempts AnatomyAttempt[]
-  caseSchedules   CaseSchedule[]
-  topicMastery    UserTopicMastery[]
-  reviewedCases   Case[]             @relation("CaseReviewedBy")
-  createdCases    Case[]             @relation("CaseCreatedBy")
+  caseAttempts        CaseAttempt[]
+  anatomyAttempts     AnatomyAttempt[]
+  caseSchedules       CaseSchedule[]
+  topicMastery        UserTopicMastery[]
+  reviewedCases       Case[]               @relation("CaseReviewedBy")
+  createdCases        Case[]               @relation("CaseCreatedBy")
+  passwordResetTokens PasswordResetToken[]
+}
+
+/**
+ * Tokens fuer den "Passwort vergessen"-Ablauf. Es wird nur der Hash des per
+ * Mail versendeten Zufallstokens gespeichert (wie ein Passwort-Hash: selbst
+ * bei einem DB-Leak laesst sich daraus kein gueltiger Reset-Link ableiten).
+ * `usedAt` statt sofortigem Loeschen, damit ein bereits benutzter Link eine
+ * eindeutige Fehlermeldung bekommt statt "nicht gefunden".
+ */
+model PasswordResetToken {
+  id        String    @id @default(cuid())
+  tokenHash String    @unique
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  @@index([userId])
 }
 
 /**
